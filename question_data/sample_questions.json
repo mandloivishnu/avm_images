@@ -1,1 +1,35 @@
 
+{
+  "optional_questions": [
+    {
+      "question": "What is the capital of India?",
+      "options": ["Delhi", "Mumbai", "Kolkata", "Chennai"],
+      "correctIndex": 0,
+      "explanation": "Delhi is the capital of India."
+    },
+    {
+      "question": "Which is the smallest prime number?",
+      "options": ["0", "1", "2", "3"],
+      "correctIndex": 2,
+      "explanation": "2 is the smallest and only even prime number."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "Define cell.",
+        "answer": "A cell is a device that converts chemical energy into electrical energy."
+      },
+      {
+        "question": "What is Ohm's Law?",
+        "answer": "Ohm's Law states that voltage is equal to current times resistance."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain the working of a simple electric motor.",
+        "answer": "An electric motor works on the principle that a current-carrying conductor placed in a magnetic field experiences a force."
+      }
+    ]
+  }
+}
