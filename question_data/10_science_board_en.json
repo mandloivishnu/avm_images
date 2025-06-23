@@ -1,0 +1,34 @@
+{
+  "optional_questions": [
+    {
+      "question": "Which gas is released during photosynthesis?",
+      "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+      "correctIndex": 1,
+      "explanation": "Photosynthesis produces oxygen as a byproduct."
+    },
+    {
+      "question": "Which device is used to measure electric current?",
+      "options": ["Voltmeter", "Ammeter", "Thermometer", "Ohmmeter"],
+      "correctIndex": 1,
+      "explanation": "An ammeter is used to measure electric current."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "State Newton’s Second Law of Motion.",
+        "answer": "Force = Mass × Acceleration. It explains the relationship between force and motion."
+      },
+      {
+        "question": "What is the chemical formula of common salt?",
+        "answer": "NaCl (Sodium Chloride)."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain the working of a simple electric circuit with a diagram.",
+        "answer": "A simple electric circuit consists of a battery, switch, and bulb connected in series. When the switch is on, current flows and the bulb glows."
+      }
+    ]
+  }
+}
