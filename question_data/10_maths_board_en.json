@@ -1,1 +1,44 @@
-e
+{
+  "optional_questions": [
+    {
+      "question": "What is the value of π (pi) up to two decimal places?",
+      "options": ["3.12", "3.14", "3.16", "3.18"],
+      "correctIndex": 1,
+      "explanation": "The value of π up to two decimal places is 3.14."
+    },
+    {
+      "question": "Which of the following is a Pythagorean triplet?",
+      "options": ["3, 4, 6", "5, 12, 13", "2, 3, 4", "6, 8, 11"],
+      "correctIndex": 1,
+      "explanation": "5² + 12² = 25 + 144 = 169 = 13², so it's a Pythagorean triplet."
+    },
+    {
+      "question": "The HCF of 24 and 36 is:",
+      "options": ["6", "12", "18", "24"],
+      "correctIndex": 1,
+      "explanation": "The highest common factor (HCF) of 24 and 36 is 12."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "Find the value of x if 2x + 5 = 13.",
+        "answer": "Subtract 5 from both sides: 2x = 8; Divide both sides by 2: x = 4."
+      },
+      {
+        "question": "Write the formula for the area of a circle and define each term.",
+        "answer": "Area = πr², where r is the radius of the circle and π ≈ 3.14."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Solve the quadratic equation x² - 5x + 6 = 0.",
+        "answer": "Factor the equation: (x - 2)(x - 3) = 0. So, x = 2 or x = 3."
+      },
+      {
+        "question": "Prove that the sum of the interior angles of a triangle is 180°.",
+        "answer": "Draw a triangle and extend one side. Use alternate angles formed by a parallel line and a transversal. The three angles together form a straight angle, hence 180°."
+      }
+    ]
+  }
+}
