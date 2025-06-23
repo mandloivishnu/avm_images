@@ -1,0 +1,34 @@
+{
+  "optional_questions": [
+    {
+      "question": "Who is the author of the poem 'The Road Not Taken'?",
+      "options": ["William Wordsworth", "Robert Frost", "John Keats", "P.B. Shelley"],
+      "correctIndex": 1,
+      "explanation": "Robert Frost wrote the poem 'The Road Not Taken'."
+    },
+    {
+      "question": "What is the synonym of ‘Enormous’?",
+      "options": ["Tiny", "Huge", "Quick", "Narrow"],
+      "correctIndex": 1,
+      "explanation": "‘Enormous’ means very large, hence its synonym is ‘Huge’."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "Give the meaning of the phrase 'A blessing in disguise'.",
+        "answer": "Something good that is not recognized at first."
+      },
+      {
+        "question": "Write the past tense of the verb 'run' and use it in a sentence.",
+        "answer": "Past tense: ran. Sentence: He ran fast to catch the bus."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Write a short summary of the story ‘A Letter to God’.",
+        "answer": "The story is about a farmer named Lencho who writes a letter to God for money after a hailstorm destroys his crops. It conveys faith, irony, and human nature."
+      }
+    ]
+  }
+}
