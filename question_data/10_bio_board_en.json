@@ -1,0 +1,34 @@
+{
+  "optional_questions": [
+    {
+      "question": "Which part of the cell contains genetic material?",
+      "options": ["Mitochondria", "Ribosome", "Nucleus", "Cytoplasm"],
+      "correctIndex": 2,
+      "explanation": "The nucleus contains chromosomes which have genetic material (DNA)."
+    },
+    {
+      "question": "Which is the functional unit of the kidney?",
+      "options": ["Neuron", "Nephron", "Alveoli", "Axon"],
+      "correctIndex": 1,
+      "explanation": "Nephron is the functional unit responsible for filtration in the kidney."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "What is photosynthesis?",
+        "answer": "Photosynthesis is the process by which green plants make food using sunlight, carbon dioxide, and water."
+      },
+      {
+        "question": "Name two types of reproduction.",
+        "answer": "Asexual and sexual reproduction."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Describe the structure and function of the human heart.",
+        "answer": "The heart has four chambers: two atria and two ventricles. It pumps blood throughout the body, supplying oxygen and nutrients while removing waste."
+      }
+    ]
+  }
+}
