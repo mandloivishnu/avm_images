@@ -1,31 +1,88 @@
 {
-  "MAT": "Mathematics",
-  "SCI": "Science",
-  "PHY": "Physics",
-  "CHE": "Chemistry",
-  "BIO": "Biology",
-  "SOC": "Social Science",
-  "HIS": "History",
-  "GEO": "Geography",
-  "CIV": "Civics",
-  "ECO": "Economics",
-  "ENG": "English",
-  "HIN": "Hindi",
-  "SAN": "Sanskrit",
-  "COM": "Computer Science",
-  "ENV": "Environmental Science",
-  "BUS": "Business Studies",
-  "ACC": "Accountancy",
-  "POL": "Political Science",
-  "PSY": "Psychology",
-  "SOCG": "Sociology",
-  "PHI": "Philosophy",
-  "PE": "Physical Education",
-  "ART": "Arts",
-  "MUS": "Music",
-  "HOM": "Home Science",
-  "AGRI": "Agriculture",
-  "AST": "Astronomy",
-  "MIL": "Modern Indian Language",
-  "VOC": "Vocational Studies"
+  "MAT_EN": "Mathematics",
+  "MAT_HI": "गणित",
+
+  "SCI_EN": "Science",
+  "SCI_HI": "विज्ञान",
+
+  "PHY_EN": "Physics",
+  "PHY_HI": "भौतिक विज्ञान",
+
+  "CHE_EN": "Chemistry",
+  "CHE_HI": "रसायन विज्ञान",
+
+  "BIO_EN": "Biology",
+  "BIO_HI": "जीवविज्ञान",
+
+  "SOC_EN": "Social Science",
+  "SOC_HI": "सामाजिक विज्ञान",
+
+  "HIS_EN": "History",
+  "HIS_HI": "इतिहास",
+
+  "GEO_EN": "Geography",
+  "GEO_HI": "भूगोल",
+
+  "CIV_EN": "Civics",
+  "CIV_HI": "नागरिक शास्त्र",
+
+  "ECO_EN": "Economics",
+  "ECO_HI": "अर्थशास्त्र",
+
+  "ENG_EN": "English",
+  "ENG_HI": "अंग्रेज़ी",
+
+  "HIN_EN": "Hindi",
+  "HIN_HI": "हिंदी",
+
+  "SAN_EN": "Sanskrit",
+  "SAN_HI": "संस्कृत",
+
+  "COM_EN": "Computer Science",
+  "COM_HI": "कंप्यूटर विज्ञान",
+
+  "ENV_EN": "Environmental Science",
+  "ENV_HI": "पर्यावरण विज्ञान",
+
+  "BUS_EN": "Business Studies",
+  "BUS_HI": "व्यवसाय अध्ययन",
+
+  "ACC_EN": "Accountancy",
+  "ACC_HI": "लेखाशास्त्र",
+
+  "POL_EN": "Political Science",
+  "POL_HI": "राजनीति विज्ञान",
+
+  "PSY_EN": "Psychology",
+  "PSY_HI": "मनोविज्ञान",
+
+  "SOCG_EN": "Sociology",
+  "SOCG_HI": "समाजशास्त्र",
+
+  "PHI_EN": "Philosophy",
+  "PHI_HI": "दर्शनशास्त्र",
+
+  "PE_EN": "Physical Education",
+  "PE_HI": "शारीरिक शिक्षा",
+
+  "ART_EN": "Arts",
+  "ART_HI": "कला",
+
+  "MUS_EN": "Music",
+  "MUS_HI": "संगीत",
+
+  "HOM_EN": "Home Science",
+  "HOM_HI": "गृह विज्ञान",
+
+  "AGRI_EN": "Agriculture",
+  "AGRI_HI": "कृषि",
+
+  "AST_EN": "Astronomy",
+  "AST_HI": "खगोलशास्त्र",
+
+  "MIL_EN": "Modern Indian Language",
+  "MIL_HI": "आधुनिक भारतीय भाषा",
+
+  "VOC_EN": "Vocational Studies",
+  "VOC_HI": "व्यावसायिक अध्ययन"
 }
