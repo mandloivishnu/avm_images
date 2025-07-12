@@ -1,4 +1,12 @@
 {
+  "paper_details": [
+    {
+      "total_questions": "23",
+      "paper_year": "2025",
+      "paper_set": "A",
+      "total_marks": "73"
+    }
+  ],
   "optional_questions": [
     {
       "question": "Who is the author of the poem 'The Road Not Taken'?",
