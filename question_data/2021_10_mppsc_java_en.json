@@ -1,0 +1,68 @@
+{
+  "paper_details": [
+    {
+      "totalQuestions": "80",
+      "paperYear": "2021",
+      "paperSet": "A",
+      "totalMarks": "200",
+      "subjectName": "Spring Framework"
+    }
+  ],
+  "optional_questions": [
+    {
+      "question": "Which annotation is used to mark a Spring Boot main class?",
+      "options": ["@Component", "@Configuration", "@SpringBootApplication", "@EnableAutoConfiguration"],
+      "correctIndex": 2,
+      "explanation": "@SpringBootApplication is a combination of @Configuration, @EnableAutoConfiguration and @ComponentScan."
+    },
+    {
+      "question": "Which annotation is used for dependency injection?",
+      "options": ["@Autowired", "@Inject", "@Resource", "All of the above"],
+      "correctIndex": 3,
+      "explanation": "Spring supports @Autowired, @Inject (JSR-330), and @Resource (JSR-250) for dependency injection."
+    },
+    {
+      "question": "What does @RestController combine?",
+      "options": ["@Service + @RequestMapping", "@Controller + @ResponseBody", "@Component + @PathVariable", "@Bean + @GetMapping"],
+      "correctIndex": 1,
+      "explanation": "@RestController = @Controller + @ResponseBody for RESTful web services."
+    },
+    {
+      "question": "Which annotation helps to schedule tasks?",
+      "options": ["@EnableScheduling", "@Scheduled", "@Timer", "@Cron"],
+      "correctIndex": 1,
+      "explanation": "@Scheduled is used to schedule tasks in Spring applications."
+    },
+    {
+      "question": "What does the @Transactional annotation do?",
+      "options": ["Starts a thread", "Rolls back transaction", "Marks a method transactional", "Handles validation"],
+      "correctIndex": 2,
+      "explanation": "It manages transaction boundaries for database operations."
+    }
+    // Add 25 more optional questions in this structure (total 30)
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "What is the difference between @Component, @Repository, @Service, and @Controller?",
+        "answer": "@Component is generic. @Repository is for persistence layer. @Service is for business logic. @Controller handles web layer."
+      },
+      {
+        "question": "What is Dependency Injection in Spring?",
+        "answer": "It's a design pattern where dependencies are injected by the framework rather than being created manually."
+      }
+      // Add 23 more short answers (total 25 for 2 Marks)
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain Spring Bean lifecycle.",
+        "answer": "The lifecycle includes instantiation, population of properties, calling BeanNameAware, BeanFactoryAware, postProcessBeforeInitialization, initialization, postProcessAfterInitialization, and destruction methods."
+      },
+      {
+        "question": "Explain the differences between constructor and setter injection in Spring.",
+        "answer": "Constructor injection ensures all dependencies are present and makes the object immutable. Setter injection allows optional dependencies and better testability."
+      }
+      // Add 23 more long answers (total 25 for 5 Marks)
+    ]
+  }
+}
