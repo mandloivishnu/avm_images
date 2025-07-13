@@ -1,0 +1,1359 @@
+{
+  "paper_details": [
+    {
+      "totalQuestions": "160",
+      "paperYear": "2019",
+      "paperSet": "A",
+      "totalMarks": "300",
+      "subjectName": "Java Full Interview Set"
+    }
+  ],
+  "optional_questions": [
+    {
+      "question": "Sample MCQ Question 1: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 2: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 3: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 4: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 5: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 6: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 7: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 8: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 9: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 10: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 11: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 12: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 13: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 14: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 15: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 16: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 17: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 18: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 19: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 20: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 21: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 22: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 23: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 24: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 25: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 26: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 27: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 28: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 29: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 30: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 31: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 32: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 33: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 34: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 35: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 36: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 37: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 38: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 39: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 40: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 41: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 42: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 43: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 44: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 45: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 46: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 47: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 48: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 49: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 50: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 51: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 52: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 53: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 54: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 55: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 56: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 57: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 58: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 59: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 60: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 61: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 62: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 63: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 64: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 65: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 66: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 67: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 68: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 69: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 70: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 71: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 72: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 73: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 74: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 75: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 76: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 77: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 78: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 79: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 80: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 81: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 82: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 83: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 84: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 85: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 86: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 87: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 88: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 89: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 90: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 91: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 92: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 93: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 94: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 95: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 96: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 97: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 98: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 99: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    },
+    {
+      "question": "Sample MCQ Question 100: What does Java keyword 'static' signify?",
+      "options": [
+        "It defines a constant",
+        "It creates a thread",
+        "It binds the variable/method to class",
+        "It makes variable final"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'static' keyword means the member belongs to the class rather than any instance."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "What is the purpose of Java keyword 'final'? (1)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (2)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (3)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (4)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (5)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (6)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (7)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (8)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (9)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (10)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (11)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (12)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (13)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (14)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (15)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (16)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (17)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (18)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (19)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (20)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (21)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (22)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (23)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (24)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (25)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (26)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (27)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (28)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (29)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      },
+      {
+        "question": "What is the purpose of Java keyword 'final'? (30)",
+        "answer": "The 'final' keyword is used to declare constants, prevent method overriding, and inheritance."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain the working of Java Stream API with examples. (1)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (2)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (3)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (4)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (5)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (6)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (7)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (8)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (9)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (10)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (11)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (12)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (13)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (14)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (15)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (16)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (17)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (18)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (19)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (20)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (21)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (22)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (23)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (24)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (25)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (26)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (27)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (28)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (29)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      },
+      {
+        "question": "Explain the working of Java Stream API with examples. (30)",
+        "answer": "Stream API allows functional-style operations on collections. For example, list.stream().filter(x -> x > 10).collect(Collectors.toList()) filters the list."
+      }
+    ]
+  }
+}
