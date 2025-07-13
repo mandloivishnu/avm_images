@@ -1,0 +1,65 @@
+{
+  "paper_details": [
+    {
+      "totalQuestions": "80",
+      "paperYear": "2025",
+      "paperSet": "A",
+      "totalMarks": "200",
+      "subjectName": "Java & Spring Real-World Scenarios"
+    }
+  ],
+  "optional_questions": [
+    {
+      "question": "Which annotation is used to handle exceptions globally in Spring Boot?",
+      "options": ["@ExceptionHandler", "@RestControllerAdvice", "@Controller", "@HandleError"],
+      "correctIndex": 1,
+      "explanation": "@RestControllerAdvice is used to handle exceptions globally across all controllers."
+    },
+    {
+      "question": "Which HTTP method is idempotent?",
+      "options": ["POST", "PUT", "PATCH", "DELETE"],
+      "correctIndex": 1,
+      "explanation": "PUT is idempotent as multiple requests with the same data have the same effect."
+    },
+    {
+      "question": "Which annotation is used to create a custom Bean in Spring?",
+      "options": ["@Component", "@Bean", "@Autowired", "@Service"],
+      "correctIndex": 1,
+      "explanation": "@Bean is used to manually define beans in @Configuration classes."
+    },
+    {
+      "question": "Which configuration type does Spring Boot prefer by default?",
+      "options": ["XML", "JavaConfig", "YAML", "Groovy"],
+      "correctIndex": 1,
+      "explanation": "Spring Boot prefers Java-based configuration using annotations like @Configuration."
+    },
+    {
+      "question": "Which component is used for API documentation in Spring Boot?",
+      "options": ["Spring Cloud", "Swagger", "JUnit", "Hibernate"],
+      "correctIndex": 1,
+      "explanation": "Swagger (OpenAPI) is used to generate API docs and test endpoints."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "What is CORS and how do you enable it in Spring Boot?",
+        "answer": "CORS allows cross-origin requests. It can be enabled using @CrossOrigin or WebMvcConfigurer."
+      },
+      {
+        "question": "What is the role of application.properties in Spring Boot?",
+        "answer": "It contains configuration properties like server port, DB settings, and custom flags for the app."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Design a RESTful API to create and fetch users using Spring Boot.",
+        "answer": "Use @RestController, @PostMapping for createUser, and @GetMapping for getUser. Use a service layer and Repository (JPA) for persistence."
+      },
+      {
+        "question": "How do you implement pagination and sorting in Spring Data JPA?",
+        "answer": "Use Pageable and Sort parameters in repository methods. For example: `findAll(Pageable pageable)`."
+      }
+    ]
+  }
+}
