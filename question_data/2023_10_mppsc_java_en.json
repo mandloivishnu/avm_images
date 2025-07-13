@@ -1,0 +1,67 @@
+{
+  "paper_details": [
+    {
+      "totalQuestions": "80",
+      "paperYear": "2023",
+      "paperSet": "A",
+      "totalMarks": "200",
+      "subjectName": "Database Concepts"
+    }
+  ],
+  "optional_questions": [
+    {
+      "question": "Which of the following is a valid SQL command to retrieve data?",
+      "options": ["INSERT", "DELETE", "SELECT", "UPDATE"],
+      "correctIndex": 2,
+      "explanation": "SELECT is used to retrieve data from tables in SQL."
+    },
+    {
+      "question": "What is the primary key used for?",
+      "options": ["To allow duplicates", "To ensure unique values", "To store foreign data", "To increase size"],
+      "correctIndex": 1,
+      "explanation": "A primary key uniquely identifies each row in a table."
+    },
+    {
+      "question": "Which SQL clause is used to filter records?",
+      "options": ["WHERE", "GROUP BY", "HAVING", "ORDER BY"],
+      "correctIndex": 0,
+      "explanation": "WHERE clause filters records based on conditions."
+    },
+    {
+      "question": "Which normal form removes transitive dependency?",
+      "options": ["1NF", "2NF", "3NF", "BCNF"],
+      "correctIndex": 2,
+      "explanation": "3NF eliminates transitive dependency."
+    },
+    {
+      "question": "Which of the following is a NoSQL database?",
+      "options": ["MySQL", "Oracle", "MongoDB", "PostgreSQL"],
+      "correctIndex": 2,
+      "explanation": "MongoDB is a document-based NoSQL database."
+    }
+   
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "What is the difference between DELETE and TRUNCATE?",
+        "answer": "DELETE can use WHERE clause and logs each row; TRUNCATE removes all records quickly and is not logged row-by-row."
+      },
+      {
+        "question": "What is a foreign key?",
+        "answer": "A foreign key links two tables together and enforces referential integrity."
+      }
+   
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain ACID properties of a database.",
+        "answer": "ACID stands for Atomicity, Consistency, Isolation, Durability. These ensure safe and reliable transactions."
+      },
+      {
+        "question": "What is indexing in SQL and how does it improve performance?",
+        "answer": "Indexing creates a data structure to improve the speed of data retrieval. It reduces table scans, thus optimizing query performance."
+      }
+    ]
+  }
+}
