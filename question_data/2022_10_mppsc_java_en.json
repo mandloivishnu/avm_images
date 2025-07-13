@@ -1,0 +1,68 @@
+{
+  "paper_details": [
+    {
+      "totalQuestions": "80",
+      "paperYear": "2022",
+      "paperSet": "A",
+      "totalMarks": "200",
+      "subjectName": "Java Multithreading"
+    }
+  ],
+  "optional_questions": [
+    {
+      "question": "Which class is the base for all threads in Java?",
+      "options": ["ThreadGroup", "Thread", "Runnable", "Executor"],
+      "correctIndex": 1,
+      "explanation": "Thread is the base class used to create threads in Java."
+    },
+    {
+      "question": "Which interface must be implemented for thread creation?",
+      "options": ["Cloneable", "Runnable", "Serializable", "Callable"],
+      "correctIndex": 1,
+      "explanation": "Runnable is the functional interface used to define a thread's task."
+    },
+    {
+      "question": "Which method is used to start a thread?",
+      "options": ["init()", "start()", "run()", "begin()"],
+      "correctIndex": 1,
+      "explanation": "The start() method is used to initiate a new thread."
+    },
+    {
+      "question": "What does the `synchronized` keyword do?",
+      "options": ["Pauses the thread", "Gives thread higher priority", "Allows thread-safe access", "Stops the thread"],
+      "correctIndex": 2,
+      "explanation": "`synchronized` ensures that only one thread accesses the block/method at a time."
+    },
+    {
+      "question": "Which package provides Executor framework?",
+      "options": ["java.util.concurrent", "java.io", "java.util.thread", "java.lang.concurrent"],
+      "correctIndex": 0,
+      "explanation": "java.util.concurrent provides Executor, Callable, Future, etc."
+    }
+    // Add 25 more similar MCQs (total: 30)
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "Difference between Thread and Runnable in Java?",
+        "answer": "Thread is a class; Runnable is an interface. Runnable is preferred as it separates task from thread creation."
+      },
+      {
+        "question": "What is a race condition?",
+        "answer": "A race condition occurs when two or more threads access shared data simultaneously leading to unpredictable results."
+      }
+      // Add 23 more 2-mark questions
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain different thread states in Java.",
+        "answer": "Thread states include New, Runnable, Blocked, Waiting, Timed Waiting, and Terminated. Each state represents a stage in thread lifecycle."
+      },
+      {
+        "question": "What is ThreadPool and how does it work?",
+        "answer": "ThreadPool is a pool of worker threads. It helps reuse threads and manage resource efficiently using Executors, e.g., FixedThreadPool, CachedThreadPool."
+      }
+      // Add 23 more 5-mark questions
+    ]
+  }
+}
