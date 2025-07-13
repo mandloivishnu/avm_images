@@ -1,0 +1,77 @@
+{
+  "paper_details": [
+    {
+      "totalQuestions": "14",
+      "paperYear": "2025",
+      "paperSet": "A",
+      "totalMarks": "50",
+      "subjectName": "Java, OOPS & System Design"
+    }
+  ],
+  "optional_questions": [
+    {
+      "question": "Which of the following is **not** a principle of OOPS?",
+      "options": ["Inheritance", "Encapsulation", "Compilation", "Polymorphism"],
+      "correctIndex": 2,
+      "explanation": "Compilation is part of the language processing, not a principle of OOPS."
+    },
+    {
+      "question": "What is method overloading in Java?",
+      "options": ["Same method name, same parameters", "Different method names", "Same name, different parameters", "None of the above"],
+      "correctIndex": 2,
+      "explanation": "Method overloading allows different method signatures (parameters) under the same name in a class."
+    },
+    {
+      "question": "Which of the following collections allows duplicate elements in Java?",
+      "options": ["Set", "Map", "List", "None"],
+      "correctIndex": 2,
+      "explanation": "List allows duplicate elements; Set does not."
+    },
+    {
+      "question": "Which component handles high read traffic efficiently?",
+      "options": ["Database Index", "Redis Cache", "Load Balancer", "API Gateway"],
+      "correctIndex": 1,
+      "explanation": "Redis is an in-memory cache that helps handle heavy read operations efficiently."
+    },
+    {
+      "question": "Which keyword is used to achieve runtime polymorphism?",
+      "options": ["extends", "instanceof", "super", "override"],
+      "correctIndex": 3,
+      "explanation": "Polymorphism at runtime is achieved using overridden methods."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "Define Encapsulation with a real-life example.",
+        "answer": "Encapsulation is the bundling of data with methods. Example: A car's internal working (engine) is hidden from the driver who just uses public methods like start(), accelerate()."
+      },
+      {
+        "question": "What is the difference between Stack and Heap memory?",
+        "answer": "Stack stores method call frames and local variables. Heap stores objects. Stack is smaller and faster; heap is shared and larger."
+      },
+      {
+        "question": "What are final, finally, and finalize in Java?",
+        "answer": "`final`: keyword to declare constants or prevent inheritance; `finally`: block used for cleanup code; `finalize()`: method called by GC before object destruction."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain SOLID principles with Java examples.",
+        "answer": "SOLID includes: Single Responsibility (separate logic), Open/Closed (extend, don't modify), Liskov (subtypes replace parent), Interface Segregation (small interfaces), Dependency Inversion (depend on abstractions)."
+      },
+      {
+        "question": "Design a Rate Limiter system for an API.",
+        "answer": "Use a token bucket or leaky bucket algorithm. Store user request timestamps in Redis or in-memory map. Enforce limits per time unit. Use sliding window for flexible limits."
+      },
+      {
+        "question": "Difference between HashMap and ConcurrentHashMap?",
+        "answer": "HashMap is not thread-safe. ConcurrentHashMap allows concurrent read/write operations without locking the whole map. It uses segment locking or synchronized blocks internally."
+      },
+      {
+        "question": "Explain Garbage Collection in Java.",
+        "answer": "GC automatically reclaims memory from objects no longer in use. Java uses generational GC (Young, Old, Eden spaces). It avoids memory leaks and improves performance."
+      }
+    ]
+  }
+}
