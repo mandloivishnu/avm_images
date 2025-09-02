@@ -1,0 +1,6 @@
+{
+  "10_common_mppsc_en": ["MATH", "SCI", "ENG", "SOC"],
+  "12_sci_mppsc_en": ["PHY", "CHEM", "BIO", "MATH", "ENG"],
+  "12_com_mppsc_en": ["ACC", "BUS", "ECO", "MATH", "ENG"],
+  "12_art_mppsc_en": ["HIS", "GEO", "POL", "ENG"]
+}
