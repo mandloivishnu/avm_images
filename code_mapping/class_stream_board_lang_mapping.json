@@ -1,6 +1,6 @@
 {
-  "10_common_mppsc_en": ["MATH", "SCI", "ENG", "SOC"],
-  "12_sci_mppsc_en": ["PHY", "CHEM", "BIO", "MATH", "ENG"],
-  "12_com_mppsc_en": ["ACC", "BUS", "ECO", "MATH", "ENG"],
-  "12_art_mppsc_en": ["HIS", "GEO", "POL", "ENG"]
+  "10_COMMON_MPPSC_EN": ["MATH", "SCI", "ENG", "SOC","JAVA"],
+  "12_SCI_MPPSC_EN": ["PHY", "CHEM", "BIO", "MATH", "ENG"],
+  "12_COM_MPPSC_EN": ["ACC", "BUS", "ECO", "MATH", "ENG"],
+  "12_ART_MPPSC_EN": ["HIS", "GEO", "POL", "ENG"]
 }
