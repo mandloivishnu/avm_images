@@ -1,0 +1,32 @@
+{
+  "MPBoard": {
+    "10": {
+      "subjects": ["MATH", "SCI", "SOC", "ENG", "HIN"]
+    },
+    "12": {
+      "Science": ["PHY", "CHE", "BIO", "MATH", "ENG", "HIN"],
+      "Commerce": ["ACC", "BUS", "ECO", "MATH", "ENG", "HIN"],
+      "Arts": ["HIS", "GEO", "POL", "ECO", "ENG", "HIN"]
+    }
+  },
+  "CBSE": {
+    "10": {
+      "subjects": ["MATH", "SCI", "SOC", "ENG", "HIN", "SANS"]
+    },
+    "12": {
+      "Science": ["PHY", "CHE", "BIO", "MATH", "ENG", "CS"],
+      "Commerce": ["ACC", "BUS", "ECO", "MATH", "ENG", "IP"],
+      "Arts": ["HIS", "GEO", "POL", "ECO", "ENG", "PSY"]
+    }
+  },
+  "ICSE": {
+    "10": {
+      "subjects": ["MATH", "SCI", "HIS", "CIV", "ENG", "HIN"]
+    },
+    "12": {
+      "Science": ["PHY", "CHE", "BIO", "MATH", "ENG", "CS"],
+      "Commerce": ["ACC", "BUS", "ECO", "MATH", "ENG", "COMS"],
+      "Arts": ["HIS", "GEO", "POL", "ENG", "SOCIO", "PSY"]
+    }
+  }
+}
