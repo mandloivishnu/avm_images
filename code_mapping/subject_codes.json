@@ -91,6 +91,9 @@
   
   "SCI_STREAM_EN": "Science Stream",
   "SCI_STREAM_HI": "विज्ञान संकाय",
+  "SCIENCE_STREAM_EN":"SCI",
+  "SCIENCE_STREAM_HI":"SCI",
+  
 
   "COM_STREAM_EN": "Commerce Stream",
   "COM_STREAM_HI": "वाणिज्य संकाय",
@@ -99,6 +102,8 @@
   "ART_STREAM_HI": "कला संकाय",
   
   "COMMON_STREAM_EN": "COMMON",
-  "COMMON_STREAM_HI": "COMMON"
+  "COMMON_STREAM_HI": "COMMON",
+
+  
   
 }
