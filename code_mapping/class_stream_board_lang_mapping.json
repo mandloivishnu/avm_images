@@ -3,5 +3,5 @@
   "12_SCI_MPPSC_EN": ["PHY", "CHEM", "BIO", "MATH", "ENG"],
   "12_COM_MPPSC_EN": ["ACC", "BUS", "ECO", "MATH", "ENG"],
   "12_ART_MPPSC_EN": ["HIS", "GEO", "POL", "ENG"],
-  "12_COMMON_MPPSC_EN": ["ENG", "HIN","JAVA"],
+  "12_COMMON_MPPSC_EN": ["ENG", "HIN","JAVA"]
 }
