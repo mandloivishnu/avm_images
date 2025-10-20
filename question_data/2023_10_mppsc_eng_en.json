@@ -27,19 +27,18 @@
       {
         "question": "Give the meaning of the phrase 'A blessing in disguise'.",
         "answer": "Something good that is not recognized at first.",
-        "imageUrl": "https://github.com/mandloivishnu/avm_images/blob/main/subject_images/science.png"
+       
       },
       {
         "question": "Write the past tense of the verb 'run' and use it in a sentence.",
         "answer": "Past tense: ran. Sentence: He ran fast to catch the bus.",
-        "imageUrl": "https://github.com/mandloivishnu/avm_images/blob/main/subject_images/science.png"
+        "imageUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/subject_images/science.png"
       }
     ],
     "5 Marks": [
       {
         "question": "Write a short summary of the story ‘A Letter to God’.",
         "answer": "The story is about a farmer named Lencho who writes a letter to God for money after a hailstorm destroys his crops. It conveys faith, irony, and human nature.",
-        "imageUrl": "https://github.com/mandloivishnu/avm_images/blob/main/subject_images/science.png"
       }
     ]
   }
