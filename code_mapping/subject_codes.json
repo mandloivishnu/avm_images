@@ -87,6 +87,18 @@
   "VOC_HI": "व्यावसायिक अध्ययन",
 
   "JAVA_EN": "JAVA",
-  "JAVA_HI": "JAVA"
+  "JAVA_HI": "JAVA",
+  
+  "SCI_STREAM_EN": "Science Stream",
+  "SCI_STREAM_HI": "विज्ञान संकाय",
+
+  "COM_STREAM_EN": "Commerce Stream",
+  "COM_STREAM_HI": "वाणिज्य संकाय",
+
+  "ART_STREAM_EN": "Arts Stream",
+  "ART_STREAM_HI": "कला संकाय",
+  
+  "COMMON_STREAM_EN": "COMMON",
+  "COMMON_STREAM_HI": "COMMON"
   
 }
