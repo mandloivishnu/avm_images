@@ -11,7 +11,12 @@
   "optional_questions": [
     {
       "question": "Who is the author of the poem 'The Road Not Taken'?",
-      "options": ["William Wordsworth", "Robert Frost", "John Keats", "P.B. Shelley"],
+      "options": [
+        "William Wordsworth",
+        "Robert Frost",
+        "John Keats",
+        "P.B. Shelley"
+      ],
       "correctIndex": 1,
       "explanation": "Robert Frost wrote the poem 'The Road Not Taken'."
     },
