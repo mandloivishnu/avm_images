@@ -102,7 +102,10 @@
   "ART_STREAM_HI": "कला संकाय",
   
   "COMMON_STREAM_EN": "COMMON",
-  "COMMON_STREAM_HI": "COMMON"
+  "COMMON_STREAM_HI": "COMMON",
+
+  "CHEM_EN":"Chemistry",
+  "CHEM_HI": "रसायन विज्ञान"
 
 
 }
