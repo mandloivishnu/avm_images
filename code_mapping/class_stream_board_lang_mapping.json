@@ -3,5 +3,6 @@
   "12_SCI_MPBSE_EN": ["PHY", "CHEM", "BIO", "MATH", "ENG"],
   "12_COM_MPBSE_EN": ["ACC", "BUS", "ECO", "MATH", "ENG"],
   "12_ART_MPBSE_EN": ["HIS", "GEO", "POL", "ENG"],
-  "12_COMMON_MPBSE_EN": ["ENG", "HIN","JAVA"]
+  "12_COMMON_MPBSE_EN": ["ENG", "HIN","JAVA"],
+  "10_COMMON_CBSE_EN": ["MATH", "SCI", "ENG", "SOC","JAVA"]
 }
