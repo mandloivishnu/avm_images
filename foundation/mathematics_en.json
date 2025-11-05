@@ -1,0 +1,43 @@
+{
+  "optional_questions": [
+    {
+      "question": "What is the capital of India?",
+      "options": [
+        "Delhi",
+        "Mumbai",
+        "Kolkata",
+        "Chennai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Delhi is the capital of India.",
+      "imageUrl": "",
+      "lottieFile": ""
+    },
+    {
+      "question": "Identify the monument shown in the image.",
+      "options": [
+        "Taj Mahal",
+        "Eiffel Tower",
+        "Statue of Liberty",
+        "Big Ben"
+      ],
+      "correctIndex": 0,
+      "explanation": "The image shows the Taj Mahal located in Agra, India.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg",
+      "lottieFile": ""
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mars appears red due to iron oxide (rust) on its surface.",
+      "imageUrl": "",
+      "lottieFile": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/lottie_files/JugglingMonkey.json"
+    }
+  ]
+}
