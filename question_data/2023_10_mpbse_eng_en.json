@@ -1,48 +1,312 @@
 {
   "paper_details": [
     {
-      "totalQuestions": "23",
+      "totalQuestions": "16",
       "paperYear": "2023",
       "paperSet": "A",
-      "totalMarks": "73",
-      "subjectName": "English"
+      "totalMarks": "75",
+      "subjectName": "ENGLISH"
     }
   ],
   "optional_questions": [
     {
-      "question": "Who is the author of the poem 'The Road Not Taken'?",
+      "question": "The poor man stood outside the bakery.........",
       "options": [
-        "William Wordsworth",
-        "Robert Frost",
-        "John Keats",
-        "P.B. Shelley"
+        "To buy bread.",
+        "To eat bread.",
+        "To enjoy the smell of baking bread.",
+        "To steal bread."
       ],
-      "correctIndex": 1,
-      "explanation": "Robert Frost wrote the poem 'The Road Not Taken'."
+      "correctIndex": 2,
+      "explanation": "The poor man was enjoying the nice smell of baking bread[cite: 70]."
     },
     {
-      "question": "What is the synonym of ‘Enormous’?",
-      "options": ["Tiny", "Huge", "Quick", "Narrow"],
+      "question": "The baker took the poor man to........",
+      "options": [
+        "Court",
+        "Temple",
+        "Bakery",
+        "His home"
+      ],
+      "correctIndex": 0,
+      "explanation": "The baker took the poor man to the court[cite: 72]."
+    },
+    {
+      "question": "How many coins were found in poor man's pocket?",
+      "options": [
+        "Twenty",
+        "Two",
+        "Four",
+        "One"
+      ],
       "correctIndex": 1,
-      "explanation": "‘Enormous’ means very large, hence its synonym is ‘Huge’."
+      "explanation": "The poor man produced two small coins[cite: 77]."
+    },
+    {
+      "question": "Give a suitable title for the above passage. (Passage 1)",
+      "options": [
+        "Kingdom of Fools",
+        "Love begets Love",
+        "There is a will, there is a way",
+        "Tit for Tat"
+      ],
+      "correctIndex": 3,
+      "explanation": "The judge's ruling (the sound of money for the smell of bread) reflects the theme of Tit for Tat[cite: 81]."
+    },
+    {
+      "question": "Which word is the opposite of the word 'rich'?",
+      "options": [
+        "Honest",
+        "Stingy",
+        "Poor",
+        "Judge"
+      ],
+      "correctIndex": 2,
+      "explanation": "The antonym of 'rich' is 'poor'."
+    },
+    {
+      "question": "The bee went to the tank",
+      "options": [
+        "to quench its thirst",
+        "to meet another bee",
+        "to save dove",
+        "to bath"
+      ],
+      "correctIndex": 0,
+      "explanation": "A bee went to a tank to quench its thirst[cite: 135]."
+    },
+    {
+      "question": "Who saved the bee?",
+      "options": [
+        "falcon",
+        "boy",
+        "ant",
+        "dove"
+      ],
+      "correctIndex": 3,
+      "explanation": "A dove saved the bee by dropping a leaf into the water[cite: 136]."
+    },
+    {
+      "question": "What did the bee feel when it was saved by the dove?",
+      "options": [
+        "proud",
+        "gratitude",
+        "guilty",
+        "disappoint"
+      ],
+      "correctIndex": 1,
+      "explanation": "The bee flew away 'full of gratitude'[cite: 137]."
+    },
+    {
+      "question": "Who danced with the pain?",
+      "options": [
+        "the boy",
+        "dove",
+        "bee",
+        "elephant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The boy danced with pain after the bee stung him[cite: 140]."
+    },
+    {
+      "question": "The meaning of the word 'tumbling' is",
+      "options": [
+        "falling",
+        "neighbouring",
+        "swimming",
+        "crying"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Tumbling' in the context of falling into a tank means falling[cite: 135]."
+    },
+    {
+      "question": "According to Nelson Mandela, what comes naturally to human heart?",
+      "options": [
+        "hatred",
+        "love",
+        "unity",
+        "discrimination"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nelson Mandela believed that love comes more naturally to the human heart[cite: 293, 294]."
+    },
+    {
+      "question": "What was the name of Anne's diary?",
+      "options": [
+        "Betty",
+        "Kitten",
+        "Kitty",
+        "Ketty"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anne Frank's diary was named Kitty[cite: 301]."
+    },
+    {
+      "question": "Coorg is famous for",
+      "options": [
+        "Tea",
+        "Coffee",
+        "Sandal",
+        "Jute"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coorg is well-known for its coffee plantations[cite: 307]."
+    },
+    {
+      "question": "What name was given to otter?",
+      "options": [
+        "Major",
+        "Taro",
+        "Jim",
+        "Mijbil"
+      ],
+      "correctIndex": 3,
+      "explanation": "The otter in the story was named Mijbil[cite: 319]."
+    },
+    {
+      "question": "How was the weather when pilot started flying aeroplane?",
+      "options": [
+        "Clear",
+        "Foggy",
+        "Rainy",
+        "Sunny"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sky was clear, with 'stars shining' and 'not a cloud'[cite: 324]."
+    },
+    {
+      "question": "Pilot was going to",
+      "options": [
+        "France",
+        "India",
+        "USA",
+        "England"
+      ],
+      "correctIndex": 3,
+      "explanation": "The pilot was flying back to England[cite: 326]."
+    },
+    {
+      "question": "The above passage is taken from which lesson ?",
+      "options": [
+        "His First Flight",
+        "Black Aeroplane",
+        "A Letter to God",
+        "Glimpses of India"
+      ],
+      "correctIndex": 1,
+      "explanation": "The reference to the Dakota aeroplane suggests the lesson 'Black Aeroplane'[cite: 352]."
+    },
+    {
+      "question": "What has been personified in above given lines? (Poem Extract)",
+      "options": [
+        "harbour",
+        "city",
+        "fog",
+        "cat"
+      ],
+      "correctIndex": 2,
+      "explanation": "The fog is described as coming 'on little cat feet'[cite: 359, 360], which is personification."
+    },
+    {
+      "question": "After sitting fog",
+      "options": [
+        "disappears",
+        "moves on",
+        "sits there only",
+        "gets dense"
+      ],
+      "correctIndex": 1,
+      "explanation": "The poem states that the fog 'then moves on'[cite: 364]."
+    },
+    {
+      "question": "The poet of the above poem is",
+      "options": [
+        "Pablo Neruda",
+        "Robert Frost",
+        "Robin Klein",
+        "Carl Sandbury"
+      ],
+      "correctIndex": 3,
+      "explanation": "The poem 'Fog' is written by Carl Sandburg[cite: 389]."
     }
   ],
   "written_questions": {
-    "2 Marks": [
+    "Short Answer (Q11, 30 words)": [
       {
-        "question": "Give the meaning of the phrase 'A blessing in disguise'.",
-        "answer": "Something good that is not recognized at first."
+        "question": "Who or what did Lencho have faith in ? What did he do? (Any six)",
+        "answer": "Lencho had unwavering faith in God. He wrote a letter to God requesting 100 pesos to re-sow his crops and sustain his family until the next harvest."
       },
       {
-        "question": "Write the past tense of the verb 'run' and use it in a sentence.",
-        "answer": "Past tense: ran. Sentence: He ran fast to catch the bus.",
-        "imageUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/subject_images/science.png"
+        "question": "What Nelson Mandela thought about the oppressor ?",
+        "answer": "Mandela believed that the oppressor is a prisoner of hatred, locked behind the bars of prejudice and narrow-mindedness, and is as much in need of liberation as the oppressed."
+      },
+      {
+        "question": "Why were two national anthems sung?",
+        "answer": "Two national anthems were sung to symbolize the equal status and eventual unity of both black and white people of South Africa, representing the new democratic nation."
+      },
+      {
+        "question": "What compelled young seagull to take his first flight ?",
+        "answer": "The young seagull was compelled by hunger. The sight of his mother tearing a piece of fish and offering him a piece drove him mad with desperation for food, forcing him to dive and take his first flight."
+      },
+      {
+        "question": "What is the Chinese legend about tea ?",
+        "answer": "A popular Chinese legend states that Emperor Shen Nung, the father of Chinese agriculture, accidentally discovered tea when a leaf from a tea bush fell into his pot of boiling water."
+      },
+      {
+        "question": "How did Valli react for the dead cow ?",
+        "answer": "Valli was filled with sadness and reflection. The sight of the lifeless, bloody cow was a stark, unpleasant realization of the reality of death, extinguishing her previous cheerful mood."
+      },
+      {
+        "question": "Why did Siddhartha Gautama abandon his luxurious life ?",
+        "answer": "Siddhartha Gautama abandoned his life after witnessing the 'Four Sights'—a sick man, an aged man, a corpse, and a monk—which made him seek enlightenment to find a solution to the suffering of the world."
+      },
+      {
+        "question": "Where did Siddhartha Gautama get enlightenment ? What name was given to him after that?",
+        "answer": "He attained enlightenment under a peepal tree in Bodh Gaya. After achieving it, he was given the name 'the Buddha,' meaning 'The Awakened One' or 'The Enlightened One'."
       }
     ],
-    "5 Marks": [
+    "Short Answer (Q12, 50 words)": [
       {
-        "question": "Write a short summary of the story ‘A Letter to God’.",
-        "answer": "The story is about a farmer named Lencho who writes a letter to God for money after a hailstorm destroys his crops. It conveys faith, irony, and human nature."
+        "question": "In the reference of the poem 'Fire and Ice', how will the world end (any two)",
+        "answer": "The poet, Robert Frost, suggests the world could end in one of two ways: 'Fire,' which he associates with desire and passion, or 'Ice,' which he associates with hatred and indifference. He believes both destructive forces are sufficient for the world's end."
+      },
+      {
+        "question": "What are the things that Amanda's mother ask her to do and not to do?",
+        "answer": "Amanda's mother constantly instructs her to stop biting her nails, stop hunching her shoulders, to sit up straight, and to finish her homework. Essentially, she is asked to adhere to proper social etiquette and complete her domestic duties."
+      },
+      {
+        "question": "How will the departure of the trees affect the house ?",
+        "answer": "The house will feel the sudden absence and emptiness. The poet describes that the smell of leaves and lichen will linger, suggesting the rooms and windows, which were once filled with nature, will now be silent and permeated with the fading scent of the forest."
+      }
+    ],
+    "Long Answer (Q13-16, 75 words)": [
+      {
+        "question": "How did the narrator cure Tricki ? (Q13, any two)",
+        "answer": "The narrator, Mr. Herriot, cured Tricki by controlling his diet and giving him no food for the first two days, only water. He then gradually introduced exercise and a normal diet. The cure was essentially putting the dog on a strict regimen of proper food and activity, without the use of any medication or surgery."
+      },
+      {
+        "question": "How did Ausable get rid of Max ?",
+        "answer": "Ausable cleverly used his quick wit to get rid of Max. He fabricated a story about a non-existent balcony and then convinced Max that the loud knock on the door was the police. Max, panicking, jumped out the window to the supposed balcony, thus falling to his death, as there was no balcony."
+      },
+      {
+        "question": "How did Griffin become invisible ?",
+        "answer": "Griffin was a brilliant but lawless scientist who swallowed certain rare drugs he had discovered. These drugs made his body as transparent as a sheet of glass, effectively turning him invisible while remaining physically solid."
+      },
+      {
+        "question": "How did Valli plan her bus ride? What did she find out about the bus, and how did she save up the fare (Q14)",
+        "answer": "Valli carefully listened to the conversations of neighbors and travelers to gather all the details about the bus journey. She discovered the trip was six miles one way, the fare was 30 paise, and the trip took 45 minutes. To save the 60 paise for the round trip, she meticulously resisted temptations like buying peppermints, toys, and riding the merry-go-round, denying herself every coin."
+      },
+      {
+        "question": "What does the young boy say to Anne Gregory ? (Q15)",
+        "answer": "The young boy tells Anne Gregory that no young man could ever love her for herself alone, but rather for her beautiful yellow hair. He states that only God could love her for herself and not for her physical appearance. He says this to emphasize that human love is conditional on external beauty."
+      },
+      {
+        "question": "Why did Custard cry for a nice safe cage ? Why is the dragon called 'cowardly dragon' ?",
+        "answer": "Custard, the dragon, cried for a nice safe cage because, despite his fierce appearance, he was actually a complete coward. He is called the 'cowardly dragon' by Belinda and her other pets because he constantly whines and weeps for safety, while the other pets boast of their courage."
+      },
+      {
+        "question": "Noodle avoids offending Think-Tank but at the same time he corrects his mistakes. How does he manage to do that? (Q16)",
+        "answer": "Noodle manages this delicate balance by always presenting his corrections as a minor confirmation or an expansion of Think-Tank's own brilliant ideas. He uses deferential phrases like, 'Pardon me, O Think-Tank, but would this not be so?' or 'I believe that little gift is called a book, sir,' allowing the arrogant Think-Tank to take credit for the correct information."
       }
     ]
   }
