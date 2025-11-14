@@ -1,4 +1,20 @@
 {
-  "BASE_URL":"",
-  "image1.png,image2.png,image3.png"
+  "BASE_URL": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/intro_activity/",
+  "slides": [
+    {
+      "title": "🌍 Multi-Language Support",
+      "description": "Switch between English & Hindi anytime",
+      "imageName": "intro1.png"
+    },
+    {
+      "title": "📚 Practice Anytime",
+      "description": "Access thousands of questions easily",
+      "imageName": "intro2.png"
+    },
+    {
+      "title": "📈 Track Your Progress",
+      "description": "Analyze performance with smart reports",
+      "imageName": "intro3.png"
+    }
+  ]
 }
