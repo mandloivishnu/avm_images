@@ -1,49 +1,229 @@
 {
-  "paper_details": [
+  "paper_details": {
+    "paperYear": "2014",
+    "subjectName": "Hindi (General)",
+    "totalMarks": "Unknown (Varies)",
+    "board": "MP Board"
+  },
+  "questions": [
     {
-      "totalQuestions": "23",
-      "paperYear": "2023",
-      "paperSet": "A",
-      "totalMarks": "73",
-      "subjectName": "English"
-    }
-  ],
-  "optional_questions": [
-    {
-      "question": "Who is the author of the poem 'The Road Not Taken'?",
-      "options": [
-        "William Wordsworth",
-        "Robert Frost",
-        "John Keats",
-        "P.B. Shelley"
-      ],
-      "correctIndex": 1,
-      "explanation": "Robert Frost wrote the poem 'The Road Not Taken'."
+      "question_number": "1",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": 1,
+      "text": "रिक्त स्थानों की पूर्ति उचित शब्दों का चयन करके कीजिए:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "parts": [
+        {
+          "q_id": "1.1",
+          "statement": "योगी अरविन्द के गुरु का नाम (रामानंद / ब्रह्मानंद) था।",
+          "options": [
+            {"index": "a", "text": "रामानंद"},
+             {"index": "b", "text": "ब्रह्मानंद"}
+          ],
+          "correct_answer": "ब्रह्मानंद",
+          "youtube_url": "https://youtube.com/example/hindiguru"
+        },
+        {
+          "q_id": "1.2",
+          "statement": "'सूखी डाली' एकांकी (पारिवारिक / सामाजिक) पृष्ठभूमि पर लिखी गई है।",
+          "correct_answer": "पारिवारिक"
+        },
+        {
+          "q_id": "1.3",
+          "statement": "तुलसीदास द्वारा रचित महाकाव्य (रामचरितमानस / विनयपत्रिका) है।",
+          "correct_answer": "रामचरितमानस"
+        },
+        {
+          "q_id": "1.4",
+          "statement": "दुष्यंत कुमार की प्रसिद्ध रचना (मानसी / साये में धूप) है।",
+          "correct_answer": "साये में धूप"
+        },
+        {
+          "q_id": "1.5",
+          "statement": "उन्नति शब्द का विलोम (अनुचित / अवनति) है।",
+          "correct_answer": "अवनति"
+        }
+      ]
     },
     {
-      "question": "What is the synonym of ‘Enormous’?",
-      "options": ["Tiny", "Huge", "Quick", "Narrow"],
-      "correctIndex": 1,
-      "explanation": "‘Enormous’ means very large, hence its synonym is ‘Huge’."
+      "question_number": "2",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": 1,
+      "text": "सही विकल्प का चयन कीजिए:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "parts": [
+        {
+          "q_id": "2.1",
+          "statement": "'कर्मवीर' कविता के रचनाकार हैं-",
+          "options": [
+            {"index": "c", "text": "अयोध्या सिंह उपाध्याय 'हरिऔध'"}
+          ],
+          "correct_index": "c"
+        },
+        {
+          "q_id": "2.2",
+          "statement": "पर्यायवाची शब्द को कहते हैं -",
+          "options": [
+            {"index": "c", "text": "समानार्थी"}
+          ],
+          "correct_index": "c",
+          "previous_exam_reference": "CG Board 2013"
+        },
+        {
+          "q_id": "2.5",
+          "statement": "निबंध रचना का प्रारम्भ माना जाता है-",
+          "options": [
+            {"index": "a", "text": "भारतेन्दु युग"}
+          ],
+          "correct_index": "a"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": 1,
+      "text": "सत्य / असत्य का चयन कीजिए:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "parts": [
+        {
+          "q_id": "3.1",
+          "statement": "देशज शब्द को आगत शब्द भी कहते हैं।",
+          "correct_answer": "असत्य"
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": 1,
+      "text": "सही जोड़ी बनाइये:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "columns": {
+        "column_A_title": "'क'",
+        "column_B_title": "'ख'",
+        "pairs": [
+          {"a_item": "1. 'जो पीड़ा को दुलार सकता'", "b_item": "(d) तुम वही दीपक बनोगे", "correct_match": "d"}
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "ONE_WORD_SENTENCE",
+      "marks": 1,
+      "text": "एक वाक्य में उत्तर:",
+      "youtube_url": "https://youtube.com/example/grammarsolutions",
+      "previous_exam_reference": "MP Board 2014",
+      "parts": [
+        {
+          "q_id": "5.1",
+          "statement": "उज्जयिनी किस प्रदेश में है ?"
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": 2,
+      "word_limit": "30 words (approx)",
+      "text": "इण्डियन प्रेस में काम करते हुए द्विवेदी जी ने कौन-सी पुस्तक लिखी ?",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "or_option": {
+        "text": "अथवा:",
+        "parts": [
+          {"q_id": "6.2", "statement": "किसान को ब्रह्मा के समान क्यों माना है ?"}
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": 2,
+      "word_limit": "30 words (approx)",
+      "text": "निम्नलिखित शब्दों के दो-दो पर्यायवाची शब्द लिखिए -",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "parts": [
+        {"q_id": "10.1", "statement": "आकाश, अग्नि।"}
+      ],
+      "or_option": {
+        "text": "अथवा, निम्नलिखित शब्दों के तत्सम रूप लिखिए -",
+        "parts": [
+          {"q_id": "10.2", "statement": "सूखा, सच।"}
+        ]
+      }
+    },
+    {
+      "question_number": "24",
+      "question_type": "EXPLANATION_STANZA",
+      "marks": 4,
+      "text": "पद्यांश की सप्रसंग व्याख्या:",
+      "youtube_url": "https://youtube.com/example/mirabai-pad",
+      "previous_exam_reference": "MP Board 2014",
+      "content": [
+        "पायो जी मैं तो राम रतन धन पायो।",
+        "वस्तु अमोलक दी मेरे सतगुरु, करि किरपा अपनायौ।"
+      ],
+      "or_option": {
+        "text": "अथवा:",
+        "content": [
+          "बादल टूटे बरसा जीवन,",
+          "भींगा मरुथल, महका मधुवन,"
+        ]
+      }
+    },
+    {
+      "question_number": "25",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": 4,
+      "text": "निम्नलिखित अपठित गद्यांश को पढ़कर नीचे लिखे प्रश्नों के उत्तर दीजिए:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "passage": "भारत विविधताओं वाला देश है। यहाँ अनेक धर्म, भाषाएँ, परम्पराएँ पायी जाती हैं। फिर भी भारत की विशेषता अनेकता में एकता है।...",
+      "parts": [
+        {"q_id": "25.1", "statement": "(क) उपर्युक्त गद्यांश का उचित शीर्षक दीजिए।"}
+      ]
+    },
+    {
+      "question_number": "27",
+      "question_type": "LETTER_ESSAY",
+      "marks": 5,
+      "text": "निर्धन छात्र-निधि से सहायता हेतु अपने विद्यालय के प्राचार्य को प्रार्थना-पत्र लिखिए।",
+      "youtube_url": "https://youtube.com/example/formal-letter",
+      "previous_exam_reference": "MP Board 2014",
+      "or_option": {
+        "text": "अथवा, अपने मित्र को एक पत्र लिखिए जिसमें पर्वतीय प्रदेश की यात्रा का वर्णन हो।"
+      }
+    },
+    {
+      "question_number": "28 (Hypothetical)",
+      "question_type": "VISUAL_COMPOSITION",
+      "marks": 5,
+      "word_limit": "75 words (approx)",
+      "text": "निम्नलिखित चित्र को ध्यान से देखकर उस पर एक सारगर्भित अनुच्छेद (Paragraph) लिखिए।",
+      "youtube_url": "https://youtube.com/example/picture-writing",
+      "previous_exam_reference": "Sample Paper 2024",
+      "image_data": {
+        "image_url": "https://placehold.co/400x250/0000FF/FFFFFF?text=Visual+Composition+Placeholder",
+        "description": "A placeholder for a visual image, typically a scene from daily life, nature, or a social event."
+      }
+    },
+    {
+      "question_number": "29 (Original Q28)",
+      "question_type": "ESSAY_AND_OUTLINE",
+      "marks": 8,
+      "text": "(अ) निम्नलिखित निबन्ध विषयों में से किसी एक विषय पर सारगर्भित निबन्ध **200 शब्दों** में लिखिए - (ब) शेष विषयों में से किसी एक की बिन्दुवार रूपरेखा **50 शब्दों** में लिखिए -",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2014",
+      "essay_topics": [
+        {"topic_id": "1", "name": "वृक्षारोपण"},
+        {"topic_id": "2", "name": "हमारा मध्य प्रदेश"}
+      ]
     }
-  ],
-  "written_questions": {
-    "2 Marks": [
-      {
-        "question": "Give the meaning of the phrase 'A blessing in disguise'.",
-        "answer": "Something good that is not recognized at first."
-      },
-      {
-        "question": "Write the past tense of the verb 'run' and use it in a sentence.",
-        "answer": "Past tense: ran. Sentence: He ran fast to catch the bus.",
-        "imageUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/subject_images/science.png"
-      }
-    ],
-    "5 Marks": [
-      {
-        "question": "Write a short summary of the story ‘A Letter to God’.",
-        "answer": "The story is about a farmer named Lencho who writes a letter to God for money after a hailstorm destroys his crops. It conveys faith, irony, and human nature."
-      }
-    ]
-  }
+  ]
 }
