@@ -297,46 +297,84 @@
   "question_type": "MATCH_COLUMN",
   "marks": "1*6=6",
   "text": "सही जोड़ी मिलाकर लिखिए :",
-  "explanation": "Matching pairs based on literary works and meanings.",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "Both columns are kept exactly in the same order as shown in the question paper.",
   "columns": {
     "column_A_title": "(क)",
     "column_B_title": "(ख)",
     "pairs": [
       {
         "a_item": "(i) मैथिलीशरण गुप्त",
-        "b_item": "पंचवटी",
-        "correct_match_index": 1,
-        "explanation": "मैथिलीशरण गुप्त की रचना 'पंचवटी' है।"
+        "b_item": "एकांकी",
+        "correct_match_index": "6",
+        "explanation": "मैथिलीशरण गुप्त की रचना पंचवटी है।"
       },
       {
         "a_item": "(ii) रिसाई",
-        "b_item": "क्रोध करना",
-        "correct_match_index": 2,
-        "explanation": "'रिसाई' शब्द का अर्थ क्रोध करना है।"
+        "b_item": "16",
+        "correct_match_index": "5",
+        "explanation": "रिसाई का अर्थ क्रोध करना है।"
       },
       {
         "a_item": "(iii) चौपाई",
-        "b_item": "16",
-        "correct_match_index": 3,
-        "explanation": "चौपाई छंद के प्रत्येक चरण में 16 मात्राएँ होती हैं।"
+        "b_item": "माता का आँचल",
+        "correct_match_index": "2",
+        "explanation": "चौपाई छंद में 16 मात्राएँ होती हैं।"
       },
       {
         "a_item": "(iv) एक अंक",
-        "b_item": "एकांकी",
-        "correct_match_index": 4,
+        "b_item": "मुजफ्फरपुर",
+        "correct_match_index": "1",
         "explanation": "एकांकी में एक अंक होता है।"
       },
       {
         "a_item": "(v) शिवपूजन सहाय",
-        "b_item": "माता का आँचल",
-        "correct_match_index": 5,
-        "explanation": "शिवपूजन सहाय 'माता का आँचल' पाठ के लेखक हैं।"
+        "b_item": "क्रोध करना",
+        "correct_match_index": "3",
+        "explanation": "शिवपूजन सहाय माता का आँचल के लेखक हैं।"
       },
       {
         "a_item": "(vi) रामवृक्ष बेनीपुरी",
-        "b_item": "मुजफ्फरपुर",
-        "correct_match_index": 6,
+        "b_item": "पंचवटी",
+        "correct_match_index": "4",
         "explanation": "रामवृक्ष बेनीपुरी का संबंध मुजफ्फरपुर से है।"
+      },
+      {
+        "a_item": "",
+        "b_item": "26",
+        "correct_match_index": "",
+        "explanation": ""
+      },
+      {
+        "a_item": "",
+        "b_item": "नाटक",
+        "correct_match_index": "",
+        "explanation": ""
+      },
+      {
+        "a_item": "",
+        "b_item": "मैला आँचल",
+        "correct_match_index": "",
+        "explanation": ""
+      },
+      {
+        "a_item": "",
+        "b_item": "कामायनी",
+        "correct_match_index": "",
+        "explanation": ""
+      },
+      {
+        "a_item": "",
+        "b_item": "24",
+        "correct_match_index": "",
+        "explanation": ""
+      },
+      {
+        "a_item": "",
+        "b_item": "प्रकट करना",
+        "correct_match_index": "",
+        "explanation": ""
       }
     ]
   }
