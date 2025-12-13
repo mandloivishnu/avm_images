@@ -105,7 +105,11 @@
   "COMMON_STREAM_HI": "COMMON",
 
   "CHEM_EN":"Chemistry",
-  "CHEM_HI": "रसायन विज्ञान"
+  "CHEM_HI": "रसायन विज्ञान",
 
+  "IT_STREAM_EN": "Information Technology Stream",
+  "IT_STREAM_HI": "सूचना प्रौद्योगिकी संकाय",
 
+  "AI_STREAM_EN": "Artificial Intelligence Stream",
+  "AI_STREAM_HI": "कृत्रिम बुद्धिमत्ता संकाय"
 }
