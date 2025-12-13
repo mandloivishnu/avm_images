@@ -292,55 +292,55 @@
         }
       ]
     },
-    {
-      "question_number": "3",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1*6=6",
-      "text": "सही जोड़ी मिलाकर लिखिए :",
-      "explanation": "Matching pairs based on literary works and meanings.",
-      "columns": {
-        "column_A_title": "(क)",
-        "column_B_title": "(ख)",
-        "pairs": [
-          {
-            "a_item": "(i) मैथिलीशरण गुप्त",
-            "b_item": "पंचवटी",
-            "correct_match_index": "Match Found in Source",
-            "explanation": "मैथिलीशरण गुप्त की रचना 'पंचवटी' है।"
-          },
-          {
-            "a_item": "(ii) रिसाई",
-            "b_item": "क्रोध करना",
-            "correct_match_index": "Match Found in Source",
-            "explanation": "'रिसाई' शब्द का अर्थ क्रोध करना है।"
-          },
-          {
-            "a_item": "(iii) चौपाई",
-            "b_item": "16",
-            "correct_match_index": "Match Found in Source",
-            "explanation": "चौपाई छंद के प्रत्येक चरण में 16 मात्राएँ होती हैं।"
-          },
-          {
-            "a_item": "(iv) एक अंक",
-            "b_item": "एकांकी",
-            "correct_match_index": "Match Found in Source",
-            "explanation": "एकांकी में एक अंक होता है।"
-          },
-          {
-            "a_item": "(v) शिवपूजन सहाय",
-            "b_item": "माता का आँचल",
-            "correct_match_index": "Match Found in Source",
-            "explanation": "शिवपूजन सहाय 'माता का आँचल' पाठ के लेखक हैं।"
-          },
-          {
-            "a_item": "(vi) रामवृक्ष बेनीपुरी",
-            "b_item": "मुजफ्फरपुर",
-            "correct_match_index": "Match Found in Source",
-            "explanation": "रामवृक्ष बेनीपुरी का संबंध मुजफ्फरपुर से है।"
-          }
-        ]
+   {
+  "question_number": "3",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1*6=6",
+  "text": "सही जोड़ी मिलाकर लिखिए :",
+  "explanation": "Matching pairs based on literary works and meanings.",
+  "columns": {
+    "column_A_title": "(क)",
+    "column_B_title": "(ख)",
+    "pairs": [
+      {
+        "a_item": "(i) मैथिलीशरण गुप्त",
+        "b_item": "पंचवटी",
+        "correct_match_index": 1,
+        "explanation": "मैथिलीशरण गुप्त की रचना 'पंचवटी' है।"
+      },
+      {
+        "a_item": "(ii) रिसाई",
+        "b_item": "क्रोध करना",
+        "correct_match_index": 2,
+        "explanation": "'रिसाई' शब्द का अर्थ क्रोध करना है।"
+      },
+      {
+        "a_item": "(iii) चौपाई",
+        "b_item": "16",
+        "correct_match_index": 3,
+        "explanation": "चौपाई छंद के प्रत्येक चरण में 16 मात्राएँ होती हैं।"
+      },
+      {
+        "a_item": "(iv) एक अंक",
+        "b_item": "एकांकी",
+        "correct_match_index": 4,
+        "explanation": "एकांकी में एक अंक होता है।"
+      },
+      {
+        "a_item": "(v) शिवपूजन सहाय",
+        "b_item": "माता का आँचल",
+        "correct_match_index": 5,
+        "explanation": "शिवपूजन सहाय 'माता का आँचल' पाठ के लेखक हैं।"
+      },
+      {
+        "a_item": "(vi) रामवृक्ष बेनीपुरी",
+        "b_item": "मुजफ्फरपुर",
+        "correct_match_index": 6,
+        "explanation": "रामवृक्ष बेनीपुरी का संबंध मुजफ्फरपुर से है।"
       }
-    },
+    ]
+  }
+},
     {
       "question_number": "4",
       "question_type": "UNSEEN_PASSAGE_PROSE",
