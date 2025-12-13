@@ -744,15 +744,16 @@
       "previous_exam_reference": null,
       "or_option": {
         "text": "अथवा",
+	"statement":"समास विग्रह करके समास का नाम लिखिए।",
         "parts": [
           {
             "q_id": "i",
-            "statement": "देशभक्ति का समास विग्रह और समास का नाम",
+            "statement": "देशभक्ति",
             "explanation": "देश के लिए भक्ति (तत्पुरुष समास)"
           },
           {
             "q_id": "ii",
-            "statement": "गंगा-यमुना का समास विग्रह और समास का नाम",
+            "statement": "गंगा-यमुना",
             "explanation": "गंगा और यमुना (द्वन्द्व समास)"
           }
         ]
