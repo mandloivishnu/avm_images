@@ -292,7 +292,7 @@
         }
       ]
     },
-   {
+     {
   "question_number": "3",
   "question_type": "MATCH_COLUMN",
   "marks": "1*6=6",
@@ -343,19 +343,19 @@
       {
         "a_item": "",
         "b_item": "26",
-        "correct_match_index": "",
+        "correct_match_index": "-1",
         "explanation": ""
       },
       {
         "a_item": "",
         "b_item": "नाटक",
-        "correct_match_index": "",
+        "correct_match_index": "-1",
         "explanation": ""
       },
       {
         "a_item": "",
         "b_item": "मैला आँचल",
-        "correct_match_index": "",
+        "correct_match_index": "-1",
         "explanation": ""
       },
       {
@@ -367,13 +367,13 @@
       {
         "a_item": "",
         "b_item": "24",
-        "correct_match_index": "",
+        "correct_match_index": "-1",
         "explanation": ""
       },
       {
         "a_item": "",
         "b_item": "प्रकट करना",
-        "correct_match_index": "",
+        "correct_match_index": "-1",
         "explanation": ""
       }
     ]
