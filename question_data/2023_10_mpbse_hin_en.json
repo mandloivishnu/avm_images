@@ -301,8 +301,8 @@
       "previous_exam_reference": null,
       "explanation": "Matching pairs are provided with correct indexes, which are 1-based integers referring to the position of the correct answer in the B-list.",
       "columns": {
-        "column_A_title": "[क]",
-        "column_B_title": "[ख]",
+        "column_A_title": "(क)",
+        "column_B_title": "(ख)",
         "pairs": [
           {
             "a_item": "(i) गद्य की प्रमुख विधाएँ",
