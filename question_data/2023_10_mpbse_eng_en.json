@@ -1,4 +1,3 @@
-
 {
   "paper_details": {
     "paperYear": "2025",
@@ -7,568 +6,517 @@
     "board": "MP Board"
   },
   "questions": [
-  {
-  "question_number": "1",
-  "question_type": "UNSEEN_PASSAGE_PROSE",
-  "marks": "1×5=5",
-  "word_limit": null,
-  "text": "Read the passage carefully and answer the questions given below:",
-  "youtube_url": null,
-  "previous_exam_reference": "MP Board 2025",
-  "passage": "In 1866, Alfred Nobel, a Swedish chemist, introduced a form of nitroglycerine that could be handled safely. He called it dynamite. In 1875, he went on to invent gelatinite. These explosives were used in engineering application, but they also had an obvious military application. As a committed pacifist, Nobel hoped that his explosives would provide such a deterrent to war that the world would become so militarised and hostile that he would bring about peace. However, he used in his will to endow the Nobel Prizes awarded to those who have contributed to world peace, to advance humanity. In five categories: Physics, Chemistry, Literature and Peace. The Bank of Sweden inaugurated a new Nobel Prize for Economics in 1969. In 1903, Marie Curie became the first woman to win the Nobel Prize, sharing it with her husband.",
-  "essay_topics": [
     {
-      "topic_id": "i",
-      "question_type": "MCQ",
-      "question": "Who was Alfred Nobel?",
-      "options": [
-        "Indian Chemist",
-        "African Chemist",
-        "Swedish Chemist",
-        "English Chemist"
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4M",
+      "word_limit": "120 words (approx)",
+      "text": "Write an application to your principal requesting him to issue your School Leaving Certificate (S.L.C.).",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "You are Manthan/Mahi studying in Govt. H.S. School, Bajrang Nagar, Indore.",
+          "explanation": "Reference: This is a formal application written to the school principal.\nContext: The student requests the issuance of the School Leaving Certificate due to personal or academic reasons.\nExplanation: In this application, the student politely addresses the principal, mentions personal and school details, clearly states the reason for requesting the School Leaving Certificate, and assures completion of all formalities. The letter ends with a respectful closing and signature."
+        }
       ],
-      "correct_answer": "Swedish Chemist"
-    },
-    {
-      "topic_id": "ii",
-      "question_type": "MCQ",
-      "question": "What did Alfred Nobel introduce?",
-      "options": [
-        "medicine",
-        "form of nitroglycerine",
-        "chemistry",
-        "gelignite"
-      ],
-      "correct_answer": "form of nitroglycerine"
-    },
-    {
-      "topic_id": "iii",
-      "question_type": "MCQ",
-      "question": "When did the Bank of Sweden introduce a new Nobel Prize in Economics?",
-      "options": [
-        "1866",
-        "1875",
-        "1903",
-        "1969"
-      ],
-      "correct_answer": "1969"
-    },
-    {
-      "topic_id": "iv",
-      "question_type": "MCQ",
-      "question": "Why did Alfred Nobel leave ₹ 32,00,000 in his will?",
-      "options": [
-        "to finance prize in physics",
-        "to finance prize in chemistry",
-        "to finance prize in literature and peace",
-        "All of the above"
-      ],
-      "correct_answer": "All of the above"
-    },
-    {
-      "topic_id": "v",
-      "question_type": "MCQ",
-      "question": "Who was the first woman to win the Nobel Prize?",
-      "options": [
-        "Marie Curie",
-        "Mother Teresa",
-        "Kalpana Chawla",
-        "Indira Gandhi"
-      ],
-      "correct_answer": "Marie Curie"
-    }
-  ]
-},
-{
-  "question_number": "2",
-  "question_type": "UNSEEN_PASSAGE_PROSE",
-  "marks": "1×5=5",
-  "word_limit": null,
-  "text": "Read the passage carefully and answer the questions given below:",
-  "youtube_url": null,
-  "previous_exam_reference": "MP Board 2025",
-  "passage": "Gandhiji travelled a lot. He always travelled third class in trains. He did so because all poor people in India travelled third class in trains.\n\nOnce, Gandhiji got off at Bombay (Mumbai) from a third class railway compartment. Lots of people had come to meet him. Among them were two American men and women. They went into Gandhiji’s compartment. They saw that it was very small.\n\n“Why don’t you travel first?” asked one of the ladies.\n\n“I don’t know. Let’s go and ask him,” replied one of the gentlemen.\n\n“Mr. Gandhiji, we’ve come to ask you a question,” the gentleman said to Gandhiji. “You are leader of the Indian people, but you travel third. Please tell us why you travel third?”\n\nGandhiji laughed and said, “The answer is very simple. I travel third because there is no fourth.” He laughed again and the American ladies and gentlemen laughed with him.",
-  "essay_topics": [
-    {
-      "topic_id": "i",
-      "question_type": "MCQ",
-      "question": "In which class did Gandhiji travel?",
-      "options": [
-        "First class",
-        "Third class",
-        "Second class",
-        "All of these"
-      ],
-      "correct_answer": "Third class"
-    },
-    {
-      "topic_id": "ii",
-      "question_type": "MCQ",
-      "question": "Who came to meet Gandhiji at Mumbai Railway Station?",
-      "options": [
-        "One person",
-        "Few people",
-        "Some people",
-        "Lots of people"
-      ],
-      "correct_answer": "Lots of people"
-    },
-    {
-      "topic_id": "iii",
-      "question_type": "MCQ",
-      "question": "Which country’s men and women met Gandhiji’s compartment?",
-      "options": [
-        "Australia",
-        "India",
-        "England",
-        "America"
-      ],
-      "correct_answer": "America"
-    },
-    {
-      "topic_id": "iv",
-      "question_type": "MCQ",
-      "question": "Give the opposite word of ‘poor’.",
-      "options": [
-        "honest",
-        "rich",
-        "poor",
-        "holy"
-      ],
-      "correct_answer": "rich"
-    },
-    {
-      "topic_id": "v",
-      "question_type": "MCQ",
-      "question": "Give the synonym of word ‘simple’.",
-      "options": [
-        "small",
-        "great",
-        "easy",
-        "difficult"
-      ],
-      "correct_answer": "easy"
-    }
-  ]
-},
-{
-  "question_number": "3",
-  "question_type": "UNSEEN_PASSAGE_PROSE",
-  "marks": "5M",
-  "word_limit": "150 words (approx)",
-  "text": "Read the passage carefully and answer the questions given below:",
-  "youtube_url": null,
-  "previous_exam_reference": "MP Board",
-  "passage": "Students who are very fond of reading books are often labelled by their companions as bookworms. Their criticism usually comes from students who consider themselves better sports. Students who shine in athletics or in games consider that it is better to spend time and energy in a sports arena than in a classroom or at the reading desk. All the same they do not always do well academically. Academic honour has a glamour which is unique. It is not to be denied that playing games is useful activity, because it creates team spirit and also makes the sportsmen healthy and vigorous. That is why games and sports are given so much importance in the curriculum of schools and colleges. But studies should not be neglected and should be given due importance along with other activities connected with education. Let each type of activity have its own place in our daily routine. Then only will we have students both academically sound and physically fit. We want our educational system to generate this synergy among our youth.",
-  "essay_topics": [
-    {
-      "topic_id": "i",
-      "name": "On the basis of your reading of the above passage, make notes on it.",
-      "answer": "The passage highlights the balance between studies and sports. Students interested in reading are often called bookworms, while athletes feel sports are more important. However, academic achievement has its own unique honour. Games are necessary for health, teamwork, and energy, which is why they are included in education. At the same time, studies should not be ignored. Both academics and sports should have proper place in daily routine to develop students who are mentally strong and physically fit."
-    },
-    {
-      "topic_id": "ii",
-      "name": "Give a suitable title to it.",
-      "answer": "Balance Between Studies and Sports"
-    }
-  ]
-},
-{
-  "question_number": "4",
-  "question_type": "DESCRIPTIVE",
-  "marks": "4M",
-  "word_limit": "120 words (approx)",
-  "text": "Write an application to your principal requesting him to issue your School Leaving Certificate (S.L.C.).",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "You are Manthan/Mahi studying in Govt. H.S. School, Bajrang Nagar, Indore.",
-      "explanation": "Reference: This is a formal application written to the school principal.\nContext: The student requests the issuance of the School Leaving Certificate due to personal or academic reasons.\nExplanation: In this application, the student politely addresses the principal, mentions personal and school details, clearly states the reason for requesting the School Leaving Certificate, and assures completion of all formalities. The letter ends with a respectful closing and signature."
-    }
-  ],
-  "or_option": {
-    "text": "OR",
-    "parts": [
-      {
-        "q_id": "ii",
-        "statement": "Write a letter to your friend to invite him to attend your birthday party.",
-        "explanation": "Reference: This is an informal letter written to a friend.\nContext: The writer invites a close friend to attend a birthday celebration.\nExplanation: In this letter, the writer expresses happiness about the upcoming birthday, mentions the date, time, and venue of the party, and warmly invites the friend to join the celebration. The tone is friendly and affectionate, ending with regards and the sender’s name."
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write a letter to your friend to invite him to attend your birthday party.",
+            "explanation": "Reference: This is an informal letter written to a friend.\nContext: The writer invites a close friend to attend a birthday celebration.\nExplanation: In this letter, the writer expresses happiness about the upcoming birthday, mentions the date, time, and venue of the party, and warmly invites the friend to join the celebration. The tone is friendly and affectionate, ending with regards and the sender’s name."
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "question_number": "5",
-  "question_type": "DESCRIPTIVE",
-  "marks": "5M",
-  "word_limit": "150 words (approx)",
-  "text": "Write an essay in about 150 words on any one of the following topics:",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "Importance of Games and Sports",
-      "explanation": "Reference: This topic relates to student life and physical education.\nContext: The essay highlights the role of games and sports in maintaining physical fitness and mental well-being.\nExplanation: The student should explain how games and sports help in physical development, discipline, teamwork, leadership qualities, and stress reduction. Examples from daily life or school activities may be included to show their importance."
     },
     {
-      "q_id": "ii",
-      "statement": "Any Festival",
-      "explanation": "Reference: This topic is based on Indian culture and traditions.\nContext: The essay describes the significance of a festival celebrated in India.\nExplanation: The student may write about any festival such as Diwali, Holi, Eid, or Christmas, explaining how it is celebrated, its cultural or religious importance, and the values it promotes like unity, joy, and harmony."
-    },
-    {
-      "q_id": "iii",
-      "statement": "Save Tree",
-      "explanation": "Reference: This topic is related to environmental awareness.\nContext: The essay focuses on the importance of trees for life on earth.\nExplanation: The student should explain how trees provide oxygen, conserve water, prevent soil erosion, and support wildlife. The essay may also include the need for tree plantation and environmental protection."
-    },
-    {
-      "q_id": "iv",
-      "statement": "Science in Daily Life",
-      "explanation": "Reference: This topic is related to science and technology.\nContext: The essay explains the role of science in everyday activities.\nExplanation: The student may describe how scientific inventions like electricity, mobile phones, transportation, and medical facilities have made life easier, faster, and more comfortable."
-    },
-    {
-      "q_id": "v",
-      "statement": "My Hobby",
-      "explanation": "Reference: This topic is based on personal interest.\nContext: The essay describes a favorite activity done in leisure time.\nExplanation: The student may write about any hobby such as reading, playing games, painting, gardening, or music, explaining why they like it and how it helps in relaxation and personal growth."
-    }
-  ],
-  "or_option": {
-    "text": "OR",
-    "parts": [
-      {
-        "q_id": "vi",
-        "statement": "Write a paragraph in about 150 words on 'Importance of Yoga'.",
-        "explanation": "Reference: This topic is related to health and fitness.\nContext: The paragraph explains the significance of yoga in daily life.\nExplanation: The student should describe how yoga improves physical health, mental peace, concentration, and discipline. It may also mention yoga as an ancient Indian practice that helps in leading a healthy and balanced life."
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5M",
+      "word_limit": "150 words (approx)",
+      "text": "Write an essay in about 150 words on any one of the following topics:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Importance of Games and Sports",
+          "explanation": "Reference: This topic relates to student life and physical education.\nContext: The essay highlights the role of games and sports in maintaining physical fitness and mental well-being.\nExplanation: The student should explain how games and sports help in physical development, discipline, teamwork, leadership qualities, and stress reduction. Examples from daily life or school activities may be included to show their importance."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Any Festival",
+          "explanation": "Reference: This topic is based on Indian culture and traditions.\nContext: The essay describes the significance of a festival celebrated in India.\nExplanation: The student may write about any festival such as Diwali, Holi, Eid, or Christmas, explaining how it is celebrated, its cultural or religious importance, and the values it promotes like unity, joy, and harmony."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Save Tree",
+          "explanation": "Reference: This topic is related to environmental awareness.\nContext: The essay focuses on the importance of trees for life on earth.\nExplanation: The student should explain how trees provide oxygen, conserve water, prevent soil erosion, and support wildlife. The essay may also include the need for tree plantation and environmental protection."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Science in Daily Life",
+          "explanation": "Reference: This topic is related to science and technology.\nContext: The essay explains the role of science in everyday activities.\nExplanation: The student may describe how scientific inventions like electricity, mobile phones, transportation, and medical facilities have made life easier, faster, and more comfortable."
+        },
+        {
+          "q_id": "v",
+          "statement": "My Hobby",
+          "explanation": "Reference: This topic is based on personal interest.\nContext: The essay describes a favorite activity done in leisure time.\nExplanation: The student may write about any hobby such as reading, playing games, painting, gardening, or music, explaining why they like it and how it helps in relaxation and personal growth."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "vi",
+            "statement": "Write a paragraph in about 150 words on 'Importance of Yoga'.",
+            "explanation": "Reference: This topic is related to health and fitness.\nContext: The paragraph explains the significance of yoga in daily life.\nExplanation: The student should describe how yoga improves physical health, mental peace, concentration, and discipline. It may also mention yoga as an ancient Indian practice that helps in leading a healthy and balanced life."
+          }
+        ]
       }
-    ]
-  }
-},
-{
-  "question_number": "7",
-  "question_type": "FILL_IN_THE_BLANK",
-  "marks": "1×5=5",
-  "text": "Fill in the blanks : (any five)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "My uncle is {BLANK} M. L. A.",
-      "options": [
-        { "index": "a", "text": "a" },
-        { "index": "b", "text": "an" },
-        { "index": "c", "text": "the" }
-      ],
-      "correct_answer": "an",
-      "explanation": "‘M.L.A.’ starts with a vowel sound, so ‘an’ is used."
     },
     {
-      "q_id": "ii",
-      "statement": "You {BLANK} sit here.",
-      "options": [
-        { "index": "a", "text": "dare" },
-        { "index": "b", "text": "may" },
-        { "index": "c", "text": "should" }
-      ],
-      "correct_answer": "may",
-      "explanation": "‘May’ is used to give permission."
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "My uncle is {BLANK} M. L. A.",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "an"
+            },
+            {
+              "index": "c",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "an",
+          "explanation": "‘M.L.A.’ starts with a vowel sound, so ‘an’ is used."
+        },
+        {
+          "q_id": "ii",
+          "statement": "You {BLANK} sit here.",
+          "options": [
+            {
+              "index": "a",
+              "text": "dare"
+            },
+            {
+              "index": "b",
+              "text": "may"
+            },
+            {
+              "index": "c",
+              "text": "should"
+            }
+          ],
+          "correct_answer": "may",
+          "explanation": "‘May’ is used to give permission."
+        },
+        {
+          "q_id": "iii",
+          "statement": "{BLANK} dog seldom bite.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Barking"
+            },
+            {
+              "index": "b",
+              "text": "Barks"
+            },
+            {
+              "index": "c",
+              "text": "Bark"
+            }
+          ],
+          "correct_answer": "Barking",
+          "explanation": "The correct proverb is ‘Barking dogs seldom bite.’"
+        },
+        {
+          "q_id": "iv",
+          "statement": "Hema has been dancing {BLANK} morning.",
+          "options": [
+            {
+              "index": "a",
+              "text": "for"
+            },
+            {
+              "index": "b",
+              "text": "since"
+            },
+            {
+              "index": "c",
+              "text": "from"
+            }
+          ],
+          "correct_answer": "since",
+          "explanation": "‘Since’ is used for a point of time."
+        },
+        {
+          "q_id": "v",
+          "statement": "The servant didn’t make {BLANK} tea.",
+          "options": [
+            {
+              "index": "a",
+              "text": "many"
+            },
+            {
+              "index": "b",
+              "text": "much"
+            },
+            {
+              "index": "c",
+              "text": "a little"
+            }
+          ],
+          "correct_answer": "much",
+          "explanation": "‘Much’ is used with uncountable nouns in negative sentences."
+        },
+        {
+          "q_id": "vi",
+          "statement": "{BLANK} there is life, there is hope.",
+          "options": [
+            {
+              "index": "a",
+              "text": "If"
+            },
+            {
+              "index": "b",
+              "text": "Unless"
+            },
+            {
+              "index": "c",
+              "text": "As long as"
+            }
+          ],
+          "correct_answer": "As long as",
+          "explanation": "The phrase ‘As long as’ expresses a condition."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Mohan is sitting {BLANK} Ram and Shyam.",
+          "options": [
+            {
+              "index": "a",
+              "text": "between"
+            },
+            {
+              "index": "b",
+              "text": "among"
+            },
+            {
+              "index": "c",
+              "text": "against"
+            }
+          ],
+          "correct_answer": "between",
+          "explanation": "‘Between’ is used when referring to two persons."
+        }
+      ]
     },
     {
-      "q_id": "iii",
-      "statement": "{BLANK} dog seldom bite.",
-      "options": [
-        { "index": "a", "text": "Barking" },
-        { "index": "b", "text": "Barks" },
-        { "index": "c", "text": "Bark" }
-      ],
-      "correct_answer": "Barking",
-      "explanation": "The correct proverb is ‘Barking dogs seldom bite.’"
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Do as directed : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Kshitij plays cricket. (Change into past indefinite tense)",
+          "explanation": "Reference: This question tests the knowledge of tense.\nContext: The sentence is in present tense and needs to be converted into past indefinite tense.\nExplanation: The verb 'plays' should be changed into its past form 'played'. The correct sentence is: 'Kshitij played cricket.'"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Ram killed Ravan. (Change the voice)",
+          "explanation": "Reference: This question is based on active and passive voice.\nContext: The given sentence is in active voice.\nExplanation: To change into passive voice, the object becomes the subject and the verb changes accordingly. The correct sentence is: 'Ravan was killed by Ram.'"
+        },
+        {
+          "q_id": "iii",
+          "statement": "have / they / a / new / car / bought (Rearrange the words to make a meaningful sentence)",
+          "explanation": "Reference: This question checks sentence formation skills.\nContext: The words are given in a jumbled order.\nExplanation: The correct meaningful sentence formed by rearranging the words is: 'They have bought a new car.'"
+        },
+        {
+          "q_id": "iv",
+          "statement": "Talk properly.\nI shall beat you. (Combine the sentences using 'otherwise')",
+          "explanation": "Reference: This question tests the use of conjunctions.\nContext: Two independent sentences are to be combined using 'otherwise'.\nExplanation: The correct combined sentence is: 'Talk properly, otherwise I shall beat you.'"
+        },
+        {
+          "q_id": "v",
+          "statement": "To find error in others is easy. (Rewrite the sentence beginning with 'It')",
+          "explanation": "Reference: This question is based on sentence transformation.\nContext: The sentence needs to be rewritten starting with 'It'.\nExplanation: The correct rewritten sentence is: 'It is easy to find error in others.'"
+        },
+        {
+          "q_id": "vi",
+          "statement": "Shiba cooked food. (Change into negative sentence)",
+          "explanation": "Reference: This question tests knowledge of affirmative and negative sentences.\nContext: The sentence is in affirmative form.\nExplanation: To change into negative, 'did not' is used with the base form of the verb. The correct sentence is: 'Shiba did not cook food.'"
+        },
+        {
+          "q_id": "vii",
+          "statement": "The box is very heavy.\nI can not lift it. (Combine the pair of sentences using 'so...that')",
+          "explanation": "Reference: This question checks the use of result clauses.\nContext: Two sentences are to be combined using 'so...that'.\nExplanation: The correct combined sentence is: 'The box is so heavy that I cannot lift it.'"
+        }
+      ]
     },
     {
-      "q_id": "iv",
-      "statement": "Hema has been dancing {BLANK} morning.",
-      "options": [
-        { "index": "a", "text": "for" },
-        { "index": "b", "text": "since" },
-        { "index": "c", "text": "from" }
-      ],
-      "correct_answer": "since",
-      "explanation": "‘Since’ is used for a point of time."
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "text": "Choose the correct answer :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who was Lencho?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Postmaster"
+            },
+            {
+              "index": "b",
+              "text": "Postman"
+            },
+            {
+              "index": "c",
+              "text": "Peasant"
+            },
+            {
+              "index": "d",
+              "text": "Doctor"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Peasant"
+        },
+        {
+          "q_id": "ii",
+          "statement": "10 May in South Africa is ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Summer day"
+            },
+            {
+              "index": "b",
+              "text": "Autumn day"
+            },
+            {
+              "index": "c",
+              "text": "Winter day"
+            },
+            {
+              "index": "d",
+              "text": "Rainy day"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Autumn day"
+        },
+        {
+          "q_id": "iii",
+          "statement": "Monthly accounts of the baker were recorded on ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "a note book"
+            },
+            {
+              "index": "b",
+              "text": "the main door of the house"
+            },
+            {
+              "index": "c",
+              "text": "some wall in pencil"
+            },
+            {
+              "index": "d",
+              "text": "the floor"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "some wall in pencil"
+        },
+        {
+          "q_id": "iv",
+          "statement": "The main crop of Coorg is ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "tea"
+            },
+            {
+              "index": "b",
+              "text": "coffee"
+            },
+            {
+              "index": "c",
+              "text": "banana"
+            },
+            {
+              "index": "d",
+              "text": "wheat"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "coffee"
+        }
+      ]
     },
     {
-      "q_id": "v",
-      "statement": "The servant didn’t make {BLANK} tea.",
-      "options": [
-        { "index": "a", "text": "many" },
-        { "index": "b", "text": "much" },
-        { "index": "c", "text": "a little" }
-      ],
-      "correct_answer": "much",
-      "explanation": "‘Much’ is used with uncountable nouns in negative sentences."
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×6=12",
+      "text": "Answer any six",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What did Lencho hope for?",
+          "explanation": "Lencho hoped for rain so that his corn crop could grow well and give him a good harvest."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Where did the ceremonies take place? Can you name any public building in India that are made of sandstone?",
+          "explanation": "The ceremonies took place in the sandstone amphitheatre of the Union Buildings. Red Fort and Rashtrapati Bhavan in India are made of sandstone."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What made the woman in the control centre look at the narrator strangely?",
+          "explanation": "The woman looked strangely because the narrator was talking about books while standing in the futuristic control centre."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Anne says teachers are most unpredictable. Is Mr. Keesing unpredictable? How?",
+          "explanation": "Yes, Mr. Keesing is unpredictable because instead of punishing Anne, he gives her creative essay topics as punishment."
+        },
+        {
+          "q_id": "v",
+          "statement": "What does a \"jackfruit-like\" appearance mean?",
+          "explanation": "It means a rough, bumpy and ugly appearance, comparing the face or body to the surface of a jackfruit."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Why does Valli stand up on the seat? What does she see now?",
+          "explanation": "Valli stands up to see outside clearly and notices a young cow running happily in the fields."
+        },
+        {
+          "q_id": "vii",
+          "statement": "What did the Buddha do after he had attained enlightenment?",
+          "explanation": "After attaining enlightenment, Buddha began preaching his teachings to people to relieve them from suffering."
+        },
+        {
+          "q_id": "viii",
+          "statement": "What compelled the young seagull to take his first flight?",
+          "explanation": "Hunger compelled the young seagull to fly when he saw his mother carrying food just out of his reach."
+        }
+      ]
     },
     {
-      "q_id": "vi",
-      "statement": "{BLANK} there is life, there is hope.",
-      "options": [
-        { "index": "a", "text": "If" },
-        { "index": "b", "text": "Unless" },
-        { "index": "c", "text": "As long as" }
-      ],
-      "correct_answer": "As long as",
-      "explanation": "The phrase ‘As long as’ expresses a condition."
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer any two",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What does ‘Fire and Ice’ stand for in the poem?",
+          "explanation": "Fire stands for desire and greed, while ice stands for hatred and cold indifference that can destroy the world."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How does the poet suggest that you identify the lion and tiger? When can you do so, according to him?",
+          "explanation": "The poet says the lion roars when attacking and the tiger attacks silently at night in the jungle."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Is Amanda an orphan? Why does she say so?",
+          "explanation": "Amanda is not an orphan. She feels like one because her parents constantly scold and restrict her freedom."
+        }
+      ]
     },
     {
-      "q_id": "vii",
-      "statement": "Mohan is sitting {BLANK} Ram and Shyam.",
-      "options": [
-        { "index": "a", "text": "between" },
-        { "index": "b", "text": "among" },
-        { "index": "c", "text": "against" }
-      ],
-      "correct_answer": "between",
-      "explanation": "‘Between’ is used when referring to two persons."
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "instruction": "Answer any two",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why does Mrs. Pumphrey think the dog’s recovery is a triumph of surgery?",
+          "explanation": "Mrs. Pumphrey thinks it is surgery because Tricki recovered quickly under the doctor’s care and treatment."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Who was Fowler? Why did he want to meet Ausable?",
+          "explanation": "Fowler was a writer who wanted to meet Ausable to experience the excitement of a real secret agent’s life."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why was the invisible man wandering the street?",
+          "explanation": "The invisible man was wandering because he had no clothes to wear and needed money and shelter."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "instruction": "Answer any one 75 words (approx)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did Mandela’s hunger for freedom change his life?",
+          "explanation": "Mandela’s hunger for freedom changed him from a family-loving man into a courageous leader who sacrificed his personal life for the freedom of his people."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why does Lomov think he should get married?",
+          "explanation": "Lomov believes marriage will provide him social security, a settled life and help him manage his property better."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "instruction": "Answer any one",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the central idea of the poem ‘How to Tell Wild Animals’.",
+          "explanation": "The poem humorously explains how to identify wild animals, warning readers about their dangerous traits through playful descriptions."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What does the young boy say to Anne Gregory?",
+          "explanation": "The boy says that outer beauty like hair colour is temporary, but true love values inner beauty and character."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "instruction": "Answer any one",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What was the cause of Matilda’s ruin? How could she have avoided it?",
+          "explanation": "Matilda’s pride and desire to appear rich caused her ruin. She could have avoided it by telling the truth about the lost necklace."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why does the marriage not take place?",
+          "explanation": "The marriage does not take place due to constant arguments, misunderstandings and sudden illness during the discussion."
+        }
+      ]
     }
   ]
-},
-{
-  "question_number": "8",
-  "question_type": "DESCRIPTIVE",
-  "marks": "1×5=5",
-  "word_limit": null,
-  "text": "Do as directed : (any five)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "Kshitij plays cricket. (Change into past indefinite tense)",
-      "explanation": "Reference: This question tests the knowledge of tense.\nContext: The sentence is in present tense and needs to be converted into past indefinite tense.\nExplanation: The verb 'plays' should be changed into its past form 'played'. The correct sentence is: 'Kshitij played cricket.'"
-    },
-    {
-      "q_id": "ii",
-      "statement": "Ram killed Ravan. (Change the voice)",
-      "explanation": "Reference: This question is based on active and passive voice.\nContext: The given sentence is in active voice.\nExplanation: To change into passive voice, the object becomes the subject and the verb changes accordingly. The correct sentence is: 'Ravan was killed by Ram.'"
-    },
-    {
-      "q_id": "iii",
-      "statement": "have / they / a / new / car / bought (Rearrange the words to make a meaningful sentence)",
-      "explanation": "Reference: This question checks sentence formation skills.\nContext: The words are given in a jumbled order.\nExplanation: The correct meaningful sentence formed by rearranging the words is: 'They have bought a new car.'"
-    },
-    {
-      "q_id": "iv",
-      "statement": "Talk properly.\nI shall beat you. (Combine the sentences using 'otherwise')",
-      "explanation": "Reference: This question tests the use of conjunctions.\nContext: Two independent sentences are to be combined using 'otherwise'.\nExplanation: The correct combined sentence is: 'Talk properly, otherwise I shall beat you.'"
-    },
-    {
-      "q_id": "v",
-      "statement": "To find error in others is easy. (Rewrite the sentence beginning with 'It')",
-      "explanation": "Reference: This question is based on sentence transformation.\nContext: The sentence needs to be rewritten starting with 'It'.\nExplanation: The correct rewritten sentence is: 'It is easy to find error in others.'"
-    },
-    {
-      "q_id": "vi",
-      "statement": "Shiba cooked food. (Change into negative sentence)",
-      "explanation": "Reference: This question tests knowledge of affirmative and negative sentences.\nContext: The sentence is in affirmative form.\nExplanation: To change into negative, 'did not' is used with the base form of the verb. The correct sentence is: 'Shiba did not cook food.'"
-    },
-    {
-      "q_id": "vii",
-      "statement": "The box is very heavy.\nI can not lift it. (Combine the pair of sentences using 'so...that')",
-      "explanation": "Reference: This question checks the use of result clauses.\nContext: Two sentences are to be combined using 'so...that'.\nExplanation: The correct combined sentence is: 'The box is so heavy that I cannot lift it.'"
-    }
-  ]
-},
-{
-  "question_number": "9",
-  "question_type": "MULTIPLE_CHOICE",
-  "marks": "1×4=4",
-  "text": "Choose the correct answer :",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "Who was Lencho?",
-      "options": [
-        { "index": "a", "text": "Postmaster" },
-        { "index": "b", "text": "Postman" },
-        { "index": "c", "text": "Peasant" },
-        { "index": "d", "text": "Doctor" }
-      ],
-      "correct_index": "c",
-      "correct_answer": "Peasant"
-    },
-    {
-      "q_id": "ii",
-      "statement": "10 May in South Africa is ____.",
-      "options": [
-        { "index": "a", "text": "Summer day" },
-        { "index": "b", "text": "Autumn day" },
-        { "index": "c", "text": "Winter day" },
-        { "index": "d", "text": "Rainy day" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "Autumn day"
-    },
-    {
-      "q_id": "iii",
-      "statement": "Monthly accounts of the baker were recorded on ____.",
-      "options": [
-        { "index": "a", "text": "a note book" },
-        { "index": "b", "text": "the main door of the house" },
-        { "index": "c", "text": "some wall in pencil" },
-        { "index": "d", "text": "the floor" }
-      ],
-      "correct_index": "c",
-      "correct_answer": "some wall in pencil"
-    },
-    {
-      "q_id": "iv",
-      "statement": "The main crop of Coorg is ____.",
-      "options": [
-        { "index": "a", "text": "tea" },
-        { "index": "b", "text": "coffee" },
-        { "index": "c", "text": "banana" },
-        { "index": "d", "text": "wheat" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "coffee"
-    }
-  ]
-},
-{
-  "question_number": "11",
-  "question_type": "DESCRIPTIVE",
-  "marks": "2×6=12",
-  "text": "Answer any six		30 words (approx)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "What did Lencho hope for?",
-      "explanation": "Lencho hoped for rain so that his corn crop could grow well and give him a good harvest."
-    },
-    {
-      "q_id": "ii",
-      "statement": "Where did the ceremonies take place? Can you name any public building in India that are made of sandstone?",
-      "explanation": "The ceremonies took place in the sandstone amphitheatre of the Union Buildings. Red Fort and Rashtrapati Bhavan in India are made of sandstone."
-    },
-    {
-      "q_id": "iii",
-      "statement": "What made the woman in the control centre look at the narrator strangely?",
-      "explanation": "The woman looked strangely because the narrator was talking about books while standing in the futuristic control centre."
-    },
-    {
-      "q_id": "iv",
-      "statement": "Anne says teachers are most unpredictable. Is Mr. Keesing unpredictable? How?",
-      "explanation": "Yes, Mr. Keesing is unpredictable because instead of punishing Anne, he gives her creative essay topics as punishment."
-    },
-    {
-      "q_id": "v",
-      "statement": "What does a \"jackfruit-like\" appearance mean?",
-      "explanation": "It means a rough, bumpy and ugly appearance, comparing the face or body to the surface of a jackfruit."
-    },
-    {
-      "q_id": "vi",
-      "statement": "Why does Valli stand up on the seat? What does she see now?",
-      "explanation": "Valli stands up to see outside clearly and notices a young cow running happily in the fields."
-    },
-    {
-      "q_id": "vii",
-      "statement": "What did the Buddha do after he had attained enlightenment?",
-      "explanation": "After attaining enlightenment, Buddha began preaching his teachings to people to relieve them from suffering."
-    },
-    {
-      "q_id": "viii",
-      "statement": "What compelled the young seagull to take his first flight?",
-      "explanation": "Hunger compelled the young seagull to fly when he saw his mother carrying food just out of his reach."
-    }
-  ]
-},
-{
-  "question_number": "12",
-  "question_type": "DESCRIPTIVE",
-  "marks": "2×2=4",
-  "text": "Answer any two 	30 words (approx)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "What does ‘Fire and Ice’ stand for in the poem?",
-      "explanation": "Fire stands for desire and greed, while ice stands for hatred and cold indifference that can destroy the world."
-    },
-    {
-      "q_id": "ii",
-      "statement": "How does the poet suggest that you identify the lion and tiger? When can you do so, according to him?",
-      "explanation": "The poet says the lion roars when attacking and the tiger attacks silently at night in the jungle."
-    },
-    {
-      "q_id": "iii",
-      "statement": "Is Amanda an orphan? Why does she say so?",
-      "explanation": "Amanda is not an orphan. She feels like one because her parents constantly scold and restrict her freedom."
-    }
-  ]
-},{
-  "question_number": "13",
-  "question_type": "DESCRIPTIVE",
-  "marks": "2×2=4",
-  "instruction": "Answer any two 	30 words (approx)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "Why does Mrs. Pumphrey think the dog’s recovery is a triumph of surgery?",
-      "explanation": "Mrs. Pumphrey thinks it is surgery because Tricki recovered quickly under the doctor’s care and treatment."
-    },
-    {
-      "q_id": "ii",
-      "statement": "Who was Fowler? Why did he want to meet Ausable?",
-      "explanation": "Fowler was a writer who wanted to meet Ausable to experience the excitement of a real secret agent’s life."
-    },
-    {
-      "q_id": "iii",
-      "statement": "Why was the invisible man wandering the street?",
-      "explanation": "The invisible man was wandering because he had no clothes to wear and needed money and shelter."
-    }
-  ]
-},{
-  "question_number": "14",
-  "question_type": "DESCRIPTIVE",
-  "marks": "3×1=3",
-  "instruction": "Answer any one 75 words (approx)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "How did Mandela’s hunger for freedom change his life?",
-      "explanation": "Mandela’s hunger for freedom changed him from a family-loving man into a courageous leader who sacrificed his personal life for the freedom of his people."
-    },
-    {
-      "q_id": "ii",
-      "statement": "Why does Lomov think he should get married?",
-      "explanation": "Lomov believes marriage will provide him social security, a settled life and help him manage his property better."
-    }
-  ]
-},{
-  "question_number": "15",
-  "question_type": "DESCRIPTIVE",
-  "marks": "3×1=3",
-  "instruction": "Answer any one	75 words (approx)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "Write the central idea of the poem ‘How to Tell Wild Animals’.",
-      "explanation": "The poem humorously explains how to identify wild animals, warning readers about their dangerous traits through playful descriptions."
-    },
-    {
-      "q_id": "ii",
-      "statement": "What does the young boy say to Anne Gregory?",
-      "explanation": "The boy says that outer beauty like hair colour is temporary, but true love values inner beauty and character."
-    }
-  ]
-},{
-  "question_number": "16",
-  "question_type": "DESCRIPTIVE",
-  "marks": "3×1=3",
-  "instruction": "Answer any one	75 words (approx)",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "What was the cause of Matilda’s ruin? How could she have avoided it?",
-      "explanation": "Matilda’s pride and desire to appear rich caused her ruin. She could have avoided it by telling the truth about the lost necklace."
-    },
-    {
-      "q_id": "ii",
-      "statement": "Why does the marriage not take place?",
-      "explanation": "The marriage does not take place due to constant arguments, misunderstandings and sudden illness during the discussion."
-    }
-  ]
-}
-]
 }
