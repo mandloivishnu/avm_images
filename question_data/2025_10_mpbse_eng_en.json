@@ -7,6 +7,28 @@
   },
   "questions": [
     {
+      "question_number": "3",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "5M",
+      "word_limit": "150 words (approx)",
+      "text": "Read the passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board",
+      "passage": "Students who are very fond of reading books are often labelled by their companions as bookworms. Their criticism usually comes from students who consider themselves better sports. Students who shine in athletics or in games consider that it is better to spend time and energy in a sports arena than in a classroom or at the reading desk. All the same they do not always do well academically. Academic honour has a glamour which is unique. It is not to be denied that playing games is useful activity, because it creates team spirit and also makes the sportsmen healthy and vigorous. That is why games and sports are given so much importance in the curriculum of schools and colleges. But studies should not be neglected and should be given due importance along with other activities connected with education. Let each type of activity have its own place in our daily routine. Then only will we have students both academically sound and physically fit. We want our educational system to generate this synergy among our youth.",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "On the basis of your reading of the above passage, make notes on it.",
+          "answer": "The passage highlights the balance between studies and sports. Students interested in reading are often called bookworms, while athletes feel sports are more important. However, academic achievement has its own unique honour. Games are necessary for health, teamwork, and energy, which is why they are included in education. At the same time, studies should not be ignored. Both academics and sports should have proper place in daily routine to develop students who are mentally strong and physically fit."
+        },
+        {
+          "topic_id": "ii",
+          "name": "Give a suitable title to it.",
+          "answer": "Balance Between Studies and Sports"
+        }
+      ]
+    },
+    {
       "question_number": "4",
       "question_type": "DESCRIPTIVE",
       "marks": "4M",
