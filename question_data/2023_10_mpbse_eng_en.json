@@ -7,6 +7,19 @@
   },
   "questions": [
     {
+      "question_number": "6",
+      "question_type": "VISUAL_COMPOSITION",
+      "marks": 3,
+      "word_limit": "75 words",
+      "text": "Look at the visual input given below and produce a small paragraph in about 75 words.",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "image_data": {
+        "image_url": "https://example.com/dummy-visual-composition-image.png",
+        "description": "The picture shows a rural scene where a man is walking along a path with a small child. Nearby, a group of schoolgirls carrying bags are walking towards a school building. Trees, huts, and a simple village environment are visible, highlighting daily life in a rural area and the importance of education."
+      }
+    },
+    {
       "question_number": "4",
       "question_type": "DESCRIPTIVE",
       "marks": "4M",
