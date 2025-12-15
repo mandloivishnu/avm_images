@@ -7,6 +7,138 @@
   },
   "questions": [
     {
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2025",
+      "passage": "In 1866, Alfred Nobel, a Swedish chemist, introduced a form of nitroglycerine that could be handled safely. He called it dynamite. In 1875, he went on to invent gelatinite. These explosives were used in engineering application, but they also had an obvious military application. As a committed pacifist, Nobel hoped that his explosives would provide such a deterrent to war that the world would become so militarised and hostile that he would bring about peace. However, he used in his will to endow the Nobel Prizes awarded to those who have contributed to world peace, to advance humanity. In five categories: Physics, Chemistry, Literature and Peace. The Bank of Sweden inaugurated a new Nobel Prize for Economics in 1969. In 1903, Marie Curie became the first woman to win the Nobel Prize, sharing it with her husband.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who was Alfred Nobel?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Indian Chemist"
+            },
+            {
+              "index": "b",
+              "text": "African Chemist"
+            },
+            {
+              "index": "c",
+              "text": "Swedish Chemist"
+            },
+            {
+              "index": "d",
+              "text": "English Chemist"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Swedish Chemist"
+        },
+        {
+          "q_id": "ii",
+          "statement": "What did Alfred Nobel introduce?",
+          "options": [
+            {
+              "index": "a",
+              "text": "medicine"
+            },
+            {
+              "index": "b",
+              "text": "form of nitroglycerine"
+            },
+            {
+              "index": "c",
+              "text": "chemistry"
+            },
+            {
+              "index": "d",
+              "text": "gelignite"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "form of nitroglycerine"
+        },
+        {
+          "q_id": "iii",
+          "statement": "When did the Bank of Sweden introduce a new Nobel Prize in Economics?",
+          "options": [
+            {
+              "index": "a",
+              "text": "1866"
+            },
+            {
+              "index": "b",
+              "text": "1875"
+            },
+            {
+              "index": "c",
+              "text": "1903"
+            },
+            {
+              "index": "d",
+              "text": "1969"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "1969"
+        },
+        {
+          "q_id": "iv",
+          "statement": "Why did Alfred Nobel leave ₹ 32,00,000 in his will?",
+          "options": [
+            {
+              "index": "a",
+              "text": "to finance prize in physics"
+            },
+            {
+              "index": "b",
+              "text": "to finance prize in chemistry"
+            },
+            {
+              "index": "c",
+              "text": "to finance prize in literature and peace"
+            },
+            {
+              "index": "d",
+              "text": "All of the above"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "All of the above"
+        },
+        {
+          "q_id": "v",
+          "statement": "Who was the first woman to win the Nobel Prize?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Marie Curie"
+            },
+            {
+              "index": "b",
+              "text": "Mother Teresa"
+            },
+            {
+              "index": "c",
+              "text": "Kalpana Chawla"
+            },
+            {
+              "index": "d",
+              "text": "Indira Gandhi"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Marie Curie"
+        }
+      ]
+    },
+    {
       "question_number": "3",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "5M",
