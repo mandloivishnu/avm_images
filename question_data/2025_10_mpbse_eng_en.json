@@ -147,89 +147,149 @@
           "previousYearsDetails": "2024,2023"
         }
       ]
-    },{
-  "question_number": "2",
-  "question_type": "UNSEEN_PASSAGE_PROSE",
-  "marks": "1×5=5",
-  "word_limit": null,
-  "text": "Read the passage carefully and answer the questions given below:",
-  "youtube_url": null,
-  "previous_exam_reference": "MP Board 2025",
-  "passage": "Gandhiji travelled a lot. He always travelled third class in trains. He did so because all poor people in India travelled third class in trains.\n\nOnce, Gandhiji got off at Bombay (Mumbai) from a third class railway compartment. Lots of people had come to meet him. Among them were two American men and women. They went into Gandhiji’s compartment. They saw that it was very small.\n\n“Why don’t you travel first?” asked one of the ladies.\n\n“I don’t know. Let’s go and ask him,” replied one of the gentlemen.\n\n“Mr. Gandhiji, we’ve come to ask you a question,” the gentleman said to Gandhiji. “You are leader of the Indian people, but you travel third. Please tell us why you travel third?”\n\nGandhiji laughed and said, “The answer is very simple. I travel third because there is no fourth.” He laughed again and the American ladies and gentlemen laughed with him.",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "In which class did Gandhiji travel?",
-      "options": [
-        { "index": "a", "text": "First class" },
-        { "index": "b", "text": "Third class" },
-        { "index": "c", "text": "Second class" },
-        { "index": "d", "text": "All of these" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "Third class",
-      "explanation": "The passage clearly states that Gandhiji always travelled third class in trains.",
-      "previousYearsDetails": "2024,2023"
     },
     {
-      "q_id": "ii",
-      "statement": "Who came to meet Gandhiji at Mumbai Railway Station?",
-      "options": [
-        { "index": "a", "text": "One person" },
-        { "index": "b", "text": "Few people" },
-        { "index": "c", "text": "Some people" },
-        { "index": "d", "text": "Lots of people" }
-      ],
-      "correct_index": "d",
-      "correct_answer": "Lots of people",
-      "explanation": "The passage mentions that lots of people had come to meet Gandhiji at the station.",
-      "previousYearsDetails": "2024,2023"
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2025",
+      "passage": "Gandhiji travelled a lot. He always travelled third class in trains. He did so because all poor people in India travelled third class in trains.\n\nOnce, Gandhiji got off at Bombay (Mumbai) from a third class railway compartment. Lots of people had come to meet him. Among them were two American men and women. They went into Gandhiji’s compartment. They saw that it was very small.\n\n“Why don’t you travel first?” asked one of the ladies.\n\n“I don’t know. Let’s go and ask him,” replied one of the gentlemen.\n\n“Mr. Gandhiji, we’ve come to ask you a question,” the gentleman said to Gandhiji. “You are leader of the Indian people, but you travel third. Please tell us why you travel third?”\n\nGandhiji laughed and said, “The answer is very simple. I travel third because there is no fourth.” He laughed again and the American ladies and gentlemen laughed with him.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "In which class did Gandhiji travel?",
+          "options": [
+            {
+              "index": "a",
+              "text": "First class"
+            },
+            {
+              "index": "b",
+              "text": "Third class"
+            },
+            {
+              "index": "c",
+              "text": "Second class"
+            },
+            {
+              "index": "d",
+              "text": "All of these"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Third class",
+          "explanation": "The passage clearly states that Gandhiji always travelled third class in trains.",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Who came to meet Gandhiji at Mumbai Railway Station?",
+          "options": [
+            {
+              "index": "a",
+              "text": "One person"
+            },
+            {
+              "index": "b",
+              "text": "Few people"
+            },
+            {
+              "index": "c",
+              "text": "Some people"
+            },
+            {
+              "index": "d",
+              "text": "Lots of people"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Lots of people",
+          "explanation": "The passage mentions that lots of people had come to meet Gandhiji at the station.",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which country’s men and women met Gandhiji’s compartment?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Australia"
+            },
+            {
+              "index": "b",
+              "text": "India"
+            },
+            {
+              "index": "c",
+              "text": "England"
+            },
+            {
+              "index": "d",
+              "text": "America"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "America",
+          "explanation": "The passage states that two American men and women went into Gandhiji’s compartment.",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "iv",
+          "statement": "Give the opposite word of ‘poor’.",
+          "options": [
+            {
+              "index": "a",
+              "text": "honest"
+            },
+            {
+              "index": "b",
+              "text": "rich"
+            },
+            {
+              "index": "c",
+              "text": "poor"
+            },
+            {
+              "index": "d",
+              "text": "holy"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "rich",
+          "explanation": "The opposite of the word ‘poor’ is ‘rich’.",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "v",
+          "statement": "Give the synonym of the word ‘simple’.",
+          "options": [
+            {
+              "index": "a",
+              "text": "small"
+            },
+            {
+              "index": "b",
+              "text": "great"
+            },
+            {
+              "index": "c",
+              "text": "easy"
+            },
+            {
+              "index": "d",
+              "text": "difficult"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "easy",
+          "explanation": "The word ‘easy’ is the correct synonym of ‘simple’.",
+          "previousYearsDetails": "2024,2023"
+        }
+      ]
     },
-    {
-      "q_id": "iii",
-      "statement": "Which country’s men and women met Gandhiji’s compartment?",
-      "options": [
-        { "index": "a", "text": "Australia" },
-        { "index": "b", "text": "India" },
-        { "index": "c", "text": "England" },
-        { "index": "d", "text": "America" }
-      ],
-      "correct_index": "d",
-      "correct_answer": "America",
-      "explanation": "The passage states that two American men and women went into Gandhiji’s compartment.",
-      "previousYearsDetails": "2024,2023"
-    },
-    {
-      "q_id": "iv",
-      "statement": "Give the opposite word of ‘poor’.",
-      "options": [
-        { "index": "a", "text": "honest" },
-        { "index": "b", "text": "rich" },
-        { "index": "c", "text": "poor" },
-        { "index": "d", "text": "holy" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "rich",
-      "explanation": "The opposite of the word ‘poor’ is ‘rich’.",
-      "previousYearsDetails": "2024,2023"
-    },
-    {
-      "q_id": "v",
-      "statement": "Give the synonym of the word ‘simple’.",
-      "options": [
-        { "index": "a", "text": "small" },
-        { "index": "b", "text": "great" },
-        { "index": "c", "text": "easy" },
-        { "index": "d", "text": "difficult" }
-      ],
-      "correct_index": "c",
-      "correct_answer": "easy",
-      "explanation": "The word ‘easy’ is the correct synonym of ‘simple’.",
-      "previousYearsDetails": "2024,2023"
-    }
-  ]
-}
-,
     {
       "question_number": "3",
       "question_type": "UNSEEN_PASSAGE_PROSE",
@@ -626,6 +686,96 @@
           ],
           "correct_index": "b",
           "correct_answer": "coffee"
+        }
+      ]
+    },
+    {
+      "question_number": "10(B)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the extract carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "Belinda tickled him, she tickled him unmerciful.\nInk, Blink and Mustard, they rudely called him Percival,\nThey all sat laughing in the little red wagon\nAt the realio, trulio cowardly dragon.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who is the poet of the above extract?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Robert Frost"
+            },
+            {
+              "index": "b",
+              "text": "Ogden Nash"
+            },
+            {
+              "index": "c",
+              "text": "Carl Sandburg"
+            },
+            {
+              "index": "d",
+              "text": "Robin Klein"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Ogden Nash",
+          "explanation": "The poem ‘The Tale of Custard the Dragon’ is written by Ogden Nash.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Whom did Belinda tickle?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Ink"
+            },
+            {
+              "index": "b",
+              "text": "Blink"
+            },
+            {
+              "index": "c",
+              "text": "Mustard"
+            },
+            {
+              "index": "d",
+              "text": "Custard"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Custard",
+          "explanation": "Belinda tickled Custard, the dragon, as mentioned in the extract.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "They all sat ____ in the little red wagon.",
+          "options": [
+            {
+              "index": "a",
+              "text": "playing"
+            },
+            {
+              "index": "b",
+              "text": "laughing"
+            },
+            {
+              "index": "c",
+              "text": "talking"
+            },
+            {
+              "index": "d",
+              "text": "studying"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "laughing",
+          "explanation": "The line in the extract says, ‘They all sat laughing in the little red wagon.’",
+          "previousYearsDetails": null
         }
       ]
     },
