@@ -1,67 +1,1006 @@
 {
-  "paper_details": [
+  "paper_details": {
+    "paperYear": "2023",
+    "subjectName": "ENGLISH",
+    "totalMarks": "75",
+    "board": "MP Board"
+  },
+  "questions": [
     {
-      "totalQuestions": "80",
-      "paperYear": "2023",
-      "paperSet": "A",
-      "totalMarks": "200",
-      "subjectName": "Database Concepts"
-    }
-  ],
-  "optional_questions": [
-    {
-      "question": "Which of the following is a valid SQL command to retrieve data?",
-      "options": ["INSERT", "DELETE", "SELECT", "UPDATE"],
-      "correctIndex": 2,
-      "explanation": "SELECT is used to retrieve data from tables in SQL."
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the following questions:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2023",
+      "passage": "There, once, was a stingy baker. A poor man would stand outside his bakery every day, enjoying the nice smell of baking bread. The baker was very angry at the poor man. He felt that anyone who smelled his delicious products should pay for the smell. So he took the poor man to the court. The judge heard the baker's complaint patiently. Then he asked the poor man, \"Do you have any money?\" The poor man searched his pocket and produced two small coins. \"This is all the money I have,\" he said to the judge. The judge took the coins from the poor man. The baker smiled and eagerly held out his hand. But the judge did not give the baker the money. He only jingled the coins together and then handed them back to the poor man. \"Justice is served!\" he announced. The poor man thanked the judge and quickly left the court. The baker shouted, \"But what about my money?\" The judge said, \"You were paid for the smell of your bread with the sound of his money.\"",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The baker was angry with the poor man because:",
+          "options": [
+            {
+              "index": "a",
+              "text": "The poor man stole his bread."
+            },
+            {
+              "index": "b",
+              "text": "The poor man had no money."
+            },
+            {
+              "index": "c",
+              "text": "The poor man enjoyed the smell of his bread."
+            },
+            {
+              "index": "d",
+              "text": "The poor man stood outside his bakery."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "The poor man enjoyed the smell of his bread.",
+          "explanation": "The passage states, 'He felt that anyone who smelled his delicious products should pay for the smell.'"
+        },
+        {
+          "q_id": "ii",
+          "statement": "What did the judge do with the coins?",
+          "options": [
+            {
+              "index": "a",
+              "text": "He took the coins."
+            },
+            {
+              "index": "b",
+              "text": "He gave the coins to the poor man."
+            },
+            {
+              "index": "c",
+              "text": "He jingled the coins and gave them back to the poor man."
+            },
+            {
+              "index": "d",
+              "text": "He gave the coins to the baker."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "He jingled the coins and gave them back to the poor man.",
+          "explanation": "The passage says, 'He only jingled the coins together and then handed them back to the poor man.'"
+        },
+        {
+          "q_id": "iii",
+          "statement": "The baker was a ______ man.",
+          "options": [
+            {
+              "index": "a",
+              "text": "generous"
+            },
+            {
+              "index": "b",
+              "text": "stingy"
+            },
+            {
+              "index": "c",
+              "text": "kind"
+            },
+            {
+              "index": "d",
+              "text": "friendly"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "stingy",
+          "explanation": "The passage describes him as 'a stingy baker'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The word 'justice' means:",
+          "options": [
+            {
+              "index": "a",
+              "text": "unfairness"
+            },
+            {
+              "index": "b",
+              "text": "fairness"
+            },
+            {
+              "index": "c",
+              "text": "anger"
+            },
+            {
+              "index": "d",
+              "text": "money"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "fairness",
+          "explanation": "'Justice' means treating someone fairly or the quality of being just."
+        },
+        {
+          "q_id": "v",
+          "statement": "The judge paid for the smell of the bread with the ______.",
+          "options": [
+            {
+              "index": "a",
+              "text": "coins"
+            },
+            {
+              "index": "b",
+              "text": "bread"
+            },
+            {
+              "index": "c",
+              "text": "smell"
+            },
+            {
+              "index": "d",
+              "text": "sound of the poor man's money"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "sound of the poor man's money",
+          "explanation": "The judge states, 'You were paid for the smell of your bread with the sound of his money.'"
+        }
+      ]
     },
     {
-      "question": "What is the primary key used for?",
-      "options": ["To allow duplicates", "To ensure unique values", "To store foreign data", "To increase size"],
-      "correctIndex": 1,
-      "explanation": "A primary key uniquely identifies each row in a table."
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the following passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2023",
+      "passage": "In 1866, Alfred Nobel, a Swedish chemist, introduced a form of nitroglycerine that could be handled safely. He called it dynamite. In 1875, he went on to invent gelatinite. These explosives were used in engineering application, but they also had an obvious military application. As a committed pacifist, Nobel hoped that his explosives would provide such a deterrent to war that the world would become so militarised and hostile that he would bring about peace. However, he used in his will to endow the Nobel Prizes awarded to those who have contributed to world peace, to advance humanity. The prizes are in five categories: Physics, Chemistry, Literature, Medicine and Peace. The Bank of Sweden inaugurated a new Nobel Prize for Economics in 1969. In 1903, Marie Curie became the first woman to win the Nobel Prize, sharing it with her husband.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Alfred Nobel introduced a form of nitroglycerine in:",
+          "options": [
+            {
+              "index": "a",
+              "text": "1866"
+            },
+            {
+              "index": "b",
+              "text": "1875"
+            },
+            {
+              "index": "c",
+              "text": "1903"
+            },
+            {
+              "index": "d",
+              "text": "1969"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "1866",
+          "explanation": "The passage starts, 'In 1866, Alfred Nobel, a Swedish chemist, introduced a form of nitroglycerine...'"
+        },
+        {
+          "q_id": "ii",
+          "statement": "What did Alfred Nobel invent?",
+          "options": [
+            {
+              "index": "a",
+              "text": "dynamite"
+            },
+            {
+              "index": "b",
+              "text": "gelatinite"
+            },
+            {
+              "index": "c",
+              "text": "both (a) and (b)"
+            },
+            {
+              "index": "d",
+              "text": "peace prize"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "both (a) and (b)",
+          "explanation": "He invented dynamite in 1866 and gelatinite in 1875."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The Nobel prizes are in five categories, excluding:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Medicine"
+            },
+            {
+              "index": "b",
+              "text": "Economics"
+            },
+            {
+              "index": "c",
+              "text": "Peace"
+            },
+            {
+              "index": "d",
+              "text": "Chemistry"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Economics",
+          "explanation": "The passage states the original prizes are in five categories: Physics, Chemistry, Literature, Medicine and Peace. The Economics prize was inaugurated later in 1969 by the Bank of Sweden."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The word 'pacifist' means:",
+          "options": [
+            {
+              "index": "a",
+              "text": "a person who likes war"
+            },
+            {
+              "index": "b",
+              "text": "a person who dislikes war"
+            },
+            {
+              "index": "c",
+              "text": "a person who likes peace"
+            },
+            {
+              "index": "d",
+              "text": "both (b) and (c)"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "both (b) and (c)",
+          "explanation": "A 'pacifist' is a person who believes that war and violence are unjustifiable and who dislikes war and likes peace."
+        },
+        {
+          "q_id": "v",
+          "statement": "Who was the first woman to win the Nobel Prize?",
+          "options": [
+            {
+              "index": "a",
+              "text": "The Bank of Sweden"
+            },
+            {
+              "index": "b",
+              "text": "Alfred Nobel"
+            },
+            {
+              "index": "c",
+              "text": "Marie Curie"
+            },
+            {
+              "index": "d",
+              "text": "Madam Curie"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Marie Curie",
+          "explanation": "The passage states, 'In 1903, Marie Curie became the first woman to win the Nobel Prize, sharing it with her husband.'"
+        }
+      ]
     },
     {
-      "question": "Which SQL clause is used to filter records?",
-      "options": ["WHERE", "GROUP BY", "HAVING", "ORDER BY"],
-      "correctIndex": 0,
-      "explanation": "WHERE clause filters records based on conditions."
+      "question_number": "3",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "5M",
+      "word_limit": "150 words (approx)",
+      "text": "Read the following passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2023",
+      "passage": "India is a great country. It is called the land of festivals. A festival is an occasion of joy and happiness. It is also an occasion for family re-union. In fact, festivals are an integral part of human life. They mark a pause in the daily monotonous routine. They inspire us to forget our worries and relax. Festivals are important because they play a great role in promoting national integration. They bring all the sections of the society together. Festivals can be religious, social, or national. Religious festivals like Diwali, Holi, and Id are celebrated with great enthusiasm. Social festivals are fairs, tournaments, and exhibitions. National festivals are Independence Day, Republic Day and Gandhi Jayanti. They are celebrated by one and all irrespective of their religion, caste, creed or colour. Festivals also give us a good opportunity to decorate our houses and eat delicious food. They are very important in our lives and we should celebrate them with great enthusiasm.",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "On the basis of your reading of the above passage, make notes on it.",
+          "answer": "1. Importance of Festivals (F's)\n    1.1 Occasion of joy and happiness.\n    1.2 Occasion for family re-union.\n    1.3 Integral part of human life.\n    1.4 Mark a pause in monotonous daily routine.\n    1.5 Inspire us to forget worries and relax.\n2. Role in Society\n    2.1 Promote national integration.\n    2.2 Bring all sections of society together.\n3. Types of Festivals\n    3.1 Religious (e.g., Diwali, Holi, Id) - celebrated with enthusiasm.\n    3.2 Social (e.g., fairs, tournaments, exhibitions).\n    3.3 National (e.g., Independence Day, Republic Day, Gandhi Jayanti) - celebrated by one and all.\n4. Benefits of F's\n    4.1 Opportunity to decorate houses.\n    4.2 Opportunity to eat delicious food.\n    4.3 Should be celebrated with great enthusiasm."
+        },
+        {
+          "topic_id": "ii",
+          "name": "Give a suitable title to it.",
+          "answer": "Festivals: The Soul of India / Importance of Festivals / The Land of Festivals"
+        }
+      ]
     },
     {
-      "question": "Which normal form removes transitive dependency?",
-      "options": ["1NF", "2NF", "3NF", "BCNF"],
-      "correctIndex": 2,
-      "explanation": "3NF eliminates transitive dependency."
-    },
-    {
-      "question": "Which of the following is a NoSQL database?",
-      "options": ["MySQL", "Oracle", "MongoDB", "PostgreSQL"],
-      "correctIndex": 2,
-      "explanation": "MongoDB is a document-based NoSQL database."
-    }
-   
-  ],
-  "written_questions": {
-    "2 Marks": [
-      {
-        "question": "What is the difference between DELETE and TRUNCATE?",
-        "answer": "DELETE can use WHERE clause and logs each row; TRUNCATE removes all records quickly and is not logged row-by-row."
-      },
-      {
-        "question": "What is a foreign key?",
-        "answer": "A foreign key links two tables together and enforces referential integrity."
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4M",
+      "word_limit": "120 words (approx)",
+      "text": "Write an application to your Principal requesting him to grant you three days' leave as you are sick. You are Sonam/Sanjay of Class 10th in Govt. Higher Secondary School, Sehore.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Application to Principal for 3 days' sick leave.",
+          "explanation": "Reference: Formal application to the Principal.\nContext: Student is requesting three days of leave due to sickness.\nExplanation: The application must include the formal address (To the Principal), the school name (Govt. H.S. School, Sehore), the subject (Application for 3 days' sick leave), the reason for absence, and the requested dates. It should conclude with a thank you and the student's name/class (Sonam/Sanjay, Class 10th)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write a letter to your younger brother advising him to study hard for the examination.",
+            "explanation": "Reference: Informal letter to a younger brother.\nContext: The older sibling advises the younger one to focus on studies for the upcoming exam.\nExplanation: The letter should start with an affectionate address and enquire about his well-being. The main body should contain advice on making a study timetable, focusing on weak subjects, and avoiding distractions like mobile phones or excessive socializing. It should end with encouragement and best wishes."
+          }
+        ]
       }
-   
-    ],
-    "5 Marks": [
-      {
-        "question": "Explain ACID properties of a database.",
-        "answer": "ACID stands for Atomicity, Consistency, Isolation, Durability. These ensure safe and reliable transactions."
-      },
-      {
-        "question": "What is indexing in SQL and how does it improve performance?",
-        "answer": "Indexing creates a data structure to improve the speed of data retrieval. It reduces table scans, thus optimizing query performance."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5M",
+      "word_limit": "150 words (approx)",
+      "text": "Write an essay in about 150 words on any one of the following topics:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Importance of Games and Sports",
+          "explanation": "Reference: Health and Education.\nContext: Discusses the physical, mental, and social benefits of games and sports.\nExplanation: The essay should cover points like physical fitness, building team spirit, developing discipline, mental relaxation, and concentration. It should emphasize that sports are essential for holistic development."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Science in Our Daily Life",
+          "explanation": "Reference: Science and Technology.\nContext: Explores the role and impact of science on modern life.\nExplanation: The essay should describe how science has revolutionized various fields (communication, transport, medicine, agriculture) through inventions like electricity, mobile phones, and computers, making life comfortable and convenient."
+        },
+        {
+          "q_id": "iii",
+          "statement": "My Hobby",
+          "explanation": "Reference: Personal Interest.\nContext: Describes a personal leisure activity and its benefits.\nExplanation: The student should select a hobby (e.g., reading, gardening, painting) and explain when and why they started it, how they spend time on it, and what peace, knowledge, or skill it adds to their life."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Any Indian Festival (e.g., Diwali)",
+          "explanation": "Reference: Culture and Tradition.\nContext: Describes the significance and celebration of a major Indian festival.\nExplanation: If Diwali is chosen, the essay should cover its religious significance (Lord Rama's return, Goddess Lakshmi), the date, how people celebrate (cleaning, decorating, lighting lamps/diyas, praying, exchanging sweets), and its message of the victory of good over evil."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "VISUAL_COMPOSITION",
+      "marks": 3,
+      "word_limit": "75 words",
+      "text": "On the basis of the picture given below, write a short paragraph about the advantages of trees.",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "image_data": {
+        "image_url": "",
+        "description": "The visual input shows a depiction of trees and highlights their multiple advantages for the environment and human life, such as providing oxygen, rain, shade, food, and purifying the air."
       }
-    ]
-  }
+    },
+    {
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "There is not {BLANK} water in the pool.",
+          "options": [
+            {
+              "index": "a",
+              "text": "many"
+            },
+            {
+              "index": "b",
+              "text": "much"
+            },
+            {
+              "index": "c",
+              "text": "any"
+            }
+          ],
+          "correct_answer": "much",
+          "explanation": "'Much' is used with uncountable nouns ('water') in negative sentences."
+        },
+        {
+          "q_id": "ii",
+          "statement": "He works hard {BLANK} fail.",
+          "options": [
+            {
+              "index": "a",
+              "text": "to"
+            },
+            {
+              "index": "b",
+              "text": "in order to"
+            },
+            {
+              "index": "c",
+              "text": "lest"
+            }
+          ],
+          "correct_answer": "lest",
+          "explanation": "'Lest' is a conjunction meaning 'in order that... not' and is followed by 'should' (often omitted), implying caution to prevent a negative outcome. (He works hard lest he should fail)."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The dog ran {BLANK} the road.",
+          "options": [
+            {
+              "index": "a",
+              "text": "across"
+            },
+            {
+              "index": "b",
+              "text": "among"
+            },
+            {
+              "index": "c",
+              "text": "between"
+            }
+          ],
+          "correct_answer": "across",
+          "explanation": "'Across' shows movement from one side to the other of a space or surface (the road)."
+        },
+        {
+          "q_id": "iv",
+          "statement": "She has {BLANK} friends.",
+          "options": [
+            {
+              "index": "a",
+              "text": "much"
+            },
+            {
+              "index": "b",
+              "text": "many"
+            },
+            {
+              "index": "c",
+              "text": "some"
+            }
+          ],
+          "correct_answer": "many",
+          "explanation": "'Many' is used with countable plural nouns ('friends'). 'Some' is also possible, but 'many' is a specific quantifier for a large number."
+        },
+        {
+          "q_id": "v",
+          "statement": "We {BLANK} follow the traffic rules.",
+          "options": [
+            {
+              "index": "a",
+              "text": "must"
+            },
+            {
+              "index": "b",
+              "text": "can"
+            },
+            {
+              "index": "c",
+              "text": "may"
+            }
+          ],
+          "correct_answer": "must",
+          "explanation": "'Must' expresses a strong obligation or necessity (it is mandatory to follow traffic rules)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "{BLANK} the sun rises, the stars disappear.",
+          "options": [
+            {
+              "index": "a",
+              "text": "As soon as"
+            },
+            {
+              "index": "b",
+              "text": "No sooner"
+            },
+            {
+              "index": "c",
+              "text": "Hardly"
+            }
+          ],
+          "correct_answer": "As soon as",
+          "explanation": "'As soon as' is the correct conjunction to indicate one action immediately follows another without a complex structure."
+        },
+        {
+          "q_id": "vii",
+          "statement": "They have been playing here {BLANK} morning.",
+          "options": [
+            {
+              "index": "a",
+              "text": "for"
+            },
+            {
+              "index": "b",
+              "text": "since"
+            },
+            {
+              "index": "c",
+              "text": "from"
+            }
+          ],
+          "correct_answer": "since",
+          "explanation": "'Since' is used to denote a specific point in time ('morning') when an action began and is used with perfect continuous tenses."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Do as directed : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "He did his work. (Change into negative)",
+          "explanation": "He did not do his work."
+        },
+        {
+          "q_id": "ii",
+          "statement": "He is very weak. He cannot walk. (Combine the sentences using 'so...that')",
+          "explanation": "He is so weak that he cannot walk."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The train was delayed. The weather was bad. (Combine the sentences using 'because')",
+          "explanation": "The train was delayed because the weather was bad."
+        },
+        {
+          "q_id": "iv",
+          "statement": "He took tea. (Change into passive voice)",
+          "explanation": "Tea was taken by him."
+        },
+        {
+          "q_id": "v",
+          "statement": "He is my brother. He is wearing a red shirt. (Combine the sentences using a relative clause)",
+          "explanation": "He is my brother who is wearing a red shirt."
+        },
+        {
+          "q_id": "vi",
+          "statement": "He knows the truth. (Change into interrogative)",
+          "explanation": "Does he know the truth?"
+        },
+        {
+          "q_id": "vii",
+          "statement": "He sells clothes. (Change into present perfect tense)",
+          "explanation": "He has sold clothes."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "text": "Choose the correct answer :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Lencho wrote a letter to:",
+          "options": [
+            {
+              "index": "a",
+              "text": "The postmaster"
+            },
+            {
+              "index": "b",
+              "text": "God"
+            },
+            {
+              "index": "c",
+              "text": "His friend"
+            },
+            {
+              "index": "d",
+              "text": "The farmer"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "God"
+        },
+        {
+          "q_id": "ii",
+          "statement": "What does 'ice' stand for in the poem 'Fire and Ice'?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Hatred"
+            },
+            {
+              "index": "b",
+              "text": "Desire"
+            },
+            {
+              "index": "c",
+              "text": "Anger"
+            },
+            {
+              "index": "d",
+              "text": "Greed"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Hatred"
+        },
+        {
+          "q_id": "iii",
+          "statement": "The postmaster decided to collect money and send it to Lencho because:",
+          "options": [
+            {
+              "index": "a",
+              "text": "He was a religious man."
+            },
+            {
+              "index": "b",
+              "text": "He did not want to shake Lencho's faith in God."
+            },
+            {
+              "index": "c",
+              "text": "He was a good-natured man."
+            },
+            {
+              "index": "d",
+              "text": "He was the only one to help him."
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "He did not want to shake Lencho's faith in God."
+        },
+        {
+          "q_id": "iv",
+          "statement": "According to Nelson Mandela, what is a man’s first obligation in life?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Obligation to his family"
+            },
+            {
+              "index": "b",
+              "text": "Obligation to his people"
+            },
+            {
+              "index": "c",
+              "text": "Obligation to his country"
+            },
+            {
+              "index": "d",
+              "text": "All of these"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "All of these"
+        }
+      ]
+    },
+    {
+      "question_number": "10(A)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the following extract and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2023",
+      "passage": "He looked at the card, then at M. Loisel. He had never seen her look so cross. 'What is the matter?' he stammered. She replied, 'I am vexed not to have a jewel—nothing to put on. I shall look poor. I would almost rather not go to the party.' He replied, 'You can wear natural flowers. They are very chic at this season.' She was not convinced. 'There is nothing more humiliating than to look poor among a lot of rich women,' she said. Then suddenly her husband cried out, 'How stupid we are! Why don't you go and ask your friend Madame Forestier to lend you some jewels?'",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Whom did M. Loisel ask his wife to ask for a loan of jewellery?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Madame Ramponneau"
+            },
+            {
+              "index": "b",
+              "text": "Madame Forestier"
+            },
+            {
+              "index": "c",
+              "text": "Madame Smith"
+            },
+            {
+              "index": "d",
+              "text": "Her mother"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Madame Forestier",
+          "explanation": "Her husband suggests, 'Why don't you go and ask your friend Madame Forestier to lend you some jewels?'"
+        },
+        {
+          "q_id": "ii",
+          "statement": "What does 'vexed' mean?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Pleased"
+            },
+            {
+              "index": "b",
+              "text": "Sad"
+            },
+            {
+              "index": "c",
+              "text": "Annoyed"
+            },
+            {
+              "index": "d",
+              "text": "Happy"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Annoyed",
+          "explanation": "'Vexed' means annoyed, frustrated, or worried."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What was Loisel's wife afraid of?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Going alone to the party"
+            },
+            {
+              "index": "b",
+              "text": "Looking poor among rich women"
+            },
+            {
+              "index": "c",
+              "text": "The party"
+            },
+            {
+              "index": "d",
+              "text": "Wearing flowers"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Looking poor among rich women",
+          "explanation": "She says, 'There is nothing more humiliating than to look poor among a lot of rich women.'"
+        }
+      ]
+    },
+    {
+      "question_number": "10(B)",
+      "question_type": "UNSEEN_PASSAGE_POEM",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the following extract and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2023",
+      "passage": "He hears the last voice at night,\n the patrolling cars,\n and stares with his brilliant eyes\n at the brilliant stars.\n\nHe moves in his quiet rage,\n in his velvet pads.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who is the poet of the above poem?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Robert Frost"
+            },
+            {
+              "index": "b",
+              "text": "Leslie Norris"
+            },
+            {
+              "index": "c",
+              "text": "Robin Klein"
+            },
+            {
+              "index": "d",
+              "text": "Carolyn Wells"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Leslie Norris",
+          "explanation": "The poem is 'A Tiger in the Zoo', written by Leslie Norris."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The tiger stares at the ______ with his brilliant eyes.",
+          "options": [
+            {
+              "index": "a",
+              "text": "brilliant stars"
+            },
+            {
+              "index": "b",
+              "text": "cages"
+            },
+            {
+              "index": "c",
+              "text": "patrolling cars"
+            },
+            {
+              "index": "d",
+              "text": "all of these"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "brilliant stars",
+          "explanation": "The extract says, 'and stares with his brilliant eyes at the brilliant stars.'"
+        },
+        {
+          "q_id": "iii",
+          "statement": "What is the opposite word of 'quiet'?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Calm"
+            },
+            {
+              "index": "b",
+              "text": "Slow"
+            },
+            {
+              "index": "c",
+              "text": "Loud"
+            },
+            {
+              "index": "d",
+              "text": "Fast"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Loud",
+          "explanation": "The opposite of 'quiet' is 'loud'."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×6=12",
+      "word_limit": "30 words (approx)",
+      "text": "Answer the following questions: (any six)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who or what did Lencho have faith in? What did he do?",
+          "explanation": "Lencho had deep faith in God. He wrote a letter to God, asking for a hundred pesos to sow his crop again and live until the new harvest."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What Nelson Mandela thought about the oppressor?",
+          "explanation": "Nelson Mandela believed that the oppressor is a prisoner of hatred, locked behind the bars of prejudice and narrow-mindedness. He thought the oppressor is as much robbed of their humanity as the oppressed."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why were two national anthems sung?",
+          "explanation": "Two national anthems were sung on the day of the inauguration to symbolize the equality of black and white people, marking the end of apartheid and the establishment of a democratic, non-racial government."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What compelled young seagull to take his first flight?",
+          "explanation": "The sight of his mother tearing a piece of fish and landing just out of his reach, coupled with his extreme hunger, maddened the young seagull and compelled him to finally take his first flight."
+        },
+        {
+          "q_id": "v",
+          "statement": "What is the Chinese legend about tea?",
+          "explanation": "The Chinese legend states that tea was accidentally discovered by the Emperor Shen Nung. A leaf of a twig burning under the pot fell into the water he was boiling, giving it a delicious flavour."
+        },
+        {
+          "q_id": "vi",
+          "statement": "How did Valli react for the dead cow?",
+          "explanation": "Valli was deeply saddened and felt a great sense of gloom. The memory of the dead, lifeless cow lying in the middle of the road haunted her, and she could no longer enjoy the view on her return journey."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Why did Siddhartha Gautama abandon his luxurious life?",
+          "explanation": "Siddhartha Gautama abandoned his luxurious life after seeing the suffering of the world: a sick man, an aged man, a funeral procession, and a monk begging. These sights made him seek enlightenment and a solution to the suffering."
+        },
+        {
+          "q_id": "viii",
+          "statement": "Where did Siddhartha Gautama get enlightenment? What name was given to him after that?",
+          "explanation": "Siddhartha Gautama got enlightenment under a peepal tree in Bodh Gaya. After achieving enlightenment, he was known as the Buddha, meaning 'The Awakened' or 'The Enlightened One'."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "word_limit": "50 words (approx)",
+      "text": "Answer the following questions in 50 words: (any two)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "In the reference of the poem 'Fire and Ice', how will the world end?",
+          "explanation": "According to the poet, the world will end in one of two ways: either by 'fire' (which represents desire and lust), or by 'ice' (which represents hatred and cold indifference). The poet considers both forces—human desire and hatred—to be equally powerful and sufficient for the destruction of the world."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What are the things that Amanda's mother ask her to do and not to do?",
+          "explanation": "Amanda's mother asks her to finish her homework, tidy her room, clean her shoes, and sit up straight. She forbids Amanda from biting her nails, hunching her shoulders, and eating chocolate, as she believes these are unhealthy or improper habits."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How will the departure of the trees affect the house?",
+          "explanation": "The departure of the trees will leave the house empty and exposed. The roof will be cracked, and the scent of leaves and lichen will fill the rooms. The glass will be broken, and the entire house will feel abandoned and silent without the natural presence of the trees."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "word_limit": "30 words (approx)",
+      "instruction": "Answer the following questions (30 words): (any two)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did the narrator cure Tricki?",
+          "explanation": "The narrator (Mr. Herriot) cured Tricki not with medicine but by controlling his diet. He gave the dog no food for two days, only water, and gradually introduced exercise and normal food. Tricki cured himself through his natural instincts and activity with other dogs."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How did Ausable get rid of Max?",
+          "explanation": "Ausable got rid of Max by using his quick wit. He invented the story of a non-existent balcony and a police presence at his door. When Max heard a knock, he believed the police were at the door and jumped out of the window onto the non-existent balcony, falling to his death."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How did Griffin become invisible?",
+          "explanation": "Griffin was a brilliant but lawless scientist who discovered how to make the human body transparent and invisible. He swallowed certain rare drugs, which made his body as transparent as a sheet of glass, thus achieving invisibility."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75 words (approx)",
+      "instruction": "Answer any one of the following questions:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did Valli plan her bus ride? What did she find out about the bus, and how did she save up the fare?",
+          "explanation": "Valli planned her bus ride by listening carefully to conversations between her neighbours and people using the bus. She learned the town was six miles away and the fare was thirty paise one way. She saved the fare by resisting temptations like buying peppermints, toys, and having a firm desire to ride the bus."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How did marriage take place finally?",
+          "explanation": "The question refers to the play 'The Proposal'. The marriage finally takes place because, despite their continuous, heated, and petty arguments over Oxen Meadows and their dogs, Lomov collapses due to his palpitations, leading Natalya to fear he is dead. In her hysteria, she agrees to the marriage. Chubukov hastily declares them married to prevent another argument, and the couple begins arguing again immediately after the toast."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75 words (approx)",
+      "instruction": "Answer any one of the following questions:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the central idea of the poem 'How to Tell Wild Animals'.",
+          "explanation": "The central idea of the poem is to introduce the reader to various wild animals in a humorous and unconventional way. The poet uses witty and exaggerated characteristics, like the Bengal Tiger's noble presence and the Bear's suffocating hug, to create a comical guide, while also highlighting the inherent danger of these creatures."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What does the young boy say to Anne Gregory?",
+          "explanation": "The young man in the poem tells Anne Gregory that no man could truly love her for her inner self alone, but only for her beautiful physical features, such as her yellow hair. He implies that men are naturally drawn to superficial beauty and that only God could love her purely for her soul."
+        }
+      ],
+      "or_option": {
+        "text": "OR (Implied, as Q15 has two options but one instruction set)",
+        "parts": [
+          {
+            "q_id": "iii",
+            "statement": "Why did Custard cry for a nice safe cage? Why is the dragon called 'cowardly dragon'?",
+            "explanation": "Custard cried for a nice safe cage because he was naturally fearful and timid, in contrast to the supposed bravery of Belinda's other pets. He is called the 'cowardly dragon' for this timidity and because of his constant crying for safety, despite his large, fierce appearance. This serves as a humorous contradiction in the poem."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75 words (approx)",
+      "instruction": "Answer any one of the following questions:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Noodle avoids offending Think-Tank but at the same time he corrects his mistakes. How does he manage to do that?",
+          "explanation": "Noodle manages this by framing his corrections as suggestions that merely *support* or *elaborate* on Think-Tank’s 'superior' ideas. He never directly contradicts the commander. For example, he might say, 'Did it not occur to the mighty Think-Tank that...' or 'It has been observed, sir, that a small point might be...' This flattery ensures Think-Tank retains his ego while the correct information is adopted."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What was the cause of Matilda's ruin? How could she have avoided it?",
+          "explanation": "Matilda’s ruin was caused by her deep-seated dissatisfaction with her modest life and her vanity, which led her to borrow a diamond necklace for a ball. She could have avoided it by being honest: either by telling her friend, Madame Forestier, immediately that she had lost the necklace, or by simply being content with her life and not borrowing the jewellery in the first place."
+        }
+      ]
+    }
+  ]
 }
