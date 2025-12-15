@@ -38,7 +38,9 @@
             }
           ],
           "correct_index": "c",
-          "correct_answer": "Swedish Chemist"
+          "correct_answer": "Swedish Chemist",
+          "explanation": "The passage clearly states that Alfred Nobel was a Swedish chemist.",
+          "previousYearsDetails": "2024,2023"
         },
         {
           "q_id": "ii",
@@ -62,7 +64,9 @@
             }
           ],
           "correct_index": "b",
-          "correct_answer": "form of nitroglycerine"
+          "correct_answer": "form of nitroglycerine",
+          "explanation": "According to the passage, Alfred Nobel introduced a safe form of nitroglycerine, which he later called dynamite.",
+          "previousYearsDetails": "2024,2023"
         },
         {
           "q_id": "iii",
@@ -86,7 +90,9 @@
             }
           ],
           "correct_index": "d",
-          "correct_answer": "1969"
+          "correct_answer": "1969",
+          "explanation": "The passage mentions that the Bank of Sweden introduced the Nobel Prize in Economics in 1969.",
+          "previousYearsDetails": "2024,2023"
         },
         {
           "q_id": "iv",
@@ -110,7 +116,9 @@
             }
           ],
           "correct_index": "d",
-          "correct_answer": "All of the above"
+          "correct_answer": "All of the above",
+          "explanation": "Alfred Nobel left his wealth to establish prizes in Physics, Chemistry, Literature and Peace, as mentioned in the passage.",
+          "previousYearsDetails": "2024,2023"
         },
         {
           "q_id": "v",
@@ -134,7 +142,9 @@
             }
           ],
           "correct_index": "a",
-          "correct_answer": "Marie Curie"
+          "correct_answer": "Marie Curie",
+          "explanation": "The passage states that Marie Curie became the first woman to win the Nobel Prize in 1903.",
+          "previousYearsDetails": "2024,2023"
         }
       ]
     },
