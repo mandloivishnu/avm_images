@@ -1,5 +1,6 @@
 {
   "10_COMMON_MPBSE_EN": ["HIN","ENG","SAN","SOC","SCI","MATH","COMP","IT","AI"],
+   "10_COMMON_MPBSE_HI": ["HIN","ENG","SAN","SOC","SCI","MATH","COMP","IT","AI"],
   "12_SCI_STREAM_MPBSE_EN": ["PHY", "CHEM", "BIO", "MATH", "ENG"],
   "12_SCI_STREAM_CBSE_EN": ["PHY", "CHEM", "BIO", "MATH", "ENG"],
   "12_COM_STREAM_MPBSE_EN": ["ACC", "BUS", "ECO", "MATH", "ENG"],
