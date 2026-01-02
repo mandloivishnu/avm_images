@@ -1,0 +1,182 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Mathematics (Trigonometry)",
+    "totalMarks": "75",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*6=6",
+      "text": "Select and write the correct option:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The value of sin 30° is",
+          "options": [
+            { "index": "A", "text": "1" },
+            { "index": "B", "text": "1/2" },
+            { "index": "C", "text": "√3/2" },
+            { "index": "D", "text": "0" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "1/2",
+          "explanation": "sin 30° = 1/2",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "ii",
+          "statement": "The value of cos 60° is",
+          "options": [
+            { "index": "A", "text": "1/2" },
+            { "index": "B", "text": "√3/2" },
+            { "index": "C", "text": "1" },
+            { "index": "D", "text": "0" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1/2",
+          "explanation": "cos 60° = 1/2",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "iii",
+          "statement": "The value of tan 45° is",
+          "options": [
+            { "index": "A", "text": "0" },
+            { "index": "B", "text": "1" },
+            { "index": "C", "text": "√3" },
+            { "index": "D", "text": "1/√3" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "1",
+          "explanation": "tan 45° = 1",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "iv",
+          "statement": "The value of sin²A + cos²A is",
+          "options": [
+            { "index": "A", "text": "0" },
+            { "index": "B", "text": "1" },
+            { "index": "C", "text": "2" },
+            { "index": "D", "text": "sinA" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "1",
+          "explanation": "According to the trigonometric identity, sin²A + cos²A = 1",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "v",
+          "statement": "tan A = ?",
+          "options": [
+            { "index": "A", "text": "cosA / sinA" },
+            { "index": "B", "text": "sinA / cosA" },
+            { "index": "C", "text": "1 / sinA" },
+            { "index": "D", "text": "1 / cosA" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "sinA / cosA",
+          "explanation": "tan A = sinA / cosA",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "vi",
+          "statement": "The value of sec 0° is",
+          "options": [
+            { "index": "A", "text": "0" },
+            { "index": "B", "text": "1" },
+            { "index": "C", "text": "∞" },
+            { "index": "D", "text": "Not defined" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "1",
+          "explanation": "sec 0° = 1 / cos 0° = 1",
+          "previousYearsDetails": "2024,2023"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1*6=6",
+      "text": "Select True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "sin 90° = 1",
+          "correct_answer": "true",
+          "explanation": "The value of sin 90° is 1."
+        },
+        {
+          "q_id": "ii",
+          "statement": "cos 0° = 0",
+          "correct_answer": "false",
+          "explanation": "cos 0° = 1."
+        },
+        {
+          "q_id": "iii",
+          "statement": "tan 0° = 1",
+          "correct_answer": "false",
+          "explanation": "tan 0° = 0."
+        },
+        {
+          "q_id": "iv",
+          "statement": "sin²A + cos²A = 1",
+          "correct_answer": "true",
+          "explanation": "This is a fundamental trigonometric identity."
+        },
+        {
+          "q_id": "v",
+          "statement": "tan A = sec A / cosec A",
+          "correct_answer": "true",
+          "explanation": "secA / cosecA = (1/cosA)/(1/sinA) = sinA/cosA = tanA."
+        },
+        {
+          "q_id": "vi",
+          "statement": "cos 90° is not defined",
+          "correct_answer": "false",
+          "explanation": "cos 90° = 0."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2M",
+      "word_limit": "30 words (approx)",
+      "parts": [
+        {
+          "statement": "What are trigonometric ratios?",
+          "explanation": "The ratios of the sides of a right-angled triangle with respect to an angle are called trigonometric ratios."
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2M",
+      "word_limit": "30 words (approx)",
+      "parts": [
+        {
+          "statement": "Write the relation between sin A and cos A.",
+          "explanation": "sin²A + cos²A = 1"
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2M",
+      "word_limit": "30 words (approx)",
+      "parts": [
+        {
+          "statement": "Write the formula of tan A.",
+          "explanation": "tan A = sin A / cos A"
+        }
+      ]
+    }
+  ]
+}
