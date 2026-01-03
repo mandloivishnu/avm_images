@@ -690,6 +690,97 @@
       ]
     },
     {
+  "question_number": "10(A)",
+  "question_type": "UNSEEN_PASSAGE_PROSE",
+  "marks": "1×3=3",
+  "word_limit": null,
+  "text": "Read the extract carefully and answer the questions given below:",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "passage": "Early in the New Year of 1956 I travelled to southern Iraq. By then it had crossed my mind that I should like to keep an otter instead of a dog, and that Camusfearna, ringed by water a stone’s throw from its door, would be an eminently suitable spot for this experiment.\nWhen I casually mentioned this to a friend, he as casually replied that I had better get one in the Tigris marshes, for there they were as common as mosquitoes, and were often tamed by the Arabs. We were going to Basra to the Consulate-General to collect and answer our mail from Europe. At the Consulate-General we found that my friend’s mail had arrived but that mine had not.",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "The author travelled ____.",
+      "options": [
+        {
+          "index": "a",
+          "text": "U.S.A."
+        },
+        {
+          "index": "b",
+          "text": "Iraq"
+        },
+        {
+          "index": "c",
+          "text": "Australia"
+        },
+        {
+          "index": "d",
+          "text": "Japan"
+        }
+      ],
+      "correct_index": "b",
+      "correct_answer": "Iraq",
+      "explanation": "The extract clearly mentions that the author travelled to southern Iraq.",
+      "previousYearsDetails": null
+    },
+    {
+      "q_id": "ii",
+      "statement": "When did the author travel?",
+      "options": [
+        {
+          "index": "a",
+          "text": "1947"
+        },
+        {
+          "index": "b",
+          "text": "1956"
+        },
+        {
+          "index": "c",
+          "text": "1999"
+        },
+        {
+          "index": "d",
+          "text": "1971"
+        }
+      ],
+      "correct_index": "b",
+      "correct_answer": "1956",
+      "explanation": "The passage begins with the line, ‘Early in the New Year of 1956 I travelled to southern Iraq.’",
+      "previousYearsDetails": null
+    },
+    {
+      "q_id": "iii",
+      "statement": "The author wanted to keep an otter instead of a ____.",
+      "options": [
+        {
+          "index": "a",
+          "text": "dog"
+        },
+        {
+          "index": "b",
+          "text": "cat"
+        },
+        {
+          "index": "c",
+          "text": "monkey"
+        },
+        {
+          "index": "d",
+          "text": "cow"
+        }
+      ],
+      "correct_index": "a",
+      "correct_answer": "dog",
+      "explanation": "The author mentions that he wanted to keep an otter instead of a dog.",
+      "previousYearsDetails": null
+    }
+  ]
+}
+    ,
+    {
       "question_number": "10(B)",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×3=3",
