@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "गणित (Trigonometry Applications)",
+    "subjectName": "त्रिकोणमिति के कुछ अनुप्रयोग – Applications of Trigonometry",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,783 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "Trigonometry Applications – प्रश्न 1 का स्टेटमेंट",
+          "statement": "क्षैतिज रेखा और दृष्टि रेखा के बीच बना कोण, जब वस्तु क्षैतिज स्तर से ऊपर हो, कहलाता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A1"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B1"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C1"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D1"
-            }
+            {"index": "अ", "text": "अवनमन कोण (Angle of Depression)"},
+            {"index": "ब", "text": "उन्नयन कोण (Angle of Elevation)"},
+            {"index": "स", "text": "समकोण"},
+            {"index": "द", "text": "पूरक कोण"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A1",
-          "explanation": "सही उत्तर विकल्प A1 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "उन्नयन कोण (Angle of Elevation)",
+          "explanation": "जब हम अपनी आँखें ऊपर उठाकर किसी वस्तु को देखते हैं, तो उन्नयन कोण बनता है।"
         },
         {
           "q_id": "2",
-          "statement": "Trigonometry Applications – प्रश्न 2 का स्टेटमेंट",
+          "statement": "जब प्रेक्षक वस्तु को नीचे की ओर देखता है, तो क्षैतिज रेखा और दृष्टि रेखा के बीच बना कोण कहलाता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A2"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B2"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C2"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D2"
-            }
+            {"index": "अ", "text": "उन्नयन कोण"},
+            {"index": "ब", "text": "अवनमन कोण"},
+            {"index": "स", "text": "शीर्षाभिमुख कोण"},
+            {"index": "द", "text": "अधिक कोण"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A2",
-          "explanation": "सही उत्तर विकल्प A2 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "अवनमन कोण",
+          "explanation": "नीचे की ओर देखने पर बनने वाला कोण अवनमन कोण कहलाता है।"
         },
         {
           "q_id": "3",
-          "statement": "Trigonometry Applications – प्रश्न 3 का स्टेटमेंट",
+          "statement": "एक ऊर्ध्वाधर खंभे की ऊँचाई और उसकी छाया की लंबाई बराबर है। सूर्य का उन्नयन कोण क्या होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A3"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B3"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C3"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D3"
-            }
+            {"index": "अ", "text": "30°"},
+            {"index": "ब", "text": "45°"},
+            {"index": "स", "text": "60°"},
+            {"index": "द", "text": "90°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A3",
-          "explanation": "सही उत्तर विकल्प A3 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "45°",
+          "explanation": "$\tan \theta = \text{ऊँचाई} / \text{छाया} = h/h = 1$। अतः $\theta = 45^\circ$।"
         },
         {
           "q_id": "4",
-          "statement": "Trigonometry Applications – प्रश्न 4 का स्टेटमेंट",
+          "statement": "किसी मीनार की छाया उसकी ऊँचाई की $\sqrt{3}$ गुनी है। सूर्य का उन्नयन कोण है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A4"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B4"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C4"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D4"
-            }
+            {"index": "अ", "text": "30°"},
+            {"index": "ब", "text": "45°"},
+            {"index": "स", "text": "60°"},
+            {"index": "द", "text": "90°"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A4",
-          "explanation": "सही उत्तर विकल्प A4 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "30°",
+          "explanation": "$\tan \theta = h / (h\sqrt{3}) = 1/\sqrt{3}$। अतः $\theta = 30^\circ$।"
         },
         {
           "q_id": "5",
-          "statement": "Trigonometry Applications – प्रश्न 5 का स्टेटमेंट",
+          "statement": "मीनार के आधार से 100 मीटर दूर स्थित बिंदु से शिखर का उन्नयन कोण 60° है। मीनार की ऊँचाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A5"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B5"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C5"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D5"
-            }
+            {"index": "अ", "text": "100√3 m"},
+            {"index": "ब", "text": "100/√3 m"},
+            {"index": "स", "text": "50 m"},
+            {"index": "द", "text": "200 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A5",
-          "explanation": "सही उत्तर विकल्प A5 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "100√3 m",
+          "explanation": "$h = 100 \times \tan 60^\circ = 100\sqrt{3}$।"
         },
         {
           "q_id": "6",
-          "statement": "Trigonometry Applications – प्रश्न 6 का स्टेटमेंट",
+          "statement": "किसी समय एक खंभे की छाया उसकी ऊँचाई से कम है। उन्नयन कोण होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A6"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B6"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C6"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D6"
-            }
+            {"index": "अ", "text": "45° से कम"},
+            {"index": "ब", "text": "45° से अधिक"},
+            {"index": "स", "text": "45° के बराबर"},
+            {"index": "द", "text": "30°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A6",
-          "explanation": "सही उत्तर विकल्प A6 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "45° से अधिक",
+          "explanation": "जब ऊँचाई > छाया होती है, तो $\tan \theta > 1$ होता है, अर्थात $\theta > 45^\circ$।"
         },
         {
           "q_id": "7",
-          "statement": "Trigonometry Applications – प्रश्न 7 का स्टेटमेंट",
+          "statement": "एक 6 मीटर ऊँचे खंभे की छाया 2√3 मीटर है। सूर्य का उन्नयन कोण होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A7"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B7"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C7"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D7"
-            }
+            {"index": "अ", "text": "60°"},
+            {"index": "ब", "text": "30°"},
+            {"index": "स", "text": "45°"},
+            {"index": "द", "text": "90°"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A7",
-          "explanation": "सही उत्तर विकल्प A7 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "60°",
+          "explanation": "$\tan \theta = 6 / (2\sqrt{3}) = 3/\sqrt{3} = \sqrt{3}$। अतः $\theta = 60^\circ$।"
         },
         {
           "q_id": "8",
-          "statement": "Trigonometry Applications – प्रश्न 8 का स्टेटमेंट",
+          "statement": "ऊँचाई और दूरी के प्रश्नों को हल करने के लिए किस त्रिभुज का उपयोग किया जाता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A8"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B8"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C8"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D8"
-            }
+            {"index": "अ", "text": "न्यूनकोण त्रिभुज"},
+            {"index": "ब", "text": "समकोण त्रिभुज"},
+            {"index": "स", "text": "अधिककोण त्रिभुज"},
+            {"index": "द", "text": "विषमबाहु त्रिभुज"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A8",
-          "explanation": "सही उत्तर विकल्प A8 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समकोण त्रिभुज",
+          "explanation": "त्रिकोणमिति के अनुपात समकोण त्रिभुज पर आधारित होते हैं।"
         },
         {
           "q_id": "9",
-          "statement": "Trigonometry Applications – प्रश्न 9 का स्टेटमेंट",
+          "statement": "एक पतंग की डोरी 100 मीटर लंबी है और क्षैतिज से 60° का कोण बनाती है। पतंग की ऊँचाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A9"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B9"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C9"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D9"
-            }
+            {"index": "अ", "text": "50 m"},
+            {"index": "ब", "text": "50√3 m"},
+            {"index": "स", "text": "100√3 m"},
+            {"index": "द", "text": "75 m"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A9",
-          "explanation": "सही उत्तर विकल्प A9 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "50√3 m",
+          "explanation": "$\sin 60^\circ = h/100 \implies h = 100 \times (\sqrt{3}/2) = 50\sqrt{3}$।"
         },
         {
           "q_id": "10",
-          "statement": "Trigonometry Applications – प्रश्न 10 का स्टेटमेंट",
+          "statement": "क्षैतिज तल पर स्थित किसी बिंदु से देखने वाली आँख तक की रेखा कहलाती है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A10"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B10"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C10"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D10"
-            }
+            {"index": "अ", "text": "क्षैतिज रेखा"},
+            {"index": "ब", "text": "दृष्टि रेखा (Line of Sight)"},
+            {"index": "स", "text": "ऊर्ध्वाधर रेखा"},
+            {"index": "द", "text": "लंबवत रेखा"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A10",
-          "explanation": "सही उत्तर विकल्प A10 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "दृष्टि रेखा (Line of Sight)",
+          "explanation": "आँख और देखी जाने वाली वस्तु को जोड़ने वाली रेखा दृष्टि रेखा कहलाती है।"
         },
         {
           "q_id": "11",
-          "statement": "Trigonometry Applications – प्रश्न 11 का स्टेटमेंट",
+          "statement": "यदि सूर्य का उन्नयन कोण 30° से बढ़कर 60° हो जाए, तो मीनार की छाया की लंबाई:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A11"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B11"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C11"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D11"
-            }
+            {"index": "अ", "text": "बढ़ जाएगी"},
+            {"index": "ब", "text": "घट जाएगी"},
+            {"index": "स", "text": "वही रहेगी"},
+            {"index": "द", "text": "दोगुनी हो जाएगी"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A11",
-          "explanation": "सही उत्तर विकल्प A11 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "घट जाएगी",
+          "explanation": "जैसे-जैसे सूर्य सिर के ऊपर आता है (कोण बढ़ता है), छाया छोटी होती जाती है।"
         },
         {
           "q_id": "12",
-          "statement": "Trigonometry Applications – प्रश्न 12 का स्टेटमेंट",
+          "statement": "75 मीटर ऊँचे लाइटहाउस से एक जहाज का अवनमन कोण 30° है। लाइटहाउस से जहाज की दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A12"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B12"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C12"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D12"
-            }
+            {"index": "अ", "text": "75√3 m"},
+            {"index": "ब", "text": "25√3 m"},
+            {"index": "स", "text": "75 m"},
+            {"index": "द", "text": "150 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A12",
-          "explanation": "सही उत्तर विकल्प A12 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "75√3 m",
+          "explanation": "$\tan 30^\circ = 75/x \implies x = 75 \times \sqrt{3}$।"
         },
         {
           "q_id": "13",
-          "statement": "Trigonometry Applications – प्रश्न 13 का स्टेटमेंट",
+          "statement": "पहाड़ी की ऊँचाई ज्ञात करने के लिए किस उपकरण का प्रयोग किया जाता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A13"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B13"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C13"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D13"
-            }
+            {"index": "अ", "text": "बैरोमीटर"},
+            {"index": "ब", "text": "थियोडोलाइट (Theodolite)"},
+            {"index": "स", "text": "स्पीडोमीटर"},
+            {"index": "द", "text": "अमीटर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A13",
-          "explanation": "सही उत्तर विकल्प A13 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "थियोडोलाइट (Theodolite)",
+          "explanation": "थियोडोलाइट का उपयोग कोण मापने के लिए किया जाता है।"
         },
         {
           "q_id": "14",
-          "statement": "Trigonometry Applications – प्रश्न 14 का स्टेटमेंट",
+          "statement": "यदि अवनमन कोण 45° है, तो उन्नयन कोण होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A14"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B14"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C14"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D14"
-            }
+            {"index": "अ", "text": "90°"},
+            {"index": "ब", "text": "45°"},
+            {"index": "स", "text": "0°"},
+            {"index": "द", "text": "135°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A14",
-          "explanation": "सही उत्तर विकल्प A14 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "45°",
+          "explanation": "एकांतर कोण (Alternate angles) होने के कारण दोनों बराबर होते हैं।"
         },
         {
           "q_id": "15",
-          "statement": "Trigonometry Applications – प्रश्न 15 का स्टेटमेंट",
+          "statement": "एक मीनार के शिखर का उन्नयन कोण उसके पाद से 30 मीटर की दूरी पर 30° है। मीनार की ऊँचाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A15"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B15"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C15"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D15"
-            }
+            {"index": "अ", "text": "10√3 m"},
+            {"index": "ब", "text": "30√3 m"},
+            {"index": "स", "text": "10 m"},
+            {"index": "द", "text": "20 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A15",
-          "explanation": "सही उत्तर विकल्प A15 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "10√3 m",
+          "explanation": "$h = 30 \times \tan 30^\circ = 30/\sqrt{3} = 10\sqrt{3}$।"
         },
         {
           "q_id": "16",
-          "statement": "Trigonometry Applications – प्रश्न 16 का स्टेटमेंट",
+          "statement": "दृष्टि रेखा और क्षैतिज रेखा हमेशा कहाँ से शुरू होती हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A16"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B16"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C16"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D16"
-            }
+            {"index": "अ", "text": "वस्तु से"},
+            {"index": "ब", "text": "प्रेक्षक की आँख से"},
+            {"index": "स", "text": "जमीन से"},
+            {"index": "द", "text": "आसमान से"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A16",
-          "explanation": "सही उत्तर विकल्प A16 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "प्रेक्षक की आँख से",
+          "explanation": "कोणों का मापन देखने वाले की आँख के स्तर से शुरू होता है।"
         },
         {
           "q_id": "17",
-          "statement": "Trigonometry Applications – प्रश्न 17 का स्टेटमेंट",
+          "statement": "एक 1.5 मीटर लंबा लड़का 30 मीटर ऊँची मीनार से कुछ दूरी पर खड़ा है। उसके आँख से मीनार के शिखर का उन्नयन कोण 30° है। मीनार की प्रभावी ऊँचाई गणना के लिए क्या होगी?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A17"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B17"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C17"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D17"
-            }
+            {"index": "अ", "text": "30 m"},
+            {"index": "ब", "text": "28.5 m"},
+            {"index": "स", "text": "31.5 m"},
+            {"index": "द", "text": "1.5 m"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A17",
-          "explanation": "सही उत्तर विकल्प A17 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "28.5 m",
+          "explanation": "मीनार की कुल ऊँचाई में से लड़के की लंबाई घटाई जाती है (30 - 1.5 = 28.5)।"
         },
         {
           "q_id": "18",
-          "statement": "Trigonometry Applications – प्रश्न 18 का स्टेटमेंट",
+          "statement": "यदि पेड़ की छाया की लंबाई बढ़ रही है, तो सूर्य का उन्नयन कोण:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A18"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B18"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C18"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D18"
-            }
+            {"index": "अ", "text": "बढ़ रहा है"},
+            {"index": "ब", "text": "घट रहा है"},
+            {"index": "स", "text": "स्थिर है"},
+            {"index": "द", "text": "90° है"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A18",
-          "explanation": "सही उत्तर विकल्प A18 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "घट रहा है",
+          "explanation": "शाम के समय जैसे-जैसे सूरज नीचे जाता है (कोण घटता है), छाया लंबी होती जाती है।"
         },
         {
           "q_id": "19",
-          "statement": "Trigonometry Applications – प्रश्न 19 का स्टेटमेंट",
+          "statement": "एक ऊर्ध्वाधर छड़ की लंबाई और उसकी छाया का अनुपात 1:√3 है। सूर्य का उन्नयन कोण है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A19"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B19"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C19"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D19"
-            }
+            {"index": "अ", "text": "30°"},
+            {"index": "ब", "text": "45°"},
+            {"index": "स", "text": "60°"},
+            {"index": "द", "text": "90°"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A19",
-          "explanation": "सही उत्तर विकल्प A19 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "30°",
+          "explanation": "$\tan \theta = 1/\sqrt{3} \implies \theta = 30^\circ$।"
         },
         {
           "q_id": "20",
-          "statement": "Trigonometry Applications – प्रश्न 20 का स्टेटमेंट",
+          "statement": "त्रिकोणमिति के अनुप्रयोगों का उपयोग किया जाता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A20"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B20"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C20"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D20"
-            }
+            {"index": "अ", "text": "खगोल विज्ञान में"},
+            {"index": "ब", "text": "इंजीनियरिंग में"},
+            {"index": "स", "text": "नौचालन (Navigation) में"},
+            {"index": "द", "text": "उपरोक्त सभी"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A20",
-          "explanation": "सही उत्तर विकल्प A20 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "द",
+          "correct_answer": "उपरोक्त सभी",
+          "explanation": "ऊँचाई और दूरी मापने के लिए त्रिकोणमिति हर क्षेत्र में उपयोगी है।"
         },
         {
           "q_id": "21",
-          "statement": "Trigonometry Applications – प्रश्न 21 का स्टेटमेंट",
+          "statement": "20 मीटर ऊँची मीनार पर एक झंडा लगा है। जमीन के एक बिंदु से झंडे के पाद और शिखर के उन्नयन कोण क्रमशः 45° और 60° हैं। मीनार की ऊँचाई क्या दी गई है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A21"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B21"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C21"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D21"
-            }
+            {"index": "अ", "text": "20 m"},
+            {"index": "ब", "text": "60 m"},
+            {"index": "स", "text": "45 m"},
+            {"index": "द", "text": "20√3 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A21",
-          "explanation": "सही उत्तर विकल्प A21 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "20 m",
+          "explanation": "प्रश्न में स्पष्ट दिया गया है कि मीनार 20 मीटर ऊँची है।"
         },
         {
           "q_id": "22",
-          "statement": "Trigonometry Applications – प्रश्न 22 का स्टेटमेंट",
+          "statement": "15 मीटर लंबी एक सीढ़ी एक ऊर्ध्वाधर दीवार के शिखर तक पहुँचती है। यदि सीढ़ी दीवार के साथ 60° का कोण बनाती है, तो दीवार की ऊँचाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A22"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B22"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C22"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D22"
-            }
+            {"index": "अ", "text": "15 m"},
+            {"index": "ब", "text": "7.5 m"},
+            {"index": "स", "text": "15√3 m"},
+            {"index": "द", "text": "8.5 m"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A22",
-          "explanation": "सही उत्तर विकल्प A22 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "7.5 m",
+          "explanation": "दीवार के साथ कोण 60° है, तो जमीन के साथ 30° होगा। $\sin 30^\circ = h/15 \implies h = 7.5$।"
         },
         {
           "q_id": "23",
-          "statement": "Trigonometry Applications – प्रश्न 23 का स्टेटमेंट",
+          "statement": "एक मीनार के पाद से एक भवन के शिखर का उन्नयन कोण 30° है। यदि मीनार 50m ऊँची है और मीनार के पाद से भवन की दूरी $x$ है, तो $x$ ज्ञात करने के लिए उपयोग करेंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A23"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B23"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C23"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D23"
-            }
+            {"index": "अ", "text": "$\sin$"},
+            {"index": "ब", "text": "$\tan$"},
+            {"index": "स", "text": "$\sec$"},
+            {"index": "द", "text": "$\operatorname{cosec}$"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A23",
-          "explanation": "सही उत्तर विकल्प A23 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "$\tan$",
+          "explanation": "लंब और आधार के संबंध के लिए टैन ($\tan$) का प्रयोग होता है।"
         },
         {
           "q_id": "24",
-          "statement": "Trigonometry Applications – प्रश्न 24 का स्टेटमेंट",
+          "statement": "समुद्र तल से 60 मीटर ऊपर एक पुल से एक नाव का अवनमन कोण 45° है। नाव की पुल के आधार से दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A24"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B24"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C24"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D24"
-            }
+            {"index": "अ", "text": "60 m"},
+            {"index": "ब", "text": "30 m"},
+            {"index": "स", "text": "60√3 m"},
+            {"index": "द", "text": "120 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A24",
-          "explanation": "सही उत्तर विकल्प A24 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "60 m",
+          "explanation": "$\tan 45^\circ = 1$, अतः ऊँचाई और दूरी बराबर होगी।"
         },
         {
           "q_id": "25",
-          "statement": "Trigonometry Applications – प्रश्न 25 का स्टेटमेंट",
+          "statement": "आंधी आने से एक पेड़ टूट जाता है और टूटा हुआ भाग इस तरह झुक जाता है कि पेड़ का शिखर जमीन को छूने लगता है। इस स्थिति में कैसा त्रिभुज बनता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A25"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B25"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C25"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D25"
-            }
+            {"index": "अ", "text": "समबाहु"},
+            {"index": "ब", "text": "समकोण"},
+            {"index": "स", "text": "अधिककोण"},
+            {"index": "द", "text": "वृत्त"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A25",
-          "explanation": "सही उत्तर विकल्प A25 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समकोण",
+          "explanation": "पेड़ का खड़ा हिस्सा (लंब), जमीन (आधार) और टूटा हिस्सा (कर्ण) मिलकर समकोण त्रिभुज बनाते हैं।"
         },
         {
           "q_id": "26",
-          "statement": "Trigonometry Applications – प्रश्न 26 का स्टेटमेंट",
+          "statement": "यदि एक खंभे की ऊँचाई $h$ है और छाया की लंबाई $s$ है, तो सूर्य का उन्नयन कोण $\theta$ होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A26"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B26"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C26"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D26"
-            }
+            {"index": "अ", "text": "$\tan^{-1}(h/s)$"},
+            {"index": "ब", "text": "$\tan^{-1}(s/h)$"},
+            {"index": "स", "text": "$\sin^{-1}(h/s)$"},
+            {"index": "द", "text": "$\cos^{-1}(h/s)$"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A26",
-          "explanation": "सही उत्तर विकल्प A26 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "$\tan^{-1}(h/s)$",
+          "explanation": "$\tan \theta = h/s$ सूत्र से।"
         },
         {
           "q_id": "27",
-          "statement": "Trigonometry Applications – प्रश्न 27 का स्टेटमेंट",
+          "statement": "1.2 मीटर लंबी एक लड़की एक गुब्बारे को देखती है जो 88.2 मीटर की ऊँचाई पर उड़ रहा है। लड़की की आँख से गुब्बारे की लंबवत दूरी क्या होगी?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A27"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B27"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C27"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D27"
-            }
+            {"index": "अ", "text": "88.2 m"},
+            {"index": "ब", "text": "87 m"},
+            {"index": "स", "text": "89.4 m"},
+            {"index": "द", "text": "90 m"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A27",
-          "explanation": "सही उत्तर विकल्प A27 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "87 m",
+          "explanation": "88.2 - 1.2 = 87 मीटर।"
         },
         {
           "q_id": "28",
-          "statement": "Trigonometry Applications – प्रश्न 28 का स्टेटमेंट",
+          "statement": "क्षैतिज रेखा हमेशा जमीन के ______ होती है।",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A28"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B28"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C28"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D28"
-            }
+            {"index": "अ", "text": "लंबवत"},
+            {"index": "ब", "text": "समांतर"},
+            {"index": "स", "text": "तिर्यक"},
+            {"index": "द", "text": "ऊर्ध्वाधर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A28",
-          "explanation": "सही उत्तर विकल्प A28 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समांतर",
+          "explanation": "क्षैतिज रेखा जमीन के समानांतर खींची गई एक काल्पनिक रेखा है।"
         },
         {
           "q_id": "29",
-          "statement": "Trigonometry Applications – प्रश्न 29 का स्टेटमेंट",
+          "statement": "एक मीनार की छाया 20√3 मीटर है जब उन्नयन कोण 30° है। मीनार की ऊँचाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A29"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B29"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C29"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D29"
-            }
+            {"index": "अ", "text": "20 m"},
+            {"index": "ब", "text": "60 m"},
+            {"index": "स", "text": "20√3 m"},
+            {"index": "द", "text": "40 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A29",
-          "explanation": "सही उत्तर विकल्प A29 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "20 m",
+          "explanation": "$h = 20\sqrt{3} \times \tan 30^\circ = 20\sqrt{3} \times (1/\sqrt{3}) = 20$।"
         },
         {
           "q_id": "30",
-          "statement": "Trigonometry Applications – प्रश्न 30 का स्टेटमेंट",
+          "statement": "किसी पहाड़ी के ऊपर से नीचे खड़ी कार को देखने पर कौन सा कोण बनेगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A30"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B30"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C30"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D30"
-            }
+            {"index": "अ", "text": "उन्नयन कोण"},
+            {"index": "ब", "text": "अवनमन कोण"},
+            {"index": "स", "text": "अधिक कोण"},
+            {"index": "द", "text": "शून्य कोण"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A30",
-          "explanation": "सही उत्तर विकल्प A30 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "अवनमन कोण",
+          "explanation": "ऊपर से नीचे देखने पर अवनमन कोण बनता है।"
         }
       ]
     }
