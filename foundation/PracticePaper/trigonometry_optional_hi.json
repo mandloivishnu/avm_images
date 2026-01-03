@@ -13,7 +13,7 @@
       "text": "सही विकल्प का चयन कर लिखिए:",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "1",
           "statement": "sin 30° का मान है",
           "options": [
             { "index": "अ", "text": "1" },
@@ -27,7 +27,7 @@
           "previousYearsDetails": "2024,2023"
         },
         {
-          "q_id": "ii",
+          "q_id": "2",
           "statement": "cos 60° का मान है",
           "options": [
             { "index": "अ", "text": "1" },
@@ -41,7 +41,7 @@
           "previousYearsDetails": "2024,2022"
         },
         {
-          "q_id": "iii",
+          "q_id": "3",
           "statement": "tan 45° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -55,7 +55,7 @@
           "previousYearsDetails": "2023,2022"
         },
         {
-          "q_id": "iv",
+          "q_id": "4",
           "statement": "sin 0° का मान है",
           "options": [
             { "index": "अ", "text": "1" },
@@ -69,7 +69,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "v",
+          "q_id": "5",
           "statement": "cos 0° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -83,7 +83,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "vi",
+          "q_id": "6",
           "statement": "tan 30° का मान है",
           "options": [
             { "index": "अ", "text": "1/√3" },
@@ -97,7 +97,7 @@
           "previousYearsDetails": "2024,2022"
         },
         {
-          "q_id": "vii",
+          "q_id": "7",
           "statement": "sin 90° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -111,7 +111,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "viii",
+          "q_id": "8",
           "statement": "cos 90° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -125,7 +125,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "ix",
+          "q_id": "9",
           "statement": "tan 0° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -139,7 +139,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "x",
+          "q_id": "10",
           "statement": "tan 60° का मान है",
           "options": [
             { "index": "अ", "text": "1/√3" },
@@ -152,9 +152,8 @@
           "explanation": "tan 60° = √3 होता है।",
           "previousYearsDetails": "2024,2022"
         },
-
         {
-          "q_id": "xi",
+          "q_id": "11",
           "statement": "sin A का व्युत्क्रम है",
           "options": [
             { "index": "अ", "text": "sec A" },
@@ -168,7 +167,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "xii",
+          "q_id": "12",
           "statement": "cos A का व्युत्क्रम है",
           "options": [
             { "index": "अ", "text": "sec A" },
@@ -182,7 +181,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "xiii",
+          "q_id": "13",
           "statement": "tan A का सूत्र है",
           "options": [
             { "index": "अ", "text": "sin A / cos A" },
@@ -196,7 +195,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "xiv",
+          "q_id": "14",
           "statement": "sec A = ?",
           "options": [
             { "index": "अ", "text": "1 / sin A" },
@@ -210,7 +209,7 @@
           "previousYearsDetails": "2022"
         },
         {
-          "q_id": "xv",
+          "q_id": "15",
           "statement": "cosec A = ?",
           "options": [
             { "index": "अ", "text": "1 / tan A" },
@@ -223,9 +222,8 @@
           "explanation": "cosec A = 1 / sin A होता है।",
           "previousYearsDetails": "2023"
         },
-
         {
-          "q_id": "xvi",
+          "q_id": "16",
           "statement": "cot A = ?",
           "options": [
             { "index": "अ", "text": "tan A" },
@@ -239,7 +237,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "xvii",
+          "q_id": "17",
           "statement": "tan A × cot A का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -253,7 +251,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "xviii",
+          "q_id": "18",
           "statement": "sin A × cosec A का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -267,7 +265,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "xix",
+          "q_id": "19",
           "statement": "cos A × sec A का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -281,7 +279,7 @@
           "previousYearsDetails": "2022"
         },
         {
-          "q_id": "xx",
+          "q_id": "20",
           "statement": "sin A / cos A बराबर है",
           "options": [
             { "index": "अ", "text": "cot A" },
@@ -294,9 +292,8 @@
           "explanation": "sin A / cos A = tan A होता है।",
           "previousYearsDetails": "2023"
         },
-
         {
-          "q_id": "xxi",
+          "q_id": "21",
           "statement": "cos A / sin A बराबर है",
           "options": [
             { "index": "अ", "text": "tan A" },
@@ -310,7 +307,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "xxii",
+          "q_id": "22",
           "statement": "sec 0° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -324,7 +321,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "xxiii",
+          "q_id": "23",
           "statement": "cosec 90° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -338,7 +335,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "xxiv",
+          "q_id": "24",
           "statement": "tan 90° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -352,7 +349,7 @@
           "previousYearsDetails": "2022"
         },
         {
-          "q_id": "xxv",
+          "q_id": "25",
           "statement": "cot 0° का मान है",
           "options": [
             { "index": "अ", "text": "0" },
@@ -365,9 +362,8 @@
           "explanation": "cot 0° परिभाषित नहीं है (अनंत)।",
           "previousYearsDetails": "2023"
         },
-
         {
-          "q_id": "xxvi",
+          "q_id": "26",
           "statement": "sin A = 1 होने पर A का मान है",
           "options": [
             { "index": "अ", "text": "0°" },
@@ -381,7 +377,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "xxvii",
+          "q_id": "27",
           "statement": "cos A = 0 होने पर A का मान है",
           "options": [
             { "index": "अ", "text": "0°" },
@@ -395,7 +391,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "xxviii",
+          "q_id": "28",
           "statement": "tan A = 1 होने पर A का मान है",
           "options": [
             { "index": "अ", "text": "30°" },
@@ -409,7 +405,7 @@
           "previousYearsDetails": "2024"
         },
         {
-          "q_id": "xxix",
+          "q_id": "29",
           "statement": "tan A = √3 होने पर A का मान है",
           "options": [
             { "index": "अ", "text": "30°" },
@@ -423,7 +419,7 @@
           "previousYearsDetails": "2023"
         },
         {
-          "q_id": "xxx",
+          "q_id": "30",
           "statement": "sin A = 1/2 होने पर A का मान है",
           "options": [
             { "index": "अ", "text": "0°" },
