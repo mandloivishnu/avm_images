@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "गणित (Triangles)",
+    "subjectName": "त्रिभुज – Triangles",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,783 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "Triangles – प्रश्न 1 का स्टेटमेंट",
+          "statement": "सभी वृत्त होते हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A1"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B1"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C1"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D1"
-            }
+            {"index": "अ", "text": "सर्वांगसम"},
+            {"index": "ब", "text": "समरूप"},
+            {"index": "स", "text": "बराबर"},
+            {"index": "द", "text": "इनमें से कोई नहीं"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A1",
-          "explanation": "सही उत्तर विकल्प A1 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समरूप",
+          "explanation": "सभी वृत्तों का आकार समान होता है, लेकिन माप अलग हो सकती है।"
         },
         {
           "q_id": "2",
-          "statement": "Triangles – प्रश्न 2 का स्टेटमेंट",
+          "statement": "सभी वर्ग होते हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A2"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B2"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C2"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D2"
-            }
+            {"index": "अ", "text": "समरूप"},
+            {"index": "ब", "text": "सर्वांगसम"},
+            {"index": "स", "text": "असमरूप"},
+            {"index": "द", "text": "समान"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A2",
-          "explanation": "सही उत्तर विकल्प A2 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "समरूप",
+          "explanation": "वर्गों के कोण हमेशा 90 डिग्री होते हैं और भुजाएँ समान अनुपात में होती हैं।"
         },
         {
           "q_id": "3",
-          "statement": "Triangles – प्रश्न 3 का स्टेटमेंट",
+          "statement": "आधारभूत आनुपातिकता प्रमेय (BPT) को किस नाम से जाना जाता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A3"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B3"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C3"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D3"
-            }
+            {"index": "अ", "text": "पाइथागोरस प्रमेय"},
+            {"index": "ब", "text": "थेल्स प्रमेय"},
+            {"index": "स", "text": "आर्यभट्ट प्रमेय"},
+            {"index": "द", "text": "यूक्लिड प्रमेय"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A3",
-          "explanation": "सही उत्तर विकल्प A3 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "थेल्स प्रमेय",
+          "explanation": "इसे प्रसिद्ध गणितज्ञ थेल्स ने प्रतिपादित किया था।"
         },
         {
           "q_id": "4",
-          "statement": "Triangles – प्रश्न 4 का स्टेटमेंट",
+          "statement": "दो समरूप त्रिभुजों की भुजाओं का अनुपात 4:9 है, तो उनके क्षेत्रफलों का अनुपात होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A4"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B4"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C4"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D4"
-            }
+            {"index": "अ", "text": "2:3"},
+            {"index": "ब", "text": "4:9"},
+            {"index": "स", "text": "16:81"},
+            {"index": "द", "text": "81:16"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A4",
-          "explanation": "सही उत्तर विकल्प A4 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "16:81",
+          "explanation": "क्षेत्रफलों का अनुपात = (भुजाओं का अनुपात)² = (4/9)² = 16/81।"
         },
         {
           "q_id": "5",
-          "statement": "Triangles – प्रश्न 5 का स्टेटमेंट",
+          "statement": "त्रिभुज ABC में AB=6√3 cm, AC=12 cm और BC=6 cm है। कोण B का मान होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A5"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B5"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C5"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D5"
-            }
+            {"index": "अ", "text": "120°"},
+            {"index": "ब", "text": "60°"},
+            {"index": "स", "text": "90°"},
+            {"index": "द", "text": "45°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A5",
-          "explanation": "सही उत्तर विकल्प A5 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "90°",
+          "explanation": "यहाँ $AB^2 + BC^2 = AC^2$ (108 + 36 = 144) है, जो पाइथागोरस प्रमेय को संतुष्ट करता है।"
         },
         {
           "q_id": "6",
-          "statement": "Triangles – प्रश्न 6 का स्टेटमेंट",
+          "statement": "दो त्रिभुज समरूप होते हैं यदि उनके संगत कोण:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A6"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B6"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C6"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D6"
-            }
+            {"index": "अ", "text": "बराबर हों"},
+            {"index": "ब", "text": "अनुपातिक हों"},
+            {"index": "स", "text": "पूरक हों"},
+            {"index": "द", "text": "असमान हों"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A6",
-          "explanation": "सही उत्तर विकल्प A6 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "बराबर हों",
+          "explanation": "समरूपता की पहली शर्त संगत कोणों का बराबर होना है।"
         },
         {
           "q_id": "7",
-          "statement": "Triangles – प्रश्न 7 का स्टेटमेंट",
+          "statement": "यदि एक त्रिभुज की भुजाएँ 3cm, 4cm और 5cm हैं, तो वह कैसा त्रिभुज है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A7"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B7"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C7"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D7"
-            }
+            {"index": "अ", "text": "समबाहु"},
+            {"index": "ब", "text": "समद्विबाहु"},
+            {"index": "स", "text": "समकोण"},
+            {"index": "द", "text": "न्यूनकोण"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A7",
-          "explanation": "सही उत्तर विकल्प A7 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "समकोण",
+          "explanation": "$3^2 + 4^2 = 5^2$ (9+16=25)।"
         },
         {
           "q_id": "8",
-          "statement": "Triangles – प्रश्न 8 का स्टेटमेंट",
+          "statement": "पाइथागोरस प्रमेय किस त्रिभुज पर लागू होती है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A8"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B8"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C8"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D8"
-            }
+            {"index": "अ", "text": "न्यूनकोण त्रिभुज"},
+            {"index": "ब", "text": "अधिककोण त्रिभुज"},
+            {"index": "स", "text": "समकोण त्रिभुज"},
+            {"index": "द", "text": "सभी त्रिभुजों पर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A8",
-          "explanation": "सही उत्तर विकल्प A8 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "समकोण त्रिभुज",
+          "explanation": "यह केवल 90° वाले त्रिभुज के कर्ण और भुजाओं के संबंध को बताती है।"
         },
         {
           "q_id": "9",
-          "statement": "Triangles – प्रश्न 9 का स्टेटमेंट",
+          "statement": "सभी ______ त्रिभुज समरूप होते हैं।",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A9"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B9"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C9"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D9"
-            }
+            {"index": "अ", "text": "समद्विबाहु"},
+            {"index": "ब", "text": "समबाहु"},
+            {"index": "स", "text": "विषमबाहु"},
+            {"index": "द", "text": "समकोण"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A9",
-          "explanation": "सही उत्तर विकल्प A9 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समबाहु",
+          "explanation": "समबाहु त्रिभुज के सभी कोण हमेशा 60° होते हैं।"
         },
         {
           "q_id": "10",
-          "statement": "Triangles – प्रश्न 10 का स्टेटमेंट",
+          "statement": "समकोण त्रिभुज में सबसे लंबी भुजा कहलाती है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A10"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B10"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C10"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D10"
-            }
+            {"index": "अ", "text": "लंब"},
+            {"index": "ब", "text": "आधार"},
+            {"index": "स", "text": "कर्ण"},
+            {"index": "द", "text": "माध्यिका"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A10",
-          "explanation": "सही उत्तर विकल्प A10 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "कर्ण",
+          "explanation": "90° के सामने वाली भुजा सबसे लंबी होती है।"
         },
         {
           "q_id": "11",
-          "statement": "Triangles – प्रश्न 11 का स्टेटमेंट",
+          "statement": "थेल्स प्रमेय के अनुसार, यदि DE || BC हो, तो:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A11"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B11"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C11"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D11"
-            }
+            {"index": "अ", "text": "AD/DB = AE/EC"},
+            {"index": "ब", "text": "AD/AE = DB/EC"},
+            {"index": "स", "text": "AB/AC = AD/AE"},
+            {"index": "द", "text": "उपरोक्त सभी"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A11",
-          "explanation": "सही उत्तर विकल्प A11 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "AD/DB = AE/EC",
+          "explanation": "त्रिभुज की एक भुजा के समांतर खींची गई रेखा अन्य दो भुजाओं को समान अनुपात में विभाजित करती है।"
         },
         {
           "q_id": "12",
-          "statement": "Triangles – प्रश्न 12 का स्टेटमेंट",
+          "statement": "यदि दो समरूप त्रिभुजों के क्षेत्रफलों का अनुपात 25:64 है, तो उनकी संगत भुजाओं का अनुपात होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A12"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B12"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C12"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D12"
-            }
+            {"index": "अ", "text": "625:4096"},
+            {"index": "ब", "text": "5:8"},
+            {"index": "स", "text": "8:5"},
+            {"index": "द", "text": "12.5:32"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A12",
-          "explanation": "सही उत्तर विकल्प A12 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "5:8",
+          "explanation": "भुजाओं का अनुपात = √(क्षेत्रफलों का अनुपात) = √25/√64 = 5/8।"
         },
         {
           "q_id": "13",
-          "statement": "Triangles – प्रश्न 13 का स्टेटमेंट",
+          "statement": "त्रिभुज की किन्हीं दो भुजाओं के मध्य बिंदुओं को जोड़ने वाली रेखा तीसरी भुजा के ______ होती है।",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A13"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B13"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C13"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D13"
-            }
+            {"index": "अ", "text": "लंबवत"},
+            {"index": "ब", "text": "समांतर"},
+            {"index": "स", "text": "बराबर"},
+            {"index": "द", "text": "तिर्यक"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A13",
-          "explanation": "सही उत्तर विकल्प A13 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समांतर",
+          "explanation": "इसे मध्य-बिंदु प्रमेय (Mid-point theorem) कहते हैं।"
         },
         {
           "q_id": "14",
-          "statement": "Triangles – प्रश्न 14 का स्टेटमेंट",
+          "statement": "समबाहु त्रिभुज का प्रत्येक कोण होता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A14"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B14"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C14"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D14"
-            }
+            {"index": "अ", "text": "90°"},
+            {"index": "ब", "text": "45°"},
+            {"index": "स", "text": "60°"},
+            {"index": "द", "text": "30°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A14",
-          "explanation": "सही उत्तर विकल्प A14 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "60°",
+          "explanation": "तीनों भुजाएँ बराबर होने के कारण तीनों कोण (180/3) भी बराबर होते हैं।"
         },
         {
           "q_id": "15",
-          "statement": "Triangles – प्रश्न 15 का स्टेटमेंट",
+          "statement": "यदि दो त्रिभुज $ABC$ और $PQR$ में $\\angle A = \\angle P, \\angle B = \\angle Q, \\angle C = \\angle R$ हो, तो वे कहलाते हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A15"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B15"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C15"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D15"
-            }
+            {"index": "अ", "text": "AA समरूप"},
+            {"index": "ब", "text": "AAA समरूप"},
+            {"index": "स", "text": "SSS समरूप"},
+            {"index": "द", "text": "SAS समरूप"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A15",
-          "explanation": "सही उत्तर विकल्प A15 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "AAA समरूप",
+          "explanation": "तीनों कोणों की समानता AAA समरूपता नियम कहलाती है।"
         },
         {
           "q_id": "16",
-          "statement": "Triangles – प्रश्न 16 का स्टेटमेंट",
+          "statement": "किस आकृति की भुजाओं की संख्या समान होने पर वे समरूप होती हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A16"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B16"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C16"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D16"
-            }
+            {"index": "अ", "text": "बहुभुज"},
+            {"index": "ब", "text": "वृत्त"},
+            {"index": "स", "text": "शंकु"},
+            {"index": "द", "text": "घन"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A16",
-          "explanation": "सही उत्तर विकल्प A16 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "बहुभुज",
+          "explanation": "समान भुजाओं वाले बहुभुज यदि संगत कोण बराबर और भुजाएँ आनुपातिक हों तो समरूप होते हैं।"
         },
         {
           "q_id": "17",
-          "statement": "Triangles – प्रश्न 17 का स्टेटमेंट",
+          "statement": "चित्र में यदि DE || BC, AD=2cm, DB=3cm, AE=1.6cm है, तो EC होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A17"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B17"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C17"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D17"
-            }
+            {"index": "अ", "text": "2.4 cm"},
+            {"index": "ब", "text": "4.8 cm"},
+            {"index": "स", "text": "3.2 cm"},
+            {"index": "द", "text": "2 cm"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A17",
-          "explanation": "सही उत्तर विकल्प A17 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "2.4 cm",
+          "explanation": "2/3 = 1.6/EC → EC = (1.6 * 3)/2 = 2.4 cm।"
         },
         {
           "q_id": "18",
-          "statement": "Triangles – प्रश्न 18 का स्टेटमेंट",
+          "statement": "सर्वांगसम आकृतियाँ हमेशा ______ होती हैं।",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A18"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B18"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C18"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D18"
-            }
+            {"index": "अ", "text": "असमान"},
+            {"index": "ब", "text": "समरूप"},
+            {"index": "स", "text": "विपरीत"},
+            {"index": "द", "text": "इनमें से कोई नहीं"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A18",
-          "explanation": "सही उत्तर विकल्प A18 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समरूप",
+          "explanation": "जो सर्वांगसम है, उसका आकार भी समान होगा, इसलिए वह समरूप भी है।"
         },
         {
           "q_id": "19",
-          "statement": "Triangles – प्रश्न 19 का स्टेटमेंट",
+          "statement": "त्रिभुज की माध्यिकाएँ जिस बिंदु पर मिलती हैं, उसे कहते हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A19"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B19"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C19"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D19"
-            }
+            {"index": "अ", "text": "लंबकेंद्र"},
+            {"index": "ब", "text": "केंद्रक (Centroid)"},
+            {"index": "स", "text": "अंत:केंद्र"},
+            {"index": "द", "text": "परिकेंद्र"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A19",
-          "explanation": "सही उत्तर विकल्प A19 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "केंद्रक (Centroid)",
+          "explanation": "तीनों माध्यिकाओं का प्रतिच्छेद बिंदु केंद्रक कहलाता है।"
         },
         {
           "q_id": "20",
-          "statement": "Triangles – प्रश्न 20 का स्टेटमेंट",
+          "statement": "यदि $\\Delta ABC \\sim \\Delta DEF$ है और $\\angle A = 40^\\circ, \\angle E = 80^\\circ$ है, तो $\\angle C$ होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A20"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B20"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C20"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D20"
-            }
+            {"index": "अ", "text": "80°"},
+            {"index": "ब", "text": "60°"},
+            {"index": "स", "text": "40°"},
+            {"index": "द", "text": "100°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A20",
-          "explanation": "सही उत्तर विकल्प A20 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "60°",
+          "explanation": "कोण B = कोण E = 80°। अतः कोण C = 180 - (40+80) = 60°।"
         },
         {
           "q_id": "21",
-          "statement": "Triangles – प्रश्न 21 का स्टेटमेंट",
+          "statement": "एक समकोण समद्विबाहु त्रिभुज का एक कोण 90° है, तो शेष दो कोण होंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A21"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B21"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C21"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D21"
-            }
+            {"index": "अ", "text": "60°, 30°"},
+            {"index": "ब", "text": "45°, 45°"},
+            {"index": "स", "text": "20°, 70°"},
+            {"index": "द", "text": "50°, 40°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A21",
-          "explanation": "सही उत्तर विकल्प A21 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "45°, 45°",
+          "explanation": "बराबर भुजाओं के सामने के कोण भी बराबर होते हैं (90/2 = 45)।"
         },
         {
           "q_id": "22",
-          "statement": "Triangles – प्रश्न 22 का स्टेटमेंट",
+          "statement": "SSS समरूपता कसौटी में भुजाएँ कैसी होती हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A22"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B22"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C22"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D22"
-            }
+            {"index": "अ", "text": "बराबर"},
+            {"index": "ब", "text": "समानुपाती"},
+            {"index": "स", "text": "लंबवत"},
+            {"index": "द", "text": "शून्य"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A22",
-          "explanation": "सही उत्तर विकल्प A22 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समानुपाती",
+          "explanation": "समरूपता के लिए भुजाओं का अनुपात समान होना चाहिए।"
         },
         {
           "q_id": "23",
-          "statement": "Triangles – प्रश्न 23 का स्टेटमेंट",
+          "statement": "एक 10m लंबी सीढ़ी दीवार से 6m की दूरी पर टिकी है। दीवार की ऊँचाई होगी:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A23"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B23"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C23"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D23"
-            }
+            {"index": "अ", "text": "8m"},
+            {"index": "ब", "text": "4m"},
+            {"index": "स", "text": "16m"},
+            {"index": "द", "text": "12m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A23",
-          "explanation": "सही उत्तर विकल्प A23 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "8m",
+          "explanation": "$H = \\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$।"
         },
         {
           "q_id": "24",
-          "statement": "Triangles – प्रश्न 24 का स्टेटमेंट",
+          "statement": "क्या दो समकोण त्रिभुज हमेशा समरूप होते हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A24"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B24"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C24"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D24"
-            }
+            {"index": "अ", "text": "हाँ"},
+            {"index": "ब", "text": "नहीं"},
+            {"index": "स", "text": "केवल यदि वे सर्वांगसम हों"},
+            {"index": "द", "text": "कहा नहीं जा सकता"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A24",
-          "explanation": "सही उत्तर विकल्प A24 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "नहीं",
+          "explanation": "केवल एक कोण (90°) बराबर होने से समरूपता सिद्ध नहीं होती।"
         },
         {
           "q_id": "25",
-          "statement": "Triangles – प्रश्न 25 का स्टेटमेंट",
+          "statement": "दो समरूप त्रिभुजों के परिमापों का अनुपात उनकी संगत भुजाओं के अनुपात के ______ होता है।",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A25"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B25"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C25"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D25"
-            }
+            {"index": "अ", "text": "वर्ग के बराबर"},
+            {"index": "ब", "text": "बराबर"},
+            {"index": "स", "text": "वर्गमूल के बराबर"},
+            {"index": "द", "text": "दुगुना"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A25",
-          "explanation": "सही उत्तर विकल्प A25 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "बराबर",
+          "explanation": "परिमाप भुजाओं की रैखिक लंबाई का योग है, इसलिए अनुपात समान रहता है।"
         },
         {
           "q_id": "26",
-          "statement": "Triangles – प्रश्न 26 का स्टेटमेंट",
+          "statement": "त्रिभुज की किन्हीं दो भुजाओं का योग तीसरी भुजा से ______ होता है।",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A26"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B26"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C26"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D26"
-            }
+            {"index": "अ", "text": "छोटा"},
+            {"index": "ब", "text": "बड़ा"},
+            {"index": "स", "text": "बराबर"},
+            {"index": "द", "text": "आधा"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A26",
-          "explanation": "सही उत्तर विकल्प A26 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "बड़ा",
+          "explanation": "यह त्रिभुज की असमिका (Triangle Inequality) का नियम है।"
         },
         {
           "q_id": "27",
-          "statement": "Triangles – प्रश्न 27 का स्टेटमेंट",
+          "statement": "एक सीढ़ी सड़क के एक ओर 12m ऊँची खिड़की तक पहुँचती है। इसके पाद को उसी स्थान पर रख सड़क के दूसरी ओर 9m ऊँची खिड़की तक पहुँचाया जाता है। यदि सीढ़ी 15m लंबी हो, तो सड़क की चौड़ाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A27"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B27"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C27"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D27"
-            }
+            {"index": "अ", "text": "21m"},
+            {"index": "ब", "text": "12m"},
+            {"index": "स", "text": "15m"},
+            {"index": "द", "text": "18m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A27",
-          "explanation": "सही उत्तर विकल्प A27 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "21m",
+          "explanation": "एक तरफ आधार $\\sqrt{15^2-12^2}=9$, दूसरी तरफ $\\sqrt{15^2-9^2}=12$। कुल $9+12=21$।"
         },
         {
           "q_id": "28",
-          "statement": "Triangles – प्रश्न 28 का स्टेटमेंट",
+          "statement": "यदि $\\Delta ABC \\sim \\Delta PQR$ है और $AB/PQ = 1/3$ है, तो $ar(ABC)/ar(PQR)$ होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A28"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B28"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C28"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D28"
-            }
+            {"index": "अ", "text": "1/3"},
+            {"index": "ब", "text": "1/9"},
+            {"index": "स", "text": "1/6"},
+            {"index": "द", "text": "1"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A28",
-          "explanation": "सही उत्तर विकल्प A28 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "1/9",
+          "explanation": "क्षेत्रफल का अनुपात भुजा के अनुपात के वर्ग के बराबर होता है।"
         },
         {
           "q_id": "29",
-          "statement": "Triangles – प्रश्न 29 का स्टेटमेंट",
+          "statement": "पाइथागोरस प्रमेय को प्राचीन भारतीय ग्रंथ 'शुल्ब सूत्र' में किसने दिया था?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A29"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B29"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C29"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D29"
-            }
+            {"index": "अ", "text": "आर्यभट्ट"},
+            {"index": "ब", "text": "भास्कराचार्य"},
+            {"index": "स", "text": "बौधायन"},
+            {"index": "द", "text": "ब्रह्मगुप्त"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A29",
-          "explanation": "सही उत्तर विकल्प A29 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "बौधायन",
+          "explanation": "बौधायन ने पाइथागोरस से पहले ही इस प्रमेय का उल्लेख किया था।"
         },
         {
           "q_id": "30",
-          "statement": "Triangles – प्रश्न 30 का स्टेटमेंट",
+          "statement": "एक समकोण त्रिभुज की भुजाएँ 5, 12 और x हैं। यदि x कर्ण है, तो x का मान है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A30"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B30"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C30"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D30"
-            }
+            {"index": "अ", "text": "17"},
+            {"index": "ब", "text": "13"},
+            {"index": "स", "text": "7"},
+            {"index": "द", "text": "14"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A30",
-          "explanation": "सही उत्तर विकल्प A30 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "13",
+          "explanation": "$\\\\sqrt{5^2 + 12^2} = \\\\sqrt{169} = 13$।"
         }
       ]
     }
