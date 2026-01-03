@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "समांतर श्रेणियाँ – Arithmetic Progressions",
+    "subjectName": "अंकगणितीय प्रगति",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -10,397 +10,422 @@
       "question_number": "1",
       "question_type": "MULTIPLE_CHOICE",
       "marks": "1*30=30",
-      "text": "सही विकल्प का चयन कर लिखिए:",
+      "text": "सही विकल्प का चयन कर लिखिए :",
       "parts": [
         {
           "q_id": "1",
-          "statement": "समांतर श्रेणी (AP) का प्रथम पद 'a' और सार्व अंतर 'd' हो, तो n-वाँ पद क्या होगा?",
+          "statement": "अंकगणितीय प्रगति (AP) किसे कहते हैं?",
           "options": [
-            {"index": "अ", "text": "a + nd"},
-            {"index": "ब", "text": "a + (n-1)d"},
-            {"index": "स", "text": "a - (n-1)d"},
-            {"index": "द", "text": "2a + (n-1)d"}
+            { "index": "अ", "text": "संख्याओं का कोई भी क्रम" },
+            { "index": "ब", "text": "ऐसा क्रम जिसमें अंतर समान हो" },
+            { "index": "स", "text": "ऐसा क्रम जिसमें गुणन समान हो" },
+            { "index": "द", "text": "अनियमित क्रम" }
           ],
           "correct_index": "ब",
-          "correct_answer": "a + (n-1)d",
-          "explanation": "AP के n-वें पद का मानक सूत्र $a_n = a + (n-1)d$ होता है।"
+          "correct_answer": "ऐसा क्रम जिसमें अंतर समान हो",
+          "explanation": "AP में प्रत्येक पदों का अंतर समान होता है।"
         },
         {
           "q_id": "2",
-          "statement": "श्रेणी 2, 7, 12, ... का सार्व अंतर (common difference) क्या है?",
+          "statement": "AP का सामान्य रूप है:",
           "options": [
-            {"index": "अ", "text": "2"},
-            {"index": "ब", "text": "5"},
-            {"index": "स", "text": "-5"},
-            {"index": "द", "text": "9"}
+            { "index": "अ", "text": "a, a+d, a+2d, ..." },
+            { "index": "ब", "text": "a, ad, ad², ..." },
+            { "index": "स", "text": "a², a³, a⁴, ..." },
+            { "index": "द", "text": "a, a−d, a−2d" }
           ],
-          "correct_index": "ब",
-          "correct_answer": "5",
-          "explanation": "सार्व अंतर d = 7 - 2 = 5।"
+          "correct_index": "अ",
+          "correct_answer": "a, a+d, a+2d, ...",
+          "explanation": "यह AP का मानक रूप है।"
         },
         {
           "q_id": "3",
-          "statement": "यदि a = 10 और d = 10 हो, तो श्रेणी का दूसरा पद क्या होगा?",
+          "statement": "AP का प्रथम पद कहलाता है:",
           "options": [
-            {"index": "अ", "text": "10"},
-            {"index": "ब", "text": "20"},
-            {"index": "स", "text": "30"},
-            {"index": "द", "text": "0"}
+            { "index": "अ", "text": "d" },
+            { "index": "ब", "text": "n" },
+            { "index": "स", "text": "a" },
+            { "index": "द", "text": "l" }
           ],
-          "correct_index": "ब",
-          "correct_answer": "20",
-          "explanation": "दूसरा पद $a_2 = a + d = 10 + 10 = 20$।"
+          "correct_index": "स",
+          "correct_answer": "a",
+          "explanation": "AP का पहला पद a से दर्शाया जाता है।"
         },
         {
           "q_id": "4",
-          "statement": "AP: 10, 7, 4, ... का 30-वाँ पद क्या है?",
+          "statement": "AP का समान अंतर कहलाता है:",
           "options": [
-            {"index": "अ", "text": "97"},
-            {"index": "ब", "text": "77"},
-            {"index": "स", "text": "-77"},
-            {"index": "द", "text": "-87"}
+            { "index": "अ", "text": "a" },
+            { "index": "ब", "text": "n" },
+            { "index": "स", "text": "d" },
+            { "index": "द", "text": "l" }
           ],
           "correct_index": "स",
-          "correct_answer": "-77",
-          "explanation": "$a_{30} = 10 + (30-1)(-3) = 10 - 87 = -77$।"
+          "correct_answer": "d",
+          "explanation": "समान अंतर को d से दर्शाते हैं।"
         },
         {
           "q_id": "5",
-          "statement": "किसी AP के प्रथम n पदों के योग का सूत्र क्या है?",
+          "statement": "निम्न में से कौन-सी AP है?",
           "options": [
-            {"index": "अ", "text": "$S_n = n/2 [2a + (n-1)d]$"},
-            {"index": "ब", "text": "$S_n = n/2 [a + l]$"},
-            {"index": "स", "text": "अ और ब दोनों"},
-            {"index": "द", "text": "केवल अ"}
+            { "index": "अ", "text": "2, 4, 8, 16" },
+            { "index": "ब", "text": "1, 3, 5, 7" },
+            { "index": "स", "text": "1, 4, 9, 16" },
+            { "index": "द", "text": "2, 3, 5, 7" }
           ],
-          "correct_index": "स",
-          "correct_answer": "अ और ब दोनों",
-          "explanation": "योग के लिए दोनों सूत्र सही हैं, जहाँ l अंतिम पद है।"
+          "correct_index": "ब",
+          "correct_answer": "1, 3, 5, 7",
+          "explanation": "प्रत्येक पद का अंतर 2 है।"
         },
+
         {
           "q_id": "6",
-          "statement": "क्या श्रेणी 1, 1, 2, 2, 3, 3, ... एक AP है?",
+          "statement": "AP: 2, 5, 8, 11 का समान अंतर है:",
           "options": [
-            {"index": "अ", "text": "हाँ"},
-            {"index": "ब", "text": "नहीं"},
-            {"index": "स", "text": "केवल प्रथम तीन पद"},
-            {"index": "द", "text": "निर्धारित नहीं"}
+            { "index": "अ", "text": "2" },
+            { "index": "ब", "text": "3" },
+            { "index": "स", "text": "4" },
+            { "index": "द", "text": "5" }
           ],
           "correct_index": "ब",
-          "correct_answer": "नहीं",
-          "explanation": "यहाँ क्रमागत पदों का अंतर समान नहीं है (1-1=0, 2-1=1)।"
+          "correct_answer": "3",
+          "explanation": "5 − 2 = 3"
         },
+
         {
           "q_id": "7",
-          "statement": "यदि AP का प्रथम पद 5 और अंतिम पद 45 है, पदों की संख्या 10 है, तो योग क्या होगा?",
+          "statement": "AP का nवाँ पद का सूत्र है:",
           "options": [
-            {"index": "अ", "text": "250"},
-            {"index": "ब", "text": "500"},
-            {"index": "स", "text": "225"},
-            {"index": "द", "text": "450"}
+            { "index": "अ", "text": "a + (n−1)d" },
+            { "index": "ब", "text": "a + nd" },
+            { "index": "स", "text": "n(a+d)" },
+            { "index": "द", "text": "ad + n" }
           ],
           "correct_index": "अ",
-          "correct_answer": "250",
-          "explanation": "$S_{10} = 10/2 (5 + 45) = 5 \times 50 = 250$।"
+          "correct_answer": "a + (n−1)d",
+          "explanation": "यह nवें पद का सूत्र है।"
         },
+
         {
           "q_id": "8",
-          "statement": "प्रथम 100 प्राकृतिक संख्याओं का योग क्या है?",
+          "statement": "AP: 3, 7, 11, ... का पाँचवाँ पद है:",
           "options": [
-            {"index": "अ", "text": "5000"},
-            {"index": "ब", "text": "5050"},
-            {"index": "स", "text": "5100"},
-            {"index": "द", "text": "4950"}
+            { "index": "अ", "text": "15" },
+            { "index": "ब", "text": "19" },
+            { "index": "स", "text": "23" },
+            { "index": "द", "text": "27" }
           ],
           "correct_index": "ब",
-          "correct_answer": "5050",
-          "explanation": "$n(n+1)/2 = 100(101)/2 = 50 \times 101 = 5050$।"
+          "correct_answer": "19",
+          "explanation": "a=3, d=4 ⇒ a₅ = 3+4×4=19"
         },
+
         {
           "q_id": "9",
-          "statement": "यदि a, b, c एक समांतर श्रेणी में हैं, तो b किसके बराबर है?",
+          "statement": "AP: 10, 7, 4, ... का d है:",
           "options": [
-            {"index": "अ", "text": "a + c"},
-            {"index": "ब", "text": "(a + c)/2"},
-            {"index": "स", "text": "ac"},
-            {"index": "द", "text": "√(ac)"}
+            { "index": "अ", "text": "3" },
+            { "index": "ब", "text": "−3" },
+            { "index": "स", "text": "7" },
+            { "index": "द", "text": "−7" }
           ],
           "correct_index": "ब",
-          "correct_answer": "(a + c)/2",
-          "explanation": "b को a और c का समांतर माध्य (Arithmetic Mean) कहते हैं।"
+          "correct_answer": "−3",
+          "explanation": "7 − 10 = −3"
         },
+
         {
           "q_id": "10",
-          "statement": "AP: -3, -1/2, 2, ... का 11-वाँ पद है:",
+          "statement": "यदि AP में d = 0 हो तो क्रम होगा:",
           "options": [
-            {"index": "अ", "text": "22"},
-            {"index": "ब", "text": "30"},
-            {"index": "स", "text": "25"},
-            {"index": "द", "text": "-20"}
+            { "index": "अ", "text": "बढ़ता हुआ" },
+            { "index": "ब", "text": "घटता हुआ" },
+            { "index": "स", "text": "स्थिर" },
+            { "index": "द", "text": "अनियमित" }
           ],
-          "correct_index": "अ",
-          "correct_answer": "22",
-          "explanation": "d = 2.5; $a_{11} = -3 + 10(2.5) = -3 + 25 = 22$।"
+          "correct_index": "स",
+          "correct_answer": "स्थिर",
+          "explanation": "सभी पद समान होंगे।"
         },
+
         {
           "q_id": "11",
-          "statement": "किसी AP का सार्व अंतर (d) हो सकता है:",
+          "statement": "AP के कितने पद हो सकते हैं?",
           "options": [
-            {"index": "अ", "text": "धनात्मक"},
-            {"index": "ब", "text": "ऋणात्मक"},
-            {"index": "स", "text": "शून्य"},
-            {"index": "द", "text": "उपरोक्त सभी"}
+            { "index": "अ", "text": "सीमित" },
+            { "index": "ब", "text": "असीमित" },
+            { "index": "स", "text": "दोनों" },
+            { "index": "द", "text": "कोई नहीं" }
           ],
-          "correct_index": "द",
-          "correct_answer": "उपरोक्त सभी",
-          "explanation": "सार्व अंतर कोई भी वास्तविक संख्या हो सकती है।"
+          "correct_index": "स",
+          "correct_answer": "दोनों",
+          "explanation": "AP सीमित व असीमित दोनों हो सकती है।"
         },
+
         {
           "q_id": "12",
-          "statement": "यदि $a_n = 3n + 1$ हो, तो प्रथम पद क्या होगा?",
+          "statement": "AP: 5, 10, 15, ... का तीसरा पद है:",
           "options": [
-            {"index": "अ", "text": "1"},
-            {"index": "ब", "text": "3"},
-            {"index": "स", "text": "4"},
-            {"index": "द", "text": "7"}
+            { "index": "अ", "text": "10" },
+            { "index": "ब", "text": "15" },
+            { "index": "स", "text": "20" },
+            { "index": "द", "text": "25" }
           ],
-          "correct_index": "स",
-          "correct_answer": "4",
-          "explanation": "n = 1 रखने पर: $3(1) + 1 = 4$।"
+          "correct_index": "ब",
+          "correct_answer": "15",
+          "explanation": "तीसरा पद = 15"
         },
+
         {
           "q_id": "13",
-          "statement": "AP: 5, 8, 11, ... का कौन सा पद 47 है?",
+          "statement": "AP में यदि d धनात्मक हो तो क्रम होगा:",
           "options": [
-            {"index": "अ", "text": "14-वाँ"},
-            {"index": "ब", "text": "15-वाँ"},
-            {"index": "स", "text": "16-वाँ"},
-            {"index": "द", "text": "12-वाँ"}
+            { "index": "अ", "text": "घटता हुआ" },
+            { "index": "ब", "text": "स्थिर" },
+            { "index": "स", "text": "बढ़ता हुआ" },
+            { "index": "द", "text": "अनियमित" }
           ],
           "correct_index": "स",
-          "correct_answer": "15-वाँ",
-          "explanation": "47 = 5 + (n-1)3 → 42 = (n-1)3 → 14 = n-1 → n = 15।"
+          "correct_answer": "बढ़ता हुआ",
+          "explanation": "धनात्मक d पर पद बढ़ते हैं।"
         },
+
         {
           "q_id": "14",
-          "statement": "श्रेणी 10, 5, 0, -5, ... का अगला पद क्या होगा?",
+          "statement": "AP: 1, 4, 7, ... का nवाँ पद है:",
           "options": [
-            {"index": "अ", "text": "10"},
-            {"index": "ब", "text": "0"},
-            {"index": "स", "text": "-10"},
-            {"index": "द", "text": "-15"}
+            { "index": "अ", "text": "3n" },
+            { "index": "ब", "text": "1 + 3(n−1)" },
+            { "index": "स", "text": "n + 3" },
+            { "index": "द", "text": "3n−1" }
           ],
-          "correct_index": "स",
-          "correct_answer": "-10",
-          "explanation": "यहाँ d = -5 है, अतः -5 + (-5) = -10।"
+          "correct_index": "ब",
+          "correct_answer": "1 + 3(n−1)",
+          "explanation": "a=1, d=3"
         },
+
         {
           "q_id": "15",
-          "statement": "तीन के प्रथम पाँच गुणजों का योग है:",
+          "statement": "AP: 7, 14, 21, ... का d है:",
           "options": [
-            {"index": "अ", "text": "45"},
-            {"index": "ब", "text": "55"},
-            {"index": "स", "text": "65"},
-            {"index": "द", "text": "75"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "45",
-          "explanation": "3, 6, 9, 12, 15 का योग 45 होता है।"
-        },
-        {
-          "q_id": "16",
-          "statement": "AP के n-वें पद को $l$ से भी दर्शाया जाता है, जिसका अर्थ है:",
-          "options": [
-            {"index": "अ", "text": "प्रथम पद"},
-            {"index": "ब", "text": "अंतिम पद"},
-            {"index": "स", "text": "मध्य पद"},
-            {"index": "द", "text": "शून्य पद"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "अंतिम पद",
-          "explanation": "सीमित AP में n-वें पद को अक्सर अंतिम पद ($l$) माना जाता है।"
-        },
-        {
-          "q_id": "17",
-          "statement": "यदि d = -4, n = 7, $a_n = 4$ हो, तो a का मान है:",
-          "options": [
-            {"index": "अ", "text": "6"},
-            {"index": "ब", "text": "7"},
-            {"index": "स", "text": "20"},
-            {"index": "द", "text": "28"}
-          ],
-          "correct_index": "द",
-          "correct_answer": "28",
-          "explanation": "4 = a + (6)(-4) → 4 = a - 24 → a = 28।"
-        },
-        {
-          "q_id": "18",
-          "statement": "प्रथम n विषम प्राकृतिक संख्याओं का योग होता है:",
-          "options": [
-            {"index": "अ", "text": "2n"},
-            {"index": "ब", "text": "n²"},
-            {"index": "स", "text": "n² + 1"},
-            {"index": "द", "text": "n(n+1)"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "n²",
-          "explanation": "उदाहरण: 1+3+5 = 9 जो कि $3^2$ है।"
-        },
-        {
-          "q_id": "19",
-          "statement": "AP: √2, √8, √18, √32... का सार्व अंतर है:",
-          "options": [
-            {"index": "अ", "text": "√2"},
-            {"index": "ब", "text": "2"},
-            {"index": "स", "text": "√6"},
-            {"index": "द", "text": "2√2"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "√2",
-          "explanation": "√8 - √2 = 2√2 - √2 = √2।"
-        },
-        {
-          "q_id": "20",
-          "statement": "यदि $S_n$ पदों का योग है, तो $n$-वाँ पद $a_n$ किसके बराबर होगा?",
-          "options": [
-            {"index": "अ", "text": "$S_n - S_{n-1}$"},
-            {"index": "ब", "text": "$S_n + S_{n-1}$"},
-            {"index": "स", "text": "$S_{n-1} - S_n$"},
-            {"index": "द", "text": "$2S_n$"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "$S_n - S_{n-1}$",
-          "explanation": "n पदों के योग में से (n-1) पदों का योग घटाने पर n-वाँ पद प्राप्त होता है।"
-        },
-        {
-          "q_id": "21",
-          "statement": "किसी AP के लिए 'n' का मान हमेशा कैसा होता है?",
-          "options": [
-            {"index": "अ", "text": "ऋणात्मक"},
-            {"index": "ब", "text": "धनात्मक पूर्णांक"},
-            {"index": "स", "text": "दशमलव संख्या"},
-            {"index": "द", "text": "परिमेय संख्या"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "धनात्मक पूर्णांक",
-          "explanation": "पदों की संख्या (n) केवल 1, 2, 3... ही हो सकती है।"
-        },
-        {
-          "q_id": "22",
-          "statement": "प्रथम 10 सम संख्याओं का योग क्या होगा?",
-          "options": [
-            {"index": "अ", "text": "100"},
-            {"index": "ब", "text": "110"},
-            {"index": "स", "text": "120"},
-            {"index": "द", "text": "90"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "110",
-          "explanation": "सूत्र: $n(n+1) = 10 \times 11 = 110$।"
-        },
-        {
-          "q_id": "23",
-          "statement": "AP: 21, 18, 15, ... का कौन सा पद शून्य है?",
-          "options": [
-            {"index": "अ", "text": "7-वाँ"},
-            {"index": "ब", "text": "8-वाँ"},
-            {"index": "स", "text": "9-वाँ"},
-            {"index": "द", "text": "10-वाँ"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "8-वाँ",
-          "explanation": "0 = 21 + (n-1)(-3) → -21 = (n-1)(-3) → 7 = n-1 → n = 8।"
-        },
-        {
-          "q_id": "24",
-          "statement": "यदि AP के प्रथम तीन पद 3y-1, 3y+5 और 5y+1 हैं, तो y का मान है:",
-          "options": [
-            {"index": "अ", "text": "-3"},
-            {"index": "ब", "text": "4"},
-            {"index": "स", "text": "5"},
-            {"index": "द", "text": "2"}
+            { "index": "अ", "text": "14" },
+            { "index": "ब", "text": "21" },
+            { "index": "स", "text": "7" },
+            { "index": "द", "text": "3" }
           ],
           "correct_index": "स",
-          "correct_answer": "5",
-          "explanation": "$(3y+5)-(3y-1) = (5y+1)-(3y+5) \implies 6 = 2y-4 \implies 10 = 2y \implies y = 5$।"
+          "correct_answer": "7",
+          "explanation": "14−7=7"
         },
+
         {
-          "q_id": "25",
-          "statement": "AP: 7, 13, 19, ..., 205 में पदों की संख्या है:",
+          "q_id": "16",
+          "statement": "AP का अंतिम पद कहलाता है:",
           "options": [
-            {"index": "अ", "text": "33"},
-            {"index": "ब", "text": "34"},
-            {"index": "स", "text": "35"},
-            {"index": "द", "text": "30"}
+            { "index": "अ", "text": "a" },
+            { "index": "ब", "text": "d" },
+            { "index": "स", "text": "l" },
+            { "index": "द", "text": "n" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "l",
+          "explanation": "अंतिम पद को l से दर्शाते हैं।"
+        },
+
+        {
+          "q_id": "17",
+          "statement": "AP: 2, 6, 10, ... का चौथा पद है:",
+          "options": [
+            { "index": "अ", "text": "12" },
+            { "index": "ब", "text": "14" },
+            { "index": "स", "text": "16" },
+            { "index": "द", "text": "18" }
           ],
           "correct_index": "ब",
-          "correct_answer": "34",
-          "explanation": "205 = 7 + (n-1)6 → 198/6 = n-1 → 33 = n-1 → n = 34।"
+          "correct_answer": "14",
+          "explanation": "a=2, d=4 ⇒ a₄=14"
         },
+
         {
-          "q_id": "26",
-          "statement": "क्या 0 किसी AP का प्रथम पद हो सकता है?",
+          "q_id": "18",
+          "statement": "AP: −3, −1, 1, ... का d है:",
           "options": [
-            {"index": "अ", "text": "हाँ"},
-            {"index": "ब", "text": "नहीं"},
-            {"index": "स", "text": "केवल यदि d भी 0 हो"},
-            {"index": "द", "text": "निर्धारित नहीं"}
+            { "index": "अ", "text": "−2" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "1" },
+            { "index": "द", "text": "−1" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2",
+          "explanation": "−1 − (−3) = 2"
+        },
+
+        {
+          "q_id": "19",
+          "statement": "AP में nवाँ पद ज्ञात करने के लिए आवश्यक है:",
+          "options": [
+            { "index": "अ", "text": "केवल a" },
+            { "index": "ब", "text": "केवल d" },
+            { "index": "स", "text": "a, d और n" },
+            { "index": "द", "text": "केवल n" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "a, d और n",
+          "explanation": "nवाँ पद सूत्र से निकलता है।"
+        },
+
+        {
+          "q_id": "20",
+          "statement": "AP का उदाहरण है:",
+          "options": [
+            { "index": "अ", "text": "1, 2, 4, 8" },
+            { "index": "ब", "text": "2, 4, 6, 8" },
+            { "index": "स", "text": "1, 4, 9" },
+            { "index": "द", "text": "2, 3, 5" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2, 4, 6, 8",
+          "explanation": "समान अंतर 2 है।"
+        },
+
+        {
+          "q_id": "21",
+          "statement": "यदि AP में a = 5 और d = 0 हो तो तीसरा पद होगा:",
+          "options": [
+            { "index": "अ", "text": "5" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "10" },
+            { "index": "द", "text": "15" }
           ],
           "correct_index": "अ",
-          "correct_answer": "हाँ",
-          "explanation": "प्रथम पद कोई भी वास्तविक संख्या हो सकती है।"
+          "correct_answer": "5",
+          "explanation": "सभी पद समान होंगे।"
         },
+
         {
-          "q_id": "27",
-          "statement": "एक स्थिर AP (Constant AP) का सार्व अंतर क्या होता है?",
+          "q_id": "22",
+          "statement": "AP: 9, 6, 3, ... का क्रम है:",
           "options": [
-            {"index": "अ", "text": "1"},
-            {"index": "ब", "text": "0"},
-            {"index": "स", "text": "-1"},
-            {"index": "द", "text": "अनंत"}
+            { "index": "अ", "text": "बढ़ता हुआ" },
+            { "index": "ब", "text": "स्थिर" },
+            { "index": "स", "text": "घटता हुआ" },
+            { "index": "द", "text": "अनियमित" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "घटता हुआ",
+          "explanation": "d = −3"
+        },
+
+        {
+          "q_id": "23",
+          "statement": "AP: 1, 1, 1, ... में d का मान है:",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "−1" },
+            { "index": "द", "text": "2" }
           ],
           "correct_index": "ब",
           "correct_answer": "0",
-          "explanation": "स्थिर श्रेणी (जैसे 5, 5, 5...) में अंतर हमेशा 0 होता है।"
+          "explanation": "सभी पद समान हैं।"
         },
+
         {
-          "q_id": "28",
-          "statement": "यदि $a_{18} - a_{14} = 32$ हो, तो d का मान होगा:",
+          "q_id": "24",
+          "statement": "AP का पहला पद 2 और d = 3 हो, तो दूसरा पद होगा:",
           "options": [
-            {"index": "अ", "text": "8"},
-            {"index": "ब", "text": "-8"},
-            {"index": "स", "text": "4"},
-            {"index": "द", "text": "-4"}
+            { "index": "अ", "text": "2" },
+            { "index": "ब", "text": "3" },
+            { "index": "स", "text": "5" },
+            { "index": "द", "text": "6" }
           ],
-          "correct_index": "अ",
-          "correct_answer": "8",
-          "explanation": "$(a+17d) - (a+13d) = 4d = 32 \implies d = 8$।"
+          "correct_index": "स",
+          "correct_answer": "5",
+          "explanation": "2 + 3 = 5"
         },
+
         {
-          "q_id": "29",
-          "statement": "प्रथम n सम प्राकृतिक संख्याओं का योग $n(n+1)$ है। प्रथम 5 पदों का योग क्या होगा?",
+          "q_id": "25",
+          "statement": "AP: 4, 9, 14, ... का समान अंतर है:",
           "options": [
-            {"index": "अ", "text": "25"},
-            {"index": "ब", "text": "30"},
-            {"index": "स", "text": "20"},
-            {"index": "द", "text": "15"}
+            { "index": "अ", "text": "4" },
+            { "index": "ब", "text": "5" },
+            { "index": "स", "text": "9" },
+            { "index": "द", "text": "14" }
           ],
           "correct_index": "ब",
-          "correct_answer": "30",
-          "explanation": "$5 \times 6 = 30$।"
+          "correct_answer": "5",
+          "explanation": "9 − 4 = 5"
         },
+
         {
-          "q_id": "30",
-          "statement": "AP का 10-वाँ पद 52 और 16-वाँ पद 82 है, सार्व अंतर क्या है?",
+          "q_id": "26",
+          "statement": "AP का तीसरा पद ज्ञात करने के लिए n का मान होगा:",
           "options": [
-            {"index": "अ", "text": "5"},
-            {"index": "ब", "text": "6"},
-            {"index": "स", "text": "3"},
-            {"index": "द", "text": "4"}
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "4" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "3",
+          "explanation": "तीसरा पद ⇒ n=3"
+        },
+
+        {
+          "q_id": "27",
+          "statement": "AP: 100, 90, 80, ... का d है:",
+          "options": [
+            { "index": "अ", "text": "10" },
+            { "index": "ब", "text": "−10" },
+            { "index": "स", "text": "20" },
+            { "index": "द", "text": "−20" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "−10",
+          "explanation": "90 − 100 = −10"
+        },
+
+        {
+          "q_id": "28",
+          "statement": "AP का सूत्र aₙ = ?",
+          "options": [
+            { "index": "अ", "text": "a + (n−1)d" },
+            { "index": "ब", "text": "a + nd" },
+            { "index": "स", "text": "n(a+d)" },
+            { "index": "द", "text": "a − nd" }
           ],
           "correct_index": "अ",
-          "correct_answer": "5",
-          "explanation": "$(a+15d) - (a+9d) = 6d = 30 \implies d = 5$।"
+          "correct_answer": "a + (n−1)d",
+          "explanation": "यह nवें पद का सूत्र है।"
+        },
+
+        {
+          "q_id": "29",
+          "statement": "AP में समान अंतर ऋणात्मक हो तो क्रम होगा:",
+          "options": [
+            { "index": "अ", "text": "बढ़ता हुआ" },
+            { "index": "ब", "text": "घटता हुआ" },
+            { "index": "स", "text": "स्थिर" },
+            { "index": "द", "text": "अनियमित" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "घटता हुआ",
+          "explanation": "ऋणात्मक d पर पद घटते हैं।"
+        },
+
+        {
+          "q_id": "30",
+          "statement": "AP का पहला पद 1 और d = 2 हो तो चौथा पद होगा:",
+          "options": [
+            { "index": "अ", "text": "5" },
+            { "index": "ब", "text": "6" },
+            { "index": "स", "text": "7" },
+            { "index": "द", "text": "8" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "7",
+          "explanation": "1 + 3×2 = 7"
         }
       ]
     }
