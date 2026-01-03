@@ -6,6 +6,12 @@
     "board": "MP Board"
   },
   "questions": [
+     {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
     {"q_id":"1","statement":"घन की भुजा = 5 cm, आयतन = ?","options":[{"index":"अ","text":"125 cm³"},{"index":"ब","text":"25 cm³"},{"index":"स","text":"75 cm³"},{"index":"द","text":"100 cm³"}],"correct_index":"अ","correct_answer":"125 cm³","explanation":"V = a³ = 5³ = 125 cm³।"},
     {"q_id":"2","statement":"घन की भुजा = 8 cm, पृष्ठीय क्षेत्रफल = ?","options":[{"index":"अ","text":"384 cm²"},{"index":"ब","text":"64 cm²"},{"index":"स","text":"256 cm²"},{"index":"द","text":"128 cm²"}],"correct_index":"अ","correct_answer":"384 cm²","explanation":"SA = 6a² = 6×64=384 cm²।"},
     {"q_id":"3","statement":"घनाभ = 7 cm, आयतन = ?","options":[{"index":"अ","text":"343 cm³"},{"index":"ब","text":"49 cm³"},{"index":"स","text":"21 cm³"},{"index":"द","text":"147 cm³"}],"correct_index":"अ","correct_answer":"343 cm³","explanation":"V = a³ = 7³ = 343 cm³।"},
@@ -36,5 +42,5 @@
     {"q_id":"28","statement":"घन की भुजा = 18 cm, पृष्ठीय क्षेत्रफल = ?","options":[{"index":"अ","text":"1944 cm²"},{"index":"ब","text":"1728 cm²"},{"index":"स","text":"1800 cm²"},{"index":"द","text":"2000 cm²"}],"correct_index":"अ","correct_answer":"1944 cm²","explanation":"SA=6a²=6×324=1944 cm²।"},
     {"q_id":"29","statement":"सिलेंडर r=5 h=12, आयतन = ?","options":[{"index":"अ","text":"300π"},{"index":"ब","text":"360π"},{"index":"स","text":"320π"},{"index":"द","text":"340π"}],"correct_index":"अ","correct_answer":"300π","explanation":"V=πr²h=π×25×12=300π।"},
     {"q_id":"30","statement":"गोलाकार शंकु r=6 h=8, आयतन = ?","options":[{"index":"अ","text":"96π"},{"index":"ब","text":"96π"},{"index":"स","text":"72π"},{"index":"द","text":"64π"}],"correct_index":"अ","correct_answer":"96π","explanation":"V=(1/3)πr²h=(1/3)π×36×8=96π।"}
-  ]
+  ]}]
 }
