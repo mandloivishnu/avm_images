@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "गणित (Pair of Linear Equations in Two Variables)",
+    "subjectName": "दो चरों वाले रैखिक समीकरणों का युग्म – Pair of Linear Equations in Two Variables",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,783 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 1 का स्टेटमेंट",
+          "statement": "यदि $a_1/a_2 \neq b_1/b_2$ हो, तो समीकरण निकाय का हल कैसा होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A1"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B1"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C1"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D1"
-            }
+            {"index": "अ", "text": "अद्वितीय हल"},
+            {"index": "ब", "text": "कोई हल नहीं"},
+            {"index": "स", "text": "अनंत अनेक हल"},
+            {"index": "द", "text": "इनमें से कोई नहीं"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A1",
-          "explanation": "सही उत्तर विकल्प A1 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "अद्वितीय हल",
+          "explanation": "जब $a_1/a_2 \neq b_1/b_2$ होता है, तो रेखाएँ प्रतिच्छेदी होती हैं और अद्वितीय हल प्राप्त होता है।"
         },
         {
           "q_id": "2",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 2 का स्टेटमेंट",
+          "statement": "दो चरों वाले रैखिक समीकरण $ax + by + c = 0$ का ग्राफ कैसा होता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A2"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B2"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C2"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D2"
-            }
+            {"index": "अ", "text": "वृत्त"},
+            {"index": "ब", "text": "परवलय"},
+            {"index": "स", "text": "एक सरल रेखा"},
+            {"index": "द", "text": "वक्र रेखा"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A2",
-          "explanation": "सही उत्तर विकल्प A2 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "एक सरल रेखा",
+          "explanation": "रैखिक समीकरण हमेशा एक सीधी रेखा को प्रदर्शित करता है।"
         },
         {
           "q_id": "3",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 3 का स्टेटमेंट",
+          "statement": "यदि रेखाएँ समांतर हों, तो समीकरण निकाय का:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A3"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B3"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C3"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D3"
-            }
+            {"index": "अ", "text": "अद्वितीय हल होता है"},
+            {"index": "ब", "text": "दो हल होते हैं"},
+            {"index": "स", "text": "कोई हल नहीं होता"},
+            {"index": "द", "text": "अनंत अनेक हल होते हैं"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A3",
-          "explanation": "सही उत्तर विकल्प A3 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "कोई हल नहीं होता",
+          "explanation": "समांतर रेखाएँ कभी एक-दूसरे को नहीं काटतीं, इसलिए कोई हल नहीं होता।"
         },
         {
           "q_id": "4",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 4 का स्टेटमेंट",
+          "statement": "समीकरण $x + y = 10$ और $x - y = 4$ में $x$ का मान होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A4"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B4"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C4"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D4"
-            }
+            {"index": "अ", "text": "7"},
+            {"index": "ब", "text": "3"},
+            {"index": "स", "text": "14"},
+            {"index": "द", "text": "6"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A4",
-          "explanation": "सही उत्तर विकल्प A4 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "7",
+          "explanation": "समीकरणों को जोड़ने पर: $2x = 14 \\implies x = 7$।"
         },
         {
           "q_id": "5",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 5 का स्टेटमेंट",
+          "statement": "अनंत अनेक हल होने की शर्त क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A5"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B5"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C5"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D5"
-            }
+            {"index": "अ", "text": "$a_1/a_2 \neq b_1/b_2$"},
+            {"index": "ब", "text": "$a_1/a_2 = b_1/b_2 \neq c_1/c_2$"},
+            {"index": "स", "text": "$a_1/a_2 = b_1/b_2 = c_1/c_2$"},
+            {"index": "द", "text": "$a_1/a_2 = c_1/c_2$"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A5",
-          "explanation": "सही उत्तर विकल्प A5 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "$a_1/a_2 = b_1/b_2 = c_1/c_2$",
+          "explanation": "जब तीनों अनुपात बराबर होते हैं, तो रेखाएँ संपाती होती हैं और अनंत हल होते हैं।"
         },
         {
           "q_id": "6",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 6 का स्टेटमेंट",
+          "statement": "समीकरण $2x + 3y = 5$ में यदि $x = 1$ हो, तो $y$ का मान होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A6"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B6"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C6"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D6"
-            }
+            {"index": "अ", "text": "2"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "3"},
+            {"index": "द", "text": "0"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A6",
-          "explanation": "सही उत्तर विकल्प A6 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "$2(1) + 3y = 5 \\implies 3y = 3 \\implies y = 1$।"
         },
         {
           "q_id": "7",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 7 का स्टेटमेंट",
+          "statement": "आश्रित (Dependent) समीकरणों का युग्म हमेशा कैसा होता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A7"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B7"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C7"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D7"
-            }
+            {"index": "अ", "text": "संगत (Consistent)"},
+            {"index": "ब", "text": "असंगत (Inconsistent)"},
+            {"index": "स", "text": "प्रतिच्छेदी"},
+            {"index": "द", "text": "समांतर"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A7",
-          "explanation": "सही उत्तर विकल्प A7 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "संगत (Consistent)",
+          "explanation": "संपाती रेखाओं (अनंत हल) को आश्रित और संगत युग्म कहा जाता है।"
         },
         {
           "q_id": "8",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 8 का स्टेटमेंट",
+          "statement": "यदि $a_1/a_2 = b_1/b_2 \neq c_1/c_2$ हो, तो रेखाएँ कैसी होंगी?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A8"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B8"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C8"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D8"
-            }
+            {"index": "अ", "text": "प्रतिच्छेदी"},
+            {"index": "ब", "text": "समांतर"},
+            {"index": "स", "text": "संपाती"},
+            {"index": "द", "text": "लंबवत"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A8",
-          "explanation": "सही उत्तर विकल्प A8 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समांतर",
+          "explanation": "यह शर्त समांतर रेखाओं और 'कोई हल नहीं' स्थिति के लिए है।"
         },
         {
           "q_id": "9",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 9 का स्टेटमेंट",
+          "statement": "समीकरण $y = 3$ का ग्राफ किस अक्ष के समांतर होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A9"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B9"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C9"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D9"
-            }
+            {"index": "अ", "text": "x-अक्ष"},
+            {"index": "ब", "text": "y-अक्ष"},
+            {"index": "स", "text": "मूल बिंदु"},
+            {"index": "द", "text": "इनमें से कोई नहीं"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A9",
-          "explanation": "सही उत्तर विकल्प A9 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "x-अक्ष",
+          "explanation": "$y = k$ के रूप वाले समीकरण x-अक्ष के समांतर होते हैं।"
         },
         {
           "q_id": "10",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 10 का स्टेटमेंट",
+          "statement": "दो संख्याओं का योग 25 और अंतर 5 है, वे संख्याएँ हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A10"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B10"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C10"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D10"
-            }
+            {"index": "अ", "text": "15, 10"},
+            {"index": "ब", "text": "20, 5"},
+            {"index": "स", "text": "13, 12"},
+            {"index": "द", "text": "30, -5"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A10",
-          "explanation": "सही उत्तर विकल्प A10 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "15, 10",
+          "explanation": "$15 + 10 = 25$ और $15 - 10 = 5$।"
         },
         {
           "q_id": "11",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 11 का स्टेटमेंट",
+          "statement": "रैखिक समीकरण युग्म को हल करने की बीजगणितीय विधि नहीं है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A11"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B11"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C11"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D11"
-            }
+            {"index": "अ", "text": "प्रतिस्थापन विधि"},
+            {"index": "ब", "text": "विलोपन विधि"},
+            {"index": "स", "text": "ग्राफीय विधि"},
+            {"index": "द", "text": "वज्र-गुणन विधि"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A11",
-          "explanation": "सही उत्तर विकल्प A11 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "ग्राफीय विधि",
+          "explanation": "ग्राफीय विधि एक ज्यामितीय विधि है, बीजगणितीय नहीं।"
         },
         {
           "q_id": "12",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 12 का स्टेटमेंट",
+          "statement": "समीकरण $x = 0$ किसका समीकरण है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A12"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B12"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C12"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D12"
-            }
+            {"index": "अ", "text": "x-अक्ष का"},
+            {"index": "ब", "text": "y-अक्ष का"},
+            {"index": "स", "text": "मूल बिंदु का"},
+            {"index": "द", "text": "एक वृत्त का"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A12",
-          "explanation": "सही उत्तर विकल्प A12 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "y-अक्ष का",
+          "explanation": "y-अक्ष पर स्थित हर बिंदु का x-निर्देशांक शून्य होता है।"
         },
         {
           "q_id": "13",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 13 का स्टेटमेंट",
+          "statement": "यदि $k$ के लिए $3x - y = -8$ और $6x - ky = -16$ के अनंत अनेक हल हों, तो $k$ है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A13"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B13"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C13"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D13"
-            }
+            {"index": "अ", "text": "1"},
+            {"index": "ब", "text": "2"},
+            {"index": "स", "text": "-2"},
+            {"index": "द", "text": "1/2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A13",
-          "explanation": "सही उत्तर विकल्प A13 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "2",
+          "explanation": "शर्त $a_1/a_2 = b_1/b_2$ से, $3/6 = -1/-k \\implies 1/2 = 1/k \\implies k = 2$।"
         },
         {
           "q_id": "14",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 14 का स्टेटमेंट",
+          "statement": "समीकरण $x - 2y = 0$ और $3x + 4y = 20$ की रेखाएँ:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A14"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B14"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C14"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D14"
-            }
+            {"index": "अ", "text": "प्रतिच्छेद करती हैं"},
+            {"index": "ब", "text": "समांतर हैं"},
+            {"index": "स", "text": "संपाती हैं"},
+            {"index": "द", "text": "इनमें से कोई नहीं"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A14",
-          "explanation": "सही उत्तर विकल्प A14 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "प्रतिच्छेद करती हैं",
+          "explanation": "$1/3 \neq -2/4$, इसलिए रेखाएँ प्रतिच्छेदी हैं।"
         },
         {
           "q_id": "15",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 15 का स्टेटमेंट",
+          "statement": "पिता की आयु पुत्र की आयु की तीन गुनी है। यदि पिता x और पुत्र y वर्ष का है, तो समीकरण होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A15"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B15"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C15"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D15"
-            }
+            {"index": "अ", "text": "x = 3y"},
+            {"index": "ब", "text": "y = 3x"},
+            {"index": "स", "text": "x + 3y = 0"},
+            {"index": "द", "text": "x + y = 3"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A15",
-          "explanation": "सही उत्तर विकल्प A15 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "x = 3y",
+          "explanation": "पिता की आयु (x) = 3 × पुत्र की आयु (y)।"
         },
         {
           "q_id": "16",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 16 का स्टेटमेंट",
+          "statement": "समीकरण $2x + y = 6$ के कितने हल हो सकते हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A16"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B16"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C16"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D16"
-            }
+            {"index": "अ", "text": "एक"},
+            {"index": "ब", "text": "दो"},
+            {"index": "स", "text": "तीन"},
+            {"index": "द", "text": "अपरिमित रूप से अनेक"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A16",
-          "explanation": "सही उत्तर विकल्प A16 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "द",
+          "correct_answer": "अपरिमित रूप से अनेक",
+          "explanation": "एक अकेले दो चरों वाले रैखिक समीकरण के अनंत हल होते हैं।"
         },
         {
           "q_id": "17",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 17 का स्टेटमेंट",
+          "statement": "विलोपन विधि में हम क्या करते हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A17"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B17"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C17"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D17"
-            }
+            {"index": "अ", "text": "एक चर का मान दूसरे में रखते हैं"},
+            {"index": "ब", "text": "एक चर को विलुप्त करते हैं"},
+            {"index": "स", "text": "ग्राफ खींचते हैं"},
+            {"index": "द", "text": "केवल गुणा करते हैं"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A17",
-          "explanation": "सही उत्तर विकल्प A17 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "एक चर को विलुप्त करते हैं",
+          "explanation": "गुणांकों को समान बनाकर एक चर को हटाया जाता है।"
         },
         {
           "q_id": "18",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 18 का स्टेटमेंट",
+          "statement": "वह समीकरण जिसका ग्राफ मूल बिंदु से होकर जाता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A18"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B18"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C18"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D18"
-            }
+            {"index": "अ", "text": "x + y = 1"},
+            {"index": "ब", "text": "x = y"},
+            {"index": "स", "text": "x = 5"},
+            {"index": "द", "text": "y = 2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A18",
-          "explanation": "सही उत्तर विकल्प A18 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "x = y",
+          "explanation": "यदि $c = 0$ हो, तो रेखा मूल बिंदु (0,0) से गुजरती है।"
         },
         {
           "q_id": "19",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 19 का स्टेटमेंट",
+          "statement": "असंगत समीकरण युग्म का ग्राफ कैसा होता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A19"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B19"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C19"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D19"
-            }
+            {"index": "अ", "text": "प्रतिच्छेदी रेखाएँ"},
+            {"index": "ब", "text": "समांतर रेखाएँ"},
+            {"index": "स", "text": "संपाती रेखाएँ"},
+            {"index": "द", "text": "एक बिंदु"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A19",
-          "explanation": "सही उत्तर विकल्प A19 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समांतर रेखाएँ",
+          "explanation": "असंगत युग्म का कोई हल नहीं होता, जो समांतर रेखाओं का गुण है।"
         },
         {
           "q_id": "20",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 20 का स्टेटमेंट",
+          "statement": "समीकरण $x - y = 2$ और $x + y = 4$ का हल होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A20"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B20"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C20"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D20"
-            }
+            {"index": "अ", "text": "(3, 1)"},
+            {"index": "ब", "text": "(1, 3)"},
+            {"index": "स", "text": "(2, 2)"},
+            {"index": "द", "text": "(4, 0)"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A20",
-          "explanation": "सही उत्तर विकल्प A20 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "(3, 1)",
+          "explanation": "$3 - 1 = 2$ और $3 + 1 = 4$।"
         },
         {
           "q_id": "21",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 21 का स्टेटमेंट",
+          "statement": "यदि $2x + 3y = 12$ में $y = 0$ हो, तो x-अंत:खण्ड क्या होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A21"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B21"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C21"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D21"
-            }
+            {"index": "अ", "text": "4"},
+            {"index": "ब", "text": "6"},
+            {"index": "स", "text": "12"},
+            {"index": "द", "text": "3"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A21",
-          "explanation": "सही उत्तर विकल्प A21 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "6",
+          "explanation": "$2x + 0 = 12 \\implies x = 6$।"
         },
         {
           "q_id": "22",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 22 का स्टेटमेंट",
+          "statement": "दो चरों वाले रैखिक समीकरणों के युग्म का मानक रूप है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A22"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B22"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C22"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D22"
-            }
+            {"index": "अ", "text": "$ax^2 + bx + c = 0$"},
+            {"index": "ब", "text": "$ax + b = 0$"},
+            {"index": "स", "text": "$a_1x + b_1y + c_1 = 0, a_2x + b_2y + c_2 = 0$"},
+            {"index": "द", "text": "$x + y = c$"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A22",
-          "explanation": "सही उत्तर विकल्प A22 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "$a_1x + b_1y + c_1 = 0, a_2x + b_2y + c_2 = 0$",
+          "explanation": "यह दो रैखिक समीकरणों के निकाय का सामान्य रूप है।"
         },
         {
           "q_id": "23",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 23 का स्टेटमेंट",
+          "statement": "एक भिन्न का अंश x और हर y है। यदि अंश में 1 जोड़ दें, तो भिन्न होगी:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A23"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B23"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C23"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D23"
-            }
+            {"index": "अ", "text": "$(x+1)/y$"},
+            {"index": "ब", "text": "$x/(y+1)$"},
+            {"index": "स", "text": "$x/y + 1$"},
+            {"index": "द", "text": "$(x-1)/y$"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A23",
-          "explanation": "सही उत्तर विकल्प A23 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "(x+1)/y",
+          "explanation": "अंश (ऊपरी भाग) में वृद्धि की गई है।"
         },
         {
           "q_id": "24",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 24 का स्टेटमेंट",
+          "statement": "यदि रेखाएँ एक बिंदु पर प्रतिच्छेद करती हैं, तो वह बिंदु दोनों समीकरणों का क्या कहलाता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A24"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B24"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C24"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D24"
-            }
+            {"index": "अ", "text": "शून्य"},
+            {"index": "ब", "text": "हल"},
+            {"index": "स", "text": "गुणांक"},
+            {"index": "द", "text": "अचर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A24",
-          "explanation": "सही उत्तर विकल्प A24 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "हल",
+          "explanation": "प्रतिच्छेद बिंदु के निर्देशांक दोनों समीकरणों को संतुष्ट करते हैं।"
         },
         {
           "q_id": "25",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 25 का स्टेटमेंट",
+          "statement": "समीकरण $5x + 3y = 9$ और $10x + 6y = 18$ का निकाय है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A25"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B25"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C25"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D25"
-            }
+            {"index": "अ", "text": "असंगत"},
+            {"index": "ब", "text": "अद्वितीय हल वाला"},
+            {"index": "स", "text": "संगत और आश्रित"},
+            {"index": "द", "text": "इनमें से कोई नहीं"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A25",
-          "explanation": "सही उत्तर विकल्प A25 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "संगत और आश्रित",
+          "explanation": "$5/10 = 3/6 = 9/18 = 1/2$ (संपाती रेखाएँ)।"
         },
         {
           "q_id": "26",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 26 का स्टेटमेंट",
+          "statement": "k के किस मान के लिए समीकरण $x + 2y = 3$ और $5x + ky + 7 = 0$ समांतर होंगे?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A26"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B26"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C26"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D26"
-            }
+            {"index": "अ", "text": "10"},
+            {"index": "ब", "text": "6"},
+            {"index": "स", "text": "1"},
+            {"index": "द", "text": "5"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A26",
-          "explanation": "सही उत्तर विकल्प A26 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "10",
+          "explanation": "समांतर होने के लिए $1/5 = 2/k \\implies k = 10$।"
         },
         {
           "q_id": "27",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 27 का स्टेटमेंट",
+          "statement": "किसी त्रिभुज के तीनों कोणों का योग $180^\circ$ है। यदि दो कोण x और y हैं, तो तीसरा कोण होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A27"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B27"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C27"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D27"
-            }
+            {"index": "अ", "text": "$x + y$"},
+            {"index": "ब", "text": "$180 - (x + y)$"},
+            {"index": "स", "text": "$180 + x + y$"},
+            {"index": "द", "text": "$90 - x$"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A27",
-          "explanation": "सही उत्तर विकल्प A27 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "180 - (x + y)",
+          "explanation": "त्रिभुज के कोणों का योग गुणधर्म।"
         },
         {
           "q_id": "28",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 28 का स्टेटमेंट",
+          "statement": "समीकरण $x = 2$ और $y = 3$ का ग्राफ कहाँ प्रतिच्छेद करेगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A28"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B28"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C28"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D28"
-            }
+            {"index": "अ", "text": "(3, 2)"},
+            {"index": "ब", "text": "(2, 3)"},
+            {"index": "स", "text": "(0, 0)"},
+            {"index": "द", "text": "(2, 0)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A28",
-          "explanation": "सही उत्तर विकल्प A28 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "(2, 3)",
+          "explanation": "x और y के मान ही प्रतिच्छेद बिंदु के निर्देशांक हैं।"
         },
         {
           "q_id": "29",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 29 का स्टेटमेंट",
+          "statement": "पाँच संतरों और तीन सेबों का मूल्य 35 रुपये है। इसका रैखिक समीकरण होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A29"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B29"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C29"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D29"
-            }
+            {"index": "अ", "text": "5x + 3y = 35"},
+            {"index": "ब", "text": "3x + 5y = 35"},
+            {"index": "स", "text": "15xy = 35"},
+            {"index": "द", "text": "5x - 3y = 35"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A29",
-          "explanation": "सही उत्तर विकल्प A29 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "5x + 3y = 35",
+          "explanation": "जहाँ x संतरे का और y सेब का मूल्य है।"
         },
         {
           "q_id": "30",
-          "statement": "Pair of Linear Equations in Two Variables – प्रश्न 30 का स्टेटमेंट",
+          "statement": "यदि $n$ समीकरणों का निकाय असंगत है, तो उसका ग्राफ कैसा होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A30"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B30"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C30"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D30"
-            }
+            {"index": "अ", "text": "एक दूसरे के ऊपर रेखाएँ"},
+            {"index": "ब", "text": "एक दूसरे को काटती रेखाएँ"},
+            {"index": "स", "text": "एक दूसरे के समांतर रेखाएँ"},
+            {"index": "द", "text": "एक बिंदु मात्र"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A30",
-          "explanation": "सही उत्तर विकल्प A30 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "एक दूसरे के समांतर रेखाएँ",
+          "explanation": "असंगत का अर्थ है कोई साझा हल न होना, जो समांतर रेखाओं में होता है।"
         }
       ]
     }
