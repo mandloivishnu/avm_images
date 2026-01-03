@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "त्रिकोणमिति का परिचय – Introduction to Trigonometry",
+    "subjectName": "Triangles",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -10,398 +10,38 @@
       "question_number": "1",
       "question_type": "MULTIPLE_CHOICE",
       "marks": "1*30=30",
-      "text": "सही विकल्प का चयन कर लिखिए:",
+      "text": "सही विकल्प का चयन करें :",
       "parts": [
-        {
-          "q_id": "1",
-          "statement": "यदि $\\sin \\theta = 3/5$ हो, तो $\\cos \\theta$ का मान होगा:",
-          "options": [
-            {"index": "अ", "text": "4/5"},
-            {"index": "ब", "text": "5/3"},
-            {"index": "स", "text": "3/4"},
-            {"index": "द", "text": "4/3"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "4/5",
-          "explanation": "पाइथागोरस प्रमेय से, आधार = $\\sqrt{5^2 - 3^2} = 4$। अतः $\\cos \\theta = 4/5$।"
-        },
-        {
-          "q_id": "2",
-          "statement": "$\\tan 45^\\circ$ का मान क्या होता है?",
-          "options": [
-            {"index": "अ", "text": "0"},
-            {"index": "ब", "text": "1"},
-            {"index": "स", "text": "1/√2"},
-            {"index": "द", "text": "√3"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1",
-          "explanation": "त्रिकोणमितीय सारणी के अनुसार $\\tan 45^\\circ = 1$ होता है।"
-        },
-        {
-          "q_id": "3",
-          "statement": "सर्वसमिका $\\sin^2 \\theta + \\cos^2 \\theta$ का मान है:",
-          "options": [
-            {"index": "अ", "text": "0"},
-            {"index": "ब", "text": "2"},
-            {"index": "स", "text": "1"},
-            {"index": "द", "text": "-1"}
-          ],
-          "correct_index": "स",
-          "correct_answer": "1",
-          "explanation": "यह त्रिकोणमिति की मूलभूत सर्वसमिका है।"
-        },
-        {
-          "q_id": "4",
-          "statement": "$\\sec \\theta$ किसके बराबर होता है?",
-          "options": [
-            {"index": "अ", "text": "1/\\sin \\theta"},
-            {"index": "ब", "text": "1/\\cos \\theta"},
-            {"index": "स", "text": "1/\\tan \\theta"},
-            {"index": "द", "text": "\\sin \\theta / \\cos \\theta"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1/\\cos \\theta",
-          "explanation": "सेकेंट (sec) कोसाइन (cos) का व्युत्क्रम होता है।"
-        },
-        {
-          "q_id": "5",
-          "statement": "$\\frac{1 - \\tan^2 45^\\circ}{1 + \\tan^2 45^\\circ}$ का मान है:",
-          "options": [
-            {"index": "अ", "text": "tan 90°"},
-            {"index": "ब", "text": "1"},
-            {"index": "स", "text": "sin 45°"},
-            {"index": "द", "text": "0"}
-          ],
-          "correct_index": "द",
-          "correct_answer": "0",
-          "explanation": "$(1 - 1^2) / (1 + 1^2) = 0/2 = 0$।"
-        },
-        {
-          "q_id": "6",
-          "statement": "$\\sin (90^\\circ - \\theta)$ बराबर होता है:",
-          "options": [
-            {"index": "अ", "text": "\\sin \\theta"},
-            {"index": "ब", "text": "\\cos \\theta"},
-            {"index": "स", "text": "\\tan \\theta"},
-            {"index": "द", "text": "\\cot \\theta"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "\\cos \\theta",
-          "explanation": "पूरक कोणों के त्रिकोणमितीय अनुपात के नियम से।"
-        },
-        {
-          "q_id": "7",
-          "statement": "यदि $\\tan A = \\cot B$ हो, तो $A + B$ का मान होगा:",
-          "options": [
-            {"index": "अ", "text": "0°"},
-            {"index": "ब", "text": "90°"},
-            {"index": "स", "text": "45°"},
-            {"index": "द", "text": "180°"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "90°",
-          "explanation": "$\\tan A = \\tan (90^\\circ - B) \\implies A = 90^\\circ - B$।"
-        },
-        {
-          "q_id": "8",
-          "statement": "$\\sin 60^\\circ \\cos 30^\\circ + \\sin 30^\\circ \\cos 60^\\circ$ का मान है:",
-          "options": [
-            {"index": "अ", "text": "0"},
-            {"index": "ब", "text": "1"},
-            {"index": "स", "text": "1/2"},
-            {"index": "द", "text": "2"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1",
-          "explanation": "यह $\\sin(A+B)$ का रूप है: $\\sin(60^\\circ+30^\\circ) = \\sin 90^\\circ = 1$।"
-        },
-        {
-          "q_id": "9",
-          "statement": "$\\sec^2 \\theta - \\tan^2 \\theta$ का मान है:",
-          "options": [
-            {"index": "अ", "text": "1"},
-            {"index": "ब", "text": "0"},
-            {"index": "स", "text": "-1"},
-            {"index": "द", "text": "2"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "1",
-          "explanation": "यह दूसरी महत्वपूर्ण त्रिकोणमितीय सर्वसमिका है।"
-        },
-        {
-          "q_id": "10",
-          "statement": "यदि $2 \\sin 2\\theta = \\sqrt{3}$ हो, तो $\\theta$ का मान होगा:",
-          "options": [
-            {"index": "अ", "text": "30°"},
-            {"index": "ब", "text": "60°"},
-            {"index": "स", "text": "45°"},
-            {"index": "द", "text": "15°"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "30°",
-          "explanation": "$\\sin 2\\theta = \\sqrt{3}/2 = \\sin 60^\\circ \\implies 2\\theta = 60^\\circ \\implies \\theta = 30^\\circ$।"
-        },
-        {
-          "q_id": "11",
-          "statement": "त्रिकोणमिति में '$\\\\theta$' सामान्यतः किसे प्रदर्शित करता है?",
-          "options": [
-            {"index": "अ", "text": "भुजा की लंबाई"},
-            {"index": "ब", "text": "कोण"},
-            {"index": "स", "text": "क्षेत्रफल"},
-            {"index": "द", "text": "वृत्त की त्रिज्या"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "कोण",
-          "explanation": "थीटा ($\\\\theta$) एक ग्रीक अक्षर है जिसका उपयोग कोणों के लिए किया जाता है।"
-        },
-        {
-          "q_id": "12",
-          "statement": "$\\cos 0^\\circ$ का मान क्या है?",
-          "options": [
-            {"index": "अ", "text": "0"},
-            {"index": "ब", "text": "1"},
-            {"index": "स", "text": "अपरिभाषित"},
-            {"index": "द", "text": "1/2"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1",
-          "explanation": "कोसाइन का मान 0 डिग्री पर अधिकतम (1) होता है।"
-        },
-        {
-          "q_id": "13",
-          "statement": "$\\frac{\\sin 18^\\circ}{\\cos 72^\\circ}$ का मान होगा:",
-          "options": [
-            {"index": "अ", "text": "0"},
-            {"index": "ब", "text": "1"},
-            {"index": "स", "text": "-1"},
-            {"index": "द", "text": "18/72"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1",
-          "explanation": "$\\sin 18^\\circ = \\cos (90^\\circ - 18^\\circ) = \\cos 72^\\circ$।"
-        },
-        {
-          "q_id": "14",
-          "statement": "$\\tan \\theta$ को $\\sin$ और $\\cos$ के पदों में कैसे लिखते हैं?",
-          "options": [
-            {"index": "अ", "text": "$\\cos \\theta / \\sin \\theta$"},
-            {"index": "ब", "text": "$\\sin \\theta \\cdot \\cos \\theta$"},
-            {"index": "स", "text": "$\\sin \\theta / \\cos \\theta$"},
-            {"index": "द", "text": "1/(\\sin \\theta \\cos \\theta)"}
-          ],
-          "correct_index": "स",
-          "correct_answer": "$\\sin \\theta / \\cos \\theta$",
-          "explanation": "टैंजेंट, साइन और कोसाइन का अनुपात होता है।"
-        },
-        {
-          "q_id": "15",
-          "statement": "$\\sqrt{1 - \\cos^2 \\theta}$ किसके बराबर है?",
-          "options": [
-            {"index": "अ", "text": "$\\sin \\theta$"},
-            {"index": "ब", "text": "$\\tan \\theta$"},
-            {"index": "स", "text": "$\\cos \\theta$"},
-            {"index": "द", "text": "$\\sec \\theta$"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "$\\sin \\theta$",
-          "explanation": "$\\sin^2 \\theta + \\cos^2 \\theta = 1$ सर्वसमिका से।"
-        },
-        {
-          "q_id": "16",
-          "statement": "$\\sin$ का अधिकतम मान क्या हो सकता है?",
-          "options": [
-            {"index": "अ", "text": "0"},
-            {"index": "ब", "text": "1"},
-            {"index": "स", "text": "अनंत"},
-            {"index": "द", "text": "100"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1",
-          "explanation": "साइन का मान -1 से 1 के बीच रहता है।"
-        },
-        {
-          "q_id": "17",
-          "statement": "यदि $\\cos A = 4/5$ हो, तो $\\tan A$ का मान होगा:",
-          "options": [
-            {"index": "अ", "text": "3/5"},
-            {"index": "ब", "text": "3/4"},
-            {"index": "स", "text": "4/3"},
-            {"index": "द", "text": "5/3"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "3/4",
-          "explanation": "लंब = $\\sqrt{5^2 - 4^2} = 3$। $\\tan A$ = लंब/आधार = 3/4।"
-        },
-        {
-          "q_id": "18",
-          "statement": "$\\operatorname{cosec} 30^\\circ$ का मान है:",
-          "options": [
-            {"index": "अ", "text": "1/2"},
-            {"index": "ब", "text": "2"},
-            {"index": "स", "text": "2/√3"},
-            {"index": "द", "text": "√2"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "2",
-          "explanation": "$\\operatorname{cosec} 30^\\circ = 1 / \\sin 30^\\circ = 1 / (1/2) = 2$।"
-        },
-        {
-          "q_id": "19",
-          "statement": "$9\\sec^2 A - 9\\tan^2 A$ बराबर है:",
-          "options": [
-            {"index": "अ", "text": "1"},
-            {"index": "ब", "text": "9"},
-            {"index": "स", "text": "8"},
-            {"index": "द", "text": "0"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "9",
-          "explanation": "$9(\\sec^2 A - \\tan^2 A) = 9(1) = 9$।"
-        },
-        {
-          "q_id": "20",
-          "statement": "$\\sin \\theta$ का मान $\\theta$ में वृद्धि होने के साथ:",
-          "options": [
-            {"index": "अ", "text": "बढ़ता है"},
-            {"index": "ब", "text": "घटता है"},
-            {"index": "स", "text": "स्थिर रहता है"},
-            {"index": "द", "text": "पहले घटता है फिर बढ़ता है"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "बढ़ता है",
-          "explanation": "0° से 90° तक साइन का मान 0 से बढ़कर 1 हो जाता है।"
-        },
-        {
-          "q_id": "21",
-          "statement": "$\\cos \\theta$ का मान $\\theta$ में वृद्धि होने के साथ:",
-          "options": [
-            {"index": "अ", "text": "बढ़ता है"},
-            {"index": "ब", "text": "घटता है"},
-            {"index": "स", "text": "स्थिर रहता है"},
-            {"index": "द", "text": "शून्य हो जाता है"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "घटता है",
-          "explanation": "0° से 90° तक कोसाइन का मान 1 से घटकर 0 हो जाता है।"
-        },
-        {
-          "q_id": "22",
-          "statement": "$\\cot 60^\\circ$ का मान है:",
-          "options": [
-            {"index": "अ", "text": "√3"},
-            {"index": "ब", "text": "1/√3"},
-            {"index": "स", "text": "1"},
-            {"index": "द", "text": "0"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1/√3",
-          "explanation": "$\\cot 60^\\circ = 1 / \\tan 60^\\circ = 1 / \\sqrt{3}$।"
-        },
-        {
-          "q_id": "23",
-          "statement": "$\\sin 2A = 2\\sin A$ तब सत्य होता है जब $A$ बराबर हो:",
-          "options": [
-            {"index": "अ", "text": "0°"},
-            {"index": "ब", "text": "30°"},
-            {"index": "स", "text": "45°"},
-            {"index": "द", "text": "60°"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "0°",
-          "explanation": "0° पर $\\sin 0 = 0$ और $2(0) = 0$।"
-        },
-        {
-          "q_id": "24",
-          "statement": "$\\sin A$ और $\\cos A$ का मान किस कोण पर बराबर होता है?",
-          "options": [
-            {"index": "अ", "text": "30°"},
-            {"index": "ब", "text": "45°"},
-            {"index": "स", "text": "60°"},
-            {"index": "द", "text": "90°"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "45°",
-          "explanation": "45° पर दोनों का मान $1/\\sqrt{2}$ होता है।"
-        },
-        {
-          "q_id": "25",
-          "statement": "पाइथागोरस प्रमेय के अनुसार $(\\text{कर्ण})^2$ बराबर है:",
-          "options": [
-            {"index": "अ", "text": "लंब + आधार"},
-            {"index": "ब", "text": "लंब² + आधार²"},
-            {"index": "स", "text": "लंब² - आधार²"},
-            {"index": "द", "text": "लंब × आधार"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "लंब² + आधार²",
-          "explanation": "यह समकोण त्रिभुज का मूलभूत नियम है।"
-        },
-        {
-          "q_id": "26",
-          "statement": "$\\tan 60^\\circ$ का मान क्या है?",
-          "options": [
-            {"index": "अ", "text": "1/√3"},
-            {"index": "ब", "text": "√3"},
-            {"index": "स", "text": "1"},
-            {"index": "द", "text": "2"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "√3",
-          "explanation": "त्रिकोणमितीय सारणी के अनुसार $\\tan 60^\\circ = \\sqrt{3}$ होता है।"
-        },
-        {
-          "q_id": "27",
-          "statement": "$\\operatorname{cosec}^2 \\theta - \\cot^2 \\theta$ बराबर है:",
-          "options": [
-            {"index": "अ", "text": "0"},
-            {"index": "ब", "text": "1"},
-            {"index": "स", "text": "-1"},
-            {"index": "द", "text": "2"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "1",
-          "explanation": "यह तीसरी महत्वपूर्ण त्रिकोणमितीय सर्वसमिका है।"
-        },
-        {
-          "q_id": "28",
-          "statement": "$\\cos 48^\\circ - \\sin 42^\\circ$ का मान है:",
-          "options": [
-            {"index": "अ", "text": "1"},
-            {"index": "ब", "text": "0"},
-            {"index": "स", "text": "2"},
-            {"index": "द", "text": "1/2"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "0",
-          "explanation": "$\\cos 48^\\circ = \\sin (90^\\circ - 48^\\circ) = \\sin 42^\\circ \\implies \\sin 42^\\circ - \\sin 42^\\circ = 0$।"
-        },
-        {
-          "q_id": "29",
-          "statement": "$\\tan A$ का मान हमेशा 1 से कम होता है। (सत्य/असत्य)",
-          "options": [
-            {"index": "अ", "text": "सत्य"},
-            {"index": "ब", "text": "असत्य"},
-            {"index": "स", "text": "केवल 45° के लिए"},
-            {"index": "द", "text": "निर्धारित नहीं"}
-          ],
-          "correct_index": "ब",
-          "correct_answer": "असत्य",
-          "explanation": "$\\tan 60^\\circ = \\sqrt{3} \\approx 1.732$, जो 1 से बड़ा है।"
-        },
-        {
-          "q_id": "30",
-          "statement": "$\\frac{2 \\tan 30^\\circ}{1 + \\tan^2 30^\\circ}$ किसके बराबर है?",
-          "options": [
-            {"index": "अ", "text": "sin 60°"},
-            {"index": "ब", "text": "cos 60°"},
-            {"index": "स", "text": "tan 60°"},
-            {"index": "द", "text": "sin 30°"}
-          ],
-          "correct_index": "अ",
-          "correct_answer": "sin 60°",
-          "explanation": "हल करने पर $\\sqrt{3}/2$ प्राप्त होता है, जो $\\sin 60^\\circ$ का मान है।"
-        }
+        { "q_id": "1", "statement": "तीनों भुजाएँ समान होने पर त्रिभुज को क्या कहते हैं?", "options":[{"index":"अ","text":"समबाहु त्रिभुज"},{"index":"ब","text":"समकोण त्रिभुज"},{"index":"स","text":"विषमभुज त्रिभुज"},{"index":"द","text":"समद्विबाहु त्रिभुज"}], "correct_index":"अ", "correct_answer":"समबाहु त्रिभुज", "explanation":"समान भुजाएँ वाला त्रिभुज समबाहु त्रिभुज कहलाता है।"},
+        { "q_id": "2", "statement": "समकोण त्रिभुज में सबसे लंबी भुजा कौन सी होती है?", "options":[{"index":"अ","text":"आधार"},{"index":"ब","text":"ऊर्ध्वाधर"},{"index":"स","text":"कर्ण"},{"index":"द","text":"समान भुजा"}], "correct_index":"स", "correct_answer":"कर्ण", "explanation":"समकोण त्रिभुज में कर्ण हमेशा सबसे लंबी भुजा होती है।"},
+        { "q_id": "3", "statement": "त्रिभुज के कोणों का योग कितना होता है?", "options":[{"index":"अ","text":"90°"},{"index":"ब","text":"180°"},{"index":"स","text":"360°"},{"index":"द","text":"270°"}], "correct_index":"ब", "correct_answer":"180°", "explanation":"त्रिभुज के तीन कोणों का योग हमेशा 180° होता है।"},
+        { "q_id": "4", "statement": "समद्विबाहु त्रिभुज में कौन से कोण समान होते हैं?", "options":[{"index":"अ","text":"आधार के कोण"},{"index":"ब","text":"ऊर्ध्वाधर कोण"},{"index":"स","text":"सभी कोण"},{"index":"द","text":"कोई नहीं"}], "correct_index":"अ", "correct_answer":"आधार के कोण", "explanation":"समद्विबाहु त्रिभुज में आधार के दो कोण समान होते हैं।"},
+        { "q_id": "5", "statement": "त्रिभुज की परिधि कैसे ज्ञात की जाती है?", "options":[{"index":"अ","text":"भुजाओं के योग से"},{"index":"ब","text":"क्षेत्रफल × 2"},{"index":"स","text":"कोणों के योग से"},{"index":"द","text":"कर्ण × 2"}], "correct_index":"अ", "correct_answer":"भुजाओं के योग से", "explanation":"त्रिभुज की परिधि सभी भुजाओं के योग के बराबर होती है।"},
+        { "q_id": "6", "statement": "समबाहु त्रिभुज में प्रत्येक कोण कितना होता है?", "options":[{"index":"अ","text":"30°"},{"index":"ब","text":"45°"},{"index":"स","text":"60°"},{"index":"द","text":"90°"}], "correct_index":"स", "correct_answer":"60°", "explanation":"समबाहु त्रिभुज में सभी कोण 60° के बराबर होते हैं।"},
+        { "q_id": "7", "statement": "एक त्रिभुज में सबसे लंबी भुजा हमेशा किसके सामने होती है?", "options":[{"index":"अ","text":"सबसे बड़ा कोण"},{"index":"ब","text":"सबसे छोटा कोण"},{"index":"स","text":"समान कोण"},{"index":"द","text":"कोई नहीं"}], "correct_index":"अ", "correct_answer":"सबसे बड़ा कोण", "explanation":"सबसे लंबी भुजा हमेशा सबसे बड़े कोण के सामने होती है।"},
+        { "q_id": "8", "statement": "समकोण त्रिभुज में कौन सा प्रमेय लागू होता है?", "options":[{"index":"अ","text":"पाइथागोरस प्रमेय"},{"index":"ब","text":"त्रिभुज का क्षेत्रफल = 0"},{"index":"स","text":"कोण योग 360°"},{"index":"द","text":"त्रिभुज समबाहु"}], "correct_index":"अ", "correct_answer":"पाइथागोरस प्रमेय", "explanation":"समकोण त्रिभुज में c² = a² + b² होता है।"},
+        { "q_id": "9", "statement": "त्रिभुज का क्षेत्रफल ज्ञात करने का सूत्र कौन सा है?", "options":[{"index":"अ","text":"1/2 × आधार × ऊँचाई"},{"index":"ब","text":"a × b × c"},{"index":"स","text":"a + b + c"},{"index":"द","text":"कोण × भुजा"}], "correct_index":"अ", "correct_answer":"1/2 × आधार × ऊँचाई", "explanation":"त्रिभुज का क्षेत्रफल = 1/2 × आधार × ऊँचाई होता है।"},
+        { "q_id": "10", "statement": "त्रिभुज में कोणों का प्रकार किस आधार पर तय होता है?", "options":[{"index":"अ","text":"भुजाओं की लंबाई"},{"index":"ब","text":"क्षेत्रफल"},{"index":"स","text":"कर्ण"},{"index":"द","text":"परिधि"}], "correct_index":"अ", "correct_answer":"भुजाओं की लंबाई", "explanation":"कोणों का प्रकार भुजाओं की लंबाई पर आधारित होता है।"},
+        { "q_id": "11", "statement": "समद्विबाहु त्रिभुज में ऊँचाई, माध्य और माध्यिका कौन सी भुजा पर गिरती है?", "options":[{"index":"अ","text":"समान भुजा"},{"index":"ब","text":"आधार"},{"index":"स","text":"कर्ण"},{"index":"द","text":"कोई नहीं"}], "correct_index":"ब", "correct_answer":"आधार", "explanation":"समद्विबाहु त्रिभुज में आधार पर ऊँचाई, माध्य और माध्यिका गिरती है।"},
+        { "q_id": "12", "statement": "विषमभुज त्रिभुज में कितनी भुजाएँ अलग होती हैं?", "options":[{"index":"अ","text":"1"},{"index":"ब","text":"2"},{"index":"स","text":"3"},{"index":"द","text":"सभी समान"}], "correct_index":"स", "correct_answer":"3", "explanation":"विषमभुज त्रिभुज में सभी तीन भुजाएँ अलग होती हैं।"},
+        { "q_id": "13", "statement": "किस त्रिभुज में किसी कोण का मान 90° होता है?", "options":[{"index":"अ","text":"समबाहु"},{"index":"ब","text":"समद्विबाहु"},{"index":"स","text":"समकोण"},{"index":"द","text":"विषमभुज"}], "correct_index":"स", "correct_answer":"समकोण", "explanation":"समकोण त्रिभुज में एक कोण हमेशा 90° होता है।"},
+        { "q_id": "14", "statement": "त्रिभुज में सबसे छोटा कोण किस भुजा के सामने होता है?", "options":[{"index":"अ","text":"सबसे लंबी भुजा"},{"index":"ब","text":"सबसे छोटी भुजा"},{"index":"स","text":"माध्य भुजा"},{"index":"द","text":"कोई नहीं"}], "correct_index":"ब", "correct_answer":"सबसे छोटी भुजा", "explanation":"सबसे छोटा कोण सबसे छोटी भुजा के सामने होता है।"},
+        { "q_id": "15", "statement": "त्रिभुज के बाहरी कोणों का योग कितना होता है?", "options":[{"index":"अ","text":"180°"},{"index":"ब","text":"360°"},{"index":"स","text":"540°"},{"index":"द","text":"90°"}], "correct_index":"ब", "correct_answer":"360°", "explanation":"त्रिभुज के बाहरी कोणों का योग हमेशा 360° होता है।"},
+        { "q_id": "16", "statement": "पाइथागोरस प्रमेय किस प्रकार के त्रिभुज पर लागू होता है?", "options":[{"index":"अ","text":"समबाहु"},{"index":"ब","text":"समद्विबाहु"},{"index":"स","text":"समकोण"},{"index":"द","text":"विषमभुज"}], "correct_index":"स", "correct_answer":"समकोण", "explanation":"पाइथागोरस प्रमेय केवल समकोण त्रिभुज पर लागू होता है।"},
+        { "q_id": "17", "statement": "किस त्रिभुज में सभी भुजाएँ अलग होती हैं?", "options":[{"index":"अ","text":"समबाहु"},{"index":"ब","text":"समद्विबाहु"},{"index":"स","text":"विषमभुज"},{"index":"द","text":"समकोण"}], "correct_index":"स", "correct_answer":"विषमभुज", "explanation":"विषमभुज त्रिभुज की सभी भुजाएँ अलग होती हैं।"},
+        { "q_id": "18", "statement": "त्रिभुज की ऊँचाई किसके लिए गिराई जाती है?", "options":[{"index":"अ","text":"कर्ण"},{"index":"ब","text":"भुजा"},{"index":"स","text":"कोण"},{"index":"द","text":"क्षेत्रफल"}], "correct_index":"ब", "correct_answer":"भुजा", "explanation":"त्रिभुज की ऊँचाई किसी भुजा पर लंबवत गिराई जाती है।"},
+        { "q_id": "19", "statement": "त्रिभुज का क्षेत्रफल जानने के लिए कौन सा अन्य सूत्र भी उपयोग किया जा सकता है?", "options":[{"index":"अ","text":"हीरोन का सूत्र"},{"index":"ब","text":"पाइथागोरस प्रमेय"},{"index":"स","text":"समकोण सूत्र"},{"index":"द","text":"कोण सूत्र"}], "correct_index":"अ", "correct_answer":"हीरोन का सूत्र", "explanation":"त्रिभुज का क्षेत्रफल हीरोन के सूत्र से भी ज्ञात किया जा सकता है।"},
+        { "q_id": "20", "statement": "समबाहु त्रिभुज की भुजा a है, इसका क्षेत्रफल क्या होगा?", "options":[{"index":"अ","text":"a²/2"},{"index":"ब","text":"√3/4 × a²"},{"index":"स","text":"a²"},{"index":"द","text":"1/2 × a²"}], "correct_index":"ब", "correct_answer":"√3/4 × a²", "explanation":"समबाहु त्रिभुज का क्षेत्रफल = √3/4 × a² होता है।"},
+        { "q_id": "21", "statement": "समद्विबाहु त्रिभुज में आधार की लंबाई b और भुजा की लंबाई a है, क्षेत्रफल:", "options":[{"index":"अ","text":"b × a"},{"index":"ब","text":"1/2 × b × ऊँचाई"},{"index":"स","text":"a²"},{"index":"द","text":"b²"}], "correct_index":"ब", "correct_answer":"1/2 × b × ऊँचाई", "explanation":"समद्विबाहु त्रिभुज का क्षेत्रफल = 1/2 × आधार × ऊँचाई।"},
+        { "q_id": "22", "statement": "त्रिभुज की कोणों के प्रकार क्या हैं?", "options":[{"index":"अ","text":"समकोण, तीक्ष्ण, मन्द"},{"index":"ब","text":"समकोण, विषमकोण, समकोण"},{"index":"स","text":"समकोण, समद्विबाहु, समबाहु"},{"index":"द","text":"समबाहु, विषमभुज, समकोण"}], "correct_index":"अ", "correct_answer":"समकोण, तीक्ष्ण, मन्द", "explanation":"त्रिभुज के कोणों के प्रकार: समकोण, तीक्ष्ण और मन्द।"},
+        { "q_id": "23", "statement": "एक त्रिभुज में तीनों कोण समान होने पर इसे क्या कहते हैं?", "options":[{"index":"अ","text":"समकोण त्रिभुज"},{"index":"ब","text":"समबाहु त्रिभुज"},{"index":"स","text":"विषमभुज त्रिभुज"},{"index":"द","text":"समद्विबाहु त्रिभुज"}], "correct_index":"ब", "correct_answer":"समबाहु त्रिभुज", "explanation":"तीनों कोण समान होने पर त्रिभुज समबाहु त्रिभुज कहलाता है।"},
+        { "q_id": "24", "statement": "त्रिभुज में एक कोण 90° और एक कोण 60° है, तीसरा कोण?", "options":[{"index":"अ","text":"30°"},{"index":"ब","text":"45°"},{"index":"स","text":"60°"},{"index":"द","text":"90°"}], "correct_index":"अ", "correct_answer":"30°", "explanation":"त्रिभुज में कोणों का योग 180° होता है, तो तीसरा = 180 - 90 - 60 = 30°।"},
+        { "q_id": "25", "statement": "त्रिभुज में भुजा की लंबाई 3,4,5 है, यह किस प्रकार का त्रिभुज है?", "options":[{"index":"अ","text":"समबाहु"},{"index":"ब","text":"समकोण"},{"index":"स","text":"समद्विबाहु"},{"index":"द","text":"विषमभुज"}], "correct_index":"ब", "correct_answer":"समकोण", "explanation":"3² + 4² = 5² ⇒ समकोण त्रिभुज।"},
+        { "q_id": "26", "statement": "त्रिभुज में ऊँचाई का प्रयोग किसलिए किया जाता है?", "options":[{"index":"अ","text":"क्षेत्रफल ज्ञात करने"},{"index":"ब","text":"कोण ज्ञात करने"},{"index":"स","text":"भुजा ज्ञात करने"},{"index":"द","text":"परिधि ज्ञात करने"}], "correct_index":"अ", "correct_answer":"क्षेत्रफल ज्ञात करने", "explanation":"ऊँचाई का प्रयोग त्रिभुज का क्षेत्रफल ज्ञात करने के लिए किया जाता है।"},
+        { "q_id": "27", "statement": "त्रिभुज की कर्ण क्या होती है?", "options":[{"index":"अ","text":"सबसे लंबी भुजा"},{"index":"ब","text":"सबसे छोटी भुजा"},{"index":"स","text":"आधार"},{"index":"द","text":"ऊँचाई"}], "correct_index":"अ", "correct_answer":"सबसे लंबी भुजा", "explanation":"कर्ण हमेशा सबसे लंबी भुजा होती है।"},
+        { "q_id": "28", "statement": "त्रिभुज में कोण 60°, 60°, 60° है, इसे क्या कहते हैं?", "options":[{"index":"अ","text":"समबाहु"},{"index":"ब","text":"समद्विबाहु"},{"index":"स","text":"विषमभुज"},{"index":"द","text":"समकोण"}], "correct_index":"अ", "correct_answer":"समबाहु", "explanation":"तीनों कोण समान ⇒ समबाहु त्रिभुज।"},
+        { "q_id": "29", "statement": "त्रिभुज में कोण 90°, 45°, 45° है, इसे क्या कहते हैं?", "options":[{"index":"अ","text":"समकोण"},{"index":"ब","text":"समद्विबाहु"},{"index":"स","text":"विषमभुज"},{"index":"द","text":"समबाहु"}], "correct_index":"ब", "correct_answer":"समद्विबाहु", "explanation":"समकोण और दो कोण समान ⇒ समद्विबाहु त्रिभुज।"},
+        { "q_id": "30", "statement": "त्रिभुज की भुजाओं a,b,c हैं, क्षेत्रफल ज्ञात करने का हीरोन सूत्र क्या है?", "options":[{"index":"अ","text":"√(s(s-a)(s-b)(s-c))"},{"index":"ब","text":"1/2 × a × b"},{"index":"स","text":"a × b × c"},{"index":"द","text":"a² + b² = c²"}], "correct_index":"अ", "correct_answer":"√(s(s-a)(s-b)(s-c))", "explanation":"हीरोन सूत्र: क्षेत्रफल = √(s(s-a)(s-b)(s-c)), जहाँ s = (a+b+c)/2।"}
       ]
     }
   ]
