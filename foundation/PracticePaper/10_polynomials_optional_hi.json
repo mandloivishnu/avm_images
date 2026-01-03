@@ -1,0 +1,440 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "गणित (बहुपद)",
+    "totalMarks": "30",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "बहुपद का घातांक कहलाता है",
+          "options": [
+            { "index": "अ", "text": "चर" },
+            { "index": "ब", "text": "अचर" },
+            { "index": "स", "text": "सबसे बड़ी घात" },
+            { "index": "द", "text": "गुणांक" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "सबसे बड़ी घात",
+          "explanation": "बहुपद में चर की सबसे बड़ी घात को बहुपद का घात कहते हैं।",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "2",
+          "statement": "बहुपद 3x² + 5x − 7 का घात है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "0" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2",
+          "explanation": "सबसे बड़ी घात 2 है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "3",
+          "statement": "स्थिर बहुपद का घात होता है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "0" },
+            { "index": "द", "text": "−1" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "0",
+          "explanation": "स्थिर बहुपद में चर की घात 0 होती है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "4",
+          "statement": "रैखिक बहुपद का घात होता है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "3" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "घात 1 वाले बहुपद को रैखिक कहते हैं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "5",
+          "statement": "द्विघात बहुपद का सामान्य रूप है",
+          "options": [
+            { "index": "अ", "text": "ax + b" },
+            { "index": "ब", "text": "ax² + bx + c" },
+            { "index": "स", "text": "ax³ + bx²" },
+            { "index": "द", "text": "a" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "ax² + bx + c",
+          "explanation": "द्विघात बहुपद का घात 2 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "6",
+          "statement": "यदि p(2) = 0 हो तो 2 कहलाता है",
+          "options": [
+            { "index": "अ", "text": "घात" },
+            { "index": "ब", "text": "गुणांक" },
+            { "index": "स", "text": "शून्यक" },
+            { "index": "द", "text": "चर" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "शून्यक",
+          "explanation": "जिस मान पर बहुपद शून्य हो जाए, वह उसका शून्यक कहलाता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "7",
+          "statement": "बहुपद x − 3 का शून्यक है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "3" },
+            { "index": "स", "text": "−3" },
+            { "index": "द", "text": "1" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "3",
+          "explanation": "x − 3 = 0 ⇒ x = 3",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "8",
+          "statement": "रैखिक बहुपद के शून्यकों की संख्या होती है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "3" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "रैखिक बहुपद का केवल एक शून्यक होता है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "9",
+          "statement": "द्विघात बहुपद के अधिकतम शून्यक होते हैं",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "अनंत" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2",
+          "explanation": "द्विघात बहुपद के अधिकतम 2 शून्यक हो सकते हैं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "10",
+          "statement": "बहुपद का आलेख होता है",
+          "options": [
+            { "index": "अ", "text": "सीधी रेखा" },
+            { "index": "ब", "text": "वक्र रेखा" },
+            { "index": "स", "text": "बिंदु" },
+            { "index": "द", "text": "वृत्त" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "वक्र रेखा",
+          "explanation": "बहुपद का आलेख सामान्यतः वक्र होता है।",
+          "previousYearsDetails": "2023"
+        },
+
+        {
+          "q_id": "11",
+          "statement": "स्थिर बहुपद के शून्यक होते हैं",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "अनंत" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "0",
+          "explanation": "स्थिर बहुपद x-अक्ष को नहीं काटता।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "12",
+          "statement": "बहुपद p(x) = x² − 4 के शून्यक हैं",
+          "options": [
+            { "index": "अ", "text": "2, −2" },
+            { "index": "ब", "text": "4, −4" },
+            { "index": "स", "text": "0, 4" },
+            { "index": "द", "text": "2, 4" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "2, −2",
+          "explanation": "x² − 4 = (x − 2)(x + 2)",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "13",
+          "statement": "बहुपद x² + 1 के शून्यक हैं",
+          "options": [
+            { "index": "अ", "text": "1, −1" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "कोई वास्तविक नहीं" },
+            { "index": "द", "text": "2, −2" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "कोई वास्तविक नहीं",
+          "explanation": "x² + 1 = 0 का कोई वास्तविक हल नहीं है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "14",
+          "statement": "बहुपद का शून्यक ग्राफ में दर्शाता है",
+          "options": [
+            { "index": "अ", "text": "y-अक्ष को काटना" },
+            { "index": "ब", "text": "x-अक्ष को काटना" },
+            { "index": "स", "text": "मूल बिंदु" },
+            { "index": "द", "text": "ढाल" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "x-अक्ष को काटना",
+          "explanation": "जहाँ ग्राफ x-अक्ष को काटता है, वही शून्यक होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "15",
+          "statement": "घन बहुपद का घात होता है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "4" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "3",
+          "explanation": "घात 3 वाले बहुपद को घन बहुपद कहते हैं।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "16",
+          "statement": "बहुपद ax² + bx + c में a ≠ 0 होना आवश्यक है क्योंकि",
+          "options": [
+            { "index": "अ", "text": "घात 2 बनाए रखने के लिए" },
+            { "index": "ब", "text": "ग्राफ बनाने के लिए" },
+            { "index": "स", "text": "चर हटाने के लिए" },
+            { "index": "द", "text": "शून्यक हटाने के लिए" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "घात 2 बनाए रखने के लिए",
+          "explanation": "a = 0 होने पर द्विघात नहीं रहेगा।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "17",
+          "statement": "बहुपद का मान ज्ञात किया जाता है",
+          "options": [
+            { "index": "अ", "text": "चर हटाकर" },
+            { "index": "ब", "text": "चर का मान रखकर" },
+            { "index": "स", "text": "घात बढ़ाकर" },
+            { "index": "द", "text": "गुणांक हटाकर" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "चर का मान रखकर",
+          "explanation": "p(x) में x का मान रखकर बहुपद का मान निकाला जाता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "18",
+          "statement": "यदि p(a) = 0 तो a कहलाता है",
+          "options": [
+            { "index": "अ", "text": "गुणांक" },
+            { "index": "ब", "text": "घात" },
+            { "index": "स", "text": "शून्यक" },
+            { "index": "द", "text": "अचर" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "शून्यक",
+          "explanation": "परिभाषा के अनुसार।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "19",
+          "statement": "बहुपद x³ − x का एक शून्यक है",
+          "options": [
+            { "index": "अ", "text": "2" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "4" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "x³ − x = x(x − 1)(x + 1)",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "20",
+          "statement": "बहुपद का आलेख बनाया जाता है",
+          "options": [
+            { "index": "अ", "text": "संख्या रेखा पर" },
+            { "index": "ब", "text": "निर्देशांक तल पर" },
+            { "index": "स", "text": "वृत्त पर" },
+            { "index": "द", "text": "त्रिभुज पर" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "निर्देशांक तल पर",
+          "explanation": "x-y निर्देशांक तल पर आलेख बनता है।",
+          "previousYearsDetails": "2024"
+        },
+
+        {
+          "q_id": "21",
+          "statement": "बहुपद x² + 0x + 5 कहलाता है",
+          "options": [
+            { "index": "अ", "text": "पूर्ण द्विघात" },
+            { "index": "ब", "text": "अपूर्ण द्विघात" },
+            { "index": "स", "text": "रैखिक" },
+            { "index": "द", "text": "स्थिर" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "अपूर्ण द्विघात",
+          "explanation": "यहाँ x का पद अनुपस्थित है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "22",
+          "statement": "बहुपद के गुणांक हो सकते हैं",
+          "options": [
+            { "index": "अ", "text": "केवल पूर्णांक" },
+            { "index": "ब", "text": "केवल धनात्मक" },
+            { "index": "स", "text": "कोई भी वास्तविक संख्या" },
+            { "index": "द", "text": "केवल प्राकृतिक" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "कोई भी वास्तविक संख्या",
+          "explanation": "गुणांक वास्तविक संख्याएँ हो सकती हैं।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "23",
+          "statement": "यदि बहुपद का घात 0 हो तो वह कहलाता है",
+          "options": [
+            { "index": "अ", "text": "रैखिक" },
+            { "index": "ब", "text": "द्विघात" },
+            { "index": "स", "text": "स्थिर" },
+            { "index": "द", "text": "घन" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "स्थिर",
+          "explanation": "घात 0 वाला बहुपद स्थिर होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "24",
+          "statement": "बहुपद का घात कभी नहीं हो सकता",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "भिन्न" },
+            { "index": "द", "text": "2" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "भिन्न",
+          "explanation": "घात सदैव पूर्णांक होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "25",
+          "statement": "बहुपद 5x का घात है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "5" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "x की घात 1 है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "26",
+          "statement": "बहुपद x³ + 2x² − 1 के शून्यकों की अधिकतम संख्या है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "4" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "3",
+          "explanation": "घात 3 ⇒ अधिकतम 3 शून्यक।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "27",
+          "statement": "यदि बहुपद x-अक्ष को नहीं काटता तो उसके शून्यक होते हैं",
+          "options": [
+            { "index": "अ", "text": "एक" },
+            { "index": "ब", "text": "दो" },
+            { "index": "स", "text": "कोई नहीं" },
+            { "index": "द", "text": "अनंत" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "कोई नहीं",
+          "explanation": "x-अक्ष को न काटने पर शून्यक नहीं होते।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "28",
+          "statement": "बहुपद का आलेख किसे दर्शाता है",
+          "options": [
+            { "index": "अ", "text": "घात" },
+            { "index": "ब", "text": "शून्यक" },
+            { "index": "स", "text": "गुणांक" },
+            { "index": "द", "text": "चर" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "शून्यक",
+          "explanation": "ग्राफ से शून्यक ज्ञात किए जाते हैं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "29",
+          "statement": "बहुपद x² − 5x + 6 के शून्यक हैं",
+          "options": [
+            { "index": "अ", "text": "1, 6" },
+            { "index": "ब", "text": "2, 3" },
+            { "index": "स", "text": "−2, −3" },
+            { "index": "द", "text": "5, 6" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2, 3",
+          "explanation": "x² − 5x + 6 = (x − 2)(x − 3)",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "30",
+          "statement": "बहुपदों का अध्ययन संबंधित है",
+          "options": [
+            { "index": "अ", "text": "ज्यामिति से" },
+            { "index": "ब", "text": "बीजगणित से" },
+            { "index": "स", "text": "सांख्यिकी से" },
+            { "index": "द", "text": "प्रायिकता से" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "बीजगणित से",
+          "explanation": "बहुपद बीजगणित का भाग हैं।",
+          "previousYearsDetails": "2023"
+        }
+      ]
+    }
+  ]
+}
