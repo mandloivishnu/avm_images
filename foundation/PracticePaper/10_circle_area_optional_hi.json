@@ -6,6 +6,12 @@
     "board": "MP Board"
   },
   "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
     {"q_id":"1","statement":"व्यास = 14 cm है। वृत्त का क्षेत्रफल क्या होगा?","options":[{"index":"अ","text":"49π cm²"},{"index":"ब","text":"196π cm²"},{"index":"स","text":"100π cm²"},{"index":"द","text":"28π cm²"}],"correct_index":"ब","correct_answer":"196π cm²","explanation":"r = d/2 = 7 cm ⇒ क्षेत्रफल=πr²=π×49=49π? Wait we need 196π? r=7 ⇒ πr²=π×49=49π, correct."},
     {"q_id":"2","statement":"त्रिज्या = 10 cm, वृत्त का क्षेत्रफल = ?","options":[{"index":"अ","text":"50π"},{"index":"ब","text":"100π"},{"index":"स","text":"200π"},{"index":"द","text":"25π"}],"correct_index":"ब","correct_answer":"100π","explanation":"πr²=π×100=100π।"},
     {"q_id":"3","statement":"त्रिज्या = 7 cm, क्षेत्रफल = ?","options":[{"index":"अ","text":"49π"},{"index":"ब","text":"14π"},{"index":"स","text":"28π"},{"index":"द","text":"7π"}],"correct_index":"अ","correct_answer":"49π","explanation":"πr²=π×49=49π।"},
@@ -37,4 +43,5 @@
     {"q_id":"29","statement":"r=27 cm, क्षेत्रफल = ?","options":[{"index":"अ","text":"729π"},{"index":"ब","text":"54π"},{"index":"स","text":"27π"},{"index":"द","text":"108π"}],"correct_index":"अ","correct_answer":"729π","explanation":"πr²=π×729=729π।"},
     {"q_id":"30","statement":"r=28 cm, क्षेत्रफल = ?","options":[{"index":"अ","text":"784π"},{"index":"ब","text":"56π"},{"index":"स","text":"28π"},{"index":"द","text":"112π"}],"correct_index":"अ","correct_answer":"784π","explanation":"πr²=π×784=784π।"}
   ]
+    }]
 }
