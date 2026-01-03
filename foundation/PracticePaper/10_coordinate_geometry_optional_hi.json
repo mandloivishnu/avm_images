@@ -6,6 +6,12 @@
     "board": "MP Board"
   },
   "questions": [
+     {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
     { "q_id": "1", "statement": "दिए गए बिंदु (3,4) और (7,8) के बीच की दूरी क्या है?", "options":[{"index":"अ","text":"4"},{"index":"ब","text":"5.66"},{"index":"स","text":"6"},{"index":"द","text":"7"}], "correct_index":"ब", "correct_answer":"5.66", "explanation":"दूरी सूत्र: √((x2-x1)² + (y2-y1)²) = √((7-3)² + (8-4)²) = √(16+16)=√32≈5.66।"},
     { "q_id": "2", "statement": "दो बिंदु (2,3) और (6,7) के मध्यबिंदु का निर्देशांक क्या है?", "options":[{"index":"अ","text":"(4,5)"},{"index":"ब","text":"(3,4)"},{"index":"स","text":"(5,6)"},{"index":"द","text":"(2,3)"}], "correct_index":"अ", "correct_answer":"(4,5)", "explanation":"मध्यबिंदु = ((x1+x2)/2 , (y1+y2)/2) = ((2+6)/2,(3+7)/2)=(4,5)।"},
     { "q_id": "3", "statement": "बिंदु (1,2), (3,4), (5,6) कौन सी सीधी रेखा पर स्थित हैं?", "options":[{"index":"अ","text":"हाँ"},{"index":"ब","text":"नहीं"},{"index":"स","text":"कुछ हद तक"},{"index":"द","text":"अज्ञात"}], "correct_index":"अ", "correct_answer":"हाँ", "explanation":"सभी बिंदु समान ढाल वाली रेखा पर स्थित हैं।"},
@@ -36,5 +42,6 @@
     { "q_id": "28", "statement": "Line parallel to y=3x+5 की slope?", "options":[{"index":"अ","text":"3"},{"index":"ब","text":"-3"},{"index":"स","text":"5"},{"index":"द","text":"0"}], "correct_index":"अ", "correct_answer":"3", "explanation":"Parallel lines have same slope."},
     { "q_id": "29", "statement": "Line perpendicular to y=2x+1 की slope?", "options":[{"index":"अ","text":"-1/2"},{"index":"ब","text":"2"},{"index":"स","text":"1/2"},{"index":"द","text":"-2"}], "correct_index":"अ", "correct_answer":"-1/2", "explanation":"Perpendicular slope = -1/m"},
     { "q_id": "30", "statement": "Equation y-3=4(x-2) किस प्रकार की line?", "options":[{"index":"अ","text":"Point-Slope"},{"index":"ब","text":"General"},{"index":"स","text":"Slope-Intercept"},{"index":"द","text":"Intercept"}], "correct_index":"अ", "correct_answer":"Point-Slope", "explanation":"y-y1=m(x-x1) form"}
-  ]
+  ]}]
+        
 }
