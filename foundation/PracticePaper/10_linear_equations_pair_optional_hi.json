@@ -1,0 +1,441 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "गणित (दो चरों वाले रैखिक समीकरणों का युग्म)",
+    "totalMarks": "30",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "दो चरों वाले रैखिक समीकरण का सामान्य रूप है",
+          "options": [
+            { "index": "अ", "text": "ax + by + c = 0" },
+            { "index": "ब", "text": "ax² + by = 0" },
+            { "index": "स", "text": "ax + by² = 0" },
+            { "index": "द", "text": "ax² + by² = 0" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "ax + by + c = 0",
+          "explanation": "दो चरों वाला रैखिक समीकरण प्रथम घात का होता है।",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "2",
+          "statement": "दो रैखिक समीकरणों के ग्राफ होते हैं",
+          "options": [
+            { "index": "अ", "text": "वक्र रेखाएँ" },
+            { "index": "ब", "text": "सीधी रेखाएँ" },
+            { "index": "स", "text": "वृत्त" },
+            { "index": "द", "text": "परवलय" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "सीधी रेखाएँ",
+          "explanation": "रैखिक समीकरण का ग्राफ सीधी रेखा होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "3",
+          "statement": "यदि दो रेखाएँ एक बिंदु पर कटती हैं, तो समीकरणों का हल होता है",
+          "options": [
+            { "index": "अ", "text": "कोई नहीं" },
+            { "index": "ब", "text": "अनंत" },
+            { "index": "स", "text": "एकमात्र" },
+            { "index": "द", "text": "दो" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "एकमात्र",
+          "explanation": "रेखाओं का प्रतिछेदन बिंदु ही हल होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "4",
+          "statement": "यदि दो रेखाएँ समानांतर हों तो हल होता है",
+          "options": [
+            { "index": "अ", "text": "एक" },
+            { "index": "ब", "text": "दो" },
+            { "index": "स", "text": "अनंत" },
+            { "index": "द", "text": "कोई नहीं" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "कोई नहीं",
+          "explanation": "समानांतर रेखाएँ कभी नहीं कटतीं।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "5",
+          "statement": "यदि दो समीकरण एक ही रेखा दर्शाते हैं तो हल होंगे",
+          "options": [
+            { "index": "अ", "text": "एक" },
+            { "index": "ब", "text": "दो" },
+            { "index": "स", "text": "अनंत" },
+            { "index": "द", "text": "कोई नहीं" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "अनंत",
+          "explanation": "समान रेखाएँ अनंत हल देती हैं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "6",
+          "statement": "ग्राफ विधि में हल प्राप्त होता है",
+          "options": [
+            { "index": "अ", "text": "समीकरण हल करके" },
+            { "index": "ब", "text": "प्रतिछेदन बिंदु से" },
+            { "index": "स", "text": "अनुमान से" },
+            { "index": "द", "text": "सूत्र से" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "प्रतिछेदन बिंदु से",
+          "explanation": "ग्राफ पर जहाँ रेखाएँ मिलती हैं वही हल है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "7",
+          "statement": "दो चरों वाले रैखिक समीकरण के हल होते हैं",
+          "options": [
+            { "index": "अ", "text": "सीमित" },
+            { "index": "ब", "text": "एक" },
+            { "index": "स", "text": "अनंत" },
+            { "index": "द", "text": "शून्य" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "अनंत",
+          "explanation": "एक समीकरण अनंत हल देता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "8",
+          "statement": "निम्न में से कौन युग्म रैखिक समीकरण है",
+          "options": [
+            { "index": "अ", "text": "x + y = 5, x − y = 3" },
+            { "index": "ब", "text": "x² + y = 5, x + y = 2" },
+            { "index": "स", "text": "x² + y² = 1" },
+            { "index": "द", "text": "x³ + y = 7" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "x + y = 5, x − y = 3",
+          "explanation": "दोनों प्रथम घात के समीकरण हैं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "9",
+          "statement": "बीजगणितीय विधि में समीकरण हल किए जाते हैं",
+          "options": [
+            { "index": "अ", "text": "ग्राफ से" },
+            { "index": "ब", "text": "बीजगणित से" },
+            { "index": "स", "text": "अनुमान से" },
+            { "index": "द", "text": "रेखाचित्र से" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "बीजगणित से",
+          "explanation": "इसमें विलोपन, प्रतिस्थापन विधि का प्रयोग होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "10",
+          "statement": "यदि a₁/a₂ ≠ b₁/b₂ हो तो समीकरणों का हल होगा",
+          "options": [
+            { "index": "अ", "text": "कोई नहीं" },
+            { "index": "ब", "text": "एकमात्र" },
+            { "index": "स", "text": "अनंत" },
+            { "index": "द", "text": "दो" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "एकमात्र",
+          "explanation": "रेखाएँ एक बिंदु पर कटेंगी।",
+          "previousYearsDetails": "2024"
+        },
+
+        {
+          "q_id": "11",
+          "statement": "यदि a₁/a₂ = b₁/b₂ ≠ c₁/c₂ हो तो हल होगा",
+          "options": [
+            { "index": "अ", "text": "एक" },
+            { "index": "ब", "text": "अनंत" },
+            { "index": "स", "text": "कोई नहीं" },
+            { "index": "द", "text": "दो" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "कोई नहीं",
+          "explanation": "रेखाएँ समानांतर होती हैं।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "12",
+          "statement": "यदि a₁/a₂ = b₁/b₂ = c₁/c₂ हो तो हल होगा",
+          "options": [
+            { "index": "अ", "text": "एक" },
+            { "index": "ब", "text": "दो" },
+            { "index": "स", "text": "अनंत" },
+            { "index": "द", "text": "कोई नहीं" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "अनंत",
+          "explanation": "दोनों समीकरण एक ही रेखा दर्शाते हैं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "13",
+          "statement": "प्रतिस्थापन विधि में किया जाता है",
+          "options": [
+            { "index": "अ", "text": "योग" },
+            { "index": "ब", "text": "घटाव" },
+            { "index": "स", "text": "एक चर का मान रखना" },
+            { "index": "द", "text": "गुणा" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "एक चर का मान रखना",
+          "explanation": "एक समीकरण से मान लेकर दूसरे में रखते हैं।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "14",
+          "statement": "विलोपन विधि में किया जाता है",
+          "options": [
+            { "index": "अ", "text": "चर हटाना" },
+            { "index": "ब", "text": "चर जोड़ना" },
+            { "index": "स", "text": "चर बदलना" },
+            { "index": "द", "text": "ग्राफ बनाना" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "चर हटाना",
+          "explanation": "एक चर को समाप्त किया जाता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "15",
+          "statement": "x + y = 10 में यदि x = 4 हो तो y होगा",
+          "options": [
+            { "index": "अ", "text": "4" },
+            { "index": "ब", "text": "6" },
+            { "index": "स", "text": "10" },
+            { "index": "द", "text": "14" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "6",
+          "explanation": "4 + y = 10 ⇒ y = 6",
+          "previousYearsDetails": "2023"
+        },
+
+        {
+          "q_id": "16",
+          "statement": "दो रैखिक समीकरण मिलकर दर्शाते हैं",
+          "options": [
+            { "index": "अ", "text": "एक बिंदु" },
+            { "index": "ब", "text": "दो रेखाएँ" },
+            { "index": "स", "text": "वक्र" },
+            { "index": "द", "text": "वृत्त" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "दो रेखाएँ",
+          "explanation": "हर समीकरण एक रेखा दर्शाता है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "17",
+          "statement": "x = 2, y = 3 एक ______ है",
+          "options": [
+            { "index": "अ", "text": "हल" },
+            { "index": "ब", "text": "रेखा" },
+            { "index": "स", "text": "समीकरण" },
+            { "index": "द", "text": "चर" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "हल",
+          "explanation": "यह चरों का मान है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "18",
+          "statement": "दो रेखाओं के प्रतिछेदन बिंदु की संख्या होती है",
+          "options": [
+            { "index": "अ", "text": "शून्य या एक" },
+            { "index": "ब", "text": "एक या अनंत" },
+            { "index": "स", "text": "शून्य, एक या अनंत" },
+            { "index": "द", "text": "केवल दो" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "शून्य, एक या अनंत",
+          "explanation": "स्थिति पर निर्भर करता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "19",
+          "statement": "ग्राफ विधि में हल की शुद्धता होती है",
+          "options": [
+            { "index": "अ", "text": "पूर्ण" },
+            { "index": "ब", "text": "अनुमानित" },
+            { "index": "स", "text": "त्रुटिपूर्ण" },
+            { "index": "द", "text": "असंभव" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "अनुमानित",
+          "explanation": "ग्राफ से मान लगभग मिलते हैं।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "20",
+          "statement": "बीजगणितीय विधि अधिक उपयोगी है क्योंकि",
+          "options": [
+            { "index": "अ", "text": "सरल है" },
+            { "index": "ब", "text": "सटीक हल देती है" },
+            { "index": "स", "text": "ग्राफ नहीं बनाना पड़ता" },
+            { "index": "द", "text": "समय नहीं लगता" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "सटीक हल देती है",
+          "explanation": "बीजगणितीय विधि से सटीक मान मिलते हैं।",
+          "previousYearsDetails": "2024"
+        },
+
+        {
+          "q_id": "21",
+          "statement": "x − y = 0 का अर्थ है",
+          "options": [
+            { "index": "अ", "text": "x > y" },
+            { "index": "ब", "text": "x < y" },
+            { "index": "स", "text": "x = y" },
+            { "index": "द", "text": "x ≠ y" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "x = y",
+          "explanation": "x − y = 0 ⇒ x = y",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "22",
+          "statement": "रैखिक समीकरण में चर की घात होती है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "0" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "1",
+          "explanation": "रैखिक समीकरण प्रथम घात का होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "23",
+          "statement": "दो चरों वाले रैखिक समीकरण का हल होता है",
+          "options": [
+            { "index": "अ", "text": "एक संख्या" },
+            { "index": "ब", "text": "संख्याओं का युग्म" },
+            { "index": "स", "text": "केवल x" },
+            { "index": "द", "text": "केवल y" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "संख्याओं का युग्म",
+          "explanation": "(x, y) का युग्म हल होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "24",
+          "statement": "यदि एक समीकरण दिया हो तो हल होंगे",
+          "options": [
+            { "index": "अ", "text": "एक" },
+            { "index": "ब", "text": "दो" },
+            { "index": "स", "text": "अनंत" },
+            { "index": "द", "text": "कोई नहीं" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "अनंत",
+          "explanation": "एक रेखा के अनंत बिंदु होते हैं।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "25",
+          "statement": "ग्राफ में x-अक्ष के समांतर रेखा का समीकरण होता है",
+          "options": [
+            { "index": "अ", "text": "x = a" },
+            { "index": "ब", "text": "y = b" },
+            { "index": "स", "text": "x + y = 0" },
+            { "index": "द", "text": "xy = 1" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "y = b",
+          "explanation": "y का मान स्थिर रहता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "26",
+          "statement": "y-अक्ष के समांतर रेखा का समीकरण होता है",
+          "options": [
+            { "index": "अ", "text": "y = a" },
+            { "index": "ब", "text": "x = b" },
+            { "index": "स", "text": "x + y = c" },
+            { "index": "द", "text": "xy = c" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "x = b",
+          "explanation": "x का मान स्थिर रहता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "27",
+          "statement": "x + y + 1 = 0 दर्शाता है",
+          "options": [
+            { "index": "अ", "text": "वक्र रेखा" },
+            { "index": "ब", "text": "सीधी रेखा" },
+            { "index": "स", "text": "वृत्त" },
+            { "index": "द", "text": "परवलय" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "सीधी रेखा",
+          "explanation": "यह रैखिक समीकरण है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "28",
+          "statement": "दो रेखाओं का प्रतिछेदन बिंदु दर्शाता है",
+          "options": [
+            { "index": "अ", "text": "समाधान" },
+            { "index": "ब", "text": "चर" },
+            { "index": "स", "text": "अक्ष" },
+            { "index": "द", "text": "निर्देशांक" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "समाधान",
+          "explanation": "वही युग्म हल होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "29",
+          "statement": "ग्राफ विधि का उपयोग किया जाता है",
+          "options": [
+            { "index": "अ", "text": "अनुमान हेतु" },
+            { "index": "ब", "text": "सटीक मान हेतु" },
+            { "index": "स", "text": "केवल चित्र हेतु" },
+            { "index": "द", "text": "गुणन हेतु" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "अनुमान हेतु",
+          "explanation": "ग्राफ से लगभग मान प्राप्त होते हैं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "30",
+          "statement": "रैखिक समीकरणों का युग्म हल करने की मुख्य विधियाँ हैं",
+          "options": [
+            { "index": "अ", "text": "ग्राफ, प्रतिस्थापन, विलोपन" },
+            { "index": "ब", "text": "गुणन, भाग" },
+            { "index": "स", "text": "कलन" },
+            { "index": "द", "text": "ज्यामिति" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "ग्राफ, प्रतिस्थापन, विलोपन",
+          "explanation": "यही तीन प्रमुख विधियाँ हैं।",
+          "previousYearsDetails": "2023"
+        }
+      ]
+    }
+  ]
+}
