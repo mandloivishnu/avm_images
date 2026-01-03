@@ -1,0 +1,439 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "गणित (वास्तविक संख्याएँ)",
+    "totalMarks": "30",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "HCF और LCM का गुणनफल बराबर होता है",
+          "options": [
+            { "index": "अ", "text": "संख्याओं के योग के" },
+            { "index": "ब", "text": "संख्याओं के अंतर के" },
+            { "index": "स", "text": "संख्याओं के गुणनफल के" },
+            { "index": "द", "text": "संख्याओं के वर्ग के" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "संख्याओं के गुणनफल के",
+          "explanation": "दो संख्याओं का HCF × LCM = उन संख्याओं का गुणनफल होता है।",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "2",
+          "statement": "दो सह-भाज्य संख्याओं का HCF होता है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "संख्या स्वयं" },
+            { "index": "द", "text": "LCM" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "सह-भाज्य संख्याओं का केवल 1 ही सामान्य भाजक होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "3",
+          "statement": "यूक्लिड विभाजन एल्गोरिथ्म लागू होता है",
+          "options": [
+            { "index": "अ", "text": "पूर्ण संख्याओं पर" },
+            { "index": "ब", "text": "प्राकृतिक संख्याओं पर" },
+            { "index": "स", "text": "धनात्मक पूर्ण संख्याओं पर" },
+            { "index": "द", "text": "परिमेय संख्याओं पर" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "धनात्मक पूर्ण संख्याओं पर",
+          "explanation": "यूक्लिड एल्गोरिथ्म केवल धनात्मक पूर्ण संख्याओं पर लागू होता है।",
+          "previousYearsDetails": "2022,2024"
+        },
+        {
+          "q_id": "4",
+          "statement": "यूक्लिड विभाजन प्रमेय का सूत्र है",
+          "options": [
+            { "index": "अ", "text": "a = bq + r" },
+            { "index": "ब", "text": "a = b + q + r" },
+            { "index": "स", "text": "a = qb − r" },
+            { "index": "द", "text": "a = r − bq" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "a = bq + r",
+          "explanation": "जहाँ 0 ≤ r < b होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "5",
+          "statement": "अभाज्य गुणनखंड प्रमेय के अनुसार अभाज्य गुणनखंड होते हैं",
+          "options": [
+            { "index": "अ", "text": "अनेक" },
+            { "index": "ब", "text": "परिवर्तनीय" },
+            { "index": "स", "text": "अद्वितीय" },
+            { "index": "द", "text": "अनिश्चित" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "अद्वितीय",
+          "explanation": "हर संख्या का अभाज्य गुणनखंड अद्वितीय होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "6",
+          "statement": "2 और 3 के बीच परिमेय संख्याएँ होती हैं",
+          "options": [
+            { "index": "अ", "text": "एक" },
+            { "index": "ब", "text": "दो" },
+            { "index": "स", "text": "सीमित" },
+            { "index": "द", "text": "असीमित" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "असीमित",
+          "explanation": "दो परिमेय संख्याओं के बीच अनंत परिमेय संख्याएँ होती हैं।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "7",
+          "statement": "निम्न में से अपरिमेय संख्या है",
+          "options": [
+            { "index": "अ", "text": "3/5" },
+            { "index": "ब", "text": "0.25" },
+            { "index": "स", "text": "√2" },
+            { "index": "द", "text": "−7" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "√2",
+          "explanation": "√2 को p/q के रूप में नहीं लिखा जा सकता।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "8",
+          "statement": "परिमेय संख्या का दशमलव विस्तार होता है",
+          "options": [
+            { "index": "अ", "text": "असमाप्य" },
+            { "index": "ब", "text": "अनावर्ती" },
+            { "index": "स", "text": "समाप्य या आवर्ती" },
+            { "index": "द", "text": "अपरिमेय" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "समाप्य या आवर्ती",
+          "explanation": "हर परिमेय संख्या का दशमलव विस्तार समाप्य या आवर्ती होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "9",
+          "statement": "अनावर्ती और असमाप्य दशमलव संख्या होती है",
+          "options": [
+            { "index": "अ", "text": "परिमेय" },
+            { "index": "ब", "text": "पूर्ण" },
+            { "index": "स", "text": "अपरिमेय" },
+            { "index": "द", "text": "प्राकृतिक" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "अपरिमेय",
+          "explanation": "यह अपरिमेय संख्या की परिभाषा है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "10",
+          "statement": "0 किस प्रकार की संख्या है",
+          "options": [
+            { "index": "अ", "text": "प्राकृतिक" },
+            { "index": "ब", "text": "पूर्ण" },
+            { "index": "स", "text": "अभाज्य" },
+            { "index": "द", "text": "अपरिमेय" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "पूर्ण",
+          "explanation": "0 पूर्ण संख्या है।",
+          "previousYearsDetails": "2023"
+        },
+
+        {
+          "q_id": "11",
+          "statement": "सबसे छोटी अभाज्य संख्या है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "5" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2",
+          "explanation": "2 सबसे छोटी और एकमात्र सम अभाज्य संख्या है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "12",
+          "statement": "1 को कहा जाता है",
+          "options": [
+            { "index": "अ", "text": "अभाज्य" },
+            { "index": "ब", "text": "संयोज्य" },
+            { "index": "स", "text": "न तो अभाज्य न संयोज्य" },
+            { "index": "द", "text": "पूर्ण" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "न तो अभाज्य न संयोज्य",
+          "explanation": "1 के केवल एक ही गुणनखंड होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "13",
+          "statement": "यदि दो संख्याओं का HCF = 1 हो तो वे कहलाती हैं",
+          "options": [
+            { "index": "अ", "text": "अभाज्य" },
+            { "index": "ब", "text": "संयोज्य" },
+            { "index": "स", "text": "सह-भाज्य" },
+            { "index": "द", "text": "पूर्ण" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "सह-भाज्य",
+          "explanation": "सह-भाज्य संख्याओं का HCF = 1 होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "14",
+          "statement": "LCM हमेशा होता है",
+          "options": [
+            { "index": "अ", "text": "HCF से छोटा" },
+            { "index": "ब", "text": "HCF के बराबर" },
+            { "index": "स", "text": "HCF से बड़ा या बराबर" },
+            { "index": "द", "text": "शून्य" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "HCF से बड़ा या बराबर",
+          "explanation": "LCM ≥ HCF होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "15",
+          "statement": "यदि दो संख्याएँ समान हों तो उनका HCF और LCM होता है",
+          "options": [
+            { "index": "अ", "text": "भिन्न" },
+            { "index": "ब", "text": "समान" },
+            { "index": "स", "text": "0" },
+            { "index": "द", "text": "1" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "समान",
+          "explanation": "समान संख्याओं के लिए HCF = LCM = वही संख्या।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "16",
+          "statement": "संख्या 17 है",
+          "options": [
+            { "index": "अ", "text": "संयोज्य" },
+            { "index": "ब", "text": "अभाज्य" },
+            { "index": "स", "text": "पूर्ण" },
+            { "index": "द", "text": "परिमेय" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "अभाज्य",
+          "explanation": "17 के केवल दो भाजक होते हैं – 1 और 17।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "17",
+          "statement": "निम्न में से कौन पूर्ण संख्या नहीं है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "5" },
+            { "index": "स", "text": "-3" },
+            { "index": "द", "text": "7" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "-3",
+          "explanation": "पूर्ण संख्याएँ ऋणात्मक नहीं होतीं।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "18",
+          "statement": "निम्न में से परिमेय संख्या है",
+          "options": [
+            { "index": "अ", "text": "√3" },
+            { "index": "ब", "text": "π" },
+            { "index": "स", "text": "5/7" },
+            { "index": "द", "text": "√5" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "5/7",
+          "explanation": "परिमेय संख्या p/q के रूप में होती है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "19",
+          "statement": "दशमलव 0.333… है",
+          "options": [
+            { "index": "अ", "text": "समाप्य" },
+            { "index": "ब", "text": "अनावर्ती" },
+            { "index": "स", "text": "आवर्ती" },
+            { "index": "द", "text": "अपरिमेय" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "आवर्ती",
+          "explanation": "0.333… एक आवर्ती दशमलव है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "20",
+          "statement": "√9 का मान है",
+          "options": [
+            { "index": "अ", "text": "9" },
+            { "index": "ब", "text": "−3" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "±3" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "3",
+          "explanation": "√9 का प्रधान मान 3 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "21",
+          "statement": "LCM और HCF का उपयोग किया जाता है",
+          "options": [
+            { "index": "अ", "text": "बीजगणित में" },
+            { "index": "ब", "text": "ज्यामिति में" },
+            { "index": "स", "text": "वास्तविक जीवन समस्याओं में" },
+            { "index": "द", "text": "केवल परीक्षा में" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "वास्तविक जीवन समस्याओं में",
+          "explanation": "LCM–HCF का प्रयोग समय, दूरी, वितरण आदि में होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "22",
+          "statement": "दो संख्याओं का LCM हमेशा होता है",
+          "options": [
+            { "index": "अ", "text": "छोटा" },
+            { "index": "ब", "text": "शून्य" },
+            { "index": "स", "text": "धनात्मक" },
+            { "index": "द", "text": "ऋणात्मक" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "धनात्मक",
+          "explanation": "LCM हमेशा धनात्मक होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "23",
+          "statement": "संख्या 15 के अभाज्य गुणनखंड हैं",
+          "options": [
+            { "index": "अ", "text": "3 × 5" },
+            { "index": "ब", "text": "5 × 5" },
+            { "index": "स", "text": "3 × 3" },
+            { "index": "द", "text": "2 × 7" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "3 × 5",
+          "explanation": "15 = 3 × 5",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "24",
+          "statement": "निम्न में से कौन संयोज्य संख्या है",
+          "options": [
+            { "index": "अ", "text": "2" },
+            { "index": "ब", "text": "3" },
+            { "index": "स", "text": "5" },
+            { "index": "द", "text": "9" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "9",
+          "explanation": "9 = 3 × 3, इसलिए संयोज्य है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "25",
+          "statement": "यदि HCF = 12 और LCM = 180 हो तो दो संख्याओं का गुणनफल है",
+          "options": [
+            { "index": "अ", "text": "192" },
+            { "index": "ब", "text": "2160" },
+            { "index": "स", "text": "15" },
+            { "index": "द", "text": "168" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2160",
+          "explanation": "HCF × LCM = 12 × 180 = 2160",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "26",
+          "statement": "किसी संख्या को 1 से भाग देने पर शेषफल होता है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "संख्या" },
+            { "index": "द", "text": "−1" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "0",
+          "explanation": "1 से भाग देने पर शेषफल हमेशा 0 होता है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "27",
+          "statement": "निम्न में से कौन वास्तविक संख्या नहीं है",
+          "options": [
+            { "index": "अ", "text": "√2" },
+            { "index": "ब", "text": "π" },
+            { "index": "स", "text": "−5" },
+            { "index": "द", "text": "i" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "i",
+          "explanation": "i एक काल्पनिक संख्या है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "28",
+          "statement": "संख्या रेखा पर वास्तविक संख्याएँ होती हैं",
+          "options": [
+            { "index": "अ", "text": "कुछ बिंदुओं पर" },
+            { "index": "ब", "text": "केवल पूर्णांकों पर" },
+            { "index": "स", "text": "सभी बिंदुओं पर" },
+            { "index": "द", "text": "केवल परिमेय पर" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "सभी बिंदुओं पर",
+          "explanation": "हर बिंदु एक वास्तविक संख्या दर्शाता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "29",
+          "statement": "−7/3 एक ______ संख्या है",
+          "options": [
+            { "index": "अ", "text": "अपरिमेय" },
+            { "index": "ब", "text": "परिमेय" },
+            { "index": "स", "text": "पूर्ण" },
+            { "index": "द", "text": "प्राकृतिक" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "परिमेय",
+          "explanation": "यह p/q के रूप में है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "30",
+          "statement": "वास्तविक संख्याओं का समुच्चय दर्शाया जाता है",
+          "options": [
+            { "index": "अ", "text": "N से" },
+            { "index": "ब", "text": "Z से" },
+            { "index": "स", "text": "Q से" },
+            { "index": "द", "text": "R से" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "R से",
+          "explanation": "R वास्तविक संख्याओं का प्रतीक है।",
+          "previousYearsDetails": "2023"
+        }
+      ]
+    }
+  ]
+}
