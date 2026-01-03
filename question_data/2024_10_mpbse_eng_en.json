@@ -446,6 +446,276 @@
           "explanation": "Correct answer is 'Unless'."
         }
       ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "instruction": "Do as directed: (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Combine using 'who': (a) Lencho wrote a letter to God. (b) Lencho was a peasant.",
+          "answer_key": "Lencho, who was a peasant, wrote a letter to God.",
+          "explanation": "The two sentences are combined using the relative pronoun 'who'."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Change to passive voice: He knows me.",
+          "answer_key": "I am known to him.",
+          "explanation": "The active voice sentence is converted into passive voice correctly."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Rearrange: noise / the class room / making / a / girls / in / were / some",
+          "answer_key": "Some girls were making a noise in the classroom.",
+          "explanation": "The words are rearranged to form a meaningful sentence."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Correct the sentence: We are living in this city since 2005.",
+          "answer_key": "We have been living in this city since 2005.",
+          "explanation": "The sentence is corrected using the present perfect continuous tense."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "instruction": "Choose the correct answer:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why did Lencho get only seventy pesos?",
+          "options": [
+            {
+              "index": "a",
+              "text": "It was God's mistake to send him only 70 pesos."
+            },
+            {
+              "index": "b",
+              "text": "The postmaster stole the rest of money."
+            },
+            {
+              "index": "c",
+              "text": "The postmaster could collect only seventy pesos for an act of charity."
+            },
+            {
+              "index": "d",
+              "text": "Lencho made a mistake while counting the money."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "The postmaster could collect only seventy pesos for an act of charity.",
+          "explanation": "According to the story, the postmaster was only able to gather 70 pesos from his salary and contributions from employees and friends."
+        },
+        {
+          "q_id": "ii",
+          "statement": "When Anne Frank decides to write a diary, she was",
+          "options": [
+            {
+              "index": "a",
+              "text": "a ten-year old"
+            },
+            {
+              "index": "b",
+              "text": "a thirteen-year old"
+            },
+            {
+              "index": "c",
+              "text": "a fourteen-year old"
+            },
+            {
+              "index": "d",
+              "text": "an eighteen-year old"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "a thirteen-year old",
+          "explanation": "Anne Frank was thirteen years old when she started writing her diary."
+        },
+        {
+          "q_id": "iii",
+          "statement": "'The Proposal' is a one act play about",
+          "options": [
+            {
+              "index": "a",
+              "text": "Russian wedding culture"
+            },
+            {
+              "index": "b",
+              "text": "Indian wedding culture"
+            },
+            {
+              "index": "c",
+              "text": "Japanese wedding culture"
+            },
+            {
+              "index": "d",
+              "text": "Chinese wedding culture"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Russian wedding culture",
+          "explanation": "The play 'The Proposal' by Anton Chekhov depicts the wedding culture of landowning Russians."
+        },
+        {
+          "q_id": "iv",
+          "statement": "10 May in South Africa is",
+          "options": [
+            {
+              "index": "a",
+              "text": "a winter day"
+            },
+            {
+              "index": "b",
+              "text": "a monsoon day"
+            },
+            {
+              "index": "c",
+              "text": "a summer day"
+            },
+            {
+              "index": "d",
+              "text": "an autumn day"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "an autumn day",
+          "explanation": "Nelson Mandela describes May 10th as a 'lovely autumn day' in South Africa."
+        }
+      ]
+    },
+    {
+      "question_number": "10A",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "instruction": "Read the extract carefully and answer the questions (From: A Baker from Goa)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Monthly accounts of the baker were recorded on",
+          "options": [
+            {
+              "index": "a",
+              "text": "a note book"
+            },
+            {
+              "index": "b",
+              "text": "the main door of the house"
+            },
+            {
+              "index": "c",
+              "text": "some wall in pencil"
+            },
+            {
+              "index": "d",
+              "text": "the floor"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "some wall in pencil",
+          "explanation": "The extract states accounts were recorded on some wall in pencil."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which word in the extract means 'a pleasant fat body'?",
+          "options": [
+            {
+              "index": "a",
+              "text": "plump"
+            },
+            {
+              "index": "b",
+              "text": "prosperous"
+            },
+            {
+              "index": "c",
+              "text": "profitable"
+            },
+            {
+              "index": "d",
+              "text": "testimony"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "plump",
+          "explanation": "The text uses 'plump physique' to describe the physical appearance of a successful baker."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The baker and his family never starved because",
+          "options": [
+            {
+              "index": "a",
+              "text": "they were rich"
+            },
+            {
+              "index": "b",
+              "text": "baking was a profitable profession"
+            },
+            {
+              "index": "c",
+              "text": "they had government support"
+            },
+            {
+              "index": "d",
+              "text": "they had many servants"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "baking was a profitable profession",
+          "explanation": "The passage mentions baking was indeed a profitable profession in the old days."
+        }
+      ]
+    },
+    {
+      "question_number": "10B",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "instruction": "Read the extract carefully and answer the questions (From: Amanda)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "From which poem of your text book has this extract been taken?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Amanda"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Amanda",
+          "explanation": "The lines describe a girl imagining herself as an orphan to escape nagging, which is the theme of 'Amanda'."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The word 'orphan' means:",
+          "options": [
+            {
+              "index": "a",
+              "text": "a child having no father and mother"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "a child having no father and mother",
+          "explanation": "An orphan is defined as a child whose parents are deceased."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What does the girl actually want?",
+          "options": [
+            {
+              "index": "a",
+              "text": "she wants freedom and silence"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "she wants freedom and silence",
+          "explanation": "The extract says 'The silence is golden, the freedom is sweet'."
+        }
+      ]
     }
   ]
 }
