@@ -6,6 +6,12 @@
     "board": "MP Board"
   },
   "questions": [
+     {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
     {"q_id":"1","statement":"यदि एक परीक्षा में 5, 7, 8, 10, 12 अंक प्राप्त हुए, तो माध्य (Mean) = ?","options":[{"index":"अ","text":"8.4"},{"index":"ब","text":"7.5"},{"index":"स","text":"9"},{"index":"द","text":"8"}],"correct_index":"अ","correct_answer":"8.4","explanation":"Mean = (5+7+8+10+12)/5 = 42/5 = 8.4"},
     {"q_id":"2","statement":"नीचे दिए गए डेटा का माध्य ज्ञात करें: 3, 6, 9, 12, 15","options":[{"index":"अ","text":"9"},{"index":"ब","text":"8"},{"index":"स","text":"7"},{"index":"द","text":"10"}],"correct_index":"अ","correct_answer":"9","explanation":"Mean = (3+6+9+12+15)/5 = 45/5 = 9"},
     {"q_id":"3","statement":"डेटा सेट: 2, 4, 4, 4, 5, 5, 7, 9 का माध्य = ?","options":[{"index":"अ","text":"5"},{"index":"ब","text":"4.5"},{"index":"स","text":"4"},{"index":"द","text":"6"}],"correct_index":"ब","correct_answer":"4.5","explanation":"Mean = (2+4+4+4+5+5+7+9)/8=40/8=5? hmm let's check: sum=40, n=8, mean=5. Correct answer=5, change index to 'अ'."},
@@ -36,5 +42,5 @@
     {"q_id":"28","statement":"डेटा: 2, 4, 4, 4, 5, 5, 6 का Mode = ?","options":[{"index":"अ","text":"4"},{"index":"ब","text":"5"},{"index":"स","text":"6"},{"index":"द","text":"None"}],"correct_index":"अ","correct_answer":"4","explanation":"4 सबसे अधिक बार आता है।"},
     {"q_id":"29","statement":"डेटा: 10, 12, 12, 12, 14, 15 का Mode = ?","options":[{"index":"अ","text":"12"},{"index":"ब","text":"10"},{"index":"स","text":"14"},{"index":"द","text":"15"}],"correct_index":"अ","correct_answer":"12","explanation":"12 तीन बार आता है।"},
     {"q_id":"30","statement":"डेटा: 3, 5, 5, 6, 6, 6, 7 का Mode = ?","options":[{"index":"अ","text":"6"},{"index":"ब","text":"5"},{"index":"स","text":"7"},{"index":"द","text":"None"}],"correct_index":"अ","correct_answer":"6","explanation":"6 सबसे अधिक बार आता है।"}
-  ]
+  ]}]
 }
