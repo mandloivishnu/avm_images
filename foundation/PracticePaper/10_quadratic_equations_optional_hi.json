@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "गणित (Quadratic Equations)",
+    "subjectName": "द्विघात समीकरण – Quadratic Equations",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,783 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "Quadratic Equations – प्रश्न 1 का स्टेटमेंट",
+          "statement": "द्विघात समीकरण का मानक रूप क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A1"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B1"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C1"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D1"
-            }
+            {"index": "अ", "text": "ax + b = 0"},
+            {"index": "ब", "text": "ax² + bx + c = 0, a ≠ 0"},
+            {"index": "स", "text": "ax³ + bx² + c = 0"},
+            {"index": "द", "text": "ax² + b = 0"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A1",
-          "explanation": "सही उत्तर विकल्प A1 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "ax² + bx + c = 0, a ≠ 0",
+          "explanation": "द्विघात समीकरण में चर की अधिकतम घात 2 होनी चाहिए और a शून्य नहीं होना चाहिए।"
         },
         {
           "q_id": "2",
-          "statement": "Quadratic Equations – प्रश्न 2 का स्टेटमेंट",
+          "statement": "समीकरण ax² + bx + c = 0 का विविक्तकर (Discriminant) क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A2"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B2"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C2"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D2"
-            }
+            {"index": "अ", "text": "D = b² - 4ac"},
+            {"index": "ब", "text": "D = b² + 4ac"},
+            {"index": "स", "text": "D = √b² - 4ac"},
+            {"index": "द", "text": "D = 4ac - b²"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A2",
-          "explanation": "सही उत्तर विकल्प A2 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "D = b² - 4ac",
+          "explanation": "विविक्तकर (D) मूलों की प्रकृति ज्ञात करने के लिए उपयोग किया जाता है।"
         },
         {
           "q_id": "3",
-          "statement": "Quadratic Equations – प्रश्न 3 का स्टेटमेंट",
+          "statement": "यदि D > 0 हो, तो समीकरण के मूल कैसे होंगे?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A3"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B3"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C3"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D3"
-            }
+            {"index": "अ", "text": "वास्तविक और समान"},
+            {"index": "ब", "text": "वास्तविक और भिन्न"},
+            {"index": "स", "text": "काल्पनिक"},
+            {"index": "द", "text": "कोई मूल नहीं"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A3",
-          "explanation": "सही उत्तर विकल्प A3 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "वास्तविक और भिन्न",
+          "explanation": "जब विविक्तकर धनात्मक होता है, तो दो अलग-अलग वास्तविक मूल प्राप्त होते हैं।"
         },
         {
           "q_id": "4",
-          "statement": "Quadratic Equations – प्रश्न 4 का स्टेटमेंट",
+          "statement": "यदि D = 0 हो, तो मूलों की प्रकृति क्या होगी?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A4"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B4"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C4"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D4"
-            }
+            {"index": "अ", "text": "वास्तविक और समान"},
+            {"index": "ब", "text": "वास्तविक और भिन्न"},
+            {"index": "स", "text": "काल्पनिक"},
+            {"index": "द", "text": "अपरिमेय"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A4",
-          "explanation": "सही उत्तर विकल्प A4 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "वास्तविक और समान",
+          "explanation": "D = 0 होने पर दोनों मूल बराबर (x = -b/2a) होते हैं।"
         },
         {
           "q_id": "5",
-          "statement": "Quadratic Equations – प्रश्न 5 का स्टेटमेंट",
+          "statement": "द्विघात सूत्र (Quadratic Formula) कौन सा है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A5"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B5"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C5"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D5"
-            }
+            {"index": "अ", "text": "x = (-b ± √D) / 2a"},
+            {"index": "ब", "text": "x = (b ± √D) / 2a"},
+            {"index": "स", "text": "x = -b / 2a"},
+            {"index": "द", "text": "x = ±√D / 2a"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A5",
-          "explanation": "सही उत्तर विकल्प A5 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "x = (-b ± √D) / 2a",
+          "explanation": "इसे श्रीधराचार्य सूत्र भी कहा जाता है।"
         },
         {
           "q_id": "6",
-          "statement": "Quadratic Equations – प्रश्न 6 का स्टेटमेंट",
+          "statement": "समीकरण x² - 4 = 0 के मूल क्या हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A6"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B6"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C6"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D6"
-            }
+            {"index": "अ", "text": "2, 2"},
+            {"index": "ब", "text": "-2, -2"},
+            {"index": "स", "text": "2, -2"},
+            {"index": "द", "text": "4, 0"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A6",
-          "explanation": "सही उत्तर विकल्प A6 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "2, -2",
+          "explanation": "x² = 4 इसलिए x = ±2।"
         },
         {
           "q_id": "7",
-          "statement": "Quadratic Equations – प्रश्न 7 का स्टेटमेंट",
+          "statement": "समीकरण x(x - 3) = 0 के मूल होंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A7"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B7"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C7"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D7"
-            }
+            {"index": "अ", "text": "0, 3"},
+            {"index": "ब", "text": "0, -3"},
+            {"index": "स", "text": "3, -3"},
+            {"index": "द", "text": "1, 3"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A7",
-          "explanation": "सही उत्तर विकल्प A7 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "0, 3",
+          "explanation": "x = 0 या x - 3 = 0 से x = 3 प्राप्त होता है।"
         },
         {
           "q_id": "8",
-          "statement": "Quadratic Equations – प्रश्न 8 का स्टेटमेंट",
+          "statement": "यदि किसी समीकरण का विविक्तकर ऋणात्मक (D < 0) है, तो मूल होंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A8"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B8"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C8"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D8"
-            }
+            {"index": "अ", "text": "वास्तविक"},
+            {"index": "ब", "text": "बराबर"},
+            {"index": "स", "text": "वास्तविक नहीं (काल्पनिक)"},
+            {"index": "द", "text": "पूर्णांक"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A8",
-          "explanation": "सही उत्तर विकल्प A8 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "वास्तविक नहीं (काल्पनिक)",
+          "explanation": "ऋणात्मक संख्या का वर्गमूल वास्तविक नहीं होता।"
         },
         {
           "q_id": "9",
-          "statement": "Quadratic Equations – प्रश्न 9 का स्टेटमेंट",
+          "statement": "समीकरण x² + 5x + 6 = 0 के गुणनखंड क्या होंगे?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A9"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B9"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C9"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D9"
-            }
+            {"index": "अ", "text": "(x + 1)(x + 6)"},
+            {"index": "ब", "text": "(x + 2)(x + 3)"},
+            {"index": "स", "text": "(x - 2)(x - 3)"},
+            {"index": "द", "text": "(x + 5)(x + 1)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A9",
-          "explanation": "सही उत्तर विकल्प A9 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "(x + 2)(x + 3)",
+          "explanation": "मध्य पद को तोड़ने पर: x² + 2x + 3x + 6 = 0।"
         },
         {
           "q_id": "10",
-          "statement": "Quadratic Equations – प्रश्न 10 का स्टेटमेंट",
+          "statement": "समीकरण 2x² - 4x + 3 = 0 का विविक्तकर क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A10"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B10"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C10"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D10"
-            }
+            {"index": "अ", "text": "-8"},
+            {"index": "ब", "text": "8"},
+            {"index": "स", "text": "40"},
+            {"index": "द", "text": "-4"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A10",
-          "explanation": "सही उत्तर विकल्प A10 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "-8",
+          "explanation": "D = (-4)² - 4(2)(3) = 16 - 24 = -8।"
         },
         {
           "q_id": "11",
-          "statement": "Quadratic Equations – प्रश्न 11 का स्टेटमेंट",
+          "statement": "एक द्विघात समीकरण के अधिकतम कितने मूल हो सकते हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A11"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B11"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C11"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D11"
-            }
+            {"index": "अ", "text": "1"},
+            {"index": "ब", "text": "2"},
+            {"index": "स", "text": "3"},
+            {"index": "द", "text": "अनंत"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A11",
-          "explanation": "सही उत्तर विकल्प A11 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "2",
+          "explanation": "समीकरण की घात 2 है, इसलिए अधिकतम 2 मूल संभव हैं।"
         },
         {
           "q_id": "12",
-          "statement": "Quadratic Equations – प्रश्न 12 का स्टेटमेंट",
+          "statement": "समीकरण (x + 1)² - x² = 0 किस प्रकार का समीकरण है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A12"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B12"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C12"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D12"
-            }
+            {"index": "अ", "text": "द्विघात"},
+            {"index": "ब", "text": "रैखिक"},
+            {"index": "स", "text": "त्रिघात"},
+            {"index": "द", "text": "अचर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A12",
-          "explanation": "सही उत्तर विकल्प A12 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "रैखिक",
+          "explanation": "हल करने पर x² + 2x + 1 - x² = 0, यानी 2x + 1 = 0 प्राप्त होता है।"
         },
         {
           "q_id": "13",
-          "statement": "Quadratic Equations – प्रश्न 13 का स्टेटमेंट",
+          "statement": "यदि समीकरण x² - kx + 4 = 0 के मूल समान हैं, तो k का मान होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A13"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B13"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C13"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D13"
-            }
+            {"index": "अ", "text": "±2"},
+            {"index": "ब", "text": "±4"},
+            {"index": "स", "text": "±8"},
+            {"index": "द", "text": "0"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A13",
-          "explanation": "सही उत्तर विकल्प A13 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "±4",
+          "explanation": "D = k² - 16 = 0, अतः k = ±4।"
         },
         {
           "q_id": "14",
-          "statement": "Quadratic Equations – प्रश्न 14 का स्टेटमेंट",
+          "statement": "द्विघात समीकरण ax² + bx + c = 0 के मूलों का योगफल (-b/a) किसके बराबर होता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A14"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B14"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C14"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D14"
-            }
+            {"index": "अ", "text": "शून्यकों का गुणनफल"},
+            {"index": "ब", "text": "शून्यकों का योग"},
+            {"index": "स", "text": "विविक्तकर"},
+            {"index": "द", "text": "इनमें से कोई नहीं"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A14",
-          "explanation": "सही उत्तर विकल्प A14 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "शून्यकों का योग",
+          "explanation": "द्विघात बहुपद और समीकरण दोनों के लिए योगफल -b/a होता है।"
         },
         {
           "q_id": "15",
-          "statement": "Quadratic Equations – प्रश्न 15 का स्टेटमेंट",
+          "statement": "समीकरण x² - 7x + 12 = 0 के मूल हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A15"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B15"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C15"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D15"
-            }
+            {"index": "अ", "text": "3, 4"},
+            {"index": "ब", "text": "-3, -4"},
+            {"index": "स", "text": "2, 6"},
+            {"index": "द", "text": "1, 12"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A15",
-          "explanation": "सही उत्तर विकल्प A15 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "3, 4",
+          "explanation": "3+4=7 और 3×4=12।"
         },
         {
           "q_id": "16",
-          "statement": "Quadratic Equations – प्रश्न 16 का स्टेटमेंट",
+          "statement": "समीकरण x² + x + 1 = 0 के मूलों की प्रकृति क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A16"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B16"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C16"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D16"
-            }
+            {"index": "अ", "text": "वास्तविक"},
+            {"index": "ब", "text": "समान"},
+            {"index": "स", "text": "वास्तविक नहीं"},
+            {"index": "द", "text": "परिमेय"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A16",
-          "explanation": "सही उत्तर विकल्प A16 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "वास्तविक नहीं",
+          "explanation": "D = 1² - 4(1)(1) = -3 (ऋणात्मक)।"
         },
         {
           "q_id": "17",
-          "statement": "Quadratic Equations – प्रश्न 17 का स्टेटमेंट",
+          "statement": "यदि समीकरण का एक मूल 2 है और समीकरण x² + kx - 6 = 0 है, तो k का मान है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A17"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B17"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C17"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D17"
-            }
+            {"index": "अ", "text": "1"},
+            {"index": "ब", "text": "-1"},
+            {"index": "स", "text": "2"},
+            {"index": "द", "text": "-2"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A17",
-          "explanation": "सही उत्तर विकल्प A17 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "1",
+          "explanation": "2² + 2k - 6 = 0 → 2k = 2 → k = 1।"
         },
         {
           "q_id": "18",
-          "statement": "Quadratic Equations – प्रश्न 18 का स्टेटमेंट",
+          "statement": "दो क्रमागत प्राकृत संख्याओं के वर्गों का योग 25 है। समीकरण रूप होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A18"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B18"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C18"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D18"
-            }
+            {"index": "अ", "text": "x² + (x+1)² = 25"},
+            {"index": "ब", "text": "x² + x² + 1 = 25"},
+            {"index": "स", "text": "(x + x + 1)² = 25"},
+            {"index": "द", "text": "x(x+1) = 25"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A18",
-          "explanation": "सही उत्तर विकल्प A18 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "x² + (x+1)² = 25",
+          "explanation": "क्रमागत संख्याएँ x और x+1 होती हैं।"
         },
         {
           "q_id": "19",
-          "statement": "Quadratic Equations – प्रश्न 19 का स्टेटमेंट",
+          "statement": "समीकरण 3x² - 6x + 3 = 0 के मूल हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A19"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B19"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C19"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D19"
-            }
+            {"index": "अ", "text": "1, 1"},
+            {"index": "ब", "text": "1, -1"},
+            {"index": "स", "text": "2, 2"},
+            {"index": "द", "text": "0, 0"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A19",
-          "explanation": "सही उत्तर विकल्प A19 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "1, 1",
+          "explanation": "3(x² - 2x + 1) = 3(x-1)² = 0।"
         },
         {
           "q_id": "20",
-          "statement": "Quadratic Equations – प्रश्न 20 का स्टेटमेंट",
+          "statement": "विविक्तकर शून्य होने पर ग्राफ x-अक्ष को कितने बिंदुओं पर छुएगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A20"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B20"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C20"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D20"
-            }
+            {"index": "अ", "text": "दो बिंदुओं पर"},
+            {"index": "ब", "text": "एक बिंदु पर"},
+            {"index": "स", "text": "किसी बिंदु पर नहीं"},
+            {"index": "द", "text": "तीन बिंदुओं पर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A20",
-          "explanation": "सही उत्तर विकल्प A20 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "एक बिंदु पर",
+          "explanation": "जब मूल समान होते हैं, तो परवलय x-अक्ष को केवल स्पर्श करता है।"
         },
         {
           "q_id": "21",
-          "statement": "Quadratic Equations – प्रश्न 21 का स्टेटमेंट",
+          "statement": "समीकरण (2x - 1)(x - 3) = 0 के मूल हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A21"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B21"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C21"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D21"
-            }
+            {"index": "अ", "text": "1/2, 3"},
+            {"index": "ब", "text": "-1/2, -3"},
+            {"index": "स", "text": "2, 3"},
+            {"index": "द", "text": "1, 3"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A21",
-          "explanation": "सही उत्तर विकल्प A21 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "1/2, 3",
+          "explanation": "2x - 1 = 0 से x = 1/2 और x - 3 = 0 से x = 3।"
         },
         {
           "q_id": "22",
-          "statement": "Quadratic Equations – प्रश्न 22 का स्टेटमेंट",
+          "statement": "यदि समीकरण x² + px + q = 0 का एक मूल दूसरे का व्युत्क्रम हो, तो:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A22"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B22"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C22"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D22"
-            }
+            {"index": "अ", "text": "p = 1"},
+            {"index": "ब", "text": "q = 1"},
+            {"index": "स", "text": "p = q"},
+            {"index": "द", "text": "q = 0"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A22",
-          "explanation": "सही उत्तर विकल्प A22 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "q = 1",
+          "explanation": "मूलों का गुणनफल α × (1/α) = c/a = q/1 = 1।"
         },
         {
           "q_id": "23",
-          "statement": "Quadratic Equations – प्रश्न 23 का स्टेटमेंट",
+          "statement": "समीकरण x² - 0.04 = 0 के मूल हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A23"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B23"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C23"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D23"
-            }
+            {"index": "अ", "text": "±0.2"},
+            {"index": "ब", "text": "±0.02"},
+            {"index": "स", "text": "±0.4"},
+            {"index": "द", "text": "±2"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A23",
-          "explanation": "सही उत्तर विकल्प A23 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "±0.2",
+          "explanation": "x² = 0.04, x = √0.04 = ±0.2।"
         },
         {
           "q_id": "24",
-          "statement": "Quadratic Equations – प्रश्न 24 का स्टेटमेंट",
+          "statement": "द्विघात समीकरण को हल करने की पूर्ण वर्ग बनाने की विधि किसने दी थी?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A24"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B24"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C24"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D24"
-            }
+            {"index": "अ", "text": "पाइथागोरस"},
+            {"index": "ब", "text": "अल-ख्वारिज्मी"},
+            {"index": "स", "text": "यूक्लिड"},
+            {"index": "द", "text": "आर्यभट्ट"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A24",
-          "explanation": "सही उत्तर विकल्प A24 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "अल-ख्वारिज्मी",
+          "explanation": "प्राचीन गणितज्ञ अल-ख्वारिज्मी ने इस विधि का वर्णन किया था।"
         },
         {
           "q_id": "25",
-          "statement": "Quadratic Equations – प्रश्न 25 का स्टेटमेंट",
+          "statement": "यदि x² + 3ax + k = 0 का एक मूल x = -a हो, तो k का मान है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A25"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B25"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C25"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D25"
-            }
+            {"index": "अ", "text": "2a²"},
+            {"index": "ब", "text": "-2a²"},
+            {"index": "स", "text": "a²"},
+            {"index": "द", "text": "0"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A25",
-          "explanation": "सही उत्तर विकल्प A25 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "2a²",
+          "explanation": "(-a)² + 3a(-a) + k = 0 → a² - 3a² + k = 0 → k = 2a²।"
         },
         {
           "q_id": "26",
-          "statement": "Quadratic Equations – प्रश्न 26 का स्टेटमेंट",
+          "statement": "समीकरण x² - √2x - 4 = 0 का विविक्तकर क्या होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A26"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B26"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C26"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D26"
-            }
+            {"index": "अ", "text": "18"},
+            {"index": "ब", "text": "14"},
+            {"index": "स", "text": "20"},
+            {"index": "द", "text": "10"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A26",
-          "explanation": "सही उत्तर विकल्प A26 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "18",
+          "explanation": "D = (-√2)² - 4(1)(-4) = 2 + 16 = 18।"
         },
         {
           "q_id": "27",
-          "statement": "Quadratic Equations – प्रश्न 27 का स्टेटमेंट",
+          "statement": "क्या x² - x + 2 = 0 एक द्विघात समीकरण है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A27"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B27"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C27"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D27"
-            }
+            {"index": "अ", "text": "हाँ"},
+            {"index": "ब", "text": "नहीं"},
+            {"index": "स", "text": "कहा नहीं जा सकता"},
+            {"index": "द", "text": "केवल x=1 के लिए"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A27",
-          "explanation": "सही उत्तर विकल्प A27 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "हाँ",
+          "explanation": "यह ax² + bx + c = 0 के रूप का है।"
         },
         {
           "q_id": "28",
-          "statement": "Quadratic Equations – प्रश्न 28 का स्टेटमेंट",
+          "statement": "समीकरण (x - 2)² = 0 के मूल कैसे हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A28"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B28"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C28"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D28"
-            }
+            {"index": "अ", "text": "वास्तविक और समान"},
+            {"index": "ब", "text": "वास्तविक और भिन्न"},
+            {"index": "स", "text": "काल्पनिक"},
+            {"index": "द", "text": "शून्य"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A28",
-          "explanation": "सही उत्तर विकल्प A28 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "वास्तविक और समान",
+          "explanation": "x = 2, 2 प्राप्त होगा, जो समान हैं।"
         },
         {
           "q_id": "29",
-          "statement": "Quadratic Equations – प्रश्न 29 का स्टेटमेंट",
+          "statement": "यदि मूलों का योग 5 और गुणनफल 6 हो, तो समीकरण होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A29"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B29"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C29"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D29"
-            }
+            {"index": "अ", "text": "x² - 5x + 6 = 0"},
+            {"index": "ब", "text": "x² + 5x + 6 = 0"},
+            {"index": "स", "text": "x² - 6x + 5 = 0"},
+            {"index": "द", "text": "x² + 6x - 5 = 0"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A29",
-          "explanation": "सही उत्तर विकल्प A29 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "x² - 5x + 6 = 0",
+          "explanation": "x² - (योग)x + (गुणनफल) = 0।"
         },
         {
           "q_id": "30",
-          "statement": "Quadratic Equations – प्रश्न 30 का स्टेटमेंट",
+          "statement": "समीकरण x² - 9 = 0 के मूलों का योगफल क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A30"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B30"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C30"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D30"
-            }
+            {"index": "अ", "text": "9"},
+            {"index": "ब", "text": "0"},
+            {"index": "स", "text": "3"},
+            {"index": "द", "text": "-3"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A30",
-          "explanation": "सही उत्तर विकल्प A30 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "0",
+          "explanation": "यहाँ b = 0 है, इसलिए योग -b/a = 0 होगा।"
         }
       ]
     }
