@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "गणित (Coordinate Geometry)",
+    "subjectName": "निर्देशांक ज्यामिति – Coordinate Geometry",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,783 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "Coordinate Geometry – प्रश्न 1 का स्टेटमेंट",
+          "statement": "मूल बिंदु (Origin) के निर्देशांक क्या होते हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A1"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B1"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C1"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D1"
-            }
+            {"index": "अ", "text": "(1, 1)"},
+            {"index": "ब", "text": "(0, 0)"},
+            {"index": "स", "text": "(0, 1)"},
+            {"index": "द", "text": "(1, 0)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A1",
-          "explanation": "सही उत्तर विकल्प A1 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "(0, 0)",
+          "explanation": "जहाँ x-अक्ष और y-अक्ष एक दूसरे को काटते हैं, उसे मूल बिंदु कहते हैं।"
         },
         {
           "q_id": "2",
-          "statement": "Coordinate Geometry – प्रश्न 2 का स्टेटमेंट",
+          "statement": "बिंदु (x, y) की मूल बिंदु से दूरी क्या होगी?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A2"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B2"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C2"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D2"
-            }
+            {"index": "अ", "text": "x + y"},
+            {"index": "ब", "text": "√(x² + y²)"},
+            {"index": "स", "text": "x² + y²"},
+            {"index": "द", "text": "√(x + y)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A2",
-          "explanation": "सही उत्तर विकल्प A2 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "√(x² + y²)",
+          "explanation": "दूरी सूत्र $\\sqrt{(x-0)^2 + (y-0)^2}$ से यह प्राप्त होता है।"
         },
         {
           "q_id": "3",
-          "statement": "Coordinate Geometry – प्रश्न 3 का स्टेटमेंट",
+          "statement": "बिंदु (2, 3) में 'भुज' (Abscissa) का मान क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A3"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B3"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C3"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D3"
-            }
+            {"index": "अ", "text": "2"},
+            {"index": "ब", "text": "3"},
+            {"index": "स", "text": "5"},
+            {"index": "द", "text": "0"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A3",
-          "explanation": "सही उत्तर विकल्प A3 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "2",
+          "explanation": "किसी बिंदु के x-निर्देशांक को भुज कहते हैं।"
         },
         {
           "q_id": "4",
-          "statement": "Coordinate Geometry – प्रश्न 4 का स्टेटमेंट",
+          "statement": "बिंदु (-3, 4) किस चतुर्थांश (Quadrant) में स्थित है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A4"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B4"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C4"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D4"
-            }
+            {"index": "अ", "text": "प्रथम"},
+            {"index": "ब", "text": "द्वितीय"},
+            {"index": "स", "text": "तृतीय"},
+            {"index": "द", "text": "चतुर्थ"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A4",
-          "explanation": "सही उत्तर विकल्प A4 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "द्वितीय",
+          "explanation": "द्वितीय चतुर्थांश में x ऋणात्मक और y धनात्मक होता है।"
         },
         {
           "q_id": "5",
-          "statement": "Coordinate Geometry – प्रश्न 5 का स्टेटमेंट",
+          "statement": "दो बिंदुओं $(x_1, y_1)$ और $(x_2, y_2)$ के बीच की दूरी का सूत्र है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A5"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B5"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C5"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D5"
-            }
+            {"index": "अ", "text": "√[(x₂-x₁)² + (y₂-y₁)²]"},
+            {"index": "ब", "text": "√[(x₂+x₁)² + (y₂+y₁)²]"},
+            {"index": "स", "text": "[(x₂-x₁) + (y₂-y₁)]"},
+            {"index": "द", "text": "√[(x₂-x₁) - (y₂-y₁)]"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A5",
-          "explanation": "सही उत्तर विकल्प A5 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "√[(x₂-x₁)² + (y₂-y₁)²]",
+          "explanation": "यह निर्देशांक ज्यामिति का मूलभूत दूरी सूत्र है।"
         },
         {
           "q_id": "6",
-          "statement": "Coordinate Geometry – प्रश्न 6 का स्टेटमेंट",
+          "statement": "बिंदु (0, 5) कहाँ स्थित होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A6"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B6"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C6"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D6"
-            }
+            {"index": "अ", "text": "x-अक्ष पर"},
+            {"index": "ब", "text": "y-अक्ष पर"},
+            {"index": "स", "text": "मूल बिंदु पर"},
+            {"index": "द", "text": "द्वितीय चतुर्थांश में"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A6",
-          "explanation": "सही उत्तर विकल्प A6 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "y-अक्ष पर",
+          "explanation": "यदि x-निर्देशांक शून्य हो, तो बिंदु y-अक्ष पर स्थित होता है।"
         },
         {
           "q_id": "7",
-          "statement": "Coordinate Geometry – प्रश्न 7 का स्टेटमेंट",
+          "statement": "विभाजन सूत्र (Section Formula) में अंतः विभाजन के लिए x का मान है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A7"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B7"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C7"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D7"
-            }
+            {"index": "अ", "text": "(m₁x₂ + m₂x₁) / (m₁ + m₂)"},
+            {"index": "ब", "text": "(m₁x₁ + m₂x₂) / (m₁ + m₂)"},
+            {"index": "स", "text": "(m₁x₂ - m₂x₁) / (m₁ - m₂)"},
+            {"index": "द", "text": "(m₁ + m₂) / (m₁x₂ + m₂x₁)"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A7",
-          "explanation": "सही उत्तर विकल्प A7 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "(m₁x₂ + m₂x₁) / (m₁ + m₂)",
+          "explanation": "यह रेखाखंड को $m_1:m_2$ के अनुपात में बाँटने वाले बिंदु का x-निर्देशांक है।"
         },
         {
           "q_id": "8",
-          "statement": "Coordinate Geometry – प्रश्न 8 का स्टेटमेंट",
+          "statement": "बिंदुओं (2, 4) और (4, 6) को मिलाने वाले रेखाखंड के मध्य-बिंदु के निर्देशांक होंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A8"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B8"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C8"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D8"
-            }
+            {"index": "अ", "text": "(3, 5)"},
+            {"index": "ब", "text": "(6, 10)"},
+            {"index": "स", "text": "(1, 1)"},
+            {"index": "द", "text": "(2, 2)"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A8",
-          "explanation": "सही उत्तर विकल्प A8 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "(3, 5)",
+          "explanation": "मध्य बिंदु = $[(2+4)/2, (4+6)/2] = (3, 5)$।"
         },
         {
           "q_id": "9",
-          "statement": "Coordinate Geometry – प्रश्न 9 का स्टेटमेंट",
+          "statement": "बिंदु (4, -3) की x-अक्ष से दूरी क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A9"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B9"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C9"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D9"
-            }
+            {"index": "अ", "text": "4"},
+            {"index": "ब", "text": "3"},
+            {"index": "स", "text": "-3"},
+            {"index": "द", "text": "7"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A9",
-          "explanation": "सही उत्तर विकल्प A9 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "3",
+          "explanation": "x-अक्ष से दूरी y-निर्देशांक का संख्यात्मक मान (Absolute value) होती है।"
         },
         {
           "q_id": "10",
-          "statement": "Coordinate Geometry – प्रश्न 10 का स्टेटमेंट",
+          "statement": "बिंदु (x, y) की y-अक्ष से लंबवत दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A10"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B10"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C10"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D10"
-            }
+            {"index": "अ", "text": "x"},
+            {"index": "ब", "text": "y"},
+            {"index": "स", "text": "√(x² + y²)"},
+            {"index": "द", "text": "0"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A10",
-          "explanation": "सही उत्तर विकल्प A10 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "x",
+          "explanation": "y-अक्ष से दूरी उस बिंदु के x-निर्देशांक के बराबर होती है।"
         },
         {
           "q_id": "11",
-          "statement": "Coordinate Geometry – प्रश्न 11 का स्टेटमेंट",
+          "statement": "तृतीय चतुर्थांश में स्थित बिंदु के चिह्न होंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A11"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B11"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C11"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D11"
-            }
+            {"index": "अ", "text": "(+, +)"},
+            {"index": "ब", "text": "(-, +)"},
+            {"index": "स", "text": "(-, -)"},
+            {"index": "द", "text": "(+, -)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A11",
-          "explanation": "सही उत्तर विकल्प A11 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "(-, -)",
+          "explanation": "तीसरे चतुर्थांश में x और y दोनों निर्देशांक ऋणात्मक होते हैं।"
         },
         {
           "q_id": "12",
-          "statement": "Coordinate Geometry – प्रश्न 12 का स्टेटमेंट",
+          "statement": "यदि तीन बिंदु संरेख (Collinear) हों, तो उनसे बने त्रिभुज का क्षेत्रफल होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A12"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B12"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C12"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D12"
-            }
+            {"index": "अ", "text": "1"},
+            {"index": "ब", "text": "0"},
+            {"index": "स", "text": "अनंत"},
+            {"index": "द", "text": "कोई भी धनात्मक संख्या"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A12",
-          "explanation": "सही उत्तर विकल्प A12 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "0",
+          "explanation": "संरेख बिंदु एक सीधी रेखा में होते हैं, इसलिए वे त्रिभुज नहीं बना सकते।"
         },
         {
           "q_id": "13",
-          "statement": "Coordinate Geometry – प्रश्न 13 का स्टेटमेंट",
+          "statement": "बिंदु (a, b) और (-a, -b) के बीच की दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A13"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B13"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C13"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D13"
-            }
+            {"index": "अ", "text": "2√(a² + b²)"},
+            {"index": "ब", "text": "√(a² + b²)"},
+            {"index": "स", "text": "2(a + b)"},
+            {"index": "द", "text": "0"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A13",
-          "explanation": "सही उत्तर विकल्प A13 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "2√(a² + b²)",
+          "explanation": "$\\\\sqrt{(-a-a)^2 + (-b-b)^2} = \\\\sqrt{4a^2 + 4b^2} = 2\\\\sqrt{a^2+b^2}$।"
         },
         {
           "q_id": "14",
-          "statement": "Coordinate Geometry – प्रश्न 14 का स्टेटमेंट",
+          "statement": "किसी बिंदु की कोटि (Ordinate) शून्य है, तो वह बिंदु कहाँ स्थित होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A14"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B14"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C14"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D14"
-            }
+            {"index": "अ", "text": "y-अक्ष पर"},
+            {"index": "ब", "text": "x-अक्ष पर"},
+            {"index": "स", "text": "प्रथम चतुर्थांश में"},
+            {"index": "द", "text": "मूल बिंदु पर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A14",
-          "explanation": "सही उत्तर विकल्प A14 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "x-अक्ष पर",
+          "explanation": "y-निर्देशांक (कोटि) शून्य होने पर बिंदु x-अक्ष पर होता है।"
         },
         {
           "q_id": "15",
-          "statement": "Coordinate Geometry – प्रश्न 15 का स्टेटमेंट",
+          "statement": "बिंदुओं (0, 0), (4, 0) और (0, 3) से बने त्रिभुज का परिमाप है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A15"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B15"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C15"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D15"
-            }
+            {"index": "अ", "text": "7"},
+            {"index": "ब", "text": "12"},
+            {"index": "स", "text": "10"},
+            {"index": "द", "text": "5"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A15",
-          "explanation": "सही उत्तर विकल्प A15 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "12",
+          "explanation": "भुजाएँ 4, 3 और $\\\\sqrt{4^2+3^2}=5$ हैं। कुल $4+3+5=12$।"
         },
         {
           "q_id": "16",
-          "statement": "Coordinate Geometry – प्रश्न 16 का स्टेटमेंट",
+          "statement": "x-अक्ष पर स्थित किसी बिंदु का रूप होता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A16"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B16"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C16"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D16"
-            }
+            {"index": "अ", "text": "(0, y)"},
+            {"index": "ब", "text": "(x, 0)"},
+            {"index": "स", "text": "(x, x)"},
+            {"index": "द", "text": "(y, y)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A16",
-          "explanation": "सही उत्तर विकल्प A16 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "(x, 0)",
+          "explanation": "x-अक्ष पर y का मान हमेशा 0 होता है।"
         },
         {
           "q_id": "17",
-          "statement": "Coordinate Geometry – प्रश्न 17 का स्टेटमेंट",
+          "statement": "बिंदु (3, -4) की मूल बिंदु से दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A17"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B17"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C17"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D17"
-            }
+            {"index": "अ", "text": "7"},
+            {"index": "ब", "text": "5"},
+            {"index": "स", "text": "1"},
+            {"index": "द", "text": "√7"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A17",
-          "explanation": "सही उत्तर विकल्प A17 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "5",
+          "explanation": "$\\\\sqrt{3^2 + (-4)^2} = \\\\sqrt{9 + 16} = 5$।"
         },
         {
           "q_id": "18",
-          "statement": "Coordinate Geometry – प्रश्न 18 का स्टेटमेंट",
+          "statement": "चतुर्थ चतुर्थांश में स्थित बिंदु के निर्देशांकों का चिह्न होता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A18"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B18"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C18"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D18"
-            }
+            {"index": "अ", "text": "(+, +)"},
+            {"index": "ब", "text": "(-, -)"},
+            {"index": "स", "text": "(-, +)"},
+            {"index": "द", "text": "(+, -)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A18",
-          "explanation": "सही उत्तर विकल्प A18 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "द",
+          "correct_answer": "(+, -)",
+          "explanation": "चौथे चतुर्थांश में x धनात्मक और y ऋणात्मक होता है।"
         },
         {
           "q_id": "19",
-          "statement": "Coordinate Geometry – प्रश्न 19 का स्टेटमेंट",
+          "statement": "यदि एक वृत्त का व्यास AB है, जिसका केंद्र (2, -3) है और B (1, 4) है, तो A के निर्देशांक होंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A19"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B19"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C19"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D19"
-            }
+            {"index": "अ", "text": "(3, -10)"},
+            {"index": "ब", "text": "(1, -7)"},
+            {"index": "स", "text": "(3, 10)"},
+            {"index": "द", "text": "(-3, 10)"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A19",
-          "explanation": "सही उत्तर विकल्प A19 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "(3, -10)",
+          "explanation": "मध्य बिंदु सूत्र का उपयोग करने पर: $(x+1)/2=2$ और $(y+4)/2=-3$।"
         },
         {
           "q_id": "20",
-          "statement": "Coordinate Geometry – प्रश्न 20 का स्टेटमेंट",
+          "statement": "बिंदुओं (-5, 7) और (-1, 3) के बीच की दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A20"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B20"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C20"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D20"
-            }
+            {"index": "अ", "text": "2√2"},
+            {"index": "ब", "text": "4√2"},
+            {"index": "स", "text": "8"},
+            {"index": "द", "text": "√2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A20",
-          "explanation": "सही उत्तर विकल्प A20 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "4√2",
+          "explanation": "$\\\\sqrt{(-1 - (-5))^2 + (3-7)^2} = \\\\sqrt{4^2 + (-4)^2} = \\\\sqrt{32} = 4\\\\sqrt{2}$।"
         },
         {
           "q_id": "21",
-          "statement": "Coordinate Geometry – प्रश्न 21 का स्टेटमेंट",
+          "statement": "त्रिभुज जिसके शीर्ष (0, 4), (0, 0) और (3, 0) हैं, उसका क्षेत्रफल होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A21"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B21"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C21"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D21"
-            }
+            {"index": "अ", "text": "12"},
+            {"index": "ब", "text": "6"},
+            {"index": "स", "text": "7.5"},
+            {"index": "द", "text": "5"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A21",
-          "explanation": "सही उत्तर विकल्प A21 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "6",
+          "explanation": "क्षेत्रफल = $1/2 \\times आधार \\times ऊँचाई = 1/2 \\times 3 \\times 4 = 6$।"
         },
         {
           "q_id": "22",
-          "statement": "Coordinate Geometry – प्रश्न 22 का स्टेटमेंट",
+          "statement": "समानांतर चतुर्भुज के विकर्ण एक-दूसरे को क्या करते हैं?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A22"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B22"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C22"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D22"
-            }
+            {"index": "अ", "text": "लंबवत काटते हैं"},
+            {"index": "ब", "text": "समद्विभाजित करते हैं"},
+            {"index": "स", "text": "तिर्यक काटते हैं"},
+            {"index": "द", "text": "नहीं काटते"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A22",
-          "explanation": "सही उत्तर विकल्प A22 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "समद्विभाजित करते हैं",
+          "explanation": "विकर्णों का मध्य बिंदु एक ही होता है।"
         },
         {
           "q_id": "23",
-          "statement": "Coordinate Geometry – प्रश्न 23 का स्टेटमेंट",
+          "statement": "बिंदु P(-6, 8) की मूल बिंदु से दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A23"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B23"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C23"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D23"
-            }
+            {"index": "अ", "text": "8"},
+            {"index": "ब", "text": "2√7"},
+            {"index": "स", "text": "10"},
+            {"index": "द", "text": "6"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A23",
-          "explanation": "सही उत्तर विकल्प A23 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "10",
+          "explanation": "$\\\\sqrt{(-6)^2 + 8^2} = \\\\sqrt{36 + 64} = 10$।"
         },
         {
           "q_id": "24",
-          "statement": "Coordinate Geometry – प्रश्न 24 का स्टेटमेंट",
+          "statement": "y-अक्ष पर स्थित बिंदु (0, y) की x-अक्ष से दूरी क्या होगी?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A24"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B24"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C24"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D24"
-            }
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "y"},
+            {"index": "स", "text": "x"},
+            {"index": "द", "text": "√y"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A24",
-          "explanation": "सही उत्तर विकल्प A24 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "y",
+          "explanation": "किसी बिंदु की x-अक्ष से दूरी उसका y-निर्देशांक होती है।"
         },
         {
           "q_id": "25",
-          "statement": "Coordinate Geometry – प्रश्न 25 का स्टेटमेंट",
+          "statement": "रेखाखंड AB का मध्य बिंदु M है। यदि A(2, 3) और M(4, 5) हो, तो B के निर्देशांक होंगे:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A25"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B25"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C25"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D25"
-            }
+            {"index": "अ", "text": "(6, 7)"},
+            {"index": "ब", "text": "(3, 4)"},
+            {"index": "स", "text": "(8, 10)"},
+            {"index": "द", "text": "(2, 2)"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A25",
-          "explanation": "सही उत्तर विकल्प A25 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "(6, 7)",
+          "explanation": "$x = 2(4) - 2 = 6$ और $y = 2(5) - 3 = 7$।"
         },
         {
           "q_id": "26",
-          "statement": "Coordinate Geometry – प्रश्न 26 का स्टेटमेंट",
+          "statement": "बिंदु (5, -2) की y-अक्ष से दूरी है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A26"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B26"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C26"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D26"
-            }
+            {"index": "अ", "text": "2"},
+            {"index": "ब", "text": "5"},
+            {"index": "स", "text": "-2"},
+            {"index": "द", "text": "√29"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A26",
-          "explanation": "सही उत्तर विकल्प A26 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "5",
+          "explanation": "y-अक्ष से दूरी x-निर्देशांक के बराबर होती है।"
         },
         {
           "q_id": "27",
-          "statement": "Coordinate Geometry – प्रश्न 27 का स्टेटमेंट",
+          "statement": "यदि P, Q, R संरेख हैं, तो उनसे बना त्रिभुज संभव है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A27"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B27"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C27"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D27"
-            }
+            {"index": "अ", "text": "हाँ"},
+            {"index": "ब", "text": "नहीं"},
+            {"index": "स", "text": "केवल समकोण"},
+            {"index": "द", "text": "केवल समबाहु"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A27",
-          "explanation": "सही उत्तर विकल्प A27 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "नहीं",
+          "explanation": "संरेख बिंदु एक सीधी रेखा बनाते हैं।"
         },
         {
           "q_id": "28",
-          "statement": "Coordinate Geometry – प्रश्न 28 का स्टेटमेंट",
+          "statement": "बिंदु (-4, -6) किस चतुर्थांश में है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A28"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B28"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C28"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D28"
-            }
+            {"index": "अ", "text": "द्वितीय"},
+            {"index": "ब", "text": "तृतीय"},
+            {"index": "स", "text": "प्रथम"},
+            {"index": "द", "text": "चतुर्थ"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A28",
-          "explanation": "सही उत्तर विकल्प A28 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "तृतीय",
+          "explanation": "दोनों निर्देशांक ऋणात्मक होने पर बिंदु तीसरे चतुर्थांश में होता है।"
         },
         {
           "q_id": "29",
-          "statement": "Coordinate Geometry – प्रश्न 29 का स्टेटमेंट",
+          "statement": "मूल बिंदु से बिंदु (3, 4) की दूरी क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A29"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B29"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C29"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D29"
-            }
+            {"index": "अ", "text": "5"},
+            {"index": "ब", "text": "25"},
+            {"index": "स", "text": "7"},
+            {"index": "द", "text": "1"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A29",
-          "explanation": "सही उत्तर विकल्प A29 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "5",
+          "explanation": "पाइथागोरस ट्रिपलेट (3, 4, 5) के अनुसार दूरी 5 होगी।"
         },
         {
           "q_id": "30",
-          "statement": "Coordinate Geometry – प्रश्न 30 का स्टेटमेंट",
+          "statement": "y-अक्ष का समीकरण क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A30"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B30"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C30"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D30"
-            }
+            {"index": "अ", "text": "y = 0"},
+            {"index": "ब", "text": "x = 0"},
+            {"index": "स", "text": "x = y"},
+            {"index": "द", "text": "x + y = 0"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A30",
-          "explanation": "सही उत्तर विकल्प A30 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "x = 0",
+          "explanation": "y-अक्ष पर प्रत्येक बिंदु का x-निर्देशांक शून्य होता है।"
         }
       ]
     }
