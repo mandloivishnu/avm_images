@@ -6,6 +6,12 @@
     "board": "MP Board"
   },
   "questions": [
+     {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
     {"q_id":"1","statement":"एक सिक्का उछालने पर सिर आने की प्रायिकता = ?","options":[{"index":"अ","text":"1/2"},{"index":"ब","text":"1/4"},{"index":"स","text":"1"},{"index":"द","text":"1/3"}],"correct_index":"अ","correct_answer":"1/2","explanation":"सिक्का के दो पक्ष होते हैं। Probability = Favorable/Total = 1/2"},
     {"q_id":"2","statement":"एक पासा फेंकने पर 6 आने की प्रायिकता = ?","options":[{"index":"अ","text":"1/6"},{"index":"ब","text":"1/3"},{"index":"स","text":"1/2"},{"index":"द","text":"1/5"}],"correct_index":"अ","correct_answer":"1/6","explanation":"पासा में 6 पक्ष होते हैं, Favorable=1, Probability=1/6"},
     {"q_id":"3","statement":"दो सिक्के उछालने पर दोनों पर सिर आने की प्रायिकता = ?","options":[{"index":"अ","text":"1/2"},{"index":"ब","text":"1/4"},{"index":"स","text":"1/3"},{"index":"द","text":"1/6"}],"correct_index":"ब","correct_answer":"1/4","explanation":"दो सिक्के, Sample space={HH, HT, TH, TT}, Favorable=1 (HH), Probability=1/4"},
@@ -36,5 +42,5 @@
     {"q_id":"28","statement":"एक डेक से एक पत्ता निकालने पर Spade आने की प्रायिकता = ?","options":[{"index":"अ","text":"1/4"},{"index":"ब","text":"1/3"},{"index":"स","text":"1/13"},{"index":"द","text":"1/52"}],"correct_index":"अ","correct_answer":"1/4","explanation":"Deck में 4 प्रकार के suits => Probability=1/4"},
     {"q_id":"29","statement":"दो पासे फेंकने पर योगफल 6 आने की प्रायिकता = ?","options":[{"index":"अ","text":"5/36"},{"index":"ब","text":"1/6"},{"index":"स","text":"1/12"},{"index":"द","text":"1/9"}],"correct_index":"ब","correct_answer":"5/36","explanation":"Favorable pairs=(1,5),(2,4),(3,3),(4,2),(5,1)=5 =>5/36"},
     {"q_id":"30","statement":"दो पासे फेंकने पर कम से कम एक 1 आने की प्रायिकता = ?","options":[{"index":"अ","text":"11/36"},{"index":"ब","text":"1/6"},{"index":"स","text":"1/2"},{"index":"द","text":"5/36"}],"correct_index":"अ","correct_answer":"11/36","explanation":"कम से कम एक 1 आने की प्रायिकता=1 - Probability(no 1)=1-(5/6*5/6)=11/36"}
-  ]
+  ]}]
 }
