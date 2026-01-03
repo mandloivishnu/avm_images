@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "गणित (Circle Area)",
+    "subjectName": "वृत्तों से संबंधित क्षेत्रफल – Areas Related to Circles",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,783 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "Circle Area – प्रश्न 1 का स्टेटमेंट",
+          "statement": "त्रिज्या $r$ वाले वृत्त का क्षेत्रफल होता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A1"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B1"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C1"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D1"
-            }
+            {"index": "अ", "text": "2πr"},
+            {"index": "ब", "text": "πr²"},
+            {"index": "स", "text": "2πr²"},
+            {"index": "द", "text": "πr³/3"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A1",
-          "explanation": "सही उत्तर विकल्प A1 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "πr²",
+          "explanation": "वृत्त के क्षेत्रफल का मानक सूत्र $\\pi r^2$ है।"
         },
         {
           "q_id": "2",
-          "statement": "Circle Area – प्रश्न 2 का स्टेटमेंट",
+          "statement": "त्रिज्या $r$ वाले वृत्त की परिधि (Circumference) है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A2"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B2"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C2"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D2"
-            }
+            {"index": "अ", "text": "πr²"},
+            {"index": "ब", "text": "2πr"},
+            {"index": "स", "text": "πd"},
+            {"index": "द", "text": "ब और स दोनों"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A2",
-          "explanation": "सही उत्तर विकल्प A2 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "द",
+          "correct_answer": "ब और स दोनों",
+          "explanation": "परिधि $2\\pi r$ होती है, और चूँकि $2r = d$, इसलिए इसे $\\pi d$ भी लिख सकते हैं।"
         },
         {
           "q_id": "3",
-          "statement": "Circle Area – प्रश्न 3 का स्टेटमेंट",
+          "statement": "त्रिज्या $r$ वाले वृत्त के उस त्रिज्यखंड (Sector) का क्षेत्रफल जिसका कोण $\\theta$ है, होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A3"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B3"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C3"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D3"
-            }
+            {"index": "अ", "text": "(\\theta/180) \times \pi r"},
+            {"index": "ब", "text": "(\\theta/360) \times 2\pi r"},
+            {"index": "स", "text": "(\\theta/360) \times \pi r^2"},
+            {"index": "द", "text": "(\\theta/720) \times 2\pi r^2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A3",
-          "explanation": "सही उत्तर विकल्प A3 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "(\\theta/360) \times \pi r^2",
+          "explanation": "त्रिज्यखंड का क्षेत्रफल वृत्त के क्षेत्रफल का वह भाग है जो $\\theta/360$ के अनुपात में होता है।"
         },
         {
           "q_id": "4",
-          "statement": "Circle Area – प्रश्न 4 का स्टेटमेंट",
+          "statement": "त्रिज्या $r$ वाले वृत्त के चाप की लंबाई, जो केंद्र पर $\\theta$ कोण बनाता है, है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A4"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B4"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C4"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D4"
-            }
+            {"index": "अ", "text": "(\\theta/360) \times \pi r^2"},
+            {"index": "ब", "text": "(\\theta/180) \times \pi r"},
+            {"index": "स", "text": "(\\theta/360) \times 2\pi r"},
+            {"index": "द", "text": "ब और स दोनों"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A4",
-          "explanation": "सही उत्तर विकल्प A4 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "द",
+          "correct_answer": "ब और स दोनों",
+          "explanation": "चाप की लंबाई = $(\\theta/360) \\times 2\\pi r$। इसे सरल करने पर $(\\theta/180) \\times \\pi r$ प्राप्त होता है।"
         },
         {
           "q_id": "5",
-          "statement": "Circle Area – प्रश्न 5 का स्टेटमेंट",
+          "statement": "वृत्त के एक चतुर्थांश (Quadrant) का क्षेत्रफल क्या होगा यदि त्रिज्या $r$ हो?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A5"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B5"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C5"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D5"
-            }
+            {"index": "अ", "text": "1/2 \pi r^2"},
+            {"index": "ब", "text": "1/4 \pi r^2"},
+            {"index": "स", "text": "1/8 \pi r^2"},
+            {"index": "द", "text": "\pi r^2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A5",
-          "explanation": "सही उत्तर विकल्प A5 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "1/4 \pi r^2",
+          "explanation": "चतुर्थांश वृत्त का चौथा हिस्सा होता है (90° कोण)।"
         },
         {
           "q_id": "6",
-          "statement": "Circle Area – प्रश्न 6 का स्टेटमेंट",
+          "statement": "यदि एक वृत्त का परिमाप और क्षेत्रफल संख्यात्मक रूप से बराबर हैं, तो उस वृत्त की त्रिज्या है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A6"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B6"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C6"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D6"
-            }
+            {"index": "अ", "text": "2 मात्रक"},
+            {"index": "ब", "text": "π मात्रक"},
+            {"index": "स", "text": "4 मात्रक"},
+            {"index": "द", "text": "7 मात्रक"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A6",
-          "explanation": "सही उत्तर विकल्प A6 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "2 मात्रक",
+          "explanation": "$2\\pi r = \\pi r^2 \\implies 2 = r$।"
         },
         {
           "q_id": "7",
-          "statement": "Circle Area – प्रश्न 7 का स्टेटमेंट",
+          "statement": "अर्धवृत्त का कुल परिमाप (Perimeter) होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A7"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B7"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C7"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D7"
-            }
+            {"index": "अ", "text": "\pi r"},
+            {"index": "ब", "text": "\pi r + 2r"},
+            {"index": "स", "text": "2\pi r + r"},
+            {"index": "द", "text": "1/2 \pi r^2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A7",
-          "explanation": "सही उत्तर विकल्प A7 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "\pi r + 2r",
+          "explanation": "अर्धवृत्त की परिधि $(\\pi r)$ और व्यास $(2r)$ का योग।"
         },
         {
           "q_id": "8",
-          "statement": "Circle Area – प्रश्न 8 का स्टेटमेंट",
+          "statement": "एक वृत्तखंड (Segment) का क्षेत्रफल कैसे ज्ञात किया जाता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A8"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B8"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C8"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D8"
-            }
+            {"index": "अ", "text": "त्रिज्यखंड का क्षेत्रफल + त्रिभुज का क्षेत्रफल"},
+            {"index": "ब", "text": "त्रिज्यखंड का क्षेत्रफल - संगत त्रिभुज का क्षेत्रफल"},
+            {"index": "स", "text": "वृत्त का क्षेत्रफल - त्रिज्यखंड का क्षेत्रफल"},
+            {"index": "द", "text": "2 \times त्रिज्यखंड का क्षेत्रफल"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A8",
-          "explanation": "सही उत्तर विकल्प A8 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "त्रिज्यखंड का क्षेत्रफल - संगत त्रिभुज का क्षेत्रफल",
+          "explanation": "वृत्तखंड, त्रिज्यखंड में से त्रिभुज के हिस्से को हटाने पर बचता है।"
         },
         {
           "q_id": "9",
-          "statement": "Circle Area – प्रश्न 9 का स्टेटमेंट",
+          "statement": "एक घड़ी की मिनट की सुई की लंबाई 14 cm है। 5 मिनट में सुई द्वारा बनाया गया क्षेत्रफल होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A9"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B9"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C9"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D9"
-            }
+            {"index": "अ", "text": "154/3 cm²"},
+            {"index": "ब", "text": "154 cm²"},
+            {"index": "स", "text": "77/3 cm²"},
+            {"index": "द", "text": "144 cm²"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A9",
-          "explanation": "सही उत्तर विकल्प A9 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "154/3 cm²",
+          "explanation": "5 मिनट में कोण = 30°। क्षेत्रफल = $(30/360) \\times (22/7) \\times 14^2 = 154/3$।"
         },
         {
           "q_id": "10",
-          "statement": "Circle Area – प्रश्न 10 का स्टेटमेंट",
+          "statement": "त्रिज्या $R$ वाले वृत्त के उस त्रिज्यखंड का क्षेत्रफल जिसका कोण $p^\circ$ है, निम्नलिखित है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A10"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B10"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C10"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D10"
-            }
+            {"index": "अ", "text": "(p/180) \times 2\pi R"},
+            {"index": "ब", "text": "(p/180) \times \pi R^2"},
+            {"index": "स", "text": "(p/360) \times 2\pi R"},
+            {"index": "द", "text": "(p/720) \times 2\pi R^2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A10",
-          "explanation": "सही उत्तर विकल्प A10 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "द",
+          "correct_answer": "(p/720) \times 2\pi R^2",
+          "explanation": "$(p/720) \\times 2\\pi R^2$ को सरल करने पर $(p/360) \\times \\pi R^2$ प्राप्त होता है।"
         },
         {
           "q_id": "11",
-          "statement": "Circle Area – प्रश्न 11 का स्टेटमेंट",
+          "statement": "एक वृत्ताकार खेत पर ₹24 प्रति मीटर की दर से बाड़ लगाने का व्यय ₹5280 है। खेत की परिधि क्या है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A11"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B11"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C11"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D11"
-            }
+            {"index": "अ", "text": "220 m"},
+            {"index": "ब", "text": "440 m"},
+            {"index": "स", "text": "110 m"},
+            {"index": "द", "text": "240 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A11",
-          "explanation": "सही उत्तर विकल्प A11 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "220 m",
+          "explanation": "परिधि = कुल व्यय / दर = 5280 / 24 = 220 मीटर।"
         },
         {
           "q_id": "12",
-          "statement": "Circle Area – प्रश्न 12 का स्टेटमेंट",
+          "statement": "दो वृत्तों की त्रिज्याएँ 19 cm और 9 cm हैं। उस वृत्त की त्रिज्या क्या होगी जिसकी परिधि इन दोनों वृत्तों की परिधियों के योग के बराबर है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A12"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B12"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C12"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D12"
-            }
+            {"index": "अ", "text": "10 cm"},
+            {"index": "ब", "text": "28 cm"},
+            {"index": "स", "text": "14 cm"},
+            {"index": "द", "text": "38 cm"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A12",
-          "explanation": "सही उत्तर विकल्प A12 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "28 cm",
+          "explanation": "$R = r_1 + r_2 = 19 + 9 = 28$ cm।"
         },
         {
           "q_id": "13",
-          "statement": "Circle Area – प्रश्न 13 का स्टेटमेंट",
+          "statement": "यदि वृत्त की त्रिज्या दुगुनी कर दी जाए, तो उसका क्षेत्रफल हो जाएगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A13"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B13"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C13"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D13"
-            }
+            {"index": "अ", "text": "दो गुना"},
+            {"index": "ब", "text": "तीन गुना"},
+            {"index": "स", "text": "चार गुना"},
+            {"index": "द", "text": "आधा"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A13",
-          "explanation": "सही उत्तर विकल्प A13 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "चार गुना",
+          "explanation": "क्षेत्रफल त्रिज्या के वर्ग ($r^2$) के समानुपाती होता है।"
         },
         {
           "q_id": "14",
-          "statement": "Circle Area – प्रश्न 14 का स्टेटमेंट",
+          "statement": "वृत्त के केंद्र पर बना कुल कोण होता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A14"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B14"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C14"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D14"
-            }
+            {"index": "अ", "text": "90°"},
+            {"index": "ब", "text": "180°"},
+            {"index": "स", "text": "360°"},
+            {"index": "द", "text": "0°"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A14",
-          "explanation": "सही उत्तर विकल्प A14 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "360°",
+          "explanation": "एक पूर्ण चक्कर में 360 डिग्री का कोण बनता है।"
         },
         {
           "q_id": "15",
-          "statement": "Circle Area – प्रश्न 15 का स्टेटमेंट",
+          "statement": "एक वृत्ताकार पहिए की त्रिज्या 0.25 m है। 11 km की दूरी तय करने में यह कितने चक्कर लगाएगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A15"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B15"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C15"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D15"
-            }
+            {"index": "अ", "text": "2800"},
+            {"index": "ब", "text": "4000"},
+            {"index": "स", "text": "7000"},
+            {"index": "द", "text": "1000"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A15",
-          "explanation": "सही उत्तर विकल्प A15 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "7000",
+          "explanation": "चक्कर = दूरी / परिधि = $11000 / (2 \\times 22/7 \\times 0.25) = 7000$।"
         },
         {
           "q_id": "16",
-          "statement": "Circle Area – प्रश्न 16 का स्टेटमेंट",
+          "statement": "π (पाई) का मान लगभग 22/7 किसने दिया था?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A16"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B16"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C16"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D16"
-            }
+            {"index": "अ", "text": "पाइथागोरस"},
+            {"index": "ब", "text": "आर्यभट्ट"},
+            {"index": "स", "text": "यूक्लिड"},
+            {"index": "द", "text": "न्यूटन"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A16",
-          "explanation": "सही उत्तर विकल्प A16 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "आर्यभट्ट",
+          "explanation": "महान भारतीय गणितज्ञ आर्यभट्ट ने $\\pi$ का बहुत सटीक मान दिया था।"
         },
         {
           "q_id": "17",
-          "statement": "Circle Area – प्रश्न 17 का स्टेटमेंट",
+          "statement": "संगत लघु चाप द्वारा बनाए गए त्रिज्यखंड को कहते हैं:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A17"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B17"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C17"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D17"
-            }
+            {"index": "अ", "text": "दीर्घ त्रिज्यखंड"},
+            {"index": "ब", "text": "लघु त्रिज्यखंड"},
+            {"index": "स", "text": "वृत्तखंड"},
+            {"index": "द", "text": "चतुर्थांश"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A17",
-          "explanation": "सही उत्तर विकल्प A17 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "लघु त्रिज्यखंड",
+          "explanation": "180° से कम कोण वाले त्रिज्यखंड को लघु त्रिज्यखंड कहते हैं।"
         },
         {
           "q_id": "18",
-          "statement": "Circle Area – प्रश्न 18 का स्टेटमेंट",
+          "statement": "दीर्घ त्रिज्यखंड का क्षेत्रफल = वृत्त का क्षेत्रफल - ______:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A18"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B18"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C18"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D18"
-            }
+            {"index": "अ", "text": "त्रिभुज का क्षेत्रफल"},
+            {"index": "ब", "text": "लघु त्रिज्यखंड का क्षेत्रफल"},
+            {"index": "स", "text": "लघु वृत्तखंड का क्षेत्रफल"},
+            {"index": "द", "text": "अर्धवृत्त का क्षेत्रफल"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A18",
-          "explanation": "सही उत्तर विकल्प A18 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "लघु त्रिज्यखंड का क्षेत्रफल",
+          "explanation": "वृत्त के कुल क्षेत्रफल में से छोटा त्रिज्यखंड घटाने पर शेष बड़ा त्रिज्यखंड मिलता है।"
         },
         {
           "q_id": "19",
-          "statement": "Circle Area – प्रश्न 19 का स्टेटमेंट",
+          "statement": "एक वृत्त के चतुर्थांश का परिमाप क्या है जिसकी त्रिज्या $r$ है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A19"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B19"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C19"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D19"
-            }
+            {"index": "अ", "text": "1/2 \pi r + 2r"},
+            {"index": "ब", "text": "\pi r + 2r"},
+            {"index": "स", "text": "1/4 \pi r + r"},
+            {"index": "द", "text": "2\pi r"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A19",
-          "explanation": "सही उत्तर विकल्प A19 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "1/2 \pi r + 2r",
+          "explanation": "परिमाप = चाप की लंबाई $(2\\pi r/4)$ + दो त्रिज्याएँ $(2r)$।"
         },
         {
           "q_id": "20",
-          "statement": "Circle Area – प्रश्न 20 का स्टेटमेंट",
+          "statement": "एक वृत्त का क्षेत्रफल 154 cm² है। इसकी परिधि होगी:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A20"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B20"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C20"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D20"
-            }
+            {"index": "अ", "text": "22 cm"},
+            {"index": "ब", "text": "44 cm"},
+            {"index": "स", "text": "66 cm"},
+            {"index": "द", "text": "88 cm"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A20",
-          "explanation": "सही उत्तर विकल्प A20 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "44 cm",
+          "explanation": "$\\pi r^2 = 154 \\implies r = 7$। परिधि = $2 \\times 22/7 \\times 7 = 44$ cm।"
         },
         {
           "q_id": "21",
-          "statement": "Circle Area – प्रश्न 21 का स्टेटमेंट",
+          "statement": "6 cm त्रिज्या वाले एक वृत्त के एक त्रिज्यखंड का क्षेत्रफल ज्ञात कीजिए, जिसका कोण 60° है।",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A21"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B21"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C21"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D21"
-            }
+            {"index": "अ", "text": "132/7 cm²"},
+            {"index": "ब", "text": "154/7 cm²"},
+            {"index": "स", "text": "44/7 cm²"},
+            {"index": "द", "text": "122/7 cm²"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A21",
-          "explanation": "सही उत्तर विकल्प A21 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "132/7 cm²",
+          "explanation": "$(60/360) \\times (22/7) \\times 6^2 = 132/7$ cm²।"
         },
         {
           "q_id": "22",
-          "statement": "Circle Area – प्रश्न 22 का स्टेटमेंट",
+          "statement": "वलय (Ring) का क्षेत्रफल क्या होता है, यदि बाहरी त्रिज्या $R$ और आंतरिक $r$ हो?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A22"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B22"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C22"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D22"
-            }
+            {"index": "अ", "text": "\pi(R - r)^2"},
+            {"index": "ब", "text": "\pi(R^2 - r^2)"},
+            {"index": "स", "text": "2\pi(R - r)"},
+            {"index": "द", "text": "\pi(R^2 + r^2)"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A22",
-          "explanation": "सही उत्तर विकल्प A22 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "\pi(R^2 - r^2)",
+          "explanation": "बड़े वृत्त के क्षेत्रफल में से छोटे वृत्त का क्षेत्रफल घटाने पर वलय प्राप्त होता है।"
         },
         {
           "q_id": "23",
-          "statement": "Circle Area – प्रश्न 23 का स्टेटमेंट",
+          "statement": "यदि $\theta = 90^\circ$ हो, तो त्रिज्यखंड के संगत त्रिभुज का क्षेत्रफल होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A23"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B23"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C23"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D23"
-            }
+            {"index": "अ", "text": "1/2 r^2"},
+            {"index": "ब", "text": "r^2"},
+            {"index": "स", "text": "\sqrt{3}/4 r^2"},
+            {"index": "द", "text": "1/2 \pi r^2"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A23",
-          "explanation": "सही उत्तर विकल्प A23 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "1/2 r^2",
+          "explanation": "90° होने पर यह एक समकोण त्रिभुज बनता है जिसका आधार और ऊँचाई $r$ है।"
         },
         {
           "q_id": "24",
-          "statement": "Circle Area – प्रश्न 24 का स्टेटमेंट",
+          "statement": "10 cm त्रिज्या वाले वृत्त की एक जीवा केंद्र पर समकोण बनाती है। संगत लघु त्रिज्यखंड का क्षेत्रफल है (π=3.14):",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A24"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B24"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C24"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D24"
-            }
+            {"index": "अ", "text": "78.5 cm²"},
+            {"index": "ब", "text": "314 cm²"},
+            {"index": "स", "text": "25 cm²"},
+            {"index": "द", "text": "50 cm²"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A24",
-          "explanation": "सही उत्तर विकल्प A24 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "78.5 cm²",
+          "explanation": "$(90/360) \\times 3.14 \\times 10^2 = 78.5$ cm²।"
         },
         {
           "q_id": "25",
-          "statement": "Circle Area – प्रश्न 25 का स्टेटमेंट",
+          "statement": "दीर्घ चाप की लंबाई = ______ - लघु चाप की लंबाई:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A25"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B25"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C25"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D25"
-            }
+            {"index": "अ", "text": "व्यास"},
+            {"index": "ब", "text": "परिधि"},
+            {"index": "स", "text": "त्रिज्या"},
+            {"index": "द", "text": "π"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A25",
-          "explanation": "सही उत्तर विकल्प A25 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "परिधि",
+          "explanation": "कुल घेरे (परिधि) में से छोटा चाप घटाने पर बड़ा चाप मिलता है।"
         },
         {
           "q_id": "26",
-          "statement": "Circle Area – प्रश्न 26 का स्टेटमेंट",
+          "statement": "त्रिज्या $r$ वाले अर्धवृत्त का क्षेत्रफल होता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A26"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B26"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C26"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D26"
-            }
+            {"index": "अ", "text": "2\pi r^2"},
+            {"index": "ब", "text": "\pi r^2"},
+            {"index": "स", "text": "1/2 \pi r^2"},
+            {"index": "द", "text": "1/4 \pi r^2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A26",
-          "explanation": "सही उत्तर विकल्प A26 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "1/2 \pi r^2",
+          "explanation": "अर्धवृत्त पूरे वृत्त का आधा हिस्सा होता है।"
         },
         {
           "q_id": "27",
-          "statement": "Circle Area – प्रश्न 27 का स्टेटमेंट",
+          "statement": "किसी वृत्ताकार डिस्क का क्षेत्रफल 0.64π m² है। इसकी त्रिज्या है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A27"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B27"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C27"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D27"
-            }
+            {"index": "अ", "text": "0.8 m"},
+            {"index": "ब", "text": "0.08 m"},
+            {"index": "स", "text": "8 m"},
+            {"index": "द", "text": "0.4 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A27",
-          "explanation": "सही उत्तर विकल्प A27 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "0.8 m",
+          "explanation": "$r^2 = 0.64 \\implies r = \\sqrt{0.64} = 0.8$।"
         },
         {
           "q_id": "28",
-          "statement": "Circle Area – प्रश्न 28 का स्टेटमेंट",
+          "statement": "यदि त्रिज्यखंड का कोण 180° हो, तो वह क्या कहलाता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A28"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B28"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C28"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D28"
-            }
+            {"index": "अ", "text": "चतुर्थांश"},
+            {"index": "ब", "text": "अर्धवृत्त"},
+            {"index": "स", "text": "वृत्तखंड"},
+            {"index": "द", "text": "पूर्ण वृत्त"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A28",
-          "explanation": "सही उत्तर विकल्प A28 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "अर्धवृत्त",
+          "explanation": "180° का त्रिज्यखंड वृत्त को ठीक दो आधे भागों में बाँटता है।"
         },
         {
           "q_id": "29",
-          "statement": "Circle Area – प्रश्न 29 का स्टेटमेंट",
+          "statement": "एक वृत्ताकार ब्रूच (Brooch) को चाँदी के तार से बनाया जाना है जिसका व्यास 35 mm है। तार की कुल लंबाई के लिए परिधि होगी:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A29"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B29"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C29"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D29"
-            }
+            {"index": "अ", "text": "110 mm"},
+            {"index": "ब", "text": "220 mm"},
+            {"index": "स", "text": "55 mm"},
+            {"index": "द", "text": "385 mm"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A29",
-          "explanation": "सही उत्तर विकल्प A29 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "110 mm",
+          "explanation": "परिधि = $\\pi d = (22/7) \\times 35 = 110$ mm।"
         },
         {
           "q_id": "30",
-          "statement": "Circle Area – प्रश्न 30 का स्टेटमेंट",
+          "statement": "त्रिज्यखंड का क्षेत्रफल किसके समानुपाती (Proportional) होता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A30"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B30"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C30"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D30"
-            }
+            {"index": "अ", "text": "कोण $\\theta$ के"},
+            {"index": "ब", "text": "त्रिज्या के वर्ग के"},
+            {"index": "स", "text": "अ और ब दोनों"},
+            {"index": "द", "text": "केवल परिधि के"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A30",
-          "explanation": "सही उत्तर विकल्प A30 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "अ और ब दोनों",
+          "explanation": "सूत्र $\\frac{\\theta}{360} \\pi r^2$ में $\\theta$ और $r^2$ दोनों आते हैं।"
         }
       ]
     }
