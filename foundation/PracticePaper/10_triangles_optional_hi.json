@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "त्रिभुज – Triangles",
+    "subjectName": "त्रिकोणमिति का परिचय – Introduction to Trigonometry",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,393 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "सभी वृत्त होते हैं:",
+          "statement": "यदि $\\sin \\theta = 3/5$ हो, तो $\\cos \\theta$ का मान होगा:",
           "options": [
-            {"index": "अ", "text": "सर्वांगसम"},
-            {"index": "ब", "text": "समरूप"},
-            {"index": "स", "text": "बराबर"},
-            {"index": "द", "text": "इनमें से कोई नहीं"}
+            {"index": "अ", "text": "4/5"},
+            {"index": "ब", "text": "5/3"},
+            {"index": "स", "text": "3/4"},
+            {"index": "द", "text": "4/3"}
           ],
-          "correct_index": "ब",
-          "correct_answer": "समरूप",
-          "explanation": "सभी वृत्तों का आकार समान होता है, लेकिन माप अलग हो सकती है।"
+          "correct_index": "अ",
+          "correct_answer": "4/5",
+          "explanation": "पाइथागोरस प्रमेय से, आधार = $\\sqrt{5^2 - 3^2} = 4$। अतः $\\cos \\theta = 4/5$।"
         },
         {
           "q_id": "2",
-          "statement": "सभी वर्ग होते हैं:",
+          "statement": "$\\tan 45^\\circ$ का मान क्या होता है?",
           "options": [
-            {"index": "अ", "text": "समरूप"},
-            {"index": "ब", "text": "सर्वांगसम"},
-            {"index": "स", "text": "असमरूप"},
-            {"index": "द", "text": "समान"}
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "1/√2"},
+            {"index": "द", "text": "√3"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "समरूप",
-          "explanation": "वर्गों के कोण हमेशा 90 डिग्री होते हैं और भुजाएँ समान अनुपात में होती हैं।"
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "त्रिकोणमितीय सारणी के अनुसार $\\tan 45^\\circ = 1$ होता है।"
         },
         {
           "q_id": "3",
-          "statement": "आधारभूत आनुपातिकता प्रमेय (BPT) को किस नाम से जाना जाता है?",
+          "statement": "सर्वसमिका $\\sin^2 \\theta + \\cos^2 \\theta$ का मान है:",
           "options": [
-            {"index": "अ", "text": "पाइथागोरस प्रमेय"},
-            {"index": "ब", "text": "थेल्स प्रमेय"},
-            {"index": "स", "text": "आर्यभट्ट प्रमेय"},
-            {"index": "द", "text": "यूक्लिड प्रमेय"}
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "2"},
+            {"index": "स", "text": "1"},
+            {"index": "द", "text": "-1"}
           ],
-          "correct_index": "ब",
-          "correct_answer": "थेल्स प्रमेय",
-          "explanation": "इसे प्रसिद्ध गणितज्ञ थेल्स ने प्रतिपादित किया था।"
+          "correct_index": "स",
+          "correct_answer": "1",
+          "explanation": "यह त्रिकोणमिति की मूलभूत सर्वसमिका है।"
         },
         {
           "q_id": "4",
-          "statement": "दो समरूप त्रिभुजों की भुजाओं का अनुपात 4:9 है, तो उनके क्षेत्रफलों का अनुपात होगा:",
+          "statement": "$\\sec \\theta$ किसके बराबर होता है?",
           "options": [
-            {"index": "अ", "text": "2:3"},
-            {"index": "ब", "text": "4:9"},
-            {"index": "स", "text": "16:81"},
-            {"index": "द", "text": "81:16"}
+            {"index": "अ", "text": "1/\\sin \\theta"},
+            {"index": "ब", "text": "1/\\cos \\theta"},
+            {"index": "स", "text": "1/\\tan \\theta"},
+            {"index": "द", "text": "\\sin \\theta / \\cos \\theta"}
           ],
-          "correct_index": "स",
-          "correct_answer": "16:81",
-          "explanation": "क्षेत्रफलों का अनुपात = (भुजाओं का अनुपात)² = (4/9)² = 16/81।"
+          "correct_index": "ब",
+          "correct_answer": "1/\\cos \\theta",
+          "explanation": "सेकेंट (sec) कोसाइन (cos) का व्युत्क्रम होता है।"
         },
         {
           "q_id": "5",
-          "statement": "त्रिभुज ABC में AB=6√3 cm, AC=12 cm और BC=6 cm है। कोण B का मान होगा:",
+          "statement": "$\\frac{1 - \\tan^2 45^\\circ}{1 + \\tan^2 45^\\circ}$ का मान है:",
           "options": [
-            {"index": "अ", "text": "120°"},
-            {"index": "ब", "text": "60°"},
-            {"index": "स", "text": "90°"},
-            {"index": "द", "text": "45°"}
+            {"index": "अ", "text": "tan 90°"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "sin 45°"},
+            {"index": "द", "text": "0"}
           ],
-          "correct_index": "स",
-          "correct_answer": "90°",
-          "explanation": "यहाँ $AB^2 + BC^2 = AC^2$ (108 + 36 = 144) है, जो पाइथागोरस प्रमेय को संतुष्ट करता है।"
+          "correct_index": "द",
+          "correct_answer": "0",
+          "explanation": "$(1 - 1^2) / (1 + 1^2) = 0/2 = 0$।"
         },
         {
           "q_id": "6",
-          "statement": "दो त्रिभुज समरूप होते हैं यदि उनके संगत कोण:",
+          "statement": "$\\sin (90^\\circ - \\theta)$ बराबर होता है:",
           "options": [
-            {"index": "अ", "text": "बराबर हों"},
-            {"index": "ब", "text": "अनुपातिक हों"},
-            {"index": "स", "text": "पूरक हों"},
-            {"index": "द", "text": "असमान हों"}
+            {"index": "अ", "text": "\\sin \\theta"},
+            {"index": "ब", "text": "\\cos \\theta"},
+            {"index": "स", "text": "\\tan \\theta"},
+            {"index": "द", "text": "\\cot \\theta"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "बराबर हों",
-          "explanation": "समरूपता की पहली शर्त संगत कोणों का बराबर होना है।"
+          "correct_index": "ब",
+          "correct_answer": "\\cos \\theta",
+          "explanation": "पूरक कोणों के त्रिकोणमितीय अनुपात के नियम से।"
         },
         {
           "q_id": "7",
-          "statement": "यदि एक त्रिभुज की भुजाएँ 3cm, 4cm और 5cm हैं, तो वह कैसा त्रिभुज है?",
+          "statement": "यदि $\\tan A = \\cot B$ हो, तो $A + B$ का मान होगा:",
           "options": [
-            {"index": "अ", "text": "समबाहु"},
-            {"index": "ब", "text": "समद्विबाहु"},
-            {"index": "स", "text": "समकोण"},
-            {"index": "द", "text": "न्यूनकोण"}
+            {"index": "अ", "text": "0°"},
+            {"index": "ब", "text": "90°"},
+            {"index": "स", "text": "45°"},
+            {"index": "द", "text": "180°"}
           ],
-          "correct_index": "स",
-          "correct_answer": "समकोण",
-          "explanation": "$3^2 + 4^2 = 5^2$ (9+16=25)।"
+          "correct_index": "ब",
+          "correct_answer": "90°",
+          "explanation": "$\\tan A = \\tan (90^\\circ - B) \\implies A = 90^\\circ - B$।"
         },
         {
           "q_id": "8",
-          "statement": "पाइथागोरस प्रमेय किस त्रिभुज पर लागू होती है?",
+          "statement": "$\\sin 60^\\circ \\cos 30^\\circ + \\sin 30^\\circ \\cos 60^\\circ$ का मान है:",
           "options": [
-            {"index": "अ", "text": "न्यूनकोण त्रिभुज"},
-            {"index": "ब", "text": "अधिककोण त्रिभुज"},
-            {"index": "स", "text": "समकोण त्रिभुज"},
-            {"index": "द", "text": "सभी त्रिभुजों पर"}
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "1/2"},
+            {"index": "द", "text": "2"}
           ],
-          "correct_index": "स",
-          "correct_answer": "समकोण त्रिभुज",
-          "explanation": "यह केवल 90° वाले त्रिभुज के कर्ण और भुजाओं के संबंध को बताती है।"
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "यह $\\sin(A+B)$ का रूप है: $\\sin(60^\\circ+30^\\circ) = \\sin 90^\\circ = 1$।"
         },
         {
           "q_id": "9",
-          "statement": "सभी ______ त्रिभुज समरूप होते हैं।",
+          "statement": "$\\sec^2 \\theta - \\tan^2 \\theta$ का मान है:",
           "options": [
-            {"index": "अ", "text": "समद्विबाहु"},
-            {"index": "ब", "text": "समबाहु"},
-            {"index": "स", "text": "विषमबाहु"},
-            {"index": "द", "text": "समकोण"}
+            {"index": "अ", "text": "1"},
+            {"index": "ब", "text": "0"},
+            {"index": "स", "text": "-1"},
+            {"index": "द", "text": "2"}
           ],
-          "correct_index": "ब",
-          "correct_answer": "समबाहु",
-          "explanation": "समबाहु त्रिभुज के सभी कोण हमेशा 60° होते हैं।"
+          "correct_index": "अ",
+          "correct_answer": "1",
+          "explanation": "यह दूसरी महत्वपूर्ण त्रिकोणमितीय सर्वसमिका है।"
         },
         {
           "q_id": "10",
-          "statement": "समकोण त्रिभुज में सबसे लंबी भुजा कहलाती है:",
+          "statement": "यदि $2 \\sin 2\\theta = \\sqrt{3}$ हो, तो $\\theta$ का मान होगा:",
           "options": [
-            {"index": "अ", "text": "लंब"},
-            {"index": "ब", "text": "आधार"},
-            {"index": "स", "text": "कर्ण"},
-            {"index": "द", "text": "माध्यिका"}
+            {"index": "अ", "text": "30°"},
+            {"index": "ब", "text": "60°"},
+            {"index": "स", "text": "45°"},
+            {"index": "द", "text": "15°"}
           ],
-          "correct_index": "स",
-          "correct_answer": "कर्ण",
-          "explanation": "90° के सामने वाली भुजा सबसे लंबी होती है।"
+          "correct_index": "अ",
+          "correct_answer": "30°",
+          "explanation": "$\\sin 2\\theta = \\sqrt{3}/2 = \\sin 60^\\circ \\implies 2\\theta = 60^\\circ \\implies \\theta = 30^\\circ$।"
         },
         {
           "q_id": "11",
-          "statement": "थेल्स प्रमेय के अनुसार, यदि DE || BC हो, तो:",
+          "statement": "त्रिकोणमिति में '$\\\\theta$' सामान्यतः किसे प्रदर्शित करता है?",
           "options": [
-            {"index": "अ", "text": "AD/DB = AE/EC"},
-            {"index": "ब", "text": "AD/AE = DB/EC"},
-            {"index": "स", "text": "AB/AC = AD/AE"},
-            {"index": "द", "text": "उपरोक्त सभी"}
+            {"index": "अ", "text": "भुजा की लंबाई"},
+            {"index": "ब", "text": "कोण"},
+            {"index": "स", "text": "क्षेत्रफल"},
+            {"index": "द", "text": "वृत्त की त्रिज्या"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "AD/DB = AE/EC",
-          "explanation": "त्रिभुज की एक भुजा के समांतर खींची गई रेखा अन्य दो भुजाओं को समान अनुपात में विभाजित करती है।"
+          "correct_index": "ब",
+          "correct_answer": "कोण",
+          "explanation": "थीटा ($\\\\theta$) एक ग्रीक अक्षर है जिसका उपयोग कोणों के लिए किया जाता है।"
         },
         {
           "q_id": "12",
-          "statement": "यदि दो समरूप त्रिभुजों के क्षेत्रफलों का अनुपात 25:64 है, तो उनकी संगत भुजाओं का अनुपात होगा:",
+          "statement": "$\\cos 0^\\circ$ का मान क्या है?",
           "options": [
-            {"index": "अ", "text": "625:4096"},
-            {"index": "ब", "text": "5:8"},
-            {"index": "स", "text": "8:5"},
-            {"index": "द", "text": "12.5:32"}
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "अपरिभाषित"},
+            {"index": "द", "text": "1/2"}
           ],
           "correct_index": "ब",
-          "correct_answer": "5:8",
-          "explanation": "भुजाओं का अनुपात = √(क्षेत्रफलों का अनुपात) = √25/√64 = 5/8।"
+          "correct_answer": "1",
+          "explanation": "कोसाइन का मान 0 डिग्री पर अधिकतम (1) होता है।"
         },
         {
           "q_id": "13",
-          "statement": "त्रिभुज की किन्हीं दो भुजाओं के मध्य बिंदुओं को जोड़ने वाली रेखा तीसरी भुजा के ______ होती है।",
+          "statement": "$\\frac{\\sin 18^\\circ}{\\cos 72^\\circ}$ का मान होगा:",
           "options": [
-            {"index": "अ", "text": "लंबवत"},
-            {"index": "ब", "text": "समांतर"},
-            {"index": "स", "text": "बराबर"},
-            {"index": "द", "text": "तिर्यक"}
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "-1"},
+            {"index": "द", "text": "18/72"}
           ],
           "correct_index": "ब",
-          "correct_answer": "समांतर",
-          "explanation": "इसे मध्य-बिंदु प्रमेय (Mid-point theorem) कहते हैं।"
+          "correct_answer": "1",
+          "explanation": "$\\sin 18^\\circ = \\cos (90^\\circ - 18^\\circ) = \\cos 72^\\circ$।"
         },
         {
           "q_id": "14",
-          "statement": "समबाहु त्रिभुज का प्रत्येक कोण होता है:",
+          "statement": "$\\tan \\theta$ को $\\sin$ और $\\cos$ के पदों में कैसे लिखते हैं?",
           "options": [
-            {"index": "अ", "text": "90°"},
-            {"index": "ब", "text": "45°"},
-            {"index": "स", "text": "60°"},
-            {"index": "द", "text": "30°"}
+            {"index": "अ", "text": "$\\cos \\theta / \\sin \\theta$"},
+            {"index": "ब", "text": "$\\sin \\theta \\cdot \\cos \\theta$"},
+            {"index": "स", "text": "$\\sin \\theta / \\cos \\theta$"},
+            {"index": "द", "text": "1/(\\sin \\theta \\cos \\theta)"}
           ],
           "correct_index": "स",
-          "correct_answer": "60°",
-          "explanation": "तीनों भुजाएँ बराबर होने के कारण तीनों कोण (180/3) भी बराबर होते हैं।"
+          "correct_answer": "$\\sin \\theta / \\cos \\theta$",
+          "explanation": "टैंजेंट, साइन और कोसाइन का अनुपात होता है।"
         },
         {
           "q_id": "15",
-          "statement": "यदि दो त्रिभुज $ABC$ और $PQR$ में $\\angle A = \\angle P, \\angle B = \\angle Q, \\angle C = \\angle R$ हो, तो वे कहलाते हैं:",
+          "statement": "$\\sqrt{1 - \\cos^2 \\theta}$ किसके बराबर है?",
           "options": [
-            {"index": "अ", "text": "AA समरूप"},
-            {"index": "ब", "text": "AAA समरूप"},
-            {"index": "स", "text": "SSS समरूप"},
-            {"index": "द", "text": "SAS समरूप"}
+            {"index": "अ", "text": "$\\sin \\theta$"},
+            {"index": "ब", "text": "$\\tan \\theta$"},
+            {"index": "स", "text": "$\\cos \\theta$"},
+            {"index": "द", "text": "$\\sec \\theta$"}
           ],
-          "correct_index": "ब",
-          "correct_answer": "AAA समरूप",
-          "explanation": "तीनों कोणों की समानता AAA समरूपता नियम कहलाती है।"
+          "correct_index": "अ",
+          "correct_answer": "$\\sin \\theta$",
+          "explanation": "$\\sin^2 \\theta + \\cos^2 \\theta = 1$ सर्वसमिका से।"
         },
         {
           "q_id": "16",
-          "statement": "किस आकृति की भुजाओं की संख्या समान होने पर वे समरूप होती हैं?",
+          "statement": "$\\sin$ का अधिकतम मान क्या हो सकता है?",
           "options": [
-            {"index": "अ", "text": "बहुभुज"},
-            {"index": "ब", "text": "वृत्त"},
-            {"index": "स", "text": "शंकु"},
-            {"index": "द", "text": "घन"}
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "अनंत"},
+            {"index": "द", "text": "100"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "बहुभुज",
-          "explanation": "समान भुजाओं वाले बहुभुज यदि संगत कोण बराबर और भुजाएँ आनुपातिक हों तो समरूप होते हैं।"
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "साइन का मान -1 से 1 के बीच रहता है।"
         },
         {
           "q_id": "17",
-          "statement": "चित्र में यदि DE || BC, AD=2cm, DB=3cm, AE=1.6cm है, तो EC होगा:",
+          "statement": "यदि $\\cos A = 4/5$ हो, तो $\\tan A$ का मान होगा:",
           "options": [
-            {"index": "अ", "text": "2.4 cm"},
-            {"index": "ब", "text": "4.8 cm"},
-            {"index": "स", "text": "3.2 cm"},
-            {"index": "द", "text": "2 cm"}
+            {"index": "अ", "text": "3/5"},
+            {"index": "ब", "text": "3/4"},
+            {"index": "स", "text": "4/3"},
+            {"index": "द", "text": "5/3"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "2.4 cm",
-          "explanation": "2/3 = 1.6/EC → EC = (1.6 * 3)/2 = 2.4 cm।"
+          "correct_index": "ब",
+          "correct_answer": "3/4",
+          "explanation": "लंब = $\\sqrt{5^2 - 4^2} = 3$। $\\tan A$ = लंब/आधार = 3/4।"
         },
         {
           "q_id": "18",
-          "statement": "सर्वांगसम आकृतियाँ हमेशा ______ होती हैं।",
+          "statement": "$\\operatorname{cosec} 30^\\circ$ का मान है:",
           "options": [
-            {"index": "अ", "text": "असमान"},
-            {"index": "ब", "text": "समरूप"},
-            {"index": "स", "text": "विपरीत"},
-            {"index": "द", "text": "इनमें से कोई नहीं"}
+            {"index": "अ", "text": "1/2"},
+            {"index": "ब", "text": "2"},
+            {"index": "स", "text": "2/√3"},
+            {"index": "द", "text": "√2"}
           ],
           "correct_index": "ब",
-          "correct_answer": "समरूप",
-          "explanation": "जो सर्वांगसम है, उसका आकार भी समान होगा, इसलिए वह समरूप भी है।"
+          "correct_answer": "2",
+          "explanation": "$\\operatorname{cosec} 30^\\circ = 1 / \\sin 30^\\circ = 1 / (1/2) = 2$।"
         },
         {
           "q_id": "19",
-          "statement": "त्रिभुज की माध्यिकाएँ जिस बिंदु पर मिलती हैं, उसे कहते हैं:",
+          "statement": "$9\\sec^2 A - 9\\tan^2 A$ बराबर है:",
           "options": [
-            {"index": "अ", "text": "लंबकेंद्र"},
-            {"index": "ब", "text": "केंद्रक (Centroid)"},
-            {"index": "स", "text": "अंत:केंद्र"},
-            {"index": "द", "text": "परिकेंद्र"}
+            {"index": "अ", "text": "1"},
+            {"index": "ब", "text": "9"},
+            {"index": "स", "text": "8"},
+            {"index": "द", "text": "0"}
           ],
           "correct_index": "ब",
-          "correct_answer": "केंद्रक (Centroid)",
-          "explanation": "तीनों माध्यिकाओं का प्रतिच्छेद बिंदु केंद्रक कहलाता है।"
+          "correct_answer": "9",
+          "explanation": "$9(\\sec^2 A - \\tan^2 A) = 9(1) = 9$।"
         },
         {
           "q_id": "20",
-          "statement": "यदि $\\Delta ABC \\sim \\Delta DEF$ है और $\\angle A = 40^\\circ, \\angle E = 80^\\circ$ है, तो $\\angle C$ होगा:",
+          "statement": "$\\sin \\theta$ का मान $\\theta$ में वृद्धि होने के साथ:",
           "options": [
-            {"index": "अ", "text": "80°"},
-            {"index": "ब", "text": "60°"},
-            {"index": "स", "text": "40°"},
-            {"index": "द", "text": "100°"}
+            {"index": "अ", "text": "बढ़ता है"},
+            {"index": "ब", "text": "घटता है"},
+            {"index": "स", "text": "स्थिर रहता है"},
+            {"index": "द", "text": "पहले घटता है फिर बढ़ता है"}
           ],
-          "correct_index": "ब",
-          "correct_answer": "60°",
-          "explanation": "कोण B = कोण E = 80°। अतः कोण C = 180 - (40+80) = 60°।"
+          "correct_index": "अ",
+          "correct_answer": "बढ़ता है",
+          "explanation": "0° से 90° तक साइन का मान 0 से बढ़कर 1 हो जाता है।"
         },
         {
           "q_id": "21",
-          "statement": "एक समकोण समद्विबाहु त्रिभुज का एक कोण 90° है, तो शेष दो कोण होंगे:",
+          "statement": "$\\cos \\theta$ का मान $\\theta$ में वृद्धि होने के साथ:",
           "options": [
-            {"index": "अ", "text": "60°, 30°"},
-            {"index": "ब", "text": "45°, 45°"},
-            {"index": "स", "text": "20°, 70°"},
-            {"index": "द", "text": "50°, 40°"}
+            {"index": "अ", "text": "बढ़ता है"},
+            {"index": "ब", "text": "घटता है"},
+            {"index": "स", "text": "स्थिर रहता है"},
+            {"index": "द", "text": "शून्य हो जाता है"}
           ],
           "correct_index": "ब",
-          "correct_answer": "45°, 45°",
-          "explanation": "बराबर भुजाओं के सामने के कोण भी बराबर होते हैं (90/2 = 45)।"
+          "correct_answer": "घटता है",
+          "explanation": "0° से 90° तक कोसाइन का मान 1 से घटकर 0 हो जाता है।"
         },
         {
           "q_id": "22",
-          "statement": "SSS समरूपता कसौटी में भुजाएँ कैसी होती हैं?",
+          "statement": "$\\cot 60^\\circ$ का मान है:",
           "options": [
-            {"index": "अ", "text": "बराबर"},
-            {"index": "ब", "text": "समानुपाती"},
-            {"index": "स", "text": "लंबवत"},
-            {"index": "द", "text": "शून्य"}
+            {"index": "अ", "text": "√3"},
+            {"index": "ब", "text": "1/√3"},
+            {"index": "स", "text": "1"},
+            {"index": "द", "text": "0"}
           ],
           "correct_index": "ब",
-          "correct_answer": "समानुपाती",
-          "explanation": "समरूपता के लिए भुजाओं का अनुपात समान होना चाहिए।"
+          "correct_answer": "1/√3",
+          "explanation": "$\\cot 60^\\circ = 1 / \\tan 60^\\circ = 1 / \\sqrt{3}$।"
         },
         {
           "q_id": "23",
-          "statement": "एक 10m लंबी सीढ़ी दीवार से 6m की दूरी पर टिकी है। दीवार की ऊँचाई होगी:",
+          "statement": "$\\sin 2A = 2\\sin A$ तब सत्य होता है जब $A$ बराबर हो:",
           "options": [
-            {"index": "अ", "text": "8m"},
-            {"index": "ब", "text": "4m"},
-            {"index": "स", "text": "16m"},
-            {"index": "द", "text": "12m"}
+            {"index": "अ", "text": "0°"},
+            {"index": "ब", "text": "30°"},
+            {"index": "स", "text": "45°"},
+            {"index": "द", "text": "60°"}
           ],
           "correct_index": "अ",
-          "correct_answer": "8m",
-          "explanation": "$H = \\sqrt{10^2 - 6^2} = \\sqrt{64} = 8$।"
+          "correct_answer": "0°",
+          "explanation": "0° पर $\\sin 0 = 0$ और $2(0) = 0$।"
         },
         {
           "q_id": "24",
-          "statement": "क्या दो समकोण त्रिभुज हमेशा समरूप होते हैं?",
+          "statement": "$\\sin A$ और $\\cos A$ का मान किस कोण पर बराबर होता है?",
           "options": [
-            {"index": "अ", "text": "हाँ"},
-            {"index": "ब", "text": "नहीं"},
-            {"index": "स", "text": "केवल यदि वे सर्वांगसम हों"},
-            {"index": "द", "text": "कहा नहीं जा सकता"}
+            {"index": "अ", "text": "30°"},
+            {"index": "ब", "text": "45°"},
+            {"index": "स", "text": "60°"},
+            {"index": "द", "text": "90°"}
           ],
           "correct_index": "ब",
-          "correct_answer": "नहीं",
-          "explanation": "केवल एक कोण (90°) बराबर होने से समरूपता सिद्ध नहीं होती।"
+          "correct_answer": "45°",
+          "explanation": "45° पर दोनों का मान $1/\\sqrt{2}$ होता है।"
         },
         {
           "q_id": "25",
-          "statement": "दो समरूप त्रिभुजों के परिमापों का अनुपात उनकी संगत भुजाओं के अनुपात के ______ होता है।",
+          "statement": "पाइथागोरस प्रमेय के अनुसार $(\\text{कर्ण})^2$ बराबर है:",
           "options": [
-            {"index": "अ", "text": "वर्ग के बराबर"},
-            {"index": "ब", "text": "बराबर"},
-            {"index": "स", "text": "वर्गमूल के बराबर"},
-            {"index": "द", "text": "दुगुना"}
+            {"index": "अ", "text": "लंब + आधार"},
+            {"index": "ब", "text": "लंब² + आधार²"},
+            {"index": "स", "text": "लंब² - आधार²"},
+            {"index": "द", "text": "लंब × आधार"}
           ],
           "correct_index": "ब",
-          "correct_answer": "बराबर",
-          "explanation": "परिमाप भुजाओं की रैखिक लंबाई का योग है, इसलिए अनुपात समान रहता है।"
+          "correct_answer": "लंब² + आधार²",
+          "explanation": "यह समकोण त्रिभुज का मूलभूत नियम है।"
         },
         {
           "q_id": "26",
-          "statement": "त्रिभुज की किन्हीं दो भुजाओं का योग तीसरी भुजा से ______ होता है।",
+          "statement": "$\\tan 60^\\circ$ का मान क्या है?",
           "options": [
-            {"index": "अ", "text": "छोटा"},
-            {"index": "ब", "text": "बड़ा"},
-            {"index": "स", "text": "बराबर"},
-            {"index": "द", "text": "आधा"}
+            {"index": "अ", "text": "1/√3"},
+            {"index": "ब", "text": "√3"},
+            {"index": "स", "text": "1"},
+            {"index": "द", "text": "2"}
           ],
           "correct_index": "ब",
-          "correct_answer": "बड़ा",
-          "explanation": "यह त्रिभुज की असमिका (Triangle Inequality) का नियम है।"
+          "correct_answer": "√3",
+          "explanation": "त्रिकोणमितीय सारणी के अनुसार $\\tan 60^\\circ = \\sqrt{3}$ होता है।"
         },
         {
           "q_id": "27",
-          "statement": "एक सीढ़ी सड़क के एक ओर 12m ऊँची खिड़की तक पहुँचती है। इसके पाद को उसी स्थान पर रख सड़क के दूसरी ओर 9m ऊँची खिड़की तक पहुँचाया जाता है। यदि सीढ़ी 15m लंबी हो, तो सड़क की चौड़ाई है:",
+          "statement": "$\\operatorname{cosec}^2 \\theta - \\cot^2 \\theta$ बराबर है:",
           "options": [
-            {"index": "अ", "text": "21m"},
-            {"index": "ब", "text": "12m"},
-            {"index": "स", "text": "15m"},
-            {"index": "द", "text": "18m"}
+            {"index": "अ", "text": "0"},
+            {"index": "ब", "text": "1"},
+            {"index": "स", "text": "-1"},
+            {"index": "द", "text": "2"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "21m",
-          "explanation": "एक तरफ आधार $\\sqrt{15^2-12^2}=9$, दूसरी तरफ $\\sqrt{15^2-9^2}=12$। कुल $9+12=21$।"
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "यह तीसरी महत्वपूर्ण त्रिकोणमितीय सर्वसमिका है।"
         },
         {
           "q_id": "28",
-          "statement": "यदि $\\Delta ABC \\sim \\Delta PQR$ है और $AB/PQ = 1/3$ है, तो $ar(ABC)/ar(PQR)$ होगा:",
+          "statement": "$\\cos 48^\\circ - \\sin 42^\\circ$ का मान है:",
           "options": [
-            {"index": "अ", "text": "1/3"},
-            {"index": "ब", "text": "1/9"},
-            {"index": "स", "text": "1/6"},
-            {"index": "द", "text": "1"}
+            {"index": "अ", "text": "1"},
+            {"index": "ब", "text": "0"},
+            {"index": "स", "text": "2"},
+            {"index": "द", "text": "1/2"}
           ],
           "correct_index": "ब",
-          "correct_answer": "1/9",
-          "explanation": "क्षेत्रफल का अनुपात भुजा के अनुपात के वर्ग के बराबर होता है।"
+          "correct_answer": "0",
+          "explanation": "$\\cos 48^\\circ = \\sin (90^\\circ - 48^\\circ) = \\sin 42^\\circ \\implies \\sin 42^\\circ - \\sin 42^\\circ = 0$।"
         },
         {
           "q_id": "29",
-          "statement": "पाइथागोरस प्रमेय को प्राचीन भारतीय ग्रंथ 'शुल्ब सूत्र' में किसने दिया था?",
+          "statement": "$\\tan A$ का मान हमेशा 1 से कम होता है। (सत्य/असत्य)",
           "options": [
-            {"index": "अ", "text": "आर्यभट्ट"},
-            {"index": "ब", "text": "भास्कराचार्य"},
-            {"index": "स", "text": "बौधायन"},
-            {"index": "द", "text": "ब्रह्मगुप्त"}
+            {"index": "अ", "text": "सत्य"},
+            {"index": "ब", "text": "असत्य"},
+            {"index": "स", "text": "केवल 45° के लिए"},
+            {"index": "द", "text": "निर्धारित नहीं"}
           ],
-          "correct_index": "स",
-          "correct_answer": "बौधायन",
-          "explanation": "बौधायन ने पाइथागोरस से पहले ही इस प्रमेय का उल्लेख किया था।"
+          "correct_index": "ब",
+          "correct_answer": "असत्य",
+          "explanation": "$\\tan 60^\\circ = \\sqrt{3} \\approx 1.732$, जो 1 से बड़ा है।"
         },
         {
           "q_id": "30",
-          "statement": "एक समकोण त्रिभुज की भुजाएँ 5, 12 और x हैं। यदि x कर्ण है, तो x का मान है:",
+          "statement": "$\\frac{2 \\tan 30^\\circ}{1 + \\tan^2 30^\\circ}$ किसके बराबर है?",
           "options": [
-            {"index": "अ", "text": "17"},
-            {"index": "ब", "text": "13"},
-            {"index": "स", "text": "7"},
-            {"index": "द", "text": "14"}
+            {"index": "अ", "text": "sin 60°"},
+            {"index": "ब", "text": "cos 60°"},
+            {"index": "स", "text": "tan 60°"},
+            {"index": "द", "text": "sin 30°"}
           ],
-          "correct_index": "ब",
-          "correct_answer": "13",
-          "explanation": "$\\\\sqrt{5^2 + 12^2} = \\\\sqrt{169} = 13$।"
+          "correct_index": "अ",
+          "correct_answer": "sin 60°",
+          "explanation": "हल करने पर $\\sqrt{3}/2$ प्राप्त होता है, जो $\\sin 60^\\circ$ का मान है।"
         }
       ]
     }
