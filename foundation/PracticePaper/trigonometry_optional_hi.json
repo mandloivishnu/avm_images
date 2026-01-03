@@ -1,0 +1,442 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "गणित (त्रिकोणमिति – अनुपात)",
+    "totalMarks": "30",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "sin 30° का मान है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "1/2" },
+            { "index": "स", "text": "√3/2" },
+            { "index": "द", "text": "0" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1/2",
+          "explanation": "मानक त्रिकोणमितीय मान के अनुसार sin 30° = 1/2 होता है।",
+          "previousYearsDetails": "2024,2023"
+        },
+        {
+          "q_id": "ii",
+          "statement": "cos 60° का मान है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "1/2" },
+            { "index": "द", "text": "√3/2" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "1/2",
+          "explanation": "cos 60° का मान 1/2 होता है।",
+          "previousYearsDetails": "2024,2022"
+        },
+        {
+          "q_id": "iii",
+          "statement": "tan 45° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "√3" },
+            { "index": "द", "text": "1/√3" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "tan 45° = 1 होता है।",
+          "previousYearsDetails": "2023,2022"
+        },
+        {
+          "q_id": "iv",
+          "statement": "sin 0° का मान है",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "1/2" },
+            { "index": "द", "text": "∞" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "0",
+          "explanation": "sin 0° = 0 होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "v",
+          "statement": "cos 0° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "1/2" },
+            { "index": "द", "text": "∞" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "cos 0° = 1 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "vi",
+          "statement": "tan 30° का मान है",
+          "options": [
+            { "index": "अ", "text": "1/√3" },
+            { "index": "ब", "text": "√3" },
+            { "index": "स", "text": "1" },
+            { "index": "द", "text": "0" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "1/√3",
+          "explanation": "tan 30° = 1/√3 होता है।",
+          "previousYearsDetails": "2024,2022"
+        },
+        {
+          "q_id": "vii",
+          "statement": "sin 90° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "∞" },
+            { "index": "द", "text": "1/2" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "sin 90° = 1 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "viii",
+          "statement": "cos 90° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "∞" },
+            { "index": "द", "text": "1/2" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "0",
+          "explanation": "cos 90° = 0 होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "ix",
+          "statement": "tan 0° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "∞" },
+            { "index": "द", "text": "1/√3" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "0",
+          "explanation": "tan 0° = 0 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "x",
+          "statement": "tan 60° का मान है",
+          "options": [
+            { "index": "अ", "text": "1/√3" },
+            { "index": "ब", "text": "√3" },
+            { "index": "स", "text": "1" },
+            { "index": "द", "text": "0" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "√3",
+          "explanation": "tan 60° = √3 होता है।",
+          "previousYearsDetails": "2024,2022"
+        },
+
+        {
+          "q_id": "xi",
+          "statement": "sin A का व्युत्क्रम है",
+          "options": [
+            { "index": "अ", "text": "sec A" },
+            { "index": "ब", "text": "tan A" },
+            { "index": "स", "text": "cosec A" },
+            { "index": "द", "text": "cos A" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "cosec A",
+          "explanation": "cosec A = 1 / sin A होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "xii",
+          "statement": "cos A का व्युत्क्रम है",
+          "options": [
+            { "index": "अ", "text": "sec A" },
+            { "index": "ब", "text": "sin A" },
+            { "index": "स", "text": "tan A" },
+            { "index": "द", "text": "cosec A" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "sec A",
+          "explanation": "sec A = 1 / cos A होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "xiii",
+          "statement": "tan A का सूत्र है",
+          "options": [
+            { "index": "अ", "text": "sin A / cos A" },
+            { "index": "ब", "text": "cos A / sin A" },
+            { "index": "स", "text": "1 / sin A" },
+            { "index": "द", "text": "1 / cos A" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "sin A / cos A",
+          "explanation": "tan A = sin A / cos A होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "xiv",
+          "statement": "sec A = ?",
+          "options": [
+            { "index": "अ", "text": "1 / sin A" },
+            { "index": "ब", "text": "1 / cos A" },
+            { "index": "स", "text": "sin A / cos A" },
+            { "index": "द", "text": "cos A / sin A" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1 / cos A",
+          "explanation": "sec A = 1 / cos A होता है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "xv",
+          "statement": "cosec A = ?",
+          "options": [
+            { "index": "अ", "text": "1 / tan A" },
+            { "index": "ब", "text": "1 / cos A" },
+            { "index": "स", "text": "1 / sin A" },
+            { "index": "द", "text": "sin A / cos A" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "1 / sin A",
+          "explanation": "cosec A = 1 / sin A होता है।",
+          "previousYearsDetails": "2023"
+        },
+
+        {
+          "q_id": "xvi",
+          "statement": "cot A = ?",
+          "options": [
+            { "index": "अ", "text": "tan A" },
+            { "index": "ब", "text": "cos A / sin A" },
+            { "index": "स", "text": "sin A / cos A" },
+            { "index": "द", "text": "1 / sin A" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "cos A / sin A",
+          "explanation": "cot A = cos A / sin A होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "xvii",
+          "statement": "tan A × cot A का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "sin A" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "tan A × cot A = 1 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "xviii",
+          "statement": "sin A × cosec A का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "cos A" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "sin A × cosec A = 1 होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "xix",
+          "statement": "cos A × sec A का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "tan A" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "cos A × sec A = 1 होता है।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "xx",
+          "statement": "sin A / cos A बराबर है",
+          "options": [
+            { "index": "अ", "text": "cot A" },
+            { "index": "ब", "text": "tan A" },
+            { "index": "स", "text": "sec A" },
+            { "index": "द", "text": "cosec A" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "tan A",
+          "explanation": "sin A / cos A = tan A होता है।",
+          "previousYearsDetails": "2023"
+        },
+
+        {
+          "q_id": "xxi",
+          "statement": "cos A / sin A बराबर है",
+          "options": [
+            { "index": "अ", "text": "tan A" },
+            { "index": "ब", "text": "sec A" },
+            { "index": "स", "text": "cot A" },
+            { "index": "द", "text": "cosec A" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "cot A",
+          "explanation": "cos A / sin A = cot A होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "xxii",
+          "statement": "sec 0° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "∞" },
+            { "index": "द", "text": "परिभाषित नहीं" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "sec 0° = 1 / cos 0° = 1 होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "xxiii",
+          "statement": "cosec 90° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "∞" },
+            { "index": "द", "text": "2" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "cosec 90° = 1 / sin 90° = 1 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "xxiv",
+          "statement": "tan 90° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "∞" },
+            { "index": "द", "text": "1/√3" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "∞",
+          "explanation": "tan 90° परिभाषित नहीं है (अनंत माना जाता है)।",
+          "previousYearsDetails": "2022"
+        },
+        {
+          "q_id": "xxv",
+          "statement": "cot 0° का मान है",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "∞" },
+            { "index": "द", "text": "√3" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "∞",
+          "explanation": "cot 0° परिभाषित नहीं है (अनंत)।",
+          "previousYearsDetails": "2023"
+        },
+
+        {
+          "q_id": "xxvi",
+          "statement": "sin A = 1 होने पर A का मान है",
+          "options": [
+            { "index": "अ", "text": "0°" },
+            { "index": "ब", "text": "30°" },
+            { "index": "स", "text": "60°" },
+            { "index": "द", "text": "90°" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "90°",
+          "explanation": "sin 90° = 1 होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "xxvii",
+          "statement": "cos A = 0 होने पर A का मान है",
+          "options": [
+            { "index": "अ", "text": "0°" },
+            { "index": "ब", "text": "30°" },
+            { "index": "स", "text": "60°" },
+            { "index": "द", "text": "90°" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "90°",
+          "explanation": "cos 90° = 0 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "xxviii",
+          "statement": "tan A = 1 होने पर A का मान है",
+          "options": [
+            { "index": "अ", "text": "30°" },
+            { "index": "ब", "text": "45°" },
+            { "index": "स", "text": "60°" },
+            { "index": "द", "text": "90°" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "45°",
+          "explanation": "tan 45° = 1 होता है।",
+          "previousYearsDetails": "2024"
+        },
+        {
+          "q_id": "xxix",
+          "statement": "tan A = √3 होने पर A का मान है",
+          "options": [
+            { "index": "अ", "text": "30°" },
+            { "index": "ब", "text": "45°" },
+            { "index": "स", "text": "60°" },
+            { "index": "द", "text": "90°" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "60°",
+          "explanation": "tan 60° = √3 होता है।",
+          "previousYearsDetails": "2023"
+        },
+        {
+          "q_id": "xxx",
+          "statement": "sin A = 1/2 होने पर A का मान है",
+          "options": [
+            { "index": "अ", "text": "0°" },
+            { "index": "ब", "text": "30°" },
+            { "index": "स", "text": "45°" },
+            { "index": "द", "text": "60°" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "30°",
+          "explanation": "sin 30° = 1/2 होता है।",
+          "previousYearsDetails": "2024"
+        }
+      ]
+    }
+  ]
+}
