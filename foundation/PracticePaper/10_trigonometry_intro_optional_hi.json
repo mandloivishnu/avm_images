@@ -6,6 +6,12 @@
     "board": "MP Board"
   },
   "questions": [
+     {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प का चयन कर लिखिए:",
+      "parts": [
     { "q_id": "1", "statement": "यदि sin θ = 1/2, तो θ का मान क्या हो सकता है?", "options":[{"index":"अ","text":"30°"},{"index":"ब","text":"45°"},{"index":"स","text":"60°"},{"index":"द","text":"90°"}], "correct_index":"अ", "correct_answer":"30°", "explanation":"sin 30° = 1/2।"},
     { "q_id": "2", "statement": "cos 0° का मान क्या है?", "options":[{"index":"अ","text":"0"},{"index":"ब","text":"1"},{"index":"स","text":"1/2"},{"index":"द","text":"√2/2"}], "correct_index":"ब", "correct_answer":"1", "explanation":"cos 0° = 1।"},
     { "q_id": "3", "statement": "tan 45° का मान क्या है?", "options":[{"index":"अ","text":"0"},{"index":"ब","text":"1"},{"index":"स","text":"√3"},{"index":"द","text":"√3/3"}], "correct_index":"ब", "correct_answer":"1", "explanation":"tan 45° = 1।"},
@@ -36,5 +42,5 @@
     { "q_id": "28", "statement": "tan²θ + 1 = ?", "options":[{"index":"अ","text":"sec²θ"},{"index":"ब","text":"cosec²θ"},{"index":"स","text":"1"},{"index":"द","text":"cot²θ"}], "correct_index":"अ", "correct_answer":"sec²θ", "explanation":"tan²θ + 1 = sec²θ identity।"},
     { "q_id": "29", "statement": "1 + cot²θ = ?", "options":[{"index":"अ","text":"cosec²θ"},{"index":"ब","text":"sec²θ"},{"index":"स","text":"1"},{"index":"द","text":"tan²θ"}], "correct_index":"अ", "correct_answer":"cosec²θ", "explanation":"1 + cot²θ = cosec²θ identity।"},
     { "q_id": "30", "statement": "sin 45° का मान क्या है?", "options":[{"index":"अ","text":"√2/2"},{"index":"ब","text":"1/2"},{"index":"स","text":"1"},{"index":"द","text":"√3/2"}], "correct_index":"अ", "correct_answer":"√2/2", "explanation":"sin 45° = √2/2।"}
-  ]
+  ]}]
 }
