@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "गणित (Surface Area & Volume)",
+    "subjectName": "पृष्ठीय क्षेत्रफल और आयतन – Surface Areas and Volumes",
     "totalMarks": "30",
     "board": "MP Board"
   },
@@ -14,783 +14,393 @@
       "parts": [
         {
           "q_id": "1",
-          "statement": "Surface Area & Volume – प्रश्न 1 का स्टेटमेंट",
+          "statement": "एक शंकु (Cone) की तिर्यक ऊँचाई (Slant height) $l$ का सूत्र है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A1"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B1"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C1"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D1"
-            }
+            {"index": "अ", "text": "√(h² + r²)"},
+            {"index": "ब", "text": "√(h² - r²)"},
+            {"index": "स", "text": "h + r"},
+            {"index": "द", "text": "√(2h + 2r)"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A1",
-          "explanation": "सही उत्तर विकल्प A1 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "√(h² + r²)",
+          "explanation": "पाइथागोरस प्रमेय के अनुसार तिर्यक ऊँचाई, ऊँचाई और त्रिज्या के वर्गों के योग का वर्गमूल होती है।"
         },
         {
           "q_id": "2",
-          "statement": "Surface Area & Volume – प्रश्न 2 का स्टेटमेंट",
+          "statement": "बेलन (Cylinder) का आयतन होता है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A2"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B2"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C2"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D2"
-            }
+            {"index": "अ", "text": "1/3 πr²h"},
+            {"index": "ब", "text": "πr²h"},
+            {"index": "स", "text": "2πrh"},
+            {"index": "द", "text": "πrh"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A2",
-          "explanation": "सही उत्तर विकल्प A2 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "πr²h",
+          "explanation": "आधार का क्षेत्रफल ($πr^2$) और ऊँचाई ($h$) का गुणनफल बेलन का आयतन होता है।"
         },
         {
           "q_id": "3",
-          "statement": "Surface Area & Volume – प्रश्न 3 का स्टेटमेंट",
+          "statement": "गोले (Sphere) का पृष्ठीय क्षेत्रफल है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A3"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B3"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C3"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D3"
-            }
+            {"index": "अ", "text": "2πr²"},
+            {"index": "ब", "text": "3πr²"},
+            {"index": "स", "text": "4πr²"},
+            {"index": "द", "text": "2/3 πr³"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A3",
-          "explanation": "सही उत्तर विकल्प A3 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "4πr²",
+          "explanation": "गोले का पृष्ठीय क्षेत्रफल उसकी त्रिज्या $r$ के वर्ग का $4π$ गुना होता है।"
         },
         {
           "q_id": "4",
-          "statement": "Surface Area & Volume – प्रश्न 4 का स्टेटमेंट",
+          "statement": "अर्धगोले (Hemisphere) का कुल पृष्ठीय क्षेत्रफल (Total Surface Area) है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A4"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B4"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C4"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D4"
-            }
+            {"index": "अ", "text": "2πr²"},
+            {"index": "ब", "text": "3πr²"},
+            {"index": "स", "text": "4πr²"},
+            {"index": "द", "text": "πr²"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A4",
-          "explanation": "सही उत्तर विकल्प A4 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "3πr²",
+          "explanation": "वक्र पृष्ठ ($2πr^2$) और आधार का क्षेत्रफल ($πr^2$) जोड़कर $3πr^2$ प्राप्त होता है।"
         },
         {
           "q_id": "5",
-          "statement": "Surface Area & Volume – प्रश्न 5 का स्टेटमेंट",
+          "statement": "शंकु का आयतन बेलन के आयतन का कितना भाग होता है (समान त्रिज्या और ऊँचाई होने पर)?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A5"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B5"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C5"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D5"
-            }
+            {"index": "अ", "text": "आधा"},
+            {"index": "ब", "text": "एक-तिहाई"},
+            {"index": "स", "text": "दो-तिहाई"},
+            {"index": "द", "text": "बराबर"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A5",
-          "explanation": "सही उत्तर विकल्प A5 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "एक-तिहाई",
+          "explanation": "शंकु का आयतन = $1/3 πr^2h$ होता है।"
         },
         {
           "q_id": "6",
-          "statement": "Surface Area & Volume – प्रश्न 6 का स्टेटमेंट",
+          "statement": "यदि एक घन (Cube) की भुजा $a$ है, तो उसका विकर्ण (Diagonal) होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A6"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B6"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C6"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D6"
-            }
+            {"index": "अ", "text": "a√2"},
+            {"index": "ब", "text": "a√3"},
+            {"index": "स", "text": "3a"},
+            {"index": "द", "text": "6a²"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A6",
-          "explanation": "सही उत्तर विकल्प A6 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "a√3",
+          "explanation": "घन के विकर्ण की लंबाई $\\sqrt{a^2 + a^2 + a^2} = a\\sqrt{3}$ होती है।"
         },
         {
           "q_id": "7",
-          "statement": "Surface Area & Volume – प्रश्न 7 का स्टेटमेंट",
+          "statement": "शंकु के छिन्नक (Frustum of a cone) के आयतन का सूत्र है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A7"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B7"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C7"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D7"
-            }
+            {"index": "अ", "text": "1/3 πh(r₁² + r₂² + r₁r₂)"},
+            {"index": "ब", "text": "1/3 πh(r₁ + r₂)"},
+            {"index": "स", "text": "πl(r₁ + r₂)"},
+            {"index": "द", "text": "πh(r₁² + r₂²)"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A7",
-          "explanation": "सही उत्तर विकल्प A7 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "1/3 πh(r₁² + r₂² + r₁r₂)",
+          "explanation": "यह एक शंकु को आधार के समांतर काटने पर प्राप्त भाग का आयतन है।"
         },
         {
           "q_id": "8",
-          "statement": "Surface Area & Volume – प्रश्न 8 का स्टेटमेंट",
+          "statement": "लोहे के एक गोले को पिघलाकर छोटी गोलियाँ बनाई जाती हैं। इस प्रक्रिया में क्या समान रहता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A8"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B8"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C8"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D8"
-            }
+            {"index": "अ", "text": "पृष्ठीय क्षेत्रफल"},
+            {"index": "ब", "text": "त्रिज्या"},
+            {"index": "स", "text": "आयतन"},
+            {"index": "द", "text": "घनत्व"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A8",
-          "explanation": "सही उत्तर विकल्प A8 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "आयतन",
+          "explanation": "आकार बदलने पर पदार्थ की कुल मात्रा (आयतन) नहीं बदलती।"
         },
         {
           "q_id": "9",
-          "statement": "Surface Area & Volume – प्रश्न 9 का स्टेटमेंट",
+          "statement": "दो गोलों के आयतनों का अनुपात 64:27 है। उनकी त्रिज्याओं का अनुपात होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A9"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B9"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C9"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D9"
-            }
+            {"index": "अ", "text": "4:3"},
+            {"index": "ब", "text": "16:9"},
+            {"index": "स", "text": "8:3"},
+            {"index": "द", "text": "3:4"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A9",
-          "explanation": "सही उत्तर विकल्प A9 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "4:3",
+          "explanation": "त्रिज्या का अनुपात आयतन के अनुपात का घनमूल $(\\sqrt[3]{64/27} = 4/3)$ होता है।"
         },
         {
           "q_id": "10",
-          "statement": "Surface Area & Volume – प्रश्न 10 का स्टेटमेंट",
+          "statement": "एक बेलन के वक्र पृष्ठ का क्षेत्रफल 264 m² है और इसका आयतन 924 m³ है। बेलन की ऊँचाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A10"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B10"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C10"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D10"
-            }
+            {"index": "अ", "text": "6 m"},
+            {"index": "ब", "text": "7 m"},
+            {"index": "स", "text": "14 m"},
+            {"index": "द", "text": "21 m"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A10",
-          "explanation": "सही उत्तर विकल्प A10 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "6 m",
+          "explanation": "$(πr^2h) / (2πrh) = 924 / 264 \implies r/2 = 3.5 \implies r = 7$। $h = 264 / (2 \times 22/7 \times 7) = 6$ m।"
         },
         {
           "q_id": "11",
-          "statement": "Surface Area & Volume – प्रश्न 11 का स्टेटमेंट",
+          "statement": "घनाभ (Cuboid) का पृष्ठीय क्षेत्रफल है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A11"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B11"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C11"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D11"
-            }
+            {"index": "अ", "text": "lbh"},
+            {"index": "ब", "text": "2(lb + bh + hl)"},
+            {"index": "स", "text": "4(l + b + h)"},
+            {"index": "द", "text": "l² + b² + h²"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A11",
-          "explanation": "सही उत्तर विकल्प A11 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "2(lb + bh + hl)",
+          "explanation": "घनाभ के 6 फलकों के क्षेत्रफलों का योग।"
         },
         {
           "q_id": "12",
-          "statement": "Surface Area & Volume – प्रश्न 12 का स्टेटमेंट",
+          "statement": "एक शंकु की त्रिज्या 7 cm और ऊँचाई 24 cm है। इसकी तिर्यक ऊँचाई होगी:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A12"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B12"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C12"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D12"
-            }
+            {"index": "अ", "text": "25 cm"},
+            {"index": "ब", "text": "26 cm"},
+            {"index": "स", "text": "31 cm"},
+            {"index": "द", "text": "20 cm"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A12",
-          "explanation": "सही उत्तर विकल्प A12 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "25 cm",
+          "explanation": "$\sqrt{7^2 + 24^2} = \sqrt{49 + 576} = 25$।"
         },
         {
           "q_id": "13",
-          "statement": "Surface Area & Volume – प्रश्न 13 का स्टेटमेंट",
+          "statement": "शंकु का वक्र पृष्ठीय क्षेत्रफल है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A13"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B13"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C13"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D13"
-            }
+            {"index": "अ", "text": "πrl"},
+            {"index": "ब", "text": "2πrl"},
+            {"index": "स", "text": "πr(l + r)"},
+            {"index": "द", "text": "1/3 πr²h"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A13",
-          "explanation": "सही उत्तर विकल्प A13 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "πrl",
+          "explanation": "शंकु के वक्र पृष्ठ का क्षेत्रफल $\pi \times त्रिज्या \times तिर्यक ऊँचाई$ होता है।"
         },
         {
           "q_id": "14",
-          "statement": "Surface Area & Volume – प्रश्न 14 का स्टेटमेंट",
+          "statement": "7 cm त्रिज्या वाले गोले का आयतन क्या होगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A14"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B14"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C14"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D14"
-            }
+            {"index": "अ", "text": "1437.33 cm³"},
+            {"index": "ब", "text": "616 cm³"},
+            {"index": "स", "text": "154 cm³"},
+            {"index": "द", "text": "4312 cm³"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A14",
-          "explanation": "सही उत्तर विकल्प A14 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "1437.33 cm³",
+          "explanation": "$4/3 \times 22/7 \times 7^3 = 4312/3 = 1437.33$।"
         },
         {
           "q_id": "15",
-          "statement": "Surface Area & Volume – प्रश्न 15 का स्टेटमेंट",
+          "statement": "यदि किसी ठोस के आकार को दूसरे आकार में बदला जाता है, तो नए आकार का आयतन:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A15"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B15"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C15"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D15"
-            }
+            {"index": "अ", "text": "बढ़ता है"},
+            {"index": "ब", "text": "घटता है"},
+            {"index": "स", "text": "अपरिवर्तित रहता है"},
+            {"index": "द", "text": "दोगुना हो जाता है"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A15",
-          "explanation": "सही उत्तर विकल्प A15 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "अपरिवर्तित रहता है",
+          "explanation": "द्रव्यमान संरक्षण के नियम की तरह आयतन भी समान रहता है।"
         },
         {
           "q_id": "16",
-          "statement": "Surface Area & Volume – प्रश्न 16 का स्टेटमेंट",
+          "statement": "एक घन का आयतन 64 cm³ है। इसकी भुजा की लंबाई है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A16"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B16"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C16"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D16"
-            }
+            {"index": "अ", "text": "4 cm"},
+            {"index": "ब", "text": "8 cm"},
+            {"index": "स", "text": "16 cm"},
+            {"index": "द", "text": "2 cm"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A16",
-          "explanation": "सही उत्तर विकल्प A16 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "4 cm",
+          "explanation": "$a^3 = 64 \implies a = \sqrt[3]{64} = 4$।"
         },
         {
           "q_id": "17",
-          "statement": "Surface Area & Volume – प्रश्न 17 का स्टेटमेंट",
+          "statement": "त्रिज्या $r$ और ऊँचाई $h$ वाले बेलन का कुल पृष्ठीय क्षेत्रफल है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A17"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B17"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C17"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D17"
-            }
+            {"index": "अ", "text": "2πrh"},
+            {"index": "ब", "text": "2πr(r + h)"},
+            {"index": "स", "text": "πr²h"},
+            {"index": "द", "text": "2πr² + h"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A17",
-          "explanation": "सही उत्तर विकल्प A17 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "2πr(r + h)",
+          "explanation": "वक्र पृष्ठ ($2πrh$) और दोनों आधारों का क्षेत्रफल ($2πr^2$) का योग।"
         },
         {
           "q_id": "18",
-          "statement": "Surface Area & Volume – प्रश्न 18 का स्टेटमेंट",
+          "statement": "शंकु के आधार का आकार कैसा होता है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A18"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B18"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C18"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D18"
-            }
+            {"index": "अ", "text": "त्रिभुजाकार"},
+            {"index": "ब", "text": "वर्गाकार"},
+            {"index": "स", "text": "वृत्ताकार"},
+            {"index": "द", "text": "आयताकार"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A18",
-          "explanation": "सही उत्तर विकल्प A18 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "स",
+          "correct_answer": "वृत्ताकार",
+          "explanation": "लंब वृत्तीय शंकु का आधार एक वृत्त होता है।"
         },
         {
           "q_id": "19",
-          "statement": "Surface Area & Volume – प्रश्न 19 का स्टेटमेंट",
+          "statement": "एक अर्धगोले का आयतन 18π cm³ है। इसकी त्रिज्या है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A19"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B19"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C19"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D19"
-            }
+            {"index": "अ", "text": "2 cm"},
+            {"index": "ब", "text": "3 cm"},
+            {"index": "स", "text": "4 cm"},
+            {"index": "द", "text": "9 cm"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A19",
-          "explanation": "सही उत्तर विकल्प A19 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "3 cm",
+          "explanation": "$2/3 πr^3 = 18π \implies r^3 = 27 \implies r = 3$।"
         },
         {
           "q_id": "20",
-          "statement": "Surface Area & Volume – प्रश्न 20 का स्टेटमेंट",
+          "statement": "एक घनाभ के फलकों (Faces) की संख्या होती है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A20"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B20"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C20"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D20"
-            }
+            {"index": "अ", "text": "4"},
+            {"index": "ब", "text": "6"},
+            {"index": "स", "text": "8"},
+            {"index": "द", "text": "12"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A20",
-          "explanation": "सही उत्तर विकल्प A20 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "6",
+          "explanation": "जैसे एक ईंट या कमरे के 6 फलक होते हैं।"
         },
         {
           "q_id": "21",
-          "statement": "Surface Area & Volume – प्रश्न 21 का स्टेटमेंट",
+          "statement": "दो बेलनों की त्रिज्याओं का अनुपात 2:3 है और ऊँचाइयों का अनुपात 5:3 है। आयतनों का अनुपात होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A21"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B21"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C21"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D21"
-            }
+            {"index": "अ", "text": "10:17"},
+            {"index": "ब", "text": "20:27"},
+            {"index": "स", "text": "17:27"},
+            {"index": "द", "text": "20:37"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A21",
-          "explanation": "सही उत्तर विकल्प A21 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "20:27",
+          "explanation": "$V_1/V_2 = (r_1^2 \times h_1) / (r_2^2 \times h_2) = (4 \times 5) / (9 \times 3) = 20/27$।"
         },
         {
           "q_id": "22",
-          "statement": "Surface Area & Volume – प्रश्न 22 का स्टेटमेंट",
+          "statement": "किसी ठोस को बनाने वाले दो या दो से अधिक ठोसों के संयोजन का आयतन:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A22"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B22"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C22"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D22"
-            }
+            {"index": "अ", "text": "उनके आयतनों के योग के बराबर होता है"},
+            {"index": "ब", "text": "उनके आयतनों के अंतर के बराबर होता है"},
+            {"index": "स", "text": "उनके आयतनों के गुणनफल के बराबर होता है"},
+            {"index": "द", "text": "त्रिज्या पर निर्भर नहीं करता"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A22",
-          "explanation": "सही उत्तर विकल्प A22 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "उनके आयतनों के योग के बराबर होता है",
+          "explanation": "कुल आयतन अलग-अलग भागों के आयतनों के जोड़ से बनता है।"
         },
         {
           "q_id": "23",
-          "statement": "Surface Area & Volume – प्रश्न 23 का स्टेटमेंट",
+          "statement": "एक लंब वृत्तीय बेलन की त्रिज्या आधी कर दी जाए और ऊँचाई दोगुनी, तो उसका आयतन:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A23"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B23"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C23"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D23"
-            }
+            {"index": "अ", "text": "समान रहेगा"},
+            {"index": "ब", "text": "आधा हो जाएगा"},
+            {"index": "स", "text": "दोगुना हो जाएगा"},
+            {"index": "द", "text": "चार गुना हो जाएगा"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A23",
-          "explanation": "सही उत्तर विकल्प A23 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "आधा हो जाएगा",
+          "explanation": "नया आयतन = $π(r/2)^2 \times 2h = π(r^2/4) \times 2h = 1/2 πr^2h$।"
         },
         {
           "q_id": "24",
-          "statement": "Surface Area & Volume – प्रश्न 24 का स्टेटमेंट",
+          "statement": "शंकु के छिन्नक की तिर्यक ऊँचाई $l$ है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A24"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B24"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C24"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D24"
-            }
+            {"index": "अ", "text": "√[h² + (r₁ - r₂)²]"},
+            {"index": "ब", "text": "√[h² + (r₁ + r₂)²]"},
+            {"index": "स", "text": "√[h² - (r₁ - r₂)²]"},
+            {"index": "द", "text": "h + r₁ - r₂"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A24",
-          "explanation": "सही उत्तर विकल्प A24 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "√[h² + (r₁ - r₂)²]",
+          "explanation": "यह छिन्नक की ढालू ऊँचाई का सूत्र है।"
         },
         {
           "q_id": "25",
-          "statement": "Surface Area & Volume – प्रश्न 25 का स्टेटमेंट",
+          "statement": "गोले में वक्र पृष्ठ और कुल पृष्ठीय क्षेत्रफल में क्या संबंध है?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A25"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B25"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C25"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D25"
-            }
+            {"index": "अ", "text": "दोनों समान होते हैं"},
+            {"index": "ब", "text": "वक्र पृष्ठ बड़ा होता है"},
+            {"index": "स", "text": "कुल पृष्ठीय क्षेत्रफल बड़ा होता है"},
+            {"index": "द", "text": "कोई संबंध नहीं"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A25",
-          "explanation": "सही उत्तर विकल्प A25 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "दोनों समान होते हैं",
+          "explanation": "गोले का पूरा तल ही वक्र होता है, इसमें कोई समतल आधार नहीं होता।"
         },
         {
           "q_id": "26",
-          "statement": "Surface Area & Volume – प्रश्न 26 का स्टेटमेंट",
+          "statement": "एक 14 cm ऊँचाई वाले बेलन का वक्र पृष्ठीय क्षेत्रफल 88 cm² है। बेलन के आधार का व्यास है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A26"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B26"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C26"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D26"
-            }
+            {"index": "अ", "text": "1 cm"},
+            {"index": "ब", "text": "2 cm"},
+            {"index": "स", "text": "3 cm"},
+            {"index": "द", "text": "4 cm"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A26",
-          "explanation": "सही उत्तर विकल्प A26 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "2 cm",
+          "explanation": "$2 \times 22/7 \times r \times 14 = 88 \implies 88r = 88 \implies r = 1$। व्यास = 2 cm।"
         },
         {
           "q_id": "27",
-          "statement": "Surface Area & Volume – प्रश्न 27 का स्टेटमेंट",
+          "statement": "समान आयतन वाले दो घनों को सिरों से जोड़ने पर प्राप्त ठोस होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A27"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B27"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C27"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D27"
-            }
+            {"index": "अ", "text": "घन"},
+            {"index": "ब", "text": "घनाभ"},
+            {"index": "स", "text": "बेलन"},
+            {"index": "द", "text": "शंकु"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A27",
-          "explanation": "सही उत्तर विकल्प A27 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "घनाभ",
+          "explanation": "लंबाई बढ़ जाने से वह घनाभ का रूप ले लेता है।"
         },
         {
           "q_id": "28",
-          "statement": "Surface Area & Volume – प्रश्न 28 का स्टेटमेंट",
+          "statement": "एक गोले की त्रिज्या 2r है, तो उसका आयतन होगा:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A28"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B28"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C28"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D28"
-            }
+            {"index": "अ", "text": "4/3 πr³"},
+            {"index": "ब", "text": "32/3 πr³"},
+            {"index": "स", "text": "8/3 πr³"},
+            {"index": "द", "text": "16/3 πr³"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A28",
-          "explanation": "सही उत्तर विकल्प A28 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "32/3 πr³",
+          "explanation": "$4/3 \times π \times (2r)^3 = 4/3 \times π \times 8r^3 = 32/3 πr^3$।"
         },
         {
           "q_id": "29",
-          "statement": "Surface Area & Volume – प्रश्न 29 का स्टेटमेंट",
+          "statement": "शंकु की ऊँचाई को स्थिर रखते हुए त्रिज्या दोगुनी करने पर आयतन कितना हो जाएगा?",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A29"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B29"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C29"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D29"
-            }
+            {"index": "अ", "text": "दोगुना"},
+            {"index": "ब", "text": "चार गुना"},
+            {"index": "स", "text": "आठ गुना"},
+            {"index": "द", "text": "वही रहेगा"}
           ],
-          "correct_index": "अ",
-          "correct_answer": "विकल्प A29",
-          "explanation": "सही उत्तर विकल्प A29 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_index": "ब",
+          "correct_answer": "चार गुना",
+          "explanation": "आयतन $r^2$ के समानुपाती होता है।"
         },
         {
           "q_id": "30",
-          "statement": "Surface Area & Volume – प्रश्न 30 का स्टेटमेंट",
+          "statement": "यदि एक बाल्टी (शंकु का छिन्नक) की ऊपरी और निचली त्रिज्याएँ $R$ और $r$ हैं, तो इसका वक्र पृष्ठ है:",
           "options": [
-            {
-              "index": "अ",
-              "text": "विकल्प A30"
-            },
-            {
-              "index": "ब",
-              "text": "विकल्प B30"
-            },
-            {
-              "index": "स",
-              "text": "विकल्प C30"
-            },
-            {
-              "index": "द",
-              "text": "विकल्प D30"
-            }
+            {"index": "अ", "text": "πl(R + r)"},
+            {"index": "ब", "text": "πl(R - r)"},
+            {"index": "स", "text": "2πl(R + r)"},
+            {"index": "द", "text": "πR²l"}
           ],
           "correct_index": "अ",
-          "correct_answer": "विकल्प A30",
-          "explanation": "सही उत्तर विकल्प A30 है।",
-          "previousYearsDetails": "2024,2023"
+          "correct_answer": "πl(R + r)",
+          "explanation": "यह छिन्नक के वक्र पृष्ठीय क्षेत्रफल का सूत्र है।"
         }
       ]
     }
