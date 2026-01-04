@@ -1,6 +1,6 @@
 {
   "paper_details": {
-    "paperYear": "2023",
+    "paperYear": "2024",
     "subjectName": "ENGLISH",
     "totalMarks": "75",
     "board": "MP Board"
@@ -225,15 +225,45 @@
       ]
     },
     {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3+1=4",
+      "word_limit": "Notes + Title",
+      "text": "Read the passage carefully and answer the following questions:",
+      "passage": "Since time began, the natural broad-leaved mixed forests of the Himalayas have played a crucial role in the life of the people of that region. In fact, the forests are the foundation of the whole economy of the hill villages. Green leaves and grass provide fodder for animals whose dung is used as fertilizer. Dry twigs and branches are the only sources of domestic cooking fuel. The forests also provide large supplies of fruits, edible nuts, fibres and herbs for local consumption. The forests break the flow of seasonal rainfall that lashes the slopes of this mountain range every year during the monsoon. This creates springs and perennial streams vital for mountain people and their animals during the hot summer months. However, large areas of these rich forest resources have been destroyed. The forests of Tehri Garhwal were exploited to supply timber for the expanding railway network. In 1930, the people of Tehri Garhwal began a non-cooperation movement called Satyagraha to oppose the oppressive forest laws.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "On the basis of your reading of the above passage, make a note on it using abbreviations if needed.",
+          "explanation": "The passage explains the importance of Himalayan forests. Forests support the economy of hill villages by providing fodder, fuel, fruits, herbs and fibres. They help control rainfall and create water sources like springs and streams. Forest destruction occurred due to exploitation for railways. People protested through the Satyagraha movement against forest laws."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Give a suitable title to it.",
+          "explanation": "Importance of Himalayan Forests"
+        }
+      ]
+    },
+    {
       "question_number": "4",
       "question_type": "DESCRIPTIVE",
       "marks": "4M",
-      "text": "Write an application to your principal for issuing school leaving certificate.",
+      "word_limit": "120 words",
+      "text": "Write an application to your principal for issuing your School Leaving Certificate.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "You are Manas/Mansi, studying in Govt. Higher Secondary School, Balaghat.",
+          "explanation": "Reference: This is a formal application written to the school principal. Context: The student requests the issuance of the School Leaving Certificate. Explanation: The application should include the student's name, school name, reason for leaving the school, polite language, and a proper closing."
+        }
+      ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "statement": "Write a letter to your friend inviting him/her to attend your father’s promotion party."
+            "q_id": "ii",
+            "statement": "You are Ritik/Ritika, living in Indore. Write a letter to your friend inviting him/her to your father's promotion party.",
+            "explanation": "Reference: This is an informal letter written to a friend. Context: The writer invites a friend to attend their father's promotion party. Explanation: The letter should mention the occasion, date, time, venue, express happiness, and end with a friendly closing."
           }
         ]
       }
@@ -247,28 +277,23 @@
       "parts": [
         {
           "q_id": "i",
-          "statement": "Online Education",
-          "explanation": ""
+          "statement": "Online Education"
         },
         {
           "q_id": "ii",
-          "statement": "Disadvantages of Social Media",
-          "explanation": ""
+          "statement": "Disadvantages of Social Media"
         },
         {
           "q_id": "iii",
-          "statement": "Population Growth",
-          "explanation": ""
+          "statement": "Population Growth"
         },
         {
           "q_id": "iv",
-          "statement": "Electric Vehicles",
-          "explanation": ""
+          "statement": "Electric Vehicles"
         },
         {
           "q_id": "v",
-          "statement": "Women Empowerment",
-          "explanation": ""
+          "statement": "Women Empowerment"
         }
       ]
     },
@@ -282,6 +307,373 @@
         "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_eng_visual.png",
         "description": "A river flowing between hills, trees on both sides and birds flying."
       }
+    },
+    {
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks: (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "She ______ a song. (singing, sings, sung)",
+          "correct_answer": "sings",
+          "explanation": "‘Sings’ is correct as it matches present tense with singular subject."
+        },
+        {
+          "q_id": "ii",
+          "statement": "______ you live long! (can, might, may)",
+          "correct_answer": "may",
+          "explanation": "‘May’ is used to express a wish."
+        },
+        {
+          "q_id": "iii",
+          "statement": "July comes ______ August. (before, after, with)",
+          "correct_answer": "before",
+          "explanation": "July comes before August."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Ashoka was one of ______ greatest kings of India. (a, an, the)",
+          "correct_answer": "the",
+          "explanation": "‘The’ is used with superlative degree."
+        },
+        {
+          "q_id": "v",
+          "statement": "We ______ follow the traffic rules. (must, should, might)",
+          "correct_answer": "must",
+          "explanation": "‘Must’ shows obligation."
+        },
+        {
+          "q_id": "vi",
+          "statement": "He died ______ cancer. (of, off, on)",
+          "correct_answer": "of",
+          "explanation": "‘Die of’ is used with diseases."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Ritu has ______ friends. (much, many, any)",
+          "correct_answer": "many",
+          "explanation": "‘Many’ is used with countable nouns."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Do as directed: (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Police arrested the thief. (Make negative)",
+          "explanation": "Police did not arrest the thief."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Ram writes a letter. (Change the voice)",
+          "explanation": "A letter is written by Ram."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Swimming is a good habit. (Rewrite beginning with 'It')",
+          "explanation": "It is a good habit to swim."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Mamta goes to school everyday. (Make interrogative)",
+          "explanation": "Does Mamta go to school everyday?"
+        },
+        {
+          "q_id": "v",
+          "statement": "He is so fat that he cannot run fast. (Use too…to)",
+          "explanation": "He is too fat to run fast."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The boy is my nephew. He is wearing a blue shirt. (Rewrite using 'who')",
+          "explanation": "The boy who is wearing a blue shirt is my nephew."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Unless you run fast, you will miss the train. (Use 'If' in place of 'Unless')",
+          "explanation": "If you do not run fast, you will miss the train."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "text": "Answer the following questions:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "According to Nelson Mandela, what comes naturally to the human heart?",
+          "options": [
+            {
+              "index": "a",
+              "text": "hatred"
+            },
+            {
+              "index": "b",
+              "text": "love"
+            },
+            {
+              "index": "c",
+              "text": "unity"
+            },
+            {
+              "index": "d",
+              "text": "discrimination"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "love",
+          "explanation": "Mandela says love comes more naturally than hate."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What was the name of Anne’s diary?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Betty"
+            },
+            {
+              "index": "b",
+              "text": "Kitten"
+            },
+            {
+              "index": "c",
+              "text": "Kitty"
+            },
+            {
+              "index": "d",
+              "text": "Ketty"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Kitty",
+          "explanation": "Anne Frank named her diary ‘Kitty’."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Coorg is famous for ______.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Tea"
+            },
+            {
+              "index": "b",
+              "text": "Coffee"
+            },
+            {
+              "index": "c",
+              "text": "Sandal"
+            },
+            {
+              "index": "d",
+              "text": "Jute"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Coffee",
+          "explanation": "Coorg is well known for its coffee plantations."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What name was given to the otter?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Major"
+            },
+            {
+              "index": "b",
+              "text": "Taro"
+            },
+            {
+              "index": "c",
+              "text": "Jim"
+            },
+            {
+              "index": "d",
+              "text": "Mijbil"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Mijbil",
+          "explanation": "The otter was named Mijbil by the narrator."
+        }
+      ]
+    },
+    {
+      "question_number": "10A",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "instruction": "Read the extract carefully and answer the questions (From: The Black Aeroplane)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How was the weather when pilot started flying aeroplane?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Clear"
+            },
+            {
+              "index": "b",
+              "text": "Foggy"
+            },
+            {
+              "index": "c",
+              "text": "Rainy"
+            },
+            {
+              "index": "d",
+              "text": "Sunny"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Clear",
+          "explanation": "The extract mentions that stars were shining and there was not a single cloud in the sky."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Pilot was going to ______.",
+          "options": [
+            {
+              "index": "a",
+              "text": "France"
+            },
+            {
+              "index": "b",
+              "text": "India"
+            },
+            {
+              "index": "c",
+              "text": "USA"
+            },
+            {
+              "index": "d",
+              "text": "England"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "England",
+          "explanation": "The pilot was flying from France back to England."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The above passage is taken from which lesson?",
+          "options": [
+            {
+              "index": "a",
+              "text": "His First Flight"
+            },
+            {
+              "index": "b",
+              "text": "Black Aeroplane"
+            },
+            {
+              "index": "c",
+              "text": "A Letter to God"
+            },
+            {
+              "index": "d",
+              "text": "Glimpses of India"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Black Aeroplane",
+          "explanation": "The extract is from the lesson 'The Black Aeroplane'."
+        }
+      ]
+    },
+    {
+      "question_number": "10B",
+      "question_type": "UNSEEN_PASSAGE_POEM",
+      "marks": "1×3=3",
+      "instruction": "Read the extract carefully and answer the questions (From: Fog)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What has been personified in the above given lines?",
+          "options": [
+            {
+              "index": "a",
+              "text": "harbour"
+            },
+            {
+              "index": "b",
+              "text": "city"
+            },
+            {
+              "index": "c",
+              "text": "fog"
+            },
+            {
+              "index": "d",
+              "text": "cat"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "fog",
+          "explanation": "Fog is described as having cat-like qualities, which is personification."
+        },
+        {
+          "q_id": "ii",
+          "statement": "After sitting fog ______.",
+          "options": [
+            {
+              "index": "a",
+              "text": "disappears"
+            },
+            {
+              "index": "b",
+              "text": "moves on"
+            },
+            {
+              "index": "c",
+              "text": "sits there only"
+            },
+            {
+              "index": "d",
+              "text": "gets dense"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "moves on",
+          "explanation": "The poem clearly states that the fog sits for a while and then moves on."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The poet of the above poem is",
+          "options": [
+            {
+              "index": "a",
+              "text": "Pablo Neruda"
+            },
+            {
+              "index": "b",
+              "text": "Robert Frost"
+            },
+            {
+              "index": "c",
+              "text": "Robin Klein"
+            },
+            {
+              "index": "d",
+              "text": "Carl Sandburg"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Carl Sandburg",
+          "explanation": "The poem 'Fog' is written by Carl Sandburg."
+        }
+      ]
     },
     {
       "question_number": "11",
@@ -407,6 +799,30 @@
           "explanation": "Custard wanted safety and was called cowardly because he always feared danger, though he later proved brave."
         }
       ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3M",
+      "word_limit": "75 words",
+      "text": "Answer the following question in about 75 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Noodle avoids offending Think-Tank, but at the same time he corrects his mistakes. How does he manage to do that?",
+          "explanation": "Reference: This question is based on the lesson 'The Book That Saved the Earth'. Context: Noodle tactfully corrects Think-Tank without hurting his ego. Explanation: Noodle uses polite language, indirect suggestions, and pretends to agree with Think-Tank while subtly guiding him towards the correct understanding."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "The course of the Loisels' life changed due to the necklace. Comment.",
+            "explanation": "Reference: This question is from the lesson 'The Necklace'. Context: The loss of the necklace leads to years of hardship for the Loisels. Explanation: Due to the necklace, the Loisels lose their comfort, work hard for years to repay debt, and later discover that the necklace was fake, making their suffering tragic."
+          }
+        ]
+      }
     }
   ]
 }
