@@ -670,51 +670,117 @@
         }
       ]
     },
-    {
-      "question_number": "10B",
+     {
+      "question_number": "10(B)",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×3=3",
-      "instruction": "Read the extract carefully and answer the questions (From: Amanda)",
+      "text": "Read the extract carefully and answer the questions:",
+      "passage": "I am an orphan, roaming the street.\nI pattern soft dust with my hushed, bare feet.\nThe silence is golden, the freedom is sweet.",
       "parts": [
         {
           "q_id": "i",
           "statement": "From which poem of your text book has this extract been taken?",
           "options": [
-            {
-              "index": "a",
-              "text": "Amanda"
-            }
+            { "index": "a", "text": "Fog" },
+            { "index": "b", "text": "The Ball Poem" },
+            { "index": "c", "text": "Amanda" },
+            { "index": "d", "text": "For Anne Gregory" }
           ],
-          "correct_index": "a",
-          "correct_answer": "Amanda",
-          "explanation": "The lines describe a girl imagining herself as an orphan to escape nagging, which is the theme of 'Amanda'."
+          "correct_index": "c",
+          "correct_answer": "Amanda"
         },
         {
           "q_id": "ii",
-          "statement": "The word 'orphan' means:",
+          "statement": "The word ‘orphan’ means:",
           "options": [
-            {
-              "index": "a",
-              "text": "a child having no father and mother"
-            }
+            { "index": "a", "text": "a child having no friend" },
+            { "index": "b", "text": "a child having no father and mother" },
+            { "index": "c", "text": "a child who roams the street" },
+            { "index": "d", "text": "a child who likes freedom" }
           ],
-          "correct_index": "a",
-          "correct_answer": "a child having no father and mother",
-          "explanation": "An orphan is defined as a child whose parents are deceased."
+          "correct_index": "b",
+          "correct_answer": "a child having no father and mother"
         },
         {
           "q_id": "iii",
           "statement": "What does the girl actually want?",
           "options": [
-            {
-              "index": "a",
-              "text": "she wants freedom and silence"
-            }
+            { "index": "a", "text": "She wants freedom and silence" },
+            { "index": "b", "text": "She wants to be an orphan" },
+            { "index": "c", "text": "She wants to remain bare feet" },
+            { "index": "d", "text": "She wants to walk on soft dust" }
           ],
           "correct_index": "a",
-          "correct_answer": "she wants freedom and silence",
-          "explanation": "The extract says 'The silence is golden, the freedom is sweet'."
+          "correct_answer": "She wants freedom and silence"
         }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×6=12",
+      "text": "Answer the questions in about 30 words (any six):",
+      "parts": [
+        { "q_id": "i", "statement": "Who or what did Lencho have faith in? What did he do?" ,"explanation":""},
+        { "q_id": "ii", "statement": "Why was the young seagull afraid to fly?"  ,"explanation":""},
+        { "q_id": "iii", "statement": "What does Mandela thank the international leaders for?"  ,"explanation":""},
+        { "q_id": "iv", "statement": "Why was Mr. Keesing annoyed with Anne? What did he ask her to do?"  ,"explanation":""},
+        { "q_id": "v", "statement": "What is the story about the Kodavu people’s descent?"  ,"explanation":""},
+        { "q_id": "vi", "statement": "What experiment did Maxwell think Causserman would be suitable for?"  ,"explanation":""},
+        { "q_id": "vii", "statement": "What was a source of unending joy for Valli?"  ,"explanation":""},
+        { "q_id": "viii", "statement": "What does Kisa Gotami ask for the second time she goes from house to house? Does she get it? Why?"  ,"explanation":""}
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words (any two):",
+      "parts": [
+        { "q_id": "i", "statement": "How does the fog come?","explanation":"" },
+        { "q_id": "ii", "statement": "What happens to the house when the trees move out of it?","explanation":"" },
+        { "q_id": "iii", "statement": "What do the ‘crow’ and ‘hemlock’ represent in the poem ‘Dust of Snow’?" ,"explanation":""}
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words (any two):",
+      "parts": [
+        { "q_id": "i", "statement": "What does the thief get from Anil in return for his work?" ,"explanation":""},
+        { "q_id": "ii", "statement": "How is Ausable different from other secret agents?","explanation":"" },
+        { "q_id": "iii", "statement": "What lesson does Ebright learn when he does not win anything at a science fair?","explanation":"" }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following questions in about 75 words (any one):",
+      "parts": [
+        { "q_id": "i", "statement": "Why does the postmaster send money to Lencho? Why does he sign the letter ‘God’?" ,"explanation":""},
+        { "q_id": "ii", "statement": "Why does the narrator of the story ‘The Black Aeroplane’ say, “I landed and was not sorry to walk away from the old Dakota…”?","explanation":"" }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following questions in about 75 words (any one):",
+      "parts": [
+        { "q_id": "i", "statement": "Write the central idea of the poem ‘The Ball Poem’." ,"explanation":""},
+        { "q_id": "ii", "statement": "What do ‘desire’ and ‘hate’ stand for in the poem ‘Fire and Ice’? What does Robert Frost say about how the world will end?" ,"explanation":""}
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following questions in about 75 words (any one):",
+      "parts": [
+        { "q_id": "i", "statement": "Why does Mrs. Hall find the scientist eccentric?","explanation":"" },
+        { "q_id": "ii", "statement": "Why was the twentieth century called the ‘Era of the Book’?" ,"explanation":""}
       ]
     }
   ]
