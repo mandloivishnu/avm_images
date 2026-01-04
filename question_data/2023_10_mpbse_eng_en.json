@@ -310,53 +310,137 @@
         "description": "A river flowing between hills, trees on both sides and birds flying."
       }
     },
-    {
+     {
       "question_number": "7",
       "question_type": "FILL_IN_THE_BLANK",
       "marks": "1×5=5",
-      "text": "Fill in the blanks: (any five)",
+      "text": "Fill in the blanks : (any five)",
       "parts": [
         {
           "q_id": "i",
-          "statement": "She ______ a song. (singing, sings, sung)",
-          "correct_answer": "sings",
-          "explanation": "‘Sings’ is correct as it matches present tense with singular subject."
+          "statement": "Your father is seriously ill. You {BLANK} go home.",
+          "options": [
+            {
+              "index": "a",
+              "text": "must"
+            },
+            {
+              "index": "b",
+              "text": "should"
+            },
+            {
+              "index": "c",
+              "text": "ought to"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "must",
+          "explanation": "‘must’ is correct as father is seriously ill."
         },
         {
           "q_id": "ii",
-          "statement": "______ you live long! (can, might, may)",
-          "correct_answer": "may",
-          "explanation": "‘May’ is used to express a wish."
+          "statement": "My father is a {BLANK} teacher.",
+          "options": [
+            {
+              "index": "a",
+              "text": "retired"
+            },
+            {
+              "index": "b",
+              "text": "retire"
+            },
+            {
+              "index": "c",
+              "text": "retiring"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "retired",
+          "explanation": "Correct word is 'retired'."
         },
         {
           "q_id": "iii",
-          "statement": "July comes ______ August. (before, after, with)",
-          "correct_answer": "before",
-          "explanation": "July comes before August."
+          "statement": "How {BLANK} time is left?",
+          "options": [
+            {
+              "index": "a",
+              "text": "many"
+            },
+            {
+              "index": "b",
+              "text": "any"
+            },
+            {
+              "index": "c",
+              "text": "much"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "much",
+          "explanation": "Correct word is 'much'."
         },
         {
           "q_id": "iv",
-          "statement": "Ashoka was one of ______ greatest kings of India. (a, an, the)",
-          "correct_answer": "the",
-          "explanation": "‘The’ is used with superlative degree."
+          "statement": "He exclaimed 'what {BLANK} beautiful flower!'",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "the"
+            },
+            {
+              "index": "c",
+              "text": "an"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "a",
+          "explanation": "Correct word is 'a'."
         },
         {
           "q_id": "v",
-          "statement": "We ______ follow the traffic rules. (must, should, might)",
-          "correct_answer": "must",
-          "explanation": "‘Must’ shows obligation."
+          "statement": "Sita is {BLANK} than any other girl.",
+          "options": [
+            {
+              "index": "a",
+              "text": "intelligent"
+            },
+            {
+              "index": "b",
+              "text": "more intelligent"
+            },
+            {
+              "index": "c",
+              "text": "most intelligent"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "more intelligent",
+          "explanation": "Correct answer is 'more intelligent'."
         },
         {
           "q_id": "vi",
-          "statement": "He died ______ cancer. (of, off, on)",
-          "correct_answer": "of",
-          "explanation": "‘Die of’ is used with diseases."
-        },
-        {
-          "q_id": "vii",
-          "statement": "Ritu has ______ friends. (much, many, any)",
-          "correct_answer": "many",
-          "explanation": "‘Many’ is used with countable nouns."
+          "statement": "{BLANK} you work hard, you will fail.",
+          "options": [
+            {
+              "index": "a",
+              "text": "If"
+            },
+            {
+              "index": "b",
+              "text": "As long as"
+            },
+            {
+              "index": "c",
+              "text": "Unless"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Unless",
+          "explanation": "Correct answer is 'Unless'."
         }
       ]
     },
