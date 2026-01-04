@@ -226,21 +226,23 @@
     },
     {
       "question_number": "3",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3+1=4",
-      "word_limit": "Notes + Title",
-      "passage": "Read the passage carefully and answer the following questions:",
-      "text": "Read the passage carefully and answer the following questions: \n Since time began, the natural broad-leaved mixed forests of the Himalayas have played a crucial role in the life of the people of that region. In fact, the forests are the foundation of the whole economy of the hill villages. Green leaves and grass provide fodder for animals whose dung is used as fertilizer. Dry twigs and branches are the only sources of domestic cooking fuel. The forests also provide large supplies of fruits, edible nuts, fibres and herbs for local consumption. The forests break the flow of seasonal rainfall that lashes the slopes of this mountain range every year during the monsoon. This creates springs and perennial streams vital for mountain people and their animals during the hot summer months. However, large areas of these rich forest resources have been destroyed. The forests of Tehri Garhwal were exploited to supply timber for the expanding railway network. In 1930, the people of Tehri Garhwal began a non-cooperation movement called Satyagraha to oppose the oppressive forest laws.",
-      "parts": [
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "5M",
+      "word_limit": "150 words (approx)",
+      "text": "Read the passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "Students who are very fond of reading books are often labelled by their companions as bookworms. Their criticism usually comes from students who consider themselves better sports. Students who shine in athletics or in games consider that it is better to spend time and energy in a sports arena than in a classroom or at the reading desk. All the same they do not always do well academically. Academic honour has a glamour which is unique. It is not to be denied that playing games is useful activity, because it creates team spirit and also makes the sportsmen healthy and vigorous. That is why games and sports are given so much importance in the curriculum of schools and colleges. But studies should not be neglected and should be given due importance along with other activities connected with education. Let each type of activity have its own place in our daily routine. Then only will we have students both academically sound and physically fit. We want our educational system to generate this synergy among our youth.",
+      "essay_topics": [
         {
-          "q_id": "i",
-          "statement": "On the basis of your reading of the above passage, make a note on it using abbreviations if needed.",
-          "explanation": "The passage explains the importance of Himalayan forests. Forests support the economy of hill villages by providing fodder, fuel, fruits, herbs and fibres. They help control rainfall and create water sources like springs and streams. Forest destruction occurred due to exploitation for railways. People protested through the Satyagraha movement against forest laws."
+          "topic_id": "i",
+          "name": "On the basis of your reading of the above passage, make notes on it.",
+          "answer": "The passage emphasizes the need for balance between studies and sports. Students who love reading are often called bookworms, while sports-oriented students give more importance to games. Although games are useful for health, teamwork, and energy, academic success has its own unique honour. Education should give equal importance to both studies and sports. A proper balance in daily routine can help develop students who are mentally sound and physically fit."
         },
         {
-          "q_id": "ii",
-          "statement": "Give a suitable title to it.",
-          "explanation": "Importance of Himalayan Forests"
+          "topic_id": "ii",
+          "name": "Give a suitable title to it.",
+          "answer": "Balance Between Studies and Sports"
         }
       ]
     },
