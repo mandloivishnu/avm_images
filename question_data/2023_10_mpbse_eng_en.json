@@ -247,23 +247,28 @@
       "parts": [
         {
           "q_id": "i",
-          "statement": "Online Education"
+          "statement": "Online Education",
+          "explanation": ""
         },
         {
           "q_id": "ii",
-          "statement": "Disadvantages of Social Media"
+          "statement": "Disadvantages of Social Media",
+          "explanation": ""
         },
         {
           "q_id": "iii",
-          "statement": "Population Growth"
+          "statement": "Population Growth",
+          "explanation": ""
         },
         {
           "q_id": "iv",
-          "statement": "Electric Vehicles"
+          "statement": "Electric Vehicles",
+          "explanation": ""
         },
         {
           "q_id": "v",
-          "statement": "Women Empowerment"
+          "statement": "Women Empowerment",
+          "explanation": ""
         }
       ]
     },
@@ -382,24 +387,6 @@
           "q_id": "i",
           "statement": "Answer",
           "explanation": "Valli planned her bus ride by carefully observing the bus timings and fare. She saved money by avoiding unnecessary expenses and collecting coins."
-        }
-      ]
-    },
-    {
-      "question_number": "15",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "text": "Answer the following questions:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "What does the young boy say to Anne Gregory?",
-          "explanation": "The young boy tells Anne Gregory that her inner beauty matters more than her outward appearance."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Why did Custard cry for a nice safe cage? Why is the dragon called ‘cowardly dragon’?",
-          "explanation": "Custard wanted safety and was called cowardly because he always feared danger, though he later proved brave."
         }
       ]
     },
