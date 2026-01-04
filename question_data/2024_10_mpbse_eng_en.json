@@ -321,7 +321,7 @@
       "parts": [
         {
           "q_id": "i",
-          "statement": "Your father is seriously ill. You ___ go home.",
+          "statement": "Your father is seriously ill. You {BLANK} go home.",
           "options": [
             {
               "index": "a",
@@ -342,7 +342,7 @@
         },
         {
           "q_id": "ii",
-          "statement": "My father is a ___ teacher.",
+          "statement": "My father is a {BLANK} teacher.",
           "options": [
             {
               "index": "a",
@@ -363,7 +363,7 @@
         },
         {
           "q_id": "iii",
-          "statement": "How ___ time is left?",
+          "statement": "How {BLANK} time is left?",
           "options": [
             {
               "index": "a",
@@ -384,7 +384,7 @@
         },
         {
           "q_id": "iv",
-          "statement": "He exclaimed 'what ___ beautiful flower!'",
+          "statement": "He exclaimed 'what {BLANK} beautiful flower!'",
           "options": [
             {
               "index": "a",
@@ -405,7 +405,7 @@
         },
         {
           "q_id": "v",
-          "statement": "Sita is ___ than any other girl.",
+          "statement": "Sita is {BLANK} than any other girl.",
           "options": [
             {
               "index": "a",
@@ -426,7 +426,7 @@
         },
         {
           "q_id": "vi",
-          "statement": "___ you work hard, you will fail.",
+          "statement": "{BLANK} you work hard, you will fail.",
           "options": [
             {
               "index": "a",
@@ -483,7 +483,7 @@
       "question_number": "9",
       "question_type": "MULTIPLE_CHOICE",
       "marks": "1×4=4",
-      "instruction": "Choose the correct answer:",
+      "text": "Choose the correct answer:",
       "parts": [
         {
           "q_id": "i",
@@ -592,6 +592,7 @@
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×3=3",
       "instruction": "Read the extract carefully and answer the questions (From: A Baker from Goa)",
+      "passage":"The baker usually collected his bills at the end of the month. Monthly accounts used to be recorded on some wall in pencil. \n Baking was indeed a profitable profession in the old days. The baker and his family never starved. \n He, his family and his servants always looked prosperous. Their plump physique was an open testimony to this."
       "parts": [
         {
           "q_id": "i",
