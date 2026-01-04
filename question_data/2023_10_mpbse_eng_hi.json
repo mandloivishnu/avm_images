@@ -310,11 +310,11 @@
         "description": "A river flowing between hills, trees on both sides and birds flying."
       }
     },
-  {
+ {
   "question_number": "7",
   "question_type": "FILL_IN_THE_BLANK",
   "marks": "1×5=5",
-  "text": "Fill in the blanks: (any five)",
+  "text": "Fill in the blanks : (any five)",
   "parts": [
     {
       "q_id": "i",
@@ -326,7 +326,7 @@
       ],
       "correct_index": "b",
       "correct_answer": "sings",
-      "explanation": "‘Sings’ is correct as it matches present tense with singular subject."
+      "explanation": "‘Sings’ is correct as it matches present tense with a singular subject."
     },
     {
       "q_id": "ii",
@@ -338,7 +338,7 @@
       ],
       "correct_index": "c",
       "correct_answer": "may",
-      "explanation": "‘May’ is used to express a wish."
+      "explanation": "‘May’ is used to express a wish or blessing."
     },
     {
       "q_id": "iii",
@@ -350,7 +350,7 @@
       ],
       "correct_index": "a",
       "correct_answer": "before",
-      "explanation": "July comes before August."
+      "explanation": "July comes before August in the calendar."
     },
     {
       "q_id": "iv",
@@ -362,7 +362,7 @@
       ],
       "correct_index": "c",
       "correct_answer": "the",
-      "explanation": "‘The’ is used with superlative degree."
+      "explanation": "‘The’ is used before superlative degree."
     },
     {
       "q_id": "v",
@@ -374,7 +374,7 @@
       ],
       "correct_index": "a",
       "correct_answer": "must",
-      "explanation": "‘Must’ shows obligation."
+      "explanation": "‘Must’ expresses obligation."
     },
     {
       "q_id": "vi",
