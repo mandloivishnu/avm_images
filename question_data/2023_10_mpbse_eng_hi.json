@@ -311,97 +311,139 @@
       }
     },
  {
-  "question_number": "7",
-  "question_type": "FILL_IN_THE_BLANK",
-  "marks": "1×5=5",
-  "text": "Fill in the blanks : any five",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "She {BLANK} a song.",
-      "options": [
-        { "index": "a", "text": "singing" },
-        { "index": "b", "text": "sings" },
-        { "index": "c", "text": "sung" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "sings",
-      "explanation": "‘Sings’ is correct as it matches present tense with a singular subject."
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Your father is seriously ill. You {BLANK} go home.",
+          "options": [
+            {
+              "index": "a",
+              "text": "must"
+            },
+            {
+              "index": "b",
+              "text": "should"
+            },
+            {
+              "index": "c",
+              "text": "ought to"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "must",
+          "explanation": "‘must’ is correct as father is seriously ill."
+        },
+        {
+          "q_id": "ii",
+          "statement": "My father is a {BLANK} teacher.",
+          "options": [
+            {
+              "index": "a",
+              "text": "retired"
+            },
+            {
+              "index": "b",
+              "text": "retire"
+            },
+            {
+              "index": "c",
+              "text": "retiring"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "retired",
+          "explanation": "Correct word is 'retired'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How {BLANK} time is left?",
+          "options": [
+            {
+              "index": "a",
+              "text": "many"
+            },
+            {
+              "index": "b",
+              "text": "any"
+            },
+            {
+              "index": "c",
+              "text": "much"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "much",
+          "explanation": "Correct word is 'much'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "He exclaimed 'what {BLANK} beautiful flower!'",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "the"
+            },
+            {
+              "index": "c",
+              "text": "an"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "a",
+          "explanation": "Correct word is 'a'."
+        },
+        {
+          "q_id": "v",
+          "statement": "Sita is {BLANK} than any other girl.",
+          "options": [
+            {
+              "index": "a",
+              "text": "intelligent"
+            },
+            {
+              "index": "b",
+              "text": "more intelligent"
+            },
+            {
+              "index": "c",
+              "text": "most intelligent"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "more intelligent",
+          "explanation": "Correct answer is 'more intelligent'."
+        },
+        {
+          "q_id": "vi",
+          "statement": "{BLANK} you work hard, you will fail.",
+          "options": [
+            {
+              "index": "a",
+              "text": "If"
+            },
+            {
+              "index": "b",
+              "text": "As long as"
+            },
+            {
+              "index": "c",
+              "text": "Unless"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Unless",
+          "explanation": "Correct answer is 'Unless'."
+        }
+      ]
     },
-    {
-      "q_id": "ii",
-      "statement": "{BLANK} you live long!",
-      "options": [
-        { "index": "a", "text": "can" },
-        { "index": "b", "text": "might" },
-        { "index": "c", "text": "may" }
-      ],
-      "correct_index": "c",
-      "correct_answer": "may",
-      "explanation": "‘May’ is used to express a wish or blessing."
-    },
-    {
-      "q_id": "iii",
-      "statement": "July comes {BLANK} August.",
-      "options": [
-        { "index": "a", "text": "before" },
-        { "index": "b", "text": "after" },
-        { "index": "c", "text": "with" }
-      ],
-      "correct_index": "a",
-      "correct_answer": "before",
-      "explanation": "July comes before August in the calendar."
-    },
-    {
-      "q_id": "iv",
-      "statement": "Ashoka was one of {BLANK} greatest kings of India.",
-      "options": [
-        { "index": "a", "text": "a" },
-        { "index": "b", "text": "an" },
-        { "index": "c", "text": "the" }
-      ],
-      "correct_index": "c",
-      "correct_answer": "the",
-      "explanation": "‘The’ is used before superlative degree."
-    },
-    {
-      "q_id": "v",
-      "statement": "We {BLANK} follow the traffic rules.",
-      "options": [
-        { "index": "a", "text": "must" },
-        { "index": "b", "text": "should" },
-        { "index": "c", "text": "might" }
-      ],
-      "correct_index": "a",
-      "correct_answer": "must",
-      "explanation": "‘Must’ expresses obligation."
-    },
-    {
-      "q_id": "vi",
-      "statement": "He died {BLANK} cancer.",
-      "options": [
-        { "index": "a", "text": "of" },
-        { "index": "b", "text": "off" },
-        { "index": "c", "text": "on" }
-      ],
-      "correct_index": "a",
-      "correct_answer": "of",
-      "explanation": "‘Die of’ is used with diseases."
-    },
-    {
-      "q_id": "vii",
-      "statement": "Ritu has {BLANK} friends.",
-      "options": [
-        { "index": "a", "text": "much" },
-        { "index": "b", "text": "many" },
-        { "index": "c", "text": "any" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "many",
-      "explanation": "‘Many’ is used with countable nouns."
-    }
-  ]
-},
     {
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
