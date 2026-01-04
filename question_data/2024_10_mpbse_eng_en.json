@@ -6,7 +6,7 @@
     "board": "MP Board"
   },
   "questions": [
-    {
+  {
       "question_number": "1",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×5=5",
@@ -80,7 +80,583 @@
         }
       ]
     },
-
+    {
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "text": "Read the passage carefully and answer the questions given below:",
+      "passage": "Focuses on female education as a means to develop India. Mentions an African proverb: 'If you educate a woman, you educate an entire family or nation.' Education is described as a weapon to improve socio-economic status.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The above passage is mainly about",
+          "options": [
+            {
+              "index": "a",
+              "text": "a developed country"
+            },
+            {
+              "index": "b",
+              "text": "problems of women"
+            },
+            {
+              "index": "c",
+              "text": "woman education"
+            },
+            {
+              "index": "d",
+              "text": "upliftment of society"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "woman education",
+          "explanation": "The core theme of the passage is the necessity and impact of woman education."
+        },
+        {
+          "q_id": "ii",
+          "statement": "According to the old African proverb 'If you educate a man you...'",
+          "options": [
+            {
+              "index": "a",
+              "text": "educate a woman"
+            },
+            {
+              "index": "b",
+              "text": "educate a society"
+            },
+            {
+              "index": "c",
+              "text": "educate a nation"
+            },
+            {
+              "index": "d",
+              "text": "educate an individual"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "educate an individual",
+          "explanation": "The proverb stated in the text says educating a man educates an individual."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Woman education",
+          "options": [
+            {
+              "index": "a",
+              "text": "helps a nation become fully developed"
+            },
+            {
+              "index": "b",
+              "text": "brings down the ratio of inequality"
+            },
+            {
+              "index": "c",
+              "text": "helps the society in the upliftment of our people"
+            },
+            {
+              "index": "d",
+              "text": "all of these ((a), (b), (c))"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "all of these ((a), (b), (c))",
+          "explanation": "The passage attributes all these benefits to woman education."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5M",
+      "word_limit": "150 words",
+      "text": "Read the passage carefully and answer the questions given below:",
+      "passage": "Students who are very fond of reading books are often labelled by their companions as bookworms. Their criticism usually comes from students who consider themselves better sports. Students who shine in athletics or in games consider that it is better to spend time and energy in a sports arena than in a classroom or at the reading desk. All the same they do not always do well academically. Academic honour has a glamour which is unique. It is not to be denied that playing games is useful activity, because it creates team spirit and also makes the sportsmen healthy and vigorous. That is why games and sports are given so much importance in the curriculum of schools and colleges. But studies should not be neglected and should be given due importance along with other activities connected with education. Let each type of activity have its own place in our daily routine. Then only will we have students both academically sound and physically fit. We want our educational system to generate this synergy among our youth.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "On the basis of your reading of the above passage, make notes on it.",
+          "answer": "The passage highlights the balance between studies and sports. Students interested in reading are often called bookworms, while athletes feel sports are more important. However, academic achievement has its own unique honour. Games are necessary for health, teamwork, and energy, which is why they are included in education. At the same time, studies should not be ignored. Both academics and sports should have proper place in daily routine to develop students who are mentally strong and physically fit."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Give a suitable title to it.",
+          "answer": "Balance Between Studies and Sports"
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4M",
+      "word_limit": "120 words",
+      "text": "Write an application to your principal requesting him to issue your School Leaving Certificate (S.L.C.).",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "You are Manthan/Mahi studying in Govt. H.S. School, Bajrang Nagar, Indore.",
+          "explanation": "Reference: This is a formal application written to the school principal. Context: The student requests the issuance of the School Leaving Certificate. Explanation: The student politely addresses the principal, mentions personal and school details, clearly states the reason, and assures completion of formalities."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write a letter to your friend to invite him to attend your birthday party.",
+            "explanation": "Reference: This is an informal letter to a friend. Context: The writer invites a close friend to attend a birthday celebration. Explanation: Mentions date, time, venue, and ends warmly with regards."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5M",
+      "word_limit": "150 words",
+      "text": "Write an essay in about 150 words on any one of the following topics:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Importance of Games and Sports",
+          "explanation": "Explains role in physical fitness, teamwork, discipline, and stress reduction."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Any Festival",
+          "explanation": "Describes cultural/religious significance of any Indian festival."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Save Tree",
+          "explanation": "Focuses on environmental importance of trees and need for plantation."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Science in Daily Life",
+          "explanation": "Describes role of science in everyday activities and comfort."
+        },
+        {
+          "q_id": "v",
+          "statement": "My Hobby",
+          "explanation": "Describes a personal hobby and its benefits."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "VISUAL_COMPOSITION",
+      "marks": 3,
+      "word_limit": "75 words",
+      "text": "Look at the visual input given below and produce a small paragraph in about 75 words.",
+      "image_data": {
+        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_eng_visual.png",
+        "description": "The picture shows a rural scene where a man is walking along a path with a small child. Nearby, a group of schoolgirls carrying bags are walking towards a school building. Trees, huts, and a simple village environment are visible, highlighting daily life in a rural area and the importance of education."
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Your father is seriously ill. You {BLANK} go home.",
+          "options": [
+            {
+              "index": "a",
+              "text": "must"
+            },
+            {
+              "index": "b",
+              "text": "should"
+            },
+            {
+              "index": "c",
+              "text": "ought to"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "must",
+          "explanation": "‘must’ is correct as father is seriously ill."
+        },
+        {
+          "q_id": "ii",
+          "statement": "My father is a {BLANK} teacher.",
+          "options": [
+            {
+              "index": "a",
+              "text": "retired"
+            },
+            {
+              "index": "b",
+              "text": "retire"
+            },
+            {
+              "index": "c",
+              "text": "retiring"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "retired",
+          "explanation": "Correct word is 'retired'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How {BLANK} time is left?",
+          "options": [
+            {
+              "index": "a",
+              "text": "many"
+            },
+            {
+              "index": "b",
+              "text": "any"
+            },
+            {
+              "index": "c",
+              "text": "much"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "much",
+          "explanation": "Correct word is 'much'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "He exclaimed 'what {BLANK} beautiful flower!'",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "the"
+            },
+            {
+              "index": "c",
+              "text": "an"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "a",
+          "explanation": "Correct word is 'a'."
+        },
+        {
+          "q_id": "v",
+          "statement": "Sita is {BLANK} than any other girl.",
+          "options": [
+            {
+              "index": "a",
+              "text": "intelligent"
+            },
+            {
+              "index": "b",
+              "text": "more intelligent"
+            },
+            {
+              "index": "c",
+              "text": "most intelligent"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "more intelligent",
+          "explanation": "Correct answer is 'more intelligent'."
+        },
+        {
+          "q_id": "vi",
+          "statement": "{BLANK} you work hard, you will fail.",
+          "options": [
+            {
+              "index": "a",
+              "text": "If"
+            },
+            {
+              "index": "b",
+              "text": "As long as"
+            },
+            {
+              "index": "c",
+              "text": "Unless"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Unless",
+          "explanation": "Correct answer is 'Unless'."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "instruction": "Do as directed: (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Combine using 'who': (a) Lencho wrote a letter to God. (b) Lencho was a peasant.",
+          "answer_key": "Lencho, who was a peasant, wrote a letter to God.",
+          "explanation": "The two sentences are combined using the relative pronoun 'who'."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Change to passive voice: He knows me.",
+          "answer_key": "I am known to him.",
+          "explanation": "The active voice sentence is converted into passive voice correctly."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Rearrange: noise / the class room / making / a / girls / in / were / some",
+          "answer_key": "Some girls were making a noise in the classroom.",
+          "explanation": "The words are rearranged to form a meaningful sentence."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Correct the sentence: We are living in this city since 2005.",
+          "answer_key": "We have been living in this city since 2005.",
+          "explanation": "The sentence is corrected using the present perfect continuous tense."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "text": "Choose the correct answer:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why did Lencho get only seventy pesos?",
+          "options": [
+            {
+              "index": "a",
+              "text": "It was God's mistake to send him only 70 pesos."
+            },
+            {
+              "index": "b",
+              "text": "The postmaster stole the rest of money."
+            },
+            {
+              "index": "c",
+              "text": "The postmaster could collect only seventy pesos for an act of charity."
+            },
+            {
+              "index": "d",
+              "text": "Lencho made a mistake while counting the money."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "The postmaster could collect only seventy pesos for an act of charity.",
+          "explanation": "According to the story, the postmaster was only able to gather 70 pesos from his salary and contributions from employees and friends."
+        },
+        {
+          "q_id": "ii",
+          "statement": "When Anne Frank decides to write a diary, she was",
+          "options": [
+            {
+              "index": "a",
+              "text": "a ten-year old"
+            },
+            {
+              "index": "b",
+              "text": "a thirteen-year old"
+            },
+            {
+              "index": "c",
+              "text": "a fourteen-year old"
+            },
+            {
+              "index": "d",
+              "text": "an eighteen-year old"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "a thirteen-year old",
+          "explanation": "Anne Frank was thirteen years old when she started writing her diary."
+        },
+        {
+          "q_id": "iii",
+          "statement": "'The Proposal' is a one act play about",
+          "options": [
+            {
+              "index": "a",
+              "text": "Russian wedding culture"
+            },
+            {
+              "index": "b",
+              "text": "Indian wedding culture"
+            },
+            {
+              "index": "c",
+              "text": "Japanese wedding culture"
+            },
+            {
+              "index": "d",
+              "text": "Chinese wedding culture"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Russian wedding culture",
+          "explanation": "The play 'The Proposal' by Anton Chekhov depicts the wedding culture of landowning Russians."
+        },
+        {
+          "q_id": "iv",
+          "statement": "10 May in South Africa is",
+          "options": [
+            {
+              "index": "a",
+              "text": "a winter day"
+            },
+            {
+              "index": "b",
+              "text": "a monsoon day"
+            },
+            {
+              "index": "c",
+              "text": "a summer day"
+            },
+            {
+              "index": "d",
+              "text": "an autumn day"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "an autumn day",
+          "explanation": "Nelson Mandela describes May 10th as a 'lovely autumn day' in South Africa."
+        }
+      ]
+    },
+    {
+      "question_number": "10A",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "instruction": "Read the extract carefully and answer the questions (From: A Baker from Goa)",
+      "passage":"The baker usually collected his bills at the end of the month. Monthly accounts used to be recorded on some wall in pencil. \n Baking was indeed a profitable profession in the old days. The baker and his family never starved. \n He, his family and his servants always looked prosperous. Their plump physique was an open testimony to this.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Monthly accounts of the baker were recorded on",
+          "options": [
+            {
+              "index": "a",
+              "text": "a note book"
+            },
+            {
+              "index": "b",
+              "text": "the main door of the house"
+            },
+            {
+              "index": "c",
+              "text": "some wall in pencil"
+            },
+            {
+              "index": "d",
+              "text": "the floor"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "some wall in pencil",
+          "explanation": "The extract states accounts were recorded on some wall in pencil."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which word in the extract means 'a pleasant fat body'?",
+          "options": [
+            {
+              "index": "a",
+              "text": "plump"
+            },
+            {
+              "index": "b",
+              "text": "prosperous"
+            },
+            {
+              "index": "c",
+              "text": "profitable"
+            },
+            {
+              "index": "d",
+              "text": "testimony"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "plump",
+          "explanation": "The text uses 'plump physique' to describe the physical appearance of a successful baker."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The baker and his family never starved because",
+          "options": [
+            {
+              "index": "a",
+              "text": "they were rich"
+            },
+            {
+              "index": "b",
+              "text": "baking was a profitable profession"
+            },
+            {
+              "index": "c",
+              "text": "they had government support"
+            },
+            {
+              "index": "d",
+              "text": "they had many servants"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "baking was a profitable profession",
+          "explanation": "The passage mentions baking was indeed a profitable profession in the old days."
+        }
+      ]
+    },
+     {
+      "question_number": "10(B)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "text": "Read the extract carefully and answer the questions:",
+      "passage": "I am an orphan, roaming the street.\nI pattern soft dust with my hushed, bare feet.\nThe silence is golden, the freedom is sweet.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "From which poem of your text book has this extract been taken?",
+          "options": [
+            { "index": "a", "text": "Fog" },
+            { "index": "b", "text": "The Ball Poem" },
+            { "index": "c", "text": "Amanda" },
+            { "index": "d", "text": "For Anne Gregory" }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Amanda"
+        },
+        {
+          "q_id": "ii",
+          "statement": "The word ‘orphan’ means:",
+          "options": [
+            { "index": "a", "text": "a child having no friend" },
+            { "index": "b", "text": "a child having no father and mother" },
+            { "index": "c", "text": "a child who roams the street" },
+            { "index": "d", "text": "a child who likes freedom" }
+          ],
+          "correct_index": "b",
+          "correct_answer": "a child having no father and mother"
+        },
+        {
+          "q_id": "iii",
+          "statement": "What does the girl actually want?",
+          "options": [
+            { "index": "a", "text": "She wants freedom and silence" },
+            { "index": "b", "text": "She wants to be an orphan" },
+            { "index": "c", "text": "She wants to remain bare feet" },
+            { "index": "d", "text": "She wants to walk on soft dust" }
+          ],
+          "correct_index": "a",
+          "correct_answer": "She wants freedom and silence"
+        }
+      ]
+    },
+    
     {
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
@@ -234,5 +810,6 @@
         }
       ]
     }
+    
   ]
 }
