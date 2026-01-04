@@ -6,7 +6,7 @@
     "board": "MP Board"
   },
   "questions": [
-    {
+  {
       "question_number": "1",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×5=5",
@@ -17,22 +17,10 @@
           "q_id": "i",
           "statement": "The ultimate challenge these days is to",
           "options": [
-            {
-              "index": "a",
-              "text": "make money"
-            },
-            {
-              "index": "b",
-              "text": "make your mind calm"
-            },
-            {
-              "index": "c",
-              "text": "get education"
-            },
-            {
-              "index": "d",
-              "text": "focus on breathing"
-            }
+            { "index": "a", "text": "make money" },
+            { "index": "b", "text": "make your mind calm" },
+            { "index": "c", "text": "get education" },
+            { "index": "d", "text": "focus on breathing" }
           ],
           "correct_index": "b",
           "correct_answer": "make your mind calm",
@@ -42,22 +30,10 @@
           "q_id": "ii",
           "statement": "Meditation helps students",
           "options": [
-            {
-              "index": "a",
-              "text": "to improve long term performance in studies"
-            },
-            {
-              "index": "b",
-              "text": "to gain weight"
-            },
-            {
-              "index": "c",
-              "text": "to increase height"
-            },
-            {
-              "index": "d",
-              "text": "to get a job"
-            }
+            { "index": "a", "text": "to improve long term performance in studies" },
+            { "index": "b", "text": "to gain weight" },
+            { "index": "c", "text": "to increase height" },
+            { "index": "d", "text": "to get a job" }
           ],
           "correct_index": "a",
           "correct_answer": "to improve long term performance in studies",
@@ -67,22 +43,10 @@
           "q_id": "iii",
           "statement": "The simplest form of meditation is",
           "options": [
-            {
-              "index": "a",
-              "text": "focussing on studies"
-            },
-            {
-              "index": "b",
-              "text": "light exercise"
-            },
-            {
-              "index": "c",
-              "text": "focussing on breathing"
-            },
-            {
-              "index": "d",
-              "text": "walking"
-            }
+            { "index": "a", "text": "focussing on studies" },
+            { "index": "b", "text": "light exercise" },
+            { "index": "c", "text": "focussing on breathing" },
+            { "index": "d", "text": "walking" }
           ],
           "correct_index": "c",
           "correct_answer": "focussing on breathing",
@@ -92,22 +56,10 @@
           "q_id": "iv",
           "statement": "The word 'meditation' is",
           "options": [
-            {
-              "index": "a",
-              "text": "a verb"
-            },
-            {
-              "index": "b",
-              "text": "an adjective"
-            },
-            {
-              "index": "c",
-              "text": "a pronoun"
-            },
-            {
-              "index": "d",
-              "text": "a noun"
-            }
+            { "index": "a", "text": "a verb" },
+            { "index": "b", "text": "an adjective" },
+            { "index": "c", "text": "a pronoun" },
+            { "index": "d", "text": "a noun" }
           ],
           "correct_index": "d",
           "correct_answer": "a noun",
@@ -117,22 +69,10 @@
           "q_id": "v",
           "statement": "Which word in this passage means 'an ability to keep something in mind'?",
           "options": [
-            {
-              "index": "a",
-              "text": "challenge"
-            },
-            {
-              "index": "b",
-              "text": "retention"
-            },
-            {
-              "index": "c",
-              "text": "sense"
-            },
-            {
-              "index": "d",
-              "text": "growth"
-            }
+            { "index": "a", "text": "challenge" },
+            { "index": "b", "text": "retention" },
+            { "index": "c", "text": "sense" },
+            { "index": "d", "text": "growth" }
           ],
           "correct_index": "b",
           "correct_answer": "retention",
@@ -309,7 +249,7 @@
       "word_limit": "75 words",
       "text": "Look at the visual input given below and produce a small paragraph in about 75 words.",
       "image_data": {
-        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_eng_visual.png",
+        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_eng_visual.png",
         "description": "The picture shows a rural scene where a man is walking along a path with a small child. Nearby, a group of schoolgirls carrying bags are walking towards a school building. Trees, huts, and a simple village environment are visible, highlighting daily life in a rural area and the importance of education."
       }
     },
@@ -451,7 +391,7 @@
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
       "marks": "1×5=5",
-      "text": "Do as directed: (any five)",
+      "text": "Do as directed: any five",
       "parts": [
         {
           "q_id": "i",
@@ -592,7 +532,7 @@
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×3=3",
       "text": "Read the extract carefully and answer the questions (From: A Baker from Goa)",
-      "passage": "The baker usually collected his bills at the end of the month. Monthly accounts used to be recorded on some wall in pencil. \n Baking was indeed a profitable profession in the old days. The baker and his family never starved. \n He, his family and his servants always looked prosperous. Their plump physique was an open testimony to this.",
+      "passage":"The baker usually collected his bills at the end of the month. Monthly accounts used to be recorded on some wall in pencil. \n Baking was indeed a profitable profession in the old days. The baker and his family never starved. \n He, his family and his servants always looked prosperous. Their plump physique was an open testimony to this.",
       "parts": [
         {
           "q_id": "i",
@@ -671,7 +611,7 @@
         }
       ]
     },
-    {
+     {
       "question_number": "10(B)",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×3=3",
@@ -682,22 +622,10 @@
           "q_id": "i",
           "statement": "From which poem of your text book has this extract been taken?",
           "options": [
-            {
-              "index": "a",
-              "text": "Fog"
-            },
-            {
-              "index": "b",
-              "text": "The Ball Poem"
-            },
-            {
-              "index": "c",
-              "text": "Amanda"
-            },
-            {
-              "index": "d",
-              "text": "For Anne Gregory"
-            }
+            { "index": "a", "text": "Fog" },
+            { "index": "b", "text": "The Ball Poem" },
+            { "index": "c", "text": "Amanda" },
+            { "index": "d", "text": "For Anne Gregory" }
           ],
           "correct_index": "c",
           "correct_answer": "Amanda"
@@ -706,22 +634,10 @@
           "q_id": "ii",
           "statement": "The word ‘orphan’ means:",
           "options": [
-            {
-              "index": "a",
-              "text": "a child having no friend"
-            },
-            {
-              "index": "b",
-              "text": "a child having no father and mother"
-            },
-            {
-              "index": "c",
-              "text": "a child who roams the street"
-            },
-            {
-              "index": "d",
-              "text": "a child who likes freedom"
-            }
+            { "index": "a", "text": "a child having no friend" },
+            { "index": "b", "text": "a child having no father and mother" },
+            { "index": "c", "text": "a child who roams the street" },
+            { "index": "d", "text": "a child who likes freedom" }
           ],
           "correct_index": "b",
           "correct_answer": "a child having no father and mother"
@@ -730,28 +646,17 @@
           "q_id": "iii",
           "statement": "What does the girl actually want?",
           "options": [
-            {
-              "index": "a",
-              "text": "She wants freedom and silence"
-            },
-            {
-              "index": "b",
-              "text": "She wants to be an orphan"
-            },
-            {
-              "index": "c",
-              "text": "She wants to remain bare feet"
-            },
-            {
-              "index": "d",
-              "text": "She wants to walk on soft dust"
-            }
+            { "index": "a", "text": "She wants freedom and silence" },
+            { "index": "b", "text": "She wants to be an orphan" },
+            { "index": "c", "text": "She wants to remain bare feet" },
+            { "index": "d", "text": "She wants to walk on soft dust" }
           ],
           "correct_index": "a",
           "correct_answer": "She wants freedom and silence"
         }
       ]
     },
+    
     {
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
@@ -800,6 +705,7 @@
         }
       ]
     },
+
     {
       "question_number": "12",
       "question_type": "DESCRIPTIVE",
@@ -823,6 +729,7 @@
         }
       ]
     },
+
     {
       "question_number": "13",
       "question_type": "DESCRIPTIVE",
@@ -846,6 +753,7 @@
         }
       ]
     },
+
     {
       "question_number": "14",
       "question_type": "DESCRIPTIVE",
@@ -864,6 +772,7 @@
         }
       ]
     },
+
     {
       "question_number": "15",
       "question_type": "DESCRIPTIVE",
@@ -882,6 +791,7 @@
         }
       ]
     },
+
     {
       "question_number": "16",
       "question_type": "DESCRIPTIVE",
@@ -900,5 +810,6 @@
         }
       ]
     }
+    
   ]
 }
