@@ -1,82 +1,142 @@
 {
   "paper_details": {
-    "paperYear": "2024",
+    "paperYear": "2023",
     "subjectName": "ENGLISH",
     "totalMarks": "75",
     "board": "MP Board"
   },
   "questions": [
-  {
+    {
       "question_number": "1",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×5=5",
-      "text": "Read the passage carefully and answer the questions given below:",
-      "passage": "The ultimate challenge is to make your mind calm and the ultimate solution is meditation. For a student, it improves long term performance, health, focus, and concentration. The simplest form is focussing on breathing in a quiet place.",
+      "text": "Read the passage carefully and answer the following questions:",
+      "passage": "There once was a stingy baker. A poor man would stand outside his bakery every day, enjoying the nice smell of baking bread. The baker was very angry at the poor man. He felt that anyone who smelled his delicious products should pay for the smell. So he took the poor man to the court.",
       "parts": [
         {
           "q_id": "i",
-          "statement": "The ultimate challenge these days is to",
+          "statement": "The poor man stood outside the bakery",
           "options": [
-            { "index": "a", "text": "make money" },
-            { "index": "b", "text": "make your mind calm" },
-            { "index": "c", "text": "get education" },
-            { "index": "d", "text": "focus on breathing" }
+            {
+              "index": "a",
+              "text": "To buy bread"
+            },
+            {
+              "index": "b",
+              "text": "To eat bread"
+            },
+            {
+              "index": "c",
+              "text": "To enjoy the smell of baking bread"
+            },
+            {
+              "index": "d",
+              "text": "To steal bread"
+            }
           ],
-          "correct_index": "b",
-          "correct_answer": "make your mind calm",
-          "explanation": "The passage clearly states that the ultimate challenge is to make the mind calm."
+          "correct_index": "c",
+          "correct_answer": "To enjoy the smell of baking bread",
+          "explanation": "The passage clearly states that the poor man enjoyed the smell of baking bread."
         },
         {
           "q_id": "ii",
-          "statement": "Meditation helps students",
+          "statement": "The baker took the poor man to",
           "options": [
-            { "index": "a", "text": "to improve long term performance in studies" },
-            { "index": "b", "text": "to gain weight" },
-            { "index": "c", "text": "to increase height" },
-            { "index": "d", "text": "to get a job" }
+            {
+              "index": "a",
+              "text": "Court"
+            },
+            {
+              "index": "b",
+              "text": "Temple"
+            },
+            {
+              "index": "c",
+              "text": "Bakery"
+            },
+            {
+              "index": "d",
+              "text": "His home"
+            }
           ],
           "correct_index": "a",
-          "correct_answer": "to improve long term performance in studies",
-          "explanation": "Meditation improves performance, health, focus, and concentration in students."
+          "correct_answer": "Court",
+          "explanation": "The baker took the poor man to the court."
         },
         {
           "q_id": "iii",
-          "statement": "The simplest form of meditation is",
+          "statement": "How many coins were found in poor man's pocket?",
           "options": [
-            { "index": "a", "text": "focussing on studies" },
-            { "index": "b", "text": "light exercise" },
-            { "index": "c", "text": "focussing on breathing" },
-            { "index": "d", "text": "walking" }
+            {
+              "index": "a",
+              "text": "Twenty"
+            },
+            {
+              "index": "b",
+              "text": "Two"
+            },
+            {
+              "index": "c",
+              "text": "Four"
+            },
+            {
+              "index": "d",
+              "text": "One"
+            }
           ],
-          "correct_index": "c",
-          "correct_answer": "focussing on breathing",
-          "explanation": "The passage mentions focussing on breathing as the simplest form of meditation."
+          "correct_index": "b",
+          "correct_answer": "Two",
+          "explanation": "The poor man produced two small coins."
         },
         {
           "q_id": "iv",
-          "statement": "The word 'meditation' is",
+          "statement": "Give a suitable title to the passage.",
           "options": [
-            { "index": "a", "text": "a verb" },
-            { "index": "b", "text": "an adjective" },
-            { "index": "c", "text": "a pronoun" },
-            { "index": "d", "text": "a noun" }
+            {
+              "index": "a",
+              "text": "Kingdom of Fools"
+            },
+            {
+              "index": "b",
+              "text": "Love begets Love"
+            },
+            {
+              "index": "c",
+              "text": "There is a will, there is a way"
+            },
+            {
+              "index": "d",
+              "text": "Tit for Tat"
+            }
           ],
           "correct_index": "d",
-          "correct_answer": "a noun",
-          "explanation": "Meditation is the name of a practice, so it is a noun."
+          "correct_answer": "Tit for Tat",
+          "explanation": "The judgment matches sound with smell, making it a 'Tit for Tat'."
         },
         {
           "q_id": "v",
-          "statement": "Which word in this passage means 'an ability to keep something in mind'?",
+          "statement": "Which word is the opposite of the word 'rich'?",
           "options": [
-            { "index": "a", "text": "challenge" },
-            { "index": "b", "text": "retention" },
-            { "index": "c", "text": "sense" },
-            { "index": "d", "text": "growth" }
+            {
+              "index": "a",
+              "text": "Honest"
+            },
+            {
+              "index": "b",
+              "text": "Stingy"
+            },
+            {
+              "index": "c",
+              "text": "Poor"
+            },
+            {
+              "index": "d",
+              "text": "Judge"
+            }
           ],
-          "correct_index": "b",
-          "correct_answer": "retention",
-          "explanation": "Retention means the ability to keep information in the mind."
+          "correct_index": "c",
+          "correct_answer": "Poor",
+          "explanation": "The opposite of rich is poor."
         }
       ]
     },
@@ -84,102 +144,104 @@
       "question_number": "2",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×5=5",
-      "text": "Read the passage carefully and answer the questions given below:",
-      "passage": "Focuses on female education as a means to develop India. Mentions an African proverb: 'If you educate a woman, you educate an entire family or nation.' Education is described as a weapon to improve socio-economic status.",
+      "text": "Read the following passage carefully and answer the questions:",
+      "passage": "It was winter and there was thick fog all around. A deer that happened to pass that way saw the danger ahead. It ran to warn the rabbits. The rabbits laughed at the deer, but later realised the truth.",
       "parts": [
         {
           "q_id": "i",
-          "statement": "The above passage is mainly about",
+          "statement": "The fog was",
           "options": [
             {
               "index": "a",
-              "text": "a developed country"
+              "text": "thin"
             },
             {
               "index": "b",
-              "text": "problems of women"
+              "text": "thick"
             },
             {
               "index": "c",
-              "text": "woman education"
+              "text": "light"
             },
             {
               "index": "d",
-              "text": "upliftment of society"
+              "text": "clear"
             }
           ],
-          "correct_index": "c",
-          "correct_answer": "woman education",
-          "explanation": "The core theme of the passage is the necessity and impact of woman education."
+          "correct_index": "b",
+          "correct_answer": "thick",
+          "explanation": "The passage mentions thick fog."
         },
         {
           "q_id": "ii",
-          "statement": "According to the old African proverb 'If you educate a man you...'",
+          "statement": "Who warned the rabbits?",
           "options": [
             {
               "index": "a",
-              "text": "educate a woman"
+              "text": "Lion"
             },
             {
               "index": "b",
-              "text": "educate a society"
+              "text": "Dog"
             },
             {
               "index": "c",
-              "text": "educate a nation"
+              "text": "Deer"
             },
             {
               "index": "d",
-              "text": "educate an individual"
+              "text": "Man"
             }
           ],
-          "correct_index": "d",
-          "correct_answer": "educate an individual",
-          "explanation": "The proverb stated in the text says educating a man educates an individual."
+          "correct_index": "c",
+          "correct_answer": "Deer",
+          "explanation": "The deer ran to warn the rabbits."
         },
         {
           "q_id": "iii",
-          "statement": "Woman education",
+          "statement": "The rabbits first",
           "options": [
             {
               "index": "a",
-              "text": "helps a nation become fully developed"
+              "text": "believed the deer"
             },
             {
               "index": "b",
-              "text": "brings down the ratio of inequality"
+              "text": "laughed at the deer"
             },
             {
               "index": "c",
-              "text": "helps the society in the upliftment of our people"
+              "text": "ran away"
             },
             {
               "index": "d",
-              "text": "all of these ((a), (b), (c))"
+              "text": "hid themselves"
             }
           ],
-          "correct_index": "d",
-          "correct_answer": "all of these ((a), (b), (c))",
-          "explanation": "The passage attributes all these benefits to woman education."
+          "correct_index": "b",
+          "correct_answer": "laughed at the deer",
+          "explanation": "They laughed at the deer initially."
         }
       ]
     },
     {
       "question_number": "3",
-      "question_type": "DESCRIPTIVE",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "5M",
-      "word_limit": "150 words",
+      "word_limit": "150 words (approx)",
       "text": "Read the passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
       "passage": "Students who are very fond of reading books are often labelled by their companions as bookworms. Their criticism usually comes from students who consider themselves better sports. Students who shine in athletics or in games consider that it is better to spend time and energy in a sports arena than in a classroom or at the reading desk. All the same they do not always do well academically. Academic honour has a glamour which is unique. It is not to be denied that playing games is useful activity, because it creates team spirit and also makes the sportsmen healthy and vigorous. That is why games and sports are given so much importance in the curriculum of schools and colleges. But studies should not be neglected and should be given due importance along with other activities connected with education. Let each type of activity have its own place in our daily routine. Then only will we have students both academically sound and physically fit. We want our educational system to generate this synergy among our youth.",
-      "parts": [
+      "essay_topics": [
         {
-          "q_id": "i",
-          "statement": "On the basis of your reading of the above passage, make notes on it.",
-          "answer": "The passage highlights the balance between studies and sports. Students interested in reading are often called bookworms, while athletes feel sports are more important. However, academic achievement has its own unique honour. Games are necessary for health, teamwork, and energy, which is why they are included in education. At the same time, studies should not be ignored. Both academics and sports should have proper place in daily routine to develop students who are mentally strong and physically fit."
+          "topic_id": "i",
+          "name": "On the basis of your reading of the above passage, make notes on it.",
+          "answer": "The passage emphasizes the need for balance between studies and sports. Students who love reading are often called bookworms, while sports-oriented students give more importance to games. Although games are useful for health, teamwork, and energy, academic success has its own unique honour. Education should give equal importance to both studies and sports. A proper balance in daily routine can help develop students who are mentally sound and physically fit."
         },
         {
-          "q_id": "ii",
-          "statement": "Give a suitable title to it.",
+          "topic_id": "ii",
+          "name": "Give a suitable title to it.",
           "answer": "Balance Between Studies and Sports"
         }
       ]
@@ -189,12 +251,12 @@
       "question_type": "DESCRIPTIVE",
       "marks": "4M",
       "word_limit": "120 words",
-      "text": "Write an application to your principal requesting him to issue your School Leaving Certificate (S.L.C.).",
+      "text": "Write an application to your principal for issuing your School Leaving Certificate.",
       "parts": [
         {
           "q_id": "i",
-          "statement": "You are Manthan/Mahi studying in Govt. H.S. School, Bajrang Nagar, Indore.",
-          "explanation": "Reference: This is a formal application written to the school principal. Context: The student requests the issuance of the School Leaving Certificate. Explanation: The student politely addresses the principal, mentions personal and school details, clearly states the reason, and assures completion of formalities."
+          "statement": "You are Manas/Mansi, studying in Govt. Higher Secondary School, Balaghat.",
+          "explanation": "Reference: This is a formal application written to the school principal. Context: The student requests the issuance of the School Leaving Certificate. Explanation: The application should include the student's name, school name, reason for leaving the school, polite language, and a proper closing."
         }
       ],
       "or_option": {
@@ -202,8 +264,8 @@
         "parts": [
           {
             "q_id": "ii",
-            "statement": "Write a letter to your friend to invite him to attend your birthday party.",
-            "explanation": "Reference: This is an informal letter to a friend. Context: The writer invites a close friend to attend a birthday celebration. Explanation: Mentions date, time, venue, and ends warmly with regards."
+            "statement": "You are Ritik/Ritika, living in Indore. Write a letter to your friend inviting him/her to your father's promotion party.",
+            "explanation": "Reference: This is an informal letter written to a friend. Context: The writer invites a friend to attend their father's promotion party. Explanation: The letter should mention the occasion, date, time, venue, express happiness, and end with a friendly closing."
           }
         ]
       }
@@ -212,178 +274,89 @@
       "question_number": "5",
       "question_type": "DESCRIPTIVE",
       "marks": "5M",
-      "word_limit": "150 words",
-      "text": "Write an essay in about 150 words on any one of the following topics:",
+      "word_limit": "250 words",
+      "text": "Write an essay on any one of the following topics:",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Importance of Games and Sports",
-          "explanation": "Explains role in physical fitness, teamwork, discipline, and stress reduction."
+          "statement": "Online Education"
         },
         {
           "q_id": "ii",
-          "statement": "Any Festival",
-          "explanation": "Describes cultural/religious significance of any Indian festival."
+          "statement": "Disadvantages of Social Media"
         },
         {
           "q_id": "iii",
-          "statement": "Save Tree",
-          "explanation": "Focuses on environmental importance of trees and need for plantation."
+          "statement": "Population Growth"
         },
         {
           "q_id": "iv",
-          "statement": "Science in Daily Life",
-          "explanation": "Describes role of science in everyday activities and comfort."
+          "statement": "Electric Vehicles"
         },
         {
           "q_id": "v",
-          "statement": "My Hobby",
-          "explanation": "Describes a personal hobby and its benefits."
+          "statement": "Women Empowerment"
         }
       ]
     },
     {
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
-      "marks": 3,
+      "marks": "3",
       "word_limit": "75 words",
-      "text": "Look at the visual input given below and produce a small paragraph in about 75 words.",
+      "text": "Look at the visual input given below and write a small paragraph.",
       "image_data": {
-        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_eng_visual.png",
-        "description": "The picture shows a rural scene where a man is walking along a path with a small child. Nearby, a group of schoolgirls carrying bags are walking towards a school building. Trees, huts, and a simple village environment are visible, highlighting daily life in a rural area and the importance of education."
+        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_eng_visual.png",
+        "description": "A river flowing between hills, trees on both sides and birds flying."
       }
     },
     {
       "question_number": "7",
       "question_type": "FILL_IN_THE_BLANK",
       "marks": "1×5=5",
-      "text": "Fill in the blanks : (any five)",
+      "text": "Fill in the blanks: (any five)",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Your father is seriously ill. You {BLANK} go home.",
-          "options": [
-            {
-              "index": "a",
-              "text": "must"
-            },
-            {
-              "index": "b",
-              "text": "should"
-            },
-            {
-              "index": "c",
-              "text": "ought to"
-            }
-          ],
-          "correct_index": "a",
-          "correct_answer": "must",
-          "explanation": "‘must’ is correct as father is seriously ill."
+          "statement": "She ______ a song. (singing, sings, sung)",
+          "correct_answer": "sings",
+          "explanation": "‘Sings’ is correct as it matches present tense with singular subject."
         },
         {
           "q_id": "ii",
-          "statement": "My father is a {BLANK} teacher.",
-          "options": [
-            {
-              "index": "a",
-              "text": "retired"
-            },
-            {
-              "index": "b",
-              "text": "retire"
-            },
-            {
-              "index": "c",
-              "text": "retiring"
-            }
-          ],
-          "correct_index": "a",
-          "correct_answer": "retired",
-          "explanation": "Correct word is 'retired'."
+          "statement": "______ you live long! (can, might, may)",
+          "correct_answer": "may",
+          "explanation": "‘May’ is used to express a wish."
         },
         {
           "q_id": "iii",
-          "statement": "How {BLANK} time is left?",
-          "options": [
-            {
-              "index": "a",
-              "text": "many"
-            },
-            {
-              "index": "b",
-              "text": "any"
-            },
-            {
-              "index": "c",
-              "text": "much"
-            }
-          ],
-          "correct_index": "c",
-          "correct_answer": "much",
-          "explanation": "Correct word is 'much'."
+          "statement": "July comes ______ August. (before, after, with)",
+          "correct_answer": "before",
+          "explanation": "July comes before August."
         },
         {
           "q_id": "iv",
-          "statement": "He exclaimed 'what {BLANK} beautiful flower!'",
-          "options": [
-            {
-              "index": "a",
-              "text": "a"
-            },
-            {
-              "index": "b",
-              "text": "the"
-            },
-            {
-              "index": "c",
-              "text": "an"
-            }
-          ],
-          "correct_index": "a",
-          "correct_answer": "a",
-          "explanation": "Correct word is 'a'."
+          "statement": "Ashoka was one of ______ greatest kings of India. (a, an, the)",
+          "correct_answer": "the",
+          "explanation": "‘The’ is used with superlative degree."
         },
         {
           "q_id": "v",
-          "statement": "Sita is {BLANK} than any other girl.",
-          "options": [
-            {
-              "index": "a",
-              "text": "intelligent"
-            },
-            {
-              "index": "b",
-              "text": "more intelligent"
-            },
-            {
-              "index": "c",
-              "text": "most intelligent"
-            }
-          ],
-          "correct_index": "b",
-          "correct_answer": "more intelligent",
-          "explanation": "Correct answer is 'more intelligent'."
+          "statement": "We ______ follow the traffic rules. (must, should, might)",
+          "correct_answer": "must",
+          "explanation": "‘Must’ shows obligation."
         },
         {
           "q_id": "vi",
-          "statement": "{BLANK} you work hard, you will fail.",
-          "options": [
-            {
-              "index": "a",
-              "text": "If"
-            },
-            {
-              "index": "b",
-              "text": "As long as"
-            },
-            {
-              "index": "c",
-              "text": "Unless"
-            }
-          ],
-          "correct_index": "c",
-          "correct_answer": "Unless",
-          "explanation": "Correct answer is 'Unless'."
+          "statement": "He died ______ cancer. (of, off, on)",
+          "correct_answer": "of",
+          "explanation": "‘Die of’ is used with diseases."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Ritu has ______ friends. (much, many, any)",
+          "correct_answer": "many",
+          "explanation": "‘Many’ is used with countable nouns."
         }
       ]
     },
@@ -391,31 +364,42 @@
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
       "marks": "1×5=5",
-      "text": "Do as directed: any five",
+      "text": "Do as directed: (any five)",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Combine using 'who': (a) Lencho wrote a letter to God. (b) Lencho was a peasant.",
-          "answer_key": "Lencho, who was a peasant, wrote a letter to God.",
-          "explanation": "The two sentences are combined using the relative pronoun 'who'."
+          "statement": "Police arrested the thief. (Make negative)",
+          "explanation": "Police did not arrest the thief."
         },
         {
           "q_id": "ii",
-          "statement": "Change to passive voice: He knows me.",
-          "answer_key": "I am known to him.",
-          "explanation": "The active voice sentence is converted into passive voice correctly."
+          "statement": "Ram writes a letter. (Change the voice)",
+          "explanation": "A letter is written by Ram."
         },
         {
           "q_id": "iii",
-          "statement": "Rearrange: noise / the class room / making / a / girls / in / were / some",
-          "answer_key": "Some girls were making a noise in the classroom.",
-          "explanation": "The words are rearranged to form a meaningful sentence."
+          "statement": "Swimming is a good habit. (Rewrite beginning with 'It')",
+          "explanation": "It is a good habit to swim."
         },
         {
           "q_id": "iv",
-          "statement": "Correct the sentence: We are living in this city since 2005.",
-          "answer_key": "We have been living in this city since 2005.",
-          "explanation": "The sentence is corrected using the present perfect continuous tense."
+          "statement": "Mamta goes to school everyday. (Make interrogative)",
+          "explanation": "Does Mamta go to school everyday?"
+        },
+        {
+          "q_id": "v",
+          "statement": "He is so fat that he cannot run fast. (Use too…to)",
+          "explanation": "He is too fat to run fast."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The boy is my nephew. He is wearing a blue shirt. (Rewrite using 'who')",
+          "explanation": "The boy who is wearing a blue shirt is my nephew."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Unless you run fast, you will miss the train. (Use 'If' in place of 'Unless')",
+          "explanation": "If you do not run fast, you will miss the train."
         }
       ]
     },
@@ -423,107 +407,107 @@
       "question_number": "9",
       "question_type": "MULTIPLE_CHOICE",
       "marks": "1×4=4",
-      "text": "Choose the correct answer:",
+      "text": "Answer the following questions:",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Why did Lencho get only seventy pesos?",
+          "statement": "According to Nelson Mandela, what comes naturally to the human heart?",
           "options": [
             {
               "index": "a",
-              "text": "It was God's mistake to send him only 70 pesos."
+              "text": "hatred"
             },
             {
               "index": "b",
-              "text": "The postmaster stole the rest of money."
+              "text": "love"
             },
             {
               "index": "c",
-              "text": "The postmaster could collect only seventy pesos for an act of charity."
+              "text": "unity"
             },
             {
               "index": "d",
-              "text": "Lencho made a mistake while counting the money."
-            }
-          ],
-          "correct_index": "c",
-          "correct_answer": "The postmaster could collect only seventy pesos for an act of charity.",
-          "explanation": "According to the story, the postmaster was only able to gather 70 pesos from his salary and contributions from employees and friends."
-        },
-        {
-          "q_id": "ii",
-          "statement": "When Anne Frank decides to write a diary, she was",
-          "options": [
-            {
-              "index": "a",
-              "text": "a ten-year old"
-            },
-            {
-              "index": "b",
-              "text": "a thirteen-year old"
-            },
-            {
-              "index": "c",
-              "text": "a fourteen-year old"
-            },
-            {
-              "index": "d",
-              "text": "an eighteen-year old"
+              "text": "discrimination"
             }
           ],
           "correct_index": "b",
-          "correct_answer": "a thirteen-year old",
-          "explanation": "Anne Frank was thirteen years old when she started writing her diary."
+          "correct_answer": "love",
+          "explanation": "Mandela says love comes more naturally than hate."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What was the name of Anne’s diary?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Betty"
+            },
+            {
+              "index": "b",
+              "text": "Kitten"
+            },
+            {
+              "index": "c",
+              "text": "Kitty"
+            },
+            {
+              "index": "d",
+              "text": "Ketty"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Kitty",
+          "explanation": "Anne Frank named her diary ‘Kitty’."
         },
         {
           "q_id": "iii",
-          "statement": "'The Proposal' is a one act play about",
+          "statement": "Coorg is famous for ______.",
           "options": [
             {
               "index": "a",
-              "text": "Russian wedding culture"
+              "text": "Tea"
             },
             {
               "index": "b",
-              "text": "Indian wedding culture"
+              "text": "Coffee"
             },
             {
               "index": "c",
-              "text": "Japanese wedding culture"
+              "text": "Sandal"
             },
             {
               "index": "d",
-              "text": "Chinese wedding culture"
+              "text": "Jute"
             }
           ],
-          "correct_index": "a",
-          "correct_answer": "Russian wedding culture",
-          "explanation": "The play 'The Proposal' by Anton Chekhov depicts the wedding culture of landowning Russians."
+          "correct_index": "b",
+          "correct_answer": "Coffee",
+          "explanation": "Coorg is well known for its coffee plantations."
         },
         {
           "q_id": "iv",
-          "statement": "10 May in South Africa is",
+          "statement": "What name was given to the otter?",
           "options": [
             {
               "index": "a",
-              "text": "a winter day"
+              "text": "Major"
             },
             {
               "index": "b",
-              "text": "a monsoon day"
+              "text": "Taro"
             },
             {
               "index": "c",
-              "text": "a summer day"
+              "text": "Jim"
             },
             {
               "index": "d",
-              "text": "an autumn day"
+              "text": "Mijbil"
             }
           ],
           "correct_index": "d",
-          "correct_answer": "an autumn day",
-          "explanation": "Nelson Mandela describes May 10th as a 'lovely autumn day' in South Africa."
+          "correct_answer": "Mijbil",
+          "explanation": "The otter was named Mijbil by the narrator."
         }
       ]
     },
@@ -531,285 +515,316 @@
       "question_number": "10A",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×3=3",
-      "text": "Read the extract carefully and answer the questions (From: A Baker from Goa)",
-      "passage":"The baker usually collected his bills at the end of the month. Monthly accounts used to be recorded on some wall in pencil. \n Baking was indeed a profitable profession in the old days. The baker and his family never starved. \n He, his family and his servants always looked prosperous. Their plump physique was an open testimony to this.",
+      "instruction": "Read the extract carefully and answer the questions (From: The Black Aeroplane)",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Monthly accounts of the baker were recorded on",
+          "statement": "How was the weather when pilot started flying aeroplane?",
           "options": [
             {
               "index": "a",
-              "text": "a note book"
+              "text": "Clear"
             },
             {
               "index": "b",
-              "text": "the main door of the house"
+              "text": "Foggy"
             },
             {
               "index": "c",
-              "text": "some wall in pencil"
+              "text": "Rainy"
             },
             {
               "index": "d",
-              "text": "the floor"
-            }
-          ],
-          "correct_index": "c",
-          "correct_answer": "some wall in pencil",
-          "explanation": "The extract states accounts were recorded on some wall in pencil."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Which word in the extract means 'a pleasant fat body'?",
-          "options": [
-            {
-              "index": "a",
-              "text": "plump"
-            },
-            {
-              "index": "b",
-              "text": "prosperous"
-            },
-            {
-              "index": "c",
-              "text": "profitable"
-            },
-            {
-              "index": "d",
-              "text": "testimony"
+              "text": "Sunny"
             }
           ],
           "correct_index": "a",
-          "correct_answer": "plump",
-          "explanation": "The text uses 'plump physique' to describe the physical appearance of a successful baker."
+          "correct_answer": "Clear",
+          "explanation": "The extract mentions that stars were shining and there was not a single cloud in the sky."
         },
         {
-          "q_id": "iii",
-          "statement": "The baker and his family never starved because",
+          "q_id": "ii",
+          "statement": "Pilot was going to ______.",
           "options": [
             {
               "index": "a",
-              "text": "they were rich"
+              "text": "France"
             },
             {
               "index": "b",
-              "text": "baking was a profitable profession"
+              "text": "India"
             },
             {
               "index": "c",
-              "text": "they had government support"
+              "text": "USA"
             },
             {
               "index": "d",
-              "text": "they had many servants"
+              "text": "England"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "England",
+          "explanation": "The pilot was flying from France back to England."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The above passage is taken from which lesson?",
+          "options": [
+            {
+              "index": "a",
+              "text": "His First Flight"
+            },
+            {
+              "index": "b",
+              "text": "Black Aeroplane"
+            },
+            {
+              "index": "c",
+              "text": "A Letter to God"
+            },
+            {
+              "index": "d",
+              "text": "Glimpses of India"
             }
           ],
           "correct_index": "b",
-          "correct_answer": "baking was a profitable profession",
-          "explanation": "The passage mentions baking was indeed a profitable profession in the old days."
+          "correct_answer": "Black Aeroplane",
+          "explanation": "The extract is from the lesson 'The Black Aeroplane'."
         }
       ]
     },
-     {
-      "question_number": "10(B)",
-      "question_type": "UNSEEN_PASSAGE_PROSE",
+    {
+      "question_number": "10B",
+      "question_type": "UNSEEN_PASSAGE_POEM",
       "marks": "1×3=3",
-      "text": "Read the extract carefully and answer the questions:",
-      "passage": "I am an orphan, roaming the street.\nI pattern soft dust with my hushed, bare feet.\nThe silence is golden, the freedom is sweet.",
+      "instruction": "Read the extract carefully and answer the questions (From: Fog)",
       "parts": [
         {
           "q_id": "i",
-          "statement": "From which poem of your text book has this extract been taken?",
+          "statement": "What has been personified in the above given lines?",
           "options": [
-            { "index": "a", "text": "Fog" },
-            { "index": "b", "text": "The Ball Poem" },
-            { "index": "c", "text": "Amanda" },
-            { "index": "d", "text": "For Anne Gregory" }
+            {
+              "index": "a",
+              "text": "harbour"
+            },
+            {
+              "index": "b",
+              "text": "city"
+            },
+            {
+              "index": "c",
+              "text": "fog"
+            },
+            {
+              "index": "d",
+              "text": "cat"
+            }
           ],
           "correct_index": "c",
-          "correct_answer": "Amanda"
+          "correct_answer": "fog",
+          "explanation": "Fog is described as having cat-like qualities, which is personification."
         },
         {
           "q_id": "ii",
-          "statement": "The word ‘orphan’ means:",
+          "statement": "After sitting fog ______.",
           "options": [
-            { "index": "a", "text": "a child having no friend" },
-            { "index": "b", "text": "a child having no father and mother" },
-            { "index": "c", "text": "a child who roams the street" },
-            { "index": "d", "text": "a child who likes freedom" }
+            {
+              "index": "a",
+              "text": "disappears"
+            },
+            {
+              "index": "b",
+              "text": "moves on"
+            },
+            {
+              "index": "c",
+              "text": "sits there only"
+            },
+            {
+              "index": "d",
+              "text": "gets dense"
+            }
           ],
           "correct_index": "b",
-          "correct_answer": "a child having no father and mother"
+          "correct_answer": "moves on",
+          "explanation": "The poem clearly states that the fog sits for a while and then moves on."
         },
         {
           "q_id": "iii",
-          "statement": "What does the girl actually want?",
+          "statement": "The poet of the above poem is",
           "options": [
-            { "index": "a", "text": "She wants freedom and silence" },
-            { "index": "b", "text": "She wants to be an orphan" },
-            { "index": "c", "text": "She wants to remain bare feet" },
-            { "index": "d", "text": "She wants to walk on soft dust" }
+            {
+              "index": "a",
+              "text": "Pablo Neruda"
+            },
+            {
+              "index": "b",
+              "text": "Robert Frost"
+            },
+            {
+              "index": "c",
+              "text": "Robin Klein"
+            },
+            {
+              "index": "d",
+              "text": "Carl Sandburg"
+            }
           ],
-          "correct_index": "a",
-          "correct_answer": "She wants freedom and silence"
+          "correct_index": "d",
+          "correct_answer": "Carl Sandburg",
+          "explanation": "The poem 'Fog' is written by Carl Sandburg."
         }
       ]
     },
-    
     {
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
-      "marks": "2×6=12",
-      "text": "Answer the questions in about 30 words (any six):",
+      "marks": "1×6=6",
+      "text": "Answer the following questions: (any six)",
       "parts": [
         {
           "q_id": "i",
           "statement": "Who or what did Lencho have faith in? What did he do?",
-          "explanation": "Lencho had complete faith in God. After his crops were destroyed by hailstorm, he wrote a letter to God asking for one hundred pesos."
+          "explanation": "Lencho had firm faith in God. When his crop was destroyed by hailstorm, he wrote a letter to God asking for one hundred pesos to sow his field again."
         },
         {
           "q_id": "ii",
-          "statement": "Why was the young seagull afraid to fly?",
-          "explanation": "The young seagull was afraid to fly because he thought his wings would not support him and he would fall into the sea."
+          "statement": "What two national anthems were sung?",
+          "explanation": "The national anthem of the old South Africa and the new South Africa were sung."
         },
         {
           "q_id": "iii",
-          "statement": "What does Mandela thank the international leaders for?",
-          "explanation": "Mandela thanks the international leaders for supporting South Africa in its struggle against apartheid and for witnessing its freedom."
+          "statement": "Why were two national anthems sung?",
+          "explanation": "Two national anthems were sung to show unity between the whites and blacks of South Africa after the end of apartheid."
         },
         {
           "q_id": "iv",
-          "statement": "Why was Mr. Keesing annoyed with Anne? What did he ask her to do?",
-          "explanation": "Mr. Keesing was annoyed because Anne talked too much in class. He punished her by asking her to write essays."
+          "statement": "What compelled the young seagull to take his first flight?",
+          "explanation": "The young seagull was compelled by hunger when his mother tempted him with a piece of fish."
         },
         {
           "q_id": "v",
-          "statement": "What is the story about the Kodavu people’s descent?",
-          "explanation": "The Kodavu people are believed to have descended from Greek soldiers or Arabs who settled in India."
+          "statement": "What is the Chinese legend about tea?",
+          "explanation": "According to the Chinese legend, tea was discovered accidentally when tea leaves fell into boiling water."
         },
         {
           "q_id": "vi",
-          "statement": "What experiment did Maxwell think Causserman would be suitable for?",
-          "explanation": "Maxwell thought Causserman would be suitable for experimenting with otters as they were easily available in marshes."
+          "statement": "Why did Valli react to the dead cow?",
+          "explanation": "Valli was deeply shocked to see the dead cow because it reminded her of her own loneliness and mortality."
         },
         {
           "q_id": "vii",
-          "statement": "What was a source of unending joy for Valli?",
-          "explanation": "The bus ride to the town was a source of unending joy for Valli."
+          "statement": "Why did Siddhartha Gautama abandon luxurious life?",
+          "explanation": "He abandoned luxurious life to find the truth of human suffering."
         },
         {
           "q_id": "viii",
-          "statement": "What does Kisa Gotami ask for the second time she goes from house to house? Does she get it? Why?",
-          "explanation": "She asks for mustard seeds from a house where no one had died. She does not get it because death had occurred in every house."
+          "statement": "Where did Siddhartha Gautama get enlightenment?",
+          "explanation": "He got enlightenment under the Bodhi Tree at Bodh Gaya."
         }
       ]
     },
-
     {
       "question_number": "12",
       "question_type": "DESCRIPTIVE",
       "marks": "2×2=4",
-      "text": "Answer the following questions in about 30 words (any two):",
+      "text": "Answer the following questions in about 30 words: (any two)",
       "parts": [
         {
           "q_id": "i",
-          "statement": "How does the fog come?",
-          "explanation": "The fog comes silently and slowly like a cat, covering everything quietly."
+          "statement": "In reference of the poem ‘Fire and Ice’, how will the world end?",
+          "explanation": "According to the poet, the world may end either in fire caused by desire or in ice caused by hatred."
         },
         {
           "q_id": "ii",
-          "statement": "What happens to the house when the trees move out of it?",
-          "explanation": "When the trees move out, the house collapses as it loses support and protection."
+          "statement": "What are the things that Amanda’s mother asks her to do and not to do?",
+          "explanation": "Amanda’s mother asks her to sit straight, clean her room, finish homework, and not eat chocolates."
         },
         {
           "q_id": "iii",
-          "statement": "What do the ‘crow’ and ‘hemlock’ represent in the poem ‘Dust of Snow’?",
-          "explanation": "They represent negative things that unexpectedly bring a positive change in mood."
+          "statement": "What will the departure of the trees affect the house?",
+          "explanation": "The house will collapse because trees provide support and protection."
         }
       ]
     },
-
     {
       "question_number": "13",
       "question_type": "DESCRIPTIVE",
       "marks": "2×2=4",
-      "text": "Answer the following questions in about 30 words (any two):",
+      "text": "Answer the following questions in about 30 words: (any two)",
       "parts": [
         {
           "q_id": "i",
-          "statement": "What does the thief get from Anil in return for his work?",
-          "explanation": "The thief gets food, shelter, education, and trust from Anil."
+          "statement": "How did the narrator cure Tricki?",
+          "explanation": "The narrator cured Tricki by stopping rich food and giving him exercise and discipline."
         },
         {
           "q_id": "ii",
-          "statement": "How is Ausable different from other secret agents?",
-          "explanation": "Ausable is ordinary, calm, and overweight, unlike typical secret agents."
+          "statement": "How did Ausable get rid of Max?",
+          "explanation": "Ausable frightened Max by creating a fake story of a balcony, forcing him to jump out of the window."
         },
         {
           "q_id": "iii",
-          "statement": "What lesson does Ebright learn when he does not win anything at a science fair?",
-          "explanation": "Ebright learns that success depends on hard work and original ideas."
+          "statement": "How did Griffin become invisible?",
+          "explanation": "Griffin became invisible by discovering a scientific formula to change the refractive index of his body."
         }
       ]
     },
-
     {
       "question_number": "14",
       "question_type": "DESCRIPTIVE",
-      "marks": "3×1=3",
-      "text": "Answer the following questions in about 75 words (any one):",
+      "marks": "3",
+      "text": "How did Valli plan her bus ride? What did she find out about the bus, and how did she save up the fare?",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Why does the postmaster send money to Lencho? Why does he sign the letter ‘God’?",
-          "explanation": "The postmaster sends money out of sympathy and respect for Lencho’s faith. He signs the letter ‘God’ to preserve Lencho’s belief."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Why does the narrator of ‘The Black Aeroplane’ say he was not sorry to walk away from the Dakota?",
-          "explanation": "The narrator feels grateful after surviving the storm and landing safely."
+          "statement": "Answer",
+          "explanation": "Valli planned her bus ride by carefully observing the bus timings and fare. She saved money by avoiding unnecessary expenses and collecting coins."
         }
       ]
     },
-
     {
       "question_number": "15",
       "question_type": "DESCRIPTIVE",
-      "marks": "3×1=3",
-      "text": "Answer the following questions in about 75 words (any one):",
+      "marks": "3",
+      "text": "Answer the following questions:",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Write the central idea of the poem ‘The Ball Poem’.",
-          "explanation": "The poem teaches acceptance of loss and responsibility as part of growing up."
+          "statement": "What does the young boy say to Anne Gregory?",
+          "explanation": "The young boy tells Anne Gregory that her inner beauty matters more than her outward appearance."
         },
         {
           "q_id": "ii",
-          "statement": "What do ‘desire’ and ‘hate’ stand for in ‘Fire and Ice’? What does Frost say about the end of the world?",
-          "explanation": "Desire represents greed, hate represents hatred. Frost believes either can destroy the world."
+          "statement": "Why did Custard cry for a nice safe cage? Why is the dragon called ‘cowardly dragon’?",
+          "explanation": "Custard wanted safety and was called cowardly because he always feared danger, though he later proved brave."
         }
       ]
     },
-
     {
       "question_number": "16",
       "question_type": "DESCRIPTIVE",
-      "marks": "3×1=3",
-      "text": "Answer the following questions in about 75 words (any one):",
+      "marks": "3M",
+      "word_limit": "75 words",
+      "text": "Answer the following question in about 75 words:",
       "parts": [
         {
           "q_id": "i",
-          "statement": "Why does Mrs. Hall find the scientist eccentric?",
-          "explanation": "Mrs. Hall finds him eccentric due to his strange behavior and secrecy."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Why was the twentieth century called the ‘Era of the Book’?",
-          "explanation": "Because of massive growth in publishing, printing, and reading habits."
+          "statement": "Noodle avoids offending Think-Tank, but at the same time he corrects his mistakes. How does he manage to do that?",
+          "explanation": "Reference: This question is based on the lesson 'The Book That Saved the Earth'. Context: Noodle tactfully corrects Think-Tank without hurting his ego. Explanation: Noodle uses polite language, indirect suggestions, and pretends to agree with Think-Tank while subtly guiding him towards the correct understanding."
         }
-      ]
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "The course of the Loisels' life changed due to the necklace. Comment.",
+            "explanation": "Reference: This question is from the lesson 'The Necklace'. Context: The loss of the necklace leads to years of hardship for the Loisels. Explanation: Due to the necklace, the Loisels lose their comfort, work hard for years to repay debt, and later discover that the necklace was fake, making their suffering tragic."
+          }
+        ]
+      }
     }
-    
   ]
 }
