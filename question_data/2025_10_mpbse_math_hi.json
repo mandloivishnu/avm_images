@@ -1,0 +1,392 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "MATHEMATICS",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "language": "hi"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "सही विकल्प चुनकर लिखिए :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "संख्याओं 6 व 20 का H.C.F. होगा –",
+          "options": [
+            {
+              "index": "a",
+              "text": "2"
+            },
+            {
+              "index": "b",
+              "text": "6"
+            },
+            {
+              "index": "c",
+              "text": "20"
+            },
+            {
+              "index": "d",
+              "text": "1"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "2"
+        },
+        {
+          "q_id": "ii",
+          "statement": "यदि a1/a2 = b1/b2 = c1/c2 हो, तो समीकरण a1x + b1y + c1 = 0 तथा a2x + b2y + c2 = 0 होंगे –",
+          "options": [
+            {
+              "index": "a",
+              "text": "एक अद्वितीय हल होगा"
+            },
+            {
+              "index": "b",
+              "text": "दो हल होंगे"
+            },
+            {
+              "index": "c",
+              "text": "कोई भी हल नहीं होगा"
+            },
+            {
+              "index": "d",
+              "text": "अनंत अनेक हल होंगे"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "अनंत अनेक हल होंगे"
+        },
+        {
+          "q_id": "iii",
+          "statement": "द्विघात समीकरण ax² + bx + c = 0 के मूल वास्तविक और असमान होंगे यदि –",
+          "options": [
+            {
+              "index": "a",
+              "text": "b² − 4ac > 0"
+            },
+            {
+              "index": "b",
+              "text": "b² − 4ac = 0"
+            },
+            {
+              "index": "c",
+              "text": "b² − 4ac < 0"
+            },
+            {
+              "index": "d",
+              "text": "b² − 4ac² = 0"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "b² − 4ac > 0"
+        },
+        {
+          "q_id": "iv",
+          "statement": "A.P. : 2, 4, 6, … का 10वाँ पद है –",
+          "options": [
+            {
+              "index": "a",
+              "text": "2"
+            },
+            {
+              "index": "b",
+              "text": "18"
+            },
+            {
+              "index": "c",
+              "text": "20"
+            },
+            {
+              "index": "d",
+              "text": "22"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "20"
+        },
+        {
+          "q_id": "v",
+          "statement": "बिंदु (2,3) तथा (4,1) के बीच दूरी है –",
+          "options": [
+            {
+              "index": "a",
+              "text": "√8"
+            },
+            {
+              "index": "b",
+              "text": "3√3"
+            },
+            {
+              "index": "c",
+              "text": "3√2"
+            },
+            {
+              "index": "d",
+              "text": "2√3"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "√8"
+        },
+        {
+          "q_id": "vi",
+          "statement": "एक वृत्त की कितनी स्पर्श रेखा हो सकती है?",
+          "options": [
+            {
+              "index": "a",
+              "text": "0"
+            },
+            {
+              "index": "b",
+              "text": "1"
+            },
+            {
+              "index": "c",
+              "text": "2"
+            },
+            {
+              "index": "d",
+              "text": "अनंत"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "अनंत"
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "रिक्त स्थानों की पूर्ति कीजिए :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "√2 एक ______ संख्या है।",
+          "correct_answer": "अपरिमेय"
+        },
+        {
+          "q_id": "ii",
+          "statement": "एक बहुपद जिसकी घात 3 है, वह ______ बहुपद कहलाता है।",
+          "correct_answer": "घन"
+        },
+        {
+          "q_id": "iii",
+          "statement": "A.P. : 3/2, 1/2, −1/2, −3/2 … का सार्व अंतर d = ______ है।",
+          "correct_answer": "−1"
+        },
+        {
+          "q_id": "iv",
+          "statement": "सभी समबाहु त्रिभुज ______ होते हैं।",
+          "correct_answer": "समरूप"
+        },
+        {
+          "q_id": "v",
+          "statement": "वृत्त को दो बिंदुओं पर प्रतिच्छेद करने वाली रेखा को ______ कहते हैं।",
+          "correct_answer": "छेदक"
+        },
+        {
+          "q_id": "vi",
+          "statement": "किसी घटना E के लिए P(E) + P(Ē) = ______",
+          "correct_answer": "1"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "निम्नलिखित में सत्य / असत्य लिखिए :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "समरूप त्रिभुजों के क्षेत्रफल सदैव बराबर होते हैं।",
+          "correct_answer": "असत्य"
+        },
+        {
+          "q_id": "ii",
+          "statement": "1, 2, 1, 3, … एक समान्तर श्रेणी नहीं है।",
+          "correct_answer": "सत्य"
+        },
+        {
+          "q_id": "iii",
+          "statement": "किसी बिंदु की y-अक्ष से दूरी उसका y-निर्देशांक होती है।",
+          "correct_answer": "असत्य"
+        },
+        {
+          "q_id": "iv",
+          "statement": "शंकु का आयतन πr²h होता है।",
+          "correct_answer": "असत्य"
+        },
+        {
+          "q_id": "v",
+          "statement": "0 ≤ P(E) ≤ 1",
+          "correct_answer": "सत्य"
+        },
+        {
+          "q_id": "vi",
+          "statement": "वृत्तीय खंड का क्षेत्रफल संगत त्रिज्यखंड से कम होता है।",
+          "correct_answer": "सत्य"
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_THE_FOLLOWING",
+      "marks": "1×6=6",
+      "text": "सही जोड़ी मिलाइए :",
+      "column_a_title": "स्तम्भ A",
+      "column_b_title": "स्तम्भ B",
+      "pairs": [
+        {
+          "q_id": "i",
+          "left": "9 sec²A − 9 tan²A",
+          "right": "9"
+        },
+        {
+          "q_id": "ii",
+          "left": "cos 0°",
+          "right": "1"
+        },
+        {
+          "q_id": "iii",
+          "left": "sin 0°",
+          "right": "0"
+        },
+        {
+          "q_id": "iv",
+          "left": "कोण θ वाले त्रिज्यखंड का क्षेत्रफल",
+          "right": "θ/360 × πr²"
+        },
+        {
+          "q_id": "v",
+          "left": "अर्धगोले का वक्र पृष्ठीय क्षेत्रफल",
+          "right": "2πr²"
+        },
+        {
+          "q_id": "vi",
+          "left": "अर्धगोले का सम्पूर्ण पृष्ठीय क्षेत्रफल",
+          "right": "3πr²"
+        }
+      ],
+      "explanation": "यह प्रश्न त्रिकोणमिति एवं क्षेत्रफल के सूत्रों पर आधारित है। प्रत्येक पद का सही गणितीय मान अथवा सूत्र मिलाया गया है।"
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "text": "प्रत्येक का एक शब्द / वाक्य में उत्तर लिखिए :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "द्विघात समीकरण का मानक रूप लिखिए।",
+          "answer": "ax² + bx + c = 0, जहाँ a ≠ 0",
+          "explanation": "यह द्विघात समीकरण का मानक रूप है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "दो त्रिभुजों के समरूप होने की कोई एक शर्त लिखिए।",
+          "answer": "यदि दो त्रिभुजों के संगत कोण समान हों, तो वे समरूप होते हैं।",
+          "explanation": "यह AAA समरूपता की शर्त है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "मूलबिंदु (0,0) से बिंदु (x₁, y₁) की दूरी लिखिए।",
+          "answer": "√(x₁² + y₁²)",
+          "explanation": "यह दूरी सूत्र का प्रयोग है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "यदि किसी खंभे की छाया तथा ऊँचाई समान हो, तो सूर्य का उन्नयन कोण कितना होगा?",
+          "answer": "45°",
+          "explanation": "जब ऊँचाई = छाया, तब tanθ = 1 ⇒ θ = 45°"
+        },
+        {
+          "q_id": "v",
+          "statement": "कोण θ एवं त्रिज्या r वाले त्रिज्यखंड के चाप की लंबाई का सूत्र लिखिए।",
+          "answer": "θ/360 × 2πr",
+          "explanation": "यह त्रिज्यखंड के चाप की लंबाई का सूत्र है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "वर्ग 20–40 का वर्ग चिन्ह (मध्य बिंदु) लिखिए।",
+          "answer": "30",
+          "explanation": "वर्ग चिन्ह = (निम्न सीमा + उच्च सीमा) / 2"
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "अभाज्य गुणनखंड विधि द्वारा 96 और 404 का H.C.F. ज्ञात कीजिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "संख्या 148 को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त कीजिए।"
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "अंकगणित के आधारभूत प्रमेय का कथन लिखिए।",
+      "explanation": "यह प्रश्न Fundamental Theorem of Arithmetic से संबंधित है। विद्यार्थी को प्रमेय का स्पष्ट कथन लिखना है।",
+      "answer": "प्रत्येक 1 से बड़ी प्राकृतिक संख्या या तो अभाज्य होती है अथवा अभाज्य संख्याओं के गुणनफल के रूप में व्यक्त की जा सकती है, और यह अभाज्य गुणनखंडन क्रम को छोड़कर अद्वितीय होता है।",
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "समझाइए कि 7 × 11 × 13 + 13 और 7 × 6 × 5 × 4 × 3 × 2 × 1 + 5 संयुक्त संख्याएँ क्यों हैं।",
+            "explanation": "यह प्रश्न संयुक्त (Composite) संख्याओं की अवधारणा पर आधारित है। विद्यार्थी को यह दिखाना है कि दी गई संख्याएँ 1 और स्वयं के अतिरिक्त अन्य संख्याओं से भी विभाज्य हैं।",
+            "answer": "7 × 11 × 13 + 13 = 13(7 × 11 + 1) तथा 7 × 6 × 5 × 4 × 3 × 2 × 1 + 5 = 5(7 × 6 × 4 × 3 × 2 × 1 + 1)। दोनों संख्याएँ 1 और स्वयं के अतिरिक्त अन्य संख्याओं से विभाज्य हैं, इसलिए ये संयुक्त संख्याएँ हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "बहुपद P(x) का ग्राफ दिया है। शून्यकों की संख्या ज्ञात कीजिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "द्विघात बहुपद x² − 3x − 10 के शून्यक ज्ञात कीजिए।"
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "निम्नलिखित प्रश्न हल कीजिए :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "किसी बहुपद P(x) के लिए y = P(x) का ग्राफ नीचे दिया है। इस स्थिति में P(x) के शून्यों की संख्या ज्ञात कीजिए।",
+          "image_data": {
+            "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/math/graph_zeroes_q9.png",
+            "description": "ग्राफ x-अक्ष को तीन बिंदुओं पर काटता हुआ दर्शाया गया है।"
+          },
+          "answer": "3",
+          "explanation": "किसी बहुपद के शून्य वे बिंदु होते हैं जहाँ उसका ग्राफ x-अक्ष को काटता या स्पर्श करता है। दिए गए ग्राफ में वक्र x-अक्ष को तीन बार काट रहा है, इसलिए शून्यों की संख्या 3 है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "द्विघात बहुपद x² − 3x − 10 के शून्य ज्ञात कीजिए।",
+            "answer": "x² − 3x − 10 = 0 ⇒ (x − 5)(x + 2) = 0 ⇒ x = 5, −2",
+            "explanation": "बहुपद को गुणनखंडों में तोड़कर उसके शून्य प्राप्त किए जाते हैं।"
+          }
+        ]
+      }
+    }
+  ]
+}
