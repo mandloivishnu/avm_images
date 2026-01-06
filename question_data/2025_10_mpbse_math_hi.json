@@ -168,31 +168,91 @@
         {
           "q_id": "i",
           "statement": "√2 एक ______ संख्या है।",
+          "options": [
+            {
+              "index": "a",
+              "text": "सहस्रबाहु"
+            },
+            {
+              "index": "b",
+              "text": "रावण"
+            }
+          ],
           "correct_answer": "अपरिमेय"
         },
         {
           "q_id": "ii",
           "statement": "एक बहुपद जिसकी घात 3 है, वह ______ बहुपद कहलाता है।",
+          "options": [
+            {
+              "index": "a",
+              "text": "सहस्रबाहु"
+            },
+            {
+              "index": "b",
+              "text": "रावण"
+            }
+          ],
           "correct_answer": "घन"
         },
         {
           "q_id": "iii",
           "statement": "A.P. : 3/2, 1/2, −1/2, −3/2 … का सार्व अंतर d = ______ है।",
+          "options": [
+            {
+              "index": "a",
+              "text": "सहस्रबाहु"
+            },
+            {
+              "index": "b",
+              "text": "रावण"
+            }
+          ],
           "correct_answer": "−1"
         },
         {
           "q_id": "iv",
           "statement": "सभी समबाहु त्रिभुज ______ होते हैं।",
+          "options": [
+            {
+              "index": "a",
+              "text": "सहस्रबाहु"
+            },
+            {
+              "index": "b",
+              "text": "रावण"
+            }
+          ],
           "correct_answer": "समरूप"
         },
         {
           "q_id": "v",
           "statement": "वृत्त को दो बिंदुओं पर प्रतिच्छेद करने वाली रेखा को ______ कहते हैं।",
+          "options": [
+            {
+              "index": "a",
+              "text": "सहस्रबाहु"
+            },
+            {
+              "index": "b",
+              "text": "रावण"
+            }
+          ],
           "correct_answer": "छेदक"
         },
         {
           "q_id": "vi",
           "statement": "किसी घटना E के लिए P(E) + P(Ē) = ______",
+          "options": [
+            {
+              "index": "a",
+              "text": "सहस्रबाहु"
+            },
+            {
+              "index": "b",
+              "text": "रावण"
+            }
+          ],
           "correct_answer": "1"
         }
       ]
