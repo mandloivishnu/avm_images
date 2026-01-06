@@ -294,8 +294,57 @@
           "correct_answer": "सत्य"
         }
       ]
-    },
-    {
+    },{
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1*6=6",
+  "text": "सही जोड़ी मिलाकर लिखिए :",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "यह प्रश्न त्रिकोणमिति एवं क्षेत्रफल के सूत्रों पर आधारित है। प्रत्येक पद का सही गणितीय मान अथवा सूत्र मिलाया गया है।",
+  "columns": {
+    "column_A_title": "(क)",
+    "column_B_title": "(ख)",
+    "pairs": [
+      {
+        "a_item": "(i) 9 sec²A − 9 tan²A",
+        "b_item": "9",
+        "correct_match_index": "1",
+        "explanation": "sec²A − tan²A = 1, अतः 9 × 1 = 9।"
+      },
+      {
+        "a_item": "(ii) cos 0°",
+        "b_item": "1",
+        "correct_match_index": "2",
+        "explanation": "cos 0° का मान 1 होता है।"
+      },
+      {
+        "a_item": "(iii) sin 0°",
+        "b_item": "0",
+        "correct_match_index": "3",
+        "explanation": "sin 0° का मान 0 होता है।"
+      },
+      {
+        "a_item": "(iv) कोण θ वाले त्रिज्यखंड का क्षेत्रफल",
+        "b_item": "θ/360 × πr²",
+        "correct_match_index": "4",
+        "explanation": "त्रिज्यखंड के क्षेत्रफल का सूत्र θ/360 × πr² होता है।"
+      },
+      {
+        "a_item": "(v) अर्धगोले का वक्र पृष्ठीय क्षेत्रफल",
+        "b_item": "2πr²",
+        "correct_match_index": "5",
+        "explanation": "अर्धगोले का वक्र पृष्ठीय क्षेत्रफल 2πr² होता है।"
+      },
+      {
+        "a_item": "(vi) अर्धगोले का सम्पूर्ण पृष्ठीय क्षेत्रफल",
+        "b_item": "3πr²",
+        "correct_match_index": "6",
+        "explanation": "अर्धगोले का सम्पूर्ण पृष्ठीय क्षेत्रफल 3πr² होता है।"
+      }
+    ]
+  }
+},  {
       "question_number": "5",
       "question_type": "DESCRIPTIVE",
       "marks": "1×6=6",
