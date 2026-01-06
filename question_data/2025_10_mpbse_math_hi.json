@@ -16,417 +16,71 @@
         {
           "q_id": "i",
           "statement": "संख्याओं 6 व 20 का H.C.F. होगा –",
-          "options": [
-            {
-              "index": "a",
-              "text": "2"
-            },
-            {
-              "index": "b",
-              "text": "6"
-            },
-            {
-              "index": "c",
-              "text": "20"
-            },
-            {
-              "index": "d",
-              "text": "1"
-            }
-          ],
-          "correct_index": "a",
-          "correct_answer": "2"
+          "correct_answer": "2",
+          "explanation": "6 और 20 के सामान्य गुणनखंड 1 और 2 हैं। सबसे बड़ा सामान्य गुणनखंड 2 है।"
         },
         {
           "q_id": "ii",
-          "statement": "यदि a1/a2 = b1/b2 = c1/c2 हो, तो समीकरण a1x + b1y + c1 = 0 तथा a2x + b2y + c2 = 0 होंगे –",
-          "options": [
-            {
-              "index": "a",
-              "text": "एक अद्वितीय हल होगा"
-            },
-            {
-              "index": "b",
-              "text": "दो हल होंगे"
-            },
-            {
-              "index": "c",
-              "text": "कोई भी हल नहीं होगा"
-            },
-            {
-              "index": "d",
-              "text": "अनंत अनेक हल होंगे"
-            }
-          ],
-          "correct_index": "d",
-          "correct_answer": "अनंत अनेक हल होंगे"
+          "statement": "यदि a1/a2 = b1/b2 = c1/c2 हो...",
+          "correct_answer": "अनंत अनेक हल होंगे,",
+          "explanation": "जब a1/a2 = b1/b2 = c1/c2 होता है, तब दोनों रेखीय समीकरण एक ही रेखा दर्शाते हैं, इसलिए अनंत हल होते हैं।"
         },
         {
           "q_id": "iii",
-          "statement": "द्विघात समीकरण ax² + bx + c = 0 के मूल वास्तविक और असमान होंगे यदि –",
-          "options": [
-            {
-              "index": "a",
-              "text": "b² − 4ac > 0"
-            },
-            {
-              "index": "b",
-              "text": "b² − 4ac = 0"
-            },
-            {
-              "index": "c",
-              "text": "b² − 4ac < 0"
-            },
-            {
-              "index": "d",
-              "text": "b² − 4ac² = 0"
-            }
-          ],
-          "correct_index": "a",
-          "correct_answer": "b² − 4ac > 0"
+          "statement": "द्विघात समीकरण के मूल वास्तविक और असमान होंगे यदि –",
+          "correct_answer": "b² − 4ac > 0",
+          "explanation": "जब विवर्तक (D = b² − 4ac) शून्य से बड़ा होता है, तब मूल वास्तविक और भिन्न होते हैं।"
         },
         {
           "q_id": "iv",
           "statement": "A.P. : 2, 4, 6, … का 10वाँ पद है –",
-          "options": [
-            {
-              "index": "a",
-              "text": "2"
-            },
-            {
-              "index": "b",
-              "text": "18"
-            },
-            {
-              "index": "c",
-              "text": "20"
-            },
-            {
-              "index": "d",
-              "text": "22"
-            }
-          ],
-          "correct_index": "c",
-          "correct_answer": "20"
+          "correct_answer": "20",
+          "explanation": "यहाँ a = 2, d = 2। nवाँ पद an = a + (n−1)d ⇒ a10 = 2 + 9×2 = 20।"
         },
         {
           "q_id": "v",
           "statement": "बिंदु (2,3) तथा (4,1) के बीच दूरी है –",
-          "options": [
-            {
-              "index": "a",
-              "text": "√8"
-            },
-            {
-              "index": "b",
-              "text": "3√3"
-            },
-            {
-              "index": "c",
-              "text": "3√2"
-            },
-            {
-              "index": "d",
-              "text": "2√3"
-            }
-          ],
-          "correct_index": "a",
-          "correct_answer": "√8"
+          "correct_answer": "√8",
+          "explanation": "दूरी सूत्र √[(x₂−x₁)² + (y₂−y₁)²] से दूरी √[(4−2)² + (1−3)²] = √8।"
         },
         {
           "q_id": "vi",
           "statement": "एक वृत्त की कितनी स्पर्श रेखा हो सकती है?",
-          "options": [
-            {
-              "index": "a",
-              "text": "0"
-            },
-            {
-              "index": "b",
-              "text": "1"
-            },
-            {
-              "index": "c",
-              "text": "2"
-            },
-            {
-              "index": "d",
-              "text": "अनंत"
-            }
-          ],
-          "correct_index": "d",
-          "correct_answer": "अनंत"
+          "correct_answer": "अनंत",
+          "explanation": "वृत्त के प्रत्येक बिंदु पर एक स्पर्श रेखा संभव है, इसलिए अनंत स्पर्श रेखाएँ हो सकती हैं।"
         }
       ]
     },
-    {
-      "question_number": "2",
-      "question_type": "FILL_IN_THE_BLANK",
-      "marks": "1×6=6",
-      "text": "रिक्त स्थानों की पूर्ति कीजिए :",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "√2 एक ______ संख्या है।",
-          "options": [
-            {
-              "index": "a",
-              "text": "सहस्रबाहु"
-            },
-            {
-              "index": "b",
-              "text": "रावण"
-            }
-          ],
-          "correct_answer": "अपरिमेय"
-        },
-        {
-          "q_id": "ii",
-          "statement": "एक बहुपद जिसकी घात 3 है, वह ______ बहुपद कहलाता है।",
-          "options": [
-            {
-              "index": "a",
-              "text": "सहस्रबाहु"
-            },
-            {
-              "index": "b",
-              "text": "रावण"
-            }
-          ],
-          "correct_answer": "घन"
-        },
-        {
-          "q_id": "iii",
-          "statement": "A.P. : 3/2, 1/2, −1/2, −3/2 … का सार्व अंतर d = ______ है।",
-          "options": [
-            {
-              "index": "a",
-              "text": "सहस्रबाहु"
-            },
-            {
-              "index": "b",
-              "text": "रावण"
-            }
-          ],
-          "correct_answer": "−1"
-        },
-        {
-          "q_id": "iv",
-          "statement": "सभी समबाहु त्रिभुज ______ होते हैं।",
-          "options": [
-            {
-              "index": "a",
-              "text": "सहस्रबाहु"
-            },
-            {
-              "index": "b",
-              "text": "रावण"
-            }
-          ],
-          "correct_answer": "समरूप"
-        },
-        {
-          "q_id": "v",
-          "statement": "वृत्त को दो बिंदुओं पर प्रतिच्छेद करने वाली रेखा को ______ कहते हैं।",
-          "options": [
-            {
-              "index": "a",
-              "text": "सहस्रबाहु"
-            },
-            {
-              "index": "b",
-              "text": "रावण"
-            }
-          ],
-          "correct_answer": "छेदक"
-        },
-        {
-          "q_id": "vi",
-          "statement": "किसी घटना E के लिए P(E) + P(Ē) = ______",
-          "options": [
-            {
-              "index": "a",
-              "text": "सहस्रबाहु"
-            },
-            {
-              "index": "b",
-              "text": "रावण"
-            }
-          ],
-          "correct_answer": "1"
-        }
-      ]
-    },
-    {
-      "question_number": "3",
-      "question_type": "TRUE_FALSE",
-      "marks": "1×6=6",
-      "text": "निम्नलिखित में सत्य / असत्य लिखिए :",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "समरूप त्रिभुजों के क्षेत्रफल सदैव बराबर होते हैं।",
-          "correct_answer": "असत्य"
-        },
-        {
-          "q_id": "ii",
-          "statement": "1, 2, 1, 3, … एक समान्तर श्रेणी नहीं है।",
-          "correct_answer": "सत्य"
-        },
-        {
-          "q_id": "iii",
-          "statement": "किसी बिंदु की y-अक्ष से दूरी उसका y-निर्देशांक होती है।",
-          "correct_answer": "असत्य"
-        },
-        {
-          "q_id": "iv",
-          "statement": "शंकु का आयतन πr²h होता है।",
-          "correct_answer": "असत्य"
-        },
-        {
-          "q_id": "v",
-          "statement": "0 ≤ P(E) ≤ 1",
-          "correct_answer": "सत्य"
-        },
-        {
-          "q_id": "vi",
-          "statement": "वृत्तीय खंड का क्षेत्रफल संगत त्रिज्यखंड से कम होता है।",
-          "correct_answer": "सत्य"
-        }
-      ]
-    },{
-  "question_number": "4",
-  "question_type": "MATCH_COLUMN",
-  "marks": "1*6=6",
-  "text": "सही जोड़ी मिलाकर लिखिए :",
-  "youtube_url": null,
-  "previous_exam_reference": null,
-  "explanation": "यह प्रश्न त्रिकोणमिति एवं क्षेत्रफल के सूत्रों पर आधारित है। प्रत्येक पद का सही गणितीय मान अथवा सूत्र मिलाया गया है।",
-  "columns": {
-    "column_A_title": "(क)",
-    "column_B_title": "(ख)",
-    "pairs": [
-      {
-        "a_item": "9 sec²A − 9 tan²A", 
-        "b_item": "9",
-        "correct_match_index": "6",
-        "explanation": "sec²A − tan²A = 1, अतः 9 × 1 = 9।"
-      },
-      {
-        "a_item": "cos 0°", 
-        "b_item": "1",
-        "correct_match_index": "5",
-        "explanation": "cos 0° का मान 1 होता है।"
-      },
-      {
-        "a_item": "sin 0°", 
-        "b_item": "0",
-        "correct_match_index": "1",
-        "explanation": "sin 0° का मान 0 होता है।"
-      },
-      {
-        "a_item": "कोण θ वाले त्रिज्यखंड का क्षेत्रफल", 
-        "b_item": "θ/360 × πr²",
-        "correct_match_index": "2",
-        "explanation": "त्रिज्यखंड के क्षेत्रफल का सूत्र θ/360 × πr² होता है।"
-      },
-      {
-        "a_item": "अर्धगोले का वक्र पृष्ठीय क्षेत्रफल", 
-        "b_item": "2πr²",
-        "correct_match_index": "3",
-        "explanation": "अर्धगोले का वक्र पृष्ठीय क्षेत्रफल 2πr² होता है।"
-      },
-      {
-        "a_item": "अर्धगोले का सम्पूर्ण पृष्ठीय क्षेत्रफल", 
-        "b_item": "3πr²",
-        "correct_match_index": "4",
-        "explanation": "अर्धगोले का सम्पूर्ण पृष्ठीय क्षेत्रफल 3πr² होता है।"
-      }
-    ]
-  }
-},  {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "1×6=6",
-      "text": "प्रत्येक का एक शब्द / वाक्य में उत्तर लिखिए :",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "द्विघात समीकरण का मानक रूप लिखिए।",
-          "answer": "ax² + bx + c = 0, जहाँ a ≠ 0",
-          "explanation": "यह द्विघात समीकरण का मानक रूप है।"
-        },
-        {
-          "q_id": "ii",
-          "statement": "दो त्रिभुजों के समरूप होने की कोई एक शर्त लिखिए।",
-          "answer": "यदि दो त्रिभुजों के संगत कोण समान हों, तो वे समरूप होते हैं।",
-          "explanation": "यह AAA समरूपता की शर्त है।"
-        },
-        {
-          "q_id": "iii",
-          "statement": "मूलबिंदु (0,0) से बिंदु (x₁, y₁) की दूरी लिखिए।",
-          "answer": "√(x₁² + y₁²)",
-          "explanation": "यह दूरी सूत्र का प्रयोग है।"
-        },
-        {
-          "q_id": "iv",
-          "statement": "यदि किसी खंभे की छाया तथा ऊँचाई समान हो, तो सूर्य का उन्नयन कोण कितना होगा?",
-          "answer": "45°",
-          "explanation": "जब ऊँचाई = छाया, तब tanθ = 1 ⇒ θ = 45°"
-        },
-        {
-          "q_id": "v",
-          "statement": "कोण θ एवं त्रिज्या r वाले त्रिज्यखंड के चाप की लंबाई का सूत्र लिखिए।",
-          "answer": "θ/360 × 2πr",
-          "explanation": "यह त्रिज्यखंड के चाप की लंबाई का सूत्र है।"
-        },
-        {
-          "q_id": "vi",
-          "statement": "वर्ग 20–40 का वर्ग चिन्ह (मध्य बिंदु) लिखिए।",
-          "answer": "30",
-          "explanation": "वर्ग चिन्ह = (निम्न सीमा + उच्च सीमा) / 2"
-        }
-      ]
-    },
+
     {
       "question_number": "6",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "अभाज्य गुणनखंड विधि द्वारा 96 और 404 का H.C.F. ज्ञात कीजिए।",
+      "explanation": "संख्याओं को अभाज्य गुणनखंडों में तोड़कर समान अभाज्य गुणनखंडों का गुणनफल लेने से H.C.F. प्राप्त होता है।",
       "or_option": {
         "text": "OR",
-        "statement": "संख्या 148 को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त कीजिए।"
+        "statement": "संख्या 148 को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त कीजिए।",
+        "explanation": "संख्या को क्रमशः छोटी अभाज्य संख्याओं से भाग देकर अभाज्य गुणनखंड प्राप्त किए जाते हैं।"
       }
     },
+
     {
       "question_number": "7",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "अंकगणित के आधारभूत प्रमेय का कथन लिखिए।",
-      "explanation": "यह प्रश्न Fundamental Theorem of Arithmetic से संबंधित है। विद्यार्थी को प्रमेय का स्पष्ट कथन लिखना है।",
-      "answer": "प्रत्येक 1 से बड़ी प्राकृतिक संख्या या तो अभाज्य होती है अथवा अभाज्य संख्याओं के गुणनफल के रूप में व्यक्त की जा सकती है, और यह अभाज्य गुणनखंडन क्रम को छोड़कर अद्वितीय होता है।",
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "i",
-            "statement": "समझाइए कि 7 × 11 × 13 + 13 और 7 × 6 × 5 × 4 × 3 × 2 × 1 + 5 संयुक्त संख्याएँ क्यों हैं।",
-            "explanation": "यह प्रश्न संयुक्त (Composite) संख्याओं की अवधारणा पर आधारित है। विद्यार्थी को यह दिखाना है कि दी गई संख्याएँ 1 और स्वयं के अतिरिक्त अन्य संख्याओं से भी विभाज्य हैं।",
-            "answer": "7 × 11 × 13 + 13 = 13(7 × 11 + 1) तथा 7 × 6 × 5 × 4 × 3 × 2 × 1 + 5 = 5(7 × 6 × 4 × 3 × 2 × 1 + 1)। दोनों संख्याएँ 1 और स्वयं के अतिरिक्त अन्य संख्याओं से विभाज्य हैं, इसलिए ये संयुक्त संख्याएँ हैं।"
-          }
-        ]
-      }
+      "explanation": "यह प्रमेय बताता है कि प्रत्येक प्राकृतिक संख्या का अभाज्य गुणनखंडन अद्वितीय होता है।"
     },
+
     {
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "बहुपद P(x) का ग्राफ दिया है। शून्यकों की संख्या ज्ञात कीजिए।",
-      "or_option": {
-        "text": "OR",
-        "statement": "द्विघात बहुपद x² − 3x − 10 के शून्यक ज्ञात कीजिए।"
-      }
+      "explanation": "ग्राफ जहाँ-जहाँ x-अक्ष को काटता या स्पर्श करता है, वही बहुपद के शून्य होते हैं।"
     },
+
     {
       "question_number": "9",
       "question_type": "DESCRIPTIVE",
@@ -435,325 +89,122 @@
       "parts": [
         {
           "q_id": "i",
-          "statement": "किसी बहुपद P(x) के लिए y = P(x) का ग्राफ नीचे दिया है। इस स्थिति में P(x) के शून्यों की संख्या ज्ञात कीजिए।",
-          "image_data": {
-            "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/math/graph_zeroes_q9.png",
-            "description": "ग्राफ x-अक्ष को तीन बिंदुओं पर काटता हुआ दर्शाया गया है।"
-          },
-          "answer": "3",
-          "explanation": "किसी बहुपद के शून्य वे बिंदु होते हैं जहाँ उसका ग्राफ x-अक्ष को काटता या स्पर्श करता है। दिए गए ग्राफ में वक्र x-अक्ष को तीन बार काट रहा है, इसलिए शून्यों की संख्या 3 है।"
+          "statement": "ग्राफ से शून्य ज्ञात कीजिए।",
+          "explanation": "x-अक्ष को काटने वाले बिंदुओं की संख्या से शून्य ज्ञात किए जाते हैं।"
         }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "द्विघात बहुपद x² − 3x − 10 के शून्य ज्ञात कीजिए।",
-            "answer": "x² − 3x − 10 = 0 ⇒ (x − 5)(x + 2) = 0 ⇒ x = 5, −2",
-            "explanation": "बहुपद को गुणनखंडों में तोड़कर उसके शून्य प्राप्त किए जाते हैं।"
-          }
-        ]
-      }
+      ]
     },
+
     {
       "question_number": "10",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "word_limit": null,
       "text": "Solve the following pair of linear equations:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "x + 2y = 8, x − y = 8"
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "On comparing ratios a₁/a₂, b₁/b₂, c₁/c₂ find whether the pair of linear equations 2x − 3y = 8 and 4x − 6y = 9 are consistent or inconsistent."
-          }
-        ]
-      }
+      "explanation": "दो रेखीय समीकरणों को हल करके x और y के मान प्राप्त किए जाते हैं।"
     },
+
     {
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "Find the required term of A.P.",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Find the 10th term of the A.P.: 2, 7, 12, …"
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "Which term of the A.P. 21, 18, 15, … is −81?"
-          }
-        ]
-      }
+      "explanation": "A.P. के nवें पद का सूत्र an = a + (n−1)d प्रयोग किया जाता है।"
     },
+
     {
       "question_number": "12",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "Answer the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Write the statement of Basic Proportionality Theorem."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "In the given figure, if OA : OB = OC : OD, show that ∠A = ∠C and ∠B = ∠D.",
-            "imgUrl": "https://drive.google.com/uc?export=view&id=1XuhpKBQ6GzaTBikUuf4R5ki4wD-ZojZI"
-          }
-        ]
-      }
+      "explanation": "यह प्रश्न त्रिभुजों के समानुपात और कोणों के गुणों पर आधारित है।"
     },
+
     {
       "question_number": "13",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "Find the required point or distance:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Find a point on the y-axis which is equidistant from the points A (6, 5) and B (−4, 3)."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "Find the distance between the points (a, b) and (−a, −b)."
-          }
-        ]
-      }
+      "explanation": "निर्देशांक ज्यामिति के दूरी सूत्र का प्रयोग किया जाता है।"
     },
+
     {
       "question_number": "14",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "Solve the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "If cos A = 3/5, find sin A and tan A."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "Find the value of (2 tan 30°) / (1 − tan² 30°)."
-          }
-        ]
-      }
+      "explanation": "त्रिकोणमितीय अनुपातों के सूत्रों का प्रयोग किया जाता है।"
     },
+
     {
       "question_number": "15",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "Find the required area or length:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "In a circle of radius 14 cm, an arc subtends an angle of 45° at the centre. Find the area of the sector formed. (π = 22/7 or 3.14)"
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "Find the length of the arc of a circle of radius 7 cm and angle 60°. (π = 22/7)"
-          }
-        ]
-      }
+      "explanation": "वृत्त और त्रिज्यखंड के क्षेत्रफल व चाप लंबाई के सूत्रों का प्रयोग किया जाता है।"
     },
+
     {
       "question_number": "16",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "Answer the following probability questions:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Two players A and B play a tennis match. If the probability of A winning the match is 0.63, find the probability of B winning the match."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "A die is thrown once. Find the probability of getting a prime number."
-          }
-        ]
-      }
+      "explanation": "कुल संभावित परिणामों और अनुकूल परिणामों के अनुपात से प्रायिकता ज्ञात की जाती है।"
     },
+
     {
       "question_number": "17",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "text": "Solve the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "A bag contains 3 red and 5 black balls. One ball is drawn at random. Find the probability that the ball drawn is (i) red (ii) not red."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "One card is drawn from a well-shuffled deck of 52 cards. Find the probability of getting a red face card."
-          }
-        ]
-      }
+      "explanation": "प्रायिकता के मूल सूत्र P(E) = अनुकूल / कुल परिणाम का प्रयोग होता है।"
     },
+
     {
       "question_number": "18",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
       "text": "Solve the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Find the roots of the equation 2x² − 5x + 3 = 0 by factorisation."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "Find two consecutive positive integers, the sum of whose squares is 365."
-          }
-        ]
-      }
+      "explanation": "द्विघात समीकरण को गुणनखंड विधि से हल किया जाता है।"
     },
+
     {
       "question_number": "19",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
       "text": "Answer the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Prove that the lengths of tangents drawn from an external point to a circle are equal."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "Two concentric circles are of radii 5 cm and 3 cm. Find the length of the chord of the larger circle which touches the smaller circle."
-          }
-        ]
-      }
+      "explanation": "वृत्त की स्पर्श रेखाओं के गुणों का प्रयोग किया जाता है।"
     },
+
     {
       "question_number": "20",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
       "text": "Solve the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Two cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "A juice seller uses a glass of inner diameter 5 cm with a hemispherical raised base. The height of the glass is 10 cm. Find the apparent and actual capacity of the glass. (π = 3.14)",
-            "imgUrl": "https://drive.google.com/uc?export=view&id=1XuhpKBQ6GzaTBikUuf4R5ki4wD-ZojZI"
-          }
-        ]
-      }
+      "explanation": "घन और घनाभ के पृष्ठीय क्षेत्रफल के सूत्रों का प्रयोग किया जाता है।"
     },
+
     {
       "question_number": "21",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
       "text": "Solve the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "A fraction becomes 9/11 if 2 is added to both numerator and denominator. If 3 is added to both numerator and denominator it becomes 5/6. Find the fraction."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "Solve the following pair of linear equations by elimination method: x + y = 5, 2x − 3y = 4."
-          }
-        ]
-      }
+      "explanation": "भिन्नों से समीकरण बनाकर हल किया जाता है।"
     },
+
     {
       "question_number": "22",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
       "text": "Answer the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "A statue 2 m tall stands on the top of a pedestal. From a point on the ground, the angle of elevation of the top of the statue is 60° and of the pedestal is 45°. Find the height of the pedestal. (√3 = 1.732)"
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "The angle of elevation of the top of a building from the foot of a tower is 30° and the angle of elevation of the top of the tower from the same point is 60°. If the tower is 45 m high, find the height of the building."
-          }
-        ]
-      }
+      "explanation": "उन्नयन कोण से ऊँचाई ज्ञात करने हेतु त्रिकोणमितीय अनुपातों का प्रयोग होता है।"
     },
+
     {
       "question_number": "23",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
       "text": "Answer the following:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "The following table shows the number of family members in 21 households. Find the mode of the data.",
-          "imgUrl": "https://drive.google.com/uc?export=view&id=1XuhpKBQ6GzaTBikUuf4R5ki4wD-ZojZI"
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "The following table shows the literacy rate in (%) of 34 cities. Find the mean literacy rate by assumed mean method.",
-            "imgUrl": "https://drive.google.com/uc?export=view&id=1XuhpKBQ6GzaTBikUuf4R5ki4wD-ZojZI"
-          }
-        ]
-      }
+      "explanation": "दिए गए आँकड़ों से माध्य या बहुलक ज्ञात करने के सांख्यिकी सूत्रों का प्रयोग किया जाता है।"
     }
   ]
 }
