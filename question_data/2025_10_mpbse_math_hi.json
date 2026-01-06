@@ -296,47 +296,6 @@
       ]
     },
     {
-      "question_number": "4",
-      "question_type": "MATCH_THE_FOLLOWING",
-      "marks": "1×6=6",
-      "text": "सही जोड़ी मिलाइए :",
-      "column_a_title": "स्तम्भ A",
-      "column_b_title": "स्तम्भ B",
-      "pairs": [
-        {
-          "q_id": "i",
-          "left": "9 sec²A − 9 tan²A",
-          "right": "9"
-        },
-        {
-          "q_id": "ii",
-          "left": "cos 0°",
-          "right": "1"
-        },
-        {
-          "q_id": "iii",
-          "left": "sin 0°",
-          "right": "0"
-        },
-        {
-          "q_id": "iv",
-          "left": "कोण θ वाले त्रिज्यखंड का क्षेत्रफल",
-          "right": "θ/360 × πr²"
-        },
-        {
-          "q_id": "v",
-          "left": "अर्धगोले का वक्र पृष्ठीय क्षेत्रफल",
-          "right": "2πr²"
-        },
-        {
-          "q_id": "vi",
-          "left": "अर्धगोले का सम्पूर्ण पृष्ठीय क्षेत्रफल",
-          "right": "3πr²"
-        }
-      ],
-      "explanation": "यह प्रश्न त्रिकोणमिति एवं क्षेत्रफल के सूत्रों पर आधारित है। प्रत्येक पद का सही गणितीय मान अथवा सूत्र मिलाया गया है।"
-    },
-    {
       "question_number": "5",
       "question_type": "DESCRIPTIVE",
       "marks": "1×6=6",
