@@ -1,0 +1,377 @@
+{
+  "paper_details": {
+    "paperYear": "2023",
+    "subjectName": "MATHEMATICS",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "language": "hi"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "सही विकल्प चुनकर लिखिए :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "(6, 20) का H.C.F. है –",
+          "options": [
+            { "index": "a", "text": "6" },
+            { "index": "b", "text": "20" },
+            { "index": "c", "text": "2" },
+            { "index": "d", "text": "120" }
+          ],
+          "correct_index": "c",
+          "correct_answer": "2",
+          "explanation": "6 और 20 का HCF 2 होता है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "निम्न में से किसका घन है?",
+          "options": [
+            { "index": "a", "text": "ऋणात्मक संख्या" },
+            { "index": "b", "text": "0" },
+            { "index": "c", "text": "2" },
+            { "index": "d", "text": "3" }
+          ],
+          "correct_index": "c",
+          "correct_answer": "2",
+          "explanation": "2 का घन 8 होता है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "रेखीय समीकरण ax₁ + by₁ + c₁ = 0 तथा ax₂ + by₂ + c₂ = 0 के हल होंगे –",
+          "options": [
+            { "index": "a", "text": "a₁/a₂ ≠ b₁/b₂" },
+            { "index": "b", "text": "a₁/a₂ = b₁/b₂" },
+            { "index": "c", "text": "a₁/a₂ ≠ c₁/c₂" },
+            { "index": "d", "text": "a₁/a₂ = b₁/b₂ = c₁/c₂" }
+          ],
+          "correct_index": "d",
+          "correct_answer": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+          "explanation": "इस स्थिति में अनंत अनेक हल होते हैं।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "द्विघात बहुपद का सामान्य रूप है –",
+          "options": [
+            { "index": "a", "text": "a²x + bx + c = 0" },
+            { "index": "b", "text": "ax² + bx + c" },
+            { "index": "c", "text": "ax² + bx + c = 0" },
+            { "index": "d", "text": "ax³ + bx + c = 0" }
+          ],
+          "correct_index": "c",
+          "correct_answer": "ax² + bx + c = 0",
+          "explanation": "द्विघात समीकरण का मानक रूप यही है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "A.P. : −3, 1, 2, … का 10वाँ पद है –",
+          "options": [
+            { "index": "a", "text": "28" },
+            { "index": "b", "text": "22" },
+            { "index": "c", "text": "-38" },
+            { "index": "d", "text": "-48½" }
+          ],
+          "correct_index": "b",
+          "correct_answer": "22",
+          "explanation": "सूत्र aₙ = a + (n−1)d का प्रयोग किया गया है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "त्रिज्या r और ऊँचाई h वाले शंकु की तिर्यक ऊँचाई होगी –",
+          "options": [
+            { "index": "a", "text": "√(r² + h²)" },
+            { "index": "b", "text": "r² + h²" },
+            { "index": "c", "text": "√r² + h²" },
+            { "index": "d", "text": "r + h" }
+          ],
+          "correct_index": "a",
+          "correct_answer": "√(r² + h²)",
+          "explanation": "पाइथागोरस प्रमेय से।"
+        }
+      ]
+    },
+
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "रिक्त स्थानों की पूर्ति कीजिए :",
+      "parts": [
+        { "q_id": "i", "statement": "√2 एक ______ संख्या है।", "correct_answer": "अपरिमेय" },
+        { "q_id": "ii", "statement": "श्रीधराचार्य ने एक सूत्र प्रतिपादित किया जिसे अब ______ के रूप में जाना जाता है।", "correct_answer": "श्रीधराचार्य सूत्र" },
+        { "q_id": "iii", "statement": "A.P. : 5, 10, 15, … का 10वाँ पद ______ है।", "correct_answer": "50" },
+        { "q_id": "iv", "statement": "सभी ______ त्रिभुज समरूप होते हैं।", "correct_answer": "समबाहु" },
+        { "q_id": "v", "statement": "किसी बिंदु की x-अक्ष से दूरी ______ कहलाती है।", "correct_answer": "भुज" },
+        { "q_id": "vi", "statement": "एक निश्चित घटना की प्रायिकता ______ होती है।", "correct_answer": "1" }
+      ]
+    },
+
+    {
+      "question_number": "3",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "सही जोड़ी मिलाइए :",
+      "columns": {
+        "column_A_title": "(क)",
+        "column_B_title": "(ख)",
+        "pairs": [
+          { "a_item": "sin²A + cos²A", "b_item": "1", "correct_match_index": "4" },
+          { "a_item": "tan A", "b_item": "cot A", "correct_match_index": "7" },
+          { "a_item": "9 sec²A − 9 tan²A", "b_item": "9", "correct_match_index": "6" },
+          { "a_item": "बिंदुओं (2,4) और (3,0) के बीच की दूरी", "b_item": "5", "correct_match_index": "1" },
+          { "a_item": "घन का आयतन", "b_item": "a³", "correct_match_index": "2" },
+          { "a_item": "वर्ग का क्षेत्रफल", "b_item": "a²", "correct_match_index": "5" }
+        ]
+      }
+    },
+
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "text": "प्रत्येक का एक शब्द / वाक्य में उत्तर लिखिए :",
+      "parts": [
+        { "q_id": "i", "statement": "ax² + bx + c = 0 के लिए विविक्तकर का सूत्र लिखिए।", "answer": "b² − 4ac" },
+        { "q_id": "ii", "statement": "A.P. के प्रथम n पदों का योग का सूत्र लिखिए।", "answer": "Sₙ = n/2 [2a + (n−1)d]" },
+        { "q_id": "iii", "statement": "उन्नयन कोण की परिभाषा लिखिए।", "answer": "क्षैतिज रेखा से ऊपर बने कोण को उन्नयन कोण कहते हैं।" },
+        { "q_id": "iv", "statement": "स्पर्श रेखा और वृत्त के उभयनिष्ठ बिंदु को क्या कहते हैं?", "answer": "स्पर्श बिंदु" },
+        { "q_id": "v", "statement": "पासे को एक बार फेंकने पर 8 आने की प्रायिकता क्या है?", "answer": "0" },
+        { "q_id": "vi", "statement": "वर्ग 20–40 का वर्ग चिन्ह लिखिए।", "answer": "30" }
+      ]
+    },
+
+    {
+      "question_number": "5",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "निम्नलिखित में सत्य / असत्य लिखिए :",
+      "parts": [
+        { "q_id": "i", "statement": "दो समरूप त्रिभुजों की संगत भुजाएँ समानुपाती होती हैं।", "correct_answer": "सत्य" },
+        { "q_id": "ii", "statement": "समरूप त्रिभुजों के क्षेत्रफलों का अनुपात भुजाओं के अनुपात के बराबर होता है।", "correct_answer": "असत्य" },
+        { "q_id": "iii", "statement": "दृष्टि रेखा प्रेक्षक की आँख को वस्तु से जोड़ने वाली रेखा है।", "correct_answer": "सत्य" },
+        { "q_id": "iv", "statement": "स्पर्श रेखा छेदक रेखा है।", "correct_answer": "असत्य" },
+        { "q_id": "v", "statement": "बिंदु (7,1) और (0,0) के बीच दूरी 5√2 है।", "correct_answer": "सत्य" },
+        { "q_id": "vi", "statement": "शंकु का आयतन बेलन के आयतन का आधा होता है।", "correct_answer": "असत्य" }
+      ]
+    },
+
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "140 को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त कीजिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "यदि HCF (306, 657) = 9 है, तो LCM ज्ञात कीजिए।"
+      }
+    },
+
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "सिद्ध कीजिए कि √2 अपरिमेय संख्या है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "17, 23 और 29 का HCF ज्ञात कीजिए।"
+      }
+    },
+
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "4u² + 8u के शून्यक ज्ञात कीजिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "एक द्विघात बहुपद ज्ञात कीजिए जिसके शून्यों का योग −1 तथा गुणनफल √5 है।"
+      }
+    },
+
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "3x + 2y = 5 तथा 2x − 8y = 7 के लिए a₁/a₂, b₁/b₂ तथा c₁/c₂ ज्ञात कीजिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "x + y = 14 तथा x − y = 4 को हल कीजिए।"
+      }
+    },
+
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "दिए गए ग्राफ से शून्यकों की संख्या ज्ञात कीजिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "बहुपद x² − 3 के शून्यों का योग ज्ञात कीजिए।"
+      }
+    },
+
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "जाँच कीजिए कि x² − 2x = −2(3 − x) द्विघात समीकरण है या नहीं।",
+      "or_option": {
+        "text": "OR",
+        "statement": "द्विघात समीकरण 2x² − 4x + 3 = 0 का विविक्तकर ज्ञात कीजिए।"
+      }
+    },
+
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "A.P. : 2, 7, 12, … का 10वाँ पद ज्ञात कीजिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "जाँच कीजिए कि 0, −4, −8, −12, … एक A.P. है या नहीं।"
+      }
+    },
+
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Basic Proportionality Theorem का कथन लिखिए।",
+      "or_option": {
+        "text": "OR",
+        "statement": "यदि ΔABC में DE ∥ BC हो तथा AE = 1 cm, AD = 1.5 cm, DB = 3 cm हो, तो EC ज्ञात कीजिए।"
+      }
+    },{
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Find the distance between points P(4, 6) and Q(6, 8).",
+      "explanation": "दूरी सूत्र √[(x₂−x₁)² + (y₂−y₁)²] का प्रयोग किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "Find the mid point of points (a, b) and (−a, −b).",
+        "explanation": "मध्य बिंदु सूत्र [(x₁+x₂)/2 , (y₁+y₂)/2] का प्रयोग किया जाता है।"
+      }
+    },
+
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "If tan A = 4/3, then find the value of sec A and cos A.",
+      "explanation": "समकोण त्रिभुज बनाकर त्रिकोणमितीय अनुपातों का प्रयोग किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "Find the value of sin 18° / cos 72°.",
+        "explanation": "पूरक कोणों के त्रिकोणमितीय संबंधों का प्रयोग किया जाता है।"
+      }
+    },
+
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Two players Sangeeta and Reshma play a tennis match. The probability of Sangeeta winning the match is 0.62. What is the probability of Reshma winning the match?",
+      "explanation": "P(A) + P(not A) = 1 के सूत्र का प्रयोग किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag. Find the probability that the ball drawn is red.",
+        "explanation": "प्रायिकता = अनुकूल परिणाम / कुल परिणाम।"
+      }
+    },
+
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "A die is thrown once. Find the probability of getting a prime number.",
+      "explanation": "पासे के सभी संभावित परिणामों में से अभाज्य संख्याओं की गणना की जाती है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "A box contains 5 red, 8 white and 4 green marbles. One marble is taken out at random. Find the probability of getting a white marble.",
+        "explanation": "अनुकूल परिणामों और कुल परिणामों के अनुपात से प्रायिकता ज्ञात की जाती है।"
+      }
+    },
+
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "A tower stands vertically on the ground. From a point on the ground 15 m away from the foot of the tower, the angle of elevation of the top of the tower is 60°. Find the height of the tower.",
+      "explanation": "tan θ = ऊँचाई / आधार का प्रयोग किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "A tree breaks and bends so that the top touches the ground making an angle of 30° with it. The distance between the foot of the tree and the point where the top touches the ground is 8 m. Find the height of the tree.",
+        "explanation": "त्रिकोणमितीय अनुपातों का प्रयोग कर ऊँचाई ज्ञात की जाती है।"
+      }
+    },
+
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Prove that the lengths of tangents drawn from an external point to a circle are equal.",
+      "explanation": "वृत्त की स्पर्श रेखाओं के प्रमेय का प्रयोग किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "The length of a tangent from a point A is 5 cm and the distance of A from the centre of the circle is 4 cm. Find the radius of the circle.",
+        "explanation": "समकोण त्रिभुज में पायथागोरस प्रमेय का प्रयोग किया जाता है।"
+      }
+    },
+
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Find the area of a sector of a circle with radius 6 cm and angle of the sector 60°.",
+      "explanation": "सेक्टर का क्षेत्रफल = (θ/360°) × πr²",
+      "or_option": {
+        "text": "OR",
+        "statement": "The length of the minute hand of a clock is 14 cm. Find the area swept by the minute hand in 5 minutes.",
+        "explanation": "चाप द्वारा घिरे क्षेत्रफल के सूत्र का प्रयोग किया जाता है।"
+      }
+    },
+
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "The difference between two numbers is 26 and one number is three times the other. Find them.",
+      "explanation": "भिन्नों से समीकरण बनाकर हल किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "Solve the pair of linear equations: 3x − 5y − 4 = 0 and 9x = 2y + 7.",
+        "explanation": "प्रतिस्थापन या विलोपन विधि से हल किया जाता है।"
+      }
+    },
+
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "From a solid cylinder whose height is 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid.",
+      "explanation": "बेलन और शंकु के वक्र तथा पृष्ठीय क्षेत्रफल के सूत्रों का प्रयोग किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone equal to its radius. Find the volume of the solid in terms of π.",
+        "explanation": "शंकु और अर्धगोले के आयतन के सूत्रों का प्रयोग किया जाता है।"
+      }
+    },
+
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "The following table gives the literacy rate (in percentage) of 35 cities. Find the mean literacy rate.",
+      "explanation": "सांख्यिकी में माध्य = Σfx / Σf का प्रयोग किया जाता है।",
+      "or_option": {
+        "text": "OR",
+        "statement": "The following data gives the information on the observed lifetimes (in hours) of 225 electrical components. Determine the modal lifetimes of the components.",
+        "explanation": "बहुलक ज्ञात करने के लिए वर्गांतर और अधिकतम आवृत्ति का प्रयोग किया जाता है।"
+      }
+    }
+  ]
+}
