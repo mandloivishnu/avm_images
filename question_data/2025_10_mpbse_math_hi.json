@@ -302,149 +302,276 @@
   ]
 }
 ,
+  {
+    "question_number": "6",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "अभाज्य गुणनखंड विधि द्वारा 96 और 404 का H.C.F. ज्ञात कीजिए।",
+        "correct_answer": "",
+        "explanation": "96 = 2⁵ × 3 तथा 404 = 2² × 101। समान अभाज्य गुणनखंड 2 है जिसकी न्यूनतम घात 2² है। अतः H.C.F. = 4।"
+      }
+    ]
+  },
+  {
+    "question_number": "7",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "अंकगणित के आधारभूत प्रमेय का कथन लिखिए।",
+        "correct_answer": "",
+        "explanation": "प्रत्येक संयुक्त संख्या को अभाज्य संख्याओं के गुणनफल के रूप में अद्वितीय रूप से लिखा जा सकता है, क्रम को छोड़कर।"
+      }
+    ]
+  },
+  {
+    "question_number": "8",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "बहुपद P(x) का ग्राफ दिया है। शून्यकों की संख्या ज्ञात कीजिए।",
+        "correct_answer": "",
+        "explanation": "ग्राफ x-अक्ष को जितनी बार काटता या स्पर्श करता है, उतनी ही शून्यकों की संख्या होती है।"
+      }
+    ]
+  },
+  {
+    "question_number": "9",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "ग्राफ से शून्य ज्ञात कीजिए।",
+        "correct_answer": "",
+        "explanation": "x-अक्ष को जहाँ ग्राफ काटता है, उन बिंदुओं के x-निर्देशांक ही शून्य कहलाते हैं।"
+      }
+    ]
+  },
+  {
+    "question_number": "10",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Solve the following pair of linear equations.",
+        "correct_answer": "",
+        "explanation": "दिए गए रैखिक समीकरणों को विलोपन विधि या प्रतिस्थापन विधि द्वारा हल किया जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "11",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Find the required term of A.P.",
+        "correct_answer": "",
+        "explanation": "A.P. का पद ज्ञात करने के लिए सूत्र aₙ = a + (n−1)d का प्रयोग किया जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "12",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Answer the following.",
+        "correct_answer": "",
+        "explanation": "संबंधित सूत्र लिखकर दिए गए मानों को प्रतिस्थापित कर उत्तर प्राप्त किया जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "13",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Find the required point or distance.",
+        "correct_answer": "",
+        "explanation": "दूरी सूत्र या खंड सूत्र का प्रयोग कर आवश्यक बिंदु या दूरी ज्ञात की जाती है।"
+      }
+    ]
+  },
+  {
+    "question_number": "14",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Solve the following.",
+        "correct_answer": "",
+        "explanation": "बीजीय सरलीकरण कर दिए गए समीकरण का हल किया जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "15",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Find the required area or length.",
+        "correct_answer": "",
+        "explanation": "क्षेत्रफल या लंबाई के मानक सूत्रों का प्रयोग कर उत्तर निकाला जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "16",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Answer the following probability questions.",
+        "correct_answer": "",
+        "explanation": "प्रायिकता = अनुकूल परिणामों की संख्या / कुल संभावित परिणामों की संख्या।"
+      }
+    ]
+  },
+  {
+    "question_number": "17",
+    "question_type": "DESCRIPTIVE",
+    "marks": "2",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Solve the following.",
+        "correct_answer": "",
+        "explanation": "प्रश्न को चरणबद्ध हल कर अंतिम उत्तर लिखा जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "18",
+    "question_type": "DESCRIPTIVE",
+    "marks": "3",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Solve the following.",
+        "correct_answer": "",
+        "explanation": "सूत्र, गणना एवं अंतिम उत्तर स्पष्ट रूप से लिखना आवश्यक है।"
+      }
+    ]
+  },
+  {
+    "question_number": "19",
+    "question_type": "DESCRIPTIVE",
+    "marks": "3",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Answer the following.",
+        "correct_answer": "",
+        "explanation": "सिद्धांत एवं आवश्यक गणना के साथ उत्तर प्रस्तुत किया जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "20",
+    "question_type": "DESCRIPTIVE",
+    "marks": "3",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Solve the following.",
+        "correct_answer": "",
+        "explanation": "समाधान को क्रमबद्ध चरणों में स्पष्ट रूप से लिखा जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "21",
+    "question_type": "DESCRIPTIVE",
+    "marks": "4",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Solve the following.",
+        "correct_answer": "",
+        "explanation": "सूत्र, पूर्ण गणना एवं निष्कर्ष के साथ समाधान प्रस्तुत किया जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "22",
+    "question_type": "DESCRIPTIVE",
+    "marks": "4",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Answer the following.",
+        "correct_answer": "",
+        "explanation": "सिद्धांत, गणना तथा उपयुक्त निष्कर्ष सहित उत्तर लिखा जाता है।"
+      }
+    ]
+  },
+  {
+    "question_number": "23",
+    "question_type": "DESCRIPTIVE",
+    "marks": "4",
+    "word_limit": "",
+    "text": "",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Answer the following.",
+        "correct_answer": "",
+        "explanation": "समाधान स्पष्ट चरणों एवं उचित इकाइयों के साथ लिखा जाता है।"
+      }
+    ]
+  }
 
-    {
-  "question_number": "6",
-  "question_type": "DESCRIPTIVE",
-  "marks": "2",
-  "text": "अभाज्य गुणनखंड विधि द्वारा 96 और 404 का H.C.F. ज्ञात कीजिए।",
-  "explanation": "96 का अभाज्य गुणनखंड = 2⁵ × 3 तथा 404 का अभाज्य गुणनखंड = 2² × 101। दोनों संख्याओं में समान अभाज्य गुणनखंड 2 है, जिसकी न्यूनतम घात 2² है। अतः H.C.F. = 2² = 4।"
-}
-,
-    {
-      "question_number": "7",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "अंकगणित के आधारभूत प्रमेय का कथन लिखिए।",
-      "explanation": "प्रत्येक संयुक्त संख्या को अभाज्य संख्याओं के गुणनफल के रूप में अद्वितीय रूप से लिखा जा सकता है (क्रम को छोड़कर)।"
-    },
-
-    {
-      "question_number": "8",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "बहुपद P(x) का ग्राफ दिया है। शून्यकों की संख्या ज्ञात कीजिए।",
-      "explanation": "ग्राफ जहाँ x-अक्ष को काटता है, उतनी ही शून्यकों की संख्या होती है।"
-    },
-
-    {
-      "question_number": "9",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "ग्राफ से शून्य ज्ञात कीजिए।",
-      "explanation": "x-अक्ष पर प्रतिच्छेदन बिंदुओं के x-निर्देशांक ही शून्य होते हैं।"
-    },
-
-    {
-      "question_number": "10",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Solve the following pair of linear equations.",
-      "explanation": "दिए गए समीकरणों को विलोपन या प्रतिस्थापन विधि से हल किया जाता है।"
-    },
-
-    {
-      "question_number": "11",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Find the required term of A.P.",
-      "explanation": "A.P. का पद ज्ञात करने हेतु सूत्र aₙ = a+(n−1)d का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "12",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Answer the following.",
-      "explanation": "संबंधित सूत्र लिखकर आवश्यक मान प्रतिस्थापित किए जाते हैं।"
-    },
-
-    {
-      "question_number": "13",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Find the required point or distance.",
-      "explanation": "दूरी सूत्र या खंड सूत्र का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "14",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Solve the following.",
-      "explanation": "बीजीय सरलीकरण कर समीकरण हल किया जाता है।"
-    },
-
-    {
-      "question_number": "15",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Find the required area or length.",
-      "explanation": "क्षेत्रफल या लंबाई के मानक सूत्र का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "16",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Answer the following probability questions.",
-      "explanation": "प्रायिकता = अनुकूल परिणाम / कुल परिणाम।"
-    },
-
-    {
-      "question_number": "17",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Solve the following.",
-      "explanation": "दिए गए प्रश्न को चरणबद्ध हल किया जाता है।"
-    },
-
-    {
-      "question_number": "18",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "text": "Solve the following.",
-      "explanation": "तीन अंक के लिए सूत्र, गणना एवं अंतिम उत्तर स्पष्ट रूप से लिखा जाता है।"
-    },
-
-    {
-      "question_number": "19",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "text": "Answer the following.",
-      "explanation": "संबंधित सिद्धांत व गणना सहित उत्तर लिखा जाता है।"
-    },
-
-    {
-      "question_number": "20",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "text": "Solve the following.",
-      "explanation": "समाधान को क्रमबद्ध चरणों में प्रस्तुत किया जाता है।"
-    },
-
-    {
-      "question_number": "21",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "text": "Solve the following.",
-      "explanation": "चार अंकों के लिए पूर्ण विधि, सूत्र, गणना एवं निष्कर्ष आवश्यक है।"
-    },
-
-    {
-      "question_number": "22",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "text": "Answer the following.",
-      "explanation": "सिद्धांत + गणना + उचित निष्कर्ष के साथ उत्तर लिखा जाता है।"
-    },
-
-    {
-      "question_number": "23",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "text": "Answer the following.",
-      "explanation": "पूरा समाधान स्पष्ट चरणों एवं उचित इकाइयों के साथ लिखा जाता है।"
-    }
   ]
 }
