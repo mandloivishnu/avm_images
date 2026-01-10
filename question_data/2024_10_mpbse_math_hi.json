@@ -446,81 +446,159 @@
     {
       "question_number": "6",
       "question_type": "DESCRIPTIVE",
-      "marks": 2,
-      "question": "Find the H.C.F. of the numbers 6 and 20.",
-      "explanation": "अभाज्य गुणनखंड विधि से:\n6 = 2 × 3 तथा 20 = 2 × 2 × 5।\nदोनों संख्याओं का सामान्य अभाज्य गुणनखंड 2 है।\nअतः H.C.F. = 2।",
-      "or_options": [
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
         {
-          "question": "Express the number 140 as a product of its prime factors.",
-          "explanation": "140 को अभाज्य संख्याओं से भाग देने पर:\n140 = 2 × 2 × 5 × 7।\nअतः 140 का अभाज्य गुणनखंड रूप 2² × 5 × 7 है।"
+          "q_id": "",
+          "statement": "संख्याओं 6 और 20 का H.C.F. ज्ञात कीजिए।",
+          "correct_answer": "",
+          "explanation": "दिया है:\nसंख्याएँ = 6 और 20\n\n6 के अभाज्य गुणनखंड:\n6 = 2 × 3\n\n20 के अभाज्य गुणनखंड:\n20 = 2 × 2 × 5\n\nदोनों में समान अभाज्य गुणनखंड केवल 2 है।\n\nअतः 6 और 20 का H.C.F. = 2।"
         }
-      ]
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "संख्या 140 को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त कीजिए।",
+            "correct_answer": "",
+            "explanation": "दिया है:\nसंख्या = 140\n\nक्रमशः अभाज्य संख्याओं से भाग करते हैं:\n140 ÷ 2 = 70\n70 ÷ 2 = 35\n35 ÷ 5 = 7\n7 ÷ 7 = 1\n\nअतः 140 के अभाज्य गुणनखंड:\n140 = 2 × 2 × 5 × 7।"
+          }
+        ]
+      }
     },
     {
       "question_number": "7",
       "question_type": "DESCRIPTIVE",
-      "marks": 2,
-      "question": "Find the zeroes of the quadratic polynomial 3x² − x − 4.",
-      "explanation": "बहुपद 3x² − x − 4 को गुणनखंड रूप में लिखते हैं:\n3x² − x − 4 = (3x − 4)(x + 1)।\nप्रत्येक गुणनखंड को शून्य के बराबर रखने पर:\nx = 4/3 तथा x = −1।",
-      "or_options": [
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
         {
-          "question": "Find a quadratic polynomial whose sum of zeroes is 4 and product of zeroes is 1.",
-          "explanation": "यदि शून्यकों का योग α + β = 4 तथा गुणनफल αβ = 1 हो,\nतो द्विघात बहुपद x² − (α + β)x + αβ = 0 होगा।\nअतः वांछित बहुपद x² − 4x + 1 है।"
+          "q_id": "",
+          "statement": "द्विघात बहुपद 3x² − x − 4 के शून्य ज्ञात कीजिए।",
+          "correct_answer": "",
+          "explanation": "दिया गया बहुपद:\n3x² − x − 4 = 0\n\nमध्य पद विभाजन विधि से:\n3x² − 4x + 3x − 4 = 0\n\n⇒ (3x(x − 1) + 4(x − 1)) = 0\n\n⇒ (3x + 4)(x − 1) = 0\n\nअतः,\n3x + 4 = 0 ⇒ x = −4/3\nx − 1 = 0 ⇒ x = 1\n\nइस प्रकार शून्य −4/3 तथा 1 हैं।"
         }
-      ]
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "एक द्विघात बहुपद ज्ञात कीजिए, जिसके शून्यों का योग 4 एवं गुणनफल 1 हो।",
+            "correct_answer": "",
+            "explanation": "मान लीजिए बहुपद के शून्य α तथा β हैं।\n\nदिया है:\nα + β = 4\nαβ = 1\n\nद्विघात बहुपद का सामान्य रूप:\nx² − (α + β)x + αβ\n\nमान रखने पर:\nx² − 4x + 1\n\nअतः आवश्यक द्विघात बहुपद x² − 4x + 1 है।"
+          }
+        ]
+      }
     },
     {
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
-      "marks": 2,
-      "question": "Find the ratios a₁/a₂, b₁/b₂ and c₁/c₂ for the pair of linear equations: 5x − 4y + 8 = 0 and 7x + 6y − 9 = 0 and state whether the system is consistent or inconsistent.",
-      "explanation": "पहले समीकरण से a₁ = 5, b₁ = −4, c₁ = 8 तथा दूसरे से a₂ = 7, b₂ = 6, c₂ = −9।\nअनुपात:\na₁/a₂ = 5/7,\nb₁/b₂ = −4/6,\nc₁/c₂ = 8/−9।\nचूँकि a₁/a₂ ≠ b₁/b₂, अतः युग्म संगत है तथा एक अद्वितीय हल होगा।",
-      "or_options": [
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
         {
-          "question": "Solve the pair of linear equations: x + y = 14, x − y = 4.",
-          "explanation": "दोनों समीकरणों को जोड़ने पर:\n2x = 18 ⇒ x = 9।\nx = 9 को पहले समीकरण में रखने पर:\ny = 5।"
+          "q_id": "",
+          "statement": "निम्नलिखित रैखिक समीकरण युग्म के लिए a₁/a₂, b₁/b₂ तथा c₁/c₂ के अनुपात ज्ञात कीजिए और बताइए कि यह सुसंगत है या असुसंगत।\n5x − 4y + 8 = 0\n7x + 6y − 9 = 0",
+          "correct_answer": "",
+          "explanation": "पहले समीकरण से:\na₁ = 5, b₁ = −4, c₁ = 8\n\nदूसरे समीकरण से:\na₂ = 7, b₂ = 6, c₂ = −9\n\nअनुपात:\na₁/a₂ = 5/7\nb₁/b₂ = −4/6 = −2/3\n\nक्योंकि a₁/a₂ ≠ b₁/b₂\n\nअतः दिया गया रैखिक समीकरण युग्म सुसंगत है तथा इसका एक अद्वितीय हल है।"
         }
-      ]
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "निम्नलिखित रैखिक समीकरण युग्म को हल कीजिए:\nx + y = 14\nx − y = 4",
+            "correct_answer": "",
+            "explanation": "दिए गए समीकरण:\n(1) x + y = 14\n(2) x − y = 4\n\nदोनों समीकरणों को जोड़ने पर:\n2x = 18\n\n⇒ x = 9\n\nx का मान समीकरण (1) में रखने पर:\n9 + y = 14\n\n⇒ y = 5\n\nअतः समीकरणों का हल:\nx = 9, y = 5।"
+          }
+        ]
+      }
     },
     {
       "question_number": "9",
       "question_type": "DESCRIPTIVE",
-      "marks": 2,
-      "question": "Write the next two terms of the A.P.: 4, 10, 16, 22, …",
-      "explanation": "दी गई A.P. में प्रथम पद a = 4 तथा अंतर d = 6 है।\nअगले दो पद होंगे:\n22 + 6 = 28 तथा 28 + 6 = 34।",
-      "or_options": [
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
         {
-          "question": "Find the sum of the following: 34 + 32 + 30 + … + 10.",
-          "explanation": "यह एक A.P. है जिसमें a = 34, d = −2 तथा अंतिम पद l = 10 है।\nसूत्र Sn = n/2 (a + l) द्वारा श्रेणी का योग ज्ञात किया जाता है।"
+          "q_id": "a",
+          "statement": "दी गई A.P. के अगले दो पद लिखिए:\n4, 10, 16, 22, ……",
+          "correct_answer": "",
+          "explanation": "दी गई A.P. है:\n4, 10, 16, 22\n\nप्रथम पद (a) = 4\nसामान्तर अन्तर (d) = 10 − 4 = 6\n\nअगला पद = 22 + 6 = 28\nउसके बाद का पद = 28 + 6 = 34\n\nअतः अगले दो पद 28 और 34 हैं।"
         }
-      ]
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "निम्नलिखित का योग ज्ञात कीजिए:\n34 + 32 + 30 + …… + 10",
+            "correct_answer": "",
+            "explanation": "दी गई श्रेणी एक A.P. है:\n34, 32, 30, ……, 10\n\nप्रथम पद (a) = 34\nअन्तिम पद (l) = 10\nसामान्तर अन्तर (d) = −2\n\nपदों की संख्या:\n10 = 34 + (n−1)(−2)\n⇒ 10 = 36 − 2n\n⇒ n = 13\n\nयोग का सूत्र:\nSₙ = n/2 (a + l)\n\nS₁₃ = 13/2 (34 + 10)\n= 13/2 × 44\n= 286\n\nअतः योग 286 है।"
+          }
+        ]
+      }
     },
     {
       "question_number": "10",
       "question_type": "DESCRIPTIVE",
-      "marks": 2,
-      "question": "In the given figure, if PQ || RS, prove that ΔPOQ ~ ΔSOR.",
-      "imgUrl": "https://dummyurl.com/geometry1.png",
-      "explanation": "PQ ∥ RS होने से वैकल्पिक कोण समान होंगे।\n∠POQ = ∠SOR तथा एक अन्य संगत कोण भी समान है।\nअतः AA समानता कसौटी से ΔPOQ ~ ΔSOR सिद्ध होता है।",
-      "or_options": [
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
         {
-          "question": "E and F are points on PQ and PR of ΔPQR. Check whether EF || QR when PE = 4 cm, QE = 4.5 cm, PF = 8 cm, RF = 9 cm.",
-          "explanation": "PE/QE = 4/4.5 तथा PF/RF = 8/9 है।\nचूँकि दोनों अनुपात बराबर हैं, अतः आधारभूत समानुपातिकता प्रमेय से EF ∥ QR।"
+          "q_id": "a",
+          "statement": "किसी ΔPQR की भुजाओं PQ और PR पर क्रमशः बिन्दु E और F स्थित हैं। बताइए कि क्या EF ∥ QR जब:\nPE = 4 सेमी, QE = 4.5 सेमी, PF = 8 सेमी, RF = 9 सेमी",
+          "correct_answer": "",
+          "explanation": "दिया है:\nPE = 4 सेमी, QE = 4.5 सेमी\nPF = 8 सेमी, RF = 9 सेमी\n\nअब,\nPE / QE = 4 / 4.5 = 8 / 9\nPF / RF = 8 / 9\n\nचूँकि\nPE / QE = PF / RF\n\nअतः, थेल्स प्रमेय के अनुसार EF ∥ QR\n\nइसलिए EF, QR के समान्तर है।"
         }
-      ]
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "आकृति में यदि PQ ∥ RS है, तो सिद्ध कीजिए कि:\nΔPOQ ~ ΔSOR",
+            "correct_answer": "",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_math_10.PNG",
+            "explanation": "दिया है:\nPQ ∥ RS\n\n∠POQ = ∠SOR (विपरीत कोण)\n∠PQO = ∠SRO (समांतर रेखाओं के कारण)\n\nदो कोण समान होने से\nΔPOQ ~ ΔSOR (AA समानता कसौटी)\n\nअतः सिद्ध हुआ कि ΔPOQ ~ ΔSOR।"
+          }
+        ]
+      }
     },
     {
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
-      "marks": 2,
-      "question": "Find the distance between the points (−5, 7) and (−1, 3).",
-      "explanation": "दूरी सूत्र के अनुसार:\n√[(−1 + 5)² + (3 − 7)²]\n= √(4² + (−4)²)\n= √32 = 4√2।",
-      "or_options": [
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
         {
-          "question": "Determine if the points (1,5), (2,3) and (−2,−11) are collinear.",
-          "explanation": "यदि तीनों बिंदुओं के बीच की ढाल समान हो, तो बिंदु सहरेखीय होते हैं।"
+          "q_id": "a",
+          "statement": "बिन्दुओं (−5, 7) और (−1, 3) के बीच की दूरी ज्ञात कीजिए।",
+          "correct_answer": "",
+          "explanation": "दूरी का सूत्र:\n√[(x₂ − x₁)² + (y₂ − y₁)²]\n\nयहाँ,\n(x₁, y₁) = (−5, 7)\n(x₂, y₂) = (−1, 3)\n\n⇒ दूरी = √[(−1 + 5)² + (3 − 7)²]\n= √[(4)² + (−4)²]\n= √(16 + 16)\n= √32\n= 4√2\n\nअतः दूरी 4√2 इकाई है।"
         }
-      ]
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "निर्धारित कीजिए कि क्या बिन्दु (1, 5), (2, 3) और (−2, −11) संरेखी हैं।",
+            "correct_answer": "",
+            "explanation": "तीनों बिन्दुओं के बीच ढाल ज्ञात करते हैं:\n\nढाल AB = (3 − 5)/(2 − 1) = −2\nढाल BC = (−11 − 3)/(−2 − 2) = −14/−4 = 3.5\n\nचूँकि ढाल समान नहीं है,\n\nअतः बिन्दु संरेखी नहीं हैं।"
+          }
+        ]
+      }
     },
     {
       "question_number": "12",
@@ -584,7 +662,6 @@
         {
           "q_id": "a",
           "statement": "सिद्ध कीजिए कि किसी वृत्त के किसी व्यास के सिरों पर खींची गई स्पर्श रेखाएँ समान्तर होती हैं।",
-          "imgUrl": "https://dummyurl.com/circle-tangent.png",
           "correct_answer": "",
           "explanation": "वृत्त के किसी बिंदु पर खींची गई स्पर्श रेखा उस बिंदु पर त्रिज्या पर लम्ब होती है। व्यास के दोनों सिरों पर त्रिज्याएँ एक ही सीधी रेखा में होती हैं, अतः उन पर खींची गई स्पर्श रेखाएँ परस्पर समान्तर होती हैं।"
         }
