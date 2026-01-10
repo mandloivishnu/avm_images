@@ -16,195 +16,149 @@
         {
           "q_id": "i",
           "statement": "संख्याओं 6 व 20 का H.C.F. होगा –",
-          "correct_answer": "2",
-          "explanation": "6 और 20 के सामान्य गुणनखंड 1 और 2 हैं। सबसे बड़ा सामान्य गुणनखंड 2 है।"
+          "options": [
+            { "index": "a", "text": "2" },
+            { "index": "b", "text": "6" },
+            { "index": "c", "text": "10" },
+            { "index": "d", "text": "1" }
+          ],
+          "correct_answer": "2"
         },
         {
           "q_id": "ii",
-          "statement": "यदि a1/a2 = b1/b2 = c1/c2 हो...",
-          "correct_answer": "अनंत अनेक हल होंगे,",
-          "explanation": "जब a1/a2 = b1/b2 = c1/c2 होता है, तब दोनों रेखीय समीकरण एक ही रेखा दर्शाते हैं, इसलिए अनंत हल होते हैं।"
+          "statement": "यदि a1/a2 = b1/b2 = c1/c2 हो, तो समीकरण युग्म",
+          "options": [
+            { "index": "a", "text": "एक प्रतिच्छेदित हल होगा" },
+            { "index": "b", "text": "कोई हल नहीं होगा" },
+            { "index": "c", "text": "कोई भी हल नहीं होगा" },
+            { "index": "d", "text": "अनंत अनेक हल होंगे" }
+          ],
+          "correct_answer": "अनंत अनेक हल होंगे"
         },
         {
           "q_id": "iii",
-          "statement": "द्विघात समीकरण के मूल वास्तविक और असमान होंगे यदि –",
-          "correct_answer": "b² − 4ac > 0",
-          "explanation": "जब विवर्तक (D = b² − 4ac) शून्य से बड़ा होता है, तब मूल वास्तविक और भिन्न होते हैं।"
+          "statement": "द्विघात समीकरण ax²+bx+c=0 के मूल वास्तविक और असमान होंगे यदि –",
+          "options": [
+            { "index": "a", "text": "b²−4ac > 0" },
+            { "index": "b", "text": "b²−4ac = 0" },
+            { "index": "c", "text": "b²−4ac < 0" },
+            { "index": "d", "text": "b²−4ac² = 0" }
+          ],
+          "correct_answer": "b²−4ac > 0"
         },
         {
           "q_id": "iv",
           "statement": "A.P. : 2, 4, 6, … का 10वाँ पद है –",
-          "correct_answer": "20",
-          "explanation": "यहाँ a = 2, d = 2। nवाँ पद an = a + (n−1)d ⇒ a10 = 2 + 9×2 = 20।"
+          "options": [
+            { "index": "a", "text": "2" },
+            { "index": "b", "text": "18" },
+            { "index": "c", "text": "20" },
+            { "index": "d", "text": "22" }
+          ],
+          "correct_answer": "20"
         },
         {
           "q_id": "v",
           "statement": "बिंदु (2,3) तथा (4,1) के बीच दूरी है –",
-          "correct_answer": "√8",
-          "explanation": "दूरी सूत्र √[(x₂−x₁)² + (y₂−y₁)²] से दूरी √[(4−2)² + (1−3)²] = √8।"
+          "options": [
+            { "index": "a", "text": "√8" },
+            { "index": "b", "text": "3√3" },
+            { "index": "c", "text": "3√2" },
+            { "index": "d", "text": "2√3" }
+          ],
+          "correct_answer": "√8"
         },
         {
           "q_id": "vi",
           "statement": "एक वृत्त की कितनी स्पर्श रेखा हो सकती है?",
-          "correct_answer": "अनंत",
-          "explanation": "वृत्त के प्रत्येक बिंदु पर एक स्पर्श रेखा संभव है, इसलिए अनंत स्पर्श रेखाएँ हो सकती हैं।"
+          "options": [
+            { "index": "a", "text": "0" },
+            { "index": "b", "text": "1" },
+            { "index": "c", "text": "2" },
+            { "index": "d", "text": "अनंत" }
+          ],
+          "correct_answer": "अनंत"
         }
       ]
     },
 
     {
-      "question_number": "6",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "अभाज्य गुणनखंड विधि द्वारा 96 और 404 का H.C.F. ज्ञात कीजिए।",
-      "explanation": "संख्याओं को अभाज्य गुणनखंडों में तोड़कर समान अभाज्य गुणनखंडों का गुणनफल लेने से H.C.F. प्राप्त होता है।",
-      "or_option": {
-        "text": "OR",
-        "statement": "संख्या 148 को अभाज्य गुणनखंडों के गुणनफल के रूप में व्यक्त कीजिए।",
-        "explanation": "संख्या को क्रमशः छोटी अभाज्य संख्याओं से भाग देकर अभाज्य गुणनखंड प्राप्त किए जाते हैं।"
-      }
-    },
-
-    {
-      "question_number": "7",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "अंकगणित के आधारभूत प्रमेय का कथन लिखिए।",
-      "explanation": "यह प्रमेय बताता है कि प्रत्येक प्राकृतिक संख्या का अभाज्य गुणनखंडन अद्वितीय होता है।"
-    },
-
-    {
-      "question_number": "8",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "बहुपद P(x) का ग्राफ दिया है। शून्यकों की संख्या ज्ञात कीजिए।",
-      "explanation": "ग्राफ जहाँ-जहाँ x-अक्ष को काटता या स्पर्श करता है, वही बहुपद के शून्य होते हैं।"
-    },
-
-    {
-      "question_number": "9",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "निम्नलिखित प्रश्न हल कीजिए :",
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "रिक्त स्थानों की पूर्ति कीजिए :",
       "parts": [
-        {
-          "q_id": "i",
-          "statement": "ग्राफ से शून्य ज्ञात कीजिए।",
-          "explanation": "x-अक्ष को काटने वाले बिंदुओं की संख्या से शून्य ज्ञात किए जाते हैं।"
-        }
+        { "q_id": "i", "statement": "√2 एक ______ संख्या है।", "correct_answer": "अपरिमेय" },
+        { "q_id": "ii", "statement": "एक बहुपद जिसकी घात 3 है, वह ______ बहुपद कहलाता है।", "correct_answer": "घन" },
+        { "q_id": "iii", "statement": "A.P. : 3/2, 1/2, −1/2, −3/2 का सार्व अंतर d = ______ है।", "correct_answer": "−1" },
+        { "q_id": "iv", "statement": "सभी सर्वांगसम त्रिभुज ______ होते हैं।", "correct_answer": "समान" },
+        { "q_id": "v", "statement": "वृत्त को दो बिंदुओं पर प्रतिच्छेद करने वाली रेखा को ______ कहते हैं।", "correct_answer": "छेदक" },
+        { "q_id": "vi", "statement": "किसी घटना E के लिए P(E)+P(E̅)= ______।", "correct_answer": "1" }
       ]
     },
 
     {
-      "question_number": "10",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Solve the following pair of linear equations:",
-      "explanation": "दो रेखीय समीकरणों को हल करके x और y के मान प्राप्त किए जाते हैं।"
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "निम्नलिखित में सत्य / असत्य लिखिए :",
+      "parts": [
+        { "q_id": "i", "statement": "समरूप त्रिभुजों के क्षेत्रफल सदैव बराबर होते हैं।", "correct_answer": "असत्य" },
+        { "q_id": "ii", "statement": "1,2,1,3,… एक समान्तर श्रेणी नहीं है।", "correct_answer": "सत्य" },
+        { "q_id": "iii", "statement": "किसी बिंदु की y-अक्ष से दूरी उस बिंदु का y-निर्देशांक होती है।", "correct_answer": "असत्य" },
+        { "q_id": "iv", "statement": "शंकु का आयतन πr² है।", "correct_answer": "असत्य" },
+        { "q_id": "v", "statement": "P(E) एक संख्या है जहाँ 0 ≤ P(E) ≤ 1।", "correct_answer": "सत्य" },
+        { "q_id": "vi", "statement": "वृत्तखंड का क्षेत्रफल संगत त्रिज्यखंड से कम होता है।", "correct_answer": "सत्य" }
+      ]
     },
 
     {
-      "question_number": "11",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Find the required term of A.P.",
-      "explanation": "A.P. के nवें पद का सूत्र an = a + (n−1)d प्रयोग किया जाता है।"
+      "question_number": "4",
+      "question_type": "MATCH_THE_FOLLOWING",
+      "marks": "1×6=6",
+      "text": "सही जोड़ी मिलाइए :",
+      "parts": [
+        { "q_id": "i", "statement": "9sec²A − 9tan²A", "correct_answer": "9" },
+        { "q_id": "ii", "statement": "cos 0°", "correct_answer": "1" },
+        { "q_id": "iii", "statement": "sin 0°", "correct_answer": "0" },
+        { "q_id": "iv", "statement": "कोण θ वाले त्रिज्यखंड का क्षेत्रफल", "correct_answer": "θ/360 × πr²" },
+        { "q_id": "v", "statement": "अर्धगोले का वक्र पृष्ठीय क्षेत्रफल", "correct_answer": "2πr²" },
+        { "q_id": "vi", "statement": "अर्धगोले का सम्पूर्ण पृष्ठीय क्षेत्रफल", "correct_answer": "3πr²" }
+      ]
     },
 
     {
-      "question_number": "12",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Answer the following:",
-      "explanation": "यह प्रश्न त्रिभुजों के समानुपात और कोणों के गुणों पर आधारित है।"
+      "question_number": "5",
+      "question_type": "VERY_SHORT_ANSWER",
+      "marks": "1×6=6",
+      "text": "प्रत्येक का एक शब्द / वाक्य में उत्तर लिखिए :",
+      "parts": [
+        { "q_id": "i", "statement": "द्विघात समीकरण का मानक रूप लिखिए।", "correct_answer": "ax²+bx+c=0" },
+        { "q_id": "ii", "statement": "दो त्रिभुजों के समरूप होने की कोई एक शर्त लिखिए।", "correct_answer": "AAA" },
+        { "q_id": "iii", "statement": "मूलबिंदु से (x₁,y₁) की दूरी लिखिए।", "correct_answer": "√(x₁²+y₁²)" },
+        { "q_id": "iv", "statement": "छाया = ऊँचाई होने पर सूर्य का उन्नयन कोण?", "correct_answer": "45°" },
+        { "q_id": "v", "statement": "त्रिज्या r व कोण θ वाले त्रिज्यखंड की चाप लंबाई का सूत्र।", "correct_answer": "θ/360 × 2πr" },
+        { "q_id": "vi", "statement": "वर्ग 20–40 का वर्ग चिन्ह।", "correct_answer": "30" }
+      ]
     },
 
-    {
-      "question_number": "13",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Find the required point or distance:",
-      "explanation": "निर्देशांक ज्यामिति के दूरी सूत्र का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "14",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Solve the following:",
-      "explanation": "त्रिकोणमितीय अनुपातों के सूत्रों का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "15",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Find the required area or length:",
-      "explanation": "वृत्त और त्रिज्यखंड के क्षेत्रफल व चाप लंबाई के सूत्रों का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "16",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Answer the following probability questions:",
-      "explanation": "कुल संभावित परिणामों और अनुकूल परिणामों के अनुपात से प्रायिकता ज्ञात की जाती है।"
-    },
-
-    {
-      "question_number": "17",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "text": "Solve the following:",
-      "explanation": "प्रायिकता के मूल सूत्र P(E) = अनुकूल / कुल परिणाम का प्रयोग होता है।"
-    },
-
-    {
-      "question_number": "18",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "text": "Solve the following:",
-      "explanation": "द्विघात समीकरण को गुणनखंड विधि से हल किया जाता है।"
-    },
-
-    {
-      "question_number": "19",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "text": "Answer the following:",
-      "explanation": "वृत्त की स्पर्श रेखाओं के गुणों का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "20",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "text": "Solve the following:",
-      "explanation": "घन और घनाभ के पृष्ठीय क्षेत्रफल के सूत्रों का प्रयोग किया जाता है।"
-    },
-
-    {
-      "question_number": "21",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "text": "Solve the following:",
-      "explanation": "भिन्नों से समीकरण बनाकर हल किया जाता है।"
-    },
-
-    {
-      "question_number": "22",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "text": "Answer the following:",
-      "explanation": "उन्नयन कोण से ऊँचाई ज्ञात करने हेतु त्रिकोणमितीय अनुपातों का प्रयोग होता है।"
-    },
-
-    {
-      "question_number": "23",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "text": "Answer the following:",
-      "explanation": "दिए गए आँकड़ों से माध्य या बहुलक ज्ञात करने के सांख्यिकी सूत्रों का प्रयोग किया जाता है।"
-    }
+    { "question_number": "6", "question_type": "DESCRIPTIVE", "marks": "2", "text": "अभाज्य गुणनखंड विधि द्वारा 96 और 404 का H.C.F. ज्ञात कीजिए।" },
+    { "question_number": "7", "question_type": "DESCRIPTIVE", "marks": "2", "text": "अंकगणित के आधारभूत प्रमेय का कथन लिखिए।" },
+    { "question_number": "8", "question_type": "DESCRIPTIVE", "marks": "2", "text": "बहुपद P(x) का ग्राफ दिया है। शून्यकों की संख्या ज्ञात कीजिए।" },
+    { "question_number": "9", "question_type": "DESCRIPTIVE", "marks": "2", "text": "ग्राफ से शून्य ज्ञात कीजिए।" },
+    { "question_number": "10", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Solve the following pair of linear equations." },
+    { "question_number": "11", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Find the required term of A.P." },
+    { "question_number": "12", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Answer the following." },
+    { "question_number": "13", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Find the required point or distance." },
+    { "question_number": "14", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Solve the following." },
+    { "question_number": "15", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Find the required area or length." },
+    { "question_number": "16", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Answer the following probability questions." },
+    { "question_number": "17", "question_type": "DESCRIPTIVE", "marks": "2", "text": "Solve the following." },
+    { "question_number": "18", "question_type": "DESCRIPTIVE", "marks": "3", "text": "Solve the following." },
+    { "question_number": "19", "question_type": "DESCRIPTIVE", "marks": "3", "text": "Answer the following." },
+    { "question_number": "20", "question_type": "DESCRIPTIVE", "marks": "3", "text": "Solve the following." },
+    { "question_number": "21", "question_type": "DESCRIPTIVE", "marks": "4", "text": "Solve the following." },
+    { "question_number": "22", "question_type": "DESCRIPTIVE", "marks": "4", "text": "Answer the following." },
+    { "question_number": "23", "question_type": "DESCRIPTIVE", "marks": "4", "text": "Answer the following." }
   ]
 }
