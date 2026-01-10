@@ -488,7 +488,7 @@
           "q_id": "",
           "statement": "किसी बहुपद P(x) के लिए y = P(x) का ग्राफ नीचे दिया है। इस स्थिति में P(x) के शून्यों की संख्या ज्ञात कीजिए।",
           "correct_answer": "",
-          "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_eng_visual.png",
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_eng_visual.png",
           "explanation": "किसी बहुपद के शून्य वे x-निर्देशांक होते हैं जहाँ उसका ग्राफ x-अक्ष को काटता या स्पर्श करता है। दिए गए ग्राफ में वक्र x-अक्ष को तीन विभिन्न बिंदुओं पर काटता है। अतः बहुपद P(x) के शून्यों की संख्या 3 है।"
         }
       ],
