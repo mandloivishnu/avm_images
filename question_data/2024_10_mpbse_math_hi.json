@@ -445,6 +445,7 @@
     },
     {
       "question_number": "6",
+      "question_type": "DESCRIPTIVE",
       "marks": 2,
       "question": "Find the H.C.F. of the numbers 6 and 20.",
       "explanation": "अभाज्य गुणनखंड विधि से:\n6 = 2 × 3 तथा 20 = 2 × 2 × 5।\nदोनों संख्याओं का सामान्य अभाज्य गुणनखंड 2 है।\nअतः H.C.F. = 2।",
@@ -457,6 +458,7 @@
     },
     {
       "question_number": "7",
+      "question_type": "DESCRIPTIVE",
       "marks": 2,
       "question": "Find the zeroes of the quadratic polynomial 3x² − x − 4.",
       "explanation": "बहुपद 3x² − x − 4 को गुणनखंड रूप में लिखते हैं:\n3x² − x − 4 = (3x − 4)(x + 1)।\nप्रत्येक गुणनखंड को शून्य के बराबर रखने पर:\nx = 4/3 तथा x = −1।",
@@ -469,6 +471,7 @@
     },
     {
       "question_number": "8",
+      "question_type": "DESCRIPTIVE",
       "marks": 2,
       "question": "Find the ratios a₁/a₂, b₁/b₂ and c₁/c₂ for the pair of linear equations: 5x − 4y + 8 = 0 and 7x + 6y − 9 = 0 and state whether the system is consistent or inconsistent.",
       "explanation": "पहले समीकरण से a₁ = 5, b₁ = −4, c₁ = 8 तथा दूसरे से a₂ = 7, b₂ = 6, c₂ = −9।\nअनुपात:\na₁/a₂ = 5/7,\nb₁/b₂ = −4/6,\nc₁/c₂ = 8/−9।\nचूँकि a₁/a₂ ≠ b₁/b₂, अतः युग्म संगत है तथा एक अद्वितीय हल होगा।",
@@ -481,6 +484,7 @@
     },
     {
       "question_number": "9",
+      "question_type": "DESCRIPTIVE",
       "marks": 2,
       "question": "Write the next two terms of the A.P.: 4, 10, 16, 22, …",
       "explanation": "दी गई A.P. में प्रथम पद a = 4 तथा अंतर d = 6 है।\nअगले दो पद होंगे:\n22 + 6 = 28 तथा 28 + 6 = 34।",
@@ -493,6 +497,7 @@
     },
     {
       "question_number": "10",
+      "question_type": "DESCRIPTIVE",
       "marks": 2,
       "question": "In the given figure, if PQ || RS, prove that ΔPOQ ~ ΔSOR.",
       "imgUrl": "https://dummyurl.com/geometry1.png",
@@ -506,6 +511,7 @@
     },
     {
       "question_number": "11",
+      "question_type": "DESCRIPTIVE",
       "marks": 2,
       "question": "Find the distance between the points (−5, 7) and (−1, 3).",
       "explanation": "दूरी सूत्र के अनुसार:\n√[(−1 + 5)² + (3 − 7)²]\n= √(4² + (−4)²)\n= √32 = 4√2।",
