@@ -1,178 +1,304 @@
 {
   "paper_details": {
     "paperYear": "2023",
-    "subjectName": "IT / Computer Science",
-    "board": "MP Board",
-    "language": "hi",
-    "totalMarks": 75
+    "subjectName": "INFORMATION TECHNOLOGY (IT)",
+    "totalMarks": "75",
+    "board": "MP Board"
   },
   "questions": [
     {
-      "question_number": 1,
-      "question_type": "MCQ",
-      "marks": 5,
-      "text": "सही विकल्प चुनिए :",
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×5=5",
+      "text": "Choose the correct option:",
       "parts": [
         {
-          "q_id": "1i",
-          "statement": "निम्नलिखित में से indirect object क्या है?",
-          "options": ["The band", "Played", "Music", "Audience"],
+          "q_id": "i",
+          "statement": "Identify the indirect object in the sentence: \"The band played music for the audience.\"",
+          "options": [
+            { "index": "a", "text": "The band" },
+            { "index": "b", "text": "Played" },
+            { "index": "c", "text": "Music" },
+            { "index": "d", "text": "Audience" }
+          ],
+          "correct_index": "d",
           "correct_answer": "Audience",
-          "explanation": "Indirect object वह होता है जिसे क्रिया का लाभ अप्रत्यक्ष रूप से प्राप्त होता है। दिए गए वाक्य में ‘Audience’ वह है जिसे संगीत सुनने का लाभ मिलता है, इसलिए यही indirect object है।"
+          "explanation": "The indirect object tells for whom or to whom the action is done. Here, the music is played for the audience."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which shortcut key is used to save a document?",
+          "options": [
+            { "index": "a", "text": "Ctrl + A" },
+            { "index": "b", "text": "Ctrl + S" },
+            { "index": "c", "text": "Ctrl + K" },
+            { "index": "d", "text": "Ctrl + P" }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Ctrl + S",
+          "explanation": "Ctrl + S is the standard shortcut used to save files in most software applications."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which command brings an object to the top layer?",
+          "options": [
+            { "index": "a", "text": "To background" },
+            { "index": "b", "text": "Bring to front" },
+            { "index": "c", "text": "Forward one" },
+            { "index": "d", "text": "Back one" }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Bring to front",
+          "explanation": "Bring to front places the selected object above all other objects."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which of the following is NOT a means of communication?",
+          "options": [
+            { "index": "a", "text": "Verbal communication" },
+            { "index": "b", "text": "Written communication" },
+            { "index": "c", "text": "Body language" },
+            { "index": "d", "text": "Public communication" }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Public communication",
+          "explanation": "Public communication is a context, not a communication method like verbal or written."
+        },
+        {
+          "q_id": "v",
+          "statement": "How many Fundamental Duties are there in the Indian Constitution?",
+          "options": [
+            { "index": "a", "text": "5" },
+            { "index": "b", "text": "6" },
+            { "index": "c", "text": "7" },
+            { "index": "d", "text": "8" }
+          ],
+          "correct_index": "d",
+          "correct_answer": "8",
+          "explanation": "The Indian Constitution prescribes eight Fundamental Duties for citizens."
         }
       ]
     },
+
     {
-      "question_number": 2,
-      "question_type": "FILL_IN_THE_BLANKS",
-      "marks": 5,
-      "text": "रिक्त स्थानों की पूर्ति कीजिए :",
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks with correct option:",
       "parts": [
         {
-          "q_id": "2i",
-          "statement": "अपने मॉनिटर को कम से कम _____ इंच की दूरी पर रखें।",
-          "correct_answer": "20-30 inch",
-          "explanation": "कंप्यूटर मॉनिटर से उचित दूरी बनाए रखना आँखों के स्वास्थ्य के लिए आवश्यक है। 20–30 इंच की दूरी आँखों पर तनाव कम करती है और लंबे समय तक कार्य करने में सहायक होती है।"
+          "q_id": "i",
+          "statement": "Keep your computer monitor at a distance of at least _____ inches.",
+          "correct_answer": "20–30 inches",
+          "explanation": "A distance of 20–30 inches helps reduce eye strain and maintains proper posture."
+        },
+        {
+          "q_id": "ii",
+          "statement": "MS Access is an example of a _____.",
+          "correct_answer": "Database",
+          "explanation": "MS Access is a Database Management System used to store and manage data."
+        },
+        {
+          "q_id": "iii",
+          "statement": "To turn off a computer click on the _____ option.",
+          "correct_answer": "Shutdown",
+          "explanation": "Shutdown safely closes all programs and turns off the computer."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The file extension of LibreOffice Writer is _____.",
+          "correct_answer": ".odt",
+          "explanation": ".odt stands for Open Document Text used by LibreOffice Writer."
+        },
+        {
+          "q_id": "v",
+          "statement": "Macro names start with a _____.",
+          "correct_answer": "Letter",
+          "explanation": "Macro names must begin with a letter as per programming rules."
         }
       ]
     },
+
     {
-      "question_number": 3,
+      "question_number": "3",
       "question_type": "MATCH_THE_FOLLOWING",
-      "marks": 5,
-      "text": "सही जोड़ी बनाइए :",
+      "marks": "1×5=5",
+      "text": "Match Column A with Column B:",
       "pairs": [
-        { "A": "कॉपी", "B": "Ctrl + C" },
-        { "A": "प्राकृतिक आपदा", "B": "भूकंप" },
-        { "A": "DBMS", "B": "डेटाबेस प्रबंधन" }
+        { "A": "Crop", "B": "Image" },
+        { "A": "D.V.M.S.", "B": "River Valley Project" },
+        { "A": "Printer", "B": "Output Device" },
+        { "A": "Natural Disaster", "B": "Earthquake" },
+        { "A": "Slide Show", "B": "LibreOffice Base" }
       ],
-      "explanation": "इस प्रश्न में प्रत्येक शब्द को उसके सही कार्य या अर्थ से मिलाया गया है। Ctrl+C कॉपी कमांड है, भूकंप एक प्राकृतिक आपदा है तथा DBMS का अर्थ डेटाबेस प्रबंधन प्रणाली होता है।"
+      "explanation": "Each item from Column A is correctly related to its function or category in Column B."
     },
+
     {
-      "question_number": 4,
+      "question_number": "4",
       "question_type": "TRUE_FALSE",
-      "marks": 5,
-      "text": "सत्य / असत्य लिखिए :",
+      "marks": "1×5=5",
+      "text": "Write True or False:",
       "parts": [
         {
-          "q_id": "4i",
-          "statement": "एक फाइल को सेव करने के लिए Ctrl+S का उपयोग होता है।",
-          "answer": "True",
-          "explanation": "Ctrl+S एक मानक की-बोर्ड शॉर्टकट है जिसका उपयोग किसी भी डॉक्यूमेंट या फाइल को सुरक्षित (Save) करने के लिए किया जाता है, इसलिए यह कथन सत्य है।"
+          "q_id": "i",
+          "statement": "F5 is used to run a slide show.",
+          "correct_answer": "True",
+          "explanation": "F5 starts the slide show from the beginning."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Employer and employee are responsible for workplace safety.",
+          "correct_answer": "True",
+          "explanation": "Both employer and employee share responsibility for safety."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Once a TOC is created, it cannot be edited.",
+          "correct_answer": "False",
+          "explanation": "A TOC can be updated or modified anytime."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Every macro should have a unique name.",
+          "correct_answer": "True",
+          "explanation": "Unique names avoid conflicts between macros."
+        },
+        {
+          "q_id": "v",
+          "statement": "A spreadsheet cannot be shared.",
+          "correct_answer": "False",
+          "explanation": "Spreadsheets can be shared online or offline."
         }
       ]
     },
+
     {
-      "question_number": 5,
-      "question_type": "DESCRIPTIVE",
-      "marks": 3,
+      "question_number": "5",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
       "text": "What is Track Change?",
-      "explanation": "Track Change LibreOffice Writer की एक सुविधा है जो डॉक्यूमेंट में किए गए सभी परिवर्तनों जैसे जोड़ना, हटाना या संशोधन को दर्शाती है। यह समीक्षा और सुधार के लिए उपयोगी होती है।"
+      "explanation": "Track Change is a feature in word processors that records edits such as insertions, deletions, and formatting changes made to a document."
     },
+
     {
-      "question_number": 6,
-      "question_type": "DESCRIPTIVE",
-      "marks": 3,
+      "question_number": "6",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
       "text": "What is Form and Report?",
-      "explanation": "Form का उपयोग डेटाबेस में डेटा प्रविष्टि के लिए किया जाता है जबकि Report का उपयोग संग्रहित डेटा को सुव्यवस्थित और प्रिंट योग्य रूप में प्रस्तुत करने के लिए किया जाता है।"
+      "explanation": "Form is used to enter and view data easily, while Report is used to present data in a formatted and printable manner."
     },
+
     {
-      "question_number": 7,
-      "question_type": "DESCRIPTIVE",
-      "marks": 3,
+      "question_number": "7",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
       "text": "What is Time Management?",
-      "explanation": "Time Management का अर्थ समय का सही नियोजन और उपयोग करना है। इससे कार्य समय पर पूरे होते हैं और कार्यक्षमता बढ़ती है।"
+      "explanation": "Time management is the ability to plan and control how time is spent to improve efficiency and productivity."
     },
+
     {
-      "question_number": 8,
-      "question_type": "DESCRIPTIVE",
-      "marks": 3,
+      "question_number": "8",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
       "text": "How can we contribute towards sustainable development?",
-      "explanation": "संसाधनों का संतुलित उपयोग, ऊर्जा संरक्षण और पर्यावरण की रक्षा करके हम सतत विकास में योगदान दे सकते हैं।"
+      "explanation": "By conserving resources, reducing pollution, recycling waste, and promoting renewable energy."
     },
+
     {
-      "question_number": 9,
-      "question_type": "DESCRIPTIVE",
-      "marks": 3,
+      "question_number": "9",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
       "text": "Write the steps to group more than one drawing object.",
-      "explanation": "एक से अधिक ड्रॉइंग ऑब्जेक्ट को समूहित करने के लिए सभी ऑब्जेक्ट चुनें, फिर राइट क्लिक करें और ‘Group’ विकल्प का चयन करें।"
+      "explanation": "Select objects → Right-click → Choose Group option to combine them."
     },
+
     {
-      "question_number": 10,
-      "question_type": "DESCRIPTIVE",
-      "marks": 5,
+      "question_number": "10",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
       "text": "What is TOC (Table of Contents) in LibreOffice Writer?",
-      "explanation": "TOC डॉक्यूमेंट की विषय-सूची होती है जिसमें अध्यायों और उप-अध्यायों के नाम तथा उनके पृष्ठ क्रमांक होते हैं, जिससे सामग्री को आसानी से खोजा जा सकता है।"
+      "explanation": "TOC is an organized list of headings in a document that helps users navigate content easily. It can be updated automatically."
     },
+
     {
-      "question_number": 11,
-      "question_type": "DESCRIPTIVE",
-      "marks": 5,
+      "question_number": "11",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
       "text": "What is Multiple Operation? Explain with example.",
-      "explanation": "Multiple Operation का अर्थ एक साथ एक से अधिक गणनाएँ करना है। उदाहरण के लिए स्प्रेडशीट में जोड़, घटाव, गुणा और भाग को एक ही सूत्र में किया जा सकता है।"
+      "explanation": "Multiple operation allows performing calculations on multiple values at once, such as calculating interest for different rates."
     },
+
     {
-      "question_number": 12,
-      "question_type": "DESCRIPTIVE",
-      "marks": 5,
-      "text": "Explain Data and Information.",
-      "explanation": "Data कच्चे तथ्य होते हैं जिनका कोई विशेष अर्थ नहीं होता, जबकि Information वह डेटा होता है जिसे प्रसंस्करण के बाद उपयोगी रूप में बदला जाता है।"
+      "question_number": "12",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "Explain the following:\n(a) Data\n(b) Information",
+      "explanation": "Data is raw facts, while information is processed data that has meaning."
     },
+
     {
-      "question_number": 13,
-      "question_type": "DESCRIPTIVE",
-      "marks": 5,
-      "text": "What is Verbal Communication?",
-      "explanation": "Verbal Communication वह संचार है जिसमें शब्दों का प्रयोग किया जाता है। यह मौखिक और लिखित दोनों रूपों में हो सकता है।"
+      "question_number": "13",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "What is Verbal Communication? How many types of verbal communication are there?",
+      "explanation": "Verbal communication uses spoken or written words. It has two types: oral and written communication."
     },
+
     {
-      "question_number": 14,
-      "question_type": "DESCRIPTIVE",
-      "marks": 5,
-      "text": "What is Entrepreneurship?",
-      "explanation": "Entrepreneurship का अर्थ नया व्यवसाय प्रारंभ करना और उसका प्रबंधन करना है, जिसमें जोखिम उठाना और नवाचार करना शामिल होता है।"
+      "question_number": "14",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "What is Entrepreneurship? Explain in your own words.",
+      "explanation": "Entrepreneurship is the process of starting and managing a business by taking risks to earn profit."
     },
+
     {
-      "question_number": 15,
-      "question_type": "DESCRIPTIVE",
-      "marks": 5,
+      "question_number": "15",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
       "text": "What is Computer Hardware and Software?",
-      "explanation": "कंप्यूटर के भौतिक भाग Hardware कहलाते हैं और कंप्यूटर को कार्य करने वाले प्रोग्राम Software कहलाते हैं।"
+      "explanation": "Hardware is the physical components of a computer, while software is the set of programs that run on it."
     },
+
     {
-      "question_number": 16,
-      "question_type": "DESCRIPTIVE",
-      "marks": 7,
-      "text": "What is Hyperlink? How to edit Hyperlink in Calc.",
-      "explanation": "Hyperlink एक लिंक होता है जो किसी अन्य डॉक्यूमेंट, फाइल या वेब पेज से जोड़ता है। Calc में Hyperlink को एडिट करने के लिए सेल पर राइट क्लिक कर ‘Edit Hyperlink’ विकल्प चुनते हैं और आवश्यक परिवर्तन करते हैं।"
+      "question_number": "16",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "What is Hyperlink? How to edit hyperlink in Calc?",
+      "explanation": "A hyperlink connects one document or webpage to another. In Calc, right-click the link → Edit Hyperlink → modify details."
     },
+
     {
-      "question_number": 17,
-      "question_type": "DESCRIPTIVE",
-      "marks": 7,
-      "text": "What is Template? Write the steps to import template.",
-      "explanation": "Template एक पूर्व निर्धारित डॉक्यूमेंट फॉर्मेट होता है। Template इम्पोर्ट करने के लिए File → Templates → Manage Templates → Import विकल्प का उपयोग किया जाता है।"
+      "question_number": "17",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "What is Template? Write the steps to import a template.",
+      "explanation": "Template is a predefined document format. Import steps: File → Templates → Manage → Import."
     },
+
     {
-      "question_number": 18,
-      "question_type": "DESCRIPTIVE",
-      "marks": 7,
+      "question_number": "18",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
       "text": "How many types of fire are there? Explain.",
-      "explanation": "आग को Class A, B, C आदि में वर्गीकृत किया गया है। प्रत्येक वर्ग की आग के लिए अलग-अलग अग्निशमन विधियाँ उपयोग की जाती हैं।"
+      "explanation": "There are mainly four types of fire: Class A, B, C, and D, based on materials involved."
     },
+
     {
-      "question_number": 19,
-      "question_type": "DESCRIPTIVE",
-      "marks": 7,
-      "text": "Explain Many to Many relationship with example.",
-      "explanation": "Many to Many संबंध में एक रिकॉर्ड कई रिकॉर्ड से जुड़ा होता है और कई रिकॉर्ड एक से। उदाहरण: विद्यार्थी और विषय।"
+      "question_number": "19",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "How does a many-to-many relationship work? Explain with example.",
+      "explanation": "In many-to-many relationship, multiple records relate to multiple records, such as students and courses."
     },
+
     {
-      "question_number": 20,
-      "question_type": "DESCRIPTIVE",
-      "marks": 7,
+      "question_number": "20",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
       "text": "How to create a table using a wizard?",
-      "explanation": "Wizard की सहायता से टेबल बनाने के लिए Create Table → Use Wizard विकल्प चुनते हैं। यह स्टेप-बाय-स्टेप प्रक्रिया द्वारा टेबल निर्माण में मदद करता है।"
+      "explanation": "Use Table Wizard → Select fields → Set primary key → Save table."
     }
   ]
 }
