@@ -1,0 +1,955 @@
+{
+  "paper_details": {
+    "paperYear": "2024",
+    "subjectName": "ENGLISH",
+    "totalMarks": "75",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "What is the ultimate challenge these days? The ultimate challenge is to make your mind calm. And the ultimate solution is meditation. For a student, there can’t be a more powerful technique to improve long term performance in studies than meditation.\nCalm mind, better retention, better health, focus and concentration are the obvious benefits. When you practice meditation, you have a sense of well being, happiness and spiritual growth.\nThere are many types of meditation. The simplest is of course, focusing on breathing. Settle down in a cool place that has dim light and relatively quiet. All you need to do is to keep focusing on breathing. If you do it everyday, you will feel its magical effect.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The ultimate challenge these days is to",
+          "options": [
+            {
+              "index": "a",
+              "text": "make money"
+            },
+            {
+              "index": "b",
+              "text": "make your mind calm"
+            },
+            {
+              "index": "c",
+              "text": "get education"
+            },
+            {
+              "index": "d",
+              "text": "focus on breathing"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "make your mind calm",
+          "explanation": "The passage clearly states that the ultimate challenge is to make the mind calm.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Meditation helps students",
+          "options": [
+            {
+              "index": "a",
+              "text": "to improve long term performance in studies"
+            },
+            {
+              "index": "b",
+              "text": "to gain weight"
+            },
+            {
+              "index": "c",
+              "text": "to increase height"
+            },
+            {
+              "index": "d",
+              "text": "to get a job"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "to improve long term performance in studies",
+          "explanation": "According to the passage, meditation is the most powerful technique to improve long term performance in studies.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "The simplest form of meditation is ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "focusing on studies"
+            },
+            {
+              "index": "b",
+              "text": "light exercise"
+            },
+            {
+              "index": "c",
+              "text": "focusing on breathing"
+            },
+            {
+              "index": "d",
+              "text": "walking"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "focusing on breathing",
+          "explanation": "The passage mentions that the simplest form of meditation is focusing on breathing.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "The word ‘meditation’ is",
+          "options": [
+            {
+              "index": "a",
+              "text": "a verb"
+            },
+            {
+              "index": "b",
+              "text": "an adjective"
+            },
+            {
+              "index": "c",
+              "text": "a pronoun"
+            },
+            {
+              "index": "d",
+              "text": "a noun"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "a noun",
+          "explanation": "The word ‘meditation’ names an activity, therefore it is a noun.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "Which word in this passage means ‘an ability to keep something in mind’?",
+          "options": [
+            {
+              "index": "a",
+              "text": "challenge"
+            },
+            {
+              "index": "b",
+              "text": "retention"
+            },
+            {
+              "index": "c",
+              "text": "sense"
+            },
+            {
+              "index": "d",
+              "text": "growth"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "retention",
+          "explanation": "‘Retention’ means the ability to keep or remember something in the mind.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "If India wants to be a developed country, it must concentrate on female education. The old African proverb says ‘If you educate a man, you educate an individual, but if you educate a woman, you educate an entire nation.’\nThe root cause of all the problems like female infanticide, dowry, female suicide, domestic violence, malnutrition, child marriage etc. will be vanished if women are educated.\nEducation provides an essential qualification to fulfil certain economic, political and cultural functions and improves women’s socio-economic status. It brings reduction in inequality.\nIf we want to uplift the society, we should improve the life standard of our women and for this education is a weapon.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The above passage is mainly about",
+          "options": [
+            {
+              "index": "a",
+              "text": "a developed country"
+            },
+            {
+              "index": "b",
+              "text": "problems of women"
+            },
+            {
+              "index": "c",
+              "text": "woman education"
+            },
+            {
+              "index": "d",
+              "text": "upliftment of society"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "woman education",
+          "explanation": "The passage mainly emphasizes the importance of educating women.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "According to the old African proverb ‘If you educate a man you ____.’",
+          "options": [
+            {
+              "index": "a",
+              "text": "educate a woman"
+            },
+            {
+              "index": "b",
+              "text": "educate a society"
+            },
+            {
+              "index": "c",
+              "text": "educate a nation"
+            },
+            {
+              "index": "d",
+              "text": "educate an individual"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "educate an individual",
+          "explanation": "The proverb states that educating a man means educating an individual.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "We should use education as a weapon",
+          "options": [
+            {
+              "index": "a",
+              "text": "to improve the life standard of our women"
+            },
+            {
+              "index": "b",
+              "text": "to educate our men only"
+            },
+            {
+              "index": "c",
+              "text": "to make our society male-dominated"
+            },
+            {
+              "index": "d",
+              "text": "to get a job"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "to improve the life standard of our women",
+          "explanation": "The passage says that education should be used as a weapon to uplift women’s standard of life.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which word in the passage means ‘demand of money or other things before or during the marriage’?",
+          "options": [
+            {
+              "index": "a",
+              "text": "malnutrition"
+            },
+            {
+              "index": "b",
+              "text": "dowry"
+            },
+            {
+              "index": "c",
+              "text": "violence"
+            },
+            {
+              "index": "d",
+              "text": "domestic"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "dowry",
+          "explanation": "‘Dowry’ refers to the demand of money or goods before or during marriage.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "Women education",
+          "options": [
+            {
+              "index": "a",
+              "text": "helps a nation become fully developed"
+            },
+            {
+              "index": "b",
+              "text": "brings down the ratio of inequality"
+            },
+            {
+              "index": "c",
+              "text": "helps society in the upliftment of people"
+            },
+            {
+              "index": "d",
+              "text": "all of these (a), (b), (c)"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "all of these (a), (b), (c)",
+          "explanation": "The passage highlights that women education leads to national development, reduces inequality and uplifts society.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "Write an application to the principal or a letter to a friend as directed.",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "You are Jay/Jaya, a student of class 10A, in the Govt. Model H.S.S. Ujjain. Write an application to your principal requesting him/her to grant you three days' leave on account of your elder brother's marriage.",
+          "correct_answer": "",
+          "explanation": "To,\nThe Principal,\nGovt. Model H.S.S.,\nUjjain.\n\nSubject: Application for three days' leave\n\nRespected Sir/Madam,\n\nI beg to state that I am Jay/Jaya, a student of class 10A of your esteemed school. I have to attend the marriage ceremony of my elder brother, which is scheduled in our family.\n\nTherefore, I request you kindly to grant me three days' leave from __________ to __________. I shall be very thankful to you for this kind favour.\n\nThanking you,\n\nYours obediently,\nJay/Jaya\nClass 10A\nDate: __________"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write a letter to your friend Sonu congratulating him on his brilliant success in the high school examinations. Mention yourself as Vaidik, residing at 723, Sanskriti Park, Mhow.",
+            "correct_answer": "",
+            "explanation": "723, Sanskriti Park,\nMhow\nDate: __________\n\nDear Sonu,\n\nI hope you are in the best of health and spirits. I am extremely happy to know about your brilliant success in the high school examinations.\n\nYour hard work, sincerity and determination have truly paid off. This success is a matter of great pride for you as well as your family. I am sure you will achieve greater success in the future also.\n\nPlease accept my heartiest congratulations on your remarkable achievement. Convey my regards to your parents.\n\nWith best wishes,\n\nYours lovingly,\nVaidik"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5M",
+      "word_limit": "150 words",
+      "text": "Write an essay in about 150 words on any one of the following topics:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Importance of Games and Sports",
+          "explanation": "Introduction: Games and sports are essential for a healthy life.\nBody: They keep our body fit and active. Games develop qualities like discipline, teamwork, leadership, and sportsmanship. They make us mentally strong and teach us to face victory and defeat with courage. Sports also help in reducing stress and improving concentration.\nConclusion: Thus, games and sports play an important role in physical, mental, and moral development."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Any Festival",
+          "explanation": "Introduction: India is a land of festivals. Each festival has its own cultural and religious importance.\nBody: Festivals bring joy and unity among people. They remind us of our traditions and values. People celebrate festivals together by decorating homes, wearing new clothes, and sharing sweets. Festivals promote love, harmony, and social bonding.\nConclusion: Thus, festivals are an important part of Indian culture and life."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Save Tree",
+          "explanation": "Introduction: Trees are a valuable gift of nature.\nBody: Trees give us oxygen, fruits, medicines, and wood. They help in maintaining ecological balance and prevent pollution, soil erosion, and global warming. Due to deforestation, the environment is getting damaged. Therefore, tree plantation is necessary.\nConclusion: To save life on earth, we must save trees and encourage plantation."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Science in Daily Life",
+          "explanation": "Introduction: Science plays an important role in our daily life.\nBody: From morning to night, we use scientific inventions like electricity, mobile phones, computers, vehicles, and medical facilities. Science has made life comfortable and time-saving. It has improved communication, transport, and health services.\nConclusion: Thus, science is a blessing for mankind when used properly."
+        },
+        {
+          "q_id": "v",
+          "statement": "My Hobby",
+          "explanation": "Introduction: A hobby is an activity done in free time for pleasure.\nBody: My hobby is reading books. It increases my knowledge and improves my language skills. Reading helps me relax and develop good habits. It also inspires me and builds confidence.\nConclusion: My hobby is a source of joy and personal development in my life."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "VISUAL_COMPOSITION",
+      "marks": 3,
+      "word_limit": "75 words",
+      "text": "Look at the visual input given below and produce a small paragraph in about 75 words.",
+      "image_data": {
+        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_eng_visual.png",
+        "description": "The picture shows a rural scene where a man is walking along a path with a small child. Nearby, a group of schoolgirls carrying bags are walking towards a school building. Trees, huts, and a simple village environment are visible, highlighting daily life in a rural area and the importance of education."
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Your father is seriously ill. You {BLANK} go home.",
+          "options": [
+            {
+              "index": "a",
+              "text": "must"
+            },
+            {
+              "index": "b",
+              "text": "should"
+            },
+            {
+              "index": "c",
+              "text": "ought to"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "must",
+          "explanation": "‘must’ is correct as father is seriously ill."
+        },
+        {
+          "q_id": "ii",
+          "statement": "My father is a {BLANK} teacher.",
+          "options": [
+            {
+              "index": "a",
+              "text": "retired"
+            },
+            {
+              "index": "b",
+              "text": "retire"
+            },
+            {
+              "index": "c",
+              "text": "retiring"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "retired",
+          "explanation": "Correct word is 'retired'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How {BLANK} time is left?",
+          "options": [
+            {
+              "index": "a",
+              "text": "many"
+            },
+            {
+              "index": "b",
+              "text": "any"
+            },
+            {
+              "index": "c",
+              "text": "much"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "much",
+          "explanation": "Correct word is 'much'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "He exclaimed 'what {BLANK} beautiful flower!'",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "the"
+            },
+            {
+              "index": "c",
+              "text": "an"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "a",
+          "explanation": "Correct word is 'a'."
+        },
+        {
+          "q_id": "v",
+          "statement": "Sita is {BLANK} than any other girl.",
+          "options": [
+            {
+              "index": "a",
+              "text": "intelligent"
+            },
+            {
+              "index": "b",
+              "text": "more intelligent"
+            },
+            {
+              "index": "c",
+              "text": "most intelligent"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "more intelligent",
+          "explanation": "Correct answer is 'more intelligent'."
+        },
+        {
+          "q_id": "vi",
+          "statement": "{BLANK} you work hard, you will fail.",
+          "options": [
+            {
+              "index": "a",
+              "text": "If"
+            },
+            {
+              "index": "b",
+              "text": "As long as"
+            },
+            {
+              "index": "c",
+              "text": "Unless"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Unless",
+          "explanation": "Correct answer is 'Unless'."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Do as directed: any five",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Combine using 'who': (a) Lencho wrote a letter to God. (b) Lencho was a peasant.",
+          "answer_key": "Lencho, who was a peasant, wrote a letter to God.",
+          "explanation": "Rule: 'Who' is used for a person.\nExplanation: The relative pronoun 'who' is used to combine both sentences.\nThe clause 'who was a peasant' describes Lencho and joins the sentences into one."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Change to passive voice: He knows me.",
+          "answer_key": "I am known to him.",
+          "explanation": "Rule: In passive voice, the object becomes the subject.\nExplanation: 'Me' is made the subject as 'I'.\nThe verb 'knows' is changed to 'am known' and 'he' becomes 'him'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Rearrange: noise / the class room / making / a / girls / in / were / some",
+          "answer_key": "Some girls were making a noise in the classroom.",
+          "explanation": "Rule: Words must be arranged in subject–verb–object order.\nExplanation: The words are rearranged to form a meaningful and grammatically correct sentence."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Correct the sentence: We are living in this city since 2005.",
+          "answer_key": "We have been living in this city since 2005.",
+          "explanation": "Rule: Present perfect continuous tense is used for an action continuing from past to present.\nExplanation: 'Are living' is incorrect with 'since'.\nTherefore, it is corrected to 'have been living'."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "text": "Choose the correct answer:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why did Lencho get only seventy pesos?",
+          "options": [
+            {
+              "index": "a",
+              "text": "It was God's mistake to send him only 70 pesos."
+            },
+            {
+              "index": "b",
+              "text": "The postmaster stole the rest of money."
+            },
+            {
+              "index": "c",
+              "text": "The postmaster could collect only seventy pesos for an act of charity."
+            },
+            {
+              "index": "d",
+              "text": "Lencho made a mistake while counting the money."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "The postmaster could collect only seventy pesos for an act of charity.",
+          "explanation": "According to the story, the postmaster was only able to gather 70 pesos from his salary and contributions from employees and friends."
+        },
+        {
+          "q_id": "ii",
+          "statement": "When Anne Frank decides to write a diary, she was",
+          "options": [
+            {
+              "index": "a",
+              "text": "a ten-year old"
+            },
+            {
+              "index": "b",
+              "text": "a thirteen-year old"
+            },
+            {
+              "index": "c",
+              "text": "a fourteen-year old"
+            },
+            {
+              "index": "d",
+              "text": "an eighteen-year old"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "a thirteen-year old",
+          "explanation": "Anne Frank was thirteen years old when she started writing her diary."
+        },
+        {
+          "q_id": "iii",
+          "statement": "'The Proposal' is a one act play about",
+          "options": [
+            {
+              "index": "a",
+              "text": "Russian wedding culture"
+            },
+            {
+              "index": "b",
+              "text": "Indian wedding culture"
+            },
+            {
+              "index": "c",
+              "text": "Japanese wedding culture"
+            },
+            {
+              "index": "d",
+              "text": "Chinese wedding culture"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Russian wedding culture",
+          "explanation": "The play 'The Proposal' by Anton Chekhov depicts the wedding culture of landowning Russians."
+        },
+        {
+          "q_id": "iv",
+          "statement": "10 May in South Africa is",
+          "options": [
+            {
+              "index": "a",
+              "text": "a winter day"
+            },
+            {
+              "index": "b",
+              "text": "a monsoon day"
+            },
+            {
+              "index": "c",
+              "text": "a summer day"
+            },
+            {
+              "index": "d",
+              "text": "an autumn day"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "an autumn day",
+          "explanation": "Nelson Mandela describes May 10th as a 'lovely autumn day' in South Africa."
+        }
+      ]
+    },
+    {
+      "question_number": "10A",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "text": "Read the extract carefully and answer the questions (From: A Baker from Goa)",
+      "passage": "The baker usually collected his bills at the end of the month. Monthly accounts used to be recorded on some wall in pencil. \n Baking was indeed a profitable profession in the old days. The baker and his family never starved. \n He, his family and his servants always looked prosperous. Their plump physique was an open testimony to this.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Monthly accounts of the baker were recorded on",
+          "options": [
+            {
+              "index": "a",
+              "text": "a note book"
+            },
+            {
+              "index": "b",
+              "text": "the main door of the house"
+            },
+            {
+              "index": "c",
+              "text": "some wall in pencil"
+            },
+            {
+              "index": "d",
+              "text": "the floor"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "some wall in pencil",
+          "explanation": "The extract states accounts were recorded on some wall in pencil."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which word in the extract means 'a pleasant fat body'?",
+          "options": [
+            {
+              "index": "a",
+              "text": "plump"
+            },
+            {
+              "index": "b",
+              "text": "prosperous"
+            },
+            {
+              "index": "c",
+              "text": "profitable"
+            },
+            {
+              "index": "d",
+              "text": "testimony"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "plump",
+          "explanation": "The text uses 'plump physique' to describe the physical appearance of a successful baker."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The baker and his family never starved because",
+          "options": [
+            {
+              "index": "a",
+              "text": "they were rich"
+            },
+            {
+              "index": "b",
+              "text": "baking was a profitable profession"
+            },
+            {
+              "index": "c",
+              "text": "they had government support"
+            },
+            {
+              "index": "d",
+              "text": "they had many servants"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "baking was a profitable profession",
+          "explanation": "The passage mentions baking was indeed a profitable profession in the old days."
+        }
+      ]
+    },
+    {
+      "question_number": "10(B)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "text": "Read the extract carefully and answer the questions:",
+      "passage": "I am an orphan, roaming the street.\nI pattern soft dust with my hushed, bare feet.\nThe silence is golden, the freedom is sweet.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "From which poem of your text book has this extract been taken?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Fog"
+            },
+            {
+              "index": "b",
+              "text": "The Ball Poem"
+            },
+            {
+              "index": "c",
+              "text": "Amanda"
+            },
+            {
+              "index": "d",
+              "text": "For Anne Gregory"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Amanda",
+          "explanation": "This extract is taken from the poem **‘Amanda’** by Robin Klein.\nThe lines express Amanda’s imagination of freedom, silence and escape from constant instructions."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The word ‘orphan’ means:",
+          "options": [
+            {
+              "index": "a",
+              "text": "a child having no friend"
+            },
+            {
+              "index": "b",
+              "text": "a child having no father and mother"
+            },
+            {
+              "index": "c",
+              "text": "a child who roams the street"
+            },
+            {
+              "index": "d",
+              "text": "a child who likes freedom"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "a child having no father and mother",
+          "explanation": "The word **‘orphan’** refers to a child who has lost both parents.\nIn the poem, Amanda imagines herself as an orphan to symbolize complete freedom and independence."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What does the girl actually want?",
+          "options": [
+            {
+              "index": "a",
+              "text": "She wants freedom and silence"
+            },
+            {
+              "index": "b",
+              "text": "She wants to be an orphan"
+            },
+            {
+              "index": "c",
+              "text": "She wants to remain bare feet"
+            },
+            {
+              "index": "d",
+              "text": "She wants to walk on soft dust"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "She wants freedom and silence",
+          "explanation": "The girl actually desires **freedom from constant control and silence from scolding**.\nThe phrases ‘silence is golden’ and ‘freedom is sweet’ clearly express her inner wish."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×6=12",
+      "text": "Answer the questions in about 30 words (any six):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who or what did Lencho have faith in? What did he do?",
+          "explanation": "Lencho had complete faith in God.\nWhen his crops were destroyed by the hailstorm, he believed that only God could help him.\nSo, he wrote a letter to God asking for one hundred pesos to sow his field again."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why was the young seagull afraid to fly?",
+          "explanation": "The young seagull was afraid to fly because he felt his wings were too weak.\nHe feared that if he tried to fly, he would fall into the sea and drown."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What does Mandela thank the international leaders for?",
+          "explanation": "Mandela thanks the international leaders for their support in ending apartheid.\nHe also thanks them for coming to South Africa to witness the birth of a free and democratic nation."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Why was Mr. Keesing annoyed with Anne? What did he ask her to do?",
+          "explanation": "Mr. Keesing was annoyed with Anne because she talked too much in the classroom.\nAs a punishment, he asked her to write essays on different topics."
+        },
+        {
+          "q_id": "v",
+          "statement": "What is the story about the Kodavu people’s descent?",
+          "explanation": "The Kodavu people believe that they are descendants of Greek soldiers or Arabs.\nIt is said that these people settled in India and later became the Kodavu community."
+        },
+        {
+          "q_id": "vi",
+          "statement": "What experiment did Maxwell think Causserman would be suitable for?",
+          "explanation": "Maxwell thought that Causserman would be suitable for conducting experiments on otters.\nThis was because otters were easily available in marshy areas."
+        },
+        {
+          "q_id": "vii",
+          "statement": "What was a source of unending joy for Valli?",
+          "explanation": "The bus ride to the town was a source of unending joy for Valli.\nShe enjoyed watching the outside world through the bus window."
+        },
+        {
+          "q_id": "viii",
+          "statement": "What does Kisa Gotami ask for the second time she goes from house to house? Does she get it? Why?",
+          "explanation": "Kisa Gotami asked for mustard seeds from a house where no one had died.\nShe did not get such a house because death had occurred in every family.\nThis made her realise the truth of life and death."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words (any two):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How does the fog come?",
+          "explanation": "The fog comes quietly and silently like a cat.\nIt enters the city unnoticed and slowly covers everything around."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What happens to the house when the trees move out of it?",
+          "explanation": "When the trees move out of the house, the house collapses.\nIt loses the support and protection provided by the trees."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What do the ‘crow’ and ‘hemlock’ represent in the poem ‘Dust of Snow’?",
+          "explanation": "The crow and the hemlock represent things that are usually considered negative.\nThey show that even unpleasant things can bring a positive change in one’s mood."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words (any two):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What does the thief get from Anil in return for his work?",
+          "explanation": "In return for his work, the thief gets food and shelter from Anil.\nMore importantly, Anil gives him education, kindness and trust, which help him reform himself."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How is Ausable different from other secret agents?",
+          "explanation": "Ausable is very different from typical secret agents.\nHe is fat, ordinary looking and calm in nature, and does not carry weapons or behave dramatically."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What lesson does Ebright learn when he does not win anything at a science fair?",
+          "explanation": "When Ebright fails at a science fair, he learns that success requires hard work and original ideas.\nThis experience motivates him to work more seriously in the future."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following questions in about 75 words (any one):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why does the postmaster send money to Lencho? Why does he sign the letter ‘God’?",
+          "explanation": "The postmaster sends money to Lencho because he is deeply moved by Lencho’s strong faith in God.\nHe does not want Lencho’s belief to be shaken.\nThe postmaster collects money from his colleagues and sends it to Lencho.\nHe signs the letter as ‘God’ so that Lencho may continue to have faith and hope in divine help."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why does the narrator of ‘The Black Aeroplane’ say he was not sorry to walk away from the Dakota?",
+          "explanation": "The narrator was not sorry to walk away from the Dakota because it had brought him safely through a dangerous storm.\nHe was thankful for his life and felt grateful after landing safely.\nThe mysterious help he received made him realise that life is more important than material possessions."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following questions in about 75 words (any one):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the central idea of the poem ‘The Ball Poem’.",
+          "explanation": "The central idea of the poem ‘The Ball Poem’ is that loss is an important part of life.\nThe poet shows how the loss of a ball helps a child learn about responsibility and self-control.\nThrough this small incident, the child understands that losses cannot always be recovered and one must learn to accept them while growing up."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What do ‘desire’ and ‘hate’ stand for in ‘Fire and Ice’? What does Frost say about the end of the world?",
+          "explanation": "In the poem ‘Fire and Ice’, ‘desire’ stands for greed and uncontrolled passion, while ‘hate’ stands for anger and cruelty.\nRobert Frost believes that both these negative human emotions are powerful enough to destroy the world.\nAccording to him, either desire or hate can cause the end of the world."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following questions in about 75 words (any one):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why does Mrs. Hall find the scientist eccentric?",
+          "explanation": "Mrs. Hall finds the scientist eccentric because of his strange appearance and behaviour.\nHe covers his face completely, avoids people and speaks rudely.\nHe keeps himself locked in his room and conducts secret experiments, which makes Mrs. Hall suspicious of him."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why was the twentieth century called the ‘Era of the Book’?",
+          "explanation": "The twentieth century is called the ‘Era of the Book’ because there was a great increase in printing and publishing.\nBooks became easily available and affordable.\nEducation spread rapidly, and reading became a common habit among people across the world."
+        }
+      ]
+    }
+  ]
+}
