@@ -338,50 +338,51 @@
         ]
       }
     },
+   {
+  "question_number": "5",
+  "question_type": "DESCRIPTIVE",
+  "marks": "5M",
+  "word_limit": "150 words (approx)",
+  "text": "Write an essay in about 150 words on any one of the following topics:",
+  "parts": [
     {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "5M",
-      "word_limit": "150 words (approx)",
-      "text": "Write an essay in about 150 words on any one of the following topics:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Importance of Games and Sports",
-          "explanation": "Reference: This topic relates to student life and physical education.\nContext: The essay highlights the role of games and sports in maintaining physical fitness and mental well-being.\nExplanation: The student should explain how games and sports help in physical development, discipline, teamwork, leadership qualities, and stress reduction. Examples from daily life or school activities may be included to show their importance."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Any Festival",
-          "explanation": "Reference: This topic is based on Indian culture and traditions.\nContext: The essay describes the significance of a festival celebrated in India.\nExplanation: The student may write about any festival such as Diwali, Holi, Eid, or Christmas, explaining how it is celebrated, its cultural or religious importance, and the values it promotes like unity, joy, and harmony."
-        },
-        {
-          "q_id": "iii",
-          "statement": "Save Tree",
-          "explanation": "Reference: This topic is related to environmental awareness.\nContext: The essay focuses on the importance of trees for life on earth.\nExplanation: The student should explain how trees provide oxygen, conserve water, prevent soil erosion, and support wildlife. The essay may also include the need for tree plantation and environmental protection."
-        },
-        {
-          "q_id": "iv",
-          "statement": "Science in Daily Life",
-          "explanation": "Reference: This topic is related to science and technology.\nContext: The essay explains the role of science in everyday activities.\nExplanation: The student may describe how scientific inventions like electricity, mobile phones, transportation, and medical facilities have made life easier, faster, and more comfortable."
-        },
-        {
-          "q_id": "v",
-          "statement": "My Hobby",
-          "explanation": "Reference: This topic is based on personal interest.\nContext: The essay describes a favorite activity done in leisure time.\nExplanation: The student may write about any hobby such as reading, playing games, painting, gardening, or music, explaining why they like it and how it helps in relaxation and personal growth."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "vi",
-            "statement": "Write a paragraph in about 150 words on 'Importance of Yoga'.",
-            "explanation": "Reference: This topic is related to health and fitness.\nContext: The paragraph explains the significance of yoga in daily life.\nExplanation: The student should describe how yoga improves physical health, mental peace, concentration, and discipline. It may also mention yoga as an ancient Indian practice that helps in leading a healthy and balanced life."
-          }
-        ]
-      }
+      "q_id": "i",
+      "statement": "Importance of Games and Sports",
+      "explanation": "Games and sports play an important role in the life of students. They help in maintaining good health and physical fitness.\n\nRegular participation in games keeps the body strong and active. Sports develop qualities like discipline, teamwork, leadership and sportsmanship. Students learn to follow rules and accept defeat with courage. Games also help to reduce stress and refresh the mind.\n\nSports create a sense of unity and cooperation among players. Outdoor games improve stamina and concentration, which help students perform better in studies. They also teach time management and self-confidence.\n\nIn conclusion, games and sports are essential for the all-round development of students. A healthy body leads to a healthy mind, so games should be an important part of education."
     },
+    {
+      "q_id": "ii",
+      "statement": "Any Festival",
+      "explanation": "India is a country of festivals. People of different religions celebrate various festivals with joy and enthusiasm.\n\nDiwali is one of the most important festivals of India. It is known as the festival of lights. People clean their houses and decorate them with lamps and candles. Goddess Lakshmi is worshipped on this day. Sweets are distributed and people exchange greetings.\n\nFestivals bring happiness and strengthen social bonds. They teach us values like unity, love and harmony. People forget their differences and celebrate together.\n\nIn conclusion, festivals are an important part of our culture. They add colour and happiness to our lives and promote peace and brotherhood."
+    },
+    {
+      "q_id": "iii",
+      "statement": "Save Tree",
+      "explanation": "Trees are very important for life on earth. They provide us oxygen and help maintain ecological balance.\n\nTrees give us fruits, medicines, wood and shade. They prevent soil erosion, control floods and bring rainfall. Trees also provide shelter to birds and animals. Without trees, life on earth cannot exist.\n\nDue to deforestation, pollution and climate change are increasing. Therefore, it is our duty to save trees and plant more trees. Awareness about environmental protection is necessary.\n\nIn conclusion, saving trees means saving life. We should protect trees and encourage tree plantation to make the earth green and healthy."
+    },
+    {
+      "q_id": "iv",
+      "statement": "Science in Daily Life",
+      "explanation": "Science plays an important role in our daily life. It has made life easy, comfortable and fast.\n\nElectricity, mobile phones, computers, vehicles and household appliances are gifts of science. Science has improved communication and transportation. Medical science has increased life expectancy by curing diseases.\n\nScience helps in education, agriculture and industry. Farmers use modern tools and machines for better production. Students get knowledge through digital learning.\n\nIn conclusion, science has changed the way we live. Proper use of science is necessary for the progress and welfare of mankind."
+    },
+    {
+      "q_id": "v",
+      "statement": "My Hobby",
+      "explanation": "A hobby is an activity that we enjoy in our free time. My favourite hobby is reading books.\n\nReading books increases knowledge and improves language skills. It helps me understand different cultures and ideas. I like reading story books and motivational books. Reading keeps my mind fresh and relaxed.\n\nMy hobby keeps me away from bad habits and unnecessary mobile use. It also helps me perform better in studies and develop imagination.\n\nIn conclusion, a hobby plays an important role in personality development. Everyone should have a good hobby to make life meaningful and joyful."
+    }
+  ],
+  "or_option": {
+    "text": "OR",
+    "parts": [
+      {
+        "q_id": "vi",
+        "statement": "Importance of Yoga",
+        "explanation": "Yoga is an ancient Indian practice that helps maintain physical and mental health.\n\nYoga improves flexibility, strength and immunity. It helps reduce stress, anxiety and improves concentration. Regular practice of yoga keeps the body fit and the mind calm.\n\nYoga teaches discipline and self-control. It helps students focus on studies and adults manage daily stress. Yoga also prevents many diseases.\n\nIn conclusion, yoga is essential for a healthy and balanced life. Everyone should practise yoga daily to remain healthy in body and mind."
+      }
+    ]
+  }
+}
+,
     {
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
