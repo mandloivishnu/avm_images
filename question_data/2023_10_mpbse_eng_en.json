@@ -10,37 +10,41 @@
       "question_number": "1",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×5=5",
+      "word_limit": null,
       "text": "Read the passage carefully and answer the following questions:",
-      "passage": "There once was a stingy baker. A poor man would stand outside his bakery every day, enjoying the nice smell of baking bread. The baker was very angry at the poor man. He felt that anyone who smelled his delicious products should pay for the smell. So he took the poor man to the court.",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "There once was a stingy baker. A poor man would stand outside his bakery every day, enjoying the nice smell of baking bread. The baker was very angry at the poor man. He felt that anyone who smelled his delicious products should pay for the smell. So he took the poor man to the court.\n\nThe judge heard the baker’s complaint patiently. Then he asked the poor man, “Do you have any money?”\n\nThe poor man searched his pocket and produced two small coins. “This is all the money I have,” he said to the judge.\n\nThe judge took the coins from the poor man. The baker smiled and eagerly held out his hand.\n\nBut the judge did not give the baker the money. He only jingled the coins together. He then returned them to the poor man, saying, “Punishment should fit the crime. The price for the smell of bread shall be the sound of money.”",
       "parts": [
         {
           "q_id": "i",
-          "statement": "The poor man stood outside the bakery",
+          "statement": "The poor man stood outside the bakery ____.",
           "options": [
             {
               "index": "a",
-              "text": "To buy bread"
+              "text": "To buy bread."
             },
             {
               "index": "b",
-              "text": "To eat bread"
+              "text": "To eat bread."
             },
             {
               "index": "c",
-              "text": "To enjoy the smell of baking bread"
+              "text": "To enjoy the smell of baking bread."
             },
             {
               "index": "d",
-              "text": "To steal bread"
+              "text": "To steal bread."
             }
           ],
           "correct_index": "c",
-          "correct_answer": "To enjoy the smell of baking bread",
-          "explanation": "The passage clearly states that the poor man enjoyed the smell of baking bread."
+          "correct_answer": "To enjoy the smell of baking bread.",
+          "explanation": "The passage states that the poor man stood outside the bakery enjoying the nice smell of baking bread.",
+          "previousYearsDetails": null
         },
         {
           "q_id": "ii",
-          "statement": "The baker took the poor man to",
+          "statement": "The baker took the poor man to ____.",
           "options": [
             {
               "index": "a",
@@ -61,11 +65,12 @@
           ],
           "correct_index": "a",
           "correct_answer": "Court",
-          "explanation": "The baker took the poor man to the court."
+          "explanation": "The baker took the poor man to the court for smelling his bread.",
+          "previousYearsDetails": null
         },
         {
           "q_id": "iii",
-          "statement": "How many coins were found in poor man's pocket?",
+          "statement": "How many coins were found in poor man’s pocket?",
           "options": [
             {
               "index": "a",
@@ -77,7 +82,7 @@
             },
             {
               "index": "c",
-              "text": "Four"
+              "text": "Five"
             },
             {
               "index": "d",
@@ -86,11 +91,12 @@
           ],
           "correct_index": "b",
           "correct_answer": "Two",
-          "explanation": "The poor man produced two small coins."
+          "explanation": "The poor man produced two small coins from his pocket.",
+          "previousYearsDetails": null
         },
         {
           "q_id": "iv",
-          "statement": "Give a suitable title to the passage.",
+          "statement": "Give a suitable title for the above passage.",
           "options": [
             {
               "index": "a",
@@ -111,11 +117,12 @@
           ],
           "correct_index": "d",
           "correct_answer": "Tit for Tat",
-          "explanation": "The judgment matches sound with smell, making it a 'Tit for Tat'."
+          "explanation": "The judge’s decision of paying smell with sound reflects ‘Tit for Tat’.",
+          "previousYearsDetails": null
         },
         {
           "q_id": "v",
-          "statement": "Which word is the opposite of the word 'rich'?",
+          "statement": "Which word is the opposite of the word ‘rich’?",
           "options": [
             {
               "index": "a",
@@ -136,7 +143,8 @@
           ],
           "correct_index": "c",
           "correct_answer": "Poor",
-          "explanation": "The opposite of rich is poor."
+          "explanation": "‘Poor’ is the opposite word of ‘rich’.",
+          "previousYearsDetails": null
         }
       ]
     },
@@ -144,105 +152,163 @@
       "question_number": "2",
       "question_type": "UNSEEN_PASSAGE_PROSE",
       "marks": "1×5=5",
-      "text": "Read the following passage carefully and answer the questions:",
-      "passage": "It was winter and there was thick fog all around. A deer that happened to pass that way saw the danger ahead. It ran to warn the rabbits. The rabbits laughed at the deer, but later realised the truth.",
+      "word_limit": null,
+      "text": "Read the following passage carefully and answer the questions given below it:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "A bee went to a tank to quench its thirst and tumbling in, was almost drowned. A dove that happened to pass that way saw the danger the bee was in. It hastened to a neighbouring tree and plucking off a leaf, dropped it into the water before the bee. The bee climbed on to the leaf, dried its wings and flew away to its hive, full of gratitude to the dove that had saved its life.\n\nA few days later the same bee, while returning to its hive after a hard day’s work, saw a cruel boy taking aim at the dove sitting upon the branch of a tree. At once the bee flew to the wrist of the boy, and just when he was going to shoot the dove, stung the boy and made him cry with pain. He was feeling the danger to which the dove was exposed, flew safely away.",
       "parts": [
         {
           "q_id": "i",
-          "statement": "The fog was",
+          "statement": "The bee went to the tank ____.",
           "options": [
             {
               "index": "a",
-              "text": "thin"
+              "text": "to quench its thirst"
             },
             {
               "index": "b",
-              "text": "thick"
+              "text": "to meet another bee"
             },
             {
               "index": "c",
-              "text": "light"
+              "text": "to save dove"
             },
             {
               "index": "d",
-              "text": "clear"
+              "text": "to bath"
             }
           ],
-          "correct_index": "b",
-          "correct_answer": "thick",
-          "explanation": "The passage mentions thick fog."
+          "correct_index": "a",
+          "correct_answer": "to quench its thirst",
+          "explanation": "The passage states that the bee went to the tank to quench its thirst.",
+          "previousYearsDetails": null
         },
         {
           "q_id": "ii",
-          "statement": "Who warned the rabbits?",
+          "statement": "Who saved the bee?",
           "options": [
             {
               "index": "a",
-              "text": "Lion"
+              "text": "falcon"
             },
             {
               "index": "b",
-              "text": "Dog"
+              "text": "boy"
             },
             {
               "index": "c",
-              "text": "Deer"
+              "text": "ant"
             },
             {
               "index": "d",
-              "text": "Man"
+              "text": "dove"
             }
           ],
-          "correct_index": "c",
-          "correct_answer": "Deer",
-          "explanation": "The deer ran to warn the rabbits."
+          "correct_index": "d",
+          "correct_answer": "dove",
+          "explanation": "The dove saved the bee by dropping a leaf into the water.",
+          "previousYearsDetails": null
         },
         {
           "q_id": "iii",
-          "statement": "The rabbits first",
+          "statement": "What did the bee feel when it was saved by the dove?",
           "options": [
             {
               "index": "a",
-              "text": "believed the deer"
+              "text": "proud"
             },
             {
               "index": "b",
-              "text": "laughed at the deer"
+              "text": "gratitude"
             },
             {
               "index": "c",
-              "text": "ran away"
+              "text": "guilty"
             },
             {
               "index": "d",
-              "text": "hid themselves"
+              "text": "disappoint"
             }
           ],
           "correct_index": "b",
-          "correct_answer": "laughed at the deer",
-          "explanation": "They laughed at the deer initially."
+          "correct_answer": "gratitude",
+          "explanation": "The bee was full of gratitude to the dove for saving its life.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Who danced with the pain?",
+          "options": [
+            {
+              "index": "a",
+              "text": "the boy"
+            },
+            {
+              "index": "b",
+              "text": "dove"
+            },
+            {
+              "index": "c",
+              "text": "bee"
+            },
+            {
+              "index": "d",
+              "text": "elephant"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "the boy",
+          "explanation": "The boy cried and danced with pain when the bee stung him.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "The meaning of the word ‘tumbling’ is ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "falling"
+            },
+            {
+              "index": "b",
+              "text": "neighbouring"
+            },
+            {
+              "index": "c",
+              "text": "swimming"
+            },
+            {
+              "index": "d",
+              "text": "crying"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "falling",
+          "explanation": "‘Tumbling’ means falling suddenly.",
+          "previousYearsDetails": null
         }
       ]
     },
     {
       "question_number": "3",
       "question_type": "UNSEEN_PASSAGE_PROSE",
-      "marks": "5M",
-      "word_limit": "150 words (approx)",
-      "text": "Read the passage carefully and answer the questions given below:",
+      "marks": "3+1=4",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the following questions :",
       "youtube_url": null,
       "previous_exam_reference": null,
-      "passage": "Students who are very fond of reading books are often labelled by their companions as bookworms. Their criticism usually comes from students who consider themselves better sports. Students who shine in athletics or in games consider that it is better to spend time and energy in a sports arena than in a classroom or at the reading desk. All the same they do not always do well academically. Academic honour has a glamour which is unique. It is not to be denied that playing games is useful activity, because it creates team spirit and also makes the sportsmen healthy and vigorous. That is why games and sports are given so much importance in the curriculum of schools and colleges. But studies should not be neglected and should be given due importance along with other activities connected with education. Let each type of activity have its own place in our daily routine. Then only will we have students both academically sound and physically fit. We want our educational system to generate this synergy among our youth.",
+      "passage": "Since time began, the natural broad-leaved mixed forests of the Himalayas have played a crucial role in the life of the people of that region. In fact, the forests are the foundation of the whole economy of the hill villages. Green leaves and grass, for example, provide fodder for the animals whose dung is used as fertilizer. Dry twigs and branches are the only sources of domestic cooking fuel. The forests also provide large supplies of fruits, edible nuts, fibres and herbs for local consumption.\n\nThe forests break the flow of the seasonal rainfall that lashes the slopes of this mountain range every year during the monsoon. This creates springs and perennial streams which are vital for the mountain people and their animals during the hot summer months.\n\nFor many years, however, large areas of these rich forest resources have been destroyed. For example, the forests of Tehri Garhwal were exploited to supply timber for the expanding railway network in the plains. The people of Tehri Garhwal in 1930 began a non-cooperation movement called Satyagraha of peaceful resistance to obtain justice in opposition to the oppressive forest laws.",
       "essay_topics": [
         {
           "topic_id": "i",
-          "name": "On the basis of your reading of the above passage, make notes on it.",
-          "answer": "The passage emphasizes the need for balance between studies and sports. Students who love reading are often called bookworms, while sports-oriented students give more importance to games. Although games are useful for health, teamwork, and energy, academic success has its own unique honour. Education should give equal importance to both studies and sports. A proper balance in daily routine can help develop students who are mentally sound and physically fit."
+          "name": "On the basis of your reading of the above passage, make a note on it using abbreviations if needed.",
+          "answer": "• Himalayan forests vital for hill people’s life & economy.\n• Provide fodder → animal dung used as fertilizer.\n• Dry twigs & branches used as cooking fuel.\n• Supply fruits, edible nuts, fibres & herbs.\n• Forests regulate monsoon rain flow.\n• Help create springs & perennial streams.\n• Essential for people & animals in summer.\n• Large-scale deforestation occurred.\n• Tehri Garhwal forests exploited for railway timber.\n• In 1930, people started Satyagraha movement.\n• Aim: peaceful resistance against oppressive forest laws."
         },
         {
           "topic_id": "ii",
           "name": "Give a suitable title to it.",
-          "answer": "Balance Between Studies and Sports"
+          "answer": "Importance of Himalayan Forests\n\nExplanation: The passage explains the economic, environmental and social importance of Himalayan forests and the impact of their exploitation."
         }
       ]
     },
@@ -256,7 +322,7 @@
         {
           "q_id": "i",
           "statement": "You are Manas/Mansi, studying in Govt. Higher Secondary School, Balaghat.",
-          "explanation": "Reference: This is a formal application written to the school principal. Context: The student requests the issuance of the School Leaving Certificate. Explanation: The application should include the student's name, school name, reason for leaving the school, polite language, and a proper closing."
+          "explanation": "Reference: Formal application writing (MP Board Class 10).\n\nMarking Scheme Focus:\n• Proper format (To, Subject, Salutation)\n• Clear reason\n• Polite and formal language\n• Correct closing and signature\n\nModel Answer:\n\nTo,\nThe Principal,\nGovt. Higher Secondary School,\nBalaghat (M.P.)\n\nSubject: Application for School Leaving Certificate\n\nRespected Sir/Madam,\n\nI beg to state that I am Manas/Mansi, a student of Class X of your esteemed school. I have passed my examination this year and now I have to take admission in another school due to my family’s transfer.\n\nTherefore, I kindly request you to issue my School Leaving Certificate at the earliest. I shall be highly obliged to you for this kind favour.\n\nThanking you.\n\nYours obediently,\nManas/Mansi\nClass X\nDate: ______"
         }
       ],
       "or_option": {
@@ -265,7 +331,7 @@
           {
             "q_id": "ii",
             "statement": "You are Ritik/Ritika, living in Indore. Write a letter to your friend inviting him/her to your father's promotion party.",
-            "explanation": "Reference: This is an informal letter written to a friend. Context: The writer invites a friend to attend their father's promotion party. Explanation: The letter should mention the occasion, date, time, venue, express happiness, and end with a friendly closing."
+            "explanation": "Reference: Informal letter writing (MP Board Class 10).\n\nMarking Scheme Focus:\n• Sender’s address and date\n• Friendly tone\n• Mention of occasion, date, time, venue\n• Proper closing\n\nModel Answer:\n\n23, Vijay Nagar,\nIndore (M.P.)\nDate: ______\n\nDear Friend,\n\nI am very happy to inform you that my father has been promoted to a higher post. To celebrate this joyful occasion, a small party has been arranged at our residence on Sunday at 7 p.m.\n\nI cordially invite you to attend the party and share our happiness. Your presence will make the occasion more special for us.\n\nPlease do come.\n\nYours lovingly,\nRitik/Ritika"
           }
         ]
       }
@@ -279,23 +345,28 @@
       "parts": [
         {
           "q_id": "i",
-          "statement": "Online Education"
+          "statement": "Online Education",
+          "explanation": "Online education is a modern system of learning through the internet.\n\nThe essay should begin by explaining the meaning of online education. In the main body, its importance in continuing education during emergencies and its usefulness for students should be described. Advantages such as flexibility, availability of digital study material, recorded lectures and saving of time should be mentioned. Some limitations like lack of direct teacher-student interaction and technical problems should also be included.\n\nThe essay should end with a proper conclusion highlighting the future scope of online education."
         },
         {
           "q_id": "ii",
-          "statement": "Disadvantages of Social Media"
+          "statement": "Disadvantages of Social Media",
+          "explanation": "Social media has become an important part of modern life.\n\nThe essay should start with a brief introduction of social media. In the main body, its disadvantages such as addiction among youth, wastage of time, spread of fake news, cyber crimes and negative impact on studies and mental health should be discussed. The harmful effects on social relationships should also be mentioned.\n\nThe conclusion should suggest limited and responsible use of social media."
         },
         {
           "q_id": "iii",
-          "statement": "Population Growth"
+          "statement": "Population Growth",
+          "explanation": "Population growth refers to the rapid increase in the number of people.\n\nThe essay should explain the causes of population growth such as lack of education, poverty and poor family planning. Problems created by overpopulation like unemployment, shortage of food, pollution and pressure on natural resources should be discussed.\n\nThe essay should conclude with measures like education, awareness and family planning to control population growth."
         },
         {
           "q_id": "iv",
-          "statement": "Electric Vehicles"
+          "statement": "Electric Vehicles",
+          "explanation": "Electric vehicles are vehicles that run on electricity instead of petrol or diesel.\n\nThe essay should describe the need for electric vehicles in the present time. Advantages such as reduction in air pollution, saving of fossil fuels and eco-friendly nature should be explained. Some challenges like lack of charging stations and high initial cost may also be mentioned.\n\nThe conclusion should focus on the importance of electric vehicles for a clean and safe environment."
         },
         {
           "q_id": "v",
-          "statement": "Women Empowerment"
+          "statement": "Women Empowerment",
+          "explanation": "Women empowerment means giving women equal rights and opportunities in society.\n\nThe essay should explain the importance of women empowerment for national development. Points like education of girls, gender equality, economic independence and social respect should be discussed. Government schemes and social awareness play an important role in empowering women.\n\nThe essay should conclude that empowerment of women leads to progress of the entire nation."
         }
       ]
     },
@@ -310,98 +381,161 @@
         "description": "A river flowing between hills, trees on both sides and birds flying."
       }
     },
-{
-  "question_number": "7",
-  "question_type": "FILL_IN_THE_BLANK",
-  "marks": "1×5=5",
-  "text": "Fill in the blanks : (any five)",
-  "parts": [
     {
-      "q_id": "i",
-      "statement": "She {BLANK} a song.",
-      "options": [
-        { "index": "a", "text": "singing" },
-        { "index": "b", "text": "sings" },
-        { "index": "c", "text": "sung" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "sings",
-      "explanation": "‘Sings’ is correct as it matches present tense with a singular subject."
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "She {BLANK} a song.",
+          "options": [
+            {
+              "index": "a",
+              "text": "singing"
+            },
+            {
+              "index": "b",
+              "text": "sings"
+            },
+            {
+              "index": "c",
+              "text": "sung"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "sings",
+          "explanation": "‘Sings’ is correct as it matches present tense with a singular subject."
+        },
+        {
+          "q_id": "ii",
+          "statement": "{BLANK} you live long!",
+          "options": [
+            {
+              "index": "a",
+              "text": "can"
+            },
+            {
+              "index": "b",
+              "text": "might"
+            },
+            {
+              "index": "c",
+              "text": "may"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "may",
+          "explanation": "‘May’ is used to express a wish or blessing."
+        },
+        {
+          "q_id": "iii",
+          "statement": "July comes {BLANK} August.",
+          "options": [
+            {
+              "index": "a",
+              "text": "before"
+            },
+            {
+              "index": "b",
+              "text": "after"
+            },
+            {
+              "index": "c",
+              "text": "with"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "before",
+          "explanation": "July comes before August in the calendar."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Ashoka was one of {BLANK} greatest kings of India.",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "an"
+            },
+            {
+              "index": "c",
+              "text": "the"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "the",
+          "explanation": "‘The’ is used before superlative degree."
+        },
+        {
+          "q_id": "v",
+          "statement": "We {BLANK} follow the traffic rules.",
+          "options": [
+            {
+              "index": "a",
+              "text": "must"
+            },
+            {
+              "index": "b",
+              "text": "should"
+            },
+            {
+              "index": "c",
+              "text": "might"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "must",
+          "explanation": "‘Must’ expresses obligation."
+        },
+        {
+          "q_id": "vi",
+          "statement": "He died {BLANK} cancer.",
+          "options": [
+            {
+              "index": "a",
+              "text": "of"
+            },
+            {
+              "index": "b",
+              "text": "off"
+            },
+            {
+              "index": "c",
+              "text": "on"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "of",
+          "explanation": "‘Die of’ is used with diseases."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Ritu has {BLANK} friends.",
+          "options": [
+            {
+              "index": "a",
+              "text": "much"
+            },
+            {
+              "index": "b",
+              "text": "many"
+            },
+            {
+              "index": "c",
+              "text": "any"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "many",
+          "explanation": "‘Many’ is used with countable nouns."
+        }
+      ]
     },
-    {
-      "q_id": "ii",
-      "statement": "{BLANK} you live long!",
-      "options": [
-        { "index": "a", "text": "can" },
-        { "index": "b", "text": "might" },
-        { "index": "c", "text": "may" }
-      ],
-      "correct_index": "c",
-      "correct_answer": "may",
-      "explanation": "‘May’ is used to express a wish or blessing."
-    },
-    {
-      "q_id": "iii",
-      "statement": "July comes {BLANK} August.",
-      "options": [
-        { "index": "a", "text": "before" },
-        { "index": "b", "text": "after" },
-        { "index": "c", "text": "with" }
-      ],
-      "correct_index": "a",
-      "correct_answer": "before",
-      "explanation": "July comes before August in the calendar."
-    },
-    {
-      "q_id": "iv",
-      "statement": "Ashoka was one of {BLANK} greatest kings of India.",
-      "options": [
-        { "index": "a", "text": "a" },
-        { "index": "b", "text": "an" },
-        { "index": "c", "text": "the" }
-      ],
-      "correct_index": "c",
-      "correct_answer": "the",
-      "explanation": "‘The’ is used before superlative degree."
-    },
-    {
-      "q_id": "v",
-      "statement": "We {BLANK} follow the traffic rules.",
-      "options": [
-        { "index": "a", "text": "must" },
-        { "index": "b", "text": "should" },
-        { "index": "c", "text": "might" }
-      ],
-      "correct_index": "a",
-      "correct_answer": "must",
-      "explanation": "‘Must’ expresses obligation."
-    },
-    {
-      "q_id": "vi",
-      "statement": "He died {BLANK} cancer.",
-      "options": [
-        { "index": "a", "text": "of" },
-        { "index": "b", "text": "off" },
-        { "index": "c", "text": "on" }
-      ],
-      "correct_index": "a",
-      "correct_answer": "of",
-      "explanation": "‘Die of’ is used with diseases."
-    },
-    {
-      "q_id": "vii",
-      "statement": "Ritu has {BLANK} friends.",
-      "options": [
-        { "index": "a", "text": "much" },
-        { "index": "b", "text": "many" },
-        { "index": "c", "text": "any" }
-      ],
-      "correct_index": "b",
-      "correct_answer": "many",
-      "explanation": "‘Many’ is used with countable nouns."
-    }
-  ]
-},
     {
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
@@ -411,37 +545,37 @@
         {
           "q_id": "i",
           "statement": "Police arrested the thief. (Make negative)",
-          "explanation": "Police did not arrest the thief."
+          "explanation": "The sentence is changed into negative form by using 'did not' with the base form of the verb.\n\nPolice did not arrest the thief."
         },
         {
           "q_id": "ii",
           "statement": "Ram writes a letter. (Change the voice)",
-          "explanation": "A letter is written by Ram."
+          "explanation": "The active voice is changed into passive voice.\n\nThe object of the active sentence becomes the subject of the passive sentence.\n\nA letter is written by Ram."
         },
         {
           "q_id": "iii",
           "statement": "Swimming is a good habit. (Rewrite beginning with 'It')",
-          "explanation": "It is a good habit to swim."
+          "explanation": "The sentence is rewritten using 'It' as a preparatory subject.\n\nIt is a good habit to swim."
         },
         {
           "q_id": "iv",
           "statement": "Mamta goes to school everyday. (Make interrogative)",
-          "explanation": "Does Mamta go to school everyday?"
+          "explanation": "The sentence is changed into interrogative form by using 'Does' at the beginning.\n\nDoes Mamta go to school everyday?"
         },
         {
           "q_id": "v",
           "statement": "He is so fat that he cannot run fast. (Use too…to)",
-          "explanation": "He is too fat to run fast."
+          "explanation": "The sentence is rewritten using the structure 'too…to' without changing the meaning.\n\nHe is too fat to run fast."
         },
         {
           "q_id": "vi",
           "statement": "The boy is my nephew. He is wearing a blue shirt. (Rewrite using 'who')",
-          "explanation": "The boy who is wearing a blue shirt is my nephew."
+          "explanation": "The two sentences are combined using the relative pronoun 'who'.\n\nThe boy who is wearing a blue shirt is my nephew."
         },
         {
           "q_id": "vii",
           "statement": "Unless you run fast, you will miss the train. (Use 'If' in place of 'Unless')",
-          "explanation": "If you do not run fast, you will miss the train."
+          "explanation": "The sentence is rewritten by replacing 'Unless' with 'If…not' without changing the meaning.\n\nIf you do not run fast, you will miss the train."
         }
       ]
     },
@@ -728,42 +862,42 @@
         {
           "q_id": "i",
           "statement": "Who or what did Lencho have faith in? What did he do?",
-          "explanation": "Lencho had firm faith in God. When his crop was destroyed by hailstorm, he wrote a letter to God asking for one hundred pesos to sow his field again."
+          "explanation": "Lencho had firm faith in God.\n\nWhen his crop was destroyed by a hailstorm, he wrote a letter to God asking for one hundred pesos to sow his field again."
         },
         {
           "q_id": "ii",
           "statement": "What two national anthems were sung?",
-          "explanation": "The national anthem of the old South Africa and the new South Africa were sung."
+          "explanation": "The national anthem of the old South Africa and the national anthem of the new democratic South Africa were sung."
         },
         {
           "q_id": "iii",
           "statement": "Why were two national anthems sung?",
-          "explanation": "Two national anthems were sung to show unity between the whites and blacks of South Africa after the end of apartheid."
+          "explanation": "Two national anthems were sung to symbolize equality and unity between the whites and the blacks after the end of apartheid."
         },
         {
           "q_id": "iv",
           "statement": "What compelled the young seagull to take his first flight?",
-          "explanation": "The young seagull was compelled by hunger when his mother tempted him with a piece of fish."
+          "explanation": "The young seagull was compelled by hunger.\n\nWhen his mother tempted him with a piece of fish, he jumped forward and took his first flight."
         },
         {
           "q_id": "v",
           "statement": "What is the Chinese legend about tea?",
-          "explanation": "According to the Chinese legend, tea was discovered accidentally when tea leaves fell into boiling water."
+          "explanation": "According to a Chinese legend, tea was discovered accidentally when tea leaves fell into boiling water kept for drinking."
         },
         {
           "q_id": "vi",
           "statement": "Why did Valli react to the dead cow?",
-          "explanation": "Valli was deeply shocked to see the dead cow because it reminded her of her own loneliness and mortality."
+          "explanation": "Valli was deeply disturbed to see the dead cow.\n\nIt reminded her of the fragility of life and changed her excitement into sadness."
         },
         {
           "q_id": "vii",
           "statement": "Why did Siddhartha Gautama abandon luxurious life?",
-          "explanation": "He abandoned luxurious life to find the truth of human suffering."
+          "explanation": "Siddhartha Gautama abandoned his luxurious life to find the cause of human suffering and to attain true knowledge."
         },
         {
           "q_id": "viii",
           "statement": "Where did Siddhartha Gautama get enlightenment?",
-          "explanation": "He got enlightenment under the Bodhi Tree at Bodh Gaya."
+          "explanation": "Siddhartha Gautama attained enlightenment under the Bodhi Tree at Bodh Gaya."
         }
       ]
     },
@@ -776,17 +910,17 @@
         {
           "q_id": "i",
           "statement": "In reference of the poem ‘Fire and Ice’, how will the world end?",
-          "explanation": "According to the poet, the world may end either in fire caused by desire or in ice caused by hatred."
+          "explanation": "According to the poet, the world may end either in fire caused by human desire or in ice caused by hatred."
         },
         {
           "q_id": "ii",
           "statement": "What are the things that Amanda’s mother asks her to do and not to do?",
-          "explanation": "Amanda’s mother asks her to sit straight, clean her room, finish homework, and not eat chocolates."
+          "explanation": "Amanda’s mother asks her to sit straight, clean her room, finish her homework, and not eat chocolates or bite her nails."
         },
         {
           "q_id": "iii",
           "statement": "What will the departure of the trees affect the house?",
-          "explanation": "The house will collapse because trees provide support and protection."
+          "explanation": "When the trees leave, the house will collapse because it loses the support, strength, and protection provided by the trees."
         }
       ]
     },
@@ -799,17 +933,17 @@
         {
           "q_id": "i",
           "statement": "How did the narrator cure Tricki?",
-          "explanation": "The narrator cured Tricki by stopping rich food and giving him exercise and discipline."
+          "explanation": "The narrator cured Tricki by stopping rich food.\n\nHe gave him regular exercise, discipline, and a simple diet."
         },
         {
           "q_id": "ii",
           "statement": "How did Ausable get rid of Max?",
-          "explanation": "Ausable frightened Max by creating a fake story of a balcony, forcing him to jump out of the window."
+          "explanation": "Ausable frightened Max by inventing a false story about a balcony.\n\nIn fear, Max jumped out of the window."
         },
         {
           "q_id": "iii",
           "statement": "How did Griffin become invisible?",
-          "explanation": "Griffin became invisible by discovering a scientific formula to change the refractive index of his body."
+          "explanation": "Griffin became invisible by discovering a scientific process to change the refractive index of his body."
         }
       ]
     },
@@ -822,7 +956,7 @@
         {
           "q_id": "i",
           "statement": "Answer",
-          "explanation": "Valli planned her bus ride by carefully observing the bus timings and fare. She saved money by avoiding unnecessary expenses and collecting coins."
+          "explanation": "Valli carefully planned her bus ride by listening to the conversations of adults.\n\nShe found out the bus timings, fare, and duration of the journey.\n\nShe saved money by avoiding unnecessary expenses."
         }
       ]
     },
@@ -835,12 +969,12 @@
         {
           "q_id": "i",
           "statement": "What does the young boy say to Anne Gregory?",
-          "explanation": "The young boy tells Anne Gregory that her inner beauty matters more than her outward appearance."
+          "explanation": "The young boy tells Anne Gregory that true love is based on inner beauty and character, not on physical appearance."
         },
         {
           "q_id": "ii",
           "statement": "Why did Custard cry for a nice safe cage? Why is the dragon called ‘cowardly dragon’?",
-          "explanation": "Custard wanted safety and was called cowardly because he always feared danger, though he later proved brave."
+          "explanation": "Custard cried for a safe cage because he always feared danger.\n\nHe is called a cowardly dragon because he appeared timid, though he later showed great courage."
         }
       ]
     },
@@ -854,7 +988,7 @@
         {
           "q_id": "i",
           "statement": "Noodle avoids offending Think-Tank, but at the same time he corrects his mistakes. How does he manage to do that?",
-          "explanation": "Reference: This question is based on the lesson 'The Book That Saved the Earth'. Context: Noodle tactfully corrects Think-Tank without hurting his ego. Explanation: Noodle uses polite language, indirect suggestions, and pretends to agree with Think-Tank while subtly guiding him towards the correct understanding."
+          "explanation": "Noodle avoids offending Think-Tank by speaking politely and respectfully.\n\nHe pretends to agree with Think-Tank’s ideas while indirectly correcting his mistakes.\n\nBy using careful words and giving suggestions instead of direct opposition, Noodle guides Think-Tank towards the correct understanding."
         }
       ],
       "or_option": {
@@ -863,7 +997,7 @@
           {
             "q_id": "ii",
             "statement": "The course of the Loisels' life changed due to the necklace. Comment.",
-            "explanation": "Reference: This question is from the lesson 'The Necklace'. Context: The loss of the necklace leads to years of hardship for the Loisels. Explanation: Due to the necklace, the Loisels lose their comfort, work hard for years to repay debt, and later discover that the necklace was fake, making their suffering tragic."
+            "explanation": "The loss of the necklace changed the life of the Loisels completely.\n\nThey lost their comfort and happiness and worked hard for ten years to repay the debt.\n\nLater, they discovered that the necklace was fake, which made their suffering tragic."
           }
         ]
       }
