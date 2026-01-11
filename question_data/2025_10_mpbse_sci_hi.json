@@ -1,0 +1,734 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+  "question_number": "1",
+  "question_type": "MULTIPLE_CHOICE",
+  "marks": "1×6=6",
+  "text": "सही विकल्प चुनकर लिखिए :",
+  "explanation": "प्रत्येक प्रश्न का उत्तर संबंधित रासायनिक अभिक्रिया, परिभाषा अथवा सिद्धांत के आधार पर चुना गया है, जैसा कि बोर्ड परीक्षाओं में अपेक्षित होता है।",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "KOH + H₂SO₄ → K₂SO₄ + H₂O \nअभिक्रिया किस प्रकार की अभिक्रिया है?",
+      "options": [
+        { "index": "a", "text": "संयोजन अभिक्रिया" },
+        { "index": "b", "text": "विस्थापन अभिक्रिया" },
+        { "index": "c", "text": "द्विविस्थापन अभिक्रिया" },
+        { "index": "d", "text": "वियोजन अभिक्रिया" }
+      ],
+      "correct_answer": "द्विविस्थापन अभिक्रिया",
+      "explanation": "इस अभिक्रिया में अम्ल और क्षार के बीच आयनों का आदान–प्रदान होता है, जिससे लवण और जल बनते हैं, अतः यह द्विविस्थापन (उदासीनीकरण) अभिक्रिया है।"
+    },
+    {
+      "q_id": "ii",
+      "statement": "अम्लीय विलयन का pH मान होता है :",
+      "options": [
+        { "index": "a", "text": "10" },
+        { "index": "b", "text": "7" },
+        { "index": "c", "text": "1" },
+        { "index": "d", "text": "8" }
+      ],
+      "correct_answer": "1",
+      "explanation": "अम्लीय विलयन का pH मान 7 से कम होता है। दिए गए विकल्पों में 1 सबसे उपयुक्त अम्लीय pH मान है।"
+    },
+    {
+      "q_id": "iii",
+      "statement": "निम्नलिखित में से उभयधर्मी (Amphoteric) ऑक्साइड कौन-सा है?",
+      "options": [
+        { "index": "a", "text": "MgO" },
+        { "index": "b", "text": "CaO" },
+        { "index": "c", "text": "Al₂O₃" },
+        { "index": "d", "text": "PbO" }
+      ],
+      "correct_answer": "Al₂O₃",
+      "explanation": "Al₂O₃ अम्ल और क्षार दोनों के साथ अभिक्रिया करता है, इसलिए इसे उभयधर्मी ऑक्साइड कहते हैं।"
+    },
+    {
+      "q_id": "iv",
+      "statement": "कास्टिक सोडा का उपयोग होता है :",
+      "options": [
+        { "index": "a", "text": "साबुन के निर्माण में" },
+        { "index": "b", "text": "खाद्य पदार्थ के निर्माण में" },
+        { "index": "c", "text": "कपड़े को चमकदार बनाने में" },
+        { "index": "d", "text": "उर्वरक बनाने में" }
+      ],
+      "correct_answer": "साबुन के निर्माण में",
+      "explanation": "कास्टिक सोडा (NaOH) का उपयोग साबुन एवं डिटर्जेंट के निर्माण में किया जाता है।"
+    },
+    {
+      "q_id": "v",
+      "statement": "निम्नलिखित में से कौन मानव के पाचन तंत्र का भाग नहीं है?",
+      "options": [
+        { "index": "a", "text": "ग्रासनली" },
+        { "index": "b", "text": "ग्रसिका" },
+        { "index": "c", "text": "फेफड़े" },
+        { "index": "d", "text": "आमाशय" }
+      ],
+      "correct_answer": "फेफड़े",
+      "explanation": "फेफड़े श्वसन तंत्र का भाग हैं, पाचन तंत्र का नहीं।"
+    },
+    {
+      "q_id": "vi",
+      "statement": "जर्मिनेशन (अंकुरण) के लिए आवश्यक गैस कौन-सी है?",
+      "options": [
+        { "index": "a", "text": "नाइट्रोजन" },
+        { "index": "b", "text": "ऑक्सीजन" },
+        { "index": "c", "text": "कार्बन डाइऑक्साइड" },
+        { "index": "d", "text": "हाइड्रोजन" }
+      ],
+      "correct_answer": "ऑक्सीजन",
+      "explanation": "अंकुरण के समय बीजों में श्वसन क्रिया होती है, जिसके लिए ऑक्सीजन आवश्यक होती है।"
+    }
+  ]
+},{
+  "question_number": "2",
+  "question_type": "FILL_IN_THE_BLANK",
+  "marks": "1×6=6",
+  "text": "रिक्त स्थान भरिये :",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "दो बिन्दुओं के बीच का विभवांतर {BLANK} नामक यंत्र द्वारा ज्ञात किया जाता है।",
+      "options": [
+        { "index": "a", "text": "ऐमीटर" },
+        { "index": "b", "text": "वोल्टमीटर" }
+      ],
+      "correct_answer": "वोल्टमीटर",
+      "explanation": "विभवांतर मापने के लिए वोल्टमीटर का प्रयोग किया जाता है।"
+    },
+    {
+      "q_id": "ii",
+      "statement": "प्रकाश के अवयवी वर्णों में विभाजन को {BLANK} कहते हैं।",
+      "options": [
+        { "index": "a", "text": "परावर्तन" },
+        { "index": "b", "text": "विक्षेपण" }
+      ],
+      "correct_answer": "विक्षेपण",
+      "explanation": "श्वेत प्रकाश का उसके अवयवी वर्णों में विभाजन विक्षेपण कहलाता है।"
+    },
+    {
+      "q_id": "iii",
+      "statement": "किसी दर्पण में आप चाहे कितनी ही दूरी पर खड़े हों, आभासी प्रतिबिंब सदैव सीधा प्रतीत होता है। संभवतः दर्पण {BLANK} दर्पण है।",
+      "options": [
+        { "index": "a", "text": "अवतल" },
+        { "index": "b", "text": "उत्तल" }
+      ],
+      "correct_answer": "उत्तल",
+      "explanation": "उत्तल दर्पण में प्रतिबिंब सदैव आभासी एवं सीधा बनता है।"
+    },
+    {
+      "q_id": "iv",
+      "statement": "डी.एन.ए. का वह भाग जिसमें किसी प्रोटीन संश्लेषण के लिये सूचना होती है, उस प्रोटीन का {BLANK} कहलाता है।",
+      "options": [
+        { "index": "a", "text": "जीन" },
+        { "index": "b", "text": "क्रोमोसोम" }
+      ],
+      "correct_answer": "जीन",
+      "explanation": "जीन डी.एन.ए. का वह भाग होता है जिसमें प्रोटीन निर्माण की सूचना होती है।"
+    },
+    {
+      "q_id": "v",
+      "statement": "{BLANK} में अलैंगिक जनन मुकुलन द्वारा होता है।",
+      "options": [
+        { "index": "a", "text": "हाइड्रा" },
+        { "index": "b", "text": "अमीबा" }
+      ],
+      "correct_answer": "हाइड्रा",
+      "explanation": "हाइड्रा में अलैंगिक जनन मुकुलन (बडिंग) द्वारा होता है।"
+    },
+    {
+      "q_id": "vi",
+      "statement": "{BLANK} ग्रंथि द्वारा वृद्धि हार्मोन स्रावित होता है।",
+      "options": [
+        { "index": "a", "text": "थायरॉयड" },
+        { "index": "b", "text": "पिट्यूटरी" }
+      ],
+      "correct_answer": "पिट्यूटरी",
+      "explanation": "वृद्धि हार्मोन का स्राव पिट्यूटरी ग्रंथि द्वारा किया जाता है।"
+    }
+  ]
+},{
+  "question_number": "3",
+  "question_type": "TRUE_FALSE",
+  "marks": "1×6=6",
+  "text": "सत्य / असत्य लिखिए :",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "हमारे शरीर में रसायनों का सर्वाधिक मात्रा में संचित होना ‘जैव आवर्धन’ कहलाता है।",
+      "correct_answer": "असत्य",
+      "explanation": "जैव आवर्धन का अर्थ खाद्य श्रृंखला में एक पोषण स्तर से अगले उच्च स्तर पर जाने पर हानिकारक रसायनों की सांद्रता का बढ़ना होता है, न कि केवल किसी एक शरीर में संचित होना।"
+    },
+    {
+      "q_id": "ii",
+      "statement": "हरे विद्युतरोधन वाला तार प्रायः विद्युतधारक तार होता है।",
+      "correct_answer": "असत्य",
+      "explanation": "हरे रंग का विद्युतरोधन वाला तार अर्थ (Earth) तार होता है, जबकि विद्युतधारक (Live) तार सामान्यतः लाल या भूरा रंग का होता है।"
+    },
+    {
+      "q_id": "iii",
+      "statement": "प्रतिरोध का SI मात्रक ओम (Ω) है।",
+      "correct_answer": "सत्य",
+      "explanation": "विद्युत प्रतिरोध का अंतरराष्ट्रीय मात्रक ओम (Ω) होता है।"
+    },
+    {
+      "q_id": "iv",
+      "statement": "निकट दृष्टि दोष को उत्तल लेंस द्वारा संशोधित किया जाता है।",
+      "correct_answer": "असत्य",
+      "explanation": "निकट दृष्टि दोष (मायोपिया) का संशोधन अवतल (Concave) लेंस द्वारा किया जाता है, न कि उत्तल लेंस द्वारा।"
+    },
+    {
+      "q_id": "v",
+      "statement": "विरल माध्यम में प्रकाश की चाल सघन माध्यम की अपेक्षा अधिक होती है।",
+      "correct_answer": "सत्य",
+      "explanation": "प्रकाश की चाल विरल माध्यम में अधिक तथा सघन माध्यम में कम होती है।"
+    },
+    {
+      "q_id": "vi",
+      "statement": "असंतृप्त हाइड्रोकार्बन से सामान्यतः स्वच्छ ज्वाला निकलती है।",
+      "correct_answer": "असत्य",
+      "explanation": "असंतृप्त हाइड्रोकार्बन से प्रायः पीली, धुँएदार ज्वाला निकलती है, जबकि संतृप्त हाइड्रोकार्बन से स्वच्छ नीली ज्वाला प्राप्त होती है।"
+    }
+  ]
+},{
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "सही जोड़ी बनाइए :",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "स्तम्भ (अ) और स्तम्भ (ब) के पदों का मिलान उनके जैविक एवं वनस्पति विज्ञान संबंधी गुणों के आधार पर किया गया है।",
+  "columns": {
+    "column_A_title": "स्तम्भ (अ)",
+    "column_B_title": "स्तम्भ (ब)",
+    "pairs": [
+      {
+        "a_item": "(i) ऑक्सीजनित रक्त",
+        "b_item": "मेड्रोक अम्ल",
+        "correct_match_index": "4",
+        "explanation": "ऑक्सीजनित रक्त धमनियों में प्रवाहित होता है।"
+      },
+      {
+        "a_item": "(ii) विऑक्सीजनित रक्त",
+        "b_item": "सिट्रिक फल",
+        "correct_match_index": "5",
+        "explanation": "विऑक्सीजनित रक्त शिराओं में प्रवाहित होता है।"
+      },
+      {
+        "a_item": "(iii) द्विलिंगी पुष्प",
+        "b_item": "शिरा",
+        "correct_match_index": "2",
+        "explanation": "द्विलिंगी पुष्प में पुंकेसर और स्त्रीकेसर दोनों होते हैं।"
+      },
+      {
+        "a_item": "(iv) एकलिंगी पुष्प",
+        "b_item": "धमनी",
+        "correct_match_index": "6",
+        "explanation": "एकलिंगी पुष्प में केवल एक ही लिंग होता है।"
+      },
+      {
+        "a_item": "(v) संतरा",
+        "b_item": "पपीता",
+        "correct_match_index": "1",
+        "explanation": "संतरा एक सिट्रिक फल है।"
+      },
+      {
+        "a_item": "(vi) चींटी का डंक",
+        "b_item": "गुडहल",
+        "correct_match_index": "3",
+        "explanation": "चींटी के डंक में फॉर्मिक (मेथेनोइक) अम्ल पाया जाता है।"
+      }
+    ]
+  }
+},{
+  "question_number": "5",
+  "question_type": "DESCRIPTIVE",
+  "marks": "1×6=6",
+  "word_limit": "एक शब्द / एक वाक्य",
+  "text": "एक शब्द/वाक्य में उत्तर लिखिए :",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "CaOCl₂ यौगिक का प्रचलित नाम लिखिए।",
+      "correct_answer": "ब्लीचिंग पाउडर",
+      "explanation": "CaOCl₂ यौगिक को सामान्यतः ब्लीचिंग पाउडर कहा जाता है, जिसका उपयोग वस्त्रों को सफेद करने एवं कीटाणुनाशक के रूप में किया जाता है।"
+    },
+    {
+      "q_id": "ii",
+      "statement": "कौन-सी एक धातु आसानी से संक्षारित नहीं होती?",
+      "correct_answer": "सोना",
+      "explanation": "सोना एक अक्रिय धातु है, इसलिए यह वायु और नमी के संपर्क में आने पर आसानी से संक्षारित नहीं होती।"
+    },
+    {
+      "q_id": "iii",
+      "statement": "मिश्र धातु क्या है?",
+      "correct_answer": "दो या दो से अधिक धातुओं का मिश्रण",
+      "explanation": "दो या दो से अधिक धातुओं अथवा धातु और अधातु के समांगी मिश्रण को मिश्र धातु कहते हैं।"
+    },
+    {
+      "q_id": "iv",
+      "statement": "हमारे मस्तिष्क का कौन-सा भाग सूंघने का पता लगाता है?",
+      "correct_answer": "घ्राण बल्ब",
+      "explanation": "घ्राण बल्ब मस्तिष्क का वह भाग है जो सूंघने की संवेदना को पहचानता है।"
+    },
+    {
+      "q_id": "v",
+      "statement": "दो तंत्रिका कोशिकाओं (न्यूरॉन) के मध्य अंतराल (सिनैप्स) में कौन-सी क्रिया होती है?",
+      "correct_answer": "रासायनिक संप्रेषण",
+      "explanation": "सिनैप्स में एक न्यूरॉन से दूसरे न्यूरॉन तक संदेश का संप्रेषण रासायनिक पदार्थों द्वारा होता है।"
+    },
+    {
+      "q_id": "vi",
+      "statement": "विद्युत शक्ति का व्यावहारिक मात्रक लिखिए।",
+      "correct_answer": "वाट",
+      "explanation": "विद्युत शक्ति का व्यावहारिक मात्रक वाट (Watt) होता है।"
+    }
+  ]
+},{
+  "question_number": "6",
+  "question_type": "DESCRIPTIVE",
+  "marks": "2",
+  "text": "For whitewashing which substance solution is used? Write the reaction.",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "For whitewashing which substance solution is used? Write the reaction.",
+      "explanation": "Whitewashing के लिए कैल्शियम हाइड्रॉक्साइड का विलयन प्रयोग किया जाता है।\nReaction:\nCaO + H₂O → Ca(OH)₂"
+    }
+  ],
+  "or_option": {
+    "text": "OR",
+    "parts": [
+      {
+        "q_id": "ii",
+        "statement": "Why does the colour of copper sulphate solution change when an iron nail is dipped in it? Write reason.",
+        "explanation": "यह एक विस्थापन अभिक्रिया है।\nFe + CuSO₄ → FeSO₄ + Cu\nलोहे के कारण कॉपर विस्थापित हो जाता है, इसलिए रंग बदल जाता है।"
+      }
+    ]
+  }
+},
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "How can you identify acids and bases? Write any two methods.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How can you identify acids and bases? Write any two methods.",
+          "explanation": "अम्ल और क्षार की पहचान के दो तरीके हैं:\n1. लिटमस परीक्षण – अम्ल नीले लिटमस को लाल तथा क्षार लाल लिटमस को नीला करता है।\n2. स्वाद एवं स्पर्श – अम्ल खट्टे तथा क्षार कड़वे होते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Define neutralisation reaction. Give one example.",
+            "explanation": "जब अम्ल और क्षार परस्पर क्रिया करके लवण और जल बनाते हैं, तो इसे उदासीनीकरण अभिक्रिया कहते हैं।\nउदाहरण:\nHCl + NaOH → NaCl + H₂O"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Define Calcination.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Define Calcination.",
+          "explanation": "कैल्सिनेशन वह प्रक्रिया है जिसमें अयस्क को सीमित वायु या वायु की अनुपस्थिति में गर्म किया जाता है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Define Roasting.",
+            "explanation": "रोस्टिंग वह प्रक्रिया है जिसमें सल्फाइड अयस्क को प्रचुर मात्रा में वायु में गर्म किया जाता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write any two properties of Ethanol.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write any two properties of Ethanol.",
+          "explanation": "Ethanol के दो गुण:\n1. यह रंगहीन और वाष्पशील द्रव है।\n2. यह जल में पूर्णतः घुलनशील होता है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write any two properties of Ethanoic acid.",
+            "explanation": "Ethanoic acid के दो गुण:\n1. इसका स्वाद खट्टा होता है।\n2. यह नीले लिटमस को लाल कर देता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write the difference between Autotrophic nutrition and Heterotrophic nutrition. (Any two)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the difference between Autotrophic nutrition and Heterotrophic nutrition. (Any two)",
+          "explanation": "Autotrophic nutrition:\n1. जीव स्वयं भोजन बनाते हैं।\n2. क्लोरोफिल की आवश्यकता होती है।\n\nHeterotrophic nutrition:\n1. जीव भोजन के लिए अन्य जीवों पर निर्भर रहते हैं।\n2. क्लोरोफिल की आवश्यकता नहीं होती।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write the difference between Blood and Lymph. (Any two)",
+            "explanation": "Blood:\n1. लाल रंग का द्रव होता है।\n2. ऑक्सीजन का परिवहन करता है।\n\nLymph:\n1. रंगहीन द्रव होता है।\n2. प्रतिरक्षा में सहायक होता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write a function of each of the following animal hormones.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Growth hormone",
+          "explanation": "Growth hormone शरीर की सामान्य वृद्धि और विकास को नियंत्रित करता है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Insulin",
+          "explanation": "Insulin रक्त में शर्करा के स्तर को नियंत्रित करता है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "iii",
+            "statement": "Auxin",
+            "explanation": "Auxin पौधों की लंबाई में वृद्धि करता है।"
+          },
+          {
+            "q_id": "iv",
+            "statement": "Gibberellins",
+            "explanation": "Gibberellins बीज अंकुरण और तने की वृद्धि में सहायक होते हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write the name of modes of reproduction used by single cell organism. (Any two)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the name of modes of reproduction used by single cell organism. (Any two)",
+          "explanation": "एककोशिकीय जीवों में जनन के प्रकार:\n1. द्विखंडन\n2. बहुखंडन"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write the name of any two parts of male reproductive system in human.",
+            "explanation": "मानव पुरुष जनन तंत्र के दो भाग:\n1. वृषण\n2. शुक्रवाहिनी"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Find the focal length of a convex mirror whose radius of curvature is 38 cm.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Find the focal length of a convex mirror whose radius of curvature is 38 cm.",
+          "explanation": "Convex mirror के लिए:\nf = R/2 = 38/2 = 19 cm"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Focal length of a lens is +50 metre, write its power.",
+            "explanation": "Power P = 1/f = 1/50 = +0.02 D"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Why do stars twinkle? Write the reasons.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why do stars twinkle? Write the reasons.",
+          "explanation": "वायुमंडलीय अपवर्तन के कारण तारों का प्रकाश बार-बार मुड़ता है, इसलिए तारे टिमटिमाते प्रतीत होते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Why a normal eye is not able to see clearly the objects placed closer than 25 cm?",
+            "explanation": "नेत्र पेशियों की सीमित क्षमता के कारण 25 सेमी से कम दूरी की वस्तुएँ स्पष्ट दिखाई नहीं देतीं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Define the electric current and write its unit.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Define the electric current and write its unit.",
+          "explanation": "विद्युत धारा आवेश के प्रवाह की दर को कहते हैं।\nइसकी इकाई एम्पियर (A) है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Define electric potential difference and write its unit.",
+            "explanation": "दो बिंदुओं के बीच प्रति इकाई आवेश किए गए कार्य को विभवांतर कहते हैं।\nइसकी इकाई वोल्ट (V) है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write the name of any two methods for producing magnetic fields.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the name of any two methods for producing magnetic fields.",
+          "explanation": "चुंबकीय क्षेत्र उत्पन्न करने की विधियाँ:\n1. विद्युत धारा द्वारा\n2. स्थायी चुंबक द्वारा"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write any two properties of magnetic field lines.",
+            "explanation": "चुंबकीय क्षेत्र रेखाओं के गुण:\n1. ये एक-दूसरे को नहीं काटतीं।\n2. ये उत्तर ध्रुव से दक्षिण ध्रुव की ओर जाती हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "What will happen if we kill all the organisms of first trophic level?",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What will happen if we kill all the organisms of first trophic level?",
+          "explanation": "प्रथम पोषी स्तर के जीव नष्ट होने से पूरी खाद्य श्रृंखला असंतुलित हो जाएगी।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "What is ozone and how does it affect ecosystem?",
+            "explanation": "ओजोन परत सूर्य की हानिकारक पराबैंगनी किरणों से जीवों की रक्षा करती है और पारिस्थितिकी तंत्र को सुरक्षित रखती है।"
+          }
+        ]
+      }
+    },
+    {
+  "question_number": "18",
+  "question_type": "DESCRIPTIVE",
+  "marks": "3",
+  "word_limit": "",
+  "text": "",
+  "parts": [
+    {
+      "q_id": "(i)",
+      "statement": "हाइड्रोकार्बन की परिभाषा लिखिए एवं प्रथम चार हाइड्रोकार्बनों के नाम, सूत्र एवं संरचनात्मक सूत्र लिखिए।",
+      "correct_answer": "",
+      "explanation": "हाइड्रोकार्बन:\nवे कार्बनिक यौगिक जिनमें केवल कार्बन तथा हाइड्रोजन तत्व होते हैं, हाइड्रोकार्बन कहलाते हैं।\n\nप्रथम चार हाइड्रोकार्बन (एल्केन श्रेणी):\n\n1. मीथेन\nनाम: मीथेन\nआणविक सूत्र: CH₄\nसंरचनात्मक सूत्र:\n   H\n   |\nH–C–H\n   |\n   H\n\n2. एथेन\nनाम: एथेन\nआणविक सूत्र: C₂H₆\nसंरचनात्मक सूत्र:\nH–C–C–H\n|   |\nH   H\n\n3. प्रोपेन\nनाम: प्रोपेन\nआणविक सूत्र: C₃H₈\nसंरचनात्मक सूत्र:\nH–C–C–C–H\n|   |   |\nH   H   H\n\n4. ब्यूटेन\nनाम: ब्यूटेन\nआणविक सूत्र: C₄H₁₀\nसंरचनात्मक सूत्र:\nH–C–C–C–C–H\n|   |   |   |\nH   H   H   H"
+    }
+  ],
+  "or_option": {
+    "text": "अथवा",
+    "parts": [
+      {
+        "q_id": "(ii)",
+        "statement": "निम्नलिखित यौगिकों का नाम लिखिए :",
+        "imgUrl": "https://dummyimage.com/organic-structures",
+        "correct_answer": "",
+        "explanation": "दिए गए संरचनात्मक सूत्रों के नाम इस प्रकार हैं :\n\n(i) H–C=O\nइस यौगिक का नाम: मेथेनल (फॉर्मल्डिहाइड)\n\n(ii) H₃C–CH₂–OH\nइस यौगिक का नाम: एथेनॉल\n\n(iii) H–C≡C–H\nइस यौगिक का नाम: एथाइन (एसीटिलीन)\n\nयौगिकों के नामकरण में उनके क्रियात्मक समूह और कार्बन परमाणुओं की संख्या का विशेष ध्यान रखा जाता है।"
+      }
+    ]
+  }
+},
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Mendel has selected pea plants for his experiments. Write any three reasons.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Mendel has selected pea plants for his experiments. Write any three reasons.",
+          "explanation": "मटर के पौधे चुनने के कारण:\n1. इनमें स्पष्ट विरोधी लक्षण होते हैं।\n2. स्वपरागण होता है।\n3. जीवन चक्र छोटा होता है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write the Mendel's law of dominance.",
+            "explanation": "प्रभाविता का नियम कहता है कि संकर संतति में केवल प्रभावी लक्षण ही प्रकट होता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "What is the function of an earth wire? Why is it necessary to earth metallic electric appliances?",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is the function of an earth wire? Why is it necessary to earth metallic electric appliances?",
+          "explanation": "अर्थ वायर का कार्य उपकरणों को विद्युत झटके से बचाना है।\nधात्विक उपकरणों की अर्थिंग आवश्यक है ताकि अतिरिक्त धारा पृथ्वी में चली जाए।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Why two magnetic force lines do not cross each other? Write the reason.",
+            "explanation": "यदि चुंबकीय बल रेखाएँ कटें, तो एक बिंदु पर दो दिशाएँ होंगी, जो असंभव है।"
+          },
+          {
+            "q_id": "iii",
+            "statement": "Write the use of fuse wire.",
+            "explanation": "फ्यूज वायर अधिक धारा होने पर परिपथ को तोड़कर उपकरणों की रक्षा करता है।"
+          }
+        ]
+      }
+    },{
+  "question_number": "21",
+  "question_type": "DESCRIPTIVE",
+  "marks": "4",
+  "word_limit": "",
+  "text": "",
+  "parts": [
+    {
+      "q_id": "(i)",
+      "statement": "निम्नलिखित रासायनिक अभिक्रियाओं को शब्दों में परिवर्तित कीजिए :\n(i) Hydrogen gas combines with nitrogen to form ammonia.\n(ii) Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.\n(iii) Barium chloride reacts with sulphuric acid to give barium sulphate and hydrochloric acid.\n(iv) Hydrogen sulphide gas burns in air to give water and sulphur dioxide.",
+      "correct_answer": "",
+      "explanation": "इन अभिक्रियाओं को शब्दों में इस प्रकार लिखा जा सकता है :\n\n(i) हाइड्रोजन गैस नाइट्रोजन के साथ अभिक्रिया करके अमोनिया बनाती है।\n\n(ii) पोटैशियम धातु जल के साथ अभिक्रिया करके पोटैशियम हाइड्रॉक्साइड और हाइड्रोजन गैस बनाती है।\n\n(iii) बेरियम क्लोराइड सल्फ्यूरिक अम्ल के साथ अभिक्रिया करके बेरियम सल्फेट और हाइड्रोक्लोरिक अम्ल बनाता है।\n\n(iv) हाइड्रोजन सल्फाइड गैस वायु में जलकर जल और सल्फर डाइऑक्साइड बनाती है।"
+    }
+  ],
+  "or_option": {
+    "text": "अथवा",
+    "parts": [
+      {
+        "q_id": "(ii)",
+        "statement": "निम्नलिखित रासायनिक समीकरणों को संतुलित कीजिए :\n(i) HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + H₂O\n(ii) NaCl + AgNO₃ → AgCl + NaNO₃\n(iii) NaOH + H₂SO₄ → Na₂SO₄ + H₂O\n(iv) BaCl₂ + H₂SO₄ → BaSO₄ + HCl",
+        "correct_answer": "",
+        "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_science_18.png",
+        "explanation": "संतुलित रासायनिक समीकरण इस प्रकार हैं :\n\n(i) 2HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + 2H₂O\n\n(ii) NaCl + AgNO₃ → AgCl + NaNO₃\n\n(iii) 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O\n\n(iv) BaCl₂ + H₂SO₄ → BaSO₄ + 2HCl\n\nसंतुलन के समय दोनों ओर प्रत्येक तत्व के परमाणुओं की संख्या समान रखी जाती है।"
+      }
+    ]
+  }
+},{
+  "question_number": "22",
+  "question_type": "DESCRIPTIVE",
+  "marks": "4",
+  "word_limit": "",
+  "text": "",
+  "parts": [
+    {
+      "q_id": "(i)",
+      "statement": "नेफ्रॉन की संरचना एवं कार्य का वर्णन कीजिए। (आरेख सहित)",
+      "correct_answer": "",
+      "explanation": "नेफ्रॉन वृक्क (किडनी) की संरचनात्मक एवं क्रियात्मक इकाई है।\n\nसंरचना:\nनेफ्रॉन के मुख्य भाग हैं –\n1. बोमैन कैप्सूल\n2. ग्लोमेरुलस\n3. नलिकाएँ (प्रोक्सिमल नलिका, हेनले का लूप, डिस्टल नलिका)\n4. संग्रहण नलिका\n\nकार्य:\nनेफ्रॉन रक्त का निस्यंदन करता है, उपयोगी पदार्थों का पुनः अवशोषण करता है तथा अपशिष्ट पदार्थों को मूत्र के रूप में बाहर निकालता है।"
+    }
+  ],
+  "or_option": {
+    "text": "अथवा",
+    "parts": [
+      {
+        "q_id": "(ii)",
+        "statement": "पौधों में परिवहन तंत्र के घटक कौन-कौन से हैं? जल एवं खनिज लवणों का परिवहन कैसे होता है?",
+        "correct_answer": "",
+        "explanation": "पौधों में परिवहन तंत्र के मुख्य घटक जाइलम और फ्लोएम हैं।\n\nजल एवं खनिज लवणों का परिवहन:\nजाइलम द्वारा जड़ों से जल एवं खनिज लवण ऊपर की ओर तने और पत्तियों तक पहुँचाए जाते हैं। यह प्रक्रिया वाष्पोत्सर्जन खिंचाव, केशिकीय क्रिया और जड़ दाब के कारण होती है।"
+      }
+    ]
+  }
+},{
+  "question_number": "23",
+  "question_type": "DESCRIPTIVE",
+  "marks": "4",
+  "word_limit": "",
+  "text": "",
+  "parts": [
+    {
+      "q_id": "(i)",
+      "statement": "अवतल दर्पण में प्रतिबिंब निर्माण के किरण आरेख बनाइए, जब वस्तु रखी हो :\n(i) फोकस (F) पर\n(ii) वक्रता केंद्र (C) पर",
+      "correct_answer": "",
+      "explanation": "अवतल दर्पण में :\n\n(i) जब वस्तु फोकस पर रखी जाती है, तब प्रतिबिंब अनंत पर बनता है तथा वास्तविक और उल्टा होता है।\n\n(ii) जब वस्तु वक्रता केंद्र पर रखी जाती है, तब प्रतिबिंब भी वक्रता केंद्र पर बनता है, जो वास्तविक, उल्टा और वस्तु के समान आकार का होता है।"
+    }
+  ],
+  "or_option": {
+    "text": "अथवा",
+    "parts": [
+      {
+        "q_id": "(ii)",
+        "statement": "अपवर्तन को उसके दो नियमों सहित परिभाषित कीजिए। अवतल दर्पण का एक उपयोग लिखिए।",
+        "correct_answer": "",
+        "explanation": "अपवर्तन:\nजब प्रकाश एक माध्यम से दूसरे माध्यम में प्रवेश करता है और उसकी दिशा बदल जाती है, तो इसे अपवर्तन कहते हैं।\n\nअपवर्तन के नियम:\n1. आपतित किरण, अपवर्तित किरण तथा अभिलंब एक ही तल में होते हैं।\n2. आपतन कोण और अपवर्तन कोण का अनुपात नियत होता है।\n\nअवतल दर्पण का उपयोग:\nअवतल दर्पण का उपयोग वाहन की हेडलाइट और दाढ़ी बनाने के दर्पण में किया जाता है।"
+      }
+    ]
+  }
+}
+  ]
+}
