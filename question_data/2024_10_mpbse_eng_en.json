@@ -316,40 +316,41 @@
         ]
       }
     },
+{
+  "question_number": "5",
+  "question_type": "DESCRIPTIVE",
+  "marks": "5M",
+  "word_limit": "150 words",
+  "text": "Write an essay in about 150 words on any one of the following topics:",
+  "parts": [
     {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "5M",
-      "word_limit": "150 words",
-      "text": "Write an essay in about 150 words on any one of the following topics:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Importance of Games and Sports",
-          "explanation": "Introduction: Games and sports are essential for a healthy life.\nBody: They keep our body fit and active. Games develop qualities like discipline, teamwork, leadership, and sportsmanship. They make us mentally strong and teach us to face victory and defeat with courage. Sports also help in reducing stress and improving concentration.\nConclusion: Thus, games and sports play an important role in physical, mental, and moral development."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Any Festival",
-          "explanation": "Introduction: India is a land of festivals. Each festival has its own cultural and religious importance.\nBody: Festivals bring joy and unity among people. They remind us of our traditions and values. People celebrate festivals together by decorating homes, wearing new clothes, and sharing sweets. Festivals promote love, harmony, and social bonding.\nConclusion: Thus, festivals are an important part of Indian culture and life."
-        },
-        {
-          "q_id": "iii",
-          "statement": "Save Tree",
-          "explanation": "Introduction: Trees are a valuable gift of nature.\nBody: Trees give us oxygen, fruits, medicines, and wood. They help in maintaining ecological balance and prevent pollution, soil erosion, and global warming. Due to deforestation, the environment is getting damaged. Therefore, tree plantation is necessary.\nConclusion: To save life on earth, we must save trees and encourage plantation."
-        },
-        {
-          "q_id": "iv",
-          "statement": "Science in Daily Life",
-          "explanation": "Introduction: Science plays an important role in our daily life.\nBody: From morning to night, we use scientific inventions like electricity, mobile phones, computers, vehicles, and medical facilities. Science has made life comfortable and time-saving. It has improved communication, transport, and health services.\nConclusion: Thus, science is a blessing for mankind when used properly."
-        },
-        {
-          "q_id": "v",
-          "statement": "My Hobby",
-          "explanation": "Introduction: A hobby is an activity done in free time for pleasure.\nBody: My hobby is reading books. It increases my knowledge and improves my language skills. Reading helps me relax and develop good habits. It also inspires me and builds confidence.\nConclusion: My hobby is a source of joy and personal development in my life."
-        }
-      ]
+      "q_id": "i",
+      "statement": "Importance of Games and Sports",
+      "explanation": "Introduction:\nGames and sports are an important part of a healthy and disciplined life, especially for students.\n\nBody:\nGames keep our body fit, active and energetic. Regular participation in sports improves physical strength, stamina and immunity. Games also develop qualities such as discipline, teamwork, leadership and obedience to rules. Through sports, students learn to face both victory and defeat with courage and patience. Games refresh the mind, reduce stress and increase concentration, which helps in better academic performance. Sports also promote unity and a spirit of cooperation.\n\nConclusion:\nThus, games and sports play a vital role in the physical, mental and moral development of students. A healthy body leads to a healthy mind."
     },
+    {
+      "q_id": "ii",
+      "statement": "Any Festival",
+      "explanation": "Introduction:\nIndia is a land of festivals. Festivals are celebrated with great joy and enthusiasm throughout the country.\n\nBody:\nDiwali is one of the most important festivals of India. It is known as the festival of lights. People clean and decorate their houses with lamps and candles. Goddess Lakshmi is worshipped on this day. People wear new clothes, distribute sweets and exchange greetings. Festivals bring people together and strengthen social relations. They teach us values like love, unity, sharing and harmony.\n\nConclusion:\nThus, festivals are an important part of Indian culture. They spread happiness, peace and brotherhood in society."
+    },
+    {
+      "q_id": "iii",
+      "statement": "Save Tree",
+      "explanation": "Introduction:\nTrees are a precious gift of nature and are essential for life on earth.\n\nBody:\nTrees provide us oxygen, fruits, medicines, wood and shade. They help in maintaining ecological balance and control pollution. Trees prevent soil erosion, conserve water and support wildlife. Due to deforestation, problems like global warming, climate change and pollution are increasing. Therefore, it is our duty to protect trees and plant more trees.\n\nConclusion:\nIn conclusion, saving trees means saving life. We should stop cutting trees and promote tree plantation for a green and healthy future."
+    },
+    {
+      "q_id": "iv",
+      "statement": "Science in Daily Life",
+      "explanation": "Introduction:\nScience plays an important role in our daily life and has changed the way we live.\n\nBody:\nFrom morning to night, we depend on science. Electricity, mobile phones, computers, vehicles and medical facilities are gifts of science. Science has made communication fast and transport easy. Medical science has helped in curing diseases and increasing life expectancy. In agriculture and education, science has improved productivity and learning methods.\n\nConclusion:\nThus, science is a great blessing for mankind. Proper and wise use of science can lead to the progress of society."
+    },
+    {
+      "q_id": "v",
+      "statement": "My Hobby",
+      "explanation": "Introduction:\nA hobby is an activity that we enjoy in our free time. It brings happiness and relaxation.\n\nBody:\nMy hobby is reading books. Reading increases my knowledge and improves my language skills. I enjoy reading story books and motivational books. Reading keeps my mind fresh and helps me develop imagination and creativity. It also keeps me away from bad habits and unnecessary use of mobile phones.\n\nConclusion:\nIn conclusion, my hobby plays an important role in my personality development. Everyone should have a good hobby to make life meaningful and joyful."
+    }
+  ]
+}
+,
     {
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
