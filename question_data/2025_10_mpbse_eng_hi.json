@@ -315,23 +315,25 @@
     {
       "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "4M",
-      "word_limit": "120 words (approx)",
-      "text": "Write an application to your principal requesting him to issue your School Leaving Certificate (S.L.C.).",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
       "parts": [
         {
-          "q_id": "i",
-          "statement": "You are Manthan/Mahi studying in Govt. H.S. School, Bajrang Nagar, Indore.",
-          "explanation": "Reference: This is a formal application written to the school principal.\nContext: The student requests the issuance of the School Leaving Certificate due to personal or academic reasons.\nExplanation: In this application, the student politely addresses the principal, mentions personal and school details, clearly states the reason for requesting the School Leaving Certificate, and assures completion of all formalities. The letter ends with a respectful closing and signature."
+          "q_id": "",
+          "statement": "You are Manthan/Mahi studying in Govt. H.S. School Bajrang Nagar, Indore. Write an application to your principal requesting him to issue you your School Leaving Certificate (S.L.C.).",
+          "correct_answer": "",
+          "explanation": "This question tests the ability to write a formal application. The answer should be written in proper format and simple, correct English. The following points must be included:\n\n1. Sender’s address (name of the school and place)\n2. Date\n3. Receiver’s address (The Principal, name of the school)\n4. Subject – Application for School Leaving Certificate\n5. Salutation – Respected Sir\n6. Body of the application:\n   • Name of the student\n   • Class and school name\n   • Reason for leaving the school (such as further studies)\n   • Polite request to issue the School Leaving Certificate\n7. Closing sentence with thanks\n8. Subscription – Yours obediently\n9. Signature and name\n\nThe language should be formal, polite and precise, as required in board examinations."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Write a letter to your friend to invite him to attend your birthday party.",
-            "explanation": "Reference: This is an informal letter written to a friend.\nContext: The writer invites a close friend to attend a birthday celebration.\nExplanation: In this letter, the writer expresses happiness about the upcoming birthday, mentions the date, time, and venue of the party, and warmly invites the friend to join the celebration. The tone is friendly and affectionate, ending with regards and the sender’s name."
+            "correct_answer": "",
+            "explanation": "This question requires writing an informal letter. The answer should follow the correct format and use friendly language. The following points should be covered:\n\n1. Sender’s address\n2. Date\n3. Salutation – Dear Friend / Dear Rahul, etc.\n4. Body of the letter:\n   • Asking about the friend’s well-being\n   • Mentioning the date, time and place of the birthday party\n   • Warm invitation to attend the party\n5. Closing words – With love / Yours lovingly\n6. Name of the writer\n\nThe language should be simple, friendly and informal, suitable for a personal letter."
           }
         ]
       }
@@ -551,37 +553,37 @@
         {
           "q_id": "i",
           "statement": "Kshitij plays cricket. (Change into past indefinite tense)",
-          "explanation": "Reference: This question tests the knowledge of tense.\nContext: The sentence is in present tense and needs to be converted into past indefinite tense.\nExplanation: The verb 'plays' should be changed into its past form 'played'. The correct sentence is: 'Kshitij played cricket.'"
+          "explanation": "Verb changed into second form.\nplays → played\nCorrect sentence: Kshitij played cricket."
         },
         {
           "q_id": "ii",
           "statement": "Ram killed Ravan. (Change the voice)",
-          "explanation": "Reference: This question is based on active and passive voice.\nContext: The given sentence is in active voice.\nExplanation: To change into passive voice, the object becomes the subject and the verb changes accordingly. The correct sentence is: 'Ravan was killed by Ram.'"
+          "explanation": "Active voice changed into passive voice.\nObject made subject.\nCorrect sentence: Ravan was killed by Ram."
         },
         {
           "q_id": "iii",
           "statement": "have / they / a / new / car / bought (Rearrange the words to make a meaningful sentence)",
-          "explanation": "Reference: This question checks sentence formation skills.\nContext: The words are given in a jumbled order.\nExplanation: The correct meaningful sentence formed by rearranging the words is: 'They have bought a new car.'"
+          "explanation": "Words rearranged in correct order.\nCorrect sentence: They have bought a new car."
         },
         {
           "q_id": "iv",
           "statement": "Talk properly.\nI shall beat you. (Combine the sentences using 'otherwise')",
-          "explanation": "Reference: This question tests the use of conjunctions.\nContext: Two independent sentences are to be combined using 'otherwise'.\nExplanation: The correct combined sentence is: 'Talk properly, otherwise I shall beat you.'"
+          "explanation": "Sentences combined using 'otherwise'.\nCorrect sentence: Talk properly, otherwise I shall beat you."
         },
         {
           "q_id": "v",
           "statement": "To find error in others is easy. (Rewrite the sentence beginning with 'It')",
-          "explanation": "Reference: This question is based on sentence transformation.\nContext: The sentence needs to be rewritten starting with 'It'.\nExplanation: The correct rewritten sentence is: 'It is easy to find error in others.'"
+          "explanation": "Sentence rewritten using preparatory subject 'It'.\nCorrect sentence: It is easy to find error in others."
         },
         {
           "q_id": "vi",
           "statement": "Shiba cooked food. (Change into negative sentence)",
-          "explanation": "Reference: This question tests knowledge of affirmative and negative sentences.\nContext: The sentence is in affirmative form.\nExplanation: To change into negative, 'did not' is used with the base form of the verb. The correct sentence is: 'Shiba did not cook food.'"
+          "explanation": "Negative formed using 'did not' + base verb.\nCorrect sentence: Shiba did not cook food."
         },
         {
           "q_id": "vii",
           "statement": "The box is very heavy.\nI can not lift it. (Combine the pair of sentences using 'so...that')",
-          "explanation": "Reference: This question checks the use of result clauses.\nContext: Two sentences are to be combined using 'so...that'.\nExplanation: The correct combined sentence is: 'The box is so heavy that I cannot lift it.'"
+          "explanation": "Sentences combined using 'so...that'.\nCorrect sentence: The box is so heavy that I cannot lift it."
         }
       ]
     },
@@ -690,96 +692,95 @@
       ]
     },
     {
-  "question_number": "10(A)",
-  "question_type": "UNSEEN_PASSAGE_PROSE",
-  "marks": "1×3=3",
-  "word_limit": null,
-  "text": "Read the extract carefully and answer the questions given below:",
-  "youtube_url": null,
-  "previous_exam_reference": null,
-  "passage": "Early in the New Year of 1956 I travelled to southern Iraq. By then it had crossed my mind that I should like to keep an otter instead of a dog, and that Camusfearna, ringed by water a stone’s throw from its door, would be an eminently suitable spot for this experiment.\nWhen I casually mentioned this to a friend, he as casually replied that I had better get one in the Tigris marshes, for there they were as common as mosquitoes, and were often tamed by the Arabs. We were going to Basra to the Consulate-General to collect and answer our mail from Europe. At the Consulate-General we found that my friend’s mail had arrived but that mine had not.",
-  "parts": [
-    {
-      "q_id": "i",
-      "statement": "The author travelled ____.",
-      "options": [
+      "question_number": "10(A)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the extract carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "Early in the New Year of 1956 I travelled to southern Iraq. By then it had crossed my mind that I should like to keep an otter instead of a dog, and that Camusfearna, ringed by water a stone’s throw from its door, would be an eminently suitable spot for this experiment.\nWhen I casually mentioned this to a friend, he as casually replied that I had better get one in the Tigris marshes, for there they were as common as mosquitoes, and were often tamed by the Arabs. We were going to Basra to the Consulate-General to collect and answer our mail from Europe. At the Consulate-General we found that my friend’s mail had arrived but that mine had not.",
+      "parts": [
         {
-          "index": "a",
-          "text": "U.S.A."
+          "q_id": "i",
+          "statement": "The author travelled ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "U.S.A."
+            },
+            {
+              "index": "b",
+              "text": "Iraq"
+            },
+            {
+              "index": "c",
+              "text": "Australia"
+            },
+            {
+              "index": "d",
+              "text": "Japan"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Iraq",
+          "explanation": "The extract clearly states that the author travelled to southern Iraq.",
+          "previousYearsDetails": null
         },
         {
-          "index": "b",
-          "text": "Iraq"
+          "q_id": "ii",
+          "statement": "When did the author travel?",
+          "options": [
+            {
+              "index": "a",
+              "text": "1947"
+            },
+            {
+              "index": "b",
+              "text": "1956"
+            },
+            {
+              "index": "c",
+              "text": "1999"
+            },
+            {
+              "index": "d",
+              "text": "1971"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "1956",
+          "explanation": "It is mentioned in the first line that the author travelled early in the New Year of 1956.",
+          "previousYearsDetails": null
         },
         {
-          "index": "c",
-          "text": "Australia"
-        },
-        {
-          "index": "d",
-          "text": "Japan"
+          "q_id": "iii",
+          "statement": "The author wanted to keep an otter instead of a ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "dog"
+            },
+            {
+              "index": "b",
+              "text": "cat"
+            },
+            {
+              "index": "c",
+              "text": "monkey"
+            },
+            {
+              "index": "d",
+              "text": "cow"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "dog",
+          "explanation": "According to the extract, the author wished to keep an otter instead of a dog.",
+          "previousYearsDetails": null
         }
-      ],
-      "correct_index": "b",
-      "correct_answer": "Iraq",
-      "explanation": "The extract clearly mentions that the author travelled to southern Iraq.",
-      "previousYearsDetails": null
+      ]
     },
-    {
-      "q_id": "ii",
-      "statement": "When did the author travel?",
-      "options": [
-        {
-          "index": "a",
-          "text": "1947"
-        },
-        {
-          "index": "b",
-          "text": "1956"
-        },
-        {
-          "index": "c",
-          "text": "1999"
-        },
-        {
-          "index": "d",
-          "text": "1971"
-        }
-      ],
-      "correct_index": "b",
-      "correct_answer": "1956",
-      "explanation": "The passage begins with the line, ‘Early in the New Year of 1956 I travelled to southern Iraq.’",
-      "previousYearsDetails": null
-    },
-    {
-      "q_id": "iii",
-      "statement": "The author wanted to keep an otter instead of a ____.",
-      "options": [
-        {
-          "index": "a",
-          "text": "dog"
-        },
-        {
-          "index": "b",
-          "text": "cat"
-        },
-        {
-          "index": "c",
-          "text": "monkey"
-        },
-        {
-          "index": "d",
-          "text": "cow"
-        }
-      ],
-      "correct_index": "a",
-      "correct_answer": "dog",
-      "explanation": "The author mentions that he wanted to keep an otter instead of a dog.",
-      "previousYearsDetails": null
-    }
-  ]
-}
-    ,
     {
       "question_number": "10(B)",
       "question_type": "UNSEEN_PASSAGE_PROSE",
