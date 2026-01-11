@@ -336,40 +336,41 @@
         ]
       }
     },
+   {
+  "question_number": "5",
+  "question_type": "DESCRIPTIVE",
+  "marks": "5M",
+  "word_limit": "250 words",
+  "text": "Write an essay on any one of the following topics:",
+  "parts": [
     {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "5M",
-      "word_limit": "250 words",
-      "text": "Write an essay on any one of the following topics:",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "Online Education",
-          "explanation": "Online education is a modern system of learning through the internet.\n\nThe essay should begin by explaining the meaning of online education. In the main body, its importance in continuing education during emergencies and its usefulness for students should be described. Advantages such as flexibility, availability of digital study material, recorded lectures and saving of time should be mentioned. Some limitations like lack of direct teacher-student interaction and technical problems should also be included.\n\nThe essay should end with a proper conclusion highlighting the future scope of online education."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Disadvantages of Social Media",
-          "explanation": "Social media has become an important part of modern life.\n\nThe essay should start with a brief introduction of social media. In the main body, its disadvantages such as addiction among youth, wastage of time, spread of fake news, cyber crimes and negative impact on studies and mental health should be discussed. The harmful effects on social relationships should also be mentioned.\n\nThe conclusion should suggest limited and responsible use of social media."
-        },
-        {
-          "q_id": "iii",
-          "statement": "Population Growth",
-          "explanation": "Population growth refers to the rapid increase in the number of people.\n\nThe essay should explain the causes of population growth such as lack of education, poverty and poor family planning. Problems created by overpopulation like unemployment, shortage of food, pollution and pressure on natural resources should be discussed.\n\nThe essay should conclude with measures like education, awareness and family planning to control population growth."
-        },
-        {
-          "q_id": "iv",
-          "statement": "Electric Vehicles",
-          "explanation": "Electric vehicles are vehicles that run on electricity instead of petrol or diesel.\n\nThe essay should describe the need for electric vehicles in the present time. Advantages such as reduction in air pollution, saving of fossil fuels and eco-friendly nature should be explained. Some challenges like lack of charging stations and high initial cost may also be mentioned.\n\nThe conclusion should focus on the importance of electric vehicles for a clean and safe environment."
-        },
-        {
-          "q_id": "v",
-          "statement": "Women Empowerment",
-          "explanation": "Women empowerment means giving women equal rights and opportunities in society.\n\nThe essay should explain the importance of women empowerment for national development. Points like education of girls, gender equality, economic independence and social respect should be discussed. Government schemes and social awareness play an important role in empowering women.\n\nThe essay should conclude that empowerment of women leads to progress of the entire nation."
-        }
-      ]
+      "q_id": "i",
+      "statement": "Online Education",
+      "explanation": "Online education is a modern system of learning in which students study through the internet using computers, mobiles and other digital devices.\n\nIn today’s fast-changing world, online education has become very important. It played a vital role during emergencies like the COVID-19 pandemic, when schools and colleges were closed. Through online classes, students were able to continue their studies from home. Recorded lectures, digital notes and online tests made learning easy and flexible.\n\nOnline education saves time and money as students do not need to travel. It also provides access to quality education from anywhere. However, it has some drawbacks. Lack of face-to-face interaction, network problems and distraction at home affect learning. Not all students have proper internet facilities.\n\nIn conclusion, online education is a useful support system for traditional education. With proper planning and technology, it can play an important role in the future of education."
     },
+    {
+      "q_id": "ii",
+      "statement": "Disadvantages of Social Media",
+      "explanation": "Social media has become a common part of our daily life. People use it for communication, entertainment and sharing information.\n\nHowever, excessive use of social media has many disadvantages. It wastes valuable time, especially of students, and affects their studies. Addiction to social media leads to lack of concentration and poor academic performance. Fake news and rumours spread rapidly, creating fear and misunderstanding in society.\n\nSocial media also causes mental health problems such as stress, anxiety and depression. Cyber crimes like hacking and online bullying are increasing. Personal relationships are affected as people spend more time online than with family members.\n\nIn conclusion, social media should be used carefully and wisely. Limited and responsible use can reduce its harmful effects and help students focus on their goals."
+    },
+    {
+      "q_id": "iii",
+      "statement": "Population Growth",
+      "explanation": "Population growth means a rapid increase in the number of people in a country.\n\nIn India, population growth is a serious problem. The main causes are lack of education, poverty, early marriage and poor awareness about family planning. Overpopulation creates many problems such as unemployment, shortage of food, housing problems and pressure on natural resources.\n\nIt also leads to pollution, poverty and low standard of living. Government finds it difficult to provide basic facilities like education, health and employment to everyone.\n\nIn conclusion, population growth can be controlled through education, awareness programs and family planning. A small and healthy population is necessary for the development of the nation."
+    },
+    {
+      "q_id": "iv",
+      "statement": "Electric Vehicles",
+      "explanation": "Electric vehicles are vehicles that run on electricity instead of petrol or diesel.\n\nIn the present time, electric vehicles are very important due to increasing pollution and shortage of fossil fuels. These vehicles do not emit harmful gases and help in reducing air pollution. They are eco-friendly and economical in the long run.\n\nElectric vehicles also help in saving natural resources and reducing dependence on imported fuel. However, challenges like high initial cost and lack of charging stations still exist.\n\nIn conclusion, electric vehicles are the need of the hour. With better infrastructure and government support, they can help create a clean, healthy and pollution-free environment."
+    },
+    {
+      "q_id": "v",
+      "statement": "Women Empowerment",
+      "explanation": "Women empowerment means giving women equal rights, opportunities and freedom in society.\n\nWomen play an important role in the development of a nation. Education of girls is the key to women empowerment. Educated women contribute to economic growth, family welfare and social progress. Gender equality and economic independence help women live with dignity and confidence.\n\nGovernment schemes and social awareness programs are helping women become self-reliant. Still, discrimination and inequality exist in many areas.\n\nIn conclusion, women empowerment is essential for national development. When women progress, the entire nation moves towards growth and prosperity."
+    }
+  ]
+}
+,
     {
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
