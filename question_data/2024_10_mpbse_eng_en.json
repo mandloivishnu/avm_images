@@ -748,7 +748,8 @@
             }
           ],
           "correct_index": "c",
-          "correct_answer": "Amanda"
+          "correct_answer": "Amanda",
+          "explanation": "This extract is taken from the poem **‘Amanda’** by Robin Klein.\nThe lines express Amanda’s imagination of freedom, silence and escape from constant instructions."
         },
         {
           "q_id": "ii",
@@ -772,7 +773,8 @@
             }
           ],
           "correct_index": "b",
-          "correct_answer": "a child having no father and mother"
+          "correct_answer": "a child having no father and mother",
+          "explanation": "The word **‘orphan’** refers to a child who has lost both parents.\nIn the poem, Amanda imagines herself as an orphan to symbolize complete freedom and independence."
         },
         {
           "q_id": "iii",
@@ -796,7 +798,8 @@
             }
           ],
           "correct_index": "a",
-          "correct_answer": "She wants freedom and silence"
+          "correct_answer": "She wants freedom and silence",
+          "explanation": "The girl actually desires **freedom from constant control and silence from scolding**.\nThe phrases ‘silence is golden’ and ‘freedom is sweet’ clearly express her inner wish."
         }
       ]
     },
