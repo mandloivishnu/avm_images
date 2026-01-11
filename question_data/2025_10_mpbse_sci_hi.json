@@ -297,7 +297,7 @@
   "text": "For whitewashing which substance solution is used? Write the reaction.",
   "parts": [
     {
-      "q_id": "i",
+      "q_id": "",
       "statement": "For whitewashing which substance solution is used? Write the reaction.",
       "explanation": "Whitewashing के लिए कैल्शियम हाइड्रॉक्साइड का विलयन प्रयोग किया जाता है।\nReaction:\nCaO + H₂O → Ca(OH)₂"
     }
@@ -306,7 +306,7 @@
     "text": "OR",
     "parts": [
       {
-        "q_id": "ii",
+        "q_id": "",
         "statement": "Why does the colour of copper sulphate solution change when an iron nail is dipped in it? Write reason.",
         "explanation": "यह एक विस्थापन अभिक्रिया है।\nFe + CuSO₄ → FeSO₄ + Cu\nलोहे के कारण कॉपर विस्थापित हो जाता है, इसलिए रंग बदल जाता है।"
       }
@@ -320,7 +320,7 @@
       "text": "How can you identify acids and bases? Write any two methods.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "How can you identify acids and bases? Write any two methods.",
           "explanation": "अम्ल और क्षार की पहचान के दो तरीके हैं:\n1. लिटमस परीक्षण – अम्ल नीले लिटमस को लाल तथा क्षार लाल लिटमस को नीला करता है।\n2. स्वाद एवं स्पर्श – अम्ल खट्टे तथा क्षार कड़वे होते हैं।"
         }
@@ -329,7 +329,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Define neutralisation reaction. Give one example.",
             "explanation": "जब अम्ल और क्षार परस्पर क्रिया करके लवण और जल बनाते हैं, तो इसे उदासीनीकरण अभिक्रिया कहते हैं।\nउदाहरण:\nHCl + NaOH → NaCl + H₂O"
           }
@@ -343,7 +343,7 @@
       "text": "Define Calcination.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Define Calcination.",
           "explanation": "कैल्सिनेशन वह प्रक्रिया है जिसमें अयस्क को सीमित वायु या वायु की अनुपस्थिति में गर्म किया जाता है।"
         }
@@ -352,7 +352,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Define Roasting.",
             "explanation": "रोस्टिंग वह प्रक्रिया है जिसमें सल्फाइड अयस्क को प्रचुर मात्रा में वायु में गर्म किया जाता है।"
           }
@@ -366,7 +366,7 @@
       "text": "Write any two properties of Ethanol.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Write any two properties of Ethanol.",
           "explanation": "Ethanol के दो गुण:\n1. यह रंगहीन और वाष्पशील द्रव है।\n2. यह जल में पूर्णतः घुलनशील होता है।"
         }
@@ -375,7 +375,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Write any two properties of Ethanoic acid.",
             "explanation": "Ethanoic acid के दो गुण:\n1. इसका स्वाद खट्टा होता है।\n2. यह नीले लिटमस को लाल कर देता है।"
           }
@@ -389,7 +389,7 @@
       "text": "Write the difference between Autotrophic nutrition and Heterotrophic nutrition. (Any two)",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Write the difference between Autotrophic nutrition and Heterotrophic nutrition. (Any two)",
           "explanation": "Autotrophic nutrition:\n1. जीव स्वयं भोजन बनाते हैं।\n2. क्लोरोफिल की आवश्यकता होती है।\n\nHeterotrophic nutrition:\n1. जीव भोजन के लिए अन्य जीवों पर निर्भर रहते हैं।\n2. क्लोरोफिल की आवश्यकता नहीं होती।"
         }
@@ -398,7 +398,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Write the difference between Blood and Lymph. (Any two)",
             "explanation": "Blood:\n1. लाल रंग का द्रव होता है।\n2. ऑक्सीजन का परिवहन करता है।\n\nLymph:\n1. रंगहीन द्रव होता है।\n2. प्रतिरक्षा में सहायक होता है।"
           }
@@ -426,12 +426,12 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "iii",
+            "q_id": "i",
             "statement": "Auxin",
             "explanation": "Auxin पौधों की लंबाई में वृद्धि करता है।"
           },
           {
-            "q_id": "iv",
+            "q_id": "ii",
             "statement": "Gibberellins",
             "explanation": "Gibberellins बीज अंकुरण और तने की वृद्धि में सहायक होते हैं।"
           }
@@ -445,7 +445,7 @@
       "text": "Write the name of modes of reproduction used by single cell organism. (Any two)",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Write the name of modes of reproduction used by single cell organism. (Any two)",
           "explanation": "एककोशिकीय जीवों में जनन के प्रकार:\n1. द्विखंडन\n2. बहुखंडन"
         }
@@ -454,7 +454,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Write the name of any two parts of male reproductive system in human.",
             "explanation": "मानव पुरुष जनन तंत्र के दो भाग:\n1. वृषण\n2. शुक्रवाहिनी"
           }
@@ -468,7 +468,7 @@
       "text": "Find the focal length of a convex mirror whose radius of curvature is 38 cm.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Find the focal length of a convex mirror whose radius of curvature is 38 cm.",
           "explanation": "Convex mirror के लिए:\nf = R/2 = 38/2 = 19 cm"
         }
@@ -477,7 +477,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Focal length of a lens is +50 metre, write its power.",
             "explanation": "Power P = 1/f = 1/50 = +0.02 D"
           }
@@ -491,7 +491,7 @@
       "text": "Why do stars twinkle? Write the reasons.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Why do stars twinkle? Write the reasons.",
           "explanation": "वायुमंडलीय अपवर्तन के कारण तारों का प्रकाश बार-बार मुड़ता है, इसलिए तारे टिमटिमाते प्रतीत होते हैं।"
         }
@@ -500,7 +500,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Why a normal eye is not able to see clearly the objects placed closer than 25 cm?",
             "explanation": "नेत्र पेशियों की सीमित क्षमता के कारण 25 सेमी से कम दूरी की वस्तुएँ स्पष्ट दिखाई नहीं देतीं।"
           }
@@ -514,7 +514,7 @@
       "text": "Define the electric current and write its unit.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Define the electric current and write its unit.",
           "explanation": "विद्युत धारा आवेश के प्रवाह की दर को कहते हैं।\nइसकी इकाई एम्पियर (A) है।"
         }
@@ -523,7 +523,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Define electric potential difference and write its unit.",
             "explanation": "दो बिंदुओं के बीच प्रति इकाई आवेश किए गए कार्य को विभवांतर कहते हैं।\nइसकी इकाई वोल्ट (V) है।"
           }
@@ -537,7 +537,7 @@
       "text": "Write the name of any two methods for producing magnetic fields.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Write the name of any two methods for producing magnetic fields.",
           "explanation": "चुंबकीय क्षेत्र उत्पन्न करने की विधियाँ:\n1. विद्युत धारा द्वारा\n2. स्थायी चुंबक द्वारा"
         }
@@ -546,7 +546,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Write any two properties of magnetic field lines.",
             "explanation": "चुंबकीय क्षेत्र रेखाओं के गुण:\n1. ये एक-दूसरे को नहीं काटतीं।\n2. ये उत्तर ध्रुव से दक्षिण ध्रुव की ओर जाती हैं।"
           }
@@ -560,7 +560,7 @@
       "text": "What will happen if we kill all the organisms of first trophic level?",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "What will happen if we kill all the organisms of first trophic level?",
           "explanation": "प्रथम पोषी स्तर के जीव नष्ट होने से पूरी खाद्य श्रृंखला असंतुलित हो जाएगी।"
         }
@@ -569,7 +569,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "What is ozone and how does it affect ecosystem?",
             "explanation": "ओजोन परत सूर्य की हानिकारक पराबैंगनी किरणों से जीवों की रक्षा करती है और पारिस्थितिकी तंत्र को सुरक्षित रखती है।"
           }
@@ -584,7 +584,7 @@
   "text": "",
   "parts": [
     {
-      "q_id": "(i)",
+      "q_id": "",
       "statement": "हाइड्रोकार्बन की परिभाषा लिखिए एवं प्रथम चार हाइड्रोकार्बनों के नाम, सूत्र एवं संरचनात्मक सूत्र लिखिए।",
       "correct_answer": "",
       "explanation": "हाइड्रोकार्बन:\nवे कार्बनिक यौगिक जिनमें केवल कार्बन तथा हाइड्रोजन तत्व होते हैं, हाइड्रोकार्बन कहलाते हैं।\n\nप्रथम चार हाइड्रोकार्बन (एल्केन श्रेणी):\n\n1. मीथेन\nनाम: मीथेन\nआणविक सूत्र: CH₄\nसंरचनात्मक सूत्र:\n   H\n   |\nH–C–H\n   |\n   H\n\n2. एथेन\nनाम: एथेन\nआणविक सूत्र: C₂H₆\nसंरचनात्मक सूत्र:\nH–C–C–H\n|   |\nH   H\n\n3. प्रोपेन\nनाम: प्रोपेन\nआणविक सूत्र: C₃H₈\nसंरचनात्मक सूत्र:\nH–C–C–C–H\n|   |   |\nH   H   H\n\n4. ब्यूटेन\nनाम: ब्यूटेन\nआणविक सूत्र: C₄H₁₀\nसंरचनात्मक सूत्र:\nH–C–C–C–C–H\n|   |   |   |\nH   H   H   H"
@@ -594,7 +594,7 @@
     "text": "अथवा",
     "parts": [
       {
-        "q_id": "(ii)",
+        "q_id": "",
         "statement": "निम्नलिखित यौगिकों का नाम लिखिए :",
          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_science_18.png",
         "correct_answer": "",
@@ -610,7 +610,7 @@
       "text": "Mendel has selected pea plants for his experiments. Write any three reasons.",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "Mendel has selected pea plants for his experiments. Write any three reasons.",
           "explanation": "मटर के पौधे चुनने के कारण:\n1. इनमें स्पष्ट विरोधी लक्षण होते हैं।\n2. स्वपरागण होता है।\n3. जीवन चक्र छोटा होता है।"
         }
@@ -619,7 +619,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "",
             "statement": "Write the Mendel's law of dominance.",
             "explanation": "प्रभाविता का नियम कहता है कि संकर संतति में केवल प्रभावी लक्षण ही प्रकट होता है।"
           }
@@ -633,7 +633,7 @@
       "text": "What is the function of an earth wire? Why is it necessary to earth metallic electric appliances?",
       "parts": [
         {
-          "q_id": "i",
+          "q_id": "",
           "statement": "What is the function of an earth wire? Why is it necessary to earth metallic electric appliances?",
           "explanation": "अर्थ वायर का कार्य उपकरणों को विद्युत झटके से बचाना है।\nधात्विक उपकरणों की अर्थिंग आवश्यक है ताकि अतिरिक्त धारा पृथ्वी में चली जाए।"
         }
@@ -642,12 +642,12 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "ii",
+            "q_id": "i",
             "statement": "Why two magnetic force lines do not cross each other? Write the reason.",
             "explanation": "यदि चुंबकीय बल रेखाएँ कटें, तो एक बिंदु पर दो दिशाएँ होंगी, जो असंभव है।"
           },
           {
-            "q_id": "iii",
+            "q_id": "ii",
             "statement": "Write the use of fuse wire.",
             "explanation": "फ्यूज वायर अधिक धारा होने पर परिपथ को तोड़कर उपकरणों की रक्षा करता है।"
           }
@@ -661,7 +661,7 @@
   "text": "",
   "parts": [
     {
-      "q_id": "(i)",
+      "q_id": "",
       "statement": "निम्नलिखित रासायनिक अभिक्रियाओं को शब्दों में परिवर्तित कीजिए :\n(i) Hydrogen gas combines with nitrogen to form ammonia.\n(ii) Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.\n(iii) Barium chloride reacts with sulphuric acid to give barium sulphate and hydrochloric acid.\n(iv) Hydrogen sulphide gas burns in air to give water and sulphur dioxide.",
       "correct_answer": "",
       "explanation": "इन अभिक्रियाओं को शब्दों में इस प्रकार लिखा जा सकता है :\n\n(i) हाइड्रोजन गैस नाइट्रोजन के साथ अभिक्रिया करके अमोनिया बनाती है।\n\n(ii) पोटैशियम धातु जल के साथ अभिक्रिया करके पोटैशियम हाइड्रॉक्साइड और हाइड्रोजन गैस बनाती है।\n\n(iii) बेरियम क्लोराइड सल्फ्यूरिक अम्ल के साथ अभिक्रिया करके बेरियम सल्फेट और हाइड्रोक्लोरिक अम्ल बनाता है।\n\n(iv) हाइड्रोजन सल्फाइड गैस वायु में जलकर जल और सल्फर डाइऑक्साइड बनाती है।"
@@ -671,7 +671,7 @@
     "text": "अथवा",
     "parts": [
       {
-        "q_id": "(ii)",
+        "q_id": "",
         "statement": "निम्नलिखित रासायनिक समीकरणों को संतुलित कीजिए :\n(i) HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + H₂O\n(ii) NaCl + AgNO₃ → AgCl + NaNO₃\n(iii) NaOH + H₂SO₄ → Na₂SO₄ + H₂O\n(iv) BaCl₂ + H₂SO₄ → BaSO₄ + HCl",
         "correct_answer": "",
         "explanation": "संतुलित रासायनिक समीकरण इस प्रकार हैं :\n\n(i) 2HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + 2H₂O\n\n(ii) NaCl + AgNO₃ → AgCl + NaNO₃\n\n(iii) 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O\n\n(iv) BaCl₂ + H₂SO₄ → BaSO₄ + 2HCl\n\nसंतुलन के समय दोनों ओर प्रत्येक तत्व के परमाणुओं की संख्या समान रखी जाती है।"
@@ -686,7 +686,7 @@
   "text": "",
   "parts": [
     {
-      "q_id": "(i)",
+      "q_id": "",
       "statement": "नेफ्रॉन की संरचना एवं कार्य का वर्णन कीजिए। (आरेख सहित)",
       "correct_answer": "",
       "explanation": "नेफ्रॉन वृक्क (किडनी) की संरचनात्मक एवं क्रियात्मक इकाई है।\n\nसंरचना:\nनेफ्रॉन के मुख्य भाग हैं –\n1. बोमैन कैप्सूल\n2. ग्लोमेरुलस\n3. नलिकाएँ (प्रोक्सिमल नलिका, हेनले का लूप, डिस्टल नलिका)\n4. संग्रहण नलिका\n\nकार्य:\nनेफ्रॉन रक्त का निस्यंदन करता है, उपयोगी पदार्थों का पुनः अवशोषण करता है तथा अपशिष्ट पदार्थों को मूत्र के रूप में बाहर निकालता है।"
@@ -696,7 +696,7 @@
     "text": "अथवा",
     "parts": [
       {
-        "q_id": "(ii)",
+        "q_id": "",
         "statement": "पौधों में परिवहन तंत्र के घटक कौन-कौन से हैं? जल एवं खनिज लवणों का परिवहन कैसे होता है?",
         "correct_answer": "",
         "explanation": "पौधों में परिवहन तंत्र के मुख्य घटक जाइलम और फ्लोएम हैं।\n\nजल एवं खनिज लवणों का परिवहन:\nजाइलम द्वारा जड़ों से जल एवं खनिज लवण ऊपर की ओर तने और पत्तियों तक पहुँचाए जाते हैं। यह प्रक्रिया वाष्पोत्सर्जन खिंचाव, केशिकीय क्रिया और जड़ दाब के कारण होती है।"
@@ -711,7 +711,7 @@
   "text": "",
   "parts": [
     {
-      "q_id": "(i)",
+      "q_id": "",
       "statement": "अवतल दर्पण में प्रतिबिंब निर्माण के किरण आरेख बनाइए, जब वस्तु रखी हो :\n(i) फोकस (F) पर\n(ii) वक्रता केंद्र (C) पर",
       "correct_answer": "",
       "explanation": "अवतल दर्पण में :\n\n(i) जब वस्तु फोकस पर रखी जाती है, तब प्रतिबिंब अनंत पर बनता है तथा वास्तविक और उल्टा होता है।\n\n(ii) जब वस्तु वक्रता केंद्र पर रखी जाती है, तब प्रतिबिंब भी वक्रता केंद्र पर बनता है, जो वास्तविक, उल्टा और वस्तु के समान आकार का होता है।"
@@ -721,7 +721,7 @@
     "text": "अथवा",
     "parts": [
       {
-        "q_id": "(ii)",
+        "q_id": "",
         "statement": "अपवर्तन को उसके दो नियमों सहित परिभाषित कीजिए। अवतल दर्पण का एक उपयोग लिखिए।",
         "correct_answer": "",
         "explanation": "अपवर्तन:\nजब प्रकाश एक माध्यम से दूसरे माध्यम में प्रवेश करता है और उसकी दिशा बदल जाती है, तो इसे अपवर्तन कहते हैं।\n\nअपवर्तन के नियम:\n1. आपतित किरण, अपवर्तित किरण तथा अभिलंब एक ही तल में होते हैं।\n2. आपतन कोण और अपवर्तन कोण का अनुपात नियत होता है।\n\nअवतल दर्पण का उपयोग:\nअवतल दर्पण का उपयोग वाहन की हेडलाइट और दाढ़ी बनाने के दर्पण में किया जाता है।"
