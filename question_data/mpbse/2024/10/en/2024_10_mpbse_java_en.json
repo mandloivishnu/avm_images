@@ -1,0 +1,65 @@
+{
+  "paper_details": [
+    {
+      "totalQuestions": "80",
+      "paperYear": "2024",
+      "paperSet": "A",
+      "totalMarks": "200",
+      "subjectName": "Collections & Java 8"
+    }
+  ],
+  "optional_questions": [
+    {
+      "question": "Which collection class allows duplicates and maintains insertion order?",
+      "options": ["HashSet", "TreeSet", "ArrayList", "LinkedHashSet"],
+      "correctIndex": 2,
+      "explanation": "ArrayList allows duplicates and maintains insertion order."
+    },
+    {
+      "question": "Which of the following is not part of the Java Collection Framework?",
+      "options": ["List", "Map", "Set", "Stream"],
+      "correctIndex": 3,
+      "explanation": "Stream is part of Java 8 but not part of the Collection Framework."
+    },
+    {
+      "question": "Which method is used to sort a list in Java 8 using lambda?",
+      "options": ["list.order()", "Collections.sort()", "list.sort()", "list.lambdaSort()"],
+      "correctIndex": 2,
+      "explanation": "list.sort(Comparator) is introduced in Java 8 for sorting using lambda."
+    },
+    {
+      "question": "Which functional interface does lambda expression implement?",
+      "options": ["Serializable", "Comparable", "Runnable", "FunctionalInterface"],
+      "correctIndex": 3,
+      "explanation": "@FunctionalInterface ensures the interface has one abstract method for lambda usage."
+    },
+    {
+      "question": "Which Java 8 feature is used for handling optional values?",
+      "options": ["Stream", "Optional", "Lambda", "Method Reference"],
+      "correctIndex": 1,
+      "explanation": "Optional is used to avoid NullPointerException and handle absence of values."
+    }
+  ],
+  "written_questions": {
+    "2 Marks": [
+      {
+        "question": "What is the difference between HashMap and TreeMap?",
+        "answer": "HashMap is unordered and faster; TreeMap maintains sorted keys and uses Red-Black tree."
+      },
+      {
+        "question": "What is the purpose of the Stream API?",
+        "answer": "Stream API processes collections using a declarative and functional style in Java 8."
+      }
+    ],
+    "5 Marks": [
+      {
+        "question": "Explain the difference between Collection and Collections class.",
+        "answer": "Collection is an interface (List, Set), while Collections is a utility class with static methods like sort(), reverse(), etc."
+      },
+      {
+        "question": "Describe the internal working of HashMap in Java.",
+        "answer": "HashMap uses an array of buckets. It stores key-value pairs using hashCode and equals methods. In case of collision, it uses chaining (linked list or tree after Java 8)."
+      }
+    ]
+  }
+}
