@@ -1,6 +1,6 @@
 {
   "question_number": "1",
-  "question_type": "QUICK_REVISION",
+  "question_type": "DESCRIPTIVE",
   "marks": "",
   "text": "त्वरित पुनरावृत्ति (Quick Revision)",
   "definition-bean": {
