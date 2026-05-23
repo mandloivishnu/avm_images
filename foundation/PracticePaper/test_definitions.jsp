@@ -4,7 +4,7 @@
   "marks": "",
   "text": "त्वरित पुनरावृत्ति (Quick Revision)",
   "definition_bean": {
-    "title": "वृत्त की स्पर्श रेखा (Tangent to a Circle)",
+    "title": "वृत्त की स्पर्श रेखा(Tangent to a Circle)",
 
     "definition": "वह रेखा जो वृत्त को केवल एक बिंदु पर स्पर्श करती है, स्पर्श रेखा कहलाती है।",
 
