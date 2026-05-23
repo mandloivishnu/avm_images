@@ -1,0 +1,304 @@
+{
+  "paper_details": {
+    "paperYear": "2023",
+    "subjectName": "INFORMATION TECHNOLOGY (IT)",
+    "totalMarks": "75",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×5=5",
+      "text": "Choose the correct option:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Identify the indirect object in the sentence: \"The band played music for the audience.\"",
+          "options": [
+            { "index": "a", "text": "The band" },
+            { "index": "b", "text": "Played" },
+            { "index": "c", "text": "Music" },
+            { "index": "d", "text": "Audience" }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Audience",
+          "explanation": "The indirect object tells for whom or to whom the action is done. Here, the music is played for the audience."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which shortcut key is used to save a document?",
+          "options": [
+            { "index": "a", "text": "Ctrl + A" },
+            { "index": "b", "text": "Ctrl + S" },
+            { "index": "c", "text": "Ctrl + K" },
+            { "index": "d", "text": "Ctrl + P" }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Ctrl + S",
+          "explanation": "Ctrl + S is the standard shortcut used to save files in most software applications."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which command brings an object to the top layer?",
+          "options": [
+            { "index": "a", "text": "To background" },
+            { "index": "b", "text": "Bring to front" },
+            { "index": "c", "text": "Forward one" },
+            { "index": "d", "text": "Back one" }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Bring to front",
+          "explanation": "Bring to front places the selected object above all other objects."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which of the following is NOT a means of communication?",
+          "options": [
+            { "index": "a", "text": "Verbal communication" },
+            { "index": "b", "text": "Written communication" },
+            { "index": "c", "text": "Body language" },
+            { "index": "d", "text": "Public communication" }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Public communication",
+          "explanation": "Public communication is a context, not a communication method like verbal or written."
+        },
+        {
+          "q_id": "v",
+          "statement": "How many Fundamental Duties are there in the Indian Constitution?",
+          "options": [
+            { "index": "a", "text": "5" },
+            { "index": "b", "text": "6" },
+            { "index": "c", "text": "7" },
+            { "index": "d", "text": "8" }
+          ],
+          "correct_index": "d",
+          "correct_answer": "8",
+          "explanation": "The Indian Constitution prescribes eight Fundamental Duties for citizens."
+        }
+      ]
+    },
+
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks with correct option:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Keep your computer monitor at a distance of at least _____ inches.",
+          "correct_answer": "20–30 inches",
+          "explanation": "A distance of 20–30 inches helps reduce eye strain and maintains proper posture."
+        },
+        {
+          "q_id": "ii",
+          "statement": "MS Access is an example of a _____.",
+          "correct_answer": "Database",
+          "explanation": "MS Access is a Database Management System used to store and manage data."
+        },
+        {
+          "q_id": "iii",
+          "statement": "To turn off a computer click on the _____ option.",
+          "correct_answer": "Shutdown",
+          "explanation": "Shutdown safely closes all programs and turns off the computer."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The file extension of LibreOffice Writer is _____.",
+          "correct_answer": ".odt",
+          "explanation": ".odt stands for Open Document Text used by LibreOffice Writer."
+        },
+        {
+          "q_id": "v",
+          "statement": "Macro names start with a _____.",
+          "correct_answer": "Letter",
+          "explanation": "Macro names must begin with a letter as per programming rules."
+        }
+      ]
+    },
+
+    {
+      "question_number": "3",
+      "question_type": "MATCH_THE_FOLLOWING",
+      "marks": "1×5=5",
+      "text": "Match Column A with Column B:",
+      "pairs": [
+        { "A": "Crop", "B": "Image" },
+        { "A": "D.V.M.S.", "B": "River Valley Project" },
+        { "A": "Printer", "B": "Output Device" },
+        { "A": "Natural Disaster", "B": "Earthquake" },
+        { "A": "Slide Show", "B": "LibreOffice Base" }
+      ],
+      "explanation": "Each item from Column A is correctly related to its function or category in Column B."
+    },
+
+    {
+      "question_number": "4",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×5=5",
+      "text": "Write True or False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "F5 is used to run a slide show.",
+          "correct_answer": "True",
+          "explanation": "F5 starts the slide show from the beginning."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Employer and employee are responsible for workplace safety.",
+          "correct_answer": "True",
+          "explanation": "Both employer and employee share responsibility for safety."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Once a TOC is created, it cannot be edited.",
+          "correct_answer": "False",
+          "explanation": "A TOC can be updated or modified anytime."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Every macro should have a unique name.",
+          "correct_answer": "True",
+          "explanation": "Unique names avoid conflicts between macros."
+        },
+        {
+          "q_id": "v",
+          "statement": "A spreadsheet cannot be shared.",
+          "correct_answer": "False",
+          "explanation": "Spreadsheets can be shared online or offline."
+        }
+      ]
+    },
+
+    {
+      "question_number": "5",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
+      "text": "What is Track Change?",
+      "explanation": "Track Change is a feature in word processors that records edits such as insertions, deletions, and formatting changes made to a document."
+    },
+
+    {
+      "question_number": "6",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
+      "text": "What is Form and Report?",
+      "explanation": "Form is used to enter and view data easily, while Report is used to present data in a formatted and printable manner."
+    },
+
+    {
+      "question_number": "7",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
+      "text": "What is Time Management?",
+      "explanation": "Time management is the ability to plan and control how time is spent to improve efficiency and productivity."
+    },
+
+    {
+      "question_number": "8",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
+      "text": "How can we contribute towards sustainable development?",
+      "explanation": "By conserving resources, reducing pollution, recycling waste, and promoting renewable energy."
+    },
+
+    {
+      "question_number": "9",
+      "question_type": "SHORT_ANSWER",
+      "marks": "3M",
+      "text": "Write the steps to group more than one drawing object.",
+      "explanation": "Select objects → Right-click → Choose Group option to combine them."
+    },
+
+    {
+      "question_number": "10",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "What is TOC (Table of Contents) in LibreOffice Writer?",
+      "explanation": "TOC is an organized list of headings in a document that helps users navigate content easily. It can be updated automatically."
+    },
+
+    {
+      "question_number": "11",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "What is Multiple Operation? Explain with example.",
+      "explanation": "Multiple operation allows performing calculations on multiple values at once, such as calculating interest for different rates."
+    },
+
+    {
+      "question_number": "12",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "Explain the following:\n(a) Data\n(b) Information",
+      "explanation": "Data is raw facts, while information is processed data that has meaning."
+    },
+
+    {
+      "question_number": "13",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "What is Verbal Communication? How many types of verbal communication are there?",
+      "explanation": "Verbal communication uses spoken or written words. It has two types: oral and written communication."
+    },
+
+    {
+      "question_number": "14",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "What is Entrepreneurship? Explain in your own words.",
+      "explanation": "Entrepreneurship is the process of starting and managing a business by taking risks to earn profit."
+    },
+
+    {
+      "question_number": "15",
+      "question_type": "LONG_ANSWER",
+      "marks": "5M",
+      "text": "What is Computer Hardware and Software?",
+      "explanation": "Hardware is the physical components of a computer, while software is the set of programs that run on it."
+    },
+
+    {
+      "question_number": "16",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "What is Hyperlink? How to edit hyperlink in Calc?",
+      "explanation": "A hyperlink connects one document or webpage to another. In Calc, right-click the link → Edit Hyperlink → modify details."
+    },
+
+    {
+      "question_number": "17",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "What is Template? Write the steps to import a template.",
+      "explanation": "Template is a predefined document format. Import steps: File → Templates → Manage → Import."
+    },
+
+    {
+      "question_number": "18",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "How many types of fire are there? Explain.",
+      "explanation": "There are mainly four types of fire: Class A, B, C, and D, based on materials involved."
+    },
+
+    {
+      "question_number": "19",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "How does a many-to-many relationship work? Explain with example.",
+      "explanation": "In many-to-many relationship, multiple records relate to multiple records, such as students and courses."
+    },
+
+    {
+      "question_number": "20",
+      "question_type": "LONG_ANSWER",
+      "marks": "7M",
+      "text": "How to create a table using a wizard?",
+      "explanation": "Use Table Wizard → Select fields → Set primary key → Save table."
+    }
+  ]
+}

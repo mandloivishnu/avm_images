@@ -1,0 +1,1007 @@
+{
+  "paper_details": {
+    "paperYear": "2023",
+    "subjectName": "ENGLISH",
+    "totalMarks": "75",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the following questions:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "There once was a stingy baker. A poor man would stand outside his bakery every day, enjoying the nice smell of baking bread. The baker was very angry at the poor man. He felt that anyone who smelled his delicious products should pay for the smell. So he took the poor man to the court.\n\nThe judge heard the baker’s complaint patiently. Then he asked the poor man, “Do you have any money?”\n\nThe poor man searched his pocket and produced two small coins. “This is all the money I have,” he said to the judge.\n\nThe judge took the coins from the poor man. The baker smiled and eagerly held out his hand.\n\nBut the judge did not give the baker the money. He only jingled the coins together. He then returned them to the poor man, saying, “Punishment should fit the crime. The price for the smell of bread shall be the sound of money.”",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The poor man stood outside the bakery ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "To buy bread."
+            },
+            {
+              "index": "b",
+              "text": "To eat bread."
+            },
+            {
+              "index": "c",
+              "text": "To enjoy the smell of baking bread."
+            },
+            {
+              "index": "d",
+              "text": "To steal bread."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "To enjoy the smell of baking bread.",
+          "explanation": "The passage states that the poor man stood outside the bakery enjoying the nice smell of baking bread.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "The baker took the poor man to ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Court"
+            },
+            {
+              "index": "b",
+              "text": "Temple"
+            },
+            {
+              "index": "c",
+              "text": "Bakery"
+            },
+            {
+              "index": "d",
+              "text": "His home"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Court",
+          "explanation": "The baker took the poor man to the court for smelling his bread.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "How many coins were found in poor man’s pocket?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Twenty"
+            },
+            {
+              "index": "b",
+              "text": "Two"
+            },
+            {
+              "index": "c",
+              "text": "Five"
+            },
+            {
+              "index": "d",
+              "text": "One"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Two",
+          "explanation": "The poor man produced two small coins from his pocket.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Give a suitable title for the above passage.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Kingdom of Fools"
+            },
+            {
+              "index": "b",
+              "text": "Love begets Love"
+            },
+            {
+              "index": "c",
+              "text": "There is a will, there is a way"
+            },
+            {
+              "index": "d",
+              "text": "Tit for Tat"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Tit for Tat",
+          "explanation": "The judge’s decision of paying smell with sound reflects ‘Tit for Tat’.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "Which word is the opposite of the word ‘rich’?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Honest"
+            },
+            {
+              "index": "b",
+              "text": "Stingy"
+            },
+            {
+              "index": "c",
+              "text": "Poor"
+            },
+            {
+              "index": "d",
+              "text": "Judge"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Poor",
+          "explanation": "‘Poor’ is the opposite word of ‘rich’.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the following passage carefully and answer the questions given below it:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "A bee went to a tank to quench its thirst and tumbling in, was almost drowned. A dove that happened to pass that way saw the danger the bee was in. It hastened to a neighbouring tree and plucking off a leaf, dropped it into the water before the bee. The bee climbed on to the leaf, dried its wings and flew away to its hive, full of gratitude to the dove that had saved its life.\n\nA few days later the same bee, while returning to its hive after a hard day’s work, saw a cruel boy taking aim at the dove sitting upon the branch of a tree. At once the bee flew to the wrist of the boy, and just when he was going to shoot the dove, stung the boy and made him cry with pain. He was feeling the danger to which the dove was exposed, flew safely away.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The bee went to the tank ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "to quench its thirst"
+            },
+            {
+              "index": "b",
+              "text": "to meet another bee"
+            },
+            {
+              "index": "c",
+              "text": "to save dove"
+            },
+            {
+              "index": "d",
+              "text": "to bath"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "to quench its thirst",
+          "explanation": "The passage states that the bee went to the tank to quench its thirst.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Who saved the bee?",
+          "options": [
+            {
+              "index": "a",
+              "text": "falcon"
+            },
+            {
+              "index": "b",
+              "text": "boy"
+            },
+            {
+              "index": "c",
+              "text": "ant"
+            },
+            {
+              "index": "d",
+              "text": "dove"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "dove",
+          "explanation": "The dove saved the bee by dropping a leaf into the water.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "What did the bee feel when it was saved by the dove?",
+          "options": [
+            {
+              "index": "a",
+              "text": "proud"
+            },
+            {
+              "index": "b",
+              "text": "gratitude"
+            },
+            {
+              "index": "c",
+              "text": "guilty"
+            },
+            {
+              "index": "d",
+              "text": "disappoint"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "gratitude",
+          "explanation": "The bee was full of gratitude to the dove for saving its life.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Who danced with the pain?",
+          "options": [
+            {
+              "index": "a",
+              "text": "the boy"
+            },
+            {
+              "index": "b",
+              "text": "dove"
+            },
+            {
+              "index": "c",
+              "text": "bee"
+            },
+            {
+              "index": "d",
+              "text": "elephant"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "the boy",
+          "explanation": "The boy cried and danced with pain when the bee stung him.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "The meaning of the word ‘tumbling’ is ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "falling"
+            },
+            {
+              "index": "b",
+              "text": "neighbouring"
+            },
+            {
+              "index": "c",
+              "text": "swimming"
+            },
+            {
+              "index": "d",
+              "text": "crying"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "falling",
+          "explanation": "‘Tumbling’ means falling suddenly.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "3+1=4",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the following questions :",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "Since time began, the natural broad-leaved mixed forests of the Himalayas have played a crucial role in the life of the people of that region. In fact, the forests are the foundation of the whole economy of the hill villages. Green leaves and grass, for example, provide fodder for the animals whose dung is used as fertilizer. Dry twigs and branches are the only sources of domestic cooking fuel. The forests also provide large supplies of fruits, edible nuts, fibres and herbs for local consumption.\n\nThe forests break the flow of the seasonal rainfall that lashes the slopes of this mountain range every year during the monsoon. This creates springs and perennial streams which are vital for the mountain people and their animals during the hot summer months.\n\nFor many years, however, large areas of these rich forest resources have been destroyed. For example, the forests of Tehri Garhwal were exploited to supply timber for the expanding railway network in the plains. The people of Tehri Garhwal in 1930 began a non-cooperation movement called Satyagraha of peaceful resistance to obtain justice in opposition to the oppressive forest laws.",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "On the basis of your reading of the above passage, make a note on it using abbreviations if needed.",
+          "answer": "• Himalayan forests vital for hill people’s life & economy.\n• Provide fodder → animal dung used as fertilizer.\n• Dry twigs & branches used as cooking fuel.\n• Supply fruits, edible nuts, fibres & herbs.\n• Forests regulate monsoon rain flow.\n• Help create springs & perennial streams.\n• Essential for people & animals in summer.\n• Large-scale deforestation occurred.\n• Tehri Garhwal forests exploited for railway timber.\n• In 1930, people started Satyagraha movement.\n• Aim: peaceful resistance against oppressive forest laws."
+        },
+        {
+          "topic_id": "ii",
+          "name": "Give a suitable title to it.",
+          "answer": "Importance of Himalayan Forests\n\nExplanation: The passage explains the economic, environmental and social importance of Himalayan forests and the impact of their exploitation."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4M",
+      "word_limit": "120 words",
+      "text": "Write an application to your principal for issuing your School Leaving Certificate.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "You are Manas/Mansi, studying in Govt. Higher Secondary School, Balaghat.",
+          "explanation": "Reference: Formal application writing (MP Board Class 10).\n\nMarking Scheme Focus:\n• Proper format (To, Subject, Salutation)\n• Clear reason\n• Polite and formal language\n• Correct closing and signature\n\nModel Answer:\n\nTo,\nThe Principal,\nGovt. Higher Secondary School,\nBalaghat (M.P.)\n\nSubject: Application for School Leaving Certificate\n\nRespected Sir/Madam,\n\nI beg to state that I am Manas/Mansi, a student of Class X of your esteemed school. I have passed my examination this year and now I have to take admission in another school due to my family’s transfer.\n\nTherefore, I kindly request you to issue my School Leaving Certificate at the earliest. I shall be highly obliged to you for this kind favour.\n\nThanking you.\n\nYours obediently,\nManas/Mansi\nClass X\nDate: ______"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "You are Ritik/Ritika, living in Indore. Write a letter to your friend inviting him/her to your father's promotion party.",
+            "explanation": "Reference: Informal letter writing (MP Board Class 10).\n\nMarking Scheme Focus:\n• Sender’s address and date\n• Friendly tone\n• Mention of occasion, date, time, venue\n• Proper closing\n\nModel Answer:\n\n23, Vijay Nagar,\nIndore (M.P.)\nDate: ______\n\nDear Friend,\n\nI am very happy to inform you that my father has been promoted to a higher post. To celebrate this joyful occasion, a small party has been arranged at our residence on Sunday at 7 p.m.\n\nI cordially invite you to attend the party and share our happiness. Your presence will make the occasion more special for us.\n\nPlease do come.\n\nYours lovingly,\nRitik/Ritika"
+          }
+        ]
+      }
+    },
+   {
+  "question_number": "5",
+  "question_type": "DESCRIPTIVE",
+  "marks": "5M",
+  "word_limit": "250 words",
+  "text": "Write an essay on any one of the following topics:",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "Online Education",
+      "explanation": "Online education is a modern system of learning in which students study through the internet using computers, mobiles and other digital devices.\n\nIn today’s fast-changing world, online education has become very important. It played a vital role during emergencies like the COVID-19 pandemic, when schools and colleges were closed. Through online classes, students were able to continue their studies from home. Recorded lectures, digital notes and online tests made learning easy and flexible.\n\nOnline education saves time and money as students do not need to travel. It also provides access to quality education from anywhere. However, it has some drawbacks. Lack of face-to-face interaction, network problems and distraction at home affect learning. Not all students have proper internet facilities.\n\nIn conclusion, online education is a useful support system for traditional education. With proper planning and technology, it can play an important role in the future of education."
+    },
+    {
+      "q_id": "ii",
+      "statement": "Disadvantages of Social Media",
+      "explanation": "Social media has become a common part of our daily life. People use it for communication, entertainment and sharing information.\n\nHowever, excessive use of social media has many disadvantages. It wastes valuable time, especially of students, and affects their studies. Addiction to social media leads to lack of concentration and poor academic performance. Fake news and rumours spread rapidly, creating fear and misunderstanding in society.\n\nSocial media also causes mental health problems such as stress, anxiety and depression. Cyber crimes like hacking and online bullying are increasing. Personal relationships are affected as people spend more time online than with family members.\n\nIn conclusion, social media should be used carefully and wisely. Limited and responsible use can reduce its harmful effects and help students focus on their goals."
+    },
+    {
+      "q_id": "iii",
+      "statement": "Population Growth",
+      "explanation": "Population growth means a rapid increase in the number of people in a country.\n\nIn India, population growth is a serious problem. The main causes are lack of education, poverty, early marriage and poor awareness about family planning. Overpopulation creates many problems such as unemployment, shortage of food, housing problems and pressure on natural resources.\n\nIt also leads to pollution, poverty and low standard of living. Government finds it difficult to provide basic facilities like education, health and employment to everyone.\n\nIn conclusion, population growth can be controlled through education, awareness programs and family planning. A small and healthy population is necessary for the development of the nation."
+    },
+    {
+      "q_id": "iv",
+      "statement": "Electric Vehicles",
+      "explanation": "Electric vehicles are vehicles that run on electricity instead of petrol or diesel.\n\nIn the present time, electric vehicles are very important due to increasing pollution and shortage of fossil fuels. These vehicles do not emit harmful gases and help in reducing air pollution. They are eco-friendly and economical in the long run.\n\nElectric vehicles also help in saving natural resources and reducing dependence on imported fuel. However, challenges like high initial cost and lack of charging stations still exist.\n\nIn conclusion, electric vehicles are the need of the hour. With better infrastructure and government support, they can help create a clean, healthy and pollution-free environment."
+    },
+    {
+      "q_id": "v",
+      "statement": "Women Empowerment",
+      "explanation": "Women empowerment means giving women equal rights, opportunities and freedom in society.\n\nWomen play an important role in the development of a nation. Education of girls is the key to women empowerment. Educated women contribute to economic growth, family welfare and social progress. Gender equality and economic independence help women live with dignity and confidence.\n\nGovernment schemes and social awareness programs are helping women become self-reliant. Still, discrimination and inequality exist in many areas.\n\nIn conclusion, women empowerment is essential for national development. When women progress, the entire nation moves towards growth and prosperity."
+    }
+  ]
+}
+,
+    {
+      "question_number": "6",
+      "question_type": "VISUAL_COMPOSITION",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "Look at the visual input given below and write a small paragraph.",
+      "image_data": {
+        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_eng_visual.png",
+        "description": "A river flowing between hills, trees on both sides and birds flying."
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks : (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "She {BLANK} a song.",
+          "options": [
+            {
+              "index": "a",
+              "text": "singing"
+            },
+            {
+              "index": "b",
+              "text": "sings"
+            },
+            {
+              "index": "c",
+              "text": "sung"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "sings",
+          "explanation": "‘Sings’ is correct as it matches present tense with a singular subject."
+        },
+        {
+          "q_id": "ii",
+          "statement": "{BLANK} you live long!",
+          "options": [
+            {
+              "index": "a",
+              "text": "can"
+            },
+            {
+              "index": "b",
+              "text": "might"
+            },
+            {
+              "index": "c",
+              "text": "may"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "may",
+          "explanation": "‘May’ is used to express a wish or blessing."
+        },
+        {
+          "q_id": "iii",
+          "statement": "July comes {BLANK} August.",
+          "options": [
+            {
+              "index": "a",
+              "text": "before"
+            },
+            {
+              "index": "b",
+              "text": "after"
+            },
+            {
+              "index": "c",
+              "text": "with"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "before",
+          "explanation": "July comes before August in the calendar."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Ashoka was one of {BLANK} greatest kings of India.",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "an"
+            },
+            {
+              "index": "c",
+              "text": "the"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "the",
+          "explanation": "‘The’ is used before superlative degree."
+        },
+        {
+          "q_id": "v",
+          "statement": "We {BLANK} follow the traffic rules.",
+          "options": [
+            {
+              "index": "a",
+              "text": "must"
+            },
+            {
+              "index": "b",
+              "text": "should"
+            },
+            {
+              "index": "c",
+              "text": "might"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "must",
+          "explanation": "‘Must’ expresses obligation."
+        },
+        {
+          "q_id": "vi",
+          "statement": "He died {BLANK} cancer.",
+          "options": [
+            {
+              "index": "a",
+              "text": "of"
+            },
+            {
+              "index": "b",
+              "text": "off"
+            },
+            {
+              "index": "c",
+              "text": "on"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "of",
+          "explanation": "‘Die of’ is used with diseases."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Ritu has {BLANK} friends.",
+          "options": [
+            {
+              "index": "a",
+              "text": "much"
+            },
+            {
+              "index": "b",
+              "text": "many"
+            },
+            {
+              "index": "c",
+              "text": "any"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "many",
+          "explanation": "‘Many’ is used with countable nouns."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Do as directed: (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Police arrested the thief. (Make negative)",
+          "explanation": "The sentence is changed into negative form by using 'did not' with the base form of the verb.\n\nPolice did not arrest the thief."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Ram writes a letter. (Change the voice)",
+          "explanation": "The active voice is changed into passive voice.\n\nThe object of the active sentence becomes the subject of the passive sentence.\n\nA letter is written by Ram."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Swimming is a good habit. (Rewrite beginning with 'It')",
+          "explanation": "The sentence is rewritten using 'It' as a preparatory subject.\n\nIt is a good habit to swim."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Mamta goes to school everyday. (Make interrogative)",
+          "explanation": "The sentence is changed into interrogative form by using 'Does' at the beginning.\n\nDoes Mamta go to school everyday?"
+        },
+        {
+          "q_id": "v",
+          "statement": "He is so fat that he cannot run fast. (Use too…to)",
+          "explanation": "The sentence is rewritten using the structure 'too…to' without changing the meaning.\n\nHe is too fat to run fast."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The boy is my nephew. He is wearing a blue shirt. (Rewrite using 'who')",
+          "explanation": "The two sentences are combined using the relative pronoun 'who'.\n\nThe boy who is wearing a blue shirt is my nephew."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Unless you run fast, you will miss the train. (Use 'If' in place of 'Unless')",
+          "explanation": "The sentence is rewritten by replacing 'Unless' with 'If…not' without changing the meaning.\n\nIf you do not run fast, you will miss the train."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "text": "Answer the following questions:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "According to Nelson Mandela, what comes naturally to the human heart?",
+          "options": [
+            {
+              "index": "a",
+              "text": "hatred"
+            },
+            {
+              "index": "b",
+              "text": "love"
+            },
+            {
+              "index": "c",
+              "text": "unity"
+            },
+            {
+              "index": "d",
+              "text": "discrimination"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "love",
+          "explanation": "Mandela says love comes more naturally than hate."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What was the name of Anne’s diary?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Betty"
+            },
+            {
+              "index": "b",
+              "text": "Kitten"
+            },
+            {
+              "index": "c",
+              "text": "Kitty"
+            },
+            {
+              "index": "d",
+              "text": "Ketty"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Kitty",
+          "explanation": "Anne Frank named her diary ‘Kitty’."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Coorg is famous for ______.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Tea"
+            },
+            {
+              "index": "b",
+              "text": "Coffee"
+            },
+            {
+              "index": "c",
+              "text": "Sandal"
+            },
+            {
+              "index": "d",
+              "text": "Jute"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Coffee",
+          "explanation": "Coorg is well known for its coffee plantations."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What name was given to the otter?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Major"
+            },
+            {
+              "index": "b",
+              "text": "Taro"
+            },
+            {
+              "index": "c",
+              "text": "Jim"
+            },
+            {
+              "index": "d",
+              "text": "Mijbil"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Mijbil",
+          "explanation": "The otter was named Mijbil by the narrator."
+        }
+      ]
+    },
+    {
+      "question_number": "10A",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "instruction": "Read the extract carefully and answer the questions (From: The Black Aeroplane)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How was the weather when pilot started flying aeroplane?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Clear"
+            },
+            {
+              "index": "b",
+              "text": "Foggy"
+            },
+            {
+              "index": "c",
+              "text": "Rainy"
+            },
+            {
+              "index": "d",
+              "text": "Sunny"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Clear",
+          "explanation": "The extract mentions that stars were shining and there was not a single cloud in the sky."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Pilot was going to ______.",
+          "options": [
+            {
+              "index": "a",
+              "text": "France"
+            },
+            {
+              "index": "b",
+              "text": "India"
+            },
+            {
+              "index": "c",
+              "text": "USA"
+            },
+            {
+              "index": "d",
+              "text": "England"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "England",
+          "explanation": "The pilot was flying from France back to England."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The above passage is taken from which lesson?",
+          "options": [
+            {
+              "index": "a",
+              "text": "His First Flight"
+            },
+            {
+              "index": "b",
+              "text": "Black Aeroplane"
+            },
+            {
+              "index": "c",
+              "text": "A Letter to God"
+            },
+            {
+              "index": "d",
+              "text": "Glimpses of India"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Black Aeroplane",
+          "explanation": "The extract is from the lesson 'The Black Aeroplane'."
+        }
+      ]
+    },
+    {
+      "question_number": "10B",
+      "question_type": "UNSEEN_PASSAGE_POEM",
+      "marks": "1×3=3",
+      "instruction": "Read the extract carefully and answer the questions (From: Fog)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What has been personified in the above given lines?",
+          "options": [
+            {
+              "index": "a",
+              "text": "harbour"
+            },
+            {
+              "index": "b",
+              "text": "city"
+            },
+            {
+              "index": "c",
+              "text": "fog"
+            },
+            {
+              "index": "d",
+              "text": "cat"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "fog",
+          "explanation": "Fog is described as having cat-like qualities, which is personification."
+        },
+        {
+          "q_id": "ii",
+          "statement": "After sitting fog ______.",
+          "options": [
+            {
+              "index": "a",
+              "text": "disappears"
+            },
+            {
+              "index": "b",
+              "text": "moves on"
+            },
+            {
+              "index": "c",
+              "text": "sits there only"
+            },
+            {
+              "index": "d",
+              "text": "gets dense"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "moves on",
+          "explanation": "The poem clearly states that the fog sits for a while and then moves on."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The poet of the above poem is",
+          "options": [
+            {
+              "index": "a",
+              "text": "Pablo Neruda"
+            },
+            {
+              "index": "b",
+              "text": "Robert Frost"
+            },
+            {
+              "index": "c",
+              "text": "Robin Klein"
+            },
+            {
+              "index": "d",
+              "text": "Carl Sandburg"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Carl Sandburg",
+          "explanation": "The poem 'Fog' is written by Carl Sandburg."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "text": "Answer the following questions: (any six)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who or what did Lencho have faith in? What did he do?",
+          "explanation": "Lencho had firm faith in God.\n\nWhen his crop was destroyed by a hailstorm, he wrote a letter to God asking for one hundred pesos to sow his field again."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What two national anthems were sung?",
+          "explanation": "The national anthem of the old South Africa and the national anthem of the new democratic South Africa were sung."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why were two national anthems sung?",
+          "explanation": "Two national anthems were sung to symbolize equality and unity between the whites and the blacks after the end of apartheid."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What compelled the young seagull to take his first flight?",
+          "explanation": "The young seagull was compelled by hunger.\n\nWhen his mother tempted him with a piece of fish, he jumped forward and took his first flight."
+        },
+        {
+          "q_id": "v",
+          "statement": "What is the Chinese legend about tea?",
+          "explanation": "According to a Chinese legend, tea was discovered accidentally when tea leaves fell into boiling water kept for drinking."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Why did Valli react to the dead cow?",
+          "explanation": "Valli was deeply disturbed to see the dead cow.\n\nIt reminded her of the fragility of life and changed her excitement into sadness."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Why did Siddhartha Gautama abandon luxurious life?",
+          "explanation": "Siddhartha Gautama abandoned his luxurious life to find the cause of human suffering and to attain true knowledge."
+        },
+        {
+          "q_id": "viii",
+          "statement": "Where did Siddhartha Gautama get enlightenment?",
+          "explanation": "Siddhartha Gautama attained enlightenment under the Bodhi Tree at Bodh Gaya."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words: (any two)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "In reference of the poem ‘Fire and Ice’, how will the world end?",
+          "explanation": "According to the poet, the world may end either in fire caused by human desire or in ice caused by hatred."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What are the things that Amanda’s mother asks her to do and not to do?",
+          "explanation": "Amanda’s mother asks her to sit straight, clean her room, finish her homework, and not eat chocolates or bite her nails."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What will the departure of the trees affect the house?",
+          "explanation": "When the trees leave, the house will collapse because it loses the support, strength, and protection provided by the trees."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words: (any two)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did the narrator cure Tricki?",
+          "explanation": "The narrator cured Tricki by stopping rich food.\n\nHe gave him regular exercise, discipline, and a simple diet."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How did Ausable get rid of Max?",
+          "explanation": "Ausable frightened Max by inventing a false story about a balcony.\n\nIn fear, Max jumped out of the window."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How did Griffin become invisible?",
+          "explanation": "Griffin became invisible by discovering a scientific process to change the refractive index of his body."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "How did Valli plan her bus ride? What did she find out about the bus, and how did she save up the fare?",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Answer",
+          "explanation": "Valli carefully planned her bus ride by listening to the conversations of adults.\n\nShe found out the bus timings, fare, and duration of the journey.\n\nShe saved money by avoiding unnecessary expenses."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Answer the following questions:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What does the young boy say to Anne Gregory?",
+          "explanation": "The young boy tells Anne Gregory that true love is based on inner beauty and character, not on physical appearance."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why did Custard cry for a nice safe cage? Why is the dragon called ‘cowardly dragon’?",
+          "explanation": "Custard cried for a safe cage because he always feared danger.\n\nHe is called a cowardly dragon because he appeared timid, though he later showed great courage."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3M",
+      "word_limit": "75 words",
+      "text": "Answer the following question in about 75 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Noodle avoids offending Think-Tank, but at the same time he corrects his mistakes. How does he manage to do that?",
+          "explanation": "Noodle avoids offending Think-Tank by speaking politely and respectfully.\n\nHe pretends to agree with Think-Tank’s ideas while indirectly correcting his mistakes.\n\nBy using careful words and giving suggestions instead of direct opposition, Noodle guides Think-Tank towards the correct understanding."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "The course of the Loisels' life changed due to the necklace. Comment.",
+            "explanation": "The loss of the necklace changed the life of the Loisels completely.\n\nThey lost their comfort and happiness and worked hard for ten years to repay the debt.\n\nLater, they discovered that the necklace was fake, which made their suffering tragic."
+          }
+        ]
+      }
+    }
+  ]
+}
