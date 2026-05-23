@@ -1,0 +1,175 @@
+{
+  "paper_details": {
+    "paperYear": "2024",
+    "subjectName": "IT / Computer Science",
+    "board": "MP Board",
+    "language": "hi",
+    "totalMarks": 75
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "FILL_IN_THE_BLANKS",
+      "marks": 5,
+      "text": "रिक्त स्थानों की पूर्ति कीजिए :",
+      "parts": [
+        {
+          "q_id": "1i",
+          "statement": "There are _____ types of feedback.",
+          "correct_answer": "Two",
+          "explanation": "Feedback के मुख्य रूप से दो प्रकार होते हैं – Positive Feedback और Negative Feedback। Positive feedback व्यक्ति को प्रोत्साहित करता है जबकि Negative feedback सुधार के लिए मार्गदर्शन देता है।"
+        },
+        {
+          "q_id": "1ii",
+          "statement": "_____ are computer programs that can damage the data and software program.",
+          "correct_answer": "Virus",
+          "explanation": "Virus ऐसे हानिकारक कंप्यूटर प्रोग्राम होते हैं जो बिना अनुमति सिस्टम में प्रवेश करके डेटा, फाइल और सॉफ्टवेयर को नुकसान पहुँचाते हैं।"
+        },
+        {
+          "q_id": "1iii",
+          "statement": "_____ is a valid extension of Notepad file.",
+          "correct_answer": ".txt",
+          "explanation": "Notepad एक टेक्स्ट एडिटर है जिसमें बनाई गई फाइल सामान्यतः .txt एक्सटेंशन के साथ सेव होती है।"
+        },
+        {
+          "q_id": "1iv",
+          "statement": "The word communication comes from the _____ word.",
+          "correct_answer": "Latin",
+          "explanation": "Communication शब्द Latin भाषा के 'Communicare' शब्द से लिया गया है, जिसका अर्थ है साझा करना।"
+        },
+        {
+          "q_id": "1v",
+          "statement": "The default function while using consolidate is _____.",
+          "correct_answer": "Sum",
+          "explanation": "Spreadsheet में Consolidate टूल का प्रयोग करते समय डिफ़ॉल्ट रूप से Sum function उपयोग होता है।"
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question_type": "MATCH_THE_FOLLOWING",
+      "marks": 5,
+      "text": "सही जोड़ी बनाइए :",
+      "pairs": [
+        {
+          "A": "TOC",
+          "B": "Table of content",
+          "explanation": "TOC का पूरा नाम Table of Contents होता है, जिससे दस्तावेज़ की विषय सूची बनती है।"
+        },
+        {
+          "A": "Default name of Macro",
+          "B": "Main",
+          "explanation": "LibreOffice में Macro का डिफ़ॉल्ट नाम Main होता है।"
+        },
+        {
+          "A": "Asking question from the",
+          "B": "Query",
+          "explanation": "Database से जानकारी प्राप्त करने के लिए Query का उपयोग किया जाता है।"
+        },
+        {
+          "A": "Row and Column",
+          "B": "Spreadsheet",
+          "explanation": "Spreadsheet rows और columns से मिलकर बना होता है।"
+        },
+        {
+          "A": "Ctrl+A",
+          "B": "Select All",
+          "explanation": "Ctrl+A shortcut पूरे डॉक्यूमेंट या चयन योग्य सामग्री को select करता है।"
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question_type": "TRUE_FALSE",
+      "marks": 5,
+      "text": "सत्य / असत्य लिखिए :",
+      "parts": [
+        {
+          "q_id": "3i",
+          "statement": "When editing disabled there are no show and selection.",
+          "answer": "False",
+          "explanation": "Editing बंद होने पर भी सामग्री दिखाई देती है और चयन संभव होता है।"
+        },
+        {
+          "q_id": "3ii",
+          "statement": "Once a TOC is created, it cannot be edited.",
+          "answer": "False",
+          "explanation": "TOC को बाद में update और edit किया जा सकता है।"
+        },
+        {
+          "q_id": "3iii",
+          "statement": "An integer worksheet is referred to as worksheet.",
+          "answer": "False",
+          "explanation": "पूरी फाइल Spreadsheet कहलाती है और उसका प्रत्येक पेज Worksheet होता है।"
+        },
+        {
+          "q_id": "3iv",
+          "statement": "A copy of a file can be deleted.",
+          "answer": "True",
+          "explanation": "किसी फाइल की कॉपी को हटाने से मूल फाइल प्रभावित नहीं होती।"
+        },
+        {
+          "q_id": "3v",
+          "statement": "At any office, first aid kit is always available for use in an emergency.",
+          "answer": "True",
+          "explanation": "कार्यस्थल की सुरक्षा के लिए First Aid Kit आवश्यक होती है।"
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question_type": "DESCRIPTIVE",
+      "marks": 3,
+      "text": "Why United Nation has made 17 sustainable development goals?",
+      "explanation": "संयुक्त राष्ट्र ने गरीबी उन्मूलन, पर्यावरण संरक्षण और वैश्विक विकास को संतुलित करने के लिए 17 Sustainable Development Goals बनाए।"
+    },
+    {
+      "question_number": 6,
+      "question_type": "DESCRIPTIVE",
+      "marks": 3,
+      "text": "What is forms in Database Management System?",
+      "explanation": "Form DBMS का एक ऑब्जेक्ट है जो उपयोगकर्ता को आसानी से डेटा दर्ज करने, देखने और संशोधित करने में मदद करता है।"
+    },
+    {
+      "question_number": 7,
+      "question_type": "DESCRIPTIVE",
+      "marks": 3,
+      "text": "Define a Template.",
+      "explanation": "Template एक पूर्व-निर्मित फॉर्मेट होता है जिससे नए दस्तावेज़ जल्दी और एकरूपता के साथ बनाए जा सकते हैं।"
+    },
+    {
+      "question_number": 10,
+      "question_type": "DESCRIPTIVE",
+      "marks": 5,
+      "text": "निम्नलिखित को परिभाषित करें : (i) वर्ड प्रोसेसर और स्प्रेड शीट (ii) इंटरनेट सेवाएं",
+      "explanation": "Word Processor का उपयोग दस्तावेज़ बनाने और संपादन के लिए किया जाता है। Spreadsheet गणनाओं और डेटा विश्लेषण के लिए उपयोग होता है। Internet Services जैसे Email, Browsing और Cloud Storage ऑनलाइन सुविधाएँ प्रदान करती हैं।"
+    },
+    {
+      "question_number": 16,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "What is style? Explain any five categories of styles.",
+      "explanation": "Style दस्तावेज़ की फॉर्मेटिंग को नियंत्रित करने का तरीका है। इसके प्रकार हैं – Paragraph Style, Character Style, Page Style, Frame Style और List Style, जो दस्तावेज़ को एकरूप और पेशेवर बनाते हैं।"
+    },
+    {
+      "question_number": 17,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "Define Goal Seek. Write down the steps to use Goal Seek tool.",
+      "explanation": "Goal Seek Spreadsheet का एक टूल है जिससे किसी निर्धारित परिणाम के लिए आवश्यक इनपुट मान ज्ञात किया जाता है। इसके लिए Formula cell चुनें, Goal Seek खोलें, Target value सेट करें और टूल को Run करें।"
+    },
+    {
+      "question_number": 19,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "Explain fire extinguisher. Compare the different types of fire extinguisher.",
+      "explanation": "Fire extinguisher आग बुझाने का सुरक्षा उपकरण है। Water extinguisher ठोस आग के लिए, Foam ज्वलनशील तरल के लिए, CO₂ विद्युत आग के लिए और Dry Powder विभिन्न प्रकार की आग के लिए उपयोगी होता है।"
+    },{
+      "question_number": 20,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "What is Database Management System? Explain their advantages in details.",
+      "explanation": "DBMS डेटा को सुरक्षित, संगठित और नियंत्रित तरीके से प्रबंधित करता है।"
+    } 
+  ]
+}
