@@ -1,0 +1,165 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "IT / Computer Science",
+    "board": "MP Board",
+    "language": "en",
+    "totalMarks": 75
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "FILL_IN_THE_BLANKS",
+      "marks": 5,
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "1i",
+          "statement": "There are _____ types of feedback.",
+          "correct_answer": "Two",
+          "explanation": "Feedback is of two types: Positive feedback, which motivates and encourages improvement, and Negative feedback, which helps in identifying mistakes and areas of correction."
+        },
+        {
+          "q_id": "1ii",
+          "statement": "_____ are computer programs that can damage the data and software program.",
+          "correct_answer": "Virus",
+          "explanation": "A virus is a harmful computer program that enters a system without permission and damages data, files, or software."
+        },
+        {
+          "q_id": "1iii",
+          "statement": "_____ is a valid extension of Notepad file.",
+          "correct_answer": ".txt",
+          "explanation": "Files created using Notepad are saved with a .txt extension, which represents plain text format."
+        },
+        {
+          "q_id": "1iv",
+          "statement": "The word communication comes from the _____ word.",
+          "correct_answer": "Latin",
+          "explanation": "The word communication is derived from the Latin word 'Communicare', which means to share or exchange information."
+        },
+        {
+          "q_id": "1v",
+          "statement": "The default function while using consolidate is _____.",
+          "correct_answer": "Sum",
+          "explanation": "In spreadsheet applications, the Consolidate tool uses the SUM function by default to combine data."
+        }
+      ]
+    },
+
+    {
+      "question_number": 2,
+      "question_type": "MATCH_THE_FOLLOWING",
+      "marks": 5,
+      "text": "Match the following:",
+      "pairs": [
+        { "A": "TOC", "B": "Table of Content" },
+        { "A": "Default name of Macro", "B": "Main" },
+        { "A": "Asking question from the", "B": "Query" },
+        { "A": "Row and Column", "B": "Spreadsheet" },
+        { "A": "Ctrl+A", "B": "Select All" }
+      ],
+      "explanation": "These terms are correctly matched with their related computer concepts, shortcuts, and applications."
+    },
+
+    {
+      "question_number": 3,
+      "question_type": "TRUE_FALSE",
+      "marks": 5,
+      "text": "Write True or False:",
+      "parts": [
+        {
+          "q_id": "3i",
+          "statement": "When editing is disabled there is no selection.",
+          "answer": "False",
+          "explanation": "Even when editing is disabled, text selection is still visible; therefore, the statement is false."
+        },
+        {
+          "q_id": "3ii",
+          "statement": "Once a TOC is created, it cannot be edited.",
+          "answer": "False",
+          "explanation": "A Table of Content can be updated or modified at any time."
+        },
+        {
+          "q_id": "3iii",
+          "statement": "An entire spreadsheet is referred to as worksheet.",
+          "answer": "False",
+          "explanation": "A worksheet is only one sheet, whereas a spreadsheet contains multiple worksheets."
+        },
+        {
+          "q_id": "3iv",
+          "statement": "A copy of a file can be deleted.",
+          "answer": "True",
+          "explanation": "Deleting a copied file does not affect the original file."
+        },
+        {
+          "q_id": "3v",
+          "statement": "At any office, first aid kit is always available for emergency use.",
+          "answer": "True",
+          "explanation": "According to safety rules, offices must keep a first aid kit for emergencies."
+        }
+      ]
+    },
+
+    {
+      "question_number": 5,
+      "question_type": "DESCRIPTIVE",
+      "marks": 3,
+      "text": "Why has the United Nations made 17 Sustainable Development Goals?",
+      "explanation": "The United Nations created 17 Sustainable Development Goals to eliminate poverty, protect the environment, and ensure balanced social and economic development worldwide."
+    },
+
+    {
+      "question_number": 6,
+      "question_type": "DESCRIPTIVE",
+      "marks": 3,
+      "text": "What is a Form in Database Management System?",
+      "explanation": "A form is a DBMS object used for easy data entry and viewing. It provides a user-friendly interface connected to database tables."
+    },
+
+    {
+      "question_number": 7,
+      "question_type": "DESCRIPTIVE",
+      "marks": 3,
+      "text": "Define a Template.",
+      "explanation": "A template is a pre-designed document that helps users create new documents quickly with a fixed layout and formatting."
+    },
+
+    {
+      "question_number": 10,
+      "question_type": "DESCRIPTIVE",
+      "marks": 5,
+      "text": "Define: (i) Word Processor and Spreadsheet (ii) Internet Services",
+      "explanation": "A word processor is used to create and edit text documents, while a spreadsheet is used for calculations and data analysis. Internet services provide online facilities such as email, browsing, and cloud storage."
+    },
+
+    {
+      "question_number": 16,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "What is Style? Explain any five categories of styles.",
+      "explanation": "Style is a predefined formatting feature used to maintain consistency in documents. The five types include Paragraph Style, Character Style, Frame Style, Page Style, and List Style. Each style controls specific formatting elements."
+    },
+
+    {
+      "question_number": 17,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "Define Goal Seek. Write the steps to use Goal Seek tool.",
+      "explanation": "Goal Seek is a spreadsheet tool used to find the required input value for a desired result. Steps include selecting the formula cell, opening Goal Seek, setting the target value, and executing the tool."
+    },
+
+    {
+      "question_number": 19,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "Explain fire extinguisher and compare its types.",
+      "explanation": "A fire extinguisher is a safety device used to control fire. Types include Water, Foam, CO₂, and Dry Powder extinguishers, each suitable for different types of fires."
+    },  {
+      "question_number": 20,
+      "question_type": "DESCRIPTIVE",
+      "marks": 7,
+      "text": "What is Database Management System? Explain advantages.",
+      "explanation": "DBMS data को store, manage और retrieve करने की system है। इसके लाभ – data security, consistency, easy access।"
+    } 
+  ]
+}
