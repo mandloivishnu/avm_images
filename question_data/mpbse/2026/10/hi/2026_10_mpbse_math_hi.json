@@ -224,38 +224,38 @@
     "pairs": [
       {
         "a_item": "(i) cos A · sec A",
-        "b_item": "1",
+        "b_item": "πr²",
         "correct_match_index": 4,
         "explanation": "sec A = 1/cos A, अतः cos A · sec A = cos A × (1/cos A) = 1।"
       },
       {
         "a_item": "(ii) घन का सम्पूर्ण पृष्ठीय क्षेत्रफल",
-        "b_item": "6a²",
+        "b_item": "1/√3",
         "correct_match_index": 5,
         "explanation": "भुजा a वाले घन का सम्पूर्ण पृष्ठीय क्षेत्रफल = 6a² होता है।"
       },
       {
         "a_item": "(iii) कोण θ वाले वृत्त के त्रिज्यखंड का क्षेत्रफल",
-        "b_item": "θ/360 × πr²",
+        "b_item": "2/3 πr³",
         "correct_match_index": 3,
         "explanation": "त्रिज्यखंड का क्षेत्रफल = (θ/360) × πr² होता है।"
       },
       {
         "a_item": "(iv) tan 30°",
-        "b_item": "1/√3",
+        "b_item": "θ/360 × πr²",
         "correct_match_index": 1,
         "explanation": "मानक त्रिकोणमितीय मान: tan 30° = 1/√3।"
       },
       {
         "a_item": "(v) एक वृत्तीय क्षेत्र या चकती का क्षेत्रफल",
-        "b_item": "πr²",
+        "b_item": "1",
         "correct_match_index": 0,
         "explanation": "वृत्त का क्षेत्रफल = πr² होता है।"
       },
       {
         "a_item": "(vi) अर्धगोले का आयतन",
-        "b_item": "2/3 πr³",
-        "correct_match_index": 2,
+        "b_item": "6a²",
+        "correct_match_index": 6,
         "explanation": "अर्धगोले का आयतन = (2/3)πr³ होता है।"
       }
     ]
