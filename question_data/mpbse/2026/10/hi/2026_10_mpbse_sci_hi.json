@@ -1,0 +1,743 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "set": "A",
+    "paperCode": "261028",
+    "examType": "High School Examination (Main)",
+    "totalQuestions": "23",
+    "totalPages": "16",
+    "duration": "3 Hours"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "सही विकल्प चुनकर लिखिये : / Choose and write the correct option :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "CaCO₃ →(heat)→ CaO + CO₂\nउपर्युक्त अभिक्रिया किस प्रकार की है? / Which type of reaction is the above?",
+          "options": [
+            { "index": "a", "text": "Combination / संयोजन" },
+            { "index": "b", "text": "Decomposition / वियोजन" },
+            { "index": "c", "text": "Displacement / विस्थापन" },
+            { "index": "d", "text": "Double displacement / द्विविस्थापन" }
+          ],
+          "correct_answer": "b",
+          "correct_answer_text": "Decomposition / वियोजन",
+          "explanation": "CaCO₃ ऊष्मा द्वारा CaO और CO₂ में टूटता है — यह एक वियोजन (Decomposition) अभिक्रिया है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "खाना बनाते समय यदि बर्तन की तली बाहर से काली हो रही है तो इसका मतलब है कि – / While cooking food, if the bottom of the vessel is black from outside, then it means that –",
+          "options": [
+            { "index": "a", "text": "भोजन पूरी तरह नहीं पका है। / The food is not cooked completely." },
+            { "index": "b", "text": "ईंधन पूरी तरह से नहीं जल रहा है। / Fuel is not burning completely." },
+            { "index": "c", "text": "ईंधन आर्द्र है। / The fuel is moist." },
+            { "index": "d", "text": "ईंधन पूरी तरह से जल रहा है। / Fuel is burning completely." }
+          ],
+          "correct_answer": "b",
+          "correct_answer_text": "Fuel is not burning completely. / ईंधन पूरी तरह से नहीं जल रहा है।",
+          "explanation": "बर्तन की तली काली होना अपूर्ण दहन (incomplete combustion) का संकेत है, जिसमें कालिख (कार्बन के कण) जमा हो जाती है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "पादप में जाइलम उत्तरदायी है – / Xylem in plants are responsible for –",
+          "options": [
+            { "index": "a", "text": "जल का वहन / transport of water" },
+            { "index": "b", "text": "भोजन का वहन / transport of food" },
+            { "index": "c", "text": "अमीनो अम्ल का वहन / transport of amino acid" },
+            { "index": "d", "text": "ऑक्सीजन का वहन / transport of oxygen" }
+          ],
+          "correct_answer": "a",
+          "correct_answer_text": "transport of water / जल का वहन",
+          "explanation": "जाइलम पादप में जड़ से तने और पत्तियों तक जल एवं खनिज लवणों का परिवहन करता है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "दो तंत्रिका कोशिका के मध्य खाली स्थान को कहते हैं – / The gap between two nerve cells is called :",
+          "options": [
+            { "index": "a", "text": "ट्रुमिका / dendrites" },
+            { "index": "b", "text": "सिनैप्स / synapse" },
+            { "index": "c", "text": "एक्सॉन / axon" },
+            { "index": "d", "text": "आवेग / impulse" }
+          ],
+          "correct_answer": "b",
+          "correct_answer_text": "synapse / सिनैप्स",
+          "explanation": "दो न्यूरॉन के बीच के खाली स्थान को सिनैप्स (Synapse) कहते हैं, जहाँ रासायनिक संदेश का संप्रेषण होता है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "परागकोश में होते हैं – / The anther contains –",
+          "options": [
+            { "index": "a", "text": "वाह्यदल / sepal" },
+            { "index": "b", "text": "अंडाशय / ovule" },
+            { "index": "c", "text": "अंडप / pistil" },
+            { "index": "d", "text": "परागकण / pollen grain" }
+          ],
+          "correct_answer": "d",
+          "correct_answer_text": "pollen grain / परागकण",
+          "explanation": "परागकोश (Anther) में परागकण (Pollen grains) बनते हैं, जो नर युग्मक का कार्य करते हैं।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "निम्न में से कौन-सा पदार्थ लेंस बनाने में प्रयुक्त नहीं किया जा सकता है? / Which of the following materials cannot be used to make lenses?",
+          "options": [
+            { "index": "a", "text": "जल / Water" },
+            { "index": "b", "text": "काँच / Glass" },
+            { "index": "c", "text": "प्लास्टिक / Plastic" },
+            { "index": "d", "text": "चुम्बक / Magnet" }
+          ],
+          "correct_answer": "d",
+          "correct_answer_text": "Magnet / चुम्बक",
+          "explanation": "लेंस पारदर्शी पदार्थ (जल, काँच, प्लास्टिक) से बनते हैं। चुम्बक अपारदर्शी होता है, अतः इससे लेंस नहीं बनाया जा सकता।"
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "रिक्त स्थान भरिये : / Fill in the blanks :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "लसिका को {BLANK} ऊतक कहा जाता है। / Lymph is called {BLANK} tissue.",
+          "correct_answer": "संयोजी / Connective",
+          "explanation": "लसिका (Lymph) एक तरल संयोजी ऊतक (Connective tissue) है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "मनुष्य में {BLANK} जोड़ी गुणसूत्र पाये जाते हैं। / In humans, {BLANK} pairs of chromosomes are found.",
+          "correct_answer": "23",
+          "explanation": "मनुष्य में कुल 46 गुणसूत्र होते हैं जो 23 जोड़ी में व्यवस्थित रहते हैं।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "सामान्य नेत्र का निकट बिन्दु लगभग {BLANK} होता है। / The near point of normal eye is about {BLANK}.",
+          "correct_answer": "25 सेमी / 25 cm",
+          "explanation": "सामान्य स्वस्थ नेत्र का निकट बिन्दु (Near Point) लगभग 25 सेमी होता है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "विद्युतधारा का SI मात्रक {BLANK} होता है। / The SI unit of electric current is {BLANK}.",
+          "correct_answer": "एम्पियर / Ampere (A)",
+          "explanation": "विद्युत धारा का अन्तर्राष्ट्रीय मात्रक एम्पियर (A) होता है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "विद्युतधारा सदैव {BLANK} क्षेत्र उत्पन्न करती है। / Electric current always produces a {BLANK} field.",
+          "correct_answer": "चुम्बकीय / Magnetic",
+          "explanation": "किसी भी विद्युत धारावाही चालक के चारों ओर सदैव चुम्बकीय क्षेत्र उत्पन्न होता है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "सभी जीव प्रत्यक्ष या अप्रत्यक्ष रूप से अपने निर्वाह हेतु {BLANK} पर निर्भर करते हैं। / All living being directly or indirectly depends on the {BLANK} for their sustenance.",
+          "correct_answer": "सूर्य / Sun (Plants / पादप)",
+          "explanation": "सभी जीव ऊर्जा के लिए प्रत्यक्ष या अप्रत्यक्ष रूप से सूर्य (और हरे पादपों) पर निर्भर रहते हैं।"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "सत्य / असत्य लिखिये : / Write True / False :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "कार्बन की संयोजकता छह होती है। / Carbon has a valency of six.",
+          "correct_answer": "असत्य / False",
+          "explanation": "कार्बन की संयोजकता 4 होती है, 6 नहीं। कार्बन में 4 इलेक्ट्रॉन बाहरी कक्षा में होते हैं।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "प्रकाश संश्लेषण के लिए क्लोरोफिल आवश्यक है। / Chlorophyll is essential for photosynthesis.",
+          "correct_answer": "सत्य / True",
+          "explanation": "क्लोरोफिल प्रकाश संश्लेषण के लिए आवश्यक वर्णक है जो सूर्य के प्रकाश को अवशोषित करता है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "किसी गोलीय दर्पण की फोकस दूरी उसकी वक्रता त्रिज्या की आधी होती है। / The focal length of a spherical mirror is half of its radius of curvature.",
+          "correct_answer": "सत्य / True",
+          "explanation": "f = R/2 — गोलीय दर्पण की फोकस दूरी, वक्रता त्रिज्या की आधी होती है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "श्वेत प्रकाश का इसके अवयवी वर्णों में विभाजन प्रकाश संश्लेषण कहलाता है। / The splitting of white light into its component colours is called photosynthesis.",
+          "correct_answer": "असत्य / False",
+          "explanation": "श्वेत प्रकाश का अवयवी वर्णों में विभाजन 'विक्षेपण (Dispersion)' कहलाता है, प्रकाश संश्लेषण नहीं।"
+        },
+        {
+          "q_id": "v",
+          "statement": "विद्युत आवेश के प्रवाह की दर को विद्युत धारा कहते हैं। / The rate of flow of electric charge is called electric current.",
+          "correct_answer": "सत्य / True",
+          "explanation": "विद्युत धारा (I) = आवेश (Q) / समय (t) — यह आवेश के प्रवाह की दर है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "चुम्बकीय क्षेत्र रेखाएँ एक बंद वक्र होती हैं। / Magnetic field lines are closed curves.",
+          "correct_answer": "सत्य / True",
+          "explanation": "चुम्बकीय क्षेत्र रेखाएँ सदैव बंद वक्र (closed loops) होती हैं — बाहर उत्तर ध्रुव से दक्षिण ध्रुव की ओर तथा चुम्बक के अन्दर दक्षिण से उत्तर ध्रुव की ओर।"
+        }
+      ]
+    },
+    {
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "सही जोड़ी बनाइये : / Match the correct pairs :",
+  "columns": {
+    "column_A_title": "स्तम्भ (A)",
+    "column_B_title": "स्तम्भ (B)",
+    "pairs": [
+      {
+        "a_item": "(i) Respiration / श्वसन",
+        "b_item": "(a) Methyl orange / मेथिल ऑरेंज",
+        "correct_match_index": "1",
+        "correct_match_text": "(b) Exothermic reaction / ऊष्माक्षेपी अभिक्रिया",
+        "explanation": "श्वसन एक ऊष्माक्षेपी (Exothermic) अभिक्रिया है, जिसमें ऊर्जा (ATP) मुक्त होती है।"
+      },
+      {
+        "a_item": "(ii) Synthetic indicator / संश्लेषित सूचक",
+        "b_item": "(b) Exothermic reaction / ऊष्माक्षेपी अभिक्रिया",
+        "correct_match_index": "0",
+        "correct_match_text": "(a) Methyl orange / मेथिल ऑरेंज",
+        "explanation": "मेथिल ऑरेंज एक कृत्रिम (Synthetic) संश्लेषित सूचक है जो अम्ल में लाल और क्षार में पीला हो जाता है।"
+      },
+      {
+        "a_item": "(iii) Most ductile metal / सर्वाधिक तन्य धातु",
+        "b_item": "(c) Insulin / इंसुलिन",
+        "correct_match_index": "3",
+        "correct_match_text": "(d) Gold / गोल्ड",
+        "explanation": "सोना (Gold) सर्वाधिक तन्य (ductile) धातु है — 1 ग्राम सोने से लगभग 2 km लम्बा तार खींचा जा सकता है।"
+      },
+      {
+        "a_item": "(iv) Blood sugar regulation / रक्त में शर्करा नियमन",
+        "b_item": "(d) Gold / गोल्ड",
+        "correct_match_index": "2",
+        "correct_match_text": "(c) Insulin / इंसुलिन",
+        "explanation": "इंसुलिन हार्मोन अग्न्याशय (Pancreas) से स्रावित होता है और रक्त में शर्करा के स्तर को नियंत्रित करता है।"
+      },
+      {
+        "a_item": "(v) Budding / मुकुलन",
+        "b_item": "(e) Mendel / मेंडल",
+        "correct_match_index": "5",
+        "correct_match_text": "(f) Hydra / हाइड्रा",
+        "explanation": "हाइड्रा में अलैंगिक जनन मुकुलन (Budding) विधि द्वारा होता है।"
+      },
+      {
+        "a_item": "(vi) Inheritance law / वंशागति नियम",
+        "b_item": "(f) Hydra / हाइड्रा",
+        "correct_match_index": "4",
+        "correct_match_text": "(e) Mendel / मेंडल",
+        "explanation": "वंशागति के नियम (Laws of Inheritance) मेंडल (Gregor Johann Mendel) ने प्रतिपादित किये थे।"
+      }
+    ]
+  }
+},
+    {
+      "question_number": "5",
+      "question_type": "ONE_WORD_ONE_SENTENCE",
+      "marks": "1×6=6",
+      "text": "एक शब्द/वाक्य में उत्तर लिखिये : / Write the answer in one word/sentence :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "संयोजन अभिक्रिया किसे कहते हैं? / What is a combination reaction?",
+          "correct_answer": "जब दो या दो से अधिक पदार्थ मिलकर एक नया पदार्थ बनाते हैं, वह संयोजन अभिक्रिया है। / When two or more substances combine to form a single new substance.",
+          "explanation": "उदाहरण: C + O₂ → CO₂"
+        },
+        {
+          "q_id": "ii",
+          "statement": "pH स्केल किसे कहते हैं? / What is the pH scale?",
+          "correct_answer": "किसी विलयन की अम्लीयता या क्षारीयता मापने का पैमाना pH स्केल कहलाता है। / pH scale is a scale used to measure the acidity or basicity of a solution (range 0–14).",
+          "explanation": "pH 7 = उदासीन, pH < 7 = अम्लीय, pH > 7 = क्षारीय।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "विकृत ऐल्कोहॉल किसे कहते हैं? / What is denatured alcohol?",
+          "correct_answer": "इथेनॉल में मेथेनॉल या अन्य विषैले पदार्थ मिलाकर उसे पीने के अयोग्य बनाया जाता है, इसे विकृत ऐल्कोहॉल कहते हैं। / Ethanol made unfit for drinking by adding methanol or other poisonous substances is called denatured alcohol.",
+          "explanation": "इसका उपयोग औद्योगिक प्रयोजनों के लिए किया जाता है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "मछली के हृदय में कितने कोष्ठ होते हैं? / How many chambers are there in the heart of a fish?",
+          "correct_answer": "दो (2) / Two (2)",
+          "explanation": "मछली का हृदय द्विकक्षीय होता है — एक आलिन्द (Atrium) और एक निलय (Ventricle)।"
+        },
+        {
+          "q_id": "v",
+          "statement": "मानव भ्रूण में प्लेसेंटा का क्या कार्य होता है? / What is the function of the placenta in the human embryo?",
+          "correct_answer": "प्लेसेंटा माँ और भ्रूण के बीच पोषण, ऑक्सीजन और उत्सर्जी पदार्थों के आदान-प्रदान का कार्य करता है। / Placenta facilitates exchange of nutrients, oxygen and waste between mother and embryo.",
+          "explanation": "यह भ्रूण को माँ के रक्त से जोड़ता है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "विभवांतर के S.I. मात्रक का नाम लिखिये। / Write the name of the S.I. unit of potential difference.",
+          "correct_answer": "वोल्ट (V) / Volt (V)",
+          "explanation": "विभवांतर का SI मात्रक वोल्ट (Volt) है। 1 Volt = 1 Joule / 1 Coulomb।"
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "अम्लीय वर्षा किसे कहते हैं? / What is acid rain?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "अम्लीय वर्षा किसे कहते हैं? / What is acid rain?",
+          "explanation": "जब वायुमंडल में SO₂ और NO₂ जैसी गैसें जल से मिलकर H₂SO₄ और HNO₃ बनाती हैं और वर्षा के साथ नीचे आती हैं तो उसे अम्लीय वर्षा (Acid Rain) कहते हैं। इसका pH 5.6 से कम होता है।\n\nWhen gases like SO₂ and NO₂ in the atmosphere react with water vapour to form H₂SO₄ and HNO₃ which come down with rain, it is called acid rain. Its pH is less than 5.6."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "क्रिस्टलन जल किसे कहते हैं? / What is the water of crystallization?",
+            "explanation": "किसी लवण के एक सूत्र इकाई में जल के जो अणु निश्चित अनुपात में रासायनिक रूप से बंधे होते हैं, उन्हें क्रिस्टलन जल कहते हैं। उदाहरण: CuSO₄·5H₂O में 5 जल अणु क्रिस्टलन जल हैं।\n\nThe fixed number of water molecules chemically bonded in one formula unit of a salt are called water of crystallization. Example: CuSO₄·5H₂O has 5 water molecules."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "विरजक चूर्ण के कोई दो उपयोग लिखिये। / Write any two uses of bleaching powder.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "विरजक चूर्ण (Bleaching Powder / CaOCl₂) के दो उपयोग:",
+          "explanation": "1. वस्त्र उद्योग में कपड़ों को विरंजित (bleach) करने में।\n2. पीने के पानी को कीटाणुरहित (disinfect) करने में।\n\n1. Used in textile industry for bleaching fabrics.\n2. Used for disinfecting drinking water."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "बेकिंग सोडा के कोई दो उपयोग लिखिये। / Write any two uses of baking soda.",
+            "explanation": "बेकिंग सोडा (NaHCO₃) के दो उपयोग:\n1. बेकरी उत्पादों (रोटी, केक) में खमीर उठाने हेतु।\n2. एंटैसिड के रूप में पेट की अम्लता कम करने में।\n\n1. Used in bakery products as a leavening agent.\n2. Used as antacid to neutralize excess stomach acid."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "ध्वानिक किसे कहते हैं? / What is the sonorous?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "ध्वानिक (Sonorous) किसे कहते हैं? / What is sonorous?",
+          "explanation": "जो धातुएँ चोट करने पर तीखी-मधुर आवाज (खनखनाहट) उत्पन्न करती हैं, वे ध्वानिक (Sonorous) कहलाती हैं। उदाहरण: लोहा, तांबा, सोना।\n\nMetals that produce a ringing sound when struck are called sonorous. Example: Iron, Copper, Gold."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "उभयधर्मी ऑक्साइड किसे कहते हैं? / What are amphoteric oxides?",
+            "explanation": "वे ऑक्साइड जो अम्ल और क्षार दोनों के साथ अभिक्रिया करके लवण और जल बनाते हैं, उभयधर्मी ऑक्साइड कहलाते हैं। उदाहरण: Al₂O₃, ZnO।\n\nOxides that react with both acids and bases to form salt and water are called amphoteric oxides. Example: Al₂O₃, ZnO."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "वैद्युत संयोजक यौगिक किसे कहा जाता है? / What is an electrovalent compound?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "वैद्युत संयोजक यौगिक किसे कहा जाता है? / What is an electrovalent compound?",
+          "explanation": "जब एक परमाणु दूसरे परमाणु को इलेक्ट्रॉन देकर या लेकर आयन बनाता है और ये आयन विद्युत आकर्षण से जुड़ते हैं, तो बने यौगिक को वैद्युत संयोजक (Ionic/Electrovalent) यौगिक कहते हैं। उदाहरण: NaCl, MgO।\n\nCompounds formed by transfer of electrons between atoms resulting in ionic bonds are called electrovalent compounds. Example: NaCl, MgO."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "यशदलेपन किसे कहा जाता है? / What is galvanized coating?",
+            "explanation": "लोहे या इस्पात पर जंग से बचाने के लिए जस्ते (Zinc) की पतली परत चढ़ाने की प्रक्रिया को यशदलेपन (Galvanization) कहते हैं।\n\nThe process of coating iron or steel with a thin layer of zinc to prevent rusting is called galvanization."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "पादप हार्मोन्स क्या होते हैं? इसके दो उदाहरण लिखिये। / What are plant hormones? Write its two examples.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "पादप हार्मोन्स क्या होते हैं? / What are plant hormones?",
+          "explanation": "पादपों में उत्पन्न होने वाले वे रासायनिक पदार्थ जो पादप की वृद्धि, विकास एवं क्रियाओं को नियंत्रित करते हैं, पादप हार्मोन्स (Plant Hormones/Phytohormones) कहलाते हैं।\n\nदो उदाहरण / Two Examples:\n1. ऑक्सिन (Auxin) — तने की लंबाई वृद्धि में सहायक\n2. जिबरेलिन (Gibberellin) — बीज अंकुरण और तने की वृद्धि में सहायक\n\nChemical substances produced in plants that regulate their growth, development and activities are called plant hormones."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "प्रतिवर्ती क्रिया क्या होती है? इसके दो उदाहरण लिखिये। / What is reflex action? Write its two examples.",
+            "explanation": "किसी उद्दीपन के प्रति मस्तिष्क से बिना सोचे-समझे अनायास होने वाली तीव्र क्रिया को प्रतिवर्ती क्रिया (Reflex Action) कहते हैं।\n\nदो उदाहरण:\n1. गर्म वस्तु को छूने पर हाथ तुरंत खींचना।\n2. आँख में धूल जाने पर पलक का तुरंत बंद होना।\n\nAn involuntary rapid response to a stimulus, without conscious thought, is called reflex action."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "तंत्रिका कोशिका का स्वच्छ नामांकित चित्र बनाइये। / Draw a neat labelled diagram of a nerve cell.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "तंत्रिका कोशिका (न्यूरॉन) का नामांकित चित्र / Labelled diagram of a Nerve Cell (Neuron)",
+          "explanation": "न्यूरॉन के मुख्य भाग:\n1. कोशिका काय (Cell Body / Cyton) — जिसमें केन्द्रक होता है\n2. डेन्ड्राइट्स (Dendrites) — उद्दीपन ग्रहण करने वाले छोटे प्रवर्ध\n3. एक्सॉन (Axon) — लम्बा प्रवर्ध जो संदेश आगे भेजता है\n4. माइलिन आवरण (Myelin Sheath) — एक्सॉन पर सुरक्षात्मक आवरण\n5. सिनैप्टिक बटन (Synaptic Knob) — एक्सॉन का अंतिम सिरा\n\n[Diagram should show: Cell body with nucleus, dendrites, axon with myelin sheath, nodes of Ranvier, synaptic knob]"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "पादपों में गुरुत्वानुवर्तन क्या होता है? लिखिये। / What is geotropism in plants? Write it.",
+            "explanation": "पादपों में गुरुत्व बल के प्रति होने वाली अनुवर्तन गति को गुरुत्वानुवर्तन (Geotropism) कहते हैं।\n- जड़ें गुरुत्व की ओर वृद्धि करती हैं → धनात्मक गुरुत्वानुवर्तन (Positive Geotropism)\n- तना गुरुत्व के विपरीत वृद्धि करता है → ऋणात्मक गुरुत्वानुवर्तन (Negative Geotropism)\n\nThe movement of plant parts in response to gravity is called geotropism."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "संतति में नर एवं मादा जनकों द्वारा आनुवंशिक योगदान में बराबरी की भागीदारी कैसे सुनिश्चित करते हैं? / How is the equal genetic contribution of male and female parents ensured in the progeny?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "संतति में नर एवं मादा के समान आनुवंशिक योगदान",
+          "explanation": "लैंगिक जनन में नर और मादा दोनों अर्धसूत्री विभाजन (Meiosis) द्वारा युग्मक (gametes) बनाते हैं, जिनमें गुणसूत्रों की संख्या आधी (अगुणित/haploid) होती है। निषेचन (Fertilisation) के समय नर युग्मक (शुक्राणु) और मादा युग्मक (अंडाणु) मिलकर द्विगुणित (diploid) युग्मनज (zygote) बनाते हैं। इस प्रकार संतति को दोनों जनकों से समान आनुवंशिक योगदान मिलता है।\n\nBoth parents produce haploid gametes via meiosis. Fertilisation combines equal genetic material from both, ensuring equal contribution in the diploid zygote."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "मेण्डल का पृथक्करण का नियम लिखकर उसका रेखाचित्र भी बनाइए। / Write the Mendel's law of separation with its ray diagram.",
+            "explanation": "पृथक्करण का नियम (Law of Segregation): किसी जीव में एक लक्षण के लिए दो कारक (एलील) होते हैं। युग्मक निर्माण के समय ये कारक अलग-अलग हो जाते हैं और प्रत्येक युग्मक में केवल एक कारक जाता है।\n\nMonohybrid Cross (Tt × Tt):\nP: Tt  ×  Tt\nF1 Gametes: T, t  ×  T, t\nF2 Ratio: TT : Tt : tt = 1 : 2 : 1\nPhenotypic ratio = 3 Tall : 1 Dwarf"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "लेंस की क्षमता किसे कहते हैं? इसका S.I. मात्रक लिखिये। / What is the power of a lens? Write its S.I. unit.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "लेंस की क्षमता (Power of a Lens)",
+          "explanation": "किसी लेंस की प्रकाश किरणों को अभिसारित या अपसारित करने की क्षमता को उस लेंस की क्षमता (Power) कहते हैं।\nP = 1/f (जहाँ f मीटर में फोकस दूरी है)\n\nSI मात्रक: डायॉप्टर (D) / SI Unit: Dioptre (D)\n\nउत्तल लेंस की क्षमता धनात्मक (+) और अवतल लेंस की क्षमता ऋणात्मक (-) होती है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "प्रकाश के परावर्तन के दो नियम लिखिये। / Write two laws of reflection of light.",
+            "explanation": "परावर्तन के दो नियम:\n1. आपतित किरण, परावर्तित किरण एवं आपतन बिन्दु पर अभिलंब — तीनों एक ही तल में होते हैं।\n2. आपतन कोण (∠i) सदैव परावर्तन कोण (∠r) के बराबर होता है। (∠i = ∠r)\n\nTwo Laws of Reflection:\n1. The incident ray, reflected ray and normal at the point of incidence all lie in the same plane.\n2. The angle of incidence equals the angle of reflection (∠i = ∠r)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "12 V विभवांतर के दो बिंदुओं के बीच 2 C आवेश को ले जाने में कितना कार्य किया जाता है? / How much work is done in moving a charge of 2 C across two points having a potential difference 12 V?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Numerical: Work done W = Q × V",
+          "explanation": "दिया है: Q = 2 C, V = 12 V\nसूत्र: W = Q × V\nW = 2 × 12\nW = 24 J (Joule)\n\nGiven: Q = 2 C, V = 12 V\nFormula: W = Q × V = 2 × 12 = 24 Joules"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "कोई विद्युत बल्ब 220 V के जनित्र से संयोजित है। यदि बल्ब से 0.50 A विद्युत धारा प्रवाहित होती है, तो बल्ब की शक्ति क्या है? / An electric bulb is connected to a generator of 220 V. If current of 0.50 A flows through the bulb, then what is the power of the bulb?",
+            "explanation": "दिया है: V = 220 V, I = 0.50 A\nसूत्र: P = V × I\nP = 220 × 0.50\nP = 110 W (Watt)\n\nGiven: V = 220 V, I = 0.50 A\nFormula: P = V × I = 220 × 0.50 = 110 Watts"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "किसी विद्युत परिपथ में लघुपथन कब होता है? विद्युत उपकरणों को विद्युत आघात से बचाने वाली युक्ति का नाम लिखिए। / When does an electric short circuit occur? Write name of the device that protect equipment from electric shock.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Short circuit and protective device",
+          "explanation": "लघुपथन (Short Circuit): जब विद्युत परिपथ में जीवित तार (Live wire) और उदासीन तार (Neutral wire) सीधे सम्पर्क में आ जाते हैं तो प्रतिरोध लगभग शून्य हो जाता है और अत्यधिक विद्युत धारा प्रवाहित होने लगती है — इसे लघुपथन कहते हैं।\n\nसुरक्षा युक्ति: विद्युत फ्यूज (Electric Fuse) / MCB (Miniature Circuit Breaker)\n\nShort circuit occurs when live and neutral wires come in direct contact. Protective device: Fuse / MCB."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "MRI किसे कहते हैं? यह किस क्षेत्र में उपयोग किया जाता है? / What is MRI? In which field is it used?",
+            "explanation": "MRI का पूर्ण रूप: Magnetic Resonance Imaging\nMRI एक चिकित्सा इमेजिंग तकनीक है जो चुम्बकीय क्षेत्र और रेडियो तरंगों का उपयोग करके शरीर के आंतरिक अंगों की विस्तृत छवि बनाती है।\n\nउपयोग: चिकित्सा क्षेत्र में — मस्तिष्क, रीढ़, जोड़ों, ट्यूमर आदि की जाँच में।\n\nMRI (Magnetic Resonance Imaging) is used in the medical field for imaging internal body organs and tissues."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "फ्लेमिंग का वामहस्त नियम किसे कहते हैं? इसका एक उपयोग लिखिए। / What is Fleming's left hand rule? Write one use of it.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "फ्लेमिंग का वामहस्त नियम / Fleming's Left Hand Rule",
+          "explanation": "बायें हाथ की तर्जनी (Index finger), मध्यमा (Middle finger) और अँगूठे (Thumb) को परस्पर लम्बवत् फैलाइए:\n- तर्जनी → चुम्बकीय क्षेत्र (B) की दिशा\n- मध्यमा → विद्युत धारा (I) की दिशा\n- अँगूठा → चालक पर बल (F) की दिशा\n\nउपयोग: विद्युत मोटर में चालक की गति की दिशा ज्ञात करने में।\n\nIf the index finger, middle finger and thumb of left hand are stretched perpendicular to each other: index finger = magnetic field direction, middle finger = current direction, thumb = force direction. Use: In electric motor."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "परिनालिका किसे कहते हैं? एक उपयोग लिखिए। / What is solenoid? Write one use.",
+            "explanation": "किसी विद्युतरोधी तार को बेलनाकार आकृति में लपेटकर बनाई गई कुण्डली को परिनालिका (Solenoid) कहते हैं। इसमें विद्युत धारा प्रवाहित करने पर यह एक छड़ चुम्बक की तरह व्यवहार करती है।\n\nएक उपयोग: विद्युत चुम्बक (Electromagnet) बनाने में।\n\nA coil of insulated wire wound in cylindrical form is called a solenoid. Use: Making electromagnets."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "ओजोन परत के क्षरण के दो मुख्य कारणों को लिखिये। / Write two main causes of ozone layer depletion.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "ओजोन परत के क्षरण के दो मुख्य कारण / Two main causes of ozone layer depletion",
+          "explanation": "1. क्लोरोफ्लुओरोकार्बन (CFCs): रेफ्रिजरेटर, एयरकंडीशनर और एरोसोल स्प्रे में प्रयुक्त CFC गैसें ओजोन परत को नष्ट करती हैं।\n2. नाइट्रोजन ऑक्साइड (NOx): जेट विमान और उद्योगों से उत्सर्जित NO और NO₂ ओजोन को विघटित करते हैं।\n\n1. Chlorofluorocarbons (CFCs) from refrigerators, ACs and aerosol sprays deplete ozone.\n2. Nitrogen oxides (NOx) from jet aircraft and industries break down ozone molecules."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "अजैव निम्नीकरण पदार्थ किसे कहते हैं? कोई दो उदाहरण लिखिए। / What are non-biodegradable substances? Write any two examples.",
+            "explanation": "वे पदार्थ जिन्हें सूक्ष्मजीव (जीवाणु, कवक) अपघटित नहीं कर सकते अर्थात् जो प्रकृति में नष्ट नहीं होते, अजैव निम्नीकरण पदार्थ कहलाते हैं।\n\nदो उदाहरण:\n1. प्लास्टिक (Plastic)\n2. DDT (कीटनाशक)\n\nSubstances that cannot be decomposed by microorganisms are non-biodegradable. Examples: 1. Plastic, 2. DDT."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "साबुन की सफाई प्रक्रिया की क्रियाविधि लिखिये। / Write the cleansing action of a soap.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "साबुन की सफाई की क्रियाविधि / Cleansing Action of Soap",
+          "explanation": "साबुन के अणु में दो भाग होते हैं:\n1. हाइड्रोफिलिक सिरा (Hydrophilic end) — जल में घुलनशील (ionic end)\n2. हाइड्रोफोबिक सिरा (Hydrophobic end) — तेल/ग्रीस में घुलनशील (carbon chain end)\n\nक्रियाविधि:\n- जब कपड़े को साबुन के पानी में डाला जाता है, साबुन के अणुओं के हाइड्रोफोबिक सिरे तेल/मैल के कण से जुड़ जाते हैं।\n- हाइड्रोफिलिक सिरे जल की ओर रहते हैं।\n- इस प्रकार मिसेल (Micelle) बनती है जिसमें मैल अन्दर और आयनिक भाग बाहर रहता है।\n- धोने पर मिसेल जल के साथ बह जाती है और कपड़ा साफ हो जाता है।\n\nSoap molecules have a hydrophilic (water-loving) head and hydrophobic (oil-loving) tail. The hydrophobic end attaches to dirt/grease and hydrophilic end stays in water, forming micelles which carry dirt away when rinsed."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "निम्नलिखित यौगिकों का संरचना सूत्र बनाइये : (i) क्लोरोप्रोपेन (ii) प्रोपेनॉल (iii) एथेनॉल / Making the structural formula of following compounds: (i) Chloropropane (ii) Propanol (iii) Ethanol",
+            "explanation": "(i) Chloropropane (C₃H₇Cl):\nH H H\n| | |\nH–C–C–C–Cl\n| | |\nH H H\n\n(ii) Propanol (C₃H₇OH):\nH H H\n| | |\nH–C–C–C–OH\n| | |\nH H H\n\n(iii) Ethanol (C₂H₅OH):\nH H\n| |\nH–C–C–OH\n| |\nH H"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "क्या होता है जब अंड का निषेचन नहीं होता? / What happens when the egg is not fertilized?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "जब अंड का निषेचन नहीं होता / When the egg is not fertilized",
+          "explanation": "जब अंड का निषेचन नहीं होता:\n1. अंडाणु जीवित नहीं रहता और लगभग 1 दिन में नष्ट हो जाता है।\n2. गर्भाशय की दीवार का मोटा हुआ श्लेष्मा आवरण (endometrium) टूटकर रक्त और म्यूकस के साथ योनि मार्ग से बाहर निकल जाता है — इसे माहवारी / ऋतुस्राव (Menstruation) कहते हैं।\n3. यह चक्र प्रति 28 दिन में दोहराया जाता है।\n\nWhen the egg is not fertilized:\n1. The unfertilized egg degenerates.\n2. The thickened uterine lining breaks down and is discharged as blood and mucus — this is called menstruation.\n3. The menstrual cycle repeats approximately every 28 days."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "ऊतक संवर्धन तकनीक द्वारा नया पौधा किस प्रकार विकसित (उत्पन्न) किया जा सकता है? / How to produce new plant by tissue culture technique?",
+            "explanation": "ऊतक संवर्धन (Tissue Culture) की विधि:\n1. पादप के मेरिस्टेम ऊतक का एक छोटा टुकड़ा (Explant) लिया जाता है।\n2. इसे पोषक माध्यम (Nutrient medium) वाले निर्जर्मीकृत (Sterile) पात्र में रखा जाता है।\n3. उचित ताप, प्रकाश और हार्मोन (ऑक्सिन व साइटोकाइनिन) की उपस्थिति में Explant से कोशिका विभाजन होता है और कैलस (Callus) बनता है।\n4. कैलस से अंततः पूर्ण पौधा विकसित होता है।\nइस विधि से कम समय में बड़ी संख्या में एकसमान पौधे प्राप्त किये जा सकते हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "मानव नेत्र में जरा दूरदृष्टिता होने का कारण लिखिए। / Write the main causes of presbyopia in human eye.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "जरा दूरदृष्टिता (Presbyopia) के कारण",
+          "explanation": "जरा दूरदृष्टिता (Presbyopia) — वृद्धावस्था में होने वाला नेत्र दोष:\n\nकारण:\n1. आयु बढ़ने के साथ नेत्र की सिलियरी पेशियाँ (Ciliary muscles) कमजोर हो जाती हैं।\n2. नेत्र लेंस की लचीलापन (Elasticity) कम हो जाती है।\n3. इस कारण नेत्र के निकट बिन्दु और दूर बिन्दु दोनों बदल जाते हैं — निकट और दूर दोनों की वस्तुएँ अस्पष्ट दिखती हैं।\n\nउपचार: द्विफोकसी (Bifocal) लेंस का उपयोग।\n\nCauses of Presbyopia:\n1. Weakening of ciliary muscles with age.\n2. Loss of flexibility/elasticity of eye lens.\n3. Both near and far objects become unclear. Correction: Bifocal lenses."
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "स्वच्छ आकाश का रंग नीला क्यों होता है? / Why the colour of the clear sky is blue?",
+            "explanation": "प्रकाश का प्रकीर्णन (Scattering of Light) — रेले का नियम:\n\nजब सूर्य का प्रकाश वायुमंडल में प्रवेश करता है तो वायु के छोटे कण (N₂, O₂ अणु) प्रकाश का प्रकीर्णन करते हैं।\n\nप्रकीर्णन की मात्रा ∝ 1/λ⁴ (तरंगदैर्ध्य के चतुर्थ घात के व्युत्क्रमानुपाती)\n\nनीले प्रकाश की तरंगदैर्ध्य (≈ 450 nm) लाल प्रकाश (≈ 700 nm) से कम होती है, इसलिए नीले प्रकाश का प्रकीर्णन अधिक होता है। अतः आकाश नीला दिखाई देता है।\n\nBlue light (shorter wavelength) is scattered much more than red light by atmospheric particles. So the sky appears blue (Rayleigh Scattering)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "निम्नलिखित रासायनिक समीकरणों को संतुलित कीजिए और लिखिये : / Balance the following chemical reactions and write :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Fe + H₂O → Fe₃O₄ + H₂",
+          "explanation": "संतुलित समीकरण / Balanced equation:\n3Fe + 4H₂O → Fe₃O₄ + 4H₂\n\nजाँच: Fe: 3=3 ✓, H: 8=8 ✓, O: 4=4 ✓"
+        },
+        {
+          "q_id": "ii",
+          "statement": "H₂ + Cl₂ → HCl",
+          "explanation": "संतुलित समीकरण / Balanced equation:\nH₂ + Cl₂ → 2HCl\n\nजाँच: H: 2=2 ✓, Cl: 2=2 ✓"
+        },
+        {
+          "q_id": "iii",
+          "statement": "Na + H₂O → NaOH + H₂",
+          "explanation": "संतुलित समीकरण / Balanced equation:\n2Na + 2H₂O → 2NaOH + H₂\n\nजाँच: Na: 2=2 ✓, H: 4=4 ✓, O: 2=2 ✓"
+        },
+        {
+          "q_id": "iv",
+          "statement": "AgCl → Ag + Cl₂",
+          "explanation": "संतुलित समीकरण / Balanced equation:\n2AgCl → 2Ag + Cl₂\n\nजाँच: Ag: 2=2 ✓, Cl: 2=2 ✓"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "text_detail": "निम्न रासायनिक अभिक्रियाओं के लिए संतुलित रासायनिक समीकरण लिखिये : / Write balanced chemical reactions for the following chemical reactions :",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Zinc carbonate → Zinc oxide + Carbon dioxide / जिंक कार्बोनेट → जिंक ऑक्साइड + कार्बन डाइऑक्साइड",
+            "explanation": "ZnCO₃ → ZnO + CO₂\n(पहले से संतुलित / Already balanced)"
+          },
+          {
+            "q_id": "ii",
+            "statement": "Magnesium + Hydrochloric acid → Magnesium chloride + Hydrogen / मैग्नीशियम + हाइड्रोक्लोरिक अम्ल → मैग्नीशियम क्लोराइड + हाइड्रोजन",
+            "explanation": "Mg + 2HCl → MgCl₂ + H₂\n\nजाँच: Mg:1=1 ✓, H:2=2 ✓, Cl:2=2 ✓"
+          },
+          {
+            "q_id": "iii",
+            "statement": "Lead + Copper chloride → Lead chloride + Copper / लेड + कॉपर क्लोराइड → लेड क्लोराइड + कॉपर",
+            "explanation": "Pb + CuCl₂ → PbCl₂ + Cu\n(पहले से संतुलित / Already balanced)"
+          },
+          {
+            "q_id": "iv",
+            "statement": "Sodium sulphate + Barium chloride → Barium sulphate + Sodium chloride / सोडियम सल्फेट + बेरियम क्लोराइड → बेरियम सल्फेट + सोडियम क्लोराइड",
+            "explanation": "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl\n\nजाँच: Na:2=2 ✓, SO₄:1=1 ✓, Ba:1=1 ✓, Cl:2=2 ✓"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "(i) मानव उत्सर्जन तंत्र का स्वच्छ नामांकित चित्र बनाइये। (ii) स्वस्थ वयस्क मनुष्य का रक्तदाब कितना होता है? / (i) Draw a neat labelled diagram of the human excretory system. (ii) What is the blood pressure of a healthy adult?",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "मानव उत्सर्जन तंत्र का नामांकित चित्र / Labelled diagram of Human Excretory System",
+          "explanation": "मानव उत्सर्जन तंत्र के मुख्य अंग:\n1. वृक्क / Kidney (दो) — मूत्र का निर्माण\n2. मूत्रवाहिनी / Ureter — मूत्र को मूत्राशय तक ले जाती है\n3. मूत्राशय / Urinary Bladder — मूत्र संचित करता है\n4. मूत्रमार्ग / Urethra — मूत्र को बाहर निकालता है\n5. वृक्क धमनी / Renal Artery — शुद्ध रक्त वृक्क में लाती है\n6. वृक्क शिरा / Renal Vein — शोधित रक्त वृक्क से वापस ले जाती है\n\n[Diagram: Two kidneys on either side of spine, connected to urinary bladder via ureters, urethra below bladder]"
+        },
+        {
+          "q_id": "ii",
+          "statement": "स्वस्थ वयस्क मनुष्य का रक्तदाब / Blood pressure of a healthy adult",
+          "explanation": "स्वस्थ वयस्क मनुष्य का सामान्य रक्तदाब:\nप्रकुंचन दाब (Systolic pressure): 120 mm Hg\nअनुशिथिलन दाब (Diastolic pressure): 80 mm Hg\nसामान्य रक्तदाब = 120/80 mm Hg"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "वायवीय व अवायवीय श्वसन में कोई तीन अंतर लिखिए। / Write any three differences between aerobic and anaerobic respiration.",
+            "explanation": "वायवीय श्वसन (Aerobic)      | अवायवीय श्वसन (Anaerobic)\n1. ऑक्सीजन आवश्यक है         | ऑक्सीजन आवश्यक नहीं\n2. CO₂ और H₂O बनते हैं       | इथेनॉल/लैक्टिक अम्ल बनता है\n3. अधिक ऊर्जा (38 ATP) मिलती  | कम ऊर्जा (2 ATP) मिलती है\n4. माइटोकॉन्ड्रिया में होता है  | कोशिकाद्रव्य में होता है\n\nThree differences:\n1. Aerobic needs O₂; anaerobic does not.\n2. Aerobic produces CO₂ and H₂O; anaerobic produces ethanol/lactic acid.\n3. Aerobic yields more energy (38 ATP); anaerobic yields less (2 ATP)."
+          },
+          {
+            "q_id": "ii",
+            "statement": "दंतक्षरण कैसे होता है? / How does tooth decay occur?",
+            "explanation": "दंतक्षरण (Tooth Decay) की प्रक्रिया:\n1. मुँह में उपस्थित जीवाणु (Bacteria) भोजन के शर्करा अवशेषों पर क्रिया करके अम्ल उत्पन्न करते हैं।\n2. यह अम्ल दाँत के इनेमल (Enamel) को घुला देता है।\n3. धीरे-धीरे दाँत का क्षय होने लगता है और दर्द होता है।\n\nBacteria in the mouth act on sugar residues to produce acid. This acid dissolves tooth enamel, leading to tooth decay (dental caries)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "किसी ऑटोमोबाइल में पीछे का दृश्य देखने के लिए उपयोग होने वाले उत्तल दर्पण की वक्रता त्रिज्या 3.0 मीटर है। यदि एक बस इस दर्पण से 5.00 मीटर की दूरी पर स्थित है, तो प्रतिबिंब की स्थिति, प्रकृति तथा साइज ज्ञात कीजिए। / A convex mirror used for rear view viewing in an automobile has a radius of curvature of 3.00 meters. If a bus is located 5.00 meters from this mirror, then find the position, nature and size of the image.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Convex Mirror Numerical (Rear-view mirror)",
+          "explanation": "दिया है / Given:\nR = +3.0 m (उत्तल दर्पण के लिए धनात्मक)\nf = R/2 = +3.0/2 = +1.5 m\nu = –5.0 m (वस्तु दर्पण के सामने, अतः ऋणात्मक)\n\nदर्पण सूत्र / Mirror Formula:\n1/v + 1/u = 1/f\n1/v = 1/f – 1/u\n1/v = 1/1.5 – 1/(–5.0)\n1/v = 1/1.5 + 1/5.0\n1/v = 10/15 + 3/15\n1/v = 13/15\nv = 15/13 ≈ +1.15 m\n\nआवर्धन / Magnification:\nm = –v/u = –(+1.15)/(–5.0) = +0.23\n\nपरिणाम / Results:\n→ प्रतिबिंब की स्थिति: दर्पण के पीछे 1.15 m (लगभग) / Image position: ~1.15 m behind mirror\n→ प्रकृति: आभासी और सीधा / Nature: Virtual and erect\n→ साइज: वस्तु से छोटा (m = +0.23) / Size: Diminished (0.23 times the object)"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "कोई 4.0 cm साइज का बिंब किसी 15.0 cm फोकस दूरी के अवतल दर्पण से 25.0 cm दूरी पर रखा है। दर्पण से कितनी दूरी पर किसी परदे को रखा जाए कि स्पष्ट प्रतिबिंब प्राप्त हो? प्रतिबिंब की प्रकृति तथा साइज ज्ञात कीजिए। / A 4.0 cm sized object is placed 25.0 cm in front of a concave mirror of focal length 15.0 cm. At what distance from the mirror should a screen be placed to obtain a clear image? Find the nature and size of the image.",
+            "explanation": "दिया है / Given:\nObject size (h) = 4.0 cm\nf = –15.0 cm (अवतल दर्पण)\nu = –25.0 cm\n\nदर्पण सूत्र:\n1/v + 1/u = 1/f\n1/v = 1/f – 1/u\n1/v = 1/(–15) – 1/(–25)\n1/v = –1/15 + 1/25\n1/v = (–5 + 3)/75\n1/v = –2/75\nv = –75/2 = –37.5 cm\n\nआवर्धन:\nm = –v/u = –(–37.5)/(–25) = –1.5\n\nप्रतिबिंब का साइज:\nh' = m × h = –1.5 × 4.0 = –6.0 cm\n\nपरिणाम / Results:\n→ परदे की दूरी: 37.5 cm (दर्पण के सामने) / Screen distance: 37.5 cm in front of mirror\n→ प्रकृति: वास्तविक और उलटा / Nature: Real and inverted\n→ साइज: 6.0 cm (वस्तु से बड़ा, आवर्धित) / Size: 6.0 cm (magnified)"
+          }
+        ]
+      }
+    }
+  ]
+}
