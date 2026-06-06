@@ -476,6 +476,7 @@
             "q_id": "",
             "statement": "यदि TP, TQ केन्द्र O वाले किसी वृत्त पर दो स्पर्श रेखाएँ इस प्रकार हैं कि ∠POQ = 110°, तो ∠PTQ ज्ञात कीजिए।",
             "correct_answer": "",
+            "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_12_or.PNG"
             "explanation": "दिया है: ∠POQ = 110°\n\nचूँकि TP और TQ स्पर्श रेखाएँ हैं:\n∠TPO = ∠TQO = 90°\n\nचतुर्भुज TPOQ में:\n∠PTQ + ∠TPO + ∠POQ + ∠TQO = 360°\n∠PTQ + 90° + 110° + 90° = 360°\n∠PTQ + 290° = 360°\n∠PTQ = 70°\n\nअतः ∠PTQ = 70°।"
           }
         ]
