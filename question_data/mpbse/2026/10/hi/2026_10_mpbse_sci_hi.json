@@ -209,49 +209,41 @@
           {
             "a_item": "(i) श्वसन",
             "b_item": "(a) मेथिल ऑरेंज",
-            "correct_match_index": "1",
+            "correct_match_index": "2",
             "explanation": "श्वसन क्रिया में ऊर्जा मुक्त होती है, इसलिए यह ऊष्माक्षेपी (Exothermic) अभिक्रिया है।"
           },
           {
             "a_item": "(ii) संश्लेषित सूचक",
             "b_item": "(b) ऊष्माक्षेपी अभिक्रिया",
-            "correct_match_index": "5",
+            "correct_match_index": "1",
             "explanation": "मेथिल ऑरेंज एक संश्लेषित (Synthetic) सूचक है जो अम्ल में लाल और क्षार में पीला हो जाता है।"
           },
           {
             "a_item": "(iii) सर्वाधिक तन्य धातु",
             "b_item": "(c) इंसुलिन",
-            "correct_match_index": "3",
+            "correct_match_index": "4",
             "explanation": "सोना (Gold) सबसे अधिक तन्य (Ductile) धातु है। इसे बहुत पतले तार में खींचा जा सकता है।"
           },
           {
             "a_item": "(iv) रक्त में शर्करा नियमन",
             "b_item": "(d) गोल्ड",
-            "correct_match_index": "2",
+            "correct_match_index": "3",
             "explanation": "इंसुलिन हार्मोन रक्त में शर्करा (Blood Sugar) के स्तर को नियंत्रित करता है।"
           },
           {
             "a_item": "(v) मुकुलन",
             "b_item": "(e) मेंडल",
-            "correct_match_index": "5",
+            "correct_match_index": "6",
             "explanation": "हाइड्रा में अलैंगिक जनन मुकुलन (Budding) द्वारा होता है।"
           },
           {
             "a_item": "(vi) वंशागति नियम",
             "b_item": "(f) हाइड्रा",
-            "correct_match_index": "4",
+            "correct_match_index": "5",
             "explanation": "वंशागति के नियम ग्रेगर जॉन मेंडल ने दिए थे, इसलिए उन्हें 'आनुवंशिकी के पिता' कहा जाता है।"
           }
         ] 
-      },
-	"explanation": {
-          "(i) श्वसन": "(b) ऊष्माक्षेपी अभिक्रिया",
-          "(ii) संश्लेषित सूचक": "(a) मेथिल ऑरेंज",
-          "(iii) सर्वाधिक तन्य धातु": "(d) गोल्ड",
-          "(iv) रक्त में शर्करा नियमन": "(c) इंसुलिन",
-          "(v) मुकुलन": "(f) हाइड्रा",
-          "(vi) वंशागति नियम": "(e) मेंडल"
-        }
+      }
     },
     {
       "question_number": "5",
