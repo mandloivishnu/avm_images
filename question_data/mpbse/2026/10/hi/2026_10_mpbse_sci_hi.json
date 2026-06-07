@@ -247,7 +247,7 @@
     },
     {
       "question_number": "5",
-      "question_type": "ONE_WORD_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "1×6=6",
       "text": "एक शब्द/वाक्य में उत्तर लिखिए :",
       "parts": [
@@ -291,7 +291,7 @@
     },
     {
       "question_number": "6",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "अम्लीय वर्षा किसे कहते हैं?",
@@ -304,7 +304,7 @@
     },
     {
       "question_number": "7",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "विरजक चूर्ण के कोई दो उपयोग लिखिए।",
@@ -317,7 +317,7 @@
     },
     {
       "question_number": "8",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "ध्वानिक किसे कहते हैं?",
@@ -330,7 +330,7 @@
     },
     {
       "question_number": "9",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "वैद्युत संयोजक यौगिक किसे कहा जाता है?",
@@ -343,7 +343,7 @@
     },
     {
       "question_number": "10",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "पादप हार्मोन्स क्या होते हैं? इसके दो उदाहरण लिखिए।",
@@ -356,7 +356,7 @@
     },
     {
       "question_number": "11",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "तंत्रिका कोशिका का स्वच्छ नामांकित चित्र बनाइए।",
@@ -369,7 +369,7 @@
     },
     {
       "question_number": "12",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "संतति में नर एवं मादा जनकों द्वारा आनुवंशिक योगदान में बराबरी की भागीदारी कैसे सुनिश्चित करते हैं?",
@@ -382,7 +382,7 @@
     },
     {
       "question_number": "13",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "लेंस की क्षमता किसे कहते हैं? इसका S.I. मात्रक लिखिए।",
@@ -395,7 +395,7 @@
     },
     {
       "question_number": "14",
-      "question_type": "NUMERICAL",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "12 V विभवांतर के दो बिंदुओं के बीच 2 C आवेश को ले जाने में कितना कार्य किया जाता है?",
@@ -408,7 +408,7 @@
     },
     {
       "question_number": "15",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "किसी विद्युत परिपथ में लघुपथन कब होता है? विद्युत उपकरणों को विद्युत आघात से बचाने वाली युक्ति का नाम लिखिए।",
@@ -421,7 +421,7 @@
     },
     {
       "question_number": "16",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "फ्लेमिंग का वामहस्त नियम किसे कहते हैं? इसका एक उपयोग लिखिए।",
@@ -434,7 +434,7 @@
     },
     {
       "question_number": "17",
-      "question_type": "SHORT_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "लगभग 30 शब्द",
       "text": "ओजोन परत के क्षरण के दो मुख्य कारणों को लिखिए।",
@@ -447,7 +447,7 @@
     },
     {
       "question_number": "18",
-      "question_type": "LONG_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "3",
       "word_limit": "लगभग 75 शब्द",
       "text": "साबुन की सफाई प्रक्रिया की क्रियाविधि लिखिए।",
@@ -460,7 +460,7 @@
     },
     {
       "question_number": "19",
-      "question_type": "LONG_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "3",
       "word_limit": "लगभग 75 शब्द",
       "text": "क्या होता है जब अंड का निषेचन नहीं होता?",
@@ -473,7 +473,7 @@
     },
     {
       "question_number": "20",
-      "question_type": "LONG_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "3",
       "word_limit": "लगभग 75 शब्द",
       "text": "मानव नेत्र में जरा दूरदृष्टिता होने का कारण लिखिए।",
@@ -486,7 +486,7 @@
     },
     {
       "question_number": "21",
-      "question_type": "LONG_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "4",
       "word_limit": "लगभग 120 शब्द",
       "text": "निम्नलिखित रासायनिक समीकरण संतुलित कीजिए और लिखिए:\n(i) Fe + H₂O → Fe₃O₄ + H₂\n(ii) H₂ + Cl₂ → HCl\n(iii) Na + H₂O → NaOH + H₂\n(iv) AgCl → Ag + Cl₂",
@@ -499,7 +499,7 @@
     },
     {
       "question_number": "22",
-      "question_type": "LONG_ANSWER",
+      "question_type": "DESCRIPTIVE",
       "marks": "4",
       "word_limit": "लगभग 120 शब्द",
       "parts": [
@@ -532,7 +532,7 @@
     },
     {
       "question_number": "23",
-      "question_type": "NUMERICAL",
+      "question_type": "DESCRIPTIVE",
       "marks": "4",
       "word_limit": "लगभग 120 शब्द",
       "text": "किसी ऑटोमोबाइल में पीछे का दृश्य देखने के लिए उपयोग होने वाले उत्तल दर्पण की वक्रता त्रिज्या 3.0 मीटर है। यदि एक बस इस दर्पण से 5.00 मीटर की दूरी पर स्थित है, तो प्रतिबिंब की स्थिति, प्रकृति तथा साइज़ ज्ञात कीजिए।",
