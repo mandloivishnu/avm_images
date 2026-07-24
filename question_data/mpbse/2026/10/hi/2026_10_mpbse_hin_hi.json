@@ -221,57 +221,57 @@
         }
       ]
     },
-    {
-      "question_number": "4",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1*6=6",
-      "text": "सही जोड़ी का मिलान कर लिखिए :",
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "Matching pairs are provided with correct indexes.",
-      "columns": {
-        "column_A_title": "स्तम्भ (क)",
-        "column_B_title": "स्तम्भ (ख)",
-        "pairs": [
-          {
-            "a_item": "(i) उत्साह",
-            "b_item": "सूर्यकांत त्रिपाठी 'निराला'",
-            "correct_match_index": "ङ",
-            "explanation": "'उत्साह' कविता के रचनाकार सूर्यकांत त्रिपाठी 'निराला' हैं।"
-          },
-          {
-            "a_item": "(ii) अर्द्धसममात्रिक छन्द",
-            "b_item": "दोहा",
-            "correct_match_index": "ग",
-            "explanation": "दोहा अर्द्धसममात्रिक छंद का उदाहरण है।"
-          },
-          {
-            "a_item": "(iii) नेताजी का चश्मा",
-            "b_item": "देशभक्ति की भावना",
-            "correct_match_index": "च",
-            "explanation": "'नेताजी का चश्मा' पाठ में देशभक्ति की भावना प्रमुख विषय है।"
-          },
-          {
-            "a_item": "(iv) एक से अधिक अर्थ देने वाले शब्द",
-            "b_item": "अनेकार्थी शब्द",
-            "correct_match_index": "क",
-            "explanation": "एक से अधिक अर्थ देने वाले शब्दों को अनेकार्थी शब्द कहते हैं।"
-          },
-          {
-            "a_item": "(v) 'त्रिभुवन' में समास है",
-            "b_item": "द्विगु समास",
-            "correct_match_index": "घ",
-            "explanation": "'त्रिभुवन' (तीनों भुवनों का समाहार) में द्विगु समास है।"
-          },
-          {
-            "a_item": "(vi) प्रेयर-व्हील",
-            "b_item": "धर्म-चक्र",
-            "correct_match_index": "ख",
-            "explanation": "प्रेयर-व्हील को 'धर्म-चक्र' कहा जाता है, जिसका उल्लेख 'साना-साना हाथ जोड़ि' पाठ में है।"
-          }
-        ]
+   {
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1*6=6",
+  "text": "सही जोड़ी का मिलान कर लिखिए :",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "Matching pairs are provided with correct indexes.",
+  "columns": {
+    "column_A_title": "स्तम्भ (क)",
+    "column_B_title": "स्तम्भ (ख)",
+    "pairs": [
+      {
+        "a_item": "(i) उत्साह",
+        "b_item": "सूर्यकांत त्रिपाठी 'निराला'",
+        "correct_match_index": "1",
+        "explanation": "'उत्साह' कविता के रचनाकार सूर्यकांत त्रिपाठी 'निराला' हैं।"
+      },
+      {
+        "a_item": "(ii) अर्द्धसममात्रिक छन्द",
+        "b_item": "दोहा",
+        "correct_match_index": "2",
+        "explanation": "दोहा अर्द्धसममात्रिक छंद का उदाहरण है।"
+      },
+      {
+        "a_item": "(iii) नेताजी का चश्मा",
+        "b_item": "देशभक्ति की भावना",
+        "correct_match_index": "3",
+        "explanation": "'नेताजी का चश्मा' पाठ में देशभक्ति की भावना प्रमुख विषय है।"
+      },
+      {
+        "a_item": "(iv) एक से अधिक अर्थ देने वाले शब्द",
+        "b_item": "अनेकार्थी शब्द",
+        "correct_match_index": "4",
+        "explanation": "एक से अधिक अर्थ देने वाले शब्दों को अनेकार्थी शब्द कहते हैं।"
+      },
+      {
+        "a_item": "(v) 'त्रिभुवन' में समास है",
+        "b_item": "द्विगु समास",
+        "correct_match_index": "5",
+        "explanation": "'त्रिभुवन' (तीनों भुवनों का समाहार) में द्विगु समास है।"
+      },
+      {
+        "a_item": "(vi) प्रेयर-व्हील",
+        "b_item": "धर्म-चक्र",
+        "correct_match_index": "6",
+        "explanation": "प्रेयर-व्हील को 'धर्म-चक्र' कहा जाता है, जिसका उल्लेख 'साना-साना हाथ जोड़ि' पाठ में है।"
       }
-    },
+    ]
+  }
+},
     {
       "question_number": "5",
       "question_type": "UNSEEN_PASSAGE_PROSE",
