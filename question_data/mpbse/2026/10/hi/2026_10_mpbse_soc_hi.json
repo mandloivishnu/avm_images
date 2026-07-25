@@ -1,0 +1,869 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "SOCIAL SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "setName": "SET C",
+    "totalQuestions": "23",
+    "time": "3 Hours",
+    "language": "Hindi & English Versions",
+    "rollCode": "261116"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "एक शब्द",
+      "text": "एक शब्द में उत्तर दीजिए / Answer in one word:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "सरकार का कौन-सा रूप बेहतर है? / Which is a better form of government?",
+          "correct_answer": "लोकतांत्रिक शासन प्रणाली",
+          "explanation": "लोकतांत्रिक शासन प्रणाली नागरिकों की भागीदारी, जवाबदेही एवं गरिमा को सुनिश्चित करने के कारण सरकार का सर्वोत्तम रूप मानी जाती है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "विश्व की सबसे लंबी राजमार्ग सुरंग का नाम लिखिए। / Write the name of the world's longest Highway Tunnel.",
+          "correct_answer": "लार्दल सुरंग (नॉर्वे)",
+          "explanation": "लार्दल सुरंग (Laerdal Tunnel), नॉर्वे में स्थित है और यह विश्व की सबसे लंबी सड़क सुरंगों में से एक है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "प्रतिरक्षा और विदेशी मामले कौन-सी सूची में शामिल होते हैं? / In which list defence of the country and foreign affairs are included?",
+          "correct_answer": "संघ सूची",
+          "explanation": "प्रतिरक्षा एवं विदेशी मामले जैसे राष्ट्रीय महत्व के विषय संघ सूची में सम्मिलित हैं, जिन पर केवल केन्द्र सरकार कानून बना सकती है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "1815 में वियना सम्मेलन की मेज़बानी किसने की थी? / Who hosted the Vienna Congress in 1815?",
+          "correct_answer": "ऑस्ट्रिया के चांसलर ड्यूक मेटरनिख",
+          "explanation": "1815 में हुए वियना सम्मेलन की अध्यक्षता ऑस्ट्रिया के चांसलर ड्यूक मेटरनिख ने की थी।"
+        },
+        {
+          "q_id": "v",
+          "statement": "सन् 1857 की क्रान्ति में मध्य प्रदेश का प्रमुख केन्द्र क्या था? / What was the main centre of Madhya Pradesh in the revolution of 1857?",
+          "correct_answer": "मंडला एवं जबलपुर",
+          "explanation": "1857 की क्रांति में मध्य प्रदेश के मंडला (रानी अवंतीबाई लोधी के नेतृत्व में) तथा जबलपुर प्रमुख केन्द्र थे।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "मानव विकास सूचकांक कौन-सी संस्था जारी करती है? / Which organization releases Human Development Index?",
+          "correct_answer": "संयुक्त राष्ट्र विकास कार्यक्रम (UNDP)",
+          "explanation": "मानव विकास सूचकांक (HDI) प्रतिवर्ष संयुक्त राष्ट्र विकास कार्यक्रम (UNDP) द्वारा जारी किया जाता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "खाज्या नायक प्रतिदिन सूर्य पूजा करने कहाँ जाया करते थे? / Where did Khajya Nayak go to worship the sun everyday?",
+          "options": [
+            {"index": "अ/a", "text": "मंदिर में / In the temple"},
+            {"index": "ब/b", "text": "पीपल के पेड़ के पास / Near the peepal tree"},
+            {"index": "स/c", "text": "घर की छत पर / On the terrace of house"},
+            {"index": "द/d", "text": "नदी के किनारे / To the river bank"}
+          ],
+          "correct_index": "द/d",
+          "correct_answer": "नदी के किनारे",
+          "explanation": "खाज्या नायक प्रतिदिन सूर्य पूजा करने नदी के किनारे जाया करते थे।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "जापान की सबसे पुरानी 868 ई. में छपी पुस्तक है / The oldest Japanese book printed in 868 A.D. is :",
+          "options": [
+            {"index": "अ/a", "text": "त्रिपीटका कोरियाना / Tripitaka Koreana"},
+            {"index": "ब/b", "text": "डायमंड सूत्र / Diamond Sutra"},
+            {"index": "स/c", "text": "उकियो / An Ukiyo"},
+            {"index": "द/d", "text": "सुबह की मजारा / A Morning Scene"}
+          ],
+          "correct_index": "ब/b",
+          "correct_answer": "डायमंड सूत्र",
+          "explanation": "868 ई. में छपी 'डायमंड सूत्र' जापान की सबसे पुरानी मुद्रित पुस्तक मानी जाती है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "भारत का पहला राज्य, जिसने राज्य भर के सभी घरों में छत पर वर्षा जल संचयन संरचना अनिवार्य कर दी है / It is the first state in India which has made rooftop rainwater harvesting structures mandatory for all houses across the state:",
+          "options": [
+            {"index": "अ/a", "text": "राजस्थान / Rajasthan"},
+            {"index": "ब/b", "text": "मेघालय / Meghalaya"},
+            {"index": "स/c", "text": "तमिलनाडु / Tamil Nadu"},
+            {"index": "द/d", "text": "हिमाचल प्रदेश / Himachal Pradesh"}
+          ],
+          "correct_index": "स/c",
+          "correct_answer": "तमिलनाडु",
+          "explanation": "तमिलनाडु भारत का पहला राज्य है जिसने संपूर्ण राज्य में छत पर वर्षा जल संचयन संरचना को अनिवार्य किया।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "निम्नलिखित में कौन-सी एक क्रिया प्राथमिक क्षेत्रक की है? / Which one of the following activities belongs to primary sector?",
+          "options": [
+            {"index": "अ/a", "text": "मछली पकड़ना / Fisheries"},
+            {"index": "ब/b", "text": "विनिर्माण / Manufacturing"},
+            {"index": "स/c", "text": "मिट्टी से ईंट बनाना / To convert earth into bricks"},
+            {"index": "द/d", "text": "गुड़ बनाना / To make gur"}
+          ],
+          "correct_index": "अ/a",
+          "correct_answer": "मछली पकड़ना",
+          "explanation": "मछली पकड़ना एक ऐसी क्रिया है जिसमें प्राकृतिक संसाधनों का प्रत्यक्ष उपयोग किया जाता है, अतः यह प्राथमिक क्षेत्रक की गतिविधि है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "बहुराष्ट्रीय कम्पनियों द्वारा किया गया निवेश कहलाता है / Investments made by multinational companies is called :",
+          "options": [
+            {"index": "अ/a", "text": "विदेशी निवेश / Foreign investments"},
+            {"index": "ब/b", "text": "पोर्टफोलियो निवेश / Portfolio investments"},
+            {"index": "स/c", "text": "म्यूचुअल निवेश / Mutual investments"},
+            {"index": "द/d", "text": "अन्तः सरकारी निवेश / Inter-government investments"}
+          ],
+          "correct_index": "अ/a",
+          "correct_answer": "विदेशी निवेश",
+          "explanation": "बहुराष्ट्रीय कम्पनियों द्वारा दूसरे देशों में की जाने वाली पूँजी लगाने की प्रक्रिया विदेशी निवेश कहलाती है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "लैंगिक विभाजन का अभिप्राय होता है / Gender division means :",
+          "options": [
+            {"index": "अ/a", "text": "स्त्री और पुरुष के बीच जैविक अन्तर / Biological difference between men and women"},
+            {"index": "ब/b", "text": "समाज द्वारा स्त्री और पुरुष को दी गई असमान भूमिकाएँ / Unequal roles assigned by the society to men and women"},
+            {"index": "स/c", "text": "बालक और बालिकाओं की संख्या का असमान अनुपात / Unequal child sex ratio"},
+            {"index": "द/d", "text": "लोकतांत्रिक व्यवस्था में महिलाओं को मतदान का अधिकार न मिलना / Absence of voting rights for women in democratic systems"}
+          ],
+          "correct_index": "ब/b",
+          "correct_answer": "समाज द्वारा स्त्री और पुरुष को दी गई असमान भूमिकाएँ",
+          "explanation": "लैंगिक विभाजन का अभिप्राय समाज द्वारा स्त्री एवं पुरुष को दी गई असमान भूमिकाओं से है, जो जैविक अंतर से भिन्न सामाजिक-सांस्कृतिक निर्माण है।"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "रिक्त स्थानों की पूर्ति कीजिए / Fill in the blanks :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "भारत का कुल भौगोलिक क्षेत्रफल {BLANK} वर्ग किलोमीटर है। / Total geographical area of India is {BLANK} sq. km.",
+          "correct_answer": "लगभग 32,87,263 वर्ग किमी",
+          "explanation": "भारत का कुल भौगोलिक क्षेत्रफल लगभग 32,87,263 वर्ग किलोमीटर है, जो इसे विश्व का सातवाँ सबसे बड़ा देश बनाता है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "कांडला पत्तन को {BLANK} के नाम से भी जाना जाता है। / Kandla port is also known as the {BLANK}.",
+          "correct_answer": "दीनदयाल पत्तन",
+          "explanation": "कांडला पत्तन का नाम बदलकर दीनदयाल पत्तन (Deendayal Port) कर दिया गया है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "निर्धन परिवारों की ऋण की अधिकांश जरूरतें {BLANK} स्रोतों से पूरी होती हैं। / Majority of the credit needs of the poor households are met from {BLANK} sources.",
+          "correct_answer": "अनौपचारिक",
+          "explanation": "निर्धन परिवार प्रायः साहूकारों, महाजनों, रिश्तेदारों जैसे अनौपचारिक स्रोतों से ऋण प्राप्त करते हैं, जो अधिक ब्याज दर पर मिलता है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "स्मिथफील्ड में लंदन का सबसे पुराना {BLANK} बाजार था। / One of the oldest {BLANK} market in London was at Smithfield.",
+          "correct_answer": "मांस (मीट)",
+          "explanation": "स्मिथफील्ड लंदन का सबसे पुराना मांस (मीट) बाजार था।"
+        },
+        {
+          "q_id": "v",
+          "statement": "नारी शक्ति वंदन अधिनियम वर्ष {BLANK} में पारित किया गया। / Nari Shakti Vandan Adhiniyam has been passed in {BLANK} (year).",
+          "correct_answer": "2023",
+          "explanation": "नारी शक्ति वंदन अधिनियम, जो महिलाओं को लोकसभा एवं राज्य विधानसभाओं में 33% आरक्षण प्रदान करता है, वर्ष 2023 में पारित किया गया।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "विनोबा भावे द्वारा शुरू किए गए भूदान-ग्रामदान आंदोलन को {BLANK} क्रांति का नाम भी दिया गया। / Bhoodan-Gramdan movement initiated by Vinoba Bhave is also known as the {BLANK}.",
+          "correct_answer": "रक्तहीन (शांत) क्रांति",
+          "explanation": "विनोबा भावे द्वारा प्रारंभ किए गए भूदान-ग्रामदान आंदोलन को बिना किसी हिंसा के भूमि सुधार का प्रयास होने के कारण 'रक्तहीन क्रांति' का नाम भी दिया गया।"
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "सत्य / असत्य लिखिए / Write True / False :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "औसत आय को राष्ट्रीय आय भी कहा जाता है। / Average income is also called national income.",
+          "correct_answer": "असत्य",
+          "explanation": "औसत आय को प्रति व्यक्ति आय कहा जाता है, राष्ट्रीय आय नहीं। राष्ट्रीय आय देश की कुल आय होती है, जबकि औसत आय जनसंख्या के आधार पर विभाजित आय होती है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "इंग्लैंड के कपड़ा व्यवसायी स्टेप्लर्स से ऊन खरीदते थे और उसे सूत कातने वालों के पास पहुँचा देते थे। / Cloth merchants in England purchased wool from staplers and carried it to the spinners.",
+          "correct_answer": "सत्य",
+          "explanation": "इंग्लैंड के कपड़ा व्यापारी स्टेप्लर्स से ऊन खरीदकर सूत कातने वालों (spinners) के पास पहुँचाते थे, जो पुटिंग-आउट प्रणाली (Putting-out System) का हिस्सा था।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "ब्राजील के शहर रियो डी जेनेरो में प्रथम अंतर्राष्ट्रीय पृथ्वी सम्मेलन हुआ था। / The first International Earth Summit held in the city Rio de Janeiro in Brazil.",
+          "correct_answer": "सत्य",
+          "explanation": "प्रथम अंतर्राष्ट्रीय पृथ्वी सम्मेलन (Earth Summit) सन् 1992 में ब्राजील के रियो डी जेनेरो शहर में आयोजित हुआ था।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "संवैधानिक प्रावधानों और कानूनों के क्रियान्वयन की देख-रेख में न्यायपालिका महत्वपूर्ण भूमिका निभाती है। / The Judiciary plays an important role in overseeing the implementation of Constitutional provisions and legal procedures.",
+          "correct_answer": "सत्य",
+          "explanation": "भारतीय न्यायपालिका संविधान की रक्षक होने के नाते संवैधानिक प्रावधानों एवं कानूनों के सही क्रियान्वयन की देख-रेख में महत्वपूर्ण भूमिका निभाती है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "ज्युसेपी मेत्सिनी फ्रांस का एक क्रांतिकारी था। / Giuseppe Mazzini was a French revolutionary.",
+          "correct_answer": "असत्य",
+          "explanation": "ज्युसेपी मेत्सिनी इटली का क्रांतिकारी था, फ्रांस का नहीं। उसने 'यंग इटली' नामक गुप्त संगठन की स्थापना की थी।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "बेल्जियम में दो फीसदी लोग जर्मन बोलते हैं। / In Belgium two percent people speak German.",
+          "correct_answer": "सत्य",
+          "explanation": "बेल्जियम में लगभग 40% लोग फ्रेंच, 59% लोग डच तथा शेष लगभग 1% लोग जर्मन भाषा बोलते हैं।"
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "सही जोड़ी मिलाइये / Match the correct pairs :",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "स्तम्भ (क)/A में दिए गए पदों का मिलान स्तम्भ (ख)/B में दी गई संबंधित जानकारी के आधार पर किया गया है।",
+      "columns": {
+        "column_A_title": "(क) / A",
+        "column_B_title": "(ख) / B",
+        "pairs": [
+          {
+            "a_item": "(i) महानदी बेसिन / Mahanadi Basin",
+            "b_item": "हीराकुड परियोजना / Hirakund Project",
+            "correct_match_index": "3",
+            "explanation": "हीराकुड परियोजना महानदी बेसिन में स्थित है, जो सिंचाई, बाढ़ नियंत्रण एवं विद्युत उत्पादन के लिए प्रसिद्ध है।"
+          },
+          {
+            "a_item": "(ii) 'वन्दे मातरम्' / 'Vande Mataram'",
+            "b_item": "बंकिमचन्द्र चट्टोपाध्याय / Bankim Chandra Chattopadhyay",
+            "correct_match_index": "4",
+            "explanation": "'वन्दे मातरम्' की रचना बंकिमचन्द्र चट्टोपाध्याय द्वारा की गई थी।"
+          },
+          {
+            "a_item": "(iii) श्रीलंका की राजधानी / Capital of Sri Lanka",
+            "b_item": "कोलम्बो / Colombo",
+            "correct_match_index": "6",
+            "explanation": "श्रीलंका की (वाणिज्यिक) राजधानी कोलम्बो है।"
+          },
+          {
+            "a_item": "(iv) देश की सरकार उसे प्राधिकृत करती है / Government of country authorizes it",
+            "b_item": "करेंसी / Currency",
+            "correct_match_index": "2",
+            "explanation": "मुद्रा (करेंसी) को देश की सरकार द्वारा प्राधिकृत किया जाता है, इसलिए यह वैधानिक स्वीकृति प्राप्त होती है।"
+          },
+          {
+            "a_item": "(v) इलेक्ट्रॉनिक राजधानी / Electronic Capital",
+            "b_item": "बेंगलुरू / Bengaluru",
+            "correct_match_index": "1",
+            "explanation": "बेंगलुरू को भारत की इलेक्ट्रॉनिक राजधानी (सिलिकॉन वैली) कहा जाता है।"
+          },
+          {
+            "a_item": "(vi) वर्नाक्यूलर प्रेस एक्ट / Vernacular Press Act",
+            "b_item": "सन् 1878 / Year 1878",
+            "correct_match_index": "5",
+            "explanation": "वर्नाक्यूलर प्रेस एक्ट सन् 1878 में पारित किया गया था, जिसका उद्देश्य भारतीय भाषाओं के समाचार पत्रों पर नियंत्रण लगाना था।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "संघीय शासन व्यवस्था की दो विशेषताएँ लिखिए। / Write two features of Federalism.",
+          "correct_answer": "",
+          "explanation": "1. इसमें शासन के दो या दो से अधिक स्तर होते हैं (केन्द्र एवं राज्य)।\n2. प्रत्येक स्तर के शासन के अपने विशेष अधिकार क्षेत्र होते हैं, जो संविधान द्वारा सुनिश्चित तथा गारंटीकृत होते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "गठबंधन सरकार से क्या तात्पर्य है? / What is meant by Coalition Government?",
+            "correct_answer": "",
+            "explanation": "जब दो या दो से अधिक सहयोगी राजनैतिक दल मिलकर एक साथ सरकार का गठन करते हैं, तो उसे गठबंधन सरकार कहते हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "पंचांग से क्या आशय है? / What is meant by Almanac?",
+          "correct_answer": "",
+          "explanation": "पंचांग एक ऐसी पुस्तक होती है जिसमें सूर्य, चन्द्रमा एवं तारों की गति के आधार पर तिथि, नक्षत्र, शुभ-अशुभ मुहूर्त आदि की गणना की जाती है तथा भविष्यवाणियाँ भी प्रकाशित होती हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "गाथा गीत से क्या आशय है? / What is meant by Gatha Geet?",
+            "correct_answer": "",
+            "explanation": "गाथा गीत मौखिक परंपरा से पीढ़ी-दर-पीढ़ी हस्तांतरित होने वाले वे गीत हैं, जिनमें वीरों की गाथाओं, ऐतिहासिक घटनाओं तथा लोक-कथाओं का वर्णन किया जाता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "'सूचना का अधिकार' क्या है? / What is 'Right to Information'?",
+          "correct_answer": "",
+          "explanation": "सूचना का अधिकार वह वैधानिक अधिकार है जिसके अंतर्गत नागरिक सरकारी विभागों एवं संस्थाओं से संबंधित सूचनाएँ प्राप्त कर सकते हैं। यह अधिनियम 2005 में पारित हुआ, जिससे प्रशासन में पारदर्शिता एवं जवाबदेही सुनिश्चित होती है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "उपभोक्ता शोषण के कोई दो प्रकार लिखिए। / Write any two types of consumer exploitation.",
+            "correct_answer": "",
+            "explanation": "1. कम तौल अथवा कम मात्रा में वस्तु देना।\n2. मिलावटी अथवा घटिया गुणवत्ता वाली वस्तुएँ बेचना।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "'संसाधन' क्या है? / What is 'Resource'?",
+          "correct_answer": "",
+          "explanation": "प्रकृति में उपलब्ध वह प्रत्येक वस्तु जो तकनीकी रूप से सुलभ, आर्थिक रूप से व्यावहारिक तथा सांस्कृतिक रूप से स्वीकार्य हो और मानव आवश्यकताओं की पूर्ति कर सके, संसाधन कहलाती है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "सतत पोषणीय आर्थिक विकास का क्या अर्थ है? / What is the meaning of sustainable economic development?",
+            "correct_answer": "",
+            "explanation": "वह विकास जो वर्तमान पीढ़ी की आवश्यकताओं की पूर्ति करते हुए भावी पीढ़ियों की आवश्यकताओं की पूर्ति करने की क्षमता से समझौता न करे, सतत पोषणीय आर्थिक विकास कहलाता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "लोकतंत्र में नागरिकों की क्या भूमिका है? किन्हीं दो बिंदुओं में लिखिए। / What is the role of citizens in democracy? Write in two points.",
+          "correct_answer": "",
+          "explanation": "1. नागरिक मतदान के माध्यम से अपनी सरकार का चुनाव करते हैं।\n2. नागरिक सरकार की नीतियों एवं कार्यों की आलोचना करते हुए उन पर निगरानी रखते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "लोकतंत्र में निर्णय लेने में देरी के कोई दो कारण लिखिए। / Write any two reasons that democratic government takes time to take decision.",
+            "correct_answer": "",
+            "explanation": "1. लोकतंत्र में विभिन्न पक्षों से विचार-विमर्श कर सहमति बनाने में समय लगता है।\n2. निर्णय लेने के लिए निर्धारित नियमों एवं प्रक्रियाओं का पालन करना पड़ता है, जिससे प्रक्रिया धीमी हो जाती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "\"बाघ परियोजना\" (प्रोजेक्ट टाईगर) क्या है? / What is \"Project Tiger\"?",
+          "correct_answer": "",
+          "explanation": "बाघों की घटती संख्या को रोकने तथा उनके संरक्षण हेतु भारत सरकार द्वारा सन् 1973 में प्रारंभ की गई परियोजना 'प्रोजेक्ट टाईगर' कहलाती है, जिसके अंतर्गत विशेष बाघ अभयारण्यों की स्थापना की गई।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "जैव विविधता क्या है? / What is Biodiversity?",
+            "correct_answer": "",
+            "explanation": "किसी क्षेत्र में पाई जाने वाली विभिन्न प्रकार की वनस्पतियों, जीव-जन्तुओं तथा सूक्ष्मजीवों की विविधता को जैव विविधता कहते हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "ऋण की शर्तें किसे कहा जाता है? / What is called the terms of credit?",
+          "correct_answer": "",
+          "explanation": "ऋण देने से संबंधित ब्याज दर, प्रतिभूति (गिरवी), दस्तावेजीकरण तथा भुगतान की विधि आदि को सामूहिक रूप से 'ऋण की शर्तें' कहा जाता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "'मुद्रा' क्या है? / What is 'Money'?",
+            "correct_answer": "",
+            "explanation": "वह वस्तु जो वस्तुओं एवं सेवाओं के आदान-प्रदान (विनिमय) के माध्यम के रूप में सामान्यतः स्वीकार्य होती है, उसे मुद्रा कहते हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "पारिस्थितिक तंत्र किसे कहते हैं? / What is called an ecosystem?",
+          "correct_answer": "",
+          "explanation": "किसी क्षेत्र में पाए जाने वाले सभी सजीव जीवधारियों तथा उनके भौतिक पर्यावरण (जल, वायु, मिट्टी आदि) के मध्य होने वाली पारस्परिक क्रिया-प्रतिक्रिया की व्यवस्था को पारिस्थितिक तंत्र कहते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "भारतीय वन्यजीव (रक्षण) अधिनियम, 1972 के दो मुख्य प्रावधान लिखिए। / Write two main provisions of Indian Wildlife (Protection) Act, 1972.",
+            "correct_answer": "",
+            "explanation": "1. इस अधिनियम के अंतर्गत लुप्तप्राय वन्यजीवों की सूची तैयार कर उनके शिकार पर प्रतिबंध लगाया गया।\n2. वन्यजीव अभयारण्यों एवं राष्ट्रीय उद्यानों की स्थापना का प्रावधान किया गया।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "विदेशी व्यापार क्या है? / What is Foreign Trade?",
+          "correct_answer": "",
+          "explanation": "दो या दो से अधिक देशों के बीच वस्तुओं एवं सेवाओं का आयात-निर्यात विदेशी व्यापार कहलाता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "बहुराष्ट्रीय कम्पनियों से आप क्या समझते हैं? / What is meant by Multinational Companies?",
+            "correct_answer": "",
+            "explanation": "वे कंपनियाँ जो एक से अधिक देशों में अपने उत्पादन इकाइयों का स्वामित्व अथवा नियंत्रण रखती हैं, बहुराष्ट्रीय कंपनियाँ कहलाती हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "जायद फसल क्या है? दो जायद फसलों के नाम लिखिए। / What is Zaid crop? Write the names of two Zaid crops.",
+          "correct_answer": "",
+          "explanation": "रबी एवं खरीफ फसलों के मध्य ग्रीष्म ऋतु की छोटी अवधि (मार्च से जून) में उगाई जाने वाली फसलें जायद फसल कहलाती हैं। उदाहरण: तरबूज, खरबूजा।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "प्रारंभिक जीविका निर्वाह कृषि क्या है? / What is Primitive Subsistence Farming?",
+            "correct_answer": "",
+            "explanation": "वह कृषि जो कम तकनीक तथा परिवार अथवा समुदाय के श्रम की सहायता से केवल परिवार की आवश्यकताओं की पूर्ति हेतु की जाती है, प्रारंभिक जीविका निर्वाह कृषि कहलाती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "'कार्न लॉ' क्या था? / What was the 'Corn Laws'?",
+          "correct_answer": "",
+          "explanation": "ब्रिटिश सरकार द्वारा अनाज (कॉर्न) के आयात पर प्रतिबंध लगाने हेतु बनाया गया कानून 'कार्न लॉ' कहलाता था, जिसका उद्देश्य ब्रिटिश किसानों को सस्ते आयातित अनाज की प्रतिस्पर्धा से बचाना था।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "'वीटो' का क्या अर्थ है? / What is meant by 'Veto Power'?",
+            "correct_answer": "",
+            "explanation": "वीटो का अर्थ है किसी प्रस्ताव को अस्वीकार करने अथवा रोकने की विशेष शक्ति। संयुक्त राष्ट्र सुरक्षा परिषद के स्थायी सदस्य देशों के पास यह शक्ति होती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "भारत में कृषि पर आधारित किन्हीं चार उद्योगों के नाम लिखिए। / Write the names of any four agro based industries of India.",
+          "correct_answer": "",
+          "explanation": "1. सूती वस्त्र उद्योग\n2. चीनी उद्योग\n3. जूट उद्योग\n4. वनस्पति तेल उद्योग"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "विनिर्माण क्या है? / What is Manufacturing?",
+            "correct_answer": "",
+            "explanation": "कच्चे माल को प्रसंस्करण द्वारा उपयोगी एवं अधिक मूल्यवान वस्तुओं में परिवर्तित करने की प्रक्रिया विनिर्माण कहलाती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "मनरेगा 2005 के उद्देश्यों की व्याख्या कीजिए। / Explain the objectives of implementing the MGNREGA 2005.",
+          "correct_answer": "",
+          "explanation": "1. ग्रामीण क्षेत्रों में प्रत्येक परिवार के इच्छुक वयस्क सदस्य को वर्ष में कम से कम 100 दिन के रोजगार की गारंटी प्रदान करना।\n2. ग्रामीण गरीबी को कम करना तथा जीवन स्तर में सुधार लाना।\n3. ग्रामीण अवसंरचना जैसे सड़कें, तालाब तथा जल संरक्षण संरचनाओं का विकास करना, जिससे स्थायी परिसंपत्तियाँ निर्मित हों।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "भारतीय अर्थव्यवस्था के प्राथमिक एवं द्वितीयक क्षेत्रक को उदाहरण की सहायता से समझाइए। / With the help of example explain the primary and secondary sectors of the Indian Economy.",
+            "correct_answer": "",
+            "explanation": "प्राथमिक क्षेत्रक में वे गतिविधियाँ शामिल हैं जिनमें प्राकृतिक संसाधनों का प्रत्यक्ष उपयोग होता है, जैसे कृषि, मछली पकड़ना, खनन। द्वितीयक क्षेत्रक में प्राकृतिक उत्पादों को प्रसंस्कृत कर नई वस्तुएँ बनाई जाती हैं, जैसे वस्त्र उद्योग, चीनी उद्योग। उदाहरणस्वरूप, किसान द्वारा उगाया गया गन्ना प्राथमिक क्षेत्रक का उत्पाद है, जबकि उसी गन्ने से चीनी बनाना द्वितीयक क्षेत्रक की गतिविधि है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "रेल परिवहन की अपेक्षा सड़क परिवहन क्यों अधिक महत्वपूर्ण है? तीन बिंदुओं में व्याख्या कीजिए। / Why road transport is more important than rail transport? Explain in three points.",
+          "correct_answer": "",
+          "explanation": "1. सड़क परिवहन कम लागत में तथा ऊँचे-नीचे व दुर्गम धरातल पर भी बनाया जा सकता है।\n2. यह घर-घर तक सेवा (door to door service) प्रदान करता है।\n3. कम दूरी की यात्रा तथा छोटी मात्रा में माल परिवहन के लिए सड़क परिवहन अधिक किफायती एवं सुविधाजनक है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "स्वर्णिम चतुर्भुज महा राजमार्ग क्या है? इसका प्रमुख उद्देश्य क्या है? / What is Golden Quadrilateral Super Highways? What is its major objective?",
+            "correct_answer": "",
+            "explanation": "स्वर्णिम चतुर्भुज महा राजमार्ग भारत के चार महानगरों — दिल्ली, मुम्बई, चेन्नई तथा कोलकाता — को जोड़ने वाला बहु-लेन राजमार्ग है। इसका प्रमुख उद्देश्य इन महानगरों के बीच की दूरी एवं यात्रा समय को कम करना तथा आर्थिक विकास को गति देना है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "प्रथम विश्वयुद्ध के समय भारत का औद्योगिक उत्पादन क्यों बढ़ा? / Why did industrial production in India increase during the First World War?",
+          "correct_answer": "",
+          "explanation": "1. युद्ध के कारण ब्रिटेन से आयातित वस्तुओं की आपूर्ति बंद हो गई, जिससे भारतीय उद्योगों को अपने उत्पाद बेचने का अवसर मिला।\n2. भारतीय उद्योगों को सेना की आवश्यकताओं (जूट की बोरियाँ, वर्दियाँ, अन्य सामग्री) की पूर्ति के आदेश प्राप्त हुए।\n3. इससे भारतीय उद्योगपतियों को अपने उद्योगों के विस्तार का अवसर मिला तथा अनेक नई फैक्ट्रियाँ स्थापित हुईं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "विक्टोरिया कालीन ब्रिटेन में उच्च वर्ग के लोग — कुलीन और पूँजीपति वर्ग — हाथों से बनी चीजों को तरजीह क्यों देते थे? / Why in Victorian Britain, the upper classes - the aristocrats and the bourgeoisie preferred things produced by hand?",
+            "correct_answer": "",
+            "explanation": "उच्च वर्ग के लोग हाथ से बनी वस्तुओं को अधिक परिष्कृत, विशिष्ट, व्यक्तिगत रुचि के अनुरूप तथा प्रतिष्ठा का प्रतीक मानते थे, जबकि मशीन से बनी वस्तुओं को वे सामान्य एवं कम गुणवत्तापूर्ण मानते थे, इसलिए वे हाथ से बनी चीजों को अधिक तरजीह देते थे।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "दल व्यवस्था क्या है? भारतीय राजनीति में दल व्यवस्था का महत्व स्पष्ट कीजिए। / What is the Party System? Explain the importance of the party system in Indian politics.",
+          "correct_answer": "",
+          "explanation": "राजनैतिक दलों की उपस्थिति एवं क्रियाशीलता से युक्त शासन व्यवस्था को दल व्यवस्था कहते हैं। भारतीय राजनीति में इसका महत्व:\n1. राजनैतिक दल जनता की विभिन्न मांगों एवं विचारों को संगठित रूप देकर सरकार तक पहुँचाते हैं।\n2. ये चुनाव लड़ने तथा सरकार बनाने का कार्य करते हैं।\n3. दल व्यवस्था के माध्यम से जनता को शासन में भागीदारी का अवसर मिलता है।\n4. यह लोकतंत्र को स्थिरता, संगठन एवं दिशा प्रदान करती है तथा विपक्ष सरकार पर नियंत्रण रखने का कार्य करता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "लोकतंत्र में राजनीतिक दलों के किन्हीं चार कार्यों की व्याख्या कीजिए। / Explain any four functions of political parties performing in democracy.",
+            "correct_answer": "",
+            "explanation": "1. चुनाव लड़ना तथा सरकार बनाना।\n2. नीतियाँ एवं कार्यक्रम बनाना तथा जनता के समक्ष प्रस्तुत करना।\n3. जनमत का निर्माण करना तथा जनता की मांगों को स्वर देना।\n4. सरकार पर नियंत्रण रखना तथा विपक्षी दल के रूप में सरकार की आलोचना करना।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "निम्नलिखित को समझाइए (कोई दो) / Explain any two of the following :",
+      "parts": [
+        {
+          "q_id": "अ/a",
+          "statement": "सविनय अवज्ञा आंदोलन / The Civil Disobedience Movement",
+          "correct_answer": "",
+          "explanation": "महात्मा गांधी के नेतृत्व में सन् 1930 में प्रारंभ यह आंदोलन नमक कानून तोड़ने से आरंभ हुआ, जिसमें जनता ने खुले रूप से सरकारी कानूनों की अवहेलना की, कर देना बंद किया तथा विदेशी वस्तुओं का बहिष्कार किया।"
+        },
+        {
+          "q_id": "ब/b",
+          "statement": "बारदोली सत्याग्रह / Bardoli Satyagraha",
+          "correct_answer": "",
+          "explanation": "सन् 1928 में गुजरात के बारदोली क्षेत्र के किसानों ने भू-राजस्व में वृद्धि के विरोध में सरदार वल्लभभाई पटेल के नेतृत्व में सत्याग्रह किया, जो सफल रहा।"
+        },
+        {
+          "q_id": "स/c",
+          "statement": "बागानों में स्वराज / Swaraj in the Plantations",
+          "correct_answer": "",
+          "explanation": "असम के चाय बागान मजदूरों ने स्वराज को अपने ढंग से समझा — बागान की सीमाओं से बाहर आने-जाने की स्वतंत्रता के रूप में, और असहयोग आंदोलन के दौरान बड़ी संख्या में बागान छोड़कर अपने गाँवों की ओर चल पड़े।"
+        },
+        {
+          "q_id": "द/d",
+          "statement": "चौरी-चौरा घटना / Chauri-Chaura Incident",
+          "correct_answer": "",
+          "explanation": "5 फरवरी 1922 को उत्तर प्रदेश के चौरी-चौरा स्थान पर उग्र भीड़ ने पुलिस थाने में आग लगा दी, जिसमें 22 पुलिसकर्मी मारे गए। इस हिंसक घटना के कारण गांधीजी ने असहयोग आंदोलन वापस ले लिया।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "असहयोग आंदोलन के किन्हीं चार कारणों की व्याख्या कीजिए। / Explain any four reasons of Non-cooperation Movement.",
+            "correct_answer": "",
+            "explanation": "1. रॉलेट एक्ट तथा जलियाँवाला बाग हत्याकांड से उत्पन्न व्यापक जनाक्रोश।\n2. खिलाफत आंदोलन के माध्यम से मुस्लिम समुदाय का समर्थन प्राप्त करने की गांधीजी की इच्छा।\n3. प्रथम विश्वयुद्ध के बाद बढ़ी कीमतों तथा आर्थिक कठिनाइयों से उत्पन्न असंतोष।\n4. गांधीजी का यह विश्वास कि यदि भारतीय जनता अंग्रेजी सरकार के साथ सहयोग करना बंद कर दे, तो एक वर्ष के भीतर स्वराज प्राप्त हो सकता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "दिए गए भारत के रेखा मानचित्र में निम्नलिखित को दर्शाइए / Show the following areas in the outline map of India :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "मार्मागाओ / Marmagao",
+          "correct_answer": "",
+          "explanation": "मार्मागाओ गोवा राज्य में स्थित एक प्रमुख पत्तन है, जो लौह अयस्क के निर्यात के लिए प्रसिद्ध है। इसे मानचित्र में गोवा राज्य में पश्चिमी तट पर एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "सिंगरौली / Singrauli",
+          "correct_answer": "",
+          "explanation": "सिंगरौली मध्य प्रदेश एवं उत्तर प्रदेश की सीमा पर स्थित एक प्रमुख कोयला क्षेत्र है। इसे मानचित्र में मध्य प्रदेश के पूर्वोत्तर भाग में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "दिल्ली / Delhi",
+          "correct_answer": "",
+          "explanation": "दिल्ली भारत की राजधानी है, जो उत्तर भारत में स्थित है। इसे मानचित्र में उत्तर भारत में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "बालाघाट / Balaghat",
+          "correct_answer": "",
+          "explanation": "बालाघाट मध्य प्रदेश राज्य का एक जिला है। इसे मानचित्र में मध्य प्रदेश के दक्षिण-पूर्वी भाग में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "मुंबई हाई / Mumbai High",
+            "correct_answer": "",
+            "explanation": "मुंबई हाई अरब सागर में स्थित भारत का प्रमुख अपतटीय तेल क्षेत्र है। इसे मानचित्र में मुंबई के पश्चिम में समुद्र में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          },
+          {
+            "q_id": "ii",
+            "statement": "तूतीकोरीन / Tuticorin",
+            "correct_answer": "",
+            "explanation": "तूतीकोरीन तमिलनाडु राज्य में स्थित एक प्रमुख पत्तन है। इसे मानचित्र में तमिलनाडु के दक्षिणी-पूर्वी तट पर एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          },
+          {
+            "q_id": "iii",
+            "statement": "कोरबा / Korba",
+            "correct_answer": "",
+            "explanation": "कोरबा छत्तीसगढ़ राज्य का प्रमुख कोयला क्षेत्र है। इसे मानचित्र में छत्तीसगढ़ राज्य में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          },
+          {
+            "q_id": "iv",
+            "statement": "नरोरा / Naraura",
+            "correct_answer": "",
+            "explanation": "नरोरा उत्तर प्रदेश में स्थित एक आणविक (परमाणु) शक्ति संयंत्र केन्द्र है। इसे मानचित्र में उत्तर प्रदेश राज्य में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23_visually_impaired_alternative",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×4=4",
+      "word_limit": "एक शब्द / एक वाक्य",
+      "text": "नोट: यह प्रश्न केवल दृष्टिबाधित परीक्षार्थियों के लिए प्रश्न क्रमांक 23 के स्थान पर है। निम्नलिखित प्रश्नों के उत्तर एक शब्द या एक वाक्य में लिखिए / Note: This question is only for visually impaired candidates in place of Question No. 23. Answer the following questions in one word or one sentence :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "गोवा का लौह अयस्क निर्यातक पत्तन कौन-सा है? / Which is the iron ore exporting port of Goa?",
+          "correct_answer": "मार्मागाओ पत्तन",
+          "explanation": "गोवा का प्रमुख लौह अयस्क निर्यातक पत्तन मार्मागाओ है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "भारत की राजधानी कौन-सी है? / Which is the capital of India?",
+          "correct_answer": "नई दिल्ली",
+          "explanation": "भारत की राजधानी नई दिल्ली है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "मध्य प्रदेश और उत्तर प्रदेश की सीमा पर स्थित कोयला क्षेत्र कौन-सा है? / Which coal field is located on the border of Madhya Pradesh and Uttar Pradesh?",
+          "correct_answer": "सिंगरौली कोयला क्षेत्र",
+          "explanation": "सिंगरौली कोयला क्षेत्र मध्य प्रदेश एवं उत्तर प्रदेश की सीमा पर स्थित है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "सीमेंट उद्योग का मुख्य कच्चा माल क्या है? / What is the basic raw material of cement industry?",
+          "correct_answer": "चूना पत्थर",
+          "explanation": "चूना पत्थर (लाइमस्टोन) सीमेंट उद्योग का मुख्य कच्चा माल है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "भारत के पश्चिम तटीय तेल शोधन क्षेत्र का नाम लिखिए। / Write the name of India's western part oil refining field.",
+            "correct_answer": "मुंबई हाई",
+            "explanation": "मुंबई हाई भारत के पश्चिमी तट का प्रमुख तेल क्षेत्र है।"
+          },
+          {
+            "q_id": "ii",
+            "statement": "गुजरात का सबसे महत्वपूर्ण तेल क्षेत्र क्या है? / What is the most important oil field of Gujarat?",
+            "correct_answer": "अंकलेश्वर",
+            "explanation": "अंकलेश्वर गुजरात का सबसे महत्वपूर्ण तेल क्षेत्र है।"
+          },
+          {
+            "q_id": "iii",
+            "statement": "छत्तीसगढ़ के प्रमुख कोयला क्षेत्र का नाम लिखिए। / Write the name of major coal field of Chhattisgarh.",
+            "correct_answer": "कोरबा",
+            "explanation": "कोरबा छत्तीसगढ़ का प्रमुख कोयला क्षेत्र है।"
+          },
+          {
+            "q_id": "iv",
+            "statement": "उत्तर प्रदेश में कौन-सा आणविक शक्ति संयंत्र केन्द्र स्थित है? / Which nuclear power plant is located in Uttar Pradesh?",
+            "correct_answer": "नरोरा आणविक शक्ति संयंत्र",
+            "explanation": "नरोरा आणविक (परमाणु) शक्ति संयंत्र उत्तर प्रदेश में स्थित है।"
+          }
+        ]
+      }
+    }
+  ]
+}
