@@ -1,0 +1,788 @@
+{
+  "paper_details": {
+    "paperYear": "2023",
+    "subjectName": "SOCIAL SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "setName": "SET A",
+    "totalQuestions": "23",
+    "time": "3 Hours",
+    "language": "Hindi & English Versions"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "निम्नलिखित में से कौन-सा वक्तव्य बहुउद्देशीय नदी परियोजनाओं के पक्ष में दिया गया तर्क नहीं है? / Which one of the following statements is not an argument in favour of multipurpose river projects?",
+          "options": [
+            {"index": "अ/a", "text": "बहुउद्देशीय परियोजनाएँ उन क्षेत्रों में जल लाती हैं, जहाँ जल की कमी होती है। / bring water to areas suffering from water scarcity"},
+            {"index": "ब/b", "text": "बहुउद्देशीय परियोजनाएँ जल बहाव को नियन्त्रित करके बाढ़ पर काबू पाती हैं। / control floods by regulating water flow"},
+            {"index": "स/c", "text": "बहुउद्देशीय परियोजनाओं से वृहत् स्तर पर विस्थापन होता है और आजीविका खत्म होती है। / lead to large scale displacements and loss of livelihood"},
+            {"index": "द/d", "text": "बहुउद्देशीय परियोजनाएँ हमारे उद्योग और घरों के लिए विद्युत पैदा करती हैं। / generate electricity for our industries and homes"}
+          ],
+          "correct_index": "स/c",
+          "correct_answer": "बहुउद्देशीय परियोजनाओं से वृहत् स्तर पर विस्थापन होता है और आजीविका खत्म होती है।",
+          "explanation": "यह कथन बहुउद्देशीय परियोजनाओं की आलोचना दर्शाता है, अतः यह इनके पक्ष में दिया गया तर्क नहीं है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "इनमें से कौन-सी फलीदार फसल है? / Which one of the following is a leguminous crop?",
+          "options": [
+            {"index": "अ/a", "text": "दालें / Pulses"},
+            {"index": "ब/b", "text": "ज्वार / Jawar"},
+            {"index": "स/c", "text": "मोटे अनाज / Millets"},
+            {"index": "द/d", "text": "तिल / Sesamum"}
+          ],
+          "correct_index": "अ/a",
+          "correct_answer": "दालें",
+          "explanation": "दालें फलीदार (लेग्युमिनस) फसलें हैं जो मिट्टी की उर्वरता बढ़ाने में सहायक होती हैं क्योंकि इनकी जड़ों में नाइट्रोजन स्थिरीकरण होता है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "निम्न में से कौन-सा उद्योग दूरभाष, कंप्यूटर आदि निर्मित करते हैं? / Which one of the following industries manufactures telephone, computer, etc.?",
+          "options": [
+            {"index": "अ/a", "text": "स्टील / Steel"},
+            {"index": "ब/b", "text": "इलेक्ट्रानिक / Electronic"},
+            {"index": "स/c", "text": "एल्यूमिनियम प्रगलन / Aluminium Smelting"},
+            {"index": "द/d", "text": "सूचना प्रौद्योगिकी / Information Technology"}
+          ],
+          "correct_index": "ब/b",
+          "correct_answer": "इलेक्ट्रानिक",
+          "explanation": "इलेक्ट्रॉनिक उद्योग दूरभाष, कंप्यूटर, टेलीविज़न जैसे उपकरणों का निर्माण करता है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "निम्न में से कौन-सा राज्य हजीरा-विजयपुर-जगदीशपुर पाइप लाइन से नहीं जुड़ा है? / Which one of the following states is not connected with the H.V.J. pipeline?",
+          "options": [
+            {"index": "अ/a", "text": "मध्य प्रदेश / Madhya Pradesh"},
+            {"index": "ब/b", "text": "महाराष्ट्र / Maharashtra"},
+            {"index": "स/c", "text": "गुजरात / Gujarat"},
+            {"index": "द/d", "text": "उत्तर प्रदेश / Uttar Pradesh"}
+          ],
+          "correct_index": "ब/b",
+          "correct_answer": "महाराष्ट्र",
+          "explanation": "हजीरा-विजयपुर-जगदीशपुर (HVJ) गैस पाइपलाइन गुजरात, मध्य प्रदेश तथा उत्तर प्रदेश से होकर गुजरती है, महाराष्ट्र से नहीं।"
+        },
+        {
+          "q_id": "v",
+          "statement": "नेपोलियन का इटली पर हमला हुआ / Napoleon invaded Italy in :",
+          "options": [
+            {"index": "अ/a", "text": "1797 में"},
+            {"index": "ब/b", "text": "1798 में"},
+            {"index": "स/c", "text": "1799 में"},
+            {"index": "द/d", "text": "1796 में"}
+          ],
+          "correct_index": "द/d",
+          "correct_answer": "1796 में",
+          "explanation": "नेपोलियन बोनापार्ट ने सन् 1796 में इटली पर आक्रमण किया था।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "गांधी-इरविन समझौता हुआ था / Gandhi-Irwin Pact was signed on :",
+          "options": [
+            {"index": "अ/A", "text": "5 मार्च 1931"},
+            {"index": "ब/B", "text": "4 मार्च 1932"},
+            {"index": "स/C", "text": "3 मार्च 1930"},
+            {"index": "द/D", "text": "2 मार्च 1933"}
+          ],
+          "correct_index": "अ/A",
+          "correct_answer": "5 मार्च 1931",
+          "explanation": "गांधी-इरविन समझौता 5 मार्च 1931 को हुआ था, जिसके तहत सविनय अवज्ञा आंदोलन स्थगित किया गया।"
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "रिक्त स्थानों की पूर्ति कीजिए / Fill in the blanks :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "अफ्रिका में 1890 के दशक में {BLANK} नामक बीमारी बहुत तेजी से फैल गई थी। / In Africa, in the 1890s a fast spreading disease of {BLANK}.",
+          "correct_answer": "रिंडरपेस्ट (पशु प्लेग)",
+          "explanation": "1890 के दशक में अफ्रीका में रिंडरपेस्ट (पशुओं की प्लेग) नामक बीमारी तेजी से फैली थी, जिससे बड़ी संख्या में मवेशी मारे गए थे।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "औसत आय को {BLANK} आय भी कहा जाता है। / The average income is also called {BLANK}.",
+          "correct_answer": "प्रति व्यक्ति आय",
+          "explanation": "किसी देश की कुल आय को उसकी जनसंख्या से भाग देने पर प्राप्त औसत आय को प्रति व्यक्ति आय कहते हैं।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "तृतीयक क्षेत्र को {BLANK} भी कहा जाता है। / The tertiary sector is also called the {BLANK}.",
+          "correct_answer": "सेवा क्षेत्र",
+          "explanation": "तृतीयक क्षेत्र में सेवाओं का उत्पादन होता है, इसलिए इसे सेवा क्षेत्र भी कहा जाता है।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "बैंक {BLANK} पर देने वाले ब्याज से ऋण पर अधिक ब्याज लेते हैं। / Banks charge a higher interest rate on loan than what they offer on {BLANK}.",
+          "correct_answer": "जमा (डिपॉजिट)",
+          "explanation": "बैंक जमाकर्ताओं को जमा राशि पर कम ब्याज देते हैं तथा ऋण लेने वालों से अधिक ब्याज वसूलते हैं, यही उनके लाभ का स्रोत होता है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "बड़ी कम्पनीयों को {BLANK} कहते हैं। / The large companies are called {BLANK}.",
+          "correct_answer": "बहुराष्ट्रीय कंपनी (MNC)",
+          "explanation": "जो कंपनियाँ एक से अधिक देशों में अपने उत्पादन का स्वामित्व या नियंत्रण रखती हैं, उन्हें बहुराष्ट्रीय कंपनी कहते हैं।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "{BLANK} की पूजा सदियों पुराना जनजातीय विश्वास है। / Worship of {BLANK} is an age old tribal belief.",
+          "correct_answer": "प्रकृति (वृक्षों/वनों)",
+          "explanation": "जनजातीय समुदायों में प्रकृति एवं वृक्षों की पूजा करने की परंपरा सदियों पुरानी है, जो वनों के संरक्षण से जुड़ी है।"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "सही जोड़ी मिलाइये / Match the correct pairs :",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "स्तम्भ (अ) में दिए गए पदों का मिलान स्तम्भ (ब) में दी गई संबंधित जानकारी के आधार पर किया गया है।",
+      "columns": {
+        "column_A_title": "अ / A",
+        "column_B_title": "ब / B",
+        "pairs": [
+          {
+            "a_item": "(1) मोटर गाड़ी उद्योग / Automobile Industry",
+            "b_item": "गुरुग्राम / Gurugram",
+            "correct_match_index": "6",
+            "explanation": "गुरुग्राम (हरियाणा) भारत के प्रमुख मोटर गाड़ी उद्योग केंद्रों में से एक है।"
+          },
+          {
+            "a_item": "(2) कृत्रिम पत्तन / Artificial Port",
+            "b_item": "चैन्नई / Chennai",
+            "correct_match_index": "5",
+            "explanation": "चेन्नई भारत का एक प्रमुख कृत्रिम (मानव निर्मित) पत्तन है।"
+          },
+          {
+            "a_item": "(3) नेपोलियन की हार / Defeat of Napoleon",
+            "b_item": "1815",
+            "correct_match_index": "4",
+            "explanation": "नेपोलियन की वाटरलू के युद्ध में हार सन् 1815 में हुई थी।"
+          },
+          {
+            "a_item": "(4) रॉलट एक्ट / The Rowlat Act",
+            "b_item": "1919",
+            "correct_match_index": "3",
+            "explanation": "रॉलट एक्ट सन् 1919 में पारित हुआ था।"
+          },
+          {
+            "a_item": "(5) जेम्स वॉट / James Watt",
+            "b_item": "भाप का इंजन / Steam Engine",
+            "correct_match_index": "2",
+            "explanation": "जेम्स वॉट ने भाप के इंजन में सुधार कर औद्योगिक क्रांति को गति दी।"
+          },
+          {
+            "a_item": "(6) संघ सूची / Union List",
+            "b_item": "प्रतिरक्षा / Defence",
+            "correct_match_index": "1",
+            "explanation": "प्रतिरक्षा (रक्षा) विषय संघ सूची में सम्मिलित है, जिस पर केवल केन्द्र सरकार कानून बना सकती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "सत्य / असत्य लिखिए / Write True / False :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "लोकतन्त्र में सभी नागरिकों को एक ही वोट का अधिकार है। / In democracy all citizens have one vote right.",
+          "correct_answer": "सत्य",
+          "explanation": "लोकतंत्र के मूल सिद्धांत 'एक व्यक्ति एक वोट' के अनुसार सभी नागरिकों को समान रूप से एक ही वोट देने का अधिकार होता है।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "हरियाणा राज्य की प्रति व्यक्ति आय सबसे अधिक है। / Haryana State has the highest per capita income.",
+          "correct_answer": "असत्य",
+          "explanation": "NCERT की तालिका के अनुसार दिए गए राज्यों में पंजाब की प्रति व्यक्ति आय सबसे अधिक थी, हरियाणा की नहीं, अतः यह कथन असत्य है।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "मनरेगा कानून 2005 से लागू किया गया। / MANAREGA Act was passed in the year 2005.",
+          "correct_answer": "सत्य",
+          "explanation": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम (मनरेगा) वर्ष 2005 में पारित हुआ था।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "कोलकत्ता एक समुद्री पत्तन है। / Kolkata is a Sea Port.",
+          "correct_answer": "सत्य",
+          "explanation": "कोलकाता हुगली नदी के तट पर स्थित एक प्रमुख समुद्री (नदीमुखी) पत्तन है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "जनवरी 1923 में असहयोग और खिलाफत आन्दोलन शुरू हुआ। / In January 1923 Non-cooperation and Khilafat Movement launched.",
+          "correct_answer": "असत्य",
+          "explanation": "असहयोग एवं खिलाफत आंदोलन जनवरी 1921 में प्रारंभ हुआ था, न कि 1923 में, अतः कथन असत्य है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "अठारहवीं सदी तक महीन कपड़े के अन्तर्राष्ट्रीय बाजार पर भारत का दबदबा था। / The International market for fine textiles was dominated by India till the eighteenth century.",
+          "correct_answer": "सत्य",
+          "explanation": "अठारहवीं सदी तक भारत महीन एवं गुणवत्तापूर्ण वस्त्रों के अंतरराष्ट्रीय बाजार पर अपना प्रभुत्व रखता था।"
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "एक शब्द/वाक्य",
+      "text": "एक वाक्य / शब्द में उत्तर लिखिए / Answer the following in one sentence / word :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "वह शासन व्यवस्था जिसमें एक ही समय में दो या दो से अधिक सहयोगी राजनैतिक दलों द्वारा गठित सरकार क्या कहलाती है? / A government formed by an alliance of two or more political parties is called?",
+          "correct_answer": "गठबंधन सरकार",
+          "explanation": "जब दो या अधिक राजनैतिक दल मिलकर सरकार बनाते हैं, तो उसे गठबंधन सरकार (Coalition Government) कहते हैं।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "उस प्रक्रिया को क्या कहते हैं, जिसमें लोग ग्रामीण क्षेत्रों से शहरों की ओर पलायन करते हैं? / What is the process called by which people migrate from rural areas to cities?",
+          "correct_answer": "प्रवासन (नगरीकरण)",
+          "explanation": "ग्रामीण क्षेत्रों से शहरों की ओर लोगों के स्थानांतरण की प्रक्रिया को प्रवासन या नगरीकरण कहते हैं।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "सामाजिक विभाजनों का प्रमुख आधार क्या है? / What is the main basis of social divisions?",
+          "correct_answer": "जाति, धर्म, भाषा एवं क्षेत्र",
+          "explanation": "सामाजिक विभाजनों का प्रमुख आधार जाति, धर्म, भाषा, वंश एवं क्षेत्रीयता जैसी सामाजिक विभिन्नताएँ होती हैं।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "किन्हीं दो देशों के नाम बताइये जहाँ मजबूत लोकतन्त्र है। / Name any two countries where there is strong democracy.",
+          "correct_answer": "भारत तथा संयुक्त राज्य अमेरिका",
+          "explanation": "भारत तथा संयुक्त राज्य अमेरिका विश्व के दो ऐसे देश हैं जहाँ मजबूत लोकतांत्रिक व्यवस्था विद्यमान है।"
+        },
+        {
+          "q_id": "v",
+          "statement": "पूरे देश के लिए बनने वाली एक सामान्य सरकार को कहते हैं? / A general government formed for the whole country is called?",
+          "correct_answer": "केन्द्र सरकार (संघ सरकार)",
+          "explanation": "पूरे देश के लिए बनने वाली सामान्य सरकार को केन्द्र सरकार या संघ सरकार कहा जाता है।"
+        },
+        {
+          "q_id": "vi",
+          "statement": "नागरिकों की गरिमा तथा स्वतन्त्रता को बनाये रखने के लिए, कौन-सी शासन प्रणाली उत्तम है? / Which system of governance is best for maintaining the dignity and freedom of citizens?",
+          "correct_answer": "लोकतांत्रिक शासन प्रणाली",
+          "explanation": "लोकतांत्रिक शासन प्रणाली नागरिकों की गरिमा एवं स्वतंत्रता को सर्वोत्तम रूप से संरक्षित करती है क्योंकि इसमें जनता की भागीदारी एवं अधिकार सुनिश्चित होते हैं।"
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "जैव संसाधनों के नाम लिखिए। / Write the names of Biotic Resources.",
+          "correct_answer": "",
+          "explanation": "जैव संसाधनों में वन, वन्यजीव, पशु-पक्षी, सूक्ष्मजीव तथा मानव जैसे सजीव संसाधन सम्मिलित होते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "सतत्पोषणीय विकास क्या है? / What is the Sustainable development?",
+            "correct_answer": "",
+            "explanation": "वह विकास जिसमें वर्तमान पीढ़ी की आवश्यकताओं की पूर्ति इस प्रकार की जाती है कि भावी पीढ़ियों की आवश्यकताओं की पूर्ति करने की क्षमता से समझौता न हो, उसे सतत्पोषणीय विकास कहते हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "जलोढ़ मिट्टी की दो विशेषताएँ लिखिये। / Write two characteristics of Alluvial Soil.",
+          "correct_answer": "",
+          "explanation": "1. जलोढ़ मिट्टी अत्यंत उपजाऊ होती है तथा नदियों द्वारा बहाकर लाई जाती है।\n2. इसमें पोटाश, फास्फोरिक अम्ल तथा चूने की पर्याप्त मात्रा पाई जाती है, जो इसे कृषि के लिए उपयुक्त बनाती है।"
+          }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "मृदा अपरदन किसे कहते हैं? / What is the Soil erosion?",
+            "correct_answer": "",
+            "explanation": "जल, वायु आदि प्राकृतिक शक्तियों द्वारा ऊपरी उपजाऊ मृदा परत का कटाव एवं स्थानांतरण मृदा अपरदन कहलाता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "झूमिंग कृषि को किन-किन नामों से जाना जाता है? / By what names is Jhuming agriculture known?",
+          "correct_answer": "",
+          "explanation": "झूमिंग कृषि को स्थानान्तरी कृषि, कर्तन-दहन कृषि (Slash and Burn Cultivation) तथा घुमन्तू कृषि जैसे नामों से जाना जाता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "वाणिज्यिक कृषि की दो विशेषतायें लिखिये। / Write two features of commercial agriculture.",
+            "correct_answer": "",
+            "explanation": "1. इसमें उच्च तकनीक एवं आधुनिक कृषि आदानों (उर्वरक, कीटनाशक आदि) का प्रयोग किया जाता है।\n2. फसलों का उत्पादन मुख्यतः बिक्री हेतु किया जाता है, आत्म-उपभोग हेतु नहीं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "विनिर्माण उद्योग के दो महत्व लिखिए। / Write two importances of manufacturing industry.",
+          "correct_answer": "",
+          "explanation": "1. विनिर्माण उद्योग राष्ट्रीय आय बढ़ाने में सहायक होते हैं।\n2. इनसे बड़ी संख्या में रोजगार के अवसर उत्पन्न होते हैं तथा कृषि पर निर्भरता कम होती है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "वायु प्रदूषण के दो दुष्प्रभाव लिखिये। / Write two ill-effects of air pollution.",
+            "correct_answer": "",
+            "explanation": "1. वायु प्रदूषण से श्वास संबंधी एवं फेफड़ों के रोग होते हैं।\n2. इससे अम्लीय वर्षा होती है, जो फसलों, वनों तथा इमारतों को क्षति पहुँचाती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "रेल परिवहन की अपेक्षा सड़क परिवहन क्यों महत्वपूर्ण है? / Why road transport is more important than rail transport?",
+          "correct_answer": "",
+          "explanation": "सड़क परिवहन कम लागत में बनाया जा सकता है, ऊँचे-नीचे तथा दुर्गम धरातल पर भी निर्मित होता है और घर-घर तक सेवा (door to door service) प्रदान करता है, इसलिए यह रेल परिवहन से अधिक महत्वपूर्ण है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "विश्व की सबसे लम्बी राजमार्ग सुरंग का नाम लिखिए। / Name the longest highway tunnel in the World.",
+            "correct_answer": "",
+            "explanation": "अटल सुरंग (रोहतांग, हिमाचल प्रदेश, भारत) विश्व की सबसे लंबी राजमार्ग सुरंगों में गिनी जाती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "भारत देश का कितने प्रतिशत व्यापार समुद्रों द्वारा होता है? / What percentage of India's trade is through the Seas?",
+          "correct_answer": "",
+          "explanation": "भारत का लगभग 95 प्रतिशत व्यापार (मात्रा के आधार पर) समुद्री मार्गों द्वारा होता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "वायु परिवहन का राष्ट्रीयकरण कब किया गया? लिखिए। / When was air transport nationalized? Write.",
+            "correct_answer": "",
+            "explanation": "भारत में वायु परिवहन का राष्ट्रीयकरण सन् 1953 में किया गया।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "रेशममार्ग से किन-किन वस्तुओं का व्यापार होता था? लिखिए। / Which items were traded through the Silk route? Write.",
+          "correct_answer": "",
+          "explanation": "रेशममार्ग से रेशम, मसाले, बहुमूल्य धातुएँ (सोना-चाँदी) तथा सुंदर वस्त्रों जैसी वस्तुओं का व्यापार होता था।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "पाँच सौ साल पहले कौन-कौन से खाद्य पदार्थ हमारे पूर्वजों के पास नहीं थे? / Which foods our ancestors did not have 500 years ago?",
+            "correct_answer": "",
+            "explanation": "पाँच सौ साल पहले हमारे पूर्वजों के पास मिर्च, टमाटर, आलू, मक्का तथा सोयाबीन जैसे खाद्य पदार्थ नहीं थे, ये बाद में अमेरिका से भारत लाए गए।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "लन्दन को फिनिशिंग सेन्टर के रूप में क्यों जाना जाता था? / Why was London known as the finishing center?",
+          "correct_answer": "",
+          "explanation": "लंदन में वस्त्रों से जुड़े रंगाई, बटन लगाना, पैकिंग जैसे अंतिम चरण के कार्य किए जाते थे, इसलिए इसे फिनिशिंग सेन्टर कहा जाता था।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "बहुत सारे उद्योगों में श्रमिकों की माँग मौसमी आधार पर घटती-बढ़ती क्यों थी? / Why did the demand for labour fluctuate on a seasonal basis in many industries?",
+            "correct_answer": "",
+            "explanation": "अनेक उद्योगों का कार्य फसल-कटाई अथवा त्यौहारों जैसे मौसमी कारकों पर निर्भर करता था, जिससे श्रमिकों की माँग वर्ष के विभिन्न समय में घटती-बढ़ती रहती थी।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "मुद्रण तकनीक सबसे पहले किन देशों में विकसित हुई? / In which countries did printing technology first develop?",
+          "correct_answer": "",
+          "explanation": "मुद्रण तकनीक सबसे पहले चीन, जापान तथा कोरिया में विकसित हुई थी।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "योहान गुटेन्वर्ग ने मुद्रण क्षेत्र में क्या कार्य किया? / What work did Johann Gutenberg do in the field of printing?",
+            "correct_answer": "",
+            "explanation": "योहान गुटेन्बर्ग ने प्रिंटिंग प्रेस तथा चल धातु टाइप (movable metal type) का विकास किया, जिससे मुद्रण तेज एवं सस्ता हो गया।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "मुद्रण संस्कृति के दो परिणाम लिखिए। / Write two consequences of print culture.",
+          "correct_answer": "",
+          "explanation": "1. मुद्रण संस्कृति से साक्षरता एवं शिक्षा का व्यापक प्रसार हुआ।\n2. इससे नए विचारों एवं सूचनाओं का तीव्र गति से प्रसार संभव हुआ, जिसने सामाजिक जागरूकता बढ़ाई।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "उन्नीसवीं सदी की मशहूर लेखिकाओं के नाम लिखिए। / Write the names of famous writers of 19th century.",
+            "correct_answer": "",
+            "explanation": "उन्नीसवीं सदी की मशहूर लेखिकाओं में जेन ऑस्टिन तथा ब्रोंटी बहनें (शार्लट, एमिली एवं ऐन ब्रोंटी) प्रमुख हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "द्वितीयक क्षेत्रक की दो विशेषताएँ लिखिए। / Write two characteristics of Secondary sector?",
+          "correct_answer": "",
+          "explanation": "1. इस क्षेत्रक में प्राकृतिक उत्पादों को उपयोग में लाकर नई वस्तुओं का निर्माण किया जाता है।\n2. इसे औद्योगिक क्षेत्रक भी कहा जाता है, जिसमें विनिर्माण एवं निर्माण कार्य सम्मिलित हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "तृतीयक क्षेत्र से आप क्या समझते हैं? लिखिए। / What is the Tertiary sector? Write.",
+            "correct_answer": "",
+            "explanation": "वह क्षेत्र जिसमें वस्तुओं के उत्पादन के स्थान पर सेवाओं का उत्पादन होता है, जैसे परिवहन, बैंकिंग, शिक्षा, स्वास्थ्य आदि, उसे तृतीयक क्षेत्र या सेवा क्षेत्र कहते हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "बहुराष्ट्रीय कंपनियाँ कहाँ स्थापित की जाती हैं? / Where are multinational companies established?",
+          "correct_answer": "",
+          "explanation": "बहुराष्ट्रीय कंपनियाँ प्रायः उन क्षेत्रों में स्थापित की जाती हैं जहाँ उत्पादन की लागत कम हो, सरकार से रियायतें मिलती हों तथा बाजार निकट उपलब्ध हो।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "दो बहुराष्ट्रीय कंपनियों के नाम लिखिये। / Write the names of two multinational companies.",
+            "correct_answer": "",
+            "explanation": "कोका-कोला (Coca-Cola) तथा सैमसंग (Samsung) दो प्रमुख बहुराष्ट्रीय कंपनियाँ हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "आरक्षित वन और रक्षित वन में अन्तर लिखिए। / Write the difference between Reserve forest and Protected forest.",
+          "correct_answer": "",
+          "explanation": "आरक्षित वन: ये सर्वाधिक मूल्यवान वन माने जाते हैं, इनके संरक्षण एवं वृद्धि पर विशेष ध्यान दिया जाता है तथा इनमें ग्रामीणों की गतिविधियाँ अत्यंत सीमित होती हैं।\nरक्षित वन: इनकी सुरक्षा वन विभाग द्वारा की जाती है, परंतु ग्रामीणों को इनमें पशु चराने एवं लकड़ी काटने की सीमित अनुमति दी जाती है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "वन और वन्य जीव संसाधनों के प्रकार और वितरण को लिखिए। / Write types and distribution of forest and wild life resources.",
+            "correct_answer": "",
+            "explanation": "स्वामित्व के आधार पर वनों को तीन प्रकारों में बाँटा जाता है — आरक्षित वन, रक्षित वन तथा अवर्गीकृत वन। ये मुख्यतः मध्य प्रदेश, अरुणाचल प्रदेश, छत्तीसगढ़, महाराष्ट्र तथा ओडिशा जैसे राज्यों में व्यापक रूप से वितरित हैं।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "संघीय व्यवस्था की तीन विशेषताएँ लिखिए। / Write three features of federal system.",
+          "correct_answer": "",
+          "explanation": "1. इसमें शासन के दो या दो से अधिक स्तर होते हैं (केन्द्र एवं राज्य)।\n2. विभिन्न स्तरों के शासन एक ही नागरिक समूह पर शासन करते हैं।\n3. प्रत्येक स्तर के शासन के अपने विशेष अधिकार क्षेत्र होते हैं, जो संविधान द्वारा सुनिश्चित एवं गारंटीकृत होते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "वास्तविक विकेन्द्रीकरण की दिशा में एक बड़ा कदम 1992 में उठाया गया लिखिए। / A major step towards decentralization was taken in 1992, write.",
+            "correct_answer": "",
+            "explanation": "1992 में संविधान में 73वें एवं 74वें संशोधन द्वारा पंचायती राज संस्थाओं तथा नगरपालिकाओं को संवैधानिक दर्जा दिया गया, नियमित चुनाव कराना अनिवार्य किया गया तथा महिलाओं एवं अनुसूचित जाति-जनजाति के लिए स्थान आरक्षित किए गए।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "भारत में वैश्वीकरण का प्रभाव लिखिए। / Write the impacts of Globalization in India.",
+          "correct_answer": "",
+          "explanation": "1. वैश्वीकरण से भारत में बहुराष्ट्रीय कंपनियों का निवेश बढ़ा है।\n2. उपभोक्ताओं को अधिक विकल्प तथा बेहतर गुणवत्ता वाली वस्तुएँ किफायती मूल्यों पर मिली हैं।\n3. प्रतिस्पर्धा बढ़ने से कुछ छोटे एवं स्थानीय उत्पादकों को हानि भी उठानी पड़ी है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "भारतीय रिजर्व बैंक के तीन कार्य लिखिये। / Write three functions of Reserve Bank of India.",
+            "correct_answer": "",
+            "explanation": "1. मुद्रा जारी करना एवं उसका नियमन करना।\n2. देश के सभी बैंकों की निगरानी एवं नियंत्रण करना।\n3. मौद्रिक नीति का संचालन कर ब्याज दरों को नियंत्रित करना।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "खनिज किस प्रकार की शैल समूहों में पाये जाते हैं? / In which type of rock group are minerals found?",
+          "correct_answer": "",
+          "explanation": "खनिज सामान्यतः आग्नेय, अवसादी तथा कायांतरित तीनों प्रकार के शैल समूहों में पाए जाते हैं। आग्नेय एवं कायांतरित शैलों में खनिज प्रायः दरारों, संधियों, जोड़ों एवं भ्रंशों में क्रिस्टलीय अथवा शिराओं के रूप में मिलते हैं। अवसादी शैलों में खनिज परतों अथवा संस्तरों के रूप में जमा होते हैं, जो अवसादन एवं संचयन की प्रक्रिया से बनते हैं। कोयला एवं कुछ प्रकार के लौह अयस्क इसी प्रकार बनते हैं। छोटे कणों वाले खनिज जलोढ़ निक्षेपों में भी पाए जाते हैं, जिन्हें प्लेसर निक्षेप कहा जाता है, जैसे सोना, प्लेटिनम एवं टिन।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "भारत में पायी जाने वाली लौह अयस्क की चार पेटियाँ लिखिये। / Write four belts of iron ore found in India.",
+            "correct_answer": "",
+            "explanation": "1. उड़ीसा-झारखंड पेटी।\n2. दुर्ग-बस्तर-चंद्रपुर पेटी (छत्तीसगढ़-महाराष्ट्र)।\n3. बेल्लारी-चित्रदुर्ग-चिकमगलूर-तुमकुर पेटी (कर्नाटक)।\n4. मराठवाड़ा पेटी (गोवा एवं महाराष्ट्र के निकटवर्ती क्षेत्र)।\nइन पेटियों में उच्च गुणवत्ता का लौह अयस्क प्रचुर मात्रा में पाया जाता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 शब्द",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "भारत में आधुनिक राष्ट्रवाद के उदय के चार कारण लिखिये। / Write four reasons for the rise of modern nationalism in India.",
+          "correct_answer": "",
+          "explanation": "1. प्रथम विश्वयुद्ध के बाद उत्पन्न नई राजनैतिक एवं आर्थिक परिस्थितियों तथा बढ़ी हुई कीमतों व करों के बोझ ने जनसाधारण में असंतोष उत्पन्न किया।\n2. महात्मा गांधी के नेतृत्व में सत्याग्रह के नए विचार ने जन-आंदोलनों को दिशा दी।\n3. रॉलेट एक्ट तथा जलियाँवाला बाग हत्याकांड जैसी घटनाओं ने जनता में व्यापक आक्रोश उत्पन्न किया।\n4. खिलाफत आंदोलन एवं असहयोग आंदोलन ने विभिन्न सामाजिक वर्गों — किसानों, मजदूरों, व्यापारियों तथा विद्यार्थियों — को एक सूत्र में बाँधकर राष्ट्रीय एकता को मजबूत किया।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "सत्याग्रह पर गांधीजी के चार विचार लिखिए। / Write four views of Gandhiji on Satyagraha.",
+            "correct_answer": "",
+            "explanation": "1. सत्याग्रह सत्य और अहिंसा पर आधारित प्रतिरोध की एक पद्धति है।\n2. सत्याग्रह में शारीरिक बल के स्थान पर सत्य एवं आत्मिक शक्ति का प्रयोग किया जाता है।\n3. सत्याग्रही को अपने विरोधी अथवा उत्पीड़क के प्रति भी घृणा नहीं रखनी चाहिए।\n4. सत्य के प्रति दृढ़ आग्रह से अंततः उत्पीड़क को भी अपनी भूल का एहसास होकर सत्य स्वीकार करना पड़ता है, बिना हिंसा के प्रयोग के।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "भारत के मानचित्र में निम्नलिखित दर्शाइये / Show the following in the outline map of India :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "नर्मदा नदी / Narmada River",
+          "correct_answer": "",
+          "explanation": "नर्मदा नदी मध्य प्रदेश के अमरकंटक से निकलकर पश्चिम दिशा में प्रवाहित होते हुए गुजरात के भड़ौच के निकट खंभात की खाड़ी में गिरती है। इसे मानचित्र में मध्य भारत से होकर पश्चिम की ओर बहती हुई एक रेखा द्वारा दर्शाया जाना चाहिए।"
+        },
+        {
+          "q_id": "ii",
+          "statement": "शिलांग / Shillong",
+          "correct_answer": "",
+          "explanation": "शिलांग मेघालय राज्य की राजधानी है, जो पूर्वोत्तर भारत में स्थित है। इसे मानचित्र में मेघालय राज्य के भीतर एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+        },
+        {
+          "q_id": "iii",
+          "statement": "बैलाडीला / Bailadila",
+          "correct_answer": "",
+          "explanation": "बैलाडीला छत्तीसगढ़ राज्य में स्थित लौह अयस्क की प्रसिद्ध खान है, जो दुर्ग-बस्तर-चंद्रपुर लौह अयस्क पेटी का भाग है। इसे मानचित्र में छत्तीसगढ़ में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+        },
+        {
+          "q_id": "iv",
+          "statement": "हजीरा-विजयपुर-जगदीशपुर गैस पाइपलाइन / H.V.J. Gas Pipeline",
+          "correct_answer": "",
+          "explanation": "यह पाइपलाइन गुजरात के हजीरा से आरंभ होकर मध्य प्रदेश के विजयपुर होते हुए उत्तर प्रदेश के जगदीशपुर तक जाती है। इसे मानचित्र में गुजरात-मध्य प्रदेश-उत्तर प्रदेश को जोड़ने वाली एक रेखा द्वारा दर्शाया जाना चाहिए।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा / OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "तापी नदी / Tapi River",
+            "correct_answer": "",
+            "explanation": "तापी नदी मध्य प्रदेश के बैतूल जिले के सतपुड़ा पर्वत श्रेणी से निकलकर पश्चिम दिशा में बहते हुए गुजरात में सूरत के निकट अरब सागर में गिरती है। इसे मानचित्र में मध्य भारत से पश्चिम की ओर बहती हुई रेखा द्वारा दर्शाया जाना चाहिए।"
+          },
+          {
+            "q_id": "ii",
+            "statement": "सिक्किम / Sikkim",
+            "correct_answer": "",
+            "explanation": "सिक्किम पूर्वोत्तर भारत का एक पर्वतीय राज्य है, जो पश्चिम बंगाल के उत्तर में स्थित है। इसे मानचित्र में उपयुक्त स्थान पर छायांकित/चिह्नित किया जाना चाहिए।"
+          },
+          {
+            "q_id": "iii",
+            "statement": "चित्रदुर्ग / Chitradurg",
+            "correct_answer": "",
+            "explanation": "चित्रदुर्ग कर्नाटक राज्य में स्थित है तथा लौह अयस्क की बेल्लारी-चित्रदुर्ग-चिकमगलूर-तुमकुर पेटी का भाग है। इसे मानचित्र में कर्नाटक राज्य में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          },
+          {
+            "q_id": "iv",
+            "statement": "काकापारा / Kakapara",
+            "correct_answer": "",
+            "explanation": "काकापारा गुजरात राज्य में स्थित एक स्थान है। इसे मानचित्र में गुजरात राज्य के भीतर एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          }
+        ]
+      }
+    }
+  ]
+}
