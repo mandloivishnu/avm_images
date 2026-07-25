@@ -313,30 +313,30 @@
       ]
     },
     {
-      "question_number": "4",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4M",
-      "word_limit": "120 words",
-      "text": "Write an application to your principal for issuing your School Leaving Certificate.",
-      "parts": [
-        {
-          "q_id": "i",
-          "statement": "You are Manas/Mansi, studying in Govt. Higher Secondary School, Balaghat.",
-          "explanation": "Reference: Formal application writing (MP Board Class 10).\n\nMarking Scheme Focus:\n• Proper format (To, Subject, Salutation)\n• Clear reason\n• Polite and formal language\n• Correct closing and signature\n\nModel Answer:\n\nTo,\nThe Principal,\nGovt. Higher Secondary School,\nBalaghat (M.P.)\n\nSubject: Application for School Leaving Certificate\n\nRespected Sir/Madam,\n\nI beg to state that I am Manas/Mansi, a student of Class X of your esteemed school. I have passed my examination this year and now I have to take admission in another school due to my family’s transfer.\n\nTherefore, I kindly request you to issue my School Leaving Certificate at the earliest. I shall be highly obliged to you for this kind favour.\n\nThanking you.\n\nYours obediently,\nManas/Mansi\nClass X\nDate: ______"
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "ii",
-            "statement": "You are Ritik/Ritika, living in Indore. Write a letter to your friend inviting him/her to your father's promotion party.",
-            "explanation": "Reference: Informal letter writing (MP Board Class 10).\n\nMarking Scheme Focus:\n• Sender’s address and date\n• Friendly tone\n• Mention of occasion, date, time, venue\n• Proper closing\n\nModel Answer:\n\n23, Vijay Nagar,\nIndore (M.P.)\nDate: ______\n\nDear Friend,\n\nI am very happy to inform you that my father has been promoted to a higher post. To celebrate this joyful occasion, a small party has been arranged at our residence on Sunday at 7 p.m.\n\nI cordially invite you to attend the party and share our happiness. Your presence will make the occasion more special for us.\n\nPlease do come.\n\nYours lovingly,\nRitik/Ritika"
-          }
-        ]
+  "question_number": "4",
+  "question_type": "DESCRIPTIVE",
+  "marks": "4M",
+  "word_limit": "120 words",
+  "text": "Write an application to your principal for issuing your School Leaving Certificate.",
+  "parts": [
+    {
+      "q_id": "i",
+      "statement": "You are Manas/Mansi, studying in Govt. Higher Secondary School, Balaghat.",
+      "explanation": "To,\nThe Principal,\nGovt. Higher Secondary School,\nBalaghat (M.P.).\n\nSubject: Application for School Leaving Certificate.\n\nRespected Sir,\n\nI want to state that I am a regular student of class X in your school. My father has been transferred to another city, and our entire family is shifting there. Therefore, I am unable to continue my studies in this school.\n\nKindly issue me my School Leaving Certificate (S.L.C.) so that I can take admission in a new school there. All my dues have been cleared.\n\nThanking you.\n\nYours obediently,\nManas/Mansi\nClass X"
+    }
+  ],
+  "or_option": {
+    "text": "OR",
+    "parts": [
+      {
+        "q_id": "ii",
+        "statement": "You are Ritik/Ritika, living in Indore. Write a letter to your friend inviting him/her to your father's promotion party.",
+        "explanation": "23, Vijay Nagar,\nIndore (M.P.).\nJuly 26, 2026\n\nDear Friend,\n\nI hope this letter finds you in great health and high spirits. I am writing this to share some joyful news with you.\n\nMy father has recently been promoted to a higher post in his office. To celebrate this happy occasion, we are organizing a small party at our home this coming Sunday at 7:00 PM.\n\nIt would mean a lot to me if you could join us and make the evening more memorable. We haven't met in a long time, and this will be a great chance to catch up.\n\nConvey my warm regards to your parents.\n\nYours lovingly,\nRitik/Ritika"
       }
+    ]
+  }
     },
-   {
+    {
   "question_number": "5",
   "question_type": "DESCRIPTIVE",
   "marks": "5M",
@@ -369,9 +369,7 @@
       "explanation": "Women empowerment means giving women equal rights, opportunities and freedom in society.\n\nWomen play an important role in the development of a nation. Education of girls is the key to women empowerment. Educated women contribute to economic growth, family welfare and social progress. Gender equality and economic independence help women live with dignity and confidence.\n\nGovernment schemes and social awareness programs are helping women become self-reliant. Still, discrimination and inequality exist in many areas.\n\nIn conclusion, women empowerment is essential for national development. When women progress, the entire nation moves towards growth and prosperity."
     }
   ]
-}
-,
-    {
+},{
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
       "marks": "3",
