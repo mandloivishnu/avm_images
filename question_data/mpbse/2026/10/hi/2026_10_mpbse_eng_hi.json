@@ -196,75 +196,75 @@
       ]
     },
     {
-      "question_number": "4",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "",
-          "statement": "You are Ankit/Ankita, a student of class X-D in Govt. H.S.S. Excellence School, Shivpuri (M.P.). Write an application to your principal to grant you full fee-concession.",
-          "correct_answer": "",
-          "explanation": "This tests the ability to write a formal application. It should be in proper format, using formal and polite English. The following points must be included:\n\n1. Sender's address (name of the school and place)\n2. Date\n3. Receiver's address (The Principal, name of the school)\n4. Subject – Application for Full Fee-Concession\n5. Salutation – Respected Sir/Madam\n6. Body of the application:\n   • Name, class and section of the student\n   • Reason for requesting fee-concession (e.g. poor financial condition of family, good academic record)\n   • Polite request to grant full fee-concession\n7. Closing sentence with thanks\n8. Subscription – Yours obediently\n9. Signature and name\n\nThe language should be formal, polite and precise, as required in board examinations."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "",
-            "statement": "You are Anmol, residing at 50, Krishnapuram Colony, Shivpuri. Write a letter to your friend telling him about your Hostel Life.",
-            "correct_answer": "",
-            "explanation": "This requires writing an informal letter in correct format using friendly language. The following points should be covered:\n\n1. Sender's address\n2. Date\n3. Salutation – Dear Friend / Dear (Name),\n4. Body of the letter:\n   • Asking about the friend's well-being\n   • Describing daily routine in the hostel\n   • Mentioning friends, food, studies, games and discipline in the hostel\n   • Sharing feelings about hostel life (both good and challenging aspects)\n5. Closing words – With love / Yours lovingly\n6. Name of the writer\n\nThe language should be simple, friendly and informal, suitable for a personal letter."
-          }
-        ]
-      }
-    },
+  "question_number": "4",
+  "question_type": "DESCRIPTIVE",
+  "marks": "4",
+  "word_limit": "",
+  "text": "",
+  "parts": [
     {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "5",
-      "word_limit": "150 words (approx)",
-      "text": "Write an essay on any ONE of the following topics in about 150 words:",
+      "q_id": "",
+      "statement": "You are Ankit/Ankita, a student of class X-D in Govt. H.S.S. Excellence School, Shivpuri (M.P.). Write an application to your principal to grant you full fee-concession.",
+      "correct_answer": "",
+      "explanation": "To,\nThe Principal,\nGovt. H.S.S. Excellence School,\nShivpuri (M.P.).\n\nSubject: Application for full fee-concession.\n\nRespected Sir,\n\nI want to state that I am a regular student of class X-D in your school. My father is a poor clerk in a private firm. His monthly income is very low, and he has to support a large family of six members. Therefore, he is unable to pay my school fee.\n\nI was a brilliant student in my previous classes and secured first position in class IX. I am also very keen on continuing my studies.\n\nKindly grant me full fee-concession so that I can pursue my studies further.\n\nThanking you.\n\nYours obediently,\nAnkit/Ankita\nClass X-D"
+    }
+  ],
+  "or_option": {
+    "text": "OR",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "You are Anmol, residing at 50, Krishnapuram Colony, Shivpuri. Write a letter to your friend telling him about your Hostel Life.",
+        "correct_answer": "",
+        "explanation": "50, Krishnapuram Colony,\nShivpuri.\nJuly 26, 2026\n\nDear Rohan,\n\nI hope this letter finds you in the best of health and spirits. I am doing quite well here. Since you wanted to know about my stay, I thought of writing to you about my new hostel life.\n\nLiving in a hostel is a completely new and exciting experience for me. Initially, it was a bit difficult to manage everything on my own, but now I have adjusted well. Our daily routine starts early with physical exercise, followed by breakfast and study hours. We have fixed timings for meals, classes, games, and self-study, which has taught me the value of strict discipline and time management.\n\nThe food is simple and hygienic. I have made some great friends here, and we study and play together in the evening, which keeps homesickness away.\n\nConvey my regards to your parents and love to the younger ones.\n\nYours lovingly,\nAnmol"
+      }
+    ]
+  },
+  "next_question": {
+    "question_number": "5",
+    "question_type": "DESCRIPTIVE",
+    "marks": "5",
+    "word_limit": "150 words (approx)",
+    "text": "Write an essay on any ONE of the following topics in about 150 words:",
+    "parts": [
+      {
+        "q_id": "i",
+        "statement": "Science: Curse or Boon",
+        "explanation": "Science has transformed human life in countless ways. It has given us electricity, medicines, transport, and instant communication, making life easier and more comfortable.\n\nHowever, science has also produced weapons of mass destruction and caused pollution and environmental damage. Nuclear weapons, harmful chemicals and excessive use of technology threaten peace and the environment.\n\nWhether science is a boon or curse depends on how it is used. Used wisely, for the welfare of mankind, it is a great boon; misused, it becomes a curse.\n\nIn conclusion, science itself is neutral — it is the responsibility of humans to use it constructively so that it remains a blessing rather than a curse."
+      },
+      {
+        "q_id": "ii",
+        "statement": "Importance of Trees",
+        "explanation": "Trees are essential for life on earth. They provide us oxygen, food, shade, medicines and timber.\n\nTrees maintain the ecological balance by absorbing carbon dioxide and releasing oxygen. They prevent soil erosion, regulate rainfall, and provide shelter to birds and animals.\n\nDue to deforestation and urbanisation, the number of trees is rapidly declining, leading to climate change and environmental problems. It is our duty to plant more trees and protect the existing ones.\n\nIn conclusion, trees are the backbone of our environment. Saving trees means saving life on earth, and everyone should contribute towards afforestation."
+      },
+      {
+        "q_id": "iii",
+        "statement": "Electric Vehicles",
+        "explanation": "Electric vehicles (EVs) are becoming increasingly popular as an alternative to fuel-run vehicles. They run on electric batteries instead of petrol or diesel.\n\nEVs help reduce air pollution as they do not emit harmful gases. They are also more economical in the long run since electricity is cheaper than fuel and require less maintenance.\n\nHowever, the high initial cost, limited charging infrastructure and long charging time are some challenges faced by EV users. Governments are promoting EVs through subsidies to encourage eco-friendly transport.\n\nIn conclusion, electric vehicles are the future of transportation, helping to build a cleaner and greener environment for the coming generations."
+      },
+      {
+        "q_id": "iv",
+        "statement": "Any Historical Building",
+        "explanation": "The Taj Mahal, located in Agra, is one of the most famous historical buildings in India and a symbol of eternal love. It was built by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal.\n\nBuilt entirely of white marble, the Taj Mahal is admired for its beautiful architecture, intricate carvings and symmetrical design. It took around 22 years to complete and is regarded as one of the Seven Wonders of the World.\n\nEvery year, millions of tourists from India and abroad visit the Taj Mahal, making it an important part of India's tourism and heritage.\n\nIn conclusion, the Taj Mahal stands as a timeless monument of love and a proud symbol of India's rich history and craftsmanship."
+      },
+      {
+        "q_id": "v",
+        "statement": "Problem of Pollution",
+        "explanation": "Pollution has become one of the most serious problems of modern times. It exists in various forms — air, water, soil and noise pollution — and affects the health of humans, animals and plants.\n\nRapid industrialisation, vehicular emissions, deforestation and improper waste disposal are the major causes of pollution. It leads to respiratory diseases, global warming and damage to the ecosystem.\n\nTo control pollution, we must adopt cleaner technologies, promote afforestation, reduce the use of plastics, and encourage public transport and renewable energy.\n\nIn conclusion, pollution is a grave threat to our planet, and collective efforts by individuals, governments and industries are essential to control it and protect the environment for future generations."
+      }
+    ],
+    "or_option": {
+      "text": "OR",
       "parts": [
         {
-          "q_id": "i",
-          "statement": "Science: Curse or Boon",
-          "explanation": "Science has transformed human life in countless ways. It has given us electricity, medicines, transport, and instant communication, making life easier and more comfortable.\n\nHowever, science has also produced weapons of mass destruction and caused pollution and environmental damage. Nuclear weapons, harmful chemicals and excessive use of technology threaten peace and the environment.\n\nWhether science is a boon or curse depends on how it is used. Used wisely, for the welfare of mankind, it is a great boon; misused, it becomes a curse.\n\nIn conclusion, science itself is neutral — it is the responsibility of humans to use it constructively so that it remains a blessing rather than a curse."
-        },
-        {
-          "q_id": "ii",
-          "statement": "Importance of Trees",
-          "explanation": "Trees are essential for life on earth. They provide us oxygen, food, shade, medicines and timber.\n\nTrees maintain the ecological balance by absorbing carbon dioxide and releasing oxygen. They prevent soil erosion, regulate rainfall, and provide shelter to birds and animals.\n\nDue to deforestation and urbanisation, the number of trees is rapidly declining, leading to climate change and environmental problems. It is our duty to plant more trees and protect the existing ones.\n\nIn conclusion, trees are the backbone of our environment. Saving trees means saving life on earth, and everyone should contribute towards afforestation."
-        },
-        {
-          "q_id": "iii",
-          "statement": "Electric Vehicles",
-          "explanation": "Electric vehicles (EVs) are becoming increasingly popular as an alternative to fuel-run vehicles. They run on electric batteries instead of petrol or diesel.\n\nEVs help reduce air pollution as they do not emit harmful gases. They are also more economical in the long run since electricity is cheaper than fuel and require less maintenance.\n\nHowever, the high initial cost, limited charging infrastructure and long charging time are some challenges faced by EV users. Governments are promoting EVs through subsidies to encourage eco-friendly transport.\n\nIn conclusion, electric vehicles are the future of transportation, helping to build a cleaner and greener environment for the coming generations."
-        },
-        {
-          "q_id": "iv",
-          "statement": "Any Historical Building",
-          "explanation": "The Taj Mahal, located in Agra, is one of the most famous historical buildings in India and a symbol of eternal love. It was built by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal.\n\nBuilt entirely of white marble, the Taj Mahal is admired for its beautiful architecture, intricate carvings and symmetrical design. It took around 22 years to complete and is regarded as one of the Seven Wonders of the World.\n\nEvery year, millions of tourists from India and abroad visit the Taj Mahal, making it an important part of India's tourism and heritage.\n\nIn conclusion, the Taj Mahal stands as a timeless monument of love and a proud symbol of India's rich history and craftsmanship."
-        },
-        {
-          "q_id": "v",
-          "statement": "Problem of Pollution",
-          "explanation": "Pollution has become one of the most serious problems of modern times. It exists in various forms — air, water, soil and noise pollution — and affects the health of humans, animals and plants.\n\nRapid industrialisation, vehicular emissions, deforestation and improper waste disposal are the major causes of pollution. It leads to respiratory diseases, global warming and damage to the ecosystem.\n\nTo control pollution, we must adopt cleaner technologies, promote afforestation, reduce the use of plastics, and encourage public transport and renewable energy.\n\nIn conclusion, pollution is a grave threat to our planet, and collective efforts by individuals, governments and industries are essential to control it and protect the environment for future generations."
+          "q_id": "vi",
+          "statement": "Write a paragraph in about 150 words on 'A friend in need is a friend indeed'.",
+          "explanation": "The proverb 'A friend in need is a friend indeed' means that a true friend is one who stands by us during our difficult times, not just in happiness.\n\nMany people claim to be friends when everything is going well, but disappear when we face problems. A real friend, however, offers support, comfort and help during hardships without expecting anything in return.\n\nSuch friendships are built on trust, honesty and mutual care. A true friend shares our sorrows, encourages us to overcome challenges, and never leaves us alone in difficult situations.\n\nIn conclusion, true friendship is tested in times of need. We should value and nurture such friendships, and also strive to be that kind of friend to others."
         }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "vi",
-            "statement": "Write a paragraph in about 150 words on 'A friend in need is a friend indeed'.",
-            "explanation": "The proverb 'A friend in need is a friend indeed' means that a true friend is one who stands by us during our difficult times, not just in happiness.\n\nMany people claim to be friends when everything is going well, but disappear when we face problems. A real friend, however, offers support, comfort and help during hardships without expecting anything in return.\n\nSuch friendships are built on trust, honesty and mutual care. A true friend shares our sorrows, encourages us to overcome challenges, and never leaves us alone in difficult situations.\n\nIn conclusion, true friendship is tested in times of need. We should value and nurture such friendships, and also strive to be that kind of friend to others."
-          }
-        ]
-      }
-    },
+      ]
+    }
+  }
+},
     {
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
