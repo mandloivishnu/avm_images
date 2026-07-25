@@ -21,79 +21,151 @@
           "q_id": "i",
           "statement": "ब्राज़ील के रिओ-डी-जेनेरो में पर्यावरण और विकास सम्मेलन कब हुआ? / Rio-de-Janeiro in Brazil, Earth Summit was held in which year?",
           "options": [
-            {"index": "अ/a", "text": "जून, 1992 / June, 1992"},
-            {"index": "ब/b", "text": "जुलाई, 1991 / July, 1991"},
-            {"index": "स/c", "text": "जून, 1929 / June, 1929"},
-            {"index": "द/d", "text": "जुलाई, 1992 / July, 1992"}
+            {
+              "index": "अ/a",
+              "text": "जून, 1992 / June, 1992"
+            },
+            {
+              "index": "ब/b",
+              "text": "जुलाई, 1991 / July, 1991"
+            },
+            {
+              "index": "स/c",
+              "text": "जून, 1929 / June, 1929"
+            },
+            {
+              "index": "द/d",
+              "text": "जुलाई, 1992 / July, 1992"
+            }
           ],
           "correct_index": "अ/a",
           "correct_answer": "जून, 1992",
-          "explanation": "ब्राजील के रियो-डी-जेनेरो शहर में जून 1992 में पृथ्वी सम्मेलन (Earth Summit) आयोजित हुआ था।"
+          "explanation": "ब्राजील के रियो-डी-जेनेरो शहर में जून 1992 में प्रथम पृथ्वी सम्मेलन आयोजित हुआ था, जिसमें वैश्विक स्तर पर पर्यावरण संरक्षण और सामाजिक-आर्थिक विकास की समस्याओं का हल खोजने पर चर्चा की गई थी। / The first Earth Summit was held in Rio de Janeiro, Brazil in June 1992, focusing on global environmental protection and socio-economic development solutions."
         },
         {
           "q_id": "ii",
           "statement": "छोटा नागपुर क्षेत्र की मुंडा और संथाल जनजातियां किन पेड़ों की पूजा करती हैं? / The Mundas and the Santhals tribes of Chota Nagpur region worship which trees?",
           "options": [
-            {"index": "अ/a", "text": "पलाश और कदम्ब / Palash and Kadamba"},
-            {"index": "ब/b", "text": "गूलर और अर्जुन / Gular and Arjun"},
-            {"index": "स/c", "text": "महुआ और कदम्ब / Mahua and Kadamba"},
-            {"index": "द/d", "text": "महुआ और नीम / Mahua and Neem"}
+            {
+              "index": "अ/a",
+              "text": "पलाश और कदम्ब / Palash and Kadamba"
+            },
+            {
+              "index": "ब/b",
+              "text": "गूलर और अर्जुन / Gular and Arjun"
+            },
+            {
+              "index": "स/c",
+              "text": "महुआ और कदम्ब / Mahua and Kadamba"
+            },
+            {
+              "index": "द/d",
+              "text": "महुआ और नीम / Mahua and Neem"
+            }
           ],
           "correct_index": "स/c",
           "correct_answer": "महुआ और कदम्ब",
-          "explanation": "छोटा नागपुर क्षेत्र की मुंडा एवं संथाल जनजातियाँ महुआ तथा कदम्ब के वृक्षों की पूजा करती हैं, जो उनकी प्रकृति-पूजा परंपरा का हिस्सा है।"
+          "explanation": "छोटा नागपुर क्षेत्र की मुंडा एवं संथाल जनजातियाँ महुआ (Madhuca indica) तथा कदम्ब (Neolamarckia cadamba) के पेड़ों की पूजा करती हैं। यह उनकी प्रकृति-पूजा और वन्य जीवों व वनस्पतियों के संरक्षण की पारंपरिक संस्कृति का हिस्सा है। / The Munda and Santhal tribes of the Chota Nagpur region worship Mahua and Kadamba trees as part of their traditional nature-worship and conservation culture."
         },
         {
           "q_id": "iii",
           "statement": "भारत की एक बड़ी जल संसाधन परियोजना जिसमें महाराष्ट्र, मध्य प्रदेश, गुजरात तथा राजस्थान सम्मिलित हैं / The largest water resource project of India covering four states - Maharashtra, Madhya Pradesh, Gujarat and Rajasthan is :",
           "options": [
-            {"index": "अ/a", "text": "सरदार सरोवर बाँध / Sardar Sarovar Dam"},
-            {"index": "ब/b", "text": "कोयना बाँध / Koyna Dam"},
-            {"index": "स/c", "text": "हीराकुड बाँध / Hirakud Dam"},
-            {"index": "द/d", "text": "गांधी सागर बाँध / Gandhi Sagar Dam"}
+            {
+              "index": "अ/a",
+              "text": "सरदार सरोवर बाँध / Sardar Sarovar Dam"
+            },
+            {
+              "index": "ब/b",
+              "text": "कोयना बाँध / Koyna Dam"
+            },
+            {
+              "index": "स/c",
+              "text": "हीराकुड बाँध / Hirakud Dam"
+            },
+            {
+              "index": "द/d",
+              "text": "गांधी सागर बाँध / Gandhi Sagar Dam"
+            }
           ],
           "correct_index": "अ/a",
           "correct_answer": "सरदार सरोवर बाँध",
-          "explanation": "सरदार सरोवर बाँध नर्मदा नदी पर बना है तथा इसमें महाराष्ट्र, मध्य प्रदेश, गुजरात एवं राजस्थान चार राज्य सम्मिलित हैं।"
+          "explanation": "सरदार सरोवर बाँध परियोजना नर्मदा नदी पर बनाई गई एक प्रमुख बहुउद्देशीय परियोजना है, जिससे महाराष्ट्र, मध्य प्रदेश, गुजरात और राजस्थान राज्यों को सिंचाई और विद्युत लाभ प्राप्त होता है। / The Sardar Sarovar Dam is a major multipurpose river valley project on the Narmada River benefiting the four states of Maharashtra, Madhya Pradesh, Gujarat, and Rajasthan."
         },
         {
           "q_id": "iv",
           "statement": "भारत की मुख्य खाद्यान्न फसल है / Main staple food crop of India is :",
           "options": [
-            {"index": "अ/a", "text": "चाय / Tea"},
-            {"index": "ब/b", "text": "जूट / Jute"},
-            {"index": "स/c", "text": "धान / Paddy"},
-            {"index": "द/d", "text": "रबर / Rubber"}
+            {
+              "index": "अ/a",
+              "text": "चाय / Tea"
+            },
+            {
+              "index": "ब/b",
+              "text": "जूट / Jute"
+            },
+            {
+              "index": "स/c",
+              "text": "धान / Paddy"
+            },
+            {
+              "index": "द/d",
+              "text": "रबर / Rubber"
+            }
           ],
           "correct_index": "स/c",
           "correct_answer": "धान",
-          "explanation": "धान (चावल) भारत की मुख्य खाद्यान्न फसल है, जो देश की अधिकांश जनसंख्या का प्रमुख आहार है।"
+          "explanation": "धान (चावल) भारत की मुख्य खाद्यान्न फसल है, क्योंकि देश के अधिकांश भूभाग पर इसकी खेती की जाती है और यह भारत की एक बड़ी आबादी का प्रमुख आहार है। / Paddy (rice) is the main staple food crop of India, cultivated across vast regions and serving as the primary diet for a large portion of the population."
         },
         {
           "q_id": "v",
           "statement": "महात्मा गांधी की प्रसिद्ध पुस्तक का नाम है / Famous book of Mahatma Gandhi is :",
           "options": [
-            {"index": "अ/a", "text": "गोदान / Godan"},
-            {"index": "ब/b", "text": "हिन्द स्वराज / Hind Swaraj"},
-            {"index": "स/c", "text": "गीतांजलि / Gitanjali"},
-            {"index": "द/d", "text": "भारत एक खोज / India a Discovery"}
+            {
+              "index": "अ/a",
+              "text": "गोदान / Godan"
+            },
+            {
+              "index": "ब/b",
+              "text": "हिन्द स्वराज / Hind Swaraj"
+            },
+            {
+              "index": "स/c",
+              "text": "गीतांजलि / Gitanjali"
+            },
+            {
+              "index": "द/d",
+              "text": "भारत एक खोज / India a Discovery"
+            }
           ],
           "correct_index": "ब/b",
           "correct_answer": "हिन्द स्वराज",
-          "explanation": "'हिन्द स्वराज' महात्मा गांधी द्वारा लिखी गई प्रसिद्ध पुस्तक है, जिसमें उन्होंने स्वराज संबंधी अपने विचार प्रस्तुत किए हैं।"
+          "explanation": "'हिन्द स्वराज' (Hind Swaraj) महात्मा गांधी द्वारा 1909 में रचित प्रसिद्ध पुस्तक है, जिसमें उन्होंने भारतीय स्वतंत्रता, आधुनिक सभ्यता की आलोचना और स्वराज के अपने विचारों को स्पष्ट किया है। / 'Hind Swaraj' is a famous book written by Mahatma Gandhi in 1909, outlining his views on Indian self-rule, civilization, and freedom."
         },
         {
           "q_id": "vi",
           "statement": "H.D.I. का अर्थ है / H.D.I. means :",
           "options": [
-            {"index": "अ/a", "text": "मानव विकास / Human Development"},
-            {"index": "ब/b", "text": "मानव विकास सूचकांक / Human Development Index"},
-            {"index": "स/c", "text": "मानव आय / Human Income"},
-            {"index": "द/d", "text": "मानव वृद्धि सूचकांक / Human Growth Index"}
+            {
+              "index": "अ/a",
+              "text": "मानव विकास / Human Development"
+            },
+            {
+              "index": "ब/b",
+              "text": "मानव विकास सूचकांक / Human Development Index"
+            },
+            {
+              "index": "स/c",
+              "text": "मानव आय / Human Income"
+            },
+            {
+              "index": "द/d",
+              "text": "मानव वृद्धि सूचकांक / Human Growth Index"
+            }
           ],
           "correct_index": "ब/b",
           "correct_answer": "मानव विकास सूचकांक",
-          "explanation": "H.D.I. का पूर्ण रूप मानव विकास सूचकांक (Human Development Index) है, जिसे UNDP द्वारा जारी किया जाता है।"
+          "explanation": "H.D.I. का पूरा नाम मानव विकास सूचकांक (Human Development Index) है, जिसे संयुक्त राष्ट्र विकास कार्यक्रम (UNDP) द्वारा स्वास्थ्य, शिक्षा और प्रति व्यक्ति आय के आधार पर देशों की रैंकिंग के लिए जारी किया जाता है। / H.D.I. stands for Human Development Index, published by the UNDP to rank countries based on health, education, and per capita income."
         }
       ]
     },
@@ -107,37 +179,37 @@
           "q_id": "i",
           "statement": "म. गा. रा. ग्रामीण रोजगार गारंटी अधिनियम-2005 के अंतर्गत {BLANK} दिनों के कार्य/रोजगार की गारंटी दी गई है। / According to MGNREGA-2005 provided employment guarantee for {BLANK} days.",
           "correct_answer": "100 दिनों",
-          "explanation": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम-2005 के अंतर्गत प्रत्येक ग्रामीण परिवार के इच्छुक वयस्क सदस्य को वर्ष में कम से कम 100 दिनों के रोजगार की गारंटी दी गई है।"
+          "explanation": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम (MGNREGA), 2005 के तहत प्रत्येक ग्रामीण परिवार के अकुशल शारीरिक श्रम करने के इच्छुक वयस्क सदस्यों को वित्तीय वर्ष में कम से कम 100 दिन के रोजगार की कानूनी गारंटी दी जाती है। / MGNREGA 2005 guarantees at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work."
         },
         {
           "q_id": "ii",
           "statement": "कृषि {BLANK} क्षेत्र की गतिविधि है। / Agriculture is {BLANK} sector activity.",
           "correct_answer": "प्राथमिक",
-          "explanation": "कृषि प्राकृतिक संसाधनों के प्रत्यक्ष उपयोग पर आधारित होने के कारण प्राथमिक क्षेत्र की गतिविधि है।"
+          "explanation": "कृषि प्राथमिक (Primary) क्षेत्र के अंतर्गत आती है, क्योंकि इसमें प्राकृतिक संसाधनों (जैसे भूमि, जल और वनस्पति) का प्रत्यक्ष उपयोग करके वस्तुओं का उत्पादन किया जाता है। / Agriculture falls under the primary sector as it involves the direct use and extraction of natural resources."
         },
         {
           "q_id": "iii",
           "statement": "मध्य प्रदेश का एक राष्ट्रीय उद्यान {BLANK} है। / One national park of Madhya Pradesh is {BLANK}.",
           "correct_answer": "कान्हा राष्ट्रीय उद्यान",
-          "explanation": "कान्हा राष्ट्रीय उद्यान मध्य प्रदेश का एक प्रमुख राष्ट्रीय उद्यान है (बांधवगढ़, पेंच अथवा सतपुड़ा भी स्वीकार्य उत्तर हैं)।"
+          "explanation": "कान्हा राष्ट्रीय उद्यान मध्य प्रदेश का एक प्रसिद्ध और सबसे बड़ा राष्ट्रीय उद्यान है (अन्य विकल्प: बाँधवगढ़, पेंच, माधव, सतपुड़ा आदि)। / Kanha National Park is a prominent national park located in Madhya Pradesh."
         },
         {
           "q_id": "iv",
           "statement": "सन् {BLANK} में श्रीलंका स्वतंत्र राष्ट्र बना था। / Sri Lanka emerged as an independent country in {BLANK} (year).",
           "correct_answer": "1948",
-          "explanation": "श्रीलंका सन् 1948 में ब्रिटिश शासन से स्वतंत्र होकर एक स्वतंत्र राष्ट्र बना।"
+          "explanation": "श्रीलंका (तत्कालीन सीलोन) को ब्रिटिश औपनिवेशिक शासन से स्वतंत्रता 4 फरवरी 1948 को प्राप्त हुई थी। / Sri Lanka gained independence from British colonial rule in the year 1948."
         },
         {
           "q_id": "v",
           "statement": "{BLANK} सरकार दो या अधिक स्तरोंवाली होती है। / {BLANK} government are two or more levels (tiers of government).",
           "correct_answer": "संघीय",
-          "explanation": "संघीय (Federal) सरकार दो या दो से अधिक स्तरों (केन्द्र एवं राज्य) वाली होती है।"
+          "explanation": "संघीय (Federal) शासन व्यवस्था में सरकार के दो या अधिक स्तर होते हैं, जैसे एक स्तर पूरे देश के लिए (केंद्र सरकार) और दूसरे स्तर प्रान्त या राज्यों के लिए होते हैं। / A federal government consists of two or more levels or tiers of government, such as central and state governments."
         },
         {
           "q_id": "vi",
           "statement": "अफ्रीका में 1890 में रिन्डरपेस्ट {BLANK} था। / In Africa 1890s Rinderpest was {BLANK}.",
           "correct_answer": "पशुओं की तेजी से फैलने वाली एक महामारी (प्लेग)",
-          "explanation": "रिन्डरपेस्ट पशुओं की एक तेजी से फैलने वाली भयावह महामारी थी, जिसने 1890 के दशक में अफ्रीका के अधिकांश मवेशियों को नष्ट कर दिया।"
+          "explanation": "रिन्डरपेस्ट (Rinderpest) पशुओं में फैलने वाली एक अत्यंत घातक और तीव्र गति से संक्रामक बीमारी (मवेशी प्लेग) थी, जिसने 1890 के दशक में अफ्रीकी महाद्वीप के अधिकांश मवेशियों को नष्ट कर दिया था। / Rinderpest was a fast-spreading and devastating cattle plague that wiped out a vast majority of livestock in Africa in the 1890s."
         }
       ]
     },
@@ -151,37 +223,37 @@
           "q_id": "i",
           "statement": "गैर-नवीकरणीय साधन वो हैं जो कुछ ही वर्षों के प्रयोग के पश्चात् समाप्त हो जाते हैं। / Non-renewable resources are those which will get exhausted after a few years of use.",
           "correct_answer": "सत्य",
-          "explanation": "गैर-नवीकरणीय संसाधन (जैसे कोयला, पेट्रोलियम) निरंतर उपयोग से समाप्त हो जाते हैं तथा इनका पुनर्निर्माण अत्यंत लंबी अवधि में होता है, अतः यह कथन सत्य है।"
+          "explanation": "गैर-नवीकरणीय संसाधन (जैसे कोयला, पेट्रोलियम, प्राकृतिक गैस) सीमित मात्रा में उपलब्ध हैं और लगातार उपयोग के बाद समाप्त हो जाते हैं, क्योंकि इनके पुनर्भरण में लाखों वर्ष लगते हैं। अतः यह कथन सत्य है। / Non-renewable resources get exhausted with continuous use as they take millions of years to form. Hence, this statement is true."
         },
         {
           "q_id": "ii",
           "statement": "भारत में अब कुल 22 भाषाओं को संविधान की 8वीं अनुसूची में रखा गया है। / In India 22 languages are now included in the Eighth Schedule of Constitution.",
           "correct_answer": "सत्य",
-          "explanation": "वर्तमान में भारतीय संविधान की आठवीं अनुसूची में कुल 22 भाषाओं को सम्मिलित किया गया है।"
+          "explanation": "भारतीय संविधान की आठवीं अनुसूची में वर्तमान में कुल 22 अनुसूचित भाषाएँ शामिल हैं, अतः यह कथन सत्य है। / The Eighth Schedule of the Indian Constitution currently includes a total of 22 scheduled languages, making this statement true."
         },
         {
           "q_id": "iii",
           "statement": "भारत में संघीय व्यवस्था नहीं है। / India is no longer a federal system.",
           "correct_answer": "असत्य",
-          "explanation": "भारत में संघीय शासन व्यवस्था है, जिसमें शासन के दो स्तर - केन्द्र सरकार तथा राज्य सरकार - विद्यमान हैं, अतः कथन असत्य है।"
+          "explanation": "भारत एक संघीय गणराज्य है जहाँ संविधान के माध्यम से केंद्र और राज्य सरकारों के बीच शक्तियों का स्पष्ट विभाजन किया गया है। अतः 'भारत में संघीय व्यवस्था नहीं है' यह कथन असत्य है। / India is a federal country with power divided between central and state governments, making the statement false."
         },
         {
           "q_id": "iv",
           "statement": "हल्दिया पत्तन, कोलकाता का सहायक पत्तन है। / Haldia port is a subsidiary port of Kolkatta.",
           "correct_answer": "सत्य",
-          "explanation": "हल्दिया पत्तन कोलकाता पत्तन के दबाव को कम करने हेतु स्थापित इसका सहायक पत्तन है।"
+          "explanation": "हल्दिया बंदरगाह पश्चिम बंगाल में हुगली नदी के तट पर कोलकाता बंदरगाह के भारी दबाव को कम करने और सहायक के रूप में विकसित किया गया है। अतः यह कथन सत्य है। / Haldia port was developed as a subsidiary port to relieve growing pressure on the Kolkata port. Hence, this statement is true."
         },
         {
           "q_id": "v",
           "statement": "प्राथमिक, द्वितीयक और तृतीयक क्षेत्र की गतिविधियां स्वतंत्र हैं। / The activities in primary, secondary and tertiary sectors are independent.",
           "correct_answer": "असत्य",
-          "explanation": "प्राथमिक, द्वितीयक तथा तृतीयक क्षेत्रों की गतिविधियाँ परस्पर एक-दूसरे से जुड़ी हुई तथा अंतर-निर्भर होती हैं, स्वतंत्र नहीं, अतः कथन असत्य है।"
+          "explanation": "प्राथमिक, द्वितीयक और तृतीयक क्षेत्र की गतिविधियाँ एक-दूसरे से स्वतंत्र नहीं बल्कि परस्पर जुड़ी हुई और अंतर-निर्भर होती हैं (उदाहरणार्थ: कृषि उपज के लिए उद्योग और परिवहन की आवश्यकता)। अतः कथन असत्य है। / The primary, secondary, and tertiary sectors are interdependent and not independent of each other. Therefore, the statement is false."
         },
         {
           "q_id": "vi",
           "statement": "मुद्रा के आधुनिक रूप में करेंसी - कागज के नोट और सिक्के शामिल हैं। / Modern forms of money include currency - paper notes and coins.",
           "correct_answer": "सत्य",
-          "explanation": "आधुनिक मुद्रा में करेंसी नोट (कागजी मुद्रा) एवं सिक्के सम्मिलित होते हैं, जो सरकार द्वारा जारी एवं प्राधिकृत होते हैं।"
+          "explanation": "आधुनिक मुद्रा प्रणाली में सरकारी प्राधिकार प्राप्त कागजी नोट (करेंसी) और सिक्के शामिल होते हैं, जिन्हें विनिमय के माध्यम के रूप में स्वीकार किया जाता है। अतः यह कथन सत्य है। / Modern currency includes paper notes and coins authorized by the government as a medium of exchange. Hence, the statement is true."
         }
       ]
     },
@@ -192,7 +264,7 @@
       "text": "सही जोड़ी मिलाइये / Match the correct pairs :",
       "youtube_url": null,
       "previous_exam_reference": null,
-      "explanation": "स्तम्भ अ/A में दिए गए पदों का मिलान स्तम्भ ब/B में दी गई संबंधित जानकारी के आधार पर किया गया है।",
+      "explanation": "स्तम्भ अ/A के मदों का सही मिलान स्तम्भ ब/B की संबंधित विशेषताओं या परिभाषाओं के साथ किया गया है। / The items in column A are correctly matched with their corresponding descriptions in column B.",
       "columns": {
         "column_A_title": "अ / A",
         "column_B_title": "ब / B",
@@ -201,37 +273,37 @@
             "a_item": "(a) भारतीय रिजर्व बैंक / Reserve Bank of India",
             "b_item": "ऋण का औपचारिक स्रोत / Formal source of credit",
             "correct_match_index": "3",
-            "explanation": "भारतीय रिजर्व बैंक (RBI) ऋण के औपचारिक स्रोतों (बैंकों) की निगरानी करता है तथा स्वयं भी औपचारिक स्रोत की श्रेणी में आता है।"
+            "explanation": "भारतीय रिजर्व बैंक (RBI) देश का केंद्रीय बैंक है और यह ऋण के औपचारिक स्रोतों (बैंकों और सहकारी समितियों) का सर्वोच्च नियमन व नियंत्रण करता है। / RBI is the central bank and regulates formal sources of credit in the country."
           },
           {
             "a_item": "(b) स्वामित्व के आधार पर क्षेत्रक / Sectors in terms of ownership",
             "b_item": "सार्वजनिक और निजी क्षेत्र / Public and Private sectors",
             "correct_match_index": "1",
-            "explanation": "स्वामित्व के आधार पर अर्थव्यवस्था को सार्वजनिक तथा निजी क्षेत्र में विभाजित किया जाता है।"
+            "explanation": "उत्पादक इकाइयों के स्वामित्व के आधार पर अर्थव्यवस्था को सार्वजनिक क्षेत्र (सरकार के अधीन) और निजी क्षेत्र (व्यक्तिगत स्वामियों के अधीन) में वर्गीकृत किया जाता है। / Based on ownership, economic sectors are classified into public and private sectors."
           },
           {
             "a_item": "(c) राजनीतिक पार्टियों के कार्य / Works of political parties",
-            "b_item": "चुनाव और सरकार व्यवस्था / Elections and government system",
+            "b_item": "चुनाव लड़ना और सरकार बनाना / Elections and government system",
             "correct_match_index": "5",
-            "explanation": "राजनीतिक दल चुनाव लड़ने तथा सरकार बनाने का कार्य करते हैं।"
+            "explanation": "राजनीतिक दलों का मुख्य कार्य चुनाव लड़ना, अपने उम्मीदवार खड़े करना और विजय प्राप्त कर सरकार चलाना है। / The primary work of political parties is to contest elections and form the government system."
           },
           {
             "a_item": "(d) प्रिंट मीडिया / Print media",
             "b_item": "सामाजिक मुद्दों को उठाना एवं समाचार / Social issues and News",
             "correct_match_index": "6",
-            "explanation": "प्रिंट मीडिया समाचार पत्रों एवं पत्रिकाओं के माध्यम से सामाजिक मुद्दों को उठाने तथा जनता तक समाचार पहुँचाने का कार्य करता है।"
+            "explanation": "प्रिंट मीडिया (समाचार पत्र, पत्रिकाएँ आदि) जनता तक ताजा समाचार पहुँचाने और सामाजिक-राजनीतिक मुद्दों को मुखरता से उठाने का कार्य करता है। / Print media covers news and highlights social issues through newspapers and magazines."
           },
           {
             "a_item": "(e) चूना पत्थर / Lime stone",
-            "b_item": "सीमेंट / Cement",
+            "b_item": "सीमेंट उद्योग का कच्चा माल / Raw material for Cement",
             "correct_match_index": "2",
-            "explanation": "चूना पत्थर सीमेंट उद्योग का मुख्य कच्चा माल है।"
+            "explanation": "चूना पत्थर सीमेंट उद्योग में उपयोग होने वाला सबसे प्रमुख और अनिवार्य कच्चा माल है। / Limestone is the primary raw material required for the manufacturing of cement."
           },
           {
             "a_item": "(f) साइमन कमीशन / Simon Commission",
             "b_item": "सन् 1928 / 1928 A.D.",
             "correct_match_index": "4",
-            "explanation": "साइमन कमीशन सन् 1928 में भारत आया था, जिसका देशव्यापी विरोध हुआ था।"
+            "explanation": "साइमन कमीशन संवैधानिक सुधारों का अध्ययन करने के लिए भारत फरवरी 1928 में आया था, जिसका तीव्र विरोध हुआ था। / The Simon Commission arrived in India in the year 1928."
           }
         ]
       }
@@ -247,37 +319,37 @@
           "q_id": "1",
           "statement": "भारत में पहली कपड़ा मिल किस स्थान पर लगी थी? / In which place did India's first cotton mill set up?",
           "correct_answer": "मुंबई (बॉम्बे)",
-          "explanation": "भारत की पहली कपड़ा मिल मुंबई (बॉम्बे) में सन् 1854 में स्थापित की गई थी।"
+          "explanation": "भारत की पहली सूती कपड़ा मिल वर्ष 1854 में मुंबई (बॉम्बे) में स्थापित की गई थी। / India's first cotton mill was established in Mumbai (Bombay) in the year 1854."
         },
         {
           "q_id": "2",
           "statement": "प्रथम विश्व युद्ध कब लड़ा गया (सन्)? / First world war held in which year?",
           "correct_answer": "1914 से 1918 ई. तक",
-          "explanation": "प्रथम विश्व युद्ध सन् 1914 से 1918 के मध्य लड़ा गया था।"
+          "explanation": "प्रथम विश्व युद्ध 28 जुलाई 1914 से 11 नवंबर 1918 के मध्य लड़ा गया था। / The First World War was fought between 1914 and 1918 AD."
         },
         {
           "q_id": "3",
           "statement": "द्वितीयक क्षेत्र की गतिविधि का नाम लिखिए। / Write the name of one activity of secondary sector.",
-          "correct_answer": "विनिर्माण (जैसे वस्त्र उद्योग)",
-          "explanation": "विनिर्माण (Manufacturing) द्वितीयक क्षेत्र की एक प्रमुख गतिविधि है, जिसमें कच्चे माल को प्रसंस्कृत कर नई वस्तुएँ बनाई जाती हैं।"
+          "correct_answer": "विनिर्माण (जैसे वस्त्र निर्माण, इस्पात उत्पादन)",
+          "explanation": "द्वितीयक क्षेत्र में विनिर्मित उद्योगों (जैसे कपड़े बुनना, चीनी बनाना या लोहे से वस्तुएं बनाना) की गतिविधियाँ आती हैं, जो प्राथमिक उत्पादों को रूपान्तरित करती हैं। / Manufacturing (such as textile production or sugar making) is a core activity of the secondary sector."
         },
         {
           "q_id": "4",
           "statement": "अतीत में देशों को जोड़ने वाला मुख्य माध्यम क्या था? / What was the main channel (medium) connecting countries in the past?",
-          "correct_answer": "व्यापारिक मार्ग (जैसे रेशम मार्ग)",
-          "explanation": "अतीत में रेशम मार्ग जैसे व्यापारिक मार्ग विभिन्न देशों को वस्तुओं, विचारों एवं संस्कृतियों के आदान-प्रदान द्वारा आपस में जोड़ते थे।"
+          "correct_answer": "व्यापारिक मार्ग (जैसे सिल्क रूट या रेशम मार्ग)",
+          "explanation": "प्राचीन काल और अतीत में विभिन्न देशों को आपस में जोड़ने वाले प्रमुख माध्यम रेशम मार्ग (Silk Routes) और समुद्री व्यापारिक मार्ग थे, जिनसे व्यापारी, तीर्थयात्री और संस्कृतियाँ जुड़ीं। / Trade routes like the Silk Route served as the primary medium connecting countries, facilitating the exchange of goods and cultures in the past."
         },
         {
           "q_id": "5",
           "statement": "किसी राष्ट्र में सरकार विरोधी समूहों की हिंसक लड़ाई जो युद्ध सी लगे उसे क्या कहते हैं? / A violent conflict between government opposing groups within a country that becomes so intense, appears like a war called what?",
           "correct_answer": "गृहयुद्ध (Civil War)",
-          "explanation": "जब किसी राष्ट्र के भीतर सरकार-विरोधी समूहों के बीच संघर्ष इतना उग्र हो जाए कि वह युद्ध सा प्रतीत होने लगे, तो उसे गृहयुद्ध कहा जाता है।"
+          "explanation": "किसी देश के भीतर ही सरकार समर्थकों और विरोधी समूहों या दो समुदायों के बीच होने वाले सशस्त्र और हिंसक संघर्ष को 'गृहयुद्ध' कहा जाता है। / An intense armed conflict between rival groups or factions within the same country is known as a Civil War."
         },
         {
           "q_id": "6",
           "statement": "परिवहन का कौन सा साधन सबसे सुविधाजनक है? / Which is the most convenient means of transport?",
           "correct_answer": "सड़क परिवहन",
-          "explanation": "सड़क परिवहन घर-घर तक सेवा प्रदान करने तथा दुर्गम क्षेत्रों तक पहुँचने में सक्षम होने के कारण सबसे सुविधाजनक साधन माना जाता है।"
+          "explanation": "सड़क परिवहन सबसे सुविधाजनक साधन माना जाता है क्योंकि यह घर-घर तक पहुँच (door-to-door service) प्रदान करता है और कम दूरी के लिए अत्यंत लचीला होता है। / Road transport is considered the most convenient means because it offers door-to-door service and flexibility."
         }
       ]
     },
@@ -292,7 +364,7 @@
           "q_id": "",
           "statement": "वन संरक्षण हेतु किए गए दो आंदोलनों के नाम बतलाइए। / Name two movements for conservation of forest.",
           "correct_answer": "",
-          "explanation": "1. चिपको आंदोलन\n2. बिश्नोई (अमृता देवी बिश्नोई) आंदोलन"
+          "explanation": "1. **चिपको आंदोलन:** यह उत्तराखंड में वनों की कटाई रोकने के लिए चलाया गया था जिसमें लोग पेड़ों से चिपक गए थे।\n2. **अमृता देवी विश्नोई आंदोलन:** राजस्थान में पेड़ों की रक्षा के लिए विश्नोई समुदाय द्वारा किया गया ऐतिहासिक बलिदान आंदोलन। / 1. Chipko Movement, 2. Amrita Devi Bishnoi Movement for wildlife and forest conservation."
         }
       ],
       "or_option": {
@@ -302,7 +374,7 @@
             "q_id": "",
             "statement": "वनों के दो प्रत्यक्ष महत्व लिखिए। / Write two direct importances of forests.",
             "correct_answer": "",
-            "explanation": "1. वनों से हमें लकड़ी, ईंधन तथा इमारती लकड़ी प्राप्त होती है।\n2. वनों से औषधीय पौधे, गोंद, शहद जैसे अन्य वनोपज प्राप्त होते हैं।"
+            "explanation": "1. वनों से हमें ईंधन, जलावन की लकड़ी और इमारती लकड़ी प्राप्त होती है।\n2. वनों से जड़ी-बूटियाँ, औषधीय पौधे, गोंद, लाख और शहद जैसे महत्वपूर्ण वन उत्पाद मिलते हैं। / 1. Provision of timber and firewood, 2. Supply of medicinal herbs, gums, and other forest produce."
           }
         ]
       }
@@ -318,7 +390,7 @@
           "q_id": "",
           "statement": "दो मोटे अनाजों के नाम लिखिए। / Write names of two millets.",
           "correct_answer": "",
-          "explanation": "ज्वार तथा बाजरा दो प्रमुख मोटे अनाज (Millets) हैं।"
+          "explanation": "1. ज्वार (Jowar)\n2. बाजरा (Bajra)\n(रागी भी एक अन्य प्रमुख मोटा अनाज है।) / 1. Jowar, 2. Bajra (Millets)."
         }
       ],
       "or_option": {
@@ -328,7 +400,7 @@
             "q_id": "",
             "statement": "दो व्यवसायिक फसलों के नाम लिखिए। / Write names of two commercial crops.",
             "correct_answer": "",
-            "explanation": "कपास तथा गन्ना दो प्रमुख व्यवसायिक (नकदी) फसलें हैं।"
+            "explanation": "1. कपास (Cotton)\n2. गन्ना (Sugarcane)\n(जूट और तंबाकू भी व्यावसायिक फसलें हैं।) / 1. Cotton, 2. Sugarcane (Commercial or cash crops)."
           }
         ]
       }
@@ -344,7 +416,7 @@
           "q_id": "",
           "statement": "राष्ट्रीय ताप विद्युत गृह द्वारा दिए गए दो उपाय जो प्राकृतिक पर्यावरण प्रदूषण कम करने में सहायक हैं, लिखिए। / National Thermal Power Corporation (NTPC) shows the way to protective approach for preserving natural environment pollution, write any two ways.",
           "correct_answer": "",
-          "explanation": "1. फ्लाई ऐश (राखड़) का सीमेंट एवं ईंट निर्माण में उपयोग करना।\n2. उत्सर्जित गैसों को नियंत्रित करने हेतु प्रदूषण नियंत्रण उपकरणों का उपयोग करना।"
+          "explanation": "1. आधुनिक उपकरणों और तकनीकों का उपयोग करके राखड़ (Fly Ash) का प्रबंधन और उसका सीमेंट व ईंट उद्योग में पुनर्चक्रण।\n2. संयंत्रों से निकलने वाली प्रदूषित गैसों और धुएँ को नियंत्रित करने हेतु उन्नत प्रदूषण नियंत्रण उपकरणों (जैसे इलेक्ट्रोस्टेटिक प्रेसिपिटेटर) की स्थापना। / 1. Proper management and utilization of ash, 2. Installation of advanced pollution control equipment to reduce air and water pollution."
         }
       ],
       "or_option": {
@@ -354,7 +426,7 @@
             "q_id": "",
             "statement": "औद्योगिक प्रदूषण के कोई दो प्रकार लिखिए। / Write any two types of Industrial Pollutions.",
             "correct_answer": "",
-            "explanation": "1. वायु प्रदूषण\n2. जल प्रदूषण"
+            "explanation": "1. वायु प्रदूषण (Air Pollution)\n2. जल प्रदूषण (Water Pollution)\n(ध्वनि और तापीय प्रदूषण भी अन्य प्रकार हैं।) / 1. Air Pollution, 2. Water Pollution."
           }
         ]
       }
@@ -370,7 +442,7 @@
           "q_id": "",
           "statement": "ज्यूसेपे मेजिनी कौन था? / Who was Giuseppe Mazzini?",
           "correct_answer": "",
-          "explanation": "ज्यूसेपे मेजिनी इटली का एक क्रांतिकारी था, जिसने 'यंग इटली' नामक गुप्त संगठन की स्थापना की तथा इटली के एकीकरण के लिए आजीवन संघर्ष किया।"
+          "explanation": "ज्यूसेपे मेजिनी इटली का एक महान राष्ट्रवादी क्रांतिकारी था। उसने 'यंग इटली' और 'यंग यूरोप' नामक गुप्त संगठनों की स्थापना की तथा इटली के एकीकरण के आंदोलन में महत्वपूर्ण भूमिका निभाई। / Giuseppe Mazzini was an Italian revolutionary who founded secret societies like 'Young Italy' and played a key role in Italian unification."
         }
       ],
       "or_option": {
@@ -380,7 +452,7 @@
             "q_id": "",
             "statement": "कल्पनादर्श क्या है? / What is Utopian?",
             "correct_answer": "",
-            "explanation": "कल्पनादर्श (Utopian) एक ऐसी विचारधारा है जो एक आदर्श, समतामूलक समाज की कल्पना करती है, परन्तु उसे व्यवहारिक रूप से प्राप्त करने के साधन एवं मार्ग स्पष्ट नहीं होते।"
+            "explanation": "कल्पनादर्श (Utopia) एक ऐसे आदर्श समाज की कल्पना है जो इतना आदर्शवादी है कि उसका वास्तविकता में साकार होना लगभग असंभव या अत्यधिक कठिन होता है। / A Utopian vision refers to an ideal society so perfect that it is unlikely to actually exist."
           }
         ]
       }
@@ -396,7 +468,7 @@
           "q_id": "",
           "statement": "जलियांवाला बाग हत्याकांड को दो बिन्दुओं में समझाइए। / Write two points about Jallianwalla Bagh massacre.",
           "correct_answer": "",
-          "explanation": "1. 13 अप्रैल 1919 को बैसाखी के दिन जनरल डायर के आदेश पर अमृतसर के जलियांवाला बाग में एकत्रित निहत्थी भीड़ पर गोलियाँ चलाई गईं, जिसमें सैकड़ों निर्दोष लोग मारे गए।\n2. इस घटना ने राष्ट्रव्यापी आक्रोश उत्पन्न किया तथा असहयोग आंदोलन को गति प्रदान की।"
+          "explanation": "1. यह घटना 13 अप्रैल 1919 को अमृतसर के जलियांवाला बाग में बैसाखी के मेले और रोलेट एक्ट के विरोध के दौरान हुई।\n2. जनरल डायर ने वहाँ एकत्र निहत्थी भीड़ पर बिना चेतावनी के गोलियाँ चलवा दीं, जिससे सैकड़ों लोग मारे गए और देश में भारी आक्रोश फैला। / 1. It occurred on 13 April 1919 at Amritsar during Baisakhi, 2. General Dyer opened fire on an unarmed gathering, causing massive casualties and outrage."
         }
       ],
       "or_option": {
@@ -406,7 +478,7 @@
             "q_id": "",
             "statement": "बहिष्कार से आप क्या समझते हैं? / What do you understand by Boycott?",
             "correct_answer": "",
-            "explanation": "बहिष्कार का अर्थ है विदेशी वस्तुओं, संस्थाओं, उपाधियों एवं सेवाओं को अस्वीकार करना तथा उनका त्याग करना, जो असहयोग आंदोलन के दौरान अपनाई गई एक प्रमुख रणनीति थी।"
+            "explanation": "बहिष्कार का अर्थ किसी वस्तु, संस्था, सेवा या विदेशी सामान के उपयोग का सामूहिक रूप से त्याग करना या उससे असहयोग करना है। स्वतंत्रता आंदोलन में यह अंग्रेजों के विरुद्ध एक मुख्य अस्त्र था। / Boycott refers to the voluntary abstention or rejection of foreign goods, services, or institutions as a form of protest."
           }
         ]
       }
@@ -422,7 +494,7 @@
           "q_id": "",
           "statement": "रेशम मार्ग को दो बिन्दुओं में समझाइये। / Write two points about Silk Routes.",
           "correct_answer": "",
-          "explanation": "1. रेशम मार्ग प्राचीन काल में चीन को यूरोप एवं पश्चिमी एशिया से जोड़ने वाला एक प्रमुख व्यापारिक मार्ग था।\n2. इस मार्ग से रेशम, मसाले तथा अन्य बहुमूल्य वस्तुओं का आदान-प्रदान होता था, साथ ही संस्कृतियों का भी मिश्रण हुआ।"
+          "explanation": "1. यह प्राचीन व्यापारिक मार्ग था जो एशिया को यूरोप और उत्तरी अफ्रीका से जोड़ता था।\n2. इस मार्ग के जरिए चीनी रेशम, भारतीय मसाले, और कीमती वस्तुएँ पश्चिम देशों में भेजी जाती थीं, जिससे सांस्कृतिक आदान-प्रदान भी हुआ। / 1. It was an ancient network of trade routes linking Asia with Europe, 2. Used for trading silk, spices, and fostering cultural exchange."
         }
       ],
       "or_option": {
@@ -432,7 +504,7 @@
             "q_id": "",
             "statement": "स्पिनिंग जेनी की दो विशेषताएँ लिखिए। / Write two qualities of Spining Jenny.",
             "correct_answer": "",
-            "explanation": "1. यह एक साथ कई तकुओं पर सूत कात सकती थी, जिससे उत्पादन क्षमता कई गुना बढ़ गई।\n2. इसका आविष्कार जेम्स हारग्रीव्ज़ ने किया था तथा इसने वस्त्र उद्योग में क्रांति ला दी।"
+            "explanation": "1. इसका आविष्कार जेम्स हारग्रीव्‍ज़ ने 1764 में किया था जिससे सूत कताई की प्रक्रिया तेज हुई।\n2. यह मशीन एक ही पहिया घुमाने पर एक साथ कई तकुओं (spindles) पर सूत काट सकती थी, जिससे उत्पादन में भारी वृद्धि हुई। / 1. Invented by James Hargreaves in 1764, 2. It could spin multiple spindles simultaneously, vastly increasing yarn production."
           }
         ]
       }
@@ -448,7 +520,7 @@
           "q_id": "",
           "statement": "आयात शुल्क का क्या अर्थ है? / What is the meaning of Tariff?",
           "correct_answer": "",
-          "explanation": "विदेश से आयातित वस्तुओं पर सरकार द्वारा लगाया गया कर आयात शुल्क (Tariff) कहलाता है, जो घरेलू उद्योगों की सुरक्षा हेतु लगाया जाता है।"
+          "explanation": "आयात शुल्क (Tariff) वह कर या शुल्क है जो किसी देश की सरकार द्वारा अन्य देशों से आयातित (मंगवाई जाने वाली) वस्तुओं पर लगाया जाता है, ताकि घरेलू उद्योगों को संरक्षण मिल सके। / Tariff is a tax imposed on imported goods when they cross international borders, used to protect domestic industries."
         }
       ],
       "or_option": {
@@ -458,7 +530,7 @@
             "q_id": "",
             "statement": "कार्न लॉ समाप्त करने के पश्चात् ब्रिटेन में क्या हुआ? / What happened when Corn Law was scrapped in Britain?",
             "correct_answer": "",
-            "explanation": "कार्न लॉ समाप्त होने के पश्चात् ब्रिटेन में सस्ता खाद्यान्न आयात होने लगा, जिससे खाद्यान्न की कीमतें गिर गईं और खाद्य वस्तुओं की खपत बढ़ी, परन्तु घरेलू कृषि उत्पादन एवं ग्रामीण रोजगार पर प्रतिकूल प्रभाव पड़ा।"
+            "explanation": "कार्न लॉ (Corn Law) समाप्त होने के बाद ब्रिटेन में सस्ते दामों पर खाद्य पदार्थों का आयात होने लगा, जिससे देश में खाद्यान्न की कीमतें गिर गईं और आम लोगों की क्रय शक्ति व खपत में सुधार हुआ, पर कृषि क्षेत्र प्रभावित हुआ। / Abolition of the Corn Laws led to cheaper food imports into Britain, lowering food prices and increasing consumption."
           }
         ]
       }
@@ -474,7 +546,7 @@
           "q_id": "",
           "statement": "छपाई या प्रिंट मीडिया का महत्व दो बिन्दुओं में लिखिए। / Write two points of importance of Printing or Print Media.",
           "correct_answer": "",
-          "explanation": "1. प्रिंट मीडिया से साक्षरता एवं शिक्षा का व्यापक प्रसार हुआ।\n2. इससे नए विचारों, सूचनाओं एवं समाचारों का तीव्र गति से प्रसार संभव हुआ, जिसने जनजागरूकता बढ़ाई।"
+          "explanation": "1. मुद्रण कला से शिक्षा, साक्षरता और पुस्तकों की उपलब्धता आम जनता तक सुलभ हुई।\n2. इसके माध्यम से सामाजिक, राजनीतिक और धार्मिक विचारों का तीव्र प्रसार हुआ, जिसने जन-जागरूकता बढ़ाई। / 1. Made books and education accessible to the masses, 2. Facilitated rapid spread of ideas and social awareness."
         }
       ],
       "or_option": {
@@ -484,7 +556,7 @@
             "q_id": "",
             "statement": "'महिलाओं पर मुद्रण' का प्रभाव लिखिए। / Explain effects of 'Print on Women'.",
             "correct_answer": "",
-            "explanation": "मुद्रण के प्रसार से महिलाओं के लिए साहित्य सहज उपलब्ध हुआ, जिससे उनकी साक्षरता दर में वृद्धि हुई। अनेक महिलाओं ने स्वयं लेखन प्रारंभ किया तथा पत्र-पत्रिकाओं के माध्यम से अपने विचार व्यक्त करना शुरू किया, जिससे सामाजिक जागरूकता बढ़ी।"
+            "explanation": "मुद्रण के प्रसार से महिलाओं के लिए पढ़ने योग्य साहित्य और पत्रिकाएँ प्रचुर मात्रा में उपलब्ध हुईं, जिससे महिलाओं में पठन-पाठन की रुचि बढ़ी और वे अपने अधिकारों व सामाजिक मुद्दों के प्रति जागरूक हुईं। / Print culture led to increased readership among women, providing access to literature that discussed women's education and social rights."
           }
         ]
       }
@@ -500,7 +572,7 @@
           "q_id": "",
           "statement": "भारतीय समाज के अनुसार आदर्श नारी के दो गुण लिखिए। / Write two characteristics of Indian ideal woman in society.",
           "correct_answer": "",
-          "explanation": "1. आज्ञाकारिता एवं त्याग की भावना।\n2. परिवार के प्रति समर्पण एवं गृहकार्य में निपुणता।"
+          "explanation": "1. परंपराओं का पालन करना तथा परिवार की मर्यादा एवं एकता बनाए रखना।\n2. आज्ञाकारिता, त्याग, और घरेलू उत्तरदायित्वों का निष्ठापूर्वक निर्वाह करना। / 1. Upholding traditional family values and unity, 2. Obedience, sacrifice, and dedication to household responsibilities."
         }
       ],
       "or_option": {
@@ -510,7 +582,7 @@
             "q_id": "",
             "statement": "नारीवादी आन्दोलन क्या है? / What is Feminist Movement?",
             "correct_answer": "",
-            "explanation": "नारीवादी आंदोलन वह सामाजिक आंदोलन है जो महिलाओं को पुरुषों के समान अधिकार, अवसर एवं सम्मान दिलाने तथा लैंगिक असमानता को समाप्त करने के लिए संघर्षरत है।"
+            "explanation": "नारीवादी आंदोलन (Feminist Movement) वह संगठित वैचारिक और सामाजिक आंदोलन है जो महिलाओं के लिए राजनीतिक, आर्थिक और सामाजिक समानता के अधिकार की मांग करता है। / The feminist movement is a radical and organized campaign for women's equality in political, economic, and social spheres."
           }
         ]
       }
@@ -526,7 +598,7 @@
           "q_id": "",
           "statement": "लोकतंत्र का महत्व लिखिए। / Write importance of Democracy.",
           "correct_answer": "",
-          "explanation": "1. लोकतंत्र नागरिकों को समान अधिकार तथा शासन में भागीदारी का अवसर प्रदान करता है।\n2. यह जवाबदेह, वैध तथा पारदर्शी शासन सुनिश्चित करता है, जिससे नागरिकों की गरिमा एवं स्वतंत्रता की रक्षा होती है।"
+          "explanation": "1. लोकतंत्र नागरिकों को समानता, स्वतंत्रता और मौलिक अधिकार प्रदान करता है।\n2. यह एक जवाबदेह, पारदर्शी और वैध शासन व्यवस्था सुनिश्चित करता है जिससे जनता की गरिमा सुरक्षित रहती है। / 1. Provides equality, freedom, and fundamental rights to citizens, 2. Ensures an accountable and transparent government."
         }
       ],
       "or_option": {
@@ -536,7 +608,7 @@
             "q_id": "",
             "statement": "लोकतंत्र के दो परिणाम लिखिए। / Write two outcomes of Democracy.",
             "correct_answer": "",
-            "explanation": "1. लोकतंत्र जवाबदेह तथा वैध सरकार सुनिश्चित करता है।\n2. लोकतंत्र आर्थिक विकास एवं समानता की गारंटी नहीं देता, परन्तु यह नागरिकों की गरिमा एवं स्वतंत्रता की रक्षा अवश्य करता है।"
+            "explanation": "1. यह नागरिकों के बीच टकराव और मतभेदों को शांतिपूर्ण ढंग से सुलझाने का तरीका प्रदान करता है।\n2. यह नागरिकों की गरिमा और स्वतंत्रता की रक्षा करता है। / 1. Provides a peaceful mechanism to handle social conflicts, 2. Safeguards individual dignity and freedom."
           }
         ]
       }
@@ -552,7 +624,7 @@
           "q_id": "",
           "statement": "उधारदाता उधार देते समय समर्थक ऋणाधार (गिरवी रखना) की मांग क्यों करता है? / Why do lenders ask for collateral (Security) while lending?",
           "correct_answer": "",
-          "explanation": "उधारदाता यह सुनिश्चित करने हेतु कि उधारकर्ता ऋण चुका सकेगा, समर्थक ऋणाधार (गिरवी) की मांग करता है, ताकि यदि उधारकर्ता ऋण न चुका सके तो गिरवी रखी वस्तु को बेचकर धनराशि वसूल की जा सके।"
+          "explanation": "उधारदाता समर्थक ऋणाधार (Collateral) की मांग इसलिए करता है ताकि यदि उधारकर्ता समय पर ऋण न चुका सके, तो वह गिरवी रखी गई संपत्ति या वस्तु को बेचकर अपने ऋण की भरपाई कर सके। / Lenders ask for collateral as a security against loans so that they can claim it if the borrower fails to repay."
         }
       ],
       "or_option": {
@@ -562,7 +634,7 @@
             "q_id": "",
             "statement": "ऋण के औपचारिक और अनौपचारिक स्रोत क्या हैं? लिखिए। / Write formal sector of loan and informal sector of loan sources.",
             "correct_answer": "",
-            "explanation": "औपचारिक स्रोत: बैंक तथा सहकारी समितियाँ।\nअनौपचारिक स्रोत: साहूकार, महाजन, रिश्तेदार तथा व्यापारी।"
+            "explanation": "1. **औपचारिक स्रोत:** बैंक और सहकारी समितियाँ (RBI द्वारा नियंत्रित)।\n2. **अनौपचारिक स्रोत:** साहूकार, महाजन, व्यापारी, रिश्तेदार और मित्र। / 1. Formal sources: Banks and cooperatives, 2. Informal sources: Moneylenders, traders, relatives."
           }
         ]
       }
@@ -578,7 +650,7 @@
           "q_id": "",
           "statement": "वे कौन-कौन से तरीके हैं जिनसे बाजार में लोगों का शोषण हो सकता है? / What are the various ways by which people may be exploited in the market?",
           "correct_answer": "",
-          "explanation": "1. कम तौल अथवा कम माप में वस्तु देना।\n2. मिलावटी अथवा घटिया गुणवत्ता वाली वस्तुएँ ऊँचे मूल्य पर बेचना।"
+          "explanation": "1. दुकानदारों द्वारा तौल में कम देना या माप में गड़बड़ी करना।\n2. मिलावटी, घटिया गुणवत्ता वाली वस्तुएँ ऊँचे दामों पर बेचना या अधिक मूल्य वसूलना। / 1. Under-weighing or cheating in measurements, 2. Selling adulterated or sub-standard goods at high prices."
         }
       ],
       "or_option": {
@@ -588,7 +660,7 @@
             "q_id": "",
             "statement": "जागरूक उपभोक्ता बनने के लिए आवश्यक बातें (कोई दो) लिखिए। / Write two important learnings to become well informed consumers.",
             "correct_answer": "",
-            "explanation": "1. वस्तु खरीदते समय ISI, AGMARK, हॉलमार्क जैसे गुणवत्ता चिह्नों को अवश्य देखना।\n2. वस्तु/सेवा से संबंधित पक्की रसीद (बिल) अवश्य प्राप्त करना।"
+            "explanation": "1. वस्तु खरीदते समय उसकी गुणवत्ता सुनिश्चित करने वाले मानक चिह्न (जैसे ISI, AGMARK, Hallmarking) देखना।\n2. प्रत्येक खरीदारी पर पक्की रसीद (कैश मेमो/बिल) अवश्य प्राप्त करना। / 1. Checking quality certification marks like ISI or Agmark, 2. Insisting on a cash memo or bill for every purchase."
           }
         ]
       }
@@ -604,7 +676,7 @@
           "q_id": "",
           "statement": "मृदा परिच्छेदिका का सचित्र वर्णन कीजिए। / Draw soil profile and describe.",
           "correct_answer": "",
-          "explanation": "मृदा परिच्छेदिका मिट्टी की विभिन्न परतों (क्षैतिजों) का ऊर्ध्वाधर काट होती है, जिसमें सामान्यतः निम्न तीन परतें होती हैं:\n1. ऊपरी परत (क्षैतिज A) - इसमें ह्यूमस एवं जैविक पदार्थ अधिक होते हैं तथा यह सबसे उपजाऊ होती है।\n2. मध्य परत (क्षैतिज B) - इसमें खनिज तत्व अधिक तथा जैविक पदार्थ कम होते हैं।\n3. निचली परत (क्षैतिज C) - यह आंशिक रूप से अपक्षयित चट्टानी टुकड़ों से बनी होती है, जो मूल शैल से जुड़ी रहती है।\n[रेखाचित्र में इन तीनों परतों को क्रमशः ऊपर से नीचे क्षैतिज पट्टियों के रूप में दर्शाया जाना चाहिए, साथ में मूल शैल (bedrock) सबसे नीचे दिखाया जाए।]"
+          "explanation": "मृदा परिच्छेदिका (Soil Profile) मिट्टी की विभिन्न परतों या स्तरों का लंबवत (vertical) काट है। इसकी मुख्य परतें निम्नलिखित हैं:\n1. **शीर्ष मृदा (क्षैतिज A):** यह सबसे ऊपरी परत है जहाँ ह्यूमस और उपजाऊ खनिज प्रचुर मात्रा में होते हैं।\n2. **अवर मृदा (क्षैतिज B):** यह दूसरी परत है जिसमें खनिज पदार्थ अधिक और ह्यूमस कम होता है।\n3. **आधार चट्टान (क्षैतिज C):** यह सबसे निचली परत है जो अपक्षयित चट्टानी टुकड़ों से बनी होती है। / Soil profile is the vertical section of soil layers consisting of topsoil (rich in humus), subsoil (minerals), and weathered parent rock material."
         }
       ],
       "or_option": {
@@ -614,7 +686,7 @@
             "q_id": "",
             "statement": "भारत की तीन मृदाएं, उनका क्षेत्र और एक-एक विशेषता लिखिए। / Write names of three soils of India with their regions and one feature each.",
             "correct_answer": "",
-            "explanation": "1. जलोढ़ मिट्टी - उत्तरी मैदानी क्षेत्र (गंगा-सिंधु का मैदान) - अत्यंत उपजाऊ मिट्टी, जो नदियों द्वारा बहाकर लाई जाती है।\n2. काली मिट्टी - महाराष्ट्र, मध्य प्रदेश (दक्कन ट्रैप क्षेत्र) - नमी धारण क्षमता अधिक होने के कारण कपास की खेती हेतु अत्यंत उपयुक्त।\n3. लाल एवं पीली मिट्टी - तमिलनाडु, कर्नाटक, ओडिशा - लौह ऑक्साइड की उपस्थिति के कारण इसका रंग लाल होता है।"
+            "explanation": "1. **जलोढ़ मृदा:** उत्तरी मैदान और नदी घाटियाँ। विशेषता: यह अत्यधिक उपजाऊ होती है।\n2. **काली मृदा:** महाराष्ट्र, मध्य प्रदेश (दक्कन ट्रैप)। विशेषता: इसमें नमी बनाए रखने की क्षमता सर्वाधिक होती है और यह कपास के लिए उत्तम है।\n3. **लाल एवं पीली मृदा:** प्रायद्वीप के दक्षिणी-पूर्वी भाग। विशेषता: लौह धातु के प्रसार के कारण इसका रंग लाल होता है। / 1. Alluvial soil (Northern plains, highly fertile), 2. Black soil (Deccan trap, best for cotton), 3. Red and Yellow soil (Peninsular region, reddish due to iron content)."
           }
         ]
       }
@@ -630,7 +702,7 @@
           "q_id": "",
           "statement": "भारत में पर्यावरणीय निम्नीकरण की रोकथाम कैसे हो सकती है? / How to control of environmental degradation in India?",
           "correct_answer": "",
-          "explanation": "1. वनरोपण एवं वनों के संरक्षण को बढ़ावा देकर वनावरण को बढ़ाना।\n2. औद्योगिक अपशिष्टों तथा गंदे जल का उचित उपचार करने के पश्चात् ही उन्हें नदियों अथवा वातावरण में छोड़ना।\n3. सौर एवं पवन ऊर्जा जैसे नवीकरणीय ऊर्जा स्रोतों के उपयोग को बढ़ावा देकर पारंपरिक ईंधनों पर निर्भरता कम करना।"
+          "explanation": "1. बड़े पैमाने पर वृक्षारोपण (वनीकरण) करके और वनों की अवैध कटाई रोककर।\n2. औद्योगिक कचरे और गंदे पानी को नदियों में छोड़ने से पहले उनका जल शोधन (Treatment) अनिवार्य करकें।\n3. सौर, पवन और जल विद्युत जैसे नवीकरणीय ऊर्जा स्रोतों के उपयोग को बढ़ावा देकर प्रदूषण कम करना। / 1. Promoting afforestation and preventing deforestation, 2. Treating industrial effluents before discharge, 3. Encouraging renewable energy sources."
         }
       ],
       "or_option": {
@@ -640,7 +712,7 @@
             "q_id": "",
             "statement": "आधारभूत उद्योग क्या हैं? उदाहरण देकर बताइए। / What are basic industries? Give an example.",
             "correct_answer": "",
-            "explanation": "वे उद्योग जिनके उत्पाद अन्य उद्योगों के लिए कच्चे माल के रूप में उपयोग किए जाते हैं, आधारभूत उद्योग कहलाते हैं। उदाहरण: लौह-इस्पात उद्योग, जिसका उत्पाद (इस्पात) मशीन-निर्माण, परिवहन साधन तथा निर्माण उद्योगों में कच्चे माल के रूप में उपयोग होता है।"
+            "explanation": "वे उद्योग जिनके उत्पाद अन्य उद्योगों के निर्माण या संचालन के लिए कच्चे माल के रूप में उपयोग किए जाते हैं, आधारभूत या कुंजीगत उद्योग कहलाते हैं। उदाहरण: **लोहा और इस्पात उद्योग**, क्योंकि इसका उत्पाद अन्य सभी मशीनें और निर्माण कार्य करने में काम आता है। / Basic industries are those whose products are used as raw materials to manufacture other goods, e.g., Iron and Steel industry."
           }
         ]
       }
@@ -656,7 +728,7 @@
           "q_id": "",
           "statement": "राजनैतिक दलों को सुधारने हेतु किए गए कुछ प्रयास और सुझाव लिखिए। / Write some efforts and suggestions to reform political parties.",
           "correct_answer": "",
-          "explanation": "1. दल-बदल विरोधी कानून बनाकर सांसदों/विधायकों को दल बदलने से रोका गया।\n2. चुनाव आयोग द्वारा उम्मीदवारों के लिए संपत्ति एवं आपराधिक मामलों की जानकारी शपथ पत्र में देना अनिवार्य किया गया।\n3. सुझाव: राजनैतिक दलों के भीतर नियमित आंतरिक चुनाव कराए जाने चाहिए तथा महिलाओं के लिए एक निश्चित प्रतिशत टिकट आरक्षित किए जाने चाहिए, जिससे आंतरिक लोकतंत्र मजबूत हो।"
+          "explanation": "1. **दल-बदल कानून:** सांसदों और विधायकों के दल-बदल को रोकने के लिए संविधान में संशोधन किया गया।\n2. **शपथ पत्र:** चुनाव लड़ने वाले उम्मीदवारों के लिए अपनी संपत्ति और आपराधिक मामलों का ब्योरा देना अनिवार्य किया गया।\n3. **सुझाव:** दलों के भीतर नियमित संगठनात्मक चुनाव हों और महिलाओं के लिए सीटों का आरक्षण सुनिश्चित किया जाए। / 1. Anti-defection law, 2. Mandatory affidavit of assets and criminal cases, 3. Internal party elections and reservation for women."
         }
       ],
       "or_option": {
@@ -666,7 +738,7 @@
             "q_id": "",
             "statement": "राजनैतिक दलों की तीन चुनौतियां लिखिए। / Write three challenges of political parties.",
             "correct_answer": "",
-            "explanation": "1. दल के भीतर आंतरिक लोकतंत्र की कमी।\n2. वंशवाद (परिवारवाद) की बढ़ती प्रवृत्ति।\n3. चुनावों में धन एवं बाहुबल के बढ़ते प्रभाव से दलों की स्वतंत्र निर्णय क्षमता प्रभावित होना।"
+            "explanation": "1. दलों के भीतर आंतरिक लोकतंत्र की कमी होना।\n2. वंशवाद की प्रवृत्ति (परिवार के सदस्यों को प्राथमिकता मिलना)।\n3. चुनावों में धन (Money) और बाहुबल (Muscle power) का बढ़ता प्रभाव। / 1. Lack of internal democracy, 2. Dynastic succession, 3. Growing influence of money and muscle power in elections."
           }
         ]
       }
@@ -682,7 +754,7 @@
           "q_id": "",
           "statement": "सड़क परिवहन और रेल परिवहन में तुलना चार बिन्दुओं में कीजिए। / Compare Road Transport and Rail Transport in four points.",
           "correct_answer": "",
-          "explanation": "1. लागत: सड़क परिवहन कम लागत में बनता है, जबकि रेल परिवहन के निर्माण में अधिक व्यय होता है।\n2. भूभाग की उपयुक्तता: सड़क परिवहन दुर्गम एवं ऊँचे-नीचे क्षेत्रों में भी संभव है, जबकि रेल परिवहन समतल भूमि पर अधिक उपयुक्त है।\n3. सेवा: सड़क परिवहन घर-घर तक सेवा (door to door) प्रदान करता है, जबकि रेल परिवहन केवल निर्धारित स्टेशनों तक सीमित होता है।\n4. उपयुक्तता: कम दूरी तथा छोटी मात्रा में माल ढुलाई हेतु सड़क परिवहन उपयुक्त है, जबकि लंबी दूरी एवं भारी मात्रा में माल ढुलाई हेतु रेल परिवहन अधिक किफायती एवं सुविधाजनक है।"
+          "explanation": "1. **निर्माण लागत:** सड़कों का निर्माण और रखरखाव रेलमार्गों की तुलना में सस्ता होता है।\n2. **भौगोलिक अनुकूलता:** सड़कें ऊँचे पहाड़ों और दुर्गम क्षेत्रों तक बनाई जा सकती हैं, जबकि रेलमार्गों के लिए समतल भूभाग उपयुक्त होता है।\n3. **घर-घर सेवा:** सड़क परिवहन द्वारा घर-घर तक माल और यात्री सेवा (Door-to-door service) संभव है, जबकि रेलवे स्टेशन तक ही सीमित है।\n4. **भार क्षमता:** लंबी दूरी और भारी माल ढुलाई के लिए रेल परिवहन अधिक किफायती व उपयुक्त है, जबकि छोटी दूरी के लिए सड़क परिवहन उत्तम है। / 1. Construction cost is lower for roads, 2. Roads can traverse rugged terrains unlike rail tracks, 3. Roads offer door-to-door service, 4. Railways are better for long-distance bulky freight."
         }
       ],
       "or_option": {
@@ -692,7 +764,7 @@
             "q_id": "",
             "statement": "जल परिवहन और वायु परिवहन को चार बिन्दुओं में लिखिए। / Write in four points about water transport and air transportation.",
             "correct_answer": "",
-            "explanation": "1. लागत: जल परिवहन सबसे सस्ता परिवहन साधन है, जबकि वायु परिवहन सबसे महंगा साधन है।\n2. उपयुक्तता: जल परिवहन भारी एवं स्थूल वस्तुओं के परिवहन हेतु उपयुक्त है, जबकि वायु परिवहन शीघ्र नष्ट होने वाली एवं मूल्यवान वस्तुओं के लिए उपयुक्त है।\n3. गति: जल परिवहन की गति धीमी होती है, जबकि वायु परिवहन सबसे तीव्र गति वाला साधन है।\n4. मार्ग: जल परिवहन आंतरिक जलमार्गों तथा महासागरीय मार्गों द्वारा संचालित होता है, जबकि वायु परिवहन हवाई अड्डों के माध्यम से संचालित होता है।"
+            "explanation": "1. **लागत:** जल परिवहन सबसे सस्ता साधन है, जबकि वायु परिवहन सबसे महंगा परिवहन साधन है।\n2. **गति:** वायु परिवहन सबसे तीव्र गति वाला साधन है, जबकि जल परिवहन की गति अपेक्षाकृत धीमी होती है।\n3. **भार वाहन क्षमता:** जल परिवहन भारी और स्थूल (bulky) वस्तुओं के लिए उत्तम है, जबकि वायु परिवहन हल्की और मूल्यवान वस्तुओं के लिए उपयुक्त है।\n4. **मार्ग:** जलमार्ग प्राकृतिक महासागरों और नदियों पर आधारित होते हैं, जबकि वायु परिवहन हवाई अड्डों व नेविगेशन पर निर्भर करता है। / 1. Water transport is cheapest while air transport is most expensive, 2. Air transport is fastest, 3. Water transport handles heavy cargo, 4. Waterways are natural routes whereas airways require airports."
           }
         ]
       }
@@ -708,25 +780,25 @@
           "q_id": "a",
           "statement": "साइमन कमीशन / Simon Commission",
           "correct_answer": "",
-          "explanation": "सन् 1928 में ब्रिटिश सरकार द्वारा भारत में संवैधानिक सुधारों की समीक्षा हेतु साइमन कमीशन भेजा गया, जिसमें कोई भी भारतीय सदस्य सम्मिलित नहीं था। अतः इसका देशव्यापी विरोध हुआ तथा 'साइमन गो बैक' के नारे लगाए गए।"
+          "explanation": "ब्रिटिश सरकार द्वारा 1928 में सर जॉन साइमन के नेतृत्व में भारत भेजा गया एक आयोग था, जिसका उद्देश्य भारत के संवैधानिक सुधारों की समीक्षा करना था। इस आयोग में एक भी भारतीय सदस्य न होने के कारण देश भर में 'साइमन गो बैक' के नारों के साथ इसका तीव्र विरोध हुआ। / A statutory commission sent to India in 1928 under Sir John Simon to review constitutional reforms. It was widely boycotted because it lacked any Indian members."
         },
         {
           "q_id": "b",
           "statement": "दांडी मार्च / Dandi March",
           "correct_answer": "",
-          "explanation": "12 मार्च 1930 को महात्मा गांधी ने अपने अनुयायियों के साथ साबरमती आश्रम से दांडी तक लगभग 24 दिनों की पदयात्रा कर नमक कानून तोड़ा, जिससे सविनय अवज्ञा आंदोलन का शुभारंभ हुआ।"
+          "explanation": "महात्मा गांधी द्वारा 12 मार्च 1930 को साबरमती आश्रम से दांडी तट तक शुरू की गई 24 दिनों की प्रसिद्ध पदयात्रा थी। 6 अप्रैल 1930 को उन्होंने नमक कानून तोड़कर सविनय अवज्ञा आंदोलन की शुरुआत की थी। / A historic salt march led by Mahatma Gandhi from Sabarmati Ashram to Dandi in 1930, marking the launch of the Civil Disobedience Movement."
         },
         {
           "q_id": "c",
           "statement": "भारत छोड़ो आन्दोलन / Quit India Movement",
           "correct_answer": "",
-          "explanation": "8 अगस्त 1942 को महात्मा गांधी के नेतृत्व में 'भारत छोड़ो आंदोलन' प्रारंभ हुआ, जिसमें 'करो या मरो' का नारा दिया गया तथा अंग्रेजों से तत्काल भारत छोड़ने की मांग की गई।"
+          "explanation": "द्वितीय विश्व युद्ध के दौरान 8 अगस्त 1942 को महात्मा गांधी के नेतृत्व में शुरू किया गया अंतिम बड़ा राष्ट्रीय आंदोलन था। इसमें 'करो या मरो' (Do or Die) का नारा दिया गया और ब्रिटिश शासन को तुरंत समाप्त करने की मांग की गई। / The final major nationwide movement launched by Mahatma Gandhi in August 1942 demanding an immediate end to British rule in India."
         },
         {
           "q_id": "d",
           "statement": "सत्याग्रह पर महात्मा गांधीजी के विचार / Mahatma Gandhiji's views on Satyagraha",
           "correct_answer": "",
-          "explanation": "गांधीजी के अनुसार सत्याग्रह सत्य एवं अहिंसा पर आधारित प्रतिरोध की एक पद्धति है, जिसमें शारीरिक बल के स्थान पर सत्य की आत्मिक शक्ति का प्रयोग किया जाता है तथा विरोधी के प्रति भी घृणा नहीं रखी जाती, बल्कि उसे सत्य का बोध कराया जाता है।"
+          "explanation": "गांधीजी के अनुसार सत्याग्रह शुद्ध रूप से सत्य और अहिंसा पर आधारित प्रतिरोध का एक ऐसा अनूठा साधन है, जिसमें शारीरिक बल के स्थान पर आत्मिक बल (Moral force) का प्रयोग किया जाता है और विरोधी को बिना हिंसा के अपनी बात समझाई जाती है। / Satyagraha was viewed by Gandhi as a non-violent resistance method relying on truth and moral force rather than physical aggression to change the oppressor's mind."
         }
       ],
       "or_option": {
@@ -736,7 +808,7 @@
             "q_id": "",
             "statement": "गांधीजी ने असहयोग आंदोलन को वापस लेने का फैसला क्यों किया? / Why did Gandhiji decide to withdraw the Non-Cooperation Movement?",
             "correct_answer": "",
-            "explanation": "5 फरवरी 1922 को उत्तर प्रदेश के चौरी-चौरा स्थान पर एक उग्र भीड़ ने पुलिस थाने में आग लगा दी, जिसमें 22 पुलिसकर्मी मारे गए। इस हिंसक घटना से आहत होकर तथा आंदोलन के अहिंसक स्वरूप को बनाए रखने के उद्देश्य से गांधीजी ने फरवरी 1922 में असहयोग आंदोलन वापस लेने का निर्णय लिया।"
+            "explanation": "5 फरवरी 1922 को उत्तर प्रदेश के चौरी-चौरा (गोरखपुर) में एक हिंसक भीड़ ने पुलिस थाने में आग लगा दी, जिससे 22 पुलिसकर्मी मारे गए। इस हिंसक घटना से आहत होकर और आंदोलन के अहिंसक स्वरूप के हनन के कारण गांधीजी ने फरवरी 1922 में असहयोग आंदोलन को अचानक वापस लेने का निर्णय लिया। / Gandhiji withdrew the Non-Cooperation Movement in February 1922 due to the violent Chauri Chaura incident where a police station was set on fire, violating his principle of non-violence."
           }
         ]
       }
@@ -752,25 +824,25 @@
           "q_id": "i",
           "statement": "मुम्बई हाई / Mumbai High",
           "correct_answer": "",
-          "explanation": "मुंबई हाई अरब सागर में स्थित भारत का प्रमुख अपतटीय तेल क्षेत्र है। इसे मानचित्र में मुंबई के पश्चिम में समुद्र में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          "explanation": "मुंबई हाई अरब सागर में मुंबई तट से लगभग 176 किमी दूर उत्तर-पश्चिम में स्थित भारत का प्रमुख अपतटीय पेट्रोलियम (तेल) उत्पादन क्षेत्र है। मानचित्र में इसे अरब सागर की लोकेशन पर दर्शाया जाता है। / Mumbai High is India's premier offshore oilfield located in the Arabian Sea, northwest of Mumbai."
         },
         {
           "q_id": "ii",
           "statement": "दिल्ली / Delhi",
           "correct_answer": "",
-          "explanation": "दिल्ली भारत की राजधानी है, जो उत्तर भारत में स्थित है। इसे मानचित्र में उत्तर भारत में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          "explanation": "दिल्ली भारत की राष्ट्रीय राजधानी क्षेत्र है जो उत्तर भारत में यमुना नदी के किनारे स्थित है। इसे मानचित्र पर उपयुक्त राजनीतिक सीमा बिंदु के रूप में दर्शाया जाता है। / Delhi is the national capital territory of India situated along the Yamuna River in northern India."
         },
         {
           "q_id": "iii",
           "statement": "रानीगंज / Raniganj",
           "correct_answer": "",
-          "explanation": "रानीगंज पश्चिम बंगाल राज्य का एक प्रमुख कोयला क्षेत्र है। इसे मानचित्र में पश्चिम बंगाल में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          "explanation": "रानीगंज पश्चिम बंगाल राज्य में स्थित भारत का सबसे पुराना और महत्वपूर्ण कोयला खनन क्षेत्र है। इसे मानचित्र पर पश्चिम बंगाल राज्य के भीतर चिन्हित किया जाता है। / Raniganj is a major coalfield located in the state of West Bengal."
         },
         {
           "q_id": "iv",
           "statement": "तूतीकोरिन / Tuticorin",
           "correct_answer": "",
-          "explanation": "तूतीकोरिन तमिलनाडु राज्य में स्थित एक प्रमुख पत्तन है। इसे मानचित्र में तमिलनाडु के दक्षिण-पूर्वी तट पर एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+          "explanation": "तूतीकोरिन (व. उ. चिदंबरमणार पत्तन) तमिलनाडु राज्य के दक्षिणी-पूर्वी तट पर मन्नार की खाड़ी में स्थित एक प्रमुख कृत्रिम व गहरा पत्तन है। / Tuticorin is a major port located on the southeastern coast of Tamil Nadu."
         }
       ],
       "or_option": {
@@ -780,25 +852,25 @@
             "q_id": "i",
             "statement": "डिगबोई / Digboi",
             "correct_answer": "",
-            "explanation": "डिगबोई असम राज्य में स्थित भारत का सबसे पुराना तेल क्षेत्र है। इसे मानचित्र में असम राज्य में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+            "explanation": "डिगबोई असम राज्य के तिनसुकिया जिले में स्थित भारत का सबसे पुराना और लगातार कार्यरत तेलशोधक व तेल उत्पादक क्षेत्र है। मानचित्र में इसे असम के पूर्वी भाग में दर्शाया जाता है। / Digboi is the oldest operational oilfield and refinery located in the state of Assam."
           },
           {
             "q_id": "ii",
             "statement": "गोवा / Goa",
             "correct_answer": "",
-            "explanation": "गोवा भारत के पश्चिमी तट पर स्थित एक राज्य है। इसे मानचित्र में पश्चिमी तट पर छायांकित/चिह्नित किया जाना चाहिए।"
+            "explanation": "गोवा भारत के पश्चिमी तट (कोंकण क्षेत्र) पर स्थित क्षेत्रफल की दृष्टि से सबसे छोटा राज्य है। इसे मानचित्र पर महाराष्ट्र और कर्नाटक के मध्य स्थित तटीय क्षेत्र में दर्शाया जाता है। / Goa is a state situated on the western coast of India within the Konkan region."
           },
           {
             "q_id": "iii",
             "statement": "दुर्ग / Durg",
             "correct_answer": "",
-            "explanation": "दुर्ग छत्तीसगढ़ राज्य में स्थित है तथा लौह अयस्क की दुर्ग-बस्तर-चंद्रपुर पेटी का भाग है। इसे मानचित्र में छत्तीसगढ़ राज्य में एक बिंदु द्वारा दर्शाया जाना चाहिए।"
+            "explanation": "दुर्ग छत्तीसगढ़ राज्य का एक प्रमुख जिला व शहर है जो उच्च कोटि के लौह अयस्क (हेमेटाइट) उत्पादन के लिए प्रसिद्ध 'दुर्ग-बस्तर-चंद्रपुर' पेटी का हिस्सा है। / Durg is a prominent district in Chhattisgarh known for iron ore reserves."
           },
           {
             "q_id": "iv",
             "statement": "लक्षद्वीप / Lakshadweep",
             "correct_answer": "",
-            "explanation": "लक्षद्वीप अरब सागर में स्थित द्वीप समूह है, जो भारत का एक केंद्र-शासित प्रदेश है। इसे मानचित्र में केरल के पश्चिम में समुद्र में एक द्वीप समूह के रूप में दर्शाया जाना चाहिए।"
+            "explanation": "लक्षद्वीप भारत का एक केंद्रशासित प्रदेश है जो अरब सागर में केरल तट से कुछ दूरी पर स्थित प्रवाल द्वीपों (Coral islands) का समूह है। मानचित्र में इसे अरब सागर में दर्शाया जाता है। / Lakshadweep is an archipelago and union territory of India located in the Arabian Sea."
           }
         ]
       }
