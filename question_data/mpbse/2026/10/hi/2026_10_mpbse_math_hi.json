@@ -226,7 +226,7 @@
         "a_item": "(i) cos A · sec A",
         "b_item": "πr²",
         "correct_match_index": 4,
-        "explanation": "sec A = 1/cos A, अतः cos A · sec A = cos A × (1/cos A) = 1।"
+        "explanation": "sec A = 1/cos A, अतः cos A · sec A = 1।"
       },
       {
         "a_item": "(ii) घन का सम्पूर्ण पृष्ठीय क्षेत्रफल",
@@ -260,7 +260,7 @@
       }
     ]
   }
-}  ,
+},
     {
       "question_number": "5",
       "question_type": "UNSEEN_PASSAGE_PROSE",
