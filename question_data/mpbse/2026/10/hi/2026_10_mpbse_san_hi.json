@@ -98,56 +98,56 @@
       ]
     },
     {
-      "question_number": "3",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "युग्ममेलनं कुरूत –",
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "स्तम्भ (अ) में दिए गए पदों का मिलान स्तम्भ (ब) में दिए गए संधि/समास के प्रकार अथवा उदाहरण के अनुसार किया गया है।",
-      "columns": {
-        "column_A_title": "(अ)",
-        "column_B_title": "(ब)",
-        "pairs": [
-          {
-            "a_item": "(i) हिमालयः",
-            "b_item": "दीर्घ स्वर संधिः",
-            "correct_match_index": "ङ",
-            "explanation": "हिम+आलयः = हिमालयः, यहाँ अ+आ=आ (दीर्घ स्वर संधि) होती है।"
-          },
-          {
-            "a_item": "(ii) अन्य + उक्तयः",
-            "b_item": "अन्योक्तयः",
-            "correct_match_index": "घ",
-            "explanation": "अन्य+उक्तयः के योग से 'अन्योक्तयः' (गुण संधि) बनता है।"
-          },
-          {
-            "a_item": "(iii) व्यंजन् संधिः",
-            "b_item": "सदाचारः",
-            "correct_match_index": "क",
-            "explanation": "सत्+आचारः = सदाचारः, यहाँ त्+आ में त् का द् होना व्यंजन संधि का उदाहरण है।"
-          },
-          {
-            "a_item": "(iv) निराहारम्",
-            "b_item": "आहारस्य अभावः",
-            "correct_match_index": "ख",
-            "explanation": "'निराहारम्' का अर्थ है आहार का अभाव।"
-          },
-          {
-            "a_item": "(v) अनुरूपम्",
-            "b_item": "अव्ययीभाव समासः",
-            "correct_match_index": "च",
-            "explanation": "'अनुरूपम्' अव्ययीभाव समास का उदाहरण है।"
-          },
-          {
-            "a_item": "(vi) द्वन्द्व-समासः",
-            "b_item": "पितरौ",
-            "correct_match_index": "ग",
-            "explanation": "'पितरौ' (माता-पिता का समाहार) द्वन्द्व समास का उदाहरण है।"
-          }
-        ]
+  "question_number": "3",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "युग्ममेलनं कुरूत –",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "स्तम्भ (अ) में दिए गए पदों का मिलान स्तम्भ (ब) में दिए गए संधि/समास के प्रकार अथवा उदाहरण के अनुसार किया गया है।",
+  "columns": {
+    "column_A_title": "(अ)",
+    "column_B_title": "(ब)",
+    "pairs": [
+      {
+        "a_item": "(i) हिमालयः",
+        "b_item": "दीर्घ स्वर संधिः",
+        "correct_match_index": "5",
+        "explanation": "हिम+आलयः = हिमालयः, यहाँ अ+आ=आ (दीर्घ स्वर संधि) होती है।"
+      },
+      {
+        "a_item": "(ii) अन्य + उक्तयः",
+        "b_item": "अन्योक्तयः",
+        "correct_match_index": "4",
+        "explanation": "अन्य+उक्तयः के योग से 'अन्योक्तयः' (गुण संधि) बनता है।"
+      },
+      {
+        "a_item": "(iii) व्यंजन् संधिः",
+        "b_item": "सदाचारः",
+        "correct_match_index": "1",
+        "explanation": "सत्+आचारः = सदाचारः, यहाँ त्+आ में त् का द् होना व्यंजन संधि का उदाहरण है।"
+      },
+      {
+        "a_item": "(iv) निराहारम्",
+        "b_item": "आहारस्य अभावः",
+        "correct_match_index": "2",
+        "explanation": "'निराहारम्' का अर्थ है आहार का अभाव।"
+      },
+      {
+        "a_item": "(v) अनुरूपम्",
+        "b_item": "अव्ययीभाव समासः",
+        "correct_match_index": "6",
+        "explanation": "'अनुरूपम्' अव्ययीभाव समास का उदाहरण है।"
+      },
+      {
+        "a_item": "(vi) द्वन्द्व-समासः",
+        "b_item": "पितरौ",
+        "correct_match_index": "3",
+        "explanation": "'पितरौ' (माता-पिता का समाहार) द्वन्द्व समास का उदाहरण है।"
       }
-    },
+    ]
+  }
+},
     {
       "question_number": "4",
       "question_type": "DESCRIPTIVE",
