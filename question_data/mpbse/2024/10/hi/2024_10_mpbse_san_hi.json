@@ -156,56 +156,56 @@
       ]
     },
     {
-      "question_number": "3",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "युग्मनं कुरुत –",
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "स्तम्भे (अ) प्रदत्तानां पदानां मेलनं स्तम्भे (ब) प्रदत्तैः समासस्य सन्धेः वा प्रकारैः सह कृतम् अस्ति।",
-      "columns": {
-        "column_A_title": "स्तम्भ (अ)",
-        "column_B_title": "स्तम्भ (ब)",
-        "pairs": [
-          {
-            "a_item": "(i) पुस्तकालयः",
-            "b_item": "तत्पुरुषसमासः",
-            "correct_match_index": "1",
-            "explanation": "‘पुस्तकालयः’ इत्यत्र तत्पुरुषसमासः भवति।"
-          },
-          {
-            "a_item": "(ii) निःशुल्कः",
-            "b_item": "नि: + शुल्कः",
-            "correct_match_index": "6",
-            "explanation": "‘निःशुल्कः’ शब्दः ‘नि: + शुल्कः’ इत्येतयोः संयोजनेन निर्मिताः अस्ति।"
-          },
-          {
-            "a_item": "(iii) सूर्योदयः",
-            "b_item": "द्वन्द्वसमासः",
-            "correct_match_index": "3",
-            "explanation": "‘सूर्य + उदय’ इत्यस्य योगेन निष्पन्नत्वात् अयं द्वन्द्वसमासः मन्यते।"
-          },
-          {
-            "a_item": "(iv) अनुकूलम्",
-            "b_item": "अव्ययीभावसमासः",
-            "correct_match_index": "8",
-            "explanation": "‘अनुकूलम्’ इत्यत्र अव्ययीभावसमासः वर्तते।"
-          },
-          {
-            "a_item": "(v) चौर्यम्",
-            "b_item": "कर्मधारयसमासः",
-            "correct_match_index": "11",
-            "explanation": "‘चौर्यम्’ शब्दः कर्मधारयसमासस्य उदाहरणमस्ति।"
-          },
-          {
-            "a_item": "(vi) त्रिभुवनम्",
-            "b_item": "बहुव्रीहिसमासः",
-            "correct_match_index": "7",
-            "explanation": "‘त्रिभुवनम्’ इत्यत्र बहुव्रीहिसमासः विद्यते।"
-          }
-        ]
+  "question_number": "3",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "युग्मनं कुरुत –",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "स्तम्भ (अ) तथा स्तम्भ (ब) मध्ये प्रदत्तानां पदानां समुचितं मेलनं कुरुत।",
+  "columns": {
+    "column_A_title": "स्तम्भ (अ)",
+    "column_B_title": "स्तम्भ (ब)",
+    "pairs": [
+      {
+        "a_item": "(i) पुस्तकालयः",
+        "b_item": "तत्पुरुषसमासः",
+        "correct_match_index": "1",
+        "explanation": "‘पुस्तकालयः’ इति शब्दः तत्पुरुषसमासस्य उदाहरणम् अस्ति।"
+      },
+      {
+        "a_item": "(ii) निःशुल्कः",
+        "b_item": "नि: + शुल्कः",
+        "correct_match_index": "5",
+        "explanation": "‘निःशुल्कः’ इति शब्दः ‘नि: + शुल्कः’ इति संधिना निर्मितः अस्ति।"
+      },
+      {
+        "a_item": "(iii) सूर्योदयः",
+        "b_item": "द्वन्द्वसमासः",
+        "correct_match_index": "6",
+        "explanation": "प्रश्नानुसारं ‘सूर्योदयः’ इत्यस्य मेलनं ‘द्वन्द्वसमासः’ इति पदेन कृतम्।"
+      },
+      {
+        "a_item": "(iv) अनुकूलम्",
+        "b_item": "अव्ययीभावसमासः",
+        "correct_match_index": "4",
+        "explanation": "प्रश्नानुसारं ‘अनुकूलम्’ इत्यस्य मेलनं ‘अव्ययीभावसमासः’ इति पदेन कृतम्।"
+      },
+      {
+        "a_item": "(v) चौर्यम्",
+        "b_item": "कर्मधारयसमासः",
+        "correct_match_index": "2",
+        "explanation": "प्रश्नानुसारं ‘चौर्यम्’ इत्यस्य मेलनं ‘कर्मधारयसमासः’ इति पदेन कृतम्।"
+      },
+      {
+        "a_item": "(vi) त्रिभुवनम्",
+        "b_item": "बहुव्रीहिसमासः",
+        "correct_match_index": "3",
+        "explanation": "प्रश्नानुसारं ‘त्रिभुवनम्’ इत्यस्य मेलनं ‘बहुव्रीहिसमासः’ इति पदेन कृतम्।"
       }
-    },
+    ]
+  }
+},
     {
       "question_number": "4",
       "question_type": "DESCRIPTIVE",
