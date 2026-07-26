@@ -312,33 +312,32 @@
         }
       ]
     },
-    {
-      "question_number": "4",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "",
-          "statement": "You are Manthan/Mahi studying in Govt. H.S. School Bajrang Nagar, Indore. Write an application to your principal requesting him to issue you your School Leaving Certificate (S.L.C.).",
-          "correct_answer": "",
-          "explanation": "This question tests the ability to write a formal application. The answer should be written in proper format and simple, correct English. The following points must be included:\n\n1. Sender’s address (name of the school and place)\n2. Date\n3. Receiver’s address (The Principal, name of the school)\n4. Subject – Application for School Leaving Certificate\n5. Salutation – Respected Sir\n6. Body of the application:\n   • Name of the student\n   • Class and school name\n   • Reason for leaving the school (such as further studies)\n   • Polite request to issue the School Leaving Certificate\n7. Closing sentence with thanks\n8. Subscription – Yours obediently\n9. Signature and name\n\nThe language should be formal, polite and precise, as required in board examinations."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "",
-            "statement": "Write a letter to your friend to invite him to attend your birthday party.",
-            "correct_answer": "",
-            "explanation": "This question requires writing an informal letter. The answer should follow the correct format and use friendly language. The following points should be covered:\n\n1. Sender’s address\n2. Date\n3. Salutation – Dear Friend / Dear Rahul, etc.\n4. Body of the letter:\n   • Asking about the friend’s well-being\n   • Mentioning the date, time and place of the birthday party\n   • Warm invitation to attend the party\n5. Closing words – With love / Yours lovingly\n6. Name of the writer\n\nThe language should be simple, friendly and informal, suitable for a personal letter."
-          }
-        ]
-      }
-    },
    {
+  "question_number": "4",
+  "question_type": "DESCRIPTIVE",
+  "marks": "4",
+  "word_limit": "",
+  "text": "",
+  "parts": [
+    {
+      "q_id": "",
+      "statement": "You are Manthan/Mahi studying in Govt. H.S. School Bajrang Nagar, Indore. Write an application to your principal requesting him to issue you your School Leaving Certificate (S.L.C.).",
+      "correct_answer": "",
+      "explanation": "To,\nThe Principal,\nGovt. H.S. School,\nBajrang Nagar, Indore (M.P.).\n\nSubject: Application for School Leaving Certificate.\n\nRespected Sir,\n\nI want to state that I am a regular student of class X in your school. My father has been transferred to another city, and our entire family is shifting there. Therefore, I am unable to continue my studies in this school.\n\nKindly issue me my School Leaving Certificate (S.L.C.) so that I can take admission in a new school there. All my dues have been cleared.\n\nThanking you.\n\nYours obediently,\nManthan/Mahi\nClass X"
+    }
+  ],
+  "or_option": {
+    "text": "OR",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "Write a letter to your friend to invite him to attend your birthday party.",
+        "correct_answer": "",
+        "explanation": "50, Krishnapuram Colony,\nIndore.\nJuly 26, 2026\n\nDear Rahul,\n\nI hope this letter finds you in great health and high spirits. I am writing this to share some joyful news with you.\n\nMy fourteenth birthday is coming up on the 5th of next month, and we are organizing a small party at my home. The celebration will begin at 6:00 PM with cake cutting, followed by dinner and music.\n\nIt would mean a lot to me if you could join us and make the evening more memorable. We haven't met in a long time, and this will be a great chance to catch up.\n\nConvey my warm regards to your parents.\n\nYours lovingly,\nManthan/Mahi"
+      }
+    ]
+  }
+},{
   "question_number": "5",
   "question_type": "DESCRIPTIVE",
   "marks": "5M",
@@ -381,8 +380,7 @@
       }
     ]
   }
-}
-,
+},
     {
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
