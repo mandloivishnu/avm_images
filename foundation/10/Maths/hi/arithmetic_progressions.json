@@ -1,0 +1,102 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "समान्तर श्रेणी – Arithmetic Progressions",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "n वाँ पद (nth Term of an AP)",
+        "definition": "समान्तर श्रेणी (AP) में n वें पद को an = a + (n-1)d सूत्र से ज्ञात किया जाता है, जहाँ a प्रथम पद और d सार्व अंतर है।",
+        "explanation": "समान्तर श्रेणी में प्रत्येक पद अपने पिछले पद से एक निश्चित संख्या (सार्व अंतर d) से बढ़ता या घटता है। इस सूत्र से श्रेणी का कोई भी पद बिना सारे पद लिखे सीधे ज्ञात किया जा सकता है।",
+        "importantPoints": [
+          "सूत्र: an = a + (n-1)d",
+          "a = प्रथम पद, d = सार्व अंतर, n = पद संख्या",
+          "d धनात्मक होने पर श्रेणी बढ़ती है, ऋणात्मक होने पर घटती है"
+        ],
+        "highlightWords": [
+          "समान्तर श्रेणी",
+          "सार्व अंतर",
+          "n वाँ पद"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "सीढ़ीदार बैठक व्यवस्था",
+            "example": "किसी स्टेडियम में प्रत्येक पंक्ति में सीटों की संख्या समान अंतर से बढ़ती है, जो AP का उदाहरण है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "मासिक बचत",
+            "example": "यदि हर महीने बचत में एक निश्चित राशि जुड़ती जाए, तो यह भी समान्तर श्रेणी बनाती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "प्रथम n पदों का योग (Sum of First n Terms)",
+        "definition": "समान्तर श्रेणी के प्रथम n पदों का योग Sn = n/2 [2a + (n-1)d] या Sn = n/2 (a + l) सूत्र से ज्ञात किया जाता है।",
+        "explanation": "इस सूत्र का उपयोग तब किया जाता है जब श्रेणी के कई पदों का कुल योग एक साथ ज्ञात करना हो, बिना हर पद को अलग-अलग जोड़े। यदि अंतिम पद (l) ज्ञात हो तो दूसरा सूत्र सरल पड़ता है।",
+        "importantPoints": [
+          "सूत्र: Sn = n/2 [2a + (n-1)d]",
+          "वैकल्पिक सूत्र: Sn = n/2 (a + l)",
+          "l = अंतिम पद (an)"
+        ],
+        "highlightWords": [
+          "योग सूत्र",
+          "समान्तर श्रेणी",
+          "अंतिम पद"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "थिएटर सीटें",
+            "example": "थिएटर की सभी पंक्तियों की कुल सीटें ज्ञात करने में योग सूत्र का प्रयोग होता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "समान्तर श्रेणी पर आधारित शब्द समस्याएँ (Word Problems on AP)",
+        "definition": "वास्तविक जीवन की स्थितियों को समान्तर श्रेणी के रूप में मॉडल करके nth पद या योग सूत्रों से हल करना।",
+        "explanation": "शब्द समस्याओं में सबसे पहले दी गई जानकारी से प्रथम पद (a) और सार्व अंतर (d) पहचानना आवश्यक होता है। इसके बाद प्रश्न के अनुसार उचित सूत्र (nth पद या योग) लगाकर हल किया जाता है।",
+        "importantPoints": [
+          "पहले a और d की पहचान करें",
+          "प्रश्न के अनुसार सही सूत्र चुनें (an या Sn)",
+          "इकाइयों और शर्तों पर ध्यान दें (जैसे कितने पद तक)"
+        ],
+        "highlightWords": [
+          "शब्द समस्या",
+          "मॉडलिंग",
+          "सार्व अंतर"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "ऋण चुकौती (loan repayment)",
+            "example": "यदि हर महीने ऋण की किस्त एक निश्चित राशि से घटाई जाए, तो कुल ऋण चुकाने का समय AP से ज्ञात होता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

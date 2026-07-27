@@ -1,0 +1,78 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "प्रायिकता – Probability",
+    "totalMarks": "2",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "शास्त्रीय प्रायिकता (Classical Probability)",
+        "definition": "किसी घटना की प्रायिकता = (अनुकूल परिणामों की संख्या) / (कुल संभावित परिणामों की संख्या)",
+        "explanation": "शास्त्रीय प्रायिकता में सभी परिणामों को समान रूप से संभावित (equally likely) माना जाता है। प्रायिकता का मान सदैव 0 और 1 के बीच होता है — 0 असंभव घटना और 1 निश्चित घटना को दर्शाता है।",
+        "importantPoints": [
+          "P(E) = अनुकूल परिणाम / कुल परिणाम",
+          "प्रायिकता का मान 0 ≤ P(E) ≤ 1 के बीच होता है",
+          "P(E) + P(not E) = 1"
+        ],
+        "highlightWords": [
+          "प्रायिकता",
+          "अनुकूल परिणाम",
+          "समप्रायिक"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "सिक्का उछालना",
+            "example": "सिक्का उछालने पर चित (Head) आने की प्रायिकता 1/2 होती है, क्योंकि दो समप्रायिक परिणाम संभव हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "पासा फेंकना",
+            "example": "पासा फेंकने पर किसी एक निश्चित संख्या (जैसे 4) आने की प्रायिकता 1/6 होती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "सरल प्रायिकता प्रश्न (Simple Probability Questions)",
+        "definition": "दैनिक जीवन की सरल घटनाओं (सिक्का, पासा, ताश के पत्ते, गेंदें निकालना आदि) पर आधारित प्रायिकता की गणना।",
+        "explanation": "इन प्रश्नों में सबसे पहले 'कुल संभावित परिणाम' और 'अनुकूल परिणाम' सही से गिनना आवश्यक होता है। ताश के 52 पत्तों, थैले में रंगीन गेंदों, या पासों के प्रश्नों में यही तरीका अपनाया जाता है।",
+        "importantPoints": [
+          "पहले नमूना समष्टि (sample space) पहचानें",
+          "फिर अनुकूल परिणाम गिनें",
+          "ताश में कुल 52 पत्ते, 4 सूट होते हैं जिन्हें याद रखना उपयोगी है"
+        ],
+        "highlightWords": [
+          "सरल प्रायिकता",
+          "नमूना समष्टि",
+          "ताश के पत्ते"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "थैले में से गेंद निकालना",
+            "example": "एक थैले में लाल और नीली गेंदें हों, तो किसी एक रंग की गेंद निकालने की प्रायिकता इसी विधि से ज्ञात होती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "लॉटरी टिकट",
+            "example": "किसी लॉटरी में इनाम जीतने की प्रायिकता कुल टिकटों और इनामी टिकटों की संख्या के अनुपात से ज्ञात होती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

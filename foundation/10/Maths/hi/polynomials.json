@@ -1,0 +1,82 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "बहुपद – Polynomials",
+    "totalMarks": "2",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "शून्यकों तथा गुणांकों में संबंध (Relationship between Zeros and Coefficients)",
+        "definition": "किसी बहुपद के शून्यक वे मान होते हैं जिन पर बहुपद का मान शून्य हो जाता है, और इनका गुणांकों से एक निश्चित संबंध होता है।",
+        "explanation": "द्विघात बहुपद ax² + bx + c के लिए यदि α, β शून्यक हों तो: शून्यकों का योग α+β = -b/a तथा शून्यकों का गुणनफल αβ = c/a होता है। त्रिघात बहुपद में भी शून्यकों और गुणांकों के बीच इसी प्रकार के सूत्र होते हैं।",
+        "importantPoints": [
+          "α + β = -b/a (शून्यकों का योग)",
+          "αβ = c/a (शून्यकों का गुणनफल)",
+          "यह संबंध बहुपद बनाने में भी प्रयुक्त होता है: x² - (α+β)x + αβ",
+          "त्रिघात बहुपद में तीन संबंध होते हैं (योग, युग्म-गुणनफल का योग, गुणनफल)"
+        ],
+        "highlightWords": [
+          "शून्यक",
+          "गुणांक",
+          "योग",
+          "गुणनफल"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "गेंद फेंकने का पथ",
+            "example": "जब गेंद ऊपर फेंकी जाती है तो उसके ज़मीन छूने के बिंदु (शून्यक) बहुपद के गुणांकों से जुड़े होते हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "पुल का डिज़ाइन",
+            "example": "पुल के आर्च आकार को द्विघात बहुपद से दर्शाया जाता है जिसके शून्यक आधार बिंदु बताते हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "द्विघात बहुपद (Quadratic Polynomials)",
+        "definition": "जिस बहुपद की उच्चतम घात 2 हो, उसे द्विघात बहुपद कहते हैं। सामान्य रूप: p(x) = ax² + bx + c, जहाँ a ≠ 0.",
+        "explanation": "द्विघात बहुपद का ग्राफ हमेशा परवलय (parabola) होता है। इसका ग्राफ x-अक्ष को अधिकतम दो बिंदुओं पर काट सकता है, जो इसके शून्यक होते हैं। ग्राफ का आकार 'a' के धनात्मक या ऋणात्मक होने पर ऊपर या नीचे की ओर खुलता है।",
+        "importantPoints": [
+          "सामान्य रूप: ax² + bx + c (a ≠ 0)",
+          "ग्राफ परवलय (parabola) होता है",
+          "x-अक्ष को अधिकतम 2 बिंदुओं पर काटता है",
+          "a > 0 होने पर परवलय ऊपर की ओर, a < 0 होने पर नीचे की ओर खुलता है"
+        ],
+        "highlightWords": [
+          "द्विघात बहुपद",
+          "परवलय",
+          "शून्यक",
+          "ग्राफ"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "फव्वारे का पानी",
+            "example": "फव्वारे से निकलने वाले पानी की धारा परवलयाकार पथ बनाती है जो द्विघात बहुपद से मॉडल होती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "टॉर्च की रोशनी",
+            "example": "गाड़ी की हेडलाइट में परवलयाकार परावर्तक का प्रयोग होता है ताकि रोशनी सीधी दिशा में जाए।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

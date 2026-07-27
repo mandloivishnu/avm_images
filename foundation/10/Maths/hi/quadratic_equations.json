@@ -1,0 +1,127 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "द्विघात समीकरण – Quadratic Equations",
+    "totalMarks": "4",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "गुणनखंडन विधि (Factorization Method)",
+        "definition": "द्विघात समीकरण ax² + bx + c = 0 को दो एकघातीय गुणनखंडों के गुणनफल के रूप में लिखकर हल करने की विधि।",
+        "explanation": "इस विधि में मध्य पद (b) को इस प्रकार दो भागों में तोड़ा जाता है कि दोनों का गुणनफल 'ac' के बराबर और योग 'b' के बराबर हो। फिर समान गुणनखंड निकालकर समीकरण को दो रैखिक गुणनखंडों में तोड़ा जाता है।",
+        "importantPoints": [
+          "मध्य पद को तोड़ने से ac और b की शर्त पूरी होनी चाहिए",
+          "प्रत्येक गुणनखंड को शून्य के बराबर रखकर मूल ज्ञात करते हैं",
+          "यह विधि तभी आसान होती है जब मूल परिमेय हों"
+        ],
+        "highlightWords": [
+          "गुणनखंडन",
+          "मध्य पद विच्छेद",
+          "मूल"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "खेल का मैदान",
+            "example": "आयताकार मैदान के क्षेत्रफल और परिमाप से लंबाई-चौड़ाई ज्ञात करने में द्विघात समीकरण के गुणनखंडन का प्रयोग होता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "वर्ग पूर्ण करने की विधि (Completing the Square)",
+        "definition": "द्विघात समीकरण को (x + k)² = m के रूप में बदलकर हल ज्ञात करने की विधि।",
+        "explanation": "इस विधि में समीकरण के x पदों को एक पूर्ण वर्ग के रूप में व्यवस्थित किया जाता है, जिसके लिए दोनों पक्षों में उपयुक्त संख्या जोड़ी या घटाई जाती है। इसके बाद वर्गमूल लेकर x का मान ज्ञात किया जाता है। यही विधि द्विघात सूत्र निकालने का आधार भी है।",
+        "importantPoints": [
+          "समीकरण को (x+k)² = m के रूप में लाया जाता है",
+          "दोनों पक्षों का वर्गमूल लेकर हल ज्ञात करते हैं",
+          "यह विधि द्विघात सूत्र की व्युत्पत्ति का आधार है"
+        ],
+        "highlightWords": [
+          "वर्ग पूर्ण करना",
+          "पूर्ण वर्ग",
+          "वर्गमूल"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "बागवानी क्षेत्रफल",
+            "example": "किसी वर्गाकार बगीचे के क्षेत्रफल से भुजा ज्ञात करने के लिए वर्ग पूर्ण करने की विधि उपयोगी है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "द्विघात सूत्र (Quadratic Formula)",
+        "definition": "द्विघात समीकरण ax² + bx + c = 0 के मूल ज्ञात करने का सूत्र: x = [-b ± √(b²-4ac)] / 2a.",
+        "explanation": "यह सूत्र किसी भी द्विघात समीकरण को सीधे हल करने के लिए प्रयोग होता है, चाहे मूल परिमेय हों या अपरिमेय। b²-4ac को विविक्तकर (discriminant) कहते हैं, जो मूलों की प्रकृति बताता है।",
+        "importantPoints": [
+          "सूत्र: x = [-b ± √(b²-4ac)] / 2a",
+          "b²-4ac को विविक्तकर (D) कहते हैं",
+          "यह सूत्र सभी प्रकार के द्विघात समीकरणों पर लागू होता है"
+        ],
+        "highlightWords": [
+          "द्विघात सूत्र",
+          "विविक्तकर",
+          "मूल"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "रॉकेट की ऊँचाई",
+            "example": "प्रक्षेप्य (projectile) की अधिकतम ऊँचाई और समय ज्ञात करने में द्विघात सूत्र प्रयुक्त होता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "मूलों की प्रकृति (Nature of Roots)",
+        "definition": "विविक्तकर D = b²-4ac के मान के आधार पर द्विघात समीकरण के मूलों की प्रकृति (वास्तविक, बराबर या काल्पनिक) ज्ञात की जाती है।",
+        "explanation": "यदि D > 0 हो तो दो भिन्न वास्तविक मूल होते हैं। यदि D = 0 हो तो दो बराबर वास्तविक मूल होते हैं। यदि D < 0 हो तो कोई वास्तविक मूल नहीं होता (मूल काल्पनिक होते हैं)।",
+        "importantPoints": [
+          "D > 0 → दो भिन्न वास्तविक मूल",
+          "D = 0 → दो बराबर वास्तविक मूल",
+          "D < 0 → कोई वास्तविक मूल नहीं",
+          "D = b² - 4ac"
+        ],
+        "highlightWords": [
+          "विविक्तकर",
+          "वास्तविक मूल",
+          "काल्पनिक मूल"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "पुल की सुरक्षा जाँच",
+            "example": "इंजीनियर संरचना के समीकरणों में विविक्तकर जाँचकर यह तय करते हैं कि डिज़ाइन व्यवहारिक (वास्तविक हल) है या नहीं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

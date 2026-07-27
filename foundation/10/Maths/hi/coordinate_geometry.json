@@ -1,0 +1,102 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "निर्देशांक ज्यामिति – Coordinate Geometry",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "दूरी सूत्र (Distance Formula)",
+        "definition": "दो बिंदुओं P(x1,y1) और Q(x2,y2) के बीच की दूरी: PQ = √[(x2-x1)² + (y2-y1)²]",
+        "explanation": "यह सूत्र पाइथागोरस प्रमेय पर आधारित है। निर्देशांक तल पर किन्हीं दो बिंदुओं के बीच की सीधी दूरी ज्ञात करने के लिए इसका प्रयोग होता है, जो त्रिभुज या चतुर्भुज की प्रकृति पहचानने में भी सहायक है।",
+        "importantPoints": [
+          "सूत्र: √[(x2-x1)² + (y2-y1)²]",
+          "यह पाइथागोरस प्रमेय पर आधारित है",
+          "मूलबिंदु से दूरी: √(x² + y²)"
+        ],
+        "highlightWords": [
+          "दूरी सूत्र",
+          "निर्देशांक",
+          "पाइथागोरस प्रमेय"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "GPS नेविगेशन",
+            "example": "मोबाइल GPS दो स्थानों के बीच सीधी दूरी निकालने में इसी सूत्र के सिद्धांत का प्रयोग करता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "शतरंज बोर्ड",
+            "example": "शतरंज के बोर्ड पर दो खानों के बीच की दूरी निर्देशांकों से मापी जा सकती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "विभाजन सूत्र (Section Formula)",
+        "definition": "यदि बिंदु P, रेखाखंड AB को m:n के अनुपात में विभाजित करता है, तो P के निर्देशांक: [(mx2+nx1)/(m+n), (my2+ny1)/(m+n)]",
+        "explanation": "यह सूत्र किसी रेखाखंड को दिए गए अनुपात में बाँटने वाले बिंदु के निर्देशांक ज्ञात करने के लिए प्रयोग होता है। जब बिंदु मध्यबिंदु हो (अनुपात 1:1) तो सूत्र मध्यबिंदु सूत्र बन जाता है।",
+        "importantPoints": [
+          "सूत्र: [(mx2+nx1)/(m+n), (my2+ny1)/(m+n)]",
+          "मध्यबिंदु के लिए m=n=1: [(x1+x2)/2, (y1+y2)/2]",
+          "यह त्रिभुज की माध्यिका व केन्द्रक ज्ञात करने में उपयोगी है"
+        ],
+        "highlightWords": [
+          "विभाजन सूत्र",
+          "मध्यबिंदु",
+          "अनुपात"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "सड़क पर पेट्रोल पंप",
+            "example": "दो शहरों के बीच सड़क पर किसी निश्चित अनुपात पर पेट्रोल पंप की स्थिति ज्ञात करने में यह सूत्र काम आता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "त्रिभुज का क्षेत्रफल (Area of Triangle using Coordinates)",
+        "definition": "निर्देशांकों (x1,y1), (x2,y2), (x3,y3) वाले त्रिभुज का क्षेत्रफल = ½ |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+        "explanation": "यह सूत्र त्रिभुज के तीनों शीर्षों के निर्देशांक ज्ञात होने पर सीधे क्षेत्रफल निकालने के लिए प्रयोग होता है। यदि प्राप्त क्षेत्रफल शून्य आए, तो तीनों बिंदु संरेख (collinear) होते हैं।",
+        "importantPoints": [
+          "सूत्र: ½ |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+          "क्षेत्रफल शून्य होने पर बिंदु संरेख होते हैं",
+          "क्षेत्रफल सदैव धनात्मक लिया जाता है (मापांक)"
+        ],
+        "highlightWords": [
+          "क्षेत्रफल सूत्र",
+          "शीर्ष",
+          "संरेख बिंदु"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "भूमि सर्वेक्षण",
+            "example": "अनियमित त्रिकोणीय भूखंड का क्षेत्रफल निर्देशांकों की मदद से सर्वेक्षक इसी सूत्र से निकालते हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

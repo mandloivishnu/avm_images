@@ -1,0 +1,105 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "त्रिकोणमिति का परिचय – Introduction to Trigonometry",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "त्रिकोणमितीय अनुपात (Trigonometric Ratios)",
+        "definition": "समकोण त्रिभुज में किसी कोण के त्रिकोणमितीय अनुपात sin, cos, tan, cosec, sec, cot भुजाओं के अनुपात के रूप में परिभाषित होते हैं।",
+        "explanation": "समकोण त्रिभुज में लम्ब (perpendicular), आधार (base) और कर्ण (hypotenuse) के अनुपात से छह त्रिकोणमितीय अनुपात बनते हैं: sinθ = लम्ब/कर्ण, cosθ = आधार/कर्ण, tanθ = लम्ब/आधार, तथा इनके व्युत्क्रम cosecθ, secθ, cotθ.",
+        "importantPoints": [
+          "sinθ = लम्ब/कर्ण, cosθ = आधार/कर्ण, tanθ = लम्ब/आधार",
+          "cosecθ = 1/sinθ, secθ = 1/cosθ, cotθ = 1/tanθ",
+          "ये अनुपात केवल कोण पर निर्भर करते हैं, त्रिभुज के आकार पर नहीं"
+        ],
+        "highlightWords": [
+          "त्रिकोणमितीय अनुपात",
+          "लम्ब",
+          "आधार",
+          "कर्ण"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "पतंग उड़ाना",
+            "example": "पतंग की डोर, ऊँचाई और ज़मीन से बना कोण त्रिकोणमितीय अनुपातों से जुड़ा होता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "सीढ़ी का कोण",
+            "example": "दीवार से टिकी सीढ़ी का कोण और ऊँचाई त्रिकोणमितीय अनुपातों से ज्ञात होती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "मानक कोणों के मान (Standard Angle Values)",
+        "definition": "0°, 30°, 45°, 60°, 90° जैसे विशिष्ट कोणों के sin, cos, tan आदि के निश्चित मान होते हैं जिन्हें याद रखा जाता है।",
+        "explanation": "ये मान समकोण त्रिभुजों (जैसे 45-45-90 और 30-60-90) की भुजाओं के अनुपात से प्राप्त होते हैं। ये मान त्रिकोणमिति की अधिकांश समस्याओं को हल करने में आधार का काम करते हैं।",
+        "importantPoints": [
+          "sin0°=0, sin30°=1/2, sin45°=1/√2, sin60°=√3/2, sin90°=1",
+          "cos के मान sin के विपरीत क्रम में होते हैं",
+          "tan90° और cot0° अपरिभाषित होते हैं"
+        ],
+        "highlightWords": [
+          "मानक कोण",
+          "sin cos tan",
+          "विशिष्ट मान"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "सूर्य की ऊँचाई मापना",
+            "example": "सूर्य के मानक कोण (जैसे 30° या 45°) पर होने पर छाया की लंबाई से वस्तु की ऊँचाई आसानी से निकाली जाती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "त्रिकोणमितीय सर्वसमिकाएँ (Trigonometric Identities)",
+        "definition": "वे समीकरण जो सभी मान्य कोणों के लिए सत्य होती हैं, जैसे sin²θ + cos²θ = 1.",
+        "explanation": "तीन मुख्य सर्वसमिकाएँ हैं: sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, तथा 1 + cot²θ = cosec²θ। इनका उपयोग त्रिकोणमितीय व्यंजकों को सरल करने और सिद्ध करने में होता है।",
+        "importantPoints": [
+          "sin²θ + cos²θ = 1",
+          "1 + tan²θ = sec²θ",
+          "1 + cot²θ = cosec²θ",
+          "इनसे अन्य त्रिकोणमितीय संबंध व्युत्पन्न किए जा सकते हैं"
+        ],
+        "highlightWords": [
+          "सर्वसमिका",
+          "sin²+cos²=1",
+          "sec",
+          "cosec"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "भवन निर्माण डिज़ाइन",
+            "example": "इंजीनियर छत के ढलान के कोण संबंधी गणनाओं को सरल बनाने के लिए त्रिकोणमितीय सर्वसमिकाओं का प्रयोग करते हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "त्रिकोणमिति के अनुप्रयोग – Applications of Trigonometry",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "ऊँचाई और दूरी (Heights and Distances)",
+        "definition": "त्रिकोणमितीय अनुपातों का उपयोग करके किसी वस्तु की ऊँचाई या दो वस्तुओं के बीच की दूरी ज्ञात करना, जिसमें उन्नयन कोण व अवनमन कोण का प्रयोग होता है।",
+        "explanation": "उन्नयन कोण (angle of elevation) वह कोण है जो क्षैतिज रेखा से ऊपर की वस्तु देखने पर बनता है, जबकि अवनमन कोण (angle of depression) नीचे की वस्तु देखने पर बनता है। इन कोणों और ज्ञात दूरी/ऊँचाई की मदद से त्रिकोणमितीय अनुपात लगाकर अज्ञात मान ज्ञात किए जाते हैं।",
+        "importantPoints": [
+          "उन्नयन कोण: ऊपर देखने पर बनने वाला कोण",
+          "अवनमन कोण: नीचे देखने पर बनने वाला कोण",
+          "समकोण त्रिभुज बनाकर उचित त्रिकोणमितीय अनुपात लगाया जाता है",
+          "उन्नयन कोण और अवनमन कोण परस्पर एकांतर कोण (alternate angles) होने पर बराबर होते हैं"
+        ],
+        "highlightWords": [
+          "उन्नयन कोण",
+          "अवनमन कोण",
+          "ऊँचाई",
+          "दूरी"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "मीनार की ऊँचाई मापना",
+            "example": "किसी मीनार के आधार से एक निश्चित दूरी पर खड़े होकर उन्नयन कोण मापकर उसकी ऊँचाई ज्ञात की जाती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "जहाज़ से समुद्र तट की दूरी",
+            "example": "जहाज़ के डेक से समुद्र तट पर किसी वस्तु का अवनमन कोण मापकर दूरी ज्ञात की जाती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "हवाई जहाज़ की ऊँचाई",
+            "example": "ज़मीन से हवाई जहाज़ का उन्नयन कोण मापकर उसकी उड़ान ऊँचाई का अनुमान लगाया जाता है।",
+            "jsonAnimationUrl": "PLACEHOLDER_LOTTIE_ANIMATION_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

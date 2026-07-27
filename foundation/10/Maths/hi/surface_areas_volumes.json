@@ -1,0 +1,182 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "पृष्ठीय क्षेत्रफल एवं आयतन – Surface Areas and Volumes",
+    "totalMarks": "5",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "घन एवं घनाभ (Cube and Cuboid)",
+        "definition": "घन एक ऐसा ठोस है जिसकी सभी भुजाएँ बराबर होती हैं, जबकि घनाभ में लंबाई, चौड़ाई व ऊँचाई भिन्न-भिन्न हो सकती हैं।",
+        "explanation": "घन का कुल पृष्ठीय क्षेत्रफल = 6a², आयतन = a³ (जहाँ a भुजा है)। घनाभ का कुल पृष्ठीय क्षेत्रफल = 2(lb+bh+hl), आयतन = l×b×h।",
+        "importantPoints": [
+          "घन: पृष्ठीय क्षेत्रफल = 6a², आयतन = a³",
+          "घनाभ: पृष्ठीय क्षेत्रफल = 2(lb+bh+hl), आयतन = lbh",
+          "घन, घनाभ का ही विशेष रूप है जब l=b=h"
+        ],
+        "highlightWords": [
+          "घन",
+          "घनाभ",
+          "पृष्ठीय क्षेत्रफल",
+          "आयतन"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "रुबिक क्यूब",
+            "example": "रुबिक क्यूब एक सम्पूर्ण घन का उदाहरण है, जिसकी सभी भुजाएँ बराबर होती हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "जूते का डिब्बा",
+            "example": "जूते का डिब्बा घनाभ के आकार का होता है, जिसकी लंबाई, चौड़ाई व ऊँचाई अलग-अलग होती हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "बेलन (Cylinder)",
+        "definition": "बेलन एक ऐसा ठोस है जिसके दोनों सिरों पर बराबर त्रिज्या के गोलाकार आधार होते हैं और वक्र पृष्ठ इन्हें जोड़ता है।",
+        "explanation": "बेलन का वक्र पृष्ठीय क्षेत्रफल = 2πrh, कुल पृष्ठीय क्षेत्रफल = 2πr(h+r), तथा आयतन = πr²h, जहाँ r त्रिज्या और h ऊँचाई है।",
+        "importantPoints": [
+          "वक्र पृष्ठीय क्षेत्रफल = 2πrh",
+          "कुल पृष्ठीय क्षेत्रफल = 2πr(h+r)",
+          "आयतन = πr²h"
+        ],
+        "highlightWords": [
+          "बेलन",
+          "वक्र पृष्ठ",
+          "आयतन"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "पानी की बोतल",
+            "example": "पानी की गोल बोतल बेलन के आकार का सामान्य उदाहरण है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "पाइप/नल",
+            "example": "घरों में लगे गोल पाइप बेलनाकार होते हैं जिनका आयतन पानी की मात्रा बताता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "शंकु (Cone)",
+        "definition": "शंकु एक ऐसा ठोस है जिसका एक वृत्ताकार आधार होता है और वह एक शीर्ष बिंदु तक नुकीला होता जाता है।",
+        "explanation": "शंकु का वक्र पृष्ठीय क्षेत्रफल = πrl, कुल पृष्ठीय क्षेत्रफल = πr(l+r), आयतन = ⅓πr²h, जहाँ l तिर्यक ऊँचाई (slant height) है और l² = r² + h².",
+        "importantPoints": [
+          "वक्र पृष्ठीय क्षेत्रफल = πrl",
+          "कुल पृष्ठीय क्षेत्रफल = πr(l+r)",
+          "आयतन = ⅓πr²h",
+          "तिर्यक ऊँचाई: l² = r² + h²"
+        ],
+        "highlightWords": [
+          "शंकु",
+          "तिर्यक ऊँचाई",
+          "आयतन"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "आइसक्रीम कोन",
+            "example": "आइसक्रीम कोन का आकार पूर्णतः शंकु जैसा होता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "जोकर की टोपी",
+            "example": "जन्मदिन पर पहनी जाने वाली नुकीली टोपी शंकु के आकार की होती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "गोला एवं अर्धगोला (Sphere and Hemisphere)",
+        "definition": "गोला एक पूर्णतः गोल त्रि-आयामी ठोस है, जबकि अर्धगोला गोले का आधा भाग होता है।",
+        "explanation": "गोले का पृष्ठीय क्षेत्रफल = 4πr², आयतन = (4/3)πr³। अर्धगोले का वक्र पृष्ठीय क्षेत्रफल = 2πr², कुल पृष्ठीय क्षेत्रफल = 3πr², आयतन = (2/3)πr³।",
+        "importantPoints": [
+          "गोला: पृष्ठीय क्षेत्रफल = 4πr², आयतन = (4/3)πr³",
+          "अर्धगोला: कुल पृष्ठीय क्षेत्रफल = 3πr², आयतन = (2/3)πr³",
+          "अर्धगोला गोले का ठीक आधा आयतन नहीं बल्कि अलग सूत्र रखता है क्योंकि सपाट सतह भी जुड़ती है"
+        ],
+        "highlightWords": [
+          "गोला",
+          "अर्धगोला",
+          "पृष्ठीय क्षेत्रफल"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "फुटबॉल",
+            "example": "फुटबॉल एक पूर्ण गोले का उदाहरण है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "कटोरा (bowl)",
+            "example": "आधा गोल कटोरा अर्धगोले के आकार का सामान्य उदाहरण है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "छिन्नक (Frustum of a Cone)",
+        "definition": "जब किसी शंकु को उसके आधार के समांतर काटा जाए, तो शीर्ष व कटे हुए भाग के बीच बचा हुआ भाग छिन्नक कहलाता है।",
+        "explanation": "छिन्नक के दो अलग-अलग त्रिज्याएँ r1 (ऊपरी) और r2 (निचला) होती हैं। इसका आयतन = (⅓)πh(r1²+r2²+r1r2), तथा वक्र पृष्ठीय क्षेत्रफल = πl(r1+r2), जहाँ l तिर्यक ऊँचाई है।",
+        "importantPoints": [
+          "आयतन = (⅓)πh(r1²+r2²+r1r2)",
+          "वक्र पृष्ठीय क्षेत्रफल = πl(r1+r2)",
+          "छिन्नक शंकु को समांतर काटने पर प्राप्त ठोस है"
+        ],
+        "highlightWords": [
+          "छिन्नक",
+          "frustum",
+          "तिर्यक ऊँचाई"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "बाल्टी (bucket)",
+            "example": "घर में प्रयुक्त बाल्टी का आकार सामान्यतः छिन्नक जैसा होता है — ऊपर चौड़ी और नीचे संकरी।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "लैंपशेड",
+            "example": "टेबल लैंप का शेड (कवर) प्रायः छिन्नक आकार का बनाया जाता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "सांख्यिकी – Statistics",
+    "totalMarks": "5",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "माध्य (Mean)",
+        "definition": "आँकड़ों के सभी मानों के योग को कुल पदों की संख्या से भाग देने पर प्राप्त मान माध्य कहलाता है।",
+        "explanation": "वर्गीकृत आँकड़ों के लिए माध्य प्रत्यक्ष विधि, कल्पित माध्य विधि, या पद विचलन विधि से ज्ञात किया जाता है। सूत्र: माध्य = Σfixi / Σfi, जहाँ fi बारंबारता और xi वर्ग-चिह्न (मध्यबिंदु) है।",
+        "importantPoints": [
+          "माध्य = Σfixi / Σfi",
+          "तीन विधियाँ: प्रत्यक्ष, कल्पित माध्य, पद विचलन",
+          "xi = वर्ग अंतराल का मध्यबिंदु"
+        ],
+        "highlightWords": [
+          "माध्य",
+          "बारंबारता",
+          "वर्ग-चिह्न"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "कक्षा का औसत अंक",
+            "example": "किसी कक्षा में सभी छात्रों के प्राप्तांकों का औसत निकालना माध्य का सामान्य उदाहरण है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          },
+          {
+            "title": "परिवार की औसत आय",
+            "example": "किसी क्षेत्र में विभिन्न परिवारों की आय का औसत निकालने में माध्य का प्रयोग होता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "माध्यिका (Median)",
+        "definition": "आँकड़ों को आरोही या अवरोही क्रम में व्यवस्थित करने पर बीच में स्थित मान माध्यिका कहलाता है।",
+        "explanation": "वर्गीकृत आँकड़ों के लिए माध्यिका ज्ञात करने हेतु संचयी बारंबारता (cumulative frequency) की आवश्यकता होती है। सूत्र: Median = l + [(n/2 - cf)/f] × h, जहाँ l माध्यिका वर्ग की निचली सीमा है।",
+        "importantPoints": [
+          "सूत्र: l + [(n/2 - cf)/f] × h",
+          "पहले संचयी बारंबारता सारणी बनानी होती है",
+          "n/2 के मान से माध्यिका वर्ग पहचाना जाता है"
+        ],
+        "highlightWords": [
+          "माध्यिका",
+          "संचयी बारंबारता",
+          "माध्यिका वर्ग"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "मध्यम आयु वर्ग",
+            "example": "किसी समूह में लोगों की आयु को क्रम में रखकर बीच वाली आयु माध्यिका कहलाती है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "बहुलक (Mode)",
+        "definition": "आँकड़ों में सबसे अधिक बार आने वाला मान बहुलक कहलाता है।",
+        "explanation": "वर्गीकृत आँकड़ों के लिए बहुलक सूत्र: Mode = l + [(f1-f0)/(2f1-f0-f2)] × h, जहाँ f1 बहुलक वर्ग की बारंबारता, f0 पिछले वर्ग की और f2 अगले वर्ग की बारंबारता है।",
+        "importantPoints": [
+          "सूत्र: l + [(f1-f0)/(2f1-f0-f2)] × h",
+          "सबसे अधिक बारंबारता वाला वर्ग 'बहुलक वर्ग' कहलाता है",
+          "एक से अधिक बहुलक भी संभव हैं (bimodal)"
+        ],
+        "highlightWords": [
+          "बहुलक",
+          "बहुलक वर्ग",
+          "बारंबारता"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "सबसे बिकने वाला जूते का साइज़",
+            "example": "किसी दुकान में सबसे अधिक बिकने वाला जूते का साइज़ बहुलक का उदाहरण है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "संचयी बारंबारता (Cumulative Frequency)",
+        "definition": "किसी वर्ग तक की सभी बारंबारताओं का क्रमिक योग संचयी बारंबारता कहलाती है।",
+        "explanation": "संचयी बारंबारता दो प्रकार की होती है: 'से कम प्रकार' (less than type) और 'से अधिक प्रकार' (more than type)। यह माध्यिका ज्ञात करने और तोरण (ogive) बनाने में उपयोग होती है।",
+        "importantPoints": [
+          "दो प्रकार: से कम प्रकार, से अधिक प्रकार",
+          "यह माध्यिका ज्ञात करने का आधार है",
+          "तोरण बनाने के लिए संचयी बारंबारता आवश्यक है"
+        ],
+        "highlightWords": [
+          "संचयी बारंबारता",
+          "से कम प्रकार",
+          "से अधिक प्रकार"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "परीक्षा में उत्तीर्ण छात्रों की संख्या",
+            "example": "किसी अंक-सीमा तक कुल कितने छात्र उत्तीर्ण हुए, यह संचयी बारंबारता से पता चलता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "तोरण (Ogive)",
+        "definition": "संचयी बारंबारता को ग्राफ पर आलेखित करने से बना वक्र तोरण कहलाता है।",
+        "explanation": "तोरण दो प्रकार के होते हैं: 'से कम प्रकार' का तोरण (आरोही वक्र) और 'से अधिक प्रकार' का तोरण (अवरोही वक्र)। दोनों तोरणों के प्रतिच्छेद बिंदु का x-निर्देशांक माध्यिका के बराबर होता है।",
+        "importantPoints": [
+          "से कम प्रकार का तोरण आरोही होता है",
+          "से अधिक प्रकार का तोरण अवरोही होता है",
+          "दोनों वक्रों का प्रतिच्छेद बिंदु माध्यिका देता है"
+        ],
+        "highlightWords": [
+          "तोरण",
+          "आरोही वक्र",
+          "अवरोही वक्र",
+          "प्रतिच्छेद बिंदु"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "वर्षा के आँकड़ों का ग्राफ",
+            "example": "किसी शहर में महीनेवार वर्षा की संचयी मात्रा को तोरण द्वारा दर्शाया जा सकता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+          }
+        ]
+      }
+    }
+  ]
+}
