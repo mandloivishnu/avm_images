@@ -43,7 +43,7 @@
           {
             "title": "हवाई जहाज़ की ऊँचाई",
             "example": "ज़मीन से हवाई जहाज़ का उन्नयन कोण मापकर उसकी उड़ान ऊँचाई का अनुमान लगाया जाता है।",
-            "svgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/Maths/images/hawai_jahaj_uchai.html"
+            "svgUrl":"https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/hawai_jahaj_uchai.html"
           }
         ]
       }
