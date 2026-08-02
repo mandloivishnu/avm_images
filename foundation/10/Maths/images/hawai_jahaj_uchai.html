@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: 'Noto Sans Devanagari', Arial, sans-serif;
+  }
+  .wrap {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  h3 {
+    text-align: center;
+    color: #1a1a1a;
+    margin: 4px 0 8px;
+    font-size: 18px;
+  }
+  svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: linear-gradient(#cfe9ff, #eaf6ff);
+    border-radius: 8px;
+  }
+  p.formula {
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    margin: 6px 0 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h3>हवाई जहाज़ की ऊँचाई (Height of Airplane)</h3>
+  <svg id="scene" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Ground -->
+    <rect x="0" y="330" width="700" height="50" fill="#cdeccd"/>
+    <line x1="0" y1="330" x2="700" y2="330" stroke="#4a7a4a" stroke-width="2"/>
+
+    <!-- Observer -->
+    <circle cx="100" cy="310" r="10" fill="#e07a30"/>
+    <rect x="93" y="320" width="14" height="14" fill="#e07a30"/>
+    <text x="100" y="355" text-anchor="middle" font-size="14" fill="#333">प्रेक्षक (Observer)</text>
+
+    <!-- Horizontal reference -->
+    <line x1="100" y1="310" x2="650" y2="310" stroke="#888" stroke-dasharray="6,4" stroke-width="2"/>
+
+    <!-- Line of sight to plane -->
+    <line id="sightLine" x1="100" y1="310" x2="480" y2="90" stroke="#1a73c7" stroke-width="2.5"/>
+
+    <!-- Angle arc -->
+    <path id="angleArc" d="M 150 310 A 50 50 0 0 0 128 264" fill="none" stroke="#c0392b" stroke-width="2"/>
+    <text id="angleLabel" x="165" y="290" font-size="15" fill="#c0392b">θ</text>
+
+    <!-- Height guide (dashed vertical from plane to ground) -->
+    <line id="heightLine" x1="480" y1="90" x2="480" y2="310" stroke="#999" stroke-dasharray="4,4" stroke-width="1.5"/>
+
+    <!-- Clouds -->
+    <g fill="#ffffff" opacity="0.8">
+      <ellipse cx="200" cy="60" rx="30" ry="14"/>
+      <ellipse cx="225" cy="55" rx="22" ry="12"/>
+      <ellipse cx="560" cy="50" rx="26" ry="12"/>
+      <ellipse cx="590" cy="55" rx="20" ry="10"/>
+    </g>
+
+    <!-- Airplane -->
+    <g id="plane">
+      <path d="M0,0 L40,-4 L55,0 L40,4 Z" fill="#333"/>
+      <path d="M15,-2 L5,-16 L12,-16 L22,-2 Z" fill="#333"/>
+      <path d="M15,2 L5,16 L12,16 L22,2 Z" fill="#333"/>
+      <path d="M40,-2 L48,-10 L52,-10 L46,-2 Z" fill="#333"/>
+    </g>
+
+    <text x="350" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">उड़ान ऊँचाई का अनुमान</text>
+  </svg>
+  <p class="formula">tan θ = ऊँचाई / क्षैतिज दूरी — जहाज़ आगे बढ़ने पर उन्नयन कोण θ बदलता है</p>
+</div>
+
+<script>
+(function () {
+  var obsX = 100, obsY = 310;
+  var t = 0;
+
+  var plane = document.getElementById('plane');
+  var sightLine = document.getElementById('sightLine');
+  var angleArc = document.getElementById('angleArc');
+  var angleLabel = document.getElementById('angleLabel');
+  var heightLine = document.getElementById('heightLine');
+
+  function frame() {
+    t += 0.006;
+    var phase = t % 1;
+
+    // Plane flies left to right at roughly level altitude with slight bob
+    var px = 250 + phase * 350;
+    var py = 90 + Math.sin(phase * Math.PI * 2) * 8;
+
+    plane.setAttribute('transform', 'translate(' + px + ',' + py + ')');
+
+    sightLine.setAttribute('x2', px);
+    sightLine.setAttribute('y2', py);
+
+    heightLine.setAttribute('x1', px);
+    heightLine.setAttribute('x2', px);
+    heightLine.setAttribute('y1', py);
+
+    var dx = px - obsX, dy = obsY - py;
+    var angleRad = Math.atan2(dy, dx);
+    var angleDeg = Math.round(angleRad * 180 / Math.PI);
+    var r = 50;
+    var ax = obsX + r * Math.cos(angleRad * 0.85);
+    var ay = obsY - r * Math.sin(angleRad * 0.85);
+    angleArc.setAttribute('d', 'M ' + (obsX + r) + ' ' + obsY + ' A ' + r + ' ' + r + ' 0 0 0 ' + ax.toFixed(1) + ' ' + ay.toFixed(1));
+    angleLabel.setAttribute('x', obsX + 65);
+    angleLabel.setAttribute('y', obsY - 22);
+    angleLabel.textContent = 'θ ≈ ' + angleDeg + '°';
+
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

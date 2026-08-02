@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: 'Noto Sans Devanagari', Arial, sans-serif;
+  }
+  .wrap {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  h3 {
+    text-align: center;
+    color: #1a1a1a;
+    margin: 4px 0 8px;
+    font-size: 18px;
+  }
+  svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: linear-gradient(#fff7e6, #fff3d6);
+    border-radius: 8px;
+  }
+  p.formula {
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    margin: 6px 0 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h3>मीनार की ऊँचाई ज्ञात करना (Height of Tower)</h3>
+  <svg id="scene" viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Ground -->
+    <rect x="0" y="380" width="700" height="50" fill="#cdeccd"/>
+    <line x1="0" y1="380" x2="700" y2="380" stroke="#4a7a4a" stroke-width="2"/>
+
+    <!-- Tower -->
+    <rect x="500" y="80" width="55" height="300" fill="#9aa5b1" stroke="#5b6672" stroke-width="2"/>
+    <polygon points="500,80 555,80 527,50" fill="#7c8794" stroke="#5b6672" stroke-width="2"/>
+    <rect x="512" y="100" width="14" height="18" fill="#eaf6ff" stroke="#5b6672"/>
+    <rect x="533" y="100" width="14" height="18" fill="#eaf6ff" stroke="#5b6672"/>
+    <rect x="512" y="140" width="14" height="18" fill="#eaf6ff" stroke="#5b6672"/>
+    <rect x="533" y="140" width="14" height="18" fill="#eaf6ff" stroke="#5b6672"/>
+    <text x="527" y="35" text-anchor="middle" font-size="16" fill="#333">मीनार</text>
+
+    <!-- Height marker -->
+    <line x1="475" y1="80" x2="475" y2="380" stroke="#333" stroke-width="1.2"/>
+    <line x1="468" y1="80" x2="482" y2="80" stroke="#333" stroke-width="1.2"/>
+    <line x1="468" y1="380" x2="482" y2="380" stroke="#333" stroke-width="1.2"/>
+    <text x="453" y="235" text-anchor="middle" font-size="15" fill="#333" transform="rotate(-90 453 235)">ऊँचाई h</text>
+
+    <!-- Horizontal reference line from observer eye level -->
+    <line id="refLine" x1="120" y1="360" x2="500" y2="360" stroke="#888" stroke-dasharray="6,4" stroke-width="2"/>
+
+    <!-- Line of sight -->
+    <line id="sightLine" x1="120" y1="360" x2="500" y2="85" stroke="#1a73c7" stroke-width="2.5"/>
+
+    <!-- Angle arc -->
+    <path id="angleArc" d="M 160 360 A 40 40 0 0 0 145 322" fill="none" stroke="#c0392b" stroke-width="2"/>
+    <text id="angleLabel" x="168" y="345" font-size="15" fill="#c0392b">θ</text>
+
+    <!-- Distance marker -->
+    <line id="distLine" x1="120" y1="380" x2="500" y2="380" stroke="#333" stroke-width="1.2"/>
+    <text id="distLabel" x="310" y="405" text-anchor="middle" font-size="15" fill="#333">दूरी d</text>
+
+    <!-- Observer (moving figure) -->
+    <g id="observer">
+      <circle cx="0" cy="350" r="10" fill="#e07a30"/>
+      <rect x="-7" y="360" width="14" height="18" fill="#e07a30"/>
+    </g>
+    <text id="obsLabel" x="120" y="415" text-anchor="middle" font-size="14" fill="#333">प्रेक्षक</text>
+
+    <text x="350" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">जैसे-जैसे प्रेक्षक निकट आता है, उन्नयन कोण बढ़ता है</text>
+  </svg>
+  <p class="formula">tan θ = h / d — दूरी घटने पर कोण θ बढ़ता है</p>
+</div>
+
+<script>
+(function () {
+  var towerBaseX = 500, towerTopX = 500, towerTopY = 85;
+  var obsMinX = 120, obsMaxX = 420; // observer walks between these
+  var eyeY = 360;
+
+  var observer = document.getElementById('observer');
+  var refLine = document.getElementById('refLine');
+  var sightLine = document.getElementById('sightLine');
+  var angleArc = document.getElementById('angleArc');
+  var angleLabel = document.getElementById('angleLabel');
+  var distLine = document.getElementById('distLine');
+  var distLabel = document.getElementById('distLabel');
+  var obsLabel = document.getElementById('obsLabel');
+
+  var t = 0;
+
+  function frame() {
+    t += 0.006;
+    // ping-pong between 0 and 1
+    var phase = Math.abs(((t % 2) - 1));
+    var obsX = obsMinX + phase * (obsMaxX - obsMinX);
+
+    observer.setAttribute('transform', 'translate(' + obsX + ',0)');
+
+    refLine.setAttribute('x1', obsX);
+    refLine.setAttribute('y1', eyeY);
+
+    sightLine.setAttribute('x1', obsX);
+    sightLine.setAttribute('y1', eyeY);
+    sightLine.setAttribute('x2', towerTopX);
+    sightLine.setAttribute('y2', towerTopY);
+
+    distLine.setAttribute('x1', obsX);
+    distLabel.setAttribute('x', (obsX + towerBaseX) / 2);
+
+    obsLabel.setAttribute('x', obsX);
+
+    // angle calc
+    var dx = towerTopX - obsX, dy = eyeY - towerTopY;
+    var angleRad = Math.atan2(dy, dx);
+    var angleDeg = Math.round(angleRad * 180 / Math.PI);
+    var r = 40;
+    var ax = obsX + r * Math.cos(angleRad * 0.85);
+    var ay = eyeY - r * Math.sin(angleRad * 0.85);
+    angleArc.setAttribute('d', 'M ' + (obsX + r) + ' ' + eyeY + ' A ' + r + ' ' + r + ' 0 0 0 ' + ax.toFixed(1) + ' ' + ay.toFixed(1));
+    angleLabel.setAttribute('x', obsX + 48);
+    angleLabel.setAttribute('y', eyeY - 25);
+    angleLabel.textContent = 'θ ≈ ' + angleDeg + '°';
+
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

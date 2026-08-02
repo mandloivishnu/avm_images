@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    font-family: 'Noto Sans Devanagari', Arial, sans-serif;
+  }
+  .wrap {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  h3 {
+    text-align: center;
+    color: #1a1a1a;
+    margin: 4px 0 8px;
+    font-size: 18px;
+  }
+  svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: linear-gradient(#e6f4ff, #cfe9ff);
+    border-radius: 8px;
+  }
+  p.formula {
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    margin: 6px 0 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h3>जहाज़ से समुद्र तट की दूरी (Angle of Depression)</h3>
+  <svg id="scene" viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- Sea -->
+    <rect x="0" y="360" width="700" height="70" fill="#5aa9e6"/>
+    <path id="waves" d="M0,360 Q20,355 40,360 T80,360 T120,360 T160,360 T200,360 T240,360 T280,360 T320,360 T360,360 T400,360 T440,360 T480,360 T520,360 T560,360 T600,360 T640,360 T680,360 T700,360" fill="none" stroke="#3f8fd1" stroke-width="2"/>
+
+    <!-- Cliff -->
+    <polygon points="0,130 150,130 90,360 0,360" fill="#a9977c" stroke="#7a6a52" stroke-width="2"/>
+    <text x="55" y="112" text-anchor="middle" font-size="15" fill="#333">चट्टान (Cliff)</text>
+
+    <!-- Observer on cliff -->
+    <circle cx="120" cy="115" r="9" fill="#2e8b57"/>
+    <rect x="114" y="124" width="12" height="13" fill="#2e8b57"/>
+
+    <!-- Cliff height marker -->
+    <line x1="30" y1="130" x2="30" y2="360" stroke="#333" stroke-width="1.2"/>
+    <line x1="23" y1="130" x2="37" y2="130" stroke="#333" stroke-width="1.2"/>
+    <line x1="23" y1="360" x2="37" y2="360" stroke="#333" stroke-width="1.2"/>
+    <text x="10" y="250" text-anchor="middle" font-size="14" fill="#333" transform="rotate(-90 10 250)">ऊँचाई h</text>
+
+    <!-- Horizontal reference from observer -->
+    <line x1="120" y1="115" x2="640" y2="115" stroke="#888" stroke-dasharray="6,4" stroke-width="2"/>
+
+    <!-- Line of sight to ship -->
+    <line id="sightLine" x1="120" y1="115" x2="600" y2="375" stroke="#1a73c7" stroke-width="2.5"/>
+
+    <!-- Angle arc -->
+    <path id="angleArc" d="M 175 115 A 55 55 0 0 1 165 167" fill="none" stroke="#c0392b" stroke-width="2"/>
+    <text id="angleLabel" x="152" y="158" font-size="14" fill="#c0392b">θ</text>
+
+    <!-- Ship -->
+    <g id="ship">
+      <polygon points="-40,0 40,0 20,20 -20,20" fill="#e07a30" stroke="#7a3d0f" stroke-width="2"/>
+      <line x1="0" y1="0" x2="0" y2="-30" stroke="#7a3d0f" stroke-width="2"/>
+      <polygon points="0,-30 25,-17 0,-10" fill="#f2f2f2" stroke="#7a3d0f"/>
+    </g>
+    <text id="shipLabel" x="600" y="415" text-anchor="middle" font-size="14" fill="#333">जहाज़</text>
+
+    <text x="350" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">जैसे-जैसे जहाज़ तट के निकट आता है, अवनमन कोण बढ़ता है</text>
+  </svg>
+  <p class="formula">tan θ = h / d — दूरी घटने पर अवनमन कोण θ बढ़ता है</p>
+</div>
+
+<script>
+(function () {
+  var obsX = 120, obsY = 115;
+  var shipY = 380;
+  var shipMinX = 250, shipMaxX = 620;
+
+  var ship = document.getElementById('ship');
+  var sightLine = document.getElementById('sightLine');
+  var angleArc = document.getElementById('angleArc');
+  var angleLabel = document.getElementById('angleLabel');
+  var shipLabel = document.getElementById('shipLabel');
+  var waves = document.getElementById('waves');
+
+  var t = 0;
+
+  function frame() {
+    t += 0.005;
+    var phase = Math.abs((((t) % 2) - 1));
+    var shipX = shipMaxX - phase * (shipMaxX - shipMinX);
+
+    ship.setAttribute('transform', 'translate(' + shipX + ',' + shipY + ')');
+    shipLabel.setAttribute('x', shipX);
+
+    sightLine.setAttribute('x2', shipX);
+    sightLine.setAttribute('y2', shipY);
+
+    var dx = shipX - obsX, dy = shipY - obsY;
+    var angleRad = Math.atan2(dy, dx);
+    var angleDeg = Math.round(angleRad * 180 / Math.PI);
+    var r = 55;
+    var ax = obsX + r * Math.cos(angleRad * 0.85);
+    var ay = obsY + r * Math.sin(angleRad * 0.85);
+    angleArc.setAttribute('d', 'M ' + (obsX + r) + ' ' + obsY + ' A ' + r + ' ' + r + ' 0 0 1 ' + ax.toFixed(1) + ' ' + ay.toFixed(1));
+    angleLabel.setAttribute('x', obsX + 30);
+    angleLabel.setAttribute('y', obsY + 55);
+    angleLabel.textContent = 'θ ≈ ' + angleDeg + '°';
+
+    // gentle wave bob
+    var bob = Math.sin(t * 6) * 2;
+    waves.setAttribute('transform', 'translate(0,' + bob + ')');
+
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
