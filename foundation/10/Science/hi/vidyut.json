@@ -1,0 +1,130 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "विद्युत – Electricity",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - विद्युत धारा एवं ओम का नियम",
+      "definitionBean": {
+        "title": "विद्युत धारा एवं ओम का नियम (Electric Current and Ohm's Law)",
+        "definition": "आवेश के प्रवाह की दर को 'विद्युत धारा' (Electric Current) कहते हैं; तथा किसी चालक में प्रवाहित धारा उसके सिरों के बीच उत्पन्न विभवांतर के समानुपाती होती है, इसे 'ओम का नियम' कहते हैं।",
+        "explanation": "विद्युत धारा का एसआई मात्रक ऐम्पियर (A) है। ओम के नियम के अनुसार $V = IR$, जहाँ $V$ विभवांतर, $I$ विद्युत धारा और $R$ प्रतिरोध है। प्रतिरोध का मात्रक ओम ($\\Omega$) होता है।",
+        "importantPoints": [
+          "विद्युत धारा: $I = \\frac{Q}{t}$ (मात्रक: ऐम्पियर)",
+          "विभवांतर: $V = \\frac{W}{Q}$ (मात्रक: वोल्ट)",
+          "ओम का नियम: $V \\propto I$ अर्थात् $V = IR$",
+          "प्रतिरोधकता (Resistivity): चालक के पदार्थ का गुण"
+        ],
+        "highlightWords": [
+          "विद्युत धारा",
+          "ओम का नियम",
+          "प्रतिरोध",
+          "विभवांतर"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "विद्युत बल्ब का जलना",
+            "example": "बल्ब के टंगस्टन फिलामेंट का उच्च प्रतिरोध विद्युत ऊर्जा को प्रकाश और ऊष्मा में बदलता है।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.5net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/ohm_law_circuit.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - प्रतिरोधों का संयोजन एवं विद्युत शक्ति",
+      "definitionBean": {
+        "title": "प्रतिरोधों का संयोजन एवं विद्युत शक्ति (Combination of Resistors and Electric Power)",
+        "definition": "परिपथ में प्रतिरोधों को मुख्य रूप से दो प्रकार से जोड़ा जाता है - श्रेणी क्रम ($R = R_1 + R_2$) और समानांतर क्रम ($\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$); तथा कार्य करने की दर को विद्युत शक्ति कहते हैं।",
+        "explanation": "श्रेणी क्रम में कुल प्रतिरोध बढ़ता है और धारा समान रहती है, जबकि समानांतर क्रम में कुल प्रतिरोध घटता है और विभवांतर समान रहता है। विद्युत शक्ति का सूत्र $P = VI = I^2R = \\frac{V^2}{R}$ है।",
+        "importantPoints": [
+          "श्रेणी संयोजन: तुल्य प्रतिरोध $R_s = R_1 + R_2 + R_3$",
+          "समानांतर संयोजन: तुल्य प्रतिरोध $\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3}$",
+          "विद्युत शक्ति: $P = VI$ (मात्रक: वाट)",
+          "व्यापारीक मात्रक: किलोवाट-घंटा (kWh या यूनिट)"
+        ],
+        "highlightWords": [
+          "श्रेणी संयोजन",
+          "समानांतर संयोजन",
+          "विद्युत शक्ति",
+          "किलोवाट-घंटा"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "घरों में विद्युत उपकरणों का संयोजन",
+            "example": "घरों के सभी उपकरण समानांतर क्रम में जोड़े जाते हैं ताकि प्रत्येक को समान वोल्टेज मिल सके।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.5net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/resistor_combination.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: विद्युत धारा एवं ओम का नियम",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "ओम का नियम लिखिए तथा इसके सत्यापन के लिए आवश्यक विद्युत परिपथ का आरेख बनाइए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "ओम के नियम के अनुसार, यदि भौतिक अवस्थाएँ (जैसे ताप) समान रहें, तो किसी चालक तार में प्रवाहित होने वाली विद्युत धारा उसके सिरों के बीच के विभवांतर के समानुपाती होती है ($V = IR$)।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "विद्युत धारा और विभवांतर की परिभाषा लिखिए तथा इनके एसआई मात्रक बताइए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "आवेश के प्रवाह की दर को विद्युत धारा कहते हैं (मात्रक: ऐम्पियर); एकांक आवेश को एक बिंदु से दूसरे बिंदु तक लाने में किए गए कार्य को विभवांतर कहते हैं (मात्रक: वोल्ट)।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: प्रतिरोधों का संयोजन एवं शक्ति",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "प्रतिरोधों के श्रेणी क्रम संयोजन के लिए तुल्य प्रतिरोध का व्यंजक प्राप्त कीजिए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "जब दो या अधिक प्रतिरोधों को इस प्रकार जोड़ा जाए कि पहले प्रतिरोध का दूसरा सिरा दूसरे के पहले सिरे से जुड़ा हो, तो उसे श्रेणी क्रम कहते हैं। इसके लिए तुल्य प्रतिरोध $R = R_1 + R_2 + R_3$ होता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "विद्युत शक्ति (Electric Power) किसे कहते हैं? इसके विभिन्न सूत्र लिखिए तथा एसआई मात्रक बताइए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "किसी विद्युत परिपथ में ऊर्जा उपभोग की दर को विद्युत शक्ति कहते हैं। सूत्र: $P = VI = I^2R = \\frac{V^2}{R}$। इसका एसआई मात्रक 'वाट' (Watt) है।"
+          }
+        ]
+      }
+    }
+  ]
+}

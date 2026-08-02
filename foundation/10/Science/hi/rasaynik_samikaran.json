@@ -1,0 +1,189 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "रासायनिक समीकरण – Chemical Equations",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - रासायनिक समीकरण",
+      "definitionBean": {
+        "title": "रासायनिक समीकरण (Chemical Equation)",
+        "definition": "किसी रासायनिक अभिक्रिया को प्रतीकों और रासायनिक सूत्रों के माध्यम से संक्षिप्त रूप में प्रदर्शित करना 'रासायनिक समीकरण' कहलाता है।",
+        "explanation": "शब्दों के स्थान पर पदार्थों के रासायनिक प्रतीकों और सूत्रों का उपयोग करके समीकरण को अधिक संक्षिप्त और उपयोगी बनाया जाता है। इसमें अभिकारकों को बाईं ओर और उत्पादों को दाईं ओर लिखा जाता है।",
+        "importantPoints": [
+          "अभिकारकों और उत्पादों के प्रतीकों का प्रयोग",
+          "द्रव्यमान संरक्षण के नियम का पालन करने के लिए समीकरण को संतुलित करना",
+          "अभिक्रिया की भौतिक अवस्थाओं को दर्शाना"
+        ],
+        "highlightWords": [
+          "रासायनिक समीकरण",
+          "प्रतीक",
+          "सूत्र",
+          "संतुलित"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "हाइड्रोजन और ऑक्सीजन का जल बनाना",
+            "example": "$\\text{2H}_2 + \\text{O}_2 \\rightarrow \\text{2H}_2\\text{O}$",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/jal_nirman.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - शब्द समीकरण और रासायनिक सूत्र",
+      "definitionBean": {
+        "title": "शब्द समीकरण एवं रासायनिक सूत्र",
+        "definition": "जब किसी रासायनिक अभिक्रिया को पदार्थों के शब्दों (नालों) के रूप में लिखा जाता है, तो वह शब्द समीकरण होता है, और रासायनिक सूत्रों द्वारा निरूपित करना रासायनिक सूत्र कहलाता है।",
+        "explanation": "शब्द समीकरण अभिक्रिया को समझने का प्रारंभिक चरण है। रासायनिक सूत्र किसी यौगिक के संघटन को उसके तत्वों के प्रतीकों द्वारा दर्शाते हैं।",
+        "importantPoints": [
+          "शब्द समीकरण: अभिकारकों और उत्पादों के नाम लिखना",
+          "रासायनिक सूत्र: तत्वों के प्रतीकों और संयोजकता पर आधारित संकेत",
+          "प्रतीकात्मक निरूपण अधिक वैज्ञानिक और संक्षिप्त होता है"
+        ],
+        "highlightWords": [
+          "शब्द समीकरण",
+          "रासायनिक सूत्र",
+          "प्रतीक",
+          "संयोजकता"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "मैग्नीशियम का ऑक्सीजन से जलना",
+            "example": "मैग्नीशियम + ऑक्सीजन $\\rightarrow$ मैग्नीशियम ऑक्साइड",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/magnesium_shabd.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - रासायनिक समीकरण लिखना और अवस्था चिन्ह",
+      "definitionBean": {
+        "title": "रासायनिक समीकरण लिखना एवं अवस्था चिन्ह",
+        "definition": "रासायनिक समीकरण को अधिक सूचनाप्रद बनाने के लिए अभिकारकों और उत्पादों के साथ उनकी भौतिक अवस्थाओं के संकेत (चिन्ह) लिखे जाते हैं।",
+        "explanation": "ठोस के लिए (s), द्रव के लिए (l), गैस के लिए (g), और जलीय विलयन के लिए (aq) चिन्हों का उपयोग किया जाता है।",
+        "importantPoints": [
+          "(s) = ठोस अवस्था (Solid)",
+          "(l) = द्रव अवस्था (Liquid)",
+          "(g) = गैसीय अवस्था (Gas)",
+          "(aq) = जलीय विलयन (Aqueous)"
+        ],
+        "highlightWords": [
+          "अवस्था चिन्ह",
+          "ठोस",
+          "द्रव",
+          "गैस",
+          "जलीय"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "लोहे की भाप के साथ क्रिया",
+            "example": "$\\text{3Fe(s)} + \\text{4H}_2\\text{O(g)} \\rightarrow \\text{Fe}_3\\text{O}_4\\text{(s)} + \\text{4H}_2\\text{(g)}$",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/loha_bhaap.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: रासायनिक समीकरण एवं शब्द समीकरण",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "रासायनिक समीकरण से क्या तात्पर्य है? शब्द समीकरण की तुलना में यह क्यों अधिक उपयोगी है?",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "रासायनिक समीकरण किसी रासायनिक अभिक्रिया को प्रतीकों और सूत्रों के रूप में संक्षिप्त प्रदर्शन है। यह शब्द समीकरण की तुलना में अधिक उपयोगी है क्योंकि यह अंतरिक्ष बचाता है, सार्वभौमिक रूप से समझा जाता है और इसमें अभिकारकों व उत्पादों की सटीक मात्रा या संख्या का पता चलता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "शब्द समीकरण क्या है? उदाहरण देकर समझाइए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "जब किसी रासायनिक अभिक्रिया को उसमें भाग लेने वाले पदार्थों के शब्दों के रूप में व्यक्त किया जाता है, तो उसे शब्द समीकरण कहते हैं। उदाहरण के लिए: जिंक + सल्फ्यूरिक अम्ल $\\rightarrow$ जिंक सल्फेट + हाइड्रोजन।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: रासायनिक समीकरण लिखना और रासायनिक सूत्र",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "रासायनिक समीकरण लिखने के मुख्य चरण कौन-कौन से हैं? संक्षेप में लिखिए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "रासायनिक समीकरण लिखने के चरण: 1. अभिकारकों को बाईं ओर लिखकर उनके बीच (+) का चिन्ह लगाना। 2. उत्पादों को दाईं ओर लिखकर उनके बीच (+) का चिन्ह लगाना। 3. अभिकारकों और उत्पादों के बीच तीर का निशान ($\\rightarrow$) लगाना जो अभिक्रिया की दिशा को बताता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "रासायनिक सूत्र का क्या महत्व है? स्पष्ट कीजिए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "रासायनिक सूत्र किसी यौगिक के एक अणु में उपस्थित विभिन्न तत्वों के परमाणु की संख्या और उनके प्रतीकों की सटीक जानकारी देता है, जिससे रासायनिक समीकरण लिखना और समझना आसान हो जाता है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: अवस्था चिन्ह (Physical State Symbols)",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "रासायनिक समीकरण में भौतिक अवस्थाओं को दर्शाने वाले चिन्हों (s, l, g, aq) का क्या अर्थ है? उदाहरण सहित समझाइए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "रासायनिक समीकरण को अधिक सूचनाप्रद बनाने के लिए भौतिक अवस्थाएँ जोड़ी जाती हैं: (s) ठोस के लिए, (l) द्रव के लिए, (g) गैस के लिए, तथा (aq) जलीय विलयन के लिए प्रयोग किया जाता है। जैसे: $\\text{CaO(s)} + \\text{H}_2\\text{O(l)} \\rightarrow \\text{Ca(OH)}_2\\text{(aq)}$"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "यदि किसी रासायनिक अभिक्रिया में गैस निकलती है या अवक्षेप बनता है, तो समीकरण में उसे कैसे प्रदर्शित किया जाता है?",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "गैस निकलने की स्थिति में गैस के सूत्र के आगे ऊपर की ओर तीर का चिन्ह ($uparrow$) या (g) लिखा जाता है, तथा अवक्षेप बनने की स्थिति में नीचे की ओर तीर का चिन्ह ($downarrow$) या (s) लिखा जाता है।"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "धातुओं के रासायनिक गुण एवं क्रियाशीलता श्रेणी – Chemical Properties of Metals and Reactivity Series",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - धातुओं के रासायनिक गुण",
+      "definitionBean": {
+        "title": "धातुओं के रासायनिक गुण (Chemical Properties of Metals)",
+        "definition": "धातुएँ ऑक्सीजन से अभिक्रिया कर बेसिक ऑक्साइड बनाती हैं, जल के साथ क्रिया कर हाइड्रोजन गैस मुक्त करती हैं, और तनु अम्लों के साथ क्रिया करके लवण व हाइड्रोजन देती हैं।",
+        "explanation": "रासायनिक रूप से धातुएँ धनावेशित आयन (इलेक्ट्रॉन त्यागकर धनायन बनाने की प्रवृत्ति) रखती हैं। इनकी अभिक्रियाशीलता इनकी सक्रियता पर निर्भर करती है।",
+        "importantPoints": [
+          "ऑक्सीजन से क्रिया: धातु $+$ ऑक्सीजन $\\rightarrow$ धातु ऑक्साइड (क्षारीय)",
+          "जल से क्रिया: धातु $+$ जल $\\rightarrow$ धातु ऑक्साइड/हाइड्रॉक्साइड $+$ हाइड्रोजन",
+          "अम्ल से क्रिया: धातु $+$ तनु अम्ल $\\rightarrow$ लवण $+$ हाइड्रोजन गैस"
+        ],
+        "highlightWords": [
+          "ऑक्सीजन से अभिक्रिया",
+          "जल से अभिक्रिया",
+          "अम्ल से अभिक्रिया"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "मैग्नीशियम रिबन का दहन",
+            "example": "$2\\text{Mg} + \\text{O}_2 \\rightarrow 2\\text{MgO}$ (सफेद राख बनना)",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/metal_oxygen.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - क्रियाशीलता श्रेणी",
+      "definitionBean": {
+        "title": "सक्रियता या क्रियाशीलता श्रेणी (Reactivity Series)",
+        "definition": "धातुओं को उनकी अभिक्रियाशीलता के घटते हुए क्रम में व्यवस्थित करने वाली सूची को 'क्रियाशीलता श्रेणी' कहते हैं।",
+        "explanation": "इस श्रेणी में सबसे अधिक सक्रिय धातुएँ सबसे ऊपर (जैसे पोटैशियम K, सोडियम Na) और सबसे कम सक्रिय धातुएँ सबसे नीचे (जैसे सोना Au, चांदी Ag) होती हैं।",
+        "importantPoints": [
+          "अधिक सक्रिय धातु कम सक्रिय धातु को उसके यौगिक से विस्थापित करती है",
+          "हाइड्रोजन से ऊपर की धातुएँ तनु अम्लों से हाइड्रोजन विस्थापित करती हैं",
+          "पोटैशियम (K) सबसे अधिक और प्लेटिनम (Pt) सबसे कम सक्रिय है"
+        ],
+        "highlightWords": [
+          "क्रियाशीलता श्रेणी",
+          "अधिक सक्रिय",
+          "विस्थापन"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "लोहे की कॉपर सल्फेट से क्रिया",
+            "example": "$\\text{Fe} + \\text{CuSO}_4 \\rightarrow \\text{FeSO}_4 + \\text{Cu}$ (लोहा कॉपर से अधिक सक्रिय है)",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/reactivity_series.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: धातुओं के रासायनिक गुण एवं निष्कर्षण",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "धातुओं की ऑक्सीजन और जल के साथ अभिक्रिया को समीकरण सहित समझाइए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "धातुएँ ऑक्सीजन से संयोग कर धातु ऑक्साइड बनाती हैं (जैसे $2\\text{Cu} + \\text{O}_2 \\rightarrow 2\\text{CuO}$)। जल के साथ क्रिया करके कुछ धातुएँ हाइड्रोजन गैस और हाइड्रॉक्साइड बनाती हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "खनिज और अयस्क में क्या अंतर है? धातुकर्म को परिभाषित कीजिए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "पृथ्वी की भूपर्पटी में प्राकृतिक रूप से पाए जाने वाले तत्व या यौगिक 'खनिज' कहलाते हैं; जिन खनिजों से धातु को आसानी से और कम खर्च में प्राप्त किया जा सके, उन्हें 'अयस्क' कहते हैं। अयस्कों से शुद्ध धातु प्राप्त करने की प्रक्रिया 'धातुकर्म' कहलाती है।"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "रासायनिक अभिक्रियाओं के प्रकार – Types of Chemical Reactions",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - संयोजन अभिक्रिया",
+      "definitionBean": {
+        "title": "संयोजन अभिक्रिया (Combination Reaction)",
+        "definition": "वह रासायनिक अभिक्रिया जिसमें दो या दो से अधिक अभिकारक मिलकर केवल एक उत्पाद का निर्माण करते हैं, संयोजन अभिक्रिया कहलाती है।",
+        "explanation": "इस प्रकार की अभिक्रिया में पदार्थों का आपस में जुड़कर एक एकल उत्पाद बनना मुख्य विशेषता है। इसे अक्सर ऊष्माक्षेपी अभिक्रिया भी माना जाता है क्योंकि इसमें ऊर्जा निकलती है।",
+        "importantPoints": [
+          "दो या दो से अधिक अभिकारक मिलकर एक उत्पाद बनाते हैं",
+          "सामान्य रूप: $A + B \\rightarrow C$",
+          "अधिकतर संयोजन अभिक्रियाएँ ऊष्माक्षेपी होती हैं"
+        ],
+        "highlightWords": [
+          "संयोजन अभिक्रिया",
+          "एक उत्पाद",
+          "ऊष्माक्षेपी"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "कली चूने की पानी से क्रिया",
+            "example": "$\\text{CaO(s)} + \\text{H}_2\\text{O(l)} \\rightarrow \\text{Ca(OH)}_2\\text{(aq)}$",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/sanyojan_abhikriya.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - अपघटन अभिक्रिया",
+      "definitionBean": {
+        "title": "अपघटन या वियोजन अभिक्रिया (Decomposition Reaction)",
+        "definition": "वह अभिक्रिया जिसमें एक एकल अभिकारक टूटकर दो या दो से अधिक सरल उत्पाद प्रदान करता है, अपघटन अभिक्रिया कहलाती है।",
+        "explanation": "यह संयोजन अभिक्रिया के बिल्कुल विपरीत होती है। इसमें अभिकारकों को तोड़ने के लिए ऊष्मा, प्रकाश या विद्युत ऊर्जा की आवश्यकता होती है (ऊष्माशोषी)।",
+        "importantPoints": [
+          "एक अभिकारक टूटकर दो या अधिक उत्पाद बनाता है",
+          "ऊर्जा (ऊष्मा/प्रकाश/विद्युत) की आवश्यकता होती है",
+          "सामान्य रूप: $A \\rightarrow B + C$"
+        ],
+        "highlightWords": [
+          "अपघटन अभिक्रिया",
+          "वियोजन",
+          "ऊर्जा"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "फेरस सल्फेट का तापन",
+            "example": "$\\text{2FeSO}_4 \\xrightarrow{\\text{Heat}} \\text{Fe}_2\\text{O}_3 + \\text{SO}_2 + \\text{SO}_3$",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/apghatan_abhikriya.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - विस्थापन और द्विविस्थापन अभिक्रिया",
+      "definitionBean": {
+        "title": "विस्थापन एवं द्विविस्थापन अभिक्रिया",
+        "definition": "वह अभिक्रिया जिसमें अधिक सक्रिय तत्व, कम सक्रिय तत्व को उसके यौगिक से विस्थापित कर देता है, विस्थापन कहलाती है; तथा आयनों का आदान-प्रदान द्विविस्थापन कहलाती है।",
+        "explanation": "विस्थापन में एक तत्व दूसरे का स्थान लेता है, जबकि द्विविस्थापन में दो यौगिकों के बीच आयनों की अदला-बदली होती है जिससे नए यौगिक बनते हैं।",
+        "importantPoints": [
+          "विस्थापन: अधिक सक्रिय तत्व द्वारा कम सक्रिय तत्व को हटाना",
+          "द्विविस्थापन: अभिकारकों के बीच आयनों का आदान-प्रदान",
+          "द्विविस्थापन अभिक्रिया में अक्सर अवक्षेप बनता है"
+        ],
+        "highlightWords": [
+          "विस्थापन",
+          "द्विविस्थापन",
+          "आयनों का आदान-प्रदान"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "लोहे की कॉपर सल्फेट से क्रिया",
+            "example": "$\\text{Fe} + \\text{CuSO}_4 \\rightarrow \\text{FeSO}_4 + \\text{Cu}$",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/visthapan_abhikriya.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: संयोजन अभिक्रिया एवं अपघटन अभिक्रिया",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "संयोजन अभिक्रिया किसे कहते हैं? उदाहरण देकर समझाइए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "वह रासायनिक अभिक्रिया जिसमें दो या दो से अधिक पदार्थ (अभिकारक) मिलकर केवल एक नया पदार्थ (उत्पाद) बनाते हैं, संयोजन अभिक्रिया कहलाती है। उदाहरण: कोयले का दहन - $\\text{C(s)} + \\text{O}_2\\text{(g)} \\rightarrow \\text{CO}_2\\text{(g)}$।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "अपघटन (वियोजन) अभिक्रिया संयोजन अभिक्रिया के विपरीत क्यों मानी जाती है? एक उदाहरण दीजिए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "संयोजन अभिक्रिया में दो या दो से अधिक अभिकारक मिलकर एक उत्पाद बनाते हैं, जबकि अपघटन अभिक्रिया में एक एकल अभिकारक टूटकर दो या अधिक उत्पाद बनाता है। उदाहरण: कैथोड पर जल का विद्युत अपघटन।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: विस्थापन अभिक्रिया",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "विस्थापन अभिक्रिया क्या है? लोहे की कील और कॉपर सल्फेट विलयन के प्रयोग द्वारा इसे समझाइए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "जब अधिक सक्रिय तत्व किसी कम सक्रिय तत्व को उसके यौगिक के विलयन से हटा देता है, तो उसे विस्थापन अभिक्रिया कहते हैं। जब लोहे की कील को कॉपर सल्फेट के नीले विलयन में डुबोते हैं, तो लोहा कॉपर को विस्थापित कर फेरस सल्फेट बनाता है और विलयन का रंग हरा हो जाता है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "क्या जिंक, कॉपर सल्फेट के विलयन से कॉपर को विस्थापित कर सकता है? कारण लिखिए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "हाँ, जिंक कॉपर सल्फेट के विलयन से कॉपर को विस्थापित कर सकता है क्योंकि जिंक, कॉपर की तुलना में अधिक अभिक्रियाशील (सक्रिय) धातु है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: द्विविस्थापन अभिक्रिया",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "द्विविस्थापन अभिक्रिया से क्या आशय है? एक उपयुक्त समीकरण लिखिए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "वे अभिक्रियाएँ जिनमें अभिकारकों के बीच आयनों का आदान-प्रदान होता है, द्विविस्थापन अभिक्रिया कहलाती हैं। उदाहरण: $\\text{Na}_2\\text{SO}_4\\text{(aq)} + \\text{BaCl}_2\\text{(aq)} \\rightarrow \\text{BaSO}_4\\text{(s)} + \\text{2NaCl(aq)}$।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "द्विविस्थापन अभिक्रियाओं में अवक्षेपण अभिक्रिया किसे कहा जाता है? स्पष्ट कीजिए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "ऐसी द्विविस्थापन अभिक्रिया जिसमें किसी अघुलनशील ठोस (अवक्षेप) का निर्माण होता है, उसे अवक्षेपण अभिक्रिया भी कहते हैं; जैसे बेरियम सल्फेट का सफेद अवक्षेप बनना।"
+          }
+        ]
+      }
+    }
+  ]
+}

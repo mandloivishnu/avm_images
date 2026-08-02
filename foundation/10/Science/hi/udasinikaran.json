@@ -1,0 +1,100 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "उदासीनीकरण अभिक्रिया एवं महत्वपूर्ण लवण – Neutralization and Important Salts",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - उदासीनीकरण अभिक्रिया",
+      "definitionBean": {
+        "title": "उदासीनीकरण अभिक्रिया (Neutralization Reaction)",
+        "definition": "जब किसी अम्ल और किसी क्षार की आपस में अभिक्रिया कराई जाती है, तो वे एक-दूसरे के प्रभाव को समाप्त करके लवण और जल का निर्माण करते हैं, इस प्रक्रिया को 'उदासीनीकरण अभिक्रिया' कहते हैं।",
+        "explanation": "इस अभिक्रिया में अम्ल का $\\text{H}^+$ आयन और क्षार का $\\text{OH}^-$ आयन मिलकर जल ($\\text{H}_2\\text{O}$) बनाते हैं। यह एक ऊष्माक्षेपी अभिक्रिया है जिसमें ऊर्जा निकलती है।",
+        "importantPoints": [
+          "अम्ल $+$ क्षार $\\rightarrow$ लवण $+$ जल",
+          "उदासीन उत्पाद (लवण और जल) बनते हैं",
+          "अभिक्रिया में ऊष्मा उत्पन्न होती है"
+        ],
+        "highlightWords": [
+          "उदासीनीकरण",
+          "लवण और जल",
+          "अम्ल और क्षार"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "NaOH और HCl की अभिक्रिया",
+            "example": "$\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/neutralization_example.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - महत्वपूर्ण लवण",
+      "definitionBean": {
+        "title": "महत्वपूर्ण लवण (Important Salts)",
+        "definition": "साधारण नमक ($\\text{NaCl}$) से विभिन्न उपयोगी रसायन जैसे बेकिंग सोडा, वाशिंग सोडा, ब्लीचिंग पाउडर और प्लास्टर ऑफ पेरिस प्राप्त किए जाते हैं।",
+        "explanation": "इन लवणों का उपयोग हमारे दैनिक जीवन, उद्योगों और चिकित्सा क्षेत्र में बड़े पैमाने पर किया जाता है।",
+        "importantPoints": [
+          "बेकिंग सोडा: $\\text{NaHCO}_3$ (खाने का सोडा)",
+          "वाशिंग सोडा: $\\text{Na}_2\\text{CO}_3 \\cdot 10\\text{H}_2\\text{O}$ (धोने का सोडा)",
+          "ब्लीचिंग पाउडर: $\\text{CaOCl}_2$ (विरंजक चूर्ण)",
+          "प्लास्टर ऑफ पेरिस: $\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$"
+        ],
+        "highlightWords": [
+          "बेकिंग सोडा",
+          "वाशिंग सोडा",
+          "ब्लीचिंग पाउडर",
+          "प्लास्टर ऑफ पेरिस"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "हड्डियों के टूटने पर प्लास्टर",
+            "example": "डॉक्टर टूटी हुई हड्डियों को सही स्थिति में रखने के लिए प्लास्टर ऑफ पेरिस का उपयोग करते हैं।",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/pop_example.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: उदासीनीकरण एवं महत्वपूर्ण लवण",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "उदासीनीकरण अभिक्रिया किसे कहते हैं? एक उदाहरण दीजिए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "जब अम्ल और क्षार आपस में क्रिया करके लवण और जल बनाते हैं, तो उसे उदासीनीकरण अभिक्रिया कहते हैं। उदाहरण: $\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "बेकिंग सोडा और प्लास्टर ऑफ पेरिस के रासायनिक नाम एवं सूत्र लिखिए।",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "बेकिंग सोडा: सोडियम हाइड्रोजन कार्बोनेट ($\\text{NaHCO}_3$); प्लास्टर ऑफ पेरिस: कैसियम सल्फेट अर्द्धहाइड्रेट ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)।"
+          }
+        ]
+      }
+    }
+  ]
+}

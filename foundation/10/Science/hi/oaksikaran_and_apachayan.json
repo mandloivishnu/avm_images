@@ -1,0 +1,156 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "ऑक्सीकरण एवं अपचयन – Oxidation and Reduction",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - ऑक्सीकरण",
+      "definitionBean": {
+        "title": "ऑक्सीकरण (Oxidation)",
+        "definition": "किसी पदार्थ में ऑक्सीजन की वृद्धि या हाइड्रोजन का ह्रास (कमी) होना 'ऑक्सीकरण' कहलाता है। इसमें इलेक्ट्रॉन का त्याग भी होता है।",
+        "explanation": "रासायनिक अभिक्रियाओं में जब किसी तत्व या यौगिक के साथ ऑक्सीजन जुड़ती है या उससे हाइड्रोजन निकलती है, तो उसे ऑक्सीकरण प्रक्रिया कहा जाता है।",
+        "importantPoints": [
+          "ऑक्सीजन का जुड़ना (Addition of Oxygen)",
+          "हाइड्रोजन का निकलना (Removal of Hydrogen)",
+          "इलेक्ट्रॉनों का त्याग (Loss of Electrons)"
+        ],
+        "highlightWords": [
+          "ऑक्सीकरण",
+          "ऑक्सीजन की वृद्धि",
+          "हाइड्रोजन का ह्रास"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "कॉपर चूर्ण का ऑक्सीकरण",
+            "example": "$\\text{2Cu} + \\text{O}_2 \\xrightarrow{\\text{Heat}} \\text{2CuO}$ (कॉपर ऑक्साइड का काला रंग)",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/oxidation_example.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - अपचयन",
+      "definitionBean": {
+        "title": "अपचयन (Reduction)",
+        "definition": "किसी पदार्थ में हाइड्रोजन की वृद्धि या ऑक्सीजन का ह्रास (कमी) होना 'अपचयन' कहलाता है। इसमें इलेक्ट्रॉन ग्रहण किए जाते हैं।",
+        "explanation": "अपचयन प्रक्रिया ऑक्सीकरण के बिल्कुल विपरीत होती है। इसमें या तो हाइड्रोजन जुड़ती है या ऑक्सीजन का निष्कासन होता है।",
+        "importantPoints": [
+          "हाइड्रोजन का जुड़ना (Addition of Hydrogen)",
+          "ऑक्सीजन का निकलना (Removal of Oxygen)",
+          "इलेक्ट्रॉनों को ग्रहण करना (Gain of Electrons)"
+        ],
+        "highlightWords": [
+          "अपचयन",
+          "हाइड्रोजन की वृद्धि",
+          "ऑक्सीजन का ह्रास"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "कॉपर ऑक्साइड पर हाइड्रोजन गैस प्रवाहित करना",
+            "example": "$\\text{CuO} + \\text{H}_2 \\rightarrow \\text{Cu} + \\text{H}_2\\text{O}$",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/reduction_example.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision) - ऑक्सीकारक एवं अपचायक",
+      "definitionBean": {
+        "title": "ऑक्सीकारक एवं अपचायक (Oxidizing and Reducing Agents)",
+        "definition": "जो पदार्थ अन्य पदार्थों का ऑक्सीकरण करते हैं और स्वयं अपचयित होते हैं, वे 'ऑक्सीकारक' कहलाते हैं; तथा जो दूसरों का अपचयन करते हैं, वे 'अपचायक' होते हैं।",
+        "explanation": "रेडॉक्स अभिक्रियाओं (Redox Reactions) में ऑक्सीकारक और अपचायक दोनों साथ-साथ कार्य करते हैं। ऑक्सीकारक इलेक्ट्रॉन ग्रहण करता है जबकि अपचायक इलेक्ट्रॉन त्यागता है।",
+        "importantPoints": [
+          "ऑक्सीकारक (Oxidizing Agent): जो ऑक्सीजन देता है या इलेक्ट्रॉन ग्रहण करता है",
+          "अपचायक (Reducing Agent): जो हाइड्रोजन देता है या इलेक्ट्रॉन त्यागता है",
+          "रेडॉक्स अभिक्रिया: जिसमें ऑक्सीकरण और अपचयन दोनों एक साथ होते हैं"
+        ],
+        "highlightWords": [
+          "ऑक्सीकारक",
+          "अपचायक",
+          "रेडॉक्स अभिक्रिया"
+        ],
+        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "realLifeExamples": [
+          {
+            "title": "जिंक ऑक्साइड का कार्बन द्वारा अपचयन",
+            "example": "$\\text{ZnO} + \\text{C} \\rightarrow \\text{Zn} + \\text{CO}$ (यहाँ C अपचायक है)",
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/redox_example.html"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: ऑक्सीकरण एवं अपचयन",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "ऑक्सीकरण को परिभाषित कीजिए। एक उपयुक्त रासायनिक समीकरण देकर समझाइए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "वह रासायनिक प्रक्रिया जिसमें किसी पदार्थ में ऑक्सीजन की वृद्धि या हाइड्रोजन का ह्रास होता है, ऑक्सीकरण कहलाती है। उदाहरण: जब कॉपर चूर्ण को गर्म किया जाता है, तो उस पर ऑक्सीजन की परत चढ़ जाने से कॉपर ऑक्साइड बनता है: $\\text{2Cu} + \\text{O}_2 \\rightarrow \\text{2CuO}$।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "अपचयन किसे कहते हैं? ऑक्सीकरण से यह किस प्रकार भिन्न है?",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "अपचयन वह प्रक्रिया है जिसमें किसी पदार्थ में हाइड्रोजन की वृद्धि या ऑक्सीजन का ह्रास होता है। यह ऑक्सीकरण के विपरीत है क्योंकि ऑक्सीकरण में ऑक्सीजन जुड़ती है जबकि अपचयन में ऑक्सीजन निकलती है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "विषय: ऑक्सीकारक एवं अपचायक",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "ऑक्सीकारक और अपचायक में अंतर स्पष्ट कीजिए।",
+          "correct_answer": "",
+          "imgUrl": "",
+          "explanation": "जो पदार्थ रासायनिक अभिक्रिया में दूसरे पदार्थ को ऑक्सीजन प्रदान करता है या उसका ऑक्सीकरण करता है और स्वयं अपचयित होता है, उसे 'ऑक्सीकारक' कहते हैं। इसके विपरीत, जो पदार्थ दूसरे का अपचयन करता है (हाइड्रोजन देता है) उसे 'अपचायक' कहते हैं।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "निम्नलिखित समीकरण में ऑक्सीकृत होने वाले और अपचयित होने वाले पदार्थ को पहचानिए:\n$\\text{CuO} + \\text{H}_2 \\rightarrow \\text{Cu} + \\text{H}_2\\text{O}$",
+            "correct_answer": "",
+            "imgUrl": "",
+            "explanation": "इस अभिक्रिया में हाइड्रोजन ($\\text{H}_2$) का ऑक्सीकरण होकर जल ($\\text{H}_2\\text{O}$) बनता है, तथा कॉपर ऑक्साइड ($\\text{CuO}$) का अपचयन होकर कॉपर ($\\text{Cu}$) बनता है।"
+          }
+        ]
+      }
+    }
+  ]
+}
