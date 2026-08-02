@@ -32,17 +32,20 @@
           {
             "title": "मीनार की ऊँचाई मापना",
             "example": "किसी मीनार के आधार से एक निश्चित दूरी पर खड़े होकर उन्नयन कोण मापकर उसकी ऊँचाई ज्ञात की जाती है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/Maths/images/minar_uchai.svg"
           },
           {
             "title": "जहाज़ से समुद्र तट की दूरी",
             "example": "जहाज़ के डेक से समुद्र तट पर किसी वस्तु का अवनमन कोण मापकर दूरी ज्ञात की जाती है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "svgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/Maths/images/jahaj_samudra_tat.svg"
           },
           {
             "title": "हवाई जहाज़ की ऊँचाई",
             "example": "ज़मीन से हवाई जहाज़ का उन्नयन कोण मापकर उसकी उड़ान ऊँचाई का अनुमान लगाया जाता है।",
-            "jsonAnimationUrl": "PLACEHOLDER_LOTTIE_ANIMATION_URL_REPLACE_ME"
+            "jsonAnimationUrl": "PLACEHOLDER_LOTTIE_ANIMATION_URL_REPLACE_ME",
+            "svgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/Maths/images/minar_uchai.svg"
           }
         ]
       }
