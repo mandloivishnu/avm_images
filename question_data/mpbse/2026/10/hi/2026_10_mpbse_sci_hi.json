@@ -720,6 +720,8 @@
           "q_id": "",
           "statement": "मानव पाचन तंत्र का नामांकित चित्र बनाइए तथा छोटी आँत के दो कार्य लिखिए।",
           "correct_answer": "",
+             "isAnswerImage":true,
+            "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_pachan_tantra.png",
           "explanation": "उत्तर में मानव पाचन तंत्र का स्वच्छ एवं नामांकित चित्र बनाइए।\n\nछोटी आँत के कार्य:\n1. भोजन का पूर्ण पाचन अग्न्याशयी रस, पित्त रस तथा आंत्र रस की सहायता से होता है।\n2. पचे हुए भोजन का अवशोषण आँत की दीवार पर उपस्थित रसांकुर (Villi) द्वारा किया जाता है।"
         }
       ],
@@ -730,6 +732,8 @@
             "q_id": "",
             "statement": "मानव हृदय का नामांकित चित्र बनाइए तथा इसके दो कार्य लिखिए।",
             "correct_answer": "",
+              "isAnswerImage":true,
+            "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/hraday.png",
             "explanation": "उत्तर में मानव हृदय का स्वच्छ एवं नामांकित चित्र बनाइए।\n\nहृदय के कार्य:\n1. शरीर के विभिन्न भागों में ऑक्सीजन युक्त रक्त पंप करता है।\n2. शरीर से प्राप्त अशुद्ध रक्त को फेफड़ों तक भेजता है, जहाँ उसका शुद्धीकरण होता है।"
           }
         ]
