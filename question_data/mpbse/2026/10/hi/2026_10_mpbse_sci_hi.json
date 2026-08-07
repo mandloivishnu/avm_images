@@ -808,6 +808,7 @@
             "q_id": "",
             "statement": "घरेलू विद्युत परिपथ का नामांकित चित्र बनाइए तथा फ्यूज का कार्य लिखिए।",
             "correct_answer": "",
+            "isAnswerImage": true
             "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/vidhyut_chitran.png",
             "explanation": "उत्तर में घरेलू विद्युत परिपथ का स्वच्छ एवं नामांकित चित्र बनाइए।\n\nफ्यूज का कार्य:\nजब परिपथ में आवश्यकता से अधिक विद्युत धारा प्रवाहित होती है तब फ्यूज तार पिघलकर परिपथ को तोड़ देता है तथा विद्युत उपकरणों को क्षति से बचाता है।"
           }
