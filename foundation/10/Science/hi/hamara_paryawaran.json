@@ -28,14 +28,7 @@
           "जैव आवर्धन"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "घास $\\rightarrow$ टिड्डा $\\rightarrow$ मेंढक $\\rightarrow$ साँप",
-            "example": "यह एक प्राकृतिक खाद्य श्रृंखला है जिसमें ऊर्जा का प्रवाह उत्पादक से मांसाहारी जीवों की ओर होता है.",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.5net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/food_chain_example.html"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
@@ -60,27 +53,20 @@
           "अजैव निम्नीकरणीय"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "प्लास्टिक थैलियों का कचरा",
-            "example": "प्लास्टिक अजैव निम्नीकरणीय होने के कारण वर्षों तक पर्यावरण में बना रहता है और प्रदूषण फैलाता है.",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.5net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/plastic_waste_example.html"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "3",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: पारितंत्र एवं खाद्य श्रृंखला",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "3_a",
           "statement": "पारितंत्र किसे कहते हैं? एक कृत्रिम पारितंत्र का उदाहरण दीजिए।",
-          "correct_answer": "",
+          "correct_answer": "जीव और अजैविक घटकों का तंत्र पारितंत्र है; उदाहरण: एक्वेरियम।",
           "imgUrl": "",
           "explanation": "किसी क्षेत्र के सभी जीव और अजैविक घटक मिलकर एक पारितंत्र बनाते हैं। एक्वेरियम (Aquarium) या बगीचा एक कृत्रिम पारितंत्र का उदाहरण है।"
         }
@@ -89,9 +75,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "3_b",
             "statement": "खाद्य श्रृंखला और खाद्य जाल (Food Web) में क्या अंतर है? ऊर्जा का प्रवाह एकदिशीय क्यों होता है?",
-            "correct_answer": "",
+            "correct_answer": "खाद्य श्रृंखला सीधी होती है जबकि खाद्य जाल जटिल संजाल है।",
             "imgUrl": "",
             "explanation": "खाद्य श्रृंखला सीधी रेखा में जीवों का क्रम है, जबकि खाद्य जाल कई खाद्य श्रृंखलाओं का आपस में जटिल संजाल होता है। ऊर्जा का प्रवाह एकदिशीय होता है क्योंकि एक स्तर से दूसरे स्तर पर जाने वाली ऊर्जा वापस नहीं लौटती और ऊष्मा के रूप में नष्ट हो जाती है।"
           }
@@ -99,16 +85,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: ओजोन परत एवं अपशिष्ट प्रबंधन",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "4_a",
           "statement": "ओजोन परत क्या है? यह हमारे लिए क्यों महत्वपूर्ण है? इसके क्षरण का मुख्य कारण लिखिए।",
-          "correct_answer": "",
+          "correct_answer": "ओजोन UV किरणों से बचाती है; क्षरण का कारण CFC गैस है।",
           "imgUrl": "",
           "explanation": "ओजोन ($\\text{O}_3$) ऑक्सीजन के तीन परमाणुओं से बनी एक परत है जो समताप मंडल में पाई जाती है। यह सूर्य से आने वाली हानिकारक पराबैंगनी (UV) किरणों को पृथ्वी पर आने से रोकती है, जिससे त्वचा कैंसर जैसे रोग नहीं होते। इसके क्षरण का मुख्य कारण रेफ्रिजरेटर और एसी में प्रयुक्त सीएफसी (CFC) गैस है।"
         }
@@ -117,9 +103,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "4_b",
             "statement": "जैव निम्नीकरणीय और अजैव निम्नीकरणीय पदार्थों में अंतर लिखिए। प्रत्येक का एक उदाहरण दीजिए।",
-            "correct_answer": "",
+            "correct_answer": "जैव निम्नीकरणीय (छिलके), अजैव निम्नीकरणीय (प्लास्टिक)।",
             "imgUrl": "",
             "explanation": "जैव निम्नीकरणीय पदार्थ सूक्ष्मजीवों द्वारा सरल पदार्थों में अपघटित हो जाते हैं (जैसे सब्जियों के छिलके); जबकि अजैव निम्नीकरणीय पदार्थ प्राकृतिक रूप से अपघटित नहीं होते और पर्यावरण में लंबे समय तक बने रहते हैं (जैसे प्लास्टिक)।"
           }
