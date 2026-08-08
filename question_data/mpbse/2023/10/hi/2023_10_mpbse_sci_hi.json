@@ -842,6 +842,8 @@
           "q_id": "",
           "statement": "वर्ण विक्षेपण किसे कहते हैं? चित्र द्वारा समझाइए।",
           "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/varn_vipekchan_19a.png",
           "explanation": "श्वेत प्रकाश जब किसी प्रिज्म से होकर गुजरता है तो वह अपने विभिन्न रंगों में विभाजित हो जाता है। इस घटना को वर्ण विक्षेपण कहते हैं।\n\nप्रिज्म से गुजरते समय विभिन्न रंगों का अपवर्तनांक अलग-अलग होने के कारण वे अलग कोणों पर मुड़ते हैं, जिससे VIBGYOR क्रम बनता है।"
         }
       ],
@@ -852,6 +854,8 @@
             "q_id": "",
             "statement": "स्वच्छ आकाश का रंग नीला क्यों दिखाई देता है?",
             "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/swacha_akash_ka_rang_nila.png",
             "explanation": "सूर्य के श्वेत प्रकाश का वायुमंडल में उपस्थित गैसों और धूल कणों द्वारा प्रकीर्णन होता है।\n\nनीले रंग की तरंगदैर्ध्य कम होने के कारण उसका प्रकीर्णन अधिक होता है, इसलिए आकाश नीला दिखाई देता है।"
           }
         ]
@@ -938,6 +942,8 @@
           "q_id": "",
           "statement": "मानव पाचन तंत्र का स्वच्छ एवं नामांकित चित्र बनाइए।",
           "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_pachan_tantra.png",
           "explanation": "चित्र में निम्नलिखित भाग स्पष्ट रूप से दर्शाए जाने चाहिए:\nमुख, ग्रसिका, आमाशय, यकृत, अग्न्याशय, छोटी आँत, बड़ी आँत।\n\nसाफ-सुथरा एवं उचित नामांकन करने पर पूर्ण अंक दिए जाते हैं।"
         }
       ],
@@ -948,6 +954,8 @@
             "q_id": "",
             "statement": "मानव हृदय का स्वच्छ एवं नामांकित चित्र बनाइए।",
             "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/hraday.png",
             "explanation": "चित्र में निम्नलिखित भाग स्पष्ट रूप से दर्शाए जाने चाहिए:\nदायाँ अलिंद, बायाँ अलिंद, दायाँ निलय, बायाँ निलय, महाधमनी।\n\nचित्र साफ एवं सही नामांकन वाला होना चाहिए।"
           }
         ]
