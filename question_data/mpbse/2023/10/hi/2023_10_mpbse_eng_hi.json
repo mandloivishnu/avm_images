@@ -303,12 +303,12 @@
         {
           "topic_id": "i",
           "name": "On the basis of your reading of the above passage, make a note on it using abbreviations if needed.",
-          "explanation": "TITLE: Importance of Himalayan Forests\n\nNOTES:\n1. Role of Himalayan Forests:\n   1.1 Foundation of hill village economy.\n   1.2 Provide fodder (green leaves/grass) & fertilizer (animal dung).\n   1.3 Supply dry twigs/branches for cooking fuel.\n   1.4 Source of fruits, edible nuts, fibres & herbs.\n\n2. Environmental & Water Benefits:\n   2.1 Break heavy seasonal monsoon rainfall flow.\n   2.2 Create springs & perennial streams for summer.\n\n3. Deforestation & Protest:\n   3.1 Large-scale destruction for railway timber (Tehri Garhwal).\n   3.2 People launched Satyagraha (non-cooperation) in 1930 against oppressive forest laws."
+          "answer": "TITLE: Importance of Himalayan Forests\n\nNOTES:\n1. Role of Himalayan Forests:\n   1.1 Foundation of hill village economy.\n   1.2 Provide fodder (green leaves/grass) & fertilizer (animal dung).\n   1.3 Supply dry twigs/branches for cooking fuel.\n   1.4 Source of fruits, edible nuts, fibres & herbs.\n\n2. Environmental & Water Benefits:\n   2.1 Break heavy seasonal monsoon rainfall flow.\n   2.2 Create springs & perennial streams for summer.\n\n3. Deforestation & Protest:\n   3.1 Large-scale destruction for railway timber (Tehri Garhwal).\n   3.2 People launched Satyagraha (non-cooperation) in 1930 against oppressive forest laws."
         },
         {
           "topic_id": "ii",
           "name": "Give a suitable title to it.",
-          "explanation": "Importance of Himalayan Forests"
+          "answer": "Importance of Himalayan Forests"
         }
       ]
     },
