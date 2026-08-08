@@ -23,70 +23,130 @@
           "q_id": "i",
           "statement": "The root cause of disease lies in ____.",
           "options": [
-            {"index": "a", "text": "the mistakes of physician"},
-            {"index": "b", "text": "the mistakes of the individual"},
-            {"index": "c", "text": "the mistakes of others"},
-            {"index": "d", "text": "the mistakes of Yogic Guru"}
+            {
+              "index": "a",
+              "text": "the mistakes of physician"
+            },
+            {
+              "index": "b",
+              "text": "the mistakes of the individual"
+            },
+            {
+              "index": "c",
+              "text": "the mistakes of others"
+            },
+            {
+              "index": "d",
+              "text": "the mistakes of Yogic Guru"
+            }
           ],
           "correct_index": "b",
           "correct_answer": "the mistakes of the individual",
-          "explanation": "The passage states that the root cause of a disease lies in the mistakes of the individual himself.",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nAccording to the passage, 'the root cause of a disease lies in the mistakes of the individual himself.' Hence, option (b) is the correct answer.",
           "previousYearsDetails": null
         },
         {
           "q_id": "ii",
           "statement": "The word 'prolonged' means:",
           "options": [
-            {"index": "a", "text": "New"},
-            {"index": "b", "text": "Very old"},
-            {"index": "c", "text": "Active"},
-            {"index": "d", "text": "Fresh"}
+            {
+              "index": "a",
+              "text": "New"
+            },
+            {
+              "index": "b",
+              "text": "Very old"
+            },
+            {
+              "index": "c",
+              "text": "Active"
+            },
+            {
+              "index": "d",
+              "text": "Fresh"
+            }
           ],
           "correct_index": "b",
           "correct_answer": "Very old",
-          "explanation": "'Prolonged' means continuing for a long time, closest in meaning to 'very old' among the given options.",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe word 'prolonged' refers to something continuing for a long duration of time. Among the given choices, 'Very old' is the closest suitable meaning.",
           "previousYearsDetails": null
         },
         {
           "q_id": "iii",
           "statement": "The main causes of diseases and disorders are:",
           "options": [
-            {"index": "a", "text": "Faulty way of living"},
-            {"index": "b", "text": "Bad habits"},
-            {"index": "c", "text": "Unsuitable food"},
-            {"index": "d", "text": "All of the above"}
+            {
+              "index": "a",
+              "text": "Faulty way of living"
+            },
+            {
+              "index": "b",
+              "text": "Bad habits"
+            },
+            {
+              "index": "c",
+              "text": "Unsuitable food"
+            },
+            {
+              "index": "d",
+              "text": "All of the above"
+            }
           ],
           "correct_index": "d",
           "correct_answer": "All of the above",
-          "explanation": "The passage lists faulty living, bad habits and unsuitable food together as causes of disease.",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nThe passage explicitly mentions that diseases result from a faulty way of living, bad habits, lack of knowledge, and unsuitable food. Thus, 'All of the above' is correct.",
           "previousYearsDetails": null
         },
         {
           "q_id": "iv",
           "statement": "Yoga is the ancient system to keep a person ____.",
           "options": [
-            {"index": "a", "text": "fit in muscles only"},
-            {"index": "b", "text": "fit in social background only"},
-            {"index": "c", "text": "fit in body and mind"},
-            {"index": "d", "text": "fit in mind only"}
+            {
+              "index": "a",
+              "text": "fit in muscles only"
+            },
+            {
+              "index": "b",
+              "text": "fit in social background only"
+            },
+            {
+              "index": "c",
+              "text": "fit in body and mind"
+            },
+            {
+              "index": "d",
+              "text": "fit in mind only"
+            }
           ],
           "correct_index": "c",
           "correct_answer": "fit in body and mind",
-          "explanation": "The passage opens by describing Yoga as an ancient system to keep a person fit in body and mind.",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe opening line of the passage states: 'Yoga is the ancient system to keep a person fit in body and mind.'",
           "previousYearsDetails": null
         },
         {
           "q_id": "v",
           "statement": "The Yogic practice of treatment does not comprise ____.",
           "options": [
-            {"index": "a", "text": "diet"},
-            {"index": "b", "text": "proper yogic practice"},
-            {"index": "c", "text": "proper knowledge of things about the self"},
-            {"index": "d", "text": "proper knowledge of things about others"}
+            {
+              "index": "a",
+              "text": "diet"
+            },
+            {
+              "index": "b",
+              "text": "proper yogic practice"
+            },
+            {
+              "index": "c",
+              "text": "proper knowledge of things about the self"
+            },
+            {
+              "index": "d",
+              "text": "proper knowledge of things about others"
+            }
           ],
           "correct_index": "d",
           "correct_answer": "proper knowledge of things about others",
-          "explanation": "The passage mentions diet, proper yogic practice and knowledge about the self as the three steps; knowledge about others is not mentioned.",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nThe three steps mentioned in the passage are diet, proper yogic practice, and proper knowledge of things about the self. Knowledge about others is not included.",
           "previousYearsDetails": null
         }
       ]
@@ -105,70 +165,130 @@
           "q_id": "i",
           "statement": "The Soldier did not know ____ language.",
           "options": [
-            {"index": "a", "text": "American"},
-            {"index": "b", "text": "Spanish"},
-            {"index": "c", "text": "Chinese"},
-            {"index": "d", "text": "Arabic"}
+            {
+              "index": "a",
+              "text": "American"
+            },
+            {
+              "index": "b",
+              "text": "Spanish"
+            },
+            {
+              "index": "c",
+              "text": "Chinese"
+            },
+            {
+              "index": "d",
+              "text": "Arabic"
+            }
           ],
           "correct_index": "b",
           "correct_answer": "Spanish",
-          "explanation": "The passage states that the American soldier did not know the Spanish language.",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage explicitly mentions: 'He did not know the Spanish language.'",
           "previousYearsDetails": null
         },
         {
           "q_id": "ii",
           "statement": "The King would come on inspection ____.",
           "options": [
-            {"index": "a", "text": "after 1 year"},
-            {"index": "b", "text": "after 6 months"},
-            {"index": "c", "text": "within a week"},
-            {"index": "d", "text": "after 3 years"}
+            {
+              "index": "a",
+              "text": "after 1 year"
+            },
+            {
+              "index": "b",
+              "text": "after 6 months"
+            },
+            {
+              "index": "c",
+              "text": "within a week"
+            },
+            {
+              "index": "d",
+              "text": "after 3 years"
+            }
           ],
           "correct_index": "b",
           "correct_answer": "after 6 months",
-          "explanation": "The Commander informed that the King would come on inspection after six months.",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe Commander informed the soldier that 'the King would come on inspection after six months.'",
           "previousYearsDetails": null
         },
         {
           "q_id": "iii",
           "statement": "Who taught the answers to the soldier?",
           "options": [
-            {"index": "a", "text": "the King"},
-            {"index": "b", "text": "the other soldier"},
-            {"index": "c", "text": "the Guard"},
-            {"index": "d", "text": "the Commander"}
+            {
+              "index": "a",
+              "text": "the King"
+            },
+            {
+              "index": "b",
+              "text": "the other soldier"
+            },
+            {
+              "index": "c",
+              "text": "the Guard"
+            },
+            {
+              "index": "d",
+              "text": "the Commander"
+            }
           ],
           "correct_index": "d",
           "correct_answer": "the Commander",
-          "explanation": "The passage states that the Commander taught him the answers and he crammed them.",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nAccording to the passage, 'The Commander taught him the answers and he crammed them.'",
           "previousYearsDetails": null
         },
         {
           "q_id": "iv",
           "statement": "What is the actual age of the soldier?",
           "options": [
-            {"index": "a", "text": "Six months"},
-            {"index": "b", "text": "15 years"},
-            {"index": "c", "text": "25 years"},
-            {"index": "d", "text": "40 years"}
+            {
+              "index": "a",
+              "text": "Six months"
+            },
+            {
+              "index": "b",
+              "text": "15 years"
+            },
+            {
+              "index": "c",
+              "text": "25 years"
+            },
+            {
+              "index": "d",
+              "text": "40 years"
+            }
           ],
           "correct_index": "c",
           "correct_answer": "25 years",
-          "explanation": "The soldier crammed the answers in the wrong order; his actual age was meant to be 25 years, while six months was how long he had served.",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe soldier mixed up the order of the memorized answers. His actual age was 25 years, whereas six months was his duration of service in the army.",
           "previousYearsDetails": null
         },
         {
           "q_id": "v",
           "statement": "A word from the passage which means check/survey:",
           "options": [
-            {"index": "a", "text": "boarding"},
-            {"index": "b", "text": "satisfied"},
-            {"index": "c", "text": "inspection"},
-            {"index": "d", "text": "informed"}
+            {
+              "index": "a",
+              "text": "boarding"
+            },
+            {
+              "index": "b",
+              "text": "satisfied"
+            },
+            {
+              "index": "c",
+              "text": "inspection"
+            },
+            {
+              "index": "d",
+              "text": "informed"
+            }
           ],
           "correct_index": "c",
           "correct_answer": "inspection",
-          "explanation": "'Inspection' means a formal check or survey, matching the King's visit described in the passage.",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe word 'inspection' refers to an official examination, check, or survey.",
           "previousYearsDetails": null
         }
       ]
@@ -186,85 +306,85 @@
         {
           "topic_id": "i",
           "name": "Give a suitable title to the passage.",
-          "answer": "The Evils of Anger"
+          "answer": "The Evils of Anger / Harmful Effects of Anger"
         },
         {
           "topic_id": "ii",
           "name": "Make notes of the above passage.",
-          "answer": "1. Man possesses both good and bad qualities; anger is a bad quality.\n2. Anger is excited when one's sentiments are hurt or principles are opposed.\n3. Anger has many evil effects on a person.\n4. It destroys a man's power of reasoning and judgement.\n5. An angry man loses control over himself and does not realise what he says or does.\n6. He may forget his duty towards his superiors.\n7. He may end up saying insulting things to them."
+          "answer": "TITLE: The Evils of Anger\n\nNOTES:\n1. Nature of Man:\n   1.1 Possesses both good and bad qualities.\n   1.2 Anger is a prominent bad quality.\n\n2. Causes of Anger:\n   2.1 Offence to sentiments.\n   2.2 Actions going against personal principles.\n\n3. Evils/Effects of Anger:\n   3.1 Loss of power of reasoning and judgment.\n   3.2 Loss of self-control.\n   3.3 Unawareness of words and actions.\n   3.4 Forgetting duties toward superiors.\n   3.5 Using insulting language."
         }
       ]
     },
     {
-  "question_number": "4",
-  "question_type": "DESCRIPTIVE",
-  "marks": "4",
-  "word_limit": "",
-  "text": "",
-  "parts": [
-    {
-      "q_id": "",
-      "statement": "You are Ankit/Ankita, a student of class X-D in Govt. H.S.S. Excellence School, Shivpuri (M.P.). Write an application to your principal to grant you full fee-concession.",
-      "correct_answer": "",
-      "explanation": "To,\nThe Principal,\nGovt. H.S.S. Excellence School,\nShivpuri (M.P.).\n\nSubject: Application for full fee-concession.\n\nRespected Sir,\n\nI want to state that I am a regular student of class X-D in your school. My father is a poor clerk in a private firm. His monthly income is very low, and he has to support a large family of six members. Therefore, he is unable to pay my school fee.\n\nI was a brilliant student in my previous classes and secured first position in class IX. I am also very keen on continuing my studies.\n\nKindly grant me full fee-concession so that I can pursue my studies further.\n\nThanking you.\n\nYours obediently,\nAnkit/Ankita\nClass X-D"
-    }
-  ],
-  "or_option": {
-    "text": "OR",
-    "parts": [
-      {
-        "q_id": "",
-        "statement": "You are Anmol, residing at 50, Krishnapuram Colony, Shivpuri. Write a letter to your friend telling him about your Hostel Life.",
-        "correct_answer": "",
-        "explanation": "50, Krishnapuram Colony,\nShivpuri.\nJuly 26, 2026\n\nDear Rohan,\n\nI hope this letter finds you in the best of health and spirits. I am doing quite well here. Since you wanted to know about my stay, I thought of writing to you about my new hostel life.\n\nLiving in a hostel is a completely new and exciting experience for me. Initially, it was a bit difficult to manage everything on my own, but now I have adjusted well. Our daily routine starts early with physical exercise, followed by breakfast and study hours. We have fixed timings for meals, classes, games, and self-study, which has taught me the value of strict discipline and time management.\n\nThe food is simple and hygienic. I have made some great friends here, and we study and play together in the evening, which keeps homesickness away.\n\nConvey my regards to your parents and love to the younger ones.\n\nYours lovingly,\nAnmol"
-      }
-    ]
-  },
-  "next_question": {
-    "question_number": "5",
-    "question_type": "DESCRIPTIVE",
-    "marks": "5",
-    "word_limit": "150 words (approx)",
-    "text": "Write an essay on any ONE of the following topics in about 150 words:",
-    "parts": [
-      {
-        "q_id": "i",
-        "statement": "Science: Curse or Boon",
-        "explanation": "Science has transformed human life in countless ways. It has given us electricity, medicines, transport, and instant communication, making life easier and more comfortable.\n\nHowever, science has also produced weapons of mass destruction and caused pollution and environmental damage. Nuclear weapons, harmful chemicals and excessive use of technology threaten peace and the environment.\n\nWhether science is a boon or curse depends on how it is used. Used wisely, for the welfare of mankind, it is a great boon; misused, it becomes a curse.\n\nIn conclusion, science itself is neutral — it is the responsibility of humans to use it constructively so that it remains a blessing rather than a curse."
-      },
-      {
-        "q_id": "ii",
-        "statement": "Importance of Trees",
-        "explanation": "Trees are essential for life on earth. They provide us oxygen, food, shade, medicines and timber.\n\nTrees maintain the ecological balance by absorbing carbon dioxide and releasing oxygen. They prevent soil erosion, regulate rainfall, and provide shelter to birds and animals.\n\nDue to deforestation and urbanisation, the number of trees is rapidly declining, leading to climate change and environmental problems. It is our duty to plant more trees and protect the existing ones.\n\nIn conclusion, trees are the backbone of our environment. Saving trees means saving life on earth, and everyone should contribute towards afforestation."
-      },
-      {
-        "q_id": "iii",
-        "statement": "Electric Vehicles",
-        "explanation": "Electric vehicles (EVs) are becoming increasingly popular as an alternative to fuel-run vehicles. They run on electric batteries instead of petrol or diesel.\n\nEVs help reduce air pollution as they do not emit harmful gases. They are also more economical in the long run since electricity is cheaper than fuel and require less maintenance.\n\nHowever, the high initial cost, limited charging infrastructure and long charging time are some challenges faced by EV users. Governments are promoting EVs through subsidies to encourage eco-friendly transport.\n\nIn conclusion, electric vehicles are the future of transportation, helping to build a cleaner and greener environment for the coming generations."
-      },
-      {
-        "q_id": "iv",
-        "statement": "Any Historical Building",
-        "explanation": "The Taj Mahal, located in Agra, is one of the most famous historical buildings in India and a symbol of eternal love. It was built by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal.\n\nBuilt entirely of white marble, the Taj Mahal is admired for its beautiful architecture, intricate carvings and symmetrical design. It took around 22 years to complete and is regarded as one of the Seven Wonders of the World.\n\nEvery year, millions of tourists from India and abroad visit the Taj Mahal, making it an important part of India's tourism and heritage.\n\nIn conclusion, the Taj Mahal stands as a timeless monument of love and a proud symbol of India's rich history and craftsmanship."
-      },
-      {
-        "q_id": "v",
-        "statement": "Problem of Pollution",
-        "explanation": "Pollution has become one of the most serious problems of modern times. It exists in various forms — air, water, soil and noise pollution — and affects the health of humans, animals and plants.\n\nRapid industrialisation, vehicular emissions, deforestation and improper waste disposal are the major causes of pollution. It leads to respiratory diseases, global warming and damage to the ecosystem.\n\nTo control pollution, we must adopt cleaner technologies, promote afforestation, reduce the use of plastics, and encourage public transport and renewable energy.\n\nIn conclusion, pollution is a grave threat to our planet, and collective efforts by individuals, governments and industries are essential to control it and protect the environment for future generations."
-      }
-    ],
-    "or_option": {
-      "text": "OR",
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
       "parts": [
         {
-          "q_id": "vi",
-          "statement": "Write a paragraph in about 150 words on 'A friend in need is a friend indeed'.",
-          "explanation": "The proverb 'A friend in need is a friend indeed' means that a true friend is one who stands by us during our difficult times, not just in happiness.\n\nMany people claim to be friends when everything is going well, but disappear when we face problems. A real friend, however, offers support, comfort and help during hardships without expecting anything in return.\n\nSuch friendships are built on trust, honesty and mutual care. A true friend shares our sorrows, encourages us to overcome challenges, and never leaves us alone in difficult situations.\n\nIn conclusion, true friendship is tested in times of need. We should value and nurture such friendships, and also strive to be that kind of friend to others."
+          "q_id": "",
+          "statement": "You are Ankit/Ankita, a student of class X-D in Govt. H.S.S. Excellence School, Shivpuri (M.P.). Write an application to your principal to grant you full fee-concession.",
+          "correct_answer": "",
+          "explanation": "To,\nThe Principal,\nGovt. H.S.S. Excellence School,\nShivpuri (M.P.)\n\nSubject: Application for full fee-concession.\n\nRespected Sir/Madam,\n\nI beg to state that I am a regular student of Class X-D in your school. My father works as a poor clerk in a private firm. His monthly income is very low, and he has to support a large family of six members. Consequently, he is unable to pay my school fees.\n\nI have been a meritorious student throughout my academic career and secured first position in Class IX. I have a strong desire to continue my studies.\n\nTherefore, I request you to kindly grant me full fee-concession so that I may pursue my studies further without financial constraint.\n\nThanking you.\n\nYours obediently,\nAnkit / Ankita\nClass: X-D\nDate: 26th July 2026"
         }
-      ]
-    }
-  }
-},
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "You are Anmol, residing at 50, Krishnapuram Colony, Shivpuri. Write a letter to your friend telling him about your Hostel Life.",
+            "correct_answer": "",
+            "explanation": "50, Krishnapuram Colony,\nShivpuri (M.P.)\n\nDate: 26th July 2026\n\nDear Rohan,\n\nI hope this letter finds you in good health and high spirits. I am writing to share my experience of my new hostel life with you.\n\nLiving in a hostel is a completely new and enriching experience for me. Initially, I felt a bit homesick, but I have now adjusted well. Hostel life has taught me discipline, independence, and the value of time management. We follow a fixed routine that includes morning physical exercise, regular study hours, and scheduled meal times.\n\nThe mess food is simple and hygienic. I have made some wonderful friends here, and we study and play together in the evenings, which keeps homesickness away.\n\nPlease convey my respectful regards to your parents and love to the younger ones.\n\nYours lovingly,\nAnmol"
+          }
+        ]
+      },
+      "next_question": {
+        "question_number": "5",
+        "question_type": "DESCRIPTIVE",
+        "marks": "5",
+        "word_limit": "150 words (approx)",
+        "text": "Write an essay on any ONE of the following topics in about 150 words:",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Science: Curse or Boon",
+            "explanation": "SCIENCE: CURSE OR BOON\n\nIntroduction:\nWe live in an era of science and technology. Science has fundamentally transformed human life, making it far more comfortable, convenient, and efficient.\n\nScience as a Boon:\nScience has provided us with extraordinary inventions such as electricity, computers, smartphones, and high-speed transportation. In the field of medicine, advanced diagnostic techniques and drugs have eradicated deadly diseases and extended human life expectancy. Modern communication has brought the world together as a global village.\n\nScience as a Curse:\nHowever, science becomes a curse when misused. The invention of lethal weapons of mass destruction, such as nuclear bombs, poses a constant threat to humanity. Uncontrolled industrialization has also led to severe environmental pollution, global warming, and ecological imbalance.\n\nConclusion:\nScience itself is neutral; its impact depends entirely on how human beings choose to utilize it. Used for human welfare, it is a magnificent boon; misused for destruction, it becomes a curse."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Importance of Trees",
+            "explanation": "IMPORTANCE OF TREES\n\nIntroduction:\nTrees are among the most valuable natural resources on Earth. They are essential for the survival and sustenance of all living organisms.\n\nBenefits of Trees:\nTrees release life-giving oxygen through photosynthesis and absorb harmful carbon dioxide, thereby maintaining the atmospheric balance and mitigating global warming. They supply us with food, fruits, timber, shade, and medicinal herbs. Furthermore, trees bind the soil to prevent erosion, help regulate rainfall patterns, and provide shelter to wildlife.\n\nNeed for Protection:\nDue to rapid urbanization and deforestation, the number of trees is declining drastically, leading to severe environmental crises. Planting more trees (afforestation) is crucial to restore ecological balance.\n\nConclusion:\nTrees are the lungs of our planet. Protecting trees is vital for ensuring a healthy and sustainable future for mankind."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Electric Vehicles",
+            "explanation": "ELECTRIC VEHICLES\n\nIntroduction:\nElectric Vehicles (EVs) are emerging as a major technological alternative in the automotive industry. They run on electric motors powered by rechargeable battery packs rather than conventional fossil fuels.\n\nAdvantages:\nThe primary benefit of EVs is that they produce zero direct tailpipe emissions, thereby significantly reducing urban air pollution and greenhouse gas emissions. Additionally, they are economically efficient over time due to lower fuel and maintenance costs.\n\nChallenges:\nDespite their advantages, EVs currently face hurdles such as high initial purchasing costs, limited charging infrastructure, and long battery charging durations.\n\nConclusion:\nElectric vehicles represent the future of sustainable transportation. With government incentives and rapid technological advancements, EVs will play a pivotal role in creating a cleaner environment."
+          },
+          {
+            "q_id": "iv",
+            "statement": "Any Historical Building",
+            "explanation": "A HISTORICAL BUILDING: THE TAJ MAHAL\n\nIntroduction:\nIndia possesses a rich historical and cultural heritage. Among its numerous magnificent monuments, the Taj Mahal in Agra stands out as a world-famous architectural masterpiece.\n\nHistory and Architecture:\nThe Taj Mahal was constructed by the Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Built entirely of pure white marble on the banks of the River Yamuna, it took nearly 22 years to complete. It is renowned for its symmetrical design, beautiful domes, and intricate marble carvings.\n\nGlobal Recognition:\nRecognized as a UNESCO World Heritage site and one of the Seven Wonders of the World, it attracts millions of domestic and international tourists every year.\n\nConclusion:\nThe Taj Mahal stands as a timeless symbol of love and a monumental testimony to India's glorious historical craftsmanship."
+          },
+          {
+            "q_id": "v",
+            "statement": "Problem of Pollution",
+            "explanation": "THE PROBLEM OF POLLUTION\n\nIntroduction:\nPollution has become one of the most pressing challenges of the modern world. It refers to the contamination of the natural environment by harmful physical or chemical substances.\n\nTypes and Causes:\nPollution exists in various forms—Air, Water, Soil, and Noise pollution. Uncontrolled industrial emissions, vehicular exhaust, deforestation, and improper waste disposal are the primary drivers of pollution. It leads to severe respiratory illnesses, climate change, and habitat destruction.\n\nSolutions:\nTo combat pollution, we must switch to renewable energy sources, enforce strict industrial emission standards, minimize plastic usage, and promote large-scale afforestation.\n\nConclusion:\nPollution poses a grave threat to the planet. Collective efforts by citizens, industries, and governments are imperative to preserve a clean environment for future generations."
+          }
+        ],
+        "or_option": {
+          "text": "OR",
+          "parts": [
+            {
+              "q_id": "vi",
+              "statement": "Write a paragraph in about 150 words on 'A friend in need is a friend indeed'.",
+              "explanation": "A FRIEND IN NEED IS A FRIEND INDEED\n\nThe proverb 'A friend in need is a friend indeed' highlights the true essence and test of genuine friendship. Human beings naturally seek companions to share their joy and experiences. However, fair-weather friends remain close only during times of prosperity and happiness, drifting away when adversity strikes. In contrast, a true friend stands firmly by our side during moments of hardship, distress, and crisis. Such a friend offers unconditional emotional support, selfless help, and honest counsel without expecting anything in return. True friendship is built on the pillars of mutual trust, honesty, and empathy. Difficult times act as a mirror that separates insincere companions from genuine ones. In conclusion, true friendship is a priceless gift that is proven during adversity. We should cherish real friends and strive to be equally dependable companions to others."
+            }
+          ]
+        }
+      }
+    },
     {
       "question_number": "6",
       "question_type": "VISUAL_COMPOSITION",
@@ -276,7 +396,7 @@
       "image_data": {
         "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/visual_question_images/2026_10_mpbse_en_06.PNG",
         "description_suggest": "The picture shows a food plate divided into four sections labelled Fruits and Vegetables, Grains, Proteins, and Dairy Products/Fats, along with a fork and spoon on either side, representing a balanced diet.",
-        "description": "A balanced diet is the key to good health. As shown in the plate, our meals should include fruits and vegetables, grains, proteins and dairy products in the right proportion. Eating such a balanced diet keeps our body strong, boosts immunity, and prevents diseases. It gives us the energy needed for daily activities and helps in proper growth and development, especially in children. Good health also improves concentration, productivity and overall quality of life. Therefore, we should follow a balanced diet along with regular exercise to stay fit, active and disease-free throughout our lives."
+        "description": "Good health is the foundation of a happy life, and a balanced diet is essential to maintain it. As illustrated in the diagram, our daily meals should contain appropriate proportions of fruits, vegetables, grains, proteins, and dairy products. A nutrient-rich diet strengthens the immune system, boosts energy levels, and prevents various diseases. Eating well, along with regular physical exercise, ensures proper growth, enhances productivity, and promotes overall physical and mental well-being."
       }
     },
     {
@@ -289,78 +409,141 @@
           "q_id": "i",
           "statement": "He found {BLANK} one-rupee note.",
           "options": [
-            {"index": "a", "text": "a"},
-            {"index": "b", "text": "an"},
-            {"index": "c", "text": "the"}
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "an"
+            },
+            {
+              "index": "c",
+              "text": "the"
+            }
           ],
           "correct_answer": "a",
-          "explanation": "'One' begins with a consonant sound ('w'), so 'a' is used, not 'an'."
+          "explanation": "Correct Answer: a\n\nExplanation:\nAlthough the word 'one' begins with the vowel 'o', it produces a consonant sound ('w' sound). Hence, the indefinite article 'a' is used."
         },
         {
           "q_id": "ii",
           "statement": "There is {BLANK} hope of his recovery.",
           "options": [
-            {"index": "a", "text": "a few"},
-            {"index": "b", "text": "a little"},
-            {"index": "c", "text": "many"}
+            {
+              "index": "a",
+              "text": "a few"
+            },
+            {
+              "index": "b",
+              "text": "a little"
+            },
+            {
+              "index": "c",
+              "text": "many"
+            }
           ],
           "correct_answer": "a little",
-          "explanation": "'Hope' is an uncountable noun, so 'a little' is used."
+          "explanation": "Correct Answer: a little\n\nExplanation:\n'Hope' is an uncountable noun. Therefore, 'a little' is the correct determiner, whereas 'a few' and 'many' are used with countable nouns."
         },
         {
           "q_id": "iii",
           "statement": "It {BLANK} rain today.",
           "options": [
-            {"index": "a", "text": "may"},
-            {"index": "b", "text": "can"},
-            {"index": "c", "text": "could"}
+            {
+              "index": "a",
+              "text": "may"
+            },
+            {
+              "index": "b",
+              "text": "can"
+            },
+            {
+              "index": "c",
+              "text": "could"
+            }
           ],
           "correct_answer": "may",
-          "explanation": "'May' expresses possibility, suitable for weather predictions."
+          "explanation": "Correct Answer: may\n\nExplanation:\nThe modal verb 'may' is used to express factual possibility or likelihood, such as in weather predictions."
         },
         {
           "q_id": "iv",
           "statement": "Walk carefully {BLANK} you would fall.",
           "options": [
-            {"index": "a", "text": "and"},
-            {"index": "b", "text": "but"},
-            {"index": "c", "text": "otherwise"}
+            {
+              "index": "a",
+              "text": "and"
+            },
+            {
+              "index": "b",
+              "text": "but"
+            },
+            {
+              "index": "c",
+              "text": "otherwise"
+            }
           ],
           "correct_answer": "otherwise",
-          "explanation": "'Otherwise' is used to show the negative consequence of not following the advice."
+          "explanation": "Correct Answer: otherwise\n\nExplanation:\n'Otherwise' is a conjunction used to indicate the negative consequence that will follow if the advice is not followed."
         },
         {
           "q_id": "v",
           "statement": "{BLANK} there is a will, there is a way.",
           "options": [
-            {"index": "a", "text": "As long as"},
-            {"index": "b", "text": "While"},
-            {"index": "c", "text": "Where"}
+            {
+              "index": "a",
+              "text": "As long as"
+            },
+            {
+              "index": "b",
+              "text": "While"
+            },
+            {
+              "index": "c",
+              "text": "Where"
+            }
           ],
           "correct_answer": "Where",
-          "explanation": "The correct proverb is 'Where there is a will, there is a way.'"
+          "explanation": "Correct Answer: Where\n\nExplanation:\nThis is a standard well-known English proverb: 'Where there is a will, there is a way.'"
         },
         {
           "q_id": "vi",
           "statement": "Listen {BLANK} me carefully.",
           "options": [
-            {"index": "a", "text": "to"},
-            {"index": "b", "text": "by"},
-            {"index": "c", "text": "from"}
+            {
+              "index": "a",
+              "text": "to"
+            },
+            {
+              "index": "b",
+              "text": "by"
+            },
+            {
+              "index": "c",
+              "text": "from"
+            }
           ],
           "correct_answer": "to",
-          "explanation": "The verb 'listen' is followed by the preposition 'to'."
+          "explanation": "Correct Answer: to\n\nExplanation:\nThe verb 'listen' is conventionally followed by the preposition 'to' when taking an object."
         },
         {
           "q_id": "vii",
           "statement": "I {BLANK} my friend yesterday.",
           "options": [
-            {"index": "a", "text": "meet"},
-            {"index": "b", "text": "met"},
-            {"index": "c", "text": "meeting"}
+            {
+              "index": "a",
+              "text": "meet"
+            },
+            {
+              "index": "b",
+              "text": "met"
+            },
+            {
+              "index": "c",
+              "text": "meeting"
+            }
           ],
           "correct_answer": "met",
-          "explanation": "'Yesterday' indicates past tense, so 'met' (past form of 'meet') is used."
+          "explanation": "Correct Answer: met\n\nExplanation:\nThe time expression 'yesterday' indicates a completed action in the simple past tense, requiring the second form of the verb 'met'."
         }
       ]
     },
@@ -374,37 +557,37 @@
         {
           "q_id": "i",
           "statement": "Ravi did his work. (Change into negative)",
-          "explanation": "Negative formed using 'did not' + base verb.\nCorrect sentence: Ravi did not do his work."
+          "explanation": "Negative Sentence: Ravi did not do his work.\n\nExplanation:\nIn the simple past tense, negative sentences are formed using the auxiliary 'did not' followed by the base form of the verb ('do')."
         },
         {
           "q_id": "ii",
           "statement": "My grandfather is too old to walk. (Rewrite the sentence using 'so...that')",
-          "explanation": "'Too...to' structure changed into 'so...that' structure.\nCorrect sentence: My grandfather is so old that he cannot walk."
+          "explanation": "Rewritten Sentence: My grandfather is so old that he cannot walk.\n\nExplanation:\nThe 'too...to' structure expressing inability is replaced by 'so...that + subject + cannot + verb'."
         },
         {
           "q_id": "iii",
           "statement": "doctor / apple / all / day / keeps / a / away / the (Rearrange the words to make a meaningful sentence)",
-          "explanation": "Words rearranged into the well-known proverb.\nCorrect sentence: An apple a day keeps the doctor away."
+          "explanation": "Meaningful Sentence: An apple a day keeps the doctor away.\n\nExplanation:\nRearranging the jumbled words produces the standard English proverb."
         },
         {
           "q_id": "iv",
           "statement": "The man is a doctor. He is wearing a blue sweater. (Combine the pair of sentences using 'who')",
-          "explanation": "Sentences combined using the relative pronoun 'who'.\nCorrect sentence: The man who is wearing a blue sweater is a doctor."
+          "explanation": "Combined Sentence: The man who is wearing a blue sweater is a doctor.\n\nExplanation:\nThe relative pronoun 'who' is used to join the two sentences by substituting the pronoun 'He'."
         },
         {
           "q_id": "v",
           "statement": "To save animals is our moral duty. (Rewrite the sentence beginning with 'It')",
-          "explanation": "Sentence rewritten using the preparatory subject 'It'.\nCorrect sentence: It is our moral duty to save animals."
+          "explanation": "Rewritten Sentence: It is our moral duty to save animals.\n\nExplanation:\nThe sentence is restructured using the dummy/preparatory subject 'It' at the beginning."
         },
         {
           "q_id": "vi",
           "statement": "If you do not tell the truth, you will be punished. (Use 'unless' in place of 'if')",
-          "explanation": "'If...not' replaced by 'unless'.\nCorrect sentence: Unless you tell the truth, you will be punished."
+          "explanation": "Rewritten Sentence: Unless you tell the truth, you will be punished.\n\nExplanation:\n'Unless' means 'if not', so 'If...do not' is replaced directly by 'Unless' while making the clause affirmative."
         },
         {
           "q_id": "vii",
           "statement": "He cut his finger with knife. (Change into simple present tense)",
-          "explanation": "Verb changed into its base/present form.\nCorrect sentence: He cuts his finger with a knife."
+          "explanation": "Simple Present Sentence: He cuts his finger with a knife.\n\nExplanation:\nIn the simple present tense with a third-person singular subject ('He'), the verb takes the '-s' suffix ('cuts')."
         }
       ]
     },
@@ -418,49 +601,101 @@
           "q_id": "i",
           "statement": "The lesson 'A Letter to God' is written by ____.",
           "options": [
-            {"index": "a", "text": "Lokesh Abrol"},
-            {"index": "b", "text": "Frederick Forsyth"},
-            {"index": "c", "text": "G. L. Fuentes"},
-            {"index": "d", "text": "Nelson Mandela"}
+            {
+              "index": "a",
+              "text": "Lokesh Abrol"
+            },
+            {
+              "index": "b",
+              "text": "Frederick Forsyth"
+            },
+            {
+              "index": "c",
+              "text": "G. L. Fuentes"
+            },
+            {
+              "index": "d",
+              "text": "Nelson Mandela"
+            }
           ],
           "correct_index": "c",
-          "correct_answer": "G. L. Fuentes"
+          "correct_answer": "G. L. Fuentes",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe story 'A Letter to God' is authored by G. L. Fuentes."
         },
         {
           "q_id": "ii",
           "statement": "Sweet bread is known as the ____ in Goa.",
           "options": [
-            {"index": "a", "text": "Bun"},
-            {"index": "b", "text": "Sandwich"},
-            {"index": "c", "text": "Bol"},
-            {"index": "d", "text": "Gulab-Jamun"}
+            {
+              "index": "a",
+              "text": "Bun"
+            },
+            {
+              "index": "b",
+              "text": "Sandwich"
+            },
+            {
+              "index": "c",
+              "text": "Bol"
+            },
+            {
+              "index": "d",
+              "text": "Gulab-Jamun"
+            }
           ],
           "correct_index": "c",
-          "correct_answer": "Bol"
+          "correct_answer": "Bol",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nAccording to the chapter 'Glimpses of India', sweet bread is known as 'bol' in Goan tradition."
         },
         {
           "q_id": "iii",
           "statement": "The name of the Black aeroplane is",
           "options": [
-            {"index": "a", "text": "Wavemaker"},
-            {"index": "b", "text": "Dakota"},
-            {"index": "c", "text": "Garun"},
-            {"index": "d", "text": "Pawan"}
+            {
+              "index": "a",
+              "text": "Wavemaker"
+            },
+            {
+              "index": "b",
+              "text": "Dakota"
+            },
+            {
+              "index": "c",
+              "text": "Garun"
+            },
+            {
+              "index": "d",
+              "text": "Pawan"
+            }
           ],
           "correct_index": "b",
-          "correct_answer": "Dakota"
+          "correct_answer": "Dakota",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe narrator was flying his old Dakota airplane in the story 'The Black Aeroplane'."
         },
         {
           "q_id": "iv",
           "statement": "Where is Coorg?",
           "options": [
-            {"index": "a", "text": "In Maharashtra"},
-            {"index": "b", "text": "In Assam"},
-            {"index": "c", "text": "In Uttar Pradesh"},
-            {"index": "d", "text": "In Karnataka"}
+            {
+              "index": "a",
+              "text": "In Maharashtra"
+            },
+            {
+              "index": "b",
+              "text": "In Assam"
+            },
+            {
+              "index": "c",
+              "text": "In Uttar Pradesh"
+            },
+            {
+              "index": "d",
+              "text": "In Karnataka"
+            }
           ],
           "correct_index": "d",
-          "correct_answer": "In Karnataka"
+          "correct_answer": "In Karnataka",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nCoorg (Kodagu) is the smallest district of Karnataka."
         }
       ]
     },
@@ -478,43 +713,76 @@
           "q_id": "i",
           "statement": "From which lesson has this extract been taken?",
           "options": [
-            {"index": "a", "text": "From the Diary of Anne Frank"},
-            {"index": "b", "text": "A Letter to God"},
-            {"index": "c", "text": "Madam Rides the Bus"},
-            {"index": "d", "text": "Mijbil the Otter"}
+            {
+              "index": "a",
+              "text": "From the Diary of Anne Frank"
+            },
+            {
+              "index": "b",
+              "text": "A Letter to God"
+            },
+            {
+              "index": "c",
+              "text": "Madam Rides the Bus"
+            },
+            {
+              "index": "d",
+              "text": "Mijbil the Otter"
+            }
           ],
           "correct_index": "c",
           "correct_answer": "Madam Rides the Bus",
-          "explanation": "The extract describing Valli's growing wish to ride the bus is from 'Madam Rides the Bus'.",
-          "previousYearsDetails": null
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThis extract describing Valli's wish to ride the bus is taken from 'Madam Rides the Bus'."
         },
         {
           "q_id": "ii",
           "statement": "What was her tiny wish?",
           "options": [
-            {"index": "a", "text": "Standing on the front door"},
-            {"index": "b", "text": "Riding on the bus"},
-            {"index": "c", "text": "Travelling by the train"},
-            {"index": "d", "text": "Playing with children"}
+            {
+              "index": "a",
+              "text": "Standing on the front door"
+            },
+            {
+              "index": "b",
+              "text": "Riding on the bus"
+            },
+            {
+              "index": "c",
+              "text": "Travelling by the train"
+            },
+            {
+              "index": "d",
+              "text": "Playing with children"
+            }
           ],
           "correct_index": "b",
           "correct_answer": "Riding on the bus",
-          "explanation": "The extract clearly states that Valli's tiny wish was to ride on the bus.",
-          "previousYearsDetails": null
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe text explicitly mentions: 'she wanted to ride on that bus, even if just once.'"
         },
         {
           "q_id": "iii",
           "statement": "The synonym of 'small' in the extract is:",
           "options": [
-            {"index": "a", "text": "Long"},
-            {"index": "b", "text": "Front"},
-            {"index": "c", "text": "Tiny"},
-            {"index": "d", "text": "Strong"}
+            {
+              "index": "a",
+              "text": "Long"
+            },
+            {
+              "index": "b",
+              "text": "Front"
+            },
+            {
+              "index": "c",
+              "text": "Tiny"
+            },
+            {
+              "index": "d",
+              "text": "Strong"
+            }
           ],
           "correct_index": "c",
           "correct_answer": "Tiny",
-          "explanation": "'Tiny' means small, used in the phrase 'a tiny wish' in the extract.",
-          "previousYearsDetails": null
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe word 'tiny' used in the extract means very small."
         }
       ]
     },
@@ -532,43 +800,76 @@
           "q_id": "i",
           "statement": "The name of the poet of the above poem is:",
           "options": [
-            {"index": "a", "text": "John Berryman"},
-            {"index": "b", "text": "Carl Sandburg"},
-            {"index": "c", "text": "Robin Klein"},
-            {"index": "d", "text": "Adrienne Rich"}
+            {
+              "index": "a",
+              "text": "John Berryman"
+            },
+            {
+              "index": "b",
+              "text": "Carl Sandburg"
+            },
+            {
+              "index": "c",
+              "text": "Robin Klein"
+            },
+            {
+              "index": "d",
+              "text": "Adrienne Rich"
+            }
           ],
           "correct_index": "d",
           "correct_answer": "Adrienne Rich",
-          "explanation": "The poem 'The Trees' is written by Adrienne Rich.",
-          "previousYearsDetails": null
+          "explanation": "Correct Option: (d)\n\nExplanation:\nThe poem 'The Trees' is composed by Adrienne Rich."
         },
         {
           "q_id": "ii",
           "statement": "What are the trees doing?",
           "options": [
-            {"index": "a", "text": "Moving their head"},
-            {"index": "b", "text": "Shuffling under the roof"},
-            {"index": "c", "text": "Moving out into the forest"},
-            {"index": "d", "text": "Standing still"}
+            {
+              "index": "a",
+              "text": "Moving their head"
+            },
+            {
+              "index": "b",
+              "text": "Shuffling under the roof"
+            },
+            {
+              "index": "c",
+              "text": "Moving out into the forest"
+            },
+            {
+              "index": "d",
+              "text": "Standing still"
+            }
           ],
           "correct_index": "c",
           "correct_answer": "Moving out into the forest",
-          "explanation": "The extract's opening line states that the trees are moving out into the forest.",
-          "previousYearsDetails": null
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe opening line states: 'The trees inside are moving out into the forest'."
         },
         {
           "q_id": "iii",
           "statement": "Where do the trees wish to go?",
           "options": [
-            {"index": "a", "text": "Under the shade"},
-            {"index": "b", "text": "To the balcony"},
-            {"index": "c", "text": "To the big home"},
-            {"index": "d", "text": "To the forest"}
+            {
+              "index": "a",
+              "text": "Under the shade"
+            },
+            {
+              "index": "b",
+              "text": "To the balcony"
+            },
+            {
+              "index": "c",
+              "text": "To the big home"
+            },
+            {
+              "index": "d",
+              "text": "To the forest"
+            }
           ],
           "correct_index": "d",
           "correct_answer": "To the forest",
-          "explanation": "The trees, kept indoors as houseplants, wish to go out and reclaim their place in the forest.",
-          "previousYearsDetails": null
+          "explanation": "Correct Option: (d)\n\nExplanation:\nThe trees wish to break free from human confinement and return to their natural habitat, the forest."
         }
       ]
     },
@@ -581,42 +882,42 @@
         {
           "q_id": "i",
           "statement": "What does courage mean to Mandela?",
-          "explanation": "To Mandela, courage is not the absence of fear but the triumph over it; a truly brave man is one who conquers his fear and still does what is right."
+          "explanation": "To Nelson Mandela, courage does not mean the absence of fear, but the triumph over it. He believes that a brave man is not one who does not feel afraid, but one who conquers that fear."
         },
         {
           "q_id": "ii",
           "statement": "What was Valli's favourite pastime?",
-          "explanation": "Valli's favourite pastime was watching the bus pass by every day and observing the outside world through its windows during the daily journey."
+          "explanation": "Valli's favourite pastime was standing in the front doorway of her house and watching the street outside, especially watching the bus that traveled between her village and the town."
         },
         {
           "q_id": "iii",
           "statement": "Why does the postmaster send money to Lencho?",
-          "explanation": "Moved by Lencho's simple, unwavering faith expressed in his letter to God, the postmaster and his colleagues collected money from their own pockets and sent it to him."
+          "explanation": "The postmaster was deeply impressed by Lencho's firm and unshakable faith in God. He collected money from his employees and friends to send to Lencho so that Lencho's faith in God would not be shaken."
         },
         {
           "q_id": "iv",
           "statement": "What 'experiment' did Maxwell think Camusfearna would be suitable for?",
-          "explanation": "Maxwell thought Camusfearna, surrounded by water, would be a suitable place to keep an otter instead of a dog as a pet."
+          "explanation": "Gavin Maxwell thought that Camusfearna, being surrounded by water near the coast, would be a suitable place for an experiment in keeping an otter as a pet instead of a dog."
         },
         {
           "q_id": "v",
           "statement": "Why was Mr. Keesing annoyed with Anne?",
-          "explanation": "Mr. Keesing was annoyed because Anne talked too much in class, disturbing the lessons repeatedly despite several warnings."
+          "explanation": "Mr. Keesing, the maths teacher, was annoyed with Anne Frank because she talked excessively during his classes, disrupting the lessons despite several verbal warnings."
         },
         {
           "q_id": "vi",
           "statement": "\"I'll take the risk\". What is the risk? Why does the narrator take it?",
-          "explanation": "The risk refers to Horace Danby's decision to break into Shotter Hall once more despite the danger of getting caught, because he badly wanted money to buy rare books."
+          "explanation": "The risk was flying his old Dakota airplane straight into the huge, dark storm clouds over Paris. The narrator took the risk because he was eager to get home and have a traditional English breakfast with his family."
         },
         {
           "q_id": "vii",
           "statement": "What does Kisa Gotami ask for? Does she get it?",
-          "explanation": "Grief-stricken, Kisa Gotami asks the Buddha for medicine to revive her dead child. She does not get the medicine but learns through him that death is universal."
+          "explanation": "Grief-stricken Kisa Gotami asks for medicine to bring her dead son back to life. She does not get it because death is inevitable and no medicine can restore life to the deceased."
         },
         {
           "q_id": "viii",
           "statement": "What are the elders in Goa nostalgic about?",
-          "explanation": "The elders in Goa are nostalgic about the golden old days, especially the tradition of the local baker and the sound of his bicycle bell announcing fresh bread each morning."
+          "explanation": "The elders in Goa are nostalgic about the good old Portuguese days, the Portuguese people, and their famous, traditional loaves of bread prepared by traditional village bakers."
         }
       ]
     },
@@ -629,17 +930,17 @@
         {
           "q_id": "i",
           "statement": "How did Griffin, the scientist become invisible?",
-          "explanation": "Griffin discovered a way to change the refractive index of the human body to match that of air, and used drugs along with intense light radiation to make himself invisible."
+          "explanation": "Griffin carried out experiments and swallowed certain rare drugs that made his body transparent like a sheet of glass, rendering him completely invisible to the human eye."
         },
         {
           "q_id": "ii",
           "statement": "What does Horace Danby like to collect?",
-          "explanation": "Horace Danby loves collecting rare and expensive books, which was his only weakness and the reason behind his safe-breaking activities."
+          "explanation": "Horace Danby loves collecting rare and expensive books. To fulfill his passion, he robbed one safe every year to buy the books he desired through an agent."
         },
         {
           "q_id": "iii",
           "statement": "Why is Mrs. Pumphrey worried about Tricki?",
-          "explanation": "Mrs. Pumphrey was worried because Tricki had become fat, lazy and unwell due to overfeeding and lack of proper exercise."
+          "explanation": "Mrs. Pumphrey was worried because her pet dog Tricki became listless, lost all energy, refused to eat his favourite dishes, and suffered from repeated bouts of vomiting."
         }
       ]
     },
@@ -652,17 +953,17 @@
         {
           "q_id": "i",
           "statement": "How does the poet suggest that you identify the Asian lion? (How to Tell Wild Animals)",
-          "explanation": "The poet says the Asian Lion can be identified by the tuft of hair found at the end of its tail, unlike the African lion which lacks it."
+          "explanation": "The poet suggests that if you travel to the jungles of the East and encounter a large, tawny-colored beast that roars fiercely as you are dying, it is the Asian Lion."
         },
         {
           "q_id": "ii",
           "statement": "What does the poet compare the branches of the tree to? (The Trees)",
-          "explanation": "The poet compares the branches of the trees to arms, as if the trees are moving out with limbs stretched like arms."
+          "explanation": "In the poem 'The Trees', the poet compares the long-cramped branches of the trees to newly discharged hospital patients who move toward the clinic doors feeling dazed and confused."
         },
         {
           "q_id": "iii",
           "statement": "What could Amanda do if she were a mermaid? (Amanda)",
-          "explanation": "If Amanda were a mermaid, she could sit alone combing her hair endlessly under the sea, free from her mother's constant scolding."
+          "explanation": "If Amanda were a mermaid, she would drift blissfully alone on the calm, emerald sea, enjoying complete freedom away from her mother's constant nagging."
         }
       ]
     },
@@ -675,12 +976,12 @@
         {
           "q_id": "i",
           "statement": "How did Mandela's understanding of freedom change with age and experience?",
-          "explanation": "As a boy, Mandela thought freedom meant being free to roam, play and stay out late at night. As a young man, he saw freedom as the basic right to live decently and pursue his education and ambitions. As he grew older and became a leader, he realised that true freedom meant the freedom of all his people — both the oppressed and the oppressor — from injustice, and he dedicated his life to that larger cause, sacrificing his personal freedom and family life for the freedom of his nation."
+          "explanation": "As a young boy, Nelson Mandela understood freedom in a personal, physical sense—being free to run in the fields, swim in the stream, and stay out at night. As a university student, he viewed freedom as the ability to stay out late and read what he pleased. However, with age and experience, he realized that his boyhood freedom was an illusion. His perspective broadened to understand that freedom meant the dignity and equality of all Black South Africans suffering under apartheid, prompting him to join the African National Congress."
         },
         {
           "q_id": "ii",
           "statement": "How did Valli save up money for her first journey? Was it easy for her?",
-          "explanation": "Valli saved small amounts of money that came her way occasionally, keeping them hidden safely and adding to her little savings bit by bit over time. It was not easy for her, as she had to resist the temptation to spend it on small treats like sweets and toys that tempted other children her age, showing her patience and determination to fulfil her wish of riding the bus."
+          "explanation": "Valli saved up money for her first bus journey by meticulously hoarding every stray coin that came her way. She firmly suppressed childish temptations to buy peppermints, toys, balloons, and rides on the merry-go-round at the village fair. Saving sixty paise was not easy for an eight-year-old child, but her intense desire to ride the bus gave her the self-control and determination needed to achieve her goal."
         }
       ]
     },
@@ -693,12 +994,12 @@
         {
           "q_id": "i",
           "statement": "Write the central idea of the poem 'The Ball Poem'.",
-          "explanation": "The poem deals with the theme of loss and the process of growing up. When a boy loses his ball in the sea, he experiences grief and helplessness for the first time. The poet suggests that such losses are inevitable in life and that people must learn to cope with them on their own, without depending on others to replace what is lost, since this experience of loss and self-reliance is an important part of growing into maturity."
+          "explanation": "The central idea of 'The Ball Poem' by John Berryman revolves around accepting loss as an inevitable part of human life. The loss of the boy's ball symbolizes the loss of innocent childhood days. The poet emphasizes that material possessions can be replaced, but lost memories and time cannot. The poem highlights the importance of developing resilience, coping with grief, and learning to stand up and move forward in a world of possessions."
         },
         {
           "q_id": "ii",
           "statement": "What colour is the young woman's hair? What does she say she can change it to?",
-          "explanation": "The young woman's hair is yellow, described as being like honey. She says that if her lover cares only for her hair colour and not for her true self, she can easily dye it any colour she likes — brown, black or even carrot colour — showing that outer appearance is superficial and changeable, unlike genuine love."
+          "explanation": "The young woman's hair is honey-colored (yellow/golden). She states that she can dye her hair brown, black, or carrot color. She wants to change her hair color to demonstrate that men should love her for her true internal self—her character and soul—rather than being attracted merely to her superficial physical appearance or external beauty."
         }
       ]
     },
@@ -711,12 +1012,12 @@
         {
           "q_id": "i",
           "statement": "What are the qualities that go into the making of a scientist?",
-          "explanation": "The qualities that go into the making of a scientist include curiosity, sincerity, hard work, dedication, and a love for observing and collecting things from nature. Richard Ebright, in 'The Making of a Scientist', showed these qualities from childhood — he was curious about the natural world, kept a butterfly collection, conducted careful experiments, and persevered even after setbacks, guided by an inquisitive and disciplined mind, all of which are essential traits for becoming a successful scientist."
+          "explanation": "According to the lesson 'The Making of a Scientist', three essential qualities are required to become a scientist: a first-rate mind, sharp curiosity, and the determination to win for the right reasons. Richard Ebright possessed these traits from an early age. His inquisitive nature, encouraged by his mother, led him to collect butterflies, conduct meticulous experiments, and persevere through failures to make groundbreaking contributions to molecular biology."
         },
         {
           "q_id": "ii",
           "statement": "How did Bholi's teacher play an important role in changing the course of her life?",
-          "explanation": "Bholi's teacher encouraged her, treated her with kindness and patience, and helped her overcome her stammering and feelings of inferiority caused by her pockmarked face. Through the teacher's support, Bholi gained confidence, learned to read and write, and eventually found her voice and self-respect, which enabled her to reject an unjust marriage proposal later in life and choose to become a teacher herself, completely transforming the course of her life."
+          "explanation": "Bholi's teacher played a pivotal role in transforming her life. When Bholi first joined school, she was an insecure, stammering girl who felt inferior due to her pockmarked face. The teacher treated her with immense warmth, affection, and patience. She inspired Bholi with confidence, taught her to speak without stammering, and educated her. This education empowered Bholi to evolve into an independent woman who boldly rejected a greedy groom, choosing instead to serve her parents and teach at the school."
         }
       ]
     }
