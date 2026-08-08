@@ -566,6 +566,8 @@
           "q_id": "",
           "statement": "तंत्रिका कोशिका का स्वच्छ नामांकित चित्र बनाइए।",
           "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/tantra_koshika.png",
           "explanation": "तंत्रिका कोशिका (Neuron) के मुख्य भाग हैं:\n1. द्रुमिकाएँ (Dendrites)\n2. कोशिका काय (Cell Body)\n3. केंद्रक (Nucleus)\n4. अक्षतंतु (Axon)\n5. माइलिन आवरण (Myelin Sheath)\n6. अक्षतंतु के अंतिम सिरे (Axon Terminal)\n\nउत्तर में स्वच्छ एवं नामांकित चित्र अवश्य बनाइए।"
         }
       ],
