@@ -27,15 +27,8 @@
           "उदासीन",
           "अम्लीय"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "शुद्ध जल का pH मान",
-            "example": "शुद्ध जल का pH मान 7 होता है जो उदासीन प्रकृति को दर्शाता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/ph_scale_water.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -57,15 +50,8 @@
           "अम्लीय वर्षा",
           "जैविक प्रक्रिया"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "अम्लीय वर्षा का प्रभाव",
-            "example": "अम्लीय वर्षा का जल जब नदी में बहता है, तो जलीय जीवों का जीवित रहना कठिन हो जाता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/amliya_varsha.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -89,28 +75,21 @@
           "एंटासिड",
           "डंक"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "मधुमक्खी का डंक",
-            "example": "मधुमक्खी के डंक मारने पर अम्ल छोड़ती है, जिस पर बेकिंग सोडा (क्षार) लगाने से राहत मिलती है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/madhumakkhi_dank.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: pH का अर्थ एवं पैमाना",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "4_a",
           "statement": "pH स्केल क्या है? किसी विलयन के अम्लीय या क्षारीय होने का निर्धारण इससे कैसे किया जाता है?",
-          "correct_answer": "",
+          "correct_answer": "pH मान 7 से कम होने पर अम्लीय और 7 से अधिक होने पर क्षारीय होता है।",
           "imgUrl": "",
           "explanation": "किसी विलयन में हाइड्रोजन आयनों की सांद्रता मापने के लिए प्रयुक्त पैमाने को pH स्केल कहते हैं। यदि pH मान 7 है तो विलयन उदासीन, 7 से कम होने पर अम्लीय और 7 से अधिक होने पर क्षारीय होता है।"
         }
@@ -119,9 +98,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "4_b",
             "statement": "उदासीन विलयन और प्रबल अम्लीय विलयन के pH मान की क्या स्थिति होती है?",
-            "correct_answer": "",
+            "correct_answer": "उदासीन का pH 7 होता है, प्रबल अम्ल का pH 7 से बहुत कम होता है।",
             "imgUrl": "",
             "explanation": "उदासीन विलयन का pH मान ठीक 7 होता है, जबकि प्रबल अम्लीय विलयन का pH मान 7 से बहुत कम (शून्य के करीब) होता है।"
           }
@@ -129,16 +108,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "5",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: pH का महत्व",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "5_a",
           "statement": "अम्लीय वर्षा (Acid Rain) किसे कहते हैं? जलीय जीवन पर इसका क्या प्रभाव पड़ता है?",
-          "correct_answer": "",
+          "correct_answer": "वर्षा जल का pH 5.6 से कम होने पर अम्लीय वर्षा होती है जो जलीय जीवों के लिए हानिकारक है।",
           "imgUrl": "",
           "explanation": "जब वर्षा के जल का pH मान 5.6 से कम हो जाता है, तो उसे अम्लीय वर्षा कहते हैं। यह जल जब नदियों में मिलता है, तो नदी के जल का pH मान कम हो जाता है जिससे जलीय जीवों का जीवित रहना कठिन हो जाता है।"
         }
@@ -147,9 +126,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "5_b",
             "statement": "पौधों की अच्छी वृद्धि के लिए मिट्टी का pH कितना होना चाहिए?",
-            "correct_answer": "",
+            "correct_answer": "मिट्टी का pH लगभग 6.5 से 7.0 के बीच होना चाहिए।",
             "imgUrl": "",
             "explanation": "अच्छी पैदावार और पौधों के विकास के लिए मिट्टी का pH मान एक विशिष्ट परास (लगभग 6.5 से 7.0 के बीच) होना आवश्यक होता है।"
           }
@@ -157,27 +136,27 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "6",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: दैनिक जीवन में pH",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "6_a",
           "statement": "हमारे पेट में pH की क्या भूमिका है? अपच (Indigestion) की स्थिति में एंटासिड का उपयोग क्यों किया जाता है?",
-          "correct_answer": "",
+          "correct_answer": "एंटासिड अम्ल की अधिकता को उदासीन करता है।",
           "imgUrl": "",
-          "explanation": "हमारे पेट में हाइड्रोक्लोरिक अम्ल ($\\text{HCl}$) उत्पन्न होता है जो भोजन के पाचन में सहायक है। अपच की स्थिति में पेट में अम्ल की अधिकता हो जाती है, जिससे दर्द और जलन होती है। इसे ठीक करने के लिए दुर्बल क्षार (एंटासिड) जैसे मैग्नीशियम हाइड्रॉक्साइड का उपयोग किया जाता है जो अम्ल को उदासीन करता है।"
+          "explanation": "हमारे पेट में हाइड्रोक्लोरिक अम्ल HCl उत्पन्न होता है जो भोजन के पाचन में सहायक है। अपच की स्थिति में पेट में अम्ल की अधिकता हो जाती है, जिससे दर्द और जलन होती है। इसे ठीक करने के लिए दुर्बल क्षार (एंटासिड) जैसे मैग्नीशियम हाइड्रॉक्साइड का उपयोग किया जाता है जो अम्ल को उदासीन करता है।"
         }
       ],
       "or_option": {
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "6_b",
             "statement": "मुँह का pH मान कितना होने पर दाँतों का क्षय (सड़न) शुरू हो जाता है? इसे कैसे रोका जा सकता है?",
-            "correct_answer": "",
+            "correct_answer": "pH 5.5 से कम होने पर सड़न होती है, जिसे क्षारीय मंजन से रोका जा सकता है।",
             "imgUrl": "",
             "explanation": "मुँह का pH मान 5.5 से कम होने पर दाँतों के इनेमल (दंतवल्क) का क्षय होने लगता है। इसे रोकने के लिए भोजन के बाद दाँत साफ करने चाहिए और क्षारीय मंजन (टूथपेस्ट) का उपयोग करना चाहिए।"
           }
