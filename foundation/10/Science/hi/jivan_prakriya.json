@@ -26,15 +26,8 @@
           "प्रकाश संश्लेषण",
           "क्लोरोफिल"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "हरे पौधों द्वारा भोजन निर्माण",
-            "example": "पत्तियों में उपस्थित क्लोरोफिल सौर ऊर्जा को रासायनिक ऊर्जा में बदलता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/photosynthesis_example.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -57,15 +50,8 @@
           "अवायवीय श्वसन",
           "ATP"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "मांसपेशियों में ऐंठन",
-            "example": "भारी व्यायाम के दौरान ऑक्सीजन की कमी से लैक्टिक अम्ल बनने पर मांसपेशियों में दर्द होता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/respiration_example.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -88,28 +74,21 @@
           "हृदय",
           "नेफ्रॉन"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "वृक्क (Kidney) द्वारा रक्त का निस्यंदन",
-            "example": "नेफ्रॉन द्वारा रक्त से यूरिया और यूरिक अम्ल को छानकर शरीर से बाहर किया जाता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/excretion_nephron.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: पोषण एवं प्रकाश संश्लेषण",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "4_a",
           "statement": "स्वपोषी पोषण और परपोषी पोषण में अंतर लिखिए। प्रकाश संश्लेषण की आवश्यक शर्तें क्या हैं?",
-          "correct_answer": "",
+          "correct_answer": "स्वपोषी अपना भोजन स्वयं बनाते हैं, परपोषी अन्य पर निर्भर होते हैं।",
           "imgUrl": "",
           "explanation": "स्वपोषी पोषण में जीव अपना भोजन स्वयं अकार्बनिक पदार्थों से बनाते हैं (जैसे हरे पौधे), जबकि परपोषी पोषण में जीव भोजन के लिए अन्य जीवों पर निर्भर रहते हैं। प्रकाश संश्लेषण की मुख्य शर्तें: सूर्य का प्रकाश, क्लोरोफिल, कार्बन डाइऑक्साइड और जल।"
         }
@@ -118,9 +97,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "4_b",
             "statement": "मानव पाचन तंत्र में यकृत (Liver) और आमाशय की क्या भूमिका है?",
-            "correct_answer": "",
+            "correct_answer": "आमाशय अम्ल स्राвит करता है, यकृत पित्त रस बनाता है।",
             "imgUrl": "",
             "explanation": "आमाशय में हाइड्रोक्लोरिक अम्ल और पाचक रस भोजन के पाचन में मदद करते हैं; यकृत पित्त रस का स्राव करता है जो वसा के पाचन (पायसीकरण) में सहायक होता है।"
           }
@@ -128,16 +107,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "5",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: श्वसन",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "5_a",
           "statement": "वायवीय और अवायवीय श्वसन में अंतर स्पष्ट कीजिए।",
-          "correct_answer": "",
+          "correct_answer": "वायवीय ऑक्सीजन में होता है, अवायवीय ऑक्सीजन के बिना होता है।",
           "imgUrl": "",
           "explanation": "वायवीय श्वसन ऑक्सीजन की उपस्थिति में होता है और इसमें अधिक मात्रा में ऊर्जा उत्पन्न होती है, जबकि अवायवीय श्वसन ऑक्सीजन की अनुपस्थिति में होता है और इसमें कम ऊर्जा उत्पन्न होती है तथा लैक्टिक अम्ल या एथिल अल्कोहल बनता है।"
         }
@@ -146,9 +125,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "5_b",
             "statement": "पत्तियों में गैसों का आदान-प्रदान किस प्रकार होता है?",
-            "correct_answer": "",
+            "correct_answer": "रंध्रों (Stomata) के माध्यम से गैसों का आदान-प्रदान होता है।",
             "imgUrl": "",
             "explanation": "पत्तियों की सतह पर सूक्ष्म छिद्र होते हैं जिन्हें रंध्र (Stomata) कहते हैं। इन्हीं रंध्रों के द्वारा गैसों का आदान-प्रदान ($\\text{CO}_2$ का अंदर आना और $\\text{O}_2$ का बाहर जाना) होता है।"
           }
@@ -156,16 +135,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "6",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: परिवहन एवं उत्सर्जन",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "6_a",
           "statement": "मानव हृदय की संरचना का संक्षेप में वर्णन कीजिए। दोहरा परिसंचरण क्यों आवश्यक है?",
-          "correct_answer": "",
+          "correct_answer": "हृदय चार कक्षीय है; दोहरा परिसंचरण शुद्ध-अशुद्ध रक्त को अलग रखता है।",
           "imgUrl": "",
           "explanation": "मानव हृदय चार कक्षों में बंटा होता है - दो आलिंद और दो निलय। दोहरा परिसंचरण (Double Circulation) शुद्ध और अशुद्ध रक्त को मिलने से रोकता है, जिससे शरीर को उच्च ऊर्जा और ऑक्सीजन की कुशल आपूर्ति मिलती है।"
         }
@@ -174,9 +153,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "6_b",
             "statement": "नेफ्रॉन (वृक्काणु) की संरचना एवं कार्य समझाइए।",
-            "correct_answer": "",
+            "correct_answer": "नेफ्रॉन रक्त को छानकर मूत्र का निर्माण करता है।",
             "imgUrl": "",
             "explanation": "नेफ्रॉन वृक्क की रचनात्मक और कार्यात्मक इकाई है। इसमें एक प्याले जैसी संरचना (बोमेन संपुट) होती है जिसमें केशिकाओं का गुच्छा (ग्लोमेरुलस) होता है। यह रक्त को छानकर वर्ज्य पदार्थों को अलग करता है और मूत्र निर्माण करता है।"
           }
