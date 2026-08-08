@@ -27,18 +27,7 @@
           "कर्ण"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "पतंग उड़ाना",
-            "example": "पतंग की डोर, ऊँचाई और ज़मीन से बना कोण त्रिकोणमितीय अनुपातों से जुड़ा होता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
-          },
-          {
-            "title": "सीढ़ी का कोण",
-            "example": "दीवार से टिकी सीढ़ी का कोण और ऊँचाई त्रिकोणमितीय अनुपातों से ज्ञात होती है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
@@ -61,13 +50,7 @@
           "विशिष्ट मान"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "सूर्य की ऊँचाई मापना",
-            "example": "सूर्य के मानक कोण (जैसे 30° या 45°) पर होने पर छाया की लंबाई से वस्तु की ऊँचाई आसानी से निकाली जाती है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
@@ -92,11 +75,61 @@
           "cosec"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "यदि $\\sin A = \\frac{3}{4}$, तो $\\cos A$ और $\\tan A$ का मान परिकलित कीजिए।",
+          "correct_answer": "$\\cos A = \\frac{\\sqrt{7}}{4}, \\tan A = \\frac{3}{\\sqrt{7}}$",
+          "imgUrl": "",
+          "explanation": "दिया है: $\\sin A = \\frac{\\text{लम्ब}}{\\text{कर्ण}} = \\frac{3}{4}$\n\nमाना लम्ब $BC = 3k$ और कर्ण $AC = 4k$\nसमकोण त्रिभुज ABC में पाइथागोरस प्रमेय से:\n$AC^2 = AB^2 + BC^2$\n$(4k)^2 = AB^2 + (3k)^2$\n$16k^2 = AB^2 + 9k^2$\n$AB^2 = 16k^2 - 9k^2 = 7k^2$\n$AB = \\sqrt{7}k$ (आधार)\n\nअतः:\n$\\cos A = \\frac{\\text{आधार}}{\\text{कर्ण}} = \\frac{\\sqrt{7}k}{4k} = \\frac{\\sqrt{7}}{4}$\n$\\tan A = \\frac{\\text{लम्ब}}{\\text{आधार}} = \\frac{3k}{\\sqrt{7}k} = \\frac{3}{\\sqrt{7}}$"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
           {
-            "title": "भवन निर्माण डिज़ाइन",
-            "example": "इंजीनियर छत के ढलान के कोण संबंधी गणनाओं को सरल बनाने के लिए त्रिकोणमितीय सर्वसमिकाओं का प्रयोग करते हैं।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+            "q_id": "4_b",
+            "statement": "यदि $\\cot \\theta = \\frac{7}{8}$, तो $\\frac{(1 + \\sin \\theta)(1 - \\sin \\theta)}{(1 + \\cos \\theta)(1 - \\cos \\theta)}$ का मान ज्ञात कीजिए।",
+            "correct_answer": "$\\frac{49}{64}$",
+            "imgUrl": "",
+            "explanation": "दिया है: $\\cot \\theta = \\frac{7}{8}$\nव्यंजक दिया गया है: $\\frac{(1 + \\sin \\theta)(1 - \\sin \\theta)}{(1 + \\cos \\theta)(1 - \\cos \\theta)} = \\frac{1 - \\sin^2 \\theta}{1 - \\cos^2 \\theta} = \\frac{\\cos^2 \\theta}{\\sin^2 \\theta} = (\\cot \\theta)^2$\n\nमान रखने पर:\n$(\\frac{7}{8})^2 = \\frac{49}{64}$\nअतः अभीष्ट मान $\\frac{49}{64}$ है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "मान निकालिए: $\\sin 60^\\circ \\cos 30^\\circ + \\sin 30^\\circ \\cos 60^\\circ$",
+          "correct_answer": "1",
+          "imgUrl": "",
+          "explanation": "मानक कोणों के मान रखने पर:\n$\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$\n$\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$\n$\\sin 30^\\circ = \\frac{1}{2}$\n$\\cos 60^\\circ = \\frac{1}{2}$\n\nव्यंजक में मान रखने पर:\n$= \\left(\\frac{\\sqrt{3}}{2}\\right)\\left(\\frac{\\sqrt{3}}{2}\\right) + \\left(\\frac{1}{2}\\right)\\left(\\frac{1}{2}\\right)$\n$= \\frac{3}{4} + \\frac{1}{4} = \\frac{3 + 1}{4} = \\frac{4}{4} = 1$\nअतः मान 1 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "सिद्ध कीजिए कि: $(\\sin A + \\operatorname{cosec} A)^2 + (\\cos A + \\sec A)^2 = 7 + \\tan^2 A + \\cot^2 A$",
+            "correct_answer": "प्रमाणित",
+            "imgUrl": "",
+            "explanation": "बायाँ पक्ष (LHS):\n$= (\\sin A + \\operatorname{cosec} A)^2 + (\\cos A + \\sec A)^2$\n$= \\sin^2 A + \\operatorname{cosec}^2 A + 2\\sin A \\operatorname{cosec} A + \\cos^2 A + \\sec^2 A + 2\\cos A \\sec A$\n\nचूँकि $\\sin A \\operatorname{cosec} A = 1$ और $\\cos A \\sec A = 1$ तथा $\\sin^2 A + \\cos^2 A = 1$:\n$= 1 + \\operatorname{cosec}^2 A + 2(1) + \\sec^2 A + 2(1)$\n$= 1 + \\operatorname{cosec}^2 A + 2 + \\sec^2 A + 2$\n$= 5 + \\operatorname{cosec}^2 A + \\sec^2 A$\n\nसर्वसमिकाओं $\\operatorname{cosec}^2 A = 1 + \\cot^2 A$ और $\\sec^2 A = 1 + \\tan^2 A$ का उपयोग करने पर:\n$= 5 + (1 + \\cot^2 A) + (1 + \\tan^2 A)$\n$= 7 + \\tan^2 A + \\cot^2 A = \\text{RHS}$\nअतः सिद्ध हुआ।"
           }
         ]
       }
