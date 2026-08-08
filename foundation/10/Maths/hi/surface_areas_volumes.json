@@ -26,7 +26,7 @@
           "पृष्ठीय क्षेत्रफल",
           "आयतन"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "imgUrl": "",
         "realLifeExamples1": []
       }
     },
@@ -49,7 +49,7 @@
           "वक्र पृष्ठ",
           "आयतन"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "imgUrl": "",
         "realLifeExamples1": []
       }
     },
@@ -73,7 +73,7 @@
           "तिर्यक ऊँचाई",
           "आयतन"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "imgUrl": "",
         "realLifeExamples1": []
       }
     },
@@ -96,7 +96,7 @@
           "अर्धगोला",
           "पृष्ठीय क्षेत्रफल"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "imgUrl": "",
         "realLifeExamples1": []
       }
     },
@@ -119,7 +119,7 @@
           "frustum",
           "तिर्यक ऊँचाई"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "imgUrl": "",
         "realLifeExamples1": []
       }
     },
