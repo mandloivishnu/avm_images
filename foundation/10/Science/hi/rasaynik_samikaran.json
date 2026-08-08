@@ -26,15 +26,8 @@
           "सूत्र",
           "संतुलित"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "हाइड्रोजन और ऑक्सीजन का जल बनाना",
-            "example": "$\\text{2H}_2 + \\text{O}_2 \\rightarrow \\text{2H}_2\\text{O}$",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/jal_nirman.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -57,15 +50,8 @@
           "प्रतीक",
           "संयोजकता"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "मैग्नीशियम का ऑक्सीजन से जलना",
-            "example": "मैग्नीशियम + ऑक्सीजन $\\rightarrow$ मैग्नीशियम ऑक्साइड",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/magnesium_shabd.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -90,28 +76,21 @@
           "गैस",
           "जलीय"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "लोहे की भाप के साथ क्रिया",
-            "example": "$\\text{3Fe(s)} + \\text{4H}_2\\text{O(g)} \\rightarrow \\text{Fe}_3\\text{O}_4\\text{(s)} + \\text{4H}_2\\text{(g)}$",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/loha_bhaap.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: रासायनिक समीकरण एवं शब्द समीकरण",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "4_a",
           "statement": "रासायनिक समीकरण से क्या तात्पर्य है? शब्द समीकरण की तुलना में यह क्यों अधिक उपयोगी है?",
-          "correct_answer": "",
+          "correct_answer": "रासायनिक समीकरण प्रतीकों और सूत्रों का संक्षिप्त रूप है जो अधिक सूचनाप्रद होता है।",
           "imgUrl": "",
           "explanation": "रासायनिक समीकरण किसी रासायनिक अभिक्रिया को प्रतीकों और सूत्रों के रूप में संक्षिप्त प्रदर्शन है। यह शब्द समीकरण की तुलना में अधिक उपयोगी है क्योंकि यह अंतरिक्ष बचाता है, सार्वभौमिक रूप से समझा जाता है और इसमें अभिकारकों व उत्पादों की सटीक मात्रा या संख्या का पता चलता है।"
         }
@@ -120,9 +99,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "4_b",
             "statement": "शब्द समीकरण क्या है? उदाहरण देकर समझाइए।",
-            "correct_answer": "",
+            "correct_answer": "शब्दों के रूप में व्यक्त समीकरण शब्द समीकरण कहलाता है।",
             "imgUrl": "",
             "explanation": "जब किसी रासायनिक अभिक्रिया को उसमें भाग लेने वाले पदार्थों के शब्दों के रूप में व्यक्त किया जाता है, तो उसे शब्द समीकरण कहते हैं। उदाहरण के लिए: जिंक + सल्फ्यूरिक अम्ल $\\rightarrow$ जिंक सल्फेट + हाइड्रोजन।"
           }
@@ -130,16 +109,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "5",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: रासायनिक समीकरण लिखना और रासायनिक सूत्र",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "5_a",
           "statement": "रासायनिक समीकरण लिखने के मुख्य चरण कौन-कौन से हैं? संक्षेप में लिखिए।",
-          "correct_answer": "",
+          "correct_answer": "अभिकारकों और उत्पादों को उनके सूत्रों तथा तीर के निशान के साथ बाईं और दाईं ओर लिखना।",
           "imgUrl": "",
           "explanation": "रासायनिक समीकरण लिखने के चरण: 1. अभिकारकों को बाईं ओर लिखकर उनके बीच (+) का चिन्ह लगाना। 2. उत्पादों को दाईं ओर लिखकर उनके बीच (+) का चिन्ह लगाना। 3. अभिकारकों और उत्पादों के बीच तीर का निशान ($\\rightarrow$) लगाना जो अभिक्रिया की दिशा को बताता है।"
         }
@@ -148,9 +127,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "5_b",
             "statement": "रासायनिक सूत्र का क्या महत्व है? स्पष्ट कीजिए।",
-            "correct_answer": "",
+            "correct_answer": "रासायनिक सूत्र परमाणु संख्या और प्रतीकों की सटीक जानकारी देता है।",
             "imgUrl": "",
             "explanation": "रासायनिक सूत्र किसी यौगिक के एक अणु में उपस्थित विभिन्न तत्वों के परमाणु की संख्या और उनके प्रतीकों की सटीक जानकारी देता है, जिससे रासायनिक समीकरण लिखना और समझना आसान हो जाता है।"
           }
@@ -158,16 +137,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "6",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: अवस्था चिन्ह (Physical State Symbols)",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "6_a",
           "statement": "रासायनिक समीकरण में भौतिक अवस्थाओं को दर्शाने वाले चिन्हों (s, l, g, aq) का क्या अर्थ है? उदाहरण सहित समझाइए।",
-          "correct_answer": "",
+          "correct_answer": "(s) ठोस, (l) द्रव, (g) गैस और (aq) जलीय विलयन को दर्शाते हैं।",
           "imgUrl": "",
           "explanation": "रासायनिक समीकरण को अधिक सूचनाप्रद बनाने के लिए भौतिक अवस्थाएँ जोड़ी जाती हैं: (s) ठोस के लिए, (l) द्रव के लिए, (g) गैस के लिए, तथा (aq) जलीय विलयन के लिए प्रयोग किया जाता है। जैसे: $\\text{CaO(s)} + \\text{H}_2\\text{O(l)} \\rightarrow \\text{Ca(OH)}_2\\text{(aq)}$"
         }
@@ -176,11 +155,11 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "6_b",
             "statement": "यदि किसी रासायनिक अभिक्रिया में गैस निकलती है या अवक्षेप बनता है, तो समीकरण में उसे कैसे प्रदर्शित किया जाता है?",
-            "correct_answer": "",
+            "correct_answer": "गैस के लिए ऊपर की ओर तीर ($\\uparrow$) तथा अवक्षेप के लिए नीचे की ओर तीर ($\\downarrow$) का प्रयोग किया जाता है।",
             "imgUrl": "",
-            "explanation": "गैस निकलने की स्थिति में गैस के सूत्र के आगे ऊपर की ओर तीर का चिन्ह ($uparrow$) या (g) लिखा जाता है, तथा अवक्षेप बनने की स्थिति में नीचे की ओर तीर का चिन्ह ($downarrow$) या (s) लिखा जाता है।"
+            "explanation": "गैस निकलने की स्थिति में गैस के सूत्र के आगे ऊपर की ओर तीर का चिन्ह ($\\uparrow$) या (g) लिखा जाता है, तथा अवक्षेप बनने की स्थिति में नीचे की ओर तीर का चिन्ह ($\\downarrow$) या (s) लिखा जाता है।"
           }
         ]
       }
