@@ -794,7 +794,9 @@
           "q_id": "",
           "statement": "तंत्रिका कोशिका का चित्र बनाइए तथा किसी कोशिका के दो कोशिकांगों के नाम लिखिए।",
           "correct_answer": "",
-          "explanation": "तंत्रिका कोशिका का चित्र:\n\n      डेंड्राइट्स\n        /\\   /\\\n       /  \\ /  \\\n      |    कोशिका देह    |\n      |      (नाभिक)    |\n       \\              /\n        \\            /\n         \\__________/\n              |\n              |\n          अक्षतंतु (Axon)\n              |\n          मायलिन आवरण\n              |\n        अन्त ग्रंथागुलिका\n\nकोशिकांग:\n1. माइटोकॉन्ड्रिया\n2. राइबोसोम"
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/tantrika_koshika.png",
+          "explanation": "इस प्रश्न में तंत्रिका कोशिका (Neuron) का चित्र बनाना है। चित्र में डेंड्राइट्स, कोशिका देह, नाभिक, अक्षतंतु (Axon), मायलिन आवरण तथा अन्त ग्रंथागुलिका को दर्शाया जाता है। साथ ही किसी कोशिका के दो कोशिकांगों के नाम लिखने हैं, जैसे माइटोकॉन्ड्रिया और राइबोसोम।"
         }
       ],
       "or_option": {
@@ -804,6 +806,8 @@
             "q_id": "",
             "statement": "प्रतिवर्ती चाप का चित्र बनाइए तथा उसके दो भागों के नाम लिखिए।",
             "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/prativarti_chap.png",
             "explanation": "प्रतिवर्ती चाप के भाग:\n\nउत्तेजना → संवेदक तंत्रिका → मेरुरज्जु → प्रेरक तंत्रिका → प्रतिक्रिया\n\nप्रतिवर्ती चाप के दो भाग:\n1. संवेदक तंत्रिका\n2. प्रेरक तंत्रिका"
           }
         ]
@@ -820,11 +824,10 @@
           "q_id": "(i)",
           "statement": "दक्षिण हस्त अंगूठा नियम (मैक्सवेल का कॉर्कस्क्रू नियम) रेखाचित्र सहित लिखिए।",
           "correct_answer": "",
-            "isAnswerImage": true,
-            "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/right_hand_thumbrule.png",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/right_hand_thumbrule.png",
           "explanation": "दक्षिण हस्त अंगूठा नियम के अनुसार, यदि किसी धारावाही चालक को दाहिने हाथ में इस प्रकार पकड़ें कि अंगूठा धारा की दिशा में संकेत करे, तो उंगलियों के मुड़ने की दिशा चुंबकीय क्षेत्र की रेखाओं की दिशा को दर्शाती है।"
-      
-              }
+        }
       ],
       "or_option": {
         "text": "अथवा",
@@ -833,9 +836,9 @@
             "q_id": "(ii)",
             "statement": "फ्लेमिंग का बायाँ हाथ नियम रेखाचित्र सहित लिखिए।",
             "correct_answer": "",
-          "isAnswerImage": true,
-"imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/left_hand_thumbrule.png",
-          "explanation": "फ्लेमिंग के बाएँ हाथ के नियमानुसार, यदि बाएँ हाथ के अंगूठे, तर्जनी (पहली उंगली) तथा मध्यमा (बीच की उंगली) को परस्पर लंबवत इस प्रकार फैलाया जाए कि तर्जनी चुंबकीय क्षेत्र की दिशा तथा मध्यमा चालक में प्रवाहित विद्युत धारा की दिशा को दर्शाए, तो अंगूठा चालक पर लगने वाले बल की दिशा को निरूपित करता है।"
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/left_hand_thumbrule.png",
+            "explanation": "फ्लेमिंग के बाएँ हाथ के नियमानुसार, यदि बाएँ हाथ के अंगूठे, तर्जनी (पहली उंगली) तथा मध्यमा (बीच की उंगली) को परस्पर लंबवत इस प्रकार फैलाया जाए कि तर्जनी चुंबकीय क्षेत्र की दिशा तथा मध्यमा चालक में प्रवाहित विद्युत धारा की दिशा को दर्शाए, तो अंगूठा चालक पर लगने वाले बल की दिशा को निरूपित करता है।"
           }
         ]
       }
@@ -877,9 +880,9 @@
           "q_id": "(i)",
           "statement": "खुले एवं बंद रंध्र का नामांकित चित्र बनाइए।",
           "correct_answer": "",
-"isAnswerImage": true,
-"imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/khule_band_randhra.png",
-        "explanation": "रंध्र पौधों की पत्तियों की सतह पर पाए जाने वाले सूक्ष्म छिद्र होते हैं जो गैसों के आदान-प्रदान (CO₂ एवं O₂) और वाष्पोत्सर्जन में सहायक होते हैं।\n\n1. खुला रंध्र (Open Stomata):\nजब रक्षक कोशिकाओं (Guard Cells) में जल प्रवेश करता है, तो वे स्फीत (Turgid) होकर फूल जाती हैं। इससे रंध्र का छिद्र (Stomatal Pore) खुल जाता है। यह मुख्य रूप से दिन के समय प्रकाश-संश्लेषण के लिए होता है।\n\n2. बंद रंध्र (Closed Stomata):\nजब रक्षक कोशिकाओं से जल बाहर निकल जाता है, तो वे शिथिल (Flaccid) होकर सिकुड़ जाती हैं और रंध्र बंद हो जाता है। यह अवस्था पौधे में जल की हानि को रोकने के लिए होती है।"
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/khule_band_randhra.png",
+          "explanation": "रंध्र पौधों की पत्तियों की सतह पर पाए जाने वाले सूक्ष्म छिद्र होते हैं जो गैसों के आदान-प्रदान (CO₂ एवं O₂) और वाष्पोत्सर्जन में सहायक होते हैं।\n\n1. खुला रंध्र (Open Stomata):\nजब रक्षक कोशिकाओं (Guard Cells) में जल प्रवेश करता है, तो वे स्फीत (Turgid) होकर फूल जाती हैं। इससे रंध्र का छिद्र (Stomatal Pore) खुल जाता है। यह मुख्य रूप से दिन के समय प्रकाश-संश्लेषण के लिए होता है।\n\n2. बंद रंध्र (Closed Stomata):\nजब रक्षक कोशिकाओं से जल बाहर निकल जाता है, तो वे शिथिल (Flaccid) होकर सिकुड़ जाती हैं और रंध्र बंद हो जाता है। यह अवस्था पौधे में जल की हानि को रोकने के लिए होती है।"
         }
       ],
       "or_option": {
@@ -890,7 +893,7 @@
             "statement": "मानव में उत्सर्जन तंत्र का नामांकित चित्र बनाइए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_utsarjan_tantra.png",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_utsarjan_tantra.png",
             "explanation": "मानव उत्सर्जन तंत्र का मुख्य कार्य शरीर में बनने वाले हानिकारक अपशिष्ट पदार्थों (जैसे यूरिया और यूरिक अम्ल) को रक्त से छानकर बाहर निकालना है।\n\nइसके मुख्य अंग निम्न हैं:\n1. वृक्क (Kidney): यह रक्त को छानकर मूत्र का निर्माण करता है।\n2. मूत्रनलिका (Ureter): वृक्क से बने मूत्र को मूत्राशय तक पहुँचाती है।\n3. मूत्राशय (Urinary Bladder): मूत्र को अस्थायी रूप से संग्रहित करता है।\n4. मूत्रमार्ग (Urethra): मूत्राशय से मूत्र को शरीर से बाहर निष्कासित करता है।"
           }
         ]
@@ -908,9 +911,9 @@
           "statement": "उत्तल दर्पण से बनने वाले प्रतिबिंब का स्थान, प्रकृति एवं आकार ज्ञात कीजिए।",
           "correct_answer": "",
           "isAnswerImage": true,
-"imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/uttal_darpan.png",
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/uttal_darpan.png",
           "explanation": "उत्तल दर्पण द्वारा बनने वाले प्रतिबिंब की विशेषताएं निम्नलिखित हैं:\n\n1. प्रकृति (Nature): प्रतिबिंब सदैव आभासी एवं सीधा होता है।\n2. आकार (Size): प्रतिबिंब सदैव वस्तु के आकार से छोटा (अत्यंत छोटा या छोटा) होता है।\n3. स्थान (Position): प्रतिबिंब दर्पण के पीछे ध्रुव (P) और फोकस (F) के मध्य बनता है।"
-               }
+        }
       ],
       "or_option": {
         "text": "अथवा",
@@ -920,7 +923,7 @@
             "statement": "अवतल दर्पण के लिए प्रतिबिंब की प्रकृति एवं आकार ज्ञात कीजिए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/avtal_darpan.png",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/avtal_darpan.png",
             "explanation": "अवतल दर्पण में बनने वाले प्रतिबिंब की प्रकृति एवं आकार वस्तु की स्थिति पर निर्भर करते हैं:\n\n1. यदि वस्तु फोकस (F) से बाहर (दूर) स्थित हो:\n- प्रकृति: वास्तविक एवं उल्टा\n- आकार: वस्तु से बड़ा, बराबर या छोटा हो सकता है (स्थिति के अनुसार)।\n\n2. यदि वस्तु ध्रुव (P) और फोकस (F) के बीच स्थित हो:\n- प्रकृति: आभासी एवं सीधा\n- आकार: वस्तु से बड़ा (आवर्धित) तथा दर्पण के पीछे बनता है।"
           }
         ]
