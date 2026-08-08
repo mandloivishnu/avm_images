@@ -25,15 +25,8 @@
           "नए गुण",
           "पदार्थ"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "भोजन का पचना",
-            "example": "खाए गए भोजन का शरीर में सरल अणुओं में टूटना।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/bhojan_pachna.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -55,15 +48,8 @@
           "उत्पाद",
           "तीर का चिन्ह"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "मैग्नीशियम का दहन",
-            "example": "मैग्नीशियम और ऑक्सीजन अभिकारक हैं, जबकि मैग्नीशियम ऑक्साइड उत्पाद है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/magnesium_dahan.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -87,28 +73,21 @@
           "ताप परिवर्तन",
           "अवक्षेप"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "लोहे पर जंग लगना",
-            "example": "रंग बदलकर भूरा होना रासायनिक संकेत है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/lohe_par_jang.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: रासायनिक अभिक्रिया की परिभाषा एवं अभिकारक-उत्पाद",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "4_a",
           "statement": "रासायनिक अभिक्रिया किसे कहते हैं? मैग्नीशियम रिबन के दहन का उदाहरण देकर समझाइए।",
-          "correct_answer": "",
+          "correct_answer": "नए गुणधर्म वाले पदार्थों का निर्माण रासायनिक अभिक्रिया है; मैग्नीशियम दहन से मैग्नीशियम ऑक्साइड बनता है।",
           "imgUrl": "",
           "explanation": "वह प्रक्रिया जिसमें नए गुणधर्म वाले पदार्थों का निर्माण होता है, रासायनिक अभिक्रिया कहलाती है। जब मैग्नीशियम रिबन को वायु में जलाया जाता है, तो वह ऑक्सीजन से क्रिया करके सफेद चूर्ण (मैग्नीशियम ऑक्साइड) बनाता है।"
         }
@@ -117,9 +96,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "4_b",
             "statement": "अभिकारक और उत्पाद से क्या आशय है? एक रासायनिक समीकरण के माध्यम से स्पष्ट कीजिए।",
-            "correct_answer": "",
+            "correct_answer": "भाग लेने वाले अभिकारक तथा बनने वाले उत्पाद कहलाते हैं।",
             "imgUrl": "",
             "explanation": "अभिक्रिया में भाग लेने वाले पदार्थ 'अभिकारक' तथा बनने वाले नए पदार्थ 'उत्पाद' कहलाते हैं। उदाहरण: $\\text{Zn} + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{H}_2$ में जिंक और सल्फ्यूरिक अम्ल अभिकारक हैं तथा जिंक सल्फेट और हाइड्रोजन उत्पाद हैं।"
           }
@@ -127,27 +106,27 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "5",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: रासायनिक अभिक्रिया के संकेत (रंग परिवर्तन और गैस का निकलना)",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "5_a",
           "statement": "रासायनिक अभिक्रियाओं में रंग परिवर्तन को एक उदाहरण द्वारा समझाइए।",
-          "correct_answer": "",
+          "correct_answer": "लोहे की कील डालने पर कॉपर सल्फेट का नीला रंग हरा हो जाता है।",
           "imgUrl": "",
-          "explanation": "जब लोहे की कील को कॉपर सल्फेट के नीले विलयन में डुबोया जाता है, तो विलयन का नीला रंग हल्के हरे रंग (आर्यन सल्फेट के कारण) में बदल जाता है।"
+          "explanation": "जब लोहे की कील को कॉपर सल्फेट के नीले विलयन में डुबोया जाता है, तो विलयन का नीला रंग हल्के हरे रंग (आयरन सल्फेट के कारण) में बदल जाता है।"
         }
       ],
       "or_option": {
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "5_b",
             "statement": "जिंक की तनु सल्फ्यूरिक अम्ल के साथ अभिक्रिया कराने पर कौन सी गैस निकलती है? इसे कैसे पहचानेंगे?",
-            "correct_answer": "",
+            "correct_answer": "हाइड्रोजन गैस निकलती है जो पॉप की ध्वनि के साथ जलती है।",
             "imgUrl": "",
             "explanation": "इस अभिक्रिया में हाइड्रोजन गैस ($\\text{H}_2$) निकलती है। इसके पास जलती हुई तीली ले जाने पर यह 'पॉप' (pop) की ध्वनि के साथ जलती है।"
           }
@@ -155,16 +134,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "6",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: रासायनिक अभिक्रिया के संकेत (ताप परिवर्तन और अवक्षेप बनना)",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "6_a",
           "statement": "ताप में परिवर्तन रासायनिक अभिक्रिया का संकेत कैसे होता है? उदाहरण दीजिए।",
-          "correct_answer": "",
+          "correct_answer": "ऊष्माक्षेपी या ऊष्माशोषी अभिक्रियाओं से तापमान में परिवर्तन होता है।",
           "imgUrl": "",
           "explanation": "कुछ रासायनिक अभिक्रियाओं में ऊष्मा निकलती है (ऊष्माक्षेपी) जिससे तापमान बढ़ जाता है, जैसे बिना बुझे चूने में पानी मिलाना। वहीं कुछ में ऊष्मा अवशोषित होती है (ऊष्माशोषी) जिससे तापमान घट जाता है।"
         }
@@ -173,9 +152,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "6_b",
             "statement": "अवक्षेप बनने से क्या तात्पर्य है? उपयुक्त उदाहरण दीजिए।",
-            "correct_answer": "",
+            "correct_answer": "अघुलनशील ठोस का पृथक होना अवक्षेप कहलाता है।",
             "imgUrl": "",
             "explanation": "रासायनिक अभिक्रिया के दौरान किसी अघुलनशील ठोस पदार्थ का पृथक होना 'अवक्षेप' कहलाता है। उदाहरण: पोटेशियम आयोडाइड और लेड नाइट्रेट की अभिक्रिया से लेड आयोडाइड का पीला अवक्षेप बनता है।"
           }
