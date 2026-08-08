@@ -27,15 +27,8 @@
           "रेटिना",
           "निकट बिंदु"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "किताब को आँख के पास या दूर रखकर पढ़ना",
-            "example": "सिलिअरी पेशियाँ सिकुड़कर या फैलकर लेंस की फोकस दूरी को समायोजित करती हैं ताकि अक्षर साफ दिख सकें।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.5net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/human_eye_accommodation.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -59,28 +52,21 @@
           "दूर दृष्टि दोष",
           "प्रकीर्णन"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "स्वच्छ आकाश का नीला रंग",
-            "example": "सूर्य के प्रकाश का वायुमंडल के कणों द्वारा प्रकीर्णन होने से आकाश नीला दिखाई देता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.5net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/scattering_sky.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "3",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: मानव नेत्र एवं समंजन क्षमता",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "3_a",
           "statement": "मानव नेत्र का नामांकित चित्र बनाइए तथा इसके मुख्य भागों (रेटिना और पुतली) के कार्य लिखिए।",
-          "correct_answer": "",
+          "correct_answer": "रेटिना प्रतिबिंब बनाता है, पुतली प्रकाश नियंत्रित करती है।",
           "imgUrl": "",
           "explanation": "मानव नेत्र का मुख्य भाग रेटिना है जिस पर किसी वस्तु का वास्तविक और उल्टा प्रतिबिंब बनता है; पुतली नेत्र में प्रवेश करने वाले प्रकाश की मात्रा को नियंत्रित करती है।"
         }
@@ -89,9 +75,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "3_b",
             "statement": "नेत्र की समंजन क्षमता से क्या तात्पर्य है? स्पष्ट कीजिए।",
-            "correct_answer": "",
+            "correct_answer": "पेशियों द्वारा लेंस की फोकस दूरी बदलकर स्पष्ट देखना समंजन क्षमता है।",
             "imgUrl": "",
             "explanation": "सिलिअरी पेशियों की सहायता से अभिनेत्र लेंस की वक्रता और फोकस दूरी को बदलकर पास या दूर की वस्तुओं को रेटिना पर स्पष्ट फोकस करने की क्षमता को नेत्र की समंजन क्षमता कहते हैं।"
           }
@@ -99,16 +85,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: दृष्टि दोष",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "4_a",
           "statement": "निकट दृष्टि दोष (Myopia) किसे कहते हैं? इसके उत्पन्न होने के कारण तथा निवारण के लिए किस लेंस का उपयोग किया जाता है?",
-          "correct_answer": "",
+          "correct_answer": "निकट दृष्टि दोष में दूर की वस्तु नहीं दिखती, अवतल लेंस का उपयोग होता है।",
           "imgUrl": "",
           "explanation": "निकट दृष्टि दोष में व्यक्ति को पास की वस्तुएँ स्पष्ट दिखाई देती हैं किंतु दूर की वस्तुएँ स्पष्ट नहीं दिखाई देतीं। इसका कारण नेत्र गोलक का लंबा होना या लेंस की अत्यधिक वक्रता है। इसके निवारण के लिए 'अवतल लेंस' (Concave lens) का उपयोग किया जाता है।"
         }
@@ -117,9 +103,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "4_b",
             "statement": "दूर दृष्टि दोष और निकट दृष्टि दोष में अंतर लिखिए तथा दूर दृष्टि दोष का निवारण कैसे किया जाता है?",
-            "correct_answer": "",
+            "correct_answer": "दूर दृष्टि दोष के निवारण के लिए उत्तल लेंस का उपयोग किया जाता है।",
             "imgUrl": "",
             "explanation": "निकट दृष्टि दोष में दूर की वस्तु साफ नहीं दिखती (अवतल लेंस से निवारण), जबकि दूर दृष्टि दोष (Hypermetropia) में पास की वस्तु साफ नहीं दिखती, जिसके निवारण के लिए 'उत्तल लेंस' का उपयोग किया जाता है।"
           }
