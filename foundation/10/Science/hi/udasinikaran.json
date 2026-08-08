@@ -25,15 +25,8 @@
           "लवण और जल",
           "अम्ल और क्षार"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "NaOH और HCl की अभिक्रिया",
-            "example": "$\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/neutralization_example.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
@@ -57,28 +50,21 @@
           "ब्लीचिंग पाउडर",
           "प्लास्टर ऑफ पेरिस"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "हड्डियों के टूटने पर प्लास्टर",
-            "example": "डॉक्टर टूटी हुई हड्डियों को सही स्थिति में रखने के लिए प्लास्टर ऑफ पेरिस का उपयोग करते हैं।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/pop_example.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "3",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: उदासीनीकरण एवं महत्वपूर्ण लवण",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "3_a",
           "statement": "उदासीनीकरण अभिक्रिया किसे कहते हैं? एक उदाहरण दीजिए।",
-          "correct_answer": "",
+          "correct_answer": "अम्ल और क्षार के मिलने से लवण और जल बनना उदासीनीकरण है।",
           "imgUrl": "",
           "explanation": "जब अम्ल और क्षार आपस में क्रिया करके लवण और जल बनाते हैं, तो उसे उदासीनीकरण अभिक्रिया कहते हैं। उदाहरण: $\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$।"
         }
@@ -87,11 +73,11 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "3_b",
             "statement": "बेकिंग सोडा और प्लास्टर ऑफ पेरिस के रासायनिक नाम एवं सूत्र लिखिए।",
-            "correct_answer": "",
+            "correct_answer": "बेकिंग सोडा ($\\text{NaHCO}_3$), प्लास्टर ऑफ पेरिस ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)।",
             "imgUrl": "",
-            "explanation": "बेकिंग सोडा: सोडियम हाइड्रोजन कार्बोनेट ($\\text{NaHCO}_3$); प्लास्टर ऑफ पेरिस: कैसियम सल्फेट अर्द्धहाइड्रेट ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)।"
+            "explanation": "बेकिंग सोडा: सोडियम हाइड्रोजन कार्बोनेट ($\\text{NaHCO}_3$); प्लास्टर ऑफ पेरिस: कैल्सियम सल्फेट अर्द्धहाइड्रेट ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)।"
           }
         ]
       }
