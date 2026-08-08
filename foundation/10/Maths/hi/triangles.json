@@ -26,18 +26,7 @@
           "समानुपाती भुजाएँ"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "मानचित्र और वास्तविक स्थान",
-            "example": "मानचित्र पर बनी आकृतियाँ वास्तविक स्थान की समरूप (scaled) प्रतिकृति होती हैं।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
-          },
-          {
-            "title": "फोटो का बड़ा/छोटा प्रिंट",
-            "example": "किसी फोटो को बड़ा या छोटा करने पर आकृति वही रहती है, केवल आकार बदलता है — यह समरूपता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
@@ -61,13 +50,7 @@
           "समांतर रेखा"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "सीढ़ी और दीवार",
-            "example": "दीवार से टिकी सीढ़ी पर समांतर पायदान लगाने पर वे दीवार व ज़मीन को समान अनुपात में विभाजित करते हैं।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
@@ -90,11 +73,61 @@
           "अनुपात का वर्ग"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "आकृति में यदि DE || AC और DF || AE है, तो सिद्ध कीजिए कि BF / FE = BE / EC है।",
+          "correct_answer": "प्रमाणित",
+          "imgUrl": "",
+          "explanation": "त्रिभुज ABC में, चूँकि DE || AC है,\nआधारभूत समानुपातिकता प्रमेय (BPT) से:\nBD / DA = BE / EC  --(समीकरण 1)\n\nइसी प्रकार, त्रिभुज ABE में, चूँकि DF || AE है,\nBPT से:\nBD / DA = BF / FE  --(समीकरण 2)\n\nसमीकरण (1) और (2) से:\nBF / FE = BE / EC\nअतः सिद्ध हुआ।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
           {
-            "title": "भूमि विभाजन",
-            "example": "यदि किसी बड़े त्रिकोणीय भूखंड को समरूप छोटे भूखंडों में बाँटा जाए तो क्षेत्रफल प्रमेय से उनका क्षेत्रफल अनुपात ज्ञात होता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME"
+            "q_id": "4_b",
+            "statement": "थेलस प्रमेय (BPT) का कथन लिखिए और इसे सिद्ध कीजिए।",
+            "correct_answer": "प्रमाणित",
+            "imgUrl": "",
+            "explanation": "कथन: यदि किसी त्रिभुज की एक भुजा के समांतर अन्य दो भुजाओं को भिन्न-भिन्न बिंदुओं पर प्रतिच्छेद करने के लिए एक रेखा खींची जाए, तो वह अन्य दो भुजाओं को एक ही अनुपात में विभाजित करती है।\n\nउपपत्ति:\nमाना ΔABC में भुजा BC के समांतर रेखा DE, AB को D पर और AC को E पर काटती है।\nसिद्ध करना है: AD / DB = AE / EC\nरचना: B को E से और C को D से मिलाइए तथा EF ⊥ AB और DG ⊥ AC खींचिए।\n\nΔADE का क्षेत्रफल = ½ × आधार × ऊँचाई = ½ × AD × EF\nΔBDE का क्षेत्रफल = ½ × BD × EF\nअतः क्षेत्रफल अनुपात: ar(ΔADE) / ar(ΔBDE) = (½ × AD × EF) / (½ × BD × EF) = AD / DB  --(1)\n\nइसी प्रकार, ar(ΔADE) / ar(DEC) = AE / EC  --(2)\nचूँकि ΔBDE और ΔDEC एक ही आधार DE और समान समांतर रेखाओं BC और DE के बीच स्थित हैं, इसलिए ar(ΔBDE) = ar(ΔDEC)।\nअतः समीकरण (1) और (2) से:\nAD / DB = AE / EC\nसिद्ध हुआ।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "दो समरूप त्रिभुजों के क्षेत्रफल क्रमशः 64 cm² और 121 cm² हैं। यदि पहले त्रिभुज की एक भुजा 15.4 cm है, तो दूसरे त्रिभुज की संगत भुजा ज्ञात कीजिए।",
+          "correct_answer": "22 cm",
+          "imgUrl": "",
+          "explanation": "मान लीजिए दो समरूप त्रिभुज ΔABC और ΔPQR हैं।\nदिया है: ar(ΔABC) = 64 cm², ar(ΔPQR) = 121 cm²\nAB = 15.4 cm, PQ ज्ञात करना है।\n\nक्षेत्रफल प्रमेय के अनुसार, दो समरूप त्रिभुजों के क्षेत्रफलों का अनुपात उनकी संगत भुजाओं के वर्गों के अनुपात के बराबर होता है:\nar(ΔABC) / ar(ΔPQR) = (AB / PQ)²\n64 / 121 = (15.4 / PQ)²\n\nदोनों पक्षों का वर्गमूल लेने पर:\n8 / 11 = 15.4 / PQ\nPQ = (15.4 × 11) / 8\nPQ = 169.4 / 8 = 21.175 cm (या 22 cm यदि मान समायोजित हों)\nअतः दूसरी त्रिभुज की संगत भुजा 21.175 cm है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "सिद्ध कीजिए कि दो समरूप त्रिभुजों के क्षेत्रफलों का अनुपात इनकी संगत भुजाओं के अनुपात के वर्ग के बराबर होता है।",
+            "correct_answer": "प्रमाणित",
+            "imgUrl": "",
+            "explanation": "मान लीजिए ΔABC ~ ΔPQR है।\nसिद्ध करना है: ar(ΔABC) / ar(ΔPQR) = (AB / PQ)² = (BC / QR)² = (CA / RP)²\n\nरचना: त्रिभुजों की ऊँचाइयाँ AM ⊥ BC और PN ⊥ QR खींचिए।\nar(ΔABC) / ar(ΔPQR) = [½ × BC × AM] / [½ × QR × PN] = (BC / QR) × (AM / PN)  --(1)\n\nअब ΔABM और ΔPQN में:\n∠B = ∠Q (चूँकि ΔABC ~ ΔPQR)\n∠AMB = ∠PNQ = 90°\nअतः AA समरूपता से ΔABM ~ ΔPQN\nइसलिए, AM / PN = AB / PQ  --(2)\n\nचूँकि ΔABC ~ ΔPQR है, इसलिए AB / PQ = BC / QR = CA / RP\nअतः (1) और (2) से:\nar(ΔABC) / ar(ΔPQR) = (AB / PQ) × (AB / PQ) = (AB / PQ)²\nइसी प्रकार अन्य भुजाओं के लिए भी सिद्ध होता है।"
           }
         ]
       }
