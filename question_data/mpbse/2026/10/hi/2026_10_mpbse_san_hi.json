@@ -565,7 +565,6 @@
         ]
       }
     },
-    [
       {
         "question_number": "11",
         "question_type": "FILL_IN_THE_BLANK",
@@ -729,8 +728,7 @@
             "explanation": "शुचिपर्यावरणपाठे वर्णितम् यत् प्राकृतिक-वातावरणे क्षणमात्रं भ्रमणम् 'अपि' स्वास्थ्याय लाभदायकं भवति।"
           }
         ]
-      }
-    ],
+      },
     {
       "question_number": "13",
       "question_type": "DESCRIPTIVE",
