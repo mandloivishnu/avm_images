@@ -612,6 +612,8 @@
             "q_id": "",
             "statement": "आनुवंशिकता की प्रथम पीढ़ी (F₁) का रेखा चित्र बनाइए।",
             "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl":"https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/aanuvanshikta.png",
             "explanation": "शुद्ध लक्षणों वाले दो जनकों के संकरण से प्राप्त संतति प्रथम पीढ़ी (F₁) कहलाती है।\nF₁ पीढ़ी में केवल प्रमुख लक्षण प्रकट होता है।"
           }
         ]
