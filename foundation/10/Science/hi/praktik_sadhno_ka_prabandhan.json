@@ -27,28 +27,21 @@
           "वर्षा जल संचयन",
           "वन संरक्षण"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "कागज और प्लास्टिक का पुनर्चक्रण (Recycling)",
-            "example": "पुरानी प्लास्टिक और कागजों को रीसाइक्लिंग करके नए उपयोगी उत्पाद बनाना 3R सिद्धांत का हिस्सा है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.5net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/3r_principle_example.html"
-          }
-        ]
+        "imgUrl": "",
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "2",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: प्राकृतिक संसाधनों का प्रबंधन एवं 3R सिद्धांत",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "2_a",
           "statement": "पर्यावरण बचाने के लिए '3R' सिद्धांत क्या है? इसे उदाहरण सहित समझाइए।",
-          "correct_answer": "",
+          "correct_answer": "3R का अर्थ कम उपयोग, पुनः उपयोग और पुनर्चक्रण है।",
           "imgUrl": "",
           "explanation": "3R का अर्थ है: 1. Reduce (कम उपयोग): आवश्यकता न होने पर वस्तुओं का कम उपयोग करना (जैसे बिजली या पानी बचाना)। 2. Reuse (पुनः उपयोग): एक ही वस्तु को बार-बार काम में लेना (जैसे जैम की खाली शीशियों में अचार रखना)। 3. Recycle (पुनर्चक्रण): प्लास्टिक, कागज या कांच के कचरे से नए उत्पाद तैयार करना।"
         }
@@ -57,9 +50,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "2_b",
             "statement": "वर्षा जल संचयन (Rainwater Harvesting) से क्या लाभ है? वन संरक्षण क्यों आवश्यक है?",
-            "correct_answer": "",
+            "correct_answer": "वर्षा जल संचयन भूजल स्तर बढ़ाता है, और वन संरक्षण पर्यावरण संतुलन के लिए आवश्यक है।",
             "imgUrl": "",
             "explanation": "वर्षा जल संचयन द्वारा छतों या मैदानों का पानी संग्रहित करके भूमिगत जल स्तर को बढ़ाया जाता है, जिससे जल संकट दूर होता है। वन संरक्षण इसलिए आवश्यक है क्योंकि वन जैव विविधता के आधार हैं, वर्षा लाते हैं और पर्यावरण को संतुलित रखते हैं।"
           }
