@@ -28,14 +28,7 @@
           "खट्टे"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "नींबू और संतरे का रस",
-            "example": "इनमें साइट्रिक अम्ल पाया जाता है जो स्वाद में खट्टा होता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/nimbu_aml.html"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
@@ -60,14 +53,7 @@
           "कड़वे"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "खाने का सोडा (बेकिंग सोडा)",
-            "example": "यह एक प्रकार का क्षार है जो स्पर्श में चिकना और स्वाद में कड़वा होता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/baking_soda.html"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
@@ -91,27 +77,20 @@
           "गंधी संकेतक"
         ],
         "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-        "realLifeExamples": [
-          {
-            "title": "हल्दी का दाग साबुन से लाल होना",
-            "example": "कपड़े पर लगे हल्दी के पीले दाग पर क्षारीय साबुन लगाने से वह लाल भूरा हो जाता है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/images/haldi_indicator.html"
-          }
-        ]
+        "realLifeExamples1": []
       }
     },
     {
-      "question_number": "",
+      "question_number": "4",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: अम्ल के गुण",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "4_a",
           "statement": "अम्ल किसे कहते हैं? अम्लों के कोई तीन प्रमुख भौतिक एवं रासायनिक गुण लिखिए।",
-          "correct_answer": "",
+          "correct_answer": "अम्ल खट्टे होते हैं और H+ आयन देते हैं।",
           "imgUrl": "",
           "explanation": "अम्ल वे पदार्थ हैं जो स्वाद में खट्टे होते हैं और जलीय विलयन में हाइड्रोजन आयन ($\\text{H}^+$) देते हैं। प्रमुख गुण: 1. ये नीले लिटमस पत्र को लाल कर देते हैं। 2. इनका pH मान 7 से कम होता है। 3. ये धातुओं से क्रिया करके हाइड्रोजन गैस मुक्त करते हैं।"
         }
@@ -120,9 +99,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "4_b",
             "statement": "प्रबल अम्ल और दुर्बल अम्ल में क्या अंतर है? एक-एक उदाहरण दीजिए।",
-            "correct_answer": "",
+            "correct_answer": "प्रबल अम्ल (HCl), दुर्बल अम्ल (CH3COOH)",
             "imgUrl": "",
             "explanation": "वे अम्ल जो जलीय विलयन में पूर्णतः आयनित होकर अधिक मात्रा में $\\text{H}^+$ आयन देते हैं, प्रबल अम्ल कहलाते हैं (जैसे- $\\text{HCl}$); जबकि जो आंशिक रूप से आयनित होते हैं, वे दुर्बल अम्ल कहलाते हैं (जैसे- $\\text{CH}_3\\text{COOH}$)।"
           }
@@ -130,16 +109,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "5",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: क्षार के गुण",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "5_a",
           "statement": "क्षार के प्रमुख गुणधर्म लिखिए तथा बताइए कि ये लिटमस पत्र पर क्या प्रभाव डालते हैं?",
-          "correct_answer": "",
+          "correct_answer": "क्षार लाल लिटमस को नीला करते हैं।",
           "imgUrl": "",
           "explanation": "क्षार के गुण: 1. ये स्वाद में कड़वे होते हैं। 2. स्पर्श करने पर साबुन जैसे चिकने प्रतीत होते हैं। 3. इनका जलीय विलयन हाइड्रॉक्साइड आयन ($\\text{OH}^-$) देता है। ये लाल लिटमस पत्र को नीला कर देते हैं और इनका pH मान 7 से अधिक होता है।"
         }
@@ -148,9 +127,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "5_b",
             "statement": "क्षार और क्षारक में क्या अंतर है? स्पष्ट कीजिए।",
-            "correct_answer": "",
+            "correct_answer": "जल में घुलनशील क्षारक को क्षार कहते हैं।",
             "imgUrl": "",
             "explanation": "सभी क्षारक जल में घुलनशील नहीं होते, परंतु जो क्षारक जल में पूर्णतः घुलनशील होते हैं उन्हें 'क्षार' (Alkali) कहा जाता है। अतः सभी क्षार क्षारक होते हैं, लेकिन सभी क्षारक क्षार नहीं होते।"
           }
@@ -158,16 +137,16 @@
       }
     },
     {
-      "question_number": "",
+      "question_number": "6",
       "question_type": "DESCRIPTIVE",
-      "marks": "",
+      "marks": "1",
       "word_limit": "",
       "text": "विषय: संकेतक",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "6_a",
           "statement": "संकेतक (Indicators) किसे कहते हैं? प्राकृतिक और संश्लेषित संकेतकों के दो-दो उदाहरण दीजिए।",
-          "correct_answer": "",
+          "correct_answer": "लिटमस, हल्दी, फेनोलफथलीन, मेथिल ऑरेंज",
           "imgUrl": "",
           "explanation": "संकेतक वे पदार्थ हैं जो किसी विलयन की अम्लीय या क्षारीय प्रकृति को अपने रंग या गंध में परिवर्तन करके दर्शाते हैं। प्राकृतिक संकेतक: लिटमस और हल्दी। संश्लेषित संकेतक: फेनोलफथलीन और मेथिल ऑरेंज।"
         }
@@ -176,9 +155,9 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "",
+            "q_id": "6_b",
             "statement": "गंधी (Olfactory) संकेतक क्या होते हैं? उदाहरण सहित समझाइए।",
-            "correct_answer": "",
+            "correct_answer": "प्याज का रस, वैनिला",
             "imgUrl": "",
             "explanation": "वे पदार्थ जिनकी गंध अम्लीय या क्षारीय माध्यम में बदल जाती है, उन्हें गंधी संकेतक कहते हैं। उदाहरण के लिए, प्याज का रस या वैनिला का अर्क, जिनका उपयोग अम्लीय या क्षारीय प्रकृति की पहचान करने के लिए किया जाता है।"
           }
