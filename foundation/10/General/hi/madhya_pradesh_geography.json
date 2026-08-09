@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "Madhya Pradesh Geography",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Madhya Pradesh Geography",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "मध्य प्रदेश की सबसे ऊँची चोटी कौन सी है? / Highest peak in Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "धूपगढ़ चोटी / Dhupgarh Peak" },
+            { "index": "B", "text": "अमरकंटक / Amarkantak" },
+            { "index": "C", "text": "सिद्धबाबा / Siddhababa" },
+            { "index": "D", "text": "गोविन्दगढ़ / Govindgarh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "धूपगढ़ चोटी / Dhupgarh Peak",
+          "explanation": "पचमढ़ी स्थित धूपगढ़ (1350 मीटर) सबसे ऊँची चोटी है। / Dhupgarh in Pachmarhi is the highest."
+        },
+        {
+          "q_id": "2",
+          "statement": "मध्य प्रदेश को किस नाम से पुकारा जाता है? / Nickname of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "हार्ट स्टेट / टाइगर स्टेट / Heart State & Tiger State" },
+            { "index": "B", "text": "मसालों का राज्य / Spice State" },
+            { "index": "C", "text": "देवभूमि / Land of Gods" },
+            { "index": "D", "text": "धान का कटोरा / Rice Bowl" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "हार्ट स्टेट / टाइगर स्टेट / Heart State & Tiger State",
+          "explanation": "मध्य में स्थित होने के कारण हार्ट स्टेट और बाघों की अधिकता से टाइगर स्टेट कहते हैं। / Known as Heart and Tiger State."
+        },
+        {
+          "q_id": "3",
+          "statement": "मध्य प्रदेश के कितने जिलों से कर्क रेखा गुजरती है? / Tropic of Cancer passes through how many districts of MP?",
+          "options": [
+            { "index": "A", "text": "14" },
+            { "index": "B", "text": "12" },
+            { "index": "C", "text": "16" },
+            { "index": "D", "text": "10" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "14",
+          "explanation": "कर्क रेखा MP के 14 जिलों से होकर गुजरती है। / Passes through 14 districts."
+        },
+        {
+          "q_id": "4",
+          "statement": "मध्य प्रदेश का एकमात्र हिल स्टेशन कौन सा है? / Only hill station in Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "पचमढ़ी / Pachmarhi" },
+            { "index": "B", "text": "अमरकंटक / Amarkantak" },
+            { "index": "C", "text": "मांडू / Mandu" },
+            { "index": "D", "text": "शिवपुरी / Shivpuri" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "पचमढ़ी / Pachmarhi",
+          "explanation": "पचमढ़ी सतपुड़ा की रानी के रूप में जाना जाने वाला एकमात्र हिल स्टेशन है। / Pachmarhi is the only hill station."
+        },
+        {
+          "q_id": "5",
+          "statement": "मध्य प्रदेश का क्षेत्रफल कितना है? / Total area of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "3,08,252 वर्ग किमी / 3,08,252 sq km" },
+            { "index": "B", "text": "3,42,239 वर्ग किमी / 3,42,239 sq km" },
+            { "index": "C", "text": "2,50,000 वर्ग किमी / 2,50,000 sq km" },
+            { "index": "D", "text": "3,50,000 वर्ग किमी / 3,50,000 sq km" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "3,08,252 वर्ग किमी / 3,08,252 sq km",
+          "explanation": "MP का कुल क्षेत्रफल 3,08,252 वर्ग किलोमीटर है। / Total area is 3,08,252 sq km."
+        },
+        {
+          "q_id": "6",
+          "statement": "क्षेत्रफल की दृष्टि से मध्य प्रदेश का देश में कौन सा स्थान है? / MP's rank in India by area?",
+          "options": [
+            { "index": "A", "text": "दूसरा / 2nd" },
+            { "index": "B", "text": "पहला / 1st" },
+            { "index": "C", "text": "तीसरा / 3rd" },
+            { "index": "D", "text": "चौथा / 4th" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "दूसरा / 2nd",
+          "explanation": "राजस्थान के बाद MP क्षेत्रफल में दूसरा सबसे बड़ा राज्य है। / MP is the 2nd largest state."
+        },
+        {
+          "q_id": "7",
+          "statement": "मध्य प्रदेश की सीमा कितने राज्यों को छूती है? / MP shares its border with how many states?",
+          "options": [
+            { "index": "A", "text": "5" },
+            { "index": "B", "text": "4" },
+            { "index": "C", "text": "6" },
+            { "index": "D", "text": "7" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "5",
+          "explanation": "MP की सीमा उत्तर प्रदेश, राजस्थान, गुजरात, महाराष्ट्र और छत्तीसगढ़ से लगती है। / Touches 5 states."
+        },
+        {
+          "q_id": "8",
+          "statement": "मध्य प्रदेश का सबसे बड़ा पठार कौन सा है? / Largest plateau in Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "मालवा का पठार / Malwa Plateau" },
+            { "index": "B", "text": "बुंदेलखंड का पठार / Bundelkhand Plateau" },
+            { "index": "C", "text": "बघेलखंड का पठार / Baghelkhand Plateau" },
+            { "index": "D", "text": "रीवा पन्ना का पठार / Rewa-Panna Plateau" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मालवा का पठार / Malwa Plateau",
+          "explanation": "मालवा का पठार राज्य का सबसे बड़ा भौतिक प्रदेश है। / Malwa Plateau is the largest."
+        },
+        {
+          "q_id": "9",
+          "statement": "बुंदेलखंड पठार की सबसे ऊँची चोटी कौन सी है? / Highest peak of Bundelkhand Plateau?",
+          "options": [
+            { "index": "A", "text": "सिद्धबाबा चोटी / Siddhababa Peak" },
+            { "index": "B", "text": "धूपगढ़ / Dhupgarh" },
+            { "index": "C", "text": "जनापाव / Janapav" },
+            { "index": "D", "text": "शिकारगढ़ / Shikargarh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सिद्धबाबा चोटी / Siddhababa Peak",
+          "explanation": "सिद्धबाबा बुंदेलखंड पठार की सर्वोच्च चोटी है। / Siddhababa is the highest in Bundelkhand."
+        },
+        {
+          "q_id": "10",
+          "statement": "मध्य प्रदेश का न्यूनतम क्षेत्रफल वाला जिला कौन सा है? / Smallest district of MP by area?",
+          "options": [
+            { "index": "A", "text": "निवाड़ी / Niwari" },
+            { "index": "B", "text": "दतिया / Datia" },
+            { "index": "C", "text": "भोपाल / Bhopal" },
+            { "index": "D", "text": "आगर मालवा / Agar Malwa" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "निवाड़ी / Niwari",
+          "explanation": "निवाड़ी क्षेत्रफल और जनसंख्या दोनों दृष्टि से सबसे छोटा जिला है। / Niwari is the smallest district."
+        },
+        {
+          "q_id": "11",
+          "statement": "मध्य प्रदेश का सबसे बड़ा जिला क्षेत्रफल के आधार पर कौन सा है? / Largest district of MP by area?",
+          "options": [
+            { "index": "A", "text": "छिंदवाड़ा / Chhindwara" },
+            { "index": "B", "text": "शिवपुरी / Shivpuri" },
+            { "index": "C", "text": "सागर / Sagar" },
+            { "index": "D", "text": "बैतूल / Betul" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "छिंदवाड़ा / Chhindwara",
+          "explanation": "छिंदवाड़ा क्षेत्रफल की दृष्टि से सबसे बड़ा जिला है। / Chhindwara is the largest district."
+        },
+        {
+          "q_id": "12",
+          "statement": "मध्य प्रदेश की पूर्व से पश्चिम की चौड़ाई कितनी है? / East-to-west width of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "870 किमी / 870 km" },
+            { "index": "B", "text": "605 किमी / 605 km" },
+            { "index": "C", "text": "900 किमी / 900 km" },
+            { "index": "D", "text": "750 किमी / 750 km" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "870 किमी / 870 km",
+          "explanation": "पूर्व से पश्चिम विस्तार 870 किमी है (उत्तर से दक्षिण 605 किमी)। / East-west distance is 870 km."
+        },
+        {
+          "q_id": "13",
+          "statement": "मध्य प्रदेश की उत्तर से दक्षिण की लंबाई कितनी है? / North-to-south length of MP?",
+          "options": [
+            { "index": "A", "text": "605 किमी / 605 km" },
+            { "index": "B", "text": "870 किमी / 870 km" },
+            { "index": "C", "text": "500 किमी / 500 km" },
+            { "index": "D", "text": "700 किमी / 700 km" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "605 किमी / 605 km",
+          "explanation": "उत्तर से दक्षिण लंबाई 605 किमी है। / North-south length is 605 km."
+        },
+        {
+          "q_id": "14",
+          "statement": "मध्य प्रदेश का कौन सा जिला छत्तीसगढ़ और उत्तर प्रदेश दोनों की सीमा छूता है? / District touching both UP and Chhattisgarh?",
+          "options": [
+            { "index": "A", "text": "सिंगरौली / Singrauli" },
+            { "index": "B", "text": "बालाघाट / Balaghat" },
+            { "index": "C", "text": "सीधी / Sidhi" },
+            { "index": "D", "text": "अनूपपुर / Anuppur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सिंगरौली / Singrauli",
+          "explanation": "सिंगरौली जिला उत्तर प्रदेश और छत्तीसगढ़ दोनों से सीमा बनाता है। / Singrauli touches both."
+        },
+        {
+          "q_id": "15",
+          "statement": "मध्य प्रदेश का कौन सा जिला राजस्थान और गुजरात दोनों से सीमा बनाता है? / District touching Rajasthan and Gujarat?",
+          "options": [
+            { "index": "A", "text": "झाबुआ / Jhabua" },
+            { "index": "B", "text": "अलीराजपुर / Alirajpur" },
+            { "index": "C", "text": "मंदसौर / Mandsaur" },
+            { "index": "D", "text": "नीमच / Neemuch" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "झाबुआ / Jhabua",
+          "explanation": "झाबुआ जिला राजस्थान और गुजरात दोनों राज्यों से सटा है। / Jhabua touches both states."
+        },
+        {
+          "q_id": "16",
+          "statement": "सतपुड़ा श्रेणी की सबसे ऊँची चोटी कौन सी है? / Highest peak of Satpura range?",
+          "options": [
+            { "index": "A", "text": "धूपगढ़ / Dhupgarh" },
+            { "index": "B", "text": "अमरकंटक / Amarkantak" },
+            { "index": "C", "text": "राजपीपला / Rajpipla" },
+            { "index": "D", "text": "महादेव / Mahadeo" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "धूपगढ़ / Dhupgarh",
+          "explanation": "सतपुड़ा पर्वत श्रेणी की सर्वोच्च चोटी धूपगढ़ है। / Dhupgarh is the highest in Satpura."
+        },
+        {
+          "q_id": "17",
+          "statement": "मध्य प्रदेश का कौन सा क्षेत्र 'गेहूं का भंडार' कहलाता है? / Region known as 'Wheat Bowl of MP'?",
+          "options": [
+            { "index": "A", "text": "मालवा का पठार / Malwa Plateau" },
+            { "index": "B", "text": "चंबल घाटी / Chambal Valley" },
+            { "index": "C", "text": "बघेलखंड / Baghelkhand" },
+            { "index": "D", "text": "निमाड़ / Nimar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मालवा का पठार / Malwa Plateau",
+          "explanation": "गेहूं के भारी उत्पादन के कारण मालवा को गेहूं का भंडार कहते हैं। / Malwa is called wheat bowl."
+        },
+        {
+          "q_id": "18",
+          "statement": "मध्य प्रदेश की जलवायु किस प्रकार की है? / Climate type of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "मानसूनी जलवायु (उष्णकटिबंधीय) / Tropical Monsoon" },
+            { "index": "B", "text": "भूमध्यसागरीय / Mediterranean" },
+            { "index": "C", "text": "शीतोष्ण / Temperate" },
+            { "index": "D", "text": "रेगistani / Desert" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मानसूनी जलवायु (उष्णकटिबंधीय) / Tropical Monsoon",
+          "explanation": "MP की जलवायु उष्णकटिबंधीय मानसूनी है। / MP has a tropical monsoon climate."
+        },
+        {
+          "q_id": "19",
+          "statement": "मध्य प्रदेश में सर्वाधिक वर्षा किस मानसून से होती है? / Maximum rainfall in MP is from which monsoon?",
+          "options": [
+            { "index": "A", "text": "दक्षिण-पश्चिम मानसून / Southwest Monsoon" },
+            { "index": "B", "text": "उत्तर-पूर्वी मानसून / Northeast Monsoon" },
+            { "index": "C", "text": "भूमध्यसागरीय विक्षोभ / Western Disturbances" },
+            { "index": "D", "text": "कालचक्र / Kalchakra" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "दक्षिण-पश्चिम मानसून / Southwest Monsoon",
+          "explanation": "अधिकांश वर्षा दक्षिण-पश्चिम मानसून से होती है। / Southwest monsoon brings most rain."
+        },
+        {
+          "q_id": "20",
+          "statement": "मध्य प्रदेश में सबसे कम वर्षा वाला स्थान कौन सा है? / Lowest rainfall place in MP?",
+          "options": [
+            { "index": "A", "text": "गोहद (भाइंड / भिंड) / Gohad (Bhind)" },
+            { "index": "B", "text": "शिवपुरी / Shivpuri" },
+            { "index": "C", "text": "मुरैना / Morena" },
+            { "index": "D", "text": "ग्वालियर / Gwalior" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गोहद (भाइंड / भिंड) / Gohad (Bhind)",
+          "explanation": "भिंड जिले का गोहद सबसे कम वर्षा वाला क्षेत्र है। / Gohad in Bhind is the lowest rainfall area."
+        },
+        {
+          "q_id": "21",
+          "statement": "मध्य प्रदेश का सबसे गर्म स्थान कौन सा है? / Hottest place in Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "गोटेगांव / खजुराहो (विशेषकर विदिशा/गंजबासौदा) / Ganjbasoda" },
+            { "index": "B", "text": "भोपाल / Bhopal" },
+            { "index": "C", "text": "इंदौर / Indore" },
+            { "index": "D", "text": "जबलपुर / Jabalpur"
+          ],
+          "correct_index": "A",
+          "correct_answer": "गोटेगांव / खजुराहो (विशेषकर विदिशा/गंजबासौदा) / Ganjbasoda",
+          "explanation": "गंजबासौदा (विदिशा) सबसे अधिक तापमान वाला क्षेत्र दर्ज किया गया है। / Ganjbasoda is the hottest."
+        },
+        {
+          "q_id": "22",
+          "statement": "मध्य प्रदेश में वनों का राष्ट्रीयकरण सबसे पहले कब हुआ था? / Nationalization of forests in MP first happened in?",
+          "options": [
+            { "index": "A", "text": "1970 (तेंदू पत्ता/वनोपज)" },
+            { "index": "B", "text": "1956" },
+            { "index": "C", "text": "1980" },
+            { "index": "D", "text": "1965" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1970 (तेंदू पत्ता/वनोपज)",
+          "explanation": "1970 में वनोपज (जैसे तेंदू पत्ता) का राष्ट्रीयकरण करने वाला MP पहला राज्य था। / Nationalized in 1970."
+        },
+        {
+          "q_id": "23",
+          "statement": "मध्य प्रदेश का क्षेत्रफल देश के कुल क्षेत्रफल का कितना प्रतिशत है? / MP's area as a percentage of India's total area?",
+          "options": [
+            { "index": "A", "text": "9.38%" },
+            { "index": "B", "text": "7.5%" },
+            { "index": "C", "text": "10.5%" },
+            { "index": "D", "text": "8.2%" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "9.38%",
+          "explanation": "MP का कुल क्षेत्रफल भारत का 9.38% हिस्सा है। / It constitutes 9.38% of India."
+        },
+        {
+          "q_id": "24",
+          "statement": "मध्य प्रदेश के किस जिले से कर्क रेखा प्रवेश करती है और निकलती है (पश्चिम से पूर्व)? / Districts through which Tropic of Cancer enters and leaves MP?",
+          "options": [
+            { "index": "A", "text": "रतलाम से प्रवेश, शहडोल से निकास / Ratlam to Shahdol" },
+            { "index": "B", "text": "झाबुआ से प्रवेश, सिंगरौली से निकास / Jhabua to Singrauli" },
+            { "index": "C", "text": "उज्जैन से प्रवेश, जबलपुर से निकास" },
+            { "index": "D", "text": "आगर से प्रवेश, सागर से निकास" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रतलाम से प्रवेश, शहडोल से निकास / Ratlam to Shahdol",
+          "explanation": "रतलाम से प्रवेश कर यह पूर्व की ओर शहडोल/सिंगरौली तक जाती है।"
+        },
+        {
+          "q_id": "25",
+          "statement": "मध्य प्रदेश की सीमा किस राज्य के साथ सबसे लंबी है? / MP shares longest border with which state?",
+          "options": [
+            { "index": "A", "text": "उत्तर प्रदेश / Uttar Pradesh" },
+            { "index": "B", "text": "राजस्थान / Rajasthan" },
+            { "index": "C", "text": "महाराष्ट्र / Maharashtra" },
+            { "index": "D", "text": "छत्तीसगढ़ / Chhattisgarh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "उत्तर प्रदेश / Uttar Pradesh",
+          "explanation": "MP की सबसे लंबी सीमा उत्तर प्रदेश के साथ लगती है। / Longest border is with UP."
+        },
+        {
+          "q_id": "26",
+          "statement": "मध्य प्रदेश की सीमा किस राज्य के साथ सबसे छोटी है? / MP shares shortest border with which state?",
+          "options": [
+            { "index": "A", "text": "गुजरात / Gujarat" },
+            { "index": "B", "text": "राजस्थान / Rajasthan" },
+            { "index": "C", "text": "महाराष्ट्र / Maharashtra" },
+            { "index": "D", "text": "छत्तीसगढ़ / Chhattisgarh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गुजरात / Gujarat",
+          "explanation": "गुजरात के साथ MP की सीमा सबसे छोटी है। / Shortest border is with Gujarat."
+        },
+        {
+          "q_id": "27",
+          "statement": "मध्य प्रदेश में रेहड़ और काली मिट्टी मुख्य रूप से कहाँ पाई जाती है? / Black soil is predominantly found in?",
+          "options": [
+            { "index": "A", "text": "मालवा का पठार / Malwa Plateau" },
+            { "index": "B", "text": "बघेलखंड / Baghelkhand" },
+            { "index": "C", "text": "चंबल घाटी / Chambal Valley" },
+            { "index": "D", "text": "बुंदेलखंड / Bundelkhand" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मालवा का पठार / Malwa Plateau",
+          "explanation": "मालवा क्षेत्र काली मिट्टी (Regur soil) के लिए प्रसिद्ध है। / Malwa has rich black soil."
+        },
+        {
+          "q_id": "28",
+          "statement": "मध्य प्रदेश के किस पठार को 'चंबल का उपजाऊ मैदान' भी कहा जाता है? / Region known for ravines and Chambal valley?",
+          "options": [
+            { "index": "A", "text": "मध्य भारत का पठार / Madhya Bharat Plateau" },
+            { "index": "B", "text": "रीवा पन्ना पठार / Rewa Panna Plateau" },
+            { "index": "C", "text": "नर्मदा घाटी / Narmada Valley" },
+            { "index": "D", "text": "सतपुड़ा मेकल श्रेणी / Satpura Maikal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मध्य भारत का पठार / Madhya Bharat Plateau",
+          "explanation": "मध्य भारत पठार चंबल बीहड़ों के लिए जाना जाता है। / Known for Chambal ravines."
+        },
+        {
+          "q_id": "29",
+          "statement": "मध्य प्रदेश का सबसे कम साक्षरता वाला जिला कौन सा है? / Lowest literacy district in MP?",
+          "options": [
+            { "index": "A", "text": "अलीराजपुर / Alirajpur" },
+            { "index": "B", "text": "झाबुआ / Jhabua" },
+            { "index": "C", "text": "बड़वानी / Barwani" },
+            { "index": "D", "text": "धार / Dhar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "अलीराजपुर / Alirajpur",
+          "explanation": "अलीराजपुर की साक्षरता दर सबसे कम है। / Alirajpur has the lowest literacy rate."
+        },
+        {
+          "q_id": "30",
+          "statement": "मध्य प्रदेश का सर्वाधिक साक्षरता वाला जिला कौन सा है? / Highest literacy district in MP?",
+          "options": [
+            { "index": "A", "text": "जबलपुर / Jabalpur" },
+            { "index": "B", "text": "इंदौर / Indore" },
+            { "index": "C", "text": "भोपाल / Bhopal" },
+            { "index": "D", "text": "ग्वालियर / Gwalior" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जबलपुर / Jabalpur",
+          "explanation": "जबलपुर जिला मध्य प्रदेश में सर्वाधिक साक्षर है। / Jabalpur has the highest literacy."
+        }
+      ]
+    }
+  ]
+}

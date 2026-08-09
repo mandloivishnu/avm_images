@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "History of India",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "History of India",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "मौर्य साम्राज्य के संस्थापक कौन थे? / Who was the founder of the Maurya Empire?",
+          "options": [
+            { "index": "A", "text": "चन्द्रगुप्त मौर्य / Chandragupta Maurya" },
+            { "index": "B", "text": "अशोक / Ashoka" },
+            { "index": "C", "text": "बिन्दुसार / Bindusara" },
+            { "index": "D", "text": "समुद्रगुप्त / Samudragupta" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चन्द्रगुप्त मौर्य / Chandragupta Maurya",
+          "explanation": "चन्द्रगुप्त मौर्य ने चाणक्य की सहायता से नंद वंश को समाप्त कर मौर्य साम्राज्य की स्थापना की। / Chandragupta Maurya founded the Maurya Empire."
+        },
+        {
+          "q_id": "2",
+          "statement": "सिंधु घाटी सभ्यता का कौन सा स्थल एक प्राचीन बंदरगाह (Dockyard) था? / Which Indus Valley site was an ancient port?",
+          "options": [
+            { "index": "A", "text": "लोथल / Lothal" },
+            { "index": "B", "text": "हड़प्पा / Harappa" },
+            { "index": "C", "text": "मोहनजोदड़ो / Mohenjo-daro" },
+            { "index": "D", "text": "कालीबंगा / Kalibangan" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "लोथल / Lothal",
+          "explanation": "गुजरात में स्थित लोथल एक प्रमुख सिंधु घाटी बंदरगाह था। / Lothal in Gujarat was an ancient port town."
+        },
+        {
+          "q_id": "3",
+          "statement": "बुद्ध ने अपना पहला उपदेश कहाँ दिया था? / Where did Gautam Buddha deliver his first sermon?",
+          "options": [
+            { "index": "A", "text": "सारनाथ / Sarnath" },
+            { "index": "B", "text": "बोधगया / Bodh Gaya" },
+            { "index": "C", "text": "कुशीनगर / Kushinagar" },
+            { "index": "D", "text": "लुंबिनी / Lumbini" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सारनाथ / Sarnath",
+          "explanation": "महात्मा बुद्ध ने सारनाथ में पहला उपदेश (धम्मचक्र प्रवर्तन) दिया था। / Buddha gave his first sermon at Sarnath."
+        },
+        {
+          "q_id": "4",
+          "statement": "पानीपत का प्रथम युद्ध किस वर्ष लड़ा गया था? / In which year was the First Battle of Panipat fought?",
+          "options": [
+            { "index": "A", "text": "1526" },
+            { "index": "B", "text": "1556" },
+            { "index": "C", "text": "1761" },
+            { "index": "D", "text": "1192" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1526",
+          "explanation": "बाबर और इब्राहिम लोदी के बीच 1526 में पानीपत का पहला युद्ध हुआ। / First Battle of Panipat was in 1526."
+        },
+        {
+          "q_id": "5",
+          "statement": "सम्राट अशोक ने कलिंग युद्ध के बाद किस धर्म को अपना लिया था? / Which religion did Ashoka adopt after the Kalinga war?",
+          "options": [
+            { "index": "A", "text": "बौद्ध धर्म / Buddhism" },
+            { "index": "B", "text": "जैन धर्म / Jainism" },
+            { "index": "C", "text": "वैष्णव धर्म / Vaishnavism" },
+            { "index": "D", "text": "शैव धर्म / Shaivism" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बौद्ध धर्म / Buddhism",
+          "explanation": "कलिंग के रक्तपात से विचलित होकर अशोक ने बौद्ध धर्म की दीक्षा ली। / Ashoka embraced Buddhism after Kalinga."
+        },
+        {
+          "q_id": "6",
+          "statement": "गुप्त वंश का संस्थापक कौन था? / Who was the founder of the Gupta Dynasty?",
+          "options": [
+            { "index": "A", "text": "श्रीगुप्त / Sri Gupta" },
+            { "index": "B", "text": "चंद्रगुप्त प्रथम / Chandragupta I" },
+            { "index": "C", "text": "समुद्रगुप्त / Samudragupta" },
+            { "index": "D", "text": "स्कंदगुप्त / Skandagupta" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "श्रीगुप्त / Sri Gupta",
+          "explanation": "गुप्त राजवंश की स्थापना श्रीगुप्त द्वारा की गई थी। / Gupta dynasty was founded by Sri Gupta."
+        },
+        {
+          "q_id": "7",
+          "statement": "भारत का नेपोलियन किसे कहा जाता है? / Who is known as the 'Napoleon of India'?",
+          "options": [
+            { "index": "A", "text": "समुद्रगुप्त / Samudragupta" },
+            { "index": "B", "text": "चंद्रगुप्त विक्रमादित्य / Chandragupta Vikramaditya" },
+            { "index": "C", "text": "अशोक / Ashoka" },
+            { "index": "D", "text": "कनिष्क / Kanishka" }
+          ],
+            "correct_index": "A",
+          "correct_answer": "समुद्रगुप्त / Samudragupta",
+          "explanation": "इतिहासकार विंसेंट स्मिथ ने समुद्रगुप्त को भारत का नेपोलियन कहा है। / Samudragupta is called Napoleon of India."
+        },
+        {
+          "q_id": "8",
+          "statement": "हर्षवर्धन के शासनकाल में कौन सा चीनी यात्री भारत आया था? / Which Chinese traveler visited India during Harshavardhana's reign?",
+          "options": [
+            { "index": "A", "text": "ह्वेनसांग (Hiuen Tsang) / Hiuen Tsang" },
+            { "index": "B", "text": "फाह्यान (Fahein) / Fa Hien" },
+            { "index": "C", "text": "इत्सिंग / I-tsing" },
+            { "index": "D", "text": "मैगस्थनीज / Megasthenes" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "ह्वेनसांग (Hiuen Tsang) / Hiuen Tsang",
+          "explanation": "हर्षवर्धन के काल में ह्वेनसांग भारत आया था। / Hiuen Tsang visited during Harsha's reign."
+        },
+        {
+          "q_id": "9",
+          "statement": "तराइन का प्रथम युद्ध किस वर्ष हुआ था? / In which year was the First Battle of Tarain fought?",
+          "options": [
+            { "index": "A", "text": "1191" },
+            { "index": "B", "text": "1192" },
+            { "index": "C", "text": "1206" },
+            { "index": "D", "text": "1398" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1191",
+          "explanation": "पृथ्वीराज चौहान और मोहम्मद गोरी के बीच 1191 में तराइन का प्रथम युद्ध हुआ। / First Battle of Tarain was in 1191."
+        },
+        {
+          "q_id": "10",
+          "statement": "दिल्ली सल्तनत की स्थापना किसने की थी? / Who founded the Delhi Sultanate?",
+          "options": [
+            { "index": "A", "text": "कुतुबुद्दीन ऐबक / Qutb-ud-din Aibak" },
+            { "index": "B", "text": "इल्तुतमिश / Iltutmish" },
+            { "index": "C", "text": "अलाउद्दीन खिलजी / Alauddin Khilji" },
+            { "index": "D", "text": "गियासद्दीन बलबन / Balban" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कुतुबुद्दीन ऐबक / Qutb-ud-din Aibak",
+          "explanation": "1206 में कुतुबुद्दीन ऐबक ने गुलाम वंश और दिल्ली सल्तनत की नींव रखी। / Qutb-ud-din Aibak founded Delhi Sultanate in 1206."
+        },
+        {
+          "q_id": "11",
+          "statement": "इब्नबतूता किसके शासनकाल में भारत आया था? / Ibn Battuta visited India during the reign of?",
+          "options": [
+            { "index": "A", "text": "मोहम्मद बिन तुगलक / Muhammad bin Tughluq" },
+            { "index": "B", "text": "अलाउद्दीन खिलजी / Alauddin Khilji" },
+            { "index": "C", "text": "अकबर / Akbar" },
+            { "index": "D", "text": "इल्तुतमिश / Iltutmish" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मोहम्मद बिन तुगलक / Muhammad bin Tughluq",
+          "explanation": "मोरक्को का यात्री इब्नबतूता मोहम्मद बिन तुगलक के समय आया था। / Ibn Battuta visited during Tughluq's reign."
+        },
+        {
+          "q_id": "12",
+          "statement": "विजयनगर साम्राज्य की स्थापना किसने की थी? / Who founded the Vijayanagara Empire?",
+          "options": [
+            { "index": "A", "text": "हरिहर और बुक्का / Harihara and Bukka" },
+            { "index": "B", "text": "कृष्णदेव राय / Krishnadevaraya" },
+            { "index": "C", "text": "देव राय प्रथम / Deva Raya I" },
+            { "index": "D", "text": "राम राय / Rama Raya" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "हरिहर और बुक्का / Harihara and Bukka",
+          "explanation": "1336 ई. में हरिहर और बुक्का ने विजयनगर साम्राज्य की स्थापना की। / Founded by Harihara and Bukka in 1336."
+        },
+        {
+          "q_id": "13",
+          "statement": "अकबर का प्रसिद्ध वित्त मंत्री कौन था? / Who was the famous finance minister of Akbar?",
+          "options": [
+            { "index": "A", "text": "राजा टोडरमल / Todar Mal" },
+            { "index": "B", "text": "बीरबल / Birbal" },
+            { "index": "C", "text": "मानसिंह / Man Singh" },
+            { "index": "D", "text": "तानसेन / Tansen" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "राजा टोडरमल / Todar Mal",
+          "explanation": "राजा टोडरमल अकबर के नौ रत्नों में वित्त मंत्री थे। / Todar Mal managed the revenue system."
+        },
+        {
+          "q_id": "14",
+          "statement": "प्लासी का युद्ध किस वर्ष लड़ा गया था? / In which year was the Battle of Plassey fought?",
+          "options": [
+            { "index": "A", "text": "1757" },
+            { "index": "B", "text": "1764" },
+            { "index": "C", "text": "1857" },
+            { "index": "D", "text": "1761" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1757",
+          "explanation": "अंग्रेजों और सिराजुद्दौला के बीच 1757 में प्लासी का युद्ध हुआ। / Battle of Plassey was in 1757."
+        },
+        {
+          "q_id": "15",
+          "statement": "बक्सर का युद्ध कब लड़ा गया था? / When was the Battle of Buxar fought?",
+          "options": [
+            { "index": "A", "text": "1764" },
+            { "index": "B", "text": "1757" },
+            { "index": "C", "text": "1775" },
+            { "index": "D", "text": "1782" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1764",
+          "explanation": "बक्सर का युद्ध 1764 में लड़ा गया जिसने अंग्रेजों की सत्ता मजबूत की। / Battle of Buxar took place in 1764."
+        },
+        {
+          "q_id": "16",
+          "statement": "ब्रह्म समाज की स्थापना किसने की थी? / Who founded the Brahmo Samaj?",
+          "options": [
+            { "index": "A", "text": "राजा राममोहन राय / Raja Ram Mohan Roy" },
+            { "index": "B", "text": "स्वामी दयानंद सरस्वती / Dayanand Saraswati" },
+            { "index": "C", "text": "स्वामी विवेकानंद / Swami Vivekananda" },
+            { "index": "D", "text": "आत्माराम पांडुरंग / Atmaram Pandurang" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "राजा राममोहन राय / Raja Ram Mohan Roy",
+          "explanation": "राजा राममोहन राय ने 1828 में ब्रह्म समाज की स्थापना की थी। / Founded Brahmo Samaj in 1828."
+        },
+        {
+          "q_id": "17",
+          "statement": "आर्य समाज के संस्थापक कौन थे? / Who was the founder of Arya Samaj?",
+          "options": [
+            { "index": "A", "text": "स्वामी दयानंद सरस्वती / Swami Dayanand Saraswati" },
+            { "index": "B", "text": "राजा राममोहन राय / Raja Ram Mohan Roy" },
+            { "index": "C", "text": "स्वामी विवेकानंद / Swami Vivekananda" },
+            { "index": "D", "text": "इश्वरचंद्र विद्यासागर / Ishwar Chandra Vidyasagar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "स्वामी दयानंद सरस्वती / Swami Dayanand Saraswati",
+          "explanation": "स्वामी दयानंद सरस्वती ने 1875 में आर्य समाज की स्थापना की। / Founded Arya Samaj in 1875."
+        },
+        {
+          "q_id": "18",
+          "statement": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई थी? / In which year was the Indian National Congress founded?",
+          "options": [
+            { "index": "A", "text": "1885" },
+            { "index": "B", "text": "1905" },
+            { "index": "C", "text": "1919" },
+            { "index": "D", "text": "1857" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1885",
+          "explanation": "ए.ओ. ह्यूम द्वारा 1885 में कांग्रेस की स्थापना की गई थी। / INC was founded in 1885."
+        },
+        {
+          "q_id": "19",
+          "statement": "बंगाल का विभाजन किस गवर्नर-जनरल के समय हुआ था? / Partition of Bengal occurred during whose viceroyalty?",
+          "options": [
+            { "index": "A", "text": "लॉर्ड कर्जन / Lord Curzon" },
+            { "index": "B", "text": "लॉर्ड डलहौजी / Lord Dalhousie" },
+            { "index": "C", "text": "लॉर्ड रिपन / Lord Ripon" },
+            { "index": "D", "text": "लॉर्ड माउन्टबेटन / Lord Mountbatten" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "लॉर्ड कर्जन / Lord Curzon",
+          "explanation": "1905 में लॉर्ड कर्जन ने बंगाल विभाजन किया था। / Lord Curzon partitioned Bengal in 1905."
+        },
+        {
+          "q_id": "20",
+          "statement": "महात्मा गांधी ने असहयोग आंदोलन कब शुरू किया था? / When did Mahatma Gandhi start the Non-Cooperation Movement?",
+          "options": [
+            { "index": "A", "text": "1920" },
+            { "index": "B", "text": "1930" },
+            { "index": "C", "text": "1942" },
+            { "index": "D", "text": "1915" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1920",
+          "explanation": "असहयोग आंदोलन की शुरुआत 1920 में हुई थी। / Non-Cooperation Movement started in 1920."
+        },
+        {
+          "q_id": "21",
+          "statement": "दांडी मार्च की शुरुआत गांधीजी ने कब की थी? / When did Gandhi start the Dandi March?",
+          "options": [
+            { "index": "A", "text": "12 मार्च 1930 / 12 March 1930" },
+            { "index": "B", "text": "6 अप्रैल 1930 / 6 April 1930" },
+            { "index": "C", "text": "8 अगस्त 1942 / 8 August 1942" },
+            { "index": "D", "text": "30 जनवरी 1931 / 30 January 1931" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "12 मार्च 1930 / 12 March 1930",
+          "explanation": "नमक कानून तोड़ने के लिए 12 मार्च 1930 को दांडी यात्रा शुरू हुई। / Dandi March began on March 12, 1930."
+        },
+        {
+          "q_id": "22",
+          "statement": "भारत छोड़ो आंदोलन (Quit India Movement) कब शुरू हुआ था? / When was the Quit India Movement launched?",
+          "options": [
+            { "index": "A", "text": "1942" },
+            { "index": "B", "text": "1930" },
+            { "index": "C", "text": "1920" },
+            { "index": "D", "text": "1947" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1942",
+          "explanation": "8 अगस्त 1942 को बॉम्बे से भारत छोड़ो आंदोलन शुरू हुआ। / Launched in August 1942."
+        },
+        {
+          "q_id": "23",
+          "statement": "आजाद हिंद फौज की स्थापना किसने की थी? / Who founded the Indian National Army (Azad Hind Fauj)?",
+          "options": [
+            { "index": "A", "text": "सुभाष चंद्र Bose (और रास बिहारी बोस) / Subhas Chandra Bose" },
+            { "index": "B", "text": "मोहन सिंह / Mohan Singh" },
+            { "index": "C", "text": "चन्द्रशेखर आजाद / Chandrashekhar Azad" },
+            { "index": "D", "text": "भगत सिंह / Bhagat Singh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सुभाष चंद्र Bose (और रास बिहारी बोस) / Subhas Chandra Bose",
+          "explanation": "सुभाष चंद्र बोस ने आजाद हिंद फौज का पुनर्गठन व नेतृत्व किया। / Reorganized and led by Subhas Chandra Bose."
+        },
+        {
+          "q_id": "24",
+          "statement": "जलियांवाला बाग हत्याकांड कब हुआ था? / When did the Jallianwala Bagh massacre take place?",
+          "options": [
+            { "index": "A", "text": "13 अप्रैल 1919 / 13 April 1919" },
+            { "index": "B", "text": "10 मई 1857 / 10 May 1857" },
+            { "index": "C", "text": "5 फरवरी 1922 / 5 February 1922" },
+            { "index": "D", "text": "9 अगस्त 1925 / 9 August 1925" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "13 अप्रैल 1919 / 13 April 1919",
+          "explanation": "अमृतसर में 13 अप्रैल 1919 को वैशाखी के दिन यह नरसंहार हुआ। / Happened on April 13, 1919."
+        },
+        {
+          "q_id": "25",
+          "statement": "स्वतंत्र भारत के प्रथम गवर्नर-जनरल कौन थे? / Who was the first Governor-General of independent India?",
+          "options": [
+            { "index": "A", "text": "लॉर्ड माउन्टबेटन / Lord Mountbatten" },
+            { "index": "B", "text": "सी. राजगोपालाचारी / C. Rajagopalachari" },
+            { "index": "C", "text": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad" },
+            { "index": "D", "text": "जवाहरलाल नेहरू / Jawaharlal Nehru" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "लॉर्ड माउन्टबेटन / Lord Mountbatten",
+          "explanation": "स्वतंत्रता के बाद पहले गवर्नर-जनरल लॉर्ड माउंटबेटन थे। / Lord Mountbatten was the first post-independence governor-general."
+        },
+        {
+          "q_id": "26",
+          "statement": "स्वतंत्र भारत के प्रथम भारतीय गवर्नर-जनरल कौन थे? / First Indian Governor-General of independent India?",
+          "options": [
+            { "index": "A", "text": "चक्रवर्ती राजगोपालाचारी (C. Rajagopalachari)" },
+            { "index": "B", "text": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad" },
+            { "index": "C", "text": "सरदार पटेल / Sardar Patel" },
+            { "index": "D", "text": "मौलाना आजाद / Maulana Azad" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चक्रवर्ती राजगोपालाचारी (C. Rajagopalachari)",
+          "explanation": "राजगोपालाचारी एकमात्र भारतीय गवर्नर-जनरल रहे। / C. Rajagopalachari was the only Indian holder of the post."
+        },
+        {
+          "q_id": "27",
+          "statement": "1857 की क्रांति की शुरुआत कहाँ से हुई थी? / Where did the Revolt of 1857 begin?",
+          "options": [
+            { "index": "A", "text": "मेरठ / Meerut" },
+            { "index": "B", "text": "बैरकपुर / Barrackpore" },
+            { "index": "C", "text": "दिल्ली / Delhi" },
+            { "index": "D", "text": "कानपुर / Kanpur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मेरठ / Meerut",
+          "explanation": "10 मई 1857 को मेरठ छावनी से क्रांति की शुरुआत हुई। / The revolt began in Meerut on May 10, 1857."
+        },
+        {
+          "q_id": "28",
+          "statement": "वेदों की ओर लौटो (Back to the Vedas) का नारा किसने दिया था? / Who gave the slogan 'Back to the Vedas'?",
+          "options": [
+            { "index": "A", "text": "स्वामी दयानंद सरस्वती / Swami Dayanand Saraswati" },
+            { "index": "B", "text": "स्वामी विवेकानंद / Swami Vivekananda" },
+            { "index": "C", "text": "रामकृष्ण परमहंस / Ramakrishna Paramahamsa" },
+            { "index": "D", "text": "राजा राममोहन राय / Raja Ram Mohan Roy" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "स्वामी दयानंद सरस्वती / Swami Dayanand Saraswati",
+          "explanation": "यह प्रसिद्ध नारा स्वामी दयानंद सरस्वती का था। / Given by Swami Dayanand Saraswati."
+        },
+        {
+          "q_id": "29",
+          "statement": "हर्षावर्द्धन की राजधानी क्या थी? / What was the capital of Harshavardhana?",
+          "options": [
+            { "index": "A", "text": "कन्नौज / Kanauj (Kannauj)" },
+            { "index": "B", "text": "थानेश्वर / Thanesar" },
+            { "index": "C", "text": "पाटलिपुत्र / Pataliputra" },
+            { "index": "D", "text": "उज्जैन / Ujjain" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कन्नौज / Kanauj (Kannauj)",
+          "explanation": "हर्षवर्धन ने थानेश्वर से अपनी राजधानी कन्नौज स्थानांतरित की थी। / Harsha shifted his capital to Kannauj."
+        },
+        {
+          "q_id": "30",
+          "statement": "संविधान सभा के स्थायी अध्यक्ष कौन थे? / Who was the permanent Chairman of the Constituent Assembly?",
+          "options": [
+            { "index": "A", "text": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad" },
+            { "index": "B", "text": "डॉ. सच्चिदानंद सिन्हा / Dr. Sachchidananda Sinha" },
+            { "index": "C", "text": "डॉ. बी. आर. अम्बेडकर / Dr. B. R. Ambedkar" },
+            { "index": "D", "text": "पं. जवाहरलाल नेहरू / Jawaharlal Nehru" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad",
+          "explanation": "11 दिसंबर 1946 को डॉ. राजेंद्र प्रसाद को स्थायी अध्यक्ष चुना गया। / Dr. Rajendra Prasad was elected permanent chairman."
+        }
+      ]
+    }
+  ]
+}

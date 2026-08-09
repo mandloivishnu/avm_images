@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "Indian Geography",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Indian Geography",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "भारतीय मानक समय (IST) किस देशांतर पर आधारित है? / IST longitude base?",
+          "options": [
+            { "index": "A", "text": "82.5° पूर्वी देशांतर / 82.5° E" },
+            { "index": "B", "text": "80.5° पूर्वी देशांतर / 80.5° E" },
+            { "index": "C", "text": "85.5° पूर्वी देशांतर / 85.5° E" },
+            { "index": "D", "text": "75.5° पूर्वी देशांतर / 75.5° E" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "82.5° पूर्वी देशांतर / 82.5° E",
+          "explanation": "IST 82.5° E देशांतर से मापी जाती है। / IST is based on 82.5° E longitude."
+        },
+        {
+          "q_id": "2",
+          "statement": "कर्क रेखा भारत के कितने राज्यों से गुजरती है? / Tropic of Cancer passes through how many states?",
+          "options": [
+            { "index": "A", "text": "8" },
+            { "index": "B", "text": "7" },
+            { "index": "C", "text": "9" },
+            { "index": "D", "text": "6" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "8",
+          "explanation": "कर्क रेखा भारत के 8 राज्यों से होकर गुजरती है। / It passes through 8 states."
+        },
+        {
+          "q_id": "3",
+          "statement": "भारत की स्थलीय सीमा की कुल लंबाई कितनी है? / Total length of India's land boundary?",
+          "options": [
+            { "index": "A", "text": "15,200 किमी / 15,200 km" },
+            { "index": "B", "text": "7,516 किमी / 7,516 km" },
+            { "index": "C", "text": "10,000 किमी / 10,000 km" },
+            { "index": "D", "text": "20,000 किमी / 20,000 km" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "15,200 किमी / 15,200 km",
+          "explanation": "स्थलीय सीमा लगभग 15,200 किलोमीटर है। / Land frontier is approx 15,200 km."
+        },
+        {
+          "q_id": "4",
+          "statement": "भारत का सबसे दक्षिणी बिंदु (Mainland) कौन सा है? / Southernmost point of Indian mainland?",
+          "options": [
+            { "index": "A", "text": "कन्याकुमारी / Kanyakumari (Cape Comorin)" },
+            { "index": "B", "text": "इंदिरा पॉइंट / Indira Point" },
+            { "index": "C", "text": "किबिथू / Kibithu" },
+            { "index": "D", "text": "गोहर माथी / Guhar Moti" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कन्याकुमारी / Kanyakumari (Cape Comorin)",
+          "explanation": "मुख्य भूमि का दक्षिणतम बिंदु कन्याकुमारी है। / Mainland southernmost tip is Kanyakumari."
+        },
+        {
+          "q_id": "5",
+          "statement": "क्षेत्रफल की दृष्टि से भारत का विश्व में कौन सा स्थान है? / India's rank in area globally?",
+          "options": [
+            { "index": "A", "text": "सातवाँ / 7th" },
+            { "index": "B", "text": "पाँचवाँ / 5th" },
+            { "index": "C", "text": "छठवाँ / 6th" },
+            { "index": "D", "text": "आठवाँ / 8th" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सातवाँ / 7th",
+          "explanation": "क्षेत्रफल में भारत दुनिया का सातवां सबसे बड़ा देश है। / India is the 7th largest country."
+        },
+        {
+          "q_id": "6",
+          "statement": "भारत और पाकिस्तान के बीच की सीमा रेखा का नाम क्या है? / Boundary line between India and Pakistan?",
+          "options": [
+            { "index": "A", "text": "रेडक्लिफ रेखा / Radcliffe Line" },
+            { "index": "B", "text": "मैकमोहन रेखा / McMahon Line" },
+            { "index": "C", "text": "डूरंड रेखा / Durand Line" },
+            { "index": "D", "text": "हिंडनबर्ग रेखा / Hindenburg Line" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रेडक्लिफ रेखा / Radcliffe Line",
+          "explanation": "भारत-पाक सीमा रेडक्लिफ रेखा कहलाती है। / India-Pak boundary is the Radcliffe Line."
+        },
+        {
+          "q_id": "7",
+          "statement": "भारत और चीन के बीच की सीमा रेखा क्या कहलाती है? / Line between India and China?",
+          "options": [
+            { "index": "A", "text": "मैकमोहन रेखा / McMahon Line" },
+            { "index": "B", "text": "रेडक्लिफ रेखा / Radcliffe Line" },
+            { "index": "C", "text": "डूरंड रेखा / Durand Line" },
+            { "index": "D", "text": "मैगीनॉट रेखा / Maginot Line" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मैकमोहन रेखा / McMahon Line",
+          "explanation": "भारत और चीन की सीमा को मैकमोहन रेखा कहते हैं। / India-China line is McMahon Line."
+        },
+        {
+          "q_id": "8",
+          "statement": "भारत की सबसे लंबी नदी कौन सी है? / Longest river in India?",
+          "options": [
+            { "index": "A", "text": "गंगा / Ganga" },
+            { "index": "B", "text": "ब्रह्मपुत्र / Brahmaputra" },
+            { "index": "C", "text": "गोदावरी / Godavari" },
+            { "index": "D", "text": "यमुना / Yamuna" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गंगा / Ganga",
+          "explanation": "गंगा भारत की सबसे लंबी नदी है (लगभग 2525 किमी)। / Ganga is the longest river."
+        },
+        {
+          "q_id": "9",
+          "statement": "दक्षिण भारत की सबसे लंबी नदी (वृद्ध गंगा) कौन सी है? / Longest river in South India?",
+          "options": [
+            { "index": "A", "text": "गोदावरी / Godavari" },
+            { "index": "B", "text": "कृष्णा / Krishna" },
+            { "index": "C", "text": "कावेरी / Kaveri" },
+            { "index": "D", "text": "नर्मदा / Narmada" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गोदावरी / Godavari",
+          "explanation": "गोदावरी दक्षिण भारत की सबसे लंबी नदी है। / Godavari is South India's longest river."
+        },
+        {
+          "q_id": "10",
+          "statement": "भारत का सबसे ऊंचा जलप्रपात कौन सा है? / Highest waterfall in India?",
+          "options": [
+            { "index": "A", "text": "कुंचिकल जलप्रपात / Kunchikal Falls" },
+            { "index": "B", "text": "जोग जलप्रपात / Jog Falls" },
+            { "index": "C", "text": "धुआंधार / Dhuandhar" },
+            { "index": "D", "text": "हुंडरु / Hundru" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कुंचिकल जलप्रपात / Kunchikal Falls",
+          "explanation": "कर्नाटक स्थित कुंचिकल फॉल्स भारत का सबसे ऊंचा झरना है। / Kunchikal Falls is the highest."
+        },
+        {
+          "q_id": "11",
+          "statement": "भारत की सबसे बड़ी मीठे पानी की झील कौन सी है? / Largest freshwater lake in India?",
+          "options": [
+            { "index": "A", "text": "वुलर झील / Wular Lake" },
+            { "index": "B", "text": "चिल्का झील / Chilika Lake" },
+            { "index": "C", "text": "डाल झील / Dal Lake" },
+            { "index": "D", "text": "लोकतक झील / Loktak Lake" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "वुलर झील / Wular Lake",
+          "explanation": "जम्मू-कश्मीर की वुलर झील सबसे बड़ी मीठे पानी की झील है। / Wular Lake is the largest freshwater lake."
+        },
+        {
+          "q_id": "12",
+          "statement": "भारत की सबसे बड़ी खारे पानी की (लैगून) झील कौन सी है? / Largest saline/lagoon lake in India?",
+          "options": [
+            { "index": "A", "text": "चिल्का झील / Chilika Lake" },
+            { "index": "B", "text": "संबर झील / Sambhar Lake" },
+            { "index": "C", "text": "पुलिकट झील / Pulicat Lake" },
+            { "index": "D", "text": "वेम्बनाड झील / Vembanad Lake" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चिल्का झील / Chilika Lake",
+          "explanation": "ओडिशा की चिल्का झील सबसे बड़ी लैगून झील है। / Chilika Lake in Odisha is the largest lagoon."
+        },
+        {
+          "q_id": "13",
+          "statement": "भारत का सबसे शुष्क मरुस्थल कौन सा है? / Driest desert in India?",
+          "options": [
+            { "index": "A", "text": "थार मरुस्थल / Thar Desert" },
+            { "index": "B", "text": "लद्दाख मरुस्थल / Ladakh Desert" },
+            { "index": "C", "text": "कच्छ का रण / Rann of Kutch" },
+            { "index": "D", "text": "स्पीति / Spiti" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "थार मरुस्थल / Thar Desert",
+          "explanation": "राजस्थान का थार मरुस्थल प्रमुख भारतीय मरुस्थल है। / Thar Desert is the major Indian desert."
+        },
+        {
+          "q_id": "14",
+          "statement": "भारत में सबसे अधिक वर्षा किस स्थान पर होती है? / Place with highest rainfall in India?",
+          "options": [
+            { "index": "A", "text": "मौसिनराम / Mawsynram" },
+            { "index": "B", "text": "चेरापूंजी / Cherrapunji" },
+            { "index": "C", "text": "अंबुइली / Agumbe" },
+            { "index": "D", "text": "महाबलेश्वर / Mahabaleshwar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मौसिनराम / Mawsynram",
+          "explanation": "मेघालय का मौसिनराम दुनिया में सबसे अधिक वर्षा वाला स्थान है। / Mawsynram receives the highest rainfall."
+        },
+        {
+          "q_id": "15",
+          "statement": "भारत का सबसे बड़ा प्रायद्वीपीय पठार कौन सा है? / Largest peninsular plateau in India?",
+          "options": [
+            { "index": "A", "text": "दक्कन का पठार / Deccan Plateau" },
+            { "index": "B", "text": "छोटा नागपुर पठार / Chota Nagpur Plateau" },
+            { "index": "C", "text": "मालवा पठार / Malwa Plateau" },
+            { "index": "D", "text": "मेघालय पठार / Meghalaya Plateau" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "दक्कन का पठार / Deccan Plateau",
+          "explanation": "दक्कन का पठार भारत का सबसे बड़ा पठारी क्षेत्र है। / Deccan Plateau is the largest."
+        },
+        {
+          "q_id": "16",
+          "statement": "अंडमान और निकोबार को कौन सा चैनल अलग करता है? / Which channel separates Andaman and Nicobar?",
+          "options": [
+            { "index": "A", "text": "दस डिग्री चैनल / Ten Degree Channel" },
+            { "index": "B", "text": "नौ डिग्री चैनल / Nine Degree Channel" },
+            { "index": "C", "text": "आठ डिग्री चैनल / Eight Degree Channel" },
+            { "index": "D", "text": "पाक जलडमरूमध्य / Palk Strait" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "दस डिग्री चैनल / Ten Degree Channel",
+          "explanation": "10-डिग्री चैनल अंडमान को निकोबार से अलग करता है। / Ten Degree Channel separates them."
+        },
+        {
+          "q_id": "17",
+          "statement": "लक्षद्वीप समूह कहाँ स्थित है? / Where is the Lakshadweep group located?",
+          "options": [
+            { "index": "A", "text": "अरब सागर / Arabian Sea" },
+            { "index": "B", "text": "बंगाल की खाड़ी / Bay of Bengal" },
+            { "index": "C", "text": "हिंद महासागर / Indian Ocean" },
+            { "index": "D", "text": "खंभात की खाड़ी / Gulf of Khambhat" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "अरब सागर / Arabian Sea",
+          "explanation": "लक्षद्वीप अरब सागर में स्थित प्रवाल द्वीप समूह है। / Lakshadweep is in the Arabian Sea."
+        },
+        {
+          "q_id": "18",
+          "statement": "भारत की मुख्य भूमि की तटरेखा की लंबाई कितनी है? / Length of India's coastline (mainland)?",
+          "options": [
+            { "index": "A", "text": "6,100 किमी / 6,100 km" },
+            { "index": "B", "text": "7,516 किमी / 7,516 km" },
+            { "index": "C", "text": "5,000 किमी / 5,000 km" },
+            { "index": "D", "text": "9,000 किमी / 9,000 km" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "6,100 किमी / 6,100 km",
+          "explanation": "मुख्य भूमि की तटरेखा 6,100 किमी (द्वीपों सहित 7,516 किमी) है। / Mainland coastline is 6,100 km."
+        },
+        {
+          "q_id": "19",
+          "statement": "भारत का सबसे बड़ा राज्य क्षेत्रफल के आधार पर कौन सा है? / Largest state by area in India?",
+          "options": [
+            { "index": "A", "text": "राजस्थान / Rajasthan" },
+            { "index": "B", "text": "मध्य प्रदेश / Madhya Pradesh" },
+            { "index": "C", "text": "महाराष्ट्र / Maharashtra" },
+            { "index": "D", "text": "उत्तर प्रदेश / Uttar Pradesh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "राजस्थान / Rajasthan",
+          "explanation": "क्षेत्रफल में राजस्थान भारत का सबसे बड़ा राज्य है। / Rajasthan is the largest state by area."
+        },
+        {
+          "q_id": "20",
+          "statement": "भारत का सबसे छोटा राज्य क्षेत्रफल के आधार पर कौन सा है? / Smallest state by area in India?",
+          "options": [
+            { "index": "A", "text": "गोवा / Goa" },
+            { "index": "B", "text": "सिक्किम / Sikkim" },
+            { "index": "C", "text": "त्रिपुरा / Tripura" },
+            { "index": "D", "text": "मिजोरम / Mizoram" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गोवा / Goa",
+          "explanation": "क्षेत्रफल में गोवा सबसे छोटा राज्य है। / Goa is the smallest state by area."
+        },
+        {
+          "q_id": "21",
+          "statement": "भारत का सर्वोच्च पर्वत शिखर कौन सा है? / Highest mountain peak in India?",
+          "options": [
+            { "index": "A", "text": "कंचनजंगा / Kangchenjunga" },
+            { "index": "B", "text": "के2 (गॉडविन ऑस्टिन) / K2" },
+            { "index": "C", "text": "नंदा देवी / Nanda Devi" },
+            { "index": "D", "text": "माउंट एवरेस्ट / Mount Everest" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कंचनजंगा / Kangchenjunga",
+          "explanation": "भारत में पूर्णतः स्थित सर्वोच्च चोटी कंचनजंगा है। / Kangchenjunga is the highest peak in India."
+        },
+        {
+          "q_id": "22",
+          "statement": "भारत की सबसे बड़ी कृत्रिम झील कौन सी है? / Largest artificial lake in India?",
+          "options": [
+            { "index": "A", "text": "गोविंद सागर झील / Govind Vallabh Pant Sagar (Rihand)" },
+            { "index": "B", "text": "डाल झील / Dal Lake" },
+            { "index": "C", "text": "राना प्रताप सागर / Rana Pratap Sagar" },
+            { "index": "D", "text": "उदयसागर / Udaisagar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गोविंद सागर झील / Govind Vallabh Pant Sagar (Rihand)",
+          "explanation": "रिहैंड बांध पर बनी गोविंद सागर सबसे बड़ी कृत्रिम झील है। / Govind Vallabh Pant Sagar is the largest artificial lake."
+        },
+        {
+          "q_id": "23",
+          "statement": "पश्चिमी घाट को किस अन्य नाम से जाना जाता है? / Western Ghats are also known as?",
+          "options": [
+            { "index": "A", "text": "सह्याद्री / Sahyadri" },
+            { "index": "B", "text": "हिमाद्री / Himadri" },
+            { "index": "C", "text": "नीलगिरी / Nilgiri" },
+            { "index": "D", "text": "кардамом / Cardamom Hills" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सह्याद्री / Sahyadri",
+          "explanation": "पश्चिमी घाट को सह्याद्री पर्वतमाला भी कहते हैं। / Western Ghats are called Sahyadri."
+        },
+        {
+          "q_id": "24",
+          "statement": "पूर्वी घाट की सबसे ऊँची चोटी कौन सी है? / Highest peak of Eastern Ghats?",
+          "options": [
+            { "index": "A", "text": "जिंदगाड़ा चोटी / Jindhagada Peak (or Araku)" },
+            { "index": "B", "text": "अनामुडी / Anamudi" },
+            { "index": "C", "text": "दोडाबेट्टा / Doddabetta" },
+            { "index": "D", "text": "गुरु शिखर / Guru Shikhar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जिंदगाड़ा चोटी / Jindhagada Peak (or Araku)",
+          "explanation": "जिंदगाड़ा पूर्वी घाट की सर्वोच्च चोटी है। / Jindhagada is the highest in Eastern Ghats."
+        },
+        {
+          "q_id": "25",
+          "statement": "भारत का एकमात्र सक्रिय ज्वालामुखी कहाँ स्थित है? / India's only active volcano is located in?",
+          "options": [
+            { "index": "A", "text": "बैरन द्वीप (अंडमान) / Barren Island" },
+            { "index": "B", "text": "नारकोंडम द्वीप / Narcondam Island" },
+            { "index": "C", "text": "मिनिकॉय / Minicoy" },
+            { "index": "D", "text": "पम्बन द्वीप / Pamban Island" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बैरन द्वीप (अंडमान) / Barren Island",
+          "explanation": "बैरन द्वीप भारत का एकमात्र सक्रिय ज्वालामुखी है। / Barren Island is the sole active volcano."
+        },
+        {
+          "q_id": "26",
+          "statement": "भारत की कौन सी नदी भ्रंश घाटी (Rift Valley) से होकर बहती है? / Which Indian river flows through a rift valley?",
+          "options": [
+            { "index": "A", "text": "नर्मदा और तापी / Narmada and Tapi" },
+            { "index": "B", "text": "गंगा और यमुना / Ganga and Yamuna" },
+            { "index": "C", "text": "गोदावरी और कृष्णा / Godavari and Krishna" },
+            { "index": "D", "text": "ब्रह्मपुत्र और गंगा / Brahmaputra and Ganga" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नर्मदा और तापी / Narmada and Tapi",
+          "explanation": "नर्मदा और तापी नदियां रिफ्ट घाटी से बहती हैं। / Narmada and Tapi flow through rift valleys."
+        },
+        {
+          "q_id": "27",
+          "statement": "सुंदरबन डेल्टा का निर्माण कौन सी नदियां करती हैं? / Sundarbans delta is formed by which rivers?",
+          "options": [
+            { "index": "A", "text": "गंगा और ब्रह्मपुत्र / Ganga and Brahmaputra" },
+            { "index": "B", "text": "सिंधु और गंगा / Indus and Ganga" },
+            { "index": "C", "text": "महानदी और गोदावरी / Mahanadi and Godavari" },
+            { "index": "D", "text": "नर्मदा और सोन / Narmada and Son" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गंगा और ब्रह्मपुत्र / Ganga and Brahmaputra",
+          "explanation": "गंगा-ब्रह्मपुत्र मिलकर दुनिया का सबसे बड़ा डेल्टा बनाती हैं। / Ganga and Brahmaputra form Sundarbans."
+        },
+        {
+          "q_id": "28",
+          "statement": "भारत की उत्तर से दक्षिण तक कुल लंबाई कितनी है? / Total north-to-south extent of India?",
+          "options": [
+            { "index": "A", "text": "3,214 किमी / 3,214 km" },
+            { "index": "B", "text": "2,933 किमी / 2,933 km" },
+            { "index": "C", "text": "4,000 किमी / 4,000 km" },
+            { "index": "D", "text": "2,500 किमी / 2,500 km" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "3,214 किमी / 3,214 km",
+          "explanation": "उत्तर से दक्षिण दूरी 3,214 किमी है (पूर्व से पश्चिम 2,933 किमी)। / North-south length is 3,214 km."
+        },
+        {
+          "q_id": "29",
+          "statement": "भारत के किस राज्य की तटरेखा सबसे लंबी है? / Which state has the longest coastline in India?",
+          "options": [
+            { "index": "A", "text": "गुजरात / Gujarat" },
+            { "index": "B", "text": "आंध्र प्रदेश / Andhra Pradesh" },
+            { "index": "C", "text": "तमिलनाडु / Tamil Nadu" },
+            { "index": "D", "text": "महाराष्ट्र / Maharashtra" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गुजरात / Gujarat",
+          "explanation": "गुजरात राज्य की तटरेखा भारत में सबसे लंबी है। / Gujarat has the longest coastline."
+        },
+        {
+          "q_id": "30",
+          "statement": "पाक जलडमरूमध्य (Palk Strait) किन दो देशों को अलग करता है? / Palk Strait separates India from?",
+          "options": [
+            { "index": "A", "text": "भारत और श्रीलंका / India and Sri Lanka" },
+            { "index": "B", "text": "भारत और मालदीव / India and Maldives" },
+            { "index": "C", "text": "भारत और इंडोनेशिया / India and Indonesia" },
+            { "index": "D", "text": "भारत और म्यांमार / India and Myanmar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "भारत और श्रीलंका / India and Sri Lanka",
+          "explanation": "पाक जलडमरूमध्य भारत को श्रीलंका से पृथक करता है। / Palk Strait separates India and Sri Lanka."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "Rivers of India & MP",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Rivers of India & MP",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "मध्य प्रदेश की जीवन रेखा किस नदी को कहा जाता है? / Which river is known as the 'Lifeline of Madhya Pradesh'?",
+          "options": [
+            { "index": "A", "text": "नर्मदा / Narmada" },
+            { "index": "B", "text": "चंबल / Chambal" },
+            { "index": "C", "text": "बेत्वा / Betwa" },
+            { "index": "D", "text": "शिपरा / Shipra" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नर्मदा / Narmada",
+          "explanation": "नर्मदा नदी को मध्य प्रदेश की जीवन रेखा माना जाता है। / Narmada is considered the lifeline of MP."
+        },
+        {
+          "q_id": "2",
+          "statement": "नर्मदा नदी का उद्गम स्थल कहाँ है? / Where does the Narmada River originate?",
+          "options": [
+            { "index": "A", "text": "अमरकंटक / Amarkantak" },
+            { "index": "B", "text": "मुलताई / Multai" },
+            { "index": "C", "text": "महू / Mhow" },
+            { "index": "D", "text": "जनापाव पहाड़ी / Janapav Hills" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "अमरकंटक / Amarkantak",
+          "explanation": "नर्मदा नदी अमरकंटक पहाड़ी से निकलती है। / Narmada originates from Amarkantak."
+        },
+        {
+          "q_id": "3",
+          "statement": "तापी नदी का उद्गम कहाँ से होता है? / Where does the Tapi River originate?",
+          "options": [
+            { "index": "A", "text": "मुलताई (बैतूल) / Multai (Betul)" },
+            { "index": "B", "text": "अमरकंटक / Amarkantak" },
+            { "index": "C", "text": "कुम्हारा गांव / Kumhara Village" },
+            { "index": "D", "text": "विंध्याचल / Vindhyachal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मुलताई (बैतूल) / Multai (Betul)",
+          "explanation": "तापी नदी बैतूल जिले के मुलताई से निकलती है। / Tapi originates from Multai in Betul."
+        },
+        {
+          "q_id": "4",
+          "statement": "चंबल नदी का उद्गम स्थल कहाँ है? / Where does the Chambal River originate?",
+          "options": [
+            { "index": "A", "text": "जनापाव पहाड़ी (महू) / Janapav Hills (Mhow)" },
+            { "index": "B", "text": "अमरकंटक / Amarkantak" },
+            { "index": "C", "text": "कुम्हारा गांव / Kumhara Village" },
+            { "index": "D", "text": "कैमूर पहाड़ी / Kaimur Hills" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जनापाव पहाड़ी (महू) / Janapav Hills (Mhow)",
+          "explanation": "चंबल नदी महू के पास जनापाव पहाड़ी से निकलती है। / Chambal originates from Janapav Hills."
+        },
+        {
+          "q_id": "5",
+          "statement": "छिपरा (शिपरा) नदी के किनारे कौन सा प्रसिद्ध शहर बसा है? / Which famous city is situated on the banks of Shipra River?",
+          "options": [
+            { "index": "A", "text": "उज्जैन / Ujjain" },
+            { "index": "B", "text": "इंदौर / Indore" },
+            { "index": "C", "text": "ग्वालियर / Gwalior" },
+            { "index": "D", "text": "महेश्वर / Maheshwar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "उज्जैन / Ujjain",
+          "explanation": "महाकाल की नगरी उज्जैन शिपरा नदी के तट पर है। / Ujjain is situated on the Shipra River."
+        },
+        {
+          "q_id": "6",
+          "statement": "बेत्वा नदी का उद्गम स्थल कहाँ है? / Where does the Betwa River originate?",
+          "options": [
+            { "index": "A", "text": "कुम्हारा गांव (रायसेन) / Kumhara Village (Raisen)" },
+            { "index": "B", "text": "मुलताई / Multai" },
+            { "index": "C", "text": "अमरकंटक / Amarkantak" },
+            { "index": "D", "text": "पचमढ़ी / Pachmarhi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कुम्हारा गांव (रायसेन) / Kumhara Village (Raisen)",
+          "explanation": "बेत्वा नदी रायसेन जिले के कुम्हारा गांव से निकलती है। / Betwa originates from Kumhara, Raisen."
+        },
+        {
+          "q_id": "7",
+          "statement": "धुआंधार जलप्रपात किस नदी पर स्थित है? / On which river is the Dhuandhar waterfall located?",
+          "options": [
+            { "index": "A", "text": "नर्मदा / Narmada" },
+            { "index": "B", "text": "चंबल / Chambal" },
+            { "index": "C", "text": "बेत्वा / Betwa" },
+            { "index": "D", "text": "तापी / Tapi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नर्मदा / Narmada",
+          "explanation": "भेदघाट (जबलपुर) में नर्मदा नदी पर धुआंधार जलप्रपात है। / Dhuandhar is on Narmada at Bhedaghat."
+        },
+        {
+          "q_id": "8",
+          "statement": "चूलिया जलप्रपात किस नदी पर बनता है? / Chulia waterfall is formed on which river?",
+          "options": [
+            { "index": "A", "text": "चंबल / Chambal" },
+            { "index": "B", "text": "नर्मदा / Narmada" },
+            { "index": "C", "text": "सिंध / Sindh" },
+            { "index": "D", "text": "केन / Ken" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल / Chambal",
+          "explanation": "चूलिया जलप्रपात राजस्थान के भैंसरोडगढ़ के पास चंबल नदी पर है। / Chulia falls is on Chambal."
+        },
+        {
+          "q_id": "9",
+          "statement": "भारत की सबसे लंबी नदी कौन सी है? / Longest river in India?",
+          "options": [
+            { "index": "A", "text": "गंगा / Ganga" },
+            { "index": "B", "text": "यमुना / Yamuna" },
+            { "index": "C", "text": "ब्रह्मपुत्र / Brahmaputra" },
+            { "index": "D", "text": "गोदावरी / Godavari" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गंगा / Ganga",
+          "explanation": "गंगा भारत की सबसे लंबी नदी है। / Ganga is India's longest river."
+        },
+        {
+          "q_id": "10",
+          "statement": "बिहार का शोक किस नदी को कहा जाता है? / Which river is known as the 'Sorrow of Bihar'?",
+          "options": [
+            { "index": "A", "text": "कोसी / Kosi" },
+            { "index": "B", "text": "गंडक / Gandak" },
+            { "index": "C", "text": "सोन / Son" },
+            { "index": "D", "text": "दामोदर / Damodar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कोसी / Kosi",
+          "explanation": "कोसी नदी को बिहार का शोक कहते हैं। / Kosi is called the Sorrow of Bihar."
+        },
+        {
+          "q_id": "11",
+          "statement": "बंगाल का शोक किस नदी को कहा जाता है? / Which river is known as the 'Sorrow of Bengal'?",
+          "options": [
+            { "index": "A", "text": "दामोदर / Damodar" },
+            { "index": "B", "text": "हुगली / Hooghly" },
+            { "index": "C", "text": "सुवर्णरेखा / Subarnarekha" },
+            { "index": "D", "text": "महानदी / Mahanadi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "दामोदर / Damodar",
+          "explanation": "दामोदर नदी को बंगाल का शोक कहा जाता है। / Damodar is the Sorrow of Bengal."
+        },
+        {
+          "q_id": "12",
+          "statement": "मध्य प्रदेश की दूसरी सबसे लंबी नदी कौन सी है? / Second longest river in Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "चंबल / Chambal" },
+            { "index": "B", "text": "बेत्वा / Betwa" },
+            { "index": "C", "text": "तापी / Tapi" },
+            { "index": "D", "text": "सोन / Son" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल / Chambal",
+          "explanation": "नर्मदा के बाद चंबल मध्य प्रदेश की दूसरी सबसे लंबी नदी है। / Chambal is the 2nd longest."
+        },
+        {
+          "q_id": "13",
+          "statement": "केन नदी का उद्गम स्थल कहाँ है? / Where does the Ken River originate?",
+          "options": [
+            { "index": "A", "text": "कैमूर पहाड़ी (कटनी) / Kaimur Hills (Katni)" },
+            { "index": "B", "text": "अमरकंटक / Amarkantak" },
+            { "index": "C", "text": "महू / Mhow" },
+            { "index": "D", "text": "मुलताई / Multai" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कैमूर पहाड़ी (कटनी) / Kaimur Hills (Katni)",
+          "explanation": "केन नदी कटनी जिले की कैमूर पहाड़ियों से निकलती है। / Ken originates from Kaimur Hills."
+        },
+        {
+          "q_id": "14",
+          "statement": "सोन नदी का उद्गम स्थल कहाँ है? / Where does the Son River originate?",
+          "options": [
+            { "index": "A", "text": "अमरकंटक / Amarkantak" },
+            { "index": "B", "text": "पचमढ़ी / Pachmarhi" },
+            { "index": "C", "text": "बैतूल / Betul" },
+            { "index": "D", "text": "शिवपुरी / Shivpuri" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "अमरकंटक / Amarkantak",
+          "explanation": "सोन नदी भी अमरकंटक से ही नर्मदा के पास से निकलती है। / Son originates from Amarkantak."
+        },
+        {
+          "q_id": "15",
+          "statement": "नर्मदा नदी अपना जल कहाँ विसर्जित करती है? / Where does the Narmada River empty its water?",
+          "options": [
+            { "index": "A", "text": "खंभात की खाड़ी (अरब सागर) / Gulf of Khambhat (Arabian Sea)" },
+            { "index": "B", "text": "बंगाल की खाड़ी / Bay of Bengal" },
+            { "index": "C", "text": "हिन्द महासागर / Indian Ocean" },
+            { "index": "D", "text": "कच्छ का रण / Rann of Kutch" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "खंभात की खाड़ी (अरब सागर) / Gulf of Khambhat (Arabian Sea)",
+          "explanation": "नर्मदा पश्चिम की ओर बहते हुए अरब सागर में गिरती है। / Narmada flows west into the Arabian Sea."
+        },
+        {
+          "q_id": "16",
+          "statement": "भारत की सबसे बड़ी प्रायद्वीपीय नदी कौन सी है? / Largest peninsular river in India?",
+          "options": [
+            { "index": "A", "text": "गोदावरी / Godavari" },
+            { "index": "B", "text": "कृष्णा / Krishna" },
+            { "index": "C", "text": "नर्मदा / Narmada" },
+            { "index": "D", "text": "महानदी / Mahanadi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गोदावरी / Godavari",
+          "explanation": "गोदावरी प्रायद्वीपीय भारत की सबसे बड़ी नदी है। / Godavari is the largest peninsular river."
+        },
+        {
+          "q_id": "17",
+          "statement": "माई नदी (माही) की क्या विशेषता है? / What is unique about the Mahi River?",
+          "options": [
+            { "index": "A", "text": "यह कर्क रेखा को दो बार काटती है / It crosses the Tropic of Cancer twice" },
+            { "index": "B", "text": "यह भूमध्य रेखा को काटती है / Crosses equator" },
+            { "index": "C", "text": "यह मकर रेखा को काटती है / Crosses Capricorn" },
+            { "index": "D", "text": "यह देश से बाहर निकलती है / Exits country" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "यह कर्क रेखा को दो बार काटती है / It crosses the Tropic of Cancer twice",
+          "explanation": "माही नदी एकमात्र ऐसी नदी है जो कर्क रेखा को दो बार काटती है। / Mahi crosses Tropic of Cancer twice."
+        },
+        {
+          "q_id": "18",
+          "statement": "काली सिंध नदी किसकी सहायक नदी है? / Kalisindh River is a tributary of?",
+          "options": [
+            { "index": "A", "text": "चंबल / Chambal" },
+            { "index": "B", "text": "नर्मदा / Narmada" },
+            { "index": "C", "text": "बेत्वा / Betwa" },
+            { "index": "D", "text": "सोन / Son" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल / Chambal",
+          "explanation": "काली सिंध चंबल की प्रमुख सहायक नदी है। / Kalisindh is a major tributary of Chambal."
+        },
+        {
+          "q_id": "19",
+          "statement": "मध्य प्रदेश की किस नदी को 'वाटर टूरिज्म' के लिए बढ़ावा दिया जा रहा है? / MP river promoted for water tourism?",
+          "options": [
+            { "index": "A", "text": "नर्मदा / Narmada" },
+            { "index": "B", "text": "तापी / Tapi" },
+            { "index": "C", "text": "चंबल / Chambal" },
+            { "index": "D", "text": "शिपरा / Shipra" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नर्मदा / Narmada",
+          "explanation": "नर्मदा नदी और इंदिरा सागर के पास जल पर्यटन विकसित किया जा रहा है। / Promoted along Narmada."
+        },
+        {
+          "q_id": "20",
+          "statement": "मध्य प्रदेश और उत्तर प्रदेश के बीच कौन सी नदी सीमा बनाती है? / River forming boundary between MP and UP?",
+          "options": [
+            { "index": "A", "text": "चंबल और बेत्वा / Chambal and Betwa" },
+            { "index": "B", "text": "नर्मदा / Narmada" },
+            { "index": "C", "text": "तापी / Tapi" },
+            { "index": "D", "text": "सोन / Son" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल और बेत्वा / Chambal and Betwa",
+          "explanation": "चंबल और बेत्वा नदियां उत्तर प्रदेश के साथ प्राकृतिक सीमा साझा करती हैं। / Chambal and Betwa form boundaries."
+        },
+        {
+          "q_id": "21",
+          "statement": "मध्य प्रदेश की किस नदी का प्राचीन नाम 'चर्मावती' था? / Which MP river was anciently known as 'Charmanwati'?",
+          "options": [
+            { "index": "A", "text": "चंबल / Chambal" },
+            { "index": "B", "text": "बेत्वा / Betwa" },
+            { "index": "C", "text": "केन / Ken" },
+            { "index": "D", "text": "शिपरा / Shipra" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल / Chambal",
+          "explanation": "चंबल का प्राचीन नाम चर्मावती था। / Ancient name of Chambal was Charmanwati."
+        },
+        {
+          "q_id": "22",
+          "statement": "बेत्वा नदी का प्राचीन नाम क्या था? / Ancient name of Betwa river?",
+          "options": [
+            { "index": "A", "text": "वेत्रवती / Vetravati" },
+            { "index": "B", "text": "चर्मावती / Charmanwati" },
+            { "index": "C", "text": "सोना / Sona" },
+            { "index": "D", "text": "तापी / Tapi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "वेत्रवती / Vetravati",
+          "explanation": "बेत्वा नदी का पुराना नाम वेत्रवती था। / Betwa was known as Vetravati."
+        },
+        {
+          "q_id": "23",
+          "statement": "मध्य प्रदेश की कौन सी नदी रीवा जिले में चचई जलप्रपात बनाती है? / River forming Chachai falls in Rewa?",
+          "options": [
+            { "index": "A", "text": "बीहड़ नदी / Bihad River" },
+            { "index": "B", "text": "केन / Ken" },
+            { "index": "C", "text": "टोंस / Tons" },
+            { "index": "D", "text": "सोन / Son" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बीहड़ नदी / Bihad River",
+          "explanation": "चचई जलप्रपात रीवा में बीहड़ नदी पर स्थित है। / Chachai falls is on Bihad river in Rewa."
+        },
+        {
+          "q_id": "24",
+          "statement": "सरदार सरोवर बांध किस नदी पर बनाया गया है? / Sardar Sarovar Dam is built on which river?",
+          "options": [
+            { "index": "A", "text": "नर्मदा / Narmada" },
+            { "index": "B", "text": "तापी / Tapi" },
+            { "index": "C", "text": "माही / Mahi" },
+            { "index": "D", "text": "चंबल / Chambal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नर्मदा / Narmada",
+          "explanation": "गुजरात में सरदार सरोवर परियोजना नर्मदा नदी पर है। / Sardar Sarovar is on Narmada."
+        },
+        {
+          "q_id": "25",
+          "statement": "बाणसागर बांध किस नदी पर स्थित है? / Bansagar Dam is built on which river?",
+          "options": [
+            { "index": "A", "text": "सोन नदी / Son River" },
+            { "index": "B", "text": "नर्मदा / Narmada" },
+            { "index": "C", "text": "बेत्वा / Betwa" },
+            { "index": "D", "text": "चंबल / Chambal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सोन नदी / Son River",
+          "explanation": "शहडोल जिले में बाणसागर परियोजना सोन नदी पर है। / Bansagar is on Son river."
+        },
+        {
+          "q_id": "26",
+          "statement": "गांधी सागर बांध किस नदी पर बना है? / Gandhi Sagar Dam is located on which river?",
+          "options": [
+            { "index": "A", "text": "चंबल नदी / Chambal River" },
+            { "index": "B", "text": "नर्मदा / Narmada" },
+            { "index": "C", "text": "तापी / Tapi" },
+            { "index": "D", "text": "माही / Mahi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल नदी / Chambal River",
+          "explanation": "मंदसौर में गांधी सागर बांध चंबल नदी पर बना है। / Gandhi Sagar is on Chambal."
+        },
+        {
+          "q_id": "27",
+          "statement": "मध्य प्रदेश की कौन सी नदी उत्तर की ओर बहती है और गंगा में मिलती है? / Which MP river flows north to join Yamuna/Ganga?",
+          "options": [
+            { "index": "A", "text": "चंबल, बेत्वा, केन / Chambal, Betwa, Ken" },
+            { "index": "B", "text": "नर्मदा और तापी / Narmada and Tapi" },
+            { "index": "C", "text": "महानदी / Mahanadi" },
+            { "index": "D", "text": "गोदावरी / Godavari" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल, बेत्वा, केन / Chambal, Betwa, Ken",
+          "explanation": "ये उत्तरमुखी नदियां हैं जो यमुना/गंगा प्रणाली का हिस्सा बनती हैं। / They flow northwards."
+        },
+        {
+          "q_id": "28",
+          "statement": "शिप्रा नदी किसकी सहायक नदी है? / Shipra River is a tributary of?",
+          "options": [
+            { "index": "A", "text": "चंबल / Chambal" },
+            { "index": "B", "text": "नर्मदा / Narmada" },
+            { "index": "C", "text": "बेत्वा / Betwa" },
+            { "index": "D", "text": "माही / Mahi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चंबल / Chambal",
+          "explanation": "शिपरा नदी अंततः चंबल में मिल जाती है। / Shipra is a tributary of Chambal."
+        },
+        {
+          "q_id": "29",
+          "statement": "मध्य प्रदेश की सबसे छोटी नदी कौन सी मानी जाती है? / Shortest river in MP?",
+          "options": [
+            { "index": "A", "text": "नरसिंहगढ़ की क्षिप्रा / (Or general local streams)" },
+            { "index": "B", "text": "माही / Mahi" },
+            { "index": "C", "text": "पार्वती / Parvati" },
+            { "index": "D", "text": "कुनो / Kuno" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नरसिंहगढ़ की क्षिप्रा / (Or general local streams)",
+          "explanation": "स्थानीय रूप से कई छोटी नदियां हैं, पर मुख्य रूप से नर्मदा/तापी प्रमुख हैं।"
+        },
+        {
+          "q_id": "30",
+          "statement": "भारत की सबसे पवित्र नदी किसे माना जाता है? / Considered the most sacred river in India?",
+          "options": [
+            { "index": "A", "text": "गंगा / Ganga" },
+            { "index": "B", "text": "यमुना / Yamuna" },
+            { "index": "C", "text": "गोदावरी / Godavari" },
+            { "index": "D", "text": "नर्मदा / Narmada" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गंगा / Ganga",
+          "explanation": "गंगा को भारत की सबसे पवित्र नदी माना गया है। / Ganga is revered as the holiest river."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "Animals & Wildlife",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Animals & Wildlife",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "भारत का राष्ट्रीय पशु कौन सा है? / What is the National Animal of India?",
+          "options": [
+            { "index": "A", "text": "बाघ (टाइगर) / Tiger" },
+            { "index": "B", "text": "शेर / Lion" },
+            { "index": "C", "text": "हाथी / Elephant" },
+            { "index": "D", "text": "चीता / Cheetah" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बाघ (टाइगर) / Tiger",
+          "explanation": "रॉयल बंगाल टाइगर भारत का राष्ट्रीय पशु है। / The Royal Bengal Tiger is the national animal."
+        },
+        {
+          "q_id": "2",
+          "statement": "मध्य प्रदेश को किस उपनाम से जाना जाता है क्योंकि यहाँ बाघों की संख्या सर्वाधिक है? / Why is MP known as 'Tiger State'?",
+          "options": [
+            { "index": "A", "text": "टाइगर स्टेट / Tiger State" },
+            { "index": "B", "text": "लॉयन स्टेट / Lion State" },
+            { "index": "C", "text": "बर्ड स्टेट / Bird State" },
+            { "index": "D", "text": "फॉरेस्ट स्टेट / Forest State" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "टाइगर स्टेट / Tiger State",
+          "explanation": "बाघों की बहुलता के कारण MP को टाइगर स्टेट कहते हैं। / High tiger population makes it Tiger State."
+        },
+        {
+          "q_id": "3",
+          "statement": "अफ्रीकी चीतों को भारत में सबसे पहले किस राष्ट्रीय उद्यान में पुनः बसाया गया? / In which National Park were African cheetahs first reintroduced?",
+          "options": [
+            { "index": "A", "text": "कूनो राष्ट्रीय उद्यान / Kuno National Park" },
+            { "index": "B", "text": "कान्हा किसली / Kanha National Park" },
+            { "index": "C", "text": "बाधवगढ़ / Bandhavgarh" },
+            { "index": "D", "text": "पन्ना / Panna" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कूनो राष्ट्रीय उद्यान / Kuno National Park",
+          "explanation": "कूनो राष्ट्रीय उद्यान (श्योपुर) में चीते छोड़े गए। / Cheetahs were introduced in Kuno National Park."
+        },
+        {
+          "q_id": "4",
+          "statement": "रुडयार्ड किपलिंग की प्रसिद्ध पुस्तक 'द जंगल बुक' की पृष्ठभूमि मध्य प्रदेश के किस पार्क पर आधारित है? / Which MP park inspired 'The Jungle Book'?",
+          "options": [
+            { "index": "A", "text": "पेंच राष्ट्रीय उद्यान / Pench National Park" },
+            { "index": "B", "text": "सतपुड़ा / Satpura" },
+            { "index": "C", "text": "माधव / Madhav" },
+            { "index": "D", "text": "संजय / Sanjay" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "पेंच राष्ट्रीय उद्यान / Pench National Park",
+          "explanation": "पेंच पार्क मोगली की कहानी (जंगल बुक) का प्रेरणास्त्रोत है। / Pench inspired The Jungle Book."
+        },
+        {
+          "q_id": "5",
+          "statement": "कान्हा राष्ट्रीय उद्यान मुख्य रूप से किस दुर्लभ जीव के संरक्षण के लिए प्रसिद्ध है? / Kanha National Park is famous for conserving which rare species?",
+          "options": [
+            { "index": "A", "text": "ब्रेडर्ड बारासिंगा (दलदली मृग) / Hard-ground Barasingha" },
+            { "index": "B", "text": "एकसिंगी गैंडा / One-horned Rhino" },
+            { "index": "C", "text": "एशियाई शेर / Asiatic Lion" },
+            { "index": "D", "text": "हिम तेंदुआ / Snow Leopard" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "ब्रेडर्ड बारासिंगा (दलदली मृग) / Hard-ground Barasingha",
+          "explanation": "कान्हा बारासिंगा के लिए दुनिया भर में जाना जाता है। / Kanha is renowned for the hard-ground Barasingha."
+        },
+        {
+          "q_id": "6",
+          "statement": "मध्य प्रदेश का राजकीय पक्षी कौन सा है? / State Bird of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "दूधराज (भारतीय पैराडाइज फ्लाईकैचर) / Indian Paradise Flycatcher" },
+            { "index": "B", "text": "मोर / Peafowl" },
+            { "index": "C", "text": "तोता / Parrot" },
+            { "index": "D", "text": "साइबेरियन क्रेन / Siberian Crane" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "दूधराज (भारतीय पैराडाइज फ्लाईकैचर) / Indian Paradise Flycatcher",
+          "explanation": "दूधराज (साहब बुलबुल) MP का राजकीय पक्षी है। / Indian Paradise Flycatcher (Doodhraj) is the state bird."
+        },
+        {
+          "q_id": "7",
+          "statement": "मध्य प्रदेश का राजकीय पशु कौन सा है? / State Animal of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "बर्बाद बारासिंगा (दलदली मृग - दलदली प्रजाति) / Barasingha" },
+            { "index": "B", "text": "बाघ / Tiger" },
+            { "index": "C", "text": "चिंकारा / Chinkara" },
+            { "index": "D", "text": "नीलगाय / Nilgai" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बर्बाद बारासिंगा (दलदली मृग - दलदली प्रजाति) / Barasingha",
+          "explanation": "बारासिंगा को मध्य प्रदेश का राजकीय पशु घोषित किया गया है। / Barasingha is the state animal."
+        },
+        {
+          "q_id": "8",
+          "statement": "भारत का राष्ट्रीय पक्षी कौन सा है? / National Bird of India?",
+          "options": [
+            { "index": "A", "text": "मोर (भारतीय मयूर) / Indian Peafowl" },
+            { "index": "B", "text": "बाज़ / Falcon" },
+            { "index": "C", "text": "तोता / Parrot" },
+            { "index": "D", "text": "सारस / Sarus Crane" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मोर (भारतीय मयूर) / Indian Peafowl",
+          "explanation": "भारतीय मयूर (मोर) भारत का राष्ट्रीय पक्षी है। / Indian Peafowl is the national bird."
+        },
+        {
+          "q_id": "9",
+          "statement": "बाधवगढ़ राष्ट्रीय उद्यान किस जिले में स्थित है? / Bandhavgarh National Park is located in which district?",
+          "options": [
+            { "index": "A", "text": "उमरिया / Umaria" },
+            { "index": "B", "text": "मंडला / Mandla" },
+            { "index": "C", "text": "सिवनी / Seoni" },
+            { "index": "D", "text": "पन्ना / Panna" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "उमरिया / Umaria",
+          "explanation": "बाधवगढ़ राष्ट्रीय उद्यान उमरिया जिले में है। / Bandhavgarh is in Umaria."
+        },
+        {
+          "q_id": "10",
+          "statement": "पन्ना राष्ट्रीय उद्यान मुख्य रूप से किसके लिए जाना जाता है? / Panna National Park is primarily known for?",
+          "options": [
+            { "index": "A", "text": "बाघ और हीरा खदान क्षेत्र / Tigers and Diamond reserves" },
+            { "index": "B", "text": "हाथी रिजर्व / Elephant Reserve" },
+            { "index": "C", "text": "शेर संरक्षण / Lion Conservation" },
+            { "index": "D", "text": "घड़ियाल अभयारण्य / Gharial Sanctuary" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बाघ और हीरा खदान क्षेत्र / Tigers and Diamond reserves",
+          "explanation": "पन्ना पार्क बाघों और डायमंड बेल्ट के लिए प्रसिद्ध है। / Known for tigers and diamonds."
+        },
+        {
+          "q_id": "11",
+          "statement": "चंबल नदी में किस जलीय जीव का विशेष संरक्षण किया जाता है? / Which aquatic animal is specially conserved in Chambal River?",
+          "options": [
+            { "index": "A", "text": "घड़ियाल और डॉल्फिन / Gharial and Dolphin" },
+            { "index": "B", "text": "नीली व्हेल / Blue Whale" },
+            { "index": "C", "text": "समुद्री कछुआ / Sea Turtle" },
+            { "index": "D", "text": "ऑक्टोपस / Octopus" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "घड़ियाल और डॉल्फिन / Gharial and Dolphin",
+          "explanation": "चंबल अभयारण्य घड़ियाल और डॉल्फिन संरक्षण के लिए मशहूर है। / Chambal sanctuary protects gharials and dolphins."
+        },
+        {
+          "q_id": "12",
+          "statement": "माधव राष्ट्रीय उद्यान किस जिले में है? / Madhav National Park is in which district?",
+          "options": [
+            { "index": "A", "text": "शिवपुरी / Shivpuri" },
+            { "index": "B", "text": "ग्वालियर / Gwalior" },
+            { "index": "C", "text": "मुरैना / Morena" },
+            { "index": "D", "text": "दतिया / Datia" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "शिवपुरी / Shivpuri",
+          "explanation": "माधव राष्ट्रीय उद्यान शिवपुरी जिले में स्थित है। / Madhav National Park is in Shivpuri."
+        },
+        {
+          "q_id": "13",
+          "statement": "फॉसिल (जीवाश्म) राष्ट्रीय उद्यान मध्य प्रदेश के किस जिले में है? / Fossil National Park is in which MP district?",
+          "options": [
+            { "index": "A", "text": "डिंडोरी / Dindori" },
+            { "index": "B", "text": "मंडला / Mandla" },
+            { "index": "C", "text": "अनूपपुर / Anuppur" },
+            { "index": "D", "text": "बालाघाट / Balaghat" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "डिंडोरी / Dindori",
+          "explanation": "राष्ट्रीय जीवाश्म उद्यान डिंडोरी में है। / Fossil National Park is in Dindori."
+        },
+        {
+          "q_id": "14",
+          "statement": "भारत का राष्ट्रीय जलीय जीव कौन सा है? / National Aquatic Animal of India?",
+          "options": [
+            { "index": "A", "text": "गंगा नदी की डॉल्फिन / Ganges River Dolphin" },
+            { "index": "B", "text": "ह्वेल मछली / Whale" },
+            { "index": "C", "text": "मगरमच्छ / Crocodile" },
+            { "index": "D", "text": "शार्क / Shark" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गंगा नदी की डॉल्फिन / Ganges River Dolphin",
+          "explanation": "गंगा डॉल्फिन भारत का राष्ट्रीय जलीय जीव है। / Ganges dolphin is the national aquatic animal."
+        },
+        {
+          "q_id": "15",
+          "statement": "एशियाई शेरों का एकमात्र प्राकृतिक आवास गृह (गिर राष्ट्रीय उद्यान) किस राज्य में है? / Gir National Park for Asiatic lions is in which state?",
+          "options": [
+            { "index": "A", "text": "गुजरात / Gujarat" },
+            { "index": "B", "text": "मध्य प्रदेश / Madhya Pradesh" },
+            { "index": "C", "text": "राजस्थान / Rajasthan" },
+            { "index": "D", "text": "महाराष्ट्र / Maharashtra" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गुजरात / Gujarat",
+          "explanation": "गिर राष्ट्रीय उद्यान गुजरात में स्थित है। / Gir National Park is in Gujarat."
+        },
+        {
+          "q_id": "16",
+          "statement": "मध्य प्रदेश में कुल कितने राष्ट्रीय उद्यान (National Parks) हैं? / Total number of National Parks in MP?",
+          "options": [
+            { "index": "A", "text": "12" },
+            { "index": "B", "text": "10" },
+            { "index": "C", "text": "11" },
+            { "index": "D", "text": "15" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "12",
+          "explanation": "मध्य प्रदेश में वर्तमान में 12 राष्ट्रीय उद्यान हैं। / MP currently has 12 National Parks."
+        },
+        {
+          "q_id": "17",
+          "statement": "मध्य प्रदेश का सबसे बड़ा राष्ट्रीय उद्यान कौन सा है? / Largest National Park in MP?",
+          "options": [
+            { "index": "A", "text": "कान्हा किसली राष्ट्रीय उद्यान / Kanha National Park" },
+            { "index": "B", "text": "बाधवगढ़ / Bandhavgarh" },
+            { "index": "C", "text": "पेंच / Pench" },
+            { "index": "D", "text": "सतपुड़ा / Satpura" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कान्हा किसली राष्ट्रीय उद्यान / Kanha National Park",
+          "explanation": "कान्हा किसली क्षेत्रफल में MP का सबसे बड़ा पार्क है। / Kanha is the largest park in MP."
+        },
+        {
+          "q_id": "18",
+          "statement": "संजय राष्ट्रीय उद्यान वर्तमान में मुख्य रूप से किस राज्य में आता है? / Sanjay National Park primarily falls in which state now?",
+          "options": [
+            { "index": "A", "text": "छत्तीसगढ़ (और कुछ हिस्सा MP में) / Chhattisgarh & MP" },
+            { "index": "B", "text": "केवल मध्य प्रदेश / Only MP" },
+            { "index": "C", "text": "केवल झारखंड / Only Jharkhand" },
+            { "index": "D", "text": "ओडिशा / Odisha" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "छत्तीसगढ़ (और कुछ हिस्सा MP में) / Chhattisgarh & MP",
+          "explanation": "विभाजन के बाद इसका बड़ा हिस्सा 'गुरु घासीदास राष्ट्रीय उद्यान' (छत्तीसगढ़) बन गया। / Large part is now in Chhattisgarh."
+        },
+        {
+          "q_id": "19",
+          "statement": "मध्य प्रदेश का राजकीय वृक्ष कौन सा है? / State Tree of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "बरगद / Banyan Tree" },
+            { "index": "B", "text": "पीपल / Peepal" },
+            { "index": "C", "text": "आम / Mango" },
+            { "index": "D", "text": "साल / Sal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बरगद / Banyan Tree",
+          "explanation": "बरगद का पेड़ मध्य प्रदेश का राजकीय वृक्ष है। / Banyan tree is the state tree."
+        },
+        {
+          "q_id": "20",
+          "statement": "मध्य प्रदेश का राजकीय पुष्प कौन सा है? / State Flower of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "सफेद लिली / White Lily" },
+            { "index": "B", "text": "कमल / Lotus" },
+            { "index": "C", "text": "गुलाब / Rose" },
+            { "index": "D", "text": "गेंदा / Marigold" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सफेद लिली / White Lily",
+          "explanation": "सफेद लिली (Lilium candidum) MP का राजकीय फूल है। / White Lily is the state flower."
+        },
+        {
+          "q_id": "21",
+          "statement": "भारत का राष्ट्रीय विरासत पशु (National Heritage Animal) कौन सा है? / National Heritage Animal of India?",
+          "options": [
+            { "index": "A", "text": "हाथी / Elephant" },
+            { "index": "B", "text": "बाघ / Tiger" },
+            { "index": "C", "text": "गैंडा / Rhino" },
+            { "index": "D", "text": "शेर / Lion" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "हाथी / Elephant",
+          "explanation": "भारतीय हाथी को 2010 में राष्ट्रीय विरासत पशु घोषित किया गया। / Elephant is the national heritage animal."
+        },
+        {
+          "q_id": "22",
+          "statement": "मध्य प्रदेश में प्रोजेक्ट टाइगर की शुरुआत सबसे पहले किस पार्क से हुई थी? / Project Tiger was first launched in MP at?",
+          "options": [
+            { "index": "A", "text": "कान्हा राष्ट्रीय उद्यान / Kanha National Park" },
+            { "index": "B", "text": "बाधवगढ़ / Bandhavgarh" },
+            { "index": "C", "text": "पन्ना / Panna" },
+            { "index": "D", "text": "सतपुड़ा / Satpura" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कान्हा राष्ट्रीय उद्यान / Kanha National Park",
+          "explanation": "कान्हा पार्क में सबसे पहले 1973-74 में प्रोजेक्ट टाइगर शुरू हुआ। / Project Tiger started in Kanha."
+        },
+        {
+          "q_id": "23",
+          "statement": "मध्य प्रदेश का कौन सा राष्ट्रीय उद्यान 32 पहाड़ियों से घिरा हुआ है? / MP National Park surrounded by 32 hills?",
+          "options": [
+            { "index": "A", "text": "बाधवगढ़ राष्ट्रीय उद्यान / Bandhavgarh National Park" },
+            { "index": "B", "text": "कान्हा / Kanha" },
+            { "index": "C", "text": "माधव / Madhav" },
+            { "index": "D", "text": "वन विहार / Van Vihar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बाधवगढ़ राष्ट्रीय उद्यान / Bandhavgarh National Park",
+          "explanation": "बाधवगढ़ पार्क चारों तरफ से 32 पहाड़ियों से घिरा है। / Bandhavgarh is surrounded by 32 hills."
+        },
+        {
+          "q_id": "24",
+          "statement": "भोपाल शहर के बीचों-बीच स्थित राष्ट्रीय उद्यान कौन सा है? / National Park located right inside Bhopal city?",
+          "options": [
+            { "index": "A", "text": "वन विहार राष्ट्रीय उद्यान / Van Vihar National Park" },
+            { "index": "B", "text": "सतपुड़ा / Satpura" },
+            { "index": "C", "text": "डायनासोर पार्क / Dinosaur Park" },
+            { "index": "D", "text": "ओंकारेश्वर / Omkareshwar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "वन विहार राष्ट्रीय उद्यान / Van Vihar National Park",
+          "explanation": "वन विहार भोपाल में बड़े तालाब के पास स्थित है। / Van Vihar is in Bhopal."
+        },
+        {
+          "q_id": "25",
+          "statement": "डायनासोर जीवाश्म राष्ट्रीय उद्यान कहाँ स्थापित किया गया है? / Dinosaur Fossil National Park is established in?",
+          "options": [
+            { "index": "A", "text": "धार / Dhar" },
+            { "index": "B", "text": "मंडला / Mandla" },
+            { "index": "C", "text": "डिंडोरी / Dindori" },
+            { "index": "D", "text": "खंडवा / Khandwa" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "धार / Dhar",
+          "explanation": "धार जिले में डायनासोर जीवाश्म पार्क बनाया गया है। / Dinosaur Fossil Park is in Dhar."
+        },
+        {
+          "q_id": "26",
+          "statement": "भारत का राष्ट्रीय खेल कौन सा माना जाता है? / National Game of India?",
+          "options": [
+            { "index": "A", "text": "हॉकी / Hockey" },
+            { "index": "B", "text": "क्रिकेट / Cricket" },
+            { "index": "C", "text": "कबड्डी / Kabaddi" },
+            { "index": "D", "text": "फुटबॉल / Football" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "हॉकी / Hockey",
+          "explanation": "पारंपरिक रूप से हॉकी को राष्ट्रीय खेल माना जाता है। / Hockey is traditionally regarded as the national game."
+        },
+        {
+          "q_id": "27",
+          "statement": "मध्य प्रदेश में सफेद शेर (White Tigers) के लिए कौन सा क्षेत्र प्रसिद्ध है? / Region famous for White Tigers in MP?",
+          "options": [
+            { "index": "A", "text": "रीवा / Rewa" },
+            { "index": "B", "text": "सतना / Satna" },
+            { "index": "C", "text": "सीधी / Sidhi" },
+            { "index": "D", "text": "शहडोल / Shahdol" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रीवा / Rewa",
+          "explanation": "रीवा जिला सफेद शेरों की भूमि के रूप में विश्वविख्यात है। / Rewa is famous for white tigers."
+        },
+        {
+          "q_id": "28",
+          "statement": "ओम्कारेश्वर राष्ट्रीय उद्यान किस जिले में स्थित है? / Omkareshwar National Park is in which district?",
+          "options": [
+            { "index": "A", "text": "खंडवा (पूर्वी निमाड़) / Khandwa" },
+            { "index": "B", "text": "खरगोन / Khargone" },
+            { "index": "C", "text": "बड़वानी / Barwani" },
+            { "index": "D", "text": "हरदा / Harda" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "खंडवा (पूर्वी निमाड़) / Khandwa",
+          "explanation": "ओम्कारेश्वर पार्क खंडवा जिले में आता है। / Omkareshwar park is in Khandwa."
+        },
+        {
+          "q_id": "29",
+          "statement": "भारत का सबसे पहला राष्ट्रीय उद्यान कौन सा है? / India's first National Park?",
+          "options": [
+            { "index": "A", "text": "जिम कॉर्बेट राष्ट्रीय उद्यान (उत्तराखंड) / Jim Corbett National Park" },
+            { "index": "B", "text": "कान्हा किसली / Kanha" },
+            { "index": "C", "text": "काजीरंगा / Kaziranga" },
+            { "index": "D", "text": "गीर / Gir" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जिम कॉर्बेट राष्ट्रीय उद्यान (उत्तराखंड) / Jim Corbett National Park",
+          "explanation": "जिम कॉर्बेट (हेली नेशनल पार्क) भारत का पहला राष्ट्रीय पार्क है। / Jim Corbett is the first national park."
+        },
+        {
+          "q_id": "30",
+          "statement": "मध्य प्रदेश के किस पार्क को 'प्रियदर्शनी पार्क' के नाम से भी जाना जाता है? / Which MP park is also known as 'Priyadarshini Park'?",
+          "options": [
+            { "index": "A", "text": "पेंच राष्ट्रीय उद्यान / Pench National Park" },
+            { "index": "B", "text": "कान्हा / Kanha" },
+            { "index": "C", "text": "संजय / Sanjay" },
+            { "index": "D", "text": "माधव / Madhav" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "पेंच राष्ट्रीय उद्यान / Pench National Park",
+          "explanation": "पेंच राष्ट्रीय उद्यान को इंदिरा गांधी की स्मृति में प्रियदर्शनी पेंच पार्क भी कहते हैं। / Pench is also known as Priyadarshini Pench."
+        }
+      ]
+    }
+  ]
+}

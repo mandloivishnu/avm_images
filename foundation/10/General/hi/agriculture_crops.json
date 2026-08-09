@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "Agriculture & Crops",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Agriculture & Crops",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "मध्य प्रदेश को 'सोया स्टेट' क्यों कहा जाता है? / Why is Madhya Pradesh called the 'Soya State'?",
+          "options": [
+            { "index": "A", "text": "सोयाबीन का सर्वाधिक उत्पादन होने के कारण / Due to highest soybean production" },
+            { "index": "B", "text": "गेहूं का अधिक उत्पादन / High wheat production" },
+            { "index": "C", "text": "दालों का गढ़ होने के कारण / Being hub of pulses" },
+            { "index": "D", "text": "चावल की अधिकता / Excess of rice" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सोयाबीन का सर्वाधिक उत्पादन होने के कारण / Due to highest soybean production",
+          "explanation": "भारत में सोयाबीन का सबसे बड़ा उत्पादक राज्य होने के कारण MP को सोया स्टेट कहते हैं। / MP is the leading producer of soybean in India."
+        },
+        {
+          "q_id": "2",
+          "statement": "मध्य प्रदेश के किस विशिष्ट प्रकार के गेहूं को जीआई (GI) टैग मिला है? / Which specific variety of wheat from MP received a GI tag?",
+          "options": [
+            { "index": "A", "text": "शर्बती गेहूं / Sharbati Wheat" },
+            { "index": "B", "text": "लोकवन गेहूं / Lokwan Wheat" },
+            { "index": "C", "text": "durum गेहूं / Durum Wheat" },
+            { "index": "D", "text": "कल्याण सोना / Kalyan Sona" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "शर्बती गेहूं / Sharbati Wheat",
+          "explanation": "सीहोर और विदिशा का 'शर्बती गेहूं' अपनी मिठास और गुणवत्ता के लिए जीआई टैग प्राप्त है। / Sehore/Vidisha Sharbati wheat has a GI tag."
+        },
+        {
+          "q_id": "3",
+          "statement": "भारत का पहला कृषि कैबिनेट (Agriculture Cabinet) गठित करने वाला राज्य कौन सा है? / Which state formed India's first Agriculture Cabinet?",
+          "options": [
+            { "index": "A", "text": "मध्य प्रदेश / Madhya Pradesh" },
+            { "index": "B", "text": "पंजाब / Punjab" },
+            { "index": "C", "text": "हरियाणा / Haryana" },
+            { "index": "D", "text": "उत्तर प्रदेश / Uttar Pradesh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मध्य प्रदेश / Madhya Pradesh",
+          "explanation": "मध्य प्रदेश देश का पहला राज्य है जिसने अलग से कृषि कैबिनेट बनाई। / MP was the first state to form an agricultural cabinet."
+        },
+        {
+          "q_id": "4",
+          "statement": "मध्य प्रदेश के किस जिले के 'चिनौर चावल' को जीआई टैग प्रदान किया गया है? / Chinor rice of which district received a GI tag?",
+          "options": [
+            { "index": "A", "text": "बालाघाट / Balaghat" },
+            { "index": "B", "text": "मंडला / Mandla" },
+            { "index": "C", "text": "सिवनी / Seoni" },
+            { "index": "D", "text": "रीवा / Rewa" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बालाघाट / Balaghat",
+          "explanation": "बालाघाट के सुगंधित चिनौर चावल को 2021 में जीआई टैग मिला। / Balaghat's aromatic Chinor rice received a GI tag."
+        },
+        {
+          "q_id": "5",
+          "statement": "मध्य प्रदेश में अफीम की खेती मुख्य रूप से कहाँ की जाती है? / Opium is mainly cultivated in which part of MP?",
+          "options": [
+            { "index": "A", "text": "मंदसौर और नीमच / Mandsaur and Neemuch" },
+            { "index": "B", "text": "इन्दौर और उज्जैन / Indore and Ujjain" },
+            { "index": "C", "text": "भिंड और मुरैना / Bhind and Morena" },
+            { "index": "D", "text": "सतना और रीवा / Satna and Rewa" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मंदसौर और नीमच / Mandsaur and Neemuch",
+          "explanation": "मंदसौर और नीमच जिले अफीम उत्पादन के लिए जाने जाते हैं। / Cultivated mainly in Mandsaur and Neemuch."
+        },
+        {
+          "q_id": "6",
+          "statement": "मध्य प्रदेश में 'अंगूर अनुसंधान केंद्र' कहाँ स्थित है? / Where is the Grape Research Centre located in MP?",
+          "options": [
+            { "index": "A", "text": "ररतलाम / Ratlam" },
+            { "index": "B", "text": "इन्दौर / Indore" },
+            { "index": "C", "text": "भोपाल / Bhopal" },
+            { "index": "D", "text": "उज्जैन / Ujjain" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रतलाम / Ratlam",
+          "explanation": "रतलाम जिला अंगूर की खेती और अनुसंधान के लिए प्रसिद्ध है। / Ratlam is famous for grape research and production."
+        },
+        {
+          "q_id": "7",
+          "statement": "मध्य प्रदेश में धान (चावल) अनुसंधान केंद्र कहाँ स्थित है? / Where is the Rice Research Centre in MP located?",
+          "options": [
+            { "index": "A", "text": "बरहागी (बड़वानी) / Barwani" },
+            { "index": "B", "text": "जबलपुर / Jabalpur" },
+            { "index": "C", "text": "भोपाल / Bhopal" },
+            { "index": "D", "text": "बालाघाट / Balaghat" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बरहागी (बड़वानी) / Barwani",
+          "explanation": "राजकीय धान अनुसंधान केंद्र बड़वानी जिले में है। / Rice research centre is in Barwani."
+        },
+        {
+          "q_id": "8",
+          "statement": "मध्य प्रदेश का पहला मेगा फूड पार्क कहाँ स्थापित किया गया था? / Where was MP's first Mega Food Park established?",
+          "options": [
+            { "index": "A", "text": "खरगोन (पनिहारी) / Khargone (Panihari)" },
+            { "index": "B", "text": "इन्दौर / Indore" },
+            { "index": "C", "text": "देवास / Dewas" },
+            { "index": "D", "text": "छिंदवाड़ा / Chhindwara" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "खरगोन (पनिहारी) / Khargone (Panihari)",
+          "explanation": "खरगोन के पनिहारी में पहला मेगा फूड पार्क बना था। / First mega food park was set up in Khargone."
+        },
+        {
+          "q_id": "9",
+          "statement": "मध्य प्रदेश में कपास अनुसंधान केंद्र कहाँ स्थित है? / Where is the Cotton Research Centre in MP?",
+          "options": [
+            { "index": "A", "text": "खरगोन / Khargone" },
+            { "index": "B", "text": "खंडवा / Khandwa" },
+            { "index": "C", "text": "धार / Dhar" },
+            { "index": "D", "text": "बुरहानपुर / Burhanpur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "खरगोन / Khargone",
+          "explanation": "कपास अनुसंधान संस्थान खरगोन में स्थित है। / Cotton research station is in Khargone."
+        },
+        {
+          "q_id": "10",
+          "statement": "मध्य प्रदेश में अंतरराष्ट्रीय मक्का और गेहूं अनुसंधान केंद्र कहाँ है? / Maize and Wheat research unit/station location?",
+          "options": [
+            { "index": "A", "text": "खमरिया (जबलपुर) / Khamariya (Jabalpur)" },
+            { "index": "B", "text": "भोपाल / Bhopal" },
+            { "index": "C", "text": "इन्दौर / Indore" },
+            { "index": "D", "text": "ग्वालियर / Gwalior" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "खमरिया (जबलपुर) / Khamariya (Jabalpur)",
+          "explanation": "जबलपुर स्थित कृषि विश्वविद्यालय के अंतर्गत विभिन्न अनुसंधान होते हैं।"
+        },
+        {
+          "q_id": "11",
+          "statement": "मध्य प्रदेश का पहला कृषि विश्वविद्यालय कौन सा है? / First Agricultural University in MP?",
+          "options": [
+            { "index": "A", "text": "जवाहरलाल नेहरू कृषि विश्वविद्यालय (जबलपुर) / JNKVV Jabalpur" },
+            { "index": "B", "text": "राजमाता विजयाराजे सिंधिया विश्वविद्यालय (ग्वालियर)" },
+            { "index": "C", "text": "भोपाल यूनिवर्सिटी / Bhopal Univ" },
+            { "index": "D", "text": "इन्दौर कृषि कॉलेज / Indore College" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जवाहरलाल नेहरू कृषि विश्वविद्यालय (जबलपुर) / JNKVV Jabalpur",
+          "explanation": "JNKVV जबलपुर MP का पहला कृषि विश्वविद्यालय है (स्थापना 1964)। / JNKVV Jabalpur is the first agriculture university."
+        },
+        {
+          "q_id": "12",
+          "statement": "मध्य प्रदेश में मसाला पार्क (Spice Park) कहाँ स्थापित किया गया है? / Where is the Spice Park located in MP?",
+          "options": [
+            { "index": "A", "text": "छिंदवाड़ा और गुना / Chhindwara and Guna" },
+            { "index": "B", "text": "भोपाल और इंदौर / Bhopal and Indore" },
+            { "index": "C", "text": "जबलपुर और रीवा / Jabalpur and Rewa" },
+            { "index": "D", "text": "ग्वालियर और उज्जैन / Gwalior and Ujjain" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "छिंदवाड़ा और गुना / Chhindwara and Guna",
+          "explanation": "छिंदवाड़ा और गुना में मसाला पार्क बनाए गए हैं। / Spice parks are set up in Chhindwara and Guna."
+        },
+        {
+          "q_id": "13",
+          "statement": "मध्य प्रदेश में किस फसल का उत्पादन सर्वाधिक मात्रा में होता है (खाद्यान्न में)? / Which food grain has the highest production in MP?",
+          "options": [
+            { "index": "A", "text": "गेहूं / Wheat" },
+            { "index": "B", "text": "धान / Rice" },
+            { "index": "C", "text": "मक्का / Maize" },
+            { "index": "D", "text": "ज्वार / Jowar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गेहूं / Wheat",
+          "explanation": "मध्य प्रदेश में खाद्यान्न में गेहूं का उत्पादन बड़े पैमाने पर होता है। / Wheat production is massive in MP."
+        },
+        {
+          "q_id": "14",
+          "statement": "मध्य प्रदेश में चना और दालों के उत्पादन में देश में कौन सा स्थान है? / MP's rank in India for gram/pulse production?",
+          "options": [
+            { "index": "A", "text": "पहला / 1st" },
+            { "index": "B", "text": "दूसरा / 2nd" },
+            { "index": "C", "text": "तीसरा / 3rd" },
+            { "index": "D", "text": "चौथा / 4th" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "पहला / 1st",
+          "explanation": "मध्य प्रदेश चना और दलहन (दालों) के उत्पादन में प्रथम स्थान पर है। / MP ranks first in pulse production."
+        },
+        {
+          "q_id": "15",
+          "statement": "मध्य प्रदेश में लहसुन का सर्वाधिक उत्पादन किस जिले में होता है? / District with highest garlic production in MP?",
+          "options": [
+            { "index": "A", "text": "मंदसौर / Mandsaur" },
+            { "index": "B", "text": "रतलाम / Ratlam" },
+            { "index": "C", "text": "धार / Dhar" },
+            { "index": "D", "text": "इन्दौर / Indore" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मंदसौर / Mandsaur",
+          "explanation": "मंदसौर जिला लहसुन उत्पादन में अग्रणी है। / Mandsaur leads in garlic production."
+        },
+        {
+          "q_id": "16",
+          "statement": "मध्य प्रदेश में न्यूनतम सिंचाई वाला जिला कौन सा है? / District with lowest irrigation in MP?",
+          "options": [
+            { "index": "A", "text": "डिंडोरी / Dindori" },
+            { "index": "B", "text": "झाबुआ / Jhabua" },
+            { "index": "C", "text": "मंडला / Mandla" },
+            { "index": "D", "text": "अनूपपुर / Anuppur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "डिंडोरी / Dindori",
+          "explanation": "डिंडोरी जिले में सिंचाई का प्रतिशत सबसे कम है। / Dindori has the lowest irrigation percentage."
+        },
+        {
+          "q_id": "17",
+          "statement": "मध्य प्रदेश में सर्वाधिक सिंचाई किस साधन द्वारा होती है? / Primary source of irrigation in MP?",
+          "options": [
+            { "index": "A", "text": "नहरें और नलकूप (कुएं) / Tubewells and Wells" },
+            { "index": "B", "text": "तालाब / Ponds" },
+            { "index": "C", "text": "नदियां / Rivers" },
+            { "index": "D", "text": "झरने / Springs" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नहरें और नलकूप (कुएं) / Tubewells and Wells",
+          "explanation": "MP में सबसे अधिक सिंचाई नलकूप और कुओं से होती है। / Tubewells and wells provide maximum irrigation."
+        },
+        {
+          "q_id": "18",
+          "statement": "मध्य प्रदेश में 'एशिया का सबसे बड़ा सोयाबीन संयंत्र' कहाँ स्थित है? / Asia's largest soybean plant in MP is at?",
+          "options": [
+            { "index": "A", "text": "उज्जैन / Ujjain" },
+            { "index": "B", "text": "इन्दौर / Indore" },
+            { "index": "C", "text": "देवास / Dewas" },
+            { "index": "D", "text": "भोपाल / Bhopal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "उज्जैन / Ujjain",
+          "explanation": "उज्जैन में एशिया का सबसे बड़ा सोयाबीन प्लांट स्थापित है। / Asia's largest soybean plant is in Ujjain."
+        },
+        {
+          "q_id": "19",
+          "statement": "मध्य प्रदेश में 'राष्ट्रीय खरपतवार अनुसंधान केंद्र' कहाँ है? / National Weed Science Research Centre is in?",
+          "options": [
+            { "index": "A", "text": "जबलपुर / Jabalpur" },
+            { "index": "B", "text": "भोपाल / Bhopal" },
+            { "index": "C", "text": "ग्वालियर / Gwalior" },
+            { "index": "D", "text": "इन्दौर / Indore" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जबलपुर / Jabalpur",
+          "explanation": "खरपतवार अनुसंधान निदेशालय जबलपुर में स्थित है। / Directorate of Weed Research is in Jabalpur."
+        },
+        {
+          "q_id": "20",
+          "statement": "मध्य प्रदेश में 'संत्रा (संतरा) जिला' किसे कहा जाता है? / Which district is known as the 'Orange District'?",
+          "options": [
+            { "index": "A", "text": "आगर मालवा (और छिंदवाड़ा/नर्मदापुरम) / Agar Malwa / Chhindwara" },
+            { "index": "B", "text": "इन्दौर / Indore" },
+            { "index": "C", "text": "रतलाम / Ratlam" },
+            { "index": "D", "text": "धार / Dhar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "आगर मालवा (और छिंदवाड़ा/नर्मदापुरम) / Agar Malwa / Chhindwara",
+          "explanation": "संतरे के उत्पादन के लिए आगर मालवा और छिंदवाड़ा प्रसिद्ध हैं (नागपुरी संतरा किस्म)। / Famous for oranges."
+        },
+        {
+          "q_id": "21",
+          "statement": "मध्य प्रदेश में 'आम अनुसंधान केंद्र' कहाँ स्थित है? / Where is the Mango Research Centre in MP?",
+          "options": [
+            { "index": "A", "text": "गोविन्दगढ़ (रीवा) / Govindgarh (Rewa)" },
+            { "index": "B", "text": "जबलपुर / Jabalpur" },
+            { "index": "C", "text": "इन्दौर / Indore" },
+            { "index": "D", "text": "भोपाल / Bhopal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गोविन्दगढ़ (रीवा) / Govindgarh (Rewa)",
+          "explanation": "रीवा के गोविन्दगढ़ में आम अनुसंधान केंद्र है जहाँ सुंदरजा आम होता है।"
+        },
+        {
+          "q_id": "22",
+          "statement": "मध्य प्रदेश के किस आम की किस्म को जीआई टैग मिला है? / Which MP mango variety has a GI tag?",
+          "options": [
+            { "index": "A", "text": "सुंदरजा आम (रीवा) / Sundarja Mango" },
+            { "index": "B", "text": "अल्फांसो / Alphonso" },
+            { "index": "C", "text": "दशहरी / Dasheri" },
+            { "index": "D", "text": "लंगड़ा / Langra" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सुंदरजा आम (रीवा) / Sundarja Mango",
+          "explanation": "रीवा के सुंदरजा आम को विशिष्ट जीआई टैग प्राप्त है। / Sundarja mango of Rewa has a GI tag."
+        },
+        {
+          "q_id": "23",
+          "statement": "मध्य प्रदेश में सर्वाधिक सिंचित जिला (प्रतिशत या साधन अनुसार) कौन सा है? / District with highest irrigation percentage?",
+          "options": [
+            { "index": "A", "text": "होशंगाबाद (नर्मदापुरम) / Narmadapuram" },
+            { "index": "B", "text": "ग्वालियर / Gwalior" },
+            { "index": "C", "text": "भिंड / Bhind" },
+            { "index": "D", "text": "मंदसौर / Mandsaur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "होशंगाबाद (नर्मदापुरम) / Narmadapuram",
+          "explanation": "नर्मदापुरम (होशंगाबाद) में कृषि सिंचित क्षेत्र का प्रतिशत सर्वाधिक है।"
+        },
+        {
+          "q_id": "24",
+          "statement": "मध्य प्रदेश में जैविक खेती को बढ़ावा देने वाला देश का पहला राज्य कौन सा है? / First state to promote organic farming extensively?",
+          "options": [
+            { "index": "A", "text": "मध्य प्रदेश / Madhya Pradesh" },
+            { "index": "B", "text": "सिक्किम / Sikkim" },
+            { "index": "C", "text": "उत्तराखंड / Uttarakhand" },
+            { "index": "D", "text": "केरल / Kerala" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मध्य प्रदेश / Madhya Pradesh",
+          "explanation": "मध्य प्रदेश ने जैविक खेती के क्षेत्रफल में देश में अग्रणी स्थान बनाया है।"
+        },
+        {
+          "q_id": "25",
+          "statement": "मध्य प्रदेश में अलसी (Linseed) और तिलहन उत्पादन में प्रमुख क्षेत्र कौन सा है?",
+          "options": [
+            { "index": "A", "text": "विंध्य और बघेलखंड क्षेत्र / Vindhya and Baghelkhand" },
+            { "index": "B", "text": "मालवा / Malwa" },
+            { "index": "C", "text": "निमाड़ / Nimar" },
+            { "index": "D", "text": "चंबल / Chambal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "विंध्य और बघेलखंड क्षेत्र / Vindhya and Baghelkhand",
+          "explanation": "तिलहन और अलसी का उत्पादन पूर्वी व मध्य MP में होता है।"
+        },
+        {
+          "q_id": "26",
+          "statement": "मध्य प्रदेश में 'मध्य प्रदेश राज्य कृषि उद्योग विकास निगम' की स्थापना कब हुई थी?",
+          "options": [
+            { "index": "A", "text": "1969" },
+            { "index": "B", "text": "1956" },
+            { "index": "C", "text": "1975" },
+            { "index": "D", "text": "1980" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1969",
+          "explanation": "इस निगम की स्थापना 21 मार्च 1969 को की गई थी। / Established in 1969."
+        },
+        {
+          "q_id": "27",
+          "statement": "मध्य प्रदेश में फसल बीमा योजना का मुख्य उद्देश्य क्या है? / Main objective of crop insurance scheme?",
+          "options": [
+            { "index": "A", "text": "प्राकृतिक आपदाओं से फसल नुकसान पर किसानों को आर्थिक सुरक्षा / Financial security against crop loss" },
+            { "index": "B", "text": "मुफ्त बीज बांटना / Free seeds" },
+            { "index": "C", "text": "बिजली माफ करना / Power waiver" },
+            { "index": "D", "text": "ट्रैक्टर देना / Giving tractors" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "प्राकृतिक आपदाओं से फसल नुकसान पर किसानों को आर्थिक सुरक्षा / Financial security against crop loss",
+          "explanation": "फसल बीमा प्राकृतिक आपदाओं से होने वाले नुकसान की भरपाई करता है।"
+        },
+        {
+          "q_id": "28",
+          "statement": "मध्य प्रदेश में कौन सी मिट्टी कपास की खेती के लिए सबसे उपयुक्त मानी जाती है?",
+          "options": [
+            { "index": "A", "text": "काली मिट्टी (Regur) / Black Soil" },
+            { "index": "B", "text": "जलोढ़ मिट्टी / Alluvial Soil" },
+            { "index": "C", "text": "लाल-पीली मिट्टी / Red-Yellow Soil" },
+            { "index": "D", "text": "कछारी मिट्टी / Laterite" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "काली मिट्टी (Regur) / Black Soil",
+          "explanation": "काली मिट्टी कपास के लिए सर्वोत्तम होती है। / Black soil is best for cotton."
+        },
+        {
+          "q_id": "29",
+          "statement": "मध्य प्रदेश के किस भाग में लाल-पीली मिट्टी पाई जाती है? / Red-yellow soil is found in which part of MP?",
+          "options": [
+            { "index": "A", "text": "बघेलखंड और पूर्वी क्षेत्र / Baghelkhand and Eastern MP" },
+            { "index": "B", "text": "मालवा / Malwa" },
+            { "index": "C", "text": "निमाड़ / Nimar" },
+            { "index": "D", "text": "चंबल / Chambal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बघेलखंड और पूर्वी क्षेत्र / Baghelkhand and Eastern MP",
+          "explanation": "पूर्वी मध्य प्रदेश (बघेलखंड) में लाल-पीली मिट्टी का विस्तार है।"
+        },
+        {
+          "q_id": "30",
+          "statement": "मध्य प्रदेश में 'भावांतर भुगतान योजना' किससे संबंधित है? / Bhavantar Bhugtan Yojana is related to?",
+          "options": [
+            { "index": "A", "text": "कृषि उपज के बाजार मूल्य और समर्थन मूल्य के अंतर की भरपाई / Compensating price difference for farmers" },
+            { "index": "B", "text": "पशुपालन / Animal Husbandry" },
+            { "index": "C", "text": "मछली पालन / Fisheries" },
+            { "index": "D", "text": "सड़क निर्माण / Road Construction" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कृषि उपज के बाजार मूल्य और समर्थन मूल्य के अंतर की भरपाई / Compensating price difference for farmers",
+          "explanation": "यह योजना किसानों को बाजार मूल्य में गिरावट पर अंतर राशि प्रदान करती है।"
+        }
+      ]
+    }
+  ]
+}

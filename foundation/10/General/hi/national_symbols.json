@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "National Symbols",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "National Symbols",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "भारत का राष्ट्रीय ध्वज तिरंगा किसने डिजाइन किया था? / Who designed the National Flag of India?",
+          "options": [
+            { "index": "A", "text": "पिंगाली वेंकैया / Pingali Venkayya" },
+            { "index": "B", "text": "बंकिम चंद्र चट्टोपाध्याय / Bankim Chandra Chatterjee" },
+            { "index": "C", "text": "रविंद्रनाथ टैगोर / Rabindranath Tagore" },
+            { "index": "D", "text": "महात्मा गांधी / Mahatma Gandhi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "पिंगाली वेंकैया / Pingali Venkayya",
+          "explanation": "भारतीय राष्ट्रीय ध्वज का डिजाइन पिंगाली वेंकैया ने तैयार किया था। / Designed by Pingali Venkayya."
+        },
+        {
+          "q_id": "2",
+          "statement": "भारतीय राष्ट्रीय ध्वज की लंबाई और चौड़ाई का अनुपात कितना है? / What is the ratio of length to width of the National Flag?",
+          "options": [
+            { "index": "A", "text": "3:2" },
+            { "index": "B", "text": "2:3" },
+            { "index": "C", "text": "4:3" },
+            { "index": "D", "text": "1:1" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "3:2",
+          "explanation": "तिरंगे की लंबाई और चौड़ाई का मानक अनुपात 3:2 है। / The standard ratio is 3:2."
+        },
+        {
+          "q_id": "3",
+          "statement": "राष्ट्रीय ध्वज के बीच में बने चक्र (अशोक चक्र) में कुल कितनी तीलियाँ (Spokes) होती हैं? / How many spokes are in the Ashoka Chakra?",
+          "options": [
+            { "index": "A", "text": "24" },
+            { "index": "B", "text": "12" },
+            { "index": "C", "text": "32" },
+            { "index": "D", "text": "20" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "24",
+          "explanation": "अशोक चक्र में 24 तीलियां होती हैं जो निरंतर प्रगति का प्रतीक हैं। / There are 24 spokes representing continuous progress."
+        },
+        {
+          "q_id": "4",
+          "statement": "भारत का राष्ट्रीय गान 'जन गण मन' के रचयिता कौन हैं? / Who composed the National Anthem 'Jana Gana Mana'?",
+          "options": [
+            { "index": "A", "text": "रवींद्रनाथ टैगोर / Rabindranath Tagore" },
+            { "index": "B", "text": "बंकिम चंद्र चटर्जी / Bankim Chandra Chatterjee" },
+            { "index": "C", "text": "मोहम्मद इकबाल / Muhammad Iqbal" },
+            { "index": "D", "text": "सरदार भगत सिंह / Bhagat Singh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रवींद्रनाथ टैगोर / Rabindranath Tagore",
+          "explanation": "राष्ट्रगान रवींद्रनाथ टैगोर द्वारा मूल रूप से बंगाली में रचित है। / Composed by Rabindranath Tagore."
+        },
+        {
+          "q_id": "5",
+          "statement": "भारत के राष्ट्रीय गीत 'वंदे मातरम्' के रचयिता कौन हैं? / Who wrote the National Song 'Vande Mataram'?",
+          "options": [
+            { "index": "A", "text": "बंकिम चंद्र चट्टोपाध्याय / Bankim Chandra Chatterjee" },
+            { "index": "B", "text": "रवींद्रनाथ टैगोर / Rabindranath Tagore" },
+            { "index": "C", "text": "शरतचंद्र चट्टोपाध्याय / Sarat Chandra Chatterjee" },
+            { "index": "D", "text": "प्रेमचंद / Premchand" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बंकिम चंद्र चट्टोपाध्याय / Bankim Chandra Chatterjee",
+          "explanation": "वंदे मातरम् उपन्यास 'आनंदमठ' से लिया गया है, जिसके रचयिता बंकिम चंद्र हैं। / Written by Bankim Chandra Chatterjee."
+        },
+        {
+          "q_id": "6",
+          "statement": "राष्ट्रीय गान 'जन गण मन' को गाने में कितना मानक समय लगता है? / What is the standard playing time of the National Anthem?",
+          "options": [
+            { "index": "A", "text": "52 सेकंड / 52 Seconds" },
+            { "index": "B", "text": "60 सेकंड / 60 Seconds" },
+            { "index": "C", "text": "45 सेकंड / 45 Seconds" },
+            { "index": "D", "text": "20 सेकंड / 20 Seconds" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "52 सेकंड / 52 Seconds",
+          "explanation": "राष्ट्रगान गाने की निर्धारित अवधि 52 सेकंड है। / Standard duration is 52 seconds."
+        },
+        {
+          "q_id": "7",
+          "statement": "राष्ट्रीय गीत 'वंदे मातरम्' को गाने का मानक समय कितना है? / What is the standard playing time of the National Song?",
+          "options": [
+            { "index": "A", "text": "65 सेकंड / 65 Seconds" },
+            { "index": "B", "text": "52 सेकंड / 52 Seconds" },
+            { "index": "C", "text": "48 सेकंड / 48 Seconds" },
+            { "index": "D", "text": "90 सेकंड / 90 Seconds" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "65 सेकंड / 65 Seconds",
+          "explanation": "राष्ट्रीय गीत के गायन की अवधि 65 सेकंड (1 मिनट 5 सेकंड) है। / Standard duration is 65 seconds."
+        },
+        {
+          "q_id": "8",
+          "statement": "भारत का राष्ट्रीय प्रतीक (State Emblem) कहाँ से लिया गया है? / From where is the State Emblem of India adopted?",
+          "options": [
+            { "index": "A", "text": "सारनाथ स्थित अशोक का सिंह स्तंभ / Lion Capital of Ashoka at Sarnath" },
+            { "index": "B", "text": "सांची स्तूप / Sanchi Stupa" },
+            { "index": "C", "text": "खजुराहो मंदिर / Khajuraho Temple" },
+            { "index": "D", "text": "लाल किला / Red Fort" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सारनाथ स्थित अशोक का सिंह स्तंभ / Lion Capital of Ashoka at Sarnath",
+          "explanation": "राष्ट्रीय प्रतीक सारनाथ के अशोक स्तंभ से लिया गया है। / Adopted from the Sarnath Lion Capital."
+        },
+        {
+          "q_id": "9",
+          "statement": "भारत के राष्ट्रीय प्रतीक के नीचे कौन सा सूत्र वाक्य अंकित है? / Which motto is inscribed at the base of the National Emblem?",
+          "options": [
+            { "index": "A", "text": "सत्यमेव जयते / Satyameva Jayate" },
+            { "index": "B", "text": "जय हिन्द / Jai Hind" },
+            { "index": "C", "text": "वंदे मातरम् / Vande Mataram" },
+            { "index": "D", "text": "सत्य ही ईश्वर है / Truth is God" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सत्यमेव जयते / Satyameva Jayate",
+          "explanation": "प्रतीक के नीचे मुंडकोपनिषद से लिया गया 'सत्यमेव जयते' लिखा है। / 'Satyameva Jayate' from Mundaka Upanishad."
+        },
+        {
+          "q_id": "10",
+          "statement": "भारत का राष्ट्रीय कैलेंडर (पंचांग) किस पर आधारित है? / India's National Calendar is based on which era?",
+          "options": [
+            { "index": "A", "text": "शक संवत (Saka Calendar) / Saka Calendar" },
+            { "index": "B", "text": "विक्रम संवत / Vikram Samvat" },
+            { "index": "C", "text": "ग्रेगोरियन कैलेंडर / Gregorian Calendar" },
+            { "index": "D", "text": "हिजरी संवत / Hijri Calendar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "शक संवत (Saka Calendar) / Saka Calendar",
+          "explanation": "भारत सरकार द्वारा शक संवत को राष्ट्रीय पंचांग के रूप में अपनाया गया है। / Saka calendar is the national calendar."
+        },
+        {
+          "q_id": "11",
+          "statement": "भारत का राष्ट्रीय फल कौन सा है? / National Fruit of India?",
+          "options": [
+            { "index": "A", "text": "आम / Mango" },
+            { "index": "B", "text": "केला / Banana" },
+            { "index": "C", "text": "सेब / Apple" },
+            { "index": "D", "text": "अमरूद / Guava" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "आम / Mango",
+          "explanation": "पके हुए आम (Mangifera indica) को राष्ट्रीय फल घोषित किया गया है। / Mango is the national fruit."
+        },
+        {
+          "q_id": "12",
+          "statement": "भारत का राष्ट्रीय फूल कौन सा है? / National Flower of India?",
+          "options": [
+            { "index": "A", "text": "कमल / Lotus" },
+            { "index": "B", "text": "गुलाब / Rose" },
+            { "index": "C", "text": "गैंदा / Marigold" },
+            { "index": "D", "text": "सूरजमुखी / Sunflower" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "कमल / Lotus",
+          "explanation": "पवित्र कमल (Nelumbo nucifera) भारत का राष्ट्रीय फूल है। / Lotus is the national flower."
+        },
+        {
+          "q_id": "13",
+          "statement": "भारत का राष्ट्रीय वृक्ष कौन सा है? / National Tree of India?",
+          "options": [
+            { "index": "A", "text": "बरगद (वट वृक्ष) / Banyan Tree" },
+            { "index": "B", "text": "पीपल / Peepal" },
+            { "index": "C", "text": "आम का पेड़ / Mango Tree" },
+            { "index": "D", "text": "नीम / Neem" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बरगद (वट वृक्ष) / Banyan Tree",
+          "explanation": "विशाल बरगद का पेड़ भारत का राष्ट्रीय वृक्ष है। / Banyan tree is the national tree."
+        },
+        {
+          "q_id": "14",
+          "statement": "भारत की राष्ट्रीय नदी कौन सी घोषित की गई है? / Which river is declared the National River of India?",
+          "options": [
+            { "index": "A", "text": "गंगा नदी / Ganga River" },
+            { "index": "B", "text": "यमुना / Yamuna" },
+            { "index": "C", "text": "ब्रह्मपुत्र / Brahmaputra" },
+            { "index": "D", "text": "नर्मदा / Narmada" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गंगा नदी / Ganga River",
+          "explanation": "गंगा नदी को 2008 में राष्ट्रीय नदी घोषित किया गया। / Ganga was declared the national river in 2008."
+        },
+        {
+          "q_id": "15",
+          "statement": "भारत का राष्ट्रीय जलीय जीव कौन सा है? / National Aquatic Animal of India?",
+          "options": [
+            { "index": "A", "text": "गंगा डॉल्फिन / Ganges River Dolphin" },
+            { "index": "B", "text": "नीली व्हेल / Blue Whale" },
+            { "index": "C", "text": "मगरमच्छ / Crocodile" },
+            { "index": "D", "text": "महाशीर मछली / Mahseer" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गंगा डॉल्फिन / Ganges River Dolphin",
+          "explanation": "मीठे पानी की गंगा डॉल्फिन राष्ट्रीय जलीय जीव है। / Ganges river dolphin is the national aquatic animal."
+        },
+        {
+          "q_id": "16",
+          "statement": "भारत का राष्ट्रीय पशु कौन सा है? / National Animal of India?",
+          "options": [
+            { "index": "A", "text": "बाग (टाइगर) / Tiger" },
+            { "index": "B", "text": "शेर / Lion" },
+            { "index": "C", "text": "हाथी / Elephant" },
+            { "index": "D", "text": "चीता / Cheetah" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बाग (टाइगर) / Tiger",
+          "explanation": "रॉयल बंगाल टाइगर भारत का राष्ट्रीय पशु है। / The Royal Bengal Tiger is the national animal."
+        },
+        {
+          "q_id": "17",
+          "statement": "भारत का राष्ट्रीय पक्षी कौन सा है? / National Bird of India?",
+          "options": [
+            { "index": "A", "text": "मोर (भारतीय मयूर) / Indian Peafowl" },
+            { "index": "B", "text": "तोता / Parrot" },
+            { "index": "C", "text": "सारस / Sarus Crane" },
+            { "index": "D", "text": "बाज / Falcon" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मोर (भारतीय मयूर) / Indian Peafowl",
+          "explanation": "भारतीय मयूर भारत का राष्ट्रीय पक्षी है। / Indian Peafowl is the national bird."
+        },
+        {
+          "q_id": "18",
+          "statement": "भारत की राष्ट्रीय मुद्रा का प्रतीक चिन्ह (₹) किसने डिजाइन किया था? / Who designed the Indian Rupee symbol (₹)?",
+          "options": [
+            { "index": "A", "text": "डी. उदय कुमार / D. Udaya Kumar" },
+            { "index": "B", "text": "अमिताभ मत्ता / Amitabh Matta" },
+            { "index": "C", "text": "वाई. डी. रेड्डी / Y. D. Reddy" },
+            { "index": "D", "text": "सुनील अरोड़ा / Sunil Arora" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "डी. उदय कुमार / D. Udaya Kumar",
+          "explanation": "भारतीय रुपए का चिन्ह (₹) डी. उदय कुमार द्वारा डिजाइन किया गया था। / Designed by D. Udaya Kumar."
+        },
+        {
+          "q_id": "19",
+          "statement": "भारत की राष्ट्रीय लिपि कौन सी है? / National Script of India?",
+          "options": [
+            { "index": "A", "text": "देवनागरी / Devanagari" },
+            { "index": "B", "text": "ब्राह्मी / Brahmi" },
+            { "index": "C", "text": "रोमन / Roman" },
+            { "index": "D", "text": "खरोष्ठी / Kharosthi" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "देवनागरी / Devanagari",
+          "explanation": "संविधान के अनुसार केंद्र की राजभाषा हिंदी और लिपि देवनागरी है। / Devanagari is the official script."
+        },
+        {
+          "q_id": "20",
+          "statement": "भारत का राष्ट्रीय गान पहली बार किस वर्ष गाया गया था? / When was the National Anthem first sung?",
+          "options": [
+            { "index": "A", "text": "1911 (कोलकाता अधिवेशन) / 1911 (Calcutta Session)" },
+            { "index": "B", "text": "1905 (बनारस अधिवेशन) / 1905" },
+            { "index": "C", "text": "1947 (दिल्ली) / 1947" },
+            { "index": "D", "text": "1950 (संविधान सभा) / 1950" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1911 (कोलकाता अधिवेशन) / 1911 (Calcutta Session)",
+          "explanation": "जन गण मन पहली बार दिसंबर 1911 के कांग्रेस अधिवेशन में गाया गया था। / Sung first in the 1911 Calcutta session."
+        },
+        {
+          "q_id": "21",
+          "statement": "भारत का राष्ट्रीय गीत 'वंदे मातरम्' सबसे पहले कब गाया गया था? / When was the National Song first sung?",
+          "options": [
+            { "index": "A", "text": "1896 (कोलकाता अधिवेशन) / 1896 (Calcutta Session)" },
+            { "index": "B", "text": "1911 (दिल्ली) / 1911" },
+            { "index": "C", "text": "1947 (स्वतंत्रता दिवस) / 1947" },
+            { "index": "D", "text": "1885 (बॉम्बे) / 1885" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1896 (कोलकाता अधिवेशन) / 1896 (Calcutta Session)",
+          "explanation": "वंदे मातरम् 1896 के कांग्रेस अधिवेशन में पहली बार गाया गया था। / Sung first in the 1896 session."
+        },
+        {
+          "q_id": "22",
+          "statement": "संविधान सभा ने राष्ट्रीय ध्वज को कब अपनाया था? / When did the Constituent Assembly adopt the National Flag?",
+          "options": [
+            { "index": "A", "text": "22 जुलाई 1947 / 22 July 1947" },
+            { "index": "B", "text": "15 अगस्त 1947 / 15 August 1947" },
+            { "index": "C", "text": "26 जनवरी 1950 / 26 January 1950" },
+            { "index": "D", "text": "26 नवंबर 1949 / 26 November 1949" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "22 जुलाई 1947 / 22 July 1947",
+          "explanation": "राष्ट्रीय ध्वज को 22 जुलाई 1947 को अपनाया गया था। / Adopted on July 22, 1947."
+        },
+        {
+          "q_id": "23",
+          "statement": "संविधान सभा द्वारा राष्ट्रीय गान को कब अपनाया गया था? / When was the National Anthem adopted by the Constituent Assembly?",
+          "options": [
+            { "index": "A", "text": "24 जनवरी 1950 / 24 January 1950" },
+            { "index": "B", "text": "26 जनवरी 1950 / 26 January 1950" },
+            { "index": "C", "text": "15 अगस्त 1947 / 15 August 1947" },
+            { "index": "D", "text": "22 जुलाई 1947 / 22 July 1947" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "24 जनवरी 1950 / 24 January 1950",
+          "explanation": "24 जनवरी 1950 को जन गण मन को राष्ट्रीय गान घोषित किया गया। / Adopted on January 24, 1950."
+        },
+        {
+          "q_id": "24",
+          "statement": "भारत की राष्ट्रीय मिठाई कौन सी मानी जाती है? / Recognized National Sweet of India?",
+          "options": [
+            { "index": "A", "text": "जलेबी / Jalebi" },
+            { "index": "B", "text": "गुलाब जामुन / Gulab Jamun" },
+            { "index": "C", "text": "रसगुल्ला / Rasgulla" },
+            { "index": "D", "text": "लड्डू / Laddu" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जलेबी / Jalebi",
+          "explanation": "लोकप्रिय रूप से जलेबी को भारत की राष्ट्रीय मिठाई माना जाता है। / Jalebi is popularly regarded as the national sweet."
+        },
+        {
+          "q_id": "25",
+          "statement": "भारत का राष्ट्रीय आदर्श वाक्य (Motto) क्या है? / National Motto of India?",
+          "options": [
+            { "index": "A", "text": "सत्यमेव जयते / Satyameva Jayate" },
+            { "index": "B", "text": "अहिंसा परमो धर्मः / Ahimsa Paramo Dharma" },
+            { "index": "C", "text": "वंदे मातरम् / Vande Mataram" },
+            { "index": "D", "text": "जय हिन्द / Jai Hind" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सत्यमेव जयते / Satyameva Jayate",
+          "explanation": "सत्यमेव जयते भारत का राष्ट्रीय आदर्श वाक्य है। / Satyameva Jayate is the national motto."
+        },
+        {
+          "q_id": "26",
+          "statement": "भारत के राष्ट्रीय ध्वज में सबसे ऊपर कौन सा रंग होता है? / Which color is at the top of the National Flag?",
+          "options": [
+            { "index": "A", "text": "गहरा केसरिया / Deep Saffron" },
+            { "index": "B", "text": "सफेद / White" },
+            { "index": "C", "text": "हरा / Green" },
+            { "index": "D", "text": "नीला / Blue" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गहरा केसरिया / Deep Saffron",
+          "explanation": "सबसे ऊपर केसरिया रंग, बीच में सफेद और नीचे हरा रंग होता है। / Saffron is at the top."
+        },
+        {
+          "q_id": "27",
+          "statement": "भारत का राष्ट्रीय विरासत पशु कौन सा है? / National Heritage Animal of India?",
+          "options": [
+            { "index": "A", "text": "हाथी / Elephant" },
+            { "index": "B", "text": "बाघ / Tiger" },
+            { "index": "C", "text": "शेर / Lion" },
+            { "index": "D", "text": "गैंडा / Rhino" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "हाथी / Elephant",
+          "explanation": "भारतीय हाथी को राष्ट्रीय विरासत पशु का दर्जा दिया गया है। / Elephant is the national heritage animal."
+        },
+        {
+          "q_id": "28",
+          "statement": "शक संवत का प्रथम माह कौन सा होता है? / First month of the Saka Calendar?",
+          "options": [
+            { "index": "A", "text": "चैत्र / Chaitra" },
+            { "index": "B", "text": "वैशाख / Vaisakha" },
+            { "index": "C", "text": "माघ / Magha" },
+            { "index": "D", "text": "फाल्गुन / Phalguna" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चैत्र / Chaitra",
+          "explanation": "शक संवत पंचांग का पहला महीना चैत्र और अंतिम महीना फाल्गुन होता है। / Chaitra is the first month."
+        },
+        {
+          "q_id": "29",
+          "statement": "शक संवत का पहला महीना (चैत्र) सामान्यतः किस अंग्रेजी महीने से शुरू होता है? / Chaitra generally begins in which Gregorian month?",
+          "options": [
+            { "index": "A", "text": "22 मार्च (लीप वर्ष में 21 मार्च) / March 22" },
+            { "index": "B", "text": "1 जनवरी / January 1" },
+            { "index": "C", "text": "14 अप्रैल / April 14" },
+            { "index": "D", "text": "15 अगस्त / August 15" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "22 मार्च (लीप वर्ष में 21 मार्च) / March 22",
+          "explanation": "राष्ट्रीय पंचांग का वर्ष 22 मार्च से शुरू होता है। / Saka year begins around March 22."
+        },
+        {
+          "q_id": "30",
+          "statement": "भारतीय राष्ट्रीय ध्वज में चक्र का रंग क्या होता है? / What is the color of the wheel in the National Flag?",
+          "options": [
+            { "index": "A", "text": "गहरा नीला / Navy Blue" },
+            { "index": "B", "text": "काला / Black" },
+            { "index": "C", "text": "गहरा हरा / Dark Green" },
+            { "index": "D", "text": "चमकीला लाल / Bright Red" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गहरा नीला / Navy Blue",
+          "explanation": "अशोक चक्र गहरे नीले रंग का होता है। / The Ashoka Chakra is navy blue."
+        }
+      ]
+    }
+  ]
+}

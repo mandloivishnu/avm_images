@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "History of Madhya Pradesh",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "History of Madhya Pradesh",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "1857 की क्रांति में मंडला से अंग्रेजों के विरुद्ध किसने नेतृत्व किया था? / Who led the 1857 revolt from Mandla?",
+          "options": [
+            { "index": "A", "text": "रानी अवंतीबाई लोधी / Rani Avantibai Lodhi" },
+            { "index": "B", "text": "रानी दुर्गावती / Rani Durgavati" },
+            { "index": "C", "text": "अहिल्याबाई होल्कर / Ahilyabai Holkar" },
+            { "index": "D", "text": "झलकारी बाई / Jhalkari Bai" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रानी अवंतीबाई लोधी / Rani Avantibai Lodhi",
+          "explanation": "रानी अवंतीबाई ने रामगढ़ (मंडला) से अंग्रेजों के खिलाफ 1857 में संघर्ष किया। / Rani Avantibai led the 1857 revolt from Ramgarh (Mandla)."
+        },
+        {
+          "q_id": "2",
+          "statement": "मध्य प्रदेश के किस जिले को 'अमरकंटक' के रूप में जाना जाता है जो पवित्र नदियों का उद्गम है? / Which MP location is famous for originating sacred rivers?",
+          "options": [
+            { "index": "A", "text": "अनूपपुर / Anuppur" },
+            { "index": "B", "text": "शहडोल / Shahdol" },
+            { "index": "C", "text": "डिंडोरी / Dindori" },
+            { "index": "D", "text": "मंडला / Mandla" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "अनूपपुर / Anuppur",
+          "explanation": "अमरकंटक अनूपपुर जिले के अंतर्गत स्थित है। / Amarkantak is located in Anuppur district."
+        },
+        {
+          "q_id": "3",
+          "statement": "ग्वालियर के किले का निर्माण किस राजा ने करवाया था? / Which king built the Gwalior Fort?",
+          "options": [
+            { "index": "A", "text": "सूरज सेन / Suraj Sen" },
+            { "index": "B", "text": "राजा मानसिंह तोमर / Raja Man Singh Tomar" },
+            { "index": "C", "text": "महादजी सिंधिया / Mahadji Scindia" },
+            { "index": "D", "text": "कीर्ति सिंह / Kirti Singh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सूरज सेन / Suraj Sen",
+          "explanation": "ग्वालियर किले की स्थापना राजा सूरज सेन ने आठवीं शताब्दी में की थी। / Gwalior Fort was founded by King Suraj Sen."
+        },
+        {
+          "q_id": "4",
+          "statement": "राजा मानसिंह तोमर ने ग्वालियर में किस प्रसिद्ध महल का निर्माण करवाया था? / Which palace was built by Raja Man Singh Tomar in Gwalior?",
+          "options": [
+            { "index": "A", "text": "मान मंदिर महल / Man Mandir Palace" },
+            { "index": "B", "text": "गुजरी महल / Gujari Mahal" },
+            { "index": "C", "text": "जय विलास पैलेस / Jai Vilas Palace" },
+            { "index": "D", "text": "सुख महल / Sukh Mahal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मान मंदिर महल / Man Mandir Palace",
+          "explanation": "राजा मानसिंह ने कलात्मक 'मान मंदिर महल' बनवाया था। / Raja Man Singh built the artistic Man Mandir Palace."
+        },
+        {
+          "q_id": "5",
+          "statement": "मध्य प्रदेश का 'जलियांवाला बाग हत्याकांड' किसे कहा जाता है? / Which event is known as the 'Jallianwala Bagh Massacre of MP'?",
+          "options": [
+            { "index": "A", "text": "चरणपादुका गोलीकांड (छतरपुर) / Charanpaduka Massacre" },
+            { "index": "B", "text": "सोहागपुर गोलीकांड / Sohagpur Massacre" },
+            { "index": "C", "text": "घोड़ाडोंगरी सत्याग्रह / Ghoradongri" },
+            { "index": "D", "text": "झंडा सत्याग्रह / Jhanda Satyagraha" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "चरणपादुका गोलीकांड (छतरपुर) / Charanpaduka Massacre",
+          "explanation": "14 जनवरी 1931 को छतरपुर के चरणपादुका में अंग्रेजों ने गोली चलाई थी। / Charanpaduka massacre occurred on Jan 14, 1931."
+        },
+        {
+          "q_id": "6",
+          "statement": "मालवा के परमार वंश की राजधानी कौन सी थी? / What was the capital of the Paramara dynasty of Malwa?",
+          "options": [
+            { "index": "A", "text": "धार (उज्जैन भी रही) / Dhar" },
+            { "index": "B", "text": "महेश्वर / Maheshwar" },
+            { "index": "C", "text": "खजुराहो / Khajuraho" },
+            { "index": "D", "text": "मांडू / Mandu" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "धार (उज्जैन भी रही) / Dhar",
+          "explanation": "परमार राजाओं ने अपनी राजधानी धार नगरी को बनाया था। / Paramaras made Dhar their capital."
+        },
+        {
+          "q_id": "7",
+          "statement": "परमार वंश के सबसे प्रतापी और प्रसिद्ध राजा कौन थे? / Who was the most illustrious king of the Paramara dynasty?",
+          "options": [
+            { "index": "A", "text": "राजा भोज / Raja Bhoj" },
+            { "index": "B", "text": "उपेंद्र / Upendra" },
+            { "index": "C", "text": "सिंधुराज / Sindhuraja" },
+            { "index": "D", "text": "मुंज / Munja" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "राजा भोज / Raja Bhoj",
+          "explanation": "राजा भोज कला, साहित्य और विज्ञान के महान संरक्षक थे। / Raja Bhoj was a legendary scholar-king."
+        },
+        {
+          "q_id": "8",
+          "statement": "भोपाल की प्रसिद्ध मस्जिद 'ताज-उल-मस्जिद' का निर्माण किसने शुरू करवाया था? / Who started building the Taj-ul-Masajid in Bhopal?",
+          "options": [
+            { "index": "A", "text": "शाहजहाँ बेगम / Shah Jahan Begum" },
+            { "index": "B", "text": "कुदसिया बेगम / Qudsia Begum" },
+            { "index": "C", "text": "सिकंदर बेगम / Sikandar Begum" },
+            { "index": "D", "text": "गोहर बेगम / Gohar Begum" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "शाहजहाँ बेगम / Shah Jahan Begum",
+          "explanation": "भोपाल की बेगम शाहजहाँ बेगम के शासनकाल में इसका निर्माण शुरू हुआ। / Construction was initiated by Shah Jahan Begum."
+        },
+        {
+          "q_id": "9",
+          "statement": "तात्या टोपे को अंग्रेजों द्वारा कहाँ फांसी दी गई थी? / Where was Tatya Tope hanged by the British?",
+          "options": [
+            { "index": "A", "text": "शिवपुरी / Shivpuri" },
+            { "index": "B", "text": "ग्वालियर / Gwalior" },
+            { "index": "C", "text": "इन्दौर / Indore" },
+            { "index": "D", "text": "जबलपुर / Jabalpur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "शिवपुरी / Shivpuri",
+          "explanation": "18 अप्रैल 1859 को शिवपुरी में तात्या टोपे को फांसी दी गई थी। / Tatya Tope was executed in Shivpuri on April 18, 1859."
+        },
+        {
+          "q_id": "10",
+          "statement": "रानी दुर्गावती कहाँ की प्रसिद्ध शासिका थीं? / Rani Durgavati was the famous ruler of which region?",
+          "options": [
+            { "index": "A", "text": "गैंडवाना (मंडला/जबलपुर) / Gondwana" },
+            { "index": "B", "text": "बुंदेलखंड / Bundelkhand" },
+            { "index": "C", "text": "मालवा / Malwa" },
+            { "index": "D", "text": "बघेलखंड / Baghelkhand" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "गैंडवाना (मंडला/जबलपुर) / Gondwana",
+          "explanation": "रानी दुर्गावती गोंडवाना साम्राज्य की साहसी रानी थीं। / She ruled the Gondwana kingdom."
+        },
+        {
+          "q_id": "11",
+          "statement": "मध्य प्रदेश में 'झंडा सत्याग्रह' किस वर्ष और कहाँ से प्रारंभ हुआ था? / In which year and where did the Jhanda Satyagraha start?",
+          "options": [
+            { "index": "A", "text": "1923 (जबलपुर) / 1923 (Jabalpur)" },
+            { "index": "B", "text": "1930 (नागपुर/जबलपुर) / 1930" },
+            { "index": "C", "text": "1920 (इंदौर) / 1920" },
+            { "index": "D", "text": "1942 (भोपाल) / 1942" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1923 (जबलपुर) / 1923 (Jabalpur)",
+          "explanation": "जबलपुर से 1923 में ऐतिहासिक झंडा सत्याग्रह शुरू हुआ था। / Jhanda Satyagraha started from Jabalpur in 1923."
+        },
+        {
+          "q_id": "12",
+          "statement": "मध्य प्रदेश के किस स्थान को 'भीमबेटका पाषाण आश्रय' के रूप में यूनेस्को मान्यता प्राप्त है? / Bhimbetka rock shelters are known for?",
+          "options": [
+            { "index": "A", "text": "प्रागैतिहासिक शैल चित्र / Prehistoric cave paintings" },
+            { "index": "B", "text": "मौर्य कालीन स्तूप / Maurya Stupas" },
+            { "index": "C", "text": "गुप्तकालीन मंदिर / Gupta Temples" },
+            { "index": "D", "text": "मध्यकालीन महल / Medieval Palaces" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "प्रागैतिहासिक शैल चित्र / Prehistoric cave paintings",
+          "explanation": "भीमबेटका प्रागैतिहासिक पाषाण चित्रों के लिए प्रसिद्ध है। / Famous for prehistoric rock art."
+        },
+        {
+          "q_id": "13",
+          "statement": "महारानी अहिल्याबाई होल्कर ने अपनी राजधानी किसे बनाया था? / Who made Maheshwar her capital?",
+          "options": [
+            { "index": "A", "text": "महेश्वर / Maheshwar" },
+            { "index": "B", "text": "इन्दौर / Indore" },
+            { "index": "C", "text": "उज्जैन / Ujjain" },
+            { "index": "D", "text": "ग्वालियर / Gwalior" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "महेश्वर / Maheshwar",
+          "explanation": "अहिल्याबाई ने नर्मदा तट पर स्थित महेश्वर को अपनी राजधानी बनाया था। / Ahilyabai made Maheshwar her capital."
+        },
+        {
+          "q_id": "14",
+          "statement": "बुंदेला राजा बुंदेला राजवंश की प्रारंभिक राजधानी क्या थी? / Initial capital of Bundela rulers?",
+          "options": [
+            { "index": "A", "text": "ओरछा / Orchha (पहले गढ़ा/कुंढार)" },
+            { "index": "B", "text": "पन्ना / Panna" },
+            { "index": "C", "text": "छतरपुर / Chhatarpur" },
+            { "index": "D", "text": "दतिया / Datia" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "ओरछा / Orchha (पहले गढ़ा/कुंढार)",
+          "explanation": "रुद्र प्रताप सिंह ने ओरछा को अपनी राजधानी बनाया था। / Orchha became a major capital under Bundelas."
+        },
+        {
+          "q_id": "15",
+          "statement": "ग्वालियर राज्य की स्थापना किसने की थी? / Who founded the Scindia dynasty of Gwalior?",
+          "options": [
+            { "index": "A", "text": "रानoji सिंधिया / Ranoji Scindia" },
+            { "index": "B", "text": "महादजी सिंधिया / Mahadji Scindia" },
+            { "index": "C", "text": "दौलतराव सिंधिया / Daulat Rao Scindia" },
+            { "index": "D", "text": "जीवाजीराव सिंधिया / Jiwajirao Scindia" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रानoji सिंधिया / Ranoji Scindia",
+          "explanation": "सिंधिया राजवंश की नींव रानोजी सिंधिया ने रखी थी। / Scindia dynasty was founded by Ranoji Scindia."
+        },
+        {
+          "q_id": "16",
+          "statement": "खजुराहो के प्रसिद्ध मंदिरों का निर्माण किस काल में हुआ था? / The temples of Khajuraho were built during which period?",
+          "options": [
+            { "index": "A", "text": "950 से 1050 ईस्वी (चंदेल काल) / 950 - 1050 AD (Chandela period)" },
+            { "index": "B", "text": "मौर्य काल / Maurya period" },
+            { "index": "C", "text": "गुप्त काल / Gupta period" },
+            { "index": "D", "text": "मुगल काल / Mughal period" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "950 से 1050 ईस्वी (चंदेल काल) / 950 - 1050 AD (Chandela period)",
+          "explanation": "चंदेल राजाओं ने 10वीं-11वीं शताब्दी में इनका निर्माण करवाया था। / Built by Chandelas between 950-1050 AD."
+        },
+        {
+          "q_id": "17",
+          "statement": "सम्राट अशोक ने मध्य प्रदेश के किस स्थान पर बौद्ध स्तूप का निर्माण करवाया था? / Ashoka built a Buddhist Stupa at which famous MP site?",
+          "options": [
+            { "index": "A", "text": "सांची / Sanchi" },
+            { "index": "B", "text": "उज्जैन / Ujjain" },
+            { "index": "C", "text": "ग्वालियर / Gwalior" },
+            { "index": "D", "text": "महेश्वर / Maheshwar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सांची / Sanchi",
+          "explanation": "रायसेन जिले के सांची में महान स्तूप अशोक द्वारा बनवाया गया था। / The Great Stupa at Sanchi was built by Ashoka."
+        },
+        {
+          "q_id": "18",
+          "statement": "मध्य प्रदेश के किस शहर का प्राचीन नाम 'अवंती' था? / Which MP city was anciently known as 'Avanti'?",
+          "options": [
+            { "index": "A", "text": "उज्जैन / Ujjain" },
+            { "index": "B", "text": "ग्वालियर / Gwalior" },
+            { "index": "C", "text": "इंदौर / Indore" },
+            { "index": "D", "text": "भोपाल / Bhopal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "उज्जैन / Ujjain",
+          "explanation": "उज्जैन का प्राचीन नाम अवंती था जो महाजनपद काल में प्रसिद्ध था। / Ujjain was known anciently as Avanti."
+        },
+        {
+          "q_id": "19",
+          "statement": "मांडू को 'शदिलाबाद' या 'सिटी ऑफ जॉय' किस वंश के शासकों ने बनाया था? / Mandu was developed/named Shadibad by which rulers?",
+          "options": [
+            { "index": "A", "text": "मालवा के सुल्तान (घोरी/खलजी वंश) / Sultans of Malwa" },
+            { "index": "B", "text": "परमार वंश / Paramaras" },
+            { "index": "C", "text": "मुगल शासक / Mughals" },
+            { "index": "D", "text": "सिंधिया राजवंश / Scindias" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मालवा के सुल्तान (घोरी/खलजी वंश) / Sultans of Malwa",
+          "explanation": "मांडू को मालवा के सुल्तानों द्वारा बसाया और सजाया गया था। / Developed by the Sultans of Malwa."
+        },
+        {
+          "q_id": "20",
+          "statement": "मध्य प्रदेश के किस स्थान पर राजा भोज ने एक विशाल झील (भोजपुर मंदिर के पास) का निर्माण करवाया था?",
+          "options": [
+            { "index": "A", "text": "भोजपुर (रायसेन) / Bhojpur" },
+            { "index": "B", "text": "धार / Dhar" },
+            { "index": "C", "text": "उज्जैन / Ujjain" },
+            { "index": "D", "text": "शिवपुरी / Shivpuri" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "भोजपुर (रायसेन) / Bhojpur",
+          "explanation": "भोजपुर में राजा भोज ने प्रसिद्ध शिव मंदिर और विशाल झील बनवाई थी।"
+        },
+        {
+          "q_id": "21",
+          "statement": "मध्य प्रदेश में 'स्वाधीनता संग्राम 1857' की शुरुआत सबसे पहले कहाँ से हुई थी? / The 1857 revolt in MP first started from?",
+          "options": [
+            { "index": "A", "text": "नीमच छावनी / Neemuch Cantonment" },
+            { "index": "B", "text": "ग्वालियर / Gwalior" },
+            { "index": "C", "text": "इन्दौर / Indore" },
+            { "index": "D", "text": "जबलपुर / Jabalpur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "नीमच छावनी / Neemuch Cantonment",
+          "explanation": "MP में 3 जून 1857 को नीमच छावनी से विद्रोह भड़का था। / Revolt in MP began in Neemuch on June 3, 1857."
+        },
+        {
+          "q_id": "22",
+          "statement": "मध्य प्रदेश में 'गोपाल कृष्ण गोखले' या स्वतंत्रता सेनानियों से जुड़ा 'अल्कोहल मिल विवाद' कहाँ हुआ था?",
+          "options": [
+            { "index": "A", "text": "इन्दौर / Indore" },
+            { "index": "B", "text": "भोपाल / Bhopal" },
+            { "index": "C", "text": "जबलपुर / Jabalpur" },
+            { "index": "D", "text": "ग्वालियर / Gwalior" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "इन्दौर / Indore",
+          "explanation": "इन्दौर राष्ट्रीय गतिविधियों का एक प्रमुख केंद्र रहा है।"
+        },
+        {
+          "q_id": "23",
+          "statement": "भोपाल रियासत का भारत संघ में विलय कब हुआ था? / When did the Princely State of Bhopal merge with the Indian Union?",
+          "options": [
+            { "index": "A", "text": "1 जून 1949 / 1 June 1949" },
+            { "index": "B", "text": "15 अगस्त 1947 / 15 August 1947" },
+            { "index": "C", "text": "26 जनवरी 1950 / 26 January 1950" },
+            { "index": "D", "text": "1 नवंबर 1956 / 1 November 1956" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1 जून 1949 / 1 June 1949",
+          "explanation": "भोपाल रियासत का विलय 1 जून 1949 को हुआ था। / Merged on June 1, 1949."
+        },
+        {
+          "q_id": "24",
+          "statement": "नवाब हमीदुल्ला खान किस रियासत के अंतिम शासक थे? / Nawab Hamidullah Khan was the last ruler of which state?",
+          "options": [
+            { "index": "A", "text": "भोपाल रियासत / Bhopal State" },
+            { "index": "B", "text": "ग्वालियर रियासत / Gwalior State" },
+            { "index": "C", "text": "इंदौर रियासत / Indore State" },
+            { "index": "D", "text": "रीवा रियासत / Rewa State" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "भोपाल रियासत / Bhopal State",
+          "explanation": "हमीदुल्ला खान भोपाल के अंतिम नवाब थे। / He was the last Nawab of Bhopal."
+        },
+        {
+          "q_id": "25",
+          "statement": "मध्य प्रदेश राज्य का गठन किस आयोग की सिफारिश पर हुआ था? / On whose recommendation was the state of MP formed?",
+          "options": [
+            { "index": "A", "text": "फजल अली आयोग (राज्य पुनर्गठन आयोग) / Fazal Ali Commission" },
+            { "index": "B", "text": "धर आयोग / Dhar Commission" },
+            { "index": "C", "text": "जेवीपी समिति / JVP Committee" },
+            { "index": "D", "text": "साइमन कमीशन / Simon Commission" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "फजल अली आयोग (राज्य पुनर्गठन आयोग) / Fazal Ali Commission",
+          "explanation": "फजल अली आयोग की संस्तुति पर 1 नवंबर 1956 को MP बना। / Formed on Nov 1, 1956 as per Fazal Ali Commission."
+        },
+        {
+          "q_id": "26",
+          "statement": "मध्य प्रदेश के गठन के समय (1956 में) कुल जिलों की संख्या कितनी थी? / Number of districts in MP at its formation in 1956?",
+          "options": [
+            { "index": "A", "text": "43" },
+            { "index": "B", "text": "45" },
+            { "index": "C", "text": "50" },
+            { "index": "D", "text": "52" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "43",
+          "explanation": "1956 में गठन के वक्त मध्य प्रदेश में 43 जिले थे। / There were 43 districts in 1956."
+        },
+        {
+          "q_id": "27",
+          "statement": "मध्य प्रदेश से छत्तीसगढ़ का विभाजन कब हुआ था? / When was Chhattisgarh carved out of Madhya Pradesh?",
+          "options": [
+            { "index": "A", "text": "1 नवंबर 2000 / 1 November 2000" },
+            { "index": "B", "text": "15 अगस्त 2000 / 15 August 2000" },
+            { "index": "C", "text": "26 जनवरी 2000 / 26 January 2000" },
+            { "index": "D", "text": "1 नवंबर 1999 / 1 November 1999" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1 नवंबर 2000 / 1 November 2000",
+          "explanation": "1 नवंबर 2000 को छत्तीसगढ़ 26वां राज्य बना। / Chhattisgarh was carved out on November 1, 2000."
+        },
+        {
+          "q_id": "28",
+          "statement": "मध्य प्रदेश के किस जिले में 'उदयगिरी की गुफाएं' और प्राचीन वराह मूर्ति स्थित है? / Udayagiri caves with Varaha sculpture are in?",
+          "options": [
+            { "index": "A", "text": "विदिशा / Vidisha" },
+            { "index": "B", "text": "रायसेन / Raisen" },
+            { "index": "C", "text": "सागर / Sagar" },
+            { "index": "D", "text": "दमोह / Damoh" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "विदिशा / Vidisha",
+          "explanation": "गुप्त कालीन उदयगिरी गुफाएं विदिशा में हैं जहाँ भगवान वराह की विशाल प्रतिमा है।"
+        },
+        {
+          "q_id": "29",
+          "statement": "बुंदेलखंड के किस शासक ने मुगल साम्राज्य के विरुद्ध विद्रोह किया था और 'छत्रसाल' के रूप में जाने गए?",
+          "options": [
+            { "index": "A", "text": "महाराजा छत्रसाल / Maharaja Chhatrasal" },
+            { "index": "B", "text": "बीर सिंह जू देव / Bir Singh Deo" },
+            { "index": "C", "text": "झुझार सिंह / Jujhar Singh" },
+            { "index": "D", "text": "मधुकर शाह / Madhukar Shah" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "महाराजा छत्रसाल / Maharaja Chhatrasal",
+          "explanation": "महाराजा छत्रसाल ने मुगलों के खिलाफ बुंदेलखंड की स्वतंत्रता के लिए संघर्ष किया।"
+        },
+        {
+          "q_id": "30",
+          "statement": "मध्य प्रदेश में 'असीरगढ़ का किला' जिसे 'दक्षिण का प्रवेश द्वार' कहते हैं, किस जिले में है? / Asirgarh Fort (Gateway to Deccan) is in?",
+          "options": [
+            { "index": "A", "text": "बुरहानपुर / Burhanpur" },
+            { "index": "B", "text": "खण्डवा / Khandwa" },
+            { "index": "C", "text": "खरगोन / Khargone" },
+            { "index": "D", "text": "बड़वानी / Barwani" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बुरहानपुर / Burhanpur",
+          "explanation": "असीरगढ़ का ऐतिहासिक किला बुरहानपुर जिले में स्थित है। / Asirgarh Fort is in Burhanpur."
+        }
+      ]
+    }
+  ]
+}

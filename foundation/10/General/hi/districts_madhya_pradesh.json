@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "Districts of Madhya Pradesh",
+    "totalMarks": "30",
+    "board": "Madhya Pradesh General Knowledge & Indian Studies"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Districts of Madhya Pradesh",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "सही विकल्प चुनकर लिखिए / Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "मध्य प्रदेश में वर्तमान में कुल कितने जिले हैं? / Total number of districts in MP currently?",
+          "options": [
+            { "index": "A", "text": "55" },
+            { "index": "B", "text": "52" },
+            { "index": "C", "text": "50" },
+            { "index": "D", "text": "54" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "55",
+          "explanation": "मध्य प्रदेश में हाल ही में नए जिलों के गठन के बाद कुल 55 जिले हैं। / MP currently has 55 districts."
+        },
+        {
+          "q_id": "2",
+          "statement": "मध्य प्रदेश का 52वां जिला कौन सा बना था? / Which was the 52nd district of MP?",
+          "options": [
+            { "index": "A", "text": "निवाड़ी / Niwari" },
+            { "index": "B", "text": "आगर मालवा / Agar Malwa" },
+            { "index": "C", "text": "मैहर / Maihar" },
+            { "index": "D", "text": "पांढुर्णा / Pandhurna" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "निवाड़ी / Niwari",
+          "explanation": "टीकमगढ़ से अलग होकर निवाड़ी 52वां जिला बना था। / Niwari was carved out as the 52nd district."
+        },
+        {
+          "q_id": "3",
+          "statement": "मध्य प्रदेश का क्षेत्रफल की दृष्टि से सबसे बड़ा जिला कौन सा है? / Largest district of MP by area?",
+          "options": [
+            { "index": "A", "text": "छिंदवाड़ा / Chhindwara" },
+            { "index": "B", "text": "सागर / Sagar" },
+            { "index": "C", "text": "शिवपुरी / Shivpuri" },
+            { "index": "D", "text": "बैतूल / Betul" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "छिंदवाड़ा / Chhindwara",
+          "explanation": "क्षेत्रफल में छिंदवाड़ा सबसे बड़ा जिला है। / Chhindwara is the largest district by area."
+        },
+        {
+          "q_id": "4",
+          "statement": "मध्य प्रदेश का क्षेत्रफल की दृष्टि से सबसे छोटा जिला कौन सा है? / Smallest district of MP by area?",
+          "options": [
+            { "index": "A", "text": "निवाड़ी / Niwari" },
+            { "index": "B", "text": "दतिया / Datia" },
+            { "index": "C", "text": "भोपाल / Bhopal" },
+            { "index": "D", "text": "आगर मालवा / Agar Malwa" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "निवाड़ी / Niwari",
+          "explanation": "निवाड़ी क्षेत्रफल के आधार पर सबसे छोटा जिला है। / Niwari is the smallest district."
+        },
+        {
+          "q_id": "5",
+          "statement": "मध्य प्रदेश का 'ऊर्जा राजधानी' (Energy Capital) किस जिले को कहा जाता है? / Which district is known as the 'Energy Capital'?",
+          "options": [
+            { "index": "A", "text": "सिंगरौली / Singrauli" },
+            { "index": "B", "text": "कटनी / Katni" },
+            { "index": "C", "text": "अनूपपुर / Anuppur" },
+            { "index": "D", "text": "सतna / Satna" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "सिंगरौली / Singrauli",
+          "explanation": "विशाल कोयला भंडारों और बिजली संयंत्रों के कारण सिंगरौली ऊर्जा राजधानी है। / Singrauli is called Energy Capital."
+        },
+        {
+          "q_id": "6",
+          "statement": "मध्य प्रदेश की 'संस्कार राजधानी' किस जिले को कहा जाता है? / Which district is known as the 'Cultural Capital' of MP?",
+          "options": [
+            { "index": "A", "text": "जबलपुर / Jabalpur" },
+            { "index": "B", "text": "उज्जैन / Ujjain" },
+            { "index": "C", "text": "ग्वालियर / Gwalior" },
+            { "index": "D", "text": "इन्दौर / Indore" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जबलपुर / Jabalpur",
+          "explanation": "आचार्य विनोबा भावे ने जबलपुर को 'संस्कार राजधानी' कहा था। / Jabalpur is known as the cultural/Sanskari capital."
+        },
+        {
+          "q_id": "7",
+          "statement": "मध्य प्रदेश की आर्थिक राजधानी और व्यावसायिक हब कौन सा जिला है? / Financial and commercial capital of MP?",
+          "options": [
+            { "index": "A", "text": "इन्दौर / Indore" },
+            { "index": "B", "text": "भोपाल / Bhopal" },
+            { "index": "C", "text": "ग्वालियर / Gwalior" },
+            { "index": "D", "text": "जबलपुर / Jabalpur" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "इन्दौर / Indore",
+          "explanation": "इन्दौर को मध्य प्रदेश की आर्थिक और व्यावसायिक राजधानी माना जाता है। / Indore is the financial capital."
+        },
+        {
+          "q_id": "8",
+          "statement": "हीरा नगरी (Diamond City) के नाम से कौन सा जिला प्रसिद्ध है? / Which district is famous as the Diamond City?",
+          "options": [
+            { "index": "A", "text": "पन्ना / Panna" },
+            { "index": "B", "text": "छतरपुर / Chhatarpur" },
+            { "index": "C", "text": "सतना / Satna" },
+            { "index": "D", "text": "सागर / Sagar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "पन्ना / Panna",
+          "explanation": "पन्ना जिले में प्रचुर मात्रा में हीरे की खदानें पाई जाती हैं। / Panna is renowned for diamond mines."
+        },
+        {
+          "q_id": "9",
+          "statement": "मध्य प्रदेश का कौन सा जिला मैंगनीज नगरी कहलाता है? / Which district is known as the Manganese Capital?",
+          "options": [
+            { "index": "A", "text": "बालाघाट / Balaghat" },
+            { "index": "B", "text": "छिंदवाड़ा / Chhindwara" },
+            { "index": "C", "text": "बैतूल / Betul" },
+            { "index": "D", "text": "मंडला / Mandla" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बालाघाट / Balaghat",
+          "explanation": "बालाघाट में मैंगनीज और तांबे के विशाल भंडार हैं। / Balaghat is rich in manganese and copper."
+        },
+        {
+          "q_id": "10",
+          "statement": "मध्य प्रदेश का कौन सा जिला ग्रेफाइट उत्पादन के लिए जाना जाता है? / Which district is known for graphite production?",
+          "options": [
+            { "index": "A", "text": "बैतूल / Betul" },
+            { "index": "B", "text": "खरगोन / Khargone" },
+            { "index": "C", "text": "धार / Dhar" },
+            { "index": "D", "text": "खण्डवा / Khandwa" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बैतूल / Betul",
+          "explanation": "बैतूल जिला ग्रेफाइट उत्पादन के लिए प्रसिद्ध है। / Betul is famous for graphite."
+        },
+        {
+          "q_id": "11",
+          "statement": "मध्य प्रदेश का कौन सा जिला अफीम उत्पादन के लिए प्रसिद्ध है? / Which district is famous for opium production?",
+          "options": [
+            { "index": "A", "text": "मंदसौर (और नीमच) / Mandsaur" },
+            { "index": "B", "text": "धार / Dhar" },
+            { "index": "C", "text": "झाबुआ / Jhabua" },
+            { "index": "D", "text": "रतलाम / Ratlam" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "मंदसौर (और नीमच) / Mandsaur",
+          "explanation": "मंदसौर और नीमच में बड़े पैमाने पर अफीम की खेती होती है। / Mandsaur and Neemuch produce opium."
+        },
+        {
+          "q_id": "12",
+          "statement": "मध्य प्रदेश का 'कॉटन सिटी' (तैयार वस्त्र और कपास केंद्र) किसे कहते हैं? / Cotton hub of MP?",
+          "options": [
+            { "index": "A", "text": "खरगोन (पश्चिम निमाड़) / Khargone" },
+            { "index": "B", "text": "खण्डवा / Khandwa" },
+            { "index": "C", "text": "बुरहानपुर / Burhanpur" },
+            { "index": "D", "text": "धार / Dhar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "खरगोन (पश्चिम निमाड़) / Khargone",
+          "explanation": "खरगोन क्षेत्र कपास उत्पादन में अग्रणी है। / Khargone is the cotton city."
+        },
+        {
+          "q_id": "13",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'तत्ससमय बुनकरों का शहर' या केला जिला कहलाता है?",
+          "options": [
+            { "index": "A", "text": "बुरहानपुर / Burhanpur" },
+            { "index": "B", "text": "खरगोन / Khargone" },
+            { "index": "C", "text": "बड़वानी / Barwani" },
+            { "index": "D", "text": "धार / Dhar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बुरहानपुर / Burhanpur",
+          "explanation": "बुरहानपुर को केला उत्पादन और वस्त्र बुनकरों के लिए जाना जाता है। / Burhanpur is known for bananas and textiles."
+        },
+        {
+          "q_id": "14",
+          "statement": "मध्य प्रदेश का सबसे अधिक जनसंख्या वाला जिला कौन सा है? / Most populated district of MP?",
+          "options": [
+            { "index": "A", "text": "इन्दौर / Indore" },
+            { "index": "B", "text": "जबलपुर / Jabalpur" },
+            { "index": "C", "text": "भोपाल / Bhopal" },
+            { "index": "D", "text": "सागर / Sagar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "इन्दौर / Indore",
+          "explanation": "इन्दौर जिले की जनसंख्या मध्य प्रदेश में सर्वाधिक है। / Indore has the highest population."
+        },
+        {
+          "q_id": "15",
+          "statement": "मध्य प्रदेश का न्यूनतम जनसंख्या वाला जिला कौन सा है? / Least populated district of MP?",
+          "options": [
+            { "index": "A", "text": "निवाड़ी / Niwari" },
+            { "index": "B", "text": "आगर मालवा / Agar Malwa" },
+            { "index": "C", "text": "हरदा / Harda" },
+            { "index": "D", "text": "उमरिया / Umaria" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "निवाड़ी / Niwari",
+          "explanation": "निवाड़ी जनसंख्या और क्षेत्रफल दोनों में सबसे छोटा है। / Niwari has the lowest population."
+        },
+        {
+          "q_id": "16",
+          "statement": "मध्य प्रदेश का सर्वाधिक लिंगानुपात (Sex Ratio) वाला जिला कौन सा है? / District with highest sex ratio in MP?",
+          "options": [
+            { "index": "A", "text": "बालाघाट / Balaghat" },
+            { "index": "B", "text": "अलीराजपुर / Alirajpur" },
+            { "index": "C", "text": "मंडला / Mandla" },
+            { "index": "D", "text": "डिंडोरी / Dindori" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बालाघाट / Balaghat",
+          "explanation": "बालाघाट जिले का लिंगानुपात मध्य प्रदेश में सबसे अधिक है। / Balaghat has the highest sex ratio."
+        },
+        {
+          "q_id": "17",
+          "statement": "मध्य प्रदेश का न्यूनतम लिंगानुपात वाला जिला कौन सा है? / District with lowest sex ratio in MP?",
+          "options": [
+            { "index": "A", "text": "भिंड / Bhind" },
+            { "index": "B", "text": "मुरैना / Morena" },
+            { "index": "C", "text": "ग्वालियर / Gwalior" },
+            { "index": "D", "text": "दतिया / Datia" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "भिंड / Bhind",
+          "explanation": "भिंड जिले का लिंगानुपात सबसे कम है। / Bhind has the lowest sex ratio."
+        },
+        {
+          "q_id": "18",
+          "statement": "मध्य प्रदेश का सर्वाधिक साक्षरता वाला जिला कौन सा है? / Highest literacy district in MP?",
+          "options": [
+            { "index": "A", "text": "जबलपुर / Jabalpur" },
+            { "index": "B", "text": "इन्दौर / Indore" },
+            { "index": "C", "text": "भोपाल / Bhopal" },
+            { "index": "D", "text": "बालाघाट / Balaghat" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जबलपुर / Jabalpur",
+          "explanation": "जबलपुर की साक्षरता दर राज्य में सबसे अधिक है। / Jabalpur has the highest literacy."
+        },
+        {
+          "q_id": "19",
+          "statement": "मध्य प्रदेश का न्यूनतम साक्षरता वाला जिला कौन सा है? / Lowest literacy district in MP?",
+          "options": [
+            { "index": "A", "text": "अलीराजपुर / Alirajpur" },
+            { "index": "B", "text": "झाबुआ / Jhabua" },
+            { "index": "C", "text": "बड़वानी / Barwani" },
+            { "index": "D", "text": "धार / Dhar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "अलीराजपुर / Alirajpur",
+          "explanation": "अलीराजपुर जिले की साक्षरता सबसे कम है। / Alirajpur has the lowest literacy."
+        },
+        {
+          "q_id": "20",
+          "statement": "मध्य प्रदेश का सर्वाधिक वन क्षेत्रफल वाला जिला कौन सा है? / District with maximum forest cover (area) in MP?",
+          "options": [
+            { "index": "A", "text": "बालाघाट / Balaghat" },
+            { "index": "B", "text": "छिंदवाड़ा / Chhindwara" },
+            { "index": "C", "text": "शहडोल / Shahdol" },
+            { "index": "D", "text": "मंडला / Mandla" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "बालाघाट / Balaghat",
+          "explanation": "बालाघाट में सबसे अधिक वनों का क्षेत्रफल है। / Balaghat has the largest forest area."
+        },
+        {
+          "q_id": "21",
+          "statement": "मध्य प्रदेश के किस जिले में न्यूनतम वन पाए जाते हैं? / District with minimum forest cover in MP?",
+          "options": [
+            { "index": "A", "text": "उज्जैन / Ujjain" },
+            { "index": "B", "text": "शाजापुर / Shajapur" },
+            { "index": "C", "text": "रतलाम / Ratlam" },
+            { "index": "D", "text": "भिंड / Bhind" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "उज्जैन / Ujjain",
+          "explanation": "उज्जैन जिले में वनों का प्रतिशत और क्षेत्रफल सबसे कम है। / Ujjain has the lowest forest cover."
+        },
+        {
+          "q_id": "22",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'मझगवां हीरा खदान' के लिए प्रसिद्ध है? / Majhgawan diamond mine is in which district?",
+          "options": [
+            { "index": "A", "text": "पन्ना / Panna" },
+            { "index": "B", "text": "सतना / Satna" },
+            { "index": "C", "text": "छतरपुर / Chhatarpur" },
+            { "index": "D", "text": "रीवा / Rewa" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "पन्ना / Panna",
+          "explanation": "मझगवां खदान पन्ना जिले के अंतर्गत आती है। / Majhgawan mine is in Panna."
+        },
+        {
+          "q_id": "23",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'मध्य प्रदेश का शिमला' कहा जाता है? / Which place/district is called 'Shimla of MP'?",
+          "options": [
+            { "index": "A", "text": "शिवपुरी (या पचमढ़ी - होशंगाबाद) / Shivpuri or Pachmarhi" },
+            { "index": "B", "text": "अमरकंटक / Amarkantak" },
+            { "index": "C", "text": "मांडू / Mandu" },
+            { "index": "D", "text": "बैतूल / Betul" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "शिवपुरी (या पचमढ़ी - होशंगाबाद) / Shivpuri or Pachmarhi",
+          "explanation": "शिवपुरी को गर्मियों की राजधानी या शिमला कहा जाता है (पचमढ़ी भी हिल स्टेशन है)। / Shivpuri is often called Shimla of MP."
+        },
+        {
+          "q_id": "24",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'सांची के स्तूप' के लिए विश्वप्रसिद्ध है? / Sanchi Stupa is located in which district?",
+          "options": [
+            { "index": "A", "text": "रायसेन / Raisen" },
+            { "index": "B", "text": "सीहोर / Sehore" },
+            { "index": "C", "text": "विदिशा / Vidisha" },
+            { "index": "D", "text": "भोपाल / Bhopal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रायसेन / Raisen",
+          "explanation": "सांची बौद्ध स्मारक रायसेन जिले में स्थित है। / Sanchi Stupa is in Raisen district."
+        },
+        {
+          "q_id": "25",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'खजुराहो के मंदिरों' के लिए प्रसिद्ध है? / Khajuraho temples are located in which district?",
+          "options": [
+            { "index": "A", "text": "छतरपुर / Chhatarpur" },
+            { "index": "B", "text": "पन्ना / Panna" },
+            { "index": "C", "text": "टीकमगढ़ / Tikamgarh" },
+            { "index": "D", "text": "सागर / Sagar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "छतरपुर / Chhatarpur",
+          "explanation": "विश्वप्रसिद्ध खजुराहो मंदिर छतरपुर जिले में हैं। / Khajuraho temples are in Chhatarpur district."
+        },
+        {
+          "q_id": "26",
+          "statement": "मध्य प्रदेश के किस जिले में भीमबेटका की गुफाएं स्थित है? / Bhimbetka rock shelters are in which district?",
+          "options": [
+            { "index": "A", "text": "रायसेन / Raisen" },
+            { "index": "B", "text": "सीहोर / Sehore" },
+            { "index": "C", "text": "होशंगाबाद / Narmadapuram" },
+            { "index": "D", "text": "धार / Dhar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "रायसेन / Raisen",
+          "explanation": "प्रागैतिहासिक भीमबेटका गुफाएं अब्दुल्लागंज (रायसेन) में हैं। / Bhimbetka caves are in Raisen."
+        },
+        {
+          "q_id": "27",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'तात्या टोपे की समाधि' के लिए जाना जाता है? / Tatya Tope's memorial is in which district?",
+          "options": [
+            { "index": "A", "text": "शिवपुरी / Shivpuri" },
+            { "index": "B", "text": "ग्वालियर / Gwalior" },
+            { "index": "C", "text": "गुना / Guna" },
+            { "index": "D", "text": "अशोकनगर / Ashoknagar" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "शिवपुरी / Shivpuri",
+          "explanation": "शिवपुरी में अमर शहीद तात्या टोपे की समाधि है। / Memorial is in Shivpuri."
+        },
+        {
+          "q_id": "28",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'उदयगिरी की गुफाएं' रखता है? / Udayagiri Caves are located in which district?",
+          "options": [
+            { "index": "A", "text": "विदिशा / Vidisha" },
+            { "index": "B", "text": "रायसेन / Raisen" },
+            { "index": "C", "text": "सागर / Sagar" },
+            { "index": "D", "text": "भोपाल / Bhopal" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "विदिशा / Vidisha",
+          "explanation": "गुप्तकालीन उदयगिरी गुफाएं विदिशा के पास हैं। / Udayagiri caves are in Vidisha."
+        },
+        {
+          "q_id": "29",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'मध्य प्रदेश का मैनचेस्टर' (वस्त्र उद्योग) कहा जाता है? / Manchester of MP is?",
+          "options": [
+            { "index": "A", "text": "इन्दौर / Indore" },
+            { "index": "B", "text": "ग्वालियर / Gwalior" },
+            { "index": "C", "text": "उज्जैन / Ujjain" },
+            { "index": "D", "text": "देवास / Dewas" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "इन्दौर / Indore",
+          "explanation": "कपड़ा मिलों की अधिकता के कारण इन्दौर को मैनचेस्टर कहते हैं। / Indore is known as the Manchester of MP."
+        },
+        {
+          "q_id": "30",
+          "statement": "मध्य प्रदेश का कौन सा जिला 'मध्य प्रदेश का सबसे साक्षर जिला' माना जाता है? / Most literate district in MP?",
+          "options": [
+            { "index": "A", "text": "जबलपुर / Jabalpur" },
+            { "index": "B", "text": "भोपाल / Bhopal" },
+            { "index": "C", "text": "इन्दौर / Indore" },
+            { "index": "D", "text": "ग्वालियर / Gwalior" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "जबलपुर / Jabalpur",
+          "explanation": "जबलपुर जिले की साक्षरता प्रतिशत सर्वोच्च है। / Jabalpur has the highest literacy."
+        }
+      ]
+    }
+  ]
+}
