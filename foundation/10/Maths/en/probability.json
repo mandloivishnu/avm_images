@@ -1,0 +1,112 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Probability",
+    "totalMarks": "2",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Classical Probability",
+        "definition": "Probability of an event = (Number of favorable outcomes) / (Total number of possible outcomes)",
+        "explanation": "In classical probability, all outcomes are considered equally likely. The value of probability always lies between 0 and 1 — 0 represents an impossible event and 1 represents a sure event.",
+        "importantPoints": [
+          "P(E) = Favorable outcomes / Total outcomes",
+          "The value of probability lies between 0 ≤ P(E) ≤ 1",
+          "P(E) + P(not E) = 1"
+        ],
+        "highlightWords": [
+          "Probability",
+          "Favorable outcomes",
+          "Equally likely"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Simple Probability Questions",
+        "definition": "Calculation of probability based on simple daily life events (coins, dice, playing cards, drawing balls, etc.).",
+        "explanation": "In these questions, it is first necessary to correctly count the 'total possible outcomes' and 'favorable outcomes'. This method is adopted in questions of 52 playing cards, colored balls in a bag, or dice.",
+        "importantPoints": [
+          "First identify the sample space",
+          "Then count favorable outcomes",
+          "It is useful to remember that there are a total of 52 cards in a deck, divided into 4 suits"
+        ],
+        "highlightWords": [
+          "Simple probability",
+          "Sample space",
+          "Playing cards"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "A die is thrown once. Find the probability of getting a prime number.",
+          "correct_answer": "1/2",
+          "imgUrl": "",
+          "explanation": "Total possible outcomes (Sample Space) when throwing a die = {1, 2, 3, 4, 5, 6}\nTotal number of outcomes = 6\n\nPrime numbers on a die = {2, 3, 5}\nNumber of favorable outcomes = 3\n\nProbability P(E) = (Number of favorable outcomes) / (Total number of outcomes)\nP(E) = 3 / 6 = 1/2\n\nTherefore, the probability of getting a prime number is 1/2."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "Two coins are tossed simultaneously. Find the probability of getting at least one head.",
+            "correct_answer": "3/4",
+            "imgUrl": "",
+            "explanation": "Total possible outcomes when tossing two coins = {HH, HT, TH, TT}\nTotal outcomes = 4\n\nFavorable outcomes for at least one head = {HH, HT, TH}\nNumber of favorable outcomes = 3\n\nProbability P(E) = 3 / 4\nTherefore, the probability of getting at least one head is 3/4."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "A bag contains 3 red and 5 black balls. A ball is drawn at random from the bag. What is the probability that the ball is red?",
+          "correct_answer": "3/8",
+          "imgUrl": "",
+          "explanation": "Number of red balls = 3\nNumber of black balls = 5\nTotal number of balls (Total outcomes) = 3 + 5 = 8\n\nFavorable outcomes for getting a red ball = 3\n\nProbability P(Red) = (Number of red balls) / (Total number of balls)\nP(Red) = 3 / 8\nTherefore, the probability of getting a red ball is 3/8."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "If P(E) = 0.05, what is the probability of 'not E'?",
+            "correct_answer": "0.95",
+            "imgUrl": "",
+            "explanation": "We know that:\nP(E) + P(not E) = 1\n\nSubstituting the values:\n0.05 + P(not E) = 1\nP(not E) = 1 - 0.05\nP(not E) = 0.95\nTherefore, the probability of 'not E' is 0.95."
+          }
+        ]
+      }
+    }
+  ]
+}

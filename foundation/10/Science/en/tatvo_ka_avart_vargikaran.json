@@ -1,0 +1,114 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Periodic Classification of Elements",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Early Classification of Elements and Mendeleev's Periodic Table",
+      "definitionBean": {
+        "title": "Periodic Classification of Elements",
+        "definition": "Early attempts to organize elements based on similarities in their properties included Dobereiner's Triads and Newlands' Law of Octaves, followed by Mendeleev using atomic mass.",
+        "explanation": "According to Dobereiner's triads, the atomic mass of the middle element was roughly the average of the masses of the other two elements. In Newlands' law of octaves, properties of every eighth element resembled the first.",
+        "importantPoints": [
+          "Dobereiner's Triads: Groups of three elements where atomic weight of middle is average of others",
+          "Newlands' Law of Octaves: Repetition of eighth element properties like musical notes",
+          "Mendeleev's Periodic Table: Physical and chemical properties of elements are periodic functions of their atomic masses"
+        ],
+        "highlightWords": [
+          "Dobereiner triads",
+          "Newlands octaves",
+          "Mendeleev periodic table"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Modern Periodic Table and Periodic Trends",
+      "definitionBean": {
+        "title": "Modern Periodic Table and Trends",
+        "definition": "According to the modern periodic law, the properties of elements are periodic functions of their atomic number. It contains 18 vertical columns (groups) and 7 horizontal rows (periods).",
+        "explanation": "Moving from left to right in the periodic table, atomic size decreases and valency first increases then decreases. Moving top to bottom in a group, atomic size increases and metallic character increases.",
+        "importantPoints": [
+          "Modern Periodic Law: Based on atomic number",
+          "Groups: 18 vertical columns",
+          "Periods: 7 horizontal rows",
+          "Periodic trends: Atomic size, valency, metallic and non-metallic characters"
+        ],
+        "highlightWords": [
+          "Modern periodic table",
+          "Atomic number",
+          "Groups and periods",
+          "Periodic trends"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Early Classification and Mendeleev",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "What were the limitations of Dobereiner's law of triads? Explain with an example.",
+          "correct_answer": "Dobereiner could not form triads for all known elements, so this classification failed.",
+          "imgUrl": "",
+          "explanation": "Dobereiner could not form triads for all the elements known at that time because very few elements could be arranged according to this rule, rendering this classification unsuccessful."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "State Mendeleev's periodic law and write one feature of it.",
+            "correct_answer": "Properties of elements are periodic functions of atomic mass; blank spaces were left for unknown elements.",
+            "imgUrl": "",
+            "explanation": "Mendeleev's Periodic Law: Properties of elements are periodic functions of their atomic masses. One of its key features was that it left blank spaces in the table for undiscovered elements."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Modern Periodic Table and Periodic Trends",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is the modern periodic law? How many groups and periods are there in the modern periodic table?",
+          "correct_answer": "Modern law based on atomic number contains 18 groups and 7 periods.",
+          "imgUrl": "",
+          "explanation": "According to the modern periodic law, the physical and chemical properties of elements are periodic functions of their atomic numbers. It consists of 18 groups (vertical columns) and 7 periods (horizontal rows)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "How do atomic radius (size) and metallic character change when moving from left to right across a period in the periodic table?",
+            "correct_answer": "Atomic radius and metallic character decrease from left to right.",
+            "imgUrl": "",
+            "explanation": "When moving from left to right across a period, atomic radius decreases (due to increased nuclear charge) and metallic character decreases while non-metallic character increases."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Human Eye and Colourful World",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Structure of Human Eye and Power of Accommodation",
+      "definitionBean": {
+        "title": "Human Eye and Power of Accommodation",
+        "definition": "The human eye is a natural optical instrument that forms images of objects on the retina; and the ability of the eye lens to adjust its focal length to clearly see near and distant objects is called 'power of accommodation'[cite: 19].",
+        "explanation": "Light enters the eye through the pupil, and a real and inverted image is formed on the retina by the eye lens[cite: 19]. For a normal eye, the near point is 25 cm and the far point is infinity[cite: 19].",
+        "importantPoints": [
+          "Retina: The screen where the image is formed[cite: 19]",
+          "Power of accommodation: Altering focal length of lens via ciliary muscles[cite: 19]",
+          "Least distance of distinct vision: 25 centimeters[cite: 19]",
+          "Persistence of vision: 1/16th of a second[cite: 19]"
+        ],
+        "highlightWords": [
+          "Human eye",
+          "Power of accommodation",
+          "Retina",
+          "Near point"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Vision Defects and Scattering of Light",
+      "definitionBean": {
+        "title": "Vision Defects and Scattering of Light",
+        "definition": "When the power of accommodation of the eye weakens, objects are not seen clearly, which is called a vision defect (mainly myopia, hypermetropia, and presbyopia); and the spreading of light by particles is called scattering[cite: 19].",
+        "explanation": "Myopia is corrected using a concave lens and hypermetropia is corrected using a convex lens[cite: 19]. Scattering of light causes the sky to appear blue[cite: 19].",
+        "importantPoints": [
+          "Myopia (Nearsightedness): Can see near objects, not distant ones (use concave lens)[cite: 19]",
+          "Hypermetropia (Farsightedness): Can see distant objects, not near ones (use convex lens)[cite: 19]",
+          "Presbyopia: Occurs with aging (use bifocal lens)[cite: 19]",
+          "Scattering of light: Greater scattering of blue light (blue appearance of sky)[cite: 19]"
+        ],
+        "highlightWords": [
+          "Vision defect",
+          "Myopia",
+          "Hypermetropia",
+          "Scattering"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Human Eye and Accommodation",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "Draw a labeled diagram of the human eye and write the functions of its main parts (retina and pupil)[cite: 19].",
+          "correct_answer": "Retina forms the image, pupil regulates light[cite: 19].",
+          "imgUrl": "",
+          "explanation": "The main part of the human eye is the retina, on which a real and inverted image of an object is formed; the pupil regulates the amount of light entering the eye[cite: 19]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "What is meant by the power of accommodation of the eye? Explain[cite: 19].",
+            "correct_answer": "Adjusting lens focal length via muscles to see clearly is power of accommodation[cite: 19].",
+            "imgUrl": "",
+            "explanation": "The ability of the eye lens to modify its curvature and focal length with the help of ciliary muscles to focus near or distant objects clearly on the retina is called the power of accommodation of the eye[cite: 19]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Vision Defects",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is Myopia (nearsightedness)? What causes it and which lens is used to correct it[cite: 19]?",
+          "correct_answer": "Myopia cannot see distant objects, corrected with concave lens[cite: 19].",
+          "imgUrl": "",
+          "explanation": "In myopia, a person can see nearby objects clearly but cannot see distant objects clearly[cite: 19]. It is caused by the elongation of the eyeball or excessive curvature of the lens[cite: 19]. It is corrected using a 'concave lens'[cite: 19]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Write the difference between hypermetropia and myopia, and how is hypermetropia corrected[cite: 19]?",
+            "correct_answer": "Hypermetropia is corrected using a convex lens[cite: 19].",
+            "imgUrl": "",
+            "explanation": "Myopia lacks clarity for distant objects (corrected with concave lens), whereas hypermetropia (farsightedness) lacks clarity for nearby objects, which is corrected using a 'convex lens'[cite: 19]."
+          }
+        ]
+      }
+    }
+  ]
+}

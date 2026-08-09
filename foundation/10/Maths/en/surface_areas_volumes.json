@@ -1,0 +1,183 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Surface Areas and Volumes",
+    "totalMarks": "5",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Cube and Cuboid",
+        "definition": "A cube is a solid whose all sides are equal, whereas in a cuboid, length, breadth and height can be different.",
+        "explanation": "Total surface area of a cube = 6a², Volume = a³ (where a is side). Total surface area of a cuboid = 2(lb+bh+hl), Volume = l×b×h.",
+        "importantPoints": [
+          "Cube: Surface area = 6a², Volume = a³",
+          "Cuboid: Surface area = 2(lb+bh+hl), Volume = lbh",
+          "Cube is a special case of cuboid when l=b=h"
+        ],
+        "highlightWords": [
+          "Cube",
+          "Cuboid",
+          "Surface area",
+          "Volume"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Cylinder",
+        "definition": "A cylinder is a solid with circular bases of equal radius at both ends connected by a curved surface.",
+        "explanation": "Curved surface area of a cylinder = 2πrh, total surface area = 2πr(h+r), and volume = πr²h, where r is radius and h is height.",
+        "importantPoints": [
+          "Curved surface area = 2πrh",
+          "Total surface area = 2πr(h+r)",
+          "Volume = πr²h"
+        ],
+        "highlightWords": [
+          "Cylinder",
+          "Curved surface",
+          "Volume"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Cone",
+        "definition": "A cone is a solid that has a circular base and tapers smoothly to a apex point.",
+        "explanation": "Curved surface area of a cone = πrl, total surface area = πr(l+r), volume = ⅓πr²h, where l is the slant height and l² = r² + h².",
+        "importantPoints": [
+          "Curved surface area = πrl",
+          "Total surface area = πr(l+r)",
+          "Volume = ⅓πr²h",
+          "Slant height: l² = r² + h²"
+        ],
+        "highlightWords": [
+          "Cone",
+          "Slant height",
+          "Volume"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Sphere and Hemisphere",
+        "definition": "A sphere is a perfectly round three-dimensional solid, while a hemisphere is half of a sphere.",
+        "explanation": "Surface area of a sphere = 4πr², volume = (4/3)πr³. Curved surface area of a hemisphere = 2πr², total surface area = 3πr², volume = (2/3)πr³.",
+        "importantPoints": [
+          "Sphere: Surface area = 4πr², Volume = (4/3)πr³",
+          "Hemisphere: Total surface area = 3πr², Volume = (2/3)πr³",
+          "Hemisphere does not have exactly half the volume formulas due to the flat surface addition"
+        ],
+        "highlightWords": [
+          "Sphere",
+          "Hemisphere",
+          "Surface area"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Frustum of a Cone",
+        "definition": "When a cone is cut parallel to its base, the portion remaining between the apex and the cut part is called a frustum.",
+        "explanation": "A frustum has two different radii r1 (top) and r2 (bottom). Its volume = (⅓)πh(r1²+r2²+r1r2), and curved surface area = πl(r1+r2), where l is the slant height.",
+        "importantPoints": [
+          "Volume = (⅓)πh(r1²+r2²+r1r2)",
+          "Curved surface area = πl(r1+r2)",
+          "Frustum is the solid obtained by cutting a cone parallelly"
+        ],
+        "highlightWords": [
+          "Frustum",
+          "Cone",
+          "Slant height"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "Two cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid.",
+          "correct_answer": "160 cm²",
+          "imgUrl": "",
+          "explanation": "Given: Volume of each cube = 64 cm³\nLet the side of the cube be a\na³ = 64 => a = 4 cm\n\nWhen two such cubes are joined together, a cuboid is formed whose dimensions will be:\nLength (l) = 4 + 4 = 8 cm\nBreadth (b) = 4 cm\nHeight (h) = 4 cm\n\nTotal surface area of cuboid = 2(lb + bh + hl)\n= 2(8×4 + 4×4 + 4×8)\n= 2(32 + 16 + 32)\n= 2(80) = 160 cm²\nTherefore, the surface area of the resulting cuboid is 160 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Use π = 22/7)",
+            "correct_answer": "214.5 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nTotal height of toy = 15.5 cm\nRadius of hemisphere (r) = 3.5 cm\nHeight of cone (h) = Total height - Radius of hemisphere = 15.5 - 3.5 = 12 cm\n\nSlant height of cone (l):\nl = √(r² + h²) = √( (3.5)² + 12² ) = √(12.25 + 144) = √156.25 = 12.5 cm\n\nTotal surface area of toy = CSA of cone + CSA of hemisphere\n= πrl + 2πr²\n= πr(l + 2r)\n= (22 / 7) × 3.5 × (12.5 + 2 × 3.5)\n= (22 / 7) × (7 / 2) × (12.5 + 7)\n= 11 × 19.5\n= 214.5 cm²\nTherefore, the total surface area of the toy is 214.5 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "7_a",
+          "statement": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm. Find its surface area.",
+          "correct_answer": "220 mm²",
+          "imgUrl": "",
+          "explanation": "Given:\nTotal length of capsule = 14 mm\nDiameter = 5 mm, so radius (r) = 5/2 = 2.5 mm\n\nLength of cylindrical part (h) = Total length - (Radius of hemisphere + Radius of hemisphere)\nh = 14 - (2.5 + 2.5) = 14 - 5 = 9 mm\n\nSurface area of capsule = CSA of cylinder + 2 × (CSA of hemisphere)\n= 2πrh + 2(2πr²)\n= 2πr(h + 2r)\n= 2 × (22 / 7) × 2.5 × (9 + 2 × 2.5)\n= (44 / 7) × 2.5 × (9 + 5)\n= (44 / 7) × 2.5 × 14\n= 44 × 2.5 × 2\n= 44 × 5 = 220 mm²\nTherefore, the surface area of the capsule is 220 mm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "7_b",
+            "statement": "From a solid cylinder of height 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm².",
+            "correct_answer": "18 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nHeight of cylinder (h) = 2.4 cm\nDiameter of cylinder = 1.4 cm, so radius (r) = 0.7 cm\nHeight and radius of cone are equal to that of cylinder.\n\nSlant height of cone (l):\nl = √(r² + h²) = √((0.7)² + (2.4)²) = √(0.49 + 5.76) = √6.25 = 2.5 cm\n\nTotal surface area of remaining solid = CSA of cylinder + Area of base of cylinder + CSA of cone\n= 2πrh + πr² + πrl\n= πr(2h + r + l)\n= (22 / 7) × 0.7 × (2(2.4) + 0.7 + 2.5)\n= 22 × 0.1 × (4.8 + 3.2)\n= 2.2 × 8\n= 17.6 cm² (approx 18 cm²)\nTherefore, the surface area of the remaining solid is approx 18 cm²."
+          }
+        ]
+      }
+    }
+  ]
+}

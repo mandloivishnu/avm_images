@@ -1,0 +1,941 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "SOCIAL SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "setName": "SET C",
+    "totalQuestions": "23",
+    "time": "3 Hours",
+    "language": "English Version",
+    "rollCode": "261116"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "One word",
+      "text": "Answer in one word:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Which form of government is better?",
+          "correct_answer": "Democratic form of government",
+          "explanation": "A democratic system of government is considered the best form because it promotes citizens' dignity and freedom, respects public opinion, provides room to correct mistakes, and is fully accountable to the people[cite: 21]."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Write the name of the longest highway tunnel in the world.",
+          "correct_answer": "Laerdal Tunnel (Norway)",
+          "explanation": "Located in Norway, the Laerdal Tunnel is the world's longest road tunnel, with a total length of approximately 24.5 kilometers, ensuring smooth year-round transport between Oslo and Bergen[cite: 21]."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Defence and foreign affairs are included in which list?",
+          "correct_answer": "Union List",
+          "explanation": "According to the Seventh Schedule of the Indian Constitution, subjects of national importance requiring a uniform policy nationwide—such as national defense, foreign affairs, banking, and communication—are placed in the Union List. Only the central government has the exclusive right to legislate on them[cite: 21]."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Who hosted the Vienna Congress in 1815?",
+          "correct_answer": "Chancellor Duke Metternich of Austria",
+          "explanation": "Following the defeat of Napoleon, the Vienna Congress (summit) organized by European powers in 1815 was hosted by Austrian Chancellor Duke Metternich. Its main objective was to restore the conservative order in Europe and undo the changes brought by the Napoleonic Wars[cite: 21]."
+        },
+        {
+          "q_id": "v",
+          "statement": "What was the major center of Madhya Pradesh in the revolution of 1857?",
+          "correct_answer": "Mandla and Jabalpur",
+          "explanation": "In the First War of Independence of 1857, Mandla in the Mahakoshal region of Madhya Pradesh (where Rani Avantibai Lodhi of Ramgarh led the revolt) and Jabalpur (where Gond king Shankar Shah and his son Raghunath Shah led the uprising) were the major rebel centers[cite: 21]."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Which organization releases the Human Development Index?",
+          "correct_answer": "United Nations Development Programme (UNDP)",
+          "explanation": "The Human Development Index (HDI) is published annually by the United Nations Development Programme (UNDP). It compares development across countries based on life expectancy (health), literacy and education (knowledge), and per capita income (standard of living)[cite: 21]."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Where used Khajya Naik to go daily to worship the sun?",
+          "options": [
+            {
+              "index": "a",
+              "text": "To the temple"
+            },
+            {
+              "index": "b",
+              "text": "Near the peepal tree"
+            },
+            {
+              "index": "c",
+              "text": "On the roof of the house"
+            },
+            {
+              "index": "d",
+              "text": "On the river bank"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "On the river bank",
+          "explanation": "Khajya Naik, the immortal Bhil hero and freedom fighter of the 1857 revolt, used to go to the river bank every morning to offer prayers and 'arghya' to the sun in accordance with his religious devotion[cite: 21]."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Japan's oldest printed book, printed in 868 AD, is:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Tripitaka Koreana"
+            },
+            {
+              "index": "b",
+              "text": "Diamond Sutra"
+            },
+            {
+              "index": "c",
+              "text": "Ukiyo"
+            },
+            {
+              "index": "d",
+              "text": "Morning Mazara"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Diamond Sutra",
+          "explanation": "The oldest Japanese book printed using woodblock printing technology is the 'Diamond Sutra', published in 868 AD. It features text along with beautifully carved illustrations on wood[cite: 21]."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The first state in India to make rooftop rainwater harvesting structure compulsory for all houses across the state:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Rajasthan"
+            },
+            {
+              "index": "b",
+              "text": "Meghalaya"
+            },
+            {
+              "index": "c",
+              "text": "Tamil Nadu"
+            },
+            {
+              "index": "d",
+              "text": "Himachal Pradesh"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Tamil Nadu",
+          "explanation": "Tamil Nadu is the first and only state in India to legally make rooftop rainwater harvesting structures mandatory for every house across the state, with penal provisions for non-compliance[cite: 21]."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which of the following activities belongs to the primary sector?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Fishing"
+            },
+            {
+              "index": "b",
+              "text": "Manufacturing"
+            },
+            {
+              "index": "c",
+              "text": "Making bricks from soil"
+            },
+            {
+              "index": "d",
+              "text": "Making jaggery"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Fishing",
+          "explanation": "Primary sector activities involve the direct extraction of natural resources to produce goods. Fishing, agriculture, forestry, and mining belong to the primary sector, whereas making bricks, jaggery, and general manufacturing belong to the secondary sector[cite: 21]."
+        },
+        {
+          "q_id": "v",
+          "statement": "Investment made by multinational companies is called:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Foreign investment"
+            },
+            {
+              "index": "b",
+              "text": "Portfolio investment"
+            },
+            {
+              "index": "c",
+              "text": "Mutual investment"
+            },
+            {
+              "index": "d",
+              "text": "Inter-governmental investment"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Foreign investment",
+          "explanation": "When multinational corporations (MNCs) spend money to buy assets such as land, buildings, machines, and other equipment or set up production units in another country, it is called foreign investment[cite: 21]."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Sexual division of labor means:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Biological difference between men and women"
+            },
+            {
+              "index": "b",
+              "text": "Unequal roles assigned to men and women by society"
+            },
+            {
+              "index": "c",
+              "text": "Unequal ratio of boys and girls"
+            },
+            {
+              "index": "d",
+              "text": "Denial of voting rights to women in a democratic system"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Unequal roles assigned to men and women by society",
+          "explanation": "In political science and sociology, sexual division of labor refers not to biological differences between men and women, but to the unequal social roles, household duties, and stereotyped responsibilities assigned to them by society[cite: 21]."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The total geographical area of India is {BLANK} square kilometers.",
+          "correct_answer": "approximately 32,87,263 sq km",
+          "explanation": "The total geographical area of India is approximately 32,87,263 square kilometers (3.28 million sq km), which accounts for about 2.4 percent of the total land area of the world[cite: 21]."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Kandla port is also known as {BLANK}.",
+          "correct_answer": "Deendayal Port",
+          "explanation": "Located in the Kutch district of Gujarat, Kandla is the country's first tidal port. Developed after independence as a substitute for Karachi port, it has been officially renamed 'Deendayal Port' by the central government[cite: 21]."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Most credit needs of poor families are met from {BLANK} sources.",
+          "correct_answer": "informal",
+          "explanation": "In India, poor and rural families struggle to secure loans from banks and cooperatives (formal sources) due to lack of collateral and paperwork. Consequently, they remain dependent on informal sources like moneylenders, traders, and relatives who charge exorbitant interest rates[cite: 21]."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Smithfield was London's oldest {BLANK} market.",
+          "correct_answer": "meat",
+          "explanation": "During the 19th century and medieval times, Smithfield in London was the largest and oldest wholesale market for livestock and meat trade[cite: 21]."
+        },
+        {
+          "q_id": "v",
+          "statement": "Nari Shakti Vandan Adhiniyam was passed in the year {BLANK}.",
+          "correct_answer": "2023",
+          "explanation": "The landmark 106th Constitutional Amendment Bill, known as the 'Nari Shakti Vandan Adhiniyam', aimed at reserving 33 percent of seats for women in the Lok Sabha and state legislative assemblies, was passed by the Indian Parliament in September 2023[cite: 21]."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The Bhoodan-Gramdan movement started by Vinoba Bhave was also named {BLANK} revolution.",
+          "correct_answer": "Bloodless (Peaceful) Revolution",
+          "explanation": "Initiated in 1951 from Pochampalli by Acharya Vinoba Bhave (spiritual heir of Mahatma Gandhi), the Bhoodan-Gramdan movement saw large landowners voluntarily gift extra land to landless farmers without any violence or coercion, earning it the name 'Bloodless Revolution'[cite: 21]."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Average income is also known as national income.",
+          "correct_answer": "False",
+          "explanation": "This statement is false. The total income of a country divided by its total population gives the 'average income' or 'per capita income', whereas national income is the total monetary value of all goods and services produced within a country in a year[cite: 21]."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Cloth merchants in England bought wool from the stapler and carried it to the spinners.",
+          "correct_answer": "True",
+          "explanation": "This statement is true. During the proto-industrialization era, merchant-clothiers in England purchased raw wool from 'staplers' (who sorted wool by fiber) and supplied it to spinners, after which the spun yarn was passed to weavers and fullers[cite: 21]."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The first International Earth Summit was held in Rio de Janeiro, Brazil.",
+          "correct_answer": "True",
+          "explanation": "This statement is true. In June 1992, the first International Earth Summit was held in Rio de Janeiro, Brazil, to address pressing problems of environmental protection and socio-economic development, with heads of state from over 100 countries participating[cite: 21]."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The judiciary plays an important role in overseeing the implementation of constitutional provisions and laws.",
+          "correct_answer": "True",
+          "explanation": "This statement is true. In any democratic and federal system, the judiciary acts as the interpreter and guardian of the constitution, ensuring the impartial execution of constitutional provisions and laws during rights violations or center-state disputes[cite: 21]."
+        },
+        {
+          "q_id": "v",
+          "statement": "Activities of primary, secondary, and tertiary sectors are independent.",
+          "correct_answer": "False",
+          "explanation": "This statement is false. The activities of the primary, secondary, and tertiary sectors are not independent; rather, they are deeply interdependent. For instance, the primary sector (agriculture) provides sugarcane as raw material to the secondary sector (sugar mills), while the tertiary sector (transport) delivers it to markets[cite: 21]."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Modern forms of money include currency — paper notes and coins.",
+          "correct_answer": "True",
+          "explanation": "This statement is true. Unlike older barter or commodity systems, modern currency primarily comprises paper notes and coins authorized by the government or central bank[cite: 21]."
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the correct pairs:",
+      "columns": {
+        "column_A_title": "A",
+        "column_B_title": "B",
+        "pairs": [
+          {
+            "a_item": "(i) Mahanadi basin",
+            "b_item": "Hirakud Project",
+            "correct_match_index": "3",
+            "explanation": "Built across the Mahanadi River in Odisha, the Hirakud Dam is India's longest multipurpose river valley project, aiding in flood control and irrigation within the Mahanadi basin[cite: 21]."
+          },
+          {
+            "a_item": "(ii) 'Vande Mataram'",
+            "b_item": "Bankim Chandra Chattopadhyay",
+            "correct_match_index": "4",
+            "explanation": "India's national song 'Vande Mataram' was composed in the 1870s by Bankim Chandra Chattopadhyay as a hymn to the motherland and was later included in his famous novel 'Anandamath'[cite: 21]."
+          },
+          {
+            "a_item": "(iii) Capital of Sri Lanka",
+            "b_item": "Colombo",
+            "correct_match_index": "6",
+            "explanation": "Colombo is Sri Lanka's largest city, principal financial and commercial hub, and historically its executive capital[cite: 21]."
+          },
+          {
+            "a_item": "(iv) Authorized by the country's government",
+            "b_item": "Currency",
+            "correct_match_index": "2",
+            "explanation": "Modern money or paper notes (currency) are authorized by a country's legal government and central bank, making them universally accepted as a medium of exchange[cite: 21]."
+          },
+          {
+            "a_item": "(v) Electronic capital",
+            "b_item": "Bengaluru",
+            "correct_match_index": "1",
+            "explanation": "Karnataka's capital Bengaluru (Bangalore) is known as India's 'Electronic capital' or 'Silicon Valley' because it is the country's largest Information Technology (IT) and software hub[cite: 21]."
+          },
+          {
+            "a_item": "(vi) Vernacular Press Act",
+            "b_item": "Year 1878",
+            "correct_match_index": "5",
+            "explanation": "Enacted in 1878 by Viceroy Lord Lytton, the Vernacular Press Act placed severe restrictions on the freedom of Indian-language (vernacular) newspapers to suppress nationalist writings[cite: 21]."
+          }
+        ]
+      },
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two features of a federal system of government.",
+          "correct_answer": "",
+          "explanation": "Two main features of a federal system of government are:\n1. Dual levels of government: There are two or more levels of government in the country (central government and state/provincial governments).\n2. Constitutional division of powers: The jurisdictions and powers of each tier of government are specified and guaranteed by the constitution to prevent overlaps or overreach[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is meant by coalition government?",
+            "correct_answer": "",
+            "explanation": "When no single political party secures a clear majority in an election to form a government independently in parliament or assembly, two or more political parties join forces under a common minimum program to form a government. Such a government is called a 'coalition government'[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by Panchang?",
+          "correct_answer": "",
+          "explanation": "A Panchang is an astronomical calendar or annual table based on the mathematical movements of the sun, moon, planets, and constellations. It details five essential attributes for daily life—Tithi (lunar day), Vara (weekday), Nakshatra (constellation), Yoga, and Karana—along with auspicious timings and religious festivals[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is meant by ballad?",
+            "correct_answer": "",
+            "explanation": "A ballad is a traditional folk song or poetic narrative passed down orally from generation to generation by local singers. They typically recount historical events, tales of brave warriors, folklore, or romantic sagas in a lyrical format[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is 'Right to Information'?",
+          "correct_answer": "",
+          "explanation": "The Right to Information (RTI Act, 2005) is a landmark legislation enacted by the Government of India that empowers citizens to secure access to information under the control of public authorities, promoting transparency and accountability in government functioning[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two types of consumer exploitation.",
+            "correct_answer": "",
+            "explanation": "Two main types of consumer exploitation are:\n1. Adulteration and sub-standard quality: Selling adulterated goods or substandard/expired products in the market.\n2. False weights and measures / overcharging: Giving less than the actual weight/measure and charging prices higher than the Maximum Retail Price (MRP)[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a 'resource'?",
+          "correct_answer": "",
+          "explanation": "Everything available in our environment which can be used to satisfy our needs, provided it is technologically accessible, economically feasible, and culturally acceptable, is termed a 'resource'; examples include water, soil, forests, and minerals[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is the meaning of sustainable economic development?",
+            "correct_answer": "",
+            "explanation": "Sustainable economic development means development that takes place without damaging the environment and meets the needs of the present generation without compromising the ability of future generations to meet their own needs[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the role of citizens in a democracy? Write in any two points.",
+          "correct_answer": "",
+          "explanation": "Two main roles of citizens in a democracy are:\n1. Informed voting: Exercising the right to vote to elect honest, capable, and accountable representatives and governments.\n2. Vigilance and participation: Keeping a watch on government policies, peacefully protesting against wrong decisions, and abiding by the country's laws[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two reasons for delay in decision-making in a democracy.",
+            "correct_answer": "",
+            "explanation": "Two main reasons for delays in decision-making in a democracy are:\n1. Deliberation and debate: Democratic decisions are based on consensus, requiring extensive discussions and consultations among parliamentarians and the public before passing any law.\n2. Procedural formalities: Democracies must follow a structured, constitutionally mandated, and time-consuming legislative process across multiple stages and committees[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Project Tiger?",
+          "correct_answer": "",
+          "explanation": "Project Tiger is a world-renowned wildlife conservation campaign launched by the Central Government in April 1973 to save the declining population of the national animal, the tiger, and protect their natural habitats by establishing special Tiger Reserves across various states[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is biodiversity?",
+            "correct_answer": "",
+            "explanation": "Biodiversity refers to the immense variety of life on earth—including all species of plants, animals, and microorganisms—along with the ecological complexes and interactions between them, which are vital for human survival[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are terms of credit?",
+          "correct_answer": "",
+          "explanation": "The terms of credit refer to the agreed conditions under which a loan is made, encompassing the interest rate, collateral (security/pledged assets), required documentation, and the mode of repayment[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is 'money'?",
+            "correct_answer": "",
+            "explanation": "Money is any item or medium that is universally accepted in a country by law for the purchase and sale of goods and services, acting as a medium of exchange, a unit of account, and a store of value (e.g., paper notes and coins)[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is an ecosystem?",
+          "correct_answer": "",
+          "explanation": "An ecosystem is a self-sustaining and balanced natural unit formed by the interaction of all living biotic communities (plants, animals, microorganisms) with their physical abiotic environment (water, air, light, soil)[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two main provisions of the Indian Wildlife (Protection) Act, 1972.",
+            "correct_answer": "",
+            "explanation": "Two main provisions of the Wildlife (Protection) Act, 1972 are:\n1. Ban on hunting: Enforcing a legal ban on hunting and illegal trade of endangered wildlife species.\n2. Establishment of protected areas: Providing a legal framework for setting up national parks and wildlife sanctuaries to protect natural habitats[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is foreign trade?",
+          "correct_answer": "",
+          "explanation": "Foreign trade refers to the exchange of goods and services as well as international commercial transactions between two or more independent countries, encompassing both exports (sending goods out) and imports (bringing goods in)[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What do you understand by multinational corporations?",
+            "correct_answer": "",
+            "explanation": "Multinational Corporations (MNCs) are massive business enterprises that own or control production, manufacturing plants, offices, and commercial operations in more than one nation outside their home country (e.g., Samsung, Tata, Nike)[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a zaid crop? Write the names of two zaid crops.",
+          "correct_answer": "",
+          "explanation": "Zaid crops are short-duration crops grown during the summer season (between the rabi and kharif crop seasons, roughly from March to June).\nExamples: Watermelon, muskmelon, cucumber, and green vegetables[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is primitive subsistence farming?",
+            "correct_answer": "",
+            "explanation": "Primitive subsistence farming is an age-old traditional practice carried out on small patches of land using primitive tools (like hoes, dao, and digging sticks) and family labor, where production is meant solely for the farmer's family consumption rather than market sale[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What were the 'Corn Laws'?",
+          "correct_answer": "",
+          "explanation": "In the late 18th century, the British government, under pressure from domestic landowners and landlords, restricted the import of corn through tariff laws. These laws restricting corn imports were commonly known as the 'Corn Laws'[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is the meaning of 'Veto'?",
+            "correct_answer": "",
+            "explanation": "Veto (Latin for 'I forbid') is the legal power or right to unilaterally stop or reject a proposal, decision, or law. If any permanent member of an organization uses its veto power, the decision or resolution is immediately cancelled[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the names of any four agriculture-based industries in India.",
+          "correct_answer": "",
+          "explanation": "Four major agro-based industries in India that obtain their raw materials from agriculture are:\n1. Cotton textile industry\n2. Sugar industry\n3. Jute (textile) industry\n4. Vegetable oil / Edible oil industry[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is manufacturing?",
+            "correct_answer": "",
+            "explanation": "Manufacturing refers to the process of converting raw materials obtained from the primary sector into finished, more valuable, durable, and useful goods on a large scale using machines, technology, or human labor (e.g., making cloth from cotton or sugar from sugarcane)[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain the objectives of MGNREGA 2005.",
+          "correct_answer": "",
+          "explanation": "The main objectives of the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA, 2005) are:\n1. Guarantee of right to work: To enhance livelihood security in rural areas by providing at least 100 days of guaranteed wage employment in a financial year to every household whose adult members volunteer to do unskilled manual work.\n2. Creation of durable assets: To develop rural infrastructure such as water conservation, drought-proofing, pond digging, and rural connectivity roads.\n3. Curbing migration and empowering women: To check distress migration from villages to cities and empower women by reserving one-third of the jobs under the scheme for them[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain the primary and secondary sectors of the Indian economy with the help of examples.",
+            "correct_answer": "",
+            "explanation": "1. Primary Sector: This sector includes economic activities that produce goods by exploiting natural resources directly. It is also known as the agriculture and allied sector. Example: Farming, mining, fishing, animal husbandry (e.g., a farmer cultivating cotton or sugarcane in a field).\n2. Secondary Sector: This sector covers activities in which natural products are changed into other forms through ways of manufacturing associated with industrial activity. It is also called the industrial sector. Example: Making yarn from cotton, sugar from sugarcane, manufacturing automobiles[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is road transport more important than rail transport? Explain in three points.",
+          "correct_answer": "",
+          "explanation": "The importance of road transport over rail transport is evident from the following three points:\n1. Lower construction and maintenance cost: The cost of constructing and maintaining roads is much lower than laying and maintaining railway tracks.\n2. Accessibility to difficult terrains: Roads can traverse relatively high gradients, undulating terrains, and hilly regions (such as the Himalayas) where laying railway lines is extremely difficult.\n3. Door-to-door service: Road transport provides door-to-door delivery of goods and passenger services, which significantly reduces loading and unloading costs and transit time[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is the Golden Quadrilateral Super Highway? What is its main objective?",
+            "correct_answer": "",
+            "explanation": "1. Introduction: The Golden Quadrilateral Super Highway is a major six-lane road development project implemented by the National Highways Authority of India (NHAI). It links the four mega metropolitan cities of India—Delhi, Mumbai, Chennai, and Kolkata.\n2. Main Objective: Its primary objective is to reduce time and distance travel between the mega cities of India. It aims to connect major industrial centers, ports, and commercial hubs with high-speed corridors to give a major boost to national economic development[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why did industrial production increase in India during the First World War?",
+          "correct_answer": "",
+          "explanation": "Industrial production in India increased during the First World War (1914-1918) due to three main reasons:\n1. Stoppage of Manchester imports: British mills got busy producing war supplies for the army, causing imports of British goods into India to collapse overnight, leaving a vast home market open for Indian industries.\n2. Lucrative government war orders: As the war prolonged, Indian factories were called upon to supply war needs such as jute bags, army uniforms, tents, leather boots, and railway carriages.\n3. Expansion of local industries: Existing factories worked multiple shifts, and many new factories were established, providing employment to numerous workers and boosting overall production[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why did Victorian Britain's upper classes—the elite and capitalists—prefer goods made by hand?",
+            "correct_answer": "",
+            "explanation": "Upper-class Victorians in Britain preferred handmade goods for the following reasons:\n1. Exclusivity and refined design: Handmade goods were individually produced, highly finished, and featured intricate artistic work, unlike machine-made standardized goods.\n2. Symbol of social prestige: Handmade items were expensive and rare. The elite class considered them as symbols of aristocracy, refinement, and superior taste.\n3. Distinction from mass products: Machine-made mass products were mainly meant for export to colonies and the working classes, so the elite preferred handmade goods to assert their distinct social status[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a party system? Explain the importance of party system in Indian politics.",
+          "correct_answer": "",
+          "explanation": "1. Meaning: The number of political parties, their organizational structure, influence, and democratic or legal working methods in a country constitute the 'party system'. India has a multi-party system.\n\n2. Importance of Party System in Indian Politics:\n- Foundation of democracy: Political parties field candidates and present manifestos to voters, making competitive elections possible.\n- Formation and running of government: The winning party or coalition forms the government and administers the country according to its policies.\n- Shaping public opinion: Parties raise burning national and social issues through public rallies, debates, and campaigns, thereby shaping public awareness and opinion.\n- Vital role of the opposition: Defeated parties act as a constructive opposition, keeping the ruling party accountable and preventing authoritarianism[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain any four functions of political parties in a democracy.",
+            "correct_answer": "",
+            "explanation": "Four major functions of political parties in a democracy are:\n1. Contesting elections: Political parties put up candidates in various constituencies and run election campaigns to secure public support.\n2. Framing policies and programs: Parties put forward different policies and programs so that voters can choose from them based on their preferences.\n3. Making laws: Parties play a decisive role in making laws for the country. Bills are debated and passed in the legislature by party representatives.\n4. Forming and running governments: The party that wins a majority in elections forms the executive government, appoints ministers, and implements governance policies.\n(Additional point: Shaping public opinion and acting as opposition)[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "Explain the following (any two) :",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Civil Disobedience Movement",
+          "correct_answer": "",
+          "explanation": "Mahatma Gandhi started the Civil Disobedience Movement by launching the famous Dandi March from Sabarmati on March 12, 1930, breaking the salt law on April 6, 1930. The objective was to peacefully and civilly defy unjust British colonial laws. People refused to pay taxes, picketed liquor shops, and boycotted foreign goods on a massive scale[cite: 21]."
+        },
+        {
+          "q_id": "b",
+          "statement": "Bardoli Satyagraha",
+          "correct_answer": "",
+          "explanation": "In 1928, in the Bardoli taluka of Gujarat, the provincial government hiked land revenue (taxes) by 30%. Under the efficient and firm leadership of Sardar Vallabhbhai Patel, the farmers launched a no-tax campaign. Following the success of this satyagraha, the women of Bardoli bestowed upon Vallabhbhai Patel the title 'Sardar'[cite: 21]."
+        },
+        {
+          "q_id": "c",
+          "statement": "Swaraj in the Plantations",
+          "correct_answer": "",
+          "explanation": "Under the Inland Emigration Act of 1859, plantation workers in Assam were not permitted to leave the tea gardens without permission. When news of the Non-Cooperation Movement reached them, thousands of workers defied authorities, left the plantations, and headed home, believing that 'Swaraj' meant everyone would get freedom and be able to return to their native villages[cite: 21]."
+        },
+        {
+          "q_id": "d",
+          "statement": "Chauri-Chaura Incident",
+          "correct_answer": "",
+          "explanation": "On February 5, 1922, at Chauri Chaura in Gorakhpur district of Uttar Pradesh, a peaceful demonstration turned violent when police fired upon a procession. In retaliation, an angry crowd attacked and set fire to the police station, resulting in the death of 22 policemen. Distressed by this violence, Mahatma Gandhi immediately called off the Non-Cooperation Movement[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why did Gandhiji decide to withdraw the Non-Cooperation Movement?",
+            "correct_answer": "",
+            "explanation": "Mahatma Gandhi decided to withdraw the Non-Cooperation Movement in February 1922 due to the following main reasons:\n1. Violent incident at Chauri Chaura: On February 5, 1922, an angry mob set fire to a police station in Chauri Chaura, Gorakhpur, killing 22 policemen following police firing on a peaceful procession.\n2. Violation of non-violence principle: Gandhi ji was a staunch believer in absolute non-violence. Distressed by this violent turn, he felt that the movement was turning violent and that satyagrahis needed proper training in non-violence before launching mass struggles. Hence, he abruptly suspended the movement[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "Show the following on the given outline map of India:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Marmagao",
+          "correct_answer": "",
+          "explanation": "Marmagao is a prominent natural port located on the western coast of Goa, serving as one of India's major iron ore export centers[cite: 21]."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Singrauli",
+          "correct_answer": "",
+          "explanation": "Singrauli is situated in the easternmost district of Madhya Pradesh and is a major coal mining and thermal power hub known as the 'Energy Capital' of the state[cite: 21]."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Delhi",
+          "correct_answer": "",
+          "explanation": "Located on the banks of the Yamuna River near the borders of Haryana and Uttar Pradesh in northern India, Delhi is the National Capital Territory and political hub of India[cite: 21]."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Balaghat",
+          "correct_answer": "",
+          "explanation": "Situated in the south-eastern part of Madhya Pradesh, Balaghat district is famous across India for its manganese ore mines at Bharveli and copper mines at Malanjkhand[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Mumbai High",
+            "correct_answer": "",
+            "explanation": "Located in the Arabian Sea about 176 km west off the coast of Mumbai, Mumbai High is India's largest offshore petroleum and crude oil producing field[cite: 21]."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Tuticorin",
+            "correct_answer": "",
+            "explanation": "Located on the extreme south-eastern coast of Tamil Nadu in the Gulf of Mannar, Tuticorin is an ancient and prominent artificial sea port[cite: 21]."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Korba",
+            "correct_answer": "",
+            "explanation": "Located in Chhattisgarh, Korba is a major industrial region renowned for its massive coal reserves and thermal power plants (NTPC)[cite: 21]."
+          },
+          {
+            "q_id": "iv",
+            "statement": "Narora",
+            "correct_answer": "",
+            "explanation": "Located in the Bulandshahr district of Uttar Pradesh on the banks of the Ganga River, Narora is home to an important nuclear (atomic) power plant[cite: 21]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23_visually_impaired_alternative",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×4=4",
+      "word_limit": "One word / One sentence",
+      "text": "Note: This question is for visually impaired candidates only in lieu of Question No. 23. Answer the following questions in one word or one sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Which is the iron ore exporting port of Goa?",
+          "correct_answer": "Marmagao Port",
+          "explanation": "Located on the coast of Goa, Marmagao port is India's premier iron ore exporting harbor, shipping a large share of the country's iron ore exports[cite: 21]."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What is the capital of India?",
+          "correct_answer": "New Delhi",
+          "explanation": "New Delhi is the national capital of the Republic of India, housing the Parliament House, Rashtrapati Bhavan, and the Supreme Court[cite: 21]."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which coal region is situated on the border of Madhya Pradesh and Uttar Pradesh?",
+          "correct_answer": "Singrauli Coalfield",
+          "explanation": "The Singrauli coalfield is a massive coal-producing region spread across the border areas of Singrauli district in Madhya Pradesh and Sonbhadra district in Uttar Pradesh[cite: 21]."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is the main raw material for the cement industry?",
+          "correct_answer": "Limestone",
+          "explanation": "Limestone is the primary, weight-losing, and foundational raw material required for the cement manufacturing industry[cite: 21]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Name the western coastal oil refinery area of India.",
+            "correct_answer": "Mumbai High",
+            "explanation": "Mumbai High is India's largest offshore (western coast) mineral oil and petroleum production center located in the Arabian Sea[cite: 21]."
+          },
+          {
+            "q_id": "ii",
+            "statement": "What is the most important oil field of Gujarat?",
+            "correct_answer": "Ankleshwar",
+            "explanation": "Ankleshwar, located in the Bharuch district of Gujarat, is the most important and prominent mineral oil extraction field in the state[cite: 21]."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Name the major coal region of Chhattisgarh.",
+            "correct_answer": "Korba",
+            "explanation": "The Korba region of Chhattisgarh is widely renowned for its vast coal deposits and thermal power stations[cite: 21]."
+          },
+          {
+            "q_id": "iv",
+            "statement": "Which nuclear power plant center is located in Uttar Pradesh?",
+            "correct_answer": "Narora Atomic Power Station",
+            "explanation": "The Narora Atomic Power Station is a nuclear energy generation center situated in the Bulandshahr district of Uttar Pradesh[cite: 21]."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Quadratic Equations",
+    "totalMarks": "4",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Factorization Method",
+        "definition": "A method of solving a quadratic equation ax² + bx + c = 0 by writing it as the product of two linear factors.",
+        "explanation": "In this method, the middle term (b) is split into two parts such that their product equals 'ac' and their sum equals 'b'. Then, common factors are extracted to break the equation into two linear factors.",
+        "importantPoints": [
+          "Splitting the middle term must satisfy the condition of ac and b",
+          "Roots are found by setting each factor equal to zero",
+          "This method is easier when roots are rational"
+        ],
+        "highlightWords": [
+          "Factorization",
+          "Splitting middle term",
+          "Roots"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Completing the Square Method",
+        "definition": "A method of finding solutions by converting a quadratic equation into the form (x + k)² = m.",
+        "explanation": "In this method, the x terms of the equation are arranged as a perfect square by adding or subtracting an appropriate number on both sides. Afterward, taking square roots gives the value of x. This method also forms the basis for deriving the quadratic formula.",
+        "importantPoints": [
+          "The equation is brought into the form (x + k)² = m",
+          "Solutions are found by taking square roots on both sides",
+          "This method is the basis for deriving the quadratic formula"
+        ],
+        "highlightWords": [
+          "Completing the square",
+          "Perfect square",
+          "Square root"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Quadratic Formula",
+        "definition": "Formula to find the roots of a quadratic equation ax² + bx + c = 0: x = [-b ± √(b²-4ac)] / 2a.",
+        "explanation": "This formula is used to solve any quadratic equation directly, whether the roots are rational or irrational. b²-4ac is called the discriminant, which determines the nature of the roots.",
+        "importantPoints": [
+          "Formula: x = [-b ± √(b²-4ac)] / 2a",
+          "b²-4ac is called the discriminant (D)",
+          "This formula applies to all types of quadratic equations"
+        ],
+        "highlightWords": [
+          "Quadratic formula",
+          "Discriminant",
+          "Roots"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Nature of Roots",
+        "definition": "Based on the value of the discriminant D = b²-4ac, the nature of the roots of a quadratic equation (real, equal, or imaginary) is determined.",
+        "explanation": "If D > 0, there are two distinct real roots. If D = 0, there are two equal real roots. If D < 0, there are no real roots (roots are imaginary).",
+        "importantPoints": [
+          "D > 0 → Two distinct real roots",
+          "D = 0 → Two equal real roots",
+          "D < 0 → No real roots",
+          "D = b² - 4ac"
+        ],
+        "highlightWords": [
+          "Discriminant",
+          "Real roots",
+          "Imaginary roots"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Find the roots of the quadratic equation 2x² + x - 6 = 0 by factorization method.",
+          "correct_answer": "x = 3/2, x = -2",
+          "imgUrl": "",
+          "explanation": "Given equation: 2x² + x - 6 = 0\nHere a = 2, c = -6, ac = -12\nSplitting the middle term x into two parts whose product is -12 and sum is +1 (i.e., +4x and -3x):\n2x² + 4x - 3x - 6 = 0\n2x(x + 2) - 3(x + 2) = 0\n(2x - 3)(x + 2) = 0\n\nEquating each factor to zero:\n2x - 3 = 0 => x = 3/2\nx + 2 = 0 => x = -2\nTherefore, the roots of the equation are 3/2 and -2."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Find the roots of the equation √2x² + 7x + 5√2 = 0 by factorization method.",
+            "correct_answer": "x = -√2, x = -5/√2",
+            "imgUrl": "",
+            "explanation": "Given equation: √2x² + 7x + 5√2 = 0\nHere ac = √2 × 5√2 = 10\nSplit the middle term 7x such that product is 10 and sum is 7 (i.e., 5x and 2x):\n√2x² + 5x + 2x + 5√2 = 0\nx(√2x + 5) + √2(√2x + 5) = 0\n(x + √2)(√2x + 5) = 0\n\nTherefore:\nx + √2 = 0 => x = -√2\n√2x + 5 = 0 => x = -5/√2\nTherefore, the roots are -√2 and -5/√2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "Find the roots of the equation 2x² - 7x + 3 = 0 using the quadratic formula.",
+          "correct_answer": "x = 3, x = 1/2",
+          "imgUrl": "",
+          "explanation": "Comparing the given equation with ax² + bx + c = 0:\na = 2, b = -7, c = 3\n\nQuadratic formula:\nx = [-b ± √(b² - 4ac)] / 2a\n\nSubstituting values:\nx = [-(-7) ± √((-7)² - 4(2)(3))] / (2 × 2)\nx = [7 ± √(49 - 24)] / 4\nx = [7 ± √25] / 4\nx = [7 ± 5] / 4\n\nTaking positive sign:\nx = (7 + 5) / 4 = 12 / 4 = 3\n\nTaking negative sign:\nx = (7 - 5) / 4 = 2 / 4 = 1/2\nTherefore, the roots are 3 and 1/2."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "Find the roots of the equation 2x² + x - 4 = 0 using the quadratic formula.",
+            "correct_answer": "x = (-1 ± √33) / 4",
+            "imgUrl": "",
+            "explanation": "Here a = 2, b = 1, c = -4\n\nDiscriminant D = b² - 4ac\nD = (1)² - 4(2)(-4) = 1 + 32 = 33\n\nUsing the quadratic formula:\nx = [-b ± √D] / 2a\nx = [-1 ± √33] / (2 × 2)\nx = (-1 ± √33) / 4\nTherefore, the roots are (-1 + √33)/4 and (-1 - √33)/4."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "7_a",
+          "statement": "Find the nature of the roots of the following quadratic equation. If the roots are real, find them:\n3x² - 4√3x + 4 = 0",
+          "correct_answer": "Roots are real and equal, x = 2/√3, 2/√3",
+          "imgUrl": "",
+          "explanation": "Comparing the equation with ax² + bx + c = 0:\na = 3, b = -4√3, c = 4\n\nDiscriminant D = b² - 4ac\nD = (-4√3)² - 4(3)(4)\nD = 48 - 48 = 0\n\nSince D = 0, the roots are real and equal (coincident).\n\nUsing the formula:\nx = -b / 2a\nx = -(-4√3) / (2 × 3)\nx = 4√3 / 6 = 2√3 / 3 = 2 / √3\nTherefore, both roots are 2/√3 and 2/√3."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "7_b",
+            "statement": "Find the value of k for which the following quadratic equation has two equal roots:\n2x² + kx + 3 = 0",
+            "correct_answer": "k = ± 2√6",
+            "imgUrl": "",
+            "explanation": "Given equation: 2x² + kx + 3 = 0\nHere a = 2, b = k, c = 3\n\nFor a quadratic equation to have two equal roots, the discriminant must be zero (D = 0):\nb² - 4ac = 0\nk² - 4(2)(3) = 0\nk² - 24 = 0\nk² = 24\nk = ± √24\nk = ± 2√6\nTherefore, the value of k is ±2√6."
+          }
+        ]
+      }
+    }
+  ]
+}

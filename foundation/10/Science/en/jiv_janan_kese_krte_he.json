@@ -1,0 +1,144 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "How Do Organisms Reproduce",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Asexual and Sexual Reproduction",
+      "definitionBean": {
+        "title": "Asexual and Sexual Reproduction",
+        "definition": "The process by which living organisms produce new individuals similar to themselves is called 'Reproduction'. Reproduction occurring through a single parent is 'asexual', and through the fusion of male and female gametes is 'sexual'[cite: 16].",
+        "explanation": "In asexual reproduction, variations during DNA replication are low (e.g., fission, budding, regeneration), whereas in sexual reproduction, involvement of two parents generates higher genetic variations helpful for evolution[cite: 16].",
+        "importantPoints": [
+          "Asexual reproduction: Single organism takes part, offspring is a clone[cite: 16]",
+          "Sexual reproduction: Fusion of male and female gametes (Fertilization) takes place[cite: 16]",
+          "Fission (Amoeba) and Budding (Hydra/Yeast) are asexual methods[cite: 16]",
+          "Sexual reproduction is found in flowering plants and higher animals[cite: 16]"
+        ],
+        "highlightWords": [
+          "Asexual reproduction",
+          "Sexual reproduction",
+          "Gamete",
+          "Budding"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Reproduction in Flower and Human Reproductive System",
+      "definitionBean": {
+        "title": "Reproduction in Flower and Human Reproductive System",
+        "definition": "A flower is the reproductive organ of plants containing stamen (male) and carpel (female); and in humans, reproduction is carried out via the male reproductive system (testes) and female reproductive system (ovaries)[cite: 16].",
+        "explanation": "After pollination, pollen grains reach the stigma and form a zygote through fertilization[cite: 16]. In humans, fertilization takes place in the fallopian tube[cite: 16].",
+        "importantPoints": [
+          "Stamen: Production of pollen grains (male gamete)[cite: 16]",
+          "Carpel: Ovary (ovule/female gamete)[cite: 16]",
+          "Human Testes: Sperm production and testosterone hormone[cite: 16]",
+          "Human Ovaries: Ovum production and estrogen hormone[cite: 16]"
+        ],
+        "highlightWords": [
+          "Flower reproduction",
+          "Human reproductive system",
+          "Pollination",
+          "Fertilization"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Asexual and Sexual Reproduction",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "Write differences between asexual and sexual reproduction. Why is reproduction necessary for organisms[cite: 16]?",
+          "correct_answer": "Asexual involves one parent, sexual involves two parents[cite: 16].",
+          "imgUrl": "",
+          "explanation": "In asexual reproduction, only a single parent takes part and gametes are not formed, whereas in sexual reproduction, two parents (male and female) take part and fusion of gametes occurs[cite: 16]. Reproduction is necessary to maintain the existence and continuity of species of organisms[cite: 16]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "Explain fission and regeneration with examples[cite: 16].",
+            "correct_answer": "Fission (Amoeba), regeneration (Planaria)[cite: 16].",
+            "imgUrl": "",
+            "explanation": "In fission, a single organism divides into two or more parts (e.g., Amoeba)[cite: 16]. In regeneration, if an organism is cut due to any reason, its cut pieces develop into new organisms (e.g., Planaria or Hydra)[cite: 16]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Reproduction in Plants",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "Draw a labeled diagram of an ideal flower and describe its main reproductive organs[cite: 16].",
+          "correct_answer": "Stamen and carpel are main reproductive organs of a flower[cite: 16].",
+          "imgUrl": "",
+          "explanation": "The main reproductive organs of a flower are the stamen (male organ, containing anther) and carpel (female organ, containing stigma, style, and ovary)[cite: 16]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Clarify the difference between self-pollination and cross-pollination[cite: 16].",
+            "correct_answer": "Self-pollination occurs within same flower/plant, cross-pollination between different plants[cite: 16].",
+            "imgUrl": "",
+            "explanation": "When pollen grains of a flower reach the stigma of the same flower or another flower of the same plant, self-pollination occurs; when pollen grains of a flower go to the stigma of a flower of another plant, it is called cross-pollination[cite: 16]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Human Reproductive System",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Name the main organs of the human male reproductive system and state the functions of the testes[cite: 16].",
+          "correct_answer": "Testes, vas deferens, penis; testes produce sperm[cite: 16].",
+          "imgUrl": "",
+          "explanation": "Main organs of the human male reproductive system: Testes, vas deferens, and penis[cite: 16]. The primary function of the testes is to produce male gametes (sperm) and secrete the testosterone hormone[cite: 16]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Where does the process of fertilization take place in the human female reproductive system[cite: 16]?",
+            "correct_answer": "Fallopian tube (Oviduct)[cite: 16]",
+            "imgUrl": "",
+            "explanation": "In human females, fertilization (fusion of sperm and ovum) takes place in the fallopian tube (oviduct), after which the zygote gets implanted in the uterus[cite: 16]."
+          }
+        ]
+      }
+    }
+  ]
+}

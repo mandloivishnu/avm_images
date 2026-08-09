@@ -1,0 +1,165 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Chemical Reactions and Equations",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Definition of Chemical Reaction",
+      "definitionBean": {
+        "title": "Definition of Chemical Reaction",
+        "definition": "The process in which one or more substances combine to form new substances with distinct properties is called a chemical reaction.",
+        "explanation": "During a chemical reaction, old chemical bonds break and new chemical bonds are formed, yielding substances with completely new properties.",
+        "importantPoints": [
+          "Chemical properties of substances change",
+          "New substances are formed",
+          "It cannot be reversed by physical methods"
+        ],
+        "highlightWords": [
+          "Chemical reaction",
+          "New properties",
+          "Substance"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Reactants and Products",
+      "definitionBean": {
+        "title": "Reactants and Products",
+        "definition": "Substances that take part in a chemical reaction are called 'reactants' and new substances formed as a result of the reaction are called 'products'.",
+        "explanation": "When writing equations, reactants are shown on the left-hand side (LHS) and products on the right-hand side (RHS) connected by an arrow.",
+        "importantPoints": [
+          "Reactants: Those that take part in the reaction",
+          "Products: Those formed after the reaction",
+          "Arrow sign ($\\rightarrow$) indicates the direction of the reaction"
+        ],
+        "highlightWords": [
+          "Reactant",
+          "Product",
+          "Arrow sign"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Signs of Chemical Reaction (Color Change and Gas)",
+      "definitionBean": {
+        "title": "Signs of Chemical Reaction",
+        "definition": "The occurrence of a chemical reaction is identified by change in state, change in color, evolution of gas, or temperature change.",
+        "explanation": "During a reaction, substances often change color or release various gases, confirming that a reaction has taken place.",
+        "importantPoints": [
+          "Change in color",
+          "Evolution of gas",
+          "Change in temperature",
+          "Formation of precipitate"
+        ],
+        "highlightWords": [
+          "Color change",
+          "Gas evolution",
+          "Temperature change",
+          "Precipitate"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Definition of Chemical Reaction and Reactants-Products",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is a chemical reaction? Explain with the example of magnesium ribbon combustion.",
+          "correct_answer": "Formation of substances with new properties is a chemical reaction; burning magnesium forms magnesium oxide.",
+          "imgUrl": "",
+          "explanation": "The process in which substances with new properties are formed is called a chemical reaction. When a magnesium ribbon is burned in air, it reacts with oxygen to form a white powder (magnesium oxide)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What do reactants and products mean? Clarify through a chemical equation.",
+            "correct_answer": "Participants are reactants and formed substances are products.",
+            "imgUrl": "",
+            "explanation": "Substances taking part in a reaction are 'reactants' and the new substances formed are 'products'. Example: In $\\text{Zn} + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{H}_2$, zinc and sulfuric acid are reactants while zinc sulfate and hydrogen are products."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Signs of Chemical Reaction (Color Change and Gas Evolution)",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Explain color change in chemical reactions with an example.",
+          "correct_answer": "Blue color of copper sulfate turns green upon adding an iron nail.",
+          "imgUrl": "",
+          "explanation": "When an iron nail is dipped into a blue solution of copper sulfate, the blue color of the solution changes to light green (due to the formation of iron sulfate)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Which gas is evolved when zinc reacts with dilute sulfuric acid? How will you test it?",
+            "correct_answer": "Hydrogen gas is evolved which burns with a pop sound.",
+            "imgUrl": "",
+            "explanation": "Hydrogen gas ($\\text{H}_2$) is evolved in this reaction. When a burning matchstick is brought near it, it burns with a 'pop' sound."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Signs of Chemical Reaction (Temperature Change and Precipitation)",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "How is change in temperature an indicator of a chemical reaction? Give an example.",
+          "correct_answer": "Exothermic or endothermic reactions cause changes in temperature.",
+          "imgUrl": "",
+          "explanation": "In some chemical reactions, heat is released (exothermic), increasing the temperature, such as adding water to quicklime. In others, heat is absorbed (endothermic), decreasing the temperature."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "What is meant by the formation of a precipitate? Give a suitable example.",
+            "correct_answer": "Separation of an insoluble solid is called a precipitate.",
+            "imgUrl": "",
+            "explanation": "The separation of an insoluble solid substance during a chemical reaction is called a 'precipitate'. Example: Reaction of potassium iodide and lead nitrate forms a yellow precipitate of lead iodide."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Arithmetic Progressions",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "nth Term of an AP",
+        "definition": "In an arithmetic progression (AP), the nth term is found using an = a + (n-1)d, where a is the first term and d is the common difference.",
+        "explanation": "In an arithmetic progression, each term increases or decreases from the previous term by a fixed number (common difference d). This formula can be used to directly find any term without writing all the terms.",
+        "importantPoints": [
+          "Formula: an = a + (n-1)d",
+          "a = first term, d = common difference, n = term number",
+          "The progression increases when d is positive and decreases when d is negative"
+        ],
+        "highlightWords": [
+          "arithmetic progression",
+          "Common difference",
+          "nth term"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Sum of First n Terms",
+        "definition": "The sum of the first n terms of an arithmetic progression is found using Sn = n/2 [2a + (n-1)d] or Sn = n/2 (a + l).",
+        "explanation": "This formula is used to find the total of several terms of a progression at once, without adding each term separately. If the last term (l) is known, the second formula is simpler.",
+        "importantPoints": [
+          "Formula: Sn = n/2 [2a + (n-1)d]",
+          "Alternative formula: Sn = n/2 (a + l)",
+          "l = last term (an)"
+        ],
+        "highlightWords": [
+          "Sum formula",
+          "arithmetic progression",
+          "Last term"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Word Problems on AP",
+        "definition": "Modeling real-life situations as arithmetic progressions and solving them using the nth-term or sum formulas.",
+        "explanation": "In word problems, first identify the first term (a) and common difference (d) from the given information. Then apply the appropriate formula (nth term or sum) according to the question.",
+        "importantPoints": [
+          "First identify a and d",
+          "Choose the correct formula according to the question (an or Sn)",
+          "Pay attention to units and conditions (such as the number of terms)"
+        ],
+        "highlightWords": [
+          "Word problem",
+          "Modeling",
+          "Common difference"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "Find the 10th term of the arithmetic progression 2, 7, 12, ...",
+          "correct_answer": "47",
+          "imgUrl": "",
+          "explanation": "Given arithmetic progression: 2, 7, 12, ...\nFirst term (a) = 2\nCommon difference (d) = 7 - 2 = 5\nTerm number (n) = 10\n\nnth-term Formula: an = a + (n-1)d\na10 = 2 + (10 - 1) × 5\na10 = 2 + 9 × 5\na10 = 2 + 45 = 47\nTherefore, the 10th term is 47."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Which term of the arithmetic progression 3, 8, 13, 18, ... is 78?",
+            "correct_answer": "16",
+            "imgUrl": "",
+            "explanation": "Given progression: 3, 8, 13, 18, ...\nHere a = 3, d = 8 - 3 = 5\nSuppose the nth term is 78, so an = 78\n\nan = a + (n-1)d\n78 = 3 + (n-1)5\n78 - 3 = (n-1)5\n75 = (n-1)5\nn - 1 = 75 / 5 = 15\nn = 15 + 1 = 16\nTherefore, the 16th term of the progression is 78."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Find the sum of the first 10 terms of the arithmetic progression 2, 7, 12, ...",
+          "correct_answer": "245",
+          "imgUrl": "",
+          "explanation": "Given progression: 2, 7, 12, ...\nHere a = 2, d = 5, n = 10\n\nSum formula: Sn = (n/2) [2a + (n-1)d]\nS10 = (10/2) [2(2) + (10-1)5]\nS10 = 5 [4 + 9 × 5]\nS10 = 5 [4 + 45]\nS10 = 5 × 49 = 245\nTherefore, the sum of the first 10 terms is 245."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Find the sum of the first 10 terms of the arithmetic progression 34, 32, 30, ...",
+            "correct_answer": "250",
+            "imgUrl": "",
+            "explanation": "Given progression: 34, 32, 30, ...\nHere a = 34, d = 32 - 34 = -2, n = 10\n\nSn = (n/2) [2a + (n-1)d]\nS10 = (10/2) [2(34) + (10-1)(-2)]\nS10 = 5 [68 + 9(-2)]\nS10 = 5 [68 - 18]\nS10 = 5 [50] = 250\nTherefore, the sum of the first 10 terms is 250."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "Find the 31st term of the arithmetic progression whose 11th term is 38 and 16th term is 73.",
+          "correct_answer": "178",
+          "imgUrl": "",
+          "explanation": "Let the first term be a and the common difference be d.\nGiven:\na11 = 38 => a + 10d = 38  --( equation 1)\na16 = 73 => a + 15d = 73  --( equation 2)\n\nequation (2) from (1) subtracting:\n(a + 15d) - (a + 10d) = 73 - 38\n5d = 35 => d = 7\n\nd the value of equation (1) in substituting:\na + 10(7) = 38\na + 70 = 38 => a = 38 - 70 = -32\n\nNow find the 31st term:\na31 = a + 30d\na31 = -32 + 30(7)\na31 = -32 + 210 = 178\nTherefore, the 31st term is 178."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "Find the arithmetic progression whose third term is 16 and whose 7th term is 12 more than its 5th term.",
+            "correct_answer": "4, 10, 16, 22, ...",
+            "imgUrl": "",
+            "explanation": "Given:\na3 = 16 => a + 2d = 16 --(equation 1)\na7 = a5 + 12 => (a + 6d) = (a + 4d) + 12\n\nOn solving:\n6d - 4d = 12\n2d = 12 => d = 6\n\nd the value of equation (1) in substituting:\na + 2(6) = 16\na + 12 = 16 => a = 4\n\nTherefore, the progression is: a, a+d, a+2d, ... that is 4, 4+6, 4+12, ... i.e. 4, 10, 16, 22, ..."
+          }
+        ]
+      }
+    }
+  ]
+}

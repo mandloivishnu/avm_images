@@ -1,0 +1,63 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Sources of Energy",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Conventional and Alternative Sources of Energy",
+      "definitionBean": {
+        "title": "Conventional and Solar Energy Sources",
+        "definition": "Energy sources that have been in use for a long time (such as coal, petroleum, fossil fuels) are called conventional sources; and energy obtained from the sun is called 'solar energy'[cite: 38].",
+        "explanation": "Fossil fuels are non-renewable and their burning causes air pollution. In contrast, solar energy, wind energy, and biogas are renewable and eco-friendly sources[cite: 38].",
+        "importantPoints": [
+          "Fossil fuels: Coal and petroleum (exhaustible resources)[cite: 38]",
+          "Solar energy: Electricity generation through solar cookers and solar cells[cite: 38]",
+          "Biogas: Anaerobic decomposition of animal dung and plant residues[cite: 38]",
+          "Nuclear energy: Obtaining immense energy through nuclear fission or fusion[cite: 38]"
+        ],
+        "highlightWords": [
+          "Fossil fuels",
+          "Solar energy",
+          "Biogas",
+          "Renewable sources"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Sources of Energy and Solar Energy",
+      "parts": [
+        {
+          "q_id": "2_a",
+          "statement": "What should be the characteristics of a good source of energy[cite: 38]?",
+          "correct_answer": "A good energy source should provide adequate energy, be easily accessible, safe, and economical[cite: 38].",
+          "imgUrl": "",
+          "explanation": "Characteristics of a good source of energy: 1. It should deliver a high amount of work (energy) per unit mass or volume[cite: 38]. 2. It should be easily accessible[cite: 38]. 3. It should be safe in transport and storage[cite: 38]. 4. It should be economical (cheap)[cite: 38]. 5. It should cause minimum environmental pollution[cite: 38]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "2_b",
+            "statement": "What is the impact of burning fossil fuels on the environment? Write two advantages of biogas[cite: 38].",
+            "correct_answer": "Fossil fuels cause air pollution and global warming; biogas is smoke-free and yields good manure[cite: 38].",
+            "imgUrl": "",
+            "explanation": "Burning fossil fuels (coal, petroleum) releases harmful gases like carbon dioxide and sulfur, which cause air pollution, global warming, and acid rain[cite: 38]. Advantages of biogas: It is smoke-free and yields high-quality manure[cite: 38]."
+          }
+        ]
+      }
+    }
+  ]
+}

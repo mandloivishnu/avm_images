@@ -1,0 +1,921 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "MATHEMATICS",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write:",
+      "explanation": "The answer has been chosen based on the correct mathematical rule or formula given in each question.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The zero of the linear polynomial ax + b, a ≠ 0 is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "b/a"
+            },
+            {
+              "index": "b",
+              "text": "a/b"
+            },
+            {
+              "index": "c",
+              "text": "−b/a"
+            },
+            {
+              "index": "d",
+              "text": "−a/b"
+            }
+          ],
+          "correct_answer": "−b/a",
+          "explanation": "Correct option is (c).\n\nMathematical Solution:\nTo find the zero of the polynomial, put ax + b = 0.\n⇒ ax = −b\n⇒ x = −b/a\nThus, the zero of the linear polynomial ax + b is −b/a."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The H.C.F. of any two co-prime numbers is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "1"
+            },
+            {
+              "index": "b",
+              "text": "2"
+            },
+            {
+              "index": "c",
+              "text": "0"
+            },
+            {
+              "index": "d",
+              "text": "3"
+            }
+          ],
+          "correct_answer": "1",
+          "explanation": "Correct option is (a).\n\nReason:\nCo-prime numbers have no common prime factor other than 1. Therefore, the Highest Common Factor (H.C.F.) of two co-prime numbers is always 1."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The discriminant of the quadratic equation ax² + bx + c = 0, a ≠ 0 is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "b² − 4ac"
+            },
+            {
+              "index": "b",
+              "text": "b² + 4ac"
+            },
+            {
+              "index": "c",
+              "text": "a² + 4bc"
+            },
+            {
+              "index": "d",
+              "text": "a² − 4bc"
+            }
+          ],
+          "correct_answer": "b² − 4ac",
+          "explanation": "Correct option is (a).\n\nReason:\nFor the standard quadratic equation ax² + bx + c = 0, the formula for the discriminant (D) is D = b² − 4ac."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The coordinates of any point lying on the Y-axis are –",
+          "options": [
+            {
+              "index": "a",
+              "text": "(2, 3)"
+            },
+            {
+              "index": "b",
+              "text": "(3, 0)"
+            },
+            {
+              "index": "c",
+              "text": "(0, 2)"
+            },
+            {
+              "index": "d",
+              "text": "(−2, 3)"
+            }
+          ],
+          "correct_answer": "(0, 2)",
+          "explanation": "Correct option is (c).\n\nReason:\nThe abscissa (x-coordinate) of any point lying on the Y-axis is zero, meaning it is of the form (0, y). Among the given options, only (0, 2) is of this form."
+        },
+        {
+          "q_id": "v",
+          "statement": "The value of sin 30° is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "1/2"
+            },
+            {
+              "index": "b",
+              "text": "0"
+            },
+            {
+              "index": "c",
+              "text": "√3/2"
+            },
+            {
+              "index": "d",
+              "text": "1"
+            }
+          ],
+          "correct_answer": "1/2",
+          "explanation": "Correct option is (a).\n\nReason:\nAccording to the standard table of trigonometric ratios, the exact value of sin 30° is 1/2."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The number of tangents drawn from an external point to a circle is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "one"
+            },
+            {
+              "index": "b",
+              "text": "two"
+            },
+            {
+              "index": "c",
+              "text": "zero"
+            },
+            {
+              "index": "d",
+              "text": "infinite"
+            }
+          ],
+          "correct_answer": "two",
+          "explanation": "Correct option is (b).\n\nReason:\nAccording to geometric theorems, only two tangents can be drawn to a circle from a point outside it, and the lengths of these two tangents are equal."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The maximum number of zeroes of a cubic polynomial is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "1"
+            },
+            {
+              "index": "b",
+              "text": "2"
+            },
+            {
+              "index": "c",
+              "text": "3"
+            },
+            {
+              "index": "d",
+              "text": "4"
+            }
+          ],
+          "correct_answer": "3",
+          "explanation": "Answer: 3\n\nReason: According to the fundamental theorem of algebra, the maximum number of real zeroes of a polynomial is equal to its degree. A cubic polynomial has a degree of 3, so it can have at most 3 zeroes."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The common difference of the A.P. −3, −1/2, 2, .... is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "5/2"
+            },
+            {
+              "index": "b",
+              "text": "−5/2"
+            },
+            {
+              "index": "c",
+              "text": "2"
+            },
+            {
+              "index": "d",
+              "text": "3"
+            }
+          ],
+          "correct_answer": "5/2",
+          "explanation": "Answer: 5/2\n\nMathematical Solution:\nCommon difference (d) = Second term (a₂) − First term (a₁)\nd = −1/2 − (−3)\nd = −1/2 + 3 = (−1 + 6)/2 = 5/2"
+        },
+        {
+          "q_id": "iii",
+          "statement": "All circles of different sizes are {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "congruent"
+            },
+            {
+              "index": "b",
+              "text": "similar"
+            },
+            {
+              "index": "c",
+              "text": "unequal"
+            },
+            {
+              "index": "d",
+              "text": "scalene"
+            }
+          ],
+          "correct_answer": "similar",
+          "explanation": "Answer: similar\n\nReason: All circles have the same round shape, regardless of their radii (sizes). Therefore, all circles of different sizes are similar."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The tangent at any point of a circle is {BLANK} to the radius through the point of contact.",
+          "options": [
+            {
+              "index": "a",
+              "text": "parallel"
+            },
+            {
+              "index": "b",
+              "text": "perpendicular"
+            },
+            {
+              "index": "c",
+              "text": "right angle"
+            },
+            {
+              "index": "d",
+              "text": "transversal"
+            }
+          ],
+          "correct_answer": "perpendicular",
+          "explanation": "Answer: perpendicular\n\nReason: The tangent at any point of a circle is always perpendicular to the radius through the point of contact (making a 90° angle)."
+        },
+        {
+          "q_id": "v",
+          "statement": "The probability of a sure (certain) event is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "0"
+            },
+            {
+              "index": "b",
+              "text": "1"
+            },
+            {
+              "index": "c",
+              "text": "1/2"
+            },
+            {
+              "index": "d",
+              "text": "2"
+            }
+          ],
+          "correct_answer": "1",
+          "explanation": "Answer: 1\n\nReason: An event that is certain to happen has its number of favorable outcomes equal to the total number of outcomes. Hence, the probability of a sure event is always 1."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The distance of a point from the {BLANK}-axis is called the ordinate of that point.",
+          "options": [
+            {
+              "index": "a",
+              "text": "X"
+            },
+            {
+              "index": "b",
+              "text": "Y"
+            },
+            {
+              "index": "c",
+              "text": "Z"
+            },
+            {
+              "index": "d",
+              "text": "origin"
+            }
+          ],
+          "correct_answer": "X",
+          "explanation": "Answer: X\n\nReason: In coordinate geometry, the perpendicular distance of a point from the X-axis is called the y-coordinate or 'ordinate' of that point."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False for the following:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "If α and β are the zeroes of the quadratic polynomial ax² + bx + c, a ≠ 0, then α·β = c/a.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: The product of zeroes (α·β) of a quadratic polynomial ax² + bx + c is equal to (constant term / coefficient of x²), which is c/a. Hence, this statement is true."
+        },
+        {
+          "q_id": "ii",
+          "statement": "All similar triangles are always congruent.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: Similar triangles have corresponding angles equal and sides proportional, but their sizes can differ. All congruent triangles are similar, but all similar triangles are not necessarily congruent."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The distance of the point P(a, b) from the origin is √(a² + b²).",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: The distance between the origin O(0, 0) and the point P(a, b) is obtained via the distance formula d = √[(a − 0)² + (b − 0)²] = √(a² + b²)."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The angle of elevation of an object viewed is the angle formed by the line of sight with the horizontal when it is above the horizontal level.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: When an observer looks at an object situated above the horizontal level, the angle formed between the line of sight and the horizontal line is called the angle of elevation."
+        },
+        {
+          "q_id": "v",
+          "statement": "The circumference of a circle of radius r is πr².",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: The circumference of a circle of radius r is given by the formula 2πr, whereas πr² is the formula for the area of a circle."
+        },
+        {
+          "q_id": "vi",
+          "statement": "In a frequency distribution, the cumulative frequency of a class is the sum of frequencies of all the classes preceding that class.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: To find the cumulative frequency of a given class, the frequency of that class is added to the cumulative frequency of all the previous classes."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the correct pairs:",
+      "explanation": "Column A and Column B are matched based on standard mathematical formulas.",
+      "columns": {
+        "column_A_title": "Column – A",
+        "column_B_title": "Column – B",
+        "pairs": [
+          {
+            "a_item": "(i) cos A · sec A",
+            "b_item": "πr²",
+            "correct_match_index": 4,
+            "explanation": "Correct match: (i) ⟶ 1\n\nReason: Since sec A = 1/cos A, cos A · sec A = cos A × (1/cos A) = 1."
+          },
+          {
+            "a_item": "(ii) Total surface area of a cube",
+            "b_item": "1/√3",
+            "correct_match_index": 5,
+            "explanation": "Correct match: (ii) ⟶ 6a²\n\nReason: A cube with side length 'a' has 6 square faces, so its total surface area is 6a²."
+          },
+          {
+            "a_item": "(iii) Area of a sector of a circle with angle θ",
+            "b_item": "2/3 πr³",
+            "correct_match_index": 3,
+            "explanation": "Correct match: (iii) ⟶ θ/360 × πr²\n\nReason: The area of a sector of a circle with radius r and central angle θ is = (θ/360°) × πr²."
+          },
+          {
+            "a_item": "(iv) tan 30°",
+            "b_item": "θ/360 × πr²",
+            "correct_match_index": 1,
+            "explanation": "Correct match: (iv) ⟶ 1/√3\n\nReason: From the trigonometric table, the value of tan 30° is 1/√3."
+          },
+          {
+            "a_item": "(v) Area of a circular region or disc",
+            "b_item": "1",
+            "correct_match_index": 0,
+            "explanation": "Correct match: (v) ⟶ πr²\n\nReason: The area of a circular disc of radius r is πr²."
+          },
+          {
+            "a_item": "(vi) Volume of a hemisphere",
+            "b_item": "6a²",
+            "correct_match_index": 2,
+            "explanation": "Correct match: (vi) ⟶ 2/3 πr³\n\nReason: The volume of a hemisphere of radius r is half the volume of a sphere (4/3 πr³), which is (2/3)πr³."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×6=6",
+      "text": "Answer each in one word / sentence:",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "Definition of line of sight",
+          "answer": "The line of sight is the line drawn from the observer's eye to the point in the object viewed by the observer.",
+          "explanation": "Answer: The straight line drawn from the eye of an observer to the object being viewed is called the line of sight."
+        },
+        {
+          "topic_id": "ii",
+          "name": "Quadratic formula to find the roots of a quadratic equation",
+          "answer": "x = [−b ± √(b² − 4ac)] / 2a",
+          "explanation": "Answer: The Sridharacharya quadratic formula to find the roots of the quadratic equation ax² + bx + c = 0 (a ≠ 0) is: x = [−b ± √(b² − 4ac)] / 2a."
+        },
+        {
+          "topic_id": "iii",
+          "name": "Sum of probabilities of all elementary events of an experiment",
+          "answer": "1 (One)",
+          "explanation": "Answer: The sum of the probabilities of all mutually exclusive and exhaustive elementary events of a random experiment is always 1."
+        },
+        {
+          "topic_id": "iv",
+          "name": "Condition for dependent (consistent) pair of linear equations",
+          "answer": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+          "explanation": "Answer: The condition for a pair of linear equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 to be dependent (infinitely many solutions) is: a₁/a₂ = b₁/b₂ = c₁/c₂."
+        },
+        {
+          "topic_id": "v",
+          "name": "Definition of secant of a circle",
+          "answer": "A line that intersects a circle at two distinct points is called a secant.",
+          "explanation": "Answer: A straight line that cuts or intersects a circle at two different points is called a secant line of the circle."
+        },
+        {
+          "topic_id": "vi",
+          "name": "SSS similarity criterion for two triangles",
+          "answer": "If in two triangles, sides of one triangle are proportional to the sides of the other triangle, then their corresponding angles are equal and the two triangles are similar.",
+          "explanation": "Answer: SSS similarity criterion: If all three corresponding sides of two triangles are proportional, then the triangles are similar."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the H.C.F. of 6 and 20 by the prime factorization method.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven numbers: 6 and 20\n\nPrime factorization:\n6 = 2 × 3 = 2¹ × 3¹\n20 = 2 × 2 × 5 = 2² × 5¹\n\nH.C.F. is the product of the smallest power of each common prime factor:\nCommon prime factor = 2\nSmallest power = 2¹\n\nThus, H.C.F. (6, 20) = 2\n\nAnswer: H.C.F. = 2"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Express 156 as a product of its prime factors.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven number: 156\n\nPrime factorization:\n156 ÷ 2 = 78\n78 ÷ 2 = 39\n39 ÷ 3 = 13\n13 ÷ 13 = 1\n\nProduct of prime factors:\n156 = 2 × 2 × 3 × 13\n156 = 2² × 3 × 13\n\nAnswer: 156 = 2² × 3 × 13"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the 15th term of the A.P. : 3, 8, 13, ...... ",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven Arithmetic Progression (A.P.) : 3, 8, 13, ......\n\nHere,\nFirst term (a) = 3\nCommon difference (d) = 8 − 3 = 5\nNumber of terms (n) = 15\n\nWe know that the nth term of an A.P. is:\naₙ = a + (n − 1)d\n\nFor the 15th term, put n = 15:\na₁₅ = 3 + (15 − 1) × 5\na₁₅ = 3 + (14) × 5\na₁₅ = 3 + 70\na₁₅ = 73\n\nAnswer: The 15th term of the given A.P. is 73."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the number of terms in the arithmetic progression 12, 15, 18, ....... 99.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven A.P. : 12, 15, 18, ....... 99\n\nHere,\nFirst term (a) = 12\nCommon difference (d) = 15 − 12 = 3\nLast term (aₙ) = 99\n\nLet there be n terms in the A.P.\nFormula:\naₙ = a + (n − 1)d\n\nSubstituting values:\n99 = 12 + (n − 1) × 3\n99 − 12 = (n − 1) × 3\n87 = (n − 1) × 3\nn − 1 = 87 / 3\nn − 1 = 29\nn = 29 + 1\nn = 30\n\nAnswer: The total number of terms in the arithmetic progression is 30."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If aₙ = 3 + 2n, then show that a₁, a₂, a₃, ..... form an A.P.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven general term: aₙ = 3 + 2n\n\nSubstitute n = 1, 2, 3, 4 ...:\na₁ = 3 + 2(1) = 3 + 2 = 5\na₂ = 3 + 2(2) = 3 + 4 = 7\na₃ = 3 + 2(3) = 3 + 6 = 9\na₄ = 3 + 2(4) = 3 + 8 = 11\n\nChecking the difference between consecutive terms:\na₂ − a₁ = 7 − 5 = 2\na₃ − a₂ = 9 − 7 = 2\na₄ − a₃ = 11 − 9 = 2\n\nSince the difference (aₖ₊₁ − aₖ) is a constant (2) in each case.\nTherefore, the sequence a₁, a₂, a₃, ..... (5, 7, 9, 11, .....) forms an A.P."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the sum of the first 12 terms of the A.P. : 8, 3, −2, .....",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven A.P. : 8, 3, −2, .....\n\nHere,\nFirst term (a) = 8\nCommon difference (d) = 3 − 8 = −5\nNumber of terms (n) = 12\n\nFormula for the sum of first n terms of an A.P.:\nSₙ = (n/2) [2a + (n − 1)d]\n\nSubstituting values:\nS₁₂ = (12/2) [2(8) + (12 − 1)(−5)]\nS₁₂ = 6 [16 + 11(−5)]\nS₁₂ = 6 [16 − 55]\nS₁₂ = 6 [−39]\nS₁₂ = −234\n\nAnswer: The sum of the first 12 terms is −234."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the zeroes of the polynomial 3x² − x − 4.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven polynomial: P(x) = 3x² − x − 4\n\nTo find zeroes, set P(x) = 0:\n3x² − x − 4 = 0\n\nSplitting the middle term (−x) such that product is −12 and sum is −1 (i.e., −4 and 3):\n3x² − 4x + 3x − 4 = 0\nx(3x − 4) + 1(3x − 4) = 0\n(3x − 4)(x + 1) = 0\n\nNow,\n3x − 4 = 0  ⇒  x = 4/3\nx + 1 = 0    ⇒  x = −1\n\nAnswer: The zeroes of the given polynomial are 4/3 and −1."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find a quadratic polynomial, the sum and product of whose zeroes are 4 and 1 respectively.",
+            "correct_answer": "",
+            "explanation": "Solution:\nLet the zeroes of the quadratic polynomial be α and β.\n\nGiven:\nSum of zeroes (α + β) = 4\nProduct of zeroes (αβ) = 1\n\nFormula to find quadratic polynomial:\nP(x) = x² − (α + β)x + αβ\n\nSubstituting values:\nP(x) = x² − (4)x + 1\nP(x) = x² − 4x + 1\n\nAnswer: The required quadratic polynomial is x² − 4x + 1."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "On comparing the ratios a₁/a₂, b₁/b₂ and c₁/c₂, find out whether the lines representing the following pairs of linear equations intersect at a point, are parallel or coincident: 2x + y = 6 and 4x − 2y = 4.",
+          "correct_answer": "",
+          "explanation": "Solution:\nWriting the given equations in standard form ax + by + c = 0:\n2x + 1y − 6 = 0   ----(i)\n4x − 2y − 4 = 0   ----(ii)\n\nComparing coefficients:\na₁ = 2,  b₁ = 1,   c₁ = −6\na₂ = 4,  b₂ = −2,  c₂ = −4\n\nCalculating ratios:\na₁/a₂ = 2/4 = 1/2\nb₁/b₂ = 1/−2 = −1/2\n\nSince a₁/a₂ ≠ b₁/b₂ (i.e., 1/2 ≠ −1/2)\n\nThus, the lines intersect at a single point and the pair of linear equations is **consistent**.\nAnswer: The lines intersect at a point."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Solve the following pair of linear equations: x + y = 5, 2x − y = 7.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven linear equations:\nx + y = 5   ----(1)\n2x − y = 7  ----(2)\n\nBy elimination method:\nAdding equations (1) and (2):\n(x + y) + (2x − y) = 5 + 7\n3x = 12\nx = 12 / 3\nx = 4\n\nSubstituting x = 4 into equation (1):\n4 + y = 5\ny = 5 − 4\ny = 1\n\nAnswer: x = 4, y = 1"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If tan A = 4/3, find the value of sin A.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven: tan A = 4/3 = (Perpendicular / Base)\n\nLet in a right-angled triangle:\nPerpendicular (BC) = 4k\nBase (AB) = 3k (where k is a positive number)\n\nBy Pythagoras' theorem (AC² = AB² + BC²):\nAC² = (3k)² + (4k)²\nAC² = 9k² + 16k²\nAC² = 25k²\nHypotenuse (AC) = 5k\n\nNow, sin A = (Perpendicular / Hypotenuse)\nsin A = 4k / 5k = 4/5\n\nAnswer: sin A = 4/5"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the value of: sin 60° · cos 30° + sin 30° · cos 60°.",
+            "correct_answer": "",
+            "explanation": "Solution:\nExpression: sin 60° · cos 30° + sin 30° · cos 60°\n\nSubstituting standard trigonometric values:\nsin 60° = √3/2,  cos 30° = √3/2\nsin 30° = 1/2,   cos 60° = 1/2\n\nSubstituting into the expression:\n= (√3/2) × (√3/2) + (1/2) × (1/2)\n= 3/4 + 1/4\n= (3 + 1) / 4\n= 4 / 4\n= 1\n\nAnswer: The value of the expression is 1."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A tangent to a circle of radius 5 cm is drawn from a point A at a distance 13 cm from the centre of the circle. Find the length of the tangent.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the centre of the circle be O and the point of contact be T.\nGiven distance OA = 13 cm\nRadius OT = 5 cm\nLet the length of the tangent AT be r cm\n\nAccording to the theorem, the tangent at any point of a circle is perpendicular to the radius through the point of contact:\n∠OTA = 90°\n\nIn right-angled triangle OTA by Pythagoras' theorem:\nOA² = OT² + AT²\n13² = 5² + AT²\n169 = 25 + AT²\nAT² = 169 − 25\nAT² = 144\nAT = √144 = 12 cm\n\nAnswer: The length of the tangent is 12 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "If tangents PA and PB from a point P to a circle with centre O are inclined to each other at an angle of 70°, then find ∠POQ.",
+            "correct_answer": "",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_12_or.PNG",
+            "explanation": "Solution:\nNote: Based on standard textbook nomenclature (NCERT Chapter 10 Ex 1.2 Q7), let tangents be PA and PB inclined at 70° (i.e., ∠APB = 70°). We need to find ∠AOB (or ∠POQ).\n\nIn quadrilateral PAOB:\nRadius is perpendicular to the tangent at the point of contact:\n∠OAP = 90°\n∠OBP = 90°\n\nSince the sum of all angles in a quadrilateral is 360°:\n∠AOB + ∠OAP + ∠APB + ∠OBP = 360°\n∠AOB + 90° + 70° + 90° = 360°\n∠AOB + 250° = 360°\n∠AOB = 360° − 250°\n∠AOB = 110°\n\nAnswer: ∠POQ (or ∠AOB) = 110°"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If P(E) = 0.15, what is the probability of 'not E'?",
+          "correct_answer": "",
+          "explanation": "Solution:\nThe sum of the probabilities of an event E occurring and not occurring (Ē) is 1:\nP(E) + P(Ē) = 1\n\nGiven: P(E) = 0.15\n\nSubstituting values:\n0.15 + P(Ē) = 1\nP(Ē) = 1 − 0.15\nP(Ē) = 0.85\n\nAnswer: P(Ē) = 0.85"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A die is thrown once. Find the probability of getting a number greater than 4.",
+            "explanation": "Solution:\nTotal possible outcomes when throwing a fair die S = {1, 2, 3, 4, 5, 6}\nTotal number of outcomes n(S) = 6\n\nLet event E be 'getting a number greater than 4'.\nNumbers greater than 4 = {5, 6}\nNumber of favorable outcomes n(E) = 2\n\nProbability formula: P(E) = n(E) / n(S)\nP(E) = 2 / 6 = 1 / 3\n\nAnswer: The probability of getting a number greater than 4 is 1/3."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A bag contains 3 red balls and 5 black balls. A ball is drawn at random from the bag. What is the probability that the ball drawn is (i) red? (ii) not red?",
+          "correct_answer": "",
+          "explanation": "Solution:\nTotal number of balls in the bag n(S) = 3 (red) + 5 (black) = 8\n\n(i) Probability of drawing a red ball:\nNumber of red balls n(R) = 3\nP(red ball) = 3 / 8\n\n(ii) Probability of not drawing a red ball:\nP(not red) = 1 − P(red ball) = 1 − 3/8 = 5/8\n(Or number of black balls / total balls = 5/8)\n\nAnswer: (i) 3/8  (ii) 5/8"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A coin is tossed once. Find the probability of getting a head. Also find the probability of getting a tail.",
+            "explanation": "Solution:\nTossing a coin once has possible outcomes: S = {Head (H), Tail (T)}\nTotal number of outcomes n(S) = 2\n\n(i) Probability of getting a head:\nFavorable outcomes n(H) = 1\nP(Head) = n(H) / n(S) = 1/2\n\n(ii) Probability of getting a tail:\nFavorable outcomes n(T) = 1\nP(Tail) = n(T) / n(S) = 1/2\n\nAnswer: The probability of getting a head is 1/2 and the probability of getting a tail is also 1/2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the necessary conditions for similarity of triangles.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo triangles are similar if they satisfy the following two necessary conditions:\n1. Their corresponding angles are equal (i.e., ∠A = ∠D, ∠B = ∠E, ∠C = ∠F).\n2. Their corresponding sides are in the same ratio (i.e., AB/DE = BC/EF = CA/FD)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "In the figure, if DE ∥ BC, find EC. (AD = 1.5 cm, DB = 3 cm, AE = 1 cm)",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_15.png",
+            "correct_answer": "",
+            "explanation": "Solution:\nIn triangle ABC, it is given that DE ∥ BC.\nGiven measurements: AD = 1.5 cm, DB = 3 cm, AE = 1 cm\n\nBy Basic Proportionality Theorem (Thales' Theorem):\nAD / DB = AE / EC\n\nSubstituting values:\n1.5 / 3 = 1 / EC\n1/2 = 1 / EC\nEC = 2 cm\n\nAnswer: The length of EC is 2 cm."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the coordinates of point A, where AB is a diameter of a circle whose centre is (2, −3) and B is (1, 4).",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the coordinates of point A be (x, y).\nGiven: End point of diameter B = (1, 4) and centre of circle C = (2, −3).\n\nWe know that the centre of a circle is the midpoint of its diameter.\nMidpoint formula: [(x₁ + x₂)/2, (y₁ + y₂)/2]\n\nThus,\n(x + 1) / 2 = 2   ⇒  x + 1 = 4   ⇒  x = 3\n(y + 4) / 2 = −3  ⇒  y + 4 = −6  ⇒  y = −10\n\nAnswer: The coordinates of point A are (3, −10)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the distance between the points (2, 3) and (4, 1).",
+            "explanation": "Solution:\nLet point P(x₁, y₁) = (2, 3) and Q(x₂, y₂) = (4, 1).\n\nDistance formula between two points:\nd = √[(x₂ − x₁)² + (y₂ − y₁)²]\n\nSubstituting values:\nd = √[(4 − 2)² + (1 − 3)²]\nd = √[(2)² + (−2)²]\nd = √[4 + 4]\nd = √8 = √(4 × 2) = 2√2 units\n\nAnswer: The distance between the points is 2√2 units."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the area of a sector of a circle with radius 6 cm and angle 30°. (Use π = 3.14)",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven:\nRadius of circle (r) = 6 cm\nAngle of sector (θ) = 30°\nπ = 3.14\n\nFormula for area of sector:\nArea = (θ / 360°) × πr²\n\nSubstituting values:\nArea = (30° / 360°) × 3.14 × (6)²\n= (1 / 12) × 3.14 × 36\n= 3.14 × 3\n= 9.42 cm²\n\nAnswer: The area of the sector is 9.42 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the length of an arc of a circle of radius 14 cm, if the angle of the sector is 60°. (Use π = 22/7)",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven:\nRadius of circle (r) = 14 cm\nAngle at centre (θ) = 60°\nπ = 22/7\n\nFormula for arc length:\nLength = (θ / 360°) × 2πr\n\nSubstituting values:\nLength = (60° / 360°) × 2 × (22/7) × 14\n= (1 / 6) × 2 × 22 × 2\n= (1 / 6) × 88\n= 88 / 6\n= 44 / 3 cm (or 14.67 cm)\n\nAnswer: The length of the arc is 44/3 cm."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Given that HCF (306, 657) = 9, find LCM (306, 657).",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven numbers a = 306, b = 657\nGiven: HCF (306, 657) = 9\n\nWe know that for any two positive integers:\nHCF × LCM = Product of two numbers (a × b)\n\n9 × LCM (306, 657) = 306 × 657\nLCM (306, 657) = (306 × 657) / 9\n\nDividing 306 by 9 gives 34:\nLCM (306, 657) = 34 × 657\nLCM (306, 657) = 22338\n\nAnswer: LCM (306, 657) = 22338"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the LCM of 6, 72 and 120 by the prime factorization method.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven numbers: 6, 72 and 120\n\nExpressing prime factorizations in exponential form:\n6 = 2 × 3 = 2¹ × 3¹\n72 = 2 × 2 × 2 × 3 × 3 = 2³ × 3²\n120 = 2 × 2 × 2 × 3 × 5 = 2³ × 3¹ × 5¹\n\nTo find LCM, take the product of the greatest power of each prime factor involved:\nHighest power of 2 = 2³\nHighest power of 3 = 3²\nHighest power of 5 = 5¹\n\nLCM (6, 72, 120) = 2³ × 3² × 5¹\n= 8 × 9 × 5\n= 360\n\nAnswer: LCM of the numbers = 360"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the roots of the quadratic equation x² + x − 12 = 0 by factorization.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven quadratic equation: x² + x − 12 = 0\n\nSplit the middle term (+1x) into two parts whose product is −12 and sum is +1 (i.e., +4 and −3):\nx² + 4x − 3x − 12 = 0\n\nTaking common terms from the first two and last two terms:\nx(x + 4) − 3(x + 4) = 0\n(x + 4)(x − 3) = 0\n\nEquating each factor to zero:\nx + 4 = 0  ⇒  x = −4\nx − 3 = 0  ⇒  x = 3\n\nAnswer: The roots of the given quadratic equation are −4 and 3."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the value of k for the quadratic equation 3x² + kx + 3 = 0, so that they have two equal roots.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven equation: 3x² + kx + 3 = 0\nComparing with standard form ax² + bx + c = 0:\na = 3, b = k, c = 3\n\nCondition for two equal (real) roots:\nDiscriminant D = 0  i.e.,  (b² − 4ac = 0)\n\nSubstituting values:\nk² − 4(3)(3) = 0\nk² − 36 = 0\nk² = 36\nk = ±√36\nk = ±6\n\nAnswer: The value of k is 6 or −6 (±6)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A tower is 30 m away from a point on the ground, the angle of elevation of the top of the tower is 30°. Find the height of the tower.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the height of the tower AB = h meters\nDistance from the foot of the tower B to point C on the ground BC = 30 meters\nAngle of elevation ∠ACB = 30°\n\nIn right-angled triangle ABC:\ntan 30° = (Perpendicular AB) / (Base BC)\ntan 30° = h / 30\n\nSubstituting tan 30° = 1/√3:\n1 / √3 = h / 30\nh = 30 / √3\n\nRationalizing the denominator:\nh = (30 × √3) / (√3 × √3)\nh = 30√3 / 3\nh = 10√3 meters\n\nAnswer: The height of the tower is 10√3 meters (or approx. 17.32 meters)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. Find the height of the pole, if the angle made by the rope with the ground level is 30°.",
+            "correct_answer": "",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_20.png",
+            "explanation": "Solution:\nLet the height of the pole AB = h meters\nLength of the stretched rope AC = 20 meters (Hypotenuse)\nAngle made by the rope with the ground ∠ACB = 30°\n\nIn right-angled triangle ABC:\nsin 30° = (Perpendicular AB) / (Hypotenuse AC)\nsin 30° = h / 20\n\nSubstituting sin 30° = 1/2:\n1/2 = h / 20\n2h = 20\nh = 20 / 2\nh = 10 meters\n\nAnswer: The height of the pole is 10 meters."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The cost of 2 pencils and 3 erasers is ₹ 9 and the cost of 4 pencils and 6 erasers is ₹ 18? Wait, the question in source: "2 pencils and 3 erasers cost ₹ 9. The cost of 1 pencil and 2 erasers is ₹ 5. Find the cost of each pencil and each eraser."",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet:\nCost of one pencil = ₹ x\nCost of one eraser = ₹ y\n\nFrom the first condition:\n2x + 3y = 9   ----(1)\n\nFrom the second condition:\n1x + 2y = 5   ----(2)\n\nMultiplying equation (2) by 2:\n2x + 4y = 10  ----(3)\n\nSubtracting equation (1) from equation (3):\n(2x + 4y) − (2x + 3y) = 10 − 9\ny = 1\n\nSubstituting y = 1 into equation (2):\nx + 2(1) = 5\nx + 2 = 5\nx = 5 − 2 = 3\n\nAnswer:\nCost of each pencil = ₹ 3\nCost of each eraser = ₹ 1"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Solve the following pair of linear equations: 3x + 4y = −6,  3x − y = 9.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven equations:\n3x + 4y = −6  ----(1)\n3x − y = 9    ----(2)\n\nSubtracting equation (2) from equation (1) by elimination method:\n(3x + 4y) − (3x − y) = −6 − 9\n3x + 4y − 3x + y = −15\n5y = −15\ny = −15 / 5\ny = −3\n\nSubstituting y = −3 into equation (2):\n3x − (−3) = 9\n3x + 3 = 9\n3x = 9 − 3\n3x = 6\nx = 6 / 3\nx = 2\n\nAnswer: x = 2, y = −3"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A hemispherical depression is cut out from one face of a cubical wooden block such that the diameter l of the hemisphere is equal to the edge of the cube. Determine the surface area of the remaining solid.",
+          "explanation": "Solution:\nLet the edge of the cube = a = 7 cm (or general edge = l)\n\n1. Maximum diameter of the hemisphere = edge of the cube = 7 cm\nRadius (r) = 7/2 cm = 3.5 cm\n\n2. Total surface area of the remaining solid:\n= (Total surface area of cube) + (Curved surface area of hemisphere) − (Area of the circular base of hemisphere)\n= 6a² + 2πr² − πr²\n= 6a² + πr²\n\nSubstituting values (a = 7, r = 7/2):\n= 6(7)² + (22/7) × (7/2) × (7/2)\n= 6 × 49 + (22 × 7) / 4\n= 294 + 154 / 4\n= 294 + 38.5\n= 332.5 cm²\n\nAnswer: The maximum diameter is 7 cm and the total surface area of the solid is 332.5 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A solid toy is in the form of a hemisphere surmounted by a right circular cone. The height of the cone is 2 cm and the diameter of the base is 4 cm. Find the volume of the toy.",
+            "explanation": "Solution:\nDiameter of cone and hemisphere = 4 cm\nRadius (r) = 4/2 = 2 cm\nHeight of the cone (h) = 2 cm\n\nTotal volume of the toy = Volume of cone + Volume of hemisphere\n= (1/3)πr²h + (2/3)πr³\n= (1/3)πr² (h + 2r)\n\nSubstituting values (Taking π = 3.14):\n= (1/3) × 3.14 × (2)² × (2 + 2(2))\n= (1/3) × 3.14 × 4 × (2 + 4)\n= (1/3) × 3.14 × 4 × 6\n= 3.14 × 4 × 2\n= 25.12 cm³\n\nAnswer: The volume of the toy is 25.12 cm³."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The following table gives the literacy rate (in percentage) of 35 cities. Find the mean literacy rate.\n\nLiteracy rate (%): 45-55 | 55-65 | 65-75 | 75-85 | 85-95\nNumber of cities:    3   |   10  |   11  |    8  |    3",
+          "correct_answer": "",
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_23.png",
+          "explanation": "Solution:\nTable for mean using direct method:\n\nClass Interval (Literacy %) | Frequency (fᵢ) | Class Mark (xᵢ) | fᵢ × xᵢ\n---------------------------------------------------------------\n45 - 55                     |       3        |       50        |   150\n55 - 65                     |      10        |       60        |   600\n65 - 75                     |      11        |       70        |   770\n75 - 85                     |       8        |       80        |   640\n85 - 95                     |       3        |       90        |   270\n---------------------------------------------------------------\nSum                         |  Σfᵢ = 35      |                 | Σfᵢxᵢ = 2430\n\nFormula for Mean (x̄):\nx̄ = Σfᵢxᵢ / Σfᵢ\nx̄ = 2430 / 35\nx̄ = 69.428... ≈ 69.43 %\n\nAnswer: The mean literacy rate is 69.43%."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "The following distribution shows the daily pocket allowance of children of a locality. The mean pocket allowance is ₹ 18. Find the missing frequency f. (Or dataset of hospital patients ages as in standard textbook/source)\n\nAge (in years): 5-15 | 15-25 | 25-35 | 35-45 | 45-55 | 55-65\nNumber of patients: 6 | 11 | 21 | 23 | 14 | 3\n\nFind the mode of the above data.",
+            "correct_answer": "",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_23_or_img.png",
+            "explanation": "Solution:\nIn the given table, the maximum frequency is 23, which corresponds to the class interval 35 − 45.\nThus, Modal class = 35 − 45\n\nHere:\nLower limit of modal class (l) = 35\nSize of class interval (h) = 10\nFrequency of modal class (f₁) = 23\nFrequency of preceding class (f₀) = 21\nFrequency of succeeding class (f₂) = 14\n\nFormula for Mode:\nMode = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n\nSubstituting values:\nMode = 35 + [ (23 − 21) / (2(23) − 21 − 14) ] × 10\n= 35 + [ 2 / (46 − 35) ] × 10\n= 35 + [ 2 / 11 ] × 10\n= 35 + 20 / 11\n= 35 + 1.818...\n≈ 36.82 years\n\nAnswer: The mode of the data is 36.82 years."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Types of Chemical Reactions",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Combination Reaction",
+      "definitionBean": {
+        "title": "Combination Reaction",
+        "definition": "A chemical reaction in which two or more reactants combine to form a single product is called a combination reaction.",
+        "explanation": "The key feature of this type of reaction is substances joining together to form a single product. It is often considered an exothermic reaction because energy is released.",
+        "importantPoints": [
+          "Two or more reactants form a single product",
+          "General form: A + B -> C",
+          "Most combination reactions are exothermic"
+        ],
+        "highlightWords": [
+          "Combination reaction",
+          "Single product",
+          "Exothermic"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Decomposition Reaction",
+      "definitionBean": {
+        "title": "Decomposition Reaction",
+        "definition": "A reaction in which a single reactant breaks down to give two or more simpler products is called a decomposition reaction.",
+        "explanation": "This is completely opposite to a combination reaction. It requires heat, light, or electrical energy to break down reactants (endothermic).",
+        "importantPoints": [
+          "Single reactant breaks into two or more products",
+          "Requires energy (heat/light/electricity)",
+          "General form: A -> B + C"
+        ],
+        "highlightWords": [
+          "Decomposition reaction",
+          "Dissociation",
+          "Energy"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Displacement and Double Displacement Reaction",
+      "definitionBean": {
+        "title": "Displacement and Double Displacement Reaction",
+        "definition": "A reaction in which a more reactive element displaces a less reactive element from its compound is called displacement; and exchange of ions is double displacement.",
+        "explanation": "In displacement, one element takes the place of another, whereas in double displacement, ions are exchanged between two compounds to form new ones.",
+        "importantPoints": [
+          "Displacement: Removal of a less reactive element by a more reactive one",
+          "Double Displacement: Exchange of ions between reactants",
+          "Precipitates are often formed in double displacement reactions"
+        ],
+        "highlightWords": [
+          "Displacement",
+          "Double displacement",
+          "Exchange of ions"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Combination and Decomposition Reactions",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is a combination reaction? Explain with an example.",
+          "correct_answer": "Two or more reactants combine to form a new product (e.g., combustion of coal).",
+          "imgUrl": "",
+          "explanation": "A chemical reaction in which two or more substances (reactants) combine to form only one new substance (product) is called a combination reaction. Example: Combustion of coal - $\\text{C(s)} + \\text{O}_2\\text{(g)} \\rightarrow \\text{CO}_2\\text{(g)}$."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Why is a decomposition reaction considered opposite to a combination reaction? Give an example.",
+            "correct_answer": "Decomposition breaks a reactant into multiple products, which is opposite to combination.",
+            "imgUrl": "",
+            "explanation": "In a combination reaction, two or more reactants form a product, whereas in a decomposition reaction, a single reactant breaks down into two or more products. Example: Electrolysis of water at the cathode."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Displacement Reaction",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "What is a displacement reaction? Explain it using the experiment of an iron nail and copper sulfate solution.",
+          "correct_answer": "More reactive element displaces less reactive; iron displaces copper to form ferrous sulfate.",
+          "imgUrl": "",
+          "explanation": "When a more reactive element displaces a less reactive element from its compound solution, it is called a displacement reaction. When an iron nail is dipped in a blue copper sulfate solution, iron displaces copper to form ferrous sulfate and the solution turns green."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Can zinc displace copper from copper sulfate solution? Write the reason.",
+            "correct_answer": "Yes, because zinc is a more reactive metal than copper.",
+            "imgUrl": "",
+            "explanation": "Yes, zinc can displace copper from copper sulfate solution because zinc is a more reactive metal than copper."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Double Displacement Reaction",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "What is meant by a double displacement reaction? Write a suitable equation.",
+          "correct_answer": "Exchange of ions between reactants is a double displacement reaction.",
+          "imgUrl": "",
+          "explanation": "Reactions in which there is an exchange of ions between reactants are called double displacement reactions. Example: $\\text{Na}_2\\text{SO}_4\\text{(aq)} + \\text{BaCl}_2\\text{(aq)} \\rightarrow \\text{BaSO}_4\\text{(s)} + \\text{2NaCl(aq)}$."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "What is called a precipitation reaction in double displacement reactions? Explain.",
+            "correct_answer": "A double displacement reaction that produces an insoluble solid (precipitate) is a precipitation reaction.",
+            "imgUrl": "",
+            "explanation": "Such a double displacement reaction in which an insoluble solid (precipitate) is formed is also called a precipitation reaction; e.g., formation of white precipitate of barium sulfate."
+          }
+        ]
+      }
+    }
+  ]
+}

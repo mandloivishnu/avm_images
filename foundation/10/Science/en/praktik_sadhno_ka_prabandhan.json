@@ -1,0 +1,63 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Sustainable Management of Natural Resources",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Management of Natural Resources and 3R Principle",
+      "definitionBean": {
+        "title": "Management of Natural Resources and 3R Principle",
+        "definition": "The process of preserving the environment and resources for future generations and utilizing them prudently is called 'sustainable management'; and the '3R principle' (Reduce, Reuse, Recycle) is used to minimize waste.",
+        "explanation": "Conservation of forests, wildlife, and water is extremely essential for environmental balance. Rainwater harvesting is an effective technology to raise groundwater levels.",
+        "importantPoints": [
+          "3R Principle: Reduce, Reuse, Recycle",
+          "Forest conservation: Protecting biodiversity and the history of the Chipko Movement",
+          "Water conservation: Khadins, check dams, and rainwater harvesting",
+          "Coal and petroleum: Judicious use of limited fossil fuels"
+        ],
+        "highlightWords": [
+          "Sustainable management",
+          "3R principle",
+          "Rainwater harvesting",
+          "Forest conservation"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Management of Natural Resources and 3R Principle",
+      "parts": [
+        {
+          "q_id": "2_a",
+          "statement": "What is the '3R' principle to save the environment? Explain with examples.",
+          "correct_answer": "3R stands for Reduce, Reuse, and Recycle.",
+          "imgUrl": "",
+          "explanation": "3R stands for: 1. Reduce: Using fewer resources when not needed (e.g., saving electricity or water). 2. Reuse: Using the same item again and again (e.g., using empty jam jars for storing pickles). 3. Recycle: Making new products from plastic, paper, or glass waste."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "2_b",
+            "statement": "What are the benefits of rainwater harvesting? Why is forest conservation necessary?",
+            "correct_answer": "Rainwater harvesting increases groundwater level, and forest conservation is essential for environmental balance.",
+            "imgUrl": "",
+            "explanation": "Rainwater harvesting collects rooftop or ground water to increase groundwater levels, helping to resolve water crises. Forest conservation is necessary because forests form the basis of biodiversity, bring rain, and keep the environment balanced."
+          }
+        ]
+      }
+    }
+  ]
+}

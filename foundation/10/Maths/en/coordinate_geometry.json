@@ -1,0 +1,163 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Coordinate Geometry – Coordinate Geometry",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Distance Formula (Distance Formula)",
+        "definition": "दो pointओं P(x1,y1) and Q(x2,y2) between of distance: PQ = √[(x2-x1)² + (y2-y1)²]",
+        "explanation": "यह formula Pythagorean theorem at आधारित है। coordinates तल at किन्हीं दो pointओं between of सीधी distance ज्ञात करने for its प्रsum is, जो त्रिभुज या चतुर्भुज of प्रकृति पहचानने in भी सहायक है।",
+        "importantPoints": [
+          "formula: √[(x2-x1)² + (y2-y1)²]",
+          "यह Pythagorean theorem at आधारित है",
+          "origin from distance: √(x² + y²)"
+        ],
+        "highlightWords": [
+          "Distance Formula",
+          "coordinates",
+          "Pythagorean theorem"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Section Formula (Section Formula)",
+        "definition": "If point P divides line segment AB in the ratio m:n, then the coordinates of P are: [(mx2+nx1)/(m+n), (my2+ny1)/(m+n)]",
+        "explanation": "यह formula किसी line segment को दिए गए ratio in बाँटने वाले point of coordinates ज्ञात करने for प्रsum is। जब point Midpoint हो (ratio 1:1) then formula Midpoint formula बन जाता है।",
+        "importantPoints": [
+          "formula: [(mx2+nx1)/(m+n), (my2+ny1)/(m+n)]",
+          "Midpoint for m=n=1: [(x1+x2)/2, (y1+y2)/2]",
+          "यह त्रिभुज of माध्यिof व ofन्द्रक ज्ञात करने in उपsumी है"
+        ],
+        "highlightWords": [
+          "Section Formula",
+          "Midpoint",
+          "ratio"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Area of Triangle using Coordinates (Area of Triangle using Coordinates)",
+        "definition": "The area of a triangle with coordinates (x1,y1), (x2,y2), (x3,y3) = ½ |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+        "explanation": "यह formula त्रिभुज of तीनों शीर्षों of coordinates ज्ञात when सीधे area निofलने for प्रsum is। if obtained area शून्य आए, then तीनों point collinear (collinear) होते हैं।",
+        "importantPoints": [
+          "formula: ½ |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|",
+          "area शून्य when point collinear होते हैं",
+          "area सदैव धनात्मक लिया जाता है (absolute value)"
+        ],
+        "highlightWords": [
+          "Area Formula",
+          "शीर्ष",
+          "collinear point"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "pointओं of निम्नलिखित युग्मों between of दूरियाँ find: (2, 3) and (4, 1)",
+          "correct_answer": "2√2",
+          "imgUrl": "",
+          "explanation": "Let point P(2, 3) and Q(4, 1) हैं।\nHere x1 = 2, y1 = 3 and x2 = 4, y2 = 1\n\nUsing the distance formula:\nPQ = √[(x2 - x1)² + (y2 - y1)²]\nPQ = √[(4 - 2)² + (1 - 3)²]\nPQ = √[(2)² + (-2)²]\nPQ = √[4 + 4] = √8\nPQ = 2√2 units"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "वह point find जो pointओं (-1, 7) and (4, -3) को मिलाने वाले line segment को 2:3 of ratio in विभाजित करता है।",
+            "correct_answer": "(1, 3)",
+            "imgUrl": "",
+            "explanation": "Let वांछित point P(x, y) है।\nHere x1 = -1, y1 = 7 and x2 = 4, y2 = -3\nratio m : n = 2 : 3\n\nUsing the section formula:\nx = (mx2 + nx1) / (m + n) = [2(4) + 3(-1)] / (2 + 3) = (8 - 3) / 5 = 5 / 5 = 1\ny = (my2 + ny1) / (m + n) = [2(-3) + 3(7)] / (2 + 3) = (-6 + 21) / 5 = 15 / 5 = 3\n\nTherefore required point (1, 3) है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "pointओं (1, -1) and (-4, 6) को मिलाने वाले line segment को किस ratio in विभाजित करता है? (if point (-1, 6) विभाजित करता हो या सामान्य विभाजन प्रश्न)",
+          "correct_answer": "line segment को विभाजित करने वाले point of coordinates find जो it 2:1 in बांटता है (Let pointओं (4, -3) and (8, 5) को 3:1)",
+          "imgUrl": "",
+          "explanation": "Let point A(4, -3) and B(8, 5) हैं, and आंतरिक रूप from 3:1 of ratio in विभाजित करने वाले point of coordinates ज्ञात करने हैं।\nx = [3(8) + 1(4)] / (3 + 1) = (24 + 4) / 4 = 28 / 4 = 7\ny = [3(5) + 1(-3)] / (3 + 1) = (15 - 3) / 4 = 12 / 4 = 3\nTherefore required point (7, 3) है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "pointओं (5, -6) and (-1, -4) को addने वाले line segment को y-अक्ष किस ratio in विभाजित करता है? this Point of Intersection of coordinates भी find।",
+            "correct_answer": "ratio = 5:1, point = (0, -13/3)",
+            "imgUrl": "",
+            "explanation": "Let y-अक्ष line segment को k:1 of ratio in विभाजित करता है। Therefore Point of Intersection of coordinates (( -k + 5 ) / (k + 1), (-4k - 6) / (k + 1)) होंगे।\nचूँकि point y-अक्ष at है, its x-coordinates 0 होगा:\n(-k + 5) / (k + 1) = 0 => -k + 5 = 0 => k = 5\nTherefore ratio 5:1 है।\ny-coordinates = [-4(5) - 6] / (5 + 1) = (-20 - 6) / 6 = -26 / 6 = -13/3\nTherefore Point of Intersection (0, -13/3) है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "उस Area of Triangle using Coordinates find जिसof शीर्ष (2, 3), (-1, 0) and (2, -4) हैं।",
+          "correct_answer": "21/2 square units",
+          "imgUrl": "",
+          "explanation": "त्रिभुज of area of formula:\nArea = ½ |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|\nHere (x1, y1) = (2, 3), (x2, y2) = (-1, 0), (x3, y3) = (2, -4)\n\nSubstituting the values:\nArea = ½ |2(0 - (-4)) + (-1)(-4 - 3) + 2(3 - 0)|\nArea = ½ |2(4) + (-1)(-7) + 2(3)|\nArea = ½ |8 + 7 + 6|\nArea = ½ |21| = 21/2 square units"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "k of मान find if point (7, -2), (5, 1) and (3, k) collinear (collinear) हैं।",
+            "correct_answer": "k = 4",
+            "imgUrl": "",
+            "explanation": "चूँकि तीनों point collinear हैं, Therefore इनfrom बनने वाले Area of Triangle using Coordinates 0 होगा।\n½ |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)| = 0\nHere x1 = 7, y1 = -2; x2 = 5, y2 = 1; x3 = 3, y3 = k\n\n7(1 - k) + 5(k - (-2)) + 3((-2) - 1) = 0\n7 - 7k + 5(k + 2) + 3(-3) = 0\n7 - 7k + 5k + 10 - 9 = 0\n(7 + 10 - 9) + (-7k + 5k) = 0\n8 - 2k = 0\n2k = 8 => k = 4"
+          }
+        ]
+      }
+    }
+  ]
+}

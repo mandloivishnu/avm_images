@@ -1,0 +1,788 @@
+{
+  "paper_details": {
+    "paperYear": "2024",
+    "subjectName": "SOCIAL SCIENCE",
+    "totalMarks": "75",
+    "board": "Board of Secondary Education, Madhya Pradesh",
+    "setName": "Set A",
+    "totalQuestions": "23",
+    "time": "3 hours",
+    "language": "English medium",
+    "rollCode": "102516"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write it:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Bauxite is an ore related to which mineral?",
+          "options": [
+            {"index": "a", "text": "Iron ore"},
+            {"index": "b", "text": "Aluminium"},
+            {"index": "c", "text": "Copper"},
+            {"index": "d", "text": "Manganese"}
+          ],
+          "correct_index": "b",
+          "correct_answer": "Aluminium",
+          "explanation": "The correct option is (b).\n\nReason:\nBauxite is a major hydrated aluminium oxide ore from which aluminium metal is extracted through the smelting process."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Who is considered the father of the White Revolution in India?",
+          "options": [
+            {"index": "a", "text": "M. S. Swaminathan"},
+            {"index": "b", "text": "Verghese Kurien"},
+            {"index": "c", "text": "Baba Amte"},
+            {"index": "d", "text": "Sunderlal Bahuguna"}
+          ],
+          "correct_index": "b",
+          "correct_answer": "Verghese Kurien",
+          "explanation": "The correct option is (b).\n\nReason:\nDr. Verghese Kurien is known as the father of the White Revolution (Operation Flood) in India and the 'Milkman of India', who made the country self-sufficient in milk production."
+        },
+        {
+          "q_id": "iii",
+          "statement": "In which year was Sinhala declared the official language of Sri Lanka?",
+          "options": [
+            {"index": "a", "text": "1948"},
+            {"index": "b", "text": "1956"},
+            {"index": "c", "text": "1972"},
+            {"index": "d", "text": "1985"}
+          ],
+          "correct_index": "b",
+          "correct_answer": "1956",
+          "explanation": "The correct option is (b).\n\nReason:\nIn the year 1956, an act was passed in Sri Lanka under which, ignoring the Tamil language, only Sinhala was declared as the sole official language of the country."
+        },
+        {
+          "q_id": "iv",
+          "statement": "In terms of evaluating democracy, which one of the following is not suited to democratic systems?",
+          "options": [
+            {"index": "a", "text": "Free and fair elections"},
+            {"index": "b", "text": "Dignity of the individual"},
+            {"index": "c", "text": "Rule of the majority"},
+            {"index": "d", "text": "Equality before the law"}
+          ],
+          "correct_index": "c",
+          "correct_answer": "Rule of the majority",
+          "explanation": "The correct option is (c).\n\nReason:\nDemocracy is not merely rule by the majority; it takes care of minority rights, religious freedom, and inclusive participation of all, so 'rule of the majority' is contrary to its core spirit."
+        },
+        {
+          "q_id": "v",
+          "statement": "Foreign trade is a competition between whom?",
+          "options": [
+            {"index": "a", "text": "Producers of two countries"},
+            {"index": "b", "text": "Markets of two countries"},
+            {"index": "c", "text": "Governments of two countries"},
+            {"index": "d", "text": "None of these"}
+          ],
+          "correct_index": "b",
+          "correct_answer": "Markets of two countries",
+          "explanation": "The correct option is (b).\n\nReason:\nForeign trade links the markets of different countries, enabling the exchange of goods and services and competition between the markets of two countries."
+        },
+        {
+          "q_id": "vi",
+          "statement": "When was the Consumer Protection Act (COPRA) passed?",
+          "options": [
+            {"index": "a", "text": "1982"},
+            {"index": "b", "text": "1985"},
+            {"index": "c", "text": "1986"},
+            {"index": "d", "text": "1992"}
+          ],
+          "correct_index": "c",
+          "correct_answer": "1986",
+          "explanation": "The correct option is (c).\n\nReason:\nThe Consumer Protection Act (COPRA) was passed by the Indian Parliament in 1986 to protect the interests of Indian consumers and give them legal rights against exploitation."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The largest producer state of iron ore in India is {BLANK}.",
+          "correct_answer": "Odisha",
+          "explanation": "Answer: Odisha\n\nReason: Odisha is the largest producer of high-grade iron ore in India, where more than a third of the country's iron ore is extracted."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Bengaluru is called the {BLANK} capital of India.",
+          "correct_answer": "Electronic",
+          "explanation": "Answer: Electronic\n\nReason: Due to the massive concentration of information technology (IT) industries and software companies, Bengaluru is called the 'electronic capital of India' or the 'Silicon Valley'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The civil war in Sri Lanka ended in the year {BLANK}.",
+          "correct_answer": "2009",
+          "explanation": "Answer: 2009\n\nReason: The decades-long bloody ethnic conflict and civil war between the majority Sinhalese and the Tamil minority in Sri Lanka ended in the year 2009."
+        },
+        {
+          "q_id": "iv",
+          "statement": "India has the world's largest {BLANK} electorate.",
+          "correct_answer": "Democratic",
+          "explanation": "Answer: Democratic\n\nReason: India is the largest democratic country in the world, where the largest electorate in the world elects its representatives on the basis of adult suffrage."
+        },
+        {
+          "q_id": "v",
+          "statement": "The sources of credit in the formal sector are banks and {BLANK}.",
+          "correct_answer": "Cooperative societies",
+          "explanation": "Answer: Cooperative societies\n\nReason: Formal sources of credit operating under the supervision of the Reserve Bank of India mainly include commercial banks and rural cooperative societies."
+        },
+        {
+          "q_id": "vi",
+          "statement": "{BLANK} companies play an important role in the process of globalization.",
+          "correct_answer": "Multinational",
+          "explanation": "Answer: Multinational\n\nReason: Multinational companies (MNCs) drive the process of globalization by expanding investment, production, and trade between different countries."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Black soil is the most suitable for cotton cultivation.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: Black soil (also called regur soil) has a remarkable moisture-retaining capacity, which is considered most favorable for the growth of the cotton crop."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Air pollution is caused by smoke emitted from factories.",
+          "correct_answer": "True\n\nExplanation: Toxic gases and fine particles released from industrial units, chimneys, and vehicles pollute the atmosphere."
+        },
+        {
+          "q_id": "iii",
+          "statement": "There is no reservation for women in panchayats in India.",
+          "correct_answer": "False",
+          "explanation": "Answer: False\n\nExplanation: Through the 73rd and 74th Constitutional Amendments, at least one-third (33%) of seats have been reserved for women in local bodies (panchayats and municipalities) in India."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Regional parties are those parties whose influence is limited to only one state.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: Regional parties are political parties whose influence is generally limited to a particular state or region (e.g., DMK, Samajwadi Party, etc.)."
+        },
+        {
+          "q_id": "v",
+          "statement": "A cheque is a type of credit money.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: A cheque is a means of payment through a bank account that functions as credit money."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The consumer movement in India began in the 1960s.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: The organized consumer movement in India was born in the 1960s in opposition to unethical business practices and black-marketing."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the correct pairs:",
+      "columns": {
+        "column_A_title": "A",
+        "column_B_title": "B",
+        "pairs": [
+          {
+            "a_item": "(a) Visakhapatnam",
+            "b_item": "Land-locked and deep port",
+            "correct_match_index": "3",
+            "explanation": "Correct match: (a) Visakhapatnam ⟶ Land-locked and deep port\n\nReason: Visakhapatnam, located in Andhra Pradesh, is India's deepest and land-locked (protected) port."
+          },
+          {
+            "a_item": "(b) Public sector",
+            "b_item": "Government ownership",
+            "correct_match_index": "1",
+            "explanation": "Correct match: (b) Public sector ⟶ Government ownership\n\nReason: The assets and industries of the public sector are fully controlled and owned by the government."
+          },
+          {
+            "a_item": "(c) Capital of Belgium",
+            "b_item": "Brussels",
+            "correct_match_index": "5",
+            "explanation": "Correct match: (c) Capital of Belgium ⟶ Brussels\n\nReason: Brussels is the official capital of Belgium and also the headquarters of the European Union (EU)."
+          },
+          {
+            "a_item": "(d) Defection",
+            "b_item": "Changing party and joining another party",
+            "correct_match_index": "6",
+            "explanation": "Correct match: (d) Defection ⟶ Changing party and joining another party\n\nReason: When an elected representative leaves the party they were elected from and joins another political party for personal gain or a position, it is called defection."
+          },
+          {
+            "a_item": "(e) Issuing currency",
+            "b_item": "Reserve Bank of India",
+            "correct_match_index": "2",
+            "explanation": "Correct match: (e) Issuing currency ⟶ Reserve Bank of India\n\nReason: Only the Reserve Bank of India (RBI) has the statutory authority to print and issue currency notes in India."
+          },
+          {
+            "a_item": "(f) Globalization",
+            "b_item": "Rapid integration between countries",
+            "correct_match_index": "4",
+            "explanation": "Correct match: (f) Globalization ⟶ Rapid integration between countries\n\nReason: Globalization is the process through which the economies, cultures, and markets of different countries become rapidly integrated with one another."
+          }
+        ]
+      },
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "The items of Column (A) have been correctly and logically matched with Column (B)."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "one sentence",
+      "text": "Answer in one sentence:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Where was the first textile mill in India set up?",
+          "correct_answer": "Mumbai (Bombay)",
+          "explanation": "Answer: Mumbai (Bombay)\n\n(The first modern cotton textile mill in India was established in Mumbai in the year 1854.)"
+        },
+        {
+          "q_id": "2",
+          "statement": "When was the First World War fought (years)?",
+          "correct_answer": "1914 to 1918 A.D.",
+          "explanation": "Answer: 1914 to 1918 A.D.\n\n(The First World War was fought between 1914 and 1918.)"
+        },
+        {
+          "q_id": "3",
+          "statement": "Name an activity of the secondary sector.",
+          "correct_answer": "Manufacturing (such as textile manufacturing, steel production)",
+          "explanation": "Answer: Manufacturing (industrial production)\n\n(In the secondary sector, primary products are used as raw material to make new goods.)"
+        },
+        {
+          "q_id": "4",
+          "statement": "What was the main medium connecting countries in the past?",
+          "correct_answer": "Trade routes (such as the Silk Route)",
+          "explanation": "Answer: Trade routes (such as the Silk Route)."
+        },
+        {
+          "q_id": "5",
+          "statement": "What is a violent fight between anti-government groups in a nation, which resembles a war, called?",
+          "correct_answer": "Civil War",
+          "explanation": "Answer: Civil War\n\n(An armed conflict between different groups or the government within the same country is called a civil war.)"
+        },
+        {
+          "q_id": "6",
+          "statement": "Which mode of transport is the most convenient?",
+          "correct_answer": "Road transport",
+          "explanation": "Answer: Road transport\n\n(Road transport is the most convenient mode because it provides door-to-door accessibility.)"
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are biotic and abiotic resources? Give examples.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Biotic resources: Resources that are obtained from the biosphere and have life are called biotic resources. Examples: humans, flora, fauna, and fisheries.\n2. Abiotic resources: All resources that are composed of non-living things are called abiotic resources. Examples: rocks, metals, and minerals."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is meant by soil erosion?",
+            "correct_answer": "",
+            "explanation": "Answer:\nSoil Erosion:\nThe process by which the upper fertile layer of soil gets cut off or washed away from its place due to natural forces (water, wind, floods) and human activities is called soil erosion."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two examples each of kharif and rabi crops.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Kharif crops: Paddy (rice), maize, soybean, and cotton.\n2. Rabi crops: Wheat, gram, barley, and mustard."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is shifting cultivation?",
+            "correct_answer": "",
+            "explanation": "Answer:\nShifting Cultivation (Jhum):\nThis is a primitive method of farming in which farmers clear a patch of forest by cutting trees, cultivate it for a few years, and when the fertility of the soil decreases, they abandon that land and clear a new area of forest to farm."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Name two major energy minerals found in India.",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe two major energy minerals used to obtain energy in India are as follows:\n1. Coal\n2. Petroleum / Natural gas"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are conventional sources of energy? Give two examples.",
+            "correct_answer": "",
+            "explanation": "Answer:\nConventional sources of energy: Sources of energy that have generally been used for a long time to obtain energy and are available in limited quantities (and cannot be immediately replenished once exhausted) are called conventional sources of energy.\nExample: Coal and petroleum."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Who gave the slogan 'Inquilab Zindabad', and what does it mean?",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Author/populariser: The famous slogan 'Inquilab Zindabad' was written by Maulana Hasrat Mohani, and it was popularized by martyr Bhagat Singh and his associates while throwing a bomb in the Central Legislative Assembly.\n2. Meaning: The literal meaning of this slogan is 'Long live the revolution'."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two causes of the Non-Cooperation Movement.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main causes of the Non-Cooperation Movement started by Mahatma Gandhi in 1920:\n1. Oppressive laws such as the Rowlatt Act (1919) and the Jallianwala Bagh massacre.\n2. The rampant inflation, poverty, and heavy tax burden that spread across the country after the First World War."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by picketing?",
+          "correct_answer": "",
+          "explanation": "Answer:\nPicketing:\nThis is a non-violent method of demonstration or protest in which people stand at the entrance of a shop, factory, or government office to stop other people from going there or entering."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Who were the indentured laborers in the colonial period?",
+            "correct_answer": "",
+            "explanation": "Answer:\nIndentured Laborers:\nDuring the colonial period, Indian laborers were taken under a contract (which the laborers called 'girmit') to work in plantations and mines in foreign countries (such as the Caribbean islands, Fiji, and Mauritius); they were called indentured laborers."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What was the Chartist Movement?",
+          "correct_answer": "",
+          "explanation": "Answer:\nChartist Movement:\nThis was a major national political movement carried out by the working people (laborers) of Britain in the 19th century demanding suffrage (the right to vote) and other political reforms."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is the policy of non-alignment?",
+            "correct_answer": "",
+            "explanation": "Answer:\nPolicy of Non-Alignment:\nDuring the Cold War, conducting an independent foreign policy without joining any military or power bloc (NATO or the Warsaw Pact) in the world, and supporting international peace and cooperation, is called the 'policy of non-alignment'."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by a panchang (almanac)?",
+          "correct_answer": "",
+          "explanation": "Answer:\nPanchang:\nA panchang is a traditional astronomical calendar or booklet in which auspicious timings, festivals, and dates are calculated based on the movement of the sun, moon, and planets, and the five main elements (tithi, vara, nakshatra, yoga, and karana)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two differences between handwritten manuscripts and printed books.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main differences between handwritten and printed books:\n1. Means of production: Handwritten books were written by hand with a pen, whereas printed books were printed by a press or machines.\n2. Availability and price: Handwritten books were extremely rare, slow to produce, and expensive; whereas printed books were cheap, attractive, and available in abundance."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two features of the federal system of government.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo main features of the Federal System:\n1. Two or more levels of government: There are governments at the provincial/state level as well as at the central level in the country.\n2. Constitutional division of powers: The list of rights and subjects between the center and the states is clearly determined by the constitution."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two functions of a Gram Panchayat.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main functions of a Gram Panchayat are as follows:\n1. Arranging for sanitation, drinking water supply, cleaning of drains, and construction of paths/roads in rural areas.\n2. Preparing annual plans for the development work of the village and for the improvement of agriculture and cottage industries."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by the sexual division of labor?",
+          "correct_answer": "",
+          "explanation": "Answer:\nSexual Division of Labour:\nThis is the division of unequal social roles given to men and women by society, under which it is assumed that women will do the housework and men will do the outside work."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is communal politics?",
+            "correct_answer": "",
+            "explanation": "Answer:\nCommunal Politics:\nWhen politics uses religion as a basis to pit one religious community against another, and religious sentiments are misused for electoral gains, it is called communal politics."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are the main components of a political party?",
+          "correct_answer": "",
+          "explanation": "Answer:\nAny political party mainly has three components:\n1. Leaders (top leadership)\n2. Active members (those who manage the party structure)\n3. Followers or supporters (the voting public)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is a national party? Give one example.",
+            "correct_answer": "",
+            "explanation": "Answer:\nNational party: A political party that has influence in most states of the country and receives a certain percentage of votes and seats in Lok Sabha or Vidhan Sabha elections is called a national party.\nExample: Bharatiya Janata Party (BJP) / Indian National Congress (INC)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the benefit of using money in the exchange of goods?",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe following are the benefits of using money in the exchange of goods:\n1. It eliminates the complex problem of the 'double coincidence of wants'.\n2. Its use makes it very easy to determine the value of goods, to buy and sell, and to save for the future."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two benefits of Self-Help Groups (SHGs).",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main benefits of Self-Help Groups (SHGs):\n1. They provide loans at low interest rates to the rural poor (especially women) without heavy collateral requirements.\n2. They develop the habit of regular saving among members and make them self-reliant."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by globalization?",
+          "correct_answer": "",
+          "explanation": "Answer:\nGlobalization:\nGlobalization is the process of rapid economic, cultural, and social integration among different countries, as a result of which markets around the world become interconnected, and the flow of goods, services, capital, and technology across borders becomes easier."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are multinational companies?",
+            "correct_answer": "",
+            "explanation": "Answer:\nMultinational Companies (MNCs):\nA large company that controls or owns production in more than one country and operates its factories, offices, and business globally is called a multinational company (e.g., Samsung, Tata, Nike)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is resource planning necessary? Write any three measures for it.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Need: In a country like India, the distribution of resources is highly uneven. Some regions are abundant in certain resources while others are completely backward. Hence, resource planning is essential for the balanced development of the country.\n2. Three measures:\n- Identifying resources in various regions of the country by preparing inventories and conducting surveys.\n- Developing appropriate technology, skills, and institutional setup to implement resource development plans.\n- Establishing coordination between resource development plans and national development plans, and preventing over-exploitation and pollution of resources."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What measures should be taken for water conservation? Write any three.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThe following three main measures should be taken for water conservation:\n1. Rainwater Harvesting: Collecting rainwater falling on roofs in tanks or pits for groundwater recharge.\n2. Modern irrigation systems: Adopting drip irrigation and sprinkler irrigation systems in agriculture to prevent water wastage.\n3. Water pollution control: Prohibiting the discharge of untreated dirty chemicals from factories and domestic sewage directly into rivers and lakes."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the importance of agriculture in the Indian economy? Explain.",
+          "correct_answer": "",
+          "explanation": "Answer:\nAgriculture is of great importance in the Indian economy, which can be understood from the following points:\n1. Main source of employment: More than half of India's population depends directly or indirectly on agriculture for its livelihood and employment.\n2. Raw material for industries: The agricultural sector provides essential raw materials to several major industries of the country (such as cotton textiles, sugar, jute, and edible oils).\n3. Food security and export: Agriculture ensures food security for the vast population of the country and helps earn foreign exchange by exporting products such as tea, spices, and cotton."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain the difference between cottage industry and small-scale industry.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThree main differences between cottage industry and small-scale industry:\n1. Workplace and labor: Cottage industries are usually run inside homes by family members; whereas small-scale industries use some outside workers in small factories.\n2. Capital investment: Cottage industries require very little capital and use traditional tools; whereas small-scale industries require more capital, electrically powered machines, and modern equipment."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How does democracy produce an accountable, responsible, and legitimate government? Explain.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Accountable and responsible: In a democracy, regular and fair elections are held. People elect their representatives, and if the government fails to meet the people's expectations, the people can replace them in the next election. This keeps the government fully accountable to the people.\n2. Transparency in decision-making: In democratic governments, decisions are made following fixed constitutional rules, procedures, and debates, which ensures transparency and accountability in decision-making.\n3. Legitimate government: It is a system of governance chosen by the people themselves, hence it enjoys the people's legal approval and moral legitimacy."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "How does democracy accommodate social diversity? Describe.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Dialogue and a peaceful platform: Democracy provides different linguistic, religious, or regional social groups an open opportunity to raise their interests peacefully and to engage in dialogue.\n2. Protection from majoritarianism: It respects the dignity and share in power of all communities, rather than the dictatorship of one group or majoritarianism.\n3. Establishing harmony: Through constitutional and legal provisions, it succeeds in reducing conflicts between different social groups and building mutual harmony."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Describe the causes and effects of the Non-Cooperation Movement.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Causes of the Non-Cooperation Movement:\n- Cruel repressive British policies such as the Rowlatt Act (1919) and the Jallianwala Bagh massacre.\n- Inflation, unemployment, and the heavy burden of taxes that spread across the country after the First World War.\n- Support for the Khilafat Movement against the injustice done to the Caliph of Turkey.\n\n2. Effects of the movement:\n- For the first time in this movement, India's rural areas, peasants, workers, and women participated on a large scale in the national movement.\n- Foreign clothes, courts, and educational institutions were boycotted, which shook the economic foundations of British rule and strengthened the spirit of national unity and self-rule (Swaraj) in the country."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Describe the Civil Disobedience Movement. What was the role of women in it?",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Civil Disobedience Movement (1930): Mahatma Gandhi launched this nationwide movement by beginning the Dandi March on 12 March 1930 and breaking the salt law. In this, British laws were civilly disobeyed, tax payment was refused, and foreign goods were boycotted.\n2. Role of women: The biggest feature of this movement was the massive participation of women in it. Thousands of women came out of their homes to make salt, picketed shops selling foreign cloth and liquor, and actively participated in prabhat pheris (morning processions) and rallies."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the rights of consumers. Explain any four points.",
+          "correct_answer": "",
+          "explanation": "Answer:\nUnder the Consumer Protection Act, consumers are given the following main rights (describe any four):\n1. Right to safety: The right to be protected against the marketing of goods and services that are hazardous to life, health, or property.\n2. Right to be informed: The right to obtain complete information about the quality, quantity, purity, standard, and price of any product, so that one is not cheated.\n3. Right to choose: The consumer has full freedom to choose goods or services from any shop or market at a fair price according to their preference.\n4. Right to seek redressal or compensation: The right to compensation and grievance redressal against unfair trade practices, exploitation, or the sale of substandard goods."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "For what reasons are consumers exploited in the market? Write four reasons.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThe following are four main reasons for the exploitation of consumers in the market:\n1. Lack of information: Consumers lacking complete information about the correct prices, purity, and quality standards of products.\n2. Limited markets: Especially in rural areas, consumers remain dependent on shopkeepers due to limited shopping options.\n3. Adulteration and poor quality: Traders adulterating food items or selling substandard goods out of greed for profit.\n4. Misleading advertisements: Consumers being deceived after being attracted by false and exaggerated advertisements shown through the media."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "Show the following on the given map of India:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Chota Nagpur Plateau",
+          "correct_answer": "",
+          "explanation": "Answer:\nChota Nagpur Plateau: This is a major plateau region of India rich in mineral resources, mainly spread across parts of Jharkhand, Chhattisgarh, and West Bengal."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Buxa Tiger Reserve",
+          "correct_answer": "",
+          "explanation": "Answer:\nBuxa Tiger Reserve: This is a major tiger reserve located in the foothills of the Himalayas near the Bhutan border, in the Alipurduar district of West Bengal."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Mahanadi River",
+          "correct_answer": "",
+          "explanation": "Answer:\nMahanadi: This is a major river of southeastern India that originates from the Dhamtari district of Chhattisgarh and flows through Odisha before falling into the Bay of Bengal near False Point."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Kandla Port",
+          "correct_answer": "",
+          "explanation": "Answer:\nKandla Port (Deendayal Port): This is a major tidal seaport located at the northern end of the Gulf of Kutch in the Kutch district of Gujarat."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Aravalli mountain range",
+            "correct_answer": "",
+            "explanation": "Answer:\nAravalli Range: This is one of the oldest fold mountain ranges in the world, extending from Gujarat through Rajasthan to Haryana and Delhi in northwestern India."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Corbett National Park",
+            "correct_answer": "",
+            "explanation": "Answer:\nJim Corbett National Park: This is India's oldest national park, located in the Nainital and Pauri Garhwal districts of Uttarakhand."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Kaveri River",
+            "correct_answer": "",
+            "explanation": "Answer:\nKaveri River: This is a sacred and major river of South India that originates from the Brahmagiri Hills in Karnataka and flows through Tamil Nadu before falling into the Bay of Bengal."
+          },
+          {
+            "q_id": "iv",
+            "statement": "Kochi Port",
+            "correct_answer": "",
+            "explanation": "Answer:\nKochi Port: This is a highly important seaport located among the natural harbors of the Arabian Sea on the southwestern coast of India (Kerala)."
+          }
+        ]
+      }
+    }
+  ]
+}

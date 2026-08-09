@@ -1,0 +1,167 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "pH Scale and its Importance",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Meaning of pH",
+      "definitionBean": {
+        "title": "Meaning of pH",
+        "definition": "The scale used to measure the concentration of hydrogen ions ($\\text{H}^+$) in a solution is called the 'pH scale', where 'p' stands for 'potenz' (power).",
+        "explanation": "Values on the pH scale range from 0 to 14. A value less than 7 indicates acidity, a value of 7 indicates neutrality (neutral solution like pure water), and a value greater than 7 indicates alkalinity.",
+        "importantPoints": [
+          "The range of pH scale is from 0 to 14",
+          "A solution is neutral when pH = 7",
+          "A solution is acidic when pH < 7",
+          "A solution is basic when pH > 7"
+        ],
+        "highlightWords": [
+          "pH scale",
+          "Hydrogen ion",
+          "Neutral",
+          "Acidic"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Importance of pH",
+      "definitionBean": {
+        "title": "Importance of pH",
+        "definition": "Biological processes in our body, plants, and animals function only within a specific pH range (generally 7.0 to 7.8).",
+        "explanation": "Living organisms can survive only in a narrow pH range. When the pH value of rainwater drops below 5.6, it is called 'acid rain', which is harmful to aquatic life.",
+        "importantPoints": [
+          "Human body functions within a pH range of 7.0 to 7.8",
+          "Acid rain has a pH value of less than 5.6",
+          "Proper pH is essential for the survival of organisms"
+        ],
+        "highlightWords": [
+          "Importance of pH",
+          "Acid rain",
+          "Biological process"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - pH in Everyday Life",
+      "definitionBean": {
+        "title": "pH in Everyday Life",
+        "definition": "In our daily life, pH plays an important role in the digestive system, oral hygiene, plant soil, and self-defense (insect stings).",
+        "explanation": "Hydrochloric acid in the stomach aids digestion (antacids are used during indigestion), tooth decay starts when mouth pH falls below 5.5, and relief from a bee sting (which contains acid) is obtained using a base (baking soda).",
+        "importantPoints": [
+          "Acid in digestion: Formation of $\\text{HCl}$ in the stomach",
+          "Tooth decay: pH value falling below 5.5",
+          "Proper soil pH for plants",
+          "Effect and treatment of acid in insect stings"
+        ],
+        "highlightWords": [
+          "Everyday life",
+          "Tooth decay",
+          "Antacid",
+          "Sting"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Meaning and Scale of pH",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is the pH scale? How is it used to determine whether a solution is acidic or basic?",
+          "correct_answer": "A pH value below 7 is acidic and above 7 is basic.",
+          "imgUrl": "",
+          "explanation": "The scale used to measure the concentration of hydrogen ions in a solution is called the pH scale. If the pH value is 7, the solution is neutral; if it is less than 7, it is acidic; and if it is greater than 7, it is basic."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What are the pH conditions for a neutral solution and a strongly acidic solution?",
+            "correct_answer": "A neutral solution has a pH of 7, while a strong acid has a pH much lower than 7.",
+            "imgUrl": "",
+            "explanation": "A neutral solution has a pH value of exactly 7, whereas a strongly acidic solution has a pH value much lower than 7 (close to zero)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Importance of pH",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "What is acid rain? What is its effect on aquatic life?",
+          "correct_answer": "Acid rain occurs when rainwater pH drops below 5.6, harming aquatic organisms.",
+          "imgUrl": "",
+          "explanation": "When the pH value of rainwater drops below 5.6, it is called acid rain. When this water mixes with rivers, the pH value of the river water decreases, making survival difficult for aquatic life."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "What should be the pH of soil for the healthy growth of plants?",
+            "correct_answer": "The soil pH should ideally be between 6.5 and 7.0.",
+            "imgUrl": "",
+            "explanation": "For good crop yield and plant development, it is necessary for the soil pH value to be within a specific range (roughly between 6.5 and 7.0)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: pH in Everyday Life",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "What is the role of pH in our stomach? Why are antacids used during indigestion?",
+          "correct_answer": "Antacids neutralize excess acid.",
+          "imgUrl": "",
+          "explanation": "Hydrochloric acid ($\\text{HCl}$) is produced in our stomach which aids in food digestion. During indigestion, excess acid is produced in the stomach, causing pain and irritation. To remedy this, a weak base (antacid) like magnesium hydroxide is used to neutralize the acid."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "At what mouth pH does tooth decay start? How can it be prevented?",
+            "correct_answer": "Decay starts when pH falls below 5.5, which can be prevented using alkaline toothpaste.",
+            "imgUrl": "",
+            "explanation": "Tooth decay begins when the pH inside the mouth falls below 5.5, causing tooth enamel to corrode. To prevent this, teeth should be cleaned after meals and alkaline toothpaste should be used."
+          }
+        ]
+      }
+    }
+  ]
+}

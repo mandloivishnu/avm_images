@@ -1,0 +1,168 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Chemical Equations",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Chemical Equation",
+      "definitionBean": {
+        "title": "Chemical Equation",
+        "definition": "Representing a chemical reaction in a concise form using symbols and chemical formulas is called a 'chemical equation'.",
+        "explanation": "Using chemical symbols and formulas of substances instead of words makes equations more concise and useful. Reactants are written on the left and products on the right.",
+        "importantPoints": [
+          "Use of symbols for reactants and products",
+          "Balancing the equation to obey the law of conservation of mass",
+          "Indicating physical states of reactions"
+        ],
+        "highlightWords": [
+          "Chemical equation",
+          "Symbol",
+          "Formula",
+          "Balanced"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Word Equation and Chemical Formula",
+      "definitionBean": {
+        "title": "Word Equation and Chemical Formula",
+        "definition": "When a chemical reaction is written using the names (words) of substances, it is a word equation, and representing it through chemical formulas is a chemical formula.",
+        "explanation": "A word equation is the initial stage of understanding a reaction. Chemical formulas denote the composition of a compound using the symbols of its elements.",
+        "importantPoints": [
+          "Word equation: Writing names of reactants and products",
+          "Chemical formula: Notations based on symbols and valencies of elements",
+          "Symbolic representation is more scientific and concise"
+        ],
+        "highlightWords": [
+          "Word equation",
+          "Chemical formula",
+          "Symbol",
+          "Valency"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Writing Chemical Equations and State Symbols",
+      "definitionBean": {
+        "title": "Writing Chemical Equations and State Symbols",
+        "definition": "To make a chemical equation more informative, physical state symbols are written alongside the reactants and products.",
+        "explanation": "Symbols like (s) for solid, (l) for liquid, (g) for gas, and (aq) for aqueous solution are used.",
+        "importantPoints": [
+          "(s) = Solid state",
+          "(l) = Liquid state",
+          "(g) = Gaseous state",
+          "(aq) = Aqueous solution"
+        ],
+        "highlightWords": [
+          "State symbol",
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Aqueous"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Chemical Equation and Word Equation",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is a chemical equation? Why is it more useful than a word equation?",
+          "correct_answer": "A chemical equation is a concise representation using symbols and formulas that is more informative.",
+          "imgUrl": "",
+          "explanation": "A chemical equation is a concise representation of a chemical reaction using symbols and formulas. It is more useful than a word equation because it saves space, is universally understood, and reveals the exact quantities or numbers of reactants and products."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What is a word equation? Explain with an example.",
+            "correct_answer": "An equation expressed in words is called a word equation.",
+            "imgUrl": "",
+            "explanation": "When a chemical reaction is expressed in terms of the names of the substances participating in it, it is called a word equation. For example: Zinc + Sulfuric acid $\\rightarrow$ Zinc sulfate + Hydrogen."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Writing Chemical Equations and Formulas",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "What are the main steps in writing a chemical equation? Write briefly.",
+          "correct_answer": "Writing reactants and products on left and right using formulas and an arrow.",
+          "imgUrl": "",
+          "explanation": "Steps for writing a chemical equation: 1. Write reactants on the left side with a (+) sign between them. 2. Write products on the right side with a (+) sign between them. 3. Place an arrow sign ($\\rightarrow$) between reactants and products to indicate the direction of the reaction."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "What is the importance of a chemical formula? Explain.",
+            "correct_answer": "A chemical formula gives precise information on atom counts and symbols.",
+            "imgUrl": "",
+            "explanation": "A chemical formula gives precise information about the number of atoms of different elements present in one molecule of a compound and their symbols, making it easier to write and understand chemical equations."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Physical State Symbols",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "What do the symbols indicating physical states (s, l, g, aq) mean in a chemical equation? Explain with examples.",
+          "correct_answer": "(s) solid, (l) liquid, (g) gas, and (aq) aqueous solution.",
+          "imgUrl": "",
+          "explanation": "To make chemical equations more informative, physical states are added: (s) for solid, (l) for liquid, (g) for gas, and (aq) for aqueous solution. Example: $\\text{CaO(s)} + \\text{H}_2\\text{O(l)} \\rightarrow \\text{Ca(OH)}_2\\text{(aq)}$"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "If a gas is evolved or a precipitate is formed in a chemical reaction, how is it represented in the equation?",
+            "correct_answer": "An upward arrow ($\\uparrow$) for gas and downward arrow ($\\downarrow$) for precipitate are used.",
+            "imgUrl": "",
+            "explanation": "In case a gas is evolved, an upward arrow ($\\uparrow$) or (g) is written next to the formula of the gas, and if a precipitate is formed, a downward arrow ($\\downarrow$) or (s) is written."
+          }
+        ]
+      }
+    }
+  ]
+}

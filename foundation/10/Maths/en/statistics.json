@@ -1,0 +1,210 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Statistics",
+    "totalMarks": "5",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Mean",
+        "definition": "The value obtained by dividing the sum of all values of data by the total number of terms is called the mean.",
+        "explanation": "For grouped data, the mean is calculated using the direct method, assumed mean method, or step-deviation method. Formula: Mean = Σfixi / Σfi, where fi is frequency and xi is the class mark (midpoint).",
+        "importantPoints": [
+          "Mean = Σfixi / Σfi",
+          "Three methods: Direct, Assumed Mean, Step-Deviation",
+          "xi = midpoint of the class interval"
+        ],
+        "highlightWords": [
+          "Mean",
+          "Frequency",
+          "Class mark"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Median",
+        "definition": "When data is arranged in ascending or descending order, the middle value is called the median.",
+        "explanation": "For grouped data, cumulative frequency is required to find the median. Formula: Median = l + [(n/2 - cf)/f] × h, where l is the lower limit of the median class.",
+        "importantPoints": [
+          "Formula: l + [(n/2 - cf)/f] × h",
+          "First, a cumulative frequency table must be constructed",
+          "The median class is identified using the value of n/2"
+        ],
+        "highlightWords": [
+          "Median",
+          "Cumulative frequency",
+          "Median class"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Mode",
+        "definition": "The value that occurs most frequently in the data is called the mode.",
+        "explanation": "For grouped data, mode formula: Mode = l + [(f1-f0)/(2f1-f0-f2)] × h, where f1 is the frequency of the modal class, f0 is the frequency of the preceding class, and f2 is the frequency of the succeeding class.",
+        "importantPoints": [
+          "Formula: l + [(f1-f0)/(2f1-f0-f2)] × h",
+          "The class with the highest frequency is called the 'modal class'",
+          "More than one mode is also possible (bimodal)"
+        ],
+        "highlightWords": [
+          "Mode",
+          "Modal class",
+          "Frequency"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Cumulative Frequency",
+        "definition": "The sequential sum of frequencies up to a certain class is called cumulative frequency.",
+        "explanation": "Cumulative frequency is of two types: 'less than type' and 'more than type'. It is used to find the median and draw ogives.",
+        "importantPoints": [
+          "Two types: Less than type, More than type",
+          "It is the basis for finding the median",
+          "Cumulative frequency is necessary to construct an ogive"
+        ],
+        "highlightWords": [
+          "Cumulative frequency",
+          "Less than type",
+          "More than type"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Ogive",
+        "definition": "A curve formed by plotting cumulative frequencies on a graph is called an ogive.",
+        "explanation": "There are two types of ogives: 'less than type' ogive (ascending curve) and 'more than type' ogive (descending curve). The x-coordinate of the intersection point of both ogives is equal to the median.",
+        "importantPoints": [
+          "Less than type ogive is ascending",
+          "More than type ogive is descending",
+          "The intersection point of both curves gives the median"
+        ],
+        "highlightWords": [
+          "Ogive",
+          "Ascending curve",
+          "Descending curve",
+          "Intersection point"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "The following distribution shows the daily pocket allowance of children in a locality. The mean pocket allowance is ₹ 18. Find the missing frequency f:\nClass interval: 11-13, 13-15, 15-17, 17-19, 19-21, 21-23, 23-25\nFrequency: 7, 6, 9, 13, f, 5, 4",
+          "correct_answer": "f = 20",
+          "imgUrl": "",
+          "explanation": "Table for finding mean by direct method:\n- Class (11-13), Mid-point (xi) = 12, Frequency (fi) = 7, fixi = 84\n- Class (13-15), xi = 14, fi = 6, fixi = 84\n- Class (15-17), xi = 16, fi = 9, fixi = 144\n- Class (17-19), xi = 18, fi = 13, fixi = 234\n- Class (19-21), xi = 20, fi = f, fixi = 20f\n- Class (21-23), xi = 22, fi = 5, fixi = 110\n- Class (23-25), xi = 24, fi = 4, fixi = 96\n\nTotal frequency Σfi = 7 + 6 + 9 + 13 + f + 5 + 4 = 44 + f\nΣfixi = 84 + 84 + 144 + 234 + 20f + 110 + 96 = 752 + 20f\n\nMean = Σfixi / Σfi\n18 = (752 + 20f) / (44 + f)\n18(44 + f) = 752 + 20f\n792 + 18f = 752 + 20f\n20f - 18f = 792 - 752\n2f = 40 => f = 20\nTherefore, the missing frequency f = 20."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "Find the mean of the given data:\nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50\nFrequency: 3, 10, 20, 5, 12",
+            "correct_answer": "Mean = 27.6",
+            "imgUrl": "",
+            "explanation": "By direct method:\n- 0-10: xi = 5, fi = 3, fixi = 15\n- 10-20: xi = 15, fi = 10, fixi = 150\n- 20-30: xi = 25, fi = 20, fixi = 500\n- 30-40: xi = 35, fi = 5, fixi = 175\n- 40-50: xi = 45, fi = 12, fixi = 540\n\nΣfi = 3 + 10 + 20 + 5 + 12 = 50\nΣfixi = 15 + 150 + 500 + 175 + 540 = 1380\n\nMean = Σfixi / Σfi = 1380 / 50 = 27.6\nTherefore, the mean is 27.6."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "7_a",
+          "statement": "Find the median of the following data:\nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50\nFrequency: 5, 8, 20, 15, 7",
+          "correct_answer": "Median = 27.25",
+          "imgUrl": "",
+          "explanation": "Cumulative frequency (cf) table:\n- 0-10: f = 5, cf = 5\n- 10-20: f = 8, cf = 13\n- 20-30: f = 20, cf = 33\n- 30-40: f = 15, cf = 48\n- 40-50: f = 7, cf = 55\n\nTotal sum n = 55\nn/2 = 55 / 2 = 27.5\n\nFrom the cumulative frequency table, the cumulative frequency just greater than 27.5 is 33, which corresponds to the class interval 20-30.\nThus, Median class = 20-30\nHere l = 20, cf = 13, f = 20, h = 10\n\nMedian = l + [(n/2 - cf) / f] × h\n= 20 + [(27.5 - 13) / 20] × 10\n= 20 + [14.5 / 20] × 10\n= 20 + 7.25 = 27.25\nTherefore, the median of the given table is 27.25."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "7_b",
+            "statement": "If the median of the distribution given below is 28.5, find the values of x and y:\nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60 (Total frequency = 60)\nFrequency: 5, x, 20, 15, y, 5",
+            "correct_answer": "x = 8, y = 7",
+            "imgUrl": "",
+            "explanation": "Cumulative frequency (cf):\n- 0-10: 5\n- 10-20: 5 + x\n- 20-30: 25 + x\n- 30-40: 40 + x\n- 40-50: 40 + x + y\n- 50-60: 45 + x + y\n\nTotal frequency n = 60\n45 + x + y = 60 => x + y = 15 --(Equation 1)\n\nMedian is 28.5, which lies in the class 20-30.\nThus, Median class = 20-30\nHere l = 20, cf = 5 + x, f = 20, h = 10, n/2 = 30\n\nMedian = l + [(n/2 - cf) / f] × h\n28.5 = 20 + [(30 - (5 + x)) / 20] × 10\n28.5 - 20 = (25 - x) / 2\n8.5 × 2 = 25 - x\n17 = 25 - x => x = 25 - 17 = 8\n\nSubstituting value of x in equation (1):\n8 + y = 15 => y = 7\nTherefore, x = 8 and y = 7."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "8_a",
+          "statement": "Find the mode of the following data:\nClass interval: 1-3, 3-5, 5-7, 7-9, 9-11\nFrequency: 7, 8, 2, 2, 1",
+          "correct_answer": "Mode = 3.28",
+          "imgUrl": "",
+          "explanation": "In the given data, the highest frequency is 8, which corresponds to the class interval 3-5.\nThus, Modal class = 3-5\nHere l = 3, f1 = 8, f0 = 7, f2 = 2, h = 2\n\nMode formula:\nMode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h\n= 3 + [(8 - 7) / (2(8) - 7 - 2)] × 2\n= 3 + [1 / (16 - 9)] × 2\n= 3 + (1 / 7) × 2\n= 3 + 2/7\n= 3 + 0.285 = 3.285 (approx 3.29)\nTherefore, the mode is 3.29."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "8_b",
+            "statement": "Find the mode of the following data:\nClass interval: 0-20, 20-40, 40-60, 60-80, 80-100, 100-120, 120-140\nFrequency: 6, 9, 10, 12, 6, 5, 3",
+            "correct_answer": "Mode = 65",
+            "imgUrl": "",
+            "explanation": "Maximum frequency is 12, whose class is 60-80.\nThus, Modal class = 60-80\nHere l = 60, f1 = 12, f0 = 10, f2 = 6, h = 20\n\nMode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h\n= 60 + [(12 - 10) / (2(12) - 10 - 6)] × 20\n= 60 + [2 / (24 - 16)] × 20\n= 60 + (2 / 8) × 20\n= 60 + (1 / 4) × 20\n= 60 + 5 = 65\nTherefore, the mode is 65."
+          }
+        ]
+      }
+    }
+  ]
+}

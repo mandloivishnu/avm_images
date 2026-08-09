@@ -1,0 +1,409 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Mathematics (Complete Syllabus - Quick Test)",
+    "totalMarks": "420",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Real Numbers",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*30=30",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Euclid's division algorithm is used to find:",
+          "options": [
+            { "index": "A", "text": "Sum of any two numbers" },
+            { "index": "B", "text": "HCF of two numbers" },
+            { "index": "C", "text": "Composite numbers" },
+            { "index": "D", "text": "Prime numbers" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "HCF of two numbers",
+          "explanation": "Euclid's division algorithm is a method to find HCF[cite: 8]."
+        },
+        {
+          "q_id": "2",
+          "statement": "HCF × LCM of two numbers = ?",
+          "options": [
+            { "index": "A", "text": "Sum of both numbers" },
+            { "index": "B", "text": "Difference of both numbers" },
+            { "index": "C", "text": "Product of both numbers" },
+            { "index": "D", "text": "Quotient of both numbers" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Product of both numbers",
+          "explanation": "HCF × LCM = Product of both numbers[cite: 8]."
+        },
+        {
+          "q_id": "3",
+          "statement": "In Euclid's division lemma a = bq + r, the condition for r is:",
+          "options": [
+            { "index": "A", "text": "0 ≤ r < b" },
+            { "index": "B", "text": "0 < r ≤ b" },
+            { "index": "C", "text": "r > b" },
+            { "index": "D", "text": "r = b" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "0 ≤ r < b",
+          "explanation": "The remainder is always less than the divisor and non-negative[cite: 8]."
+        },
+        {
+          "q_id": "4",
+          "statement": "According to the fundamental theorem of arithmetic, every composite number can be written as:",
+          "options": [
+            { "index": "A", "text": "Sum of prime numbers" },
+            { "index": "B", "text": "Product of prime factors" },
+            { "index": "C", "text": "Product of even numbers" },
+            { "index": "D", "text": "Sum of odd numbers" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Product of prime factors",
+          "explanation": "This is the fundamental theorem of arithmetic[cite: 8]."
+        },
+        {
+          "q_id": "5",
+          "statement": "√2 is:",
+          "options": [
+            { "index": "A", "text": "Rational number" },
+            { "index": "B", "text": "Integer" },
+            { "index": "C", "text": "Irrational number" },
+            { "index": "D", "text": "Natural number" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Irrational number",
+          "explanation": "√2 cannot be written in the form p/q[cite: 8]."
+        },
+        {
+          "q_id": "6",
+          "statement": "π is:",
+          "options": [
+            { "index": "A", "text": "Rational number" },
+            { "index": "B", "text": "Irrational number" },
+            { "index": "C", "text": "Integer" },
+            { "index": "D", "text": "Natural number" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Irrational number",
+          "explanation": "The decimal expansion of π is non-terminating non-repeating[cite: 8]."
+        },
+        {
+          "q_id": "7",
+          "statement": "HCF(6, 20) = ?",
+          "options": [
+            { "index": "A", "text": "1" },
+            { "index": "B", "text": "2" },
+            { "index": "C", "text": "4" },
+            { "index": "D", "text": "6" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "2",
+          "explanation": "The HCF of 6 and 20 is 2[cite: 8]."
+        },
+        {
+          "q_id": "8",
+          "statement": "LCM(6, 20) = ?",
+          "options": [
+            { "index": "A", "text": "30" },
+            { "index": "B", "text": "40" },
+            { "index": "C", "text": "60" },
+            { "index": "D", "text": "120" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "60",
+          "explanation": "The LCM of 6 and 20 is 60[cite: 8]."
+        },
+        {
+          "q_id": "9",
+          "statement": "If p is a prime number and p divides a², then:",
+          "options": [
+            { "index": "A", "text": "p does not divide a" },
+            { "index": "B", "text": "p also divides a" },
+            { "index": "C", "text": "a divides p" },
+            { "index": "D", "text": "a and p are unrelated" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "p also divides a",
+          "explanation": "This is an important property of prime numbers[cite: 8]."
+        },
+        {
+          "q_id": "10",
+          "statement": "The last digit of 2ⁿ (n≥1) can never be:",
+          "options": [
+            { "index": "A", "text": "2" },
+            { "index": "B", "text": "4" },
+            { "index": "C", "text": "0" },
+            { "index": "D", "text": "8" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "0",
+          "explanation": "Prime factorization of 2 does not contain 5[cite: 8]."
+        },
+        {
+          "q_id": "11",
+          "statement": "The decimal expansion of a rational number is:",
+          "options": [
+            { "index": "A", "text": "Always non-terminating non-repeating" },
+            { "index": "B", "text": "Terminating or non-terminating repeating" },
+            { "index": "C", "text": "Only terminating" },
+            { "index": "D", "text": "Only non-terminating repeating" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Terminating or non-terminating repeating",
+          "explanation": "Rational numbers have either terminating or non-terminating repeating decimal expansions[cite: 8]."
+        },
+        {
+          "q_id": "12",
+          "statement": "In the form p/q, if q = 2ᵐ × 5ⁿ, then the decimal expansion is:",
+          "options": [
+            { "index": "A", "text": "Non-terminating repeating" },
+            { "index": "B", "text": "Terminating" },
+            { "index": "C", "text": "Irrational" },
+            { "index": "D", "text": "Undefined" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Terminating",
+          "explanation": "Having only 2 and 5 in the denominator makes the decimal terminating[cite: 8]."
+        },
+        {
+          "q_id": "13",
+          "statement": "HCF(0, 5) = ?",
+          "options": [
+            { "index": "A", "text": "0" },
+            { "index": "B", "text": "1" },
+            { "index": "C", "text": "5" },
+            { "index": "D", "text": "Impossible" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "5",
+          "explanation": "The HCF of any number and 0 is the number itself[cite: 8]."
+        },
+        {
+          "q_id": "14",
+          "statement": "The HCF of two prime numbers is always:",
+          "options": [
+            { "index": "A", "text": "0" },
+            { "index": "B", "text": "1" },
+            { "index": "C", "text": "2" },
+            { "index": "D", "text": "The numbers themselves" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "1",
+          "explanation": "Prime numbers are divisible only by themselves and 1[cite: 8]."
+        },
+        {
+          "q_id": "15",
+          "statement": "Euclid's division algorithm applies to:",
+          "options": [
+            { "index": "A", "text": "Only negative integers" },
+            { "index": "B", "text": "Only positive integers" },
+            { "index": "C", "text": "Only fractions" },
+            { "index": "D", "text": "Only irrational numbers" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Only positive integers",
+          "explanation": "This algorithm is used for positive integers[cite: 8]."
+        },
+        {
+          "q_id": "16",
+          "statement": "Prime factorization of 140 is:",
+          "options": [
+            { "index": "A", "text": "2 × 5 × 7" },
+            { "index": "B", "text": "2² × 5 × 7" },
+            { "index": "C", "text": "2 × 5² × 7" },
+            { "index": "D", "text": "2² × 5 × 7²" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "2² × 5 × 7",
+          "explanation": "140 = 2 × 2 × 5 × 7 = 2² × 5 × 7[cite: 8]."
+        },
+        {
+          "q_id": "17",
+          "statement": "If HCF(a, b) = 1, then a and b are called:",
+          "options": [
+            { "index": "A", "text": "Co-prime" },
+            { "index": "B", "text": "Composite" },
+            { "index": "C", "text": "Prime" },
+            { "index": "D", "text": "Twin numbers" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Co-prime",
+          "explanation": "Numbers with an HCF of 1 are co-prime[cite: 8]."
+        },
+        {
+          "q_id": "18",
+          "statement": "LCM(4, 6) = ?",
+          "options": [
+            { "index": "A", "text": "10" },
+            { "index": "B", "text": "12" },
+            { "index": "C", "text": "24" },
+            { "index": "D", "text": "6" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "12",
+          "explanation": "The LCM of 4 and 6 is 12[cite: 8]."
+        },
+        {
+          "q_id": "19",
+          "statement": "Decimal expansion of 1/7 is:",
+          "options": [
+            { "index": "A", "text": "Terminating" },
+            { "index": "B", "text": "Non-terminating repeating" },
+            { "index": "C", "text": "Integer" },
+            { "index": "D", "text": "Undefined" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Non-terminating repeating",
+          "explanation": "Having 7 in the denominator makes it non-terminating repeating[cite: 8]."
+        },
+        {
+          "q_id": "20",
+          "statement": "Decimal expansion of 7/8 is:",
+          "options": [
+            { "index": "A", "text": "Terminating" },
+            { "index": "B", "text": "Non-terminating repeating" },
+            { "index": "C", "text": "Irrational" },
+            { "index": "D", "text": "Undefined" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Terminating",
+          "explanation": "8 = 2³, so the decimal expansion is terminating[cite: 8]."
+        },
+        {
+          "q_id": "21",
+          "statement": "A composite number is one that has factors:",
+          "options": [
+            { "index": "A", "text": "Only 1" },
+            { "index": "B", "text": "Only itself" },
+            { "index": "C", "text": "More than 2" },
+            { "index": "D", "text": "Only 2" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "More than 2",
+          "explanation": "A composite number has more than two factors[cite: 8]."
+        },
+        {
+          "q_id": "22",
+          "statement": "A prime number has factors:",
+          "options": [
+            { "index": "A", "text": "1" },
+            { "index": "B", "text": "2 (1 and itself)" },
+            { "index": "C", "text": "3" },
+            { "index": "D", "text": "Infinite" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "2 (1 and itself)",
+          "explanation": "A prime number is divisible only by 1 and itself[cite: 8]."
+        },
+        {
+          "q_id": "23",
+          "statement": "The smallest prime number is:",
+          "options": [
+            { "index": "A", "text": "0" },
+            { "index": "B", "text": "1" },
+            { "index": "C", "text": "2" },
+            { "index": "D", "text": "3" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "2",
+          "explanation": "2 is the smallest and only even prime number[cite: 8]."
+        },
+        {
+          "q_id": "24",
+          "statement": "The smallest composite number is:",
+          "options": [
+            { "index": "A", "text": "2" },
+            { "index": "B", "text": "3" },
+            { "index": "C", "text": "4" },
+            { "index": "D", "text": "6" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "4",
+          "explanation": "4 is the smallest composite number (factors 1, 2, 4)[cite: 8]."
+        },
+        {
+          "q_id": "25",
+          "statement": "HCF(18, 24) = ?",
+          "options": [
+            { "index": "A", "text": "3" },
+            { "index": "B", "text": "6" },
+            { "index": "C", "text": "9" },
+            { "index": "D", "text": "12" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "6",
+          "explanation": "The HCF of 18 and 24 is 6[cite: 8]."
+        },
+        {
+          "q_id": "26",
+          "statement": "Product of two numbers = HCF × LCM, this statement is:",
+          "options": [
+            { "index": "A", "text": "False" },
+            { "index": "B", "text": "True" },
+            { "index": "C", "text": "True only for prime numbers" },
+            { "index": "D", "text": "True only for even numbers" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "True",
+          "explanation": "This theorem holds true for all positive integers[cite: 8]."
+        },
+        {
+          "q_id": "27",
+          "statement": "The product of an irrational and a non-zero rational number is:",
+          "options": [
+            { "index": "A", "text": "Rational" },
+            { "index": "B", "text": "Irrational" },
+            { "index": "C", "text": "Integer" },
+            { "index": "D", "text": "0" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Irrational",
+          "explanation": "Product of non-zero rational and irrational is irrational[cite: 8]."
+        },
+        {
+          "q_id": "28",
+          "statement": "The sum of two irrational numbers:",
+          "options": [
+            { "index": "A", "text": "Is always irrational" },
+            { "index": "B", "text": "Is always rational" },
+            { "index": "C", "text": "Can be rational" },
+            { "index": "D", "text": "Is always 0" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Can be rational",
+          "explanation": "Example: √2 + (-√2) = 0, which is rational[cite: 8]."
+        },
+        {
+          "q_id": "29",
+          "statement": "In Euclid's division lemma a = bq + r, the condition for remainder is:",
+          "options": [
+            { "index": "A", "text": "0 ≤ r < b" },
+            { "index": "B", "text": "r > b" },
+            { "index": "C", "text": "r = 0 always" },
+            { "index": "D", "text": "r can be negative" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "0 ≤ r < b",
+          "explanation": "Remainder is less than divisor and non-negative[cite: 8]."
+        },
+        {
+          "q_id": "30",
+          "statement": "The most common method to find HCF is:",
+          "options": [
+            { "index": "A", "text": "Factorization method" },
+            { "index": "B", "text": "Euclid's division algorithm" },
+            { "index": "C", "text": "Division method" },
+            { "index": "D", "text": "Addition method" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Euclid's division algorithm",
+          "explanation": "Euclid's algorithm is the standard method to find HCF[cite: 8]."
+        }
+      ]
+    }
+  ]
+}

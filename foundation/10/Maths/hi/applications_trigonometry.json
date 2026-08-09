@@ -27,12 +27,12 @@
           "ऊँचाई",
           "दूरी"
         ],
-        "imgUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+        "imgUrl": "",
         "realLifeExamples": [
           {
             "title": "मीनार की ऊँचाई मापना",
             "example": "किसी मीनार के आधार से एक निश्चित दूरी पर खड़े होकर उन्नयन कोण मापकर उसकी ऊँचाई ज्ञात की जाती है।",
-            "imageUrl": "PLACEHOLDER_IMAGE_URL_REPLACE_ME",
+            "imageUrl": "",
             "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/minar_uchai.html"
           },
           {

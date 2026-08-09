@@ -1,0 +1,116 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Magnetic Effects of Electric Current",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Magnetic Field and Electric Motor",
+      "definitionBean": {
+        "title": "Magnetic Field and Electric Motor",
+        "definition": "The region surrounding a magnet where its magnetic force is experienced is called a 'magnetic field'; and a device that converts electrical energy into mechanical energy is an 'electric motor'[cite: 40].",
+        "explanation": "Magnetic field lines emerge from the north pole and merge into the south pole. An electric motor works on Fleming's left-hand rule, which gives the direction of force acting on a current-carrying conductor placed in a magnetic field[cite: 40].",
+        "importantPoints": [
+          "Magnetic field lines: Form closed loops and never intersect each other[cite: 40]",
+          "Fleming's Left-Hand Rule: Thumb (Force), Forefinger (Magnetic field), Middle finger (Current)[cite: 40]",
+          "Electric motor: Converts electrical energy into mechanical energy[cite: 40]",
+          "Electric Generator: Converts mechanical energy into electrical energy[cite: 40]"
+        ],
+        "highlightWords": [
+          "Magnetic field",
+          "Electric motor",
+          "Fleming's rule",
+          "Electric generator"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Domestic Electric Circuits",
+      "definitionBean": {
+        "title": "Domestic Electric Circuits",
+        "definition": "Electricity supply in our homes is mainly distributed in parallel via three wires (live, neutral, and earth wires)[cite: 40].",
+        "explanation": "A 'fuse' is used in domestic circuits for safety against overloading and short circuiting, which melts and breaks the circuit when excessive current flows[cite: 40].",
+        "importantPoints": [
+          "Live Wire: Red colored, high potential[cite: 40]",
+          "Neutral Wire: Black colored[cite: 40]",
+          "Earth Wire: Green colored, for safety[cite: 40]",
+          "Fuse wire: Alloy wire with low melting point (safety device)[cite: 40]"
+        ],
+        "highlightWords": [
+          "Domestic circuit",
+          "Fuse wire",
+          "Overloading",
+          "Short circuiting"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Magnetic Field and Motor",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "Write any two properties of magnetic field lines. What is Fleming's left-hand rule[cite: 40]?",
+          "correct_answer": "Magnetic field lines go from north to south and do not intersect; Fleming's rule gives the direction of force[cite: 40].",
+          "imgUrl": "",
+          "explanation": "Properties of magnetic field lines: 1. They always emerge from the north pole of a magnet and enter the south pole. 2. Two field lines never intersect each other. Fleming's Left-Hand Rule: Stretch the thumb, forefinger, and middle finger of your left hand such that they are mutually perpendicular; if the forefinger points in the direction of the magnetic field and the middle finger in the direction of current, then the thumb will point in the direction of motion or force acting on the conductor[cite: 40]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "On what principle does an electric motor work? Write its main application[cite: 40].",
+            "correct_answer": "An electric motor works on the principle of force on a current-carrying conductor in a magnetic field[cite: 40].",
+            "imgUrl": "",
+            "explanation": "An electric motor works on the principle that when a current-carrying conductor is placed in a magnetic field, it experiences a force that causes it to rotate. It is used in fans, coolers, washing machines, etc.[cite: 40]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Domestic Electric Circuits",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is the difference between short circuiting and overloading? What is the use of a fuse[cite: 40]?",
+          "correct_answer": "Short circuit happens via contact of live-neutral wires, overloading happens via too many appliances; fuse ensures safety[cite: 40].",
+          "imgUrl": "",
+          "explanation": "Short circuiting occurs when live and neutral wires come into direct contact, causing excessive current flow; overloading happens when too many appliances are connected to a single socket. A fuse is a safety device that melts to break the circuit when excessive current flows[cite: 40]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What is the importance of the earth wire in domestic electric circuits[cite: 40]?",
+            "correct_answer": "The earth wire provides safety by sending any leakage current from the metal casing into the ground[cite: 40].",
+            "imgUrl": "",
+            "explanation": "The earth wire is primarily used as a safety measure. If current leaks onto the metallic body of an appliance, this wire safely carries the charge into the ground, preventing the user from receiving an electric shock[cite: 40]."
+          }
+        ]
+      }
+    }
+  ]
+}

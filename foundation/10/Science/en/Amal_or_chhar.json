@@ -1,0 +1,168 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Acids and Bases",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Properties of Acids",
+      "definitionBean": {
+        "title": "Properties of Acids",
+        "definition": "Substances that are sour in taste and turn blue litmus paper red are called 'acids'. They produce hydrogen ions ($\\text{H}^+$) in aqueous solution[cite: 12].",
+        "explanation": "Acids are corrosive in nature and liberate hydrogen gas upon reacting with metals[cite: 12]. Their pH value is less than 7[cite: 12].",
+        "importantPoints": [
+          "Sour in taste[cite: 12]",
+          "Turn blue litmus red[cite: 12]",
+          "Give $\\text{H}^+$ ions in aqueous solution[cite: 12]",
+          "Produce hydrogen gas on reacting with metals[cite: 12]"
+        ],
+        "highlightWords": [
+          "Acid",
+          "Blue litmus",
+          "Hydrogen ion",
+          "Sour"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Properties of Bases",
+      "definitionBean": {
+        "title": "Properties of Bases",
+        "definition": "Substances that are bitter in taste, feel soapy to touch, and turn red litmus blue are called 'bases'[cite: 12].",
+        "explanation": "Bases produce hydroxide ions ($\\text{OH}^-$) in aqueous solution[cite: 12]. Bases soluble in water are called 'alkalis'[cite: 12]. Their pH value is greater than 7[cite: 12].",
+        "importantPoints": [
+          "Bitter and astringent in taste[cite: 12]",
+          "Turn red litmus blue[cite: 12]",
+          "Give $\\text{OH}^-$ ions in aqueous solution[cite: 12]",
+          "Feel soapy when touched[cite: 12]"
+        ],
+        "highlightWords": [
+          "Base",
+          "Red litmus",
+          "Hydroxide ion",
+          "Bitter"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Indicators",
+      "definitionBean": {
+        "title": "Indicators",
+        "definition": "Substances that change their color or odor in acidic or basic media are called 'indicators'[cite: 12].",
+        "explanation": "Indicators help identify whether a substance is acidic or basic[cite: 12]. They are of both types: natural (like litmus, turmeric) and synthetic (like phenolphthalein, methyl orange)[cite: 12].",
+        "importantPoints": [
+          "Natural indicators: Litmus, turmeric, red cabbage[cite: 12]",
+          "Synthetic indicators: Phenolphthalein, methyl orange[cite: 12]",
+          "Olfactory indicators: Onion, vanilla, clove oil[cite: 12]"
+        ],
+        "highlightWords": [
+          "Indicator",
+          "Litmus",
+          "Color change",
+          "Olfactory indicator"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Properties of Acids",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is an acid? Write any three major physical and chemical properties of acids[cite: 12].",
+          "correct_answer": "Acids are sour and give H+ ions[cite: 12].",
+          "imgUrl": "",
+          "explanation": "Acids are substances that are sour in taste and give hydrogen ions ($\\text{H}^+$) in aqueous solution[cite: 12]. Major properties: 1. They turn blue litmus paper red[cite: 12]. 2. Their pH value is less than 7[cite: 12]. 3. They react with metals to liberate hydrogen gas[cite: 12]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What is the difference between a strong acid and a weak acid? Give one example of each[cite: 12].",
+            "correct_answer": "Strong acid (HCl), weak acid (CH3COOH)[cite: 12].",
+            "imgUrl": "",
+            "explanation": "Acids that ionize completely in aqueous solution to give a large amount of $\\text{H}^+$ ions are called strong acids (e.g., $\\text{HCl}$)[cite: 12]; whereas those that ionize partially are called weak acids (e.g., $\\text{CH}_3\\text{COOH}$)[cite: 12]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Properties of Bases",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Write the major properties of bases and state their effect on litmus paper[cite: 12].",
+          "correct_answer": "Bases turn red litmus blue[cite: 12].",
+          "imgUrl": "",
+          "explanation": "Properties of bases: 1. They are bitter in taste[cite: 12]. 2. They feel soapy to touch[cite: 12]. 3. Their aqueous solution gives hydroxide ions ($\\text{OH}^-$)[cite: 12]. They turn red litmus paper blue and have a pH value greater than 7[cite: 12]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "What is the difference between a base and an alkali? Explain[cite: 12].",
+            "correct_answer": "Water-soluble bases are called alkalis[cite: 12].",
+            "imgUrl": "",
+            "explanation": "Not all bases are soluble in water, but those bases that are completely soluble in water are called 'alkalis'[cite: 12]. Therefore, all alkalis are bases, but all bases are not alkalis[cite: 12]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Indicators",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "What are indicators? Give two examples each of natural and synthetic indicators[cite: 12].",
+          "correct_answer": "Litmus, turmeric, phenolphthalein, methyl orange[cite: 12].",
+          "imgUrl": "",
+          "explanation": "Indicators are substances that show the acidic or basic nature of a solution by a change in their color or odor[cite: 12]. Natural indicators: Litmus and turmeric[cite: 12]. Synthetic indicators: Phenolphthalein and methyl orange[cite: 12]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "What are olfactory indicators? Explain with examples[cite: 12].",
+            "correct_answer": "Onion juice, vanilla[cite: 12].",
+            "imgUrl": "",
+            "explanation": "Substances whose odor changes in acidic or basic media are called olfactory indicators[cite: 12]. For example, onion juice or vanilla extract, which are used to identify acidic or basic nature[cite: 12]."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Real Numbers",
+    "totalMarks": "4",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Euclid's Division Lemma",
+        "definition": "Given positive integers a and b (b>0), there exist unique integers q and r satisfying a = bq + r, where 0 ≤ r < b.",
+        "explanation": "Euclid's division lemma is the mathematical basis for the division process of any number. Its main use is to find the HCF (Highest Common Factor) of two numbers, called Euclid's algorithm. In this, the larger number is divided by the smaller number, and the process is repeated with the remainder until the remainder becomes zero. The last divisor is the HCF.",
+        "importantPoints": [
+          "Written in the form a = bq + r",
+          "Must always satisfy 0 ≤ r < b",
+          "Applies only to positive integers",
+          "Euclid's algorithm for finding HCF is based on this",
+          "The process stops when the remainder is zero"
+        ],
+        "highlightWords": [
+          "Euclid",
+          "Division Lemma",
+          "Divisor",
+          "Remainder",
+          "HCF"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "HCF and LCM (Highest Common Factor and Lowest Common Multiple)",
+        "definition": "The HCF of two or more numbers is the largest number that divides each of them exactly, and LCM is the smallest number that is divisible by all numbers.",
+        "explanation": "To find HCF and LCM, numbers are broken down into prime factors. For HCF, the lowest power of common prime factors is taken, and for LCM, the highest power of all prime factors is taken. An important formula for two numbers is: Product of two numbers = HCF × LCM.",
+        "importantPoints": [
+          "HCF × LCM = Product of the two numbers",
+          "HCF is always less than or equal to the numbers",
+          "LCM is always greater than or equal to the numbers",
+          "Prime factorization method is the simplest way",
+          "HCF is formed by common factors, LCM by all factors"
+        ],
+        "highlightWords": [
+          "HCF",
+          "LCM",
+          "Prime factorization",
+          "Product"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Fundamental Theorem of Arithmetic",
+        "definition": "Every composite number can be expressed as a product of primes, and this factorization is unique, apart from the order in which the prime factors occur.",
+        "explanation": "This theorem states that the prime factorization of every number is unique in one way, regardless of the order in which the factors are written. Based on this theorem, HCF and LCM are found, and it is also proved that numbers like √2 are irrational.",
+        "importantPoints": [
+          "Every composite number can be written as a product of prime numbers",
+          "This factorization is unique except for the order",
+          "It is used in proving irrational numbers",
+          "This theorem is the basis for finding HCF and LCM"
+        ],
+        "highlightWords": [
+          "Prime factors",
+          "Unique",
+          "Composite number",
+          "Irrational number"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Decimal Expansion of Rational Numbers",
+        "definition": "If a rational number of the form p/q has prime factorization of q only in the form of powers of 2 and 5, its decimal expansion is terminating, otherwise it is non-terminating repeating.",
+        "explanation": "The nature of the decimal expansion of any rational number p/q (where p, q are co-prime) depends on the prime factors of the denominator (q). If q is in the form of 2^m × 5^n, the expansion will be terminating, otherwise non-terminating repeating.",
+        "importantPoints": [
+          "Decimal is terminating when q = 2^m × 5^n",
+          "Decimal is non-terminating repeating if there are other prime factors",
+          "p and q must be co-prime",
+          "Example: 1/8 = 0.125 (terminating), 1/3 = 0.333... (non-terminating repeating)"
+        ],
+        "highlightWords": [
+          "Decimal expansion",
+          "Terminating",
+          "Non-terminating repeating",
+          "Co-prime"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Find the HCF and LCM of 6, 72 and 120 using the prime factorization method.",
+          "correct_answer": "HCF = 6, LCM = 360",
+          "imgUrl": "",
+          "explanation": "Prime factorization of given numbers:\n6 = 2 × 3\n72 = 2³ × 3²\n120 = 2³ × 3 × 5\n\nHCF = Product of the smallest power of each common prime factor\nHCF = 2¹ × 3¹ = 6\n\nLCM = Product of the greatest power of each prime factor involved in the numbers\nLCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360\n\nTherefore, HCF = 6 and LCM = 360."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Given that HCF(306, 657) = 9, find LCM.",
+            "correct_answer": "LCM = 22338",
+            "imgUrl": "",
+            "explanation": "We know that for two numbers:\nHCF × LCM = Product of the two numbers\n9 × LCM = 306 × 657\n\nLCM = (306 × 657) / 9\nLCM = 34 × 657\nLCM = 22338\n\nTherefore, LCM = 22338."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "Prove that √3 is an irrational number.",
+          "correct_answer": "Proven",
+          "imgUrl": "",
+            "explanation": "Let us assume that √3 is a rational number.\nTherefore, we can find co-prime integers a and b (b ≠ 0) such that:\n√3 = a / b\n√3b = a\n\nSquaring both sides:\n3b² = a²  --(Equation 1)\nThis means that a² is divisible by 3, so a is also divisible by 3.\n\nThus, we can write a = 3c (where c is an integer).\nSubstituting this value of a in equation (1):\n3b² = (3c)²\n3b² = 9c²\nb² = 3c²\nThis means that b² is divisible by 3, so b is also divisible by 3.\n\nThus, both a and b have at least 3 as a common factor, which contradicts the fact that a and b are co-prime.\nTherefore, our assumption was wrong that √3 is rational. Hence, √3 is an irrational number."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "Prove that 3 + 2√5 is an irrational number.",
+            "correct_answer": "Proven",
+            "imgUrl": "",
+            "explanation": "Let us assume that 3 + 2√5 is a rational number.\nTherefore, there exist co-prime integers a and b (b ≠ 0) such that:\n3 + 2√5 = a / b\n\nRearranging:\n2√5 = (a / b) - 3\n2√5 = (a - 3b) / b\n√5 = (a - 3b) / 2b\n\nSince a and b are integers, (a - 3b) / 2b will be a rational number, which means that √5 should also be a rational number.\nHowever, we know that √5 is an irrational number. This contradiction has arisen due to our incorrect assumption.\nTherefore, 3 + 2√5 is an irrational number."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "7_a",
+          "statement": "Without actually performing the long division, state whether the rational number 13/3125 has a terminating or non-terminating repeating decimal expansion.",
+          "correct_answer": "Terminating decimal expansion",
+          "imgUrl": "",
+          "explanation": "Given rational number = 13 / 3125\nFinding prime factors of denominator q = 3125:\n3125 = 5 × 5 × 5 × 5 × 5 = 5⁵\n\nIt can be written in the form 2^m × 5^n:\n3125 = 2⁰ × 5⁵\n\nSince the prime factors of the denominator are only powers of 5 (i.e., there are no prime factors other than 2 and 5), the decimal expansion of this rational number is terminating."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "7_b",
+            "statement": "Check whether 6^n can end with the digit 0 for any natural number n.",
+            "correct_answer": "Not possible",
+            "imgUrl": "",
+            "explanation": "If any number were to end with the digit 0, it would be divisible by 5, meaning that its prime factorization must contain the prime 5.\n\nPrime factors of 6^n:\n6^n = (2 × 3)^n = 2^n × 3^n\n\nHere the prime factors are only 2 and 3. According to the Fundamental Theorem of Arithmetic, this factorization is unique. The prime number 5 is not present.\nTherefore, for any natural number n, 6^n cannot have 5 as a prime factor, making it clear that 6^n can never end with the digit 0."
+          }
+        ]
+      }
+    }
+  ]
+}

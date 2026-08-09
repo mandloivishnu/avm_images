@@ -1,0 +1,116 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Polynomials",
+    "totalMarks": "2",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Relationship between Zeros and Coefficients",
+        "definition": "The zeros of a polynomial are the values for which the value of the polynomial becomes zero, and they have a definite relationship with the coefficients.",
+        "explanation": "For a quadratic polynomial ax² + bx + c, if α and β are the zeros, then: Sum of zeros α + β = -b/a and Product of zeros αβ = c/a. Similar formulas exist between zeros and coefficients for cubic polynomials as well.",
+        "importantPoints": [
+          "α + β = -b/a (Sum of zeros)",
+          "αβ = c/a (Product of zeros)",
+          "This relationship is also used to form a polynomial: x² - (α + β)x + αβ",
+          "There are three relationships in a cubic polynomial (sum, sum of product of zeros taken two at a time, product)"
+        ],
+        "highlightWords": [
+          "Zeros",
+          "Coefficients",
+          "Sum",
+          "Product"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Quadratic Polynomials",
+        "definition": "A polynomial of degree 2 is called a quadratic polynomial. General form: p(x) = ax² + bx + c, where a ≠ 0.",
+        "explanation": "The graph of a quadratic polynomial is always a parabola. Its graph can intersect the x-axis at a maximum of two points, which are its zeros. The shape of the parabola opens upwards or downwards depending on whether 'a' is positive or negative.",
+        "importantPoints": [
+          "General form: ax² + bx + c (a ≠ 0)",
+          "Graph is a parabola",
+          "Intersects the x-axis at a maximum of 2 points",
+          "Opens upwards if a > 0, and downwards if a < 0"
+        ],
+        "highlightWords": [
+          "Quadratic Polynomial",
+          "Parabola",
+          "Zeros",
+          "Graph"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "Find the zeros of the quadratic polynomial x² - 2x - 8 and verify the relationship between the zeros and the coefficients.",
+          "correct_answer": "Zeros: 4 and -2",
+          "imgUrl": "",
+          "explanation": "Polynomial p(x) = x² - 2x - 8\nSplitting the middle term:\nx² - 4x + 2x - 8 = 0\nx(x - 4) + 2(x - 4) = 0\n(x - 4)(x + 2) = 0\nTherefore, x = 4 or x = -2 (Zeros α = 4, β = -2)\n\nVerification:\n1) Sum of zeros: α + β = 4 + (-2) = 2\nFrom formula (-b/a) = -(-2)/1 = 2 (Verified)\n\n2) Product of zeros: αβ = 4 × (-2) = -8\nFrom formula (c/a) = -8/1 = -8 (Verified)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "Find a quadratic polynomial with the given numbers as the sum and product of its zeros respectively -3 and 2.",
+            "correct_answer": "x² + 3x + 2",
+            "imgUrl": "",
+            "explanation": "Let the zeros of the quadratic polynomial be α and β.\nGiven:\nSum of zeros (α + β) = -3\nProduct of zeros (αβ) = 2\n\nFormula for quadratic polynomial:\np(x) = x² - (α + β)x + αβ\np(x) = x² - (-3)x + 2\np(x) = x² + 3x + 2\n\nTherefore, the required quadratic polynomial is x² + 3x + 2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "Find the zeros of the quadratic polynomial 4s² - 4s + 1 and verify the relationship between the zeros and the coefficients.",
+          "correct_answer": "Zeros: 1/2 and 1/2",
+          "imgUrl": "",
+          "explanation": "Polynomial p(s) = 4s² - 4s + 1\n4s² - 2s - 2s + 1 = 0\n2s(2s - 1) - 1(2s - 1) = 0\n(2s - 1)(2s - 1) = 0\nTherefore, s = 1/2, 1/2\n\nVerification:\nSum = 1/2 + 1/2 = 1, and -b/a = -(-4)/4 = 1\nProduct = (1/2) × (1/2) = 1/4, and c/a = 1/4"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Find the zeros of the polynomial 3x² - x - 4 and verify the relationship between the zeros and the coefficients.",
+            "correct_answer": "Zeros: 4/3 and -1",
+            "imgUrl": "",
+            "explanation": "Polynomial p(x) = 3x² - x - 4\n3x² - 4x + 3x - 4 = 0\nx(3x - 4) + 1(3x - 4) = 0\n(3x - 4)(x + 1) = 0\nTherefore, x = 4/3 or x = -1\n\nVerification:\nSum = 4/3 + (-1) = 1/3, and -b/a = -(-1)/3 = 1/3\nProduct = (4/3) × (-1) = -4/3, and c/a = -4/3"
+          }
+        ]
+      }
+    }
+  ]
+}

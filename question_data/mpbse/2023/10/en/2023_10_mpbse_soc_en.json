@@ -1,0 +1,858 @@
+{
+  "paper_details": {
+    "paperYear": "2023",
+    "subjectName": "SOCIAL SCIENCE",
+    "totalMarks": "75",
+    "board": "Board of Secondary Education, Madhya Pradesh",
+    "setName": "Set A",
+    "totalQuestions": "23",
+    "time": "3 Hours",
+    "language": "English Medium",
+    "rollCode": "300/J-511"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Which of the following statements is NOT an argument given in favor of multipurpose river projects?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Multipurpose projects bring water to those areas which suffer from water scarcity."
+            },
+            {
+              "index": "b",
+              "text": "Multipurpose projects control floods by regulating water flow."
+            },
+            {
+              "index": "c",
+              "text": "Multipurpose projects lead to large-scale displacement and loss of livelihood."
+            },
+            {
+              "index": "d",
+              "text": "Multipurpose projects generate electricity for our industries and homes."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Multipurpose projects lead to large-scale displacement and loss of livelihood.",
+          "explanation": "Correct option is (c).\n\nReason:\nLarge-scale displacement and loss of livelihood are negative impacts and arguments against multipurpose river projects, not in their favor."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which of the following is a leguminous crop?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Pulses"
+            },
+            {
+              "index": "b",
+              "text": "Jowar"
+            },
+            {
+              "index": "c",
+              "text": "Millets"
+            },
+            {
+              "index": "d",
+              "text": "Oilseeds"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Pulses",
+          "explanation": "Correct option is (a).\n\nReason:\nPulses such as tur (arhar), urad, mung, masoor, and peas are leguminous crops that fix atmospheric nitrogen and enhance natural soil fertility."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which of the following industries manufactures telephones, computers, etc.?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Steel"
+            },
+            {
+              "index": "b",
+              "text": "Electronic"
+            },
+            {
+              "index": "c",
+              "text": "Aluminum Smelting"
+            },
+            {
+              "index": "d",
+              "text": "Information Technology"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Electronic",
+          "explanation": "Correct option is (b).\n\nReason:\nThe electronic industry produces televisions, transistors, computers, telephones, and other electronic equipment and hardware."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which state is NOT connected by the Hazira-Vijaipur-Jagdishpur pipeline?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Madhya Pradesh"
+            },
+            {
+              "index": "b",
+              "text": "Maharashtra"
+            },
+            {
+              "index": "c",
+              "text": "Gujarat"
+            },
+            {
+              "index": "d",
+              "text": "Uttar Pradesh"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Maharashtra",
+          "explanation": "Correct option is (b).\n\nReason:\nThe HVJ (Hazira-Vijaipur-Jagdishpur) natural gas pipeline connects various fertilizer and power plants in Gujarat, Madhya Pradesh, and Uttar Pradesh. Maharashtra is not included in this route."
+        },
+        {
+          "q_id": "v",
+          "statement": "Napoleon invaded Italy in:",
+          "options": [
+            {
+              "index": "a",
+              "text": "1797"
+            },
+            {
+              "index": "b",
+              "text": "1798"
+            },
+            {
+              "index": "c",
+              "text": "1799"
+            },
+            {
+              "index": "d",
+              "text": "1796"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "1796",
+          "explanation": "Correct option is (d).\n\nReason:\nFrench general Napoleon Bonaparte invaded Italy in 1796 during his campaign against the Austrian army, marking the beginning of the Napoleonic Wars."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The Gandhi-Irwin Pact was signed on:",
+          "options": [
+            {
+              "index": "a",
+              "text": "5 March 1931"
+            },
+            {
+              "index": "b",
+              "text": "4 March 1932"
+            },
+            {
+              "index": "c",
+              "text": "3 March 1930"
+            },
+            {
+              "index": "d",
+              "text": "2 March 1933"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "5 March 1931",
+          "explanation": "Correct option is (a).\n\nReason:\nA political agreement (Gandhi-Irwin Pact) was signed between Mahatma Gandhi and the then Viceroy Lord Irwin on March 5, 1931, under which Mahatma Gandhi suspended the Civil Disobedience Movement and agreed to participate in the Round Table Conference."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "A fast-spreading disease called {BLANK} spread rapidly among cattle in Africa in the 1890s.",
+          "correct_answer": "Rinderpest",
+          "explanation": "Answer: Rinderpest\n\nReason: In the late 1890s, a devastating cattle plague known as 'Rinderpest' spread rapidly across the African continent."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Average income is also known as {BLANK} income.",
+          "correct_answer": "per capita",
+          "explanation": "Answer: Per capita\n\nReason: The average amount obtained by dividing a country's total income by its total population is called 'per capita income'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The tertiary sector is also called the {BLANK}.",
+          "correct_answer": "service sector",
+          "explanation": "Answer: Service sector\n\nReason: The tertiary sector does not directly produce physical goods, but provides various services (such as banking, transport, trade) for society, hence it is called the 'service sector'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Banks charge a higher interest rate on loans than what they offer on {BLANK}.",
+          "correct_answer": "deposits",
+          "explanation": "Answer: Deposits\n\nReason: Banks pay a lower interest rate to depositors on their 'deposits' while charging a higher interest rate on loans given to borrowers. This is the main source of bank income."
+        },
+        {
+          "q_id": "v",
+          "statement": "Large companies are called {BLANK}.",
+          "correct_answer": "multinational corporations",
+          "explanation": "Answer: Multinational corporations\n\nReason: Commercial enterprises that own or control production facilities, offices, and assets in more than one nation are called multinational corporations (MNCs)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The worship of {BLANK} is an age-old tribal belief.",
+          "correct_answer": "trees/nature/forests",
+          "explanation": "Answer: Trees/nature/forests\n\nReason: Worshipping various components of nature, sacred groves, and specific trees has been an age-old tradition and deep-rooted cultural belief among Indian tribal societies."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the correct pairs:",
+      "columns": {
+        "column_A_title": "A",
+        "column_B_title": "B",
+        "pairs": [
+          {
+            "a_item": "(1) Automobile industry",
+            "b_item": "Gurugram",
+            "correct_match_index": "6",
+            "explanation": "Gurugram (Haryana) is a major center for automobile manufacturing in India."
+          },
+          {
+            "a_item": "(2) Artificial port",
+            "b_item": "Chennai",
+            "correct_match_index": "5",
+            "explanation": "Chennai port is one of the principal artificial (man-made) ports of India."
+          },
+          {
+            "a_item": "(3) Defeat of Napoleon",
+            "b_item": "1815",
+            "correct_match_index": "4",
+            "explanation": "Napoleon was defeated in the Battle of Waterloo in the year 1815."
+          },
+          {
+            "a_item": "(4) Rowlatt Act",
+            "b_item": "1919",
+            "correct_match_index": "3",
+            "explanation": "The Rowlatt Act was passed in March 1919, giving enormous powers to the British to repress political activities."
+          },
+          {
+            "a_item": "(5) James Watt",
+            "b_item": "Steam engine",
+            "correct_match_index": "2",
+            "explanation": "James Watt improved the Newcomen steam engine to produce the modern steam engine."
+          },
+          {
+            "a_item": "(6) Union List",
+            "b_item": "Defence",
+            "correct_match_index": "1",
+            "explanation": "Subjects of national importance like defence, foreign affairs, and banking are included in the Union List."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "In a democracy, all citizens have the right to a single vote.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: A core principle of a democratic system is universal adult franchise, under which every eligible citizen has the right to a single vote and every vote has equal value."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Haryana state has the highest per capita income.",
+          "correct_answer": "False",
+          "explanation": "Answer: False\n\nExplanation: Although Haryana's per capita income is higher than the national average, official statistical data shows states like Goa have the highest per capita income. Hence, this general statement is false."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The MGNREGA act was implemented from 2005.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: The Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) was enacted by the Indian Parliament in the year 2005."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Kolkata is a sea port.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: Located on the Hooghly river in West Bengal, Kolkata port is a prominent tidal riverine-cum-sea port managing trade from the Bay of Bengal."
+        },
+        {
+          "q_id": "v",
+          "statement": "The Non-Cooperation and Khilafat movement began in January 1923.",
+          "correct_answer": "False",
+          "explanation": "Answer: False\n\nExplanation: The Non-Cooperation and Khilafat movements officially began in January 1921, not 1923. Hence, this statement is false."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Until the eighteenth century, India dominated the international market for fine textiles.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: Prior to industrialization, up to the late 18th century, Indian silk and cotton textiles like muslins held total dominance in the international textile market."
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "One sentence",
+      "text": "Answer in one sentence / word:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "What is a governance system called when a government is formed by two or more allied political parties at the same time?",
+          "correct_answer": "Coalition government",
+          "explanation": "Answer: Coalition Government\n\n(When no single party gets a clear majority in an election, two or more parties join together to form a shared government)."
+        },
+        {
+          "q_id": "2",
+          "statement": "What is the process called in which people migrate from rural areas to cities?",
+          "correct_answer": "Urbanization (or migration)",
+          "explanation": "Answer: Urbanization or rural-to-urban migration."
+        },
+        {
+          "q_id": "3",
+          "statement": "What is the primary basis of social divisions?",
+          "correct_answer": "Birth",
+          "explanation": "Answer: Birth (every individual acquires a social identity upon birth in a specific family, caste, or community)."
+        },
+        {
+          "q_id": "4",
+          "statement": "Name any two countries where there is a strong democracy.",
+          "correct_answer": "India and the United States of America",
+          "explanation": "Answer: India and the United States of America (USA)."
+        },
+        {
+          "q_id": "5",
+          "statement": "What is a general government formed for the entire country called?",
+          "correct_answer": "Federal government (or central government)",
+          "explanation": "Answer: Federal Government / Central Government."
+        },
+        {
+          "q_id": "6",
+          "statement": "Which form of government is best for maintaining the dignity and freedom of citizens?",
+          "correct_answer": "Democracy",
+          "explanation": "Answer: Democracy (Democratic Government)."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the names of biotic resources.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Biotic resources: Resources obtained from the biosphere that have life are called biotic resources. Examples: Human beings, flora (vegetation), and fauna (animals)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is sustainable development?",
+            "correct_answer": "",
+            "explanation": "Answer:\nSustainable Development:\nMeeting the needs of the present generation without compromising the ability of future generations to meet their own needs, along with the judicious use of resources without harming the environment, is called 'sustainable development'."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two characteristics of alluvial soil.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo major characteristics of alluvial soil:\n1. This soil is formed by silt deposited by rivers, making it highly fertile.\n2. It contains adequate amounts of potash, phosphoric acid, and lime, which are ideal for crop growth."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is soil erosion?",
+            "correct_answer": "",
+            "explanation": "Answer:\nSoil Erosion:\nThe removal of top fertile soil layer from its place by natural forces (strong winds, flowing water) and human activities (deforestation, overgrazing) is termed soil erosion."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "By what names is Jhumming agriculture known in different regions?",
+          "correct_answer": "",
+          "explanation": "Answer:\nJhumming agriculture (shifting cultivation) is known as 'Jhum' in the north-eastern states of India, 'Bewar' or 'Dahiya' in Madhya Pradesh, and 'Milpa' in Mexico."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two characteristics of commercial agriculture.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Crops are grown mainly for commercial purposes and profit-making in the market.\n2. It makes heavy use of modern inputs, chemical fertilizers, and high-yielding variety (HYV) seeds."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two importances of manufacturing industries.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. These industries help in modernizing agriculture and provide employment opportunities.\n2. Manufacturing fosters country's economic development and earns foreign exchange."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two adverse effects of air pollution.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. It causes severe respiratory disorders (such as asthma and bronchitis).\n2. It damages the ozone layer and contributes to global warming."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is road transport more important than rail transport?",
+          "correct_answer": "",
+          "explanation": "Answer:\nConstruction and maintenance of roads is easier than railways. Roads provide door-to-door service and can easily negotiate rugged, undulating, and hilly terrains."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Name the longest highway tunnel in the world.",
+            "correct_answer": "",
+            "explanation": "Answer:\nAtal Tunnel (Rohtang Tunnel) is the longest highway tunnel in the world, connecting Manali to Leh."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What percentage of India's trade is carried through oceans?",
+          "correct_answer": "",
+          "explanation": "Answer:\nApproximately 95 percent of India's trade (by volume) is moved through sea routes."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "When was air transport nationalized? Write.",
+            "correct_answer": "",
+            "explanation": "Answer:\nAir transport was nationalized in India in the year 1953."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Which commodities were traded through the Silk Route? Write.",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe Silk Route was used for trading items like Chinese silk, Indian spices, Chinese pottery, and gold-silver from western countries."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Which food items were unknown to our ancestors five centuries ago?",
+            "correct_answer": "",
+            "explanation": "Answer:\nFollowing the discovery of the Americas, common foods such as potatoes, soybeans, groundnuts, maize, tomatoes, and chillies were unknown to our ancestors."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why was London known as a finishing center?",
+          "correct_answer": "",
+          "explanation": "Answer:\nRaw cloth was brought to London from other parts of the country where it was dyed, polished, and given final finishing before export."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why did the demand for workers fluctuate on a seasonal basis in many industries?",
+            "correct_answer": "",
+            "explanation": "Answer:\nIn seasonal industries (such as gas works, breweries, and winter-clothing makers), production fluctuated according to seasons, which caused the demand for workers to rise and fall."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "In which countries did printing technology develop first?",
+          "correct_answer": "",
+          "explanation": "Answer:\nPrinting technology was first developed in East Asian countries like China, Japan, and Korea."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What work did Johann Gutenberg do in the field of printing?",
+            "correct_answer": "",
+            "explanation": "Answer:\nJohann Gutenberg developed the first modern movable type printing press in the 1430s."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two outcomes of print culture.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. It increased the availability of books and spread reading habits and literacy among common people.\n2. It paved the way for open discussions, debates, and criticisms on religious, social, and political reforms."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the names of famous women writers of the nineteenth century.",
+            "correct_answer": "",
+            "explanation": "Answer:\nJane Austen, the Brontë sisters, and in India, Rashsundari Devi and Pandita Ramabai."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two characteristics of the secondary sector.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Under this, natural products are transformed into other forms through manufacturing processes (also called the industrial sector).\n2. It depends on the primary sector and converts raw materials into useful finished goods."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What do you understand by the tertiary sector? Write.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThis sector helps in the development of the primary and secondary sectors. It does not produce goods directly but provides services (such as banking, transport, trade)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Where are multinational corporations established?",
+          "correct_answer": "",
+          "explanation": "Answer:\nMultinational corporations are set up in locations where cheap raw materials are available, low-cost labor is accessible, and government policies are favorable."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the names of two multinational corporations.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Nike\n2. Coca-Cola"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the difference between reserved forests and protected forests.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Reserved forests: These are forests regarded as most valuable as far as the conservation of forest and wildlife resources are concerned, where grazing cattle or felling trees is completely prohibited.\n2. Protected forests: These are forests protected from further depletion, but local communities may be granted limited rights (such as grazing) inside them."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the types and distribution of forest and wildlife resources.",
+            "correct_answer": "",
+            "explanation": "Answer:\nForests and wildlife resources in India are managed under reserved, protected, and unclassified forests. Their distribution is uneven across various states (such as Madhya Pradesh and north-eastern states)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write three features of a federal system of government.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. There are two or more levels (tiers) of government (central and state governments).\n2. The jurisdiction of each tier of government is specified in the constitution.\n3. The fundamental provisions of the constitution cannot be unilaterally changed without the consent of both levels."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A major step towards true decentralization was taken in 1992, write.",
+            "correct_answer": "",
+            "explanation": "Answer:\nIn 1992, a constitutional amendment gave constitutional status to local government bodies (Panchayati Raj and urban bodies). This made it mandatory to hold regular elections, reserve seats for women, and transfer financial resources to local levels."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the impact of globalization in India.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Consumers now have access to better quality and a wider variety of choices at lower prices in the market.\n2. Foreign investments and modern technologies have expanded, generating new employment opportunities.\n3. Some small local industries and producers have faced losses due to fierce competition from multinational corporations."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write three functions of the Reserve Bank of India.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. It is the central authority responsible for issuing currency notes in the country.\n2. It closely monitors the activities and cash reserves of all commercial banks in the nation.\n3. It acts as a banker to the government and provides financial assistance to other banks during times of crisis."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "In which types of rock formations are minerals found?",
+          "correct_answer": "",
+          "explanation": "Answer:\nMinerals are generally found in the following rock formations:\n1. Igneous and metamorphic rocks: Large reserves of minerals occur in cracks and joints as veins and lodes (e.g., zinc, copper).\n2. Sedimentary rocks: Minerals occur in beds and layers formed due to deposition (e.g., coal, gypsum).\n3. Residual weathered material: Decomposition of surface rocks leaves residual masses containing minerals like bauxite.\n4. Alluvial deposits: Placer deposits found in valley floors and mountain bases contain gold and tin."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write four iron ore belts found in India.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Odisha-Jharkhand belt: High-grade hematite ore is found in mines like Badampahar and Gua.\n2. Durg-Bastar-Chandrapur belt: This area in Chhattisgarh and Maharashtra contains very high-grade iron ore (Bailadila).\n3. Bellary-Chitradurga-Chikmagalur-Tumkur belt: This belt in Karnataka has large reserves of iron ore.\n4. Maharashtra-Goa belt: Iron ore is mined near Goa and Ratnagiri in this region."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write four reasons for the rise of modern nationalism in India.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Colonial exploitation: Growing public discontent against the oppressive economic and social policies of British rule.\n2. Political and administrative unification: The introduction of uniform laws and a unified railway-telegraph network across the country by the British.\n3. Spread of modern education: Western education systems inspired feelings of liberty, equality, and nationalism among people.\n4. Cultural revival: The discovery of ancient Indian history, literature, and heritage that aroused a sense of national pride."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write four views of Gandhiji on Satyagraha.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Persistence for truth: Satyagraha was a powerful struggle based on truth and non-violence that did not require physical force.\n2. Fight against injustice: According to it, if the cause was true and the fight was against injustice, physical force was not necessary to fight the oppressor.\n3. Soul force: The core basis of Satyagraha is to appeal to the conscience of the adversary rather than inflicting pain.\n4. Non-violent resistance: It was a completely non-violent movement opposing oppressive policies without any malice."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "Show the following on the given outline map of India:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Narmada River",
+          "correct_answer": "",
+          "explanation": "Answer:\nNarmada River: Originating from Amarkantak in Madhya Pradesh, it flows westward and drains into the Gulf of Khambhat (Arabian Sea)."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Shillong",
+          "correct_answer": "",
+          "explanation": "Answer:\nShillong: The capital of Meghalaya state located in north-eastern India."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Bailadila",
+          "correct_answer": "",
+          "explanation": "Answer:\nBailadila: A major iron ore mining area located in the Dantewada district of Chhattisgarh state."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Hazira-Vijaipur-Jagdishpur gas pipeline",
+          "correct_answer": "",
+          "explanation": "Answer:\nHazira-Vijaipur-Jagdishpur gas pipeline: India's major gas pipeline starting from Gujarat (Hazira), passing through Madhya Pradesh, up to Uttar Pradesh (Jagdishpur)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Tapi River",
+            "correct_answer": "",
+            "explanation": "Answer:\nTapi River: A major west-flowing river originating from the Satpura ranges in Madhya Pradesh."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Sikkim",
+            "correct_answer": "",
+            "explanation": "Answer:\nSikkim: A north-eastern mountainous state of India situated between Nepal, Bhutan, and Tibet."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Chitradurga",
+            "correct_answer": "",
+            "explanation": "Answer:\nChitradurga: A historical and mineral-rich region located in the state of Karnataka."
+          },
+          {
+            "q_id": "iv",
+            "statement": "Kakrapar",
+            "correct_answer": "",
+            "explanation": "Answer:\nKakrapar: A major nuclear power plant center located near the Tapi river in Gujarat state."
+          }
+        ]
+      }
+    }
+  ]
+}

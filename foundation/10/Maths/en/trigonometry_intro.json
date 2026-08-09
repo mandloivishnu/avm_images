@@ -1,0 +1,138 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Introduction to Trigonometry",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Trigonometric Ratios",
+        "definition": "In a right-angled triangle, the trigonometric ratios of an angle sin, cos, tan, cosec, sec, cot are defined as ratios of sides.",
+        "explanation": "From the ratios of perpendicular, base, and hypotenuse in a right-angled triangle, six trigonometric ratios are formed: sinθ = perpendicular/hypotenuse, cosθ = base/hypotenuse, tanθ = perpendicular/base, along with their reciprocals cosecθ, secθ, cotθ.",
+        "importantPoints": [
+          "sinθ = perp/hyp, cosθ = base/hyp, tanθ = perp/base",
+          "cosecθ = 1/sinθ, secθ = 1/cosθ, cotθ = 1/tanθ",
+          "These ratios depend only on the angle, not on the size of the triangle"
+        ],
+        "highlightWords": [
+          "Trigonometric ratios",
+          "Perpendicular",
+          "Base",
+          "Hypotenuse"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Standard Angle Values",
+        "definition": "Specific angles like 0°, 30°, 45°, 60°, 90° have fixed values for sin, cos, tan etc. which are remembered.",
+        "explanation": "These values are obtained from the side ratios of right-angled triangles (such as 45-45-90 and 30-60-90). These values serve as the basis for solving most trigonometric problems.",
+        "importantPoints": [
+          "sin0°=0, sin30°=1/2, sin45°=1/√2, sin60°=√3/2, sin90°=1",
+          "Values of cos are in reverse order of sin",
+          "tan90° and cot0° are undefined"
+        ],
+        "highlightWords": [
+          "Standard angles",
+          "sin cos tan",
+          "Specific values"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Trigonometric Identities",
+        "definition": "Equations that are true for all valid angles, such as sin²θ + cos²θ = 1.",
+        "explanation": "There are three main identities: sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, and 1 + cot²θ = cosec²θ. They are used to simplify and prove trigonometric expressions.",
+        "importantPoints": [
+          "sin²θ + cos²θ = 1",
+          "1 + tan²θ = sec²θ",
+          "1 + cot²θ = cosec²θ",
+          "Other trigonometric relations can be derived from them"
+        ],
+        "highlightWords": [
+          "Identity",
+          "sin²+cos²=1",
+          "sec",
+          "cosec"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "If sin A = 3/4, calculate cos A and tan A.",
+          "correct_answer": "cos A = (√7)/4, tan A = 3/√7",
+          "imgUrl": "",
+          "explanation": "Given: sin A = Perpendicular / Hypotenuse = 3/4\n\nLet Perpendicular BC = 3k and Hypotenuse AC = 4k\nUsing Pythagoras theorem in right-angled triangle ABC:\nAC² = AB² + BC²\n(4k)² = AB² + (3k)²\n16k² = AB² + 9k²\nAB² = 16k² - 9k² = 7k²\nAB = √7k (Base)\n\nThus:\ncos A = Base / Hypotenuse = √7k / 4k = √7 / 4\ntan A = Perpendicular / Base = 3k / √7k = 3 / √7"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "If cot θ = 7/8, evaluate [(1 + sin θ)(1 - sin θ)] / [(1 + cos θ)(1 - cos θ)].",
+            "correct_answer": "49/64",
+            "imgUrl": "",
+            "explanation": "Given: cot θ = 7/8\nGiven expression: [(1 + sin θ)(1 - sin θ)] / [(1 + cos θ)(1 - cos θ)] = (1 - sin² θ) / (1 - cos² θ) = cos² θ / sin² θ = (cot θ)²\n\nSubstituting value:\n(7/8)² = 49/64\nTherefore, the required value is 49/64."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Evaluate: sin 60° cos 30° + sin 30° cos 60°",
+          "correct_answer": "1",
+          "imgUrl": "",
+          "explanation": "Substituting standard values:\nsin 60° = √3/2\ncos 30° = √3/2\nsin 30° = 1/2\ncos 60° = 1/2\n\nPutting values in the expression:\n= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4 = (3 + 1)/4 = 4/4 = 1\nTherefore, the value is 1."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Prove that: (sin A + cosec A)² + (cos A + sec A)² = 7 + tan² A + cot² A",
+            "correct_answer": "Proven",
+            "imgUrl": "",
+            "explanation": "Left Hand Side (LHS):\n= (sin A + cosec A)² + (cos A + sec A)²\n= sin² A + cosec² A + 2sin A cosec A + cos² A + sec² A + 2cos A sec A\n\nSince sin A cosec A = 1 and cos A sec A = 1 and sin² A + cos² A = 1:\n= 1 + cosec² A + 2(1) + sec² A + 2(1)\n= 1 + cosec² A + 2 + sec² A + 2\n= 5 + cosec² A + sec² A\n\nUsing identities cosec² A = 1 + cot² A and sec² A = 1 + tan² A:\n= 5 + (1 + cot² A) + (1 + tan² A)\n= 7 + tan² A + cot² A = RHS\nHence proved."
+          }
+        ]
+      }
+    }
+  ]
+}

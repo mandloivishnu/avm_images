@@ -1,0 +1,1194 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Science (Comprehensive Syllabus Test - 5 Questions per Topic)",
+    "totalMarks": "80",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Chemical Reactions and Equations",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "The process in which new substances with new properties are formed is called:",
+          "options": [
+            { "index": "A", "text": "Physical change" },
+            { "index": "B", "text": "Chemical reaction" },
+            { "index": "C", "text": "Evaporation" },
+            { "index": "D", "text": "Melting" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Chemical reaction",
+          "explanation": "A chemical reaction involves the formation of new substances with distinct properties[cite: 25]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Substances that take part in a chemical reaction are called:",
+          "options": [
+            { "index": "A", "text": "Products" },
+            { "index": "B", "text": "Reactants" },
+            { "index": "C", "text": "Catalysts" },
+            { "index": "D", "text": "Precipitates" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Reactants",
+          "explanation": "Substances taking part in a reaction are termed reactants[cite: 25]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Which gas is evolved when zinc reacts with dilute sulfuric acid?",
+          "options": [
+            { "index": "A", "text": "Oxygen" },
+            { "index": "B", "text": "Nitrogen" },
+            { "index": "C", "text": "Hydrogen" },
+            { "index": "D", "text": "Carbon dioxide" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Hydrogen",
+          "explanation": "Reaction of zinc with dilute sulfuric acid releases hydrogen gas which burns with a pop sound[cite: 25]."
+        },
+        {
+          "q_id": "4",
+          "statement": "According to the law of conservation of mass:",
+          "options": [
+            { "index": "A", "text": "Mass can be created" },
+            { "index": "B", "text": "Mass can be destroyed" },
+            { "index": "C", "text": "Mass can neither be created nor destroyed" },
+            { "index": "D", "text": "Mass changes during reactions" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Mass can neither be created nor destroyed",
+          "explanation": "The total mass remains conserved in any chemical reaction[cite: 27]."
+        },
+        {
+          "q_id": "5",
+          "statement": "When a magnesium ribbon burns in air, it forms a white powder of:",
+          "options": [
+            { "index": "A", "text": "Magnesium hydroxide" },
+            { "index": "B", "text": "Magnesium oxide" },
+            { "index": "C", "text": "Magnesium carbonate" },
+            { "index": "D", "text": "Magnesium chloride" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Magnesium oxide",
+          "explanation": "Magnesium reacts with oxygen to form white magnesium oxide[cite: 25]."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "subjectName": "Acids, Bases and Salts",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Which of the following turns blue litmus paper red?",
+          "options": [
+            { "index": "A", "text": "Acid" },
+            { "index": "B", "text": "Base" },
+            { "index": "C", "text": "Salt solution" },
+            { "index": "D", "text": "Pure water" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Acid",
+          "explanation": "Acids are sour in taste and turn blue litmus paper red[cite: 12]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Bases produce which ions in an aqueous solution?",
+          "options": [
+            { "index": "A", "text": "H⁺" },
+            { "index": "B", "text": "OH⁻" },
+            { "index": "C", "text": "Cl⁻" },
+            { "index": "D", "text": "Na⁺" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "OH⁻",
+          "explanation": "Bases release hydroxide ions (OH⁻) in aqueous solutions[cite: 12]."
+        },
+        {
+          "q_id": "3",
+          "statement": "The pH value of a neutral solution is:",
+          "options": [
+            { "index": "A", "text": "Less than 7" },
+            { "index": "B", "text": "Greater than 7" },
+            { "index": "C", "text": "Exactly 7" },
+            { "index": "D", "text": "0" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Exactly 7",
+          "explanation": "A neutral solution like pure water has a pH value of 7[cite: 22]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Chemical formula of baking soda is:",
+          "options": [
+            { "index": "A", "text": "Na2CO3" },
+            { "index": "B", "text": "NaHCO3" },
+            { "index": "C", "text": "NaOH" },
+            { "index": "D", "text": "NaCl" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "NaHCO3",
+          "explanation": "Sodium hydrogen carbonate (NaHCO₃) is known as baking soda[cite: 32]."
+        },
+        {
+          "q_id": "5",
+          "statement": "Tooth decay starts when the pH of the mouth is lower than:",
+          "options": [
+            { "index": "A", "text": "5.5" },
+            { "index": "B", "text": "7.0" },
+            { "index": "C", "text": "8.2" },
+            { "index": "D", "text": "6.5" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "5.5",
+          "explanation": "Tooth enamel corrodes when mouth acidity increases and pH falls below 5.5[cite: 22]."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "subjectName": "Metals and Non-Metals",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "The most reactive metal in the reactivity series is:",
+          "options": [
+            { "index": "A", "text": "Gold" },
+            { "index": "B", "text": "Silver" },
+            { "index": "C", "text": "Potassium" },
+            { "index": "D", "text": "Copper" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Potassium",
+          "explanation": "Potassium (K) is at the top of the reactivity series[cite: 13]."
+        },
+        {
+          "q_id": "2",
+          "statement": "The process of obtaining pure metal from its ore is called:",
+          "options": [
+            { "index": "A", "text": "Corrosion" },
+            { "index": "B", "text": "Metallurgy" },
+            { "index": "C", "text": "Rancidity" },
+            { "index": "D", "text": "Calorimetry" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Metallurgy",
+          "explanation": "Extraction and purification of metals from ores is called metallurgy[cite: 13]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Which metal is liquid at room temperature?",
+          "options": [
+            { "index": "A", "text": "Iron" },
+            { "index": "B", "text": "Mercury" },
+            { "index": "C", "text": "Sodium" },
+            { "index": "D", "text": "Aluminum" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Mercury",
+          "explanation": "Mercury is the only metal that exists as a liquid at room temperature."
+        },
+        {
+          "q_id": "4",
+          "statement": "Coating iron with a layer of zinc to prevent rust is called:",
+          "options": [
+            { "index": "A", "text": "Galvanization" },
+            { "index": "B", "text": "Oxidation" },
+            { "index": "C", "text": "Reduction" },
+            { "index": "D", "text": "Smelting" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Galvanization",
+          "explanation": "Galvanization protects iron or steel from rusting by coating it with zinc[cite: 29]."
+        },
+        {
+          "q_id": "5",
+          "statement": "Naturally occurring minerals from which metals can be extracted profitably are called:",
+          "options": [
+            { "index": "A", "text": "Gangue" },
+            { "index": "B", "text": "Slag" },
+            { "index": "C", "text": "Ore" },
+            { "index": "D", "text": "Flux" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Ore",
+          "explanation": "Ores are minerals from which metals are extracted conveniently and profitably[cite: 13]."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "subjectName": "Carbon and Its Compounds",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "The valency of carbon is:",
+          "options": [
+            { "index": "A", "text": "2" },
+            { "index": "B", "text": "3" },
+            { "index": "C", "text": "4" },
+            { "index": "D", "text": "5" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "4",
+          "explanation": "Carbon is tetravalent, possessing a valency of 4[cite: 18]."
+        },
+        {
+          "q_id": "2",
+          "statement": "The unique ability of carbon to form long chains with other carbon atoms is called:",
+          "options": [
+            { "index": "A", "text": "Isomerism" },
+            { "index": "B", "text": "Catenation" },
+            { "index": "C", "text": "Hydrogenation" },
+            { "index": "D", "text": "Polymerization" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Catenation",
+          "explanation": "Catenation is carbon's unique property to form chains[cite: 18]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Hydrocarbons having single bonds between carbon atoms are called:",
+          "options": [
+            { "index": "A", "text": "Saturated hydrocarbons" },
+            { "index": "B", "text": "Unsaturated hydrocarbons" },
+            { "index": "C", "text": "Alkynes" },
+            { "index": "D", "text": "Alkenes" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Saturated hydrocarbons",
+          "explanation": "Alkanes are saturated hydrocarbons containing single covalent bonds[cite: 18]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Soaps are sodium or potassium salts of:",
+          "options": [
+            { "index": "A", "text": "Mineral acids" },
+            { "index": "B", "text": "Long-chain fatty acids" },
+            { "index": "C", "text": "Sulfonic acids" },
+            { "index": "D", "text": "Amino acids" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Long-chain fatty acids",
+          "explanation": "Soaps consist of sodium or potassium salts of carboxylic acids with long chains[cite: 18]."
+        },
+        {
+          "q_id": "5",
+          "statement": "The general formula for alkenes is:",
+          "options": [
+            { "index": "A", "text": "CnH2n+2" },
+            { "index": "B", "text": "CnH2n" },
+            { "index": "C", "text": "CnH2n-2" },
+            { "index": "D", "text": "CnHn" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "CnH2n",
+          "explanation": "Alkenes contain a double bond and follow the formula CnH₂n[cite: 18]."
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "subjectName": "Periodic Classification of Elements",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "How many groups are there in the modern periodic table?",
+          "options": [
+            { "index": "A", "text": "7" },
+            { "index": "B", "text": "8" },
+            { "index": "C", "text": "16" },
+            { "index": "D", "text": "18" }
+          ],
+          "correct_index": "D",
+          "correct_answer": "18",
+          "explanation": "There are 18 vertical columns or groups[cite: 30]."
+        },
+        {
+          "q_id": "2",
+          "statement": "How many periods are there in the modern periodic table?",
+          "options": [
+            { "index": "A", "text": "7" },
+            { "index": "B", "text": "9" },
+            { "index": "C", "text": "18" },
+            { "index": "D", "text": "12" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "7",
+          "explanation": "There are 7 horizontal rows or periods[cite: 30]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Modern periodic law is based upon:",
+          "options": [
+            { "index": "A", "text": "Atomic mass" },
+            { "index": "B", "text": "Atomic number" },
+            { "index": "C", "text": "Density" },
+            { "index": "D", "text": "Valency" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Atomic number",
+          "explanation": "Properties are periodic functions of atomic numbers[cite: 30]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Who proposed the Law of Octaves?",
+          "options": [
+            { "index": "A", "text": "Mendeleev" },
+            { "index": "B", "text": "Dobereiner" },
+            { "index": "C", "text": "Newlands" },
+            { "index": "D", "text": "Moseley" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Newlands",
+          "explanation": "John Newlands arranged elements in order of increasing atomic masses via the Law of Octaves[cite: 30]."
+        },
+        {
+          "q_id": "5",
+          "statement": "Moving from left to right across a period, atomic radius generally:",
+          "options": [
+            { "index": "A", "text": "Increases" },
+            { "index": "B", "text": "Decreases" },
+            { "index": "C", "text": "Remains constant" },
+            { "index": "D", "text": "First decreases then increases" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Decreases",
+          "explanation": "Increased nuclear charge pulls electrons closer, shrinking atomic radius across a period[cite: 30]."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "subjectName": "Life Processes",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "The functional unit of the kidney is:",
+          "options": [
+            { "index": "A", "text": "Neuron" },
+            { "index": "B", "text": "Nephron" },
+            { "index": "C", "text": "Alveoli" },
+            { "index": "D", "text": "Ventricle" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Nephron",
+          "explanation": "Nephron handles filtration and urine formation[cite: 17]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Plant tissue responsible for the transport of water is:",
+          "options": [
+            { "index": "A", "text": "Phloem" },
+            { "index": "B", "text": "Xylem" },
+            { "index": "C", "text": "Cortex" },
+            { "index": "D", "text": "Pith" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Xylem",
+          "explanation": "Xylem transports water and minerals from roots to leaves[cite: 17]."
+        },
+        {
+          "q_id": "3",
+          "statement": "The human heart consists of how many chambers?",
+          "options": [
+            { "index": "A", "text": "Two" },
+            { "index": "B", "text": "Three" },
+            { "index": "C", "text": "Four" },
+            { "index": "D", "text": "One" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Four",
+          "explanation": "The human heart has two atria and two ventricles[cite: 17]."
+        },
+        {
+          "q_id": "4",
+          "statement": "The mode of nutrition in green plants is:",
+          "options": [
+            { "index": "A", "text": "Heterotrophic" },
+            { "index": "B", "text": "Autotrophic" },
+            { "index": "C", "text": "Parasitic" },
+            { "index": "D", "text": "Saprotrophic" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Autotrophic",
+          "explanation": "Green plants manufacture their own food via photosynthesis[cite: 17]."
+        },
+        {
+          "q_id": "5",
+          "statement": "The energy currency of a cell is:",
+          "options": [
+            { "index": "A", "text": "ADP" },
+            { "index": "B", "text": "ATP" },
+            { "index": "C", "text": "DNA" },
+            { "index": "D", "text": "RNA" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "ATP",
+          "explanation": "Adenosine triphosphate (ATP) stores cellular energy[cite: 17]."
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "subjectName": "Control and Coordination",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Which part of the human brain maintains posture and balance?",
+          "options": [
+            { "index": "A", "text": "Cerebrum" },
+            { "index": "B", "text": "Cerebellum" },
+            { "index": "C", "text": "Medulla" },
+            { "index": "D", "text": "Pons" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Cerebellum",
+          "explanation": "The cerebellum controls posture and equilibrium[cite: 20]."
+        },
+        {
+          "q_id": "2",
+          "statement": "The gap between two neurons is called a:",
+          "options": [
+            { "index": "A", "text": "Dendrite" },
+            { "index": "B", "text": "Axon" },
+            { "index": "C", "text": "Synapse" },
+            { "index": "D", "text": "Impulse" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Synapse",
+          "explanation": "Synapse is the junction point between adjacent neurons[cite: 20]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Which hormone regulates blood sugar levels?",
+          "options": [
+            { "index": "A", "text": "Thyroxine" },
+            { "index": "B", "text": "Insulin" },
+            { "index": "C", "text": "Adrenaline" },
+            { "index": "D", "text": "Growth hormone" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Insulin",
+          "explanation": "Insulin controls glucose levels in the bloodstream[cite: 20]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Plant hormone responsible for cell elongation and phototropism is:",
+          "options": [
+            { "index": "A", "text": "Abscisic acid" },
+            { "index": "B", "text": "Cytokinin" },
+            { "index": "C", "text": "Auxin" },
+            { "index": "D", "text": "Ethylene" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Auxin",
+          "explanation": "Auxin promotes cell growth and bending toward light[cite: 20]."
+        },
+        {
+          "q_id": "5",
+          "statement": "Reflex actions are primarily controlled by:",
+          "options": [
+            { "index": "A", "text": "Brain" },
+            { "index": "B", "text": "Spinal cord" },
+            { "index": "C", "text": "Cerebellum" },
+            { "index": "D", "text": "Heart" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Spinal cord",
+          "explanation": "Spinal cord handles quick involuntary reflex pathways[cite: 20]."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "subjectName": "How Do Organisms Reproduce",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Fertilization in human females occurs in the:",
+          "options": [
+            { "index": "A", "text": "Uterus" },
+            { "index": "B", "text": "Ovary" },
+            { "index": "C", "text": "Fallopian tube" },
+            { "index": "D", "text": "Cervix" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Fallopian tube",
+          "explanation": "Fusion of gametes takes place in the fallopian tube[cite: 16]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Amoeba reproduces primarily through:",
+          "options": [
+            { "index": "A", "text": "Budding" },
+            { "index": "B", "text": "Binary fission" },
+            { "index": "C", "text": "Fragmentation" },
+            { "index": "D", "text": "Spore formation" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Binary fission",
+          "explanation": "Amoeba divides into two daughter cells via binary fission[cite: 16]."
+        },
+        {
+          "q_id": "3",
+          "statement": "The male reproductive cell in humans is:",
+          "options": [
+            { "index": "A", "text": "Ovum" },
+            { "index": "B", "text": "Zygote" },
+            { "index": "C", "text": "Sperm" },
+            { "index": "D", "text": "Embryo" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Sperm",
+          "explanation": "Sperm is the male gamete produced in the testes[cite: 16]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Which part of a flower develops into a fruit after fertilization?",
+          "options": [
+            { "index": "A", "text": "Ovule" },
+            { "index": "B", "text": "Ovary" },
+            { "index": "C", "text": "Stigma" },
+            { "index": "D", "text": "Anther" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Ovary",
+          "explanation": "The ovary ripens into a fruit while ovules become seeds."
+        },
+        {
+          "q_id": "5",
+          "statement": "Regeneration is commonly observed in:",
+          "options": [
+            { "index": "A", "text": "Planaria" },
+            { "index": "B", "text": "Human" },
+            { "index": "C", "text": "Fish" },
+            { "index": "D", "text": "Bird" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Planaria",
+          "explanation": "Planaria can regrow complete bodies from body fragments[cite: 16]."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "subjectName": "Heredity and Evolution",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Who is known as the father of genetics?",
+          "options": [
+            { "index": "A", "text": "Darwin" },
+            { "index": "B", "text": "Mendel" },
+            { "index": "C", "text": "Lamarck" },
+            { "index": "D", "text": "Miescher" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Mendel",
+          "explanation": "Gregor Mendel laid the foundation of modern genetics[cite: 11]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Which plant did Mendel choose for his experiments?",
+          "options": [
+            { "index": "A", "text": "Rose" },
+            { "index": "B", "text": "Pea plant" },
+            { "index": "C", "text": "Mustard" },
+            { "index": "D", "text": "Hibiscus" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Pea plant",
+          "explanation": "Mendel used Pisum sativum (pea plant)[cite: 11]."
+        },
+        {
+          "q_id": "3",
+          "statement": "How many pairs of chromosomes are present in normal humans?",
+          "options": [
+            { "index": "A", "text": "21" },
+            { "index": "B", "text": "22" },
+            { "index": "C", "text": "23" },
+            { "index": "D", "text": "24" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "23",
+          "explanation": "Humans have 23 pairs (46 total) of chromosomes[cite: 11]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Organs having similar structure but different functions are called:",
+          "options": [
+            { "index": "A", "text": "Analogous organs" },
+            { "index": "B", "text": "Homologous organs" },
+            { "index": "C", "text": "Vestigial organs" },
+            { "index": "D", "text": "Fossils" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Homologous organs",
+          "explanation": "Homologous organs share structural origin but vary in function[cite: 11]."
+        },
+        {
+          "q_id": "5",
+          "statement": "Sex chromosomes in human males are:",
+          "options": [
+            { "index": "A", "text": "XX" },
+            { "index": "B", "text": "YY" },
+            { "index": "C", "text": "XY" },
+            { "index": "D", "text": "XO" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "XY",
+          "explanation": "Human males possess one X and one Y chromosome[cite: 11]."
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "subjectName": "Light: Reflection and Refraction",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "The SI unit of power of a lens is:",
+          "options": [
+            { "index": "A", "text": "Meter" },
+            { "index": "B", "text": "Dioptre" },
+            { "index": "C", "text": "Watt" },
+            { "index": "D", "text": "Joule" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Dioptre",
+          "explanation": "Lens power is expressed in dioptres[cite: 23]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Mirror formula is given by:",
+          "options": [
+            { "index": "A", "text": "1/f = 1/v + 1/u" },
+            { "index": "B", "text": "1/f = 1/v - 1/u" },
+            { "index": "C", "text": "f = v + u" },
+            { "index": "D", "text": "f = uv" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "1/f = 1/v + 1/u",
+          "explanation": "The standard mirror equation is 1/f = 1/v + 1/u[cite: 23]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Which mirror is used as a rear-view mirror in vehicles?",
+          "options": [
+            { "index": "A", "text": "Concave mirror" },
+            { "index": "B", "text": "Convex mirror" },
+            { "index": "C", "text": "Plane mirror" },
+            { "index": "D", "text": "Cylindrical mirror" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Convex mirror",
+          "explanation": "Convex mirrors offer a wider field of view for drivers[cite: 23]."
+        },
+        {
+          "q_id": "4",
+          "statement": "The angle of incidence is equal to the angle of reflection according to:",
+          "options": [
+            { "index": "A", "text": "Snell's law" },
+            { "index": "B", "text": "Laws of reflection" },
+            { "index": "C", "text": "Ohm's law" },
+            { "index": "D", "text": "Lens formula" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Laws of reflection",
+          "explanation": "Angle i = Angle r is the first law of reflection[cite: 23]."
+        },
+        {
+          "q_id": "5",
+          "statement": "A concave lens always forms an image that is:",
+          "options": [
+            { "index": "A", "text": "Real and inverted" },
+            { "index": "B", "text": "Virtual and diminished" },
+            { "index": "C", "text": "Real and magnified" },
+            { "index": "D", "text": "Equal in size" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Virtual and diminished",
+          "explanation": "Concave lenses diverge light to consistently project virtual, erect, and small images[cite: 23]."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "subjectName": "The Human Eye and Colourful World",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "The defect of vision in which a person cannot see distant objects clearly is:",
+          "options": [
+            { "index": "A", "text": "Hypermetropia" },
+            { "index": "B", "text": "Myopia" },
+            { "index": "C", "text": "Presbyopia" },
+            { "index": "D", "text": "Astigmatism" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Myopia",
+          "explanation": "Myopia restricts clear sight to close distances[cite: 19]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Myopia is corrected by using a:",
+          "options": [
+            { "index": "A", "text": "Convex lens" },
+            { "index": "B", "text": "Concave lens" },
+            { "index": "C", "text": "Bifocal lens" },
+            { "index": "D", "text": "Plane glass" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Concave lens",
+          "explanation": "Concave lenses diverge light rays correctly onto the retina for myopia[cite: 19]."
+        },
+        {
+          "q_id": "3",
+          "statement": "The least distance of distinct vision for a normal human eye is:",
+          "options": [
+            { "index": "A", "text": "25 cm" },
+            { "index": "B", "text": "50 cm" },
+            { "index": "C", "text": "25 m" },
+            { "index": "D", "text": "Infinite" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "25 cm",
+          "explanation": "Healthy eyes can comfortably read text at a minimum of 25 cm[cite: 19]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Hypermetropia can be corrected using a:",
+          "options": [
+            { "index": "A", "text": "Concave lens" },
+            { "index": "B", "text": "Convex lens" },
+            { "index": "C", "text": "Cylindrical lens" },
+            { "index": "D", "text": "Prism" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Convex lens",
+          "explanation": "Convex lenses converge light to fix farsightedness[cite: 19]."
+        },
+        {
+          "q_id": "5",
+          "statement": "The blue color of the sky is due to:",
+          "options": [
+            { "index": "A", "text": "Reflection of light" },
+            { "index": "B", "text": "Scattering of light" },
+            { "index": "C", "text": "Refraction of light" },
+            { "index": "D", "text": "Dispersion of light" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Scattering of light",
+          "explanation": "Shorter blue wavelengths scatter more through atmospheric particles[cite: 19]."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "subjectName": "Electricity",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Ohm's law is represented by:",
+          "options": [
+            { "index": "A", "text": "V = IR" },
+            { "index": "B", "text": "I = VR" },
+            { "index": "C", "text": "R = VI" },
+            { "index": "D", "text": "V = I/R" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "V = IR",
+          "explanation": "Potential difference equals current multiplied by resistance[cite: 39]."
+        },
+        {
+          "q_id": "2",
+          "statement": "The SI unit of electric current is:",
+          "options": [
+            { "index": "A", "text": "Volt" },
+            { "index": "B", "text": "Ampere" },
+            { "index": "C", "text": "Ohm" },
+            { "index": "D", "text": "Watt" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Ampere",
+          "explanation": "Electric current is measured in amperes (A)[cite: 39]."
+        },
+        {
+          "q_id": "3",
+          "statement": "The SI unit of electrical resistance is:",
+          "options": [
+            { "index": "A", "text": "Volt" },
+            { "index": "B", "text": "Ampere" },
+            { "index": "C", "text": "Ohm" },
+            { "index": "D", "text": "Coulomb" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Ohm",
+          "explanation": "Resistance is quantified in ohms (Ω)[cite: 39]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Electric power is expressed as:",
+          "options": [
+            { "index": "A", "text": "P = VI" },
+            { "index": "B", "text": "P = V/I" },
+            { "index": "C", "text": "P = I/V" },
+            { "index": "D", "text": "P = R/V" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "P = VI",
+          "explanation": "Power equals voltage times current[cite: 39]."
+        },
+        {
+          "q_id": "5",
+          "statement": "When resistors are connected in series, the total resistance:",
+          "options": [
+            { "index": "A", "text": "Decreases" },
+            { "index": "B", "text": "Increases" },
+            { "index": "C", "text": "Remains unchanged" },
+            { "index": "D", "text": "Becomes zero" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Increases",
+          "explanation": "Series resistance is the direct sum of individual resistors[cite: 39]."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "subjectName": "Magnetic Effects of Electric Current",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "An electric motor converts:",
+          "options": [
+            { "index": "A", "text": "Mechanical to electrical energy" },
+            { "index": "B", "text": "Electrical to mechanical energy" },
+            { "index": "C", "text": "Chemical to electrical energy" },
+            { "index": "D", "text": "Heat to electrical energy" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Electrical to mechanical energy",
+          "explanation": "Motors use electrical current to create mechanical rotation[cite: 40]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Magnetic field lines inside a bar magnet move from:",
+          "options": [
+            { "index": "A", "text": "North to South pole" },
+            { "index": "B", "text": "South to North pole" },
+            { "index": "C", "text": "Center outwards" },
+            { "index": "D", "text": "In random directions" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "South to North pole",
+          "explanation": "Inside the magnet, field lines run from south to north to complete closed loops[cite: 40]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Which rule gives the direction of force on a current-carrying conductor in a magnetic field?",
+          "options": [
+            { "index": "A", "text": "Right-hand thumb rule" },
+            { "index": "B", "text": "Fleming's left-hand rule" },
+            { "index": "C", "text": "Ohm's law" },
+            { "index": "D", "text": "Joule's law" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Fleming's left-hand rule",
+          "explanation": "Fleming's left-hand rule determines force direction in motors[cite: 40]."
+        },
+        {
+          "q_id": "4",
+          "statement": "A fuse wire is characterized by:",
+          "options": [
+            { "index": "A", "text": "High resistance and high melting point" },
+            { "index": "B", "text": "Low resistance and low melting point" },
+            { "index": "C", "text": "Low resistance and high melting point" },
+            { "index": "D", "text": "High resistance and low melting point" }
+          ],
+          "correct_index": "D",
+          "correct_answer": "High resistance and low melting point",
+          "explanation": "Fuse wires melt quickly under high current due to low melting points and high resistance[cite: 40]."
+        },
+        {
+          "q_id": "5",
+          "statement": "The color of the live wire in a standard domestic circuit is:",
+          "options": [
+            { "index": "A", "text": "Black" },
+            { "index": "B", "text": "Green" },
+            { "index": "C", "text": "Red" },
+            { "index": "D", "text": "Blue" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Red",
+          "explanation": "Live wires are conventionally red for identification[cite: 40]."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "subjectName": "Sources of Energy",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Which of the following is a fossil fuel?",
+          "options": [
+            { "index": "A", "text": "Solar energy" },
+            { "index": "B", "text": "Coal" },
+            { "index": "C", "text": "Wind energy" },
+            { "index": "D", "text": "Biogas" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Coal",
+          "explanation": "Coal and petroleum are fossil fuels[cite: 38]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Biogas is mainly composed of:",
+          "options": [
+            { "index": "A", "text": "Methane" },
+            { "index": "B", "text": "Ethane" },
+            { "index": "C", "text": "Propane" },
+            { "index": "D", "text": "Butane" }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Methane",
+          "explanation": "Methane is the primary combustible component in biogas."
+        },
+        {
+          "q_id": "3",
+          "statement": "The ultimate source of energy for most energy sources on earth is:",
+          "options": [
+            { "index": "A", "text": "Water" },
+            { "index": "B", "text": "Sun" },
+            { "index": "C", "text": "Wind" },
+            { "index": "D", "text": "Nuclear reactors" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Sun",
+          "explanation": "The sun drives weather patterns, biomass, and fossil fuel creation[cite: 38]."
+        },
+        {
+          "q_id": "4",
+          "statement": "Which energy source is renewable?",
+          "options": [
+            { "index": "A", "text": "Coal" },
+            { "index": "B", "text": "Petroleum" },
+            { "index": "C", "text": "Natural gas" },
+            { "index": "D", "text": "Solar energy" }
+          ],
+          "correct_index": "D",
+          "correct_answer": "Solar energy",
+          "explanation": "Solar energy is inexhaustible and renewable[cite: 38]."
+        },
+        {
+          "q_id": "5",
+          "statement": "Burning of fossil fuels causes:",
+          "options": [
+            { "index": "A", "text": "Water purification" },
+            { "index": "B", "text": "Air pollution and global warming" },
+            { "index": "C", "text": "Cooling of earth" },
+            { "index": "D", "text": "Ozone layer thickening" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Air pollution and global warming",
+          "explanation": "Carbon emissions from fossil fuels drive greenhouse effects[cite: 38]."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "subjectName": "Our Environment",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "What is the chemical formula of ozone?",
+          "options": [
+            { "index": "A", "text": "O" },
+            { "index": "B", "text": "O₂" },
+            { "index": "C", "text": "O₃" },
+            { "index": "D", "text": "O₄" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "O₃",
+          "explanation": "Ozone molecule consists of three oxygen atoms[cite: 15]."
+        },
+        {
+          "q_id": "2",
+          "statement": "Which of the following is a biodegradable waste?",
+          "options": [
+            { "index": "A", "text": "Plastic bag" },
+            { "index": "B", "text": "Vegetable peels" },
+            { "index": "C", "text": "Glass bottle" },
+            { "index": "D", "text": "Polythene" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Vegetable peels",
+          "explanation": "Vegetable peels decompose naturally via microorganisms[cite: 15]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Energy flow in an ecosystem is always:",
+          "options": [
+            { "index": "A", "text": "Bidirectional" },
+            { "index": "B", "text": "Multidirectional" },
+            { "index": "C", "text": "Unidirectional" },
+            { "index": "D", "text": "Cyclic" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Unidirectional",
+          "explanation": "Energy flows in one direction through trophic levels[cite: 15]."
+        },
+        {
+          "q_id": "4",
+          "statement": "According to the 10% law, how much energy is transferred to the next trophic level?",
+          "options": [
+            { "index": "A", "text": "1%" },
+            { "index": "B", "text": "10%" },
+            { "index": "C", "text": "50%" },
+            { "index": "D", "text": "90%" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "10%",
+          "explanation": "Only 10% of usable energy passes to each successive trophic level[cite: 15]."
+        },
+        {
+          "q_id": "5",
+          "statement": "Depletion of the ozone layer is primarily caused by:",
+          "options": [
+            { "index": "A", "text": "Carbon dioxide" },
+            { "index": "B", "text": "Chlorofluorocarbons (CFCs)" },
+            { "index": "C", "text": "Nitrogen" },
+            { "index": "D", "text": "Methane" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Chlorofluorocarbons (CFCs)",
+          "explanation": "CFCs break down ozone molecules in the stratosphere[cite: 15]."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "subjectName": "Sustainable Management of Natural Resources",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*5=5",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "What does '3R' stand for?",
+          "options": [
+            { "index": "A", "text": "Read, Record, Review" },
+            { "index": "B", "text": "Reduce, Reuse, Recycle" },
+            { "index": "C", "text": "Remove, Replace, Restore" },
+            { "index": "D", "text": "Rebuild, Refine, Reallocate" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Reduce, Reuse, Recycle",
+          "explanation": "The 3R approach helps minimize waste and conserve resources."
+        },
+        {
+          "q_id": "2",
+          "statement": "Rainwater harvesting is a technique primarily used to:",
+          "options": [
+            { "index": "A", "text": "Increase air pollution" },
+            { "index": "B", "text": "Increase groundwater level" },
+            { "index": "C", "text": "Decrease soil fertility" },
+            { "index": "D", "text": "Cause floods" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Increase groundwater level",
+          "explanation": "Harvesting rainwater recharges underground water reservoirs[cite: 24]."
+        },
+        {
+          "q_id": "3",
+          "statement": "Which of the following is a renewable resource?",
+          "options": [
+            { "index": "A", "text": "Coal" },
+            { "index": "B", "text": "Petroleum" },
+            { "index": "C", "text": "Forests" },
+            { "index": "D", "text": "Natural gas" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Forests",
+          "explanation": "Forests can be regenerated and managed sustainably."
+        },
+        {
+          "q_id": "4",
+          "statement": "The Chipko Movement was associated with the conservation of:",
+          "options": [
+            { "index": "A", "text": "Water" },
+            { "index": "B", "text": "Forests" },
+            { "index": "C", "text": "Soil" },
+            { "index": "D", "text": "Electricity" }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Forests",
+          "explanation": "The Chipko movement involved villagers hugging trees to protect them from logging."
+        },
+        {
+          "q_id": "5",
+          "statement": "Which of the following is a management practice for sustainable use of resources?",
+          "options": [
+            { "index": "A", "text": "Deforestation" },
+            { "index": "B", "text": "Overexploitation" },
+            { "index": "C", "text": "Judicious use and recycling" },
+            { "index": "D", "text": "Wasting water" }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Judicious use and recycling",
+          "explanation": "Sustainable management relies on careful planning and recycling to preserve resources."
+        }
+      ]
+    }
+  ]
+}

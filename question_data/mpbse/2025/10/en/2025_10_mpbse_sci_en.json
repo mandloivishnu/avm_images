@@ -1,0 +1,907 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write:",
+      "explanation": "The answer to each question has been chosen based on the relevant chemical reaction, definition, or principle, as expected in board examinations.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "KOH + H₂SO₄ → K₂SO₄ + H₂O \nWhat type of reaction is this?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Combination reaction"
+            },
+            {
+              "index": "b",
+              "text": "Displacement reaction"
+            },
+            {
+              "index": "c",
+              "text": "Double displacement reaction"
+            },
+            {
+              "index": "d",
+              "text": "Decomposition reaction"
+            }
+          ],
+          "correct_answer": "Double displacement reaction",
+          "correct_answer_text": "Double displacement reaction",
+          "explanation": "Correct option is (c).\n\nReason:\nIn this reaction, there is a mutual exchange (swap) of ions between potassium hydroxide (KOH) and sulphuric acid (H₂SO₄), resulting in the formation of salt (K₂SO₄) and water (H₂O). Therefore, it is an example of a double displacement (neutralization) reaction."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The pH value of an acidic solution is:",
+          "options": [
+            {
+              "index": "a",
+              "text": "10"
+            },
+            {
+              "index": "b",
+              "text": "7"
+            },
+            {
+              "index": "c",
+              "text": "1"
+            },
+            {
+              "index": "d",
+              "text": "8"
+            }
+          ],
+          "correct_answer": "1",
+          "correct_answer_text": "1",
+          "explanation": "Correct option is (c).\n\nReason:\nValues less than 7 on the pH scale indicate an acidic solution. Among the given options, '1' is less than 7 (representing strong acidity), while 7 represents a neutral solution and 8 and 10 represent basic solutions."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which of the following is an amphoteric oxide?",
+          "options": [
+            {
+              "index": "a",
+              "text": "MgO"
+            },
+            {
+              "index": "b",
+              "text": "CaO"
+            },
+            {
+              "index": "c",
+              "text": "Al₂O₃"
+            },
+            {
+              "index": "d",
+              "text": "PbO"
+            }
+          ],
+          "correct_answer": "Al₂O₃",
+          "correct_answer_text": "Al₂O₃",
+          "explanation": "Correct option is (c).\n\nReason:\nAluminium oxide (Al₂O₃) reacts with both acids and bases to form salt and water. Hence, having both acidic and basic behavior, it is called an amphoteric oxide."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Caustic soda is used in:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Manufacture of soap"
+            },
+            {
+              "index": "b",
+              "text": "Manufacture of food products"
+            },
+            {
+              "index": "c",
+              "text": "Making clothes glossy"
+            },
+            {
+              "index": "d",
+              "text": "Manufacture of fertilizers"
+            }
+          ],
+          "correct_answer": "Manufacture of soap",
+          "correct_answer_text": "Manufacture of soap",
+          "explanation": "Correct option is (a).\n\nReason:\nCaustic soda (Sodium hydroxide - NaOH) is a strong base widely used in the manufacture of soaps and detergents through the saponification process with fats/oils."
+        },
+        {
+          "q_id": "v",
+          "statement": "Which of the following is not a part of the human digestive system?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Alimentary canal"
+            },
+            {
+              "index": "b",
+              "text": "Oesophagus"
+            },
+            {
+              "index": "c",
+              "text": "Lungs"
+            },
+            {
+              "index": "d",
+              "text": "Stomach"
+            }
+          ],
+          "correct_answer": "Lungs",
+          "correct_answer_text": "Lungs",
+          "explanation": "Correct option is (c).\n\nReason:\nLungs are the primary organs of the human 'respiratory system' responsible for gas exchange (O₂ and CO₂). Oesophagus and stomach are parts of the human alimentary canal (digestive system)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Which gas is essential for germination?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Nitrogen"
+            },
+            {
+              "index": "b",
+              "text": "Oxygen"
+            },
+            {
+              "index": "c",
+              "text": "Carbon dioxide"
+            },
+            {
+              "index": "d",
+              "text": "Hydrogen"
+            }
+          ],
+          "correct_answer": "Oxygen",
+          "correct_answer_text": "Oxygen",
+          "explanation": "Correct option is (b).\n\nReason:\nDuring seed germination, the rate of cellular respiration increases significantly to release energy from stored food. Oxygen (O₂) from the atmosphere is critically required for this intense respiration process."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The potential difference between two points is measured by an instrument called {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Ammeter"
+            },
+            {
+              "index": "b",
+              "text": "Voltmeter"
+            }
+          ],
+          "correct_answer": "Voltmeter",
+          "explanation": "Answer: Voltmeter\n\nReason: A voltmeter is used to measure the potential difference between two points in an electric circuit, and it is always connected in parallel across the circuit."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The splitting of white light into its component colors is called {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Reflection"
+            },
+            {
+              "index": "b",
+              "text": "Dispersion"
+            }
+          ],
+          "correct_answer": "Dispersion",
+          "explanation": "Answer: Dispersion\n\nReason: When white light passes through a transparent medium like a glass prism, it splits into a band of its seven component colors. This phenomenon is called dispersion of light."
+        },
+        {
+          "q_id": "iii",
+          "statement": "No matter how far you stand from a mirror, your image appears erect. The mirror is likely {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Concave"
+            },
+            {
+              "index": "b",
+              "text": "Convex"
+            }
+          ],
+          "correct_answer": "Convex",
+          "explanation": "Answer: Convex\n\nReason: A convex mirror (as well as a plane mirror) always produces an erect, diminished, and virtual image for any position of the object."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The part of DNA that provides information for one protein is called the {BLANK} of that protein.",
+          "options": [
+            {
+              "index": "a",
+              "text": "gene"
+            },
+            {
+              "index": "b",
+              "text": "chromosome"
+            }
+          ],
+          "correct_answer": "gene",
+          "explanation": "Answer: gene\n\nReason: A specific segment of a DNA molecule that carries the genetic code (information) for the synthesis of a specific protein is called a gene for that protein."
+        },
+        {
+          "q_id": "v",
+          "statement": "{BLANK} reproduces asexually through budding.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Hydra"
+            },
+            {
+              "index": "b",
+              "text": "Amoeba"
+            }
+          ],
+          "correct_answer": "Hydra",
+          "explanation": "Answer: Hydra\n\nReason: In Hydra, a bud develops as an outgrowth due to repeated cell division at one specific site, which later detaches to become a new individual. (Budding also occurs in yeast)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Growth hormone is secreted by the {BLANK} gland.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Thyroid"
+            },
+            {
+              "index": "b",
+              "text": "Pituitary"
+            }
+          ],
+          "correct_answer": "Pituitary",
+          "explanation": "Answer: Pituitary\n\nReason: The pituitary gland located in the brain secretes the growth hormone (GH), which regulates the somatic growth and development of the body."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Accumulation of chemicals in our bodies in higher amounts is called 'biological magnification'.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: The progressive accumulation of non-biodegradable harmful chemicals (like DDT) at successive trophic levels of a food chain is called 'biological magnification', not simply chemical accumulation within a single body."
+        },
+        {
+          "q_id": "ii",
+          "statement": "A wire with green insulation is usually the live wire.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: According to the international color coding system, a wire with a green plastic insulation is the 'earth wire', whereas the live wire is usually red or brown."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The SI unit of resistance is ohm (Ω).",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: According to Ohm's Law, the unit of electrical resistance is volt per ampere, which is named 'ohm' (Ω) in honor of Georg Simon Ohm."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Myopia (near-sightedness) is corrected using a convex lens.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: Myopia (near-sightedness) is corrected using a suitable focal length 'concave lens'. (A convex lens is used for hypermetropia or far-sightedness)."
+        },
+        {
+          "q_id": "v",
+          "statement": "The speed of light is higher in a rarer medium than in a denser medium.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: Light travels faster in an optically rarer medium because of lower particle density, whereas its speed decreases in a denser medium."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Unsaturated hydrocarbons generally give a clean flame.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: Due to a higher percentage of carbon in unsaturated hydrocarbons, they undergo incomplete combustion, producing a smoky (sooty) yellow flame. (Saturated hydrocarbons give a clean blue flame)."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the following:",
+      "columns": {
+        "column_A_title": "Column (A)",
+        "column_B_title": "Column (B)",
+        "pairs": [
+          {
+            "a_item": "(i) Oxygenated blood",
+            "b_item": "Medroic acid",
+            "correct_match_index": "4",
+            "explanation": "Correct match: (i) Oxygenated blood ⟶ Artery\n\nReason: Arteries primarily carry oxygen-rich (pure) blood away from the heart to various parts of the body."
+          },
+          {
+            "a_item": "(ii) Deoxygenated blood",
+            "b_item": "Citrus fruit",
+            "correct_match_index": "3",
+            "explanation": "Correct match: (ii) Deoxygenated blood ⟶ Vein\n\nReason: Veins collect carbon dioxide-rich (deoxygenated/impure) blood from body tissues and bring it back to the heart."
+          },
+          {
+            "a_item": "(iii) Bisexual flower",
+            "b_item": "Vein",
+            "correct_match_index": "6",
+            "explanation": "Correct match: (iii) Bisexual flower ⟶ Hibiscus\n\nReason: Flowers like Hibiscus (China rose), mustard, and rose contain both male (stamen) and female (pistil) reproductive organs in the same flower."
+          },
+          {
+            "a_item": "(iv) Unisexual flower",
+            "b_item": "Artery",
+            "correct_match_index": "5",
+            "explanation": "Correct match: (iv) Unisexual flower ⟶ Papaya\n\nReason: Plants like papaya and watermelon have separate male and female flowers, meaning each flower contains either stamens or pistils, not both."
+          },
+          {
+            "a_item": "(v) Orange",
+            "b_item": "Papaya",
+            "correct_match_index": "2",
+            "explanation": "Correct match: (v) Orange ⟶ Citrus fruit\n\nReason: Orange is a juicy citrus fruit naturally rich in citric acid, thus belonging to the citrus family."
+          },
+          {
+            "a_item": "(vi) Ant sting",
+            "b_item": "Hibiscus",
+            "correct_match_index": "1",
+            "explanation": "Correct match: (vi) Ant sting ⟶ Methanoic acid (Formic acid)\n\nReason: Ant stings and stinging hairs of nettle leaves inject methanoic (formic) acid, which causes a burning sensation and pain."
+          }
+        ]
+      },
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "One word / One sentence",
+      "text": "Answer in one word/sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the common name of the compound CaOCl₂.",
+          "correct_answer": "Bleaching powder",
+          "explanation": "Answer: Bleaching powder\n\n(Chemical name: Calcium oxychloride. It is produced by the action of chlorine gas on dry slaked lime)."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which metal does not corrode easily?",
+          "correct_answer": "Gold / Platinum",
+          "explanation": "Answer: Gold (Au)\n\n(Gold is an extremely unreactive/noble metal that does not easily react with air, water, or acids, hence it does not rust or corrode)."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What is an alloy?",
+          "correct_answer": "A homogeneous mixture of two or more metals, or a metal and a non-metal.",
+          "explanation": "Answer: A homogeneous mixture of two or more metals or a metal and a non-metal is called an alloy (e.g., Brass = Cu + Zn)."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which part of our brain detects the sense of smell?",
+          "correct_answer": "Forebrain (Olfactory region of cerebrum)",
+          "explanation": "Answer: Forebrain (Olfactory region / Cerebrum)\n\n(The forebrain contains specialized regions to receive sensory impulses related to smell, taste, hearing, etc.)."
+        },
+        {
+          "q_id": "v",
+          "statement": "What happens at the synapse between two neurons?",
+          "correct_answer": "Chemical transmission of electrical impulses occurs via neurotransmitters.",
+          "explanation": "Answer: Conversion of electrical signals into chemical signals and transmission of messages through chemicals (neurotransmitters)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Write the practical/commercial unit of electric power.",
+          "correct_answer": "Watt (W) / Kilowatt (kW)",
+          "explanation": "Answer: Watt (W)\n\n(For commercial electrical energy billing, kilowatt-hour (kWh) is used, but the SI unit of power is Watt)."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Which substance solution is used for whitewashing? Write the reaction.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Which substance solution is used for whitewashing? Write the reaction.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Name of substance: A solution of 'slaked lime' [Calcium hydroxide - Ca(OH)₂], prepared by dissolving 'quicklime' (Calcium oxide - CaO) in water, is used for whitewashing.\n\n2. Reaction of quicklime with water:\nCaO(s) (Quicklime) + H₂O(l) ⟶ Ca(OH)₂(aq) (Slaked lime) + Heat\n\n3. Reaction giving shiny finish on walls:\nCa(OH)₂(aq) + CO₂(g) ⟶ CaCO₃(s) (Calcium carbonate) + H₂O(l)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why does the colour of copper sulphate solution change when an iron nail is dipped in it? Give reason.",
+            "correct_answer": "",
+            "explanation": "Answer:\nReason: This is an example of a displacement reaction. Iron (Fe) is more reactive than copper (Cu). When an iron nail is dipped into a blue-colored copper sulphate (CuSO₄) solution, iron displaces copper from its solution to form iron sulphate (FeSO₄).\n\nResult: Due to the formation of iron sulphate, the blue color of the copper sulphate solution gradually fades into a light green color.\n\nEquation:\nFe(s) + CuSO₄(aq) (Blue) ⟶ FeSO₄(aq) (Light green) + Cu(s)"
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "How can you identify acids and bases? Write any two methods.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How can you identify acids and bases? Write any two methods.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo major methods to identify acids and bases are:\n\n1. Using Litmus Paper (Indicators):\n   - Acids: Turn blue litmus paper red.\n   - Bases: Turn red litmus paper blue.\n\n2. Using pH Scale:\n   - Acids: Solutions with a pH value less than 7 are acidic.\n   - Bases: Solutions with a pH value greater than 7 are basic."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define neutralization reaction. Give one example.",
+            "correct_answer": "",
+            "explanation": "Answer:\nDefinition:\nWhen an acid reacts with a base, they neutralize each other's effect, resulting in the formation of salt and water. This chemical reaction is called a neutralization reaction.\n\nGeneral equation:\nAcid + Base ⟶ Salt + Water\n\nExample:\nHCl(aq) (Hydrochloric acid) + NaOH(aq) (Sodium hydroxide) ⟶ NaCl(aq) (Sodium chloride) + H₂O(l) (Water)"
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Define calcination.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define calcination.",
+          "correct_answer": "",
+          "explanation": "Answer:\nCalcination:\nIt is the process of strongly heating carbonate ores in a limited supply of air (or absence of air) at temperatures below their melting point to convert them into metal oxides.\n\nDuring this process, moisture and volatile impurities (like CO₂) are expelled from the ore.\n\nExample:\nZnCO₃(s) (Calamine) ⟶(Heat) ZnO(s) + CO₂(g)↑"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define roasting.",
+            "correct_answer": "",
+            "explanation": "Answer:\nRoasting:\nIt is the process of strongly heating sulphide ores in the presence of excess air at temperatures below their melting point to convert them into metal oxides.\n\nIn this process, sulphide ores are converted into oxides and sulphur dioxide gas is released.\n\nExample:\n2ZnS(s) (Zinc blende) + 3O₂(g) ⟶(Heat) 2ZnO(s) + 2SO₂(g)↑"
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write any two properties of ethanol.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write any two properties of ethanol.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo major properties of ethanol (C₂H₅OH) are:\n\n1. Physical property: It is a colorless, flammable liquid with a characteristic odor at room temperature. It is completely miscible (soluble) in water in all proportions.\n2. Chemical property (Reaction with sodium): Ethanol reacts with sodium metal to form sodium ethoxide and releases hydrogen gas (H₂).\n(2C₂H₅OH + 2Na ⟶ 2C₂H₅ONa + H₂↑)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two properties of ethanoic acid.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo major properties of ethanoic acid (CH₃COOH / Acetic acid) are:\n\n1. Physical property: It is a colorless liquid with a sour taste and a pungent vinegar-like smell. Since pure ethanoic acid has a melting point of 290 K, it often freezes during winter and is called 'glacial acetic acid'.\n2. Acidic property (Reaction with carbonates): It turns blue litmus red and reacts with sodium carbonate to release CO₂ gas with brisk effervescence.\n(2CH₃COOH + Na₂CO₃ ⟶ 2CH₃COONa + H₂O + CO₂↑)"
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write the difference between autotrophic nutrition and heterotrophic nutrition. (Any two)",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the difference between autotrophic nutrition and heterotrophic nutrition. (Any two)",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo main differences between autotrophic and heterotrophic nutrition:\n\n1. Food synthesis: Autotrophic organisms (like green plants) synthesize their own food from inorganic substances (CO₂, H₂O) using photosynthesis; whereas heterotrophic organisms (like humans, fungi) depend directly or indirectly on autotrophs for their food.\n2. Requirement of chlorophyll and light: Chlorophyll and sunlight are mandatory for autotrophic nutrition; whereas they are not required in heterotrophic nutrition."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the difference between blood and lymph. (Any two)",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main differences between blood and lymph:\n\n1. Color and corpuscles: Blood is a red vascular connective tissue containing Red Blood Cells (RBCs) and hemoglobin; whereas lymph is a colorless/pale yellow fluid lacking RBCs and hemoglobin.\n2. Direction of flow and protein: Blood flows in both directions (heart to organs and organs to heart) and has high protein content; whereas lymph flows only in one direction (tissues to heart) and has lower protein content."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write one function of each of the following plant/animal hormones:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Growth hormone",
+          "correct_answer": "",
+          "explanation": "Answer: Growth Hormone:\nIt is secreted by the pituitary gland. Its main function is to stimulate and regulate the normal somatic growth and development of bones, muscles, and other body organs."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Insulin",
+          "correct_answer": "",
+          "explanation": "Answer: Insulin:\nIt is secreted by the islets of Langerhans in the pancreas. Its primary function is to regulate and maintain blood sugar (glucose) levels."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Auxin",
+            "correct_answer": "",
+            "explanation": "Answer: Auxin:\nIt is synthesized at the shoot tips of plants. Its main function is to promote cell elongation and help plants bend towards light (phototropism)."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Gibberellins",
+            "correct_answer": "",
+            "explanation": "Answer: Gibberellins:\nThey help in the growth of stems, promote seed germination, and assist in increasing the size of fruits."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Name the methods of reproduction used by unicellular organisms. (Any two)",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Name the methods of reproduction used by unicellular organisms. (Any two)",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo major methods of asexual reproduction in unicellular organisms are:\n\n1. Fission: In this method, a parent cell divides into two (binary fission - e.g., Amoeba, Leishmania) or more (multiple fission - e.g., Plasmodium) daughter cells.\n2. Budding: In this method, a small bud develops on the parent cell, which grows and detaches to form a new individual (e.g., Yeast)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Name any two parts of the human male reproductive system.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo major parts of the human male reproductive system and their brief functions:\n\n1. Testes: Main reproductive organs located outside the abdominal cavity in the scrotum, where sperms and the hormone 'testosterone' are produced.\n2. Vas deferens (Sperm duct): A tube that delivers sperms produced in the testes to the seminal vesicles and urethra."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Find the focal length of a convex mirror whose radius of curvature is 38 cm.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the focal length of a convex mirror whose radius of curvature is 38 cm.",
+          "correct_answer": "",
+          "explanation": "Answer:\n\nGiven:\nRadius of curvature of convex mirror (R) = +38 cm (radius of a convex mirror is positive)\n\nFormula:\nFocal length (f) = Radius of curvature (R) / 2\n\nf = +38 / 2\nf = +19 cm\n\nAnswer: The focal length of the convex mirror is +19 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "The focal length of a lens is +50 m, write its power.",
+            "correct_answer": "",
+            "explanation": "Answer:\n\nGiven:\nFocal length of lens (f) = +50 m (positive value indicates a convex lens)\n\nFormula:\nPower of lens (P) = 1 / f (in meters)\n\nP = 1 / 50\nP = +0.02 D (Dioptre)\n\nAnswer: The power of the lens is +0.02 Dioptre."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Why do stars twinkle? Give reason.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why do stars twinkle? Give reason.",
+          "correct_answer": "",
+          "explanation": "Answer:\nReason: The twinkling of stars is due to 'atmospheric refraction' of starlight.\n\nExplanation: Stars are very far away from Earth and thus act as point sources of light. As starlight travels through the varying layers of Earth's atmosphere, refraction occurs repeatedly due to changing temperatures and densities. This causes the apparent position and amount of starlight reaching our eyes to fluctuate continuously, making the stars appear to twinkle."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why is a normal eye not able to see clearly the objects placed closer than 25 cm?",
+            "correct_answer": "",
+            "explanation": "Answer:\nReason:\nThe ciliary muscles of the human eye adjust the curvature and focal length of the eye lens. To view a nearby object, the ciliary muscles contract, increasing the curvature of the lens.\n\nHowever, the ciliary muscles cannot contract beyond a certain limit. Therefore, for an object placed closer than 25 cm, the eye lens cannot decrease its focal length sufficiently to focus a clear image on the retina, making the image appear blurred."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Define electric current and write its unit.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define electric current and write its unit.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Definition: Electric current is defined as the rate of flow of net electric charge through a cross-section of a conductor per unit time.\n(Formula: I = Q / t)\n\n2. SI Unit: The SI unit of electric current is 'ampere' (Ampere / A).\n(1 Ampere = 1 Coulomb / 1 Second)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define electric potential difference and write its unit.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Definition: Electric potential difference between two points in an electric circuit is defined as the amount of work done in moving a unit positive charge from one point to the other.\n(Formula: V = W / Q)\n\n2. SI Unit: The SI unit of electric potential difference is 'volt' (Volt / V).\n(1 Volt = 1 Joule / 1 Coulomb)."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Name any two methods to produce a magnetic field.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Name any two methods to produce a magnetic field.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo major methods to produce a magnetic field are:\n\n1. Using current-carrying conductors: Passing electric current through a straight conductor, circular loop, or a solenoid produces a magnetic field around it.\n2. Using permanent magnets: Using a bar magnet or a horseshoe magnet to create a magnetic field."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two properties of magnetic field lines.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo major properties of magnetic field lines are:\n\n1. Direction and closed loops: Magnetic field lines emerge from the north pole (N) and enter the south pole (S) outside the magnet, and travel from S to N inside the magnet, forming continuous closed loops.\n2. Never intersect: Two magnetic field lines never intersect each other, because if they did, it would mean two directions of the magnetic field at the same point, which is impossible."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "What will happen if we kill all organisms of the first trophic level?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What will happen if we kill all organisms of the first trophic level?",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. The first trophic level consists of autotrophic producers (green plants) that convert solar energy into chemical energy (food).\n2. If all organisms of the first trophic level are eliminated, primary consumers (herbivores) will not get food and will die of starvation.\n3. Consequently, higher trophic levels (carnivores) will also be deprived of food. The entire food chain will collapse, leading to a complete breakdown and imbalance of the ecosystem."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is ozone and how does it affect the ecosystem?",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Ozone: Ozone (O₃) is a molecule formed by three atoms of oxygen. It is present as a protective layer in the upper atmosphere (stratosphere).\n\n2. Effect on ecosystem: The ozone layer absorbs harmful ultraviolet (UV) radiations coming from the sun, preventing them from reaching Earth's surface. Without this layer, UV rays would cause skin cancer and cataracts in humans, damage crops, and severely disrupt the entire ecosystem."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Define hydrocarbon and write the names, formulas and structural formulas of the first four hydrocarbons.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define hydrocarbon and write the names, formulas and structural formulas of the first four hydrocarbons.",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) Definition of Hydrocarbon:\nOrganic compounds containing only carbon (C) and hydrogen (H) atoms bonded together through covalent bonds are called hydrocarbons.\n\n(2) First four hydrocarbons of the alkane series:\n\n1. Methane:\n   - Molecular formula: CH₄\n   - Structural formula:\n        H\n        |\n     H–C–H\n        |\n        H\n\n2. Ethane:\n   - Molecular formula: C₂H₆\n   - Structural formula:\n     H   H\n     |   |\n   H–C––C–H\n     |   |\n     H   H\n\n3. Propane:\n   - Molecular formula: C₃H₈\n   - Structural formula:\n     H   H   H\n     |   |   |\n   H–C––C––C–H\n     |   |   |\n     H   H   H\n\n4. Butane:\n   - Molecular formula: C₄H₁₀\n   - Structural formula:\n     H   H   H   H\n     |   |   |   |\n   H–C––C––C––C–H\n     |   |   |   |\n     H   H   H   H"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the names of the following compounds:",
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_science_18.png",
+            "correct_answer": "",
+            "explanation": "Answer:\nIUPAC (and common) names of the given structural formulas:\n\n(i) H–C(=O)–H:\n   - Functional group: Aldehyde (–CHO)\n   - IUPAC name: Methanal\n   - (Common name: Formaldehyde)\n\n(ii) CH₃–CH₂–OH (H₃C–CH₂–OH):\n   - Functional group: Alcohol (–OH)\n   - IUPAC name: Ethanol\n   - (Common name: Ethyl alcohol)\n\n(iii) H–C≡C–H:\n   - Functional group: Alkyne (Triple bond ≡)\n   - IUPAC name: Ethyne\n   - (Common name: Acetylene)"
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Why did Mendel select pea plants for his experiments? Write any three reasons.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why did Mendel select pea plants for his experiments? Write any three reasons.",
+          "correct_answer": "",
+          "explanation": "Answer:\nGregor Johann Mendel selected garden pea plants (Pisum sativum) for his genetic experiments due to the following three main reasons:\n\n1. Distinct contrasting traits: Pea plants exhibit several clear, mutually contrasting traits (such as tall/dwarf plants, round/wrinkled seeds, yellow/green seeds, etc.).\n2. Short life cycle: Pea plants are annual plants with a very short life cycle, enabling the study of multiple generations in a short time.\n3. Ease of controlled pollination: Pea flowers are bisexual and normally self-pollinating, but artificial cross-pollination (by emasculation) can be easily performed. They also produce a large number of seeds per generation."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "State Mendel's 'Law of Dominance'.",
+            "correct_answer": "",
+            "explanation": "Answer:\nMendel's Law of Dominance:\n\n1. Statement: When a cross is made between two pure (homozygous) parents having contrasting traits for a single character, only one trait expresses itself in the first filial generation (F₁ generation), while the other remains hidden.\n\n2. Dominant and Recessive traits:\n   - Dominant trait: The trait that expresses itself in the F₁ generation is called the dominant trait (e.g., in a cross between pure tall 'TT' and pure dwarf 'tt' plants, only 'tallness' appears in F₁).\n   - Recessive trait: The trait that remains masked/hidden in the F₁ generation is called the recessive trait (e.g., dwarfness)."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "What is the function of an earth wire? Why is it necessary to earth metallic electrical appliances?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the function of an earth wire? Why is it necessary to earth metallic electrical appliances?",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) Function of Earth Wire:\nEarth wire acts as a safety device. It connects the metallic body of an electrical appliance to the earth through a copper plate buried deep in the ground, providing a low-resistance path for any leakage current.\n\n(2) Necessity of Earthing:\nWhen using appliances with metallic bodies (like geysers, refrigerators, irons, coolers), if the insulation of the live wire is damaged and touches the metallic body, the appliance becomes live. If it is earthed, the leakage current safely passes into the ground due to very low resistance instead of passing through a person's body, thus preventing severe or fatal electric shocks."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Why do two magnetic field lines not intersect each other? Give reason.",
+            "correct_answer": "",
+            "explanation": "Answer: Reason:\nThe tangent drawn at any point on a magnetic field line gives the direction of the magnetic field at that point. If two field lines crossed each other, the compass needle at the intersection point would point towards two different directions, which is physically impossible. Therefore, two field lines never intersect."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Write the use of a fuse wire.",
+            "correct_answer": "",
+            "explanation": "Answer: Use of Fuse Wire:\nA electric fuse is a safety wire made of an alloy with low melting point and high resistance (copper, tin, lead). It is used in circuits to protect electrical wiring and expensive appliances (TV, fridge, etc.) from burning or damage by automatically melting and breaking the circuit when excessive current flows due to short-circuiting or overloading."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "Convert the following chemical reactions into words:",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Convert the following chemical reactions into words :\n(i) Hydrogen gas combines with nitrogen to form ammonia.\n(ii) Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.\n(iii) Barium chloride reacts with sulphuric acid to give barium sulphate and hydrochloric acid.\n(iv) Hydrogen sulphide gas burns in air to give water and sulphur dioxide.",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe given reactions are correctly described in words as follows:\n\n(i) Hydrogen gas combines with nitrogen to form ammonia.\n(Word equation: Hydrogen + Nitrogen ⟶ Ammonia)\n\n(ii) Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.\n(Word equation: Potassium + Water ⟶ Potassium hydroxide + Hydrogen)\n\n(iii) Barium chloride reacts with sulphuric acid to give barium sulphate and hydrochloric acid.\n(Word equation: Barium chloride + Sulphuric acid ⟶ Barium sulphate + Hydrochloric acid)\n\n(iv) Hydrogen sulphide gas burns in air to give water and sulphur dioxide.\n(Word equation: Hydrogen sulphide + Oxygen ⟶ Water + Sulphur dioxide)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Balance the following chemical equations :\n(i) HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + H₂O\n(ii) NaCl + AgNO₃ → AgCl + NaNO₃\n(iii) NaOH + H₂SO₄ → Na₂SO₄ + H₂O\n(iv) BaCl₂ + H₂SO₄ → BaSO₄ + HCl",
+            "correct_answer": "",
+            "explanation": "Answer:\nBalanced chemical equations according to the law of conservation of mass are:\n\n(i) 2HNO₃ + Ca(OH)₂ ⟶ Ca(NO₃)₂ + 2H₂O\n\n(ii) NaCl + AgNO₃ ⟶ AgCl + NaNO₃\n(This equation is already completely balanced).\n\n(iii) 2NaOH + H₂SO₄ ⟶ Na₂SO₄ + 2H₂O\n\n(iv) BaCl₂ + H₂SO₄ ⟶ BaSO₄ + 2HCl"
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "Describe the structure and function of a nephron. (With diagram)",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Describe the structure and function of a nephron. (With diagram)",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/nefran.png",
+          "explanation": "Answer:\n(1) Introduction to Nephron:\nNephron is the basic structural and functional excretory unit of the kidney. Each human kidney contains about 1-1.2 million nephrons.\n\n(2) Structure of Nephron:\n- Bowman's Capsule and Glomerulus: A cup-shaped upper end enclosing a cluster of capillaries (glomerulus) that filters blood.\n- Renal Tubule: A long coiled tube attached to the Bowman's capsule (consisting of proximal convoluted tubule, Loop of Henle, and distal convoluted tubule).\n- Collecting Duct: Where the filtered urine is collected and passed on to the ureter.\n\n(3) Major Functions of Nephron:\n1. Filtration: Blood is filtered under high pressure in the glomerulus, allowing water, glucose, salts, and urea to enter the Bowman's capsule.\n2. Selective Reabsorption: As the filtrate flows along the tubule, useful substances like glucose, amino acids, and required water are reabsorbed back into the blood capillaries.\n3. Secretion / Excretion: Waste products like excess water, urea, and salts are left behind to form urine, which is excreted.\n\n[Diagram: Draw a neat and labeled diagram of a nephron according to the given imgUrl.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are the components of the transport system in plants? How do water and minerals get transported?",
+            "correct_answer": "",
+            "explanation": "Answer:\n(1) Main components of transport system in plants:\nPlants have two specialized vascular tissues for transport:\n1. Xylem: For the transport of water and mineral salts.\n2. Phloem: For the transport of synthesized food from leaves to other parts.\n\n(2) Mechanism of water and mineral transport:\n1. Absorption by root hairs: Roots absorb mineral ions and water from the soil, creating a difference in ion concentration between roots and soil.\n2. Water column in xylem: Due to this concentration difference, water moves into root xylem, creating a continuous column of water.\n3. Transpiration Pull: Water is continually lost through stomata in leaves by transpiration. This creates a suction pull (transpiration pull) that draws water and dissolved minerals upwards from the roots through xylem vessels to the highest points of the plant."
+          }
+        ]
+      },
+      "word_limit": ""
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "Draw ray diagrams for the image formation by a concave mirror when the object is placed at :\n(i) Focus (F)\n(ii) Centre of curvature (C)",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw ray diagrams for the image formation by a concave mirror when the object is placed at :\n(i) Focus (F)\n(ii) Centre of curvature (C)",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/avtal_darpan.png",
+          "explanation": "Answer:\nDescription and ray diagrams for image formation by a concave mirror:\n\n(i) When the object is placed at the principal focus (F):\n- Position of image: At infinity.\n- Size of image: Highly enlarged (infinitely large).\n- Nature of image: Real and inverted.\n- Ray diagram details: Rays originating from the object parallel to the principal axis and through the center of curvature reflect and become parallel, meeting at infinity.\n\n(ii) When the object is placed at the centre of curvature (C):\n- Position of image: At the centre of curvature (C).\n- Size of image: Same size as the object.\n- Nature of image: Real and inverted.\n- Ray diagram details: A ray parallel to the principal axis passes through focus after reflection, and a ray passing through focus goes parallel, forming an inverted image of the same size right below C.\n\n[Diagram: Draw clear ray diagrams for both positions in the answer sheet according to the image (imgUrl).]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define refraction along with its two laws. Write one use of a concave mirror.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/apavartan_kiran.png",
+            "explanation": "Answer:\n(1) Refraction of Light:\nWhen a ray of light travels obliquely from one transparent medium to another transparent medium, its direction of propagation changes at the boundary separating the two media. This phenomenon is called refraction of light.\n\n(2) Two Laws of Refraction:\n1. First Law: The incident ray, the refracted ray, and the normal to the interface of two transparent media at the point of incidence, all lie in the same plane.\n2. Second Law (Snell's Law): The ratio of the sine of the angle of incidence (sin i) to the sine of the angle of refraction (sin r) is a constant for the light of a given color and for the given pair of media.\n   (sin i / sin r = constant / μ)\n\n(3) Use of a Concave Mirror:\nConcave mirrors are commonly used in torches, searchlights, and vehicle headlights to get powerful parallel beams of light (or as shaving mirrors / by dentists to see large images of teeth).\n\n[Diagram: Draw a ray diagram showing refraction of light in the answer."]
+          }
+        ]
+      },
+      "word_limit": ""
+    }
+  ]
+}

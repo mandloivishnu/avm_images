@@ -1,0 +1,114 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Corrosion",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Corrosion",
+      "definitionBean": {
+        "title": "Corrosion",
+        "definition": "When a metal comes in contact with moisture, acid, oxygen, or gases present around it, causing it to gradually decay (destroy), this process is called 'corrosion'.",
+        "explanation": "The action of atmospheric gases and moisture on metal surfaces forms layers of unwanted compounds (such as oxides, carbonates, etc.), weakening the metal.",
+        "importantPoints": [
+          "Gradual decay of metals by the atmosphere",
+          "Rusting of iron is the most common example",
+          "Black coating on silver and green coating on copper are other examples",
+          "It reduces the strength of metals"
+        ],
+        "highlightWords": [
+          "Corrosion",
+          "Moisture",
+          "Oxygen",
+          "Decay"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Prevention of Corrosion",
+      "definitionBean": {
+        "title": "Prevention of Corrosion",
+        "definition": "Metals can be protected from corrosion by preventing their contact with moisture and oxygen, using paint, grease, or galvanization.",
+        "explanation": "Stopping direct contact between the metal surface and the atmosphere halts the corrosion process. This is done via coating, galvanization, and alloying.",
+        "importantPoints": [
+          "Applying paint or grease",
+          "Galvanization (coating with zinc)",
+          "Electroplating and making alloys"
+        ],
+        "highlightWords": [
+          "Galvanization",
+          "Paint",
+          "Alloy"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Definition and Examples of Corrosion",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "What is corrosion? Explain the chemical reason for rusting of iron.",
+          "correct_answer": "Decay of metals due to moisture and oxygen is corrosion; iron forms a layer of hydrated iron oxide.",
+          "imgUrl": "",
+          "explanation": "When metals come into contact with moisture, oxygen, or acid and begin to decay, it is called corrosion. In the presence of moisture ($\\text{H}_2\\text{O}$) and oxygen ($\\text{O}_2$), a brown layer of hydrated iron oxide ($\\text{Fe}_2\\text{O}_3 \\cdot x\\text{H}_2\\text{O}$) is formed on iron, which is called rusting."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "What color layer forms on the surface of silver and copper due to corrosion?",
+            "correct_answer": "Black layer on silver and green layer on copper.",
+            "imgUrl": "",
+            "explanation": "Silver reacts with sulfur present in the air to form a black coating (silver sulfide), and copper reacts with moist carbon dioxide to form a green coating (copper carbonate)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Prevention of Corrosion (Including Rancidity)",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What measures are taken to protect metals from corrosion? Write briefly.",
+          "correct_answer": "Paint, grease, galvanization, and alloying protect against corrosion.",
+          "imgUrl": "",
+          "explanation": "Key measures to prevent corrosion: 1. Applying paint, varnish, or grease on the metal surface. 2. Galvanization (coating iron with a layer of zinc). 3. Electroplating. 4. Making alloys, such as stainless steel."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What is rancidity? Write two measures to protect food items from it.",
+            "correct_answer": "Oxidation of fats and oils is rancidity; antioxidants and nitrogen gas are measures.",
+            "imgUrl": "",
+            "explanation": "The change in taste and smell of fatty and oily food items upon oxidation is called 'rancidity'. Prevention measures: 1. Adding antioxidants to food items. 2. Flushing chip bags with nitrogen gas."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Heredity and Evolution",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Heredity and Mendel's Experiments",
+      "definitionBean": {
+        "title": "Heredity and Mendel's Laws",
+        "definition": "The transmission of traits from parents to offspring is called 'Heredity'; Gregor John Mendel is known as the father of genetics who conducted his experiments on pea plants[cite: 11].",
+        "explanation": "Based on his hybridization experiments (Monohybrid and Dihybrid Cross), Mendel propounded the Law of Dominance, Law of Segregation, and Law of Independent Assortment[cite: 11].",
+        "importantPoints": [
+          "Heredity: Transmission of traits from generation to generation[cite: 11]",
+          "Mendel's experiment: Selection of pea plant (Pisum sativum)[cite: 11]",
+          "Dominant trait: Those which express themselves in the first generation[cite: 11]",
+          "Recessive trait: Those which remain hidden and may appear later in offspring[cite: 11]"
+        ],
+        "highlightWords": [
+          "Heredity",
+          "Mendel",
+          "Dominant trait",
+          "Recessive trait"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Sex Determination and Evolution",
+      "definitionBean": {
+        "title": "Sex Determination and Evolution",
+        "definition": "Whether a newborn in humans is a boy or a girl depends on its sex chromosomes; and the emergence of new species through gradual changes in organisms is called 'Evolution'[cite: 11].",
+        "explanation": "Humans have 23 pairs of chromosomes, out of which 22 pairs are autosomes and 1 pair is sex chromosomes (XX in females and XY in males). The father's X or Y chromosome determines the sex of the child[cite: 11].",
+        "importantPoints": [
+          "Human chromosomes: Total 23 pairs (46 chromosomes)[cite: 11]",
+          "Female sex chromosomes: XX, Male sex chromosomes: XY[cite: 11]",
+          "Homologous Organs: Same structure, different functions[cite: 11]",
+          "Analogous Organs: Different structure, same functions[cite: 11]"
+        ],
+        "highlightWords": [
+          "Sex determination",
+          "Chromosome",
+          "Evolution",
+          "Homologous organs"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Heredity and Mendel's Experiments",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "What is heredity? Why did Mendel select a pea plant for his experiment?",
+          "correct_answer": "Transmission of parental traits to offspring is heredity[cite: 11].",
+          "imgUrl": "",
+          "explanation": "The process of transfer of parental traits to offspring is called heredity[cite: 11]. Mendel selected the pea plant because its plants were easily available, had a short lifespan, possessed distinct contrasting traits (tall-dwarf, yellow-green), and both self-pollination and cross-pollination could be easily carried out[cite: 11]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "What is the difference between dominant and recessive traits? Give an example[cite: 11].",
+            "correct_answer": "Dominant traits appear in the F1 generation, recessive ones do not[cite: 11].",
+            "imgUrl": "",
+            "explanation": "Traits that clearly appear in the first generation (F1) of hybridization are called dominant traits (e.g., tallness); and traits that remain hidden are called recessive traits (e.g., dwarfism)[cite: 11]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Sex Determination and Evolution",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "How is the sex of a child determined in humans? Give a diagram or explanation[cite: 11].",
+          "correct_answer": "Father's X or Y chromosome determines sex[cite: 11].",
+          "imgUrl": "",
+          "explanation": "In humans, females have XX and males have XY chromosomes[cite: 11]. The egg from the mother always carries an X chromosome, while the sperm from the father can carry either an X or a Y chromosome[cite: 11]. If the father's X chromosome combines, it results in a girl, and if a Y chromosome combines, it results in a boy[cite: 11]. Thus, the father's chromosome is primarily responsible for determining the sex of the child[cite: 11]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Explain homologous and analogous organs with examples[cite: 11].",
+            "correct_answer": "Homologous: same structure, different function; Analogous: different structure, same function[cite: 11].",
+            "imgUrl": "",
+            "explanation": "Homologous organs are those that have a common fundamental structure and embryonic origin but perform different functions (e.g., forelimbs of a frog, bird, and human); analogous organs are those that have different anatomical structures but perform similar functions (e.g., wings of a bird and wings of a bat)[cite: 11]."
+          }
+        ]
+      }
+    }
+  ]
+}

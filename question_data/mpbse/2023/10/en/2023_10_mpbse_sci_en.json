@@ -1,0 +1,922 @@
+{
+  "paper_details": {
+    "paperYear": "2023",
+    "subjectName": "SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×8=8",
+      "text": "Choose the correct option and write:",
+      "explanation": "Each question's answer is chosen based on relevant physical and chemical concepts, as expected in the examination.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What type of reaction is the reaction of calcium oxide with water?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Endothermic reaction"
+            },
+            {
+              "index": "b",
+              "text": "Exothermic reaction"
+            },
+            {
+              "index": "c",
+              "text": "Neutralization reaction"
+            },
+            {
+              "index": "d",
+              "text": "Redox reaction"
+            }
+          ],
+          "correct_answer": "Exothermic reaction",
+          "correct_answer_text": "Exothermic reaction",
+          "explanation": "Correct option is (b).\n\nReason:\nCalcium oxide (CaO) reacts vigorously with water to form slaked lime [Ca(OH)₂] and produces a large amount of heat. Therefore, it is an exothermic reaction."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which property is not exhibited by metals?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Electrical conductivity"
+            },
+            {
+              "index": "b",
+              "text": "Ductility"
+            },
+            {
+              "index": "c",
+              "text": "Brittleness"
+            },
+            {
+              "index": "d",
+              "text": "Thermal conductivity"
+            }
+          ],
+          "correct_answer": "Brittleness",
+          "correct_answer_text": "Brittleness",
+          "explanation": "Correct option is (c).\n\nReason:\nMetals are generally malleable and ductile. Brittleness (the property of breaking into small pieces upon striking) is a main physical property of non-metals, not metals."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The process of corrosion is a type of:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Reduction"
+            },
+            {
+              "index": "b",
+              "text": "Weathering / Degradation"
+            },
+            {
+              "index": "c",
+              "text": "Excretion"
+            },
+            {
+              "index": "d",
+              "text": "Absorption"
+            }
+          ],
+          "correct_answer": "Weathering / Degradation",
+          "correct_answer_text": "Weathering / Degradation",
+          "explanation": "Correct option is (b).\n\nReason:\nIn the process of corrosion or tarnishing, the surface of substances and metals gradually degrades due to physical and chemical factors."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Respiration in living organisms takes place through which method?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Flow"
+            },
+            {
+              "index": "b",
+              "text": "Osmosis"
+            },
+            {
+              "index": "c",
+              "text": "Diffusion"
+            },
+            {
+              "index": "d",
+              "text": "Egress"
+            }
+          ],
+          "correct_answer": "Diffusion",
+          "correct_answer_text": "Diffusion",
+          "explanation": "Correct option is (c).\n\nReason:\nThe exchange of oxygen (O₂) and carbon dioxide (CO₂) gases at the cellular level and respiratory surfaces (such as stomata or alveoli) takes place entirely through the process of diffusion."
+        },
+        {
+          "q_id": "v",
+          "statement": "The charge in a state of equilibrium is:",
+          "options": [
+            {
+              "index": "a",
+              "text": "+1 Coulomb"
+            },
+            {
+              "index": "b",
+              "text": "−1 Coulomb"
+            },
+            {
+              "index": "c",
+              "text": "2 Coulombs"
+            },
+            {
+              "index": "d",
+              "text": "Zero"
+            }
+          ],
+          "correct_answer": "Zero",
+          "correct_answer_text": "Zero",
+          "explanation": "Correct option is (d).\n\nReason:\nIn electrical equilibrium or a neutral state, the total number of positive charges and negative charges is equal, so the resulting net charge is zero."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The unit of resistance is:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Volt"
+            },
+            {
+              "index": "b",
+              "text": "Watt"
+            },
+            {
+              "index": "c",
+              "text": "Ohm"
+            },
+            {
+              "index": "d",
+              "text": "Ampere"
+            }
+          ],
+          "correct_answer": "Ohm",
+          "correct_answer_text": "Ohm",
+          "explanation": "Correct option is (c).\n\nReason:\nThe hindrance produced by a conductor in the flow of current is called resistance, and its SI unit is ohm (Ω). (Volt is the unit of potential difference, watt of power, and ampere of current)."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Which of the following is used to measure electric current?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Ammeter"
+            },
+            {
+              "index": "b",
+              "text": "Voltmeter"
+            },
+            {
+              "index": "c",
+              "text": "Galvanometer"
+            },
+            {
+              "index": "d",
+              "text": "Meter"
+            }
+          ],
+          "correct_answer": "Ammeter",
+          "correct_answer_text": "Ammeter",
+          "explanation": "Correct option is (a).\n\nReason:\nTo measure the magnitude of current flowing in an electric circuit, an ammeter is connected in series."
+        },
+        {
+          "q_id": "viii",
+          "statement": "Human beings in an ecosystem are:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Producers"
+            },
+            {
+              "index": "b",
+              "text": "Consumers"
+            },
+            {
+              "index": "c",
+              "text": "Decomposers"
+            },
+            {
+              "index": "d",
+              "text": "Autotrophs"
+            }
+          ],
+          "correct_answer": "Consumers",
+          "correct_answer_text": "Consumers",
+          "explanation": "Correct option is (b).\n\nReason:\nHumans cannot synthesize their own food and depend on plants and other animals for nutrition, hence they are heterotrophic consumers (omnivores)."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×7=7",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "{BLANK} acid is present in vinegar.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Citric"
+            },
+            {
+              "index": "b",
+              "text": "Acetic"
+            }
+          ],
+          "correct_answer": "Acetic",
+          "explanation": "Answer: Acetic\n\nReason: Vinegar mainly contains an aqueous solution of about 5-8% ethanoic acid (acetic acid - CH₃COOH)."
+        },
+        {
+          "q_id": "ii",
+          "statement": "A homogeneous mixture of two or more metals is called an {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Alloy"
+            },
+            {
+              "index": "b",
+              "text": "Compound"
+            }
+          ],
+          "correct_answer": "Alloy",
+          "explanation": "Answer: Alloy\n\nReason: A homogeneous physical mixture of two or more metals or a metal and a non-metal is called an alloy (e.g., brass, bronze)."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The hormone testosterone is secreted by the {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Ovary"
+            },
+            {
+              "index": "b",
+              "text": "Testis"
+            }
+          ],
+          "correct_answer": "Testis",
+          "explanation": "Answer: Testis\n\nReason: In males, the primary male sex hormone 'testosterone' is secreted by the Leydig cells of the testes."
+        },
+        {
+          "q_id": "iv",
+          "statement": "If pollen grains from one flower are transferred to another flower, this process is called {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Self-pollination"
+            },
+            {
+              "index": "b",
+              "text": "Cross-pollination"
+            }
+          ],
+          "correct_answer": "Cross-pollination",
+          "explanation": "Answer: Cross-pollination\n\nReason: When pollen grains of a flower reach the stigma of a flower of another plant, this pollination process is called cross-pollination."
+        },
+        {
+          "q_id": "v",
+          "statement": "The chromosome responsible for male offspring is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "X"
+            },
+            {
+              "index": "b",
+              "text": "Y"
+            }
+          ],
+          "correct_answer": "Y",
+          "explanation": "Answer: Y\n\nReason: In humans, the 'Y' chromosome received from the father determines the zygote to develop as a male (boy - XY) offspring."
+        },
+        {
+          "q_id": "vi",
+          "statement": "We can see objects in the presence of {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Light"
+            },
+            {
+              "index": "b",
+              "text": "Sound"
+            }
+          ],
+          "correct_answer": "Light",
+          "explanation": "Answer: Light\n\nReason: When rays from a light source fall on an object and are reflected to the retina of our eyes, only then is the object visible."
+        },
+        {
+          "q_id": "vii",
+          "statement": "The deviation of a light ray of {BLANK} colour is maximum through a prism.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Red"
+            },
+            {
+              "index": "b",
+              "text": "Violet"
+            }
+          ],
+          "correct_answer": "Violet",
+          "explanation": "Answer: Violet\n\nReason: In a glass prism, violet light waves have the shortest wavelength and highest refractive index, hence their angle of deviation is the largest."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×8=8",
+      "text": "Match the following:",
+      "columns": {
+        "column_A_title": "Column (A)",
+        "column_B_title": "Column (B)",
+        "pairs": [
+          {
+            "a_item": "Strong acid",
+            "b_item": "HCl",
+            "correct_match_index": "5",
+            "explanation": "Correct match: Strong acid ⟶ HCl\n\nReason: Hydrochloric acid (HCl) ionizes completely in water to give high H⁺ ion concentration, hence it is a strong acid."
+          },
+          {
+            "a_item": "Metal",
+            "b_item": "Conductor",
+            "correct_match_index": "7",
+            "explanation": "Correct match: Metal ⟶ Conductor\n\nReason: Due to the presence of free electrons in metals, they are good conductors of heat and electricity."
+          },
+          {
+            "a_item": "Xylem",
+            "b_item": "Water transport",
+            "correct_match_index": "1",
+            "explanation": "Correct match: Xylem ⟶ Water transport\n\nReason: Xylem is the plant vascular tissue that transports water and minerals from roots to leaves."
+          },
+          {
+            "a_item": "Master gland",
+            "b_item": "Pituitary",
+            "correct_match_index": "2",
+            "explanation": "Correct match: Master gland ⟶ Pituitary\n\nReason: The pituitary gland controls the hormone secretion of all other endocrine glands, hence it is called the 'master gland'."
+          },
+          {
+            "a_item": "Female hormone",
+            "b_item": "Estrogen",
+            "correct_match_index": "6",
+            "explanation": "Correct match: Female hormone ⟶ Estrogen\n\nReason: Estrogen is the primary female sex hormone secreted by the ovaries."
+          },
+          {
+            "a_item": "Mendel",
+            "b_item": "Laws of inheritance",
+            "correct_match_index": "8",
+            "explanation": "Correct match: Mendel ⟶ Laws of inheritance\n\nReason: Gregor Johann Mendel discovered fundamental principles and laws of genetics through experiments on pea plants."
+          },
+          {
+            "a_item": "Straight line path",
+            "b_item": "Light ray",
+            "correct_match_index": "3",
+            "explanation": "Correct match: Straight line path ⟶ Light ray\n\nReason: Light rays always travel in straight (rectilinear) lines in a homogeneous transparent medium."
+          },
+          {
+            "a_item": "Potential difference",
+            "b_item": "Volt",
+            "correct_match_index": "4",
+            "explanation": "Correct match: Potential difference ⟶ Volt\n\nReason: The SI unit of electric potential difference is 'volt' (V)."
+          }
+        ]
+      },
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×7=7",
+      "word_limit": "One sentence each",
+      "text": "Answer in one sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What are those reactions called in which there is an exchange of ions between the reactants?",
+          "correct_answer": "Double displacement reactions",
+          "explanation": "Answer: Reactions in which there is an exchange (displacement) of ions between reactants are called double displacement reactions."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which part of the brain is specialized for thinking, hearing, smelling, seeing, etc.?",
+          "correct_answer": "Cerebrum (Forebrain)",
+          "explanation": "Answer: Cerebrum (Forebrain) is the main center for sensory actions like thinking, hearing, smelling, and seeing."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Where does the embryo get its nutrition from?",
+          "correct_answer": "From the mother's blood through the placenta.",
+          "explanation": "Answer: The embryo gets nutrition from the mother's blood through a special disc-like tissue called the placenta."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What will be the power of a lens whose focal length is 1 meter?",
+          "correct_answer": "1 Dioptre (1 D)",
+          "explanation": "Answer: The power of a lens with a focal length of 1 meter will be 1 dioptre (1 D). (P = 1/f = 1/1 = 1 D)."
+        },
+        {
+          "q_id": "v",
+          "statement": "What is the reason that danger signals or traffic lights are red in colour?",
+          "correct_answer": "Red light has the maximum wavelength, so its scattering is the least.",
+          "explanation": "Answer: Red light has the least scattering due to its maximum wavelength, enabling it to be clearly visible from afar even through smoke and fog."
+        },
+        {
+          "q_id": "vi",
+          "statement": "How many watts are there in one horsepower?",
+          "correct_answer": "746 Watts (746 W)",
+          "explanation": "Answer: There are 746 watts in one horsepower (1 HP)."
+        },
+        {
+          "q_id": "vii",
+          "statement": "What is the most important safety device to protect electric circuits from damage due to short-circuiting and overloading?",
+          "correct_answer": "Electric fuse (or MCB)",
+          "explanation": "Answer: An electric fuse (or MCB) is the most important safety device in a circuit for protection against short-circuiting and overloading."
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is corrosion? Explain with an example.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Definition: When a metal is exposed to substances such as moisture, acids, and other chemicals in its surroundings, its upper surface gradually gets degraded through chemical reactions. This phenomenon is called corrosion.\n\n2. Examples:\n- Formation of a reddish-brown coating on iron (rusting).\n- Blackening of silver objects and green coating on copper."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Convert the following word equation into a balanced chemical equation:\nZinc + Sulphuric acid → Zinc sulphate + Hydrogen",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Word equation:\nZinc + Sulphuric acid ⟶ Zinc sulphate + Hydrogen\n\n2. Balanced chemical equation:\nZn(s) + H₂SO₄(aq) ⟶ ZnSO₄(aq) + H₂(g)↑\n\n(In this reaction, zinc metal displaces hydrogen from sulphuric acid to form zinc sulphate salt and hydrogen gas)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain the meaning of malleability and ductility.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Malleability: The property of metals by which they can be beaten into thin sheets with a hammer without breaking is called malleability. (e.g., gold and silver are the most malleable).\n\n2. Ductility: The property of metals that allows them to be drawn into thin, long wires is called ductility. (e.g., 1 gram of gold can be drawn into a 2 km long wire)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Name two metals that are found in a free state in nature.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo major metals found in a free or uncombined state in nature:\n1. Gold (Au)\n2. Platinum (Pt) / Silver (Ag)\n\nReason: These metals are chemically extremely unreactive (least reactive), hence they do not easily react with air, water, or CO₂."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write only one example each of saturated and unsaturated carbon compounds.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Example of a saturated carbon compound: Ethane (C₂H₆) / Methane (CH₄)\n(Containing only single covalent bonds).\n\n2. Example of an unsaturated carbon compound: Ethene (C₂H₄) / Ethyne (C₂H₂)\n(Containing double or triple bonds between carbon atoms)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Write only one example each of the functional groups aldehyde and carboxylic acid.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Example of aldehyde group (–CHO): Ethanal (CH₃CHO) / Methanal (HCHO)\n\n2. Example of carboxylic acid group (–COOH): Ethanoic acid (CH₃COOH) / Methanoic acid (HCOOH)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write only the chemical equation for the chemical reaction of photosynthesis.",
+          "correct_answer": "",
+          "explanation": "Answer:\nBalanced chemical equation for photosynthesis:\n\n6CO₂ + 12H₂O ⟶(Sunlight / Chlorophyll) C₆H₁₂O₆ + 6O₂↑ + 6H₂O\n\n(or: 6CO₂ + 6H₂O ⟶ C₆H₁₂O₆ + 6O₂)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is heterotrophic nutrition? Give one example.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Definition: The mode of nutrition in which organisms cannot synthesize their own food, but depend directly or indirectly on organic substances synthesized by autotrophic organisms (plants) for their survival and energy, is called heterotrophic nutrition.\n\n2. Example: Humans, all animals (such as cows, lions), and fungi (mould)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the number of chromosomes in humans? What is the difference between female and male chromosomes?",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Number of chromosomes: Every somatic cell of a human body has a total of 46 chromosomes (23 pairs).\n\n2. Difference:\n- In females, the 23rd pair of sex chromosomes is identical, i.e., **XX**.\n- In males, the 23rd pair of sex chromosomes is non-identical, i.e., **XY**."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "How did Mendel's experiments show that traits are inherited independently?",
+            "correct_answer": "",
+            "explanation": "Answer:\nWhen Mendel conducted a dihybrid cross between plants with two pairs of contrasting traits (such as round-yellow seeds RRYY and wrinkled-green seeds rryy), plants with new combinations (round-green and wrinkled-yellow seeds) were obtained in the F₂ generation in a 9:3:3:1 ratio.\n\nThis proved that seed shape and color traits segregate and are inherited independently of each other (Law of Independent Assortment)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a double concave lens?",
+          "correct_answer": "",
+          "explanation": "Answer:\nDouble Concave Lens:\nA spherical lens whose both spherical surfaces are curved inwards (concave), and which is thinner at the middle and thicker at the edges, is called a double concave lens. It acts to diverge (spread out) rays of light."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two uses of a concave mirror.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main uses of a concave mirror are:\n\n1. In vehicle headlights, torches, and searchlights to get powerful parallel beams of light.\n2. As shaving mirrors to see a larger image of the face (and by dentists to view patients' teeth)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What happens when a light ray enters from a denser medium into a rarer medium?",
+          "correct_answer": "",
+          "explanation": "Answer:\nWhen a ray of light enters from an optically denser medium (like glass/water) into a rarer medium (like air), its speed increases. As a result, the light ray **bends away from the normal** drawn at the point of incidence (i.e., the angle of refraction 'r' is greater than the angle of incidence 'i', r > i)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "An incident ray makes an angle of incidence of 30° on a plane mirror. What will be the value of the angle of reflection?",
+            "correct_answer": "",
+            "explanation": "Answer:\n\nGiven:\nAngle of incidence (i) = 30°\n\nAccording to the laws of reflection of light:\nAngle of incidence (i) = Angle of reflection (r)\n\nTherefore,\nAngle of reflection (r) = 30°."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define electric current. What is its SI unit?",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Definition: The amount of electric charge flowing through a particular cross-section of a conductor per unit time is called electric current. (Formula: I = Q/t)\n\n2. SI unit: The SI unit of electric current is **ampere** (Ampere / A)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Which two metals are generally used for electrical transmission?",
+            "correct_answer": "",
+            "explanation": "Answer:\nThe two main metals used for long-distance transmission of electrical energy and wire manufacturing are:\n1. Copper (Cu)\n2. Aluminum (Al)\n\nReason: Both these metals are very good conductors of electricity and have fairly low electrical resistivity."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define electromagnetic induction.",
+          "correct_answer": "",
+          "explanation": "Answer:\nElectromagnetic Induction:\nThe process in which relative motion between a closed conducting circuit/coil and a magnetic field causes continuous change in magnetic flux through the conductor, thereby producing an induced electromotive force and induced electric current in the conductor, is called electromagnetic induction."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "When does a short circuit occur in an electric circuit?",
+            "correct_answer": "",
+            "explanation": "Answer:\nWhen the plastic insulation of the live wire and neutral wire gets damaged or due to a fault in an appliance, they come in direct contact with each other, the resistance of the circuit becomes almost zero. An extremely high current flows in this situation, which is called a 'short circuit'."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why do two magnetic field lines not intersect each other?",
+          "correct_answer": "",
+          "explanation": "Answer:\nReason: The tangent drawn at any point on a magnetic field line represents the direction of the magnetic field at that point. If two field lines crossed each other, the compass needle at the intersection point would point towards two different directions, which is physically completely impossible."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Which device converts mechanical energy into electrical energy? On what principle does it work?",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Name of device: **Electric Generator (Dynamo)**.\n\n2. Working principle: It works on the principle of **electromagnetic induction**, in which a coil is rotated in a magnetic field to generate electric current from mechanical energy."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write only the names of organisms at various trophic levels of a food chain in an ecosystem.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTrophic levels of a food chain in a grassland ecosystem:\n1. First trophic level (Producers): Grass / Plants\n2. Second trophic level (Primary consumers): Grasshopper / Deer (Herbivores)\n3. Third trophic level (Secondary consumers): Frog / Wolf\n4. Fourth trophic level (Top consumers): Snake / Lion (Carnivores)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are omnivorous animals?",
+            "correct_answer": "",
+            "explanation": "Answer:\nAnimals or organisms that consume both plants (vegetation) and other animals (meat) equally for their nutrition and food are called 'omnivorous animals'.\n\nExamples: Humans, crows, bears."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a precipitation reaction? Write an example.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Definition: A chemical reaction in which mixing two aqueous solutions produces an insoluble solid substance that settles down at the bottom of the solution is called a precipitation reaction. That insoluble substance is called a 'precipitate'.\n\n2. Example:\nNa₂SO₄(aq) (Sodium sulphate) + BaCl₂(aq) (Barium chloride) ⟶ BaSO₄(s)↓ (White precipitate of barium sulphate) + 2NaCl(aq)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why are potato chips filled with nitrogen gas? Explain.",
+            "correct_answer": "",
+            "explanation": "Answer:\nPotato chips contain oil and fat. If normal air (oxygen) remains in the packet, the chips undergo oxidation, which changes their taste and smell, turning them rancid.\n\nNitrogen is an inert and less active gas. Flushing nitrogen gas into the packet removes oxygen, stopping the oxidation of the chips and keeping them crispy and fresh for a long time."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write any three functions of the human brain.",
+          "correct_answer": "",
+          "explanation": "Answer:\nThree major functions of the human brain are:\n\n1. Storage of information and thinking: Providing the capacity to think, reason, remember, and make decisions.\n2. Control of voluntary and involuntary actions: Controlling voluntary actions like walking, writing, speaking, and involuntary actions like heart beating, respiration, and digestion.\n3. Balance and coordination of the body: Maintaining body posture and balance of movement through the cerebellum."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the names of any three endocrine glands found in humans and the hormones secreted by them.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThree endocrine glands and their secreted hormones are:\n\n1. Thyroid gland: **Thyroxine hormone**\n2. Pancreas: **Insulin hormone**\n3. Pituitary gland: **Growth hormone (GH)**\n(Other: Adrenal gland ⟶ Adrenaline)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is dispersion of light? Explain with a diagram.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/varn_vipekchan_19a.png",
+          "explanation": "Answer:\n(1) Definition: When white sunlight passes through a glass prism, it splits after refraction into a band of its seven component colors (Violet, Indigo, Blue, Green, Yellow, Orange, Red - VIBGYOR). This phenomenon is called 'dispersion of light'.\n\n(2) Cause: The speed and wavelength of different colors of light differ in a glass medium, causing their angle of deviation to vary.\n\n[Diagram: Draw a labeled diagram showing white light, prism, and the spectrum of seven color bands according to the given imgUrl.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why does the clear sky appear blue?",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/swacha_akash_ka_rang_nila.png",
+            "explanation": "Answer:\nReason:\nWhen sunlight passes through Earth's atmosphere, the microscopic particles (gas molecules and dust particles) present in the atmosphere are smaller than the wavelength of visible light.\n\nAccording to Rayleigh's scattering law, blue and violet light with shorter wavelengths scatter much more strongly (about 16 times more) than red light with longer wavelengths. This scattered blue light spreads in all directions and reaches our eyes, making the sky appear blue.\n\n[Diagram: Draw a diagram showing scattering according to the image in the answer sheet.]"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why do teeth decay due to changes in pH? How can it be prevented?",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) Cause:\nWhen we eat sweets or food, bacteria present in the mouth decompose the sugar and food residues to produce acid. If the pH level of the mouth falls **below 5.5**, the hardest protective covering of teeth, 'enamel' (calcium hydroxyapatite), starts corroding (dissolving). This is called tooth decay.\n\n(2) Prevention methods:\n1. Cleaning the mouth thoroughly after eating food.\n2. Using alkaline toothpaste for tooth cleaning, which neutralizes excess acid."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "a",
+            "statement": "Write two uses of baking soda.",
+            "correct_answer": "",
+            "explanation": "1. Uses of baking soda: In making baking powder (making cakes/bread spongy) and as an antacid."
+          },
+          {
+            "q_id": "b",
+            "statement": "Write two uses of bleaching powder.",
+            "correct_answer": "",
+            "explanation": "2. Uses of bleaching powder: For disinfecting drinking water and for bleaching cotton in the textile industry."
+          },
+          {
+            "q_id": "c",
+            "statement": "Write two uses of plaster of Paris.",
+            "correct_answer": "",
+            "explanation": "3. Uses of plaster of Paris: For supporting fractured bones in the right position and for making toys/statues."
+          },
+          {
+            "q_id": "d",
+            "statement": "Write two uses of washing soda.",
+            "correct_answer": "",
+            "explanation": "4. Uses of washing soda: In household cleaning/laundry and in glass, soap, and paper industries."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the names, molecular formulas, and structural formulas of any four members of the alkane homologous series.",
+          "correct_answer": "",
+          "explanation": "Answer:\nFour members of the alkane (CₙH₂ₙ₊₂) homologous series:\n\n1. Methane:\n   - Molecular formula: CH₄\n   - Structural formula: H–C(H)(H)–H\n\n2. Ethane:\n   - Molecular formula: C₂H₆\n   - Structural formula: H₃C–CH₃\n\n3. Propane:\n   - Molecular formula: C₃H₈\n   - Structural formula: H₃C–CH₂–CH₃\n\n4. Butane:\n   - Molecular formula: C₄H₁₀\n   - Structural formula: H₃C–CH₂–CH₂–CH₃"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define alkenes and alkynes and give one example of each.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Alkenes:\nUnsaturated hydrocarbons in which there is at least one double bond (C=C) between two carbon atoms are called alkenes. (General formula: CₙH₂ₙ).\n- Example: Ethene (C₂H₄ / CH₂=CH₂)\n\n2. Alkynes:\nUnsaturated hydrocarbons in which there is at least one triple bond (C≡C) between two carbon atoms are called alkynes. (General formula: CₙH₂ₙ₋₂).\n- Example: Ethyne (C₂H₂ / CH≡CH)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw a neat and labeled diagram of the human digestive system.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_pachan_tantra.png",
+          "explanation": "Answer:\nMain labeled parts of the human digestive system:\n1. Mouth and Oesophagus\n2. Stomach\n3. Liver and Gallbladder\n4. Pancreas\n5. Small intestine and Large intestine\n\n[Diagram: Draw a clean and labeled diagram of the human digestive system according to the given image (imgUrl).]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw a neat and labeled diagram of the human heart.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/hraday.png",
+            "explanation": "Answer:\nMain labeled parts of the structure of the human heart:\n1. Right atrium and Right ventricle\n2. Left atrium and Left ventricle\n3. Aorta and Vena Cava\n4. Septum (Partition wall)\n\n[Diagram: Draw a clean and labeled diagram of a section of the human heart according to the given image (imgUrl).]"
+          }
+        ]
+      }
+    }
+  ]
+}

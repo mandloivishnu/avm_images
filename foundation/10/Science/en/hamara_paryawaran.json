@@ -1,0 +1,116 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Our Environment",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Ecosystem and Food Chain",
+      "definitionBean": {
+        "title": "Ecosystem and Food Chain",
+        "definition": "A system formed by the interaction of biotic (living) and abiotic (non-living) components is called an 'Ecosystem'; and the feeding relationships among organisms are called a 'Food Chain'[cite: 15].",
+        "explanation": "Energy flow in a food chain is always unidirectional, and only 10% of energy at each trophic level is transferred to the next level (Lindeman's 10% Law)[cite: 15].",
+        "importantPoints": [
+          "Components of ecosystem: Biotic (producers, consumers, decomposers) and Abiotic (temperature, light, soil)[cite: 15]",
+          "Food chain: Producer $\\rightarrow$ Primary consumer $\\rightarrow$ Secondary consumer[cite: 15]",
+          "10% Energy Law: Transfer of only 10% energy from one trophic level to the next[cite: 15]",
+          "Biological Magnification: Progressive increase in the concentration of harmful chemicals[cite: 15]"
+        ],
+        "highlightWords": [
+          "Ecosystem",
+          "Food chain",
+          "10% law",
+          "Biological magnification"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Ozone Layer and Waste Management",
+      "definitionBean": {
+        "title": "Ozone Layer and Waste Management",
+        "definition": "The ozone ($\\text{O}_3$) layer found in the upper atmosphere protects the Earth from harmful ultraviolet (UV) rays of the sun; and waste management involves classifying substances as biodegradable and non-biodegradable[cite: 15].",
+        "explanation": "The ozone layer is depleting due to gases like CFCs (Chlorofluorocarbons)[cite: 15]. Substances decomposed by microorganisms are biodegradable, while those that do not decompose are non-biodegradable[cite: 15].",
+        "importantPoints": [
+          "Ozone formula: $\\text{O}_3$ (Protection from UV rays)[cite: 15]",
+          "Main cause of ozone depletion: CFC (Chlorofluorocarbon) gas[cite: 15]",
+          "Biodegradable: Paper, peels, etc. (rapid decomposition)[cite: 15]",
+          "Non-biodegradable: Plastic, polythene (do not decompose)[cite: 15]"
+        ],
+        "highlightWords": [
+          "Ozone layer",
+          "CFC",
+          "Biodegradable",
+          "Non-biodegradable"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Ecosystem and Food Chain",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "What is an ecosystem? Give an example of an artificial ecosystem[cite: 15].",
+          "correct_answer": "System of living and abiotic components is ecosystem; Example: Aquarium[cite: 15].",
+          "imgUrl": "",
+          "explanation": "All the living organisms and abiotic components of an area together form an ecosystem[cite: 15]. An aquarium or a garden is an example of an artificial ecosystem[cite: 15]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "What is the difference between a food chain and a food web? Why is energy flow unidirectional[cite: 15]?",
+            "correct_answer": "Food chain is linear while food web is a complex network[cite: 15].",
+            "imgUrl": "",
+            "explanation": "A food chain is a straight-line sequence of organisms, whereas a food web is a complex network of multiple interconnected food chains[cite: 15]. Energy flow is unidirectional because the energy transferred from one trophic level to the next does not return and is lost as heat[cite: 15]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Ozone Layer and Waste Management",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is the ozone layer? Why is it important for us? Write the main cause of its depletion[cite: 15].",
+          "correct_answer": "Ozone protects from UV rays; depletion is caused by CFC gas[cite: 15].",
+          "imgUrl": "",
+          "explanation": "Ozone ($\\text{O}_3$) is a layer formed by three atoms of oxygen found in the stratosphere[cite: 15]. It prevents harmful ultraviolet (UV) rays coming from the sun from reaching the Earth, preventing diseases like skin cancer[cite: 15]. Its main cause of depletion is CFC (chlorofluorocarbon) gas used in refrigerators and ACs[cite: 15]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Write the difference between biodegradable and non-biodegradable substances. Give one example of each[cite: 15].",
+            "correct_answer": "Biodegradable (peels), non-biodegradable (plastic)[cite: 15].",
+            "imgUrl": "",
+            "explanation": "Biodegradable substances are broken down into simple substances by microorganisms (e.g., vegetable peels); whereas non-biodegradable substances are not naturally decomposed and persist in the environment for a long time (e.g., plastic)[cite: 15]."
+          }
+        ]
+      }
+    }
+  ]
+}

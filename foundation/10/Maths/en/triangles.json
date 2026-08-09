@@ -1,0 +1,136 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Triangles",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Similarity of Triangles",
+        "definition": "Two triangles are said to be similar if their corresponding angles are equal and their corresponding sides are proportional.",
+        "explanation": "Similar triangles may have different sizes, but they have the same shape. Criteria like AAA, SSS, SAS are used to prove similarity. The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+        "importantPoints": [
+          "Corresponding angles are equal and sides are proportional",
+          "AAA, SSS, SAS are criteria of similarity",
+          "Ratio of areas = (Ratio of sides)²"
+        ],
+        "highlightWords": [
+          "Similarity",
+          "Corresponding angles",
+          "Proportional sides"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Basic Proportionality Theorem - BPT / Thales Theorem",
+        "definition": "If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio.",
+        "explanation": "This theorem is also known as Thales Theorem. It establishes a relationship between parallel lines and ratios in a triangle, and its converse is also true — if a line divides sides in the same ratio, it is parallel to the third side.",
+        "importantPoints": [
+          "Parallel line divides remaining sides in the same ratio",
+          "Also known as Thales Theorem",
+          "Its converse is also true"
+        ],
+        "highlightWords": [
+          "BPT",
+          "Thales Theorem",
+          "Proportion",
+          "Parallel line"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Area Theorem for Similar Triangles",
+        "definition": "The ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+        "explanation": "If two triangles are similar and the ratio of their corresponding sides is k, then the ratio of their areas will be k². This theorem is also related to the ratios of altitudes, medians, and perimeters of similar triangles.",
+        "importantPoints": [
+          "Ratio of areas = (Ratio of corresponding sides)²",
+          "This also applies to the ratio of altitudes and medians",
+          "This theorem is valid only for similar triangles"
+        ],
+        "highlightWords": [
+          "Area theorem",
+          "Similar triangles",
+          "Square of ratio"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "In the figure, if DE || AC and DF || AE, prove that BF / FE = BE / EC.",
+          "correct_answer": "Proven",
+          "imgUrl": "",
+          "explanation": "In triangle ABC, since DE || AC,\nBy Basic Proportionality Theorem (BPT):\nBD / DA = BE / EC  --(Equation 1)\n\nSimilarly, in triangle ABE, since DF || AE,\nBy BPT:\nBD / DA = BF / FE  --(Equation 2)\n\nFrom equations (1) and (2):\nBF / FE = BE / EC\nHence proved."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "State and prove Thales Theorem (BPT).",
+            "correct_answer": "Proven",
+            "imgUrl": "",
+            "explanation": "Statement: If a line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, then the other two sides are divided in the same ratio.\n\nProof:\nLet a line DE parallel to side BC of ΔABC intersect AB at D and AC at E.\nTo prove: AD / DB = AE / EC\nConstruction: Join B to E and C to D, and draw EF ⊥ AB and DG ⊥ AC.\n\nArea of ΔADE = ½ × base × height = ½ × AD × EF\nArea of ΔBDE = ½ × BD × EF\nThus area ratio: ar(ΔADE) / ar(ΔBDE) = (½ × AD × EF) / (½ × BD × EF) = AD / DB  --(1)\n\nSimilarly, ar(ΔADE) / ar(DEC) = AE / EC  --(2)\nSince ΔBDE and ΔDEC are on the same base DE and between the same parallel lines BC and DE, ar(ΔBDE) = ar(ΔDEC).\nThus from equations (1) and (2):\nAD / DB = AE / EC\nHence proved."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "The areas of two similar triangles are 64 cm² and 121 cm² respectively. If the side of the first triangle is 15.4 cm, find the corresponding side of the second triangle.",
+          "correct_answer": "21.175 cm",
+          "imgUrl": "",
+          "explanation": "Let the two similar triangles be ΔABC and ΔPQR.\nGiven: ar(ΔABC) = 64 cm², ar(ΔPQR) = 121 cm²\nAB = 15.4 cm, find PQ.\n\nAccording to the Area Theorem, the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides:\nar(ΔABC) / ar(ΔPQR) = (AB / PQ)²\n64 / 121 = (15.4 / PQ)²\n\nTaking square root on both sides:\n8 / 11 = 15.4 / PQ\nPQ = (15.4 × 11) / 8\nPQ = 169.4 / 8 = 21.175 cm\nTherefore, the corresponding side of the second triangle is 21.175 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Prove that the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+            "correct_answer": "Proven",
+            "imgUrl": "",
+            "explanation": "Let ΔABC ~ ΔPQR.\nTo prove: ar(ΔABC) / ar(ΔPQR) = (AB / PQ)² = (BC / QR)² = (CA / RP)²\n\nConstruction: Draw altitudes AM ⊥ BC and PN ⊥ QR of the triangles.\nar(ΔABC) / ar(ΔPQR) = [½ × BC × AM] / [½ × QR × PN] = (BC / QR) × (AM / PN)  --(1)\n\nNow in ΔABM and ΔPQN:\n∠B = ∠Q (since ΔABC ~ ΔPQR)\n∠AMB = ∠PNQ = 90°\nThus by AA similarity, ΔABM ~ ΔPQN\nTherefore, AM / PN = AB / PQ  --(2)\n\nSince ΔABC ~ ΔPQR, AB / PQ = BC / QR = CA / RP\nThus from (1) and (2):\nar(ΔABC) / ar(ΔPQR) = (AB / PQ) × (AB / PQ) = (AB / PQ)²\nSimilarly, it is proved for other sides."
+          }
+        ]
+      }
+    }
+  ]
+}

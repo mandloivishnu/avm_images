@@ -1,0 +1,879 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "SOCIAL SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "setName": "SET A",
+    "totalQuestions": "23",
+    "time": "3 Hours",
+    "language": "English Version",
+    "rollCode": "102516"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "When was the Environment and Development Conference held in Rio de Janeiro, Brazil?",
+          "options": [
+            {
+              "index": "a",
+              "text": "June, 1992"
+            },
+            {
+              "index": "b",
+              "text": "July, 1991"
+            },
+            {
+              "index": "c",
+              "text": "June, 1929"
+            },
+            {
+              "index": "d",
+              "text": "July, 1992"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "June, 1992",
+          "explanation": "Correct option is (a).\n\nReason:\nThe first International Earth Summit was held in Rio de Janeiro, Brazil in June 1992. Representatives from over 100 countries met to address urgent problems of environmental protection and socio-economic development, adopting 'Agenda 21' for sustainable development."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The Munda and Santhal tribes of the Chota Nagpur region worship which trees?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Palash and Kadamba"
+            },
+            {
+              "index": "b",
+              "text": "Gular and Arjun"
+            },
+            {
+              "index": "c",
+              "text": "Mahua and Kadamba"
+            },
+            {
+              "index": "d",
+              "text": "Mahua and Neem"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Mahua and Kadamba",
+          "explanation": "Correct option is (c).\n\nReason:\nThe Munda and Santhal tribes of the Chota Nagpur plateau region worship the Mahua and Kadamba trees. In tribal culture, worshipping specific sacred trees and groves is an ancient tradition that aids in forest conservation."
+        },
+        {
+          "q_id": "iii",
+          "statement": "A major water resource project of India which includes Maharashtra, Madhya Pradesh, Gujarat, and Rajasthan is:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Sardar Sarovar Dam"
+            },
+            {
+              "index": "b",
+              "text": "Koyna Dam"
+            },
+            {
+              "index": "c",
+              "text": "Hirakud Dam"
+            },
+            {
+              "index": "d",
+              "text": "Gandhi Sagar Dam"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Sardar Sarovar Dam",
+          "explanation": "Correct option is (a).\n\nReason:\nThe Sardar Sarovar Dam project, built on the Narmada River in Gujarat, is a massive multipurpose river valley project. It is a joint water and hydroelectric resource project involving four states: Maharashtra, Madhya Pradesh, Gujarat, and Rajasthan."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The main food crop of India is:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Tea"
+            },
+            {
+              "index": "b",
+              "text": "Jute"
+            },
+            {
+              "index": "c",
+              "text": "Paddy (Rice)"
+            },
+            {
+              "index": "d",
+              "text": "Rubber"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Paddy (Rice)",
+          "explanation": "Correct option is (c).\n\nReason:\nPaddy (rice) is the most important staple food crop of India, feeding the majority of the country's population. India is the second-largest producer of rice in the world after China, covering the largest cropped area in the country."
+        },
+        {
+          "q_id": "v",
+          "statement": "Name the famous book written by Mahatma Gandhi:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Godan"
+            },
+            {
+              "index": "b",
+              "text": "Hind Swaraj"
+            },
+            {
+              "index": "c",
+              "text": "Gitanjali"
+            },
+            {
+              "index": "d",
+              "text": "Discovery of India"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Hind Swaraj",
+          "explanation": "Correct option is (b).\n\nReason:\n'Hind Swaraj' is a well-known book written by Mahatma Gandhi in 1909 in Gujarati. In it, Gandhi stated that British rule was established in India with the cooperation of Indians and would collapse if Indians withdrew their cooperation."
+        },
+        {
+          "q_id": "vi",
+          "statement": "H.D.I. stands for:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Human Development"
+            },
+            {
+              "index": "b",
+              "text": "Human Development Index"
+            },
+            {
+              "index": "c",
+              "text": "Human Income"
+            },
+            {
+              "index": "d",
+              "text": "Human Growth Index"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Human Development Index",
+          "explanation": "Correct option is (b).\n\nReason:\nH.D.I. stands for 'Human Development Index'. Published by the United Nations Development Programme (UNDP), it measures a country's overall achievement in health (life expectancy), education (literacy rates), and standard of living (per capita income)."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Under the Mahatma Gandhi National Rural Employment Guarantee Act-2005, work/employment has been guaranteed for {BLANK} days.",
+          "correct_answer": "100 days",
+          "explanation": "Answer: 100 days\n\nReason: Under MGNREGA 2005, all rural households who volunteer to do unskilled manual work are entitled to a statutory guarantee of 100 days of wage employment in a financial year."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Agriculture is an activity of the {BLANK} sector.",
+          "correct_answer": "primary",
+          "explanation": "Answer: primary\n\nReason: Activities like agriculture, fishing, mining, and forestry belong to the primary sector because they involve the direct extraction and use of natural resources."
+        },
+        {
+          "q_id": "iii",
+          "statement": "One national park of Madhya Pradesh is {BLANK}.",
+          "correct_answer": "Kanha National Park",
+          "explanation": "Answer: Kanha National Park\n\nReason: Kanha National Park (located in Mandla/Balaghat) is the largest and most famous national park in Madhya Pradesh, known for tiger conservation under Project Tiger and the rare Barasingha."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Sri Lanka became an independent nation in the year {BLANK}.",
+          "correct_answer": "1948",
+          "explanation": "Answer: 1948\n\nReason: Sri Lanka (formerly Ceylon) gained independence from British colonial rule on February 4, 1948."
+        },
+        {
+          "q_id": "v",
+          "statement": "A {BLANK} government has two or more levels.",
+          "correct_answer": "federal",
+          "explanation": "Answer: federal\n\nReason: A core feature of a federal system is that government is divided into two or more levels, such as the central government, state/provincial governments, and local self-government."
+        },
+        {
+          "q_id": "vi",
+          "statement": "In Africa in the 1890s, Rinderpest was a {BLANK}.",
+          "correct_answer": "fast-spreading cattle disease (plague)",
+          "explanation": "Answer: fast-spreading cattle disease (plague)\n\nReason: Rinderpest was a fast-spreading cattle plague that swept through Africa in the late 1890s, killing about 90 percent of the livestock and destroying the livelihood of African people."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Non-renewable resources are those which get exhausted after a few years of use.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: Non-renewable resources (such as coal, petroleum, natural gas) exist in limited quantities and will get exhausted with continuous consumption because they take millions of years to form. Hence, this statement is true."
+        },
+        {
+          "q_id": "ii",
+          "statement": "A total of 22 languages are now included in the 8th Schedule of the Indian Constitution.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: The Eighth Schedule of the Indian Constitution recognizes a total of 22 scheduled languages, including Hindi. Hence, this statement is true."
+        },
+        {
+          "q_id": "iii",
+          "statement": "There is no federal system in India.",
+          "correct_answer": "False",
+          "explanation": "Answer: False\n\nExplanation: India has a federal democratic republic system where power is clearly divided between the center, states, and local bodies through three legislative lists. Hence, this statement is false."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Haldia port is a subsidiary port of Kolkata.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: Located on the Hooghly river in West Bengal, Haldia port was developed as a subsidiary (satellite) port to ease the growing trade pressure on Kolkata port. Hence, this statement is true."
+        },
+        {
+          "q_id": "v",
+          "statement": "Activities of primary, secondary, and tertiary sectors are independent.",
+          "correct_answer": "False",
+          "explanation": "Answer: False\n\nExplanation: The activities of primary, secondary, and tertiary sectors are not independent; rather, they are highly interdependent. For example, the primary sector (agriculture) supplies sugarcane as raw material to the secondary sector (sugar mills), while the tertiary sector (transport) distributes it to markets. Hence, this statement is false."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Modern forms of money include currency — paper notes and coins.",
+          "correct_answer": "True",
+          "explanation": "Answer: True\n\nExplanation: Unlike older barter or commodity money systems, modern currency consists mainly of paper notes and coins authorized by the government or central bank. Hence, this statement is true."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the correct pairs:",
+      "columns": {
+        "column_A_title": "A",
+        "column_B_title": "B",
+        "pairs": [
+          {
+            "a_item": "(a) Reserve Bank of India",
+            "b_item": "Formal source of credit",
+            "correct_match_index": "3",
+            "explanation": "Correct match: (a) Reserve Bank of India ⟶ Formal source of credit\n\nReason: RBI is India's central bank that supervises formal credit sources like commercial banks and cooperative societies, regulating their interest rates and cash reserves."
+          },
+          {
+            "a_item": "(b) Sectors based on ownership",
+            "b_item": "Public and private sectors",
+            "correct_match_index": "1",
+            "explanation": "Correct match: (b) Sectors based on ownership ⟶ Public and private sectors\n\nReason: Based on who owns assets and delivers services, economic activities are categorized into the 'public sector' (government ownership) and 'private sector' (private ownership)."
+          },
+          {
+            "a_item": "(c) Functions of political parties",
+            "b_item": "To contest elections and form government",
+            "correct_match_index": "5",
+            "explanation": "Correct match: (c) Functions of political parties ⟶ To contest elections and form government\n\nReason: The primary democratic function of political parties is to field candidates for elections, shape public opinion, and form and run governments upon winning."
+          },
+          {
+            "a_item": "(d) Print media",
+            "b_item": "Raising social issues and news",
+            "correct_match_index": "6",
+            "explanation": "Correct match: (d) Print media ⟶ Raising social issues and news\n\nReason: Newspapers, magazines, and books (print media) are vital channels for delivering news and creating public awareness on socio-political issues."
+          },
+          {
+            "a_item": "(e) Limestone",
+            "b_item": "Raw material for cement industry",
+            "correct_match_index": "2",
+            "explanation": "Correct match: (e) Limestone ⟶ Raw material for cement industry\n\nReason: Limestone is a non-metallic mineral that serves as the primary and essential raw material used in the manufacturing of cement."
+          },
+          {
+            "a_item": "(f) Simon Commission",
+            "b_item": "Year 1928",
+            "correct_match_index": "4",
+            "explanation": "Correct match: (f) Simon Commission ⟶ Year 1928\n\nReason: Formed under the chairmanship of Sir John Simon to review the constitutional system in India, the statutory commission arrived in India in February 1928."
+          }
+        ]
+      },
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "One sentence",
+      "text": "Answer in one sentence:",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "At which place was the first textile mill set up in India?",
+          "correct_answer": "Mumbai (Bombay)",
+          "explanation": "Answer: Mumbai (Bombay)\n\n(The first successful modern cotton textile mill was established in Mumbai in 1854 by Kawasji Davar)."
+        },
+        {
+          "q_id": "2",
+          "statement": "When was the First World War fought (Year)?",
+          "correct_answer": "From 1914 to 1918 AD",
+          "explanation": "Answer: From 1914 to 1918 AD\n\n(The First World War was fought between the Allied Powers and the Central Powers from July 28, 1914 to November 11, 1918)."
+        },
+        {
+          "q_id": "3",
+          "statement": "Name an activity of the secondary sector.",
+          "correct_answer": "Manufacturing (e.g., making cloth from yarn, sugar from sugarcane, manufacturing cars)",
+          "explanation": "Answer: Manufacturing (Industrial production)\n\n(In the secondary sector, natural products from the primary sector are transformed into finished goods through manufacturing)."
+        },
+        {
+          "q_id": "4",
+          "statement": "What was the main medium connecting countries in the past?",
+          "correct_answer": "Trade routes (such as the Silk Route)",
+          "explanation": "Answer: International trade routes (such as the Silk Route)."
+        },
+        {
+          "q_id": "5",
+          "statement": "What is a violent struggle between anti-government groups in a nation that resembles a war called?",
+          "correct_answer": "Civil War",
+          "explanation": "Answer: Civil War\n\n(A fierce armed conflict between rival groups within a single country that takes the shape of a full-scale war is called a civil war, e.g., the Sri Lankan civil war)."
+        },
+        {
+          "q_id": "6",
+          "statement": "Which means of transport is the most convenient?",
+          "correct_answer": "Road transport",
+          "explanation": "Answer: Road transport\n\n(Road transport provides door-to-door service, making it the most accessible and convenient medium for short distances)."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Name two movements undertaken for forest conservation.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo major public movements undertaken in India for forest conservation are:\n\n1. Chipko Movement: A movement in the Garhwal Himalayan region of Uttarakhand where villagers, led by Sunderlal Bahuguna and Chandi Prasad Bhatt, hugged trees to prevent them from being cut down.\n2. Beej Bachao Andolan / Navdanya: A movement started by farmers in Uttarakhand to protect indigenous seeds, organic farming, and forest biodiversity.\n\n(Additional examples: Bishnoi movement of Rajasthan, Appiko movement of Karnataka)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two direct importances of forests.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo direct importances of forests to human life are:\n\n1. Provision of resources: Forests directly provide us with timber, firewood, fruits, medicinal plants, gums, rubber, and resins as raw materials.\n2. Livelihood source: Forests provide direct means of livelihood, employment, and food security to millions of tribals, forest-dwelling communities, and rural populations."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the names of two millets.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo major millets (coarse grains / nutri-cereals) grown in India are:\n\n1. Jowar\n2. Bajra\n\n(Third option: Ragi. Millets have high nutritional value and are rich in dietary fiber)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the names of two commercial crops.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo major commercial/cash crops grown in India are:\n\n1. Sugarcane\n2. Cotton\n\n(Other examples: Jute, tea, coffee. These crops are cultivated primarily to be sold in the market for profit)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two measures taken by National Thermal Power Corporation (NTPC) which help in reducing natural environmental pollution.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo main measures adopted by the National Thermal Power Corporation (NTPC) for environmental conservation are:\n\n1. Optimum utilization of ash: Scientific management and recycling of fly ash to put it to productive use in cement and brick industries.\n2. Green belt development: Extensive afforestation and green belts around power plants to maintain ecological balance."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two types of industrial pollution.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main types of environmental pollution caused by industries are:\n\n1. Air Pollution: Caused by toxic smoke, sulphur dioxide, and carbon monoxide released from industrial chimneys and thermal plants.\n2. Water Pollution: Caused by dumping industrial effluents, toxic chemicals, and untreated wastewater into rivers and water bodies."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Who gave the slogan 'Inquilab Zindabad' and what is its meaning?",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Originator: The famous slogan 'Inquilab Zindabad' was coined by Maulana Hasrat Mohani and was popularized by Shaheed Bhagat Singh and his comrades when they threw a bomb in the Central Legislative Assembly.\n2. Meaning: The literal meaning of this slogan is 'Long live the revolution'."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two causes of the Non-Cooperation Movement.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main causes of the Non-Cooperation Movement launched by Mahatma Gandhi in 1920:\n1. Oppressive British acts such as the Rowlatt Act (1919) and the brutal Jallianwala Bagh massacre.\n2. Widespread inflation, poverty, and heavy taxation burden faced by the public in the aftermath of the First World War."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by picketing?",
+          "correct_answer": "",
+          "explanation": "Answer:\nPicketing:\nIt is a form of demonstration or non-violent protest where people station themselves at the entrance of a shop, factory, or office to prevent others from entering or working there."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Who were indentured laborers during the colonial period?",
+            "correct_answer": "",
+            "explanation": "Answer:\nIndentured Laborers (Girmitiya):\nDuring the colonial period, Indian laborers contracted under employment agreements (referred to by workers as 'girmit') to work on foreign plantations and mines (such as in the Caribbean, Fiji, and Mauritius) were known as indentured laborers."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What was the Chartist Movement?",
+          "correct_answer": "",
+          "explanation": "Answer:\nChartist Movement:\nIt was a major mass political movement launched by working-class people in Britain during the 19th century demanding universal male suffrage (voting rights) and other political reforms to protect workers' interests."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is the policy of Non-Alignment?",
+            "correct_answer": "",
+            "explanation": "Answer:\nPolicy of Non-Alignment:\nIt refers to the foreign policy followed by nations (especially during the Cold War) of not aligning with any military or power blocs (such as NATO or the Warsaw Pact), maintaining independent foreign policies, and supporting international peace and cooperation."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by Panchang?",
+          "correct_answer": "",
+          "explanation": "Answer:\nPanchang:\nA Panchang is a traditional astronomical calendar or almanac that calculates auspicious timings, festivals, and planetary positions based on five main attributes: Tithi (lunar day), Vara (weekday), Nakshatra (constellation), Yoga, and Karana."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two differences between handwritten and printed books.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main differences between handwritten and printed books:\n\n1. Production method: Handwritten manuscripts were painstakingly copied by hand using pens, whereas printed books were mass-produced using printing presses and machines.\n2. Availability and cost: Handwritten books were rare, slow to produce, and expensive; whereas printed books were cheaper, visually appealing, and abundantly available."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two characteristics of a federal system of government.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo key features of a federal system of government:\n\n1. Two or more levels of government: There exists a government for the entire country (central/federal level) and governments at the provincial or state levels.\n2. Constitutional division of powers: The jurisdiction of each tier of government is specified and guaranteed by the constitution."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two functions of a Gram Panchayat.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo primary functions of a Gram Panchayat:\n\n1. Provision and maintenance of civic amenities in rural areas, such as sanitation, safe drinking water, street lighting, and village roads.\n2. Preparation and execution of annual development plans for agriculture, cottage industries, and local welfare in the village."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by sexual division of labor?",
+          "correct_answer": "",
+          "explanation": "Answer:\nSexual Division of Labour:\nIt is a system in which society allocates unequal social roles and responsibilities to men and women, traditionally assuming that all housework is done by women, while men work outside the home to earn a living."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is communal politics?",
+            "correct_answer": "",
+            "explanation": "Answer:\nCommunal Politics:\nWhen religion is used as the basis of politics, pitting one religious community against another and exploiting religious sentiments for electoral gains, it is called communal politics."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the main components of a political party.",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe three main components of any political party are:\n\n1. The Leaders (top leadership)\n2. The Active Members (who run the party machinery)\n3. The Followers or Supporters (the voting public)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is a national political party? Give one example.",
+            "correct_answer": "",
+            "explanation": "Answer:\nNational Political Party: A party that secures a specific percentage of votes and seats in national or state elections and has influence across most states of the country is recognized as a national party.\nExample: Bharatiya Janata Party (BJP) / Indian National Congress (INC)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the advantage of using money as a medium of exchange?",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe advantages of using money as a medium of exchange are:\n\n1. It eliminates the cumbersome problem of the 'double coincidence of wants'.\n2. It makes valuation, purchase, sale, and deferred payments, as well as savings for the future, extremely easy and standardized."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two advantages of Self-Help Groups (SHGs).",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo major advantages of Self-Help Groups (SHGs):\n\n1. They provide timely small loans to rural poor (especially women) at reasonable interest rates without requiring heavy collateral.\n2. They inculcate the habit of regular savings among members and empower them financially and socially."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by globalization?",
+          "correct_answer": "",
+          "explanation": "Answer:\nGlobalization:\nIt is the process of rapid economic, cultural, and social integration between countries, through which world markets become interconnected, facilitating the seamless flow of goods, services, capital, and technology across international borders."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are multinational corporations?",
+            "correct_answer": "",
+            "explanation": "Answer:\nMultinational Corporations (MNCs):\nA large company that owns or controls production, offices, and business operations in more than one nation globally is called a multinational corporation (e.g., Samsung, Tata, Nike)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Describe the soil profile with a diagram.",
+          "correct_answer": "",
+          "explanation": "Answer:\nSoil Profile:\nA vertical section of the soil showing the different layers, known as horizons, is called the soil profile.\n\nIts main layers are:\n1. Topsoil (Horizon A): The topmost layer rich in humus and organic matter, highly fertile, supporting plant growth and microorganisms.\n2. Subsoil (Horizon B): The layer just beneath topsoil containing lesser humus but more minerals, silt, sand, and clay.\n3. Weathered rock parent material (Horizon C): Made up of weathered rock fragments lying above the bedrock.\n4. Bedrock (Horizon D): The solid, unweathered parent rock at the very bottom."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Name three soils of India, their regions, and one characteristic of each.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThree major soils of India, their regions, and characteristics:\n\n1. Alluvial Soil:\n   - Region: Northern plains (Punjab, UP, Bihar) and coastal plains.\n   - Characteristic: Highly fertile soil deposited by rivers, rich in potash and phosphoric acid.\n\n2. Black Soil (Regur Soil):\n   - Region: Deccan plateau (Maharashtra, western MP, Gujarat).\n   - Characteristic: Has high water-retention capacity and is best suited for cotton cultivation.\n\n3. Red and Yellow Soil:\n   - Region: Odisha, Chhattisgarh, and southern parts of the Deccan plateau.\n   - Characteristic: Appears red due to diffusion of iron in crystalline/igneous rocks and yellow when hydrated."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How can environmental degradation be prevented in India?",
+          "correct_answer": "",
+          "explanation": "Answer:\nTo prevent environmental degradation caused by industrial and human activities in India, the following measures can be taken:\n\n1. Scientific treatment of industrial waste: Mandating primary, secondary, and tertiary sewage/effluent treatment before discharging industrial wastewater into rivers.\n2. Air and water pollution control: Installing advanced pollution-control devices like electrostatic precipitators and scrubbers in factory chimneys, and promoting non-conventional energy sources (solar/wind).\n3. Afforestation and mining regulations: Undertaking massive afforestation (developing green belts) and strictly regulating unregulated mining and soil erosion."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are basic industries? Explain with examples.",
+            "correct_answer": "",
+            "explanation": "Answer:\nBasic Industries:\nIndustries whose products or raw materials are used to manufacture other goods by other industries are called basic industries. They form the backbone of industrial development in a country.\n\nExamples:\n1. Iron and Steel Industry: Because steel is fundamental for constructing machinery, tools, bridges, vehicles, and buildings.\n2. Aluminum Smelting and Copper Smelting Industries: Which supply raw materials to electrical and utensil-making industries."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write some efforts made and suggestions for reforming political parties.",
+          "correct_answer": "",
+          "explanation": "Answer:\nEfforts made and suggestions for reforming political parties in India:\n\n1. Anti-Defection Law (Effort made): The Constitution was amended to prevent elected MLAs and MPs from changing parties for money or power, disqualifying defectors.\n2. Affidavit of assets and criminal records (Effort made): The Supreme Court made it mandatory for every election candidate to file an affidavit detailing their property and pending criminal cases.\n3. Internal democracy and state funding (Suggestions): Internal organizational elections should be made mandatory within parties, elections should be partially funded by the state, and a quota of tickets should be reserved for women."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write three challenges faced by political parties.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThree major challenges faced by political parties in democratic systems:\n\n1. Lack of internal democracy: Power is concentrated in the hands of a few top leaders within parties, with little to no internal organizational elections or participation for common members.\n2. Dynastic succession: Top leaders favoring family members, relatives, or loyalists for top posts and electoral tickets regardless of merit.\n3. Growing role of money and muscle power: Heavy reliance on black money, corporate donations, and candidates with criminal backgrounds to win elections."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Compare road transport and rail transport in four points.",
+          "correct_answer": "",
+          "explanation": "Answer:\nFour key comparisons between road transport and rail transport:\n\n1. Construction and maintenance cost: The cost of constructing and maintaining roads is much lower compared to railway tracks.\n2. Geographical adaptability: Roads can be built across undulating, rugged, and hilly terrains, whereas railways require level ground and gentle gradients.\n3. Nature of service: Road transport provides door-to-door service, reducing loading and unloading costs; whereas rail transport is restricted to station-to-station service.\n4. Haulage and distance: Road transport is most economical for short distances and smaller quantities of goods, while rail transport is best suited for long-distance travel and bulk freight transport."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write four points of comparison between water transport and air transport.",
+            "correct_answer": "",
+            "explanation": "Answer:\nFour main points of comparison between water transport and air transport:\n\n1. Cost: Water transport is the cheapest mode of transport as no track construction is needed; whereas air transport is the most expensive.\n2. Speed and time: Water transport is extremely slow and takes more time; whereas air transport is the fastest and most time-saving modern medium.\n3. Carrying capacity: Water transport is ideal for bulky, heavy, and massive international cargo; whereas air transport carries lightweight, perishable, and high-value goods.\n4. Environment and fuel: Water transport is highly fuel-efficient and eco-friendly; whereas air transport consumes enormous amounts of fuel and requires massive infrastructure (airports)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "Explain the following (any two) :",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Simon Commission",
+          "correct_answer": "",
+          "explanation": "Answer:\nSimon Commission:\nTo review the constitutional system in India, the Tory government in Britain constituted a statutory commission under Sir John Simon, which arrived in India in February 1928. The commission faced immense protest because it did not include a single Indian member—all seven members were British. When it arrived, it was greeted with black flags and slogans of 'Simon Go Back'."
+        },
+        {
+          "q_id": "b",
+          "statement": "Dandi March",
+          "correct_answer": "",
+          "explanation": "Answer:\nDandi March (Salt March):\nTo protest against the British monopoly on salt and the salt tax, Mahatma Gandhi began his historic 240-mile march from Sabarmati Ashram to the coastal village of Dandi on March 12, 1930, accompanied by 78 trusted volunteers. On April 6, 1930, Gandhi reached Dandi and broke the salt law by boiling sea water, marking the official launch of the nationwide 'Civil Disobedience Movement'."
+        },
+        {
+          "q_id": "c",
+          "statement": "Quit India Movement",
+          "correct_answer": "",
+          "explanation": "Answer:\nQuit India Movement:\nFollowing the failure of the Cripps Mission, Mahatma Gandhi launched the historic 'Quit India' movement against the British during the All-India Congress Committee session in Bombay on August 8, 1942. Gandhi gave the immortal slogan 'Do or Die' (Karo Ya Maro) to the countrymen. Despite severe repression, this mass movement shook the foundations of British rule."
+        },
+        {
+          "q_id": "d",
+          "statement": "Mahatma Gandhi's views on Satyagraha",
+          "correct_answer": "",
+          "explanation": "Answer:\nMahatma Gandhi's views on Satyagraha:\nAccording to Gandhi ji, Satyagraha was not a weapon of the weak, but a pure expression of soul force. The core meaning of Satyagraha is 'insistence on truth'. He believed that if the cause was true and the fight was against injustice, physical force was not necessary to fight the oppressor. A satyagrahi could win a battle through non-violence, appealing to the conscience of the adversary without any malice or hatred."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why did Gandhiji decide to withdraw the Non-Cooperation Movement?",
+            "correct_answer": "",
+            "explanation": "Answer:\nMahatma Gandhi decided to withdraw the Non-Cooperation Movement in February 1922 due to the following main reasons:\n\n1. Violent incident at Chauri Chaura: On February 5, 1922, at Chauri Chaura in Gorakhpur (Uttar Pradesh), after police fired upon a peaceful procession, an angry mob set fire to the police station, resulting in the death of 22 policemen.\n2. Violation of the principle of non-violence: Gandhi ji was a firm believer in absolute non-violence. Deeply distressed by this violence, he felt that the movement was turning violent and that satyagrahis needed proper training in non-violence before participating in mass struggles. Hence, he abruptly called off the movement."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "Show the following on the given outline map of India:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Mumbai High",
+          "correct_answer": "",
+          "explanation": "Answer:\nMumbai High:\nIt is India's largest offshore petroleum and crude oil producing field located in the Arabian Sea, about 176 km off the coast of Mumbai in Maharashtra."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Delhi",
+          "correct_answer": "",
+          "explanation": "Answer:\nDelhi:\nLocated on the banks of the Yamuna River in northern India, Delhi is the National Capital Region (NCR) and a major political and cultural center of India."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Raniganj",
+          "correct_answer": "",
+          "explanation": "Answer:\nRaniganj:\nLocated in the Bardhaman/Paschim Bardhaman district of West Bengal, it is India's oldest and a major coal mining region."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Tuticorin",
+          "correct_answer": "",
+          "explanation": "Answer:\nTuticorin (Thoothukudi):\nLocated on the extreme south-eastern coast of Tamil Nadu in the Gulf of Mannar, it is a prominent artificial sea port."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Digboi",
+            "correct_answer": "",
+            "explanation": "Answer:\nDigboi:\nLocated in the Tinsukia district of Assam in north-east India, it is India's oldest and first oil-producing and refinery region."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Goa",
+            "correct_answer": "",
+            "explanation": "Answer:\nGoa:\nSituated on the western coast (Konkan coast) of India, Goa is the smallest state in India by area, famous for iron ore export and tourism."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Durg",
+            "correct_answer": "",
+            "explanation": "Answer:\nDurg:\nA prominent district in the plains of Chhattisgarh state, known for its iron ore mines (Dalli-Rajhara) and the Bhilai Steel Plant."
+          },
+          {
+            "q_id": "iv",
+            "statement": "Lakshadweep",
+            "correct_answer": "",
+            "explanation": "Answer:\nLakshadweep:\nLocated in the Arabian Sea off the south-western coast of India, it is India's smallest Union Territory consisting of a group of coral islands."
+          }
+        ]
+      }
+    }
+  ]
+}

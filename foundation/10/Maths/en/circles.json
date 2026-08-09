@@ -1,0 +1,114 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Circles",
+    "totalMarks": "2",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Circles of Tangent (Tangent to a Circle)",
+        "definition": "A line that touches a circle at exactly one point is called a tangent.",
+        "explanation": "A tangent touches the circle at only one point, called the point of contact. The radius drawn to the point of contact is perpendicular to the tangent, forming an angle of 90°.",
+        "importantPoints": [
+          "Tangent Circles को ofवल एक point at छूती है",
+          "Point of Contact at Radius 90° बनाती है",
+          "एक Circles at किसी point from ofवल same Tangent खींची जा सकती है",
+          "Tangent and Radius atस्at perpendicular होते हैं"
+        ],
+        "highlightWords": [
+          "Tangent",
+          "Point of Contact",
+          "Radius",
+          "90°"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Properties of Tangents (Properties of Tangents)",
+        "definition": "The lengths of the two tangents drawn to a circle from an external point are always equal.",
+        "explanation": "If two tangents PA and PB are drawn to a circle from an external point P, then PA = PB. Also, the line joining the center O to P bisects angle APB.",
+        "importantPoints": [
+          "external point from both Tangentओं of length बराबर is (PA = PB)",
+          "ofंद्र from external point मिलाने वाली रेखा angle को bisects करती है",
+          "Tangent Radius at perpendicular is"
+        ],
+        "highlightWords": [
+          "tangent length",
+          "external point",
+          "bisector"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "3_a",
+          "statement": "एक point Q from एक Circles at Tangent of length 24 cm है and ofंद्र from Q of distance 25 cm है। Circles of Radius find।",
+          "correct_answer": "7 cm",
+          "imgUrl": "",
+          "explanation": "Given::\nTangent of length (PQ) = 24 cm\nofंद्र from point of distance (OQ) = 25 cm\n\nWe know कि Circles of Radius, Point of Contact at Tangent at perpendicular is।\nTherefore त्रिभुज OPQ एक right triangle है, जिसin ∠OPQ = 90°\n\nPythagorean theorem from:\nOQ² = OP² + PQ²\n(25)² = OP² + (24)²\n625 = OP² + 576\nOP² = 625 - 576\nOP² = 49\nOP = 7 cm\n\nTherefore Circles of Radius 7 cm है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "3_b",
+            "statement": "if ofंद्र O वाले किसी Circles at T, P and TQ दो Tangentएँ this प्रofर हैं कि ∠POQ = 110°, then ∠PTQ find।",
+            "correct_answer": "70°",
+            "imgUrl": "",
+            "explanation": "Given::\n∠POQ = 110°\n\nचतुर्भुज OPTQ in (जहाँ P and Q Point of Contact हैं):\nRadiusएँ OP and OQ respectively Tangentओं TP and TQ at perpendicular हैं।\nTherefore ∠OPT = 90° and ∠OQT = 90°\n\nचतुर्भुज of चारों angleों of sum 360° is:\n∠PTQ + ∠OPT + ∠OQT + ∠POQ = 360°\n∠PTQ + 90° + 90° + 110° = 360°\n∠PTQ + 290° = 360°\n∠PTQ = 360° - 290°\n∠PTQ = 70°"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "5 cm Radius वाले एक Circles of point P at एक Tangent PQ ofंद्र O from जाने वाली एक रेखा from point Q at this प्रofर मिलती है कि OQ = 12 cm। \nPQ of length find।",
+          "correct_answer": "√119 cm",
+          "imgUrl": "",
+          "explanation": "Given::\nRadius (OP) = 5 cm\nofंद्र from distance (OQ) = 12 cm\n\nTangent Radius at perpendicular is, Therefore ∠OPQ = 90°\nright triangle OPQ in Pythagorean theorem from:\nOQ² = OP² + PQ²\n(12)² = (5)² + PQ²\n144 = 25 + PQ²\nPQ² = 144 - 25\nPQ² = 119\nPQ = √119 cm\n\nTherefore PQ of length √119 cm है।"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "external point P from ofंद्र O वाले किसी Circles at दो Tangentएँ PA and PB this प्रofर हैं कि ∠APB = 80°, then ∠POA find।",
+            "correct_answer": "50°",
+            "imgUrl": "",
+            "explanation": "We know कि ofंद्र को external point from मिलाने वाली रेखा बीच of angle को bisects करती है।\nTherefore ∠APO = (1/2) × ∠APB = (1/2) × 80° = 40°\n\nTangent Radius at perpendicular is, Therefore ∠OAP = 90°\nright triangle OAP in:\n∠POA + ∠APO + ∠OAP = 180°\n∠POA + 40° + 90° = 180°\n∠POA + 130° = 180°\n∠POA = 180° - 130° = 50°"
+          }
+        ]
+      }
+    }
+  ]
+}

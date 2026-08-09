@@ -1,0 +1,135 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Oxidation and Reduction",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Oxidation",
+      "definitionBean": {
+        "title": "Oxidation",
+        "definition": "Gain of oxygen or loss (reduction) of hydrogen in a substance is called 'oxidation'. It also involves the loss of electrons.",
+        "explanation": "In chemical reactions, when oxygen combines with an element or compound or hydrogen is removed from it, it is called an oxidation process.",
+        "importantPoints": [
+          "Addition of Oxygen",
+          "Removal of Hydrogen",
+          "Loss of Electrons"
+        ],
+        "highlightWords": [
+          "Oxidation",
+          "Addition of oxygen",
+          "Loss of hydrogen"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Reduction",
+      "definitionBean": {
+        "title": "Reduction",
+        "definition": "Gain of hydrogen or loss (reduction) of oxygen in a substance is called 'reduction'. It involves the gain of electrons.",
+        "explanation": "The reduction process is completely opposite to oxidation. In this process, either hydrogen is added or oxygen is removed.",
+        "importantPoints": [
+          "Addition of Hydrogen",
+          "Removal of Oxygen",
+          "Gain of Electrons"
+        ],
+        "highlightWords": [
+          "Reduction",
+          "Addition of hydrogen",
+          "Loss of oxygen"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Oxidizing and Reducing Agents",
+      "definitionBean": {
+        "title": "Oxidizing and Reducing Agents",
+        "definition": "Substances that oxidize other substances and are themselves reduced are called 'oxidizing agents'; and those that reduce others are called 'reducing agents'.",
+        "explanation": "In redox reactions, both oxidizing and reducing agents work simultaneously. An oxidizing agent accepts electrons while a reducing agent donates electrons.",
+        "importantPoints": [
+          "Oxidizing Agent: Which provides oxygen or accepts electrons",
+          "Reducing Agent: Which provides hydrogen or loses electrons",
+          "Redox Reaction: In which both oxidation and reduction take place simultaneously"
+        ],
+        "highlightWords": [
+          "Oxidizing agent",
+          "Reducing agent",
+          "Redox reaction"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Oxidation and Reduction",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "Define oxidation. Explain with a suitable chemical equation.",
+          "correct_answer": "Oxidation involves the addition of oxygen or the loss of hydrogen.",
+          "imgUrl": "",
+          "explanation": "The chemical process in which oxygen is added to a substance or hydrogen is removed from it is called oxidation. Example: When copper powder is heated, a layer of oxygen coats it to form copper oxide: $\\text{2Cu} + \\text{O}_2 \\rightarrow \\text{2CuO}$."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What is reduction? How is it different from oxidation?",
+            "correct_answer": "Reduction involves addition of hydrogen or loss of oxygen, which is opposite to oxidation.",
+            "imgUrl": "",
+            "explanation": "Reduction is the process in which hydrogen is added to a substance or oxygen is removed from it. It is the opposite of oxidation because oxygen is added in oxidation while oxygen is removed in reduction."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Oxidizing and Reducing Agents",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "Explain the difference between an oxidizing agent and a reducing agent.",
+          "correct_answer": "An oxidizing agent oxidizes another substance, while a reducing agent reduces another substance.",
+          "imgUrl": "",
+          "explanation": "A substance that provides oxygen to another substance or oxidizes it in a chemical reaction and is itself reduced is called an 'oxidizing agent'. Conversely, a substance that reduces another substance (provides hydrogen) is called a 'reducing agent'."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Identify the substances oxidized and reduced in the following equation:\n$\\text{CuO} + \\text{H}_2 \\rightarrow \\text{Cu} + \\text{H}_2\\text{O}$",
+            "correct_answer": "Hydrogen is oxidized and copper oxide is reduced.",
+            "imgUrl": "",
+            "explanation": "In this reaction, hydrogen ($\\text{H}_2$) is oxidized to water ($\\text{H}_2\\text{O}$), and copper oxide ($\\text{CuO}$) is reduced to copper ($\\text{Cu}$)."
+          }
+        ]
+      }
+    }
+  ]
+}

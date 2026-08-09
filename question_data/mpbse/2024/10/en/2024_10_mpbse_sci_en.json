@@ -1,0 +1,833 @@
+{
+  "paper_details": {
+    "paperYear": "2024",
+    "subjectName": "SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write it:",
+      "explanation": "The answer to each question has been selected based on the relevant chemical reaction, biological process, or scientific principle, as expected in the board examination.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What type of reaction is Fe₂O₃ + 2Al → Al₂O₃ + Fe?",
+          "options": [
+            {"index": "a", "text": "Combination reaction"},
+            {"index": "b", "text": "Displacement reaction"},
+            {"index": "c", "text": "Double displacement reaction"},
+            {"index": "d", "text": "Decomposition reaction"}
+          ],
+          "correct_answer": "Displacement reaction",
+          "correct_answer_text": "Displacement reaction",
+          "explanation": "The correct option is (b).\n\nReason:\nIn this thermite reaction, aluminum (Al), being more reactive than iron (Fe), displaces iron from ferric oxide (Fe₂O₃) to form aluminum oxide (Al₂O₃). Hence, it is a displacement reaction."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which of the following acids is used for dental treatment?",
+          "options": [
+            {"index": "a", "text": "Acetic acid (vinegar)"},
+            {"index": "b", "text": "Tartaric acid (tamarind)"},
+            {"index": "c", "text": "Lactic acid"},
+            {"index": "d", "text": "Nitric acid"}
+          ],
+          "correct_answer": "Tartaric acid (tamarind)",
+          "correct_answer_text": "Tartaric acid (tamarind)",
+          "explanation": "The correct option is (b).\n\nReason:\nTartaric acid is used in dental care and oral hygiene formulations as a mild acidic component and as an ingredient in mouthwash/dental cleansers."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which of the following methods is used to protect iron from rusting?",
+          "options": [
+            {"index": "a", "text": "By applying oil"},
+            {"index": "b", "text": "By applying paint"},
+            {"index": "c", "text": "By coating with zinc"},
+            {"index": "d", "text": "By coating with chromium"}
+          ],
+          "correct_answer": "By coating with zinc",
+          "correct_answer_text": "By coating with zinc",
+          "explanation": "The correct option is (c).\n\nReason:\nThe method of coating iron or steel with a thin layer of zinc to protect it from rust is called galvanization. This is the most prominent method of long-term protection."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Excessive consumption of ethanol-containing beverages damages which of the following?",
+          "options": [
+            {"index": "a", "text": "Carbohydrate system"},
+            {"index": "b", "text": "Gastrointestinal system"},
+            {"index": "c", "text": "Liver"},
+            {"index": "d", "text": "Lungs"}
+          ],
+          "correct_answer": "Liver",
+          "correct_answer_text": "Liver",
+          "explanation": "The correct option is (c).\n\nReason:\nExcessive consumption of ethanol (alcohol) severely damages the liver, leading to fatal diseases such as liver cirrhosis."
+        },
+        {
+          "q_id": "v",
+          "statement": "Where does the process of transpiration in plants mainly occur?",
+          "options": [
+            {"index": "a", "text": "In the cytoplasm"},
+            {"index": "b", "text": "In the mitochondria"},
+            {"index": "c", "text": "In the chloroplast"},
+            {"index": "d", "text": "Through the stomata"}
+          ],
+          "correct_answer": "Through the stomata",
+          "correct_answer_text": "Through the stomata",
+          "explanation": "The correct option is (d).\n\nReason:\nWater exits in the form of vapor through tiny pores, called stomata, present on the surface of the aerial parts (mainly leaves) of plants."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The food space between two cells is called:",
+          "options": [
+            {"index": "a", "text": "Humus"},
+            {"index": "b", "text": "Fertilization"},
+            {"index": "c", "text": "Space (intercellular space)"},
+            {"index": "d", "text": "Distillation"}
+          ],
+          "correct_answer": "Space (intercellular space)",
+          "correct_answer_text": "Space (intercellular space)",
+          "explanation": "The correct option is (c).\n\nReason:\nThe empty space found between two or more adjoining cells in tissues is called an intercellular space."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The disposal of the waste we produce is a serious {BLANK} problem.",
+          "options": [
+            {"index": "a", "text": "Social"},
+            {"index": "b", "text": "Environmental"}
+          ],
+          "correct_answer": "Environmental",
+          "explanation": "Answer: Environmental\n\nReason: Improper disposal of waste/garbage pollutes soil, water, and air, causing an imbalance in the ecosystem. Hence it is a major environmental problem."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The least distance of distinct vision for a person with normal eyesight is approximately {BLANK}.",
+          "options": [
+            {"index": "a", "text": "25 cm"},
+            {"index": "b", "text": "50 cm"}
+          ],
+          "correct_answer": "25 cm",
+          "explanation": "Answer: 25 cm\n\nReason: A normal adult eye can clearly see objects located at a minimum distance of 25 cm without any strain. This is called the near point of the eye."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Due to the scattering of light, the sky appears {BLANK} in color.",
+          "options": [
+            {"index": "a", "text": "Blue"},
+            {"index": "b", "text": "Red"}
+          ],
+          "correct_answer": "Blue",
+          "explanation": "Answer: Blue\n\nReason: The fine particles of the atmosphere scatter blue light, which has a shorter wavelength, more strongly, so the scattered blue light reaches our eyes."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The S.I. unit of electric power is {BLANK}.",
+          "options": [
+            {"index": "a", "text": "Joule"},
+            {"index": "b", "text": "Watt"}
+          ],
+          "correct_answer": "Watt",
+          "explanation": "Answer: Watt\n\nReason: The rate of doing work or consuming energy is called electric power. Its SI unit is the watt (W). (1 watt = 1 joule/second)."
+        },
+        {
+          "q_id": "v",
+          "statement": "Potential difference is measured by an instrument called {BLANK}.",
+          "options": [
+            {"index": "a", "text": "Ammeter"},
+            {"index": "b", "text": "Voltmeter"}
+          ],
+          "correct_answer": "Voltmeter",
+          "explanation": "Answer: Voltmeter\n\nReason: The device used to measure the electric potential difference between two points in a circuit is called a voltmeter, which is connected in parallel in the circuit."
+        },
+        {
+          "q_id": "vi",
+          "statement": "During a short circuit, the value of the electric current in the circuit {BLANK}.",
+          "options": [
+            {"index": "a", "text": "Decreases"},
+            {"index": "b", "text": "Increases"}
+          ],
+          "correct_answer": "Increases",
+          "explanation": "Answer: Increases\n\nReason: During a short circuit, the live and neutral wires come into direct contact, making the resistance of the circuit negligible, causing the current to increase drastically."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Two magnetic field lines intersect each other.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: Two magnetic field lines never intersect each other. If they did, the compass needle would point in two different directions at the point of intersection, which is impossible."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Chlorofluorocarbons are used for firefighting.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: Chlorofluorocarbons (CFCs) are used as refrigerants in refrigerators and air conditioners, whereas fire extinguishers mainly use CO₂."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Substances that decompose through biological processes are called non-biodegradable.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: Substances that decompose through biological processes (by bacteria/fungi) are called 'biodegradable', not non-biodegradable."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The full form of D.N.A. is deoxyribonucleic acid.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: The full form of DNA is Deoxyribonucleic Acid, which is the genetic material of all living organisms."
+        },
+        {
+          "q_id": "v",
+          "statement": "When a Hydra is cut into several pieces and each piece develops into a complete organism, this is called reproduction.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: This ability of a cut piece of an organism to develop into a complete new organism is called 'regeneration'."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Heat is absorbed in an endothermic chemical reaction.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: Chemical reactions in which heat/energy is absorbed from the surroundings to break bonds between reactants are called endothermic reactions."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the correct pairs:",
+      "columns": {
+        "column_A_title": "Column (A)",
+        "column_B_title": "Column (B)",
+        "pairs": [
+          {
+            "a_item": "Marble",
+            "b_item": "CaCO₃",
+            "correct_match_index": "3",
+            "explanation": "Correct match: Marble ⟶ CaCO₃\n\nReason: Marble is a metamorphic form of limestone, whose chemical formula is calcium carbonate (CaCO₃)."
+          },
+          {
+            "a_item": "Vinegar",
+            "b_item": "Acetic acid",
+            "correct_match_index": "4",
+            "explanation": "Correct match: Vinegar ⟶ Acetic acid\n\nReason: A 5-8% aqueous solution of ethanoic acid (acetic acid - CH₃COOH) is called vinegar."
+          },
+          {
+            "a_item": "Bromine",
+            "b_item": "Liquid non-metal",
+            "correct_match_index": "1",
+            "explanation": "Correct match: Bromine ⟶ Liquid non-metal\n\nReason: In the periodic table, bromine (Br) is the only non-metal found in liquid state at room temperature."
+          },
+          {
+            "a_item": "Benzene",
+            "b_item": "C₆H₆",
+            "correct_match_index": "2",
+            "explanation": "Correct match: Benzene ⟶ C₆H₆\n\nReason: Benzene is an aromatic hydrocarbon with the molecular formula C₆H₆."
+          },
+          {
+            "a_item": "Sex chromosome (male)",
+            "b_item": "XY",
+            "correct_match_index": "5",
+            "explanation": "Correct match: Sex chromosome (male) ⟶ XY\n\nReason: In human males, the sex chromosomes of the 23rd pair are heterozygous (XY) type."
+          },
+          {
+            "a_item": "Insulin",
+            "b_item": "Regulation of blood sugar",
+            "correct_match_index": "6",
+            "explanation": "Correct match: Insulin ⟶ Regulation of blood sugar\n\nReason: The hormone insulin, secreted by the pancreas, works to balance the level of glucose/sugar in the blood."
+          }
+        ]
+      },
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "The items of Column (A) have been correctly and logically matched with Column (B)."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "",
+      "text": "Answer in one word/sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is blood pressure?",
+          "correct_answer": "The pressure exerted against the walls of blood vessels (arteries) is called blood pressure.",
+          "explanation": "Answer: The pressure exerted by flowing blood on the walls of blood vessels (especially arteries) is called 'blood pressure'."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Name the hormone that helps in the growth of the plant stem.",
+          "correct_answer": "Auxin / Gibberellin",
+          "explanation": "Answer: Gibberellin (for stem elongation) / Auxin."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Who presented the main laws of heredity?",
+          "correct_answer": "Gregor Johann Mendel",
+          "explanation": "Answer: Gregor Johann Mendel."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Why is the light of a danger signal red in color?",
+          "correct_answer": "Since red light has the longest wavelength, it scatters the least and is visible clearly from a distance.",
+          "explanation": "Answer: Because red light has the longest wavelength, it scatters the least in fog or smoke and is visible from far away."
+        },
+        {
+          "q_id": "v",
+          "statement": "Write the commercial unit of electrical energy.",
+          "correct_answer": "Kilowatt-hour (kWh) or 'unit'",
+          "explanation": "Answer: Kilowatt-hour (kWh) or unit. (1 kWh = 3.6 × 10⁶ J)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Write the full form of M.R.I.",
+          "correct_answer": "Magnetic Resonance Imaging",
+          "explanation": "Answer: Magnetic Resonance Imaging."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why should curd and sour substances not be kept in brass and copper vessels?",
+          "correct_answer": "",
+          "explanation": "Answer:\nCurd and sour substances naturally contain acids (such as lactic acid). When kept in brass or copper vessels, the acid reacts with the metals to form toxic salts and compounds. These compounds make the food poisonous/harmful, and consuming it can be detrimental to health. This is why sour substances should not be kept in copper and brass vessels."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "When does acid rain occur? Write its causes and effects.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Condition: When the pH value of rainwater falls below 5.6, it is called acid rain.\n\n2. Cause: Sulfur dioxide (SO₂) and nitrogen oxide (NOₓ) gases emitted from fossil fuels and factory smoke react with water vapor in the atmosphere to form sulfuric and nitric acids.\n\n3. Effects:\n- It makes the water of rivers/ponds acidic, harming aquatic life.\n- It damages historical buildings (such as the Taj Mahal) and soil fertility."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "Which acid is found in the following natural sources?",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Lemon",
+          "correct_answer": "Citric acid",
+          "explanation": "Answer: Citric Acid\n\n(Citric acid is mainly found in sour citrus fruits such as lemon and orange)."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Ant sting",
+          "correct_answer": "Formic acid",
+          "explanation": "Answer: Methanoic acid (Formic acid - HCOOH)\n\n(When an ant stings, methanoic acid is secreted into the skin, causing irritation and pain)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two uses of baking soda.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main uses of baking soda (NaHCO₃ - sodium hydrogen carbonate):\n\n1. To make baking powder in the kitchen (which makes bread, cakes, and fritters crispy and spongy).\n2. As a component of antacids to neutralize stomach acidity."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Draw the electron dot structure of ethane.",
+          "correct_answer": "",
+          "explanation": "Answer:\nElectron dot structure of ethane (C₂H₆):\n\nIn the ethane molecule, two carbon (C) atoms share one electron each to form a single bond, and each carbon shares electrons with 3 hydrogen (H) atoms each.\n\n   H   H\n   •   •\nH • C •• C • H\n   •   •\n   H   H\n\n(Each C completes its octet and each H completes its duet.)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "Draw the electron dot structure of methane.",
+            "correct_answer": "",
+            "explanation": "Answer:\nElectron dot structure of methane (CH₄):\n\nIn methane, a central carbon (C) atom shares one electron pair each with four hydrogen (H) atoms, forming 4 single covalent bonds.\n\n     H\n     •\n H • C • H\n     •\n     H\n\n(Carbon completes its octet by gaining 8 electrons.)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is denatured alcohol?",
+          "correct_answer": "",
+          "explanation": "Answer:\nTo prevent the misuse of ethanol (alcohol) prepared for industrial use, toxic and foul-smelling substances such as methanol, pyridine, or copper sulfate are added to it. Alcohol made undrinkable in this way is called 'denatured alcohol'."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "How is alcohol used as a fuel?",
+            "correct_answer": "",
+            "explanation": "Answer:\nEthanol is a clean and environmentally friendly fuel. When burned in sufficient air, it produces only carbon dioxide (CO₂) and water vapor.\n\nUse: In many countries, it is mixed with petrol (e.g., 10% to 20% ethanol-blended petrol) and used as a green fuel in automobiles."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define life processes.",
+          "correct_answer": "",
+          "explanation": "Answer:\nAll biological activities that collectively maintain organisms and are essential for keeping them alive are called 'life processes'.\n\nExamples: Nutrition, respiration, circulation (transportation), and excretion."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the chemical reaction of photosynthesis.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThe balanced chemical equation of photosynthesis is as follows:\n\n6CO₂ (carbon dioxide) + 12H₂O (water) ⟶(sunlight / chlorophyll) C₆H₁₂O₆ (glucose) + 6O₂ (oxygen) + 6H₂O (water)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is vegetative propagation carried out in some plants?",
+          "correct_answer": "",
+          "explanation": "Answer:\nVegetative propagation is carried out in some plants for the following reasons:\n\n1. Seedless plants: To grow plants that have lost the ability to produce seeds (such as banana, jasmine, rose).\n2. Pure characteristics and rapid growth: To retain all the desired traits of the parent plant in the new offspring, and to obtain fruits/flowers in less time compared to growing from seeds."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the definition of the tissue culture technique.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTissue Culture:\nThe modern technique of growing new plants by taking a small piece of a plant's apical part or tissue and developing it in a sterile artificial nutrient medium in a laboratory is called tissue culture.\n\nAdvantage: This allows hundreds of disease-free plants (such as orchids) to be produced from a single plant in a short time."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How does the fetus receive nourishment in the mother's body?",
+          "correct_answer": "",
+          "explanation": "Answer:\nA special disc-shaped tissue structure called the **placenta** develops in the wall of the mother's uterus. The fetus is connected to the placenta by the umbilical cord. Oxygen, glucose, and other essential nutrients from the mother's blood reach the fetus through the placenta, and the fetus's waste products are also expelled into the mother's blood via the placenta."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is menstruation and how many days does it usually last?",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Definition: When the egg is not fertilized in a female, the inner spongy wall of the uterus breaks down and is expelled through the vagina in the form of blood and mucus. This cycle is called menstruation.\n\n2. Duration: This discharge usually lasts for 3 to 5 days (or 2 to 8 days), and this cycle repeats at an interval of about 28 days."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How is the sex of a child determined in humans? (Draw only the line diagram)",
+          "correct_answer": "",
+          "explanation": "Answer:\nLine diagram of sex determination in humans:\n\n        Parents:          Mother (XX)    ×    Father (XY)\n                       /    \\           /    \\\n        Gametes:      X      X         X      Y\n                     / \\    / \\       / \\    / \\\n        Offspring (F₁): XX   XY    XX   XY\n                   (daughter) (son) (daughter) (son)\n\n(Explanation: When 'X' from the mother combines with 'X' from the father, a daughter (XX) is born, and when it combines with 'Y' from the father, a son (XY) is born.)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw a line diagram of the first generation (F₁) of heredity.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/aanuvanshikta.png",
+            "explanation": "Answer:\nMendel's monohybrid cross (diagram of the F₁ generation):\n\nParent generation (P):        Pure tall (TT)   ×   Pure dwarf (tt)\nGametes:                    (T)                (t)\n                           └───────┬──────────┘\nF₁ generation (offspring):                  Tt  (all hybrid tall plants)\n\n[Draw the diagram according to the imgUrl given in the answer sheet.]"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the laws of reflection of light.",
+          "correct_answer": "",
+          "explanation": "Answer:\nThere are two main laws of reflection of light:\n\n1. First law: The angle of incidence (i) is always equal to the angle of reflection (r). (∠i = ∠r)\n2. Second law: The incident ray, the reflected ray, and the normal drawn at the point of incidence all lie in the same plane."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Define the center of curvature.",
+            "correct_answer": "",
+            "explanation": "Answer: Center of Curvature:\nThe center of the hollow sphere of which the reflecting surface of a spherical mirror forms a part is called the 'center of curvature' (C) of the spherical mirror."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Define focal length.",
+            "correct_answer": "",
+            "explanation": "Answer: Focal Length:\nThe distance between the pole (P) of a spherical mirror and its principal focus (F) is called the 'focal length' (f) of the mirror."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The refractive index of diamond is 2.42. What does this statement mean?",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe refractive index of diamond being 2.42 means that the ratio of the speed of light in vacuum (or air) to the speed of light in diamond is 2.42.\n\nThat is, the speed of light in diamond becomes (1 / 2.42) times the speed of light in vacuum (i.e., it decreases considerably), and its optical density is extremely high."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define the power of a lens of 1 diopter.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1 Diopter (1 D):\nOne diopter is the power of a lens whose focal length is 1 meter (1 m).\n\n(Formula: P = 1 / f ; if f = 1 m, then P = 1 D)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "(i)",
+          "statement": "Why does the sky appear black instead of blue to an astronaut?",
+          "correct_answer": "",
+          "explanation": "Answer:\nThere is no atmosphere at very high altitudes in space. In the absence of an atmosphere, 'scattering of light' from the sun cannot take place there. Since the light rays do not scatter at all, the sky appears black instead of blue to an astronaut."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "(ii)",
+            "statement": "Why don't planets twinkle?",
+            "correct_answer": "",
+            "explanation": "Answer:\nPlanets are quite close to the Earth, so they can be considered as large (extended) sources of light. A planet can be considered a collection of many point-sized sources of light. Due to atmospheric refraction, the average value of the total variation in the amount of light coming into our eyes from all the point sources becomes zero, so the twinkling of planets is not observed."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1=2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Electric cell",
+          "correct_answer": "",
+          "explanation": "Answer: Circuit symbol of an electric cell:\n\n    +  │  ┆\n ───┼──┴─── ─── (or: ──[│ ┆]──)\n\n(In the symbol, a long thin line represents the positive '+' terminal, and a short thick line represents the negative '-' terminal.)"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Current controller (rheostat)",
+          "correct_answer": "",
+          "explanation": "Answer: Symbol of the current controller (Rheostat):\n\n     ┌───┐\n ───┤R  ├───\n    └─┬─┘\n      ↓ (or a diagonal arrow mark over the resistor ──[vvv]──/──)\n\n(It works by changing the resistance in the circuit to control the current.)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What factors does the resistance of a conductor depend on? (Write any two)",
+            "correct_answer": "",
+            "explanation": "Answer:\nThe resistance (R) of a conductor depends on the following two main factors:\n\n1. Length of the conductor (l): Resistance is directly proportional to the length of the conductor (R ∝ l). That is, resistance increases as length increases.\n2. Area of cross-section (A): Resistance is inversely proportional to the area (R ∝ 1/A). That is, the thicker the wire, the lower the resistance."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1+1",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Give an example of a metal that is liquid at room temperature.",
+          "correct_answer": "Mercury (Hg)",
+          "explanation": "Answer: Mercury (Hg)"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Give an example of a metal that can be easily cut with a knife.",
+          "correct_answer": "Sodium (Na) / Potassium (K)",
+          "explanation": "Answer: Sodium (Na) or Potassium"
+        },
+        {
+          "q_id": "iii",
+          "statement": "Give an example of a metal that is the best conductor of heat.",
+          "correct_answer": "Silver (Ag)",
+          "explanation": "Answer: Silver (Ag)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Define a mineral.",
+            "correct_answer": "",
+            "explanation": "Answer: Minerals:\nInorganic elements or compounds found naturally in the Earth's crust are called 'minerals'."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Define an ore.",
+            "correct_answer": "",
+            "explanation": "Answer: Ores:\nSpecific minerals from which a metal can be extracted easily and at low cost (profitably) are called 'ores'."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Define gangue.",
+            "correct_answer": "",
+            "explanation": "Answer: Gangue:\nUndesirable impurities such as soil, sand, and gravel present in ores extracted from mines are called 'gangue'."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw a diagram of a nerve cell and write the names of two cell organelles.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/tantrika_koshika.png",
+          "explanation": "Answer:\n(1) Diagram of a nerve cell (neuron):\n[Draw a labeled diagram showing the cell body, dendrites, nucleus, axon, and nerve endings as per the given imgUrl.]\n\n(2) Names of two cell organelles:\n1. Mitochondria - the powerhouse of the cell\n2. Ribosome - the center of protein synthesis"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw a diagram of a reflex arc and write the names of two of its parts.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/prativarti_chap.png",
+            "explanation": "Answer:\n(1) Flow/diagram of a reflex arc:\nStimulus ⟶ Receptor (skin) ⟶ Sensory neuron ⟶ Spinal cord ⟶ Motor neuron ⟶ Effector muscle ⟶ Response\n\n(2) Names of two main parts of a reflex arc:\n1. Sensory neuron\n2. Motor neuron"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2+1",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "(i)",
+          "statement": "Write the right-hand thumb rule (Maxwell's corkscrew rule) with a diagram.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/right_hand_thumbrule.png",
+          "explanation": "Answer:\n(1) Statement of the rule:\nHold the current-carrying conductor in your right hand such that the thumb points in the direction of the current; then the direction in which the fingers wrap around the conductor indicates the direction of the field lines of the magnetic field.\n\n(2) Diagram:\n[In the answer, draw a diagram showing the conductor, the direction of current I, and the magnetic field B indicated by the curled fingers.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "(ii)",
+            "statement": "Write Fleming's left-hand rule with a diagram.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/left_hand_thumbrule.png",
+            "explanation": "Answer:\n(1) Statement of the rule:\nStretch out the forefinger, middle finger, and thumb of the left hand such that all three are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the middle finger in the direction of the electric current, then the thumb points in the direction of the mechanical force acting on the conductor.\n\n(2) Diagram:\n[Draw a diagram in the answer showing the forefinger (field), middle finger (current), and thumb (force).]"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1+1+1",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "(i)",
+          "statement": "Write the types of the following chemical reactions.",
+          "correct_answer": "",
+          "explanation": "Answer:\nFour main types of chemical reactions:\n1. Combination Reaction\n2. Decomposition Reaction\n3. Displacement Reaction\n4. Double Displacement Reaction"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "(ii)",
+            "statement": "Write the name and equation of the reaction between sodium sulfate and barium chloride.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Name of reaction: Double displacement reaction (and precipitation reaction).\n\n2. Balanced chemical equation:\nNa₂SO₄(aq) (sodium sulfate) + BaCl₂(aq) (barium chloride) ⟶ BaSO₄(s)↓ (barium sulfate - white precipitate) + 2NaCl(aq) (sodium chloride)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2+2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "(i)",
+          "statement": "Draw a labeled diagram of open and closed stomata.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/khule_band_randhra.png",
+          "explanation": "Answer:\n(1) Diagram and description of open stoma:\nWhen the guard cells fill with water, they become turgid (swell) and the stomatal pore opens.\n\n(2) Diagram and description of closed stoma:\nWhen water exits the guard cells, they become flaccid and shrink, and the pore closes.\n\n[Diagram: Draw a diagram showing the guard cells, chloroplasts, and stomatal pore as shown in the answer sheet image.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "(ii)",
+            "statement": "Draw a labeled diagram of the human excretory system.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_utsarjan_tantra.png",
+            "explanation": "Answer:\nMain organs of the human excretory system:\n1. A pair of kidneys\n2. A pair of ureters\n3. A urinary bladder\n4. A urethra\n\n[Diagram: Draw a labeled diagram showing the kidneys, vena cava, aorta, ureter, and urinary bladder as per the given image (imgUrl).]"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the position, nature, and size of the image formed by a convex mirror.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/uttal_darpan.png",
+          "explanation": "Answer:\nComplete description of image formation by a convex mirror:\n\n1. Nature of image: Always virtual and erect.\n2. Size of image: Always smaller than the size of the object (or point-sized).\n3. Position of image:\n   - When the object is at infinity ⟶ the image forms at the 'focus (F)' behind the mirror.\n   - When the object is between infinity and the pole ⟶ the image forms between the 'pole (P) and focus (F)' behind the mirror.\n\n[Diagram: Draw as per the given ray diagram.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the nature and size of the image for a concave mirror.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/avtal_darpan.png",
+            "explanation": "Answer:\nIn a concave mirror, the nature and size of the image depend on the position of the object:\n\n1. When the object is at the focus (F) or farther (at C, beyond C, at infinity): - Nature: Real and inverted.\n   - Size: Highly diminished (point-sized), smaller, or equal (at C).\n\n2. When the object is between F and C: - Nature: Real and inverted.\n   - Size: Larger than the object (magnified).\n\n3. When the object is between the pole (P) and the focus (F):\n   - Nature: Virtual and erect.\n   - Size: Much larger than the object (behind the mirror).\n\n[Diagram: Draw the ray diagram in the answer sheet.]"
+          }
+        ]
+      }
+    }
+  ]
+}

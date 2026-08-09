@@ -1,0 +1,135 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Carbon and Its Compounds",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Characteristics of Carbon",
+      "definitionBean": {
+        "title": "Characteristics of Carbon: Tetravalency and Catenation",
+        "definition": "Carbon has a valency of 4 (tetravalent) and possesses a unique property of forming long chains by covalent bonding with other carbon atoms, called 'Catenation'[cite: 18].",
+        "explanation": "Due to the small size of carbon, there is strong attraction between its nucleus and electrons, allowing it to form strong covalent bonds, resulting in millions of carbon compounds (organic compounds) in nature[cite: 18].",
+        "importantPoints": [
+          "Tetravalency: Carbon can share electrons with four other atoms[cite: 18]",
+          "Catenation: Ability to form long chain, branched, or ring structures between carbon-carbon atoms[cite: 18]",
+          "Property of building multi-dimensional compounds"
+        ],
+        "highlightWords": [
+          "Tetravalency",
+          "Catenation",
+          "Covalent bond"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Hydrocarbons",
+      "definitionBean": {
+        "title": "Hydrocarbons: Saturated and Unsaturated",
+        "definition": "Compounds made solely of hydrogen and carbon are called hydrocarbons. Those with single bonds are saturated (alkanes) and those with double/triple bonds are unsaturated (alkenes and alkynes)[cite: 18].",
+        "explanation": "Saturated hydrocarbons (alkanes, $\\text{C}_n\\text{H}_{2n+2}$) are relatively less reactive, whereas unsaturated hydrocarbons (alkenes and alkynes) are more reactive and undergo addition reactions[cite: 18].",
+        "importantPoints": [
+          "Saturated hydrocarbon: Single bond between carbon-carbon atoms[cite: 18]",
+          "Unsaturated hydrocarbon: Double or triple bond between carbon-carbon atoms[cite: 18]",
+          "General formulas: Alkane ($\\text{C}_n\\text{H}_{2n+2}$), Alkene ($\\text{C}_n\\text{H}_{2n}$), Alkyne ($\\text{C}_n\\text{H}_{2n-2}$)[cite: 18]"
+        ],
+        "highlightWords": [
+          "Saturated hydrocarbon",
+          "Unsaturated hydrocarbon",
+          "Alkane"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Soaps and Detergents",
+      "definitionBean": {
+        "title": "Soaps and Detergents",
+        "definition": "Soaps are sodium or potassium salts of long-chain fatty acids, while detergents are long-chain sulfonic acid or ammonium salts that lather even in hard water[cite: 18].",
+        "explanation": "Both soap and detergent molecules have a hydrophilic (water-loving) end and a hydrophobic (water-hating) end, which trap dirt (oil/grease) in the form of micelles and wash it away with water[cite: 18].",
+        "importantPoints": [
+          "Soaps: Do not lather easily in hard water (form calcium/magnesium salts)[cite: 18]",
+          "Detergents: Effective in both hard and soft water[cite: 18]",
+          "Cleaning process through micelle formation[cite: 18]"
+        ],
+        "highlightWords": [
+          "Soap",
+          "Detergent",
+          "Micelle"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Characteristics of Carbon and Hydrocarbons",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "What is the reason for the huge number of carbon compounds? Explain[cite: 18].",
+          "correct_answer": "Catenation and tetravalency cause the massive number of carbon compounds[cite: 18].",
+          "imgUrl": "",
+          "explanation": "There are two main reasons for the massive number of carbon compounds: 1. Catenation: Carbon atoms have an extraordinary capacity to link with each other via covalent bonds to form long chains[cite: 18]. 2. Tetravalency: Due to a valency of 4, carbon forms strong compounds with other carbon atoms as well as hydrogen, oxygen, nitrogen, etc[cite: 18]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Write the difference between saturated and unsaturated hydrocarbons. Give one example of each[cite: 18].",
+            "correct_answer": "Saturated has single bonds (ethane), unsaturated has double/triple bonds (ethene)[cite: 18].",
+            "imgUrl": "",
+            "explanation": "Saturated hydrocarbons have only single bonds between carbon atoms (e.g., ethane $\\text{C}_2\\text{H}_6$), while unsaturated hydrocarbons have double or triple bonds (e.g., ethene $\\text{C}_2\\text{H}_4$)[cite: 18]. Saturated are less reactive and unsaturated are more reactive[cite: 18]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Soaps and Detergents",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "What is the difference between soap and detergent? Explain the cleansing action of soap[cite: 18].",
+          "correct_answer": "Soaps are fatty acid salts, detergents are sulfonic acid salts; cleaning happens via micelles[cite: 18].",
+          "imgUrl": "",
+          "explanation": "Soaps are sodium salts of long-chain fatty acids which do not work well in hard water, whereas detergents are sulfonic acid salts which remain effective even in hard water[cite: 18]. In the cleaning process, soap molecules form 'micelles' whose hydrophobic end attaches to dirt and washes away with water[cite: 18]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Why does lather not form easily when washing clothes with soap in hard water[cite: 18]?",
+            "correct_answer": "Due to formation of insoluble scum from calcium and magnesium salts[cite: 18].",
+            "imgUrl": "",
+            "explanation": "Hard water contains dissolved salts of calcium and magnesium, which react with soap to form an insoluble substance (scum or precipitate), destroying the soap and preventing easy lathering[cite: 18]."
+          }
+        ]
+      }
+    }
+  ]
+}

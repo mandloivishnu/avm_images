@@ -1,0 +1,163 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Balancing of Chemical Equations",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Balancing of Chemical Equation",
+      "definitionBean": {
+        "title": "Balancing of Chemical Equation",
+        "definition": "The process of making the number of atoms of each element equal on both sides (reactant and product) of a chemical equation is called 'balancing of an equation'.",
+        "explanation": "According to the law of conservation of mass, mass is neither created nor destroyed in any chemical reaction. Therefore, the number of atoms must be equal on both sides.",
+        "importantPoints": [
+          "Atoms of reactants and products must be equal",
+          "Based on the law of conservation of mass",
+          "Hit and Trial Method is used"
+        ],
+        "highlightWords": [
+          "Balanced equation",
+          "Atom count",
+          "Conservation of mass"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Law of Conservation of Mass",
+      "definitionBean": {
+        "title": "Law of Conservation of Mass",
+        "definition": "According to this law, mass can neither be created nor destroyed in any chemical reaction.",
+        "explanation": "The total mass before the reaction (total mass of reactants) and after the reaction (total mass of products) remains always the same.",
+        "importantPoints": [
+          "Total mass of reactants = Total mass of products",
+          "Total atoms remain unchanged during chemical change",
+          "Propounded by Antoine Lavoisier"
+        ],
+        "highlightWords": [
+          "Conservation of mass",
+          "Neither created",
+          "Nor destroyed"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Importance and Method of Balanced Equations",
+      "definitionBean": {
+        "title": "Importance and Method of Balanced Equation",
+        "definition": "A balanced equation ensures that atoms of elements are balanced in a reaction, balanced using the 'Hit and Trial Method'.",
+        "explanation": "To balance an equation, one starts by selecting the compound with the maximum number of atoms and equalizing atoms on both sides using coefficients.",
+        "importantPoints": [
+          "Balanced equations provide exact quantities of reactants and products",
+          "Hit and trial method is the most common approach",
+          "Subscripts inside formulas are never changed"
+        ],
+        "highlightWords": [
+          "Balanced equation",
+          "Importance",
+          "Hit and trial method"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Balancing of Equations and Law of Conservation of Mass",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "Why is it necessary to balance a chemical equation?",
+          "correct_answer": "Balancing equations is necessary to follow the law of conservation of mass.",
+          "imgUrl": "",
+          "explanation": "Balancing a chemical equation is necessary because it obeys the 'law of conservation of mass', which states that mass is neither created nor destroyed in a chemical reaction."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What is the law of conservation of mass? Explain briefly.",
+            "correct_answer": "Total mass remains equal in reactions; atoms are neither created nor destroyed.",
+            "imgUrl": "",
+            "explanation": "According to the law of conservation of mass, the total mass of reactants is equal to the total mass of products in any chemical reaction, meaning atoms are neither created nor destroyed during chemical processes."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Importance of Balanced Equations",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "What important information does a balanced chemical equation give us?",
+          "correct_answer": "It provides atom/molecule count, mass, and physical states.",
+          "imgUrl": "",
+          "explanation": "A balanced chemical equation gives precise information about the number of molecules/atoms of reactants and products, their masses, physical states, and energy changes during the reaction."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "What is the difference between a skeleton equation and a balanced equation?",
+            "correct_answer": "Skeleton equations are unbalanced, while balanced equations have equal atoms on both sides.",
+            "imgUrl": "",
+            "explanation": "A skeleton equation is one in which atoms of elements are not balanced on both sides, whereas a balanced equation has equal atoms on both sides in accordance with the law of conservation of mass."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Method of Balancing Equations",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "Explain the 'Hit and Trial Method' for balancing chemical equations.",
+          "correct_answer": "Equalizing atoms on both sides by adjusting coefficients is the hit and trial method.",
+          "imgUrl": "",
+          "explanation": "In the hit and trial method, one first selects the compound with the maximum number of atoms and equates the atoms of elements on both sides by changing coefficients until the equation is balanced."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "Balance the following equation: $\\text{HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{H}_2\\text{O}$",
+            "correct_answer": "$\\text{2HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{2H}_2\\text{O}$",
+            "imgUrl": "",
+            "explanation": "The balanced equation will be:\n$\\text{2HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{2H}_2\\text{O}$"
+          }
+        ]
+      }
+    }
+  ]
+}

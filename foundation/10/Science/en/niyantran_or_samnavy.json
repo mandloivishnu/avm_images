@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Control and Coordination",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Nervous System and Neuron",
+      "definitionBean": {
+        "title": "Nervous System and Neuron",
+        "definition": "The system that controls all body activities and responses to the environment in organisms is called the 'nervous system', whose structural unit is the 'neuron' (nerve cell)[cite: 20].",
+        "explanation": "A neuron functions to transmit information from one place to another in the body in the form of electrochemical impulses[cite: 20].",
+        "importantPoints": [
+          "Neuron (Nerve cell): Microscopic unit of the nervous system[cite: 20]",
+          "Dendrites: The end that receives information[cite: 20]",
+          "Axon: Long fiber structure that passes impulses forward[cite: 20]",
+          "Synapse: Contact point between two nerve cells[cite: 20]"
+        ],
+        "highlightWords": [
+          "Nervous system",
+          "Neuron",
+          "Synapse",
+          "Electrical impulse"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Brain and Reflex Action",
+      "definitionBean": {
+        "title": "Human Brain and Reflex Action",
+        "definition": "The human brain is the main organ of the central nervous system that controls thinking, vision, balance, and involuntary actions; and a sudden involuntary action in response to a stimulus is called a 'reflex action'[cite: 20].",
+        "explanation": "The brain is divided into three parts - forebrain, midbrain, and hindbrain (cerebellum, medulla)[cite: 20]. Reflex actions are primarily controlled by the spinal cord[cite: 20].",
+        "importantPoints": [
+          "Forebrain: Main thinking and reasoning part[cite: 20]",
+          "Cerebellum: Maintaining body balance and posture[cite: 20]",
+          "Reflex Arc: Pathway of a reflex action[cite: 20]",
+          "Medulla: Control of involuntary actions (blood pressure, salivation)[cite: 20]"
+        ],
+        "highlightWords": [
+          "Brain",
+          "Reflex action",
+          "Spinal cord",
+          "Cerebellum"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision - Plant and Human Hormones",
+      "definitionBean": {
+        "title": "Plant and Human Hormones",
+        "definition": "Endocrine substances that establish chemical coordination in plants and animals are called 'hormones', which control growth and metabolism[cite: 20].",
+        "explanation": "Plant hormones (like auxin, gibberellin, cytokinin, abscisic acid) control plant growth and movement; while human hormones (like insulin, thyroxine, adrenaline) regulate various biological functions[cite: 20].",
+        "importantPoints": [
+          "Auxin: Plant growth and bending toward light (phototropism)[cite: 20]",
+          "Abscisic acid: Wilting of leaves and halting growth[cite: 20]",
+          "Insulin: Controlling glucose levels in blood[cite: 20]",
+          "Adrenaline: Hormone to face emergency situations (fight or flight)[cite: 20]"
+        ],
+        "highlightWords": [
+          "Plant hormone",
+          "Human hormone",
+          "Insulin",
+          "Adrenaline"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Nervous System and Neuron",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "Draw a labeled diagram of a neuron (nerve cell) and describe its functions[cite: 20].",
+          "correct_answer": "Neuron transmits information via electrochemical impulses[cite: 20].",
+          "imgUrl": "",
+          "explanation": "A neuron is the structural and functional unit of the nervous system[cite: 20]. It consists of dendrites (receiving info), cell body, and axon (passing impulses forward)[cite: 20]. It transmits sensory and motor messages across the body[cite: 20]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "What is a synapse? How are nerve impulses transmitted across it[cite: 20]?",
+            "correct_answer": "Synapse is the gap between two neurons where chemical signals transmit impulses[cite: 20].",
+            "imgUrl": "",
+            "explanation": "The gap between two nerve cells (neurons) is called a synapse[cite: 20]. Here, electrical impulses convert into chemical signals to cross from one neuron to the dendrite of the next[cite: 20]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Brain and Reflex Action",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "What is the difference between a reflex action and walking? Explain the reflex arc[cite: 20].",
+          "correct_answer": "Reflex action is involuntary and quick, walking is voluntary[cite: 20].",
+          "imgUrl": "",
+          "explanation": "A reflex action is a sudden, involuntary, and rapid response controlled by the spinal cord, whereas walking is a voluntary action controlled by the brain[cite: 20]. A reflex arc is the pathway through which sensory signals travel from receptors via the spinal cord to muscles[cite: 20]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "Name the main parts of the human brain and state the function of the cerebellum[cite: 20].",
+            "correct_answer": "Forebrain, midbrain, and hindbrain are main parts; cerebellum maintains balance[cite: 20].",
+            "imgUrl": "",
+            "explanation": "The human brain has three main parts: 1. Forebrain 2. Midbrain 3. Hindbrain[cite: 20]. The cerebellum controls voluntary muscle movement and balance (e.g., walking straight, riding a bicycle)[cite: 20]."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1",
+      "word_limit": "",
+      "text": "Subject: Plant and Human Hormones",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "What are plant hormones? Write the names and functions of any two plant hormones[cite: 20].",
+          "correct_answer": "Auxin (growth) and gibberellin (stem growth) are plant hormones[cite: 20].",
+          "imgUrl": "",
+          "explanation": "Plant hormones are chemical compounds that regulate growth, development, and responses to the environment in plants[cite: 20]. Two hormones: 1. Auxin - increases cell elongation and causes bending toward light[cite: 20]. 2. Gibberellin - helps in the growth of stems[cite: 20]."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "What is the role of the insulin hormone in the human body? What disease is caused by its deficiency[cite: 20]?",
+            "correct_answer": "Insulin controls blood sugar, deficiency causes diabetes[cite: 20].",
+            "imgUrl": "",
+            "explanation": "The insulin hormone regulates the level of sugar (glucose) in the blood[cite: 20]. Its deficiency increases sugar levels in the body, causing diabetes[cite: 20]."
+          }
+        ]
+      }
+    }
+  ]
+}

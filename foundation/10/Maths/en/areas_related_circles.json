@@ -1,0 +1,164 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "Areas Related to Circles",
+    "totalMarks": "3",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Sector",
+        "definition": "The region bounded by two radii drawn from the center of a circle and the arc between them is called a sector.",
+        "explanation": "Area of the sector = (θ/360°) × πr², and Length of the arc = (θ/360°) × 2πr, where θ is the central angle and r is the radius.",
+        "importantPoints": [
+          "Area = (θ/360°) × πr²",
+          "Length of the arc = (θ/360°) × 2πr",
+          "θ = central angle (in degrees)"
+        ],
+        "highlightWords": [
+          "sector",
+          "Central angle",
+          "Length of the arc"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Segment",
+        "definition": "The region bounded by a chord of a circle and its corresponding arc is called a segment.",
+        "explanation": "Area of the minor segment = area of the sector - area of the corresponding triangle. Area of the major segment = area of the whole circle - area of the minor segment.",
+        "importantPoints": [
+          "Minor segment = sector Area - triangle Area",
+          "Major segment = of the circle Area - Minor segment",
+          "A chord divides a circle into two segments"
+        ],
+        "highlightWords": [
+          "segment",
+          "Chord",
+          "Minor segment",
+          "Major segment"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Combined Figures / Areas of Combined Plane Figures",
+        "definition": "When two or more geometric figures (such as circles, sectors, triangles, and rectangles) form a combined figure, its area is found by adding or subtracting the areas of all parts.",
+        "explanation": "For combined figures, first identify each part (circle, square, sector, etc.) separately, then calculate their areas using the appropriate formulas and add or subtract them as required.",
+        "importantPoints": [
+          "First identify all parts of the figure separately",
+          "Find the area of each part using its appropriate formula",
+          "Finally, add or subtract to find the total area"
+        ],
+        "highlightWords": [
+          "Combined figure",
+          "Adding/subtracting areas",
+          "Circle and polygon"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "4_a",
+          "statement": "Find the area of a sector of a circle with radius 6 cm and angle 60°. (Take π = 22/7.)",
+          "correct_answer": "132/7 cm²",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 6 cm\nCentral angle (θ) = 60°\n\nArea of the sector = (θ / 360°) × πr²\n= (60° / 360°) × (22/7) × (6)²\n= (1 / 6) × (22/7) × 36\n= (22 × 6) / 7\n= 132/7 cm² (or 18.85 cm²)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "4_b",
+            "statement": "Find the area of a quadrant of a circle whose circumference is 22 cm. (Take π = 22/7.)",
+            "correct_answer": "77/8 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nCircumference of the circle = 22 cm\n2πr = 22\n2 × (22/7) × r = 22\nr = (22 × 7) / (2 × 22) = 7/2 cm\n\nAngle of the quadrant (θ) = 90°\nArea of the quadrant = (90° / 360°) × πr²\n= (1 / 4) × (22/7) × (7/2) × (7/2)\n= (1 / 4) × (22/7) × (49/4)\n= 77/8 cm²"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5_a",
+          "statement": "A circle has radius 10 cm and the angle subtended at the center is 90°. Find the area of the corresponding minor sector. (Take π = 3.14.)",
+          "correct_answer": "78.5 cm²",
+          "imgUrl": "",
+          "explanation": "Given:\nr = 10 cm, θ = 90°, π = 3.14\n\nArea of the sector = (θ / 360°) × πr²\n= (90° / 360°) × 3.14 × (10)²\n= (1 / 4) × 3.14 × 100\n= 314 / 4\n= 78.5 cm²"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "5_b",
+            "statement": "A circle has radius 21 cm and the arc subtends an angle of 60° at the center. Find the length of the arc.",
+            "correct_answer": "22 cm",
+            "imgUrl": "",
+            "explanation": "Given:\nr = 21 cm, θ = 60°\n\nLength of the arc = (θ / 360°) × 2πr\n= (60° / 360°) × 2 × (22/7) × 21\n= (1 / 6) × 2 × (22/7) × 21\n= (1 / 6) × 132\n= 22 cm"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "6_a",
+          "statement": "A chord of a circle with radius 14 cm subtends an angle of 60° at the center. Find the area of the corresponding minor segment. (Take √3 = 1.73.)",
+          "correct_answer": "56.88 cm² (approximately)",
+          "imgUrl": "",
+          "explanation": "Given: r = 14 cm, θ = 60°\n\n1. Area of the sector = (60°/360°) × (22/7) × 14²\n= (1/6) × (22/7) × 196 = 308/3 cm² = 102.67 cm²\n\n2. Area of the equilateral triangle = (√3/4) × r²\n= (1.73/4) × 14² = 1.73 × 49 = 84.77 cm²\n\n3. Area of the minor segment = Area of the sector - area of the triangle\n= 102.67 - 84.77 = 17.90 cm² (approximately)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "6_b",
+            "statement": "The minute hand of a clock is 14 cm long. Find the area swept by the hand in 5 minutes.",
+            "correct_answer": "154/3 cm²",
+            "imgUrl": "",
+            "explanation": "Angle covered by the minute hand in 60 minutes = 360°\nTherefore, angle covered in 1 minute = 360° / 60 = 6°\nAngle covered in 5 minutes (θ) = 5 × 6° = 30°\n\nLength of the hand (r) = 14 cm\nArea swept = (30° / 360°) × (22/7) × (14)²\n= (1 / 12) × (22/7) × 196\n= (1 / 12) × 616\n= 154/3 cm²"
+          }
+        ]
+      }
+    }
+  ]
+}
