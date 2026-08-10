@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bgSci" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9B6BFF"/>
+      <stop offset="100%" stop-color="#6935C9"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="112" height="112" rx="28" fill="url(#bgSci)"/>
+  <path d="M52 28 H68 V50 L84 82 C87 88 83 94 76 94 H44 C37 94 33 88 36 82 L52 50 Z" fill="#FFFFFF"/>
+  <rect x="49" y="24" width="22" height="7" rx="2.5" fill="#FFFFFF"/>
+  <path d="M42 76 C48 72 55 72 60 76 C65 80 72 80 78 76 L76 80 C70 84 63 84 58 80 C53 76 46 76 40 80 Z" fill="#6935C9"/>
+  <circle cx="56" cy="60" r="3.6" fill="#6935C9"/>
+  <circle cx="66" cy="55" r="2.8" fill="#6935C9"/>
+  <!-- molecule accent -->
+  <g stroke="#FFFFFF" stroke-width="2" opacity="0.85">
+    <line x1="88" y1="30" x2="98" y2="24"/>
+    <line x1="88" y1="30" x2="98" y2="36"/>
+  </g>
+  <circle cx="88" cy="30" r="4" fill="#FFFFFF"/>
+  <circle cx="98" cy="24" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="98" cy="36" r="3" fill="#FFFFFF" opacity="0.85"/>
+</svg>
