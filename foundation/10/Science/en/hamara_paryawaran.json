@@ -13,13 +13,13 @@
       "text": "Quick Revision - Ecosystem and Food Chain",
       "definitionBean": {
         "title": "Ecosystem and Food Chain",
-        "definition": "A system formed by the interaction of biotic (living) and abiotic (non-living) components is called an 'Ecosystem'; and the feeding relationships among organisms are called a 'Food Chain'[cite: 15].",
-        "explanation": "Energy flow in a food chain is always unidirectional, and only 10% of energy at each trophic level is transferred to the next level (Lindeman's 10% Law)[cite: 15].",
+        "definition": "A system formed by the interaction of biotic (living) and abiotic (non-living) components is called an 'Ecosystem'; and the feeding relationships among organisms are called a 'Food Chain'.",
+        "explanation": "Energy flow in a food chain is always unidirectional, and only 10% of energy at each trophic level is transferred to the next level (Lindeman's 10% Law).",
         "importantPoints": [
-          "Components of ecosystem: Biotic (producers, consumers, decomposers) and Abiotic (temperature, light, soil)[cite: 15]",
-          "Food chain: Producer $\\rightarrow$ Primary consumer $\\rightarrow$ Secondary consumer[cite: 15]",
-          "10% Energy Law: Transfer of only 10% energy from one trophic level to the next[cite: 15]",
-          "Biological Magnification: Progressive increase in the concentration of harmful chemicals[cite: 15]"
+          "Components of ecosystem: Biotic (producers, consumers, decomposers) and Abiotic (temperature, light, soil)",
+         "Food chain: Producer → Primary consumer → Secondary consumer",
+          "10% Energy Law: Transfer of only 10% energy from one trophic level to the next",
+          "Biological Magnification: Progressive increase in the concentration of harmful chemicals"
         ],
         "highlightWords": [
           "Ecosystem",
@@ -38,10 +38,9 @@
       "text": "Quick Revision - Ozone Layer and Waste Management",
       "definitionBean": {
         "title": "Ozone Layer and Waste Management",
-        "definition": "The ozone ($\\text{O}_3$) layer found in the upper atmosphere protects the Earth from harmful ultraviolet (UV) rays of the sun; and waste management involves classifying substances as biodegradable and non-biodegradable[cite: 15].",
-        "explanation": "The ozone layer is depleting due to gases like CFCs (Chlorofluorocarbons)[cite: 15]. Substances decomposed by microorganisms are biodegradable, while those that do not decompose are non-biodegradable[cite: 15].",
+      "definition": "The ozone (O3) layer found in the upper atmosphere protects the Earth from harmful ultraviolet (UV) rays of the sun; and waste management involves classifying substances as biodegradable and non-biodegradable.",        "explanation": "The ozone layer is depleting due to gases like CFCs (Chlorofluorocarbons)[cite: 15]. Substances decomposed by microorganisms are biodegradable, while those that do not decompose are non-biodegradable[cite: 15].",
         "importantPoints": [
-          "Ozone formula: $\\text{O}_3$ (Protection from UV rays)[cite: 15]",
+          "Ozone formula: O3 (Protection from UV rays)",
           "Main cause of ozone depletion: CFC (Chlorofluorocarbon) gas[cite: 15]",
           "Biodegradable: Paper, peels, etc. (rapid decomposition)[cite: 15]",
           "Non-biodegradable: Plastic, polythene (do not decompose)[cite: 15]"
@@ -96,7 +95,7 @@
           "statement": "What is the ozone layer? Why is it important for us? Write the main cause of its depletion[cite: 15].",
           "correct_answer": "Ozone protects from UV rays; depletion is caused by CFC gas[cite: 15].",
           "imgUrl": "",
-          "explanation": "Ozone ($\\text{O}_3$) is a layer formed by three atoms of oxygen found in the stratosphere[cite: 15]. It prevents harmful ultraviolet (UV) rays coming from the sun from reaching the Earth, preventing diseases like skin cancer[cite: 15]. Its main cause of depletion is CFC (chlorofluorocarbon) gas used in refrigerators and ACs[cite: 15]."
+           "explanation": "Ozone (O3) is a layer formed by three atoms of oxygen found in the stratosphere. It prevents harmful ultraviolet (UV) rays coming from the sun from reaching the Earth, reducing the risk of diseases like skin cancer. Its main cause of depletion is CFC (chlorofluorocarbon) gas used in refrigerators and ACs."
         }
       ],
       "or_option": {
