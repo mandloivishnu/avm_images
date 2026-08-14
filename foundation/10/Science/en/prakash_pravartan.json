@@ -14,12 +14,12 @@
       "definitionBean": {
         "title": "Reflection of Light and Spherical Mirrors",
         "definition": "The bouncing back of light into the same medium after striking a shining surface is called 'reflection'; and mirrors with curved surfaces (concave and convex mirrors) converge or diverge light.",
-        "explanation": "There are two laws of reflection: (1) The angle of incidence is always equal to the angle of reflection ($\\angle i = \\angle r$), (2) The incident ray, normal, and reflected ray all lie in the same plane.",
+"explanation": "There are two laws of reflection: (1) The angle of incidence is always equal to the angle of reflection (angle i = angle r), (2) The incident ray, normal, and reflected ray all lie in the same plane.",
         "importantPoints": [
-          "Laws of reflection: $\\angle i = \\angle r$",
+          "Laws of reflection: angle i = angle r",
           "Concave Mirror: Converging mirror (forms both real and virtual images)",
           "Convex Mirror: Diverging mirror (always forms virtual, erect, and diminished images)",
-          "Mirror formula: $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$"
+          "Mirror formula: 1/f = 1/v + 1/u"
         ],
         "highlightWords": [
           "Laws of reflection",
@@ -41,11 +41,11 @@
         "definition": "The deviation (bending) of a light ray from its path when it passes from one transparent medium into another is called 'refraction'; and a medium bounded by transparent curved surfaces is called a 'lens'.",
         "explanation": "Refraction is based on Snell's law. A convex lens converges light while a concave lens diverges it. The unit of power of a lens is the dioptre (D).",
         "importantPoints": [
-          "Laws of refraction: Snell's law ($\\frac{\\sin i}{\\sin r} = \\text{constant}$)",
+          "Laws of refraction: Snell's law (sin i / sin r = constant)",
           "Convex Lens: Converging lens (forms real and magnified/diminished images)",
           "Concave Lens: Diverging lens (forms virtual and diminished images)",
-          "Lens formula: $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$",
-          "Power of lens: $P = \\frac{1}{f (\\text{metres})}$"
+          "Lens formula: 1/f = 1/v - 1/u",
+          "Power of lens: P = 1/f (metres)"
         ],
         "highlightWords": [
           "Refraction",
@@ -67,9 +67,9 @@
         {
           "q_id": "3_a",
           "statement": "Write the laws of reflection of light. State any two differences between a concave and a convex mirror.",
-          "correct_answer": "Laws of reflection are $\\angle i = \\angle r$ and coplanar; concave forms real and convex forms virtual images.",
+           "correct_answer": "Laws of reflection are angle i = angle r and coplanar; concave mirrors form real images and convex mirrors form virtual images.",
           "imgUrl": "",
-          "explanation": "Laws of reflection: 1. The angle of incidence and the angle of reflection are always equal ($\\angle i = \\angle r$). 2. The incident ray, reflected ray, and normal all lie in the same plane. The reflecting surface of a concave mirror curves inwards and it forms real images, whereas a convex mirror curves outwards and always forms virtual and smaller images."
+          "explanation": "Laws of reflection: 1. The angle of incidence and the angle of reflection are always equal (angle i = angle r). 2. The incident ray, reflected ray, and normal all lie in the same plane. The reflecting surface of a concave mirror curves inwards and it forms real images, whereas a convex mirror curves outwards and always forms virtual and smaller images."
         }
       ],
       "or_option": {
@@ -95,7 +95,7 @@
         {
           "q_id": "4_a",
           "statement": "Write the laws of refraction of light. What is Snell's law?",
-          "correct_answer": "Laws of refraction and $\\frac{\\sin i}{\\sin r} = \\text{constant}$ (Snell's law).",
+         "correct_answer": "Laws of refraction and sin i / sin r = constant (Snell's law).",
           "imgUrl": "",
           "explanation": "Laws of refraction: 1. The incident ray, refracted ray, and normal all lie in the same plane. 2. For a given color of light and a given pair of media, the ratio of the sine of the angle of incidence ($\\sin i$) to the sine of the angle of refraction ($\\sin r$) is a constant, known as 'Snell's law' ($\\frac{\\sin i}{\\sin r} = \\text{constant}$)."
         }
