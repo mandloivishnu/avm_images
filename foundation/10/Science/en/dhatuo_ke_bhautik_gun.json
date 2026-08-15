@@ -13,12 +13,12 @@
       "text": "Quick Revision - Chemical Properties of Metals",
       "definitionBean": {
         "title": "Chemical Properties of Metals",
-        "definition": "Metals react with oxygen to form basic oxides, react with water to liberate hydrogen gas, and react with dilute acids to give salts and hydrogen[cite: 13].",
-        "explanation": "Chemically, metals have positively charged ions (tendency to form cations by losing electrons)[cite: 13]. Their reactivity depends on their activity level[cite: 13].",
+        "definition": "Metals react with oxygen to form basic oxides, react with water to liberate hydrogen gas, and react with dilute acids to give salts and hydrogen.",
+        "explanation": "Chemically, metals have positively charged ions (tendency to form cations by losing electrons). Their reactivity depends on their activity level.",
         "importantPoints": [
-          "Reaction with oxygen: Metal $+$ Oxygen $\\rightarrow$ Metal oxide (basic)[cite: 13]",
-          "Reaction with water: Metal $+$ Water $\\rightarrow$ Metal oxide/hydroxide $+$ Hydrogen[cite: 13]",
-          "Reaction with acid: Metal $+$ Dilute acid $\\rightarrow$ Salt $+$ Hydrogen gas[cite: 13]"
+          "Reaction with oxygen: Metal $+$ Oxygen $\\rightarrow$ Metal oxide (basic)",
+          "Reaction with water: Metal $+$ Water $\\rightarrow$ Metal oxide/hydroxide $+$ Hydrogen",
+          "Reaction with acid: Metal $+$ Dilute acid $\\rightarrow$ Salt $+$ Hydrogen gas"
         ],
         "highlightWords": [
           "Reaction with oxygen",
@@ -36,12 +36,12 @@
       "text": "Quick Revision - Reactivity Series",
       "definitionBean": {
         "title": "Reactivity Series",
-        "definition": "The list arranging metals in order of their decreasing reactivity is called the 'reactivity series'[cite: 13].",
-        "explanation": "In this series, the most reactive metals are at the top (e.g., Potassium K, Sodium Na) and the least reactive metals are at the bottom (e.g., Gold Au, Silver Ag)[cite: 13].",
+        "definition": "The list arranging metals in order of their decreasing reactivity is called the 'reactivity series'.",
+        "explanation": "In this series, the most reactive metals are at the top (e.g., Potassium K, Sodium Na) and the least reactive metals are at the bottom (e.g., Gold Au, Silver Ag).",
         "importantPoints": [
-          "A more reactive metal displaces a less reactive metal from its compound[cite: 13]",
-          "Metals above hydrogen displace hydrogen from dilute acids[cite: 13]",
-          "Potassium (K) is the most reactive and Platinum (Pt) is the least reactive[cite: 13]"
+          "A more reactive metal displaces a less reactive metal from its compound",
+          "Metals above hydrogen displace hydrogen from dilute acids",
+          "Potassium (K) is the most reactive and Platinum (Pt) is the least reactive"
         ],
         "highlightWords": [
           "Reactivity series",
@@ -61,10 +61,10 @@
       "parts": [
         {
           "q_id": "3_a",
-          "statement": "Explain the reaction of metals with oxygen and water with equations[cite: 13].",
-          "correct_answer": "Metals combine with oxygen to form oxides and with water to form hydrogen[cite: 13].",
+          "statement": "Explain the reaction of metals with oxygen and water with equations.",
+          "correct_answer": "Metals combine with oxygen to form oxides and with water to form hydrogen.",
           "imgUrl": "",
-          "explanation": "Metals combine with oxygen to form metal oxides (e.g., $2\\text{Cu} + \\text{O}_2 \\rightarrow 2\\text{CuO}$)[cite: 13]. Upon reacting with water, some metals form hydrogen gas and hydroxides[cite: 13]."
+          "explanation": "Metals combine with oxygen to form metal oxides (e.g., $2\\text{Cu} + \\text{O}_2 \\rightarrow 2\\text{CuO}$). Upon reacting with water, some metals form hydrogen gas and hydroxides."
         }
       ],
       "or_option": {
@@ -72,10 +72,10 @@
         "parts": [
           {
             "q_id": "3_b",
-            "statement": "What is the difference between a mineral and an ore? Define metallurgy[cite: 13].",
-            "correct_answer": "All ores are minerals but all minerals are not ores[cite: 13].",
+            "statement": "What is the difference between a mineral and an ore? Define metallurgy.",
+            "correct_answer": "All ores are minerals but all minerals are not ores.",
             "imgUrl": "",
-            "explanation": "Naturally occurring elements or compounds in the Earth's crust are called 'minerals'; those minerals from which metals can be extracted profitably and easily are called 'ores'[cite: 13]. The process of obtaining pure metals from ores is called 'metallurgy'[cite: 13]."
+            "explanation": "Naturally occurring elements or compounds in the Earth's crust are called 'minerals'; those minerals from which metals can be extracted profitably and easily are called 'ores'. The process of obtaining pure metals from ores is called 'metallurgy'."
           }
         ]
       }

@@ -13,7 +13,7 @@
       "text": "Quick Revision - Electric Current and Ohm's Law",
       "definitionBean": {
         "title": "Electric Current and Ohm's Law",
-        "definition": "The rate of flow of charge is called 'electric current'; and the current flowing through a conductor is proportional to the potential difference across its ends, known as 'Ohm's Law'[cite: 39].",
+        "definition": "The rate of flow of charge is called 'electric current'; and the current flowing through a conductor is proportional to the potential difference across its ends, known as 'Ohm's Law'.",
          "explanation": "The SI unit of electric current is the Ampere (A). According to Ohm's law, V = IR, where V is potential difference, I is electric current, and R is resistance. The unit of resistance is the Ohm (Ω).",     
         "importantPoints": [
          "Electric current: I = Q/t (Unit: Ampere)",
@@ -38,8 +38,8 @@
       "text": "Quick Revision - Combination of Resistors and Electric Power",
       "definitionBean": {
         "title": "Combination of Resistors and Electric Power",
-        "definition": "Resistors in a circuit are primarily connected in two ways - series ($R = R_1 + R_2$) and parallel ($\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$); and the rate of doing work is called electric power[cite: 39].",
-        "explanation": "In a series connection, total resistance increases and current remains the same, whereas in a parallel connection, total resistance decreases and potential difference remains the same. The formula for electric power is $P = VI = I^2R = \\frac{V^2}{R}$[cite: 39].",
+        "definition": "Resistors in a circuit are primarily connected in two ways - series ($R = R_1 + R_2$) and parallel ($\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$); and the rate of doing work is called electric power.",
+        "explanation": "In a series connection, total resistance increases and current remains the same, whereas in a parallel connection, total resistance decreases and potential difference remains the same. The formula for electric power is $P = VI = I^2R = \\frac{V^2}{R}$.",
         "importantPoints": [
          "Series combination: Equivalent resistance Rs = R1 + R2 + R3",
 "Parallel combination: Equivalent resistance 1/Rp = 1/R1 + 1/R2 + 1/R3",
@@ -65,10 +65,10 @@
       "parts": [
         {
           "q_id": "3_a",
-          "statement": "State Ohm's law and draw the necessary electric circuit diagram for its verification[cite: 39].",
-          "correct_answer": "Current flowing through a conductor is proportional to the potential difference ($V = IR$)[cite: 39].",
+          "statement": "State Ohm's law and draw the necessary electric circuit diagram for its verification.",
+          "correct_answer": "Current flowing through a conductor is proportional to the potential difference ($V = IR$).",
           "imgUrl": "",
-          "explanation": "According to Ohm's law, provided the physical conditions (such as temperature) remain unchanged, the electric current flowing through a metallic wire is directly proportional to the potential difference across its ends ($V = IR$)[cite: 39]."
+          "explanation": "According to Ohm's law, provided the physical conditions (such as temperature) remain unchanged, the electric current flowing through a metallic wire is directly proportional to the potential difference across its ends ($V = IR$)."
         }
       ],
       "or_option": {
@@ -76,10 +76,10 @@
         "parts": [
           {
             "q_id": "3_b",
-            "statement": "Define electric current and potential difference, and state their SI units[cite: 39].",
-            "correct_answer": "Rate of flow of charge is electric current (Ampere), work done per unit charge is potential difference (Volt)[cite: 39].",
+            "statement": "Define electric current and potential difference, and state their SI units.",
+            "correct_answer": "Rate of flow of charge is electric current (Ampere), work done per unit charge is potential difference (Volt).",
             "imgUrl": "",
-            "explanation": "The rate of flow of charge is called electric current (Unit: Ampere); the work done in bringing a unit charge from one point to another is called potential difference (Unit: Volt)[cite: 39]."
+            "explanation": "The rate of flow of charge is called electric current (Unit: Ampere); the work done in bringing a unit charge from one point to another is called potential difference (Unit: Volt)."
           }
         ]
       }
@@ -93,10 +93,10 @@
       "parts": [
         {
           "q_id": "4_a",
-          "statement": "Derive the expression for equivalent resistance when resistors are connected in series[cite: 39].",
-          "correct_answer": "Equivalent resistance in series is $R = R_1 + R_2 + R_3$[cite: 39].",
+          "statement": "Derive the expression for equivalent resistance when resistors are connected in series.",
+          "correct_answer": "Equivalent resistance in series is $R = R_1 + R_2 + R_3$.",
           "imgUrl": "",
-          "explanation": "When two or more resistors are connected end-to-end such that the second end of one connects to the first end of the next, it is called a series connection. The equivalent resistance is $R = R_1 + R_2 + R_3$[cite: 39]."
+          "explanation": "When two or more resistors are connected end-to-end such that the second end of one connects to the first end of the next, it is called a series connection. The equivalent resistance is $R = R_1 + R_2 + R_3$."
         }
       ],
       "or_option": {
@@ -104,8 +104,8 @@
         "parts": [
           {
             "q_id": "4_b",
-            "statement": "What is electric power? Write its various formulas and state its SI unit[cite: 39].",
-            "correct_answer": "Rate of energy consumption is electric power ($P = VI$), unit is Watt[cite: 39].",
+            "statement": "What is electric power? Write its various formulas and state its SI unit.",
+            "correct_answer": "Rate of energy consumption is electric power ($P = VI$), unit is Watt.",
             "imgUrl": "",
             "explanation": "The rate at which energy is consumed in an electric circuit is called electric power. Formulas: P = VI = I²R = V²/R. Its SI unit is the Watt."   }
         ]

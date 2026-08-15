@@ -24,7 +24,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Chemical reaction",
-          "explanation": "A chemical reaction involves the formation of new substances with distinct properties[cite: 25]."
+          "explanation": "A chemical reaction involves the formation of new substances with distinct properties."
         },
         {
           "q_id": "2",
@@ -37,7 +37,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Reactants",
-          "explanation": "Substances taking part in a reaction are termed reactants[cite: 25]."
+          "explanation": "Substances taking part in a reaction are termed reactants."
         },
         {
           "q_id": "3",
@@ -50,7 +50,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Hydrogen",
-          "explanation": "Reaction of zinc with dilute sulfuric acid releases hydrogen gas which burns with a pop sound[cite: 25]."
+          "explanation": "Reaction of zinc with dilute sulfuric acid releases hydrogen gas which burns with a pop sound."
         },
         {
           "q_id": "4",
@@ -63,7 +63,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Mass can neither be created nor destroyed",
-          "explanation": "The total mass remains conserved in any chemical reaction[cite: 27]."
+          "explanation": "The total mass remains conserved in any chemical reaction."
         },
         {
           "q_id": "5",
@@ -76,7 +76,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Magnesium oxide",
-          "explanation": "Magnesium reacts with oxygen to form white magnesium oxide[cite: 25]."
+          "explanation": "Magnesium reacts with oxygen to form white magnesium oxide."
         }
       ]
     },
@@ -98,7 +98,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "Acid",
-          "explanation": "Acids are sour in taste and turn blue litmus paper red[cite: 12]."
+          "explanation": "Acids are sour in taste and turn blue litmus paper red."
         },
         {
           "q_id": "2",
@@ -111,7 +111,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "OH⁻",
-          "explanation": "Bases release hydroxide ions (OH⁻) in aqueous solutions[cite: 12]."
+          "explanation": "Bases release hydroxide ions (OH⁻) in aqueous solutions."
         },
         {
           "q_id": "3",
@@ -124,7 +124,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Exactly 7",
-          "explanation": "A neutral solution like pure water has a pH value of 7[cite: 22]."
+          "explanation": "A neutral solution like pure water has a pH value of 7."
         },
         {
           "q_id": "4",
@@ -137,7 +137,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "NaHCO3",
-          "explanation": "Sodium hydrogen carbonate (NaHCO₃) is known as baking soda[cite: 32]."
+          "explanation": "Sodium hydrogen carbonate (NaHCO₃) is known as baking soda."
         },
         {
           "q_id": "5",
@@ -150,7 +150,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "5.5",
-          "explanation": "Tooth enamel corrodes when mouth acidity increases and pH falls below 5.5[cite: 22]."
+          "explanation": "Tooth enamel corrodes when mouth acidity increases and pH falls below 5.5."
         }
       ]
     },
@@ -172,7 +172,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Potassium",
-          "explanation": "Potassium (K) is at the top of the reactivity series[cite: 13]."
+          "explanation": "Potassium (K) is at the top of the reactivity series."
         },
         {
           "q_id": "2",
@@ -185,7 +185,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Metallurgy",
-          "explanation": "Extraction and purification of metals from ores is called metallurgy[cite: 13]."
+          "explanation": "Extraction and purification of metals from ores is called metallurgy."
         },
         {
           "q_id": "3",
@@ -211,7 +211,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "Galvanization",
-          "explanation": "Galvanization protects iron or steel from rusting by coating it with zinc[cite: 29]."
+          "explanation": "Galvanization protects iron or steel from rusting by coating it with zinc."
         },
         {
           "q_id": "5",
@@ -224,7 +224,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Ore",
-          "explanation": "Ores are minerals from which metals are extracted conveniently and profitably[cite: 13]."
+          "explanation": "Ores are minerals from which metals are extracted conveniently and profitably."
         }
       ]
     },
@@ -246,7 +246,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "4",
-          "explanation": "Carbon is tetravalent, possessing a valency of 4[cite: 18]."
+          "explanation": "Carbon is tetravalent, possessing a valency of 4."
         },
         {
           "q_id": "2",
@@ -259,7 +259,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Catenation",
-          "explanation": "Catenation is carbon's unique property to form chains[cite: 18]."
+          "explanation": "Catenation is carbon's unique property to form chains."
         },
         {
           "q_id": "3",
@@ -272,7 +272,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "Saturated hydrocarbons",
-          "explanation": "Alkanes are saturated hydrocarbons containing single covalent bonds[cite: 18]."
+          "explanation": "Alkanes are saturated hydrocarbons containing single covalent bonds."
         },
         {
           "q_id": "4",
@@ -285,7 +285,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Long-chain fatty acids",
-          "explanation": "Soaps consist of sodium or potassium salts of carboxylic acids with long chains[cite: 18]."
+          "explanation": "Soaps consist of sodium or potassium salts of carboxylic acids with long chains."
         },
         {
           "q_id": "5",
@@ -298,7 +298,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "CnH2n",
-          "explanation": "Alkenes contain a double bond and follow the formula CnH₂n[cite: 18]."
+          "explanation": "Alkenes contain a double bond and follow the formula CnH₂n."
         }
       ]
     },
@@ -320,7 +320,7 @@
           ],
           "correct_index": "D",
           "correct_answer": "18",
-          "explanation": "There are 18 vertical columns or groups[cite: 30]."
+          "explanation": "There are 18 vertical columns or groups."
         },
         {
           "q_id": "2",
@@ -333,7 +333,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "7",
-          "explanation": "There are 7 horizontal rows or periods[cite: 30]."
+          "explanation": "There are 7 horizontal rows or periods."
         },
         {
           "q_id": "3",
@@ -346,7 +346,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Atomic number",
-          "explanation": "Properties are periodic functions of atomic numbers[cite: 30]."
+          "explanation": "Properties are periodic functions of atomic numbers."
         },
         {
           "q_id": "4",
@@ -359,7 +359,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Newlands",
-          "explanation": "John Newlands arranged elements in order of increasing atomic masses via the Law of Octaves[cite: 30]."
+          "explanation": "John Newlands arranged elements in order of increasing atomic masses via the Law of Octaves."
         },
         {
           "q_id": "5",
@@ -372,7 +372,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Decreases",
-          "explanation": "Increased nuclear charge pulls electrons closer, shrinking atomic radius across a period[cite: 30]."
+          "explanation": "Increased nuclear charge pulls electrons closer, shrinking atomic radius across a period."
         }
       ]
     },
@@ -394,7 +394,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Nephron",
-          "explanation": "Nephron handles filtration and urine formation[cite: 17]."
+          "explanation": "Nephron handles filtration and urine formation."
         },
         {
           "q_id": "2",
@@ -407,7 +407,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Xylem",
-          "explanation": "Xylem transports water and minerals from roots to leaves[cite: 17]."
+          "explanation": "Xylem transports water and minerals from roots to leaves."
         },
         {
           "q_id": "3",
@@ -420,7 +420,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Four",
-          "explanation": "The human heart has two atria and two ventricles[cite: 17]."
+          "explanation": "The human heart has two atria and two ventricles."
         },
         {
           "q_id": "4",
@@ -433,7 +433,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Autotrophic",
-          "explanation": "Green plants manufacture their own food via photosynthesis[cite: 17]."
+          "explanation": "Green plants manufacture their own food via photosynthesis."
         },
         {
           "q_id": "5",
@@ -446,7 +446,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "ATP",
-          "explanation": "Adenosine triphosphate (ATP) stores cellular energy[cite: 17]."
+          "explanation": "Adenosine triphosphate (ATP) stores cellular energy."
         }
       ]
     },
@@ -468,7 +468,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Cerebellum",
-          "explanation": "The cerebellum controls posture and equilibrium[cite: 20]."
+          "explanation": "The cerebellum controls posture and equilibrium."
         },
         {
           "q_id": "2",
@@ -481,7 +481,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Synapse",
-          "explanation": "Synapse is the junction point between adjacent neurons[cite: 20]."
+          "explanation": "Synapse is the junction point between adjacent neurons."
         },
         {
           "q_id": "3",
@@ -494,7 +494,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Insulin",
-          "explanation": "Insulin controls glucose levels in the bloodstream[cite: 20]."
+          "explanation": "Insulin controls glucose levels in the bloodstream."
         },
         {
           "q_id": "4",
@@ -507,7 +507,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Auxin",
-          "explanation": "Auxin promotes cell growth and bending toward light[cite: 20]."
+          "explanation": "Auxin promotes cell growth and bending toward light."
         },
         {
           "q_id": "5",
@@ -520,7 +520,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Spinal cord",
-          "explanation": "Spinal cord handles quick involuntary reflex pathways[cite: 20]."
+          "explanation": "Spinal cord handles quick involuntary reflex pathways."
         }
       ]
     },
@@ -542,7 +542,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Fallopian tube",
-          "explanation": "Fusion of gametes takes place in the fallopian tube[cite: 16]."
+          "explanation": "Fusion of gametes takes place in the fallopian tube."
         },
         {
           "q_id": "2",
@@ -555,7 +555,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Binary fission",
-          "explanation": "Amoeba divides into two daughter cells via binary fission[cite: 16]."
+          "explanation": "Amoeba divides into two daughter cells via binary fission."
         },
         {
           "q_id": "3",
@@ -568,7 +568,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Sperm",
-          "explanation": "Sperm is the male gamete produced in the testes[cite: 16]."
+          "explanation": "Sperm is the male gamete produced in the testes."
         },
         {
           "q_id": "4",
@@ -594,7 +594,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "Planaria",
-          "explanation": "Planaria can regrow complete bodies from body fragments[cite: 16]."
+          "explanation": "Planaria can regrow complete bodies from body fragments."
         }
       ]
     },
@@ -616,7 +616,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Mendel",
-          "explanation": "Gregor Mendel laid the foundation of modern genetics[cite: 11]."
+          "explanation": "Gregor Mendel laid the foundation of modern genetics."
         },
         {
           "q_id": "2",
@@ -629,7 +629,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Pea plant",
-          "explanation": "Mendel used Pisum sativum (pea plant)[cite: 11]."
+          "explanation": "Mendel used Pisum sativum (pea plant)."
         },
         {
           "q_id": "3",
@@ -642,7 +642,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "23",
-          "explanation": "Humans have 23 pairs (46 total) of chromosomes[cite: 11]."
+          "explanation": "Humans have 23 pairs (46 total) of chromosomes."
         },
         {
           "q_id": "4",
@@ -655,7 +655,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Homologous organs",
-          "explanation": "Homologous organs share structural origin but vary in function[cite: 11]."
+          "explanation": "Homologous organs share structural origin but vary in function."
         },
         {
           "q_id": "5",
@@ -668,7 +668,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "XY",
-          "explanation": "Human males possess one X and one Y chromosome[cite: 11]."
+          "explanation": "Human males possess one X and one Y chromosome."
         }
       ]
     },
@@ -690,7 +690,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Dioptre",
-          "explanation": "Lens power is expressed in dioptres[cite: 23]."
+          "explanation": "Lens power is expressed in dioptres."
         },
         {
           "q_id": "2",
@@ -703,7 +703,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "1/f = 1/v + 1/u",
-          "explanation": "The standard mirror equation is 1/f = 1/v + 1/u[cite: 23]."
+          "explanation": "The standard mirror equation is 1/f = 1/v + 1/u."
         },
         {
           "q_id": "3",
@@ -716,7 +716,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Convex mirror",
-          "explanation": "Convex mirrors offer a wider field of view for drivers[cite: 23]."
+          "explanation": "Convex mirrors offer a wider field of view for drivers."
         },
         {
           "q_id": "4",
@@ -729,7 +729,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Laws of reflection",
-          "explanation": "Angle i = Angle r is the first law of reflection[cite: 23]."
+          "explanation": "Angle i = Angle r is the first law of reflection."
         },
         {
           "q_id": "5",
@@ -742,7 +742,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Virtual and diminished",
-          "explanation": "Concave lenses diverge light to consistently project virtual, erect, and small images[cite: 23]."
+          "explanation": "Concave lenses diverge light to consistently project virtual, erect, and small images."
         }
       ]
     },
@@ -764,7 +764,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Myopia",
-          "explanation": "Myopia restricts clear sight to close distances[cite: 19]."
+          "explanation": "Myopia restricts clear sight to close distances."
         },
         {
           "q_id": "2",
@@ -777,7 +777,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Concave lens",
-          "explanation": "Concave lenses diverge light rays correctly onto the retina for myopia[cite: 19]."
+          "explanation": "Concave lenses diverge light rays correctly onto the retina for myopia."
         },
         {
           "q_id": "3",
@@ -790,7 +790,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "25 cm",
-          "explanation": "Healthy eyes can comfortably read text at a minimum of 25 cm[cite: 19]."
+          "explanation": "Healthy eyes can comfortably read text at a minimum of 25 cm."
         },
         {
           "q_id": "4",
@@ -803,7 +803,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Convex lens",
-          "explanation": "Convex lenses converge light to fix farsightedness[cite: 19]."
+          "explanation": "Convex lenses converge light to fix farsightedness."
         },
         {
           "q_id": "5",
@@ -816,7 +816,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Scattering of light",
-          "explanation": "Shorter blue wavelengths scatter more through atmospheric particles[cite: 19]."
+          "explanation": "Shorter blue wavelengths scatter more through atmospheric particles."
         }
       ]
     },
@@ -838,7 +838,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "V = IR",
-          "explanation": "Potential difference equals current multiplied by resistance[cite: 39]."
+          "explanation": "Potential difference equals current multiplied by resistance."
         },
         {
           "q_id": "2",
@@ -851,7 +851,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Ampere",
-          "explanation": "Electric current is measured in amperes (A)[cite: 39]."
+          "explanation": "Electric current is measured in amperes (A)."
         },
         {
           "q_id": "3",
@@ -864,7 +864,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Ohm",
-          "explanation": "Resistance is quantified in ohms (Ω)[cite: 39]."
+          "explanation": "Resistance is quantified in ohms (Ω)."
         },
         {
           "q_id": "4",
@@ -877,7 +877,7 @@
           ],
           "correct_index": "A",
           "correct_answer": "P = VI",
-          "explanation": "Power equals voltage times current[cite: 39]."
+          "explanation": "Power equals voltage times current."
         },
         {
           "q_id": "5",
@@ -890,7 +890,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Increases",
-          "explanation": "Series resistance is the direct sum of individual resistors[cite: 39]."
+          "explanation": "Series resistance is the direct sum of individual resistors."
         }
       ]
     },
@@ -912,7 +912,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Electrical to mechanical energy",
-          "explanation": "Motors use electrical current to create mechanical rotation[cite: 40]."
+          "explanation": "Motors use electrical current to create mechanical rotation."
         },
         {
           "q_id": "2",
@@ -925,7 +925,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "South to North pole",
-          "explanation": "Inside the magnet, field lines run from south to north to complete closed loops[cite: 40]."
+          "explanation": "Inside the magnet, field lines run from south to north to complete closed loops."
         },
         {
           "q_id": "3",
@@ -938,7 +938,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Fleming's left-hand rule",
-          "explanation": "Fleming's left-hand rule determines force direction in motors[cite: 40]."
+          "explanation": "Fleming's left-hand rule determines force direction in motors."
         },
         {
           "q_id": "4",
@@ -951,7 +951,7 @@
           ],
           "correct_index": "D",
           "correct_answer": "High resistance and low melting point",
-          "explanation": "Fuse wires melt quickly under high current due to low melting points and high resistance[cite: 40]."
+          "explanation": "Fuse wires melt quickly under high current due to low melting points and high resistance."
         },
         {
           "q_id": "5",
@@ -964,7 +964,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Red",
-          "explanation": "Live wires are conventionally red for identification[cite: 40]."
+          "explanation": "Live wires are conventionally red for identification."
         }
       ]
     },
@@ -986,7 +986,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Coal",
-          "explanation": "Coal and petroleum are fossil fuels[cite: 38]."
+          "explanation": "Coal and petroleum are fossil fuels."
         },
         {
           "q_id": "2",
@@ -1012,7 +1012,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Sun",
-          "explanation": "The sun drives weather patterns, biomass, and fossil fuel creation[cite: 38]."
+          "explanation": "The sun drives weather patterns, biomass, and fossil fuel creation."
         },
         {
           "q_id": "4",
@@ -1025,7 +1025,7 @@
           ],
           "correct_index": "D",
           "correct_answer": "Solar energy",
-          "explanation": "Solar energy is inexhaustible and renewable[cite: 38]."
+          "explanation": "Solar energy is inexhaustible and renewable."
         },
         {
           "q_id": "5",
@@ -1038,7 +1038,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Air pollution and global warming",
-          "explanation": "Carbon emissions from fossil fuels drive greenhouse effects[cite: 38]."
+          "explanation": "Carbon emissions from fossil fuels drive greenhouse effects."
         }
       ]
     },
@@ -1060,7 +1060,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "O₃",
-          "explanation": "Ozone molecule consists of three oxygen atoms[cite: 15]."
+          "explanation": "Ozone molecule consists of three oxygen atoms."
         },
         {
           "q_id": "2",
@@ -1073,7 +1073,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Vegetable peels",
-          "explanation": "Vegetable peels decompose naturally via microorganisms[cite: 15]."
+          "explanation": "Vegetable peels decompose naturally via microorganisms."
         },
         {
           "q_id": "3",
@@ -1086,7 +1086,7 @@
           ],
           "correct_index": "C",
           "correct_answer": "Unidirectional",
-          "explanation": "Energy flows in one direction through trophic levels[cite: 15]."
+          "explanation": "Energy flows in one direction through trophic levels."
         },
         {
           "q_id": "4",
@@ -1099,7 +1099,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "10%",
-          "explanation": "Only 10% of usable energy passes to each successive trophic level[cite: 15]."
+          "explanation": "Only 10% of usable energy passes to each successive trophic level."
         },
         {
           "q_id": "5",
@@ -1112,7 +1112,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Chlorofluorocarbons (CFCs)",
-          "explanation": "CFCs break down ozone molecules in the stratosphere[cite: 15]."
+          "explanation": "CFCs break down ozone molecules in the stratosphere."
         }
       ]
     },
@@ -1147,7 +1147,7 @@
           ],
           "correct_index": "B",
           "correct_answer": "Increase groundwater level",
-          "explanation": "Harvesting rainwater recharges underground water reservoirs[cite: 24]."
+          "explanation": "Harvesting rainwater recharges underground water reservoirs."
         },
         {
           "q_id": "3",

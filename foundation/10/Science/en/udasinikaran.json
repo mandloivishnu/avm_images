@@ -13,12 +13,12 @@
       "text": "Quick Revision - Neutralization Reaction",
       "definitionBean": {
         "title": "Neutralization Reaction",
-        "definition": "When an acid and a base react with each other, they neutralize each other's effect to form salt and water. This process is called a 'neutralization reaction'[cite: 37].",
-        "explanation": "In this reaction, the $\\text{H}^+$ ion of the acid and the $\\text{OH}^-$ ion of the base combine to form water ($\\text{H}_2\\text{O}$). This is an exothermic reaction in which energy is released[cite: 37].",
+        "definition": "When an acid and a base react with each other, they neutralize each other's effect to form salt and water. This process is called a 'neutralization reaction'.",
+        "explanation": "In this reaction, the $\\text{H}^+$ ion of the acid and the $\\text{OH}^-$ ion of the base combine to form water ($\\text{H}_2\\text{O}$). This is an exothermic reaction in which energy is released.",
         "importantPoints": [
-          "Acid $+$ Base $\\rightarrow$ Salt $+$ Water[cite: 37]",
-          "Neutral products (salt and water) are formed[cite: 37]",
-          "Heat is produced in the reaction[cite: 37]"
+          "Acid $+$ Base $\\rightarrow$ Salt $+$ Water",
+          "Neutral products (salt and water) are formed",
+          "Heat is produced in the reaction"
         ],
         "highlightWords": [
           "Neutralization",
@@ -36,13 +36,13 @@
       "text": "Quick Revision - Important Salts",
       "definitionBean": {
         "title": "Important Salts",
-        "definition": "Various useful chemicals such as baking soda, washing soda, bleaching powder, and plaster of Paris are obtained from common salt ($\\text{NaCl}$)[cite: 37].",
-        "explanation": "These salts are widely used in our daily life, industries, and the medical field[cite: 37].",
+        "definition": "Various useful chemicals such as baking soda, washing soda, bleaching powder, and plaster of Paris are obtained from common salt ($\\text{NaCl}$).",
+        "explanation": "These salts are widely used in our daily life, industries, and the medical field.",
         "importantPoints": [
-          "Baking Soda: $\\text{NaHCO}_3$ (Cooking soda)[cite: 37]",
-          "Washing Soda: $\\text{Na}_2\\text{CO}_3 \\cdot 10\\text{H}_2\\text{O}$[cite: 37]",
-          "Bleaching Powder: $\\text{CaOCl}_2$[cite: 37]",
-          "Plaster of Paris: $\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$[cite: 37]"
+          "Baking Soda: $\\text{NaHCO}_3$ (Cooking soda)",
+          "Washing Soda: $\\text{Na}_2\\text{CO}_3 \\cdot 10\\text{H}_2\\text{O}$",
+          "Bleaching Powder: $\\text{CaOCl}_2$",
+          "Plaster of Paris: $\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$"
         ],
         "highlightWords": [
           "Baking soda",
@@ -63,10 +63,10 @@
       "parts": [
         {
           "q_id": "3_a",
-          "statement": "What is a neutralization reaction? Give an example[cite: 37].",
-          "correct_answer": "Formation of salt and water from the combination of an acid and a base is neutralization[cite: 37].",
+          "statement": "What is a neutralization reaction? Give an example.",
+          "correct_answer": "Formation of salt and water from the combination of an acid and a base is neutralization.",
           "imgUrl": "",
-          "explanation": "When an acid and a base react together to form salt and water, it is called a neutralization reaction. Example: $\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$[cite: 37]."
+          "explanation": "When an acid and a base react together to form salt and water, it is called a neutralization reaction. Example: $\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$."
         }
       ],
       "or_option": {
@@ -74,10 +74,10 @@
         "parts": [
           {
             "q_id": "3_b",
-            "statement": "Write the chemical names and formulas of baking soda and plaster of Paris[cite: 37].",
-            "correct_answer": "Baking soda ($\\text{NaHCO}_3$), Plaster of Paris ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)[cite: 37].",
+            "statement": "Write the chemical names and formulas of baking soda and plaster of Paris.",
+            "correct_answer": "Baking soda ($\\text{NaHCO}_3$), Plaster of Paris ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$).",
             "imgUrl": "",
-            "explanation": "Baking Soda: Sodium hydrogen carbonate ($\\text{NaHCO}_3$); Plaster of Paris: Calcium sulfate hemihydrate ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)[cite: 37]."
+            "explanation": "Baking Soda: Sodium hydrogen carbonate ($\\text{NaHCO}_3$); Plaster of Paris: Calcium sulfate hemihydrate ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)."
           }
         ]
       }

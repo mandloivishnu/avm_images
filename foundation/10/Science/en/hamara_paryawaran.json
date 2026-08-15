@@ -38,12 +38,12 @@
       "text": "Quick Revision - Ozone Layer and Waste Management",
       "definitionBean": {
         "title": "Ozone Layer and Waste Management",
-      "definition": "The ozone (O3) layer found in the upper atmosphere protects the Earth from harmful ultraviolet (UV) rays of the sun; and waste management involves classifying substances as biodegradable and non-biodegradable.",        "explanation": "The ozone layer is depleting due to gases like CFCs (Chlorofluorocarbons)[cite: 15]. Substances decomposed by microorganisms are biodegradable, while those that do not decompose are non-biodegradable[cite: 15].",
+      "definition": "The ozone (O3) layer found in the upper atmosphere protects the Earth from harmful ultraviolet (UV) rays of the sun; and waste management involves classifying substances as biodegradable and non-biodegradable.",        "explanation": "The ozone layer is depleting due to gases like CFCs (Chlorofluorocarbons). Substances decomposed by microorganisms are biodegradable, while those that do not decompose are non-biodegradable.",
         "importantPoints": [
           "Ozone formula: O3 (Protection from UV rays)",
-          "Main cause of ozone depletion: CFC (Chlorofluorocarbon) gas[cite: 15]",
-          "Biodegradable: Paper, peels, etc. (rapid decomposition)[cite: 15]",
-          "Non-biodegradable: Plastic, polythene (do not decompose)[cite: 15]"
+          "Main cause of ozone depletion: CFC (Chlorofluorocarbon) gas",
+          "Biodegradable: Paper, peels, etc. (rapid decomposition)",
+          "Non-biodegradable: Plastic, polythene (do not decompose)"
         ],
         "highlightWords": [
           "Ozone layer",
@@ -64,10 +64,10 @@
       "parts": [
         {
           "q_id": "3_a",
-          "statement": "What is an ecosystem? Give an example of an artificial ecosystem[cite: 15].",
-          "correct_answer": "System of living and abiotic components is ecosystem; Example: Aquarium[cite: 15].",
+          "statement": "What is an ecosystem? Give an example of an artificial ecosystem.",
+          "correct_answer": "System of living and abiotic components is ecosystem; Example: Aquarium.",
           "imgUrl": "",
-          "explanation": "All the living organisms and abiotic components of an area together form an ecosystem[cite: 15]. An aquarium or a garden is an example of an artificial ecosystem[cite: 15]."
+          "explanation": "All the living organisms and abiotic components of an area together form an ecosystem. An aquarium or a garden is an example of an artificial ecosystem."
         }
       ],
       "or_option": {
@@ -75,10 +75,10 @@
         "parts": [
           {
             "q_id": "3_b",
-            "statement": "What is the difference between a food chain and a food web? Why is energy flow unidirectional[cite: 15]?",
-            "correct_answer": "Food chain is linear while food web is a complex network[cite: 15].",
+            "statement": "What is the difference between a food chain and a food web? Why is energy flow unidirectional?",
+            "correct_answer": "Food chain is linear while food web is a complex network.",
             "imgUrl": "",
-            "explanation": "A food chain is a straight-line sequence of organisms, whereas a food web is a complex network of multiple interconnected food chains[cite: 15]. Energy flow is unidirectional because the energy transferred from one trophic level to the next does not return and is lost as heat[cite: 15]."
+            "explanation": "A food chain is a straight-line sequence of organisms, whereas a food web is a complex network of multiple interconnected food chains. Energy flow is unidirectional because the energy transferred from one trophic level to the next does not return and is lost as heat."
           }
         ]
       }
@@ -92,8 +92,8 @@
       "parts": [
         {
           "q_id": "4_a",
-          "statement": "What is the ozone layer? Why is it important for us? Write the main cause of its depletion[cite: 15].",
-          "correct_answer": "Ozone protects from UV rays; depletion is caused by CFC gas[cite: 15].",
+          "statement": "What is the ozone layer? Why is it important for us? Write the main cause of its depletion.",
+          "correct_answer": "Ozone protects from UV rays; depletion is caused by CFC gas.",
           "imgUrl": "",
            "explanation": "Ozone (O3) is a layer formed by three atoms of oxygen found in the stratosphere. It prevents harmful ultraviolet (UV) rays coming from the sun from reaching the Earth, reducing the risk of diseases like skin cancer. Its main cause of depletion is CFC (chlorofluorocarbon) gas used in refrigerators and ACs."
         }
@@ -103,10 +103,10 @@
         "parts": [
           {
             "q_id": "4_b",
-            "statement": "Write the difference between biodegradable and non-biodegradable substances. Give one example of each[cite: 15].",
-            "correct_answer": "Biodegradable (peels), non-biodegradable (plastic)[cite: 15].",
+            "statement": "Write the difference between biodegradable and non-biodegradable substances. Give one example of each.",
+            "correct_answer": "Biodegradable (peels), non-biodegradable (plastic).",
             "imgUrl": "",
-            "explanation": "Biodegradable substances are broken down into simple substances by microorganisms (e.g., vegetable peels); whereas non-biodegradable substances are not naturally decomposed and persist in the environment for a long time (e.g., plastic)[cite: 15]."
+            "explanation": "Biodegradable substances are broken down into simple substances by microorganisms (e.g., vegetable peels); whereas non-biodegradable substances are not naturally decomposed and persist in the environment for a long time (e.g., plastic)."
           }
         ]
       }

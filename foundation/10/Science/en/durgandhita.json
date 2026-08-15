@@ -13,12 +13,12 @@
       "text": "Quick Revision - Rancidity",
       "definitionBean": {
         "title": "Rancidity",
-        "definition": "When fat and oil-containing food items get oxidized upon coming in contact with air (oxygen), the change in their taste and smell is called 'Rancidity'[cite: 14].",
-        "explanation": "When oily or fatty food is left open for a long time, it gets oxidized, producing an unpleasant smell and taste, making the food unfit for consumption[cite: 14].",
+        "definition": "When fat and oil-containing food items get oxidized upon coming in contact with air (oxygen), the change in their taste and smell is called 'Rancidity'.",
+        "explanation": "When oily or fatty food is left open for a long time, it gets oxidized, producing an unpleasant smell and taste, making the food unfit for consumption.",
         "importantPoints": [
-          "Oxidation of fats and oils[cite: 14]",
-          "Change in taste and smell of food items[cite: 14]",
-          "Food becoming spoiled or unedible[cite: 14]"
+          "Oxidation of fats and oils",
+          "Change in taste and smell of food items",
+          "Food becoming spoiled or unedible"
         ],
         "highlightWords": [
           "Rancidity",
@@ -36,13 +36,13 @@
       "text": "Quick Revision - Prevention of Rancidity",
       "definitionBean": {
         "title": "Prevention of Rancidity",
-        "definition": "To protect food items from oxidation, antioxidants are used, and they are stored in air-tight containers[cite: 14].",
-        "explanation": "Contact with oxygen is prevented to preserve food for a long time, such as flushing chip bags with nitrogen gas to prevent oxidation[cite: 14].",
+        "definition": "To protect food items from oxidation, antioxidants are used, and they are stored in air-tight containers.",
+        "explanation": "Contact with oxygen is prevented to preserve food for a long time, such as flushing chip bags with nitrogen gas to prevent oxidation.",
         "importantPoints": [
-          "Using antioxidants[cite: 14]",
-          "Storing food in air-tight containers[cite: 14]",
-          "Flushing chip bags with nitrogen gas[cite: 14]",
-          "Keeping food in cool places or refrigerators[cite: 14]"
+          "Using antioxidants",
+          "Storing food in air-tight containers",
+          "Flushing chip bags with nitrogen gas",
+          "Keeping food in cool places or refrigerators"
         ],
         "highlightWords": [
           "Antioxidant",
@@ -62,10 +62,10 @@
       "parts": [
         {
           "q_id": "3_a",
-          "statement": "What is rancidity? What causes it[cite: 14]?",
-          "correct_answer": "Oxidation of fats and oils changes taste and smell into rancidity[cite: 14].",
+          "statement": "What is rancidity? What causes it?",
+          "correct_answer": "Oxidation of fats and oils changes taste and smell into rancidity.",
           "imgUrl": "",
-          "explanation": "When fatty and oily food items come into contact with air (oxygen) and get oxidized, the change in their taste and smell is called 'rancidity'[cite: 14]. It is mainly caused by the oxidation of oils and fats present in food items[cite: 14]."
+          "explanation": "When fatty and oily food items come into contact with air (oxygen) and get oxidized, the change in their taste and smell is called 'rancidity'. It is mainly caused by the oxidation of oils and fats present in food items."
         }
       ],
       "or_option": {
@@ -73,10 +73,10 @@
         "parts": [
           {
             "q_id": "3_b",
-            "statement": "What changes occur when oil or fat-containing food items are left open for a long time[cite: 14]?",
-            "correct_answer": "Unpleasant change in taste and smell occurs[cite: 14].",
+            "statement": "What changes occur when oil or fat-containing food items are left open for a long time?",
+            "correct_answer": "Unpleasant change in taste and smell occurs.",
             "imgUrl": "",
-            "explanation": "Leaving oil or fat-containing food items open for a long time causes them to oxidize, resulting in unpleasant changes in their taste and smell, making them unfit for eating[cite: 14]."
+            "explanation": "Leaving oil or fat-containing food items open for a long time causes them to oxidize, resulting in unpleasant changes in their taste and smell, making them unfit for eating."
           }
         ]
       }
@@ -90,10 +90,10 @@
       "parts": [
         {
           "q_id": "4_a",
-          "statement": "What measures are taken to protect food items from rancidity? Write any two[cite: 14].",
-          "correct_answer": "Air-tight containers and use of nitrogen gas[cite: 14].",
+          "statement": "What measures are taken to protect food items from rancidity? Write any two.",
+          "correct_answer": "Air-tight containers and use of nitrogen gas.",
           "imgUrl": "",
-          "explanation": "Key measures to prevent rancidity: 1. Storing food items in air-tight containers to prevent contact with oxygen[cite: 14]. 2. Flushing food packages like chips with inert gases like nitrogen by removing oxygen[cite: 14]. 3. Using antioxidants[cite: 14]."
+          "explanation": "Key measures to prevent rancidity: 1. Storing food items in air-tight containers to prevent contact with oxygen. 2. Flushing food packages like chips with inert gases like nitrogen by removing oxygen. 3. Using antioxidants."
         }
       ],
       "or_option": {
@@ -101,10 +101,10 @@
         "parts": [
           {
             "q_id": "4_b",
-            "statement": "Why do chip manufacturers flush chip bags with nitrogen gas? Explain the reason[cite: 14].",
-            "correct_answer": "Nitrogen gas protects chips from getting oxidized[cite: 14].",
+            "statement": "Why do chip manufacturers flush chip bags with nitrogen gas? Explain the reason.",
+            "correct_answer": "Nitrogen gas protects chips from getting oxidized.",
             "imgUrl": "",
-            "explanation": "Chip manufacturers flush out oxygen from the bag and fill it with nitrogen gas because nitrogen is an unreactive (inert) gas that prevents the chips from getting oxidized and spoiling[cite: 14]."
+            "explanation": "Chip manufacturers flush out oxygen from the bag and fill it with nitrogen gas because nitrogen is an unreactive (inert) gas that prevents the chips from getting oxidized and spoiling."
           }
         ]
       }

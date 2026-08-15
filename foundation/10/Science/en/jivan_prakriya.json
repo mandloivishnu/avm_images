@@ -13,11 +13,11 @@
       "text": "Quick Revision - Nutrition and Photosynthesis",
       "definitionBean": {
         "title": "Nutrition and Photosynthesis",
-        "definition": "The process of intake of food and its utilization by organisms is called 'nutrition'; green plants make their food with the help of sunlight, carbon dioxide, and water, which is called 'photosynthesis'[cite: 17].",
-        "explanation": "Nutrition is mainly of two types - autotrophic nutrition (e.g., green plants) and heterotrophic nutrition (e.g., animals and fungi)[cite: 17]. Oxygen gas is released during photosynthesis[cite: 17].",
+        "definition": "The process of intake of food and its utilization by organisms is called 'nutrition'; green plants make their food with the help of sunlight, carbon dioxide, and water, which is called 'photosynthesis'.",
+        "explanation": "Nutrition is mainly of two types - autotrophic nutrition (e.g., green plants) and heterotrophic nutrition (e.g., animals and fungi). Oxygen gas is released during photosynthesis.",
         "importantPoints": [
-          "Autotrophic nutrition: Making own food (photosynthesis)[cite: 17]",
-          "Heterotrophic nutrition: Depending on other organisms for food[cite: 17]",
+          "Autotrophic nutrition: Making own food (photosynthesis)",
+          "Heterotrophic nutrition: Depending on other organisms for food",
           "Photosynthesis equation: 6CO2 + 12H2O → C6H12O6 + 6O2 + 6H2O"
         ],
         "highlightWords": [
@@ -37,12 +37,12 @@
       "text": "Quick Revision - Respiration",
       "definitionBean": {
         "title": "Respiration: Aerobic and Anaerobic",
-        "definition": "The process of generating energy (ATP) by the oxidation of glucose at the cellular level is called 'respiration'. It occurs in the presence (aerobic) or absence (anaerobic) of oxygen[cite: 17].",
+        "definition": "The process of generating energy (ATP) by the oxidation of glucose at the cellular level is called 'respiration'. It occurs in the presence (aerobic) or absence (anaerobic) of oxygen.",
         "explanation": "In aerobic respiration, glucose is completely broken down to yield more energy, CO2, and water, whereas in anaerobic respiration, alcohol or lactic acid and less energy are produced.",
         "importantPoints": [
-          "Aerobic respiration: Occurs in mitochondria in the presence of oxygen[cite: 17]",
-          "Anaerobic respiration: In the absence of oxygen (e.g., fermentation in yeast)[cite: 17]",
-          "Energy currency: Formation of ATP (Adenosine Triphosphate)[cite: 17]"
+          "Aerobic respiration: Occurs in mitochondria in the presence of oxygen",
+          "Anaerobic respiration: In the absence of oxygen (e.g., fermentation in yeast)",
+          "Energy currency: Formation of ATP (Adenosine Triphosphate)"
         ],
         "highlightWords": [
           "Respiration",
@@ -61,12 +61,12 @@
       "text": "Quick Revision - Transportation and Excretion",
       "definitionBean": {
         "title": "Transportation and Excretion",
-        "definition": "The process of carrying digested food, oxygen, and waste materials from one place to another in organisms is 'transportation', and the removal of harmful nitrogenous wastes from the body is 'excretion'[cite: 17].",
-        "explanation": "In humans, the heart is the pumping organ that circulates blood, and nephrons present in the kidneys filter the blood to form urine[cite: 17].",
+        "definition": "The process of carrying digested food, oxygen, and waste materials from one place to another in organisms is 'transportation', and the removal of harmful nitrogenous wastes from the body is 'excretion'.",
+        "explanation": "In humans, the heart is the pumping organ that circulates blood, and nephrons present in the kidneys filter the blood to form urine.",
         "importantPoints": [
-          "Human heart: Four-chambered (atria and ventricles)[cite: 17]",
-          "Transportation in plants: Xylem (water transport) and Phloem (food transport)[cite: 17]",
-          "Excretory unit: Nephron - functional unit of kidney[cite: 17]"
+          "Human heart: Four-chambered (atria and ventricles)",
+          "Transportation in plants: Xylem (water transport) and Phloem (food transport)",
+          "Excretory unit: Nephron - functional unit of kidney"
         ],
         "highlightWords": [
           "Transportation",
@@ -87,10 +87,10 @@
       "parts": [
         {
           "q_id": "4_a",
-          "statement": "Write differences between autotrophic and heterotrophic nutrition. What are the essential requirements for photosynthesis[cite: 17]?",
-          "correct_answer": "Autotrophs make own food, heterotrophs depend on others[cite: 17].",
+          "statement": "Write differences between autotrophic and heterotrophic nutrition. What are the essential requirements for photosynthesis?",
+          "correct_answer": "Autotrophs make own food, heterotrophs depend on others.",
           "imgUrl": "",
-          "explanation": "In autotrophic nutrition, organisms make their own food from inorganic substances (e.g., green plants), whereas in heterotrophic nutrition, organisms depend on other organisms for food[cite: 17]. Main requirements for photosynthesis: Sunlight, chlorophyll, carbon dioxide, and water[cite: 17]."
+          "explanation": "In autotrophic nutrition, organisms make their own food from inorganic substances (e.g., green plants), whereas in heterotrophic nutrition, organisms depend on other organisms for food. Main requirements for photosynthesis: Sunlight, chlorophyll, carbon dioxide, and water."
         }
       ],
       "or_option": {
@@ -98,10 +98,10 @@
         "parts": [
           {
             "q_id": "4_b",
-            "statement": "What is the role of the liver and stomach in the human digestive system[cite: 17]?",
-            "correct_answer": "Stomach secretes acid, liver makes bile juice[cite: 17].",
+            "statement": "What is the role of the liver and stomach in the human digestive system?",
+            "correct_answer": "Stomach secretes acid, liver makes bile juice.",
             "imgUrl": "",
-            "explanation": "Hydrochloric acid and digestive juices in the stomach help digest food; the liver secretes bile juice, which helps in the digestion (emulsification) of fats[cite: 17]."
+            "explanation": "Hydrochloric acid and digestive juices in the stomach help digest food; the liver secretes bile juice, which helps in the digestion (emulsification) of fats."
           }
         ]
       }
@@ -115,10 +115,10 @@
       "parts": [
         {
           "q_id": "5_a",
-          "statement": "Explain the differences between aerobic and anaerobic respiration[cite: 17].",
-          "correct_answer": "Aerobic happens in oxygen, anaerobic happens without oxygen[cite: 17].",
+          "statement": "Explain the differences between aerobic and anaerobic respiration.",
+          "correct_answer": "Aerobic happens in oxygen, anaerobic happens without oxygen.",
           "imgUrl": "",
-          "explanation": "Aerobic respiration takes place in the presence of oxygen and produces a large amount of energy, whereas anaerobic respiration takes place in the absence of oxygen, produces less energy, and yields lactic acid or ethyl alcohol[cite: 17]."
+          "explanation": "Aerobic respiration takes place in the presence of oxygen and produces a large amount of energy, whereas anaerobic respiration takes place in the absence of oxygen, produces less energy, and yields lactic acid or ethyl alcohol."
         }
       ],
       "or_option": {
@@ -126,10 +126,10 @@
         "parts": [
           {
             "q_id": "5_b",
-            "statement": "How does the exchange of gases take place in leaves[cite: 17]?",
-            "correct_answer": "Exchange of gases takes place through stomata[cite: 17].",
+            "statement": "How does the exchange of gases take place in leaves?",
+            "correct_answer": "Exchange of gases takes place through stomata.",
             "imgUrl": "",
-            "explanation": "There are tiny pores on the surface of leaves called stomata[cite: 17]. The exchange of gases (influx of $\\text{CO}_2$ and efflux of $\\text{O}_2$) takes place through these stomata[cite: 17]."
+            "explanation": "There are tiny pores on the surface of leaves called stomata. The exchange of gases (influx of $\\text{CO}_2$ and efflux of $\\text{O}_2$) takes place through these stomata."
           }
         ]
       }
@@ -143,10 +143,10 @@
       "parts": [
         {
           "q_id": "6_a",
-          "statement": "Briefly describe the structure of the human heart. Why is double circulation necessary[cite: 17]?",
-          "correct_answer": "Heart is four-chambered; double circulation keeps oxygenated and deoxygenated blood separate[cite: 17].",
+          "statement": "Briefly describe the structure of the human heart. Why is double circulation necessary?",
+          "correct_answer": "Heart is four-chambered; double circulation keeps oxygenated and deoxygenated blood separate.",
           "imgUrl": "",
-          "explanation": "The human heart is divided into four chambers - two atria and two ventricles[cite: 17]. Double circulation prevents oxygenated and deoxygenated blood from mixing, ensuring an efficient supply of high energy and oxygen to the body[cite: 17]."
+          "explanation": "The human heart is divided into four chambers - two atria and two ventricles. Double circulation prevents oxygenated and deoxygenated blood from mixing, ensuring an efficient supply of high energy and oxygen to the body."
         }
       ],
       "or_option": {
@@ -154,10 +154,10 @@
         "parts": [
           {
             "q_id": "6_b",
-            "statement": "Explain the structure and function of a nephron[cite: 17].",
-            "correct_answer": "Nephron filters blood and forms urine[cite: 17].",
+            "statement": "Explain the structure and function of a nephron.",
+            "correct_answer": "Nephron filters blood and forms urine.",
             "imgUrl": "",
-            "explanation": "A nephron is the structural and functional unit of the kidney[cite: 17]. It has a cup-like structure called Bowman's capsule containing a cluster of capillaries called glomerulus[cite: 17]. It filters blood, separates waste products, and forms urine[cite: 17]."
+            "explanation": "A nephron is the structural and functional unit of the kidney. It has a cup-like structure called Bowman's capsule containing a cluster of capillaries called glomerulus. It filters blood, separates waste products, and forms urine."
           }
         ]
       }
