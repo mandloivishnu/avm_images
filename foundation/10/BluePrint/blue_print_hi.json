@@ -1,4 +1,3 @@
-
 {
   "paper_details": {
     "paperYear": "2026",
@@ -9,7 +8,7 @@
   "questions": [
     {
       "question_number": "1",
-      "question_type": "QUICK_REVISION",
+      "question_type": "BLUEPRINT",
       "marks": "",
       "text": "",
       "definitionBean": {
@@ -19,9 +18,7 @@
         "importantPoints": [],
         "highlightWords": [],
         "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/BluePrint/blue_print_hi_2026.html",
-        "realLifeExamples": [
-        
-        ]
+        "realLifeExamples": []
       }
     }
   ]
