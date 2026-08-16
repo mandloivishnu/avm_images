@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2026",
-    "subjectName": "blue_print",
+    "subjectName": "संस्कृत - पाठ्यक्रम एवं अंक विभाजन",
     "totalMarks": "1",
     "board": "MP Board"
   },
@@ -10,16 +10,14 @@
       "question_number": "1",
       "question_type": "BLUEPRINT",
       "marks": "",
+      "word_limit": "",
       "text": "",
-      "definitionBean": {
-        "title": "",
-        "definition": "",
-        "explanation": "",
-        "importantPoints": [],
-        "highlightWords": [],
-        "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/BluePrint/hi/blue_print_hi_2026_sanskrit.html",
-        "realLifeExamples": []
-      }
+      "parts": [
+        {
+          "statement": "",
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/BluePrint/hi/blue_print_hi_2026_sanskrit.html"
+        }
+      ]
     }
   ]
 }
