@@ -1,25 +1,23 @@
 {
   "paper_details": {
-    "paperYear": "2026",
-    "subjectName": "blue_print",
-    "totalMarks": "1",
+    "paperYear": "2025",
+    "subjectName": "दो चरों वाले रैखिक समीकरण – Pair of Linear Equations",
+    "totalMarks": "4",
     "board": "MP Board"
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "6",
       "question_type": "BLUEPRINT",
-      "marks": "",
+      "marks": "4",
+      "word_limit": "",
       "text": "",
-      "definitionBean": {
-        "title": "",
-        "definition": "",
-        "explanation": "",
-        "importantPoints": [],
-        "highlightWords": [],
-        "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/BluePrint/blue_print_hi_2026.html",
-        "realLifeExamples": []
-      }
+      "parts": [
+        {
+          "statement": "x - 2y = 2",
+          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/foundation/10/BluePrint/blue_print_hi_2026.html"
+        }
+      ]
     }
   ]
 }
