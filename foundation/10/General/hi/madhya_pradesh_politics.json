@@ -17,12 +17,24 @@
           "q_id": "1",
           "statement": "मध्य प्रदेश के प्रथम मुख्यमंत्री कौन थे? / Who was the first Chief Minister of Madhya Pradesh?",
           "options": [
-            { "index": "A", "text": "रविशंकर शुक्ल / Ravishankar Shukla" },
-            { "index": "B", "text": "कैलाश नाथ काटजू / Kailash Nath Katju" },
-            { "index": "C", "text": "भगवंतराव मंडलोई / Bhagwantrao Mandloi" },
-            { "index": "D", "text": "द्वारका प्रसाद मिश्र / Dwarka Prasad Mishra" }
+            {
+              "index": "A",
+              "text": "कैलाश नाथ काटजू / Kailash Nath Katju"
+            },
+            {
+              "index": "B",
+              "text": "द्वारका प्रसाद मिश्र / Dwarka Prasad Mishra"
+            },
+            {
+              "index": "C",
+              "text": "भगवंतराव मंडलोई / Bhagwantrao Mandloi"
+            },
+            {
+              "index": "D",
+              "text": "रविशंकर शुक्ल / Ravishankar Shukla"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "रविशंकर शुक्ल / Ravishankar Shukla",
           "explanation": "पं. रविशंकर शुक्ल मध्य प्रदेश के पहले मुख्यमंत्री थे। / Pandit Ravishankar Shukla was the first CM of MP."
         },
@@ -30,10 +42,22 @@
           "q_id": "2",
           "statement": "मध्य प्रदेश की प्रथम महिला मुख्यमंत्री कौन थीं? / Who was the first female Chief Minister of MP?",
           "options": [
-            { "index": "A", "text": "उमा भारती / Uma Bharti" },
-            { "index": "B", "text": "यशोधरा राजे / Yashodhara Raje" },
-            { "index": "C", "text": "जमना देवी / Jamuna Devi" },
-            { "index": "D", "text": "आनंदीबेन पटेल / Anandiben Patel" }
+            {
+              "index": "A",
+              "text": "उमा भारती / Uma Bharti"
+            },
+            {
+              "index": "B",
+              "text": "आनंदीबेन पटेल / Anandiben Patel"
+            },
+            {
+              "index": "C",
+              "text": "यशोधरा राजे / Yashodhara Raje"
+            },
+            {
+              "index": "D",
+              "text": "जमना देवी / Jamuna Devi"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "उमा भारती / Uma Bharti",
@@ -43,12 +67,24 @@
           "q_id": "3",
           "statement": "मध्य प्रदेश के पहले राज्यपाल कौन थे? / Who was the first Governor of Madhya Pradesh?",
           "options": [
-            { "index": "A", "text": "डॉ. बी. पट्टाभि सीतारमय्या / Dr. B. Pattabhi Sitaramayya" },
-            { "index": "B", "text": "हरि विनायक पाटस्कर / Hari Vinayak Pataskar" },
-            { "index": "C", "text": "के. सी. रेड्डी / K. C. Reddy" },
-            { "index": "D", "text": "सत्य नारायण सिन्हा / Satya Narayan Sinha" }
+            {
+              "index": "A",
+              "text": "हरि विनायक पाटस्कर / Hari Vinayak Pataskar"
+            },
+            {
+              "index": "B",
+              "text": "सत्य नारायण सिन्हा / Satya Narayan Sinha"
+            },
+            {
+              "index": "C",
+              "text": "के. सी. रेड्डी / K. C. Reddy"
+            },
+            {
+              "index": "D",
+              "text": "डॉ. बी. पट्टाभि सीतारमय्या / Dr. B. Pattabhi Sitaramayya"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "डॉ. बी. पट्टाभि सीतारमय्या / Dr. B. Pattabhi Sitaramayya",
           "explanation": "पट्टाभि सीतारमय्या MP के पहले राज्यपाल थे। / Pattabhi Sitaramayya was the first Governor."
         },
@@ -56,12 +92,24 @@
           "q_id": "4",
           "statement": "मध्य प्रदेश विधानसभा की कुल सीटों की संख्या कितनी है? / Total assembly seats in MP Vidhan Sabha?",
           "options": [
-            { "index": "A", "text": "230" },
-            { "index": "B", "text": "250" },
-            { "index": "C", "text": "200" },
-            { "index": "D", "text": "288" }
+            {
+              "index": "A",
+              "text": "288"
+            },
+            {
+              "index": "B",
+              "text": "230"
+            },
+            {
+              "index": "C",
+              "text": "250"
+            },
+            {
+              "index": "D",
+              "text": "200"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "230",
           "explanation": "मध्य प्रदेश विधानसभा में 230 निर्वाचित सदस्य हैं। / MP has 230 elected assembly seats."
         },
@@ -69,12 +117,24 @@
           "q_id": "5",
           "statement": "मध्य प्रदेश से लोकसभा की कुल कितनी सीटें हैं? / Total Lok Sabha seats from MP?",
           "options": [
-            { "index": "A", "text": "29" },
-            { "index": "B", "text": "25" },
-            { "index": "C", "text": "11" },
-            { "index": "D", "text": "40" }
+            {
+              "index": "A",
+              "text": "40"
+            },
+            {
+              "index": "B",
+              "text": "29"
+            },
+            {
+              "index": "C",
+              "text": "25"
+            },
+            {
+              "index": "D",
+              "text": "11"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "29",
           "explanation": "मध्य प्रदेश से 29 लोकसभा संसद चुने जाते हैं। / There are 29 Lok Sabha seats in MP."
         },
@@ -82,10 +142,22 @@
           "q_id": "6",
           "statement": "मध्य प्रदेश से राज्यसभा की कुल कितनी सीटें हैं? / Total Rajya Sabha seats from MP?",
           "options": [
-            { "index": "A", "text": "11" },
-            { "index": "B", "text": "19" },
-            { "index": "C", "text": "16" },
-            { "index": "D", "text": "10" }
+            {
+              "index": "A",
+              "text": "11"
+            },
+            {
+              "index": "B",
+              "text": "19"
+            },
+            {
+              "index": "C",
+              "text": "16"
+            },
+            {
+              "index": "D",
+              "text": "10"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "11",
@@ -95,12 +167,24 @@
           "q_id": "7",
           "statement": "मध्य प्रदेश उच्च न्यायालय की स्थापना कब हुई थी? / When was the MP High Court established?",
           "options": [
-            { "index": "A", "text": "1956" },
-            { "index": "B", "text": "1950" },
-            { "index": "C", "text": "1947" },
-            { "index": "D", "text": "1960" }
+            {
+              "index": "A",
+              "text": "1950"
+            },
+            {
+              "index": "B",
+              "text": "1960"
+            },
+            {
+              "index": "C",
+              "text": "1956"
+            },
+            {
+              "index": "D",
+              "text": "1947"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "1956",
           "explanation": "राज्य पुनर्गठन के साथ 1956 में उच्च न्यायालय जबलपुर में बना। / Established in Jabalpur in 1956."
         },
@@ -108,10 +192,22 @@
           "q_id": "8",
           "statement": "मध्य प्रदेश उच्च न्यायालय की मुख्य पीठ कहाँ स्थित है? / Principal seat of MP High Court?",
           "options": [
-            { "index": "A", "text": "जबलपुर / Jabalpur" },
-            { "index": "B", "text": "भोपाल / Bhopal" },
-            { "index": "C", "text": "इंदौर / Indore" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "जबलपुर / Jabalpur"
+            },
+            {
+              "index": "B",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "C",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "D",
+              "text": "इंदौर / Indore"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "जबलपुर / Jabalpur",
@@ -121,10 +217,22 @@
           "q_id": "9",
           "statement": "मध्य प्रदेश के पहले विधानसभा अध्यक्ष कौन थे? / Who was the first Speaker of MP Vidhan Sabha?",
           "options": [
-            { "index": "A", "text": "पंडित कुंजीलाल दुबे / Pt. Kunjilal Dubey" },
-            { "index": "B", "text": "काशी प्रसाद पांडे / Kashi Prasad Pandey" },
-            { "index": "C", "text": "तेजलाल तांबरकर / Tejlal Tambarkar" },
-            { "index": "D", "text": "ईश्वरदास रोहाणी / Ishwardas Rohani" }
+            {
+              "index": "A",
+              "text": "पंडित कुंजीलाल दुबे / Pt. Kunjilal Dubey"
+            },
+            {
+              "index": "B",
+              "text": "ईश्वरदास रोहाणी / Ishwardas Rohani"
+            },
+            {
+              "index": "C",
+              "text": "काशी प्रसाद पांडे / Kashi Prasad Pandey"
+            },
+            {
+              "index": "D",
+              "text": "तेजलाल तांबरकर / Tejlal Tambarkar"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "पंडित कुंजीलाल दुबे / Pt. Kunjilal Dubey",
@@ -134,12 +242,24 @@
           "q_id": "10",
           "statement": "मध्य प्रदेश के प्रथम मुख्य सचिव कौन थे? / Who was the first Chief Secretary of MP?",
           "options": [
-            { "index": "A", "text": "एच. एस. कामथ / H. S. Kamath" },
-            { "index": "B", "text": "आर. पी. नायक / R. P. Naik" },
-            { "index": "C", "text": "एन. डी. गुप्ता / N. D. Gupta" },
-            { "index": "D", "text": "निर्देशक वर्मा / N. Verma" }
+            {
+              "index": "A",
+              "text": "निर्देशक वर्मा / N. Verma"
+            },
+            {
+              "index": "B",
+              "text": "आर. पी. नायक / R. P. Naik"
+            },
+            {
+              "index": "C",
+              "text": "एन. डी. गुप्ता / N. D. Gupta"
+            },
+            {
+              "index": "D",
+              "text": "एच. एस. कामथ / H. S. Kamath"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "एच. एस. कामथ / H. S. Kamath",
           "explanation": "एच. एस. कामथ मध्य प्रदेश के पहले मुख्य सचिव थे। / H. S. Kamath was the first Chief Secretary."
         },
@@ -147,12 +267,24 @@
           "q_id": "11",
           "statement": "मध्य प्रदेश के प्रथम पुलिस महान डायरेक्टर (DGP) कौन थे? / First DGP of MP?",
           "options": [
-            { "index": "A", "text": "बी. पी. दुबे / B. P. Dubey" },
-            { "index": "B", "text": "वी. पी. सिंह / V. P. Singh" },
-            { "index": "C", "text": "एस. के. पुरी / S. K. Puri" },
-            { "index": "D", "text": "स्वराज पुरी / Swaraj Puri" }
+            {
+              "index": "A",
+              "text": "वी. पी. सिंह / V. P. Singh"
+            },
+            {
+              "index": "B",
+              "text": "बी. पी. दुबे / B. P. Dubey"
+            },
+            {
+              "index": "C",
+              "text": "एस. के. पुरी / S. K. Puri"
+            },
+            {
+              "index": "D",
+              "text": "स्वराज पुरी / Swaraj Puri"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "बी. पी. दुबे / B. P. Dubey",
           "explanation": "बी. पी. दुबे मध्य प्रदेश के पहले पुलिस महानिदेशक थे। / B. P. Dubey was the first DGP."
         },
@@ -160,12 +292,24 @@
           "q_id": "12",
           "statement": "मध्य प्रदेश में किस वर्ष पंचायती राज अधिनियम पारित किया गया? / In which year was the MP Panchayati Raj Act passed?",
           "options": [
-            { "index": "A", "text": "1993" },
-            { "index": "B", "text": "1992" },
-            { "index": "C", "text": "1994" },
-            { "index": "D", "text": "1995" }
+            {
+              "index": "A",
+              "text": "1995"
+            },
+            {
+              "index": "B",
+              "text": "1994"
+            },
+            {
+              "index": "C",
+              "text": "1992"
+            },
+            {
+              "index": "D",
+              "text": "1993"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "1993",
           "explanation": "मध्य प्रदेश में पंचायती राज अधिनियम 1993 में लागू हुआ। / Passed in 1993."
         },
@@ -173,12 +317,24 @@
           "q_id": "13",
           "statement": "मध्य प्रदेश में सबसे लंबे समय तक मुख्यमंत्री रहने का रिकॉर्ड किसके नाम है? / Longest serving CM of MP?",
           "options": [
-            { "index": "A", "text": "शिवराज सिंह चौहान / Shivraj Singh Chouhan" },
-            { "index": "B", "text": "दिग्विजय सिंह / Digvijaya Singh" },
-            { "index": "C", "text": "श्यामा चरण शुक्ल / Shyama Charan Shukla" },
-            { "index": "D", "text": "अर्जुन सिंह / Arjun Singh" }
+            {
+              "index": "A",
+              "text": "दिग्विजय सिंह / Digvijaya Singh"
+            },
+            {
+              "index": "B",
+              "text": "श्यामा चरण शुक्ल / Shyama Charan Shukla"
+            },
+            {
+              "index": "C",
+              "text": "शिवराज सिंह चौहान / Shivraj Singh Chouhan"
+            },
+            {
+              "index": "D",
+              "text": "अर्जुन सिंह / Arjun Singh"
+            }
           ],
-            "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "शिवराज सिंह चौहान / Shivraj Singh Chouhan",
           "explanation": "शिवराज सिंह चौहान सबसे लंबे कार्यकाल वाले सीएम रहे हैं। / Shivraj Singh Chouhan served the longest."
         },
@@ -186,12 +342,24 @@
           "q_id": "14",
           "statement": "मध्य प्रदेश राज्य मानवाधिकार आयोग का गठन कब हुआ? / When was the MP Human Rights Commission formed?",
           "options": [
-            { "index": "A", "text": "1995" },
-            { "index": "B", "text": "1993" },
-            { "index": "C", "text": "2000" },
-            { "index": "D", "text": "1998" }
+            {
+              "index": "A",
+              "text": "2000"
+            },
+            {
+              "index": "B",
+              "text": "1998"
+            },
+            {
+              "index": "C",
+              "text": "1995"
+            },
+            {
+              "index": "D",
+              "text": "1993"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "1995",
           "explanation": "राज्य मानवाधिकार आयोग का गठन 1995 में हुआ। / Formed in 1995."
         },
@@ -199,12 +367,24 @@
           "q_id": "15",
           "statement": "मध्य प्रदेश लोक सेवा आयोग (MPPSC) का मुख्यालय कहाँ है? / Headquarters of MPPSC?",
           "options": [
-            { "index": "A", "text": "इंदौर / Indore" },
-            { "index": "B", "text": "भोपाल / Bhopal" },
-            { "index": "C", "text": "जबलपुर / Jabalpur" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "जबलपुर / Jabalpur"
+            },
+            {
+              "index": "B",
+              "text": "इंदौर / Indore"
+            },
+            {
+              "index": "C",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "D",
+              "text": "भोपाल / Bhopal"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "इंदौर / Indore",
           "explanation": "MPPSC का मुख्य कार्यालय इंदौर में स्थित है। / MPPSC HQ is in Indore."
         },
@@ -212,12 +392,24 @@
           "q_id": "16",
           "statement": "मध्य प्रदेश राज्य निर्वाचन आयोग के पहले अध्यक्ष कौन थे? / First Election Commissioner of MP?",
           "options": [
-            { "index": "A", "text": "एन. पी. लोहानी / N. P. Lohani" },
-            { "index": "B", "text": "आर. बी. सिंह / R. B. Singh" },
-            { "index": "C", "text": "जी. पाल / G. Pal" },
-            { "index": "D", "text": "अजय तिर्की / Ajay Tirkey" }
+            {
+              "index": "A",
+              "text": "अजय तिर्की / Ajay Tirkey"
+            },
+            {
+              "index": "B",
+              "text": "एन. पी. लोहानी / N. P. Lohani"
+            },
+            {
+              "index": "C",
+              "text": "जी. पाल / G. Pal"
+            },
+            {
+              "index": "D",
+              "text": "आर. बी. सिंह / R. B. Singh"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "एन. पी. लोहानी / N. P. Lohani",
           "explanation": "एन. पी. लोहानी राज्य के पहले निर्वाचन आयुक्त थे। / N. P. Lohani was the first State Election Commissioner."
         },
@@ -225,12 +417,24 @@
           "q_id": "17",
           "statement": "मध्य प्रदेश के किस मुख्यमंत्री का कार्यकाल सबसे छोटा रहा? / Who had the shortest tenure as CM of MP?",
           "options": [
-            { "index": "A", "text": "राजा नरेश चंद्र सिंह / Raja Naresh Chandra Singh" },
-            { "index": "B", "text": "गोविन्द नारायण सिंह / Govind Narayan Singh" },
-            { "index": "C", "text": "नरेश चंद्र / Naresh Chandra" },
-            { "index": "D", "text": "सुंदर लाल पटवा / Sunder Lal Patwa" }
+            {
+              "index": "A",
+              "text": "सुंदर लाल पटवा / Sunder Lal Patwa"
+            },
+            {
+              "index": "B",
+              "text": "राजा नरेश चंद्र सिंह / Raja Naresh Chandra Singh"
+            },
+            {
+              "index": "C",
+              "text": "गोविन्द नारायण सिंह / Govind Narayan Singh"
+            },
+            {
+              "index": "D",
+              "text": "नरेश चंद्र / Naresh Chandra"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "राजा नरेश चंद्र सिंह / Raja Naresh Chandra Singh",
           "explanation": "वे मात्र 13 दिन मुख्यमंत्री रहे। / Raja Naresh Chandra Singh served for only 13 days."
         },
@@ -238,12 +442,24 @@
           "q_id": "18",
           "statement": "मध्य प्रदेश में राष्ट्रपति शासन अब तक कुल कितनी बार लगाया गया है? / How many times has President's rule been imposed in MP?",
           "options": [
-            { "index": "A", "text": "3 बार / 3 Times" },
-            { "index": "B", "text": "2 बार / 2 Times" },
-            { "index": "C", "text": "4 बार / 4 Times" },
-            { "index": "D", "text": "कभी नहीं / Never" }
+            {
+              "index": "A",
+              "text": "कभी नहीं / Never"
+            },
+            {
+              "index": "B",
+              "text": "2 बार / 2 Times"
+            },
+            {
+              "index": "C",
+              "text": "4 बार / 4 Times"
+            },
+            {
+              "index": "D",
+              "text": "3 बार / 3 Times"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "3 बार / 3 Times",
           "explanation": "MP में अब तक 3 बार राष्ट्रपति शासन लगा है। / President's rule has been imposed 3 times."
         },
@@ -251,12 +467,24 @@
           "q_id": "19",
           "statement": "मध्य प्रदेश की पहली महिला राज्यपाल कौन थीं? / Who was the first female Governor of MP?",
           "options": [
-            { "index": "A", "text": "सरला ग्रेवाल / Sarla Grewal" },
-            { "index": "B", "text": "आनंदीबेन पटेल / Anandiben Patel" },
-            { "index": "C", "text": "सुमित्रा महाजन / Sumitra Mahajan" },
-            { "index": "D", "text": "विमला शर्मा / Vimala Sharma" }
+            {
+              "index": "A",
+              "text": "आनंदीबेन पटेल / Anandiben Patel"
+            },
+            {
+              "index": "B",
+              "text": "सरला ग्रेवाल / Sarla Grewal"
+            },
+            {
+              "index": "C",
+              "text": "सुमित्रा महाजन / Sumitra Mahajan"
+            },
+            {
+              "index": "D",
+              "text": "विमला शर्मा / Vimala Sharma"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "सरला ग्रेवाल / Sarla Grewal",
           "explanation": "सरला ग्रेवाल मध्य प्रदेश की पहली महिला राज्यपाल थीं। / Sarla Grewal was the first woman Governor."
         },
@@ -264,12 +492,24 @@
           "q_id": "20",
           "statement": "मध्य प्रदेश के पहले विपक्षी नेता (Leader of Opposition) कौन थे? / First Leader of Opposition in MP?",
           "options": [
-            { "index": "A", "text": "विश्वनाथ यादव तामस्कर / Vishwanath Y. Tamaskar" },
-            { "index": "B", "text": "चन्द्रप्रभा शेखर / Chandraprabha Shekhar" },
-            { "index": "C", "text": "गोविन्द सिंह / Govind Singh" },
-            { "index": "D", "text": "सुभाष यादव / Subhash Yadav" }
+            {
+              "index": "A",
+              "text": "सुभाष यादव / Subhash Yadav"
+            },
+            {
+              "index": "B",
+              "text": "गोविन्द सिंह / Govind Singh"
+            },
+            {
+              "index": "C",
+              "text": "चन्द्रप्रभा शेखर / Chandraprabha Shekhar"
+            },
+            {
+              "index": "D",
+              "text": "विश्वनाथ यादव तामस्कर / Vishwanath Y. Tamaskar"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "विश्वनाथ यादव तामस्कर / Vishwanath Y. Tamaskar",
           "explanation": "वी. वाय. तामस्कर पहले प्रतिपक्ष नेता थे। / V. Y. Tamaskar was the first opposition leader."
         },
@@ -277,12 +517,24 @@
           "q_id": "21",
           "statement": "मध्य प्रदेश में जिला योजना समितियों का गठन किस वर्ष हुआ? / District Planning Committees formed in?",
           "options": [
-            { "index": "A", "text": "1999" },
-            { "index": "B", "text": "1995" },
-            { "index": "C", "text": "2001" },
-            { "index": "D", "text": "1990" }
+            {
+              "index": "A",
+              "text": "2001"
+            },
+            {
+              "index": "B",
+              "text": "1995"
+            },
+            {
+              "index": "C",
+              "text": "1999"
+            },
+            {
+              "index": "D",
+              "text": "1990"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "1999",
           "explanation": "जिला योजना समितियों का गठन 1999 में हुआ। / Formed in 1999."
         },
@@ -290,12 +542,24 @@
           "q_id": "22",
           "statement": "मध्य प्रदेश राज्य प्रशासनिक अधिकरण (State Administrative Tribunal) की स्थापना कब हुई?",
           "options": [
-            { "index": "A", "text": "1985" },
-            { "index": "B", "text": "1990" },
-            { "index": "C", "text": "1995" },
-            { "index": "D", "text": "1980" }
+            {
+              "index": "A",
+              "text": "1990"
+            },
+            {
+              "index": "B",
+              "text": "1995"
+            },
+            {
+              "index": "C",
+              "text": "1980"
+            },
+            {
+              "index": "D",
+              "text": "1985"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "1985",
           "explanation": "इसकी स्थापना 1985 में की गई थी। / Established in 1985."
         },
@@ -303,12 +567,24 @@
           "q_id": "23",
           "statement": "मध्य प्रदेश विधानसभा भवन 'भारत भवन' के वास्तुकार कौन थे? / Who designed the MP Assembly building?",
           "options": [
-            { "index": "A", "text": "चार्ल्स कोरिया / Charles Correa" },
-            { "index": "B", "text": "एडविन लुटियंस / Edwin Lutyens" },
-            { "index": "C", "text": "ली कार्बुजिये / Le Corbusier" },
-            { "index": "D", "text": "सतीश गुजराल / Satish Gujral" }
+            {
+              "index": "A",
+              "text": "सतीश गुजराल / Satish Gujral"
+            },
+            {
+              "index": "B",
+              "text": "एडविन लुटियंस / Edwin Lutyens"
+            },
+            {
+              "index": "C",
+              "text": "ली कार्बुजिये / Le Corbusier"
+            },
+            {
+              "index": "D",
+              "text": "चार्ल्स कोरिया / Charles Correa"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "चार्ल्स कोरिया / Charles Correa",
           "explanation": "प्रसिद्ध वास्तुकार चार्ल्स कोरिया ने नया विधानसभा भवन डिजाइन किया। / Designed by Charles Correa."
         },
@@ -316,12 +592,24 @@
           "q_id": "24",
           "statement": "मध्य प्रदेश में कितनी अनुसूचित जनजाति (ST) सीटें विधानसभा में आरक्षित हैं? / ST seats reserved in MP assembly?",
           "options": [
-            { "index": "A", "text": "47" },
-            { "index": "B", "text": "35" },
-            { "index": "C", "text": "50" },
-            { "index": "D", "text": "29" }
+            {
+              "index": "A",
+              "text": "29"
+            },
+            {
+              "index": "B",
+              "text": "35"
+            },
+            {
+              "index": "C",
+              "text": "47"
+            },
+            {
+              "index": "D",
+              "text": "50"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "47",
           "explanation": "विधानसभा में 47 सीटें एसटी वर्ग के लिए आरक्षित हैं। / 47 seats are reserved for ST."
         },
@@ -329,10 +617,22 @@
           "q_id": "25",
           "statement": "मध्य प्रदेश में कितनी अनुसूचित जाति (SC) सीटें विधानसभा में आरक्षित हैं? / SC seats reserved in MP assembly?",
           "options": [
-            { "index": "A", "text": "35" },
-            { "index": "B", "text": "47" },
-            { "index": "C", "text": "30" },
-            { "index": "D", "text": "20" }
+            {
+              "index": "A",
+              "text": "35"
+            },
+            {
+              "index": "B",
+              "text": "20"
+            },
+            {
+              "index": "C",
+              "text": "30"
+            },
+            {
+              "index": "D",
+              "text": "47"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "35",
@@ -342,12 +642,24 @@
           "q_id": "26",
           "statement": "मध्य प्रदेश में कुल नगर निगमों की संख्या कितनी है? / Total municipal corporations in MP?",
           "options": [
-            { "index": "A", "text": "16" },
-            { "index": "B", "text": "18" },
-            { "index": "C", "text": "15" },
-            { "index": "D", "text": "20" }
+            {
+              "index": "A",
+              "text": "18"
+            },
+            {
+              "index": "B",
+              "text": "20"
+            },
+            {
+              "index": "C",
+              "text": "15"
+            },
+            {
+              "index": "D",
+              "text": "16"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "16",
           "explanation": "वर्तमान में मध्य प्रदेश में 16 नगर निगम हैं। / There are 16 municipal corporations."
         },
@@ -355,12 +667,24 @@
           "q_id": "27",
           "statement": "मध्य प्रदेश का राज्य खेल कौन सा घोषित किया गया है? / State game of Madhya Pradesh?",
           "options": [
-            { "index": "A", "text": "मलखंभ / Mallakhamba" },
-            { "index": "B", "text": "हॉकी / Hockey" },
-            { "index": "C", "text": "कबड्डी / Kabaddi" },
-            { "index": "D", "text": "क्रिकेट / Cricket" }
+            {
+              "index": "A",
+              "text": "क्रिकेट / Cricket"
+            },
+            {
+              "index": "B",
+              "text": "मलखंभ / Mallakhamba"
+            },
+            {
+              "index": "C",
+              "text": "कबड्डी / Kabaddi"
+            },
+            {
+              "index": "D",
+              "text": "हॉकी / Hockey"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "मलखंभ / Mallakhamba",
           "explanation": "मलखंभ को 2013 में राज्य खेल घोषित किया गया। / Mallakhamba was declared state sport in 2013."
         },
@@ -368,12 +692,24 @@
           "q_id": "28",
           "statement": "मध्य प्रदेश में लोकायुक्त संगठन की स्थापना किस वर्ष की गई थी? / Lokayukta organization established in?",
           "options": [
-            { "index": "A", "text": "1982" },
-            { "index": "B", "text": "1975" },
-            { "index": "C", "text": "1990" },
-            { "index": "D", "text": "1985" }
+            {
+              "index": "A",
+              "text": "1985"
+            },
+            {
+              "index": "B",
+              "text": "1990"
+            },
+            {
+              "index": "C",
+              "text": "1982"
+            },
+            {
+              "index": "D",
+              "text": "1975"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "1982",
           "explanation": "लोकायुक्त अधिनियम 1981 के तहत 1982 में गठन हुआ। / Established in 1982."
         },
@@ -381,12 +717,24 @@
           "q_id": "29",
           "statement": "मध्य प्रदेश में नगर पालिका अधिनियम किस वर्ष आया था? / MP Municipality Act was enacted in?",
           "options": [
-            { "index": "A", "text": "1961" },
-            { "index": "B", "text": "1956" },
-            { "index": "C", "text": "1972" },
-            { "index": "D", "text": "1980" }
+            {
+              "index": "A",
+              "text": "1956"
+            },
+            {
+              "index": "B",
+              "text": "1980"
+            },
+            {
+              "index": "C",
+              "text": "1972"
+            },
+            {
+              "index": "D",
+              "text": "1961"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "1961",
           "explanation": "MP नगर पालिका अधिनियम 1961 में पारित हुआ। / Enacted in 1961."
         },
@@ -394,10 +742,22 @@
           "q_id": "30",
           "statement": "मध्य प्रदेश के किस जिले में सबसे अधिक विधानसभा सीटें हैं? / Which district has the highest assembly seats in MP?",
           "options": [
-            { "index": "A", "text": "इंदौर / Indore" },
-            { "index": "B", "text": "भोपाल / Bhopal" },
-            { "index": "C", "text": "जबलपुर / Jabalpur" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "इंदौर / Indore"
+            },
+            {
+              "index": "B",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "C",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "D",
+              "text": "जबलपुर / Jabalpur"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "इंदौर / Indore",

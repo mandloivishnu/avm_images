@@ -17,12 +17,24 @@
           "q_id": "1",
           "statement": "भारतीय संघ की कार्यपालिका का संवैधानिक प्रमुख कौन होता है? / Who is the constitutional head of the executive of the Indian Union?",
           "options": [
-            { "index": "A", "text": "राष्ट्रपति / President" },
-            { "index": "B", "text": "प्रधानमंत्री / Prime Minister" },
-            { "index": "C", "text": "भारत के मुख्य न्यायाधीश / Chief Justice of India" },
-            { "index": "D", "text": "लोकसभा अध्यक्ष / Speaker of Lok Sabha" }
+            {
+              "index": "A",
+              "text": "भारत के मुख्य न्यायाधीश / Chief Justice of India"
+            },
+            {
+              "index": "B",
+              "text": "लोकसभा अध्यक्ष / Speaker of Lok Sabha"
+            },
+            {
+              "index": "C",
+              "text": "प्रधानमंत्री / Prime Minister"
+            },
+            {
+              "index": "D",
+              "text": "राष्ट्रपति / President"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "राष्ट्रपति / President",
           "explanation": "संविधान के अनुच्छेद 53 के अनुसार, संघ की कार्यपालिका शक्ति राष्ट्रपति में निहित होती है। / Under Article 53, executive power is vested in the President."
         },
@@ -30,12 +42,24 @@
           "q_id": "2",
           "statement": "लोकसभा की अधिकतम निर्धारित सदस्य संख्या क्या है? / What is the maximum strength of the Lok Sabha?",
           "options": [
-            { "index": "A", "text": "552" },
-            { "index": "B", "text": "545" },
-            { "index": "C", "text": "540" },
-            { "index": "D", "text": "560" }
+            {
+              "index": "A",
+              "text": "545"
+            },
+            {
+              "index": "B",
+              "text": "560"
+            },
+            {
+              "index": "C",
+              "text": "540"
+            },
+            {
+              "index": "D",
+              "text": "552"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "552",
           "explanation": "संविधान द्वारा लोकसभा की अधिकतम सदस्य संख्या 552 तय की गई है। / Maximum strength of Lok Sabha is 552."
         },
@@ -43,12 +67,24 @@
           "q_id": "3",
           "statement": "राज्यसभा के सभापति कौन होते हैं? / Who is the Chairman of the Rajya Sabha?",
           "options": [
-            { "index": "A", "text": "भारत के उपराष्ट्र्पति / Vice President of India" },
-            { "index": "B", "text": "भारत के राष्ट्रपति / President of India" },
-            { "index": "C", "text": "प्रधानमंत्री / Prime Minister" },
-            { "index": "D", "text": "लोकसभा अध्यक्ष / Speaker" }
+            {
+              "index": "A",
+              "text": "लोकसभा अध्यक्ष / Speaker"
+            },
+            {
+              "index": "B",
+              "text": "भारत के उपराष्ट्र्पति / Vice President of India"
+            },
+            {
+              "index": "C",
+              "text": "प्रधानमंत्री / Prime Minister"
+            },
+            {
+              "index": "D",
+              "text": "भारत के राष्ट्रपति / President of India"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "भारत के उपराष्ट्र्पति / Vice President of India",
           "explanation": "भारत के उपराष्ट्रपति राज्यसभा के पदेन सभापति होते हैं। / The Vice President is the ex-officio Chairman of Rajya Sabha."
         },
@@ -56,12 +92,24 @@
           "q_id": "4",
           "statement": "संविधान के किस अनुच्छेद के तहत राष्ट्रीय आपातकाल लगाया जाता है? / Under which article is a National Emergency declared?",
           "options": [
-            { "index": "A", "text": "अनुच्छेद 352 / Article 352" },
-            { "index": "B", "text": "अनुच्छेद 356 / Article 356" },
-            { "index": "C", "text": "अनुच्छेद 360 / Article 360" },
-            { "index": "D", "text": "अनुच्छेद 368 / Article 368" }
+            {
+              "index": "A",
+              "text": "अनुच्छेद 368 / Article 368"
+            },
+            {
+              "index": "B",
+              "text": "अनुच्छेद 352 / Article 352"
+            },
+            {
+              "index": "C",
+              "text": "अनुच्छेद 356 / Article 356"
+            },
+            {
+              "index": "D",
+              "text": "अनुच्छेद 360 / Article 360"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "अनुच्छेद 352 / Article 352",
           "explanation": "राष्ट्रीय आपातकाल अनुच्छेद 352 के अंतर्गत लगाया जाता है। / National emergency is under Article 352."
         },
@@ -69,12 +117,24 @@
           "q_id": "5",
           "statement": "भारतीय संविधान में संशोधन की प्रक्रिया किस देश से ली गई है? / Amendment procedure is borrowed from which country?",
           "options": [
-            { "index": "A", "text": "दक्षिण अफ्रीका / South Africa" },
-            { "index": "B", "text": "ब्रिटेन / Britain" },
-            { "index": "C", "text": "अमेरिका / USA" },
-            { "index": "D", "text": "ऑस्ट्रेलिया / Australia" }
+            {
+              "index": "A",
+              "text": "ऑस्ट्रेलिया / Australia"
+            },
+            {
+              "index": "B",
+              "text": "ब्रिटेन / Britain"
+            },
+            {
+              "index": "C",
+              "text": "अमेरिका / USA"
+            },
+            {
+              "index": "D",
+              "text": "दक्षिण अफ्रीका / South Africa"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "दक्षिण अफ्रीका / South Africa",
           "explanation": "संविधान संशोधन की प्रक्रिया दक्षिण अफ्रीका के संविधान से ली गई है। / Amendment process is from South Africa."
         },
@@ -82,12 +142,24 @@
           "q_id": "6",
           "statement": "मौलिक अधिकारों का वर्णन संविधान के किस भाग में है? / Fundamental rights are mentioned in which part of the Constitution?",
           "options": [
-            { "index": "A", "text": "भाग III / Part III" },
-            { "index": "B", "text": "भाग IV / Part IV" },
-            { "index": "C", "text": "भाग II / Part II" },
-            { "index": "D", "text": "भाग I / Part I" }
+            {
+              "index": "A",
+              "text": "भाग II / Part II"
+            },
+            {
+              "index": "B",
+              "text": "भाग I / Part I"
+            },
+            {
+              "index": "C",
+              "text": "भाग IV / Part IV"
+            },
+            {
+              "index": "D",
+              "text": "भाग III / Part III"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "भाग III / Part III",
           "explanation": "मौलिक अधिकार संविधान के भाग 3 (अनुच्छेद 12-35) में हैं। / Fundamental rights are in Part III."
         },
@@ -95,10 +167,22 @@
           "q_id": "7",
           "statement": "भारतीय संविधान की प्रारूप समिति के अध्यक्ष कौन थे? / Who was the chairman of the Drafting Committee?",
           "options": [
-            { "index": "A", "text": "डॉ. बी. आर. अम्बेडकर / Dr. B. R. Ambedkar" },
-            { "index": "B", "text": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad" },
-            { "index": "C", "text": "जवाहरलाल नेहरू / Jawaharlal Nehru" },
-            { "index": "D", "text": "सच्चिदानंद सिन्हा / Sachchidananda Sinha" }
+            {
+              "index": "A",
+              "text": "डॉ. बी. आर. अम्बेडकर / Dr. B. R. Ambedkar"
+            },
+            {
+              "index": "B",
+              "text": "जवाहरलाल नेहरू / Jawaharlal Nehru"
+            },
+            {
+              "index": "C",
+              "text": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad"
+            },
+            {
+              "index": "D",
+              "text": "सच्चिदानंद सिन्हा / Sachchidananda Sinha"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "डॉ. बी. आर. अम्बेडकर / Dr. B. R. Ambedkar",
@@ -108,10 +192,22 @@
           "q_id": "8",
           "statement": "लोकसभा का सदस्य बनने के लिए न्यूनतम आयु कितनी होनी चाहिए? / What is the minimum age to become a Lok Sabha member?",
           "options": [
-            { "index": "A", "text": "25 वर्ष / 25 Years" },
-            { "index": "B", "text": "30 वर्ष / 30 Years" },
-            { "index": "C", "text": "21 वर्ष / 21 Years" },
-            { "index": "D", "text": "35 वर्ष / 35 Years" }
+            {
+              "index": "A",
+              "text": "25 वर्ष / 25 Years"
+            },
+            {
+              "index": "B",
+              "text": "35 वर्ष / 35 Years"
+            },
+            {
+              "index": "C",
+              "text": "30 वर्ष / 30 Years"
+            },
+            {
+              "index": "D",
+              "text": "21 वर्ष / 21 Years"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "25 वर्ष / 25 Years",
@@ -121,10 +217,22 @@
           "q_id": "9",
           "statement": "राज्यसभा का सदस्य बनने के लिए न्यूनतम आयु क्या है? / Minimum age for Rajya Sabha membership?",
           "options": [
-            { "index": "A", "text": "30 वर्ष / 30 Years" },
-            { "index": "B", "text": "25 वर्ष / 25 Years" },
-            { "index": "C", "text": "35 वर्ष / 35 Years" },
-            { "index": "D", "text": "21 वर्ष / 21 Years" }
+            {
+              "index": "A",
+              "text": "30 वर्ष / 30 Years"
+            },
+            {
+              "index": "B",
+              "text": "35 वर्ष / 35 Years"
+            },
+            {
+              "index": "C",
+              "text": "21 वर्ष / 21 Years"
+            },
+            {
+              "index": "D",
+              "text": "25 वर्ष / 25 Years"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "30 वर्ष / 30 Years",
@@ -134,12 +242,24 @@
           "q_id": "10",
           "statement": "भारत के प्रथम प्रधानमंत्री कौन थे? / Who was the first Prime Minister of India?",
           "options": [
-            { "index": "A", "text": "पं. जवाहरलाल नेहरू / Pt. Jawaharlal Nehru" },
-            { "index": "B", "text": "वल्लभभाई पटेल / Vallabhbhai Patel" },
-            { "index": "C", "text": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad" },
-            { "index": "D", "text": "लाल बहादुर शास्त्री / Lal Bahadur Shastri" }
+            {
+              "index": "A",
+              "text": "वल्लभभाई पटेल / Vallabhbhai Patel"
+            },
+            {
+              "index": "B",
+              "text": "पं. जवाहरलाल नेहरू / Pt. Jawaharlal Nehru"
+            },
+            {
+              "index": "C",
+              "text": "लाल बहादुर शास्त्री / Lal Bahadur Shastri"
+            },
+            {
+              "index": "D",
+              "text": "डॉ. राजेंद्र प्रसाद / Dr. Rajendra Prasad"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "पं. जवाहरलाल नेहरू / Pt. Jawaharlal Nehru",
           "explanation": "पं. जवाहरलाल नेहरू स्वतंत्र भारत के पहले प्रधानमंत्री थे। / Pt. Jawaharlal Nehru was the first PM."
         },
@@ -147,12 +267,24 @@
           "q_id": "11",
           "statement": "भारतीय संविधान कब अंगीकृत किया गया था? / When was the Indian Constitution adopted?",
           "options": [
-            { "index": "A", "text": "26 नवंबर 1949 / 26 November 1949" },
-            { "index": "B", "text": "26 जनवरी 1950 / 26 January 1950" },
-            { "index": "C", "text": "15 अगस्त 1947 / 15 August 1947" },
-            { "index": "D", "text": "26 जनवरी 1949 / 26 January 1949" }
+            {
+              "index": "A",
+              "text": "15 अगस्त 1947 / 15 August 1947"
+            },
+            {
+              "index": "B",
+              "text": "26 नवंबर 1949 / 26 November 1949"
+            },
+            {
+              "index": "C",
+              "text": "26 जनवरी 1950 / 26 January 1950"
+            },
+            {
+              "index": "D",
+              "text": "26 जनवरी 1949 / 26 January 1949"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "26 नवंबर 1949 / 26 November 1949",
           "explanation": "संविधान 26 नवंबर 1949 को अंगीकृत किया गया था। / Constitution was adopted on 26 Nov 1949."
         },
@@ -160,12 +292,24 @@
           "q_id": "12",
           "statement": "भारतीय संविधान पूर्ण रूप से कब लागू हुआ था? / When did the Indian Constitution fully come into force?",
           "options": [
-            { "index": "A", "text": "26 जनवरी 1950 / 26 January 1950" },
-            { "index": "B", "text": "26 नवंबर 1949 / 26 November 1949" },
-            { "index": "C", "text": "15 अगस्त 1947 / 15 August 1947" },
-            { "index": "D", "text": "2 अक्टूबर 1950 / 2 October 1950" }
+            {
+              "index": "A",
+              "text": "26 नवंबर 1949 / 26 November 1949"
+            },
+            {
+              "index": "B",
+              "text": "15 अगस्त 1947 / 15 August 1947"
+            },
+            {
+              "index": "C",
+              "text": "26 जनवरी 1950 / 26 January 1950"
+            },
+            {
+              "index": "D",
+              "text": "2 अक्टूबर 1950 / 2 October 1950"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "26 जनवरी 1950 / 26 January 1950",
           "explanation": "संविधान 26 जनवरी 1950 को लागू हुआ। / Constitution came into force on 26 Jan 1950."
         },
@@ -173,12 +317,24 @@
           "q_id": "13",
           "statement": "भारत में राष्ट्रपति अपना त्यागपत्र किसे सौंपते हैं? / To whom does the President submit his resignation?",
           "options": [
-            { "index": "A", "text": "उपराष्ट्रपति / Vice President" },
-            { "index": "B", "text": "प्रधानमंत्री / Prime Minister" },
-            { "index": "C", "text": "मुख्य न्यायाधीश / Chief Justice" },
-            { "index": "D", "text": "लोकसभा अध्यक्ष / Speaker" }
+            {
+              "index": "A",
+              "text": "मुख्य न्यायाधीश / Chief Justice"
+            },
+            {
+              "index": "B",
+              "text": "उपराष्ट्रपति / Vice President"
+            },
+            {
+              "index": "C",
+              "text": "लोकसभा अध्यक्ष / Speaker"
+            },
+            {
+              "index": "D",
+              "text": "प्रधानमंत्री / Prime Minister"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "उपराष्ट्रपति / Vice President",
           "explanation": "राष्ट्रपति अपना त्यागपत्र उपराष्ट्रपति को देते हैं। / President addresses resignation to the Vice President."
         },
@@ -186,10 +342,22 @@
           "q_id": "14",
           "statement": "सर्वोच्च न्यायालय के न्यायाधीशों की सेवानिवृत्ति आयु क्या है? / Retirement age of Supreme Court judges?",
           "options": [
-            { "index": "A", "text": "65 वर्ष / 65 Years" },
-            { "index": "B", "text": "62 वर्ष / 62 Years" },
-            { "index": "C", "text": "60 वर्ष / 60 Years" },
-            { "index": "D", "text": "70 वर्ष / 70 Years" }
+            {
+              "index": "A",
+              "text": "65 वर्ष / 65 Years"
+            },
+            {
+              "index": "B",
+              "text": "70 वर्ष / 70 Years"
+            },
+            {
+              "index": "C",
+              "text": "60 वर्ष / 60 Years"
+            },
+            {
+              "index": "D",
+              "text": "62 वर्ष / 62 Years"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "65 वर्ष / 65 Years",
@@ -199,10 +367,22 @@
           "q_id": "15",
           "statement": "संसद के संयुक्त अधिवेशन की अध्यक्षता कौन करता है? / Who presides over the joint sitting of Parliament?",
           "options": [
-            { "index": "A", "text": "लोकसभा अध्यक्ष / Speaker of Lok Sabha" },
-            { "index": "B", "text": "राष्ट्रपति / President" },
-            { "index": "C", "text": "राज्यसभा सभापति / Rajya Sabha Chairman" },
-            { "index": "D", "text": "प्रधानमंत्री / Prime Minister" }
+            {
+              "index": "A",
+              "text": "लोकसभा अध्यक्ष / Speaker of Lok Sabha"
+            },
+            {
+              "index": "B",
+              "text": "राष्ट्रपति / President"
+            },
+            {
+              "index": "C",
+              "text": "राज्यसभा सभापति / Rajya Sabha Chairman"
+            },
+            {
+              "index": "D",
+              "text": "प्रधानमंत्री / Prime Minister"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "लोकसभा अध्यक्ष / Speaker of Lok Sabha",
@@ -212,12 +392,24 @@
           "q_id": "16",
           "statement": "वित्तीय आपातकाल का प्रावधान किस अनुच्छेद में है? / Provision of Financial Emergency is under which article?",
           "options": [
-            { "index": "A", "text": "अनुच्छेद 360 / Article 360" },
-            { "index": "B", "text": "अनुच्छेद 352 / Article 352" },
-            { "index": "C", "text": "अनुच्छेद 356 / Article 356" },
-            { "index": "D", "text": "अनुच्छेद 370 / Article 370" }
+            {
+              "index": "A",
+              "text": "अनुच्छेद 356 / Article 356"
+            },
+            {
+              "index": "B",
+              "text": "अनुच्छेद 352 / Article 352"
+            },
+            {
+              "index": "C",
+              "text": "अनुच्छेद 370 / Article 370"
+            },
+            {
+              "index": "D",
+              "text": "अनुच्छेद 360 / Article 360"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "अनुच्छेद 360 / Article 360",
           "explanation": "वित्तीय आपातकाल अनुच्छेद 360 से संबंधित है। / Financial emergency is under Article 360."
         },
@@ -225,12 +417,24 @@
           "q_id": "17",
           "statement": "भारतीय योजना आयोग के स्थान पर किस नए आयोग का गठन हुआ है? / Which body replaced the Planning Commission?",
           "options": [
-            { "index": "A", "text": "नीति आयोग / NITI Aayog" },
-            { "index": "B", "text": "विकास आयोग / Vikas Aayog" },
-            { "index": "C", "text": "वित्त आयोग / Finance Commission" },
-            { "index": "D", "text": "राष्ट्रीय आयोग / National Commission" }
+            {
+              "index": "A",
+              "text": "राष्ट्रीय आयोग / National Commission"
+            },
+            {
+              "index": "B",
+              "text": "विकास आयोग / Vikas Aayog"
+            },
+            {
+              "index": "C",
+              "text": "नीति आयोग / NITI Aayog"
+            },
+            {
+              "index": "D",
+              "text": "वित्त आयोग / Finance Commission"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "नीति आयोग / NITI Aayog",
           "explanation": "1 जनवरी 2015 को नीति आयोग की स्थापना हुई। / NITI Aayog replaced Planning Commission in 2015."
         },
@@ -238,10 +442,22 @@
           "q_id": "18",
           "statement": "भारत में त्रि-स्तरीय पंचायती राज प्रणाली की सिफारिश किसने की थी? / Who recommended the 3-tier Panchayati Raj?",
           "options": [
-            { "index": "A", "text": "बलवंत राय मेहता समिति / Balwant Rai Mehta Committee" },
-            { "index": "B", "text": "अशोक मेहता समिति / Ashok Mehta Committee" },
-            { "index": "C", "text": "सरकारिया आयोग / Sarkaria Commission" },
-            { "index": "D", "text": "मंडल आयोग / Mandal Commission" }
+            {
+              "index": "A",
+              "text": "बलवंत राय मेहता समिति / Balwant Rai Mehta Committee"
+            },
+            {
+              "index": "B",
+              "text": "अशोक मेहता समिति / Ashok Mehta Committee"
+            },
+            {
+              "index": "C",
+              "text": "सरकारिया आयोग / Sarkaria Commission"
+            },
+            {
+              "index": "D",
+              "text": "मंडल आयोग / Mandal Commission"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "बलवंत राय मेहता समिति / Balwant Rai Mehta Committee",
@@ -251,12 +467,24 @@
           "q_id": "19",
           "statement": "भारतीय संविधान में कुल कितनी अनुसूचियां हैं? / How many schedules are there in the Indian Constitution?",
           "options": [
-            { "index": "A", "text": "12" },
-            { "index": "B", "text": "8" },
-            { "index": "C", "text": "10" },
-            { "index": "D", "text": "14" }
+            {
+              "index": "A",
+              "text": "14"
+            },
+            {
+              "index": "B",
+              "text": "8"
+            },
+            {
+              "index": "C",
+              "text": "12"
+            },
+            {
+              "index": "D",
+              "text": "10"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "12",
           "explanation": "वर्तमान में भारतीय संविधान में 12 अनुसूचियां हैं। / There are 12 schedules currently."
         },
@@ -264,12 +492,24 @@
           "q_id": "20",
           "statement": "राज्य में राष्ट्रपति शासन किस अनुच्छेद के तहत लगाया जाता है? / President's rule in a state is under which article?",
           "options": [
-            { "index": "A", "text": "अनुच्छेद 356 / Article 356" },
-            { "index": "B", "text": "अनुच्छेद 352 / Article 352" },
-            { "index": "C", "text": "अनुच्छेद 360 / Article 360" },
-            { "index": "D", "text": "अनुच्छेद 370 / Article 370" }
+            {
+              "index": "A",
+              "text": "अनुच्छेद 360 / Article 360"
+            },
+            {
+              "index": "B",
+              "text": "अनुच्छेद 352 / Article 352"
+            },
+            {
+              "index": "C",
+              "text": "अनुच्छेद 370 / Article 370"
+            },
+            {
+              "index": "D",
+              "text": "अनुच्छेद 356 / Article 356"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "अनुच्छेद 356 / Article 356",
           "explanation": "राज्य में आपातकाल या राष्ट्रपति शासन अनुच्छेद 356 के तहत लगता है। / President's rule is under Article 356."
         },
@@ -277,10 +517,22 @@
           "q_id": "21",
           "statement": "भारत के प्रथम विधि अधिकारी कौन होते हैं? / Who is the first Law Officer of India?",
           "options": [
-            { "index": "A", "text": "महान्यायवादी (Attorney General) / Attorney General" },
-            { "index": "B", "text": "मुख्य न्यायाधीश / Chief Justice" },
-            { "index": "C", "text": "कानून मंत्री / Law Minister" },
-            { "index": "D", "text": "सोलिसिटर जनरल / Solicitor General" }
+            {
+              "index": "A",
+              "text": "महान्यायवादी (Attorney General) / Attorney General"
+            },
+            {
+              "index": "B",
+              "text": "मुख्य न्यायाधीश / Chief Justice"
+            },
+            {
+              "index": "C",
+              "text": "सोलिसिटर जनरल / Solicitor General"
+            },
+            {
+              "index": "D",
+              "text": "कानून मंत्री / Law Minister"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "महान्यायवादी (Attorney General) / Attorney General",
@@ -290,12 +542,24 @@
           "q_id": "22",
           "statement": "लोकसभा और राज्यसभा की संयुक्त बैठक कौन बुलाता है? / Who summons the joint sitting of Parliament?",
           "options": [
-            { "index": "A", "text": "राष्ट्रपति / President" },
-            { "index": "B", "text": "प्रधानमंत्री / Prime Minister" },
-            { "index": "C", "text": "लोकसभा अध्यक्ष / Speaker" },
-            { "index": "D", "text": "उपराष्ट्रपति / Vice President" }
+            {
+              "index": "A",
+              "text": "प्रधानमंत्री / Prime Minister"
+            },
+            {
+              "index": "B",
+              "text": "उपराष्ट्रपति / Vice President"
+            },
+            {
+              "index": "C",
+              "text": "राष्ट्रपति / President"
+            },
+            {
+              "index": "D",
+              "text": "लोकसभा अध्यक्ष / Speaker"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "राष्ट्रपति / President",
           "explanation": "संयुक्त बैठक राष्ट्रपति द्वारा बुलाई जाती है। / Joint sitting is summoned by the President."
         },
@@ -303,12 +567,24 @@
           "q_id": "23",
           "statement": "भारतीय संविधान के किस भाग को 'संज्ञा की आत्मा' कहा जाता है? / Which part is called the 'Soul of the Constitution'?",
           "options": [
-            { "index": "A", "text": "प्रस्तावना (Preamble) / Preamble" },
-            { "index": "B", "text": "मौलिक अधिकार / Fundamental Rights" },
-            { "index": "C", "text": "नीति निर्देशक तत्व / DPSP" },
-            { "index": "D", "text": "संवैधानिक उपचार / Constitutional Remedies" }
+            {
+              "index": "A",
+              "text": "नीति निर्देशक तत्व / DPSP"
+            },
+            {
+              "index": "B",
+              "text": "मौलिक अधिकार / Fundamental Rights"
+            },
+            {
+              "index": "C",
+              "text": "प्रस्तावना (Preamble) / Preamble"
+            },
+            {
+              "index": "D",
+              "text": "संवैधानिक उपचार / Constitutional Remedies"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "प्रस्तावना (Preamble) / Preamble",
           "explanation": "प्रस्तावना को संविधान की आत्मा माना जाता है। / Preamble is considered the soul of the constitution."
         },
@@ -316,12 +592,24 @@
           "q_id": "24",
           "statement": "संपत्ति का अधिकार अब किस प्रकार का अधिकार है? / Right to Property is now what kind of right?",
           "options": [
-            { "index": "A", "text": "कानूनी अधिकार / Legal Right" },
-            { "index": "B", "text": "मौलिक अधिकार / Fundamental Right" },
-            { "index": "C", "text": "नैतिक अधिकार / Moral Right" },
-            { "index": "D", "text": "सामाजिक अधिकार / Social Right" }
+            {
+              "index": "A",
+              "text": "नैतिक अधिकार / Moral Right"
+            },
+            {
+              "index": "B",
+              "text": "कानूनी अधिकार / Legal Right"
+            },
+            {
+              "index": "C",
+              "text": "सामाजिक अधिकार / Social Right"
+            },
+            {
+              "index": "D",
+              "text": "मौलिक अधिकार / Fundamental Right"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "कानूनी अधिकार / Legal Right",
           "explanation": "संपत्ति के अधिकार को 44वें संशोधन द्वारा कानूनी अधिकार (अनुच्छेद 300क) बना दिया गया। / It is now a legal right under Article 300A."
         },
@@ -329,12 +617,24 @@
           "q_id": "25",
           "statement": "भारत के नियंत्रक एवं महालेखा परीक्षक (CAG) की नियुक्ति कौन करता है? / Who appoints the CAG of India?",
           "options": [
-            { "index": "A", "text": "राष्ट्रपति / President" },
-            { "index": "B", "text": "प्रधानमंत्री / Prime Minister" },
-            { "index": "C", "text": "संसद / Parliament" },
-            { "index": "D", "text": "वित्त मंत्री / Finance Minister" }
+            {
+              "index": "A",
+              "text": "प्रधानमंत्री / Prime Minister"
+            },
+            {
+              "index": "B",
+              "text": "संसद / Parliament"
+            },
+            {
+              "index": "C",
+              "text": "राष्ट्रपति / President"
+            },
+            {
+              "index": "D",
+              "text": "वित्त मंत्री / Finance Minister"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "राष्ट्रपति / President",
           "explanation": "CAG की नियुक्ति राष्ट्रपति द्वारा की जाती है। / CAG is appointed by the President."
         },
@@ -342,12 +642,24 @@
           "q_id": "26",
           "statement": "भाषाई आधार पर गठित होने वाला भारत का पहला राज्य कौन सा है? / First linguistic state in India?",
           "options": [
-            { "index": "A", "text": "आंध्र प्रदेश / Andhra Pradesh" },
-            { "index": "B", "text": "गुजरात / Gujarat" },
-            { "index": "C", "text": "महाराष्ट्र / Maharashtra" },
-            { "index": "D", "text": "तमिलनाडु / Tamil Nadu" }
+            {
+              "index": "A",
+              "text": "तमिलनाडु / Tamil Nadu"
+            },
+            {
+              "index": "B",
+              "text": "महाराष्ट्र / Maharashtra"
+            },
+            {
+              "index": "C",
+              "text": "आंध्र प्रदेश / Andhra Pradesh"
+            },
+            {
+              "index": "D",
+              "text": "गुजरात / Gujarat"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "आंध्र प्रदेश / Andhra Pradesh",
           "explanation": "आंध्र प्रदेश भाषा के आधार पर बनने वाला पहला राज्य था (1953)। / Andhra Pradesh was formed on a linguistic basis in 1953."
         },
@@ -355,12 +667,24 @@
           "q_id": "27",
           "statement": "भारतीय संविधान में मौलिक कर्तव्य किस देश से लिए गए हैं? / Fundamental Duties are borrowed from?",
           "options": [
-            { "index": "A", "text": "पूर्व सोवियत संघ (USSR) / USSR" },
-            { "index": "B", "text": "अमेरिका / USA" },
-            { "index": "C", "text": "आयरलैंड / Ireland" },
-            { "index": "D", "text": "ब्रिटेन / Britain" }
+            {
+              "index": "A",
+              "text": "ब्रिटेन / Britain"
+            },
+            {
+              "index": "B",
+              "text": "पूर्व सोवियत संघ (USSR) / USSR"
+            },
+            {
+              "index": "C",
+              "text": "आयरलैंड / Ireland"
+            },
+            {
+              "index": "D",
+              "text": "अमेरिका / USA"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "पूर्व सोवियत संघ (USSR) / USSR",
           "explanation": "मौलिक कर्तव्य यूएसएसआर के संविधान से जोड़े गए। / Fundamental duties are from the erstwhile USSR."
         },
@@ -368,12 +692,24 @@
           "q_id": "28",
           "statement": "संविधान सभा की पहली बैठक कब हुई थी? / When was the first meeting of the Constituent Assembly held?",
           "options": [
-            { "index": "A", "text": "9 दिसंबर 1946 / 9 December 1946" },
-            { "index": "B", "text": "26 नवंबर 1949 / 26 November 1949" },
-            { "index": "C", "text": "15 अगस्त 1947 / 15 August 1947" },
-            { "index": "D", "text": "26 जनवरी 1950 / 26 January 1950" }
+            {
+              "index": "A",
+              "text": "26 जनवरी 1950 / 26 January 1950"
+            },
+            {
+              "index": "B",
+              "text": "9 दिसंबर 1946 / 9 December 1946"
+            },
+            {
+              "index": "C",
+              "text": "15 अगस्त 1947 / 15 August 1947"
+            },
+            {
+              "index": "D",
+              "text": "26 नवंबर 1949 / 26 November 1949"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "9 दिसंबर 1946 / 9 December 1946",
           "explanation": "संविधान सभा की पहली बैठक 9 दिसंबर 1946 को हुई थी। / First meeting was on 9 Dec 1946."
         },
@@ -381,12 +717,24 @@
           "q_id": "29",
           "statement": "भारत में वयस्क मताधिकार की न्यूनतम आयु सीमा क्या है? / Minimum age for voting in India?",
           "options": [
-            { "index": "A", "text": "18 वर्ष / 18 Years" },
-            { "index": "B", "text": "21 वर्ष / 21 Years" },
-            { "index": "C", "text": "25 वर्ष / 25 Years" },
-            { "index": "D", "text": "16 वर्ष / 16 Years" }
+            {
+              "index": "A",
+              "text": "16 वर्ष / 16 Years"
+            },
+            {
+              "index": "B",
+              "text": "21 वर्ष / 21 Years"
+            },
+            {
+              "index": "C",
+              "text": "25 वर्ष / 25 Years"
+            },
+            {
+              "index": "D",
+              "text": "18 वर्ष / 18 Years"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "18 वर्ष / 18 Years",
           "explanation": "61वें संशोधन द्वारा मताधिकार की आयु 21 से घटाकर 18 वर्ष की गई। / Voting age is 18 years."
         },
@@ -394,12 +742,24 @@
           "q_id": "30",
           "statement": "भारतीय संसद के अंग कौन-कौन से हैं? / What are the components of the Indian Parliament?",
           "options": [
-            { "index": "A", "text": "राष्ट्रपति, लोकसभा और राज्यसभा / President, Lok Sabha, Rajya Sabha" },
-            { "index": "B", "text": "केवल लोकसभा और राज्यसभा / Only Lok Sabha and Rajya Sabha" },
-            { "index": "C", "text": "प्रधानमंत्री और मंत्रिपरिषद / PM and Council of Ministers" },
-            { "index": "D", "text": "उच्च न्यायालय और उच्चतम न्यायालय / Courts" }
+            {
+              "index": "A",
+              "text": "प्रधानमंत्री और मंत्रिपरिषद / PM and Council of Ministers"
+            },
+            {
+              "index": "B",
+              "text": "उच्च न्यायालय और उच्चतम न्यायालय / Courts"
+            },
+            {
+              "index": "C",
+              "text": "केवल लोकसभा और राज्यसभा / Only Lok Sabha and Rajya Sabha"
+            },
+            {
+              "index": "D",
+              "text": "राष्ट्रपति, लोकसभा और राज्यसभा / President, Lok Sabha, Rajya Sabha"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "राष्ट्रपति, लोकसभा और राज्यसभा / President, Lok Sabha, Rajya Sabha",
           "explanation": "संसद राष्ट्रपति, लोकसभा और राज्यसभा से मिलकर बनती है। / Parliament comprises President, Lok Sabha & Rajya Sabha."
         }

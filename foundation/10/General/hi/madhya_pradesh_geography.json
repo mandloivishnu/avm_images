@@ -19,7 +19,7 @@
           "options": [
             {
               "index": "A",
-              "text": "धूपगढ़ चोटी / Dhupgarh Peak"
+              "text": "गोविन्दगढ़ / Govindgarh"
             },
             {
               "index": "B",
@@ -31,10 +31,10 @@
             },
             {
               "index": "D",
-              "text": "गोविन्दगढ़ / Govindgarh"
+              "text": "धूपगढ़ चोटी / Dhupgarh Peak"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "धूपगढ़ चोटी / Dhupgarh Peak",
           "explanation": "पचमढ़ी स्थित धूपगढ़ (1350 मीटर) सबसे ऊँची चोटी है। / Dhupgarh in Pachmarhi is the highest."
         },
@@ -44,22 +44,22 @@
           "options": [
             {
               "index": "A",
-              "text": "हार्ट स्टेट / टाइगर स्टेट / Heart State & Tiger State"
+              "text": "धान का कटोरा / Rice Bowl"
             },
             {
               "index": "B",
-              "text": "मसालों का राज्य / Spice State"
-            },
-            {
-              "index": "C",
               "text": "देवभूमि / Land of Gods"
             },
             {
+              "index": "C",
+              "text": "मसालों का राज्य / Spice State"
+            },
+            {
               "index": "D",
-              "text": "धान का कटोरा / Rice Bowl"
+              "text": "हार्ट स्टेट / टाइगर स्टेट / Heart State & Tiger State"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "हार्ट स्टेट / टाइगर स्टेट / Heart State & Tiger State",
           "explanation": "मध्य में स्थित होने के कारण हार्ट स्टेट और बाघों की अधिकता से टाइगर स्टेट कहते हैं। / Known as Heart and Tiger State."
         },
@@ -69,7 +69,7 @@
           "options": [
             {
               "index": "A",
-              "text": "14"
+              "text": "16"
             },
             {
               "index": "B",
@@ -77,14 +77,14 @@
             },
             {
               "index": "C",
-              "text": "16"
+              "text": "10"
             },
             {
               "index": "D",
-              "text": "10"
+              "text": "14"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "14",
           "explanation": "कर्क रेखा MP के 14 जिलों से होकर गुजरती है। / Passes through 14 districts."
         },
@@ -94,22 +94,22 @@
           "options": [
             {
               "index": "A",
-              "text": "पचमढ़ी / Pachmarhi"
-            },
-            {
-              "index": "B",
               "text": "अमरकंटक / Amarkantak"
             },
             {
+              "index": "B",
+              "text": "शिवपुरी / Shivpuri"
+            },
+            {
               "index": "C",
-              "text": "मांडू / Mandu"
+              "text": "पचमढ़ी / Pachmarhi"
             },
             {
               "index": "D",
-              "text": "शिवपुरी / Shivpuri"
+              "text": "मांडू / Mandu"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "पचमढ़ी / Pachmarhi",
           "explanation": "पचमढ़ी सतपुड़ा की रानी के रूप में जाना जाने वाला एकमात्र हिल स्टेशन है। / Pachmarhi is the only hill station."
         },
@@ -123,15 +123,15 @@
             },
             {
               "index": "B",
-              "text": "3,42,239 वर्ग किमी / 3,42,239 sq km"
+              "text": "3,50,000 वर्ग किमी / 3,50,000 sq km"
             },
             {
               "index": "C",
-              "text": "2,50,000 वर्ग किमी / 2,50,000 sq km"
+              "text": "3,42,239 वर्ग किमी / 3,42,239 sq km"
             },
             {
               "index": "D",
-              "text": "3,50,000 वर्ग किमी / 3,50,000 sq km"
+              "text": "2,50,000 वर्ग किमी / 2,50,000 sq km"
             }
           ],
           "correct_index": "A",
@@ -144,22 +144,22 @@
           "options": [
             {
               "index": "A",
-              "text": "दूसरा / 2nd"
-            },
-            {
-              "index": "B",
-              "text": "पहला / 1st"
-            },
-            {
-              "index": "C",
               "text": "तीसरा / 3rd"
             },
             {
-              "index": "D",
+              "index": "B",
               "text": "चौथा / 4th"
+            },
+            {
+              "index": "C",
+              "text": "पहला / 1st"
+            },
+            {
+              "index": "D",
+              "text": "दूसरा / 2nd"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "दूसरा / 2nd",
           "explanation": "राजस्थान के बाद MP क्षेत्रफल में दूसरा सबसे बड़ा राज्य है। / MP is the 2nd largest state."
         },
@@ -173,7 +173,7 @@
             },
             {
               "index": "B",
-              "text": "4"
+              "text": "7"
             },
             {
               "index": "C",
@@ -181,7 +181,7 @@
             },
             {
               "index": "D",
-              "text": "7"
+              "text": "4"
             }
           ],
           "correct_index": "A",
@@ -202,11 +202,11 @@
             },
             {
               "index": "C",
-              "text": "बघेलखंड का पठार / Baghelkhand Plateau"
+              "text": "रीवा पन्ना का पठार / Rewa-Panna Plateau"
             },
             {
               "index": "D",
-              "text": "रीवा पन्ना का पठार / Rewa-Panna Plateau"
+              "text": "बघेलखंड का पठार / Baghelkhand Plateau"
             }
           ],
           "correct_index": "A",
@@ -219,22 +219,22 @@
           "options": [
             {
               "index": "A",
-              "text": "सिद्धबाबा चोटी / Siddhababa Peak"
-            },
-            {
-              "index": "B",
-              "text": "धूपगढ़ / Dhupgarh"
-            },
-            {
-              "index": "C",
               "text": "जनापाव / Janapav"
             },
             {
-              "index": "D",
+              "index": "B",
               "text": "शिकारगढ़ / Shikargarh"
+            },
+            {
+              "index": "C",
+              "text": "धूपगढ़ / Dhupgarh"
+            },
+            {
+              "index": "D",
+              "text": "सिद्धबाबा चोटी / Siddhababa Peak"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "सिद्धबाबा चोटी / Siddhababa Peak",
           "explanation": "सिद्धबाबा बुंदेलखंड पठार की सर्वोच्च चोटी है। / Siddhababa is the highest in Bundelkhand."
         },
@@ -248,15 +248,15 @@
             },
             {
               "index": "B",
-              "text": "दतिया / Datia"
+              "text": "आगर मालवा / Agar Malwa"
             },
             {
               "index": "C",
-              "text": "भोपाल / Bhopal"
+              "text": "दतिया / Datia"
             },
             {
               "index": "D",
-              "text": "आगर मालवा / Agar Malwa"
+              "text": "भोपाल / Bhopal"
             }
           ],
           "correct_index": "A",
@@ -269,7 +269,7 @@
           "options": [
             {
               "index": "A",
-              "text": "छिंदवाड़ा / Chhindwara"
+              "text": "बैतूल / Betul"
             },
             {
               "index": "B",
@@ -281,10 +281,10 @@
             },
             {
               "index": "D",
-              "text": "बैतूल / Betul"
+              "text": "छिंदवाड़ा / Chhindwara"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "छिंदवाड़ा / Chhindwara",
           "explanation": "छिंदवाड़ा क्षेत्रफल की दृष्टि से सबसे बड़ा जिला है। / Chhindwara is the largest district."
         },
@@ -298,15 +298,15 @@
             },
             {
               "index": "B",
-              "text": "605 किमी / 605 km"
+              "text": "750 किमी / 750 km"
             },
             {
               "index": "C",
-              "text": "900 किमी / 900 km"
+              "text": "605 किमी / 605 km"
             },
             {
               "index": "D",
-              "text": "750 किमी / 750 km"
+              "text": "900 किमी / 900 km"
             }
           ],
           "correct_index": "A",
@@ -319,11 +319,11 @@
           "options": [
             {
               "index": "A",
-              "text": "605 किमी / 605 km"
+              "text": "870 किमी / 870 km"
             },
             {
               "index": "B",
-              "text": "870 किमी / 870 km"
+              "text": "605 किमी / 605 km"
             },
             {
               "index": "C",
@@ -334,7 +334,7 @@
               "text": "700 किमी / 700 km"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "605 किमी / 605 km",
           "explanation": "उत्तर से दक्षिण लंबाई 605 किमी है। / North-south length is 605 km."
         },
@@ -344,22 +344,22 @@
           "options": [
             {
               "index": "A",
-              "text": "सिंगरौली / Singrauli"
+              "text": "अनूपपुर / Anuppur"
             },
             {
               "index": "B",
-              "text": "बालाघाट / Balaghat"
-            },
-            {
-              "index": "C",
               "text": "सीधी / Sidhi"
             },
             {
+              "index": "C",
+              "text": "बालाघाट / Balaghat"
+            },
+            {
               "index": "D",
-              "text": "अनूपपुर / Anuppur"
+              "text": "सिंगरौली / Singrauli"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "सिंगरौली / Singrauli",
           "explanation": "सिंगरौली जिला उत्तर प्रदेश और छत्तीसगढ़ दोनों से सीमा बनाता है। / Singrauli touches both."
         },
@@ -373,11 +373,11 @@
             },
             {
               "index": "B",
-              "text": "अलीराजपुर / Alirajpur"
+              "text": "मंदसौर / Mandsaur"
             },
             {
               "index": "C",
-              "text": "मंदसौर / Mandsaur"
+              "text": "अलीराजपुर / Alirajpur"
             },
             {
               "index": "D",
@@ -394,11 +394,11 @@
           "options": [
             {
               "index": "A",
-              "text": "धूपगढ़ / Dhupgarh"
+              "text": "अमरकंटक / Amarkantak"
             },
             {
               "index": "B",
-              "text": "अमरकंटक / Amarkantak"
+              "text": "महादेव / Mahadeo"
             },
             {
               "index": "C",
@@ -406,10 +406,10 @@
             },
             {
               "index": "D",
-              "text": "महादेव / Mahadeo"
+              "text": "धूपगढ़ / Dhupgarh"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "धूपगढ़ / Dhupgarh",
           "explanation": "सतपुड़ा पर्वत श्रेणी की सर्वोच्च चोटी धूपगढ़ है। / Dhupgarh is the highest in Satpura."
         },
@@ -419,22 +419,22 @@
           "options": [
             {
               "index": "A",
-              "text": "मालवा का पठार / Malwa Plateau"
+              "text": "निमाड़ / Nimar"
             },
             {
               "index": "B",
-              "text": "चंबल घाटी / Chambal Valley"
-            },
-            {
-              "index": "C",
               "text": "बघेलखंड / Baghelkhand"
             },
             {
+              "index": "C",
+              "text": "मालवा का पठार / Malwa Plateau"
+            },
+            {
               "index": "D",
-              "text": "निमाड़ / Nimar"
+              "text": "चंबल घाटी / Chambal Valley"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "मालवा का पठार / Malwa Plateau",
           "explanation": "गेहूं के भारी उत्पादन के कारण मालवा को गेहूं का भंडार कहते हैं। / Malwa is called wheat bowl."
         },
@@ -444,22 +444,22 @@
           "options": [
             {
               "index": "A",
-              "text": "मानसूनी जलवायु (उष्णकटिबंधीय) / Tropical Monsoon"
-            },
-            {
-              "index": "B",
               "text": "भूमध्यसागरीय / Mediterranean"
             },
             {
+              "index": "B",
+              "text": "रेगistani / Desert"
+            },
+            {
               "index": "C",
-              "text": "शीतोष्ण / Temperate"
+              "text": "मानसूनी जलवायु (उष्णकटिबंधीय) / Tropical Monsoon"
             },
             {
               "index": "D",
-              "text": "रेगistani / Desert"
+              "text": "शीतोष्ण / Temperate"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "मानसूनी जलवायु (उष्णकटिबंधीय) / Tropical Monsoon",
           "explanation": "MP की जलवायु उष्णकटिबंधीय मानसूनी है। / MP has a tropical monsoon climate."
         },
@@ -473,7 +473,7 @@
             },
             {
               "index": "B",
-              "text": "उत्तर-पूर्वी मानसून / Northeast Monsoon"
+              "text": "कालचक्र / Kalchakra"
             },
             {
               "index": "C",
@@ -481,7 +481,7 @@
             },
             {
               "index": "D",
-              "text": "कालचक्र / Kalchakra"
+              "text": "उत्तर-पूर्वी मानसून / Northeast Monsoon"
             }
           ],
           "correct_index": "A",
@@ -494,22 +494,22 @@
           "options": [
             {
               "index": "A",
-              "text": "गोहद (भाइंड / भिंड) / Gohad (Bhind)"
-            },
-            {
-              "index": "B",
               "text": "शिवपुरी / Shivpuri"
             },
             {
+              "index": "B",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
               "index": "C",
-              "text": "मुरैना / Morena"
+              "text": "गोहद (भाइंड / भिंड) / Gohad (Bhind)"
             },
             {
               "index": "D",
-              "text": "ग्वालियर / Gwalior"
+              "text": "मुरैना / Morena"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "गोहद (भाइंड / भिंड) / Gohad (Bhind)",
           "explanation": "भिंड जिले का गोहद सबसे कम वर्षा वाला क्षेत्र है। / Gohad in Bhind is the lowest rainfall area."
         },
@@ -519,22 +519,22 @@
           "options": [
             {
               "index": "A",
-              "text": "गोटेगांव / खजुराहो (विशेषकर विदिशा/गंजबासौदा) / Ganjbasoda"
-            },
-            {
-              "index": "B",
               "text": "भोपाल / Bhopal"
             },
             {
-              "index": "C",
+              "index": "B",
               "text": "इंदौर / Indore"
             },
             {
-              "index": "D",
+              "index": "C",
               "text": "जबलपुर / Jabalpur"
+            },
+            {
+              "index": "D",
+              "text": "गोटेगांव / खजुराहो (विशेषकर विदिशा/गंजबासौदा) / Ganjbasoda"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "गोटेगांव / खजुराहो (विशेषकर विदिशा/गंजबासौदा) / Ganjbasoda",
           "explanation": "गंजबासौदा (विदिशा) सबसे अधिक तापमान वाला क्षेत्र दर्ज किया गया है। / Ganjbasoda is the hottest."
         },
@@ -548,15 +548,15 @@
             },
             {
               "index": "B",
-              "text": "1956"
+              "text": "1965"
             },
             {
               "index": "C",
-              "text": "1980"
+              "text": "1956"
             },
             {
               "index": "D",
-              "text": "1965"
+              "text": "1980"
             }
           ],
           "correct_index": "A",
@@ -569,22 +569,22 @@
           "options": [
             {
               "index": "A",
-              "text": "9.38%"
-            },
-            {
-              "index": "B",
               "text": "7.5%"
             },
             {
-              "index": "C",
+              "index": "B",
               "text": "10.5%"
+            },
+            {
+              "index": "C",
+              "text": "9.38%"
             },
             {
               "index": "D",
               "text": "8.2%"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "9.38%",
           "explanation": "MP का कुल क्षेत्रफल भारत का 9.38% हिस्सा है। / It constitutes 9.38% of India."
         },
@@ -594,22 +594,22 @@
           "options": [
             {
               "index": "A",
-              "text": "रतलाम से प्रवेश, शहडोल से निकास / Ratlam to Shahdol"
-            },
-            {
-              "index": "B",
               "text": "झाबुआ से प्रवेश, सिंगरौली से निकास / Jhabua to Singrauli"
             },
             {
-              "index": "C",
+              "index": "B",
               "text": "उज्जैन से प्रवेश, जबलपुर से निकास"
             },
             {
-              "index": "D",
+              "index": "C",
               "text": "आगर से प्रवेश, सागर से निकास"
+            },
+            {
+              "index": "D",
+              "text": "रतलाम से प्रवेश, शहडोल से निकास / Ratlam to Shahdol"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "रतलाम से प्रवेश, शहडोल से निकास / Ratlam to Shahdol",
           "explanation": "रतलाम से प्रवेश कर यह पूर्व की ओर शहडोल/सिंगरौली तक जाती है।"
         },
@@ -619,22 +619,22 @@
           "options": [
             {
               "index": "A",
-              "text": "उत्तर प्रदेश / Uttar Pradesh"
+              "text": "छत्तीसगढ़ / Chhattisgarh"
             },
             {
               "index": "B",
-              "text": "राजस्थान / Rajasthan"
-            },
-            {
-              "index": "C",
               "text": "महाराष्ट्र / Maharashtra"
             },
             {
+              "index": "C",
+              "text": "राजस्थान / Rajasthan"
+            },
+            {
               "index": "D",
-              "text": "छत्तीसगढ़ / Chhattisgarh"
+              "text": "उत्तर प्रदेश / Uttar Pradesh"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "उत्तर प्रदेश / Uttar Pradesh",
           "explanation": "MP की सबसे लंबी सीमा उत्तर प्रदेश के साथ लगती है। / Longest border is with UP."
         },
@@ -648,11 +648,11 @@
             },
             {
               "index": "B",
-              "text": "राजस्थान / Rajasthan"
+              "text": "महाराष्ट्र / Maharashtra"
             },
             {
               "index": "C",
-              "text": "महाराष्ट्र / Maharashtra"
+              "text": "राजस्थान / Rajasthan"
             },
             {
               "index": "D",
@@ -673,11 +673,11 @@
             },
             {
               "index": "B",
-              "text": "बघेलखंड / Baghelkhand"
+              "text": "चंबल घाटी / Chambal Valley"
             },
             {
               "index": "C",
-              "text": "चंबल घाटी / Chambal Valley"
+              "text": "बघेलखंड / Baghelkhand"
             },
             {
               "index": "D",
@@ -694,22 +694,22 @@
           "options": [
             {
               "index": "A",
-              "text": "मध्य भारत का पठार / Madhya Bharat Plateau"
-            },
-            {
-              "index": "B",
-              "text": "रीवा पन्ना पठार / Rewa Panna Plateau"
-            },
-            {
-              "index": "C",
               "text": "नर्मदा घाटी / Narmada Valley"
             },
             {
-              "index": "D",
+              "index": "B",
               "text": "सतपुड़ा मेकल श्रेणी / Satpura Maikal"
+            },
+            {
+              "index": "C",
+              "text": "रीवा पन्ना पठार / Rewa Panna Plateau"
+            },
+            {
+              "index": "D",
+              "text": "मध्य भारत का पठार / Madhya Bharat Plateau"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "मध्य भारत का पठार / Madhya Bharat Plateau",
           "explanation": "मध्य भारत पठार चंबल बीहड़ों के लिए जाना जाता है। / Known for Chambal ravines."
         },
@@ -719,22 +719,22 @@
           "options": [
             {
               "index": "A",
-              "text": "अलीराजपुर / Alirajpur"
-            },
-            {
-              "index": "B",
               "text": "झाबुआ / Jhabua"
             },
             {
+              "index": "B",
+              "text": "अलीराजपुर / Alirajpur"
+            },
+            {
               "index": "C",
-              "text": "बड़वानी / Barwani"
+              "text": "धार / Dhar"
             },
             {
               "index": "D",
-              "text": "धार / Dhar"
+              "text": "बड़वानी / Barwani"
             }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "अलीराजपुर / Alirajpur",
           "explanation": "अलीराजपुर की साक्षरता दर सबसे कम है। / Alirajpur has the lowest literacy rate."
         },
@@ -748,15 +748,15 @@
             },
             {
               "index": "B",
-              "text": "इंदौर / Indore"
-            },
-            {
-              "index": "C",
               "text": "भोपाल / Bhopal"
             },
             {
-              "index": "D",
+              "index": "C",
               "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "D",
+              "text": "इंदौर / Indore"
             }
           ],
           "correct_index": "A",

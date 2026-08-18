@@ -17,10 +17,22 @@
           "q_id": "1",
           "statement": "खजुराहो के प्रसिद्ध ऐतिहासिक मंदिर किस जिले में स्थित हैं? / In which district are the famous Khajuraho temples located?",
           "options": [
-            { "index": "A", "text": "छतरपुर / Chhatarpur" },
-            { "index": "B", "text": "पन्ना / Panna" },
-            { "index": "C", "text": "टीकमगढ़ / Tikamgarh" },
-            { "index": "D", "text": "सतना / Satna" }
+            {
+              "index": "A",
+              "text": "छतरपुर / Chhatarpur"
+            },
+            {
+              "index": "B",
+              "text": "पन्ना / Panna"
+            },
+            {
+              "index": "C",
+              "text": "टीकमगढ़ / Tikamgarh"
+            },
+            {
+              "index": "D",
+              "text": "सतना / Satna"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "छतरपुर / Chhatarpur",
@@ -30,10 +42,22 @@
           "q_id": "2",
           "statement": "यूनेस्को द्वारा सांची के बौद्ध स्तूप को विश्व धरोहर स्थल कब घोषित किया गया था? / When was Sanchi Stupa declared a UNESCO World Heritage site?",
           "options": [
-            { "index": "A", "text": "1989" },
-            { "index": "B", "text": "1986" },
-            { "index": "C", "text": "1995" },
-            { "index": "D", "text": "2000" }
+            {
+              "index": "A",
+              "text": "1989"
+            },
+            {
+              "index": "B",
+              "text": "2000"
+            },
+            {
+              "index": "C",
+              "text": "1995"
+            },
+            {
+              "index": "D",
+              "text": "1986"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "1989",
@@ -43,10 +67,22 @@
           "q_id": "3",
           "statement": "ग्वालियर के किले को किसने 'भारत के किलों का रत्न' (Pearl amongst fortresses) कहा था? / Who called Gwalior Fort the 'Pearl amongst fortresses'?",
           "options": [
-            { "index": "A", "text": "बाबर / Babur" },
-            { "index": "B", "text": "अकबर / Akbar" },
-            { "index": "C", "text": "हुमायूं / Humayun" },
-            { "index": "D", "text": "औरंगजेब / Aurangzeb" }
+            {
+              "index": "A",
+              "text": "बाबर / Babur"
+            },
+            {
+              "index": "B",
+              "text": "अकबर / Akbar"
+            },
+            {
+              "index": "C",
+              "text": "हुमायूं / Humayun"
+            },
+            {
+              "index": "D",
+              "text": "औरंगजेब / Aurangzeb"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "बाबर / Babur",
@@ -56,12 +92,24 @@
           "q_id": "4",
           "statement": "मांडू (Mandu) के ऐतिहासिक महलों में 'जहाज महल' किन दो झीलों के बीच स्थित है? / Jahaz Mahal in Mandu is situated between which two lakes?",
           "options": [
-            { "index": "A", "text": "कपूर तालाब और मुंज तालाब / Kapur Talao and Munj Talao" },
-            { "index": "B", "text": "बड़े तालाब और छोटे तालाब / Bada Talao and Chhota Talao" },
-            { "index": "C", "text": "सागर और रानी तालाब / Sagar and Rani Talao" },
-            { "index": "D", "text": "शिव तालाब और गणेश तालाब / Shiv and Ganesh Talao" }
+            {
+              "index": "A",
+              "text": "सागर और रानी तालाब / Sagar and Rani Talao"
+            },
+            {
+              "index": "B",
+              "text": "बड़े तालाब और छोटे तालाब / Bada Talao and Chhota Talao"
+            },
+            {
+              "index": "C",
+              "text": "कपूर तालाब और मुंज तालाब / Kapur Talao and Munj Talao"
+            },
+            {
+              "index": "D",
+              "text": "शिव तालाब और गणेश तालाब / Shiv and Ganesh Talao"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "कपूर तालाब और मुंज तालाब / Kapur Talao and Munj Talao",
           "explanation": "जहाज महल कपूर तालाब और मुंज तालाब के मध्य पानी में जहाज जैसा प्रतीत होता है।"
         },
@@ -69,12 +117,24 @@
           "q_id": "5",
           "statement": "ओरछा का प्रसिद्ध 'जहांगीर महल' किसने बनवाया था? / Who built the famous Jahangir Mahal in Orchha?",
           "options": [
-            { "index": "A", "text": "वीर सिंह जू देव / Bir Singh Deo" },
-            { "index": "B", "text": "मधुकर शाह / Madhukar Shah" },
-            { "index": "C", "text": "राजा जुझार सिंह / Jujhar Singh" },
-            { "index": "D", "text": "महाराजा छत्रसाल / Chhatrasal" }
+            {
+              "index": "A",
+              "text": "महाराजा छत्रसाल / Chhatrasal"
+            },
+            {
+              "index": "B",
+              "text": "राजा जुझार सिंह / Jujhar Singh"
+            },
+            {
+              "index": "C",
+              "text": "मधुकर शाह / Madhukar Shah"
+            },
+            {
+              "index": "D",
+              "text": "वीर सिंह जू देव / Bir Singh Deo"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "वीर सिंह जू देव / Bir Singh Deo",
           "explanation": "बुंदेला शासक वीर सिंह जू देव ने जहांगीर के स्वागत के लिए यह महल बनवाया था।"
         },
@@ -82,12 +142,24 @@
           "q_id": "6",
           "statement": "मध्य प्रदेश के किस जिले में 'भोजपुर का विशाल शिव मंदिर' स्थित है जहाँ दुनिया का सबसे बड़ा एकपत्थर (Monolith) शिवलिंग है?",
           "options": [
-            { "index": "A", "text": "रायसेन / Raisen" },
-            { "index": "B", "text": "विदिशा / Vidisha" },
-            { "index": "C", "text": "सीहोर / Sehore" },
-            { "index": "D", "text": "भोपाल / Bhopal" }
+            {
+              "index": "A",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "B",
+              "text": "सीहोर / Sehore"
+            },
+            {
+              "index": "C",
+              "text": "विदिशा / Vidisha"
+            },
+            {
+              "index": "D",
+              "text": "रायसेन / Raisen"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "रायसेन / Raisen",
           "explanation": "भोजपुर मंदिर रायसेन जिले में बेतवा नदी के पास स्थित है। / Bhojpur temple is in Raisen district."
         },
@@ -95,12 +167,24 @@
           "q_id": "7",
           "statement": "चंदेरी के किले का निर्माण किसने करवाया था? / Who built the Chanderi Fort?",
           "options": [
-            { "index": "A", "text": "कीर्तिपाल देव / Kirti Pal" },
-            { "index": "B", "text": "संग्राम शाह / Sangram Shah" },
-            { "index": "C", "text": "राजा मानसिंह / Man Singh" },
-            { "index": "D", "text": "अशोक / Ashoka" }
+            {
+              "index": "A",
+              "text": "संग्राम शाह / Sangram Shah"
+            },
+            {
+              "index": "B",
+              "text": "अशोक / Ashoka"
+            },
+            {
+              "index": "C",
+              "text": "राजा मानसिंह / Man Singh"
+            },
+            {
+              "index": "D",
+              "text": "कीर्तिपाल देव / Kirti Pal"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "कीर्तिपाल देव / Kirti Pal",
           "explanation": "प्रतिहार राजा कीर्तिपाल ने 11वीं शताब्दी में चंदेरी का किला बनवाया था।"
         },
@@ -108,12 +192,24 @@
           "q_id": "8",
           "statement": "मध्य प्रदेश के किस स्थान पर 'तानसेन का मकबरा' स्थित है? / Where is the mausoleum of Tansen located?",
           "options": [
-            { "index": "A", "text": "ग्वालियर / Gwalior" },
-            { "index": "B", "text": "शिवपुरी / Shivpuri" },
-            { "index": "C", "text": "इन्दौर / Indore" },
-            { "index": "D", "text": "भोपाल / Bhopal" }
+            {
+              "index": "A",
+              "text": "इन्दौर / Indore"
+            },
+            {
+              "index": "B",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "C",
+              "text": "शिवपुरी / Shivpuri"
+            },
+            {
+              "index": "D",
+              "text": "ग्वालियर / Gwalior"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "ग्वालियर / Gwalior",
           "explanation": "संगीत सम्राट तानसेन का मकबरा ग्वालियर में है। / Tansen's tomb is in Gwalior."
         },
@@ -121,12 +217,24 @@
           "q_id": "9",
           "statement": "रानी लक्ष्मीबाई की समाधि मध्य प्रदेश में कहाँ स्थित है? / Where is the memorial of Rani Laxmibai located?",
           "options": [
-            { "index": "A", "text": "ग्वालियर / Gwalior" },
-            { "index": "B", "text": "शिवपुरी / Shivpuri" },
-            { "index": "C", "text": "झांसी / Jhansi" },
-            { "index": "D", "text": "इन्दौर / Indore" }
+            {
+              "index": "A",
+              "text": "झांसी / Jhansi"
+            },
+            {
+              "index": "B",
+              "text": "शिवपुरी / Shivpuri"
+            },
+            {
+              "index": "C",
+              "text": "इन्दौर / Indore"
+            },
+            {
+              "index": "D",
+              "text": "ग्वालियर / Gwalior"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "ग्वालियर / Gwalior",
           "explanation": "ग्वालियर में रानी लक्ष्मीबाई की समाधि स्थल है। / Rani Laxmibai's memorial is in Gwalior."
         },
@@ -134,12 +242,24 @@
           "q_id": "10",
           "statement": "धार के किले का निर्माण किसने करवाया था? / Who built the Dhar Fort?",
           "options": [
-            { "index": "A", "text": "मोहम्मद बिन तुगलक / Muhammad bin Tughluq" },
-            { "index": "B", "text": "राजा भोज / Raja Bhoj" },
-            { "index": "C", "text": "अलाउद्दीन खिलजी / Alauddin Khilji" },
-            { "index": "D", "text": "अकबर / Akbar" }
+            {
+              "index": "A",
+              "text": "राजा भोज / Raja Bhoj"
+            },
+            {
+              "index": "B",
+              "text": "अकबर / Akbar"
+            },
+            {
+              "index": "C",
+              "text": "मोहम्मद बिन तुगलक / Muhammad bin Tughluq"
+            },
+            {
+              "index": "D",
+              "text": "अलाउद्दीन खिलजी / Alauddin Khilji"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "मोहम्मद बिन तुगलक / Muhammad bin Tughluq",
           "explanation": "दक्षिण विजय के दौरान मोहम्मद बिन तुगलक ने धार का किला बनवाया था।"
         },
@@ -147,12 +267,24 @@
           "q_id": "11",
           "statement": "मध्य प्रदेश के किस जिले में 'असीरगढ़ का किला' स्थित है? / Asirgarh Fort is located in which district?",
           "options": [
-            { "index": "A", "text": "बुरहानपुर / Burhanpur" },
-            { "index": "B", "text": "खरगोन / Khargone" },
-            { "index": "C", "text": "खण्डवा / Khandwa" },
-            { "index": "D", "text": "धार / Dhar" }
+            {
+              "index": "A",
+              "text": "खण्डवा / Khandwa"
+            },
+            {
+              "index": "B",
+              "text": "खरगोन / Khargone"
+            },
+            {
+              "index": "C",
+              "text": "बुरहानपुर / Burhanpur"
+            },
+            {
+              "index": "D",
+              "text": "धार / Dhar"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "बुरहानपुर / Burhanpur",
           "explanation": "असीरगढ़ का ऐतिहासिक किला बुरहानपुर में सतपुड़ा की पहाड़ियों पर है।"
         },
@@ -160,12 +292,24 @@
           "q_id": "12",
           "statement": "रानी रूपमती का महल और बाज बहादुर का महल कहाँ स्थित है? / Rani Roopmati Pavilion and Baz Bahadur Palace are in?",
           "options": [
-            { "index": "A", "text": "मांडू (धार) / Mandu (Dhar)" },
-            { "index": "B", "text": "ओरछा / Orchha" },
-            { "index": "C", "text": "चंदेरी / Chanderi" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "चंदेरी / Chanderi"
+            },
+            {
+              "index": "B",
+              "text": "ओरछा / Orchha"
+            },
+            {
+              "index": "C",
+              "text": "मांडू (धार) / Mandu (Dhar)"
+            },
+            {
+              "index": "D",
+              "text": "ग्वालियर / Gwalior"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "मांडू (धार) / Mandu (Dhar)",
           "explanation": "यह प्रसिद्ध प्रेम प्रसंग से जुड़े महल मांडू में हैं। / Located in historical Mandu."
         },
@@ -173,12 +317,24 @@
           "q_id": "13",
           "statement": "मध्य प्रदेश में 'भारत भवन' सांस्कृतिक केंद्र कहाँ स्थित है? / Where is the 'Bharat Bhavan' cultural center located?",
           "options": [
-            { "index": "A", "text": "भोपाल / Bhopal" },
-            { "index": "B", "text": "इन्दौर / Indore" },
-            { "index": "C", "text": "जबलपुर / Jabalpur" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "जबलपुर / Jabalpur"
+            },
+            {
+              "index": "B",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "C",
+              "text": "इन्दौर / Indore"
+            },
+            {
+              "index": "D",
+              "text": "ग्वालियर / Gwalior"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "भोपाल / Bhopal",
           "explanation": "बहु-कला केंद्र भारत भवन भोपाल में बड़े तालाब के पास है। / Bharat Bhavan is in Bhopal."
         },
@@ -186,10 +342,22 @@
           "q_id": "14",
           "statement": "ताज-उल-मस्जिद (भारत की सबसे बड़ी मस्जिदों में एक) कहाँ स्थित है? / Taj-ul-Masajid is located in?",
           "options": [
-            { "index": "A", "text": "भोपाल / Bhopal" },
-            { "index": "B", "text": "उज्जैन / Ujjain" },
-            { "index": "C", "text": "बुरहानपुर / Burhanpur" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "B",
+              "text": "बुरहानपुर / Burhanpur"
+            },
+            {
+              "index": "C",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "D",
+              "text": "उज्जैन / Ujjain"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "भोपाल / Bhopal",
@@ -199,12 +367,24 @@
           "q_id": "15",
           "statement": "मध्य प्रदेश के किस जिले में 'मदन महल का किला' स्थित है? / Madan Mahal Fort is located in which district?",
           "options": [
-            { "index": "A", "text": "जबलपुर / Jabalpur" },
-            { "index": "B", "text": "मंडला / Mandla" },
-            { "index": "C", "text": "धार / Dhar" },
-            { "index": "D", "text": "सतना / Satna" }
+            {
+              "index": "A",
+              "text": "सतना / Satna"
+            },
+            {
+              "index": "B",
+              "text": "जबलपुर / Jabalpur"
+            },
+            {
+              "index": "C",
+              "text": "धार / Dhar"
+            },
+            {
+              "index": "D",
+              "text": "मंडला / Mandla"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "जबलपुर / Jabalpur",
           "explanation": "गोंड राजा मदन सिंह द्वारा निर्मित मदन महल जबलपुर में है।"
         },
@@ -212,10 +392,22 @@
           "q_id": "16",
           "statement": "मध्य प्रदेश के किस स्थान पर 'गोविन्दगढ़ का किला' और आम अनुसंधान केंद्र है? / Govindgarh Fort is in which district?",
           "options": [
-            { "index": "A", "text": "रीवा / Rewa" },
-            { "index": "B", "text": "सतना / Satna" },
-            { "index": "C", "text": "सीधी / Sidhi" },
-            { "index": "D", "text": "शहडोल / Shahdol" }
+            {
+              "index": "A",
+              "text": "रीवा / Rewa"
+            },
+            {
+              "index": "B",
+              "text": "शहडोल / Shahdol"
+            },
+            {
+              "index": "C",
+              "text": "सीधी / Sidhi"
+            },
+            {
+              "index": "D",
+              "text": "सतना / Satna"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "रीवा / Rewa",
@@ -225,12 +417,24 @@
           "q_id": "17",
           "statement": "मध्य प्रदेश के किस ऐतिहासिक स्थान पर 'हिंडोला महल' और 'छप्पन महल' स्थित है?",
           "options": [
-            { "index": "A", "text": "मांडू / Mandu" },
-            { "index": "B", "text": "चंदेरी / Chanderi" },
-            { "index": "C", "text": "ओरछा / Orchha" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "ओरछा / Orchha"
+            },
+            {
+              "index": "B",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "C",
+              "text": "मांडू / Mandu"
+            },
+            {
+              "index": "D",
+              "text": "चंदेरी / Chanderi"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "मांडू / Mandu",
           "explanation": "हिंडोला महल और छप्पन महल मांडू के प्रमुख दर्शनीय स्थल हैं।"
         },
@@ -238,10 +442,22 @@
           "q_id": "18",
           "statement": "मध्य प्रदेश में 'गिन्नौरगढ़ का किला' किस जिले में स्थित है? / Ginnaurgarh Fort is in which district?",
           "options": [
-            { "index": "A", "text": "सीहोर / Sehore" },
-            { "index": "B", "text": "रायसेन / Raisen" },
-            { "index": "C", "text": "भोपाल / Bhopal" },
-            { "index": "D", "text": "राजगढ़ / Rajgarh" }
+            {
+              "index": "A",
+              "text": "सीहोर / Sehore"
+            },
+            {
+              "index": "B",
+              "text": "राजगढ़ / Rajgarh"
+            },
+            {
+              "index": "C",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "D",
+              "text": "रायसेन / Raisen"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "सीहोर / Sehore",
@@ -251,10 +467,22 @@
           "q_id": "19",
           "statement": "मध्य प्रदेश के किस जिले में 'धार का किला' और 'मांडू' आते हैं? / Mandu and Dhar Fort are in which district?",
           "options": [
-            { "index": "A", "text": "धार / Dhar" },
-            { "index": "B", "text": "उज्जैन / Ujjain" },
-            { "index": "C", "text": "खरगोन / Khargone" },
-            { "index": "D", "text": "इन्दौर / Indore" }
+            {
+              "index": "A",
+              "text": "धार / Dhar"
+            },
+            {
+              "index": "B",
+              "text": "उज्जैन / Ujjain"
+            },
+            {
+              "index": "C",
+              "text": "खरगोन / Khargone"
+            },
+            {
+              "index": "D",
+              "text": "इन्दौर / Indore"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "धार / Dhar",
@@ -264,10 +492,22 @@
           "q_id": "20",
           "statement": "मध्य प्रदेश के किस शहर में 'जय विलास पैलेस' (सिंधिया राजवंश का राजमहल) स्थित है?",
           "options": [
-            { "index": "A", "text": "ग्वालियर / Gwalior" },
-            { "index": "B", "text": "इन्दौर / Indore" },
-            { "index": "C", "text": "भोपाल / Bhopal" },
-            { "index": "D", "text": "रीवा / Rewa" }
+            {
+              "index": "A",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "B",
+              "text": "रीवा / Rewa"
+            },
+            {
+              "index": "C",
+              "text": "भोपाल / Bhopal"
+            },
+            {
+              "index": "D",
+              "text": "इन्दौर / Indore"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "ग्वालियर / Gwalior",
@@ -277,12 +517,24 @@
           "q_id": "21",
           "statement": "मध्य प्रदेश के किस जिले में 'उदयगिरि की गुफाएं' स्थित हैं? / Udayagiri Caves are located in which district?",
           "options": [
-            { "index": "A", "text": "विदिशा / Vidisha" },
-            { "index": "B", "text": "रायसेन / Raisen" },
-            { "index": "C", "text": "सागर / Sagar" },
-            { "index": "D", "text": "दमोह / Damoh" }
+            {
+              "index": "A",
+              "text": "रायसेन / Raisen"
+            },
+            {
+              "index": "B",
+              "text": "सागर / Sagar"
+            },
+            {
+              "index": "C",
+              "text": "विदिशा / Vidisha"
+            },
+            {
+              "index": "D",
+              "text": "दमोह / Damoh"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "विदिशा / Vidisha",
           "explanation": "उदयगिरि की चट्टानों को काटकर बनाई गई गुफाएं विदिशा में हैं।"
         },
@@ -290,12 +542,24 @@
           "q_id": "22",
           "statement": "मध्य प्रदेश के किस जिले में 'भरहुत स्तूप' के अवशेष मिले थे? / Bharhut Stupa remains were found in which district?",
           "options": [
-            { "index": "A", "text": "सतना / Satna" },
-            { "index": "B", "text": "रीवा / Rewa" },
-            { "index": "C", "text": "पन्ना / Panna" },
-            { "index": "D", "text": "छतरपुर / Chhatarpur" }
+            {
+              "index": "A",
+              "text": "छतरपुर / Chhatarpur"
+            },
+            {
+              "index": "B",
+              "text": "रीवा / Rewa"
+            },
+            {
+              "index": "C",
+              "text": "पन्ना / Panna"
+            },
+            {
+              "index": "D",
+              "text": "सतना / Satna"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "सतना / Satna",
           "explanation": "प्राचीन भरहुत बौद्ध स्तूप के अवशेष सतना जिले में खोजे गए थे।"
         },
@@ -303,10 +567,22 @@
           "q_id": "23",
           "statement": "मध्य प्रदेश के किस स्थान पर 'मत्स्येंद्रनाथ की समाधि' और भर्तृहरि की गुफाएं हैं? / Bhartrihari Caves are located in?",
           "options": [
-            { "index": "A", "text": "उज्जैन / Ujjain" },
-            { "index": "B", "text": "इन्दौर / Indore" },
-            { "index": "C", "text": "ओंकारेश्वर / Omkareshwar" },
-            { "index": "D", "text": "महेश्वर / Maheshwar" }
+            {
+              "index": "A",
+              "text": "उज्जैन / Ujjain"
+            },
+            {
+              "index": "B",
+              "text": "महेश्वर / Maheshwar"
+            },
+            {
+              "index": "C",
+              "text": "ओंकारेश्वर / Omkareshwar"
+            },
+            {
+              "index": "D",
+              "text": "इन्दौर / Indore"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "उज्जैन / Ujjain",
@@ -316,12 +592,24 @@
           "q_id": "24",
           "statement": "मध्य प्रदेश के किस जिले में 'बाघ की गुफाएं' (Bagh Caves) स्थित हैं? / Bagh Caves are located in which district?",
           "options": [
-            { "index": "A", "text": "धार / Dhar" },
-            { "index": "B", "text": "रायसेन / Raisen" },
-            { "index": "C", "text": "विदिशा / Vidisha" },
-            { "index": "D", "text": "ग्वालियर / Gwalior" }
+            {
+              "index": "A",
+              "text": "विदिशा / Vidisha"
+            },
+            {
+              "index": "B",
+              "text": "ग्वालियर / Gwalior"
+            },
+            {
+              "index": "C",
+              "text": "धार / Dhar"
+            },
+            {
+              "index": "D",
+              "text": "रायसेन / Raisen"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "धार / Dhar",
           "explanation": "गुप्तकालीन चित्रकला के लिए प्रसिद्ध बाघ गुफाएं धार जिले में हैं।"
         },
@@ -329,10 +617,22 @@
           "q_id": "25",
           "statement": "मध्य प्रदेश के किस जिले में 'लोहगढ़ का किला' या ऐतिहासिक स्थल है?",
           "options": [
-            { "index": "A", "text": "भरतपुर (राजस्थान, पर MP संदर्भ में असीरगढ़/चंदेरी प्रसिद्ध हैं)" },
-            { "index": "B", "text": "बालाघाट / Balaghat" },
-            { "index": "C", "text": "मंडला / Mandla" },
-            { "index": "D", "text": "धार / Dhar" }
+            {
+              "index": "A",
+              "text": "भरतपुर (राजस्थान, पर MP संदर्भ में असीरगढ़/चंदेरी प्रसिद्ध हैं)"
+            },
+            {
+              "index": "B",
+              "text": "मंडला / Mandla"
+            },
+            {
+              "index": "C",
+              "text": "बालाघाट / Balaghat"
+            },
+            {
+              "index": "D",
+              "text": "धार / Dhar"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "भरतपुर (राजस्थान, पर MP संदर्भ में असीरगढ़/चंदेरी प्रसिद्ध हैं)",
@@ -342,12 +642,24 @@
           "q_id": "26",
           "statement": "मध्य प्रदेश के किस जिले में 'हिंगलाजगढ़ का किला' स्थित है? / Hinglajgarh Fort is in which district?",
           "options": [
-            { "index": "A", "text": "मंदसौर / Mandsaur" },
-            { "index": "B", "text": "नीमच / Neemuch" },
-            { "index": "C", "text": "रतलाम / Ratlam" },
-            { "index": "D", "text": "राजगढ़ / Rajgarh" }
+            {
+              "index": "A",
+              "text": "नीमच / Neemuch"
+            },
+            {
+              "index": "B",
+              "text": "मंदसौर / Mandsaur"
+            },
+            {
+              "index": "C",
+              "text": "रतलाम / Ratlam"
+            },
+            {
+              "index": "D",
+              "text": "राजगढ़ / Rajgarh"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "B",
           "correct_answer": "मंदसौर / Mandsaur",
           "explanation": "हिंगलाजगढ़ का प्राचीन किला मंदसौर जिले में भानपुरा के पास है।"
         },
@@ -355,12 +667,24 @@
           "q_id": "27",
           "statement": "मध्य प्रदेश में 'अहिल्या फोर्ट' (Fort) कहाँ स्थित है? / Ahilya Fort is located in?",
           "options": [
-            { "index": "A", "text": "महेश्वर (खरगोन) / Maheshwar" },
-            { "index": "B", "text": "इन्दौर / Indore" },
-            { "index": "C", "text": "धार / Dhar" },
-            { "index": "D", "text": "उज्जैन / Ujjain" }
+            {
+              "index": "A",
+              "text": "उज्जैन / Ujjain"
+            },
+            {
+              "index": "B",
+              "text": "इन्दौर / Indore"
+            },
+            {
+              "index": "C",
+              "text": "धार / Dhar"
+            },
+            {
+              "index": "D",
+              "text": "महेश्वर (खरगोन) / Maheshwar"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "महेश्वर (खरगोन) / Maheshwar",
           "explanation": "महेश्वर में नर्मदा नदी के तट पर अहिल्या फोर्ट स्थित है।"
         },
@@ -368,12 +692,24 @@
           "q_id": "28",
           "statement": "मध्य प्रदेश में 'बाज बहादुर का महल' कहाँ पर बना हुआ है? / Baz Bahadur Palace is in?",
           "options": [
-            { "index": "A", "text": "मांडू / Mandu" },
-            { "index": "B", "text": "ओरछा / Orchha" },
-            { "index": "C", "text": "चंदेरी / Chanderi" },
-            { "index": "D", "text": "शिवपुरी / Shivpuri" }
+            {
+              "index": "A",
+              "text": "चंदेरी / Chanderi"
+            },
+            {
+              "index": "B",
+              "text": "ओरछा / Orchha"
+            },
+            {
+              "index": "C",
+              "text": "शिवपुरी / Shivpuri"
+            },
+            {
+              "index": "D",
+              "text": "मांडू / Mandu"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "D",
           "correct_answer": "मांडू / Mandu",
           "explanation": "बाज बहादुर का महल मांडू में स्थित है।"
         },
@@ -381,12 +717,24 @@
           "q_id": "29",
           "statement": "मध्य प्रदेश के किस जिले में 'रानी दुर्गावती का किला' (मदन महल या सिंगौरगढ़) आता है?",
           "options": [
-            { "index": "A", "text": "दमोह (सिंगौरगढ़) और जबलपुर (मदन महल) / Damoh and Jabalpur" },
-            { "index": "B", "text": "मंडला / Mandla" },
-            { "index": "C", "text": "पन्ना / Panna" },
-            { "index": "D", "text": "सतना / Satna" }
+            {
+              "index": "A",
+              "text": "पन्ना / Panna"
+            },
+            {
+              "index": "B",
+              "text": "सतना / Satna"
+            },
+            {
+              "index": "C",
+              "text": "दमोह (सिंगौरगढ़) और जबलपुर (मदन महल) / Damoh and Jabalpur"
+            },
+            {
+              "index": "D",
+              "text": "मंडला / Mandla"
+            }
           ],
-          "correct_index": "A",
+          "correct_index": "C",
           "correct_answer": "दमोह (सिंगौरगढ़) और जबलपुर (मदन महल) / Damoh and Jabalpur",
           "explanation": "रानी दुर्गावती से जुड़े गढ़ दमोह और जबलपुर क्षेत्र में हैं।"
         },
@@ -394,10 +742,22 @@
           "q_id": "30",
           "statement": "भारत का कौन सा ऐतिहासिक स्मारक मध्य प्रदेश में यूनेस्को द्वारा सबसे पहले विश्व धरोहर घोषित किया गया था?",
           "options": [
-            { "index": "A", "text": "खजुराहो के मंदिर (1986) / Khajuraho Temples (1986)" },
-            { "index": "B", "text": "सांची स्तूप (1989) / Sanchi Stupa" },
-            { "index": "C", "text": "भीमबेटका (2003) / Bhimbetka" },
-            { "index": "D", "text": "ग्वालियर का किला / Gwalior Fort" }
+            {
+              "index": "A",
+              "text": "खजुराहो के मंदिर (1986) / Khajuraho Temples (1986)"
+            },
+            {
+              "index": "B",
+              "text": "सांची स्तूप (1989) / Sanchi Stupa"
+            },
+            {
+              "index": "C",
+              "text": "भीमबेटका (2003) / Bhimbetka"
+            },
+            {
+              "index": "D",
+              "text": "ग्वालियर का किला / Gwalior Fort"
+            }
           ],
           "correct_index": "A",
           "correct_answer": "खजुराहो के मंदिर (1986) / Khajuraho Temples (1986)",
