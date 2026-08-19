@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Request deletion of your AVM Exam Partner account and associated data.">
+
+    <title>Delete Account - AVM Exam Partner</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Arial,
+                sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        .card {
+            margin-top: 35px;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 40px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .back {
+            display: inline-block;
+            margin-bottom: 25px;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 30px;
+            color: #111827;
+        }
+
+        h2 {
+            margin-top: 32px;
+            margin-bottom: 12px;
+            font-size: 21px;
+            color: #111827;
+        }
+
+        p {
+            color: #4b5563;
+            line-height: 1.7;
+        }
+
+        .warning {
+            margin: 24px 0;
+            padding: 18px;
+            border-radius: 12px;
+            background: #fff7ed;
+            border-left: 5px solid #f97316;
+        }
+
+        .warning strong {
+            color: #9a3412;
+        }
+
+        ul {
+            padding-left: 22px;
+            color: #4b5563;
+            line-height: 1.8;
+        }
+
+        .request-box {
+            margin-top: 25px;
+            padding: 24px;
+            border-radius: 14px;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+        }
+
+        .email-button {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 14px 22px;
+            border-radius: 10px;
+            background: #dc2626;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .email-button:hover {
+            background: #b91c1c;
+        }
+
+        .steps {
+            counter-reset: deletion-step;
+            list-style: none;
+            padding: 0;
+        }
+
+        .steps li {
+            counter-increment: deletion-step;
+            position: relative;
+            padding: 14px 14px 14px 48px;
+            margin-bottom: 10px;
+            background: #f9fafb;
+            border-radius: 10px;
+            color: #4b5563;
+        }
+
+        .steps li::before {
+            content: counter(deletion-step);
+            position: absolute;
+            left: 14px;
+            top: 13px;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #2563eb;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .note {
+            margin-top: 20px;
+            padding: 15px;
+            background: #eff6ff;
+            border-radius: 10px;
+            color: #1e40af;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px 10px;
+            color: #6b7280;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            .card {
+                margin-top: 15px;
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .email-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <a class="back" href="index.html">
+            ← Back to AVM Exam Partner
+        </a>
+
+        <h1>Request Account Deletion</h1>
+
+        <p>
+            If you want to delete your AVM Exam Partner account
+            and associated personal data, you can submit an
+            account deletion request.
+        </p>
+
+
+        <div class="warning">
+
+            <strong>Important:</strong>
+
+            Account deletion is a permanent action. Once the
+            deletion request has been processed, the account
+            and eligible associated data cannot be restored.
+
+        </div>
+
+
+        <h2>How to Request Deletion</h2>
+
+        <ol class="steps">
+
+            <li>
+                Send an account deletion request from the
+                email address associated with your AVM Exam
+                Partner account.
+            </li>
+
+            <li>
+                Include your registered email address in the
+                request.
+            </li>
+
+            <li>
+                We may verify account ownership before
+                processing the request.
+            </li>
+
+            <li>
+                After verification, the account and eligible
+                associated data will be deleted according to
+                our data deletion process.
+            </li>
+
+        </ol>
+
+
+        <div class="request-box">
+
+            <h2 style="margin-top: 0;">
+                Send Deletion Request
+            </h2>
+
+            <p>
+                Click the button below to send an email
+                requesting deletion of your AVM Exam Partner
+                account.
+            </p>
+
+            <!--
+                IMPORTANT:
+                Replace YOUR_SUPPORT_EMAIL@gmail.com
+                with your actual support email address.
+            -->
+
+            <a
+                class="email-button"
+                href="mailto:avmeducationportal@gmail.com?subject=AVM%20Exam%20Partner%20-%20Account%20Deletion%20Request">
+                Request Account Deletion
+            </a>
+
+        </div>
+
+
+        <h2>Information to Include</h2>
+
+        <p>
+            Please include the following information in your
+            deletion request:
+        </p>
+
+        <ul>
+            <li>
+                Registered email address
+            </li>
+
+            <li>
+                Your name, if associated with the account
+            </li>
+
+            <li>
+                Any additional information needed to identify
+                your account
+            </li>
+        </ul>
+
+
+        <h2>Data That Will Be Deleted</h2>
+
+        <p>
+            When an account deletion request is verified and
+            processed, we intend to delete personal information
+            and application data associated with the account
+            that is eligible for deletion.
+        </p>
+
+        <ul>
+            <li>
+                User account information
+            </li>
+
+            <li>
+                User profile information
+            </li>
+
+            <li>
+                Application-related user data associated
+                with the account
+            </li>
+        </ul>
+
+
+        <h2>Data That May Be Retained</h2>
+
+        <p>
+            Certain information may need to be retained where
+            required by applicable law, for legitimate security
+            purposes, fraud prevention, dispute resolution,
+            or other legally permitted purposes.
+        </p>
+
+        <p>
+            Any retained information will be kept only for the
+            period reasonably necessary for the applicable
+            purpose.
+        </p>
+
+
+        <h2>Processing Time</h2>
+
+        <p>
+            Account deletion requests may require verification
+            before processing. We will process valid requests
+            within a reasonable period after verification.
+        </p>
+
+
+        <div class="note">
+
+            For security reasons, we may need to verify that
+            the deletion request was submitted by the owner
+            of the account.
+
+        </div>
+
+
+        <h2>Privacy Policy</h2>
+
+        <p>
+            For more information about how AVM Exam Partner
+            handles user information, please read our
+            Privacy Policy.
+        </p>
+
+        <p>
+            <a href="privacy-policy.html">
+                View Privacy Policy →
+            </a>
+        </p>
+
+    </div>
+
+
+    <div class="footer">
+
+        © 2026 AVM Exam Partner
+
+    </div>
+
+</div>
+
+</body>
+</html>

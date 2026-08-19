@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Official support page for AVM Exam Partner. Access privacy policy and request account deletion.">
+
+    <title>AVM Exam Partner - Support</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Arial,
+                sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        .hero {
+            margin-top: 40px;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 50px 30px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .logo {
+            width: 82px;
+            height: 82px;
+            margin: 0 auto 20px;
+            border-radius: 18px;
+            background: #2563eb;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 32px;
+            color: #111827;
+        }
+
+        .subtitle {
+            max-width: 650px;
+            margin: 0 auto;
+            color: #6b7280;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .actions {
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 22px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.2s ease;
+        }
+
+        .button-primary {
+            background: #dc2626;
+            color: #ffffff;
+        }
+
+        .button-primary:hover {
+            background: #b91c1c;
+        }
+
+        .button-secondary {
+            background: #2563eb;
+            color: #ffffff;
+        }
+
+        .button-secondary:hover {
+            background: #1d4ed8;
+        }
+
+        .section {
+            margin-top: 24px;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 30px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #111827;
+            font-size: 22px;
+        }
+
+        .section p {
+            color: #4b5563;
+            line-height: 1.7;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .link-card {
+            display: block;
+            padding: 16px;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            color: #1d4ed8;
+            text-decoration: none;
+            font-weight: 600;
+            background: #fafafa;
+        }
+
+        .link-card:hover {
+            background: #f3f4f6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 10px;
+            color: #6b7280;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            .hero {
+                margin-top: 20px;
+                padding: 35px 20px;
+            }
+
+            h1 {
+                font-size: 27px;
+            }
+
+            .subtitle {
+                font-size: 15px;
+            }
+
+            .button {
+                width: 100%;
+                text-align: center;
+            }
+
+            .section {
+                padding: 24px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <main>
+
+        <section class="hero">
+
+            <div class="logo">
+                AVM
+            </div>
+
+            <h1>AVM Exam Partner</h1>
+
+            <p class="subtitle">
+                Official support and privacy information for
+                AVM Exam Partner users.
+            </p>
+
+            <div class="actions">
+
+                <a
+                    class="button button-primary"
+                    href="delete-account.html">
+                    Request Account Deletion
+                </a>
+
+                <a
+                    class="button button-secondary"
+                    href="privacy-policy.html">
+                    Privacy Policy
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>About AVM Exam Partner</h2>
+
+            <p>
+                AVM Exam Partner is an educational application
+                designed to help students access and practice
+                examination-related educational content.
+            </p>
+
+            <p>
+                This website provides users with information
+                about account deletion and privacy practices
+                associated with the application.
+            </p>
+
+        </section>
+
+
+        <section class="section">
+
+            <h2>Account & Privacy</h2>
+
+            <p>
+                Users can use the links below to access the
+                relevant information.
+            </p>
+
+            <div class="links">
+
+                <a
+                    class="link-card"
+                    href="delete-account.html">
+                    🗑 Request Account Deletion
+                </a>
+
+                <a
+                    class="link-card"
+                    href="privacy-policy.html">
+                    🔒 Privacy Policy
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div>
+            © 2026 AVM Exam Partner
+        </div>
+
+        <div>
+            This is the official support website for
+            AVM Exam Partner.
+        </div>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
