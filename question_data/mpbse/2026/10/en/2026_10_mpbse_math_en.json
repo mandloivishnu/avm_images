@@ -564,7 +564,7 @@
           "q_id": "",
           "statement": "On comparing the ratios a₁/a₂, b₁/b₂ and c₁/c₂, find out whether the lines representing the following pairs of linear equations intersect at a point, are parallel or coincident: 2x + y = 6 and 4x − 2y = 4.",
           "correct_answer": "",
-          "explanation": "Solution:\nWriting the given equations in standard form ax + by + c = 0:\n2x + 1y − 6 = 0   ----(i)\n4x − 2y − 4 = 0   ----(ii)\n\nComparing coefficients:\na₁ = 2,  b₁ = 1,   c₁ = −6\na₂ = 4,  b₂ = −2,  c₂ = −4\n\nCalculating ratios:\na₁/a₂ = 2/4 = 1/2\nb₁/b₂ = 1/−2 = −1/2\n\nSince a₁/a₂ ≠ b₁/b₂ (i.e., 1/2 ≠ −1/2)\n\nThus, the lines intersect at a single point and the pair of linear equations is **consistent**.\nAnswer: The lines intersect at a point."
+          "explanation": "Solution:\nWriting the given equations in standard form ax + by + c = 0:\n2x + 1y − 6 = 0    ----(i)\n4x − 2y − 4 = 0    ----(ii)\n\nComparing coefficients:\na₁ = 2,  b₁ = 1,   c₁ = −6\na₂ = 4,  b₂ = −2,  c₂ = −4\n\nCalculating ratios:\na₁/a₂ = 2/4 = 1/2\nb₁/b₂ = 1/−2 = −1/2\n\nSince a₁/a₂ ≠ b₁/b₂ (i.e., 1/2 ≠ −1/2)\n\nThus, the lines intersect at a single point and the pair of linear equations is **consistent**.\nAnswer: The lines intersect at a point."
         }
       ],
       "or_option": {
@@ -574,7 +574,7 @@
             "q_id": "",
             "statement": "Solve the following pair of linear equations: x + y = 5, 2x − y = 7.",
             "correct_answer": "",
-            "explanation": "Solution:\nGiven linear equations:\nx + y = 5   ----(1)\n2x − y = 7  ----(2)\n\nBy elimination method:\nAdding equations (1) and (2):\n(x + y) + (2x − y) = 5 + 7\n3x = 12\nx = 12 / 3\nx = 4\n\nSubstituting x = 4 into equation (1):\n4 + y = 5\ny = 5 − 4\ny = 1\n\nAnswer: x = 4, y = 1"
+            "explanation": "Solution:\nGiven linear equations:\nx + y = 5    ----(1)\n2x − y = 7  ----(2)\n\nBy elimination method:\nAdding equations (1) and (2):\n(x + y) + (2x − y) = 5 + 7\n3x = 12\nx = 12 / 3\nx = 4\n\nSubstituting x = 4 into equation (1):\n4 + y = 5\ny = 5 − 4\ny = 1\n\nAnswer: x = 4, y = 1"
           }
         ]
       }
@@ -848,9 +848,9 @@
       "parts": [
         {
           "q_id": "",
-          "statement": "The cost of 2 pencils and 3 erasers is ₹ 9 and the cost of 4 pencils and 6 erasers is ₹ 18? Wait, the question in source: 2 pencils and 3 erasers cost ₹ 9. The cost of 1 pencil and 2 erasers is ₹ 5. Find the cost of each pencil and each eraser.",
+          "statement": "The cost of 2 pencils and 3 erasers is ₹ 9 and the cost of 1 pencil and 2 erasers is ₹ 5. Find the cost of each pencil and each eraser.",
           "correct_answer": "",
-          "explanation": "Solution:\nLet:\nCost of one pencil = ₹ x\nCost of one eraser = ₹ y\n\nFrom the first condition:\n2x + 3y = 9   ----(1)\n\nFrom the second condition:\n1x + 2y = 5   ----(2)\n\nMultiplying equation (2) by 2:\n2x + 4y = 10  ----(3)\n\nSubtracting equation (1) from equation (3):\n(2x + 4y) − (2x + 3y) = 10 − 9\ny = 1\n\nSubstituting y = 1 into equation (2):\nx + 2(1) = 5\nx + 2 = 5\nx = 5 − 2 = 3\n\nAnswer:\nCost of each pencil = ₹ 3\nCost of each eraser = ₹ 1"
+          "explanation": "Solution:\nLet:\nCost of one pencil = ₹ x\nCost of one eraser = ₹ y\n\nFrom the first condition:\n2x + 3y = 9    ----(1)\n\nFrom the second condition:\n1x + 2y = 5    ----(2)\n\nMultiplying equation (2) by 2:\n2x + 4y = 10  ----(3)\n\nSubtracting equation (1) from equation (3):\n(2x + 4y) − (2x + 3y) = 10 − 9\ny = 1\n\nSubstituting y = 1 into equation (2):\nx + 2(1) = 5\nx + 2 = 5\nx = 5 − 2 = 3\n\nAnswer:\nCost of each pencil = ₹ 3\nCost of each eraser = ₹ 1"
         }
       ],
       "or_option": {
@@ -860,7 +860,7 @@
             "q_id": "",
             "statement": "Solve the following pair of linear equations: 3x + 4y = −6,  3x − y = 9.",
             "correct_answer": "",
-            "explanation": "Solution:\nGiven equations:\n3x + 4y = −6  ----(1)\n3x − y = 9    ----(2)\n\nSubtracting equation (2) from equation (1) by elimination method:\n(3x + 4y) − (3x − y) = −6 − 9\n3x + 4y − 3x + y = −15\n5y = −15\ny = −15 / 5\ny = −3\n\nSubstituting y = −3 into equation (2):\n3x − (−3) = 9\n3x + 3 = 9\n3x = 9 − 3\n3x = 6\nx = 6 / 3\nx = 2\n\nAnswer: x = 2, y = −3"
+            "explanation": "Solution:\nGiven equations:\n3x + 4y = −6  ----(1)\n3x − y = 9     ----(2)\n\nSubtracting equation (2) from equation (1) by elimination method:\n(3x + 4y) − (3x − y) = −6 − 9\n3x + 4y − 3x + y = −15\n5y = −15\ny = −15 / 5\ny = −3\n\nSubstituting y = −3 into equation (2):\n3x − (−3) = 9\n3x + 3 = 9\n3x = 9 − 3\n3x = 6\nx = 6 / 3\nx = 2\n\nAnswer: x = 2, y = −3"
           }
         ]
       }
@@ -909,7 +909,7 @@
         "parts": [
           {
             "q_id": "",
-            "statement": "The following distribution shows the daily pocket allowance of children of a locality. The mean pocket allowance is ₹ 18. Find the missing frequency f. (Or dataset of hospital patients ages as in standard textbook/source)\n\nAge (in years): 5-15 | 15-25 | 25-35 | 35-45 | 45-55 | 55-65\nNumber of patients: 6 | 11 | 21 | 23 | 14 | 3\n\nFind the mode of the above data.",
+            "statement": "The following distribution shows the ages of patients admitted in a hospital during a year:\n\nAge (in years): 5-15 | 15-25 | 25-35 | 35-45 | 45-55 | 55-65\nNumber of patients: 6 | 11 | 21 | 23 | 14 | 3\n\nFind the mode of the above data.",
             "correct_answer": "",
             "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_23_or_img.png",
             "explanation": "Solution:\nIn the given table, the maximum frequency is 23, which corresponds to the class interval 35 − 45.\nThus, Modal class = 35 − 45\n\nHere:\nLower limit of modal class (l) = 35\nSize of class interval (h) = 10\nFrequency of modal class (f₁) = 23\nFrequency of preceding class (f₀) = 21\nFrequency of succeeding class (f₂) = 14\n\nFormula for Mode:\nMode = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n\nSubstituting values:\nMode = 35 + [ (23 − 21) / (2(23) − 21 − 14) ] × 10\n= 35 + [ 2 / (46 − 35) ] × 10\n= 35 + [ 2 / 11 ] × 10\n= 35 + 20 / 11\n= 35 + 1.818...\n≈ 36.82 years\n\nAnswer: The mode of the data is 36.82 years."
