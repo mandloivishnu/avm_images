@@ -813,32 +813,32 @@
       }
     },
     {
-      "question_number": "20",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "",
-          "statement": "A tower is 30 m away from a point on the ground, the angle of elevation of the top of the tower is 30°. Find the height of the tower.",
-          "correct_answer": "",
-          "explanation": "Solution:\nLet the height of the tower AB = h meters\nDistance from the foot of the tower B to point C on the ground BC = 30 meters\nAngle of elevation ∠ACB = 30°\n\nIn right-angled triangle ABC:\ntan 30° = (Perpendicular AB) / (Base BC)\ntan 30° = h / 30\n\nSubstituting tan 30° = 1/√3:\n1 / √3 = h / 30\nh = 30 / √3\n\nRationalizing the denominator:\nh = (30 × √3) / (√3 × √3)\nh = 30√3 / 3\nh = 10√3 meters\n\nAnswer: The height of the tower is 10√3 meters (or approx. 17.32 meters)."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "",
-            "statement": "A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. Find the height of the pole, if the angle made by the rope with the ground level is 30°.",
-            "correct_answer": "",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_20.png",
-            "explanation": "Solution:\nLet the height of the pole AB = h meters\nLength of the stretched rope AC = 20 meters (Hypotenuse)\nAngle made by the rope with the ground ∠ACB = 30°\n\nIn right-angled triangle ABC:\nsin 30° = (Perpendicular AB) / (Hypotenuse AC)\nsin 30° = h / 20\n\nSubstituting sin 30° = 1/2:\n1/2 = h / 20\n2h = 20\nh = 20 / 2\nh = 10 meters\n\nAnswer: The height of the pole is 10 meters."
-          }
-        ]
+  "question_number": "20",
+  "question_type": "DESCRIPTIVE",
+  "marks": "3",
+  "word_limit": "",
+  "text": "",
+  "parts": [
+    {
+      "q_id": "",
+      "statement": "A tower is 30 m away from a point on the ground, the angle of elevation of the top of the tower is 30°. Find the height of the tower.",
+      "correct_answer": "",
+      "explanation": "Solution:\nLet the height of the tower AB = h meters\nDistance from the foot of the tower B to point C on the ground BC = 30 meters\nAngle of elevation ∠ACB = 30°\n\nIn right-angled triangle ABC:\ntan 30° = (Perpendicular AB) / (Base BC)\ntan 30° = h / 30\n\nSubstituting tan 30° = 1/√3:\n1 / √3 = h / 30\nh = 30 / √3\n\nRationalizing the denominator:\nh = (30 × √3) / (√3 × √3)\nh = 30√3 / 3\nh = 10√3 meters\n\nAnswer: The height of the tower is 10√3 meters (or approx. 17.32 meters)."
+    }
+  ],
+  "or_option": {
+    "text": "OR",
+    "parts": [
+      {
+        "q_id": "",
+        "statement": "A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. Find the height of the pole, if the angle made by the rope with the ground level is 30°.",
+        "correct_answer": "",
+        "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_20.png",
+        "explanation": "Solution:\nLet the height of the pole AB = h meters\nLength of the stretched rope AC = 20 meters (Hypotenuse)\nAngle made by the rope with the ground ∠ACB = 30°\n\nIn right-angled triangle ABC:\nsin 30° = (Perpendicular AB) / (Hypotenuse AC)\nsin 30° = h / 20\n\nSubstituting sin 30° = 1/2:\n1/2 = h / 20\n2h = 20\nh = 20 / 2\nh = 10 meters\n\nAnswer: The height of the pole is 10 meters."
       }
-    },
+    ]
+  }
+},
     {
       "question_number": "21",
       "question_type": "DESCRIPTIVE",
