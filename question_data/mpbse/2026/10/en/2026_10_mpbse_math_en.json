@@ -848,7 +848,7 @@
       "parts": [
         {
           "q_id": "",
-          "statement": "The cost of 2 pencils and 3 erasers is ₹ 9 and the cost of 4 pencils and 6 erasers is ₹ 18? Wait, the question in source: "2 pencils and 3 erasers cost ₹ 9. The cost of 1 pencil and 2 erasers is ₹ 5. Find the cost of each pencil and each eraser."",
+          "statement": "The cost of 2 pencils and 3 erasers is ₹ 9 and the cost of 4 pencils and 6 erasers is ₹ 18? Wait, the question in source: 2 pencils and 3 erasers cost ₹ 9. The cost of 1 pencil and 2 erasers is ₹ 5. Find the cost of each pencil and each eraser.",
           "correct_answer": "",
           "explanation": "Solution:\nLet:\nCost of one pencil = ₹ x\nCost of one eraser = ₹ y\n\nFrom the first condition:\n2x + 3y = 9   ----(1)\n\nFrom the second condition:\n1x + 2y = 5   ----(2)\n\nMultiplying equation (2) by 2:\n2x + 4y = 10  ----(3)\n\nSubtracting equation (1) from equation (3):\n(2x + 4y) − (2x + 3y) = 10 − 9\ny = 1\n\nSubstituting y = 1 into equation (2):\nx + 2(1) = 5\nx + 2 = 5\nx = 5 − 2 = 3\n\nAnswer:\nCost of each pencil = ₹ 3\nCost of each eraser = ₹ 1"
         }
