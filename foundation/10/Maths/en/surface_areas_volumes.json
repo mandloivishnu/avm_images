@@ -12,19 +12,16 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Cube and Cuboid",
-        "definition": "A cube is a solid whose all sides are equal, whereas in a cuboid, length, breadth and height can be different.",
-        "explanation": "Total surface area of a cube = 6a², Volume = a³ (where a is side). Total surface area of a cuboid = 2(lb + bh + hl), Volume = l × b × h.",
+        "title": "Formulas for 3D Solids",
+        "definition": "Surface areas and volumes of standard shapes.",
+        splay: "Standard mensuration formulas.",
         "importantPoints": [
-          "Cube: Surface area = 6a², Volume = a³",
-          "Cuboid: Surface area = 2(lb + bh + hl), Volume = lbh",
-          "Cube is a special case of cuboid when l = b = h"
+          "Cylinder volume = πr²h",
+          "Cone volume = ⅓πr²h"
         ],
         "highlightWords": [
-          "cube",
-          "cuboid",
           "surface area",
-          "Volume"
+          "volume"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -42,7 +39,7 @@
           "statement": "Two cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid.",
           "correct_answer": "160 cm²",
           "imgUrl": "",
-          "explanation": "Given: Volume of each cube = 64 cm³\nLet the side of the cube be a.\na³ = 64 => a = 4 cm\n\nWhen two such cubes are joined together, a cuboid is formed whose dimensions will be:\nLength (l) = 4 + 4 = 8 cm\nBreadth (b) = 4 cm\nHeight (h) = 4 cm\n\nTotal surface area of cuboid = 2(lb + bh + hl)\n= 2(8 × 4 + 4 × 4 + 4 × 8)\n= 2(32 + 16 + 32)\n= 2(80) = 160 cm²\nTherefore, the surface area of the resulting cuboid is 160 cm²."
+          "explanation": "Surface area = 160 cm²."
         }
       ],
       "or_option": {
@@ -50,10 +47,94 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Use π = 22/7)",
+            "statement": "A toy is in the form of a cone mounted on a hemisphere. Find total surface area.",
             "correct_answer": "214.5 cm²",
             "imgUrl": "",
-            "explanation": "Given:\nTotal height of toy = 15.5 cm\nRadius of hemisphere (r) = 3.5 cm\nHeight of cone (h) = Total height - Radius of hemisphere = 15.5 - 3.5 = 12 cm\n\nSlant height of cone (l):\nl = √(r² + h²) = √((3.5)² + 12²) = √(12.25 + 144) = √156.25 = 12.5 cm\n\nTotal surface area of toy = CSA of cone + CSA of hemisphere\n= πrl + 2πr²\n= πr(l + 2r)\n= (22 / 7) × 3.5 × (12.5 + 2 × 3.5)\n= (22 / 7) × (7 / 2) × (12.5 + 7)\n= 11 × 19.5 = 214.5 cm²\nTherefore, the total surface area of the toy is 214.5 cm²."
+            "explanation": "Total surface area = 214.5 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. Find its surface area.",
+          "correct_answer": "220 mm²",
+          "imgUrl": "",
+          "explanation": "Surface area = 220 mm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "From a solid cylinder, a conical cavity of same height and diameter is hollowed out. Find the total surface area of remaining solid.",
+            "correct_answer": "18 cm²",
+            "imgUrl": "",
+            "explanation": "Surface area ≈ 18 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A tent is in the shape of a cylinder surmounted by a conical top. Find the canvas required and its cost.",
+          "correct_answer": "Area 44 m², Cost ₹ 22,000",
+          "imgUrl": "",
+          "explanation": "Area = 44 m², Cost = ₹ 22,000."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone is equal to its radius. Find the volume of the solid in terms of π.",
+            "correct_answer": "π cm³",
+            "imgUrl": "",
+            "explanation": "Volume = π cm³."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A drinking glass is in the shape of a frustum of a cone of height 14 cm. The diameters of its two circular ends are 4 cm and 2 cm. Find the capacity of the glass.",
+          "correct_answer": "308/3 cm³",
+          "imgUrl": "",
+          "explanation": "Capacity = 308/3 cm³."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "How many silver coins, 1.75 cm in diameter and of thickness 2 mm, must be melted to form a cuboid of dimensions 5.5 cm × 10 cm × 3.5 cm?",
+            "correct_answer": "400 coins",
+            "imgUrl": "",
+            "explanation": "Number of coins = 400."
           }
         ]
       }

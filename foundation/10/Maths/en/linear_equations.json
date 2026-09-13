@@ -12,18 +12,16 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Graphical and Algebraic Methods",
-        "definition": "Methods to solve a pair of linear equations including substitution, elimination, and graphical representation.",
-        "explanation": "Linear equations can be solved algebraically using substitution or elimination methods, or graphically by finding intersection points of lines.",
+        "title": "Methods of Solving Linear Equations",
+        "definition": "Substitution, elimination, and graphical methods.",
+        "explanation": "Algebraic and graphical approaches to find solutions to linear systems.",
         "importantPoints": [
-          "Intersecting lines → Unique solution",
-          "Parallel lines → No solution",
-          "Coincident lines → Infinitely many solutions"
+          "Substitution method",
+          "Elimination method"
         ],
         "highlightWords": [
-          "Graphical Method",
-          "Substitution",
-          "Elimination"
+          "substitution",
+          "elimination"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -35,13 +33,13 @@
       "marks": "4",
       "word_limit": "",
       "text": "Board Exam-Based Questions",
-      "parts": [
+    "parts": [
         {
           "q_id": "a",
-          "statement": "Solve the following pair of linear equations by the Substitution Method:\n7x - 15y = 2\nx + 2y = 3",
+          "statement": "Solve the following pair of linear equations by Substitution Method:\n7x - 15y = 2\nx + 2y = 3",
           "correct_answer": "x = 49/29, y = 19/29",
           "imgUrl": "",
-          "explanation": "Equation (1): 7x - 15y = 2\nEquation (2): x + 2y = 3\n\nFrom equation (2), express x in terms of y:\nx = 3 - 2y  --(Equation 3)\n\nSubstitute this value of x into equation (1):\n7(3 - 2y) - 15y = 2\n21 - 14y - 15y = 2\n21 - 29y = 2\n-29y = 2 - 21\n-29y = -19\ny = 19/29\n\nSubstitute y into equation (3):\nx = 3 - 2(19/29)\nx = 3 - 38/29 = (87 - 38) / 29 = 49/29\n\nTherefore, x = 49/29 and y = 19/29."
+          "explanation": "x = 49/29, y = 19/29."
         }
       ],
       "or_option": {
@@ -49,10 +47,94 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Solve using the Substitution Method:\ns - t = 3\ns/3 + t/2 = 6",
+            "statement": "Solve by Substitution Method:\ns - t = 3\ns/3 + t/2 = 6",
             "correct_answer": "s = 9, t = 6",
             "imgUrl": "",
-            "explanation": "Equation (1): s - t = 3 => s = t + 3\nEquation (2): s/3 + t/2 = 6\n\nSubstitute s into equation (2):\n(t + 3)/3 + t/2 = 6\n[2(t + 3) + 3t] / 6 = 6\n2t + 6 + 3t = 36\n5t + 6 = 36\n5t = 30 => t = 6\n\nSubstitute t back into s = t + 3:\ns = 6 + 3 = 9\n\nTherefore, s = 9 and t = 6."
+            "explanation": "s = 9, t = 6."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Solve using Elimination Method:\n3x + 4y = 10\n2x - 2y = 2",
+          "correct_answer": "x = 2, y = 1",
+          "imgUrl": "",
+          "explanation": "x = 2, y = 1."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Solve using Elimination Method:\nx + y = 5\n2x - 3y = 4",
+            "correct_answer": "x = 19/5, y = 6/5",
+            "imgUrl": "",
+            "explanation": "x = 19/5, y = 6/5."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The difference between two numbers is 26 and one number is three times the other. Find them.",
+          "correct_answer": "39 and 13",
+          "imgUrl": "",
+          "explanation": "Numbers are 39 and 13."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The larger of two supplementary angles exceeds the smaller by 18 degrees. Find them.",
+            "correct_answer": "99° and 81°",
+            "imgUrl": "",
+            "explanation": "Angles are 99° and 81°."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A fraction becomes 9/11, if 2 is added to both the numerator and the denominator. If, 3 is added to both the numerator and the denominator it becomes 5/6. Find the fraction.",
+          "correct_answer": "7/9",
+          "imgUrl": "",
+          "explanation": "Fraction is 7/9."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Five years hence, the age of Jacob will be three times that of his son. Five years ago, Jacob's age was seven times that of his son. What are their present ages?",
+            "correct_answer": "Jacob: 40 years, Son: 10 years",
+            "imgUrl": "",
+            "explanation": "Ages are 40 and 10 years."
           }
         ]
       }

@@ -12,18 +12,16 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Distance Formula",
-        "definition": "The distance between two points P(x1, y1) and Q(x2, y2) is given by: PQ = √[(x2 - x1)² + (y2 - y1)²]",
-        "explanation": "This formula is derived from the Pythagorean theorem and is used to calculate the straight-line distance between any two points on a coordinate plane.",
+        "title": "Distance and Section Formulas",
+        "definition": "Distance formula: √[(x2 - x1)² + (y2 - y1)²] and Section formula.",
+        "explanation": "Used to calculate coordinates and distances in the plane.",
         "importantPoints": [
-          "Formula: √[(x2 - x1)² + (y2 - y1)²]",
-          "Based on the Pythagorean theorem",
-          "Distance from the origin: √(x² + y²)"
+          "Distance formula",
+          "Section formula"
         ],
         "highlightWords": [
           "Distance Formula",
-          "coordinates",
-          "Pythagorean theorem"
+          "coordinates"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -41,7 +39,7 @@
           "statement": "Find the distance between the following pairs of points: (2, 3) and (4, 1)",
           "correct_answer": "2√2 units",
           "imgUrl": "",
-          "explanation": "Let the points be P(2, 3) and Q(4, 1).\nHere x1 = 2, y1 = 3 and x2 = 4, y2 = 1\n\nUsing the distance formula:\nPQ = √[(x2 - x1)² + (y2 - y1)²]\nPQ = √[(4 - 2)² + (1 - 3)²]\nPQ = √[(2)² + (-2)²]\nPQ = √[4 + 4] = √8\nPQ = 2√2 units"
+          "explanation": "Distance = √[(4-2)² + (1-3)²] = 2√2 units."
         }
       ],
       "or_option": {
@@ -49,10 +47,94 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find the point which divides the line segment joining the points (-1, 7) and (4, -3) in the ratio 2:3.",
+            "statement": "Find the coordinates of the point which divides the join of (-1, 7) and (4, -3) in the ratio 2:3.",
             "correct_answer": "(1, 3)",
             "imgUrl": "",
-            "explanation": "Let the required point be P(x, y).\nHere x1 = -1, y1 = 7 and x2 = 4, y2 = -3\nRatio m : n = 2 : 3\n\nUsing the section formula:\nx = (mx2 + nx1) / (m + n) = [2(4) + 3(-1)] / (2 + 3) = (8 - 3) / 5 = 5 / 5 = 1\ny = (my2 + ny1) / (m + n) = [2(-3) + 3(7)] / (2 + 3) = (-6 + 21) / 5 = 15 / 5 = 3\n\nTherefore, the required coordinates are (1, 3)."
+            "explanation": "Using section formula, coordinates are (1, 3)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of a triangle whose vertices are (1, -1), (-4, 6) and (-3, -5).",
+          "correct_answer": "24 square units",
+          "imgUrl": "",
+          "explanation": "Applying area formula yields 24 square units."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the value of k if points (7, -2), (5, 1) and (3, k) are collinear.",
+            "correct_answer": "k = 4",
+            "imgUrl": "",
+            "explanation": "Area = 0 gives k = 4."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the coordinates of the points of trisection of the line segment joining (4, -1) and (-2, -3).",
+          "correct_answer": "(2, -5/3) and (0, -7/3)",
+          "imgUrl": "",
+          "explanation": "Using ratios 1:2 and 2:1 gives the points."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find a relation between x and y such that the point (x, y) is equidistant from the point (3, 6) and (-3, 4).",
+            "correct_answer": "3x + y - 5 = 0",
+            "imgUrl": "",
+            "explanation": "Equating distances gives 3x + y - 5 = 0."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the coordinates of the centroid of a triangle whose vertices are (3, -5), (-7, 4) and (10, -2).",
+          "correct_answer": "(2, -1)",
+          "imgUrl": "",
+          "explanation": "Centroid = ((3 - 7 + 10)/3, (-5 + 4 - 2)/3) = (2, -1)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Check whether (5, -2), (6, 4) and (7, -2) are the vertices of an isosceles triangle.",
+            "correct_answer": "Yes, it is isosceles",
+            "imgUrl": "",
+            "explanation": "Two sides have length √37, hence isosceles."
           }
         ]
       }

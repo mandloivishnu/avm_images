@@ -12,13 +12,12 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "nth Term of an AP",
-        "definition": "In an arithmetic progression (AP), the nth term is found using an = a + (n - 1)d, where a is the first term and d is the common difference.",
-        "explanation": "In an arithmetic progression, each term increases or decreases from the previous term by a fixed number (common difference d). This formula directly finds any term without listing all preceding terms.",
+        "title": "nth Term and Sum of AP",
+        "definition": "Formulas for arithmetic progressions: an = a + (n - 1)d and Sn = n/2[2a + (n - 1)d].",
+        "explanation": "Used to find specific terms and sums of progressions efficiently.",
         "importantPoints": [
-          "Formula: an = a + (n - 1)d",
-          "a = first term, d = common difference, n = term number",
-          "The progression increases when d > 0 and decreases when d < 0"
+          "an = a + (n - 1)d",
+          "Sn = n/2[2a + (n - 1)d]"
         ],
         "highlightWords": [
           "arithmetic progression",
@@ -41,7 +40,7 @@
           "statement": "Find the 10th term of the arithmetic progression 2, 7, 12, ...",
           "correct_answer": "47",
           "imgUrl": "",
-          "explanation": "Given arithmetic progression: 2, 7, 12, ...\nFirst term (a) = 2\nCommon difference (d) = 7 - 2 = 5\nTerm number (n) = 10\n\nnth-term Formula: an = a + (n - 1)d\na10 = 2 + (10 - 1) × 5\na10 = 2 + 9 × 5\na10 = 2 + 45 = 47\n\nTherefore, the 10th term is 47."
+          "explanation": "a = 2, d = 5, n = 10 => a10 = 2 + 9(5) = 47."
         }
       ],
       "or_option": {
@@ -52,7 +51,91 @@
             "statement": "Which term of the arithmetic progression 3, 8, 13, 18, ... is 78?",
             "correct_answer": "16",
             "imgUrl": "",
-            "explanation": "Given progression: 3, 8, 13, 18, ...\nHere a = 3, d = 8 - 3 = 5\nLet the nth term be 78, so an = 78\n\nan = a + (n - 1)d\n78 = 3 + (n - 1)5\n78 - 3 = (n - 1)5\n75 = (n - 1)5\nn - 1 = 75 / 5 = 15\nn = 15 + 1 = 16\n\nTherefore, the 16th term of the progression is 78."
+            "explanation": "78 = 3 + (n - 1)5 => n = 16."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the sum of the first 10 terms of the arithmetic progression 2, 7, 12, ...",
+          "correct_answer": "245",
+          "imgUrl": "",
+          "explanation": "S10 = (10/2)[2(2) + 9(5)] = 245."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the 30th term of the AP: 10, 7, 4, ...",
+            "correct_answer": "-77",
+            "imgUrl": "",
+            "explanation": "a = 10, d = -3, a30 = 10 + 29(-3) = -77."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the 31st term of an AP whose 11th term is 38 and the 16th term is 73.",
+          "correct_answer": "178",
+          "imgUrl": "",
+          "explanation": "a + 10d = 38, a + 15d = 73 => d = 7, a = -32 => a31 = 178."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "How many 3-digit numbers are divisible by 7?",
+            "correct_answer": "128",
+            "imgUrl": "",
+            "explanation": "First is 105, last is 994. n = 128."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the sum of the first 22 terms of an AP in which d = 7 and 22nd term is 149.",
+          "correct_answer": "1661",
+          "imgUrl": "",
+          "explanation": "a22 = a + 21(7) = 149 => a = 2. S22 = 11(2 + 149) = 1661."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If the sum of the first 14 terms of an AP is 1050 and its first term is 10, find the 20th term.",
+            "correct_answer": "210",
+            "imgUrl": "",
+            "explanation": "S14 = 7[20 + 13d] = 1050 => d = 10. a20 = 10 + 19(10) = 210."
           }
         ]
       }

@@ -14,11 +14,10 @@
       "definitionBean": {
         "title": "Sector",
         "definition": "The region bounded by two radii drawn from the center of a circle and the arc between them is called a sector.",
-        "explanation": "Area of the sector = (θ / 360°) × πr², and Length of the arc = (θ / 360°) × 2πr, where θ is the central angle and r is the radius.",
+        "explanation": "Area of the sector = (θ / 360°) × πr², and Length of the arc = (θ / 360°) × 2πr.",
         "importantPoints": [
-          "Area of sector = (θ / 360°) × πr²",
-          "Length of the arc = (θ / 360°) × 2πr",
-          "θ = central angle in degrees"
+          "Area = (θ / 360°) × πr²",
+          "Length of the arc = (θ / 360°) × 2πr"
         ],
         "highlightWords": [
           "sector",
@@ -31,30 +30,6 @@
     },
     {
       "question_number": "2",
-      "question_type": "QUICK_REVISION",
-      "marks": "",
-      "text": "Quick Revision",
-      "definitionBean": {
-        "title": "Segment",
-        "definition": "The region bounded by a chord of a circle and its corresponding arc is called a segment.",
-        "explanation": "Area of the minor segment = Area of the sector - Area of the corresponding triangle. Area of the major segment = Area of the whole circle - Area of the minor segment.",
-        "importantPoints": [
-          "Minor segment area = Area of sector - Area of triangle",
-          "Major segment area = Area of circle - Area of minor segment",
-          "A chord divides a circle into two segments"
-        ],
-        "highlightWords": [
-          "segment",
-          "chord",
-          "minor segment",
-          "major segment"
-        ],
-        "imgUrl": "",
-        "realLifeExamples1": []
-      }
-    },
-    {
-      "question_number": "3",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
       "word_limit": "",
@@ -65,7 +40,7 @@
           "statement": "Find the area of a sector of a circle with radius 6 cm and angle 60°. (Take π = 22/7.)",
           "correct_answer": "132/7 cm²",
           "imgUrl": "",
-          "explanation": "Given:\nRadius (r) = 6 cm\nCentral angle (θ) = 60°\n\nArea of the sector = (θ / 360°) × πr²\n= (60° / 360°) × (22 / 7) × (6)²\n= (1 / 6) × (22 / 7) × 36\n= (22 × 6) / 7\n= 132/7 cm² (or 18.85 cm²)"
+          "explanation": "Area = (60 / 360) × (22/7) × 6² = 132/7 cm²."
         }
       ],
       "or_option": {
@@ -76,7 +51,91 @@
             "statement": "Find the area of a quadrant of a circle whose circumference is 22 cm. (Take π = 22/7.)",
             "correct_answer": "77/8 cm²",
             "imgUrl": "",
-            "explanation": "Given:\nCircumference of the circle = 22 cm\n2πr = 22\n2 × (22 / 7) × r = 22\nr = (22 × 7) / (2 × 22) = 7/2 cm\n\nAngle of the quadrant (θ) = 90°\nArea of the quadrant = (90° / 360°) × πr²\n= (1 / 4) × (22 / 7) × (7/2)²\n= (1 / 4) × (22 / 7) × (49 / 4)\n= 77/8 cm²"
+            "explanation": "r = 7/2 cm, Area = 77/8 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A circle has radius 21 cm and the arc subtends an angle of 60° at the center. Find the length of the arc.",
+          "correct_answer": "22 cm",
+          "imgUrl": "",
+          "explanation": "Arc length = (60 / 360) × 2 × (22/7) × 21 = 22 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The length of the minute hand of a clock is 14 cm. Find the area swept by the minute hand in 5 minutes.",
+            "correct_answer": "154/3 cm²",
+            "imgUrl": "",
+            "explanation": "θ = 30°, Area = (30 / 360) × (22/7) × 14² = 154/3 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A chord of a circle of radius 10 cm subtends a right angle at the center. Find the area of the corresponding minor segment. (Use π = 3.14)",
+          "correct_answer": "28.5 cm²",
+          "imgUrl": "",
+          "explanation": "Area = (90/360) × 3.14 × 100 - (1/2) × 10 × 10 = 78.5 - 50 = 28.5 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A chord of a circle of radius 12 cm subtends an angle of 120° at the center. Find the area of the corresponding minor segment of the circle. (Use π = 3.14, √3 = 1.73)",
+            "correct_answer": "88.44 cm²",
+            "imgUrl": "",
+            "explanation": "Sector area - Triangle area = 150.72 - 62.28 = 88.44 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the shaded region in the figure, where a circular arc of radius 6 cm has been drawn with vertex O of an equilateral triangle OAB of side 12 cm as center.",
+          "correct_answer": "(308 + 36√3) cm²",
+          "imgUrl": "",
+          "explanation": "Area of triangle + Area of major sector = 36√3 + (300/360) × (22/7) × 36 = (308 + 36√3) cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "From each corner of a square of side 4 cm a quadrant of a circle of radius 1 cm is cut and also a circle of diameter 2 cm is cut. Find the area of the remaining portion of the square. (Use π = 22/7)",
+            "correct_answer": "10/7 cm²",
+            "imgUrl": "",
+            "explanation": "Area = 16 - (4 × 1/4 × 22/7 × 1²) - (22/7 × 1²) = 16 - 44/7 = 10/7 cm²."
           }
         ]
       }

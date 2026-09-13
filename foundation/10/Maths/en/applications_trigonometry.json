@@ -14,12 +14,11 @@
       "definitionBean": {
         "title": "Heights and Distances",
         "definition": "Using trigonometric ratios to find the height of an object or the distance between two objects, using angles of elevation and depression.",
-        "explanation": "The angle of elevation is the angle formed when viewing an object above the horizontal line, while the angle of depression is formed when viewing an object below the horizontal line. Using these angles and known measurements, trigonometric ratios are applied to find unknown values.",
+        "explanation": "The angle of elevation is the angle formed when viewing an object above the horizontal line, while the angle of depression is formed when viewing an object below the horizontal line.",
         "importantPoints": [
           "Angle of elevation: angle formed when looking upward",
           "Angle of depression: angle formed when looking downward",
-          "Form a right-angled triangle and apply the appropriate trigonometric ratio",
-          "The angle of elevation and angle of depression are equal when alternate interior angles are formed"
+          "Form a right-angled triangle and apply the appropriate trigonometric ratio"
         ],
         "highlightWords": [
           "angle of elevation",
@@ -28,24 +27,7 @@
           "distance"
         ],
         "imgUrl": "",
-        "realLifeExamples": [
-          {
-            "title": "Measuring the height of a tower",
-            "example": "The height of a tower is found by standing at a known distance from its base and measuring the angle of elevation.",
-            "imageUrl": "",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/minar_uchai.html"
-          },
-          {
-            "title": "Distance from a ship to the shore",
-            "example": "The distance is found by measuring the angle of depression of an object on the shore from the deck of a ship.",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/jahaj_samudra_tat.html"
-          },
-          {
-            "title": "Height of an airplane",
-            "example": "The flight altitude of an airplane is estimated by measuring its angle of elevation from the ground.",
-            "svgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/hawai_jahaj_uchai.html"
-          }
-        ]
+        "realLifeExamples": []
       }
     },
     {
@@ -60,7 +42,7 @@
           "statement": "A person standing 20√3 m from the base of a 20 m high tower observes the top of the tower. Find the angle of elevation.",
           "correct_answer": "30°",
           "imgUrl": "",
-          "explanation": "Given:\nHeight of the tower = 20 m\nDistance from the base = 20√3 m\n\nLet the angle of elevation = θ\n\nIn the right-angled triangle:\ntan θ = Perpendicular / Base\ntan θ = 20 / (20√3)\ntan θ = 1/√3\n\nWe know that tan 30° = 1/√3.\nTherefore, θ = 30°.\n\nHence, the angle of elevation is 30°."
+          "explanation": "Given:\nHeight of the tower = 20 m\nDistance from the base = 20√3 m\n\ntan θ = 20 / (20√3) = 1/√3\nTherefore, θ = 30°."
         }
       ],
       "or_option": {
@@ -71,7 +53,91 @@
             "statement": "The shadow of a tree is 15 m long. If the angle of elevation of the sun is 45°, find the height of the tree.",
             "correct_answer": "15 m",
             "imgUrl": "",
-            "explanation": "Given:\nLength of the shadow = 15 m\nAngle of elevation = 45°\n\nLet the height of the tree = h\n\nIn the right-angled triangle:\ntan 45° = Height / Shadow\n1 = h / 15\nh = 15 m\n\nHence, the height of the tree is 15 m."
+            "explanation": "tan 45° = h / 15 => h = 15 m."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A tower is 30 m high. Find the angle of elevation of its top from a point 30 m away from its base on the ground.",
+          "correct_answer": "45°",
+          "imgUrl": "",
+          "explanation": "tan θ = 30 / 30 = 1 => θ = 45°."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A kite is flying at a height of 60 m above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is 60°. Find the length of the string, assuming that there is no slack in the string.",
+            "correct_answer": "40√3 m",
+            "imgUrl": "",
+            "explanation": "sin 60° = 60 / l => √3/2 = 60 / l => l = 40√3 m."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "From a point on a bridge across a river, the angles of depression of the banks on opposite sides of the river are 30° and 45° respectively. If the bridge is at a height of 3 m from the banks, find the width of the river.",
+          "correct_answer": "3(√3 + 1) m",
+          "imgUrl": "",
+          "explanation": "Width = 3 + 3√3 = 3(√3 + 1) m."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "As observed from the top of a 75 m high lighthouse from the sea-level, the angles of depression of two ships are 30° and 45°. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.",
+            "correct_answer": "75(√3 - 1) m",
+            "imgUrl": "",
+            "explanation": "Distance = 75√3 - 75 = 75(√3 - 1) m."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A 1.5 m tall boy is standing at some distance from a 30 m tall building. The angle of elevation from his eyes to the top of the building increases from 30° to 60° as he walks towards the building. Find the distance he walked towards the building.",
+          "correct_answer": "19√3 m",
+          "imgUrl": "",
+          "explanation": "Remaining height = 28.5 m. Distance walked = 28.5(√3 - 1/√3) = 19√3 m."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The angle of elevation of the top of a building from the foot of the tower is 30° and the angle of elevation of the top of the tower from the foot of the building is 60°. If the tower is 50 m high, find the height of the building.",
+            "correct_answer": "50/3 m (16.67 m)",
+            "imgUrl": "",
+            "explanation": "Base distance = 50/√3 m. Height of building = (50/√3) / √3 = 50/3 m."
           }
         ]
       }

@@ -12,19 +12,16 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Quadratic Formula and Discriminant",
-        "definition": "Roots of ax² + bx + c = 0 are given by x = [-b ± √(b² - 4ac)] / 2a, where D = b² - 4ac is the discriminant.",
-        "explanation": "The discriminant determines the nature of the roots: real and distinct if D > 0, real and equal if D = 0, and non-real if D < 0.",
+        "title": "Quadratic Formula",
+        "definition": "Roots given by x = [-b ± √(b² - 4ac)] / 2a.",
+        "explanation": "Discriminant D = b² - 4ac determines root nature.",
         "importantPoints": [
-          "Formula: x = [-b ± √(b² - 4ac)] / 2a",
-          "D > 0 → Two distinct real roots",
-          "D = 0 → Two equal real roots",
-          "D < 0 → No real roots"
+          "Quadratic formula",
+          "Discriminant D"
         ],
         "highlightWords": [
           "Quadratic formula",
-          "discriminant",
-          "roots"
+          "discriminant"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -39,10 +36,10 @@
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the roots of the quadratic equation 2x² + x - 6 = 0 by the factorization method.",
+          "statement": "Find the roots of the quadratic equation 2x² + x - 6 = 0 by factorization method.",
           "correct_answer": "x = 3/2, x = -2",
           "imgUrl": "",
-          "explanation": "Given equation: 2x² + x - 6 = 0\nHere a = 2, c = -6, so ac = -12.\nSplit the middle term x into two parts whose product is -12 and sum is +1 (+4x and -3x):\n2x² + 4x - 3x - 6 = 0\n2x(x + 2) - 3(x + 2) = 0\n(2x - 3)(x + 2) = 0\n\nEquating each factor to zero:\n2x - 3 = 0 => x = 3/2\nx + 2 = 0 => x = -2\n\nTherefore, the roots are 3/2 and -2."
+          "explanation": "Roots are 3/2 and -2."
         }
       ],
       "or_option": {
@@ -53,7 +50,91 @@
             "statement": "Find the roots of the equation 2x² - 7x + 3 = 0 using the quadratic formula.",
             "correct_answer": "x = 3, x = 1/2",
             "imgUrl": "",
-            "explanation": "Comparing with ax² + bx + c = 0:\na = 2, b = -7, c = 3\n\nDiscriminant D = b² - 4ac = (-7)² - 4(2)(3) = 49 - 24 = 25\n\nUsing the quadratic formula:\nx = [-b ± √D] / 2a\nx = [-(-7) ± √25] / (2 × 2)\nx = [7 ± 5] / 4\n\nTaking positive sign: x = (7 + 5) / 4 = 12 / 4 = 3\nTaking negative sign: x = (7 - 5) / 4 = 2 / 4 = 1/2\n\nTherefore, the roots are 3 and 1/2."
+            "explanation": "Roots are 3 and 1/2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find two numbers whose sum is 27 and product is 182.",
+          "correct_answer": "13 and 14",
+          "imgUrl": "",
+          "explanation": "Numbers are 13 and 14."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find two consecutive positive integers, sum of whose squares is 365.",
+            "correct_answer": "13 and 14",
+            "imgUrl": "",
+            "explanation": "Integers are 13 and 14."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, find the other two sides.",
+          "correct_answer": "Base 12 cm, Altitude 5 cm",
+          "imgUrl": "",
+          "explanation": "Base is 12 cm and altitude is 5 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A cottage industry produces a certain number of pottery articles in a day. It was observed on a particular day that the cost of production of each article was 3 more than twice the number of articles produced on that day. If the total cost of production on that day was ₹ 90, find the number of articles produced and the cost of each article.",
+            "correct_answer": "Articles: 6, Cost: ₹ 15",
+            "imgUrl": "",
+            "explanation": "Number of articles = 6, Cost = ₹ 15."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the value of k for the quadratic equation 2x² + kx + 3 = 0, so that they have two equal roots.",
+          "correct_answer": "k = ±2√6",
+          "imgUrl": "",
+          "explanation": "k = ±2√6."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Is it possible to design a rectangular mango grove whose length is twice its breadth, and the area is 800 m²? If so, find its length and breadth.",
+            "correct_answer": "Breadth = 20 m, Length = 40 m",
+            "imgUrl": "",
+            "explanation": "Yes, breadth = 20 m, length = 40 m."
           }
         ]
       }

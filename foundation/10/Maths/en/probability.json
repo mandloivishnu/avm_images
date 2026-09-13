@@ -12,18 +12,16 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Classical Probability",
-        "definition": "Probability of an event P(E) = (Number of favorable outcomes) / (Total number of possible outcomes)",
-        "explanation": "Probability values always range from 0 to 1 inclusive, where 0 denotes an impossible event and 1 denotes a certain event.",
+        "title": "Probability Formula",
+        "definition": "P(E) = (Favorable outcomes) / (Total outcomes)",
+        "explanation": "Probability values lie between 0 and 1.",
         "importantPoints": [
-          "P(E) = Favorable outcomes / Total outcomes",
-          "0 ≤ P(E) ≤ 1",
+          "P(E) = Favorable / Total",
           "P(E) + P(not E) = 1"
         ],
         "highlightWords": [
           "Probability",
-          "favorable outcomes",
-          "equally likely"
+          "favorable outcomes"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -41,7 +39,7 @@
           "statement": "A die is thrown once. Find the probability of getting a prime number.",
           "correct_answer": "1/2",
           "imgUrl": "",
-          "explanation": "Total possible outcomes when throwing a die = {1, 2, 3, 4, 5, 6} (Total = 6)\n\nPrime numbers on a die = {2, 3, 5} (Favorable outcomes = 3)\n\nProbability P(E) = (Number of favorable outcomes) / (Total outcomes)\nP(E) = 3 / 6 = 1/2\n\nTherefore, the probability of getting a prime number is 1/2."
+          "explanation": "Favorable = {2, 3, 5}, Probability = 3/6 = 1/2."
         }
       ],
       "or_option": {
@@ -52,7 +50,90 @@
             "statement": "Two coins are tossed simultaneously. Find the probability of getting at least one head.",
             "correct_answer": "3/4",
             "imgUrl": "",
-            "explanation": "Total possible outcomes when tossing two coins = {HH, HT, TH, TT} (Total = 4)\n\nFavorable outcomes for at least one head = {HH, HT, TH} (Total = 3)\n\nProbability P(E) = 3 / 4\n\nTherefore, the probability of getting at least one head is 3/4."
+            "explanation": "Probability = 3/4."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A bag contains 3 red and 5 black balls. A ball is drawn at random. What is the probability that the ball is red?",
+          "correct_answer": "3/8",
+          "imgUrl": "",
+          "explanation": "Probability = 3/8."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If P(E) = 0.05, what is the probability of 'not E'?",
+            "correct_answer": "0.95",
+            "imgUrl": "",
+            "explanation": "1 - 0.05 = 0.95."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A box contains 3 blue, 2 white, and 4 red marbles. If a marble is drawn at random from the box, what is the probability that it will be white?",
+          "correct_answer": "2/9",
+          "imgUrl": "",
+          "explanation": "Total = 9, White = 2, Probability = 2/9."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "One card is drawn from a well-shuffled deck of 52 playing cards. Find the probability of getting an ace.",
+          "correct_answer": "1/13",
+          "imgUrl": "",
+          "explanation": "4/52 = 1/13."
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A die is thrown once. Find the probability of getting a number greater than 4.",
+          "correct_answer": "1/3",
+          "imgUrl": "",
+          "explanation": "Favorable = {5, 6}, Probability = 2/6 = 1/3."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A lot of 20 bulbs contain 4 defective ones. One bulb is drawn at random from the lot. What is the probability that this bulb is defective?",
+            "correct_answer": "1/5",
+            "imgUrl": "",
+            "explanation": "4/20 = 1/5."
           }
         ]
       }

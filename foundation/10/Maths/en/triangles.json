@@ -12,18 +12,16 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Similarity of Triangles",
-        "definition": "Two triangles are said to be similar if their corresponding angles are equal and their corresponding sides are proportional.",
-        "explanation": "Similar triangles may have different sizes, but they have the same shape. Criteria like AAA, SSS, and SAS are used to prove similarity.",
+        "title": "Similarity and Thales Theorem",
+        "definition": "Basic proportionality theorem and similarity criteria.",
+        "explanation": "Proportions and area relations in similar triangles.",
         "importantPoints": [
-          "Corresponding angles are equal and sides are proportional",
-          "AAA, SSS, SAS are criteria of similarity",
-          "Ratio of areas = (Ratio of sides)²"
+          "Thales Theorem",
+          "Area Theorem"
         ],
         "highlightWords": [
           "similarity",
-          "corresponding angles",
-          "Proportional sides"
+          "Thales Theorem"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -41,7 +39,7 @@
           "statement": "The areas of two similar triangles are 64 cm² and 121 cm² respectively. If the side of the first triangle is 15.4 cm, find the corresponding side of the second triangle.",
           "correct_answer": "21.175 cm",
           "imgUrl": "",
-          "explanation": "Let the two similar triangles be ΔABC and ΔPQR.\nGiven: ar(ΔABC) = 64 cm², ar(ΔPQR) = 121 cm²\nAB = 15.4 cm, find PQ.\n\nAccording to the Area Theorem, the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides:\nar(ΔABC) / ar(ΔPQR) = (AB / PQ)²\n64 / 121 = (15.4 / PQ)²\n\nTaking square root on both sides:\n8 / 11 = 15.4 / PQ\nPQ = (15.4 × 11) / 8\nPQ = 169.4 / 8 = 21.175 cm\nTherefore, the corresponding side of the second triangle is 21.175 cm."
+          "explanation": "Corresponding side = 21.175 cm."
         }
       ],
       "or_option": {
@@ -52,7 +50,91 @@
             "statement": "State and prove Thales Theorem (BPT).",
             "correct_answer": "Proven",
             "imgUrl": "",
-            "explanation": "Statement: If a line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, then the other two sides are divided in the same ratio.\n\nProof:\nLet a line DE parallel to side BC of ΔABC intersect AB at D and AC at E.\nTo prove: AD / DB = AE / EC\nConstruction: Join B to E and C to D, and draw EF ⊥ AB and DG ⊥ AC.\n\nArea of ΔADE = ½ × base × height = ½ × AD × EF\nArea of ΔBDE = ½ × BD × EF\nThus area ratio: ar(ΔADE) / ar(ΔBDE) = (½ × AD × EF) / (½ × BD × EF) = AD / DB  --(1)\n\nSimilarly, ar(ΔADE) / ar(DEC) = AE / EC  --(2)\nSince ΔBDE and ΔDEC are on the same base DE and between the same parallel lines BC and DE, ar(ΔBDE) = ar(ΔDEC).\nThus from equations (1) and (2):\nAD / DB = AE / EC\nHence proved."
+            "explanation": "Full proof of Thales theorem."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "In the figure, if DE || AC and DF || AE, prove that BF / FE = BE / EC.",
+          "correct_answer": "Proven",
+          "imgUrl": "",
+          "explanation": "Proved using BPT."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
+            "correct_answer": "Proven",
+            "imgUrl": "",
+            "explanation": "Proof of Area Theorem."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "In a right triangle ABC, right-angled at B, if tan A = 1, then verify that 2 sin A cos A = 1.",
+          "correct_answer": "Verified",
+          "imgUrl": "",
+          "explanation": "Verified successfully."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that in a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides (Pythagoras Theorem).",
+            "correct_answer": "Proven",
+            "imgUrl": "",
+            "explanation": "Proof of Pythagoras Theorem."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "ABC is an isosceles triangle right-angled at C. Prove that AB² = 2AC².",
+          "correct_answer": "Proven",
+          "imgUrl": "",
+          "explanation": "Proved via Pythagoras theorem."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the length of each altitude of an equilateral triangle of side 2a.",
+            "correct_answer": "a√3",
+            "imgUrl": "",
+            "explanation": "Altitude = a√3."
           }
         ]
       }

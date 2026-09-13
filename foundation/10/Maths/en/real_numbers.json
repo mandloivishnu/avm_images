@@ -13,16 +13,14 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Fundamental Theorem of Arithmetic",
-        "definition": "Every composite number can be expressed as a product of primes, and this factorization is unique, apart from the order of prime factors.",
-        "explanation": "This theorem is the basis for finding HCF and LCM using prime factorization and proving the irrationality of numbers like √3.",
+        "definition": "Unique prime factorization of composite numbers.",
+        "explanation": "Used for finding HCF/LCM and proving irrationality.",
         "importantPoints": [
-          "Unique prime factorization for composite numbers",
-          "HCF × LCM = Product of two numbers",
-          "Used in proving irrational numbers"
+          "HCF × LCM = Product",
+          "Unique factorization"
         ],
         "highlightWords": [
           "prime factors",
-          "unique",
           "HCF",
           "LCM"
         ],
@@ -42,7 +40,7 @@
           "statement": "Find the HCF and LCM of 6, 72 and 120 using the prime factorization method.",
           "correct_answer": "HCF = 6, LCM = 360",
           "imgUrl": "",
-          "explanation": "Prime factorization of the numbers:\n6 = 2 × 3\n72 = 2³ × 3²\n120 = 2³ × 3 × 5\n\nHCF = Product of the smallest power of each common prime factor\nHCF = 2¹ × 3¹ = 6\n\nLCM = Product of the greatest power of each prime factor involved\nLCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360\n\nTherefore, HCF = 6 and LCM = 360."
+          "explanation": "HCF = 6, LCM = 360."
         }
       ],
       "or_option": {
@@ -53,7 +51,91 @@
             "statement": "Prove that √3 is an irrational number.",
             "correct_answer": "Proven",
             "imgUrl": "",
-            "explanation": "Let us assume that √3 is a rational number.\nTherefore, we can find co-prime integers a and b (b ≠ 0) such that:\n√3 = a / b => √3b = a\n\nSquaring both sides:\n3b² = a²  --(Equation 1)\nThis means a² is divisible by 3, so a is also divisible by 3.\n\nLet a = 3c for some integer c. Substituting into Equation 1:\n3b² = (3c)² = 9c²\nb² = 3c²\nThis means b² is divisible by 3, so b is also divisible by 3.\n\nThus, both a and b share a common factor of 3, which contradicts our assumption that a and b are co-prime.\nTherefore, our assumption is false, and √3 is an irrational number."
+            "explanation": "Proved by contradiction."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Use Euclid's division lemma to find the HCF of 135 and 225.",
+          "correct_answer": "45",
+          "imgUrl": "",
+          "explanation": "HCF = 45."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that 3 + 2√5 is an irrational number.",
+            "correct_answer": "Proven",
+            "imgUrl": "",
+            "explanation": "Proved by contradiction."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the HCF and LCM of 26 and 91 and verify that HCF × LCM = product of the two numbers.",
+          "correct_answer": "HCF = 13, LCM = 182",
+          "imgUrl": "",
+          "explanation": "Verified successfully."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the HCF and LCM of 12, 15 and 21 by applying the prime factorization method.",
+            "correct_answer": "HCF = 3, LCM = 420",
+            "imgUrl": "",
+            "explanation": "HCF = 3, LCM = 420."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Prove that 5 - √3 is irrational.",
+          "correct_answer": "Proven",
+          "imgUrl": "",
+          "explanation": "Proved by contradiction."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Without actually performing the long division, state whether the rational number 17/8 will have a terminating or a non-terminating repeating decimal expansion.",
+            "correct_answer": "Terminating decimal expansion",
+            "imgUrl": "",
+            "explanation": "Denominator 8 = 2³, hence terminating."
           }
         ]
       }
