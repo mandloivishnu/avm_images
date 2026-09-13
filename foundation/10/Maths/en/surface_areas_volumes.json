@@ -131,7 +131,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "Two cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid.",
           "correct_answer": "160 cm²",
           "imgUrl": "",
@@ -142,7 +142,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Use π = 22/7)",
             "correct_answer": "214.5 cm²",
             "imgUrl": "",
@@ -159,7 +159,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "7_a",
+          "q_id": "a",
           "statement": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm. Find its surface area.",
           "correct_answer": "220 mm²",
           "imgUrl": "",
@@ -170,7 +170,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "7_b",
+            "q_id": "b",
             "statement": "From a solid cylinder of height 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm².",
             "correct_answer": "18 cm²",
             "imgUrl": "",

@@ -60,7 +60,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "A die is thrown once. Find the probability of getting a prime number.",
           "correct_answer": "1/2",
           "imgUrl": "",
@@ -71,7 +71,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "Two coins are tossed simultaneously. Find the probability of getting at least one head.",
             "correct_answer": "3/4",
             "imgUrl": "",
@@ -88,7 +88,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "A bag contains 3 red and 5 black balls. A ball is drawn at random from the bag. What is the probability that the ball is red?",
           "correct_answer": "3/8",
           "imgUrl": "",
@@ -99,7 +99,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "If P(E) = 0.05, what is the probability of 'not E'?",
             "correct_answer": "0.95",
             "imgUrl": "",

@@ -86,7 +86,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "If sin A = 3/4, calculate cos A and tan A.",
           "correct_answer": "cos A = (√7)/4, tan A = 3/√7",
           "imgUrl": "",
@@ -97,7 +97,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "If cot θ = 7/8, evaluate [(1 + sin θ)(1 - sin θ)] / [(1 + cos θ)(1 - cos θ)].",
             "correct_answer": "49/64",
             "imgUrl": "",
@@ -114,7 +114,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Evaluate: sin 60° cos 30° + sin 30° cos 60°",
           "correct_answer": "1",
           "imgUrl": "",
@@ -125,7 +125,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Prove that: (sin A + cosec A)² + (cos A + sec A)² = 7 + tan² A + cot² A",
             "correct_answer": "Proven",
             "imgUrl": "",

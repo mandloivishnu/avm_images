@@ -86,7 +86,7 @@
       "text": "बोर्ड परीक्षा आधारित प्रश्न",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "यदि $\\sin A = \\frac{3}{4}$, तो $\\cos A$ और $\\tan A$ का मान परिकलित कीजिए।",
           "correct_answer": "$\\cos A = \\frac{\\sqrt{7}}{4}, \\tan A = \\frac{3}{\\sqrt{7}}$",
           "imgUrl": "",
@@ -97,7 +97,7 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "यदि $\\cot \\theta = \\frac{7}{8}$, तो $\\frac{(1 + \\sin \\theta)(1 - \\sin \\theta)}{(1 + \\cos \\theta)(1 - \\cos \\theta)}$ का मान ज्ञात कीजिए।",
             "correct_answer": "$\\frac{49}{64}$",
             "imgUrl": "",
@@ -114,7 +114,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "मान निकालिए: $\\sin 60^\\circ \\cos 30^\\circ + \\sin 30^\\circ \\cos 60^\\circ$",
           "correct_answer": "1",
           "imgUrl": "",
@@ -125,7 +125,7 @@
         "text": "अथवा",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "सिद्ध कीजिए कि: $(\\sin A + \\operatorname{cosec} A)^2 + (\\cos A + \\sec A)^2 = 7 + \\tan^2 A + \\cot^2 A$",
             "correct_answer": "प्रमाणित",
             "imgUrl": "",

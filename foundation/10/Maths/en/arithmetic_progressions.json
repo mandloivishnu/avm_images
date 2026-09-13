@@ -83,7 +83,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "Find the 10th term of the arithmetic progression 2, 7, 12, ...",
           "correct_answer": "47",
           "imgUrl": "",
@@ -94,7 +94,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "Which term of the arithmetic progression 3, 8, 13, 18, ... is 78?",
             "correct_answer": "16",
             "imgUrl": "",
@@ -111,7 +111,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Find the sum of the first 10 terms of the arithmetic progression 2, 7, 12, ...",
           "correct_answer": "245",
           "imgUrl": "",
@@ -122,7 +122,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Find the sum of the first 10 terms of the arithmetic progression 34, 32, 30, ...",
             "correct_answer": "250",
             "imgUrl": "",
@@ -139,7 +139,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "Find the 31st term of the arithmetic progression whose 11th term is 38 and 16th term is 73.",
           "correct_answer": "178",
           "imgUrl": "",
@@ -150,7 +150,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "Find the arithmetic progression whose third term is 16 and whose 7th term is 12 more than its 5th term.",
             "correct_answer": "4, 10, 16, 22, ...",
             "imgUrl": "",

@@ -81,7 +81,7 @@ for f in "${files[@]}"; do
   # --max-time 15: give up on a single request after 15s instead of hanging
   # We capture the http code; if curl itself fails to connect at all,
   # http_code will be empty/000 and we log it but DO NOT exit the script.
-  http_code=$(curl -s --retry 2 --max-time 15 -o /dev/null -w "%{http_code}" "$url" || echo "000")
+  http_code=$(curl -s --retry 2 --max-time 15 -o /master/null -w "%{http_code}" "$url" || echo "000")
 
   if [ "$http_code" = "200" ]; then
     echo "  -> HTTP $http_code"

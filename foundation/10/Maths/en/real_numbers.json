@@ -117,7 +117,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Find the HCF and LCM of 6, 72 and 120 using the prime factorization method.",
           "correct_answer": "HCF = 6, LCM = 360",
           "imgUrl": "",
@@ -128,7 +128,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Given that HCF(306, 657) = 9, find LCM.",
             "correct_answer": "LCM = 22338",
             "imgUrl": "",
@@ -145,7 +145,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "Prove that √3 is an irrational number.",
           "correct_answer": "Proven",
           "imgUrl": "",
@@ -156,7 +156,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "Prove that 3 + 2√5 is an irrational number.",
             "correct_answer": "Proven",
             "imgUrl": "",
@@ -173,7 +173,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "7_a",
+          "q_id": "a",
           "statement": "Without actually performing the long division, state whether the rational number 13/3125 has a terminating or non-terminating repeating decimal expansion.",
           "correct_answer": "Terminating decimal expansion",
           "imgUrl": "",
@@ -184,7 +184,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "7_b",
+            "q_id": "b",
             "statement": "Check whether 6^n can end with the digit 0 for any natural number n.",
             "correct_answer": "Not possible",
             "imgUrl": "",

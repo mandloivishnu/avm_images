@@ -64,7 +64,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "Find the zeros of the quadratic polynomial x² - 2x - 8 and verify the relationship between the zeros and the coefficients.",
           "correct_answer": "Zeros: 4 and -2",
           "imgUrl": "",
@@ -75,7 +75,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "Find a quadratic polynomial with the given numbers as the sum and product of its zeros respectively -3 and 2.",
             "correct_answer": "x² + 3x + 2",
             "imgUrl": "",
@@ -92,7 +92,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "Find the zeros of the quadratic polynomial 4s² - 4s + 1 and verify the relationship between the zeros and the coefficients.",
           "correct_answer": "Zeros: 1/2 and 1/2",
           "imgUrl": "",
@@ -103,7 +103,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "Find the zeros of the polynomial 3x² - x - 4 and verify the relationship between the zeros and the coefficients.",
             "correct_answer": "Zeros: 4/3 and -1",
             "imgUrl": "",

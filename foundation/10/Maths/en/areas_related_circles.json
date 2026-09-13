@@ -84,7 +84,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "Find the area of a sector of a circle with radius 6 cm and angle 60°. (Take π = 22/7.)",
           "correct_answer": "132/7 cm²",
           "imgUrl": "",
@@ -95,7 +95,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "Find the area of a quadrant of a circle whose circumference is 22 cm. (Take π = 22/7.)",
             "correct_answer": "77/8 cm²",
             "imgUrl": "",
@@ -112,7 +112,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "A circle has radius 10 cm and the angle subtended at the center is 90°. Find the area of the corresponding minor sector. (Take π = 3.14.)",
           "correct_answer": "78.5 cm²",
           "imgUrl": "",
@@ -123,7 +123,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "A circle has radius 21 cm and the arc subtends an angle of 60° at the center. Find the length of the arc.",
             "correct_answer": "22 cm",
             "imgUrl": "",
@@ -140,7 +140,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "A chord of a circle with radius 14 cm subtends an angle of 60° at the center. Find the area of the corresponding minor segment. (Take √3 = 1.73.)",
           "correct_answer": "56.88 cm² (approximately)",
           "imgUrl": "",
@@ -151,7 +151,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "The minute hand of a clock is 14 cm long. Find the area swept by the hand in 5 minutes.",
             "correct_answer": "154/3 cm²",
             "imgUrl": "",

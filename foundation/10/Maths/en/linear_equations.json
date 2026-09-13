@@ -13,8 +13,8 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Graphical Method (Graphical Method)",
-        "definition": "Pair of Linear Equationsों को आलेख (ग्राफ) at रेखाओं of रूप in खींचकर उनof Point of Intersection from solution ज्ञात करने of विधि।",
-        "explanation": "प्रत्येक रैखिक equation एक सरल रेखा को निरूपित करता है। both रेखाएँ if एक point at ofटें then वह point ही equation युग्म of अद्वितीय solution है। if रेखाएँ समांतर हों then कोई solution नहीं होता, and if both रेखाएँ संपाती (same रेखा) हों then अनंत solution होते हैं।",
+        "definition": "The method of finding the solution of a pair of linear equations by drawing them as lines on a graph and finding their Point of Intersection.",
+        "explanation": "Each linear equation represents a straight line. If both lines intersect at a point, then that point is the unique solution of the pair of equations. If the lines are parallel, there is no solution, and if both lines are coincident (the same line), there are infinitely many solutions.",
         "importantPoints": [
           "Intersecting lines → Unique solution",
           "Parallel lines → No solution",
@@ -38,8 +38,8 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Substitution Method (Substitution Method)",
-        "definition": "this विधि in एक equation from किसी एक variable of मान दूसरे variable of रूप in ज्ञात कर, उfrom दूसरे equation in रखकर solution ज्ञात किया जाता है।",
-        "explanation": "पsolutionे किसी एक equation from x या y in from एक variable को दूसरे of पदों in व्यक्त करते हैं, फिर उfrom दूसरे equation in प्रतिस्थापित (substitute) करof एक variable of equation बनाते हैं and उfrom solution करते हैं।",
+        "definition": "In this method, the value of one variable from one equation is expressed in terms of the other variable and substituted into the second equation to find the solution.",
+        "explanation": "First, express one variable in terms of the other from one equation, then substitute it into the other equation to form a one-variable equation and solve it.",
         "importantPoints": [
           "Express one variable in terms of the other from one equation",
           "Substitute it into the other equation",
@@ -63,8 +63,8 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Elimination Method (Elimination Method)",
-        "definition": "this विधि in both equationों को this प्रofर multiply किया जाता है कि किसी एक variable of coefficients बराबर हो जाएँ, फिर add/subtractकर उस variable को समाप्त (विलोपित) कर दिया जाता है।",
-        "explanation": "both equationों in from किसी एक variable of coefficientsों को बराबर करने for equationों को उपयुक्त numberओं from multiply किया जाता है। फिर both equationों को addने या subtractने from एक variable समाप्त हो जाता है and दूसरे variable of मान सीधे obtained is।",
+        "definition": "In this method, both equations are multiplied in such a way that the coefficients of one variable become equal, and then that variable is eliminated by addition or subtraction.",
+        "explanation": "To make the coefficients of one variable equal in both equations, they are multiplied by suitable numbers. Then, by adding or subtracting both equations, one variable is eliminated and the value of the other variable is obtained directly.",
         "importantPoints": [
           "Multiply the equations to make the coefficients equal",
           "Add or subtract to eliminate one variable",
@@ -87,12 +87,12 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Cross Multiplication Method (Cross Multiplication Method)",
-        "definition": "a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 of रूप of equationों को एक निश्चित formula द्वारा सीधे solution करने of विधि।",
-        "explanation": "क्रॉस मल्टिप्लिofशन विधि in x/(b1c2-b2c1) = y/(c1a2-c2a1) = 1/(a1b2-a2b1) formula of प्रsum कर सीधे x and y of मान ज्ञात किए जाते हैं। यह विधि विशेष रूप from तब उपsumी है जब coefficients जटिल हों।",
+        "definition": "A method to directly solve equations of the form a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 using a specific formula.",
+        "explanation": "In the cross multiplication method, the values of x and y are found directly by applying the formula x/(b1c2-b2c1) = y/(c1a2-c2a1) = 1/(a1b2-a2b1). This method is especially useful when the coefficients are complex.",
         "importantPoints": [
           "Formula: x/(b1c2-b2c1) = y/(c1a2-c2a1) = 1/(a1b2-a2b1)",
-          "यह विधि substitution and elimination from तेज़ हो सकती है",
-          "coefficientsों को सही क्रम in रखना आवश्यक है"
+          "This method can be faster than substitution and elimination",
+          "It is necessary to keep the coefficients in the correct order"
         ],
         "highlightWords": [
           "Cross Multiplication",
@@ -109,24 +109,24 @@
       "marks": "4",
       "word_limit": "",
       "text": "Board Exam-Based Questions",
-      "parts": [
+    "parts": [
         {
-          "q_id": "5_a",
-          "statement": "निम्न रैखिक equation युग्म को Substitution Method from solution ofजिए:n7x - 15y = 2nx + 2y = 3",
+          "q_id": "a",
+          "statement": "Solve the following pair of linear equations by Substitution Method:n7x - 15y = 2nx + 2y = 3",
           "correct_answer": "x = 49/29, y = 19/29",
           "imgUrl": "",
-          "explanation": "equation (1): 7x - 15y = 2nequation (2): x + 2y = 3nnequation (2) from x of मान निofलने at:nx = 3 - 2y  --(equation 3)nnx of यह मान equation (1) in रखने at:n7(3 - 2y) - 15y = 2n21 - 14y - 15y = 2n21 - 29y = 2n-29y = 2 - 21n-29y = -19ny = 19/29nny of मान equation (3) in रखने at:nx = 3 - 2(19/29)nx = 3 - 38/29nx = (87 - 38) / 29nx = 49/29nnTherefore solution x = 49/29 and y = 19/29 है।"
+          "explanation": "Equation (1): 7x - 15y = 2nequation (2): x + 2y = 3nnFrom equation (2), finding the value of x:nx = 3 - 2y  --(equation 3)nnPutting this value of x in equation (1):n7(3 - 2y) - 15y = 2n21 - 14y - 15y = 2n21 - 29y = 2n-29y = 2 - 21n-29y = -19ny = 19/29nnPutting the value of y in equation (3):nx = 3 - 2(19/29)nx = 3 - 38/29nx = (87 - 38) / 29nx = 49/29nnTherefore, the solution is x = 49/29 and y = 19/29."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
-            "statement": "Substitution Method द्वारा solution ofजिए:ns - t = 3ns/3 + t/2 = 6",
+            "q_id": "b",
+            "statement": "Solve by Substitution Method:ns - t = 3ns/3 + t/2 = 6",
             "correct_answer": "s = 9, t = 6",
             "imgUrl": "",
-            "explanation": "equation (1): s - t = 3 => s = t + 3nequation (2): s/3 + t/2 = 6nns of मान equation (2) in रखने at:n(t + 3)/3 + t/2 = 6nलघुत्तम (LCM) लेकर On solving:n[2(t + 3) + 3t] / 6 = 6n2t + 6 + 3t = 36n5t + 6 = 36n5t = 30 => t = 6nnt of मान s = t + 3 in रखने at:ns = 6 + 3 = 9nnTherefore s = 9 and t = 6 है।"
+            "explanation": "Equation (1): s - t = 3 => s = t + 3nequation (2): s/3 + t/2 = 6nnPutting the value of s in equation (2):n(t + 3)/3 + t/2 = 6nTaking LCM and solving:n[2(t + 3) + 3t] / 6 = 6n2t + 6 + 3t = 36n5t + 6 = 36n5t = 30 => t = 6nnPutting the value of t in s = t + 3:ns = 6 + 3 = 9nnTherefore, s = 9 and t = 6."
           }
         ]
       }
@@ -139,22 +139,22 @@
       "text": "",
       "parts": [
         {
-          "q_id": "6_a",
-          "statement": "Elimination Method of प्रsum하여 निम्न equation युग्म of all possible solution find:n3x + 4y = 10n2x - 2y = 2",
+          "q_id": "a",
+          "statement": "Find all possible solutions of the following pair of equations using the Elimination Method:n3x + 4y = 10n2x - 2y = 2",
           "correct_answer": "x = 2, y = 1",
           "imgUrl": "",
-          "explanation": "equation (1): 3x + 4y = 10nequation (2): 2x - 2y = 2nny of coefficients बराबर करने for equation (2) in 2 from multiply करने at:n4x - 4y = 4  --(equation 3)nnअब equation (1) and (3) को addने at:n(3x + 4y) + (4x - 4y) = 10 + 4n7x = 14 => x = 2nnx of मान equation (2) in रखने at:n2(2) - 2y = 2n4 - 2y = 2n-2y = 2 - 4n-2y = -2 => y = 1nnTherefore x = 2 and y = 1 है।"
+          "explanation": "Equation (1): 3x + 4y = 10nequation (2): 2x - 2y = 2nnTo make the coefficients of y equal, multiply equation (2) by 2:n4x - 4y = 4  --(equation 3)nnNow adding equations (1) and (3):n(3x + 4y) + (4x - 4y) = 10 + 4n7x = 14 => x = 2nnPutting the value of x in equation (2):n2(2) - 2y = 2n4 - 2y = 2n-2y = 2 - 4n-2y = -2 => y = 1nnTherefore, x = 2 and y = 1."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
-            "statement": "Elimination Method from solution ofजिए:nx + y = 5n2x - 3y = 4",
+            "q_id": "b",
+            "statement": "Solve using Elimination Method:nx + y = 5n2x - 3y = 4",
             "correct_answer": "x = 19/5, y = 6/5",
             "imgUrl": "",
-            "explanation": "equation (1): x + y = 5nequation (2): 2x - 3y = 4nnx of coefficients बराबर करने for equation (1) in 2 from multiply करने at:n2x + 2y = 10  --(equation 3)nnequation (3) in from equation (2) subtractने at:n(2x + 2y) - (2x - 3y) = 10 - 4n2y + 3y = 6n5y = 6 => y = 6/5nny of मान equation (1) in रखने at:nx + 6/5 = 5nx = 5 - 6/5nx = (25 - 6) / 5 = 19/5nnTherefore x = 19/5 and y = 6/5 है।"
+            "explanation": "Equation (1): x + y = 5nequation (2): 2x - 3y = 4nnTo make the coefficients of x equal, multiply equation (1) by 2:n2x + 2y = 10  --(equation 3)nnSubtracting equation (2) from equation (3):n(2x + 2y) - (2x - 3y) = 10 - 4n2y + 3y = 6n5y = 6 => y = 6/5nnPutting the value of y in equation (1):nx + 6/5 = 5nx = 5 - 6/5nx = (25 - 6) / 5 = 19/5nnTherefore, x = 19/5 and y = 6/5."
           }
         ]
       }
@@ -167,22 +167,22 @@
       "text": "",
       "parts": [
         {
-          "q_id": "7_a",
-          "statement": "दो numberओं of अंतर 26 है and एक number दूसरी number of तीन गुनी है। उन्हें find।",
-          "correct_answer": "numberएँ 39 and 13 हैं",
+          "q_id": "a",
+          "statement": "The difference between two numbers is 26 and one number is three times the other. Find them.",
+          "correct_answer": "Numbers are 39 and 13",
           "imgUrl": "",
-          "explanation": "Let larger number x and smaller number y है।nप्रश्नुसार:n1) x - y = 26  --(equation 1)n2) x = 3y    --(equation 2)nnx of यह मान equation (1) in रखने at (Substitution Method):n3y - y = 26n2y = 26 => y = 13nny of मान equation (2) in रखने at:nx = 3(13) = 39nnTherefore numberएँ 39 and 13 हैं।"
+          "explanation": "Let the larger number be x and the smaller number be y.nAccording to the question:n1) x - y = 26  --(equation 1)n2) x = 3y    --(equation 2)nnPutting this value of x in equation (1) (Substitution Method):n3y - y = 26n2y = 26 => y = 13nnPutting the value of y in equation (2):nx = 3(13) = 39nnTherefore, the numbers are 39 and 13."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "7_b",
-            "statement": "एक fraction of numerator and denominator both in 2 add दिया जाए, then वह 9/11 हो जाती है। if numerator and denominator both in 3 add दिया जाए, then वह 5/6 हो जाती है। वह fraction find।",
+            "q_id": "b",
+            "statement": "If 2 is added to both the numerator and the denominator of a fraction, it becomes 9/11. If 3 is added to both the numerator and the denominator, it becomes 5/6. Find the fraction.",
             "correct_answer": "7/9",
             "imgUrl": "",
-            "explanation": "Let fraction x/y है।nAccording to the first condition:n(x + 2) / (y + 2) = 9/11n11(x + 2) = 9(y + 2)n11x + 22 = 9y + 18n11x - 9y = -4  --(equation 1)nnAccording to the second condition:n(x + 3) / (y + 3) = 5/6n6(x + 3) = 5(y + 3)n6x + 18 = 5y + 15n6x - 5y = -3  --(equation 2)nnequation (1) को 5 from and (2) को 9 from multiply करof subtractने at:n55x - 45y = -20n54x - 45y = -27n-----------------nx = 7nnx of मान equation (1) in रखने at:n11(7) - 9y = -4n77 - 9y = -4n-9y = -81 => y = 9nnTherefore required fraction 7/9 है।"
+            "explanation": "Let the fraction be x/y.nAccording to the first condition:n(x + 2) / (y + 2) = 9/11n11(x + 2) = 9(y + 2)n11x + 22 = 9y + 18n11x - 9y = -4  --(equation 1)nnAccording to the second condition:n(x + 3) / (y + 3) = 5/6n6(x + 3) = 5(y + 3)n6x + 18 = 5y + 15n6x - 5y = -3  --(equation 2)nnMultiplying equation (1) by 5 and equation (2) by 9, and subtracting:n55x - 45y = -20n54x - 45y = -27n-----------------nx = 7nnPutting the value of x in equation (1):n11(7) - 9y = -4n77 - 9y = -4n-9y = -81 => y = 9nnTherefore, the required fraction is 7/9."
           }
         ]
       }

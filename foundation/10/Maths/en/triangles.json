@@ -84,7 +84,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "In the figure, if DE || AC and DF || AE, prove that BF / FE = BE / EC.",
           "correct_answer": "Proven",
           "imgUrl": "",
@@ -95,7 +95,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "State and prove Thales Theorem (BPT).",
             "correct_answer": "Proven",
             "imgUrl": "",
@@ -112,7 +112,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "The areas of two similar triangles are 64 cm² and 121 cm² respectively. If the side of the first triangle is 15.4 cm, find the corresponding side of the second triangle.",
           "correct_answer": "21.175 cm",
           "imgUrl": "",
@@ -123,7 +123,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Prove that the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
             "correct_answer": "Proven",
             "imgUrl": "",

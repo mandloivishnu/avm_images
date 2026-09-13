@@ -107,7 +107,7 @@
       "text": "Board Exam Based Questions",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Find the roots of the quadratic equation 2x² + x - 6 = 0 by factorization method.",
           "correct_answer": "x = 3/2, x = -2",
           "imgUrl": "",
@@ -118,7 +118,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Find the roots of the equation √2x² + 7x + 5√2 = 0 by factorization method.",
             "correct_answer": "x = -√2, x = -5/√2",
             "imgUrl": "",
@@ -135,7 +135,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "Find the roots of the equation 2x² - 7x + 3 = 0 using the quadratic formula.",
           "correct_answer": "x = 3, x = 1/2",
           "imgUrl": "",
@@ -146,7 +146,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "Find the roots of the equation 2x² + x - 4 = 0 using the quadratic formula.",
             "correct_answer": "x = (-1 ± √33) / 4",
             "imgUrl": "",
@@ -163,7 +163,7 @@
       "text": "",
       "parts": [
         {
-          "q_id": "7_a",
+          "q_id": "a",
           "statement": "Find the nature of the roots of the following quadratic equation. If the roots are real, find them:n3x² - 4√3x + 4 = 0",
           "correct_answer": "Roots are real and equal, x = 2/√3, 2/√3",
           "imgUrl": "",
@@ -174,7 +174,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "7_b",
+            "q_id": "b",
             "statement": "Find the value of k for which the following quadratic equation has two equal roots:n2x² + kx + 3 = 0",
             "correct_answer": "k = ± 2√6",
             "imgUrl": "",
