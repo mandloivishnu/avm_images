@@ -13,15 +13,20 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Formulas for 3D Solids",
-        "definition": "Surface areas and volumes of standard shapes.",
-        splay: "Standard mensuration formulas.",
+        "definition": "Surface areas and volumes of standard 3D geometric shapes.",
+        "explanation": "Standard mensuration formulas used to calculate lateral/curved surface area, total surface area, and volume of solids.",
         "importantPoints": [
-          "Cylinder volume = πr²h",
-          "Cone volume = ⅓πr²h"
+          "Cuboid: TSA = 2(lb + bh + hl), Volume = lbh",
+          "Cylinder: CSA = 2πrh, Volume = πr²h",
+          "Cone: CSA = πrl, Volume = ⅓πr²h",
+          "Sphere: Surface Area = 4πr², Volume = (4/3)πr³",
+          "Hemisphere: TSA = 3πr², Volume = (2/3)πr³"
         ],
         "highlightWords": [
           "surface area",
-          "volume"
+          "volume",
+          "cylinder",
+          "cone"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -39,7 +44,7 @@
           "statement": "Two cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid.",
           "correct_answer": "160 cm²",
           "imgUrl": "",
-          "explanation": "Surface area = 160 cm²."
+          "explanation": "Given:\nVolume of each cube ($V$) = $64\\text{ cm}^3$\n\nStep 1: Find the side length ($a$) of each cube.\n$a^3 = 64 \\implies a = \\sqrt[3]{64} = 4\\text{ cm}$\n\nStep 2: Determine the dimensions of the resulting cuboid when joined end to end:\nLength ($l$) = $4 + 4 = 8\\text{ cm}$\nBreadth ($b$) = $4\\text{ cm}$\nHeight ($h$) = $4\\text{ cm}$\n\nStep 3: Calculate the total surface area of the cuboid:\nTotal Surface Area = $2(lb + bh + hl)$\n$= 2(8 \\times 4 + 4 \\times 4 + 4 \\times 8)$\n$= 2(32 + 16 + 32)$\n$= 2(80) = 160\\text{ cm}^2$\n\nTherefore, the surface area of the resulting cuboid is $160\\text{ cm}^2$."
         }
       ],
       "or_option": {
@@ -47,10 +52,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "A toy is in the form of a cone mounted on a hemisphere. Find total surface area.",
+            "statement": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Use π = 22/7)",
             "correct_answer": "214.5 cm²",
             "imgUrl": "",
-            "explanation": "Total surface area = 214.5 cm²."
+            "explanation": "Given:\nRadius of hemisphere ($r$) = $3.5\\text{ cm} = \\frac{7}{2}\\text{ cm}$\nTotal height of the toy = $15.5\\text{ cm}$\n\nStep 1: Find the height of the conical part ($h$):\n$h = \\text{Total height} - \\text{Radius of hemisphere}$\n$h = 15.5 - 3.5 = 12\\text{ cm}$\n\nStep 2: Find the slant height ($l$) of the cone:\n$l = \\sqrt{r^2 + h^2} = \\sqrt{(3.5)^2 + 12^2} = \\sqrt{12.25 + 144} = \\sqrt{156.25} = 12.5\\text{ cm}$\n\nStep 3: Calculate the total surface area of the toy:\nTotal Surface Area = CSA of cone + CSA of hemisphere\n$= \\pi rl + 2\\pi r^2 = \\pi r(l + 2r)$\n$= \\frac{22}{7} \\times 3.5 \\times (12.5 + 2 \\times 3.5)$\n$= \\frac{22}{7} \\times \\frac{7}{2} \\times (12.5 + 7)$\n$= 11 \\times 19.5 = 214.5\\text{ cm}^2$\n\nTherefore, the total surface area of the toy is $214.5\\text{ cm}^2$."
           }
         ]
       }
@@ -64,10 +69,10 @@
       "parts": [
         {
           "q_id": "a",
-          "statement": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. Find its surface area.",
+          "statement": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm. Find its surface area.",
           "correct_answer": "220 mm²",
           "imgUrl": "",
-          "explanation": "Surface area = 220 mm²."
+          "explanation": "Given:\nTotal length of capsule = $14\\text{ mm}$\nDiameter = $5\\text{ mm} \\implies \\text{Radius } (r) = \\frac{5}{2} = 2.5\\text{ mm}$\n\nStep 1: Find the length of the cylindrical part ($h$):\n$h = \\text{Total length} - (r \\text{ of left hemisphere} + r \\text{ of right hemisphere})$\n$h = 14 - (2.5 + 2.5) = 14 - 5 = 9\\text{ mm}$\n\nStep 2: Calculate the total surface area of the capsule:\nSurface Area = CSA of cylinder + $2 \\times (\\text{CSA of hemisphere})$\n$= 2\\pi rh + 2(2\\pi r^2) = 2\\pi r(h + 2r)$\n$= 2 \\times \\frac{22}{7} \\times 2.5 \\times (9 + 2 \\times 2.5)$\n$= \\frac{44}{7} \\times 2.5 \\times (9 + 5)$\n$= \\frac{44}{7} \\times 2.5 \\times 14 = 44 \\times 2.5 \\times 2 = 44 \\times 5 = 220\\text{ mm}^2$\n\nTherefore, the surface area of the capsule is $220\\text{ mm}^2$."
         }
       ],
       "or_option": {
@@ -75,10 +80,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "From a solid cylinder, a conical cavity of same height and diameter is hollowed out. Find the total surface area of remaining solid.",
+            "statement": "From a solid cylinder of height 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm².",
             "correct_answer": "18 cm²",
             "imgUrl": "",
-            "explanation": "Surface area ≈ 18 cm²."
+            "explanation": "Given:\nHeight of cylinder ($h$) = $2.4\\text{ cm}$\nDiameter = $1.4\\text{ cm} \\implies \\text{Radius } (r) = 0.7\\text{ cm}$\nThe height and radius of the cone are equal to that of the cylinder.\n\nStep 1: Find the slant height ($l$) of the cone:\n$l = \\sqrt{r^2 + h^2} = \\sqrt{(0.7)^2 + (2.4)^2} = \\sqrt{0.49 + 5.76} = \\sqrt{6.25} = 2.5\\text{ cm}$\n\nStep 2: Calculate the total surface area of the remaining solid:\nTotal Surface Area = CSA of cylinder + Area of circular base + CSA of cone\n$= 2\\pi rh + \\pi r^2 + \\pi rl = \\pi r(2h + r + l)$\n$= \\frac{22}{7} \\times 0.7 \\times (2(2.4) + 0.7 + 2.5)$\n$= 22 \\times 0.1 \\times (4.8 + 3.2)$\n$= 2.2 \\times 8 = 17.6\\text{ cm}^2 \\approx 18\\text{ cm}^2$\n\nTherefore, the total surface area of the remaining solid is approximately $18\\text{ cm}^2$."
           }
         ]
       }
@@ -92,10 +97,10 @@
       "parts": [
         {
           "q_id": "a",
-          "statement": "A tent is in the shape of a cylinder surmounted by a conical top. Find the canvas required and its cost.",
+          "statement": "A tent is in the shape of a cylinder surmounted by a conical top. If the height and diameter of the cylindrical part are 2.1 m and 4 m respectively, and the slant height of the top is 2.8 m, find the area of the canvas used for making the tent. Also, find the cost of the canvas of the tent at the rate of ₹ 500 per m².",
           "correct_answer": "Area 44 m², Cost ₹ 22,000",
           "imgUrl": "",
-          "explanation": "Area = 44 m², Cost = ₹ 22,000."
+          "explanation": "Given:\nHeight of cylinder ($h$) = $2.1\\text{ m}$\nDiameter = $4\\text{ m} \\implies \\text{Radius } (r) = 2\\text{ m}$\nSlant height of cone ($l$) = $2.8\\text{ m}$\n\nStep 1: Calculate the area of the canvas:\nCanvas Area = CSA of cylinder + CSA of cone\n$= 2\\pi rh + \\pi rl = \\pi r(2h + l)$\n$= \\frac{22}{7} \\times 2 \\times (2(2.1) + 2.8)$\n$= \\frac{44}{7} \\times (4.2 + 2.8) = \\frac{44}{7} \\times 7 = 44\\text{ m}^2$\n\nStep 2: Calculate the total cost:\nCost = Area $\\times$ Rate $= 44 \\times 500 = ₹ 22,000$\n\nTherefore, the area of canvas used is $44\\text{ m}^2$ and its total cost is ₹ $22,000$."
         }
       ],
       "or_option": {
@@ -106,7 +111,7 @@
             "statement": "A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone is equal to its radius. Find the volume of the solid in terms of π.",
             "correct_answer": "π cm³",
             "imgUrl": "",
-            "explanation": "Volume = π cm³."
+            "explanation": "Given:\nRadius of hemisphere ($r$) = $1\\text{ cm}$\nRadius of cone ($r$) = $1\\text{ cm}$\nHeight of cone ($h$) = $1\\text{ cm}$\n\nStep 1: Calculate the volume of the solid:\nVolume = Volume of cone + Volume of hemisphere\n$= \\frac{1}{3}\\pi r^2 h + \\frac{2}{3}\\pi r^3$\n$= \\frac{1}{3}\\pi (1)^2 (1) + \\frac{2}{3}\\pi (1)^3$\n$= \\frac{1}{3}\\pi + \\frac{2}{3}\\pi = \\frac{3}{3}\\pi = \\pi\\text{ cm}^3$\n\nTherefore, the volume of the solid is $\\pi\\text{ cm}^3$."
           }
         ]
       }
@@ -123,7 +128,7 @@
           "statement": "A drinking glass is in the shape of a frustum of a cone of height 14 cm. The diameters of its two circular ends are 4 cm and 2 cm. Find the capacity of the glass.",
           "correct_answer": "308/3 cm³",
           "imgUrl": "",
-          "explanation": "Capacity = 308/3 cm³."
+          "explanation": "Given:\nHeight of frustum ($h$) = $14\\text{ cm}$\nRadius of top end ($r_1$) = $4 / 2 = 2\\text{ cm}$\nRadius of bottom end ($r_2$) = $2 / 2 = 1\\text{ cm}$\n\nStep 1: Calculate the capacity (volume) of the glass:\nVolume = $\\frac{1}{3}\\pi h (r_1^2 + r_2^2 + r_1 r_2)$\n$= \\frac{1}{3} \\times \\frac{22}{7} \\times 14 \\times (2^2 + 1^2 + 2 \\times 1)$\n$= \\frac{1}{3} \\times 44 \\times (4 + 1 + 2)$\n$= \\frac{1}{3} \\times 44 \\times 7 = \\frac{308}{3}\\text{ cm}^3$\n\nTherefore, the capacity of the glass is $\\frac{308}{3}\\text{ cm}^3$."
         }
       ],
       "or_option": {
@@ -134,7 +139,7 @@
             "statement": "How many silver coins, 1.75 cm in diameter and of thickness 2 mm, must be melted to form a cuboid of dimensions 5.5 cm × 10 cm × 3.5 cm?",
             "correct_answer": "400 coins",
             "imgUrl": "",
-            "explanation": "Number of coins = 400."
+            "explanation": "Given:\nDimensions of cuboid = $5.5\\text{ cm} \\times 10\\text{ cm} \\times 3.5\\text{ cm}$\nVolume of cuboid = $5.5 \\times 10 \\times 3.5 = 192.5\\text{ cm}^3$\n\nFor each cylindrical silver coin:\nDiameter = $1.75\\text{ cm} \\implies \\text{Radius } (r) = \\frac{1.75}{2} = \\frac{7}{8}\\text{ cm}$\nThickness ($h$) = $2\\text{ mm} = 0.2\\text{ cm} = \\frac{1}{5}\\text{ cm}$\nVolume of one coin = $\\pi r^2 h = \\frac{22}{7} \\times \\left(\\frac{7}{8}\\right)^2 \\times \\frac{1}{5} = \\frac{22}{7} \\times \\frac{49}{64} \\times \\frac{1}{5} = \\frac{77}{80}\\text{ cm}^3$\n\nStep 2: Find the number of coins required:\nNumber of coins = $\\frac{\\text{Volume of cuboid}}{\\text{Volume of one coin}} = \\frac{192.5}{77 / 80} = \\frac{192.5 \\times 80}{77} = 2.5 \\times 160 = 400$\n\nTherefore, 400 silver coins must be melted."
           }
         ]
       }

@@ -12,16 +12,20 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Quadratic Formula",
-        "definition": "Roots given by x = [-b ± √(b² - 4ac)] / 2a.",
-        "explanation": "Discriminant D = b² - 4ac determines root nature.",
+        "title": "Quadratic Formula and Discriminant",
+        "definition": "The roots of a quadratic equation ax² + bx + c = 0 are given by the quadratic formula: x = [-b ± √(b² - 4ac)] / 2a.",
+        "explanation": "The expression D = b² - 4ac is called the discriminant. It determines the nature of the roots of a quadratic equation.",
         "importantPoints": [
-          "Quadratic formula",
-          "Discriminant D"
+          "Quadratic Formula: x = [-b ± √(b² - 4ac)] / 2a",
+          "Discriminant D = b² - 4ac",
+          "If D > 0, two distinct real roots exist",
+          "If D = 0, two equal real roots exist",
+          "If D < 0, no real roots exist"
         ],
         "highlightWords": [
           "Quadratic formula",
-          "discriminant"
+          "discriminant",
+          "roots"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -39,7 +43,7 @@
           "statement": "Find the roots of the quadratic equation 2x² + x - 6 = 0 by factorization method.",
           "correct_answer": "x = 3/2, x = -2",
           "imgUrl": "",
-          "explanation": "Roots are 3/2 and -2."
+          "explanation": "Given quadratic equation:\n2x² + x - 6 = 0\n\nStep 1: Identify coefficients. Here a = 2, b = 1, c = -6.\nProduct ac = 2 × (-6) = -12.\nStep 2: Split the middle term (+x) into two parts whose product is -12 and sum is +1. These are +4x and -3x.\n2x² + 4x - 3x - 6 = 0\n\nStep 3: Factor by grouping:\n2x(x + 2) - 3(x + 2) = 0\n(2x - 3)(x + 2) = 0\n\nStep 4: Equate each factor to zero:\n2x - 3 = 0 => x = 3/2\nx + 2 = 0 => x = -2\n\nTherefore, the roots of the equation are x = 3/2 and x = -2."
         }
       ],
       "or_option": {
@@ -50,7 +54,7 @@
             "statement": "Find the roots of the equation 2x² - 7x + 3 = 0 using the quadratic formula.",
             "correct_answer": "x = 3, x = 1/2",
             "imgUrl": "",
-            "explanation": "Roots are 3 and 1/2."
+            "explanation": "Given quadratic equation:\n2x² - 7x + 3 = 0\n\nStep 1: Compare with ax² + bx + c = 0 to find coefficients:\na = 2, b = -7, c = 3\n\nStep 2: Calculate the discriminant (D):\nD = b² - 4ac\nD = (-7)² - 4(2)(3)\nD = 49 - 24 = 25\n\nStep 3: Apply the quadratic formula:\nx = [-b ± √D] / (2a)\nx = [-(-7) ± √25] / (2 × 2)\nx = [7 ± 5] / 4\n\nStep 4: Solve for both signs:\nFor positive sign: x = (7 + 5) / 4 = 12 / 4 = 3\nFor negative sign: x = (7 - 5) / 4 = 2 / 4 = 1/2\n\nTherefore, the roots are x = 3 and x = 1/2."
           }
         ]
       }
@@ -67,7 +71,7 @@
           "statement": "Find two numbers whose sum is 27 and product is 182.",
           "correct_answer": "13 and 14",
           "imgUrl": "",
-          "explanation": "Numbers are 13 and 14."
+          "explanation": "Step 1: Let the first number be x.\nThen the second number will be (27 - x).\n\nStep 2: According to the question, their product is 182:\nx(27 - x) = 182\n27x - x² = 182\nx² - 27x + 182 = 0\n\nStep 3: Solve by factorization:\nx² - 13x - 14x + 182 = 0\nx(x - 13) - 14(x - 13) = 0\n(x - 13)(x - 14) = 0\n\nStep 4: Find the numbers:\nx = 13 or x = 14\nIf first number is 13, the second is 27 - 13 = 14.\n\nTherefore, the two numbers are 13 and 14."
         }
       ],
       "or_option": {
@@ -78,7 +82,7 @@
             "statement": "Find two consecutive positive integers, sum of whose squares is 365.",
             "correct_answer": "13 and 14",
             "imgUrl": "",
-            "explanation": "Integers are 13 and 14."
+            "explanation": "Step 1: Let the first positive integer be x.\nThe consecutive positive integer is (x + 1).\n\nStep 2: Set up the equation based on the sum of their squares:\nx² + (x + 1)² = 365\nx² + x² + 2x + 1 = 365\n2x² + 2x + 1 - 365 = 0\n2x² + 2x - 364 = 0\n\nStep 3: Divide the entire equation by 2:\nx² + x - 182 = 0\n\nStep 4: Factorize the quadratic equation:\nx² + 14x - 13x - 182 = 0\nx(x + 14) - 13(x + 14) = 0\n(x + 14)(x - 13) = 0\n\nSince x must be a positive integer, x = 13.\nTherefore, the integers are 13 and (13 + 1) = 14."
           }
         ]
       }
@@ -95,7 +99,7 @@
           "statement": "The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, find the other two sides.",
           "correct_answer": "Base 12 cm, Altitude 5 cm",
           "imgUrl": "",
-          "explanation": "Base is 12 cm and altitude is 5 cm."
+          "explanation": "Step 1: Let the base of the right triangle be x cm.\nThen its altitude = (x - 7) cm.\nGiven hypotenuse = 13 cm.\n\nStep 2: Apply Pythagoras theorem:\nBase² + Altitude² = Hypotenuse²\nx² + (x - 7)² = 13²\n\nStep 3: Expand and simplify:\nx² + x² - 14x + 49 = 169\n2x² - 14x + 49 - 169 = 0\n2x² - 14x - 120 = 0\n\nStep 4: Divide by 2:\nx² - 7x - 60 = 0\n\nStep 5: Factorize:\nx² - 12x + 5x - 60 = 0\nx(x - 12) + 5(x - 12) = 0\n(x + 5)(x - 12) = 0\n\nSince side length cannot be negative, x = 12 cm (Base).\nAltitude = 12 - 7 = 5 cm.\n\nTherefore, the base is 12 cm and the altitude is 5 cm."
         }
       ],
       "or_option": {
@@ -106,7 +110,7 @@
             "statement": "A cottage industry produces a certain number of pottery articles in a day. It was observed on a particular day that the cost of production of each article was 3 more than twice the number of articles produced on that day. If the total cost of production on that day was ₹ 90, find the number of articles produced and the cost of each article.",
             "correct_answer": "Articles: 6, Cost: ₹ 15",
             "imgUrl": "",
-            "explanation": "Number of articles = 6, Cost = ₹ 15."
+            "explanation": "Step 1: Let the number of articles produced in a day be x.\nCost of production of each article = (2x + 3) ₹.\n\nStep 2: Total cost of production is given as ₹ 90:\nx × (2x + 3) = 90\n2x² + 3x = 90\n2x² + 3x - 90 = 0\n\nStep 3: Solve by factorization:\n2x² + 15x - 12x - 90 = 0\nx(2x + 15) - 6(2x + 15) = 0\n(x - 6)(2x + 15) = 0\n\nSince the number of articles cannot be negative or a fraction, x = 6.\nCost of each article = 2(6) + 3 = 12 + 3 = ₹ 15.\n\nTherefore, the number of articles produced is 6 and the cost of each article is ₹ 15."
           }
         ]
       }
@@ -123,7 +127,7 @@
           "statement": "Find the value of k for the quadratic equation 2x² + kx + 3 = 0, so that they have two equal roots.",
           "correct_answer": "k = ±2√6",
           "imgUrl": "",
-          "explanation": "k = ±2√6."
+          "explanation": "Given quadratic equation:\n2x² + kx + 3 = 0\n\nStep 1: Identify coefficients:\na = 2, b = k, c = 3\n\nStep 2: Condition for equal roots is that the discriminant D must be zero:\nD = b² - 4ac = 0\nk² - 4(2)(3) = 0\nk² - 24 = 0\n\nStep 3: Solve for k:\nk² = 24\nk = ±√24 = ±2√6\n\nTherefore, the value of k is ±2√6."
         }
       ],
       "or_option": {
@@ -134,7 +138,7 @@
             "statement": "Is it possible to design a rectangular mango grove whose length is twice its breadth, and the area is 800 m²? If so, find its length and breadth.",
             "correct_answer": "Breadth = 20 m, Length = 40 m",
             "imgUrl": "",
-            "explanation": "Yes, breadth = 20 m, length = 40 m."
+            "explanation": "Step 1: Let the breadth of the grove be x meters.\nThen its length = 2x meters.\n\nStep 2: Area of the rectangular grove = length × breadth:\nx × 2x = 800\n2x² = 800\nx² = 400\n\nStep 3: Solve for x:\nx = ±√400 = ±20\nSince breadth cannot be negative, x = 20 m.\n\nStep 4: Find length and breadth:\nBreadth = 20 m\nLength = 2 × 20 = 40 m\n\nTherefore, it is possible to design such a grove, and its breadth is 20 m while its length is 40 m."
           }
         ]
       }

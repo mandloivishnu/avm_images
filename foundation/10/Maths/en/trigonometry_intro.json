@@ -13,15 +13,21 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Trigonometric Ratios and Identities",
-        "definition": "Standard ratios and fundamental identities.",
-        "explanation": "Core trigonometric concepts for right triangles.",
+        "definition": "Standard ratios and fundamental identities in a right-angled triangle.",
+        "explanation": "Trigonometric ratios relate the angles of a right-angled triangle to the lengths of its sides. Fundamental identities like sin²θ + cos²θ = 1 help simplify expressions.",
         "importantPoints": [
+          "sin θ = Perpendicular / Hypotenuse",
+          "cos θ = Base / Hypotenuse",
+          "tan θ = Perpendicular / Base",
           "sin²θ + cos²θ = 1",
-          "1 + tan²θ = sec²θ"
+          "1 + tan²θ = sec²θ",
+          "1 + cot²θ = cosec²θ"
         ],
         "highlightWords": [
           "trigonometric ratios",
-          "identity"
+          "identity",
+          "perpendicular",
+          "hypotenuse"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -39,7 +45,7 @@
           "statement": "If sin A = 3/4, calculate cos A and tan A.",
           "correct_answer": "cos A = (√7)/4, tan A = 3/√7",
           "imgUrl": "",
-          "explanation": "cos A = √7/4, tan A = 3/√7."
+          "explanation": "Given:\nsin A = Perpendicular / Hypotenuse = 3 / 4\n\nStep 1: Let Perpendicular (BC) = 3k and Hypotenuse (AC) = 4k, where k is a positive integer.\n\nStep 2: Apply the Pythagoras theorem in right-angled triangle ABC:\nAC² = AB² + BC²\n(4k)² = AB² + (3k)²\n16k² = AB² + 9k²\nAB² = 16k² - 9k² = 7k²\nAB = √7k (Base)\n\nStep 3: Calculate cos A and tan A:\ncos A = Base / Hypotenuse = (√7k) / (4k) = √7 / 4\ntan A = Perpendicular / Base = (3k) / (√7k) = 3 / √7\n\nTherefore, cos A = √7 / 4 and tan A = 3 / √7."
         }
       ],
       "or_option": {
@@ -50,7 +56,7 @@
             "statement": "Evaluate: sin 60° cos 30° + sin 30° cos 60°",
             "correct_answer": "1",
             "imgUrl": "",
-            "explanation": "Value = 1."
+            "explanation": "Step 1: Substitute the standard trigonometric values:\nsin 60° = √3 / 2\ncos 30° = √3 / 2\nsin 30° = 1 / 2\ncos 60° = 1 / 2\n\nStep 2: Substitute these values into the given expression:\n= (√3 / 2) × (√3 / 2) + (1 / 2) × (1 / 2)\n= (3 / 4) + (1 / 4)\n= (3 + 1) / 4\n= 4 / 4 = 1\n\nTherefore, the evaluated value is 1."
           }
         ]
       }
@@ -67,7 +73,7 @@
           "statement": "Prove that: (sin A + cosec A)² + (cos A + sec A)² = 7 + tan² A + cot² A",
           "correct_answer": "Proven",
           "imgUrl": "",
-          "explanation": "Proved using algebraic expansion and identities."
+          "explanation": "Step 1: Write the Left Hand Side (LHS):\nLHS = (sin A + cosec A)² + (cos A + sec A)²\n\nStep 2: Expand using the algebraic identity (a + b)² = a² + b² + 2ab:\n= (sin² A + cosec² A + 2 sin A cosec A) + (cos² A + sec² A + 2 cos A sec A)\n\nStep 3: Simplify using reciprocal relations (sin A cosec A = 1 and cos A sec A = 1) and fundamental identity (sin² A + cos² A = 1):\n= (sin² A + cos² A) + cosec² A + sec² A + 2(1) + 2(1)\n= 1 + cosec² A + sec² A + 2 + 2\n= 5 + cosec² A + sec² A\n\nStep 4: Use trigonometric identities (cosec² A = 1 + cot² A and sec² A = 1 + tan² A):\n= 5 + (1 + cot² A) + (1 + tan² A)\n= 7 + tan² A + cot² A = RHS\n\nHence proved."
         }
       ],
       "or_option": {
@@ -78,7 +84,7 @@
             "statement": "If tan(A + B) = √3 and tan(A - B) = 1/√3, find A and B.",
             "correct_answer": "A = 45°, B = 15°",
             "imgUrl": "",
-            "explanation": "A = 45°, B = 15°."
+            "explanation": "Given:\ntan(A + B) = √3\ntan(A - B) = 1 / √3\n\nStep 1: Use standard angle values:\nSince tan 60° = √3, therefore:\nA + B = 60°  --- (Equation 1)\n\nSince tan 30° = 1 / √3, therefore:\nA - B = 30°  --- (Equation 2)\n\nStep 2: Add Equation 1 and Equation 2:\n(A + B) + (A - B) = 60° + 30°\n2A = 90° => A = 45°\n\nStep 3: Substitute A = 45° into Equation 1:\n45° + B = 60° => B = 60° - 45° = 15°\n\nTherefore, A = 45° and B = 15°."
           }
         ]
       }
@@ -95,7 +101,7 @@
           "statement": "Prove that √[(1 + sin A) / (1 - sin A)] = sec A + tan A",
           "correct_answer": "Proven",
           "imgUrl": "",
-          "explanation": "Proved by rationalizing the denominator."
+          "explanation": "Step 1: Start with the Left Hand Side (LHS):\nLHS = √[(1 + sin A) / (1 - sin A)]\n\nStep 2: Rationalize the denominator inside the square root by multiplying numerator and denominator by (1 + sin A):\n= √[((1 + sin A)(1 + sin A)) / ((1 - sin A)(1 + sin A))]\n= √[(1 + sin A)² / (1 - sin² A)]\n\nStep 3: Use the identity 1 - sin² A = cos² A:\n= √[(1 + sin A)² / cos² A]\n\nStep 4: Take the square root:\n= (1 + sin A) / cos A\n= (1 / cos A) + (sin A / cos A)\n= sec A + tan A = RHS\n\nHence proved."
         }
       ],
       "or_option": {
@@ -106,7 +112,7 @@
             "statement": "Evaluate: [5 cos² 60° + 4 sec² 30° - tan² 45°] / [sin² 30° + cos² 30°]",
             "correct_answer": "67/12",
             "imgUrl": "",
-            "explanation": "Value = 67/12."
+            "explanation": "Step 1: Write down standard trigonometric values:\ncos 60° = 1 / 2\nsec 30° = 2 / √3\ntan 45° = 1\nsin 30° = 1 / 2\ncos 30° = √3 / 2\n\nStep 2: Substitute these values into the numerator and denominator:\nNumerator = 5(1/2)² + 4(2/√3)² - (1)²\n= 5(1/4) + 4(4/3) - 1\n= (5/4) + (16/3) - 1\nTaking LCM (12):\n= (15 + 64 - 12) / 12 = 67 / 12\n\nDenominator = (1/2)² + (√3/2)²\n= (1/4) + (3/4) = 4/4 = 1\n\nStep 3: Compute final value:\nExpression = (67 / 12) / 1 = 67 / 12.\n\nTherefore, the evaluated value is 67/12."
           }
         ]
       }
@@ -123,7 +129,7 @@
           "statement": "Prove that (cos θ - sin θ + 1) / (cos θ + sin θ - 1) = cosec θ + cot θ using the identity cosec² θ = 1 + cot² θ.",
           "correct_answer": "Proven",
           "imgUrl": "",
-          "explanation": "Proved successfully."
+          "explanation": "Step 1: Divide every term in the numerator and denominator by sin θ to introduce cot θ and cosec θ:\nLHS = [(cos θ / sin θ) - (sin θ / sin θ) + (1 / sin θ)] / [(cos θ / sin θ) + (sin θ / sin θ) - (1 / sin θ)]\n= (cot θ - 1 + cosec θ) / (cot θ + 1 - cosec θ)\n\nStep 2: Rewrite the numerator using the identity 1 = cosec² θ - cot² θ:\n= [cot θ + cosec θ - (cosec² θ - cot² θ)] / (cot θ + 1 - cosec θ)\n\nStep 3: Factor out (cot θ + cosec θ) from the numerator:\n= [(cot θ + cosec θ) - (cosec θ - cot θ)(cosec θ + cot θ)] / (cot θ + 1 - cosec θ)\n= (cot θ + cosec θ) [1 - (cosec θ - cot θ)] / (cot θ + 1 - cosec θ)\n= (cot θ + cosec θ) (1 - cosec θ + cot θ) / (cot θ + 1 - cosec θ)\n\nStep 4: Cancel out the common term (1 - cosec θ + cot θ) from numerator and denominator:\n= cot θ + cosec θ = RHS\n\nHence proved."
         }
       ],
       "or_option": {
@@ -134,7 +140,7 @@
             "statement": "Prove that (sin θ - 2 sin³ θ) / (2 cos³ θ - cos θ) = tan θ",
             "correct_answer": "Proven",
             "imgUrl": "",
-            "explanation": "Proved successfully."
+            "explanation": "Step 1: Write the Left Hand Side (LHS):\nLHS = (sin θ - 2 sin³ θ) / (2 cos³ θ - cos θ)\n\nStep 2: Factor out sin θ from the numerator and cos θ from the denominator:\n= [sin θ (1 - 2 sin² θ)] / [cos θ (2 cos² θ - 1)]\n\nStep 3: Convert either sin² θ to cos² θ or vice-versa using sin² θ + cos² θ = 1 (or cos² θ = 1 - sin² θ):\nNumerator terms remain: 1 - 2 sin² θ\nDenominator becomes: 2(1 - sin² θ) - 1 = 2 - 2 sin² θ - 1 = 1 - 2 sin² θ\n\nStep 4: Substitute back:\n= [sin θ (1 - 2 sin² θ)] / [cos θ (1 - 2 sin² θ)]\n\nStep 5: Cancel out the common term (1 - 2 sin² θ):\n= sin θ / cos θ = tan θ = RHS\n\nHence proved."
           }
         ]
       }

@@ -32,14 +32,14 @@
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "",
-      "text": "Board Exam-Based Questions",
+      "text": "Board Exam Based Questions",
       "parts": [
         {
           "q_id": "a",
           "statement": "Find the zeros of the quadratic polynomial x² - 2x - 8 and verify the relationship between the zeros and the coefficients.",
           "correct_answer": "Zeros: 4 and -2",
           "imgUrl": "",
-          "explanation": "Given polynomial: $p(x) = x^2 - 2x - 8$\nBy splitting the middle term:\n$x^2 - 4x + 2x - 8 = 0$\n$x(x - 4) + 2(x - 4) = 0$\n$(x - 4)(x + 2) = 0$\nTherefore, the zeros are $x = 4$ and $x = -2$ (let $\\alpha = 4, \\beta = -2$).\n\nVerification:\n1) Sum of zeros: $\\alpha + \\beta = 4 + (-2) = 2$\nFrom coefficients: $-\\frac{b}{a} = -\\frac{-2}{1} = 2$ (Verified)\n\n2) Product of zeros: $\\alpha\\beta = 4 \\times (-2) = -8$\nFrom coefficients: $\\frac{c}{a} = \\frac{-8}{1} = -8$ (Verified)."
+          "explanation": "Given polynomial p(x) = x² - 2x - 8\nSplitting the middle term:\nx² - 4x + 2x - 8 = 0\nx(x - 4) + 2(x - 4) = 0\n(x - 4)(x + 2) = 0\nTherefore, the zeros are x = 4 and x = -2 (Let α = 4, β = -2).\n\nVerification:\n1) Sum of zeros: α + β = 4 + (-2) = 2\nFrom coefficients (-b/a) = -(-2)/1 = 2 (Verified).\n\n2) Product of zeros: αβ = 4 × (-2) = -8\nFrom coefficients (c/a) = -8/1 = -8 (Verified)."
         }
       ],
       "or_option": {
@@ -50,7 +50,7 @@
             "statement": "Find a quadratic polynomial with the given numbers as the sum and product of its zeros respectively: -3 and 2.",
             "correct_answer": "x² + 3x + 2",
             "imgUrl": "",
-            "explanation": "Given:\nSum of zeros $(\\alpha + \\beta) = -3$\nProduct of zeros $(\\alpha\\beta) = 2$\n\nThe general formula for a quadratic polynomial is:\n$p(x) = x^2 - (\\alpha + \\beta)x + \\alpha\\beta$\n$p(x) = x^2 - (-3)x + 2$\n$p(x) = x^2 + 3x + 2$\n\nTherefore, the required quadratic polynomial is $x^2 + 3x + 2$."
+            "explanation": "Given:\nSum of zeros (α + β) = -3\nProduct of zeros (αβ) = 2\n\nThe general formula for a quadratic polynomial is:\np(x) = x² - (α + β)x + αβ\np(x) = x² - (-3)x + 2\np(x) = x² + 3x + 2\n\nTherefore, the required quadratic polynomial is x² + 3x + 2."
           }
         ]
       }
@@ -67,7 +67,7 @@
           "statement": "Find the zeros of the quadratic polynomial 4s² - 4s + 1 and verify the relationship.",
           "correct_answer": "1/2 and 1/2",
           "imgUrl": "",
-          "explanation": "Given polynomial: $p(s) = 4s^2 - 4s + 1$\n$4s^2 - 2s - 2s + 1 = 0$\n$2s(2s - 1) - 1(2s - 1) = 0$\n$(2s - 1)(2s - 1) = 0$\nTherefore, $s = \\frac{1}{2}, \\frac{1}{2}$.\n\nVerification:\nSum = $\\frac{1}{2} + \\frac{1}{2} = 1$, and $-\\frac{b}{a} = -\\frac{-4}{4} = 1$ (Verified)\nProduct = $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$, and $\\frac{c}{a} = \\frac{1}{4}$ (Verified)."
+          "explanation": "Given polynomial p(s) = 4s² - 4s + 1\n4s² - 2s - 2s + 1 = 0\n2s(2s - 1) - 1(2s - 1) = 0\n(2s - 1)(2s - 1) = 0\nTherefore, s = 1/2, 1/2.\n\nVerification:\nSum of zeros = 1/2 + 1/2 = 1, and -b/a = -(-4)/4 = 1 (Verified).\nProduct of zeros = (1/2) × (1/2) = 1/4, and c/a = 1/4 (Verified)."
         }
       ],
       "or_option": {
@@ -78,7 +78,7 @@
             "statement": "Find the zeros of the polynomial 3x² - x - 4 and verify the relationship.",
             "correct_answer": "4/3 and -1",
             "imgUrl": "",
-            "explanation": "Given polynomial: $p(x) = 3x^2 - x - 4$\n$3x^2 - 4x + 3x - 4 = 0$\n$x(3x - 4) + 1(3x - 4) = 0$\n$(3x - 4)(x + 1) = 0$\nTherefore, $x = \\frac{4}{3}$ or $x = -1$.\n\nVerification:\nSum = $\\frac{4}{3} + (-1) = \\frac{1}{3}$, and $-\\frac{b}{a} = -\\frac{-1}{3} = \\frac{1}{3}$ (Verified)\nProduct = $\\frac{4}{3} \\times (-1) = -\\frac{4}{3}$, and $\\frac{c}{a} = \\frac{-4}{3}$ (Verified)."
+            "explanation": "Given polynomial p(x) = 3x² - x - 4\n3x² - 4x + 3x - 4 = 0\nx(3x - 4) + 1(3x - 4) = 0\n(3x - 4)(x + 1) = 0\nTherefore, x = 4/3 or x = -1.\n\nVerification:\nSum = 4/3 + (-1) = 1/3, and -b/a = -(-1)/3 = 1/3 (Verified).\nProduct = (4/3) × (-1) = -4/3, and c/a = -4/3 (Verified)."
           }
         ]
       }
@@ -95,7 +95,7 @@
           "statement": "Find the zeros of the polynomial t² - 15 and verify the relationship.",
           "correct_answer": "√15 and -√15",
           "imgUrl": "",
-          "explanation": "Given polynomial: $p(t) = t^2 - 15$\n$t^2 - (\\sqrt{15})^2 = 0$\n$(t - \\sqrt{15})(t + \\sqrt{15}) = 0$\nTherefore, $t = \\sqrt{15}$ or $t = -\\sqrt{15}$.\n\nVerification:\nSum = $\\sqrt{15} + (-\\sqrt{15}) = 0$, and $-\\frac{b}{a} = -\\frac{0}{1} = 0$ (Verified)\nProduct = $\\sqrt{15} \\times (-\\sqrt{15}) = -15$, and $\\frac{c}{a} = \\frac{-15}{1} = -15$ (Verified)."
+          "explanation": "Given polynomial p(t) = t² - 15\nt² = 15 => t = ±√15\nTherefore, zeros are √15 and -√15.\n\nVerification:\nSum of zeros = √15 + (-√15) = 0, and -b/a = -0/1 = 0 (Verified).\nProduct = (√15) × (-√15) = -15, and c/a = -15/1 = -15 (Verified)."
         }
       ],
       "or_option": {
@@ -106,7 +106,7 @@
             "statement": "Find the zeros of the polynomial 6x² - 3 - 7x.",
             "correct_answer": "3/2 and -1/3",
             "imgUrl": "",
-            "explanation": "Rearranging into standard form: $6x^2 - 7x - 3 = 0$\n$6x^2 - 9x + 2x - 3 = 0$\n$3x(2x - 3) + 1(2x - 3) = 0$\n$(3x + 1)(2x - 3) = 0$\nTherefore, $x = \\frac{3}{2}$ or $x = -\\frac{1}{3}$."
+            "explanation": "Rearranging in standard form: p(x) = 6x² - 7x - 3\n6x² - 9x + 2x - 3 = 0\n3x(2x - 3) + 1(2x - 3) = 0\n(3x + 1)(2x - 3) = 0\nTherefore, x = -1/3 or x = 3/2.\n\nVerification:\nSum = -1/3 + 3/2 = 7/6, and -b/a = -(-7)/6 = 7/6 (Verified).\nProduct = (-1/3) × (3/2) = -1/2, and c/a = -3/6 = -1/2 (Verified)."
           }
         ]
       }
@@ -123,7 +123,7 @@
           "statement": "If the product of zeros of the quadratic polynomial x² - 9x + k is 8, find the value of k.",
           "correct_answer": "k = 8",
           "imgUrl": "",
-          "explanation": "Given polynomial: $p(x) = x^2 - 9x + k$\nHere, $a = 1, b = -9, c = k$.\nProduct of zeros = $\\frac{c}{a} = \\frac{k}{1} = k$\nGiven that the product of zeros is 8.\nTherefore, $k = 8$."
+          "explanation": "Given polynomial p(x) = x² - 9x + k\nHere a = 1, b = -9, c = k\nWe know that the product of zeros (αβ) = c/a\nGiven product of zeros = 8\nk / 1 = 8 => k = 8\nTherefore, the value of k is 8."
         }
       ],
       "or_option": {
@@ -134,7 +134,7 @@
             "statement": "Find a quadratic polynomial whose zeros are 2 and -3.",
             "correct_answer": "x² + x - 6",
             "imgUrl": "",
-            "explanation": "Given zeros: $\\alpha = 2, \\beta = -3$\nSum of zeros: $\\alpha + \\beta = 2 + (-3) = -1$\nProduct of zeros: $\\alpha\\beta = 2 \\times (-3) = -6$\n\nUsing the formula $p(x) = x^2 - (\\alpha + \\beta)x + \\alpha\\beta$:\n$p(x) = x^2 - (-1)x + (-6)$\n$p(x) = x^2 + x - 6$\nTherefore, the required polynomial is $x^2 + x - 6$."
+            "explanation": "Given zeros: α = 2, β = -3\nSum of zeros (α + β) = 2 + (-3) = -1\nProduct of zeros (αβ) = 2 × (-3) = -6\n\nUsing the formula p(x) = x² - (α + β)x + αβ:\np(x) = x² - (-1)x + (-6)\np(x) = x² + x - 6\nTherefore, the quadratic polynomial is x² + x - 6."
           }
         ]
       }
