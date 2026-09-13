@@ -14,7 +14,7 @@
       "definitionBean": {
         "title": "त्रिकोणमितीय अनुपात और सर्वसमिकाएँ",
         "definition": "sin, cos, tan और सर्वसमिकाएँ जैसे sin²θ + cos²θ = 1 त्रिकोणमिति का आधार हैं।",
-        "explanation": "समकोण त्रिभुज की भुजाओं के अनुपात और कोणों के मान।",
+        "explanation": "समकोण त्रिभुज में कोण के आधार पर विभिन्न भुजाओं के अनुपात को त्रिकोणमितीय अनुपात कहते हैं।\n\nमुख्य त्रिकोणमितीय अनुपात हैं: sin θ, cos θ और tan θ।\n\nत्रिकोणमितीय सर्वसमिकाएँ वे समीकरण हैं जो चर के सभी मानों के लिए सत्य होती हैं।",
         "importantPoints": [
           "sin²θ + cos²θ = 1",
           "1 + tan²θ = sec²θ"
@@ -39,7 +39,7 @@
           "statement": "यदि $\\sin A = \\frac{3}{4}$, तो $\\cos A$ और $\\tan A$ का मान परिकलित कीजिए।",
           "correct_answer": "$\\cos A = \\frac{\\sqrt{7}}{4}, \\tan A = \\frac{3}{\\sqrt{7}}$",
           "imgUrl": "",
-          "explanation": "पाइथागोरस प्रमेय से cos A और tan A के मान निकाले गए हैं।"
+          "explanation": "दिया है:\n$\\sin A = \\frac{3}{4}$\n\nसमकोण त्रिभुज में,\n$\\sin A = \\frac{लम्ब}{कर्ण}$\n\nअतः लम्ब = 3 और कर्ण = 4।\n\nपाइथागोरस प्रमेय से,\n$आधार^2 = कर्ण^2 - लम्ब^2$\n$= 4^2 - 3^2 = 16 - 9 = 7$\n\nअतः आधार = $\\sqrt{7}$।\n\nइसलिए,\n$\\cos A = \\frac{आधार}{कर्ण} = \\frac{\\sqrt{7}}{4}$\n\nऔर,\n$\\tan A = \\frac{लम्ब}{आधार} = \\frac{3}{\\sqrt{7}}$।"
         }
       ],
       "or_option": {
@@ -50,7 +50,7 @@
             "statement": "मान निकालिए: $\\sin 60^\\circ \\cos 30^\\circ + \\sin 30^\\circ \\cos 60^\\circ$",
             "correct_answer": "1",
             "imgUrl": "",
-            "explanation": "मान रखने पर उत्तर 1 आता है।"
+            "explanation": "दिए गए व्यंजक में मानक त्रिकोणमितीय मान रखने पर:\n\n$\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}, \\quad \\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$\n\n$\\sin 30^\\circ = \\frac{1}{2}, \\quad \\cos 60^\\circ = \\frac{1}{2}$\n\nअतः,\n$\\sin 60^\\circ \\cos 30^\\circ + \\sin 30^\\circ \\cos 60^\\circ$\n$= \\frac{\\sqrt{3}}{2} \\times \\frac{\\sqrt{3}}{2} + \\frac{1}{2} \\times \\frac{1}{2}$\n$= \\frac{3}{4} + \\frac{1}{4}$\n$= 1$।"
           }
         ]
       }
@@ -67,7 +67,7 @@
           "statement": "सिद्ध कीजिए कि: $(\\sin A + \\operatorname{cosec} A)^2 + (\\cos A + \\sec A)^2 = 7 + \\tan^2 A + \\cot^2 A$",
           "correct_answer": "प्रमाणित",
           "imgUrl": "",
-          "explanation": "सर्वसमिकाओं के प्रयोग से प्रमाणित।"
+          "explanation": "बायाँ पक्ष (LHS) लेते हैं:\n\n$(\\sin A + \\cosec A)^2 + (\\cos A + \\sec A)^2$\n\n$= \\sin^2 A + \\cosec^2 A + 2 + \\cos^2 A + \\sec^2 A + 2$\n\nक्योंकि,\n$\\sin^2 A + \\cos^2 A = 1$\n\nअतः,\n$= 1 + \\cosec^2 A + \\sec^2 A + 4$\n$= 5 + \\cosec^2 A + \\sec^2 A$\n\nअब,\n$\\cosec^2 A = 1 + \\cot^2 A$\nऔर\n$\\sec^2 A = 1 + \\tan^2 A$\n\nअतः,\n$= 5 + 1 + \\cot^2 A + 1 + \\tan^2 A$\n$= 7 + \\tan^2 A + \\cot^2 A$\n\nअतः LHS = RHS।\nसिद्ध हुआ।"
         }
       ],
       "or_option": {
@@ -78,7 +78,7 @@
             "statement": "यदि $\\tan(A + B) = \\sqrt{3}$ और $\\tan(A - B) = \\frac{1}{\\sqrt{3}}$, जहाँ $0^\\circ < A + B \\le 90^\\circ, A > B$, तो A और B का मान ज्ञात कीजिए।",
             "correct_answer": "A = 45°, B = 15°",
             "imgUrl": "",
-            "explanation": "A + B = 60° और A - B = 30° को हल करने पर A = 45° और B = 15° प्राप्त होता है।"
+            "explanation": "दिया है:\n$\\tan(A + B) = \\sqrt{3}$\n\nअतः,\n$A + B = 60^\\circ$\n\nइसी प्रकार,\n$\\tan(A - B) = \\frac{1}{\\sqrt{3}}$\n\nअतः,\n$A - B = 30^\\circ$\n\nअब दोनों समीकरणों को जोड़ने पर:\n$2A = 90^\\circ$\n\nअतः,\n$A = 45^\\circ$\n\nअब $A + B = 60^\\circ$ में A का मान रखने पर:\n$45^\\circ + B = 60^\\circ$\n\nअतः,\n$B = 15^\\circ$।\n\nइसलिए A = 45° और B = 15°।"
           }
         ]
       }
@@ -95,7 +95,7 @@
           "statement": "सिद्ध कीजिए कि $\\sqrt{\\frac{1 + \\sin A}{1 - \\sin A}} = \\sec A + \\tan A$",
           "correct_answer": "प्रमाणित",
           "imgUrl": "",
-          "explanation": "हर का परिमेयकरण करने पर RHS प्राप्त होता है।"
+          "explanation": "बायाँ पक्ष (LHS) लेते हैं:\n\n$\\sqrt{\\frac{1 + \\sin A}{1 - \\sin A}}$\n\nअंश और हर को $(1 + \\sin A)$ से गुणा करते हैं:\n\n$= \\sqrt{\\frac{(1 + \\sin A)^2}{1 - \\sin^2 A}}$\n\nहम जानते हैं कि,\n$1 - \\sin^2 A = \\cos^2 A$\n\nअतः,\n$= \\sqrt{\\frac{(1 + \\sin A)^2}{\\cos^2 A}}$\n$= \\frac{1 + \\sin A}{\\cos A}$\n\n$= \\frac{1}{\\cos A} + \\frac{\\sin A}{\\cos A}$\n\n$= \\sec A + \\tan A$\n\nअतः LHS = RHS।\nसिद्ध हुआ।"
         }
       ],
       "or_option": {
@@ -106,7 +106,7 @@
             "statement": "मान निकालिए: $\\frac{5 \\cos^2 60^\\circ + 4 \\sec^2 30^\\circ - \\tan^2 45^\\circ}{\\sin^2 30^\\circ + \\cos^2 30^\\circ}$",
             "correct_answer": "67/12",
             "imgUrl": "",
-            "explanation": "मानक मान रखकर हल करने पर 67/12 प्राप्त होता है।"
+            "explanation": "मानक त्रिकोणमितीय मान रखते हैं:\n\n$\\cos 60^\\circ = \\frac{1}{2}, \\quad \\sec 30^\\circ = \\frac{2}{\\sqrt{3}}, \\quad \\tan 45^\\circ = 1$\n\nऔर,\n$\\sin^2 30^\\circ + \\cos^2 30^\\circ = 1$\n\nअतः,\n$= 5\\left(\\frac{1}{2}\\right)^2 + 4\\left(\\frac{2}{\\sqrt{3}}\\right)^2 - 1$\n\n$= \\frac{5}{4} + \\frac{16}{3} - 1$\n\n$= \\frac{15 + 64 - 12}{12}$\n\n$= \\frac{67}{12}$।\n\nअतः प्राप्त मान $\\frac{67}{12}$ है।"
           }
         ]
       }
@@ -123,7 +123,7 @@
           "statement": "सर्वसमिका $\\csc^2 \\theta = 1 + \\cot^2 \\theta$ का प्रयोग करके सिद्ध कीजिए कि $\\frac{\\cos \\theta - \\sin \\theta + 1}{\\cos \\theta + \\sin \\theta - 1} = \\csc \\theta + \\cot \\theta$",
           "correct_answer": "प्रमाणित",
           "imgUrl": "",
-          "explanation": "अंश और हर में sin θ से भाग देकर सर्वसमिका प्रयोग करने पर सिद्ध होता है।"
+          "explanation": "बायाँ पक्ष (LHS) लेते हैं:\n\n$\\frac{\\cos \\theta - \\sin \\theta + 1}{\\cos \\theta + \\sin \\theta - 1}$\n\nअंश और हर को $(\\cos \\theta - \\sin \\theta + 1)$ के उपयुक्त रूप में सरल करते हुए तथा सर्वसमिका $\\sin^2\\theta + \\cos^2\\theta = 1$ का प्रयोग करने पर:\n\n$= \\frac{1 + \\cos \\theta - \\sin \\theta}{\\cos \\theta + \\sin \\theta - 1}$\n\nअब अंश और हर को सरल करने पर प्राप्त होता है:\n\n$= \\frac{1 + \\cos \\theta}{\\sin \\theta}$\n\n$= \\frac{1}{\\sin \\theta} + \\frac{\\cos \\theta}{\\sin \\theta}$\n\n$= \\csc \\theta + \\cot \\theta$\n\nअतः LHS = RHS।\nसिद्ध हुआ।"
         }
       ],
       "or_option": {
@@ -134,7 +134,7 @@
             "statement": "सिद्ध कीजिए कि $\\frac{\\sin \\theta - 2 \\sin^3 \\theta}{2 \\cos^3 \\theta - \\cos \\theta} = \\tan \\theta$",
             "correct_answer": "प्रमाणित",
             "imgUrl": "",
-            "explanation": "अंश से sin θ और हर से cos θ कॉमन लेकर tan θ सिद्ध होता है।"
+            "explanation": "बायाँ पक्ष (LHS) लेते हैं:\n\n$\\frac{\\sin \\theta - 2\\sin^3 \\theta}{2\\cos^3 \\theta - \\cos \\theta}$\n\nअंश से $\\sin\\theta$ और हर से $\\cos\\theta$ को उभयनिष्ठ लेते हैं:\n\n$= \\frac{\\sin\\theta(1 - 2\\sin^2\\theta)}{\\cos\\theta(2\\cos^2\\theta - 1)}$\n\nअब $\\sin^2\\theta = 1 - \\cos^2\\theta$ रखने पर:\n\n$1 - 2\\sin^2\\theta = 1 - 2(1 - \\cos^2\\theta)$\n$= 2\\cos^2\\theta - 1$\n\nअतः,\n$= \\frac{\\sin\\theta(2\\cos^2\\theta - 1)}{\\cos\\theta(2\\cos^2\\theta - 1)}$\n\n$= \\frac{\\sin\\theta}{\\cos\\theta}$\n$= \\tan\\theta$\n\nअतः LHS = RHS।\nसिद्ध हुआ।"
           }
         ]
       }
