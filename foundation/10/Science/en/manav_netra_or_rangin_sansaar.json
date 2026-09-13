@@ -64,9 +64,9 @@
       "text": "Subject: Human Eye and Accommodation",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "Draw a labeled diagram of the human eye and write the functions of its main parts (retina and pupil).",
-          "correct_answer": "Retina forms the image, pupil regulates light.",
+          "correct_answer": "Retina: forms the image\nPupil: regulates light",
           "imgUrl": "",
           "explanation": "The main part of the human eye is the retina, on which a real and inverted image of an object is formed; the pupil regulates the amount of light entering the eye."
         }
@@ -75,7 +75,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "What is meant by the power of accommodation of the eye? Explain.",
             "correct_answer": "Adjusting lens focal length via muscles to see clearly is power of accommodation.",
             "imgUrl": "",
@@ -92,9 +92,9 @@
       "text": "Subject: Vision Defects",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is Myopia (nearsightedness)? What causes it and which lens is used to correct it?",
-          "correct_answer": "Myopia cannot see distant objects, corrected with concave lens.",
+          "correct_answer": "Myopia: cannot see distant objects clearly\nCorrected with a concave lens",
           "imgUrl": "",
           "explanation": "In myopia, a person can see nearby objects clearly but cannot see distant objects clearly. It is caused by the elongation of the eyeball or excessive curvature of the lens. It is corrected using a 'concave lens'."
         }
@@ -103,7 +103,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "Write the difference between hypermetropia and myopia, and how is hypermetropia corrected?",
             "correct_answer": "Hypermetropia is corrected using a convex lens.",
             "imgUrl": "",

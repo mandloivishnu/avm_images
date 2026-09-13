@@ -62,7 +62,7 @@
       "text": "Subject: Early Classification and Mendeleev",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "What were the limitations of Dobereiner's law of triads? Explain with an example.",
           "correct_answer": "Dobereiner could not form triads for all known elements, so this classification failed.",
           "imgUrl": "",
@@ -73,9 +73,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "State Mendeleev's periodic law and write one feature of it.",
-            "correct_answer": "Properties of elements are periodic functions of atomic mass; blank spaces were left for unknown elements.",
+            "correct_answer": "Properties of elements are periodic functions of atomic mass.\nBlank spaces were left for unknown elements.",
             "imgUrl": "",
             "explanation": "Mendeleev's Periodic Law: Properties of elements are periodic functions of their atomic masses. One of its key features was that it left blank spaces in the table for undiscovered elements."
           }
@@ -90,9 +90,9 @@
       "text": "Subject: Modern Periodic Table and Periodic Trends",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is the modern periodic law? How many groups and periods are there in the modern periodic table?",
-          "correct_answer": "Modern law based on atomic number contains 18 groups and 7 periods.",
+          "correct_answer": "Modern periodic law: based on atomic number\nContains 18 groups and 7 periods",
           "imgUrl": "",
           "explanation": "According to the modern periodic law, the physical and chemical properties of elements are periodic functions of their atomic numbers. It consists of 18 groups (vertical columns) and 7 periods (horizontal rows)."
         }
@@ -101,7 +101,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "How do atomic radius (size) and metallic character change when moving from left to right across a period in the periodic table?",
             "correct_answer": "Atomic radius and metallic character decrease from left to right.",
             "imgUrl": "",

@@ -83,7 +83,7 @@
       "text": "Subject: Combination and Decomposition Reactions",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is a combination reaction? Explain with an example.",
           "correct_answer": "Two or more reactants combine to form a new product (e.g., combustion of coal).",
           "imgUrl": "",
@@ -94,7 +94,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "Why is a decomposition reaction considered opposite to a combination reaction? Give an example.",
             "correct_answer": "Decomposition breaks a reactant into multiple products, which is opposite to combination.",
             "imgUrl": "",
@@ -111,9 +111,9 @@
       "text": "Subject: Displacement Reaction",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "What is a displacement reaction? Explain it using the experiment of an iron nail and copper sulfate solution.",
-          "correct_answer": "More reactive element displaces less reactive; iron displaces copper to form ferrous sulfate.",
+          "correct_answer": "A more reactive element displaces a less reactive one.\nExample: Iron displaces copper to form ferrous sulfate.",
           "imgUrl": "",
           "explanation": "When a more reactive element displaces a less reactive element from its compound solution, it is called a displacement reaction. When an iron nail is dipped in a blue copper sulfate solution, iron displaces copper to form ferrous sulfate and the solution turns green."
         }
@@ -122,7 +122,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Can zinc displace copper from copper sulfate solution? Write the reason.",
             "correct_answer": "Yes, because zinc is a more reactive metal than copper.",
             "imgUrl": "",
@@ -139,7 +139,7 @@
       "text": "Subject: Double Displacement Reaction",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "What is meant by a double displacement reaction? Write a suitable equation.",
           "correct_answer": "Exchange of ions between reactants is a double displacement reaction.",
           "imgUrl": "",
@@ -150,7 +150,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "What is called a precipitation reaction in double displacement reactions? Explain.",
             "correct_answer": "A double displacement reaction that produces an insoluble solid (precipitate) is a precipitation reaction.",
             "imgUrl": "",

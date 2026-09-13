@@ -14,7 +14,7 @@
       "definitionBean": {
         "title": "Neutralization Reaction",
         "definition": "When an acid and a base react with each other, they neutralize each other's effect to form salt and water. This process is called a 'neutralization reaction'.",
-        "explanation": "In this reaction, the H^+ ion of the acid and the OH^- ion of the base combine to form water (H2O). This is an exothermic reaction in which energy is released.",
+        "explanation": "In this reaction, the H+ ion of the acid and the OH- ion of the base combine to form water (H2O). This is an exothermic reaction in which energy is released.",
         "importantPoints": [
           "Acid + Base -> Salt + Water",
           "Neutral products (salt and water) are formed",
@@ -40,9 +40,9 @@
         "explanation": "These salts are widely used in our daily life, industries, and the medical field.",
         "importantPoints": [
           "Baking Soda: NaHCO3 (Cooking soda)",
-          "Washing Soda: Na2CO3 cdot 10H2O",
+          "Washing Soda: Na2CO3.10H2O",
           "Bleaching Powder: CaOCl2",
-          "Plaster of Paris: CaSO4 cdot frac{1}{2}H2O"
+          "Plaster of Paris: CaSO4.1/2H2O"
         ],
         "highlightWords": [
           "Baking soda",
@@ -62,7 +62,7 @@
       "text": "Subject: Neutralization and Important Salts",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "What is a neutralization reaction? Give an example.",
           "correct_answer": "Formation of salt and water from the combination of an acid and a base is neutralization.",
           "imgUrl": "",
@@ -73,11 +73,11 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "Write the chemical names and formulas of baking soda and plaster of Paris.",
-            "correct_answer": "Baking soda (NaHCO3), Plaster of Paris (CaSO4 cdot frac{1}{2}H2O).",
+            "correct_answer": "Baking soda: NaHCO3\nPlaster of Paris: CaSO4.1/2H2O",
             "imgUrl": "",
-            "explanation": "Baking Soda: Sodium hydrogen carbonate (NaHCO3); Plaster of Paris: Calcium sulfate hemihydrate (CaSO4 cdot frac{1}{2}H2O)."
+            "explanation": "Baking Soda: Sodium hydrogen carbonate (NaHCO3)\nPlaster of Paris: Calcium sulfate hemihydrate (CaSO4.1/2H2O)."
           }
         ]
       }

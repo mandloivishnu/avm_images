@@ -13,7 +13,7 @@
       "text": "Quick Revision - Meaning of pH",
       "definitionBean": {
         "title": "Meaning of pH",
-        "definition": "The scale used to measure the concentration of hydrogen ions (H^+) in a solution is called the 'pH scale', where 'p' stands for 'potenz' (power).",
+        "definition": "The scale used to measure the concentration of hydrogen ions (H+) in a solution is called the 'pH scale', where 'p' stands for 'potenz' (power).",
         "explanation": "Values on the pH scale range from 0 to 14. A value less than 7 indicates acidity, a value of 7 indicates neutrality (neutral solution like pure water), and a value greater than 7 indicates alkalinity.",
         "importantPoints": [
           "The range of pH scale is from 0 to 14",
@@ -87,9 +87,9 @@
       "text": "Subject: Meaning and Scale of pH",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is the pH scale? How is it used to determine whether a solution is acidic or basic?",
-          "correct_answer": "A pH value below 7 is acidic and above 7 is basic.",
+          "correct_answer": "pH < 7: Acidic\npH > 7: Basic",
           "imgUrl": "",
           "explanation": "The scale used to measure the concentration of hydrogen ions in a solution is called the pH scale. If the pH value is 7, the solution is neutral; if it is less than 7, it is acidic; and if it is greater than 7, it is basic."
         }
@@ -98,9 +98,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What are the pH conditions for a neutral solution and a strongly acidic solution?",
-            "correct_answer": "A neutral solution has a pH of 7, while a strong acid has a pH much lower than 7.",
+            "correct_answer": "Neutral solution: pH = 7\nStrong acid: pH much lower than 7",
             "imgUrl": "",
             "explanation": "A neutral solution has a pH value of exactly 7, whereas a strongly acidic solution has a pH value much lower than 7 (close to zero)."
           }
@@ -115,7 +115,7 @@
       "text": "Subject: Importance of pH",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "What is acid rain? What is its effect on aquatic life?",
           "correct_answer": "Acid rain occurs when rainwater pH drops below 5.6, harming aquatic organisms.",
           "imgUrl": "",
@@ -126,7 +126,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "What should be the pH of soil for the healthy growth of plants?",
             "correct_answer": "The soil pH should ideally be between 6.5 and 7.0.",
             "imgUrl": "",
@@ -143,7 +143,7 @@
       "text": "Subject: pH in Everyday Life",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "What is the role of pH in our stomach? Why are antacids used during indigestion?",
           "correct_answer": "Antacids neutralize excess acid.",
           "imgUrl": "",
@@ -154,9 +154,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "At what mouth pH does tooth decay start? How can it be prevented?",
-            "correct_answer": "Decay starts when pH falls below 5.5, which can be prevented using alkaline toothpaste.",
+            "correct_answer": "Decay starts when mouth pH falls below 5.5.\nPrevention: use alkaline toothpaste",
             "imgUrl": "",
             "explanation": "Tooth decay begins when the pH inside the mouth falls below 5.5, causing tooth enamel to corrode. To prevent this, teeth should be cleaned after meals and alkaline toothpaste should be used."
           }

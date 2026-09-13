@@ -60,9 +60,9 @@
       "text": "Subject: Chemical Properties and Extraction of Metals",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "Explain the reaction of metals with oxygen and water with equations.",
-          "correct_answer": "Metals combine with oxygen to form oxides and with water to form hydrogen.",
+          "correct_answer": "Metals combine with oxygen to form oxides.\nMetals combine with water to form hydrogen.",
           "imgUrl": "",
           "explanation": "Metals combine with oxygen to form metal oxides (e.g., 2Cu + O2 -> 2CuO). Upon reacting with water, some metals form hydrogen gas and hydroxides."
         }
@@ -71,7 +71,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "What is the difference between a mineral and an ore? Define metallurgy.",
             "correct_answer": "All ores are minerals but all minerals are not ores.",
             "imgUrl": "",

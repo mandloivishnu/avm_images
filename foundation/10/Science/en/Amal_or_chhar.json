@@ -13,12 +13,12 @@
       "text": "Quick Revision - Properties of Acids",
       "definitionBean": {
         "title": "Properties of Acids",
-        "definition": "Substances that are sour in taste and turn blue litmus paper red are called 'acids'. They produce hydrogen ions (H^+) in aqueous solution.",
+        "definition": "Substances that are sour in taste and turn blue litmus paper red are called 'acids'. They produce hydrogen ions (H+) in aqueous solution.",
         "explanation": "Acids are corrosive in nature and liberate hydrogen gas upon reacting with metals. Their pH value is less than 7.",
         "importantPoints": [
           "Sour in taste",
           "Turn blue litmus red",
-          "Give H^+ ions in aqueous solution",
+          "Give H+ ions in aqueous solution",
           "Produce hydrogen gas on reacting with metals"
         ],
         "highlightWords": [
@@ -39,11 +39,11 @@
       "definitionBean": {
         "title": "Properties of Bases",
         "definition": "Substances that are bitter in taste, feel soapy to touch, and turn red litmus blue are called 'bases'.",
-        "explanation": "Bases produce hydroxide ions (OH^-) in aqueous solution. Bases soluble in water are called 'alkalis'. Their pH value is greater than 7.",
+        "explanation": "Bases produce hydroxide ions (OH-) in aqueous solution. Bases soluble in water are called 'alkalis'. Their pH value is greater than 7.",
         "importantPoints": [
           "Bitter and astringent in taste",
           "Turn red litmus blue",
-          "Give OH^- ions in aqueous solution",
+          "Give OH- ions in aqueous solution",
           "Feel soapy when touched"
         ],
         "highlightWords": [
@@ -88,22 +88,22 @@
       "text": "Subject: Properties of Acids",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is an acid? Write any three major physical and chemical properties of acids.",
           "correct_answer": "Acids are sour and give H+ ions.",
           "imgUrl": "",
-          "explanation": "Acids are substances that are sour in taste and give hydrogen ions (H^+) in aqueous solution. Major properties: 1. They turn blue litmus paper red. 2. Their pH value is less than 7. 3. They react with metals to liberate hydrogen gas."
+          "explanation": "Acids are substances that are sour in taste and give hydrogen ions (H+) in aqueous solution. Major properties:\n1. They turn blue litmus paper red.\n2. Their pH value is less than 7.\n3. They react with metals to liberate hydrogen gas."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What is the difference between a strong acid and a weak acid? Give one example of each.",
-            "correct_answer": "Strong acid (HCl), weak acid (CH3COOH).",
+            "correct_answer": "Strong acid: HCl\nWeak acid: CH3COOH",
             "imgUrl": "",
-            "explanation": "Acids that ionize completely in aqueous solution to give a large amount of H^+ ions are called strong acids (e.g., HCl); whereas those that ionize partially are called weak acids (e.g., CH3COOH)."
+            "explanation": "Acids that ionize completely in aqueous solution to give a large amount of H+ ions are called strong acids (e.g., HCl); whereas those that ionize partially are called weak acids (e.g., CH3COOH)."
           }
         ]
       }
@@ -116,18 +116,18 @@
       "text": "Subject: Properties of Bases",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Write the major properties of bases and state their effect on litmus paper.",
           "correct_answer": "Bases turn red litmus blue.",
           "imgUrl": "",
-          "explanation": "Properties of bases: 1. They are bitter in taste. 2. They feel soapy to touch. 3. Their aqueous solution gives hydroxide ions (OH^-). They turn red litmus paper blue and have a pH value greater than 7."
+          "explanation": "Properties of bases:\n1. They are bitter in taste.\n2. They feel soapy to touch.\n3. Their aqueous solution gives hydroxide ions (OH-).\nThey turn red litmus paper blue and have a pH value greater than 7."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "What is the difference between a base and an alkali? Explain.",
             "correct_answer": "Water-soluble bases are called alkalis.",
             "imgUrl": "",
@@ -144,9 +144,9 @@
       "text": "Subject: Indicators",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "What are indicators? Give two examples each of natural and synthetic indicators.",
-          "correct_answer": "Litmus, turmeric, phenolphthalein, methyl orange.",
+          "correct_answer": "Natural: Litmus, turmeric\nSynthetic: Phenolphthalein, methyl orange",
           "imgUrl": "",
           "explanation": "Indicators are substances that show the acidic or basic nature of a solution by a change in their color or odor. Natural indicators: Litmus and turmeric. Synthetic indicators: Phenolphthalein and methyl orange."
         }
@@ -155,7 +155,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "What are olfactory indicators? Explain with examples.",
             "correct_answer": "Onion juice, vanilla.",
             "imgUrl": "",

@@ -89,7 +89,7 @@
       "text": "Subject: Nervous System and Neuron",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "Draw a labeled diagram of a neuron (nerve cell) and describe its functions.",
           "correct_answer": "Neuron transmits information via electrochemical impulses.",
           "imgUrl": "",
@@ -100,7 +100,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What is a synapse? How are nerve impulses transmitted across it?",
             "correct_answer": "Synapse is the gap between two neurons where chemical signals transmit impulses.",
             "imgUrl": "",
@@ -117,9 +117,9 @@
       "text": "Subject: Brain and Reflex Action",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "What is the difference between a reflex action and walking? Explain the reflex arc.",
-          "correct_answer": "Reflex action is involuntary and quick, walking is voluntary.",
+          "correct_answer": "Reflex action: involuntary and quick\nWalking: voluntary",
           "imgUrl": "",
           "explanation": "A reflex action is a sudden, involuntary, and rapid response controlled by the spinal cord, whereas walking is a voluntary action controlled by the brain. A reflex arc is the pathway through which sensory signals travel from receptors via the spinal cord to muscles."
         }
@@ -128,11 +128,11 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Name the main parts of the human brain and state the function of the cerebellum.",
-            "correct_answer": "Forebrain, midbrain, and hindbrain are main parts; cerebellum maintains balance.",
+            "correct_answer": "Main parts: Forebrain, midbrain, hindbrain\nCerebellum maintains balance.",
             "imgUrl": "",
-            "explanation": "The human brain has three main parts: 1. Forebrain 2. Midbrain 3. Hindbrain. The cerebellum controls voluntary muscle movement and balance (e.g., walking straight, riding a bicycle)."
+            "explanation": "The human brain has three main parts:\n1. Forebrain\n2. Midbrain\n3. Hindbrain.\nThe cerebellum controls voluntary muscle movement and balance (e.g., walking straight, riding a bicycle)."
           }
         ]
       }
@@ -145,20 +145,20 @@
       "text": "Subject: Plant and Human Hormones",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "What are plant hormones? Write the names and functions of any two plant hormones.",
-          "correct_answer": "Auxin (growth) and gibberellin (stem growth) are plant hormones.",
+          "correct_answer": "Auxin: promotes growth\nGibberellin: promotes stem growth",
           "imgUrl": "",
-          "explanation": "Plant hormones are chemical compounds that regulate growth, development, and responses to the environment in plants. Two hormones: 1. Auxin - increases cell elongation and causes bending toward light. 2. Gibberellin - helps in the growth of stems."
+          "explanation": "Plant hormones are chemical compounds that regulate growth, development, and responses to the environment in plants. Two hormones:\n1. Auxin - increases cell elongation and causes bending toward light.\n2. Gibberellin - helps in the growth of stems."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "What is the role of the insulin hormone in the human body? What disease is caused by its deficiency?",
-            "correct_answer": "Insulin controls blood sugar, deficiency causes diabetes.",
+            "correct_answer": "Insulin controls blood sugar level.\nDeficiency causes diabetes.",
             "imgUrl": "",
             "explanation": "The insulin hormone regulates the level of sugar (glucose) in the blood. Its deficiency increases sugar levels in the body, causing diabetes."
           }

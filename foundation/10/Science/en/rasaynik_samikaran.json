@@ -85,9 +85,9 @@
       "text": "Subject: Definition of Chemical Reaction and Reactants-Products",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is a chemical reaction? Explain with the example of magnesium ribbon combustion.",
-          "correct_answer": "Formation of substances with new properties is a chemical reaction; burning magnesium forms magnesium oxide.",
+          "correct_answer": "Formation of substances with new properties is a chemical reaction.\nExample: Burning magnesium forms magnesium oxide.",
           "imgUrl": "",
           "explanation": "The process in which substances with new properties are formed is called a chemical reaction. When a magnesium ribbon is burned in air, it reacts with oxygen to form a white powder (magnesium oxide)."
         }
@@ -96,9 +96,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What do reactants and products mean? Clarify through a chemical equation.",
-            "correct_answer": "Participants are reactants and formed substances are products.",
+            "correct_answer": "Reactants: substances that take part in the reaction\nProducts: substances formed after the reaction",
             "imgUrl": "",
             "explanation": "Substances taking part in a reaction are 'reactants' and the new substances formed are 'products'. Example: In Zn + H2SO4 -> ZnSO4 + H2, zinc and sulfuric acid are reactants while zinc sulfate and hydrogen are products."
           }
@@ -113,7 +113,7 @@
       "text": "Subject: Signs of Chemical Reaction (Color Change and Gas Evolution)",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Explain color change in chemical reactions with an example.",
           "correct_answer": "Blue color of copper sulfate turns green upon adding an iron nail.",
           "imgUrl": "",
@@ -124,7 +124,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Which gas is evolved when zinc reacts with dilute sulfuric acid? How will you test it?",
             "correct_answer": "Hydrogen gas is evolved which burns with a pop sound.",
             "imgUrl": "",
@@ -141,7 +141,7 @@
       "text": "Subject: Signs of Chemical Reaction (Temperature Change and Precipitation)",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "How is change in temperature an indicator of a chemical reaction? Give an example.",
           "correct_answer": "Exothermic or endothermic reactions cause changes in temperature.",
           "imgUrl": "",
@@ -152,7 +152,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "What is meant by the formation of a precipitate? Give a suitable example.",
             "correct_answer": "Separation of an insoluble solid is called a precipitate.",
             "imgUrl": "",

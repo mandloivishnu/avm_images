@@ -61,7 +61,7 @@
       "text": "Subject: Definition and Causes of Rancidity",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "What is rancidity? What causes it?",
           "correct_answer": "Oxidation of fats and oils changes taste and smell into rancidity.",
           "imgUrl": "",
@@ -72,7 +72,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "What changes occur when oil or fat-containing food items are left open for a long time?",
             "correct_answer": "Unpleasant change in taste and smell occurs.",
             "imgUrl": "",
@@ -89,18 +89,18 @@
       "text": "Subject: Methods to Prevent Rancidity",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What measures are taken to protect food items from rancidity? Write any two.",
-          "correct_answer": "Air-tight containers and use of nitrogen gas.",
+          "correct_answer": "Air-tight containers\nUse of nitrogen gas",
           "imgUrl": "",
-          "explanation": "Key measures to prevent rancidity: 1. Storing food items in air-tight containers to prevent contact with oxygen. 2. Flushing food packages like chips with inert gases like nitrogen by removing oxygen. 3. Using antioxidants."
+          "explanation": "Key measures to prevent rancidity:\n1. Storing food items in air-tight containers to prevent contact with oxygen.\n2. Flushing food packages like chips with inert gases like nitrogen by removing oxygen.\n3. Using antioxidants."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "Why do chip manufacturers flush chip bags with nitrogen gas? Explain the reason.",
             "correct_answer": "Nitrogen gas protects chips from getting oxidized.",
             "imgUrl": "",

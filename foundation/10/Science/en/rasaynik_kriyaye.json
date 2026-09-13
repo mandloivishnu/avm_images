@@ -88,7 +88,7 @@
       "text": "Subject: Chemical Equation and Word Equation",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is a chemical equation? Why is it more useful than a word equation?",
           "correct_answer": "A chemical equation is a concise representation using symbols and formulas that is more informative.",
           "imgUrl": "",
@@ -99,7 +99,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What is a word equation? Explain with an example.",
             "correct_answer": "An equation expressed in words is called a word equation.",
             "imgUrl": "",
@@ -116,18 +116,18 @@
       "text": "Subject: Writing Chemical Equations and Formulas",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "What are the main steps in writing a chemical equation? Write briefly.",
           "correct_answer": "Writing reactants and products on left and right using formulas and an arrow.",
           "imgUrl": "",
-          "explanation": "Steps for writing a chemical equation: 1. Write reactants on the left side with a (+) sign between them. 2. Write products on the right side with a (+) sign between them. 3. Place an arrow sign (->) between reactants and products to indicate the direction of the reaction."
+          "explanation": "Steps for writing a chemical equation:\n1. Write reactants on the left side with a (+) sign between them.\n2. Write products on the right side with a (+) sign between them.\n3. Place an arrow sign (->) between reactants and products to indicate the direction of the reaction."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "What is the importance of a chemical formula? Explain.",
             "correct_answer": "A chemical formula gives precise information on atom counts and symbols.",
             "imgUrl": "",
@@ -144,9 +144,9 @@
       "text": "Subject: Physical State Symbols",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "What do the symbols indicating physical states (s, l, g, aq) mean in a chemical equation? Explain with examples.",
-          "correct_answer": "(s) solid, (l) liquid, (g) gas, and (aq) aqueous solution.",
+          "correct_answer": "(s) = Solid\n(l) = Liquid\n(g) = Gas\n(aq) = Aqueous solution",
           "imgUrl": "",
           "explanation": "To make chemical equations more informative, physical states are added: (s) for solid, (l) for liquid, (g) for gas, and (aq) for aqueous solution. Example: CaO(s) + H2O(l) -> Ca(OH)2(aq)"
         }
@@ -155,9 +155,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "If a gas is evolved or a precipitate is formed in a chemical reaction, how is it represented in the equation?",
-            "correct_answer": "An upward arrow (gas released ↑) for gas and downward arrow (precipitate formed ↓) for precipitate are used.",
+            "correct_answer": "Gas evolved: shown by an upward arrow (↑)\nPrecipitate formed: shown by a downward arrow (↓)",
             "imgUrl": "",
             "explanation": "In case a gas is evolved, an upward arrow (gas released ↑) or (g) is written next to the formula of the gas, and if a precipitate is formed, a downward arrow (precipitate formed ↓) or (s) is written."
           }

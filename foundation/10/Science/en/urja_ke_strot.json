@@ -39,20 +39,20 @@
       "text": "Subject: Sources of Energy and Solar Energy",
       "parts": [
         {
-          "q_id": "2_a",
+          "q_id": "a",
           "statement": "What should be the characteristics of a good source of energy?",
-          "correct_answer": "A good energy source should provide adequate energy, be easily accessible, safe, and economical.",
+          "correct_answer": "Provides adequate energy\nEasily accessible\nSafe to transport and store\nEconomical (cheap)",
           "imgUrl": "",
-          "explanation": "Characteristics of a good source of energy: 1. It should deliver a high amount of work (energy) per unit mass or volume. 2. It should be easily accessible. 3. It should be safe in transport and storage. 4. It should be economical (cheap). 5. It should cause minimum environmental pollution."
+          "explanation": "Characteristics of a good source of energy:\n1. It should deliver a high amount of work (energy) per unit mass or volume.\n2. It should be easily accessible.\n3. It should be safe in transport and storage.\n4. It should be economical (cheap).\n5. It should cause minimum environmental pollution."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "2_b",
+            "q_id": "b",
             "statement": "What is the impact of burning fossil fuels on the environment? Write two advantages of biogas.",
-            "correct_answer": "Fossil fuels cause air pollution and global warming; biogas is smoke-free and yields good manure.",
+            "correct_answer": "Fossil fuels cause air pollution and global warming.\nBiogas is smoke-free and yields good manure.",
             "imgUrl": "",
             "explanation": "Burning fossil fuels (coal, petroleum) releases harmful gases like carbon dioxide and sulfur, which cause air pollution, global warming, and acid rain. Advantages of biogas: It is smoke-free and yields high-quality manure."
           }

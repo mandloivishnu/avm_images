@@ -64,22 +64,22 @@
       "text": "Subject: Magnetic Field and Motor",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "Write any two properties of magnetic field lines. What is Fleming's left-hand rule?",
-          "correct_answer": "Magnetic field lines go from north to south and do not intersect; Fleming's rule gives the direction of force.",
+          "correct_answer": "Magnetic field lines go from north to south and do not intersect.\nFleming's left-hand rule gives the direction of force.",
           "imgUrl": "",
-          "explanation": "Properties of magnetic field lines: 1. They always emerge from the north pole of a magnet and enter the south pole. 2. Two field lines never intersect each other. Fleming's Left-Hand Rule: Stretch the thumb, forefinger, and middle finger of your left hand such that they are mutually perpendicular; if the forefinger points in the direction of the magnetic field and the middle finger in the direction of current, then the thumb will point in the direction of motion or force acting on the conductor."
+          "explanation": "Properties of magnetic field lines:\n1. They always emerge from the north pole of a magnet and enter the south pole.\n2. Two field lines never intersect each other.\nFleming's Left-Hand Rule: Stretch the thumb, forefinger, and middle finger of your left hand such that they are mutually perpendicular; if the forefinger points in the direction of the magnetic field and the middle finger in the direction of current, then the thumb will point in the direction of motion or force acting on the conductor."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "On what principle does an electric motor work? Write its main application.",
             "correct_answer": "An electric motor works on the principle of force on a current-carrying conductor in a magnetic field.",
             "imgUrl": "",
-            "explanation": "An electric motor works on the principle that when a current-carrying conductor is placed in a magnetic field, it experiences a force that causes it to rotate. It is used in fans, coolers, washing machines, etc.."
+            "explanation": "An electric motor works on the principle that when a current-carrying conductor is placed in a magnetic field, it experiences a force that causes it to rotate. It is used in fans, coolers, washing machines, etc."
           }
         ]
       }
@@ -92,9 +92,9 @@
       "text": "Subject: Domestic Electric Circuits",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "What is the difference between short circuiting and overloading? What is the use of a fuse?",
-          "correct_answer": "Short circuit happens via contact of live-neutral wires, overloading happens via too many appliances; fuse ensures safety.",
+          "correct_answer": "Short circuit: happens due to direct contact of live and neutral wires\nOverloading: happens when too many appliances are connected\nFuse: ensures safety by breaking the circuit",
           "imgUrl": "",
           "explanation": "Short circuiting occurs when live and neutral wires come into direct contact, causing excessive current flow; overloading happens when too many appliances are connected to a single socket. A fuse is a safety device that melts to break the circuit when excessive current flows."
         }
@@ -103,7 +103,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What is the importance of the earth wire in domestic electric circuits?",
             "correct_answer": "The earth wire provides safety by sending any leakage current from the metal casing into the ground.",
             "imgUrl": "",

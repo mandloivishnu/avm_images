@@ -39,20 +39,20 @@
       "text": "Subject: Management of Natural Resources and 3R Principle",
       "parts": [
         {
-          "q_id": "2_a",
+          "q_id": "a",
           "statement": "What is the '3R' principle to save the environment? Explain with examples.",
           "correct_answer": "3R stands for Reduce, Reuse, and Recycle.",
           "imgUrl": "",
-          "explanation": "3R stands for: 1. Reduce: Using fewer resources when not needed (e.g., saving electricity or water). 2. Reuse: Using the same item again and again (e.g., using empty jam jars for storing pickles). 3. Recycle: Making new products from plastic, paper, or glass waste."
+          "explanation": "3R stands for:\n1. Reduce: Using fewer resources when not needed (e.g., saving electricity or water).\n2. Reuse: Using the same item again and again (e.g., using empty jam jars for storing pickles).\n3. Recycle: Making new products from plastic, paper, or glass waste."
         }
       ],
       "or_option": {
         "text": "OR",
         "parts": [
           {
-            "q_id": "2_b",
+            "q_id": "b",
             "statement": "What are the benefits of rainwater harvesting? Why is forest conservation necessary?",
-            "correct_answer": "Rainwater harvesting increases groundwater level, and forest conservation is essential for environmental balance.",
+            "correct_answer": "Rainwater harvesting increases groundwater level.\nForest conservation is essential for environmental balance.",
             "imgUrl": "",
             "explanation": "Rainwater harvesting collects rooftop or ground water to increase groundwater levels, helping to resolve water crises. Forest conservation is necessary because forests form the basis of biodiversity, bring rain, and keep the environment balanced."
           }

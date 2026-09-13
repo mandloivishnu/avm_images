@@ -83,7 +83,7 @@
       "text": "Subject: Oxidation and Reduction",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "Define oxidation. Explain with a suitable chemical equation.",
           "correct_answer": "Oxidation involves the addition of oxygen or the loss of hydrogen.",
           "imgUrl": "",
@@ -94,7 +94,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What is reduction? How is it different from oxidation?",
             "correct_answer": "Reduction involves addition of hydrogen or loss of oxygen, which is opposite to oxidation.",
             "imgUrl": "",
@@ -111,9 +111,9 @@
       "text": "Subject: Oxidizing and Reducing Agents",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Explain the difference between an oxidizing agent and a reducing agent.",
-          "correct_answer": "An oxidizing agent oxidizes another substance, while a reducing agent reduces another substance.",
+          "correct_answer": "Oxidizing agent: oxidizes another substance\nReducing agent: reduces another substance",
           "imgUrl": "",
           "explanation": "A substance that provides oxygen to another substance or oxidizes it in a chemical reaction and is itself reduced is called an 'oxidizing agent'. Conversely, a substance that reduces another substance (provides hydrogen) is called a 'reducing agent'."
         }
@@ -122,9 +122,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "Identify the substances oxidized and reduced in the following equation:nCuO + H2 -> Cu + H2O",
-            "correct_answer": "Hydrogen is oxidized and copper oxide is reduced.",
+            "correct_answer": "Hydrogen (H2): oxidized to water\nCopper oxide (CuO): reduced to copper",
             "imgUrl": "",
             "explanation": "In this reaction, hydrogen (H2) is oxidized to water (H2O), and copper oxide (CuO) is reduced to copper (Cu)."
           }

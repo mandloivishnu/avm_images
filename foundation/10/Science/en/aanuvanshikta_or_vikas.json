@@ -64,7 +64,7 @@
       "text": "Subject: Heredity and Mendel's Experiments",
       "parts": [
         {
-          "q_id": "3_a",
+          "q_id": "a",
           "statement": "What is heredity? Why did Mendel select a pea plant for his experiment?",
           "correct_answer": "Transmission of parental traits to offspring is heredity.",
           "imgUrl": "",
@@ -75,7 +75,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "3_b",
+            "q_id": "b",
             "statement": "What is the difference between dominant and recessive traits? Give an example.",
             "correct_answer": "Dominant traits appear in the F1 generation, recessive ones do not.",
             "imgUrl": "",
@@ -92,7 +92,7 @@
       "text": "Subject: Sex Determination and Evolution",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "How is the sex of a child determined in humans? Give a diagram or explanation.",
           "correct_answer": "Father's X or Y chromosome determines sex.",
           "imgUrl": "",
@@ -103,9 +103,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "Explain homologous and analogous organs with examples.",
-            "correct_answer": "Homologous: same structure, different function; Analogous: different structure, same function.",
+            "correct_answer": "Homologous: same structure, different function\nAnalogous: different structure, same function.",
             "imgUrl": "",
             "explanation": "Homologous organs are those that have a common fundamental structure and embryonic origin but perform different functions (e.g., forelimbs of a frog, bird, and human); analogous organs are those that have different anatomical structures but perform similar functions (e.g., wings of a bird and wings of a bat)."
           }

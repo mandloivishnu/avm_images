@@ -86,9 +86,9 @@
       "text": "Subject: Nutrition and Photosynthesis",
       "parts": [
         {
-          "q_id": "4_a",
+          "q_id": "a",
           "statement": "Write differences between autotrophic and heterotrophic nutrition. What are the essential requirements for photosynthesis?",
-          "correct_answer": "Autotrophs make own food, heterotrophs depend on others.",
+          "correct_answer": "Autotrophic: makes own food\nHeterotrophic: depends on others for food",
           "imgUrl": "",
           "explanation": "In autotrophic nutrition, organisms make their own food from inorganic substances (e.g., green plants), whereas in heterotrophic nutrition, organisms depend on other organisms for food. Main requirements for photosynthesis: Sunlight, chlorophyll, carbon dioxide, and water."
         }
@@ -97,9 +97,9 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "4_b",
+            "q_id": "b",
             "statement": "What is the role of the liver and stomach in the human digestive system?",
-            "correct_answer": "Stomach secretes acid, liver makes bile juice.",
+            "correct_answer": "Stomach: secretes acid\nLiver: makes bile juice",
             "imgUrl": "",
             "explanation": "Hydrochloric acid and digestive juices in the stomach help digest food; the liver secretes bile juice, which helps in the digestion (emulsification) of fats."
           }
@@ -114,9 +114,9 @@
       "text": "Subject: Respiration",
       "parts": [
         {
-          "q_id": "5_a",
+          "q_id": "a",
           "statement": "Explain the differences between aerobic and anaerobic respiration.",
-          "correct_answer": "Aerobic happens in oxygen, anaerobic happens without oxygen.",
+          "correct_answer": "Aerobic: happens in presence of oxygen\nAnaerobic: happens without oxygen",
           "imgUrl": "",
           "explanation": "Aerobic respiration takes place in the presence of oxygen and produces a large amount of energy, whereas anaerobic respiration takes place in the absence of oxygen, produces less energy, and yields lactic acid or ethyl alcohol."
         }
@@ -125,7 +125,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "5_b",
+            "q_id": "b",
             "statement": "How does the exchange of gases take place in leaves?",
             "correct_answer": "Exchange of gases takes place through stomata.",
             "imgUrl": "",
@@ -142,9 +142,9 @@
       "text": "Subject: Transportation and Excretion",
       "parts": [
         {
-          "q_id": "6_a",
+          "q_id": "a",
           "statement": "Briefly describe the structure of the human heart. Why is double circulation necessary?",
-          "correct_answer": "Heart is four-chambered; double circulation keeps oxygenated and deoxygenated blood separate.",
+          "correct_answer": "Heart is four-chambered.\nDouble circulation keeps oxygenated and deoxygenated blood separate.",
           "imgUrl": "",
           "explanation": "The human heart is divided into four chambers - two atria and two ventricles. Double circulation prevents oxygenated and deoxygenated blood from mixing, ensuring an efficient supply of high energy and oxygen to the body."
         }
@@ -153,7 +153,7 @@
         "text": "OR",
         "parts": [
           {
-            "q_id": "6_b",
+            "q_id": "b",
             "statement": "Explain the structure and function of a nephron.",
             "correct_answer": "Nephron filters blood and forms urine.",
             "imgUrl": "",
