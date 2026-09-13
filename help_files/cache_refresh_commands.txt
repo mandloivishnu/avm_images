@@ -1,0 +1,69 @@
+#### Remoe Latext characters: ####
+find . -type f -name "*.json" -exec sed -i.bak -E '
+  s/\$//g;
+  s/\\+text\{([^{}]*)\}/\1/g;
+  s/_\{?([0-9]+)\}?/\1/g;
+  s/\\+rightarrow/->/g;
+  s/\\+uparrow/gas released ↑/g;
+  s/\\+downarrow/precipitate formed ↓/g;
+  s/\\([A-Za-z])/\1/g
+' {} \;
+
+
+
+
+#### Validate Json ####
+find . -type f -name "*.json" -exec powershell.exe -Command "try { Get-Content -Raw '{}' | ConvertFrom-Json > \$null; Write-Host 'OK: {}' } catch { Write-Host 'INVALID: {}'; Write-Host \$_.Exception.Message }" \;
+
+## Delete Backup Json ##
+find . -name "*.json.bak" -delete
+
+
+
+## Cache Refresh ##
+cd foundation/10/Science/en
+
+Science | en
+BASE_URL="https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/en"
+
+find . -maxdepth 1 -type f -name "*.json" | while read -r file; do
+  filename=$(basename "$file")
+  echo "Purging: $filename"
+  curl -s -X GET "$BASE_URL/$filename" -o /dev/null -w "  → HTTP %{http_code}\n"
+  sleep 0.5
+done
+
+
+## Science | hi  cd foundation/10/Science/hi ##
+BASE_URL="https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Science/hi"
+
+find . -maxdepth 1 -type f -name "*.json" | while read -r file; do
+  filename=$(basename "$file")
+  echo "Purging: $filename"
+  curl -s -X GET "$BASE_URL/$filename" -o /dev/null -w "  → HTTP %{http_code}\n"
+  sleep 0.5
+done
+
+
+## Maths | hi  cd foundation/10/Maths/hi ##
+
+BASE_URL="https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/hi"
+
+find . -maxdepth 1 -type f -name "*.json" | while read -r file; do
+  filename=$(basename "$file")
+  echo "Purging: $filename"
+  curl -s -X GET "$BASE_URL/$filename" -o /dev/null -w "  → HTTP %{http_code}\n"
+  sleep 0.5
+done
+
+
+## Maths | en  cd foundation/10/Maths/en ##
+
+BASE_URL="https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/en"
+
+find . -maxdepth 1 -type f -name "*.json" | while read -r file; do
+  filename=$(basename "$file")
+  echo "Purging: $filename"
+  curl -s -X GET "$BASE_URL/$filename" -o /dev/null -w "  → HTTP %{http_code}\n"
+  sleep 0.5
+done
