@@ -12,16 +12,18 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Similarity and Thales Theorem",
-        "definition": "Basic proportionality theorem and similarity criteria.",
-        "explanation": "Proportions and area relations in similar triangles.",
+        "title": "Similarity of Triangles",
+        "definition": "Two triangles are said to be similar if their corresponding angles are equal and their corresponding sides are proportional.",
+        "explanation": "Similar triangles may have different sizes, but they have the same shape. Criteria like AAA, SSS, and SAS are used to prove similarity.",
         "importantPoints": [
-          "Thales Theorem",
-          "Area Theorem"
+          "Corresponding angles are equal and sides are proportional",
+          "AAA, SSS, SAS are criteria of similarity",
+          "Ratio of areas = (Ratio of sides)²"
         ],
         "highlightWords": [
           "similarity",
-          "Thales Theorem"
+          "corresponding angles",
+          "Proportional sides"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -39,7 +41,7 @@
           "statement": "The areas of two similar triangles are 64 cm² and 121 cm² respectively. If the side of the first triangle is 15.4 cm, find the corresponding side of the second triangle.",
           "correct_answer": "21.175 cm",
           "imgUrl": "",
-          "explanation": "Step 1: Let the two similar triangles be ΔABC and ΔDEF. Let side AB of the first triangle be 15.4 cm, and we need to find the corresponding side DE of the second triangle.\n\nStep 2: According to the Area Theorem, the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.\nArea(ΔABC) / Area(ΔDEF) = (AB / DE)²\n\nStep 3: Substitute the given values into the formula:\n64 / 121 = (15.4 / DE)²\n\nStep 4: Take the square root of both sides:\n8 / 11 = 15.4 / DE\n\nStep 5: Solve for DE:\nDE = (15.4 × 11) / 8\nDE = 169.4 / 8 = 21.175 cm\n\nTherefore, the corresponding side of the second triangle is 21.175 cm."
+          "explanation": "Let the two similar triangles be ΔABC and ΔPQR.\nGiven: ar(ΔABC) = 64 cm², ar(ΔPQR) = 121 cm²\nAB = 15.4 cm, find PQ.\n\nAccording to the Area Theorem, the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides:\nar(ΔABC) / ar(ΔPQR) = (AB / PQ)²\n64 / 121 = (15.4 / PQ)²\n\nTaking square root on both sides:\n8 / 11 = 15.4 / PQ\nPQ = (15.4 × 11) / 8\nPQ = 169.4 / 8 = 21.175 cm\nTherefore, the corresponding side of the second triangle is 21.175 cm."
         }
       ],
       "or_option": {
@@ -47,94 +49,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "State and prove Thales Theorem (Basic Proportionality Theorem).",
+            "statement": "State and prove Thales Theorem (BPT).",
             "correct_answer": "Proven",
             "imgUrl": "",
-            "explanation": "Statement: If a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio.\n\nProof:\nLet ΔABC be a triangle and let a line DE || BC intersect AB at D and AC at E.\nWe need to prove that: AD / DB = AE / EC\n\nConstruction: Join B to E and C to D. Draw altitudes DM ⊥ AC and EN ⊥ AB.\n\nStep 1: Calculate the area of triangles sharing bases on AB.\nArea(ΔADE) = ½ × base × height = ½ × AD × EN\nArea(ΔBDE) = ½ × DB × EN\nRatio 1: Area(ΔADE) / Area(ΔBDE) = (½ × AD × EN) / (½ × DB × EN) = AD / DB\n\nStep 2: Calculate the area of triangles sharing bases on AC.\nArea(ΔADE) = ½ × AE × DM\nArea(ΔDEC) = ½ × EC × DM\nRatio 2: Area(ΔADE) / Area(ΔDEC) = (½ × AE × DM) / (½ × EC × DM) = AE / EC\n\nStep 3: Relate the triangles on the parallel lines.\nNotice that ΔBDE and ΔDEC are on the same base DE and between the same parallel lines DE and BC. Therefore, their areas are equal: Area(ΔBDE) = Area(ΔDEC).\n\nStep 4: Conclude the proof.\nSince the denominators in Ratio 1 and Ratio 2 are equal in area, and the numerators are identical, the ratios themselves are equal.\nTherefore, AD / DB = AE / EC. Hence proved."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "3",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "In the figure, if DE || AC and DF || AE, prove that BF / FE = BE / EC.",
-          "correct_answer": "Proven",
-          "imgUrl": "",
-          "explanation": "Step 1: Apply Basic Proportionality Theorem (BPT) to the larger triangle.\nIn ΔBCA, we are given that DE || AC.\nBy BPT, the line DE divides sides BA and BC in the same ratio:\nBD / DA = BE / EC  --- (Equation 1)\n\nStep 2: Apply BPT to the smaller triangle.\nIn ΔBAE, we are given that DF || AE.\nBy BPT, the line DF divides sides BA and BE in the same ratio:\nBD / DA = BF / FE  --- (Equation 2)\n\nStep 3: Compare both equations.\nFrom Equation 1 and Equation 2, the left-hand sides (BD / DA) are equal.\nTherefore, the right-hand sides must also be equal:\nBF / FE = BE / EC.\n\nHence proved."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Prove that the ratio of the areas of two similar triangles is equal to the square of the ratio of their corresponding sides.",
-            "correct_answer": "Proven",
-            "imgUrl": "",
-            "explanation": "Given: Two triangles ΔABC and ΔPQR such that ΔABC ~ ΔPQR.\nTo prove: Area(ΔABC) / Area(ΔPQR) = (AB / PQ)² = (BC / QR)² = (CA / RP)²\n\nConstruction: Draw altitudes AM ⊥ BC and PN ⊥ QR.\n\nStep 1: Write the area ratio using the base and altitude.\nArea(ΔABC) / Area(ΔPQR) = (½ × BC × AM) / (½ × QR × PN)\n= (BC / QR) × (AM / PN)  --- (Equation 1)\n\nStep 2: Prove similarity of the smaller triangles formed by altitudes.\nIn ΔABM and ΔPQN:\n∠B = ∠Q (Because ΔABC ~ ΔPQR)\n∠AMB = ∠PNQ = 90° (By construction)\nBy AA similarity criterion, ΔABM ~ ΔPQN.\nTherefore, corresponding sides are proportional: AM / PN = AB / PQ  --- (Equation 2)\n\nStep 3: Use the properties of the original similar triangles.\nSince ΔABC ~ ΔPQR, we know: AB / PQ = BC / QR = CA / RP  --- (Equation 3)\nFrom Eq 2 and Eq 3, we get: AM / PN = BC / QR.\n\nStep 4: Substitute back into the area ratio.\nSubstitute (AM / PN) with (BC / QR) in Equation 1:\nArea(ΔABC) / Area(ΔPQR) = (BC / QR) × (BC / QR) = (BC / QR)²\nSince all sides are proportional, it holds true for (AB/PQ)² and (CA/RP)² as well. Hence proved."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "4",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "In a right triangle ABC, right-angled at B, if tan A = 1, then verify that 2 sin A cos A = 1.",
-          "correct_answer": "Verified",
-          "imgUrl": "",
-          "explanation": "Step 1: Analyze the given trigonometric ratio.\nIn right triangle ΔABC, right-angled at B:\ntan A = Perpendicular / Base = BC / AB\nGiven tan A = 1, which means BC / AB = 1 => BC = AB.\nLet BC = AB = k.\n\nStep 2: Find the hypotenuse using Pythagoras theorem.\nAC² = AB² + BC²\nAC² = k² + k² = 2k²\nAC = k√2\n\nStep 3: Find the values of sin A and cos A.\nsin A = Perpendicular / Hypotenuse = BC / AC = k / k√2 = 1/√2\ncos A = Base / Hypotenuse = AB / AC = k / k√2 = 1/√2\n\nStep 4: Substitute the values into the equation to verify.\nLHS = 2 sin A cos A\n= 2 × (1/√2) × (1/√2)\n= 2 × (1/2)\n= 1\nSince LHS = 1 = RHS, the statement is verified."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Prove that in a right triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides (Pythagoras Theorem).",
-            "correct_answer": "Proven",
-            "imgUrl": "",
-            "explanation": "Statement: In a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.\nLet ΔABC be a right triangle, right-angled at B.\nTo prove: AC² = AB² + BC²\n\nConstruction: Draw a perpendicular BD from B to hypotenuse AC.\n\nStep 1: Consider triangles ΔADB and ΔABC.\nIn ΔADB and ΔABC:\n∠A = ∠A (Common)\n∠ADB = ∠ABC = 90°\nBy AA similarity, ΔADB ~ ΔABC.\nTherefore, AD / AB = AB / AC\nCross multiplying gives: AD × AC = AB²  --- (Equation 1)\n\nStep 2: Consider triangles ΔBDC and ΔABC.\nIn ΔBDC and ΔABC:\n∠C = ∠C (Common)\n∠BDC = ∠ABC = 90°\nBy AA similarity, ΔBDC ~ ΔABC.\nTherefore, CD / BC = BC / AC\nCross multiplying gives: CD × AC = BC²  --- (Equation 2)\n\nStep 3: Add Equation 1 and Equation 2.\nAB² + BC² = (AD × AC) + (CD × AC)\nFactor out AC: AB² + BC² = AC(AD + CD)\nSince AD + CD = AC (from the figure), substitute this back:\nAB² + BC² = AC(AC)\nAB² + BC² = AC²\nHence proved."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "ABC is an isosceles triangle right-angled at C. Prove that AB² = 2AC².",
-          "correct_answer": "Proven",
-          "imgUrl": "",
-          "explanation": "Step 1: Identify the given properties of the triangle.\nWe are given ΔABC, which is a right-angled triangle with the right angle at C (∠C = 90°).\nWe are also given that it is an isosceles triangle. Since the hypotenuse (AB) is the longest side, the other two sides forming the right angle must be equal.\nTherefore, AC = BC.\n\nStep 2: Apply the Pythagoras theorem to the triangle.\nIn right-angled triangle ΔABC:\nHypotenuse² = Base² + Altitude²\nAB² = AC² + BC²\n\nStep 3: Substitute the known equality into the equation.\nSince AC = BC, we can replace BC² with AC² in the equation:\nAB² = AC² + AC²\nAB² = 2AC²\n\nHence proved."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Find the length of each altitude of an equilateral triangle of side 2a.",
-            "correct_answer": "a√3",
-            "imgUrl": "",
-            "explanation": "Step 1: Visualize the geometry of the equilateral triangle.\nLet ΔABC be an equilateral triangle with sides AB = BC = CA = 2a.\nDraw an altitude AD from vertex A perpendicular to base BC.\n\nStep 2: Use the properties of an equilateral triangle.\nIn an equilateral triangle, the altitude drawn from any vertex bisects the opposite base.\nTherefore, point D is the midpoint of BC.\nSo, BD = DC = BC / 2 = 2a / 2 = a.\n\nStep 3: Apply Pythagoras theorem.\nNow, consider the right-angled triangle ΔADB (where ∠ADB = 90°).\nAccording to Pythagoras theorem:\nHypotenuse² = Base² + Altitude²\nAB² = BD² + AD²\n\nStep 4: Substitute the known values to find AD.\n(2a)² = a² + AD²\n4a² = a² + AD²\nAD² = 4a² - a²\nAD² = 3a²\nAD = √(3a²) = a√3\n\nTherefore, the length of each altitude of the equilateral triangle is a√3."
+            "explanation": "Statement: If a line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, then the other two sides are divided in the same ratio.\n\nProof:\nLet a line DE parallel to side BC of ΔABC intersect AB at D and AC at E.\nTo prove: AD / DB = AE / EC\nConstruction: Join B to E and C to D, and draw EF ⊥ AB and DG ⊥ AC.\n\nArea of ΔADE = ½ × base × height = ½ × AD × EF\nArea of ΔBDE = ½ × BD × EF\nThus area ratio: ar(ΔADE) / ar(ΔBDE) = (½ × AD × EF) / (½ × BD × EF) = AD / DB  --(1)\n\nSimilarly, ar(ΔADE) / ar(DEC) = AE / EC  --(2)\nSince ΔBDE and ΔDEC are on the same base DE and between the same parallel lines BC and DE, ar(ΔBDE) = ar(ΔDEC).\nThus from equations (1) and (2):\nAD / DB = AE / EC\nHence proved."
           }
         ]
       }

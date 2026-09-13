@@ -13,14 +13,16 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Fundamental Theorem of Arithmetic",
-        "definition": "Unique prime factorization of composite numbers.",
-        "explanation": "Used for finding HCF/LCM and proving irrationality.",
+        "definition": "Every composite number can be expressed as a product of primes, and this factorization is unique, apart from the order of prime factors.",
+        "explanation": "This theorem is the basis for finding HCF and LCM using prime factorization and proving the irrationality of numbers like √3.",
         "importantPoints": [
-          "HCF × LCM = Product",
-          "Unique factorization"
+          "Unique prime factorization for composite numbers",
+          "HCF × LCM = Product of two numbers",
+          "Used in proving irrational numbers"
         ],
         "highlightWords": [
           "prime factors",
+          "unique",
           "HCF",
           "LCM"
         ],
@@ -40,7 +42,7 @@
           "statement": "Find the HCF and LCM of 6, 72 and 120 using the prime factorization method.",
           "correct_answer": "HCF = 6, LCM = 360",
           "imgUrl": "",
-          "explanation": "Prime factorization of the given numbers:\n$6 = 2 \\times 3$\n$72 = 2^3 \\times 3^2$\n$120 = 2^3 \\times 3 \\times 5$\n\n$HCF$ = Product of the smallest power of each common prime factor\n$HCF = 2^1 \\times 3^1 = 6$\n\n$LCM$ = Product of the greatest power of each prime factor involved\n$LCM = 2^3 \\times 3^2 \\times 5 = 8 \\times 9 \\times 5 = 360$\n\nTherefore, $HCF = 6$ and $LCM = 360$."
+          "explanation": "Prime factorization of the numbers:\n6 = 2 × 3\n72 = 2³ × 3²\n120 = 2³ × 3 × 5\n\nHCF = Product of the smallest power of each common prime factor\nHCF = 2¹ × 3¹ = 6\n\nLCM = Product of the greatest power of each prime factor involved\nLCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360\n\nTherefore, HCF = 6 and LCM = 360."
         }
       ],
       "or_option": {
@@ -51,91 +53,7 @@
             "statement": "Prove that √3 is an irrational number.",
             "correct_answer": "Proven",
             "imgUrl": "",
-            "explanation": "Let us assume to the contrary that $\\sqrt{3}$ is rational.\nSo, we can find co-prime integers $a$ and $b$ ($b \\neq 0$) such that $\\sqrt{3} = \\frac{a}{b}$.\n$\\Rightarrow \\sqrt{3}b = a$\nSquaring both sides, we get:\n$3b^2 = a^2$\nThis means that $3$ divides $a^2$, so $3$ also divides $a$.\nLet $a = 3c$ for some integer $c$.\nSubstituting $a = 3c$ in $3b^2 = a^2$:\n$3b^2 = (3c)^2 = 9c^2 \\Rightarrow b^2 = 3c^2$\nThis means that $3$ divides $b^2$, so $3$ also divides $b$.\nThus, both $a$ and $b$ have at least $3$ as a common factor, which contradicts the fact that $a$ and $b$ are co-prime.\nTherefore, our assumption is incorrect, and $\\sqrt{3}$ is an irrational number."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "3",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Use Euclid's division lemma to find the HCF of 135 and 225.",
-          "correct_answer": "45",
-          "imgUrl": "",
-          "explanation": "Given numbers: 225 and 135 (since 225 > 135)\nApplying Euclid's division lemma ($a = bq + r$) to 225 and 135:\n$225 = 135 \\times 1 + 90$\nSince remainder $90 \\neq 0$, apply division lemma to 135 and 90:\n$135 = 90 \\times 1 + 45$\nSince remainder $45 \\neq 0$, apply division lemma to 90 and 45:\n$90 = 45 \\times 2 + 0$\nSince the remainder is now zero, the divisor at this stage is 45.\nTherefore, the HCF of 135 and 225 is 45."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Prove that 3 + 2√5 is an irrational number.",
-            "correct_answer": "Proven",
-            "imgUrl": "",
-            "explanation": "Let us assume to the contrary that $3 + 2\\sqrt{5}$ is rational.\nThus, there exist co-prime integers $a$ and $b$ ($b \\neq 0$) such that:\n$3 + 2\\sqrt{5} = \\frac{a}{b}$\nRearranging the terms:\n$2\\sqrt{5} = \\frac{a}{b} - 3 = \\frac{a - 3b}{b}$\n$\\sqrt{5} = \\frac{a - 3b}{2b}$\nSince $a$ and $b$ are integers, $\\frac{a - 3b}{2b}$ is a rational number, which implies that $\\sqrt{5}$ is rational.\nThis contradicts the fact that $\\sqrt{5}$ is irrational.\nTherefore, our assumption is false, and $3 + 2\\sqrt{5}$ is an irrational number."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "4",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Find the HCF and LCM of 26 and 91 and verify that HCF × LCM = product of the two numbers.",
-          "correct_answer": "HCF = 13, LCM = 182",
-          "imgUrl": "",
-          "explanation": "Prime factorization:\n$26 = 2 \\times 13$\n$91 = 7 \\times 13$\n$HCF = 13$\n$LCM = 2 \\times 7 \\times 13 = 182$\nVerification:\nProduct of the two numbers $= 26 \\times 91 = 2366$\n$HCF \\times LCM = 13 \\times 182 = 2366$\nHence, Product of two numbers = $HCF \\times LCM$ (Verified)."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Find the HCF and LCM of 12, 15 and 21 by applying the prime factorization method.",
-            "correct_answer": "HCF = 3, LCM = 420",
-            "imgUrl": "",
-            "explanation": "Prime factorization of 12, 15, and 21:\n$12 = 2^2 \\times 3$\n$15 = 3 \\times 5$\n$21 = 3 \\times 7$\n$HCF$ = Lowest power of common factor $= 3$\n$LCM$ = Product of highest power of each prime factor $= 2^2 \\times 3 \\times 5 \\times 7 = 4 \\times 3 \\times 5 \\times 7 = 420$\nTherefore, $HCF = 3$ and $LCM = 420$."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Prove that 5 - √3 is irrational.",
-          "correct_answer": "Proven",
-          "imgUrl": "",
-          "explanation": "Let us assume to the contrary that $5 - \\sqrt{3}$ is rational.\nThus, there exist co-prime integers $a$ and $b$ ($b \\neq 0$) such that:\n$5 - \\sqrt{3} = \\frac{a}{b}$\nRearranging:\n$\\sqrt{3} = 5 - \\frac{a}{b} = \\frac{5b - a}{b}$\nSince $a$ and $b$ are integers, $\\frac{5b - a}{b}$ is rational, meaning $\\sqrt{3}$ is rational.\nThis contradicts the fact that $\\sqrt{3}$ is irrational.\nTherefore, $5 - \\sqrt{3}$ is an irrational number."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Without actually performing the long division, state whether the rational number 17/8 will have a terminating or a non-terminating repeating decimal expansion.",
-            "correct_answer": "Terminating decimal expansion",
-            "imgUrl": "",
-            "explanation": "Given rational number = $\\frac{17}{8}$\nDenominator $q = 8$\nPrime factorization of $8$:\n$8 = 2^3 = 2^3 \\times 5^0$\nSince the prime factorization of the denominator is of the form $2^m \\times 5^n$ (where $m = 3, n = 0$), the rational number has a terminating decimal expansion."
+            "explanation": "Let us assume that √3 is a rational number.\nTherefore, we can find co-prime integers a and b (b ≠ 0) such that:\n√3 = a / b => √3b = a\n\nSquaring both sides:\n3b² = a²  --(Equation 1)\nThis means a² is divisible by 3, so a is also divisible by 3.\n\nLet a = 3c for some integer c. Substituting into Equation 1:\n3b² = (3c)² = 9c²\nb² = 3c²\nThis means b² is divisible by 3, so b is also divisible by 3.\n\nThus, both a and b share a common factor of 3, which contradicts our assumption that a and b are co-prime.\nTherefore, our assumption is false, and √3 is an irrational number."
           }
         ]
       }
