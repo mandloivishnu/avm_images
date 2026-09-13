@@ -111,7 +111,7 @@
           "statement": "Find the roots of the quadratic equation 2x² + x - 6 = 0 by factorization method.",
           "correct_answer": "x = 3/2, x = -2",
           "imgUrl": "",
-          "explanation": "Given equation: 2x² + x - 6 = 0\nHere a = 2, c = -6, ac = -12\nSplitting the middle term x into two parts whose product is -12 and sum is +1 (i.e., +4x and -3x):\n2x² + 4x - 3x - 6 = 0\n2x(x + 2) - 3(x + 2) = 0\n(2x - 3)(x + 2) = 0\n\nEquating each factor to zero:\n2x - 3 = 0 => x = 3/2\nx + 2 = 0 => x = -2\nTherefore, the roots of the equation are 3/2 and -2."
+          "explanation": "Given equation: 2x² + x - 6 = 0nHere a = 2, c = -6, ac = -12nSplitting the middle term x into two parts whose product is -12 and sum is +1 (i.e., +4x and -3x):n2x² + 4x - 3x - 6 = 0n2x(x + 2) - 3(x + 2) = 0n(2x - 3)(x + 2) = 0nnEquating each factor to zero:n2x - 3 = 0 => x = 3/2nx + 2 = 0 => x = -2nTherefore, the roots of the equation are 3/2 and -2."
         }
       ],
       "or_option": {
@@ -122,7 +122,7 @@
             "statement": "Find the roots of the equation √2x² + 7x + 5√2 = 0 by factorization method.",
             "correct_answer": "x = -√2, x = -5/√2",
             "imgUrl": "",
-            "explanation": "Given equation: √2x² + 7x + 5√2 = 0\nHere ac = √2 × 5√2 = 10\nSplit the middle term 7x such that product is 10 and sum is 7 (i.e., 5x and 2x):\n√2x² + 5x + 2x + 5√2 = 0\nx(√2x + 5) + √2(√2x + 5) = 0\n(x + √2)(√2x + 5) = 0\n\nTherefore:\nx + √2 = 0 => x = -√2\n√2x + 5 = 0 => x = -5/√2\nTherefore, the roots are -√2 and -5/√2."
+            "explanation": "Given equation: √2x² + 7x + 5√2 = 0nHere ac = √2 × 5√2 = 10nSplit the middle term 7x such that product is 10 and sum is 7 (i.e., 5x and 2x):n√2x² + 5x + 2x + 5√2 = 0nx(√2x + 5) + √2(√2x + 5) = 0n(x + √2)(√2x + 5) = 0nnTherefore:nx + √2 = 0 => x = -√2n√2x + 5 = 0 => x = -5/√2nTherefore, the roots are -√2 and -5/√2."
           }
         ]
       }
@@ -139,7 +139,7 @@
           "statement": "Find the roots of the equation 2x² - 7x + 3 = 0 using the quadratic formula.",
           "correct_answer": "x = 3, x = 1/2",
           "imgUrl": "",
-          "explanation": "Comparing the given equation with ax² + bx + c = 0:\na = 2, b = -7, c = 3\n\nQuadratic formula:\nx = [-b ± √(b² - 4ac)] / 2a\n\nSubstituting values:\nx = [-(-7) ± √((-7)² - 4(2)(3))] / (2 × 2)\nx = [7 ± √(49 - 24)] / 4\nx = [7 ± √25] / 4\nx = [7 ± 5] / 4\n\nTaking positive sign:\nx = (7 + 5) / 4 = 12 / 4 = 3\n\nTaking negative sign:\nx = (7 - 5) / 4 = 2 / 4 = 1/2\nTherefore, the roots are 3 and 1/2."
+          "explanation": "Comparing the given equation with ax² + bx + c = 0:na = 2, b = -7, c = 3nnQuadratic formula:nx = [-b ± √(b² - 4ac)] / 2annSubstituting values:nx = [-(-7) ± √((-7)² - 4(2)(3))] / (2 × 2)nx = [7 ± √(49 - 24)] / 4nx = [7 ± √25] / 4nx = [7 ± 5] / 4nnTaking positive sign:nx = (7 + 5) / 4 = 12 / 4 = 3nnTaking negative sign:nx = (7 - 5) / 4 = 2 / 4 = 1/2nTherefore, the roots are 3 and 1/2."
         }
       ],
       "or_option": {
@@ -150,7 +150,7 @@
             "statement": "Find the roots of the equation 2x² + x - 4 = 0 using the quadratic formula.",
             "correct_answer": "x = (-1 ± √33) / 4",
             "imgUrl": "",
-            "explanation": "Here a = 2, b = 1, c = -4\n\nDiscriminant D = b² - 4ac\nD = (1)² - 4(2)(-4) = 1 + 32 = 33\n\nUsing the quadratic formula:\nx = [-b ± √D] / 2a\nx = [-1 ± √33] / (2 × 2)\nx = (-1 ± √33) / 4\nTherefore, the roots are (-1 + √33)/4 and (-1 - √33)/4."
+            "explanation": "Here a = 2, b = 1, c = -4nnDiscriminant D = b² - 4acnD = (1)² - 4(2)(-4) = 1 + 32 = 33nnUsing the quadratic formula:nx = [-b ± √D] / 2anx = [-1 ± √33] / (2 × 2)nx = (-1 ± √33) / 4nTherefore, the roots are (-1 + √33)/4 and (-1 - √33)/4."
           }
         ]
       }
@@ -164,10 +164,10 @@
       "parts": [
         {
           "q_id": "7_a",
-          "statement": "Find the nature of the roots of the following quadratic equation. If the roots are real, find them:\n3x² - 4√3x + 4 = 0",
+          "statement": "Find the nature of the roots of the following quadratic equation. If the roots are real, find them:n3x² - 4√3x + 4 = 0",
           "correct_answer": "Roots are real and equal, x = 2/√3, 2/√3",
           "imgUrl": "",
-          "explanation": "Comparing the equation with ax² + bx + c = 0:\na = 3, b = -4√3, c = 4\n\nDiscriminant D = b² - 4ac\nD = (-4√3)² - 4(3)(4)\nD = 48 - 48 = 0\n\nSince D = 0, the roots are real and equal (coincident).\n\nUsing the formula:\nx = -b / 2a\nx = -(-4√3) / (2 × 3)\nx = 4√3 / 6 = 2√3 / 3 = 2 / √3\nTherefore, both roots are 2/√3 and 2/√3."
+          "explanation": "Comparing the equation with ax² + bx + c = 0:na = 3, b = -4√3, c = 4nnDiscriminant D = b² - 4acnD = (-4√3)² - 4(3)(4)nD = 48 - 48 = 0nnSince D = 0, the roots are real and equal (coincident).nnUsing the formula:nx = -b / 2anx = -(-4√3) / (2 × 3)nx = 4√3 / 6 = 2√3 / 3 = 2 / √3nTherefore, both roots are 2/√3 and 2/√3."
         }
       ],
       "or_option": {
@@ -175,10 +175,10 @@
         "parts": [
           {
             "q_id": "7_b",
-            "statement": "Find the value of k for which the following quadratic equation has two equal roots:\n2x² + kx + 3 = 0",
+            "statement": "Find the value of k for which the following quadratic equation has two equal roots:n2x² + kx + 3 = 0",
             "correct_answer": "k = ± 2√6",
             "imgUrl": "",
-            "explanation": "Given equation: 2x² + kx + 3 = 0\nHere a = 2, b = k, c = 3\n\nFor a quadratic equation to have two equal roots, the discriminant must be zero (D = 0):\nb² - 4ac = 0\nk² - 4(2)(3) = 0\nk² - 24 = 0\nk² = 24\nk = ± √24\nk = ± 2√6\nTherefore, the value of k is ±2√6."
+            "explanation": "Given equation: 2x² + kx + 3 = 0nHere a = 2, b = k, c = 3nnFor a quadratic equation to have two equal roots, the discriminant must be zero (D = 0):nb² - 4ac = 0nk² - 4(2)(3) = 0nk² - 24 = 0nk² = 24nk = ± √24nk = ± 2√6nTherefore, the value of k is ±2√6."
           }
         ]
       }

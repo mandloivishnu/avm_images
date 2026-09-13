@@ -151,10 +151,10 @@
         "parts": [
           {
             "q_id": "6_b",
-            "statement": "Balance the following equation: $\\text{HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{H}_2\\text{O}$",
-            "correct_answer": "$\\text{2HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{2H}_2\\text{O}$",
+            "statement": "Balance the following equation: HNO3 + Ca(OH)2 -> Ca(NO3)2 + H2O",
+            "correct_answer": "2HNO3 + Ca(OH)2 -> Ca(NO3)2 + 2H2O",
             "imgUrl": "",
-            "explanation": "The balanced equation will be:\n$\\text{2HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{2H}_2\\text{O}$"
+            "explanation": "The balanced equation will be:n2HNO3 + Ca(OH)2 -> Ca(NO3)2 + 2H2O"
           }
         ]
       }

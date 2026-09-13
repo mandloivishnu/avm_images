@@ -103,7 +103,7 @@
             "statement": "What is a word equation? Explain with an example.",
             "correct_answer": "An equation expressed in words is called a word equation.",
             "imgUrl": "",
-            "explanation": "When a chemical reaction is expressed in terms of the names of the substances participating in it, it is called a word equation. For example: Zinc + Sulfuric acid $\\rightarrow$ Zinc sulfate + Hydrogen."
+            "explanation": "When a chemical reaction is expressed in terms of the names of the substances participating in it, it is called a word equation. For example: Zinc + Sulfuric acid -> Zinc sulfate + Hydrogen."
           }
         ]
       }
@@ -120,7 +120,7 @@
           "statement": "What are the main steps in writing a chemical equation? Write briefly.",
           "correct_answer": "Writing reactants and products on left and right using formulas and an arrow.",
           "imgUrl": "",
-          "explanation": "Steps for writing a chemical equation: 1. Write reactants on the left side with a (+) sign between them. 2. Write products on the right side with a (+) sign between them. 3. Place an arrow sign ($\\rightarrow$) between reactants and products to indicate the direction of the reaction."
+          "explanation": "Steps for writing a chemical equation: 1. Write reactants on the left side with a (+) sign between them. 2. Write products on the right side with a (+) sign between them. 3. Place an arrow sign (->) between reactants and products to indicate the direction of the reaction."
         }
       ],
       "or_option": {
@@ -148,7 +148,7 @@
           "statement": "What do the symbols indicating physical states (s, l, g, aq) mean in a chemical equation? Explain with examples.",
           "correct_answer": "(s) solid, (l) liquid, (g) gas, and (aq) aqueous solution.",
           "imgUrl": "",
-          "explanation": "To make chemical equations more informative, physical states are added: (s) for solid, (l) for liquid, (g) for gas, and (aq) for aqueous solution. Example: $\\text{CaO(s)} + \\text{H}_2\\text{O(l)} \\rightarrow \\text{Ca(OH)}_2\\text{(aq)}$"
+          "explanation": "To make chemical equations more informative, physical states are added: (s) for solid, (l) for liquid, (g) for gas, and (aq) for aqueous solution. Example: CaO(s) + H2O(l) -> Ca(OH)2(aq)"
         }
       ],
       "or_option": {
@@ -157,9 +157,9 @@
           {
             "q_id": "6_b",
             "statement": "If a gas is evolved or a precipitate is formed in a chemical reaction, how is it represented in the equation?",
-            "correct_answer": "An upward arrow ($\\uparrow$) for gas and downward arrow ($\\downarrow$) for precipitate are used.",
+            "correct_answer": "An upward arrow (gas released ↑) for gas and downward arrow (precipitate formed ↓) for precipitate are used.",
             "imgUrl": "",
-            "explanation": "In case a gas is evolved, an upward arrow ($\\uparrow$) or (g) is written next to the formula of the gas, and if a precipitate is formed, a downward arrow ($\\downarrow$) or (s) is written."
+            "explanation": "In case a gas is evolved, an upward arrow (gas released ↑) or (g) is written next to the formula of the gas, and if a precipitate is formed, a downward arrow (precipitate formed ↓) or (s) is written."
           }
         ]
       }

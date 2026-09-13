@@ -87,7 +87,7 @@
           "statement": "Define oxidation. Explain with a suitable chemical equation.",
           "correct_answer": "Oxidation involves the addition of oxygen or the loss of hydrogen.",
           "imgUrl": "",
-          "explanation": "The chemical process in which oxygen is added to a substance or hydrogen is removed from it is called oxidation. Example: When copper powder is heated, a layer of oxygen coats it to form copper oxide: $\\text{2Cu} + \\text{O}_2 \\rightarrow \\text{2CuO}$."
+          "explanation": "The chemical process in which oxygen is added to a substance or hydrogen is removed from it is called oxidation. Example: When copper powder is heated, a layer of oxygen coats it to form copper oxide: 2Cu + O2 -> 2CuO."
         }
       ],
       "or_option": {
@@ -123,10 +123,10 @@
         "parts": [
           {
             "q_id": "5_b",
-            "statement": "Identify the substances oxidized and reduced in the following equation:\n$\\text{CuO} + \\text{H}_2 \\rightarrow \\text{Cu} + \\text{H}_2\\text{O}$",
+            "statement": "Identify the substances oxidized and reduced in the following equation:nCuO + H2 -> Cu + H2O",
             "correct_answer": "Hydrogen is oxidized and copper oxide is reduced.",
             "imgUrl": "",
-            "explanation": "In this reaction, hydrogen ($\\text{H}_2$) is oxidized to water ($\\text{H}_2\\text{O}$), and copper oxide ($\\text{CuO}$) is reduced to copper ($\\text{Cu}$)."
+            "explanation": "In this reaction, hydrogen (H2) is oxidized to water (H2O), and copper oxide (CuO) is reduced to copper (Cu)."
           }
         ]
       }

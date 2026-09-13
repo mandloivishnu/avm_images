@@ -14,9 +14,9 @@
       "definitionBean": {
         "title": "Neutralization Reaction",
         "definition": "When an acid and a base react with each other, they neutralize each other's effect to form salt and water. This process is called a 'neutralization reaction'.",
-        "explanation": "In this reaction, the $\\text{H}^+$ ion of the acid and the $\\text{OH}^-$ ion of the base combine to form water ($\\text{H}_2\\text{O}$). This is an exothermic reaction in which energy is released.",
+        "explanation": "In this reaction, the H^+ ion of the acid and the OH^- ion of the base combine to form water (H2O). This is an exothermic reaction in which energy is released.",
         "importantPoints": [
-          "Acid $+$ Base $\\rightarrow$ Salt $+$ Water",
+          "Acid + Base -> Salt + Water",
           "Neutral products (salt and water) are formed",
           "Heat is produced in the reaction"
         ],
@@ -36,13 +36,13 @@
       "text": "Quick Revision - Important Salts",
       "definitionBean": {
         "title": "Important Salts",
-        "definition": "Various useful chemicals such as baking soda, washing soda, bleaching powder, and plaster of Paris are obtained from common salt ($\\text{NaCl}$).",
+        "definition": "Various useful chemicals such as baking soda, washing soda, bleaching powder, and plaster of Paris are obtained from common salt (NaCl).",
         "explanation": "These salts are widely used in our daily life, industries, and the medical field.",
         "importantPoints": [
-          "Baking Soda: $\\text{NaHCO}_3$ (Cooking soda)",
-          "Washing Soda: $\\text{Na}_2\\text{CO}_3 \\cdot 10\\text{H}_2\\text{O}$",
-          "Bleaching Powder: $\\text{CaOCl}_2$",
-          "Plaster of Paris: $\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$"
+          "Baking Soda: NaHCO3 (Cooking soda)",
+          "Washing Soda: Na2CO3 cdot 10H2O",
+          "Bleaching Powder: CaOCl2",
+          "Plaster of Paris: CaSO4 cdot frac{1}{2}H2O"
         ],
         "highlightWords": [
           "Baking soda",
@@ -66,7 +66,7 @@
           "statement": "What is a neutralization reaction? Give an example.",
           "correct_answer": "Formation of salt and water from the combination of an acid and a base is neutralization.",
           "imgUrl": "",
-          "explanation": "When an acid and a base react together to form salt and water, it is called a neutralization reaction. Example: $\\text{NaOH} + \\text{HCl} \\rightarrow \\text{NaCl} + \\text{H}_2\\text{O}$."
+          "explanation": "When an acid and a base react together to form salt and water, it is called a neutralization reaction. Example: NaOH + HCl -> NaCl + H2O."
         }
       ],
       "or_option": {
@@ -75,9 +75,9 @@
           {
             "q_id": "3_b",
             "statement": "Write the chemical names and formulas of baking soda and plaster of Paris.",
-            "correct_answer": "Baking soda ($\\text{NaHCO}_3$), Plaster of Paris ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$).",
+            "correct_answer": "Baking soda (NaHCO3), Plaster of Paris (CaSO4 cdot frac{1}{2}H2O).",
             "imgUrl": "",
-            "explanation": "Baking Soda: Sodium hydrogen carbonate ($\\text{NaHCO}_3$); Plaster of Paris: Calcium sulfate hemihydrate ($\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}$)."
+            "explanation": "Baking Soda: Sodium hydrogen carbonate (NaHCO3); Plaster of Paris: Calcium sulfate hemihydrate (CaSO4 cdot frac{1}{2}H2O)."
           }
         ]
       }

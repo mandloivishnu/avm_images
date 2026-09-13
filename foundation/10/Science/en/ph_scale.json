@@ -13,7 +13,7 @@
       "text": "Quick Revision - Meaning of pH",
       "definitionBean": {
         "title": "Meaning of pH",
-        "definition": "The scale used to measure the concentration of hydrogen ions ($\\text{H}^+$) in a solution is called the 'pH scale', where 'p' stands for 'potenz' (power).",
+        "definition": "The scale used to measure the concentration of hydrogen ions (H^+) in a solution is called the 'pH scale', where 'p' stands for 'potenz' (power).",
         "explanation": "Values on the pH scale range from 0 to 14. A value less than 7 indicates acidity, a value of 7 indicates neutrality (neutral solution like pure water), and a value greater than 7 indicates alkalinity.",
         "importantPoints": [
           "The range of pH scale is from 0 to 14",
@@ -64,7 +64,7 @@
         "definition": "In our daily life, pH plays an important role in the digestive system, oral hygiene, plant soil, and self-defense (insect stings).",
         "explanation": "Hydrochloric acid in the stomach aids digestion (antacids are used during indigestion), tooth decay starts when mouth pH falls below 5.5, and relief from a bee sting (which contains acid) is obtained using a base (baking soda).",
         "importantPoints": [
-          "Acid in digestion: Formation of $\\text{HCl}$ in the stomach",
+          "Acid in digestion: Formation of HCl in the stomach",
           "Tooth decay: pH value falling below 5.5",
           "Proper soil pH for plants",
           "Effect and treatment of acid in insect stings"
@@ -147,7 +147,7 @@
           "statement": "What is the role of pH in our stomach? Why are antacids used during indigestion?",
           "correct_answer": "Antacids neutralize excess acid.",
           "imgUrl": "",
-          "explanation": "Hydrochloric acid ($\\text{HCl}$) is produced in our stomach which aids in food digestion. During indigestion, excess acid is produced in the stomach, causing pain and irritation. To remedy this, a weak base (antacid) like magnesium hydroxide is used to neutralize the acid."
+          "explanation": "Hydrochloric acid (HCl) is produced in our stomach which aids in food digestion. During indigestion, excess acid is produced in the stomach, causing pain and irritation. To remedy this, a weak base (antacid) like magnesium hydroxide is used to neutralize the acid."
         }
       ],
       "or_option": {

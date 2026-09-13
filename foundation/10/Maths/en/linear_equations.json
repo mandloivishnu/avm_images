@@ -112,10 +112,10 @@
       "parts": [
         {
           "q_id": "5_a",
-          "statement": "निम्न रैखिक equation युग्म को Substitution Method from solution ofजिए:\n7x - 15y = 2\nx + 2y = 3",
+          "statement": "निम्न रैखिक equation युग्म को Substitution Method from solution ofजिए:n7x - 15y = 2nx + 2y = 3",
           "correct_answer": "x = 49/29, y = 19/29",
           "imgUrl": "",
-          "explanation": "equation (1): 7x - 15y = 2\nequation (2): x + 2y = 3\n\nequation (2) from x of मान निofलने at:\nx = 3 - 2y  --(equation 3)\n\nx of यह मान equation (1) in रखने at:\n7(3 - 2y) - 15y = 2\n21 - 14y - 15y = 2\n21 - 29y = 2\n-29y = 2 - 21\n-29y = -19\ny = 19/29\n\ny of मान equation (3) in रखने at:\nx = 3 - 2(19/29)\nx = 3 - 38/29\nx = (87 - 38) / 29\nx = 49/29\n\nTherefore solution x = 49/29 and y = 19/29 है।"
+          "explanation": "equation (1): 7x - 15y = 2nequation (2): x + 2y = 3nnequation (2) from x of मान निofलने at:nx = 3 - 2y  --(equation 3)nnx of यह मान equation (1) in रखने at:n7(3 - 2y) - 15y = 2n21 - 14y - 15y = 2n21 - 29y = 2n-29y = 2 - 21n-29y = -19ny = 19/29nny of मान equation (3) in रखने at:nx = 3 - 2(19/29)nx = 3 - 38/29nx = (87 - 38) / 29nx = 49/29nnTherefore solution x = 49/29 and y = 19/29 है।"
         }
       ],
       "or_option": {
@@ -123,10 +123,10 @@
         "parts": [
           {
             "q_id": "5_b",
-            "statement": "Substitution Method द्वारा solution ofजिए:\ns - t = 3\ns/3 + t/2 = 6",
+            "statement": "Substitution Method द्वारा solution ofजिए:ns - t = 3ns/3 + t/2 = 6",
             "correct_answer": "s = 9, t = 6",
             "imgUrl": "",
-            "explanation": "equation (1): s - t = 3 => s = t + 3\nequation (2): s/3 + t/2 = 6\n\ns of मान equation (2) in रखने at:\n(t + 3)/3 + t/2 = 6\nलघुत्तम (LCM) लेकर On solving:\n[2(t + 3) + 3t] / 6 = 6\n2t + 6 + 3t = 36\n5t + 6 = 36\n5t = 30 => t = 6\n\nt of मान s = t + 3 in रखने at:\ns = 6 + 3 = 9\n\nTherefore s = 9 and t = 6 है।"
+            "explanation": "equation (1): s - t = 3 => s = t + 3nequation (2): s/3 + t/2 = 6nns of मान equation (2) in रखने at:n(t + 3)/3 + t/2 = 6nलघुत्तम (LCM) लेकर On solving:n[2(t + 3) + 3t] / 6 = 6n2t + 6 + 3t = 36n5t + 6 = 36n5t = 30 => t = 6nnt of मान s = t + 3 in रखने at:ns = 6 + 3 = 9nnTherefore s = 9 and t = 6 है।"
           }
         ]
       }
@@ -140,10 +140,10 @@
       "parts": [
         {
           "q_id": "6_a",
-          "statement": "Elimination Method of प्रsum하여 निम्न equation युग्म of all possible solution find:\n3x + 4y = 10\n2x - 2y = 2",
+          "statement": "Elimination Method of प्रsum하여 निम्न equation युग्म of all possible solution find:n3x + 4y = 10n2x - 2y = 2",
           "correct_answer": "x = 2, y = 1",
           "imgUrl": "",
-          "explanation": "equation (1): 3x + 4y = 10\nequation (2): 2x - 2y = 2\n\ny of coefficients बराबर करने for equation (2) in 2 from multiply करने at:\n4x - 4y = 4  --(equation 3)\n\nअब equation (1) and (3) को addने at:\n(3x + 4y) + (4x - 4y) = 10 + 4\n7x = 14 => x = 2\n\nx of मान equation (2) in रखने at:\n2(2) - 2y = 2\n4 - 2y = 2\n-2y = 2 - 4\n-2y = -2 => y = 1\n\nTherefore x = 2 and y = 1 है।"
+          "explanation": "equation (1): 3x + 4y = 10nequation (2): 2x - 2y = 2nny of coefficients बराबर करने for equation (2) in 2 from multiply करने at:n4x - 4y = 4  --(equation 3)nnअब equation (1) and (3) को addने at:n(3x + 4y) + (4x - 4y) = 10 + 4n7x = 14 => x = 2nnx of मान equation (2) in रखने at:n2(2) - 2y = 2n4 - 2y = 2n-2y = 2 - 4n-2y = -2 => y = 1nnTherefore x = 2 and y = 1 है।"
         }
       ],
       "or_option": {
@@ -151,10 +151,10 @@
         "parts": [
           {
             "q_id": "6_b",
-            "statement": "Elimination Method from solution ofजिए:\nx + y = 5\n2x - 3y = 4",
+            "statement": "Elimination Method from solution ofजिए:nx + y = 5n2x - 3y = 4",
             "correct_answer": "x = 19/5, y = 6/5",
             "imgUrl": "",
-            "explanation": "equation (1): x + y = 5\nequation (2): 2x - 3y = 4\n\nx of coefficients बराबर करने for equation (1) in 2 from multiply करने at:\n2x + 2y = 10  --(equation 3)\n\nequation (3) in from equation (2) subtractने at:\n(2x + 2y) - (2x - 3y) = 10 - 4\n2y + 3y = 6\n5y = 6 => y = 6/5\n\ny of मान equation (1) in रखने at:\nx + 6/5 = 5\nx = 5 - 6/5\nx = (25 - 6) / 5 = 19/5\n\nTherefore x = 19/5 and y = 6/5 है।"
+            "explanation": "equation (1): x + y = 5nequation (2): 2x - 3y = 4nnx of coefficients बराबर करने for equation (1) in 2 from multiply करने at:n2x + 2y = 10  --(equation 3)nnequation (3) in from equation (2) subtractने at:n(2x + 2y) - (2x - 3y) = 10 - 4n2y + 3y = 6n5y = 6 => y = 6/5nny of मान equation (1) in रखने at:nx + 6/5 = 5nx = 5 - 6/5nx = (25 - 6) / 5 = 19/5nnTherefore x = 19/5 and y = 6/5 है।"
           }
         ]
       }
@@ -171,7 +171,7 @@
           "statement": "दो numberओं of अंतर 26 है and एक number दूसरी number of तीन गुनी है। उन्हें find।",
           "correct_answer": "numberएँ 39 and 13 हैं",
           "imgUrl": "",
-          "explanation": "Let larger number x and smaller number y है।\nप्रश्नुसार:\n1) x - y = 26  --(equation 1)\n2) x = 3y    --(equation 2)\n\nx of यह मान equation (1) in रखने at (Substitution Method):\n3y - y = 26\n2y = 26 => y = 13\n\ny of मान equation (2) in रखने at:\nx = 3(13) = 39\n\nTherefore numberएँ 39 and 13 हैं।"
+          "explanation": "Let larger number x and smaller number y है।nप्रश्नुसार:n1) x - y = 26  --(equation 1)n2) x = 3y    --(equation 2)nnx of यह मान equation (1) in रखने at (Substitution Method):n3y - y = 26n2y = 26 => y = 13nny of मान equation (2) in रखने at:nx = 3(13) = 39nnTherefore numberएँ 39 and 13 हैं।"
         }
       ],
       "or_option": {
@@ -182,7 +182,7 @@
             "statement": "एक fraction of numerator and denominator both in 2 add दिया जाए, then वह 9/11 हो जाती है। if numerator and denominator both in 3 add दिया जाए, then वह 5/6 हो जाती है। वह fraction find।",
             "correct_answer": "7/9",
             "imgUrl": "",
-            "explanation": "Let fraction x/y है।\nAccording to the first condition:\n(x + 2) / (y + 2) = 9/11\n11(x + 2) = 9(y + 2)\n11x + 22 = 9y + 18\n11x - 9y = -4  --(equation 1)\n\nAccording to the second condition:\n(x + 3) / (y + 3) = 5/6\n6(x + 3) = 5(y + 3)\n6x + 18 = 5y + 15\n6x - 5y = -3  --(equation 2)\n\nequation (1) को 5 from and (2) को 9 from multiply करof subtractने at:\n55x - 45y = -20\n54x - 45y = -27\n-----------------\nx = 7\n\nx of मान equation (1) in रखने at:\n11(7) - 9y = -4\n77 - 9y = -4\n-9y = -81 => y = 9\n\nTherefore required fraction 7/9 है।"
+            "explanation": "Let fraction x/y है।nAccording to the first condition:n(x + 2) / (y + 2) = 9/11n11(x + 2) = 9(y + 2)n11x + 22 = 9y + 18n11x - 9y = -4  --(equation 1)nnAccording to the second condition:n(x + 3) / (y + 3) = 5/6n6(x + 3) = 5(y + 3)n6x + 18 = 5y + 15n6x - 5y = -3  --(equation 2)nnequation (1) को 5 from and (2) को 9 from multiply करof subtractने at:n55x - 45y = -20n54x - 45y = -27n-----------------nx = 7nnx of मान equation (1) in रखने at:n11(7) - 9y = -4n77 - 9y = -4n-9y = -81 => y = 9nnTherefore required fraction 7/9 है।"
           }
         ]
       }

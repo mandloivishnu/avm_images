@@ -88,7 +88,7 @@
           "statement": "Find the area of a sector of a circle with radius 6 cm and angle 60°. (Take π = 22/7.)",
           "correct_answer": "132/7 cm²",
           "imgUrl": "",
-          "explanation": "Given:\nRadius (r) = 6 cm\nCentral angle (θ) = 60°\n\nArea of the sector = (θ / 360°) × πr²\n= (60° / 360°) × (22/7) × (6)²\n= (1 / 6) × (22/7) × 36\n= (22 × 6) / 7\n= 132/7 cm² (or 18.85 cm²)"
+          "explanation": "Given:nRadius (r) = 6 cmnCentral angle (θ) = 60°nnArea of the sector = (θ / 360°) × πr²n= (60° / 360°) × (22/7) × (6)²n= (1 / 6) × (22/7) × 36n= (22 × 6) / 7n= 132/7 cm² (or 18.85 cm²)"
         }
       ],
       "or_option": {
@@ -99,7 +99,7 @@
             "statement": "Find the area of a quadrant of a circle whose circumference is 22 cm. (Take π = 22/7.)",
             "correct_answer": "77/8 cm²",
             "imgUrl": "",
-            "explanation": "Given:\nCircumference of the circle = 22 cm\n2πr = 22\n2 × (22/7) × r = 22\nr = (22 × 7) / (2 × 22) = 7/2 cm\n\nAngle of the quadrant (θ) = 90°\nArea of the quadrant = (90° / 360°) × πr²\n= (1 / 4) × (22/7) × (7/2) × (7/2)\n= (1 / 4) × (22/7) × (49/4)\n= 77/8 cm²"
+            "explanation": "Given:nCircumference of the circle = 22 cmn2πr = 22n2 × (22/7) × r = 22nr = (22 × 7) / (2 × 22) = 7/2 cmnnAngle of the quadrant (θ) = 90°nArea of the quadrant = (90° / 360°) × πr²n= (1 / 4) × (22/7) × (7/2) × (7/2)n= (1 / 4) × (22/7) × (49/4)n= 77/8 cm²"
           }
         ]
       }
@@ -116,7 +116,7 @@
           "statement": "A circle has radius 10 cm and the angle subtended at the center is 90°. Find the area of the corresponding minor sector. (Take π = 3.14.)",
           "correct_answer": "78.5 cm²",
           "imgUrl": "",
-          "explanation": "Given:\nr = 10 cm, θ = 90°, π = 3.14\n\nArea of the sector = (θ / 360°) × πr²\n= (90° / 360°) × 3.14 × (10)²\n= (1 / 4) × 3.14 × 100\n= 314 / 4\n= 78.5 cm²"
+          "explanation": "Given:nr = 10 cm, θ = 90°, π = 3.14nnArea of the sector = (θ / 360°) × πr²n= (90° / 360°) × 3.14 × (10)²n= (1 / 4) × 3.14 × 100n= 314 / 4n= 78.5 cm²"
         }
       ],
       "or_option": {
@@ -127,7 +127,7 @@
             "statement": "A circle has radius 21 cm and the arc subtends an angle of 60° at the center. Find the length of the arc.",
             "correct_answer": "22 cm",
             "imgUrl": "",
-            "explanation": "Given:\nr = 21 cm, θ = 60°\n\nLength of the arc = (θ / 360°) × 2πr\n= (60° / 360°) × 2 × (22/7) × 21\n= (1 / 6) × 2 × (22/7) × 21\n= (1 / 6) × 132\n= 22 cm"
+            "explanation": "Given:nr = 21 cm, θ = 60°nnLength of the arc = (θ / 360°) × 2πrn= (60° / 360°) × 2 × (22/7) × 21n= (1 / 6) × 2 × (22/7) × 21n= (1 / 6) × 132n= 22 cm"
           }
         ]
       }
@@ -144,7 +144,7 @@
           "statement": "A chord of a circle with radius 14 cm subtends an angle of 60° at the center. Find the area of the corresponding minor segment. (Take √3 = 1.73.)",
           "correct_answer": "56.88 cm² (approximately)",
           "imgUrl": "",
-          "explanation": "Given: r = 14 cm, θ = 60°\n\n1. Area of the sector = (60°/360°) × (22/7) × 14²\n= (1/6) × (22/7) × 196 = 308/3 cm² = 102.67 cm²\n\n2. Area of the equilateral triangle = (√3/4) × r²\n= (1.73/4) × 14² = 1.73 × 49 = 84.77 cm²\n\n3. Area of the minor segment = Area of the sector - area of the triangle\n= 102.67 - 84.77 = 17.90 cm² (approximately)"
+          "explanation": "Given: r = 14 cm, θ = 60°nn1. Area of the sector = (60°/360°) × (22/7) × 14²n= (1/6) × (22/7) × 196 = 308/3 cm² = 102.67 cm²nn2. Area of the equilateral triangle = (√3/4) × r²n= (1.73/4) × 14² = 1.73 × 49 = 84.77 cm²nn3. Area of the minor segment = Area of the sector - area of the trianglen= 102.67 - 84.77 = 17.90 cm² (approximately)"
         }
       ],
       "or_option": {
@@ -155,7 +155,7 @@
             "statement": "The minute hand of a clock is 14 cm long. Find the area swept by the hand in 5 minutes.",
             "correct_answer": "154/3 cm²",
             "imgUrl": "",
-            "explanation": "Angle covered by the minute hand in 60 minutes = 360°\nTherefore, angle covered in 1 minute = 360° / 60 = 6°\nAngle covered in 5 minutes (θ) = 5 × 6° = 30°\n\nLength of the hand (r) = 14 cm\nArea swept = (30° / 360°) × (22/7) × (14)²\n= (1 / 12) × (22/7) × 196\n= (1 / 12) × 616\n= 154/3 cm²"
+            "explanation": "Angle covered by the minute hand in 60 minutes = 360°nTherefore, angle covered in 1 minute = 360° / 60 = 6°nAngle covered in 5 minutes (θ) = 5 × 6° = 30°nnLength of the hand (r) = 14 cmnArea swept = (30° / 360°) × (22/7) × (14)²n= (1 / 12) × (22/7) × 196n= (1 / 12) × 616n= 154/3 cm²"
           }
         ]
       }

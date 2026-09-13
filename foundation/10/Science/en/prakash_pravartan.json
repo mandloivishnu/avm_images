@@ -97,7 +97,7 @@
           "statement": "Write the laws of refraction of light. What is Snell's law?",
          "correct_answer": "Laws of refraction and sin i / sin r = constant (Snell's law).",
           "imgUrl": "",
-          "explanation": "Laws of refraction: 1. The incident ray, refracted ray, and normal all lie in the same plane. 2. For a given color of light and a given pair of media, the ratio of the sine of the angle of incidence ($\\sin i$) to the sine of the angle of refraction ($\\sin r$) is a constant, known as 'Snell's law' ($\\frac{\\sin i}{\\sin r} = \\text{constant}$)."
+          "explanation": "Laws of refraction: 1. The incident ray, refracted ray, and normal all lie in the same plane. 2. For a given color of light and a given pair of media, the ratio of the sine of the angle of incidence (sin i) to the sine of the angle of refraction (sin r) is a constant, known as 'Snell's law' (frac{sin i}{sin r} = constant)."
         }
       ],
       "or_option": {
@@ -108,7 +108,7 @@
             "statement": "What is meant by the power of a lens? Write its unit.",
             "correct_answer": "Reciprocal of focal length is lens power, its unit is dioptre (D).",
             "imgUrl": "",
-            "explanation": "The degree of convergence or divergence of light rays achieved by a lens is termed its power. It is equal to the reciprocal of focal length ($P = \\frac{1}{f}$). Its SI unit is the 'dioptre' (Dioptre, D)."
+            "explanation": "The degree of convergence or divergence of light rays achieved by a lens is termed its power. It is equal to the reciprocal of focal length (P = frac{1}{f}). Its SI unit is the 'dioptre' (Dioptre, D)."
           }
         ]
       }

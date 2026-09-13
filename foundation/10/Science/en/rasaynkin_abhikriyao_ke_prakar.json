@@ -87,7 +87,7 @@
           "statement": "What is a combination reaction? Explain with an example.",
           "correct_answer": "Two or more reactants combine to form a new product (e.g., combustion of coal).",
           "imgUrl": "",
-          "explanation": "A chemical reaction in which two or more substances (reactants) combine to form only one new substance (product) is called a combination reaction. Example: Combustion of coal - $\\text{C(s)} + \\text{O}_2\\text{(g)} \\rightarrow \\text{CO}_2\\text{(g)}$."
+          "explanation": "A chemical reaction in which two or more substances (reactants) combine to form only one new substance (product) is called a combination reaction. Example: Combustion of coal - C(s) + O2(g) -> CO2(g)."
         }
       ],
       "or_option": {
@@ -143,7 +143,7 @@
           "statement": "What is meant by a double displacement reaction? Write a suitable equation.",
           "correct_answer": "Exchange of ions between reactants is a double displacement reaction.",
           "imgUrl": "",
-          "explanation": "Reactions in which there is an exchange of ions between reactants are called double displacement reactions. Example: $\\text{Na}_2\\text{SO}_4\\text{(aq)} + \\text{BaCl}_2\\text{(aq)} \\rightarrow \\text{BaSO}_4\\text{(s)} + \\text{2NaCl(aq)}$."
+          "explanation": "Reactions in which there is an exchange of ions between reactants are called double displacement reactions. Example: Na2SO4(aq) + BaCl2(aq) -> BaSO4(s) + 2NaCl(aq)."
         }
       ],
       "or_option": {

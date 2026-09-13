@@ -16,9 +16,9 @@
         "definition": "Metals react with oxygen to form basic oxides, react with water to liberate hydrogen gas, and react with dilute acids to give salts and hydrogen.",
         "explanation": "Chemically, metals have positively charged ions (tendency to form cations by losing electrons). Their reactivity depends on their activity level.",
         "importantPoints": [
-          "Reaction with oxygen: Metal $+$ Oxygen $\\rightarrow$ Metal oxide (basic)",
-          "Reaction with water: Metal $+$ Water $\\rightarrow$ Metal oxide/hydroxide $+$ Hydrogen",
-          "Reaction with acid: Metal $+$ Dilute acid $\\rightarrow$ Salt $+$ Hydrogen gas"
+          "Reaction with oxygen: Metal + Oxygen -> Metal oxide (basic)",
+          "Reaction with water: Metal + Water -> Metal oxide/hydroxide + Hydrogen",
+          "Reaction with acid: Metal + Dilute acid -> Salt + Hydrogen gas"
         ],
         "highlightWords": [
           "Reaction with oxygen",
@@ -64,7 +64,7 @@
           "statement": "Explain the reaction of metals with oxygen and water with equations.",
           "correct_answer": "Metals combine with oxygen to form oxides and with water to form hydrogen.",
           "imgUrl": "",
-          "explanation": "Metals combine with oxygen to form metal oxides (e.g., $2\\text{Cu} + \\text{O}_2 \\rightarrow 2\\text{CuO}$). Upon reacting with water, some metals form hydrogen gas and hydroxides."
+          "explanation": "Metals combine with oxygen to form metal oxides (e.g., 2Cu + O2 -> 2CuO). Upon reacting with water, some metals form hydrogen gas and hydroxides."
         }
       ],
       "or_option": {

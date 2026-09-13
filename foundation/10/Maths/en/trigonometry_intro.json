@@ -90,7 +90,7 @@
           "statement": "If sin A = 3/4, calculate cos A and tan A.",
           "correct_answer": "cos A = (√7)/4, tan A = 3/√7",
           "imgUrl": "",
-          "explanation": "Given: sin A = Perpendicular / Hypotenuse = 3/4\n\nLet Perpendicular BC = 3k and Hypotenuse AC = 4k\nUsing Pythagoras theorem in right-angled triangle ABC:\nAC² = AB² + BC²\n(4k)² = AB² + (3k)²\n16k² = AB² + 9k²\nAB² = 16k² - 9k² = 7k²\nAB = √7k (Base)\n\nThus:\ncos A = Base / Hypotenuse = √7k / 4k = √7 / 4\ntan A = Perpendicular / Base = 3k / √7k = 3 / √7"
+          "explanation": "Given: sin A = Perpendicular / Hypotenuse = 3/4nnLet Perpendicular BC = 3k and Hypotenuse AC = 4knUsing Pythagoras theorem in right-angled triangle ABC:nAC² = AB² + BC²n(4k)² = AB² + (3k)²n16k² = AB² + 9k²nAB² = 16k² - 9k² = 7k²nAB = √7k (Base)nnThus:ncos A = Base / Hypotenuse = √7k / 4k = √7 / 4ntan A = Perpendicular / Base = 3k / √7k = 3 / √7"
         }
       ],
       "or_option": {
@@ -101,7 +101,7 @@
             "statement": "If cot θ = 7/8, evaluate [(1 + sin θ)(1 - sin θ)] / [(1 + cos θ)(1 - cos θ)].",
             "correct_answer": "49/64",
             "imgUrl": "",
-            "explanation": "Given: cot θ = 7/8\nGiven expression: [(1 + sin θ)(1 - sin θ)] / [(1 + cos θ)(1 - cos θ)] = (1 - sin² θ) / (1 - cos² θ) = cos² θ / sin² θ = (cot θ)²\n\nSubstituting value:\n(7/8)² = 49/64\nTherefore, the required value is 49/64."
+            "explanation": "Given: cot θ = 7/8nGiven expression: [(1 + sin θ)(1 - sin θ)] / [(1 + cos θ)(1 - cos θ)] = (1 - sin² θ) / (1 - cos² θ) = cos² θ / sin² θ = (cot θ)²nnSubstituting value:n(7/8)² = 49/64nTherefore, the required value is 49/64."
           }
         ]
       }
@@ -118,7 +118,7 @@
           "statement": "Evaluate: sin 60° cos 30° + sin 30° cos 60°",
           "correct_answer": "1",
           "imgUrl": "",
-          "explanation": "Substituting standard values:\nsin 60° = √3/2\ncos 30° = √3/2\nsin 30° = 1/2\ncos 60° = 1/2\n\nPutting values in the expression:\n= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4 = (3 + 1)/4 = 4/4 = 1\nTherefore, the value is 1."
+          "explanation": "Substituting standard values:nsin 60° = √3/2ncos 30° = √3/2nsin 30° = 1/2ncos 60° = 1/2nnPutting values in the expression:n= (√3/2)(√3/2) + (1/2)(1/2)n= 3/4 + 1/4 = (3 + 1)/4 = 4/4 = 1nTherefore, the value is 1."
         }
       ],
       "or_option": {
@@ -129,7 +129,7 @@
             "statement": "Prove that: (sin A + cosec A)² + (cos A + sec A)² = 7 + tan² A + cot² A",
             "correct_answer": "Proven",
             "imgUrl": "",
-            "explanation": "Left Hand Side (LHS):\n= (sin A + cosec A)² + (cos A + sec A)²\n= sin² A + cosec² A + 2sin A cosec A + cos² A + sec² A + 2cos A sec A\n\nSince sin A cosec A = 1 and cos A sec A = 1 and sin² A + cos² A = 1:\n= 1 + cosec² A + 2(1) + sec² A + 2(1)\n= 1 + cosec² A + 2 + sec² A + 2\n= 5 + cosec² A + sec² A\n\nUsing identities cosec² A = 1 + cot² A and sec² A = 1 + tan² A:\n= 5 + (1 + cot² A) + (1 + tan² A)\n= 7 + tan² A + cot² A = RHS\nHence proved."
+            "explanation": "Left Hand Side (LHS):n= (sin A + cosec A)² + (cos A + sec A)²n= sin² A + cosec² A + 2sin A cosec A + cos² A + sec² A + 2cos A sec AnnSince sin A cosec A = 1 and cos A sec A = 1 and sin² A + cos² A = 1:n= 1 + cosec² A + 2(1) + sec² A + 2(1)n= 1 + cosec² A + 2 + sec² A + 2n= 5 + cosec² A + sec² AnnUsing identities cosec² A = 1 + cot² A and sec² A = 1 + tan² A:n= 5 + (1 + cot² A) + (1 + tan² A)n= 7 + tan² A + cot² A = RHSnHence proved."
           }
         ]
       }

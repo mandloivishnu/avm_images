@@ -135,7 +135,7 @@
           "statement": "Two cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid.",
           "correct_answer": "160 cm²",
           "imgUrl": "",
-          "explanation": "Given: Volume of each cube = 64 cm³\nLet the side of the cube be a\na³ = 64 => a = 4 cm\n\nWhen two such cubes are joined together, a cuboid is formed whose dimensions will be:\nLength (l) = 4 + 4 = 8 cm\nBreadth (b) = 4 cm\nHeight (h) = 4 cm\n\nTotal surface area of cuboid = 2(lb + bh + hl)\n= 2(8×4 + 4×4 + 4×8)\n= 2(32 + 16 + 32)\n= 2(80) = 160 cm²\nTherefore, the surface area of the resulting cuboid is 160 cm²."
+          "explanation": "Given: Volume of each cube = 64 cm³nLet the side of the cube be ana³ = 64 => a = 4 cmnnWhen two such cubes are joined together, a cuboid is formed whose dimensions will be:nLength (l) = 4 + 4 = 8 cmnBreadth (b) = 4 cmnHeight (h) = 4 cmnnTotal surface area of cuboid = 2(lb + bh + hl)n= 2(8×4 + 4×4 + 4×8)n= 2(32 + 16 + 32)n= 2(80) = 160 cm²nTherefore, the surface area of the resulting cuboid is 160 cm²."
         }
       ],
       "or_option": {
@@ -146,7 +146,7 @@
             "statement": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Use π = 22/7)",
             "correct_answer": "214.5 cm²",
             "imgUrl": "",
-            "explanation": "Given:\nTotal height of toy = 15.5 cm\nRadius of hemisphere (r) = 3.5 cm\nHeight of cone (h) = Total height - Radius of hemisphere = 15.5 - 3.5 = 12 cm\n\nSlant height of cone (l):\nl = √(r² + h²) = √( (3.5)² + 12² ) = √(12.25 + 144) = √156.25 = 12.5 cm\n\nTotal surface area of toy = CSA of cone + CSA of hemisphere\n= πrl + 2πr²\n= πr(l + 2r)\n= (22 / 7) × 3.5 × (12.5 + 2 × 3.5)\n= (22 / 7) × (7 / 2) × (12.5 + 7)\n= 11 × 19.5\n= 214.5 cm²\nTherefore, the total surface area of the toy is 214.5 cm²."
+            "explanation": "Given:nTotal height of toy = 15.5 cmnRadius of hemisphere (r) = 3.5 cmnHeight of cone (h) = Total height - Radius of hemisphere = 15.5 - 3.5 = 12 cmnnSlant height of cone (l):nl = √(r² + h²) = √( (3.5)² + 12² ) = √(12.25 + 144) = √156.25 = 12.5 cmnnTotal surface area of toy = CSA of cone + CSA of hemispheren= πrl + 2πr²n= πr(l + 2r)n= (22 / 7) × 3.5 × (12.5 + 2 × 3.5)n= (22 / 7) × (7 / 2) × (12.5 + 7)n= 11 × 19.5n= 214.5 cm²nTherefore, the total surface area of the toy is 214.5 cm²."
           }
         ]
       }
@@ -163,7 +163,7 @@
           "statement": "A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 5 mm. Find its surface area.",
           "correct_answer": "220 mm²",
           "imgUrl": "",
-          "explanation": "Given:\nTotal length of capsule = 14 mm\nDiameter = 5 mm, so radius (r) = 5/2 = 2.5 mm\n\nLength of cylindrical part (h) = Total length - (Radius of hemisphere + Radius of hemisphere)\nh = 14 - (2.5 + 2.5) = 14 - 5 = 9 mm\n\nSurface area of capsule = CSA of cylinder + 2 × (CSA of hemisphere)\n= 2πrh + 2(2πr²)\n= 2πr(h + 2r)\n= 2 × (22 / 7) × 2.5 × (9 + 2 × 2.5)\n= (44 / 7) × 2.5 × (9 + 5)\n= (44 / 7) × 2.5 × 14\n= 44 × 2.5 × 2\n= 44 × 5 = 220 mm²\nTherefore, the surface area of the capsule is 220 mm²."
+          "explanation": "Given:nTotal length of capsule = 14 mmnDiameter = 5 mm, so radius (r) = 5/2 = 2.5 mmnnLength of cylindrical part (h) = Total length - (Radius of hemisphere + Radius of hemisphere)nh = 14 - (2.5 + 2.5) = 14 - 5 = 9 mmnnSurface area of capsule = CSA of cylinder + 2 × (CSA of hemisphere)n= 2πrh + 2(2πr²)n= 2πr(h + 2r)n= 2 × (22 / 7) × 2.5 × (9 + 2 × 2.5)n= (44 / 7) × 2.5 × (9 + 5)n= (44 / 7) × 2.5 × 14n= 44 × 2.5 × 2n= 44 × 5 = 220 mm²nTherefore, the surface area of the capsule is 220 mm²."
         }
       ],
       "or_option": {
@@ -174,7 +174,7 @@
             "statement": "From a solid cylinder of height 2.4 cm and diameter 1.4 cm, a conical cavity of the same height and same diameter is hollowed out. Find the total surface area of the remaining solid to the nearest cm².",
             "correct_answer": "18 cm²",
             "imgUrl": "",
-            "explanation": "Given:\nHeight of cylinder (h) = 2.4 cm\nDiameter of cylinder = 1.4 cm, so radius (r) = 0.7 cm\nHeight and radius of cone are equal to that of cylinder.\n\nSlant height of cone (l):\nl = √(r² + h²) = √((0.7)² + (2.4)²) = √(0.49 + 5.76) = √6.25 = 2.5 cm\n\nTotal surface area of remaining solid = CSA of cylinder + Area of base of cylinder + CSA of cone\n= 2πrh + πr² + πrl\n= πr(2h + r + l)\n= (22 / 7) × 0.7 × (2(2.4) + 0.7 + 2.5)\n= 22 × 0.1 × (4.8 + 3.2)\n= 2.2 × 8\n= 17.6 cm² (approx 18 cm²)\nTherefore, the surface area of the remaining solid is approx 18 cm²."
+            "explanation": "Given:nHeight of cylinder (h) = 2.4 cmnDiameter of cylinder = 1.4 cm, so radius (r) = 0.7 cmnHeight and radius of cone are equal to that of cylinder.nnSlant height of cone (l):nl = √(r² + h²) = √((0.7)² + (2.4)²) = √(0.49 + 5.76) = √6.25 = 2.5 cmnnTotal surface area of remaining solid = CSA of cylinder + Area of base of cylinder + CSA of conen= 2πrh + πr² + πrln= πr(2h + r + l)n= (22 / 7) × 0.7 × (2(2.4) + 0.7 + 2.5)n= 22 × 0.1 × (4.8 + 3.2)n= 2.2 × 8n= 17.6 cm² (approx 18 cm²)nTherefore, the surface area of the remaining solid is approx 18 cm²."
           }
         ]
       }

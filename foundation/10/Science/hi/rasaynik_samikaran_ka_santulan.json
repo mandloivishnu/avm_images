@@ -151,10 +151,10 @@
         "parts": [
           {
             "q_id": "6_b",
-            "statement": "निम्नलिखित समीकरण को संतुलित कीजिए: $\\text{HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{H}_2\\text{O}$",
-            "correct_answer": "$\\text{2HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{2H}_2\\text{O}$",
+            "statement": "निम्नलिखित समीकरण को संतुलित कीजिए: HNO3 + \text{Ca(OH)}2 -> \text{Ca(NO}3)2 + H2O",
+            "correct_answer": "2HNO3 + \text{Ca(OH)}2 -> \text{Ca(NO}3)2 + 2H2O",
             "imgUrl": "",
-            "explanation": "संतुलित समीकरण इस प्रकार होगा:\n$\\text{2HNO}_3 + \\text{Ca(OH)}_2 \\rightarrow \\text{Ca(NO}_3)_2 + \\text{2H}_2\\text{O}$"
+            "explanation": "संतुलित समीकरण इस प्रकार होगा:n2HNO3 + \text{Ca(OH)}2 -> \text{Ca(NO}3)2 + 2H2O"
           }
         ]
       }

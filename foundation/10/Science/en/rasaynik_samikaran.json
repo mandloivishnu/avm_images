@@ -41,7 +41,7 @@
         "importantPoints": [
           "Reactants: Those that take part in the reaction",
           "Products: Those formed after the reaction",
-          "Arrow sign ($\\rightarrow$) indicates the direction of the reaction"
+          "Arrow sign (->) indicates the direction of the reaction"
         ],
         "highlightWords": [
           "Reactant",
@@ -100,7 +100,7 @@
             "statement": "What do reactants and products mean? Clarify through a chemical equation.",
             "correct_answer": "Participants are reactants and formed substances are products.",
             "imgUrl": "",
-            "explanation": "Substances taking part in a reaction are 'reactants' and the new substances formed are 'products'. Example: In $\\text{Zn} + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{H}_2$, zinc and sulfuric acid are reactants while zinc sulfate and hydrogen are products."
+            "explanation": "Substances taking part in a reaction are 'reactants' and the new substances formed are 'products'. Example: In Zn + H2SO4 -> ZnSO4 + H2, zinc and sulfuric acid are reactants while zinc sulfate and hydrogen are products."
           }
         ]
       }
@@ -128,7 +128,7 @@
             "statement": "Which gas is evolved when zinc reacts with dilute sulfuric acid? How will you test it?",
             "correct_answer": "Hydrogen gas is evolved which burns with a pop sound.",
             "imgUrl": "",
-            "explanation": "Hydrogen gas ($\\text{H}_2$) is evolved in this reaction. When a burning matchstick is brought near it, it burns with a 'pop' sound."
+            "explanation": "Hydrogen gas (H2) is evolved in this reaction. When a burning matchstick is brought near it, it burns with a 'pop' sound."
           }
         ]
       }

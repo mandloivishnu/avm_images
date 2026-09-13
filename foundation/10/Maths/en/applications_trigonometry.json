@@ -60,7 +60,7 @@
           "statement": "A person standing 20√3 m from the base of a 20 m high tower observes the top of the tower. Find the angle of elevation.",
           "correct_answer": "",
           "imgUrl": "",
-          "explanation": "Given:\nHeight of the tower = 20 m\nDistance from the base = 20√3 m\n\nLet the angle of elevation = θ\n\nIn the right-angled triangle,\n\ntan θ = Perpendicular / Base\n= 20 / 20√3\n= 1/√3\n\nWe know,\ntan 30° = 1/√3\n\nTherefore, θ = 30°\n\nTherefore, Angle of elevation = 30°."
+          "explanation": "Given:nHeight of the tower = 20 mnDistance from the base = 20√3 mnnLet the angle of elevation = θnnIn the right-angled triangle,nntan θ = Perpendicular / Basen= 20 / 20√3n= 1/√3nnWe know,ntan 30° = 1/√3nnTherefore, θ = 30°nnTherefore, Angle of elevation = 30°."
         }
       ],
       "or_option": {
@@ -71,7 +71,7 @@
             "statement": "The shadow of a tree is 15 m long. If the angle of elevation of the sun is 45°, find the height of the tree.",
             "correct_answer": "",
             "imgUrl": "",
-            "explanation": "Given:\nShadow of the tree = 15 m\nangle of elevation = 45°\n\nLet Height of the tree = h\n\nIn the right-angled triangle,\n\ntan 45° = h / 15\n\n1 = h / 15\n\nh = 15 m\n\nTherefore, Height of the tree = 15 m."
+            "explanation": "Given:nShadow of the tree = 15 mnangle of elevation = 45°nnLet Height of the tree = hnnIn the right-angled triangle,nntan 45° = h / 15nn1 = h / 15nnh = 15 mnnTherefore, Height of the tree = 15 m."
           }
         ]
       }
@@ -88,7 +88,7 @@
           "statement": "A building is 24 m high. Find the angle of elevation of its top from a person standing 18√3 m from the base.",
           "correct_answer": "",
           "imgUrl": "",
-          "explanation": "Given:\nHeight of the building = 24 m\nDistance from the base = 18√3 m\n\nLet the angle of elevation = θ\n\nIn the right-angled triangle,\n\ntan θ = Perpendicular / Base\n= 24 / 18√3\n= 4 / 3√3\n≈ 0.77\n\nAccording to the standard trigonometric table,\nθ ≈ 37.6°\n\nTherefore, the angle of elevation of the top of the building is approximately 38°."
+          "explanation": "Given:nHeight of the building = 24 mnDistance from the base = 18√3 mnnLet the angle of elevation = θnnIn the right-angled triangle,nntan θ = Perpendicular / Basen= 24 / 18√3n= 4 / 3√3n≈ 0.77nnAccording to the standard trigonometric table,nθ ≈ 37.6°nnTherefore, the angle of elevation of the top of the building is approximately 38°."
         }
       ],
       "or_option": {
@@ -99,7 +99,7 @@
             "statement": "Find the angle of elevation of the top of a 15 m high tree for a person standing 15 m from its base.",
             "correct_answer": "",
             "imgUrl": "",
-            "explanation": "Given:\nHeight of the tree = 15 m\nDistance = 15 m\n\n tan θ = 15/15 = 1\n\nWe know,\n tan45° = 1\n\nTherefore, θ = 45°"
+            "explanation": "Given:nHeight of the tree = 15 mnDistance = 15 mnn tan θ = 15/15 = 1nnWe know,n tan45° = 1nnTherefore, θ = 45°"
           }
         ]
       }
@@ -116,7 +116,7 @@
           "statement": "The angle of elevation of the top of a tower is 60° for a person standing 30 m from its base. Find the height of the tower.",
           "correct_answer": "",
           "imgUrl": "",
-          "explanation": "Given:\nDistance from the base = 30 m\nangle of elevation = 60°\n\nLet Height of the tower = h\n\n tan60° = h/30\n\n√3 = h/30\n\nh = 30√3 m\n\n≈ 51.96 m\n\nTherefore, Height of the tower = 30√3 m (approximately 52 m)."
+          "explanation": "Given:nDistance from the base = 30 mnangle of elevation = 60°nnLet Height of the tower = hnn tan60° = h/30nn√3 = h/30nnh = 30√3 mnn≈ 51.96 mnnTherefore, Height of the tower = 30√3 m (approximately 52 m)."
         }
       ],
       "or_option": {
@@ -127,7 +127,7 @@
             "statement": "The angle of elevation of the top of a building is 45° for a person standing 25 m from its base. Find the height of the building.",
             "correct_answer": "",
             "imgUrl": "",
-            "explanation": " tan45° = h/25\n\n1 = h/25\n\nh = 25 m\n\nTherefore, Height of the building 25 m is."
+            "explanation": " tan45° = h/25nn1 = h/25nnh = 25 mnnTherefore, Height of the building 25 m is."
           }
         ]
       }
@@ -144,7 +144,7 @@
           "statement": "A lighthouse is 40 m high. The angle of depression of a boat in the sea from its top is 45°. How far is the boat from the base of the lighthouse?",
           "correct_answer": "",
           "imgUrl": "",
-          "explanation": "Given:\nHeight of the lighthouse = 40 m\nangle of depression = 45°\n\nSince they are alternate angles, the angle of elevation is also 45°.\n\nLet the distance of the boat = d\n\n tan45° = 40/d\n\n1 = 40/d\n\nd = 40 m\n\nTherefore, boat lighthouse of base from 40 m farther is."
+          "explanation": "Given:nHeight of the lighthouse = 40 mnangle of depression = 45°nnSince they are alternate angles, the angle of elevation is also 45°.nnLet the distance of the boat = dnn tan45° = 40/dnn1 = 40/dnnd = 40 mnnTherefore, boat lighthouse of base from 40 m farther is."
         }
       ],
       "or_option": {
@@ -155,7 +155,7 @@
             "statement": "The angle of depression of a village from the top of a hill is 30°. If the height of the hill is 50√3 m, find the horizontal distance to the village.",
             "correct_answer": "",
             "imgUrl": "",
-            "explanation": "angle of depression = angle of elevation = 30°\n\n tan30° = 50√3 / d\n\n1/√3 = 50√3 / d\n\n d = 150 m\n\nTherefore, Distance to the village 150 m is."
+            "explanation": "angle of depression = angle of elevation = 30°nn tan30° = 50√3 / dnn1/√3 = 50√3 / dnn d = 150 mnnTherefore, Distance to the village 150 m is."
           }
         ]
       }
@@ -172,7 +172,7 @@
           "statement": "A person moving toward the base of a tower observes angles of elevation of 30° and 60° from two positions A and B, respectively. If the distance between A and B is 40 m, find the height of the tower.",
           "correct_answer": "",
           "imgUrl": "",
-          "explanation": "Let the height of the tower = h m\n\nLet the distance of the tower from B = x m\nTherefore, distance from A = (x + 40) m\n\nB at:\n tan60° = h/x\n √3 = h/x\n h = x√3\n\nA at:\n tan30° = h/(x+40)\n 1/√3 = h/(x+40)\n\nh = (x+40)/√3\n\nBoth expressions for h are equal:\n\nx√3 = (x+40)/√3\n\n3x = x + 40\n\n2x = 40\n\nx = 20 m\n\nTherefore, h = 20√3 m\n\n≈ 34.64 m\n\nTherefore, the height of the tower = 20√3 m (approximately 34.64 m)."
+          "explanation": "Let the height of the tower = h mnnLet the distance of the tower from B = x mnTherefore, distance from A = (x + 40) mnnB at:n tan60° = h/xn √3 = h/xn h = x√3nnA at:n tan30° = h/(x+40)n 1/√3 = h/(x+40)nnh = (x+40)/√3nnBoth expressions for h are equal:nnx√3 = (x+40)/√3nn3x = x + 40nn2x = 40nnx = 20 mnnTherefore, h = 20√3 mnn≈ 34.64 mnnTherefore, the height of the tower = 20√3 m (approximately 34.64 m)."
         }
       ],
       "or_option": {
@@ -183,7 +183,7 @@
             "statement": "A person moving toward the base of a building observes angles of elevation of 45° and 60° from two positions, respectively. The distance between the two positions is 15 m. Find the height of the building.",
             "correct_answer": "",
             "imgUrl": "",
-            "explanation": "Let the height of the building = h m\n\nDistance from the nearer position = x\n\n tan60° = h/x\n h = x√3\n\nDistance from the farther position = x+15\n\n tan45° = h/(x+15)\n h = x+15\n\nx√3 = x+15\n\nx = 20.49 m (approximately)\n\nh = 20.49√3\n≈ 35.49 m\n\nTherefore, the height of the building is approximately 35.5 m."
+            "explanation": "Let the height of the building = h mnnDistance from the nearer position = xnn tan60° = h/xn h = x√3nnDistance from the farther position = x+15nn tan45° = h/(x+15)n h = x+15nnx√3 = x+15nnx = 20.49 m (approximately)nnh = 20.49√3n≈ 35.49 mnnTherefore, the height of the building is approximately 35.5 m."
           }
         ]
       }
@@ -200,7 +200,7 @@
           "statement": "The shadow of a tree is 12√3 m long. If the angle of elevation of the sun is 30°, find the height of the tree.",
           "correct_answer": "",
           "imgUrl": "",
-          "explanation": "Given:\nShadow = 12√3 m\nangle of elevation = 30°\n\nLet Height of the tree = h\n\n tan30° = h/(12√3)\n\n1/√3 = h/(12√3)\n\nh = 12 m\n\nTherefore, Height of the tree 12 m is."
+          "explanation": "Given:nShadow = 12√3 mnangle of elevation = 30°nnLet Height of the tree = hnn tan30° = h/(12√3)nn1/√3 = h/(12√3)nnh = 12 mnnTherefore, Height of the tree 12 m is."
         }
       ],
       "or_option": {
@@ -211,7 +211,7 @@
             "statement": "The shadow of an electric pole is 10 m. If the angle of elevation of the sun is 45°, find the height of the pole.",
             "correct_answer": "",
             "imgUrl": "",
-            "explanation": "Given:\nShadow = 10 m\nangle of elevation = 45°\n\n tan45° = h/10\n\n1 = h/10\n\nh = 10 m\n\nTherefore, Height of the pole = 10 m."
+            "explanation": "Given:nShadow = 10 mnangle of elevation = 45°nn tan45° = h/10nn1 = h/10nnh = 10 mnnTherefore, Height of the pole = 10 m."
           }
         ]
       }
@@ -228,7 +228,7 @@
           "statement": "An airplane is flying at an altitude of 3000 m above the ground. Its angle of elevation for a person on the ground is 30°. Find the horizontal distance between the person and the point directly below the airplane.",
           "correct_answer": "",
           "imgUrl": "",
-          "explanation": "Given:\nHeight = 3000 m\nangle of elevation = 30°\n\nLet Horizontal distance = d\n\n tan30° = 3000/d\n\n1/√3 = 3000/d\n\nd = 3000√3\n\n≈ 5196 m\n\nTherefore, Horizontal distance = 3000√3 m (approximately 5196 m)."
+          "explanation": "Given:nHeight = 3000 mnangle of elevation = 30°nnLet Horizontal distance = dnn tan30° = 3000/dnn1/√3 = 3000/dnnd = 3000√3nn≈ 5196 mnnTherefore, Horizontal distance = 3000√3 m (approximately 5196 m)."
         }
       ],
       "or_option": {
@@ -239,7 +239,7 @@
             "statement": "A lighthouse is 60 m high. The angle of depression of a ship in the sea from its top is 60°. Find the distance of the ship from the base of the lighthouse.",
             "correct_answer": "",
             "imgUrl": "",
-            "explanation": "angle of depression = angle of elevation = 60°\n\nLet Distance = d\n\n tan60° = 60/d\n\n√3 = 60/d\n\nd = 60/√3\n\n= 20√3 m\n\n≈ 34.64 m\n\nTherefore, Distance of the ship = 20√3 m (approximately 34.64 m)."
+            "explanation": "angle of depression = angle of elevation = 60°nnLet Distance = dnn tan60° = 60/dnn√3 = 60/dnnd = 60/√3nn= 20√3 mnn≈ 34.64 mnnTherefore, Distance of the ship = 20√3 m (approximately 34.64 m)."
           }
         ]
       }
