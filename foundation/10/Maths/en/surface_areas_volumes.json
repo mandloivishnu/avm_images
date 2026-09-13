@@ -21,9 +21,9 @@
           "Cube is a special case of cuboid when l=b=h"
         ],
         "highlightWords": [
-          "Cube",
-          "Cuboid",
-          "Surface area",
+          "cube",
+          "cuboid",
+          "surface area",
           "Volume"
         ],
         "imgUrl": "",
@@ -45,9 +45,9 @@
           "Volume = πr²h"
         ],
         "highlightWords": [
-          "Cylinder",
-          "Curved surface",
-          "Volume"
+          "cylinder",
+          "curved surface",
+          "volume"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -69,9 +69,9 @@
           "Slant height: l² = r² + h²"
         ],
         "highlightWords": [
-          "Cone",
-          "Slant height",
-          "Volume"
+          "cone",
+          "slant height",
+          "volume"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -92,8 +92,8 @@
           "Hemisphere does not have exactly half the volume formulas due to the flat surface addition"
         ],
         "highlightWords": [
-          "Sphere",
-          "Hemisphere",
+          "sphere",
+          "hemisphere",
           "Surface area"
         ],
         "imgUrl": "",
@@ -115,9 +115,9 @@
           "Frustum is the solid obtained by cutting a cone parallelly"
         ],
         "highlightWords": [
-          "Frustum",
-          "Cone",
-          "Slant height"
+          "frustum",
+          "cone",
+          "slant height"
         ],
         "imgUrl": "",
         "realLifeExamples1": []

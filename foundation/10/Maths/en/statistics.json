@@ -21,9 +21,9 @@
           "xi = midpoint of the class interval"
         ],
         "highlightWords": [
-          "Mean",
-          "Frequency",
-          "Class mark"
+          "mean",
+          "frequency",
+          "class mark"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -44,9 +44,9 @@
           "The median class is identified using the value of n/2"
         ],
         "highlightWords": [
-          "Median",
-          "Cumulative frequency",
-          "Median class"
+          "median",
+          "cumulative frequency",
+          "median class"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -67,9 +67,9 @@
           "More than one mode is also possible (bimodal)"
         ],
         "highlightWords": [
-          "Mode",
-          "Modal class",
-          "Frequency"
+          "mode",
+          "modal class",
+          "frequency"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -90,9 +90,9 @@
           "Cumulative frequency is necessary to construct an ogive"
         ],
         "highlightWords": [
-          "Cumulative frequency",
-          "Less than type",
-          "More than type"
+          "cumulative frequency",
+          "less than type",
+          "more than type"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -113,10 +113,10 @@
           "The intersection point of both curves gives the median"
         ],
         "highlightWords": [
-          "Ogive",
-          "Ascending curve",
-          "Descending curve",
-          "Intersection point"
+          "ogive",
+          "ascending curve",
+          "descending curve",
+          "intersection point"
         ],
         "imgUrl": "",
         "realLifeExamples1": []

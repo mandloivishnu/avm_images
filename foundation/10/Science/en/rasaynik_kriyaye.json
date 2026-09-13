@@ -21,9 +21,9 @@
           "Indicating physical states of reactions"
         ],
         "highlightWords": [
-          "Chemical equation",
-          "Symbol",
-          "Formula",
+          "chemical equation",
+          "symbol",
+          "formula",
           "Balanced"
         ],
         "imgUrl": "",
@@ -45,9 +45,9 @@
           "Symbolic representation is more scientific and concise"
         ],
         "highlightWords": [
-          "Word equation",
-          "Chemical formula",
-          "Symbol",
+          "word equation",
+          "chemical formula",
+          "symbol",
           "Valency"
         ],
         "imgUrl": "",
@@ -70,11 +70,11 @@
           "(aq) = Aqueous solution"
         ],
         "highlightWords": [
-          "State symbol",
-          "Solid",
-          "Liquid",
-          "Gas",
-          "Aqueous"
+          "state symbol",
+          "solid",
+          "liquid",
+          "gas",
+          "aqueous"
         ],
         "imgUrl": "",
         "realLifeExamples1": []

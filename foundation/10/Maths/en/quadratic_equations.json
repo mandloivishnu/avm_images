@@ -45,8 +45,8 @@
         ],
         "highlightWords": [
           "Completing the square",
-          "Perfect square",
-          "Square root"
+          "perfect square",
+          "square root"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -68,8 +68,8 @@
         ],
         "highlightWords": [
           "Quadratic formula",
-          "Discriminant",
-          "Roots"
+          "discriminant",
+          "roots"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -91,8 +91,8 @@
           "D = b² - 4ac"
         ],
         "highlightWords": [
-          "Discriminant",
-          "Real roots",
+          "discriminant",
+          "real roots",
           "Imaginary roots"
         ],
         "imgUrl": "",

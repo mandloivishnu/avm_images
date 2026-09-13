@@ -22,8 +22,8 @@
           "There are three relationships in a cubic polynomial (sum, sum of product of zeros taken two at a time, product)"
         ],
         "highlightWords": [
-          "Zeros",
-          "Coefficients",
+          "zeros",
+          "coefficients",
           "Sum",
           "Product"
         ],
@@ -47,10 +47,10 @@
           "Opens upwards if a > 0, and downwards if a < 0"
         ],
         "highlightWords": [
-          "Quadratic Polynomial",
-          "Parabola",
-          "Zeros",
-          "Graph"
+          "quadratic polynomial",
+          "parabola",
+          "zeros",
+          "graph"
         ],
         "imgUrl": "",
         "realLifeExamples1": []

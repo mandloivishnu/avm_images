@@ -22,7 +22,7 @@
         ],
         "highlightWords": [
           "sector",
-          "Central angle",
+          "central angle",
           "Length of the arc"
         ],
         "imgUrl": "",
@@ -45,9 +45,9 @@
         ],
         "highlightWords": [
           "segment",
-          "Chord",
-          "Minor segment",
-          "Major segment"
+          "chord",
+          "minor segment",
+          "major segment"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -68,7 +68,7 @@
           "Finally, add or subtract to find the total area"
         ],
         "highlightWords": [
-          "Combined figure",
+          "combined figure",
           "Adding/subtracting areas",
           "Circle and polygon"
         ],

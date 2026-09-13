@@ -24,9 +24,9 @@
         ],
         "highlightWords": [
           "Euclid",
-          "Division Lemma",
-          "Divisor",
-          "Remainder",
+          "division lemma",
+          "divisor",
+          "remainder",
           "HCF"
         ],
         "imgUrl": "",
@@ -75,9 +75,9 @@
           "This theorem is the basis for finding HCF and LCM"
         ],
         "highlightWords": [
-          "Prime factors",
-          "Unique",
-          "Composite number",
+          "prime factors",
+          "unique",
+          "composite number",
           "Irrational number"
         ],
         "imgUrl": "",
@@ -100,10 +100,10 @@
           "Example: 1/8 = 0.125 (terminating), 1/3 = 0.333... (non-terminating repeating)"
         ],
         "highlightWords": [
-          "Decimal expansion",
-          "Terminating",
-          "Non-terminating repeating",
-          "Co-prime"
+          "decimal expansion",
+          "terminating",
+          "non-terminating repeating",
+          "co-prime"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -149,7 +149,7 @@
           "statement": "Prove that √3 is an irrational number.",
           "correct_answer": "Proven",
           "imgUrl": "",
-            "explanation": "Let us assume that √3 is a rational number.nTherefore, we can find co-prime integers a and b (b ≠ 0) such that:n√3 = a / bn√3b = annSquaring both sides:n3b² = a²  --(Equation 1)nThis means that a² is divisible by 3, so a is also divisible by 3.nnThus, we can write a = 3c (where c is an integer).nSubstituting this value of a in equation (1):n3b² = (3c)²n3b² = 9c²nb² = 3c²nThis means that b² is divisible by 3, so b is also divisible by 3.nnThus, both a and b have at least 3 as a common factor, which contradicts the fact that a and b are co-prime.nTherefore, our assumption was wrong that √3 is rational. Hence, √3 is an irrational number."
+          "explanation": "Let us assume that √3 is a rational number.nTherefore, we can find co-prime integers a and b (b ≠ 0) such that:n√3 = a / bn√3b = annSquaring both sides:n3b² = a²  --(Equation 1)nThis means that a² is divisible by 3, so a is also divisible by 3.nnThus, we can write a = 3c (where c is an integer).nSubstituting this value of a in equation (1):n3b² = (3c)²n3b² = 9c²nb² = 3c²nThis means that b² is divisible by 3, so b is also divisible by 3.nnThus, both a and b have at least 3 as a common factor, which contradicts the fact that a and b are co-prime.nTherefore, our assumption was wrong that √3 is rational. Hence, √3 is an irrational number."
         }
       ],
       "or_option": {

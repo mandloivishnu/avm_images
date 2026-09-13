@@ -21,7 +21,7 @@
           "Loss of Electrons"
         ],
         "highlightWords": [
-          "Oxidation",
+          "oxidation",
           "Addition of oxygen",
           "Loss of hydrogen"
         ],
@@ -44,7 +44,7 @@
           "Gain of Electrons"
         ],
         "highlightWords": [
-          "Reduction",
+          "reduction",
           "Addition of hydrogen",
           "Loss of oxygen"
         ],
@@ -67,9 +67,9 @@
           "Redox Reaction: In which both oxidation and reduction take place simultaneously"
         ],
         "highlightWords": [
-          "Oxidizing agent",
-          "Reducing agent",
-          "Redox reaction"
+          "oxidizing agent",
+          "reducing agent",
+          "redox reaction"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
