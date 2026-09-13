@@ -131,10 +131,10 @@
       "parts": [
         {
           "q_id": "a",
-          "statement": "The following distribution shows the daily pocket allowance of children in a locality. The mean pocket allowance is ₹ 18. Find the missing frequency f:nClass interval: 11-13, 13-15, 15-17, 17-19, 19-21, 21-23, 23-25nFrequency: 7, 6, 9, 13, f, 5, 4",
+          "statement": "The following distribution shows the daily pocket allowance of children in a locality. The mean pocket allowance is ₹ 18. Find the missing frequency f:\nClass interval: 11-13, 13-15, 15-17, 17-19, 19-21, 21-23, 23-25\nFrequency: 7, 6, 9, 13, f, 5, 4",
           "correct_answer": "f = 20",
           "imgUrl": "",
-          "explanation": "Table for finding mean by direct method:n- Class (11-13), Mid-point (xi) = 12, Frequency (fi) = 7, fixi = 84n- Class (13-15), xi = 14, fi = 6, fixi = 84n- Class (15-17), xi = 16, fi = 9, fixi = 144n- Class (17-19), xi = 18, fi = 13, fixi = 234n- Class (19-21), xi = 20, fi = f, fixi = 20fn- Class (21-23), xi = 22, fi = 5, fixi = 110n- Class (23-25), xi = 24, fi = 4, fixi = 96nnTotal frequency Σfi = 7 + 6 + 9 + 13 + f + 5 + 4 = 44 + fnΣfixi = 84 + 84 + 144 + 234 + 20f + 110 + 96 = 752 + 20fnnMean = Σfixi / Σfin18 = (752 + 20f) / (44 + f)n18(44 + f) = 752 + 20fn792 + 18f = 752 + 20fn20f - 18f = 792 - 752n2f = 40 => f = 20nTherefore, the missing frequency f = 20."
+          "explanation": "Table for finding mean by direct method:\n- Class (11-13), Mid-point (xi) = 12, Frequency (fi) = 7, fixi = 84\n- Class (13-15), xi = 14, fi = 6, fixi = 84\n- Class (15-17), xi = 16, fi = 9, fixi = 144\n- Class (17-19), xi = 18, fi = 13, fixi = 234\n- Class (19-21), xi = 20, fi = f, fixi = 20f\n- Class (21-23), xi = 22, fi = 5, fixi = 110\n- Class (23-25), xi = 24, fi = 4, fixi = 96\n\nTotal frequency Σfi = 7 + 6 + 9 + 13 + f + 5 + 4 = 44 + f\nΣfixi = 84 + 84 + 144 + 234 + 20f + 110 + 96 = 752 + 20f\n\nMean = Σfixi / Σfi\n18 = (752 + 20f) / (44 + f)\n18(44 + f) = 752 + 20f\n792 + 18f = 752 + 20f\n20f - 18f = 792 - 752\n2f = 40 => f = 20\nTherefore, the missing frequency f = 20."
         }
       ],
       "or_option": {
@@ -142,10 +142,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find the mean of the given data:nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50nFrequency: 3, 10, 20, 5, 12",
+            "statement": "Find the mean of the given data:\nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50\nFrequency: 3, 10, 20, 5, 12",
             "correct_answer": "Mean = 27.6",
             "imgUrl": "",
-            "explanation": "By direct method:n- 0-10: xi = 5, fi = 3, fixi = 15n- 10-20: xi = 15, fi = 10, fixi = 150n- 20-30: xi = 25, fi = 20, fixi = 500n- 30-40: xi = 35, fi = 5, fixi = 175n- 40-50: xi = 45, fi = 12, fixi = 540nnΣfi = 3 + 10 + 20 + 5 + 12 = 50nΣfixi = 15 + 150 + 500 + 175 + 540 = 1380nnMean = Σfixi / Σfi = 1380 / 50 = 27.6nTherefore, the mean is 27.6."
+            "explanation": "By direct method:\n- 0-10: xi = 5, fi = 3, fixi = 15\n- 10-20: xi = 15, fi = 10, fixi = 150\n- 20-30: xi = 25, fi = 20, fixi = 500\n- 30-40: xi = 35, fi = 5, fixi = 175\n- 40-50: xi = 45, fi = 12, fixi = 540\n\nΣfi = 3 + 10 + 20 + 5 + 12 = 50\nΣfixi = 15 + 150 + 500 + 175 + 540 = 1380\n\nMean = Σfixi / Σfi = 1380 / 50 = 27.6\nTherefore, the mean is 27.6."
           }
         ]
       }
@@ -159,10 +159,10 @@
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the median of the following data:nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50nFrequency: 5, 8, 20, 15, 7",
+          "statement": "Find the median of the following data:\nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50\nFrequency: 5, 8, 20, 15, 7",
           "correct_answer": "Median = 27.25",
           "imgUrl": "",
-          "explanation": "Cumulative frequency (cf) table:n- 0-10: f = 5, cf = 5n- 10-20: f = 8, cf = 13n- 20-30: f = 20, cf = 33n- 30-40: f = 15, cf = 48n- 40-50: f = 7, cf = 55nnTotal sum n = 55nn/2 = 55 / 2 = 27.5nnFrom the cumulative frequency table, the cumulative frequency just greater than 27.5 is 33, which corresponds to the class interval 20-30.nThus, Median class = 20-30nHere l = 20, cf = 13, f = 20, h = 10nnMedian = l + [(n/2 - cf) / f] × hn= 20 + [(27.5 - 13) / 20] × 10n= 20 + [14.5 / 20] × 10n= 20 + 7.25 = 27.25nTherefore, the median of the given table is 27.25."
+          "explanation": "Cumulative frequency (cf) table:\n- 0-10: f = 5, cf = 5\n- 10-20: f = 8, cf = 13\n- 20-30: f = 20, cf = 33\n- 30-40: f = 15, cf = 48\n- 40-50: f = 7, cf = 55\n\nTotal sum n = 55\nn/2 = 55 / 2 = 27.5\n\nFrom the cumulative frequency table, the cumulative frequency just greater than 27.5 is 33, which corresponds to the class interval 20-30.\nThus, Median class = 20-30\nHere l = 20, cf = 13, f = 20, h = 10\n\nMedian = l + [(n/2 - cf) / f] × h\n= 20 + [(27.5 - 13) / 20] × 10\n= 20 + [14.5 / 20] × 10\n= 20 + 7.25 = 27.25\nTherefore, the median of the given table is 27.25."
         }
       ],
       "or_option": {
@@ -170,10 +170,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "If the median of the distribution given below is 28.5, find the values of x and y:nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60 (Total frequency = 60)nFrequency: 5, x, 20, 15, y, 5",
+            "statement": "If the median of the distribution given below is 28.5, find the values of x and y:\nClass interval: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60 (Total frequency = 60)\nFrequency: 5, x, 20, 15, y, 5",
             "correct_answer": "x = 8, y = 7",
             "imgUrl": "",
-            "explanation": "Cumulative frequency (cf):n- 0-10: 5n- 10-20: 5 + xn- 20-30: 25 + xn- 30-40: 40 + xn- 40-50: 40 + x + yn- 50-60: 45 + x + ynnTotal frequency n = 60n45 + x + y = 60 => x + y = 15 --(Equation 1)nnMedian is 28.5, which lies in the class 20-30.nThus, Median class = 20-30nHere l = 20, cf = 5 + x, f = 20, h = 10, n/2 = 30nnMedian = l + [(n/2 - cf) / f] × hn28.5 = 20 + [(30 - (5 + x)) / 20] × 10n28.5 - 20 = (25 - x) / 2n8.5 × 2 = 25 - xn17 = 25 - x => x = 25 - 17 = 8nnSubstituting value of x in equation (1):n8 + y = 15 => y = 7nTherefore, x = 8 and y = 7."
+            "explanation": "Cumulative frequency (cf):\n- 0-10: 5\n- 10-20: 5 + x\n- 20-30: 25 + x\n- 30-40: 40 + x\n- 40-50: 40 + x + y\n- 50-60: 45 + x + y\n\nTotal frequency n = 60\n45 + x + y = 60 => x + y = 15  --(Equation 1)\n\nMedian is 28.5, which lies in the class 20-30.\nThus, Median class = 20-30\nHere l = 20, cf = 5 + x, f = 20, h = 10, n/2 = 30\n\nMedian = l + [(n/2 - cf) / f] × h\n28.5 = 20 + [(30 - (5 + x)) / 20] × 10\n28.5 - 20 = (25 - x) / 2\n8.5 × 2 = 25 - x\n17 = 25 - x => x = 25 - 17 = 8\n\nSubstituting value of x in equation (1):\n8 + y = 15 => y = 7\nTherefore, x = 8 and y = 7."
           }
         ]
       }
@@ -187,10 +187,10 @@
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the mode of the following data:nClass interval: 1-3, 3-5, 5-7, 7-9, 9-11nFrequency: 7, 8, 2, 2, 1",
+          "statement": "Find the mode of the following data:\nClass interval: 1-3, 3-5, 5-7, 7-9, 9-11\nFrequency: 7, 8, 2, 2, 1",
           "correct_answer": "Mode = 3.28",
           "imgUrl": "",
-          "explanation": "In the given data, the highest frequency is 8, which corresponds to the class interval 3-5.nThus, Modal class = 3-5nHere l = 3, f1 = 8, f0 = 7, f2 = 2, h = 2nnMode formula:nMode = l + [(f1 - f0) / (2f1 - f0 - f2)] × hn= 3 + [(8 - 7) / (2(8) - 7 - 2)] × 2n= 3 + [1 / (16 - 9)] × 2n= 3 + (1 / 7) × 2n= 3 + 2/7n= 3 + 0.285 = 3.285 (approx 3.29)nTherefore, the mode is 3.29."
+          "explanation": "In the given data, the highest frequency is 8, which corresponds to the class interval 3-5.\nThus, Modal class = 3-5\nHere l = 3, f1 = 8, f0 = 7, f2 = 2, h = 2\n\nMode formula:\nMode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h\n= 3 + [(8 - 7) / (2(8) - 7 - 2)] × 2\n= 3 + [1 / (16 - 9)] × 2\n= 3 + (1 / 7) × 2\n= 3 + 2/7\n= 3 + 0.285 = 3.285 (approx 3.29)\nTherefore, the mode is 3.29."
         }
       ],
       "or_option": {
@@ -198,10 +198,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find the mode of the following data:nClass interval: 0-20, 20-40, 40-60, 60-80, 80-100, 100-120, 120-140nFrequency: 6, 9, 10, 12, 6, 5, 3",
+            "statement": "Find the mode of the following data:\nClass interval: 0-20, 20-40, 40-60, 60-80, 80-100, 100-120, 120-140\nFrequency: 6, 9, 10, 12, 6, 5, 3",
             "correct_answer": "Mode = 65",
             "imgUrl": "",
-            "explanation": "Maximum frequency is 12, whose class is 60-80.nThus, Modal class = 60-80nHere l = 60, f1 = 12, f0 = 10, f2 = 6, h = 20nnMode = l + [(f1 - f0) / (2f1 - f0 - f2)] × hn= 60 + [(12 - 10) / (2(12) - 10 - 6)] × 20n= 60 + [2 / (24 - 16)] × 20n= 60 + (2 / 8) × 20n= 60 + (1 / 4) × 20n= 60 + 5 = 65nTherefore, the mode is 65."
+            "explanation": "Maximum frequency is 12, whose class is 60-80.\nThus, Modal class = 60-80\nHere l = 60, f1 = 12, f0 = 10, f2 = 6, h = 20\n\nMode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h\n= 60 + [(12 - 10) / (2(12) - 10 - 6)] × 20\n= 60 + [2 / (24 - 16)] × 20\n= 60 + (2 / 8) × 20\n= 60 + (1 / 4) × 20\n= 60 + 5 = 65\nTherefore, the mode is 65."
           }
         ]
       }

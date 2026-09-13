@@ -13,11 +13,11 @@
       "text": "Quick Revision",
       "definitionBean": {
         "title": "Distance Formula",
-        "definition": "The distance between two points P(x1, y1) and Q(x2, y2): PQ = √[(x2 - x1)² + (y2 - y1)²]",
-        "explanation": "This formula is based on the Pythagorean theorem. It is used to find the straight-line distance between any two points in a coordinate plane, which is also helpful in identifying the nature of a triangle or quadrilateral.",
+        "definition": "The distance between two points P(x1, y1) and Q(x2, y2) is given by: PQ = √[(x2 - x1)² + (y2 - y1)²]",
+        "explanation": "This formula is derived from the Pythagorean theorem and is used to calculate the straight-line distance between any two points on a coordinate plane.",
         "importantPoints": [
           "Formula: √[(x2 - x1)² + (y2 - y1)²]",
-          "It is based on the Pythagorean theorem",
+          "Based on the Pythagorean theorem",
           "Distance from the origin: √(x² + y²)"
         ],
         "highlightWords": [
@@ -31,52 +31,6 @@
     },
     {
       "question_number": "2",
-      "question_type": "QUICK_REVISION",
-      "marks": "",
-      "text": "Quick Revision",
-      "definitionBean": {
-        "title": "Section Formula",
-        "definition": "If point P divides line segment AB in the ratio m:n, then the coordinates of P are: [(mx2 + nx1) / (m + n), (my2 + ny1) / (m + n)]",
-        "explanation": "This formula is used to find the coordinates of the point that divides a given line segment in a given ratio. When the point is a midpoint (ratio 1:1), the formula becomes the midpoint formula.",
-        "importantPoints": [
-          "Formula: [(mx2 + nx1) / (m + n), (my2 + ny1) / (m + n)]",
-          "For midpoint where m = n = 1: [(x1 + x2) / 2, (y1 + y2) / 2]",
-          "It is useful for finding the medians and centroid of a triangle"
-        ],
-        "highlightWords": [
-          "Section Formula",
-          "Midpoint",
-          "ratio"
-        ],
-        "imgUrl": "",
-        "realLifeExamples1": []
-      }
-    },
-    {
-      "question_number": "3",
-      "question_type": "QUICK_REVISION",
-      "marks": "",
-      "text": "Quick Revision",
-      "definitionBean": {
-        "title": "Area of Triangle using Coordinates",
-        "definition": "The area of a triangle with coordinates (x1, y1), (x2, y2), (x3, y3) = ½ |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|",
-        "explanation": "This formula is used to directly find the area of a triangle when the coordinates of its three vertices are given. If the obtained area is zero, then the three points are collinear.",
-        "importantPoints": [
-          "Formula: ½ |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|",
-          "The area is zero when the points are collinear",
-          "The area is always taken as positive (absolute value)"
-        ],
-        "highlightWords": [
-          "Area Formula",
-          "vertices",
-          "collinear point"
-        ],
-        "imgUrl": "",
-        "realLifeExamples1": []
-      }
-    },
-    {
-      "question_number": "4",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
       "word_limit": "",
@@ -85,9 +39,9 @@
         {
           "q_id": "a",
           "statement": "Find the distance between the following pairs of points: (2, 3) and (4, 1)",
-          "correct_answer": "2√2",
+          "correct_answer": "2√2 units",
           "imgUrl": "",
-          "explanation": "Let points be P(2, 3) and Q(4, 1).\nHere x1 = 2, y1 = 3 and x2 = 4, y2 = 1\n\nUsing the distance formula:\nPQ = √[(x2 - x1)² + (y2 - y1)²]\nPQ = √[(4 - 2)² + (1 - 3)²]\nPQ = √[(2)² + (-2)²]\nPQ = √[4 + 4] = √8\nPQ = 2√2 units"
+          "explanation": "Let the points be P(2, 3) and Q(4, 1).\nHere x1 = 2, y1 = 3 and x2 = 4, y2 = 1\n\nUsing the distance formula:\nPQ = √[(x2 - x1)² + (y2 - y1)²]\nPQ = √[(4 - 2)² + (1 - 3)²]\nPQ = √[(2)² + (-2)²]\nPQ = √[4 + 4] = √8\nPQ = 2√2 units"
         }
       ],
       "or_option": {
@@ -98,63 +52,7 @@
             "statement": "Find the point which divides the line segment joining the points (-1, 7) and (4, -3) in the ratio 2:3.",
             "correct_answer": "(1, 3)",
             "imgUrl": "",
-            "explanation": "Let the required point be P(x, y).\nHere x1 = -1, y1 = 7 and x2 = 4, y2 = -3\nRatio m : n = 2 : 3\n\nUsing the section formula:\nx = (mx2 + nx1) / (m + n) = [2(4) + 3(-1)] / (2 + 3) = (8 - 3) / 5 = 5 / 5 = 1\ny = (my2 + ny1) / (m + n) = [2(-3) + 3(7)] / (2 + 3) = (-6 + 21) / 5 = 15 / 5 = 3\n\nTherefore, the required point is (1, 3)."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Find the coordinates of the point dividing the line segment joining the points (4, -3) and (8, 5) in the ratio 3:1.",
-          "correct_answer": "(7, 3)",
-          "imgUrl": "",
-          "explanation": "Let the points be A(4, -3) and B(8, 5), and we need to find the coordinates of the point dividing them internally in the ratio 3:1.\nx = [3(8) + 1(4)] / (3 + 1) = (24 + 4) / 4 = 28 / 4 = 7\ny = [3(5) + 1(-3)] / (3 + 1) = (15 - 3) / 4 = 12 / 4 = 3\nTherefore, the required point is (7, 3)."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "In what ratio is the line segment joining the points (5, -6) and (-1, -4) divided by the y-axis? Also find the coordinates of this point of intersection.",
-            "correct_answer": "ratio = 5:1, point = (0, -13/3)",
-            "imgUrl": "",
-            "explanation": "Let the y-axis divide the line segment in the ratio k:1. Therefore, the coordinates of the point of intersection will be ((-k + 5) / (k + 1), (-4k - 6) / (k + 1)).\nSince the point lies on the y-axis, its x-coordinate will be 0:\n(-k + 5) / (k + 1) = 0 => -k + 5 = 0 => k = 5\nTherefore, the ratio is 5:1.\ny-coordinate = [-4(5) - 6] / (5 + 1) = (-20 - 6) / 6 = -26 / 6 = -13/3\nTherefore, the point of intersection is (0, -13/3)."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "6",
-      "question_type": "DESCRIPTIVE",
-      "marks": "3",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Find the area of the triangle whose vertices are (2, 3), (-1, 0) and (2, -4).",
-          "correct_answer": "21/2 square units",
-          "imgUrl": "",
-          "explanation": "Formula for the area of a triangle:\nArea = ½ |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|\nHere (x1, y1) = (2, 3), (x2, y2) = (-1, 0), (x3, y3) = (2, -4)\n\nSubstituting the values:\nArea = ½ |2(0 - (-4)) + (-1)(-4 - 3) + 2(3 - 0)|\nArea = ½ |2(4) + (-1)(-7) + 2(3)|\nArea = ½ |8 + 7 + 6|\nArea = ½ |21| = 21/2 square units"
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Find the value of k if the points (7, -2), (5, 1) and (3, k) are collinear.",
-            "correct_answer": "k = 4",
-            "imgUrl": "",
-            "explanation": "Since the three points are collinear, the area of the triangle formed by them will be 0.\n½ |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)| = 0\nHere x1 = 7, y1 = -2; x2 = 5, y2 = 1; x3 = 3, y3 = k\n7(1 - k) + 5(k - (-2)) + 3((-2) - 1) = 0\n7 - 7k + 5(k + 2) + 3(-3) = 0\n7 - 7k + 5k + 10 - 9 = 0\n(7 + 10 - 9) + (-7k + 5k) = 0\n8 - 2k = 0\n2k = 8 => k = 4"
+            "explanation": "Let the required point be P(x, y).\nHere x1 = -1, y1 = 7 and x2 = 4, y2 = -3\nRatio m : n = 2 : 3\n\nUsing the section formula:\nx = (mx2 + nx1) / (m + n) = [2(4) + 3(-1)] / (2 + 3) = (8 - 3) / 5 = 5 / 5 = 1\ny = (my2 + ny1) / (m + n) = [2(-3) + 3(7)] / (2 + 3) = (-6 + 21) / 5 = 15 / 5 = 3\n\nTherefore, the required coordinates are (1, 3)."
           }
         ]
       }

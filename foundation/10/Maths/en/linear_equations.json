@@ -1,7 +1,7 @@
 {
   "paper_details": {
     "paperYear": "2025",
-    "subjectName": "Pair of Linear Equations – Pair of Linear Equations",
+    "subjectName": "Pair of Linear Equations",
     "totalMarks": "4",
     "board": "MP Board"
   },
@@ -12,20 +12,18 @@
       "marks": "",
       "text": "Quick Revision",
       "definitionBean": {
-        "title": "Graphical Method (Graphical Method)",
-        "definition": "The method of finding the solution of a pair of linear equations by drawing them as lines on a graph and finding their Point of Intersection.",
-        "explanation": "Each linear equation represents a straight line. If both lines intersect at a point, then that point is the unique solution of the pair of equations. If the lines are parallel, there is no solution, and if both lines are coincident (the same line), there are infinitely many solutions.",
+        "title": "Graphical and Algebraic Methods",
+        "definition": "Methods to solve a pair of linear equations including substitution, elimination, and graphical representation.",
+        "explanation": "Linear equations can be solved algebraically using substitution or elimination methods, or graphically by finding intersection points of lines.",
         "importantPoints": [
           "Intersecting lines → Unique solution",
           "Parallel lines → No solution",
-          "Coincident lines → Infinitely many solutions",
-          "At least two points must be found for each equation"
+          "Coincident lines → Infinitely many solutions"
         ],
         "highlightWords": [
           "Graphical Method",
-          "Point of Intersection",
-          "Parallel Lines",
-          "Coincident Lines"
+          "Substitution",
+          "Elimination"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -33,89 +31,17 @@
     },
     {
       "question_number": "2",
-      "question_type": "QUICK_REVISION",
-      "marks": "",
-      "text": "Quick Revision",
-      "definitionBean": {
-        "title": "Substitution Method (Substitution Method)",
-        "definition": "In this method, the value of one variable from one equation is expressed in terms of the other variable and substituted into the second equation to find the solution.",
-        "explanation": "First, express one variable in terms of the other from one equation, then substitute it into the other equation to form a one-variable equation and solve it.",
-        "importantPoints": [
-          "Express one variable in terms of the other from one equation",
-          "Substitute it into the other equation",
-          "Solve the resulting one-variable equation",
-          "Substitute the value back into the original equation to find the other variable"
-        ],
-        "highlightWords": [
-          "substitution",
-          "variable",
-          "equation",
-          "solution"
-        ],
-        "imgUrl": "",
-        "realLifeExamples1": []
-      }
-    },
-    {
-      "question_number": "3",
-      "question_type": "QUICK_REVISION",
-      "marks": "",
-      "text": "Quick Revision",
-      "definitionBean": {
-        "title": "Elimination Method (Elimination Method)",
-        "definition": "In this method, both equations are multiplied in such a way that the coefficients of one variable become equal, and then that variable is eliminated by addition or subtraction.",
-        "explanation": "To make the coefficients of one variable equal in both equations, they are multiplied by suitable numbers. Then, by adding or subtracting both equations, one variable is eliminated and the value of the other variable is obtained directly.",
-        "importantPoints": [
-          "Multiply the equations to make the coefficients equal",
-          "Add or subtract to eliminate one variable",
-          "Find the value of the remaining variable",
-          "Substitute the value back to find the other variable"
-        ],
-        "highlightWords": [
-          "elimination",
-          "coefficients",
-          "addition/subtraction"
-        ],
-        "imgUrl": "",
-        "realLifeExamples1": []
-      }
-    },
-    {
-      "question_number": "4",
-      "question_type": "QUICK_REVISION",
-      "marks": "",
-      "text": "Quick Revision",
-      "definitionBean": {
-        "title": "Cross Multiplication Method (Cross Multiplication Method)",
-        "definition": "A method to directly solve equations of the form a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0 using a specific formula.",
-        "explanation": "In the cross multiplication method, the values of x and y are found directly by applying the formula x/(b1c2-b2c1) = y/(c1a2-c2a1) = 1/(a1b2-a2b1). This method is especially useful when the coefficients are complex.",
-        "importantPoints": [
-          "Formula: x/(b1c2-b2c1) = y/(c1a2-c2a1) = 1/(a1b2-a2b1)",
-          "This method can be faster than substitution and elimination",
-          "It is necessary to keep the coefficients in the correct order"
-        ],
-        "highlightWords": [
-          "Cross Multiplication",
-          "formula",
-          "coefficients"
-        ],
-        "imgUrl": "",
-        "realLifeExamples1": []
-      }
-    },
-    {
-      "question_number": "5",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
       "word_limit": "",
       "text": "Board Exam-Based Questions",
-    "parts": [
+      "parts": [
         {
           "q_id": "a",
-          "statement": "Solve the following pair of linear equations by Substitution Method:n7x - 15y = 2nx + 2y = 3",
+          "statement": "Solve the following pair of linear equations by the Substitution Method:\n7x - 15y = 2\nx + 2y = 3",
           "correct_answer": "x = 49/29, y = 19/29",
           "imgUrl": "",
-          "explanation": "Equation (1): 7x - 15y = 2nequation (2): x + 2y = 3nnFrom equation (2), finding the value of x:nx = 3 - 2y  --(equation 3)nnPutting this value of x in equation (1):n7(3 - 2y) - 15y = 2n21 - 14y - 15y = 2n21 - 29y = 2n-29y = 2 - 21n-29y = -19ny = 19/29nnPutting the value of y in equation (3):nx = 3 - 2(19/29)nx = 3 - 38/29nx = (87 - 38) / 29nx = 49/29nnTherefore, the solution is x = 49/29 and y = 19/29."
+          "explanation": "Equation (1): 7x - 15y = 2\nEquation (2): x + 2y = 3\n\nFrom equation (2), express x in terms of y:\nx = 3 - 2y  --(Equation 3)\n\nSubstitute this value of x into equation (1):\n7(3 - 2y) - 15y = 2\n21 - 14y - 15y = 2\n21 - 29y = 2\n-29y = 2 - 21\n-29y = -19\ny = 19/29\n\nSubstitute y into equation (3):\nx = 3 - 2(19/29)\nx = 3 - 38/29 = (87 - 38) / 29 = 49/29\n\nTherefore, x = 49/29 and y = 19/29."
         }
       ],
       "or_option": {
@@ -123,66 +49,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Solve by Substitution Method:ns - t = 3ns/3 + t/2 = 6",
+            "statement": "Solve using the Substitution Method:\ns - t = 3\ns/3 + t/2 = 6",
             "correct_answer": "s = 9, t = 6",
             "imgUrl": "",
-            "explanation": "Equation (1): s - t = 3 => s = t + 3nequation (2): s/3 + t/2 = 6nnPutting the value of s in equation (2):n(t + 3)/3 + t/2 = 6nTaking LCM and solving:n[2(t + 3) + 3t] / 6 = 6n2t + 6 + 3t = 36n5t + 6 = 36n5t = 30 => t = 6nnPutting the value of t in s = t + 3:ns = 6 + 3 = 9nnTherefore, s = 9 and t = 6."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "6",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Find all possible solutions of the following pair of equations using the Elimination Method:n3x + 4y = 10n2x - 2y = 2",
-          "correct_answer": "x = 2, y = 1",
-          "imgUrl": "",
-          "explanation": "Equation (1): 3x + 4y = 10nequation (2): 2x - 2y = 2nnTo make the coefficients of y equal, multiply equation (2) by 2:n4x - 4y = 4  --(equation 3)nnNow adding equations (1) and (3):n(3x + 4y) + (4x - 4y) = 10 + 4n7x = 14 => x = 2nnPutting the value of x in equation (2):n2(2) - 2y = 2n4 - 2y = 2n-2y = 2 - 4n-2y = -2 => y = 1nnTherefore, x = 2 and y = 1."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "Solve using Elimination Method:nx + y = 5n2x - 3y = 4",
-            "correct_answer": "x = 19/5, y = 6/5",
-            "imgUrl": "",
-            "explanation": "Equation (1): x + y = 5nequation (2): 2x - 3y = 4nnTo make the coefficients of x equal, multiply equation (1) by 2:n2x + 2y = 10  --(equation 3)nnSubtracting equation (2) from equation (3):n(2x + 2y) - (2x - 3y) = 10 - 4n2y + 3y = 6n5y = 6 => y = 6/5nnPutting the value of y in equation (1):nx + 6/5 = 5nx = 5 - 6/5nx = (25 - 6) / 5 = 19/5nnTherefore, x = 19/5 and y = 6/5."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "7",
-      "question_type": "DESCRIPTIVE",
-      "marks": "4",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "The difference between two numbers is 26 and one number is three times the other. Find them.",
-          "correct_answer": "Numbers are 39 and 13",
-          "imgUrl": "",
-          "explanation": "Let the larger number be x and the smaller number be y.nAccording to the question:n1) x - y = 26  --(equation 1)n2) x = 3y    --(equation 2)nnPutting this value of x in equation (1) (Substitution Method):n3y - y = 26n2y = 26 => y = 13nnPutting the value of y in equation (2):nx = 3(13) = 39nnTherefore, the numbers are 39 and 13."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "If 2 is added to both the numerator and the denominator of a fraction, it becomes 9/11. If 3 is added to both the numerator and the denominator, it becomes 5/6. Find the fraction.",
-            "correct_answer": "7/9",
-            "imgUrl": "",
-            "explanation": "Let the fraction be x/y.nAccording to the first condition:n(x + 2) / (y + 2) = 9/11n11(x + 2) = 9(y + 2)n11x + 22 = 9y + 18n11x - 9y = -4  --(equation 1)nnAccording to the second condition:n(x + 3) / (y + 3) = 5/6n6(x + 3) = 5(y + 3)n6x + 18 = 5y + 15n6x - 5y = -3  --(equation 2)nnMultiplying equation (1) by 5 and equation (2) by 9, and subtracting:n55x - 45y = -20n54x - 45y = -27n-----------------nx = 7nnPutting the value of x in equation (1):n11(7) - 9y = -4n77 - 9y = -4n-9y = -81 => y = 9nnTherefore, the required fraction is 7/9."
+            "explanation": "Equation (1): s - t = 3 => s = t + 3\nEquation (2): s/3 + t/2 = 6\n\nSubstitute s into equation (2):\n(t + 3)/3 + t/2 = 6\n[2(t + 3) + 3t] / 6 = 6\n2t + 6 + 3t = 36\n5t + 6 = 36\n5t = 30 => t = 6\n\nSubstitute t back into s = t + 3:\ns = 6 + 3 = 9\n\nTherefore, s = 9 and t = 6."
           }
         ]
       }
