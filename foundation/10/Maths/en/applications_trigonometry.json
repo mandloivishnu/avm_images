@@ -42,7 +42,7 @@
           "statement": "A person standing 20√3 m from the base of a 20 m high tower observes the top of the tower. Find the angle of elevation.",
           "correct_answer": "30°",
           "imgUrl": "",
-          "explanation": "Given:\nHeight of the tower = 20 m\nDistance from the base = 20√3 m\n\ntan θ = 20 / (20√3) = 1/√3\nTherefore, θ = 30°."
+          "explanation": "Given:\nHeight of the tower (Perpendicular) = 20 m\nDistance from the base (Base) = 20√3 m\n\nLet the angle of elevation be θ.\nIn the right-angled triangle:\ntan θ = Perpendicular / Base\ntan θ = 20 / (20√3)\ntan θ = 1/√3\n\nSince tan 30° = 1/√3, therefore θ = 30°.\nHence, the angle of elevation is 30°."
         }
       ],
       "or_option": {
@@ -53,7 +53,7 @@
             "statement": "The shadow of a tree is 15 m long. If the angle of elevation of the sun is 45°, find the height of the tree.",
             "correct_answer": "15 m",
             "imgUrl": "",
-            "explanation": "tan 45° = h / 15 => h = 15 m."
+            "explanation": "Given:\nLength of shadow (Base) = 15 m\nAngle of elevation (θ) = 45°\nLet the height of the tree be h.\n\nIn the right-angled triangle:\ntan 45° = Height / Base\n1 = h / 15\nh = 15 m\n\nHence, the height of the tree is 15 m."
           }
         ]
       }
@@ -70,7 +70,7 @@
           "statement": "A tower is 30 m high. Find the angle of elevation of its top from a point 30 m away from its base on the ground.",
           "correct_answer": "45°",
           "imgUrl": "",
-          "explanation": "tan θ = 30 / 30 = 1 => θ = 45°."
+          "explanation": "Given:\nHeight of the tower = 30 m\nDistance from base = 30 m\nLet the angle of elevation be θ.\n\ntan θ = Perpendicular / Base\ntan θ = 30 / 30 = 1\nSince tan 45° = 1, therefore θ = 45°.\nHence, the angle of elevation is 45°."
         }
       ],
       "or_option": {
@@ -81,7 +81,7 @@
             "statement": "A kite is flying at a height of 60 m above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is 60°. Find the length of the string, assuming that there is no slack in the string.",
             "correct_answer": "40√3 m",
             "imgUrl": "",
-            "explanation": "sin 60° = 60 / l => √3/2 = 60 / l => l = 40√3 m."
+            "explanation": "Given:\nHeight (Perpendicular) = 60 m\nAngle of inclination (θ) = 60°\nLet the length of the string be l (Hypotenuse).\n\nsin 60° = Perpendicular / Hypotenuse\n√3 / 2 = 60 / l\nl = (60 × 2) / √3\nl = 120 / √3 = (120√3) / 3 = 40√3 m\nHence, the length of the string is 40√3 m."
           }
         ]
       }
@@ -98,7 +98,7 @@
           "statement": "From a point on a bridge across a river, the angles of depression of the banks on opposite sides of the river are 30° and 45° respectively. If the bridge is at a height of 3 m from the banks, find the width of the river.",
           "correct_answer": "3(√3 + 1) m",
           "imgUrl": "",
-          "explanation": "Width = 3 + 3√3 = 3(√3 + 1) m."
+          "explanation": "Given:\nHeight of the bridge (AB) = 3 m\nAngles of depression = 30° and 45° (so angles of elevation are also 30° and 45°)\nLet the distance from point under bridge to bank 1 be x and to bank 2 be y.\n\nIn right triangle ABD:\ntan 45° = AB / BD => 1 = 3 / x => x = 3 m\nIn right triangle ABC:\ntan 30° = AB / BC => 1/√3 = 3 / y => y = 3√3 m\nTotal width of river = x + y = 3 + 3√3 = 3(√3 + 1) m."
         }
       ],
       "or_option": {
@@ -109,7 +109,7 @@
             "statement": "As observed from the top of a 75 m high lighthouse from the sea-level, the angles of depression of two ships are 30° and 45°. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.",
             "correct_answer": "75(√3 - 1) m",
             "imgUrl": "",
-            "explanation": "Distance = 75√3 - 75 = 75(√3 - 1) m."
+            "explanation": "Given:\nHeight of lighthouse = 75 m\nAngles of depression = 30° and 45°\nLet the distance between the ships be d.\nFor the ship with angle 45°: base x = 75 / tan 45° = 75 m\nFor the ship with angle 30°: base x + d = 75 / tan 30° = 75√3 m\nd = 75√3 - 75 = 75(√3 - 1) m."
           }
         ]
       }
@@ -126,7 +126,7 @@
           "statement": "A 1.5 m tall boy is standing at some distance from a 30 m tall building. The angle of elevation from his eyes to the top of the building increases from 30° to 60° as he walks towards the building. Find the distance he walked towards the building.",
           "correct_answer": "19√3 m",
           "imgUrl": "",
-          "explanation": "Remaining height = 28.5 m. Distance walked = 28.5(√3 - 1/√3) = 19√3 m."
+          "explanation": "Given:\nHeight of building = 30 m\nHeight of boy = 1.5 m\nTrue height above eyes = 30 - 1.5 = 28.5 m\nLet initial distance be x1 and final distance be x2.\ntan 60° = 28.5 / x2 => x2 = 28.5 / √3\ntan 30° = 28.5 / x1 => x1 = 28.5√3\nDistance walked = x1 - x2 = 28.5√3 - (28.5/√3) = 28.5(3 - 1)/√3 = 57 / √3 = 19√3 m."
         }
       ],
       "or_option": {
@@ -137,7 +137,7 @@
             "statement": "The angle of elevation of the top of a building from the foot of the tower is 30° and the angle of elevation of the top of the tower from the foot of the building is 60°. If the tower is 50 m high, find the height of the building.",
             "correct_answer": "50/3 m (16.67 m)",
             "imgUrl": "",
-            "explanation": "Base distance = 50/√3 m. Height of building = (50/√3) / √3 = 50/3 m."
+            "explanation": "Given:\nHeight of tower = 50 m\nLet base distance be y.\nIn tower triangle: tan 60° = 50 / y => y = 50 / √3\nIn building triangle: Let height be h. tan 30° = h / y => 1/√3 = h / (50/√3)\nh = (50/√3) × (1/√3) = 50/3 m.\nHence, the height of the building is 50/3 m."
           }
         ]
       }

@@ -14,15 +14,18 @@
       "definitionBean": {
         "title": "Tangent to a Circle",
         "definition": "A line that touches a circle at exactly one point is called a tangent.",
-        "explanation": "The radius to the point of contact is perpendicular to the tangent.",
+        "explanation": "A tangent touches the circle at only one point, known as the point of contact. The radius drawn to the point of contact is always perpendicular to the tangent, forming a 90° angle.",
         "importantPoints": [
-          "A tangent touches at a single point",
-          "Angle between radius and tangent is 90°"
+          "A tangent touches a circle at only one point",
+          "The radius at the point of contact makes an angle of 90° with the tangent",
+          "Only one tangent can be drawn to a circle at any point on its circumference",
+          "Tangents and radii are perpendicular to each other"
         ],
         "highlightWords": [
           "tangent",
           "point of contact",
-          "radius"
+          "radius",
+          "90°"
         ],
         "imgUrl": "",
         "realLifeExamples1": []
@@ -30,6 +33,29 @@
     },
     {
       "question_number": "2",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Properties of Tangents",
+        "definition": "The lengths of the two tangents drawn to a circle from an external point are always equal.",
+        "explanation": "If two tangents PA and PB are drawn to a circle from an external point P, then PA = PB. Furthermore, the line joining the center O to the external point P bisects the angle between the tangents.",
+        "importantPoints": [
+          "Tangents drawn from an external point have equal lengths (PA = PB)",
+          "The line joining the center to the external point bisects the angle between tangents",
+          "The angle between the tangent and radius is a right angle"
+        ],
+        "highlightWords": [
+          "tangent length",
+          "external point",
+          "bisector"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "3",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "",
@@ -40,7 +66,7 @@
           "statement": "From a point Q, the length of the tangent to a circle is 24 cm and the distance of Q from the center is 25 cm. Find the radius of the circle.",
           "correct_answer": "7 cm",
           "imgUrl": "",
-          "explanation": "Radius = √(25² - 24²) = 7 cm."
+          "explanation": "Step 1: Identify the given values from the problem statement.\n- Length of the tangent (PQ) = 24 cm\n- Distance from the center to point Q (OQ) = 25 cm\n\nStep 2: Apply the geometric theorem regarding tangents and radii.\n- We know that the radius drawn to the point of contact is perpendicular to the tangent.\n- Therefore, triangle OPQ is a right-angled triangle at the point of contact, meaning ∠OPQ = 90°.\n\nStep 3: Use the Pythagorean theorem in right triangle OPQ.\n- OQ² = OP² + PQ²\n- (25)² = OP² + (24)²\n- 625 = OP² + 576\n- OP² = 625 - 576\n- OP² = 49\n- OP = 7 cm\n\nConclusion:\nThus, the radius of the circle is 7 cm."
         }
       ],
       "or_option": {
@@ -48,38 +74,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "If tangents PA and PB from a point P to a circle with center O are inclined to each other at an angle of 80°, then ∠POA is equal to:",
-            "correct_answer": "50°",
+            "statement": "If TP and TQ are two tangents to a circle with center O such that ∠POQ = 110°, then find ∠PTQ.",
+            "correct_answer": "70°",
             "imgUrl": "",
-            "explanation": "∠APO = 40°, so ∠POA = 90° - 40° = 50°."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "3",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Prove that the tangents drawn at the ends of a diameter of a circle are parallel.",
-          "correct_answer": "Proven",
-          "imgUrl": "",
-          "explanation": "Alternate interior angles are equal, hence parallel."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "A quadrilateral ABCD is drawn to circumscribe a circle. Prove that AB + CD = AD + BC.",
-            "correct_answer": "Proven",
-            "imgUrl": "",
-            "explanation": "Using lengths of tangents from external points."
+            "explanation": "Step 1: Write down the given information.\n- ∠POQ = 110°\n- P and Q are points of contact where tangents TP and TQ meet the circle.\n\nStep 2: Recall the radius-tangent perpendicularity property.\n- The radius OP is perpendicular to tangent TP, so ∠OPT = 90°.\n- The radius OQ is perpendicular to tangent TQ, so ∠OQT = 90°.\n\nStep 3: Use the angle sum property of quadrilateral OPTQ.\n- The sum of all interior angles in a quadrilateral is 360°.\n- ∠PTQ + ∠OPT + ∠OQT + ∠POQ = 360°\n- ∠PTQ + 90° + 90° + 110° = 360°\n- ∠PTQ + 290° = 360°\n- ∠PTQ = 360° - 290° = 70°\n\nConclusion:\nThus, the measure of ∠PTQ is 70°."
           }
         ]
       }
@@ -93,10 +91,10 @@
       "parts": [
         {
           "q_id": "a",
-          "statement": "Prove that the angle between the two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line-segment joining the points of contact at the center.",
-          "correct_answer": "Proven",
+          "statement": "A tangent PQ at a point P of a circle of radius 5 cm meets a line through the center O at a point Q so that OQ = 12 cm. Find the length of PQ.",
+          "correct_answer": "√119 cm",
           "imgUrl": "",
-          "explanation": "Sum of opposite angles in quadrilateral is 180°."
+          "explanation": "Step 1: List the given parameters.\n- Radius of the circle (OP) = 5 cm\n- Distance from center to point Q (OQ) = 12 cm\n\nStep 2: State the geometric relation.\n- Since PQ is a tangent at point P, radius OP is perpendicular to tangent PQ. Therefore, ∠OPQ = 90°.\n\nStep 3: Apply the Pythagorean theorem in right-angled triangle OPQ.\n- OQ² = OP² + PQ²\n- 12² = 5² + PQ²\n- 144 = 25 + PQ²\n- PQ² = 144 - 25 = 119\n- PQ = √119 cm\n\nConclusion:\nThus, the length of PQ is √119 cm."
         }
       ],
       "or_option": {
@@ -104,38 +102,10 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find the length of a tangent drawn from a point at a distance of 10 cm from the center of circle of radius 6 cm.",
-            "correct_answer": "8 cm",
+            "statement": "If PA and PB are two tangents from an external point P to a circle with center O such that ∠APB = 80°, then find ∠POA.",
+            "correct_answer": "50°",
             "imgUrl": "",
-            "explanation": "Length = √(10² - 6²) = 8 cm."
-          }
-        ]
-      }
-    },
-    {
-      "question_number": "5",
-      "question_type": "DESCRIPTIVE",
-      "marks": "2",
-      "word_limit": "",
-      "text": "",
-      "parts": [
-        {
-          "q_id": "a",
-          "statement": "Two concentric circles are of radii 5 cm and 3 cm. Find the length of the chord of the larger circle which touches the smaller circle.",
-          "correct_answer": "8 cm",
-          "imgUrl": "",
-          "explanation": "Half-chord = √(5² - 3²) = 4 cm, total length = 8 cm."
-        }
-      ],
-      "or_option": {
-        "text": "OR",
-        "parts": [
-          {
-            "q_id": "b",
-            "statement": "If TP and TQ are the two tangents to a circle with center O so that angle POQ = 110°, then angle PTQ is equal to:",
-            "correct_answer": "70°",
-            "imgUrl": "",
-            "explanation": "180° - 110° = 70°."
+            "explanation": "Step 1: Understand the symmetry properties of tangents from an external point.\n- The line joining the center O to the external point P bisects the angle between the tangents.\n- Therefore, ∠APO = (1/2) × ∠APB = (1/2) × 80° = 40°.\n\nStep 2: Use the radius-tangent perpendicularity property.\n- Radius OA is perpendicular to tangent PA, so ∠OAP = 90°.\n\nStep 3: Apply the angle sum property in right-angled triangle OAP.\n- In triangle OAP, ∠POA + ∠APO + ∠OAP = 180°\n- ∠POA + 40° + 90° = 180°\n- ∠POA + 130° = 180°\n- ∠POA = 180° - 130° = 50°\n\nConclusion:\nThus, the measure of ∠POA is 50°."
           }
         ]
       }

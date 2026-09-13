@@ -33,13 +33,13 @@
       "marks": "4",
       "word_limit": "",
       "text": "Board Exam-Based Questions",
-    "parts": [
+      "parts": [
         {
           "q_id": "a",
           "statement": "Solve the following pair of linear equations by Substitution Method:\n7x - 15y = 2\nx + 2y = 3",
           "correct_answer": "x = 49/29, y = 19/29",
           "imgUrl": "",
-          "explanation": "x = 49/29, y = 19/29."
+          "explanation": "Given equations:\n1) 7x - 15y = 2\n2) x + 2y = 3\n\nFrom equation (2), express x in terms of y:\nx = 3 - 2y  --(Equation 3)\n\nSubstitute the value of x into equation (1):\n7(3 - 2y) - 15y = 2\n21 - 14y - 15y = 2\n21 - 29y = 2\n-29y = 2 - 21\n-29y = -19\ny = 19/29\n\nSubstitute y = 19/29 into equation (3):\nx = 3 - 2(19/29)\nx = 3 - 38/29 = (87 - 38) / 29 = 49/29\n\nTherefore, the solution is x = 49/29 and y = 19/29."
         }
       ],
       "or_option": {
@@ -50,7 +50,7 @@
             "statement": "Solve by Substitution Method:\ns - t = 3\ns/3 + t/2 = 6",
             "correct_answer": "s = 9, t = 6",
             "imgUrl": "",
-            "explanation": "s = 9, t = 6."
+            "explanation": "Given equations:\n1) s - t = 3 => s = t + 3  --(Equation 3)\n2) s/3 + t/2 = 6\n\nSubstitute equation (3) into equation (2):\n(t + 3)/3 + t/2 = 6\nTaking LCM (6) and solving:\n[2(t + 3) + 3t] / 6 = 6\n2t + 6 + 3t = 36\n5t + 6 = 36\n5t = 30 => t = 6\n\nSubstitute t = 6 into equation (3):\ns = 6 + 3 = 9\n\nTherefore, s = 9 and t = 6."
           }
         ]
       }
@@ -67,7 +67,7 @@
           "statement": "Solve using Elimination Method:\n3x + 4y = 10\n2x - 2y = 2",
           "correct_answer": "x = 2, y = 1",
           "imgUrl": "",
-          "explanation": "x = 2, y = 1."
+          "explanation": "Given equations:\n1) 3x + 4y = 10\n2) 2x - 2y = 2\n\nMultiply equation (2) by 2 to make the coefficients of y equal:\n4x - 4y = 4  --(Equation 3)\n\nAdd equation (1) and equation (3):\n(3x + 4y) + (4x - 4y) = 10 + 4\n7x = 14 => x = 2\n\nSubstitute x = 2 into equation (2):\n2(2) - 2y = 2\n4 - 2y = 2\n-2y = 2 - 4 => -2y = -2 => y = 1\n\nTherefore, x = 2 and y = 1."
         }
       ],
       "or_option": {
@@ -78,7 +78,7 @@
             "statement": "Solve using Elimination Method:\nx + y = 5\n2x - 3y = 4",
             "correct_answer": "x = 19/5, y = 6/5",
             "imgUrl": "",
-            "explanation": "x = 19/5, y = 6/5."
+            "explanation": "Given equations:\n1) x + y = 5\n2) 2x - 3y = 4\n\nMultiply equation (1) by 2 to make coefficients of x equal:\n2x + 2y = 10  --(Equation 3)\n\nSubtract equation (2) from equation (3):\n(2x + 2y) - (2x - 3y) = 10 - 4\n5y = 6 => y = 6/5\n\nSubstitute y = 6/5 into equation (1):\nx + 6/5 = 5 => x = 5 - 6/5 = (25 - 6) / 5 = 19/5\n\nTherefore, x = 19/5 and y = 6/5."
           }
         ]
       }
@@ -95,7 +95,7 @@
           "statement": "The difference between two numbers is 26 and one number is three times the other. Find them.",
           "correct_answer": "39 and 13",
           "imgUrl": "",
-          "explanation": "Numbers are 39 and 13."
+          "explanation": "Let the larger number be x and the smaller number be y.\nAccording to the question:\n1) x - y = 26  --(Equation 1)\n2) x = 3y    --(Equation 2)\n\nSubstitute equation (2) into equation (1):\n3y - y = 26\n2y = 26 => y = 13\n\nSubstitute y = 13 into equation (2):\nx = 3(13) = 39\n\nTherefore, the numbers are 39 and 13."
         }
       ],
       "or_option": {
@@ -106,7 +106,7 @@
             "statement": "The larger of two supplementary angles exceeds the smaller by 18 degrees. Find them.",
             "correct_answer": "99° and 81°",
             "imgUrl": "",
-            "explanation": "Angles are 99° and 81°."
+            "explanation": "Let the larger angle be x and the smaller angle be y.\nSince they are supplementary:\n1) x + y = 180°  --(Equation 1)\n2) x - y = 18°   --(Equation 2)\n\nAdd equation (1) and equation (2):\n2x = 198° => x = 99°\n\nSubstitute x = 99° into equation (1):\n99° + y = 180° => y = 81°\n\nTherefore, the angles are 99° and 81°."
           }
         ]
       }
@@ -123,7 +123,7 @@
           "statement": "A fraction becomes 9/11, if 2 is added to both the numerator and the denominator. If, 3 is added to both the numerator and the denominator it becomes 5/6. Find the fraction.",
           "correct_answer": "7/9",
           "imgUrl": "",
-          "explanation": "Fraction is 7/9."
+          "explanation": "Let the fraction be x/y.\nCondition 1: (x + 2) / (y + 2) = 9/11 => 11(x + 2) = 9(y + 2) => 11x - 9y = -4  --(Equation 1)\nCondition 2: (x + 3) / (y + 3) = 5/6 => 6(x + 3) = 5(y + 3) => 6x - 5y = -3  --(Equation 2)\n\nMultiply equation (1) by 5 and equation (2) by 9, then subtract:\n55x - 45y = -20\n54x - 45y = -27\n-----------------\nx = 7\n\nSubstitute x = 7 into equation (1):\n11(7) - 9y = -4 => 77 - 9y = -4 => -9y = -81 => y = 9\n\nTherefore, the required fraction is 7/9."
         }
       ],
       "or_option": {
@@ -134,7 +134,7 @@
             "statement": "Five years hence, the age of Jacob will be three times that of his son. Five years ago, Jacob's age was seven times that of his son. What are their present ages?",
             "correct_answer": "Jacob: 40 years, Son: 10 years",
             "imgUrl": "",
-            "explanation": "Ages are 40 and 10 years."
+            "explanation": "Let Jacob's present age be x and his son's present age be y.\nCondition 1 (5 years hence): x + 5 = 3(y + 5) => x - 3y = 10  --(Equation 1)\nCondition 2 (5 years ago): x - 5 = 7(y - 5) => x - 7y = -30  --(Equation 2)\n\nSubtract equation (2) from equation (1):\n(x - 3y) - (x - 7y) = 10 - (-30)\n4y = 40 => y = 10\n\nSubstitute y = 10 into equation (1):\nx - 3(10) = 10 => x - 30 = 10 => x = 40\n\nTherefore, Jacob's present age is 40 years and his son's present age is 10 years."
           }
         ]
       }
