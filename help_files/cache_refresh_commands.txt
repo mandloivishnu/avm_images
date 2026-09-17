@@ -67,3 +67,19 @@ find . -maxdepth 1 -type f -name "*.json" | while read -r file; do
   curl -s -X GET "$BASE_URL/$filename" -o /dev/null -w "  → HTTP %{http_code}\n"
   sleep 0.5
 done
+
+
+
+
+
+
+
+
+
+
+
+https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/minar_uchai.html
+
+https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/jahaj_samudra_tat.html
+
+https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/10/Maths/images/hawai_jahaj_uchai.html

@@ -2,96 +2,170 @@
 #
 # purge_jsdelivr.sh
 #
-# Recursively purges the jsDelivr CDN cache for EVERY .json file found
-# under a given BASE folder — no matter how many year/class/language
-# subfolders exist beneath it.
-#
-# Example structure this handles automatically:
-#   avm_images/question_data/mpbse/2026/10/en/*.json
-#   avm_images/question_data/mpbse/2026/10/hi/*.json
-#   avm_images/question_data/mpbse/2025/10/en/*.json
-#   avm_images/question_data/mpbse/2025/12/en/*.json
-#   ...and any new year/class/language folders added later, with no
-#   script changes needed.
+# Recursively purges jsDelivr cache for EVERY .json file
+# under the given BASE folder.
 #
 # USAGE:
 #   bash purge_jsdelivr.sh <base_folder> [github_user/repo] [branch]
 #
-#   <base_folder>        Path to the folder to scan recursively for
-#                         .json files (e.g. .../avm_images/question_data/mpbse).
-#                         If omitted, uses DEFAULT_BASE_DIR below.
-#
-#   [github_user/repo]   Optional. Defaults to mandloivishnu/avm_images
-#   [branch]              Optional. Defaults to master
-#
-# EXAMPLES:
+# Example:
 #   bash purge_jsdelivr.sh /d/Papers/LatestPapers/avm_images/question_data/mpbse
-#   bash purge_jsdelivr.sh /d/Papers/LatestPapers/avm_images/foundation
-#   bash purge_jsdelivr.sh   # uses DEFAULT_BASE_DIR below
+#
+# Defaults:
+#   BASE_DIR = ../question_data/mpbse
+#   REPO     = mandloivishnu/avm_images
+#   BRANCH   = master
 
-set -e
+set +e
 
-# ---- CONFIG: edit this to your usual base folder, then run with no args ----
-DEFAULT_BASE_DIR="/d/Papers/LatestPapers/avm_images/question_data/mpbse"
-# -----------------------------------------------------------------------------
+# --------------------------------------------------
+# CONFIG
+# --------------------------------------------------
+
+DEFAULT_BASE_DIR="../question_data/mpbse"
 
 BASE_DIR="${1:-$DEFAULT_BASE_DIR}"
 REPO="${2:-mandloivishnu/avm_images}"
 BRANCH="${3:-master}"
 
+# --------------------------------------------------
+# VALIDATE BASE DIRECTORY
+# --------------------------------------------------
+
 if [ ! -d "$BASE_DIR" ]; then
-  echo "ERROR: Base folder does not exist: $BASE_DIR"
-  exit 1
+    echo "ERROR: Base folder does not exist:"
+    echo "$BASE_DIR"
+    exit 1
 fi
 
-# Resolve to an absolute path
+# Convert to absolute path
 BASE_DIR="$(cd "$BASE_DIR" && pwd)"
 
-echo "Base dir:    $BASE_DIR"
-echo "Repo:        $REPO"
-echo "Branch:      $BRANCH"
-echo "----------------------------------------"
+echo
+echo "=============================================="
+echo " jsDelivr JSON Cache Purge"
+echo "=============================================="
+echo "Base dir : $BASE_DIR"
+echo "Repo     : $REPO"
+echo "Branch   : $BRANCH"
+echo "=============================================="
+echo
 
-# Recursively find every .json file under BASE_DIR
-files=()
-while IFS= read -r -d '' file; do
-  files+=("$file")
-done < <(find "$BASE_DIR" -type f -name "*.json" -print0)
+# --------------------------------------------------
+# FIND AVM_IMAGES ROOT
+# --------------------------------------------------
 
-total="${#files[@]}"
-
-if [ "$total" -eq 0 ]; then
-  echo "No .json files found under: $BASE_DIR"
-  exit 0
+if [[ "$BASE_DIR" != *"/avm_images"* ]]; then
+    echo "ERROR: Base directory must be inside 'avm_images'."
+    echo
+    echo "Example:"
+    echo "/d/Papers/LatestPapers/avm_images/question_data/mpbse"
+    exit 1
 fi
 
-echo "Found $total JSON file(s) under $BASE_DIR:"
-for f in "${files[@]}"; do
-  echo "  - $f"
+# Extract path before /avm_images
+AVM_ROOT="${BASE_DIR%%/avm_images*}/avm_images"
+
+echo "Repository root:"
+echo "$AVM_ROOT"
+echo
+
+# --------------------------------------------------
+# FIND ALL JSON FILES
+# --------------------------------------------------
+
+echo "Scanning for JSON files..."
+echo
+
+mapfile -d '' files < <(
+    find "$BASE_DIR" -type f -iname "*.json" -print0
+)
+
+TOTAL=${#files[@]}
+
+if [ "$TOTAL" -eq 0 ]; then
+    echo "No JSON files found."
+    exit 0
+fi
+
+echo "Found $TOTAL JSON file(s)"
+echo "----------------------------------------------"
+
+# --------------------------------------------------
+# DISPLAY FILES
+# --------------------------------------------------
+
+COUNT=0
+
+for file in "${files[@]}"; do
+    COUNT=$((COUNT + 1))
+
+    RELATIVE_PATH="${file#"$AVM_ROOT"/}"
+
+    echo "$COUNT. $RELATIVE_PATH"
 done
-echo "----------------------------------------"
 
-n=0
-fail=0
-for f in "${files[@]}"; do
-  n=$((n + 1))
+echo "----------------------------------------------"
+echo
 
-  # Derive each file's own subpath relative to "avm_images", so files
-  # in different year/class/language folders all resolve correctly.
-  SUBPATH="${f#*avm_images}"
-  SUBPATH="${SUBPATH#/}"
+# --------------------------------------------------
+# PURGE EACH FILE
+# --------------------------------------------------
 
-  if [ -z "$SUBPATH" ] || [ "$SUBPATH" = "$f" ]; then
-    echo "[$n/$total] SKIP (not under avm_images): $f"
-    fail=$((fail + 1))
-    continue
-  fi
+SUCCESS=0
+FAILED=0
+COUNT=0
 
-  url="https://purge.jsdelivr.net/gh/${REPO}@${BRANCH}/${SUBPATH}"
-  echo "[$n/$total] Purging: $SUBPATH"
-  curl -s -X GET "$url" -o /master/null -w "  -> HTTP %{http_code}\n"
-  sleep 0.5
+for file in "${files[@]}"; do
+
+    COUNT=$((COUNT + 1))
+
+    # Remove avm_images root from path
+    SUBPATH="${file#"$AVM_ROOT"/}"
+
+    URL="https://purge.jsdelivr.net/gh/${REPO}@${BRANCH}/${SUBPATH}"
+
+    echo
+    echo "[$COUNT/$TOTAL]"
+    echo "File : $SUBPATH"
+    echo "URL  : $URL"
+
+    # Call jsDelivr purge API
+    HTTP_CODE=$(curl \
+        -s \
+        -o /master/null \
+        -w "%{http_code}" \
+        -X GET \
+        "$URL"
+    )
+
+    if [ "$HTTP_CODE" = "200" ]; then
+
+        echo "Status: SUCCESS (HTTP $HTTP_CODE)"
+        SUCCESS=$((SUCCESS + 1))
+
+    else
+
+        echo "Status: FAILED (HTTP $HTTP_CODE)"
+        FAILED=$((FAILED + 1))
+
+    fi
+
+    # Small delay to avoid hitting API too aggressively
+    sleep 0.5
+
 done
 
-echo "----------------------------------------"
-echo "Done. Purged $((n - fail)) of $total file(s). Skipped: $fail"
+# --------------------------------------------------
+# SUMMARY
+# --------------------------------------------------
+
+echo
+echo
+echo "=============================================="
+echo " PURGE COMPLETED"
+echo "=============================================="
+echo "Total files : $TOTAL"
+echo "Successful  : $SUCCESS"
+echo "Failed      : $FAILED"
+echo "=============================================="
