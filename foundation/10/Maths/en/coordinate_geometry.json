@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -30,18 +30,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "3",
+      "marks": "",
       "word_limit": "",
       "text": "Board Exam-Based Questions",
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the distance between the following pairs of points: (2, 3) and (4, 1)",
-          "correct_answer": "2√2 units",
+          "statement": "Find the distance between the points (-2, 3) and (4, -5).",
+          "correct_answer": "10 units",
           "imgUrl": "",
-          "explanation": "Let the points be P(2, 3) and Q(4, 1).\nHere x1 = 2, y1 = 3 and x2 = 4, y2 = 1\n\nUsing the distance formula:\nPQ = √[(x2 - x1)² + (y2 - y1)²]\nPQ = √[(4 - 2)² + (1 - 3)²]\nPQ = √[(2)² + (-2)²]\nPQ = √[4 + 4] = √8\nPQ = 2√2 units"
+          "explanation": "Let the points be P(-2, 3) and Q(4, -5).\n\nUsing the distance formula:\nPQ = √[(x₂ − x₁)² + (y₂ − y₁)²]\n\nPQ = √[(4 − (-2))² + (-5 − 3)²]\n= √[6² + (-8)²]\n= √[36 + 64]\n= √100\n= 10 units\n\nTherefore, the distance between the points is 10 units."
         }
       ],
       "or_option": {
@@ -49,10 +49,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find the point which divides the line segment joining the points (-1, 7) and (4, -3) in the ratio 2:3.",
-            "correct_answer": "(1, 3)",
+            "statement": "Find the distance between the points (5, 4) and (1, 1).",
+            "correct_answer": "5 units",
             "imgUrl": "",
-            "explanation": "Let the required point be P(x, y).\nHere x1 = -1, y1 = 7 and x2 = 4, y2 = -3\nRatio m : n = 2 : 3\n\nUsing the section formula:\nx = (mx2 + nx1) / (m + n) = [2(4) + 3(-1)] / (2 + 3) = (8 - 3) / 5 = 5 / 5 = 1\ny = (my2 + ny1) / (m + n) = [2(-3) + 3(7)] / (2 + 3) = (-6 + 21) / 5 = 15 / 5 = 3\n\nTherefore, the required coordinates are (1, 3)."
+            "explanation": "Let the points be P(5, 4) and Q(1, 1).\n\nUsing the distance formula:\nPQ = √[(x₂ − x₁)² + (y₂ − y₁)²]\n= √[(1 − 5)² + (1 − 4)²]\n= √[(-4)² + (-3)²]\n= √[16 + 9]\n= √25\n= 5 units\n\nTherefore, the distance is 5 units."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the coordinates of the point which divides the line segment joining A(2, 3) and B(8, 9) in the ratio 1:2 internally.",
+          "correct_answer": "(4, 5)",
+          "imgUrl": "",
+          "explanation": "Let the required point be P(x, y).\n\nA(2, 3), B(8, 9) and ratio m:n = 1:2.\n\nUsing the section formula:\nx = (mx₂ + nx₁)/(m + n)\n= [1(8) + 2(2)]/(1 + 2)\n= (8 + 4)/3\n= 4\n\ny = (my₂ + ny₁)/(m + n)\n= [1(9) + 2(3)]/(1 + 2)\n= (9 + 6)/3\n= 5\n\nTherefore, the required point is (4, 5)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the coordinates of the midpoint of the line segment joining the points (-4, 6) and (8, -2).",
+            "correct_answer": "(2, 2)",
+            "imgUrl": "",
+            "explanation": "Let the points be A(-4, 6) and B(8, -2).\n\nUsing the midpoint formula:\nM = ((x₁ + x₂)/2, (y₁ + y₂)/2)\n\nM = ((-4 + 8)/2, (6 + (-2))/2)\n= (4/2, 4/2)\n= (2, 2)\n\nTherefore, the midpoint is (2, 2)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the coordinates of the point which divides the line segment joining A(-3, 5) and B(7, -5) in the ratio 2:3 internally.",
+          "correct_answer": "(1, 1)",
+          "imgUrl": "",
+          "explanation": "Let the required point be P(x, y).\n\nA(-3, 5), B(7, -5)\nRatio m:n = 2:3\n\nUsing the section formula:\nx = [2(7) + 3(-3)]/(2 + 3)\n= (14 - 9)/5\n= 1\n\ny = [2(-5) + 3(5)]/(2 + 3)\n= (-10 + 15)/5\n= 1\n\nTherefore, the required point is (1, 1)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the point which divides the line segment joining A(4, -2) and B(-6, 8) in the ratio 3:2 internally.",
+            "correct_answer": "(-2, 4)",
+            "imgUrl": "",
+            "explanation": "Let the required point be P(x, y).\n\nA(4, -2), B(-6, 8)\nRatio m:n = 3:2\n\nUsing the section formula:\nx = [3(-6) + 2(4)]/(3 + 2)\n= (-18 + 8)/5\n= -2\n\ny = [3(8) + 2(-2)]/(3 + 2)\n= (24 - 4)/5\n= 4\n\nTherefore, the required point is (-2, 4)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Show that the points A(1, 2), B(5, 2) and C(3, 6) form an isosceles triangle.",
+          "correct_answer": "AB = 4 units and AC = BC = 2√5 units; hence, ABC is an isosceles triangle.",
+          "imgUrl": "",
+          "explanation": "Given:\nA(1, 2), B(5, 2), C(3, 6)\n\nUsing the distance formula:\n\nAB = √[(5 − 1)² + (2 − 2)²]\n= √16\n= 4 units\n\nAC = √[(3 − 1)² + (6 − 2)²]\n= √[4 + 16]\n= √20\n= 2√5 units\n\nBC = √[(3 − 5)² + (6 − 2)²]\n= √[4 + 16]\n= √20\n= 2√5 units\n\nSince AC = BC, two sides of triangle ABC are equal.\nTherefore, ABC is an isosceles triangle."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Show that the points A(0, 0), B(3, 4) and C(6, 0) form an isosceles triangle.",
+            "correct_answer": "AB = BC = 5 units; hence, ABC is an isosceles triangle.",
+            "imgUrl": "",
+            "explanation": "Using the distance formula:\n\nAB = √[(3 − 0)² + (4 − 0)²]\n= √(9 + 16)\n= 5 units\n\nBC = √[(6 − 3)² + (0 − 4)²]\n= √(9 + 16)\n= 5 units\n\nSince AB = BC = 5 units, two sides of triangle ABC are equal.\nTherefore, ABC is an isosceles triangle."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the value of x if the distance between the points P(x, 3) and Q(4, 3) is 5 units.",
+          "correct_answer": "x = 9 or x = -1",
+          "imgUrl": "",
+          "explanation": "Given:\nP(x, 3), Q(4, 3)\nDistance PQ = 5 units\n\nUsing the distance formula:\n5 = √[(4 − x)² + (3 − 3)²]\n\nSquaring both sides:\n25 = (4 − x)²\n\nTherefore:\n4 − x = ±5\n\nCase 1:\n4 − x = 5\n−x = 1\nx = −1\n\nCase 2:\n4 − x = −5\n−x = −9\nx = 9\n\nTherefore, x = 9 or x = −1."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the value of y if the distance between the points P(2, y) and Q(2, 7) is 4 units.",
+            "correct_answer": "y = 3 or y = 11",
+            "imgUrl": "",
+            "explanation": "Given:\nP(2, y), Q(2, 7)\nDistance PQ = 4 units\n\nUsing the distance formula:\n4 = √[(2 − 2)² + (7 − y)²]\n\nSquaring both sides:\n16 = (7 − y)²\n\nTherefore:\n7 − y = ±4\n\nCase 1:\n7 − y = 4\n−y = −3\ny = 3\n\nCase 2:\n7 − y = −4\n−y = −11\ny = 11\n\nTherefore, y = 3 or y = 11."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the triangle whose vertices are A(2, 3), B(5, 7) and C(7, 3).",
+          "correct_answer": "8 square units",
+          "imgUrl": "",
+          "explanation": "Using the area formula for a triangle:\nArea = 1/2 |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|\n\nHere:\n(x₁, y₁) = (2, 3)\n(x₂, y₂) = (5, 7)\n(x₃, y₃) = (7, 3)\n\nArea = 1/2 |2(7 − 3) + 5(3 − 3) + 7(3 − 7)|\n= 1/2 |2(4) + 5(0) + 7(-4)|\n= 1/2 |8 − 28|\n= 1/2 × 20\n= 10 square units\n\nTherefore, the area of the triangle is 10 square units."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Show that the points A(1, 2), B(3, 6) and C(5, 10) are collinear.",
+            "correct_answer": "The points A, B and C are collinear.",
+            "imgUrl": "",
+            "explanation": "Using the distance formula:\n\nAB = √[(3 − 1)² + (6 − 2)²]\n= √(4 + 16)\n= √20\n= 2√5\n\nBC = √[(5 − 3)² + (10 − 6)²]\n= √(4 + 16)\n= 2√5\n\nAC = √[(5 − 1)² + (10 − 2)²]\n= √(16 + 64)\n= √80\n= 4√5\n\nSince:\nAB + BC = 2√5 + 2√5 = 4√5 = AC\n\nTherefore, AB + BC = AC, so the three points A, B and C are collinear."
           }
         ]
       }

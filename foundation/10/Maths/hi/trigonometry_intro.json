@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "त्वरित पुनरावृत्ति (Quick Revision)",
@@ -31,18 +31,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "3",
+      "marks": "",
       "word_limit": "",
       "text": "बोर्ड परीक्षा आधारित प्रश्न",
       "parts": [
         {
           "q_id": "a",
-          "statement": "यदि sin A = 3/4, तो cos A और tan A का मान परिकलित कीजिए।",
-          "correct_answer": "cos A = (√7)/4, tan A = 3/√7",
+          "statement": "यदि tan A = 3/4 है, तो sin A और cos A के मान ज्ञात कीजिए।",
+          "correct_answer": "sin A = 3/5, cos A = 4/5",
           "imgUrl": "",
-          "explanation": "दिया है: sin A = लम्ब / कर्ण = 3/4\n\nमाना लम्ब BC = 3k और कर्ण AC = 4k\nसमकोण त्रिभुज ABC में पाइथागोरस प्रमेय से:\nAC² = AB² + BC²\n(4k)² = AB² + (3k)²\n16k² = AB² + 9k²\nAB² = 16k² - 9k² = 7k²\nAB = √7k (आधार)\n\nअतः:\ncos A = आधार / कर्ण = √7k / 4k = √7 / 4\ntan A = लम्ब / आधार = 3k / √7k = 3 / √7"
+          "explanation": "दिया है: tan A = 3/4\n\nहम जानते हैं:\ntan A = लम्ब / आधार\n\nमाना लम्ब = 3k और आधार = 4k।\n\nपाइथागोरस प्रमेय से:\nकर्ण² = लम्ब² + आधार²\n= (3k)² + (4k)²\n= 9k² + 16k²\n= 25k²\n\nअतः कर्ण = 5k।\n\nअब,\nsin A = लम्ब / कर्ण = 3k/5k = 3/5\n\ncos A = आधार / कर्ण = 4k/5k = 4/5\n\nअतः sin A = 3/5 तथा cos A = 4/5।"
         }
       ],
       "or_option": {
@@ -50,10 +50,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "मान निकालिए: sin 60° cos 30° + sin 30° cos 60°",
+            "statement": "यदि cos A = 5/13 है, तो sin A और tan A के मान ज्ञात कीजिए।",
+            "correct_answer": "sin A = 12/13, tan A = 12/5",
+            "imgUrl": "",
+            "explanation": "दिया है:\ncos A = 5/13 = आधार/कर्ण\n\nमाना आधार = 5k और कर्ण = 13k।\n\nपाइथागोरस प्रमेय से:\nलम्ब² = कर्ण² - आधार²\n= (13k)² - (5k)²\n= 169k² - 25k²\n= 144k²\n\nअतः लम्ब = 12k।\n\nइसलिए:\nsin A = लम्ब/कर्ण = 12/13\n\ntan A = लम्ब/आधार = 12/5\n\nअतः sin A = 12/13 तथा tan A = 12/5।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि sin A = 3/5 है, तो cos A और tan A के मान ज्ञात कीजिए।",
+          "correct_answer": "cos A = 4/5, tan A = 3/4",
+          "imgUrl": "",
+          "explanation": "दिया है:\nsin A = 3/5 = लम्ब/कर्ण\n\nमाना लम्ब = 3k और कर्ण = 5k।\n\nपाइथागोरस प्रमेय से:\nआधार² = कर्ण² - लम्ब²\n= (5k)² - (3k)²\n= 25k² - 9k²\n= 16k²\n\nअतः आधार = 4k।\n\nअब:\ncos A = आधार/कर्ण = 4/5\n\ntan A = लम्ब/आधार = 3/4\n\nअतः cos A = 4/5 तथा tan A = 3/4।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "मान ज्ञात कीजिए: sin 30° cos 60° + cos 30° sin 60°।",
             "correct_answer": "1",
             "imgUrl": "",
-            "explanation": "मानक कोणों के मान रखने पर:\nsin 60° = √3/2\ncos 30° = √3/2\nsin 30° = 1/2\ncos 60° = 1/2\n\nव्यंजक में मान रखने पर:\n= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4 = (3 + 1)/4 = 4/4 = 1\nअतः मान 1 है।"
+            "explanation": "मानक कोणों के मान:\nsin 30° = 1/2\ncos 60° = 1/2\ncos 30° = √3/2\nsin 60° = √3/2\n\nअतः,\n= (1/2)(1/2) + (√3/2)(√3/2)\n= 1/4 + 3/4\n= 4/4\n= 1\n\nअतः दिया गया व्यंजक का मान 1 है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "एक समकोण त्रिभुज ABC में ∠B = 90° है। यदि AB = 6 cm और BC = 8 cm है, तो sin A, cos A और tan A के मान ज्ञात कीजिए।",
+          "correct_answer": "sin A = 4/5, cos A = 3/5, tan A = 4/3",
+          "imgUrl": "",
+          "explanation": "दिया है:\nAB = 6 cm, BC = 8 cm तथा ∠B = 90°।\n\nपाइथागोरस प्रमेय से:\nAC² = AB² + BC²\n= 6² + 8²\n= 36 + 64\n= 100\n\nअतः AC = 10 cm।\n\n∠A के लिए:\nलम्ब = BC = 8 cm\nआधार = AB = 6 cm\nकर्ण = AC = 10 cm\n\nअतः:\nsin A = BC/AC = 8/10 = 4/5\n\ncos A = AB/AC = 6/10 = 3/5\n\ntan A = BC/AB = 8/6 = 4/3\n\nअतः sin A = 4/5, cos A = 3/5 तथा tan A = 4/3।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "एक समकोण त्रिभुज में किसी कोण A के लिए लम्ब 5 cm और आधार 12 cm है। sin A, cos A और tan A ज्ञात कीजिए।",
+            "correct_answer": "sin A = 5/13, cos A = 12/13, tan A = 5/12",
+            "imgUrl": "",
+            "explanation": "दिया है:\nलम्ब = 5 cm और आधार = 12 cm।\n\nपाइथागोरस प्रमेय से:\nकर्ण² = 5² + 12²\n= 25 + 144\n= 169\n\nअतः कर्ण = 13 cm।\n\nइसलिए:\nsin A = लम्ब/कर्ण = 5/13\n\ncos A = आधार/कर्ण = 12/13\n\ntan A = लम्ब/आधार = 5/12\n\nअतः sin A = 5/13, cos A = 12/13 तथा tan A = 5/12।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "मान ज्ञात कीजिए: (sin 45°)/(cos 45°) + (cos 60°)/(sin 30°)।",
+          "correct_answer": "2",
+          "imgUrl": "",
+          "explanation": "मानक कोणों के मान:\nsin 45° = 1/√2\ncos 45° = 1/√2\ncos 60° = 1/2\nsin 30° = 1/2\n\nअतः:\n(sin 45°)/(cos 45°) + (cos 60°)/(sin 30°)\n= (1/√2)/(1/√2) + (1/2)/(1/2)\n= 1 + 1\n= 2\n\nअतः मान 2 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "मान ज्ञात कीजिए: 2 sin 30° + 3 cos 60° - tan 45°।",
+            "correct_answer": "3/2",
+            "imgUrl": "",
+            "explanation": "मानक कोणों के मान:\nsin 30° = 1/2\ncos 60° = 1/2\ntan 45° = 1\n\nअतः:\n2(1/2) + 3(1/2) - 1\n= 1 + 3/2 - 1\n= 3/2\n\nअतः मान 3/2 है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि sec A = 13/12 है, तो tan A और sin A के मान ज्ञात कीजिए।",
+          "correct_answer": "tan A = 5/12, sin A = 5/13",
+          "imgUrl": "",
+          "explanation": "दिया है:\nsec A = 13/12\n\nहम जानते हैं:\nsec A = कर्ण/आधार\n\nमाना कर्ण = 13k और आधार = 12k।\n\nपाइथागोरस प्रमेय से:\nलम्ब² = कर्ण² - आधार²\n= (13k)² - (12k)²\n= 169k² - 144k²\n= 25k²\n\nअतः लम्ब = 5k।\n\nअब:\ntan A = लम्ब/आधार = 5/12\n\nsin A = लम्ब/कर्ण = 5/13\n\nअतः tan A = 5/12 तथा sin A = 5/13।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "यदि cot A = 7/24 है, तो sin A और cos A के मान ज्ञात कीजिए।",
+            "correct_answer": "sin A = 24/25, cos A = 7/25",
+            "imgUrl": "",
+            "explanation": "दिया है:\ncot A = 7/24 = आधार/लम्ब\n\nमाना आधार = 7k और लम्ब = 24k।\n\nपाइथागोरस प्रमेय से:\nकर्ण² = (7k)² + (24k)²\n= 49k² + 576k²\n= 625k²\n\nअतः कर्ण = 25k।\n\nअब:\nsin A = लम्ब/कर्ण = 24/25\n\ncos A = आधार/कर्ण = 7/25\n\nअतः sin A = 24/25 तथा cos A = 7/25।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "मान ज्ञात कीजिए: sin 60° cos 30° + cos 60° sin 30°।",
+          "correct_answer": "1",
+          "imgUrl": "",
+          "explanation": "मानक कोणों के मान:\nsin 60° = √3/2\ncos 30° = √3/2\ncos 60° = 1/2\nsin 30° = 1/2\n\nअतः:\n= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4\n= 4/4\n= 1\n\nअतः मान 1 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "यदि tan A = 1/√3 है, तो A का मान ज्ञात कीजिए।",
+            "correct_answer": "A = 30°",
+            "imgUrl": "",
+            "explanation": "दिया है:\ntan A = 1/√3\n\nहम जानते हैं कि मानक कोणों में:\ntan 30° = 1/√3\n\nअतः:\ntan A = tan 30°\n\nइसलिए A = 30°।\n\nअतः कोण A का मान 30° है।"
           }
         ]
       }

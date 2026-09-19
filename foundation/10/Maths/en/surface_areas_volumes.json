@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -31,18 +31,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "5",
+      "marks": "",
       "word_limit": "",
-      "text": "Board Exam Based Questions",
+      "text": "Board Examination Based Question",
       "parts": [
         {
           "q_id": "a",
-          "statement": "Two cubes each of volume 64 cm³ are joined end to end. Find the surface area of the resulting cuboid.",
-          "correct_answer": "160 cm²",
+          "statement": "A solid toy is made by placing a hemisphere on a cone. The radius of the cone and hemisphere is 7 cm and the height of the cone is 24 cm. Find the total surface area of the toy. (Take π = 22/7)",
+          "correct_answer": "Total surface area = 858 cm²",
           "imgUrl": "",
-          "explanation": "Given: Volume of each cube = 64 cm³\nLet the side of the cube be a.\na³ = 64 => a = 4 cm\n\nWhen two such cubes are joined together, a cuboid is formed whose dimensions will be:\nLength (l) = 4 + 4 = 8 cm\nBreadth (b) = 4 cm\nHeight (h) = 4 cm\n\nTotal surface area of cuboid = 2(lb + bh + hl)\n= 2(8 × 4 + 4 × 4 + 4 × 8)\n= 2(32 + 16 + 32)\n= 2(80) = 160 cm²\nTherefore, the surface area of the resulting cuboid is 160 cm²."
+          "explanation": "Given:\nRadius r = 7 cm\nHeight of cone h = 24 cm\n\nSlant height of cone:\nl = √(r² + h²)\n= √(7² + 24²)\n= √(49 + 576)\n= √625\n= 25 cm\n\nTotal surface area of the toy = Curved surface area of cone + Curved surface area of hemisphere\n\n= πrl + 2πr²\n= πr(l + 2r)\n\n= (22/7) × 7 × (25 + 14)\n= 22 × 39\n= 858 cm²\n\nTherefore, the total surface area of the toy is 858 cm²."
         }
       ],
       "or_option": {
@@ -50,10 +50,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. The total height of the toy is 15.5 cm. Find the total surface area of the toy. (Use π = 22/7)",
-            "correct_answer": "214.5 cm²",
+            "statement": "A solid is formed by placing a cone on a cylinder. Both have a radius of 3.5 cm. The height of the cylinder is 10 cm and the height of the cone is 12 cm. Find the total surface area of the solid. (Take π = 22/7)",
+            "correct_answer": "Total surface area = 396 cm²",
             "imgUrl": "",
-            "explanation": "Given:\nTotal height of toy = 15.5 cm\nRadius of hemisphere (r) = 3.5 cm\nHeight of cone (h) = Total height - Radius of hemisphere = 15.5 - 3.5 = 12 cm\n\nSlant height of cone (l):\nl = √(r² + h²) = √((3.5)² + 12²) = √(12.25 + 144) = √156.25 = 12.5 cm\n\nTotal surface area of toy = CSA of cone + CSA of hemisphere\n= πrl + 2πr²\n= πr(l + 2r)\n= (22 / 7) × 3.5 × (12.5 + 2 × 3.5)\n= (22 / 7) × (7 / 2) × (12.5 + 7)\n= 11 × 19.5 = 214.5 cm²\nTherefore, the total surface area of the toy is 214.5 cm²."
+            "explanation": "Given:\nRadius r = 3.5 cm\nHeight of cylinder = 10 cm\nHeight of cone = 12 cm\n\nSlant height of cone:\nl = √(r² + h²)\n= √(3.5² + 12²)\n= √156.25\n= 12.5 cm\n\nTotal surface area = Curved surface area of cylinder + Curved surface area of cone + Bottom base of cylinder\n\n= 2πrh + πrl + πr²\n\n= 220 + 137.5 + 38.5\n= 396 cm²\n\nTherefore, the total surface area of the solid is 396 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A cylindrical tank has a radius of 3.5 m and a height of 10 m. Find its capacity in litres. (Take π = 22/7)",
+          "correct_answer": "Capacity = 385000 litres",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius r = 3.5 m\nHeight h = 10 m\n\nVolume of cylinder:\nV = πr²h\n\n= (22/7) × (3.5)² × 10\n= 385 m³\n\nSince 1 m³ = 1000 litres,\n\n385 m³ = 385 × 1000\n= 385000 litres\n\nTherefore, the capacity of the tank is 385000 litres."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A cubical tank has an edge of 2.5 m. Find the amount of water that can be stored in it in litres.",
+            "correct_answer": "15625 litres",
+            "imgUrl": "",
+            "explanation": "Edge of cube = 2.5 m\n\nVolume of cube:\nV = a³\n= (2.5)³\n= 15.625 m³\n\nSince 1 m³ = 1000 litres,\n\n15.625 m³ = 15.625 × 1000\n= 15625 litres\n\nTherefore, 15625 litres of water can be stored in the tank."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The surface area of a sphere is 616 cm². Find its radius and volume. (Take π = 22/7)",
+          "correct_answer": "Radius = 7 cm, Volume = 1437.33 cm³",
+          "imgUrl": "",
+          "explanation": "Surface area of sphere:\n4πr² = 616\n\n4 × (22/7) × r² = 616\n\nr² = (616 × 7) / 88\n= 49\n\nTherefore, r = 7 cm.\n\nNow, volume of sphere:\nV = (4/3)πr³\n\n= (4/3) × (22/7) × 7³\n= 1437.33 cm³ (approximately)\n\nTherefore, the radius is 7 cm and the volume is approximately 1437.33 cm³."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The curved surface area of a hemisphere is 308 cm². Find its radius and volume. (Take π = 22/7)",
+            "correct_answer": "Radius = 7 cm, Volume = 718.67 cm³",
+            "imgUrl": "",
+            "explanation": "Curved surface area of hemisphere:\n2πr² = 308\n\n2 × (22/7) × r² = 308\n\nr² = (308 × 7) / 44\n= 49\n\nTherefore, r = 7 cm.\n\nVolume of hemisphere:\nV = (2/3)πr³\n\n= (2/3) × (22/7) × 343\n= 718.67 cm³ (approximately)\n\nTherefore, the radius is 7 cm and the volume is approximately 718.67 cm³."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A solid cylinder of radius 6 cm and height 8 cm is melted and recast into smaller spheres of radius 3 cm. How many spheres can be made?",
+          "correct_answer": "8 spheres",
+          "imgUrl": "",
+          "explanation": "Volume of cylinder:\nV₁ = πr²h\n= π × 6² × 8\n= 288π cm³\n\nVolume of one smaller sphere:\nV₂ = (4/3)πr³\n= (4/3)π × 3³\n= 36π cm³\n\nNumber of spheres:\n= Volume of cylinder / Volume of one sphere\n= 288π / 36π\n= 8\n\nTherefore, 8 spheres can be made."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A solid sphere of radius 6 cm is melted and recast into smaller spheres of radius 2 cm. How many smaller spheres can be made?",
+            "correct_answer": "27 smaller spheres",
+            "imgUrl": "",
+            "explanation": "Volume of larger sphere:\nV₁ = (4/3)π(6)³\n= 288π cm³\n\nVolume of one smaller sphere:\nV₂ = (4/3)π(2)³\n= 32π/3 cm³\n\nNumber of smaller spheres:\n= 288π / (32π/3)\n= 288 × 3 / 32\n= 27\n\nTherefore, 27 smaller spheres can be made."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A cone has a radius of 7 cm and a height of 24 cm. Find its curved surface area and volume. (Take π = 22/7)",
+          "correct_answer": "Curved surface area = 550 cm², Volume = 1232 cm³",
+          "imgUrl": "",
+          "explanation": "Given:\nr = 7 cm, h = 24 cm\n\nSlant height:\nl = √(r² + h²)\n= √(7² + 24²)\n= √625\n= 25 cm\n\nCurved surface area:\nCSA = πrl\n= (22/7) × 7 × 25\n= 550 cm²\n\nVolume:\nV = (1/3)πr²h\n= (1/3) × (22/7) × 49 × 24\n= 1232 cm³\n\nTherefore, the curved surface area is 550 cm² and the volume is 1232 cm³."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A cone has a radius of 3.5 cm and a slant height of 12.5 cm. Find its height and volume. (Take π = 22/7)",
+            "correct_answer": "Height = 12 cm, Volume = 154 cm³",
+            "imgUrl": "",
+            "explanation": "Given:\nr = 3.5 cm\nl = 12.5 cm\n\nUsing the right triangle relation:\nl² = r² + h²\n\nh² = l² - r²\n= (12.5)² - (3.5)²\n= 156.25 - 12.25\n= 144\n\nTherefore, h = 12 cm.\n\nVolume of cone:\nV = (1/3)πr²h\n= (1/3) × (22/7) × (3.5)² × 12\n= 154 cm³\n\nTherefore, the height is 12 cm and the volume is 154 cm³."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A solid is formed by placing a hemisphere on a cylinder. Both have a radius of 7 cm and the height of the cylinder is 10 cm. Find the total surface area and volume of the solid. (Take π = 22/7)",
+          "correct_answer": "Total surface area = 902 cm², Volume = 2258.67 cm³",
+          "imgUrl": "",
+          "explanation": "Given:\nr = 7 cm\nHeight of cylinder h = 10 cm\n\nTotal surface area includes the curved surface area of the cylinder, curved surface area of the hemisphere and the bottom base of the cylinder.\n\nTSA = 2πrh + 2πr² + πr²\n= 2πrh + 3πr²\n\n= 2 × (22/7) × 7 × 10 + 3 × (22/7) × 49\n= 440 + 462\n= 902 cm²\n\nNow, total volume:\nVolume = Volume of cylinder + Volume of hemisphere\n\n= πr²h + (2/3)πr³\n\n= (22/7) × 49 × 10 + (2/3) × (22/7) × 343\n= 1540 + 718.67\n= 2258.67 cm³\n\nTherefore, the total surface area is 902 cm² and the volume is approximately 2258.67 cm³."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A solid is formed by placing a cone on a cylinder. Both have a radius of 7 cm. The height of the cylinder is 10 cm and the height of the cone is 24 cm. Find the total surface area and volume of the solid. (Take π = 22/7)",
+            "correct_answer": "Total surface area = 1144 cm², Volume = 2772 cm³",
+            "imgUrl": "",
+            "explanation": "Given:\nr = 7 cm\nHeight of cylinder = 10 cm\nHeight of cone = 24 cm\n\nSlant height of cone:\nl = √(r² + h²)\n= √(7² + 24²)\n= 25 cm\n\nTotal surface area = Curved surface area of cylinder + Curved surface area of cone + Bottom base of cylinder\n\n= 2πrh + πrl + πr²\n\n= 440 + 550 + 154\n= 1144 cm²\n\nTotal volume = Volume of cylinder + Volume of cone\n\n= πr²h + (1/3)πr²h\n= 1540 + 1232\n= 2772 cm³\n\nTherefore, the total surface area is 1144 cm² and the volume is 2772 cm³."
           }
         ]
       }

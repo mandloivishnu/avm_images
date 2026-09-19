@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -54,18 +54,18 @@
       }
     },
     {
-      "question_number": "3",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "3",
+      "marks": "",
       "word_limit": "",
       "text": "Board Exam Based Questions",
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the area of a sector of a circle with radius 6 cm and angle 60°. (Take π = 22/7.)",
-          "correct_answer": "132/7 cm²",
+          "statement": "Find the area of a sector of a circle with radius 14 cm and central angle 90°. (Take π = 22/7.)",
+          "correct_answer": "154 cm²",
           "imgUrl": "",
-          "explanation": "Given:\nRadius (r) = 6 cm\nCentral angle (θ) = 60°\n\nArea of the sector = (θ / 360°) × πr²\n= (60° / 360°) × (22 / 7) × (6)²\n= (1 / 6) × (22 / 7) × 36\n= (22 × 6) / 7\n= 132/7 cm² (or 18.85 cm²)"
+          "explanation": "Given:\nRadius (r) = 14 cm\nCentral angle (θ) = 90°\n\nArea of sector = (θ / 360°) × πr²\n= (90° / 360°) × (22/7) × 14²\n= (1/4) × (22/7) × 196\n= 154 cm²\n\nTherefore, the area of the sector is 154 cm²."
         }
       ],
       "or_option": {
@@ -73,10 +73,234 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find the area of a quadrant of a circle whose circumference is 22 cm. (Take π = 22/7.)",
-            "correct_answer": "77/8 cm²",
+            "statement": "Find the area of a semicircle whose diameter is 28 cm. (Take π = 22/7.)",
+            "correct_answer": "308 cm²",
             "imgUrl": "",
-            "explanation": "Given:\nCircumference of the circle = 22 cm\n2πr = 22\n2 × (22 / 7) × r = 22\nr = (22 × 7) / (2 × 22) = 7/2 cm\n\nAngle of the quadrant (θ) = 90°\nArea of the quadrant = (90° / 360°) × πr²\n= (1 / 4) × (22 / 7) × (7/2)²\n= (1 / 4) × (22 / 7) × (49 / 4)\n= 77/8 cm²"
+            "explanation": "Given:\nDiameter = 28 cm\nRadius (r) = 28/2 = 14 cm\n\nArea of semicircle = (1/2) × πr²\n= (1/2) × (22/7) × 14²\n= (1/2) × 22 × 28\n= 308 cm²\n\nTherefore, the area of the semicircle is 308 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the minor sector of a circle of radius 21 cm subtending an angle of 120° at the centre. (Take π = 22/7.)",
+          "correct_answer": "462 cm²",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 21 cm\nCentral angle (θ) = 120°\n\nArea of sector = (θ / 360°) × πr²\n= (120° / 360°) × (22/7) × 21²\n= (1/3) × (22/7) × 441\n= (1/3) × 1386\n= 462 cm²\n\nTherefore, the area of the sector is 462 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A wheel has a radius of 14 cm. Find the area swept by a spoke when it moves through an angle of 45°. (Take π = 22/7.)",
+            "correct_answer": "77 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nRadius (r) = 14 cm\nAngle swept (θ) = 45°\n\nArea swept = Area of sector\n= (θ / 360°) × πr²\n= (45° / 360°) × (22/7) × 14²\n= (1/8) × (22/7) × 196\n= 77 cm²\n\nTherefore, the area swept by the spoke is 77 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the ring formed between two concentric circles of radii 14 cm and 7 cm. (Take π = 22/7.)",
+          "correct_answer": "462 cm²",
+          "imgUrl": "",
+          "explanation": "Given:\nOuter radius (R) = 14 cm\nInner radius (r) = 7 cm\n\nArea of ring = π(R² − r²)\n= (22/7)(14² − 7²)\n= (22/7)(196 − 49)\n= (22/7) × 147\n= 462 cm²\n\nTherefore, the area of the ring is 462 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The radii of two concentric circles are 10 cm and 6 cm. Find the area of the region between them. (Take π = 3.14.)",
+            "correct_answer": "200.96 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nOuter radius (R) = 10 cm\nInner radius (r) = 6 cm\n\nArea of the region between the circles = π(R² − r²)\n= 3.14(10² − 6²)\n= 3.14(100 − 36)\n= 3.14 × 64\n= 200.96 cm²\n\nTherefore, the required area is 200.96 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A chord of a circle of radius 14 cm subtends an angle of 90° at the centre. Find the area of the minor segment formed by the chord. (Take π = 22/7.)",
+          "correct_answer": "56 cm²",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 14 cm\nCentral angle (θ) = 90°\n\nArea of minor segment = Area of sector − Area of triangle\n\nArea of sector = (90° / 360°) × (22/7) × 14²\n= 154 cm²\n\nThe triangle formed by the two radii is a right triangle with equal sides 14 cm.\nArea of triangle = (1/2) × 14 × 14 = 98 cm²\n\nTherefore,\nArea of minor segment = 154 − 98\n= 56 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A chord of a circle of radius 7 cm subtends an angle of 60° at the centre. Find the area of the minor segment. (Take π = 22/7 and √3 = 1.73.)",
+            "correct_answer": "4.57 cm² approximately",
+            "imgUrl": "",
+            "explanation": "Given:\nRadius (r) = 7 cm\nCentral angle (θ) = 60°\n\nArea of sector = (60° / 360°) × (22/7) × 7²\n= 77/3 cm²\n≈ 25.67 cm²\n\nThe triangle formed by the two radii is equilateral because the included angle is 60°.\nArea of triangle = (√3/4) × 7²\n= (1.73/4) × 49\n≈ 21.15 cm²\n\nArea of minor segment = Area of sector − Area of triangle\n≈ 25.67 − 21.15\n≈ 4.52 cm².\n\nTherefore, the area of the minor segment is approximately 4.52 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A circular garden has radius 21 m. A path in the form of a sector of angle 60° is made inside the garden. Find the area of the path. (Take π = 22/7.)",
+          "correct_answer": "231 m²",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 21 m\nAngle of sector (θ) = 60°\n\nArea of path = Area of sector\n= (θ / 360°) × πr²\n= (60° / 360°) × (22/7) × 21²\n= (1/6) × (22/7) × 441\n= 231 m²\n\nTherefore, the area of the path is 231 m²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A circular sheet of radius 14 cm has a sector of angle 90° removed from it. Find the area of the remaining part of the sheet. (Take π = 22/7.)",
+            "correct_answer": "462 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nRadius (r) = 14 cm\n\nArea of complete circle = πr²\n= (22/7) × 14²\n= 616 cm²\n\nArea of removed sector = (90° / 360°) × πr²\n= (1/4) × 616\n= 154 cm²\n\nArea of remaining sheet = 616 − 154\n= 462 cm²\n\nTherefore, the area of the remaining part is 462 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A quadrant of a circle has radius 14 cm. Find its perimeter and area. (Take π = 22/7.)",
+          "correct_answer": "Perimeter = 50 cm, Area = 154 cm²",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 14 cm\n\nPerimeter of quadrant = 2r + (1/4) × circumference\n= 2(14) + (1/4) × 2πr\n= 28 + (1/4) × 2 × (22/7) × 14\n= 28 + 22\n= 50 cm\n\nArea of quadrant = (1/4) × πr²\n= (1/4) × (22/7) × 14²\n= 154 cm²\n\nTherefore, the perimeter is 50 cm and the area is 154 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A circular field has a radius of 35 m. Find the length of the arc corresponding to an angle of 72° at the centre. (Take π = 22/7.)",
+            "correct_answer": "44 m",
+            "imgUrl": "",
+            "explanation": "Given:\nRadius (r) = 35 m\nCentral angle (θ) = 72°\n\nLength of arc = (θ / 360°) × 2πr\n= (72° / 360°) × 2 × (22/7) × 35\n= (1/5) × 220\n= 44 m\n\nTherefore, the length of the arc is 44 m."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A chord of a circle of radius 14 cm subtends an angle of 60° at the centre. Find the area of the minor segment. (Take π = 22/7 and √3 = 1.7.)",
+          "correct_answer": "31.5 cm² approximately",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 14 cm\nCentral angle (θ) = 60°\n\nArea of minor segment = Area of sector − Area of triangle.\n\nArea of sector = (60° / 360°) × πr²\n= (1/6) × (22/7) × 14²\n= 308/3 cm²\n≈ 102.67 cm²\n\nSince the angle is 60°, the triangle formed by the two radii is equilateral.\n\nArea of triangle = (√3/4) × 14²\n= (1.7/4) × 196\n= 83.3 cm²\n\nArea of minor segment = 102.67 − 83.3\n≈ 19.37 cm².\n\nTherefore, the area of the minor segment is approximately 19.37 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A chord of a circle of radius 7 cm subtends an angle of 90° at the centre. Find the area of the minor segment. (Take π = 22/7.)",
+            "correct_answer": "14 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nRadius (r) = 7 cm\nCentral angle (θ) = 90°\n\nArea of minor segment = Area of sector − Area of triangle.\n\nArea of sector = (90° / 360°) × πr²\n= (1/4) × (22/7) × 49\n= 77/2 cm²\n= 38.5 cm²\n\nThe triangle formed by the two radii is a right-angled triangle.\n\nArea of triangle = (1/2) × 7 × 7\n= 24.5 cm²\n\nArea of minor segment = 38.5 − 24.5\n= 14 cm².\n\nTherefore, the area of the minor segment is 14 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A chord of a circle of radius 21 cm subtends an angle of 120° at the centre. Find the area of the minor segment. (Take π = 22/7 and √3 = 1.7.)",
+          "correct_answer": "115.5 cm² approximately",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 21 cm\nCentral angle (θ) = 120°\n\nArea of minor segment = Area of sector − Area of triangle.\n\nArea of sector = (120° / 360°) × πr²\n= (1/3) × (22/7) × 21²\n= 462 cm²\n\nThe two radii and the chord form a triangle with included angle 120°.\n\nArea of triangle = (1/2)r² sin 120°\n= (1/2) × 21² × (√3/2)\n= (441√3)/4\n\nUsing √3 = 1.7:\nArea of triangle = (441 × 1.7)/4\n= 187.425 cm²\n\nArea of minor segment = 462 − 187.425\n= 274.575 cm².\n\nTherefore, the area of the minor segment is approximately 274.58 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A chord of a circle of radius 14 cm subtends an angle of 90° at the centre. Find the area of the major segment. (Take π = 22/7.)",
+            "correct_answer": "560 cm²",
+            "imgUrl": "",
+            "explanation": "Given:\nRadius (r) = 14 cm\nCentral angle (θ) = 90°\n\nArea of the circle = πr²\n= (22/7) × 14²\n= 616 cm²\n\nArea of minor segment = Area of sector − Area of triangle.\n\nArea of sector = (90° / 360°) × 616\n= 154 cm²\n\nArea of triangle = (1/2) × 14 × 14\n= 98 cm²\n\nArea of minor segment = 154 − 98\n= 56 cm²\n\nArea of major segment = Area of circle − Area of minor segment\n= 616 − 56\n= 560 cm².\n\nTherefore, the area of the major segment is 560 cm²."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A chord of a circle of radius 7 cm subtends an angle of 120° at the centre. Find the area of the minor segment. (Take π = 22/7 and √3 = 1.7.)",
+          "correct_answer": "30.9 cm² approximately",
+          "imgUrl": "",
+          "explanation": "Given:\nRadius (r) = 7 cm\nCentral angle (θ) = 120°\n\nArea of minor segment = Area of sector − Area of triangle.\n\nArea of sector = (120° / 360°) × (22/7) × 7²\n= 154/3 cm²\n≈ 51.33 cm²\n\nArea of triangle = (1/2)r² sin 120°\n= (1/2) × 49 × (√3/2)\n= 49√3/4\n\nUsing √3 = 1.7:\nArea of triangle = (49 × 1.7)/4\n= 20.825 cm²\n\nArea of minor segment = 51.33 − 20.825\n≈ 30.51 cm².\n\nTherefore, the area of the minor segment is approximately 30.51 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A chord of a circle of radius 14 cm subtends an angle of 60° at the centre. Find the area of the major segment. (Take π = 22/7 and √3 = 1.7.)",
+            "correct_answer": "529.3 cm² approximately",
+            "imgUrl": "",
+            "explanation": "Given:\nRadius (r) = 14 cm\nCentral angle (θ) = 60°\n\nArea of circle = πr²\n= (22/7) × 14²\n= 616 cm²\n\nArea of sector = (60° / 360°) × 616\n= 616/6\n≈ 102.67 cm²\n\nSince the angle is 60°, the triangle formed by the two radii is equilateral.\n\nArea of triangle = (√3/4) × 14²\n= (1.7/4) × 196\n= 83.3 cm²\n\nArea of minor segment = 102.67 − 83.3\n= 19.37 cm²\n\nArea of major segment = 616 − 19.37\n= 596.63 cm².\n\nTherefore, the area of the major segment is approximately 596.63 cm²."
           }
         ]
       }

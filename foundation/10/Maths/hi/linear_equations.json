@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "त्वरित पुनरावृत्ति (Quick Revision)",
@@ -31,18 +31,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "4",
+      "marks": "",
       "word_limit": "",
       "text": "बोर्ड परीक्षा आधारित प्रश्न",
       "parts": [
         {
           "q_id": "a",
-          "statement": "निम्न रैखिक समीकरण युग्म को प्रतिस्थापन विधि से हल कीजिए:\n7x - 15y = 2\nx + 2y = 3",
-          "correct_answer": "x = 49/29, y = 19/29",
+          "statement": "निम्न रैखिक समीकरण युग्म को प्रतिस्थापन विधि से हल कीजिए:\n2x + 3y = 13\nx + y = 5",
+          "correct_answer": "x = 2, y = 3",
           "imgUrl": "",
-          "explanation": "समीकरण (1): 7x - 15y = 2\nसमीकरण (2): x + 2y = 3\n\nसमीकरण (2) से x का मान निकालने पर:\nx = 3 - 2y  --(समीकरण 3)\n\nx का यह मान समीकरण (1) में रखने पर:\n7(3 - 2y) - 15y = 2\n21 - 14y - 15y = 2\n21 - 29y = 2\n-29y = 2 - 21\n-29y = -19\ny = 19/29\n\ny का मान समीकरण (3) में रखने पर:\nx = 3 - 2(19/29)\nx = 3 - 38/29 = (87 - 38) / 29 = 49/29\n\nअतः हल x = 49/29 और y = 19/29 है।"
+          "explanation": "समीकरण (2) से:\nx + y = 5\nx = 5 - y\n\nx का मान समीकरण (1) में रखने पर:\n2(5 - y) + 3y = 13\n10 - 2y + 3y = 13\ny = 3\n\nअब y = 3 को x = 5 - y में रखने पर:\nx = 5 - 3 = 2\n\nअतः x = 2 और y = 3 है।"
         }
       ],
       "or_option": {
@@ -50,10 +50,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "प्रतिस्थापन विधि द्वारा हल कीजिए:\ns - t = 3\ns/3 + t/2 = 6",
-            "correct_answer": "s = 9, t = 6",
+            "statement": "प्रतिस्थापन विधि द्वारा निम्न रैखिक समीकरण युग्म को हल कीजिए:\n3x - 2y = 4\nx + y = 3",
+            "correct_answer": "x = 2, y = 1",
             "imgUrl": "",
-            "explanation": "समीकरण (1): s - t = 3 => s = t + 3\nसमीकरण (2): s/3 + t/2 = 6\n\ns का मान समीकरण (2) में रखने पर:\n(t + 3)/3 + t/2 = 6\n[2(t + 3) + 3t] / 6 = 6\n2t + 6 + 3t = 36\n5t + 6 = 36\n5t = 30 => t = 6\n\nt का मान s = t + 3 में रखने पर:\ns = 6 + 3 = 9\n\nअतः s = 9 और t = 6 है।"
+            "explanation": "समीकरण (2) से:\nx + y = 3\nx = 3 - y\n\nसमीकरण (1) में x = 3 - y रखने पर:\n3(3 - y) - 2y = 4\n9 - 3y - 2y = 4\n-5y = -5\ny = 1\n\nअब:\nx = 3 - 1 = 2\n\nअतः x = 2 और y = 1 है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "निम्न रैखिक समीकरण युग्म को प्रतिस्थापन विधि से हल कीजिए:\n5x + 2y = 19\nx - y = 1",
+          "correct_answer": "x = 3, y = 2",
+          "imgUrl": "",
+          "explanation": "समीकरण (2) से:\nx - y = 1\nx = y + 1\n\nसमीकरण (1) में x = y + 1 रखने पर:\n5(y + 1) + 2y = 19\n5y + 5 + 2y = 19\n7y = 14\ny = 2\n\nअब:\nx = 2 + 1 = 3\n\nअतः x = 3 और y = 2 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "प्रतिस्थापन विधि द्वारा निम्न रैखिक समीकरण युग्म को हल कीजिए:\n2x - y = 7\nx + 2y = 8",
+            "correct_answer": "x = 22/5, y = 9/5",
+            "imgUrl": "",
+            "explanation": "समीकरण (1) से:\n2x - y = 7\ny = 2x - 7\n\nसमीकरण (2) में रखने पर:\nx + 2(2x - 7) = 8\nx + 4x - 14 = 8\n5x = 22\nx = 22/5\n\nअब:\ny = 2(22/5) - 7\n= 44/5 - 35/5\n= 9/5\n\nअतः x = 22/5 और y = 9/5 है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "निम्न रैखिक समीकरण युग्म को प्रतिस्थापन विधि से हल कीजिए:\n4x + 3y = 18\nx - y = 1",
+          "correct_answer": "x = 3, y = 2",
+          "imgUrl": "",
+          "explanation": "समीकरण (2) से:\nx - y = 1\nx = y + 1\n\nसमीकरण (1) में रखने पर:\n4(y + 1) + 3y = 18\n4y + 4 + 3y = 18\n7y = 14\ny = 2\n\nअब:\nx = y + 1 = 2 + 1 = 3\n\nअतः x = 3 और y = 2 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "प्रतिस्थापन विधि द्वारा हल कीजिए:\n3x + y = 11\nx - y = 1",
+            "correct_answer": "x = 3, y = 2",
+            "imgUrl": "",
+            "explanation": "समीकरण (2) से:\nx - y = 1\nx = y + 1\n\nसमीकरण (1) में रखने पर:\n3(y + 1) + y = 11\n3y + 3 + y = 11\n4y = 8\ny = 2\n\nअब:\nx = 2 + 1 = 3\n\nअतः x = 3 और y = 2 है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "निम्न रैखिक समीकरण युग्म को प्रतिस्थापन विधि से हल कीजिए:\n7x - 2y = 22\nx + y = 5",
+          "correct_answer": "x = 4, y = 1",
+          "imgUrl": "",
+          "explanation": "समीकरण (2) से:\nx + y = 5\nx = 5 - y\n\nसमीकरण (1) में रखने पर:\n7(5 - y) - 2y = 22\n35 - 7y - 2y = 22\n-9y = -13\ny = 13/9\n\nअब:\nx = 5 - 13/9\n= 45/9 - 13/9\n= 32/9\n\nअतः x = 32/9 और y = 13/9 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "प्रतिस्थापन विधि द्वारा हल कीजिए:\n5x - 3y = 9\nx + y = 3",
+            "correct_answer": "x = 9/4, y = 3/4",
+            "imgUrl": "",
+            "explanation": "समीकरण (2) से:\nx = 3 - y\n\nसमीकरण (1) में रखने पर:\n5(3 - y) - 3y = 9\n15 - 5y - 3y = 9\n-8y = -6\ny = 3/4\n\nअब:\nx = 3 - 3/4 = 9/4\n\nअतः x = 9/4 और y = 3/4 है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "निम्न रैखिक समीकरण युग्म को प्रतिस्थापन विधि से हल कीजिए:\n2x + y = 7\n3x - 2y = 4",
+          "correct_answer": "x = 2, y = 3",
+          "imgUrl": "",
+          "explanation": "समीकरण (1) से:\n2x + y = 7\ny = 7 - 2x\n\nसमीकरण (2) में रखने पर:\n3x - 2(7 - 2x) = 4\n3x - 14 + 4x = 4\n7x = 18\nx = 18/7\n\nअब:\ny = 7 - 2(18/7)\n= 49/7 - 36/7\n= 13/7\n\nअतः x = 18/7 और y = 13/7 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "प्रतिस्थापन विधि द्वारा हल कीजिए:\n4x - y = 9\n2x + y = 9",
+            "correct_answer": "x = 3, y = 3",
+            "imgUrl": "",
+            "explanation": "समीकरण (1) से:\n4x - y = 9\ny = 4x - 9\n\nसमीकरण (2) में रखने पर:\n2x + (4x - 9) = 9\n6x = 18\nx = 3\n\nअब:\ny = 4(3) - 9 = 3\n\nअतः x = 3 और y = 3 है।"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "निम्न रैखिक समीकरण युग्म को प्रतिस्थापन विधि से हल कीजिए:\nx + 2y = 8\n3x - y = 3",
+          "correct_answer": "x = 2, y = 3",
+          "imgUrl": "",
+          "explanation": "समीकरण (1) से:\nx + 2y = 8\nx = 8 - 2y\n\nसमीकरण (2) में रखने पर:\n3(8 - 2y) - y = 3\n24 - 6y - y = 3\n-7y = -21\ny = 3\n\nअब:\nx = 8 - 2(3) = 2\n\nअतः x = 2 और y = 3 है।"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "प्रतिस्थापन विधि द्वारा निम्न रैखिक समीकरण युग्म को हल कीजिए:\n2x + 3y = 12\nx - y = 1",
+            "correct_answer": "x = 3, y = 2",
+            "imgUrl": "",
+            "explanation": "समीकरण (2) से:\nx - y = 1\nx = y + 1\n\nसमीकरण (1) में रखने पर:\n2(y + 1) + 3y = 12\n2y + 2 + 3y = 12\n5y = 10\ny = 2\n\nअब:\nx = y + 1 = 3\n\nअतः x = 3 और y = 2 है।"
           }
         ]
       }

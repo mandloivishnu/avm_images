@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -30,18 +30,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "3",
+      "marks": "",
       "word_limit": "",
       "text": "Board Exam Based Questions",
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the 10th term of the arithmetic progression 2, 7, 12, ...",
-          "correct_answer": "47",
+          "statement": "Find the 15th term of the arithmetic progression 5, 9, 13, 17, ...",
+          "correct_answer": "61",
           "imgUrl": "",
-          "explanation": "Given arithmetic progression: 2, 7, 12, ...\nFirst term (a) = 2\nCommon difference (d) = 7 - 2 = 5\nTerm number (n) = 10\n\nnth-term Formula: an = a + (n - 1)d\na10 = 2 + (10 - 1) × 5\na10 = 2 + 9 × 5\na10 = 2 + 45 = 47\n\nTherefore, the 10th term is 47."
+          "explanation": "Given arithmetic progression: 5, 9, 13, 17, ...\nFirst term (a) = 5\nCommon difference (d) = 9 − 5 = 4\nTerm number (n) = 15\n\nUsing the nth-term formula:\naₙ = a + (n − 1)d\n\na₁₅ = 5 + (15 − 1) × 4\n= 5 + 14 × 4\n= 5 + 56\n= 61\n\nTherefore, the 15th term is 61."
         }
       ],
       "or_option": {
@@ -49,10 +49,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Which term of the arithmetic progression 3, 8, 13, 18, ... is 78?",
-            "correct_answer": "16",
+            "statement": "Which term of the arithmetic progression 7, 12, 17, 22, ... is 102?",
+            "correct_answer": "20",
             "imgUrl": "",
-            "explanation": "Given progression: 3, 8, 13, 18, ...\nHere a = 3, d = 8 - 3 = 5\nLet the nth term be 78, so an = 78\n\nan = a + (n - 1)d\n78 = 3 + (n - 1)5\n78 - 3 = (n - 1)5\n75 = (n - 1)5\nn - 1 = 75 / 5 = 15\nn = 15 + 1 = 16\n\nTherefore, the 16th term of the progression is 78."
+            "explanation": "Given:\na = 7\nd = 12 − 7 = 5\n\nLet the nth term be 102.\n\nUsing aₙ = a + (n − 1)d:\n102 = 7 + (n − 1)5\n102 − 7 = 5(n − 1)\n95 = 5(n − 1)\nn − 1 = 19\nn = 20\n\nTherefore, 102 is the 20th term of the progression."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the sum of the first 20 terms of the arithmetic progression 3, 7, 11, 15, ...",
+          "correct_answer": "820",
+          "imgUrl": "",
+          "explanation": "Given:\na = 3\nd = 7 − 3 = 4\nn = 20\n\nUsing the formula:\nSₙ = n/2 [2a + (n − 1)d]\n\nS₂₀ = 20/2 [2(3) + (20 − 1)4]\n= 10[6 + 76]\n= 10 × 82\n= 820\n\nTherefore, the sum of the first 20 terms is 820."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the sum of the first 25 terms of the arithmetic progression 8, 11, 14, 17, ...",
+            "correct_answer": "1100",
+            "imgUrl": "",
+            "explanation": "Given:\na = 8\nd = 11 − 8 = 3\nn = 25\n\nUsing:\nSₙ = n/2 [2a + (n − 1)d]\n\nS₂₅ = 25/2 [2(8) + (25 − 1)3]\n= 25/2 [16 + 72]\n= 25/2 × 88\n= 25 × 44\n= 1100\n\nTherefore, the sum of the first 25 terms is 1100."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the first term and common difference of an arithmetic progression whose 7th term is 24 and 13th term is 42.",
+          "correct_answer": "First term = 6, Common difference = 3",
+          "imgUrl": "",
+          "explanation": "Let the first term be a and common difference be d.\n\n7th term:\na₇ = a + 6d = 24 ...(1)\n\n13th term:\na₁₃ = a + 12d = 42 ...(2)\n\nSubtracting (1) from (2):\n6d = 18\nd = 3\n\nSubstituting d = 3 in equation (1):\na + 6(3) = 24\na + 18 = 24\na = 6\n\nTherefore, the first term is 6 and the common difference is 3."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The 5th term of an arithmetic progression is 18 and the 11th term is 42. Find the first term and common difference.",
+            "correct_answer": "First term = 2, Common difference = 4",
+            "imgUrl": "",
+            "explanation": "Let the first term be a and common difference be d.\n\n5th term:\na + 4d = 18 ...(1)\n\n11th term:\na + 10d = 42 ...(2)\n\nSubtracting (1) from (2):\n6d = 24\nd = 4\n\nSubstituting d = 4 in equation (1):\na + 16 = 18\na = 2\n\nTherefore, the first term is 2 and the common difference is 4."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "How many terms of the arithmetic progression 5, 9, 13, 17, ... must be taken so that their sum is 450?",
+          "correct_answer": "15 terms",
+          "imgUrl": "",
+          "explanation": "Given:\na = 5\nd = 4\nSₙ = 450\n\nUsing:\nSₙ = n/2 [2a + (n − 1)d]\n\n450 = n/2 [10 + 4(n − 1)]\n450 = n/2 [10 + 4n − 4]\n450 = n/2 (4n + 6)\n900 = n(4n + 6)\n4n² + 6n − 900 = 0\n2n² + 3n − 450 = 0\n\nFactoring:\n(2n + 30)(n − 15) = 0\n\nTherefore, n = 15.\n\nHence, 15 terms are required."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "How many terms of the arithmetic progression 7, 10, 13, 16, ... must be taken so that their sum is 595?",
+            "correct_answer": "17 terms",
+            "imgUrl": "",
+            "explanation": "Given:\na = 7\nd = 3\nSₙ = 595\n\nUsing:\nSₙ = n/2 [2a + (n − 1)d]\n\n595 = n/2 [14 + 3(n − 1)]\n595 = n/2 (3n + 11)\n1190 = n(3n + 11)\n3n² + 11n − 1190 = 0\n\nFactoring:\n(3n + 70)(n − 17) = 0\n\nTherefore, n = 17.\n\nHence, 17 terms are required."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the sum of all multiples of 5 between 10 and 100.",
+          "correct_answer": "1035",
+          "imgUrl": "",
+          "explanation": "The multiples of 5 between 10 and 100 are:\n10, 15, 20, ..., 100\n\nThis is an arithmetic progression with:\na = 10\nd = 5\nLast term (l) = 100\n\nUsing:\nl = a + (n − 1)d\n100 = 10 + (n − 1)5\n90 = 5(n − 1)\nn − 1 = 18\nn = 19\n\nNow,\nSₙ = n/2(a + l)\nS₁₉ = 19/2(10 + 100)\n= 19/2 × 110\n= 19 × 55\n= 1045\n\nTherefore, the required sum is 1045."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the sum of all odd numbers between 1 and 51.",
+            "correct_answer": "676",
+            "imgUrl": "",
+            "explanation": "The odd numbers between 1 and 51 are:\n1, 3, 5, ..., 51\n\nThis is an arithmetic progression with:\na = 1\nd = 2\nl = 51\n\nUsing:\nl = a + (n − 1)d\n51 = 1 + (n − 1)2\n50 = 2(n − 1)\nn − 1 = 25\nn = 26\n\nNow,\nSₙ = n/2(a + l)\nS₂₆ = 26/2(1 + 51)\n= 13 × 52\n= 676\n\nTherefore, the required sum is 676."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The sum of the first 10 terms of an arithmetic progression is 155 and the sum of the first 20 terms is 510. Find the first term and common difference.",
+          "correct_answer": "First term = 2, Common difference = 3",
+          "imgUrl": "",
+          "explanation": "Given:\nS₁₀ = 155\nS₂₀ = 510\n\nUsing:\nSₙ = n/2 [2a + (n − 1)d]\n\nFor n = 10:\n155 = 10/2 [2a + 9d]\n155 = 5(2a + 9d)\n2a + 9d = 31 ...(1)\n\nFor n = 20:\n510 = 20/2 [2a + 19d]\n510 = 10(2a + 19d)\n2a + 19d = 51 ...(2)\n\nSubtracting (1) from (2):\n10d = 20\nd = 2\n\nSubstituting d = 2 in (1):\n2a + 18 = 31\n2a = 13\na = 13/2\n\nTherefore, the first term is 13/2 and the common difference is 2."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The 8th term of an arithmetic progression is 31 and the 15th term is 59. Find the 20th term.",
+            "correct_answer": "79",
+            "imgUrl": "",
+            "explanation": "Let the first term be a and common difference be d.\n\n8th term:\na + 7d = 31 ...(1)\n\n15th term:\na + 14d = 59 ...(2)\n\nSubtracting (1) from (2):\n7d = 28\nd = 4\n\nSubstituting d = 4 in (1):\na + 28 = 31\na = 3\n\nNow, the 20th term is:\na₂₀ = a + 19d\n= 3 + 19 × 4\n= 3 + 76\n= 79\n\nTherefore, the 20th term is 79."
           }
         ]
       }

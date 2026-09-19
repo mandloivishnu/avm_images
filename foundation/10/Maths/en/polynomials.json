@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -31,18 +31,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "2",
+      "marks": "",
       "word_limit": "",
-      "text": "Board Exam Based Questions",
+      "text": "Board Examination Based Question",
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the zeros of the quadratic polynomial x² - 2x - 8 and verify the relationship between the zeros and the coefficients.",
-          "correct_answer": "Zeros: 4 and -2",
+          "statement": "Find the zeroes of the quadratic polynomial 2x² - 5x + 2 and verify the relationship between the zeroes and the coefficients.",
+          "correct_answer": "Zeroes: 2 and 1/2",
           "imgUrl": "",
-          "explanation": "Polynomial p(x) = x² - 2x - 8\nSplitting the middle term:\nx² - 4x + 2x - 8 = 0\nx(x - 4) + 2(x - 4) = 0\n(x - 4)(x + 2) = 0\nTherefore, x = 4 or x = -2 (α = 4, β = -2).\n\nVerification:\n1) Sum of zeros: α + β = 4 + (-2) = 2\nFrom formula (-b/a) = -(-2)/1 = 2 (Verified)\n\n2) Product of zeros: αβ = 4 × (-2) = -8\nFrom formula (c/a) = -8/1 = -8 (Verified)"
+          "explanation": "Given polynomial:\np(x) = 2x² - 5x + 2\n\nSplitting the middle term:\n2x² - 4x - x + 2 = 0\n2x(x - 2) - 1(x - 2) = 0\n(2x - 1)(x - 2) = 0\n\nTherefore:\nx = 1/2 or x = 2\n\nThus α = 2 and β = 1/2\n\nVerification:\n\n1) Sum of zeroes:\nα + β = 2 + 1/2 = 5/2\n\nUsing the formula:\n-b/a = -(-5)/2 = 5/2\n\nHence, α + β = -b/a is verified.\n\n2) Product of zeroes:\nαβ = 2 × 1/2 = 1\n\nUsing the formula:\nc/a = 2/2 = 1\n\nHence, αβ = c/a is verified."
         }
       ],
       "or_option": {
@@ -50,10 +50,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find a quadratic polynomial with the given numbers as the sum and product of its zeros respectively: -3 and 2.",
-            "correct_answer": "x² + 3x + 2",
+            "statement": "Find the zeroes of the quadratic polynomial x² + 7x + 12.",
+            "correct_answer": "Zeroes: -3 and -4",
             "imgUrl": "",
-            "explanation": "Given:\nSum of zeros (α + β) = -3\nProduct of zeros (αβ) = 2\n\nFormula for a quadratic polynomial:\np(x) = x² - (α + β)x + αβ\np(x) = x² - (-3)x + 2\np(x) = x² + 3x + 2\n\nTherefore, the required quadratic polynomial is x² + 3x + 2."
+            "explanation": "Given polynomial:\np(x) = x² + 7x + 12\n\nSplitting the middle term:\nx² + 3x + 4x + 12 = 0\nx(x + 3) + 4(x + 3) = 0\n(x + 3)(x + 4) = 0\n\nTherefore:\nx = -3 or x = -4\n\nHence, the zeroes are -3 and -4."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find a quadratic polynomial whose sum of zeroes is 5 and product of zeroes is 6.",
+          "correct_answer": "x² - 5x + 6",
+          "imgUrl": "",
+          "explanation": "Let the zeroes of the quadratic polynomial be α and β.\n\nGiven:\nα + β = 5\nαβ = 6\n\nThe quadratic polynomial is:\np(x) = x² - (α + β)x + αβ\n\nTherefore:\np(x) = x² - 5x + 6\n\nHence, the required quadratic polynomial is x² - 5x + 6."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find a quadratic polynomial whose sum of zeroes is -4 and product of zeroes is -5.",
+            "correct_answer": "x² + 4x - 5",
+            "imgUrl": "",
+            "explanation": "Given:\nα + β = -4\nαβ = -5\n\nThe quadratic polynomial is:\np(x) = x² - (α + β)x + αβ\n\np(x) = x² - (-4)x - 5\np(x) = x² + 4x - 5\n\nHence, the required quadratic polynomial is x² + 4x - 5."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If one zero of the quadratic polynomial x² - 6x + k is 2, find the value of k and the other zero.",
+          "correct_answer": "k = 8, other zero = 4",
+          "imgUrl": "",
+          "explanation": "Given polynomial:\np(x) = x² - 6x + k\n\nSince 2 is a zero:\np(2) = 0\n\n2² - 6(2) + k = 0\n4 - 12 + k = 0\nk = 8\n\nThe polynomial becomes:\nx² - 6x + 8\n\nFactoring:\nx² - 4x - 2x + 8 = 0\nx(x - 4) - 2(x - 4) = 0\n(x - 4)(x - 2) = 0\n\nThe zeroes are 2 and 4.\n\nTherefore, k = 8 and the other zero is 4."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If one zero of the quadratic polynomial 2x² + kx + 6 is 2, find the value of k and the other zero.",
+            "correct_answer": "k = -7, other zero = 3/2",
+            "imgUrl": "",
+            "explanation": "Since 2 is a zero:\np(2) = 0\n\n2(2²) + k(2) + 6 = 0\n8 + 2k + 6 = 0\n2k + 14 = 0\nk = -7\n\nThe polynomial becomes:\n2x² - 7x + 6\n\nFactoring:\n2x² - 4x - 3x + 6 = 0\n2x(x - 2) - 3(x - 2) = 0\n(2x - 3)(x - 2) = 0\n\nTherefore, the zeroes are 3/2 and 2.\n\nHence, k = -7 and the other zero is 3/2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the zeroes of the quadratic polynomial 3x² - 8x + 4 and verify the sum and product of the zeroes.",
+          "correct_answer": "Zeroes: 2 and 2/3",
+          "imgUrl": "",
+          "explanation": "Given polynomial:\np(x) = 3x² - 8x + 4\n\nSplitting the middle term:\n3x² - 6x - 2x + 4 = 0\n3x(x - 2) - 2(x - 2) = 0\n(3x - 2)(x - 2) = 0\n\nTherefore:\nx = 2/3 or x = 2\n\nThus α = 2 and β = 2/3\n\nVerification:\n\nSum of zeroes:\nα + β = 2 + 2/3 = 8/3\n\nUsing the formula:\n-b/a = -(-8)/3 = 8/3\n\nProduct of zeroes:\nαβ = 2 × 2/3 = 4/3\n\nUsing the formula:\nc/a = 4/3\n\nHence, both relationships are verified."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the zeroes of the quadratic polynomial 2x² + x - 6.",
+            "correct_answer": "Zeroes: 3/2 and -2",
+            "imgUrl": "",
+            "explanation": "Given polynomial:\np(x) = 2x² + x - 6\n\nSplitting the middle term:\n2x² + 4x - 3x - 6 = 0\n2x(x + 2) - 3(x + 2) = 0\n(2x - 3)(x + 2) = 0\n\nTherefore:\nx = 3/2 or x = -2\n\nHence, the zeroes are 3/2 and -2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If one zero of the quadratic polynomial x² + (k + 1)x + 6 is -2, find the value of k and the other zero.",
+          "correct_answer": "k = 4, other zero = -3",
+          "imgUrl": "",
+          "explanation": "Given polynomial:\np(x) = x² + (k + 1)x + 6\n\nSince -2 is a zero:\np(-2) = 0\n\n(-2)² + (k + 1)(-2) + 6 = 0\n4 - 2k - 2 + 6 = 0\n8 - 2k = 0\nk = 4\n\nThe polynomial becomes:\nx² + 5x + 6\n\nFactoring:\nx² + 2x + 3x + 6 = 0\n(x + 2)(x + 3) = 0\n\nThe zeroes are -2 and -3.\n\nTherefore, k = 4 and the other zero is -3."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If one zero of the quadratic polynomial 2x² + (k - 3)x - 2 is 1, find the value of k and the other zero.",
+            "correct_answer": "k = 3, other zero = -1",
+            "imgUrl": "",
+            "explanation": "Since 1 is a zero:\np(1) = 0\n\n2 + (k - 3) - 2 = 0\nk - 3 = 0\nk = 3\n\nThe polynomial becomes:\n2x² - 2\n\n2x² - 2 = 0\n2(x² - 1) = 0\n2(x - 1)(x + 1) = 0\n\nThe zeroes are 1 and -1.\n\nTherefore, k = 3 and the other zero is -1."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the zeroes of the quadratic polynomial 6x² - 7x - 3 and verify the sum and product of the zeroes.",
+          "correct_answer": "Zeroes: 3/2 and -1/3",
+          "imgUrl": "",
+          "explanation": "Given polynomial:\np(x) = 6x² - 7x - 3\n\nSplitting the middle term:\n6x² - 9x + 2x - 3 = 0\n3x(2x - 3) + 1(2x - 3) = 0\n(3x + 1)(2x - 3) = 0\n\nTherefore:\nx = -1/3 or x = 3/2\n\nThus α = 3/2 and β = -1/3\n\nVerification:\n\nSum of zeroes:\nα + β = 3/2 - 1/3\n= 9/6 - 2/6\n= 7/6\n\nUsing the formula:\n-b/a = -(-7)/6 = 7/6\n\nProduct of zeroes:\nαβ = 3/2 × (-1/3) = -1/2\n\nUsing the formula:\nc/a = -3/6 = -1/2\n\nHence, both relationships are verified."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find a quadratic polynomial whose sum of zeroes is 1 and product of zeroes is -6. Then find its zeroes.",
+            "correct_answer": "Quadratic polynomial: x² - x - 6; zeroes: 3 and -2",
+            "imgUrl": "",
+            "explanation": "Given:\nα + β = 1\nαβ = -6\n\nThe quadratic polynomial is:\np(x) = x² - (α + β)x + αβ\n\np(x) = x² - x - 6\n\nTo find the zeroes:\nx² - x - 6 = 0\nx² - 3x + 2x - 6 = 0\nx(x - 3) + 2(x - 3) = 0\n(x - 3)(x + 2) = 0\n\nTherefore:\nx = 3 or x = -2\n\nHence, the zeroes are 3 and -2."
           }
         ]
       }

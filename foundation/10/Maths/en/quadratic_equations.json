@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -31,18 +31,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "4",
+      "marks": "",
       "word_limit": "",
-      "text": "Board Exam Based Questions",
+      "text": "Board Examination Based Question",
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the roots of the quadratic equation 2x² + x - 6 = 0 by the factorization method.",
-          "correct_answer": "x = 3/2, x = -2",
+          "statement": "Using factorization method, find the roots of the quadratic equation x² - 7x + 12 = 0.",
+          "correct_answer": "x = 3, x = 4",
           "imgUrl": "",
-          "explanation": "Given equation: 2x² + x - 6 = 0\nHere a = 2, c = -6, so ac = -12.\nSplit the middle term x into two parts whose product is -12 and sum is +1 (+4x and -3x):\n2x² + 4x - 3x - 6 = 0\n2x(x + 2) - 3(x + 2) = 0\n(2x - 3)(x + 2) = 0\n\nEquating each factor to zero:\n2x - 3 = 0 => x = 3/2\nx + 2 = 0 => x = -2\n\nTherefore, the roots are 3/2 and -2."
+          "explanation": "Given equation: x² - 7x + 12 = 0\n\nWe need two numbers whose product is 12 and sum is -7. They are -3 and -4.\n\nTherefore,\nx² - 3x - 4x + 12 = 0\nx(x - 3) - 4(x - 3) = 0\n(x - 3)(x - 4) = 0\n\nPutting each factor equal to zero:\nx - 3 = 0 => x = 3\nx - 4 = 0 => x = 4\n\nTherefore, the roots are 3 and 4."
         }
       ],
       "or_option": {
@@ -50,10 +50,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Find the roots of the equation 2x² - 7x + 3 = 0 using the quadratic formula.",
-            "correct_answer": "x = 3, x = 1/2",
+            "statement": "Using factorization method, find the roots of the quadratic equation 2x² - 5x - 3 = 0.",
+            "correct_answer": "x = 3, x = -1/2",
             "imgUrl": "",
-            "explanation": "Comparing with ax² + bx + c = 0:\na = 2, b = -7, c = 3\n\nDiscriminant D = b² - 4ac = (-7)² - 4(2)(3) = 49 - 24 = 25\n\nUsing the quadratic formula:\nx = [-b ± √D] / 2a\nx = [-(-7) ± √25] / (2 × 2)\nx = [7 ± 5] / 4\n\nTaking positive sign: x = (7 + 5) / 4 = 12 / 4 = 3\nTaking negative sign: x = (7 - 5) / 4 = 2 / 4 = 1/2\n\nTherefore, the roots are 3 and 1/2."
+            "explanation": "Given equation: 2x² - 5x - 3 = 0\n\nHere a = 2 and c = -3, so ac = -6. Split the middle term -5x as -6x + x.\n\n2x² - 6x + x - 3 = 0\n2x(x - 3) + 1(x - 3) = 0\n(2x + 1)(x - 3) = 0\n\nTherefore,\n2x + 1 = 0 => x = -1/2\nx - 3 = 0 => x = 3\n\nTherefore, the roots are 3 and -1/2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Using the quadratic formula, find the roots of the equation 3x² - 5x - 2 = 0.",
+          "correct_answer": "x = 2, x = -1/3",
+          "imgUrl": "",
+          "explanation": "Given equation: 3x² - 5x - 2 = 0\n\nComparing with ax² + bx + c = 0:\na = 3, b = -5, c = -2\n\nDiscriminant:\nD = b² - 4ac\nD = (-5)² - 4(3)(-2)\nD = 25 + 24 = 49\n\nUsing the quadratic formula:\nx = [-b ± √D] / 2a\n\nx = [5 ± √49] / 6\nx = [5 ± 7] / 6\n\nTaking the positive sign:\nx = (5 + 7)/6 = 12/6 = 2\n\nTaking the negative sign:\nx = (5 - 7)/6 = -2/6 = -1/3\n\nTherefore, the roots are 2 and -1/3."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Using the quadratic formula, find the roots of the equation 2x² + 3x - 2 = 0.",
+            "correct_answer": "x = 1/2, x = -2",
+            "imgUrl": "",
+            "explanation": "Given equation: 2x² + 3x - 2 = 0\n\nHere a = 2, b = 3, c = -2.\n\nDiscriminant:\nD = b² - 4ac\nD = 3² - 4(2)(-2)\nD = 9 + 16 = 25\n\nUsing the quadratic formula:\nx = [-b ± √D] / 2a\nx = [-3 ± √25] / 4\nx = [-3 ± 5] / 4\n\nTaking the positive sign:\nx = (-3 + 5)/4 = 2/4 = 1/2\n\nTaking the negative sign:\nx = (-3 - 5)/4 = -8/4 = -2\n\nTherefore, the roots are 1/2 and -2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Using the method of completing the square, find the roots of the equation x² - 6x + 5 = 0.",
+          "correct_answer": "x = 1, x = 5",
+          "imgUrl": "",
+          "explanation": "Given equation:\nx² - 6x + 5 = 0\n\nTransposing 5 to the right side:\nx² - 6x = -5\n\nAdding (-6/2)² = 9 to both sides:\nx² - 6x + 9 = -5 + 9\n\n(x - 3)² = 4\n\nTaking square root on both sides:\nx - 3 = ±2\n\nTherefore,\nx - 3 = 2 => x = 5\nx - 3 = -2 => x = 1\n\nTherefore, the roots are 1 and 5."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Using the method of completing the square, find the roots of the equation x² + 4x - 5 = 0.",
+            "correct_answer": "x = 1, x = -5",
+            "imgUrl": "",
+            "explanation": "Given equation:\nx² + 4x - 5 = 0\n\nTransposing -5 to the right side:\nx² + 4x = 5\n\nAdding (4/2)² = 4 to both sides:\nx² + 4x + 4 = 5 + 4\n\n(x + 2)² = 9\n\nTaking square root on both sides:\nx + 2 = ±3\n\nTherefore,\nx + 2 = 3 => x = 1\nx + 2 = -3 => x = -5\n\nTherefore, the roots are 1 and -5."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Using the discriminant, determine the nature of the roots of the quadratic equation 2x² - 4x + 3 = 0.",
+          "correct_answer": "The equation has no real roots; its roots are non-real.",
+          "imgUrl": "",
+          "explanation": "Given equation: 2x² - 4x + 3 = 0\n\nHere a = 2, b = -4, c = 3.\n\nDiscriminant:\nD = b² - 4ac\nD = (-4)² - 4(2)(3)\nD = 16 - 24\nD = -8\n\nSince D < 0, the equation has no real roots.\n\nTherefore, the roots are non-real."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Using the discriminant, determine the nature of the roots of the quadratic equation 3x² - 12x + 12 = 0.",
+            "correct_answer": "The roots are real and equal.",
+            "imgUrl": "",
+            "explanation": "Given equation: 3x² - 12x + 12 = 0\n\nHere a = 3, b = -12, c = 12.\n\nD = b² - 4ac\nD = (-12)² - 4(3)(12)\nD = 144 - 144 = 0\n\nSince D = 0, the equation has two real and equal roots.\n\nTherefore, the nature of the roots is real and equal."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The area of a rectangular field is 816 square metres. Its length is 10 metres more than its breadth. Find the length and breadth of the field.",
+          "correct_answer": "Length = 34 metres, Breadth = 24 metres",
+          "imgUrl": "",
+          "explanation": "Let the breadth of the field be x metres.\n\nThen its length = (x + 10) metres.\n\nAccording to the question:\nx(x + 10) = 816\nx² + 10x - 816 = 0\n\nFactorizing:\nx² + 34x - 24x - 816 = 0\nx(x + 34) - 24(x + 34) = 0\n(x + 34)(x - 24) = 0\n\nTherefore,\nx + 34 = 0 => x = -34\nor\nx - 24 = 0 => x = 24\n\nSince breadth cannot be negative, x = 24.\n\nBreadth = 24 metres\nLength = 24 + 10 = 34 metres\n\nTherefore, the length is 34 metres and the breadth is 24 metres."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The product of two consecutive positive integers is 306. Find the integers.",
+            "correct_answer": "17 and 18",
+            "imgUrl": "",
+            "explanation": "Let the first integer be x.\n\nThen the next consecutive integer is x + 1.\n\nAccording to the question:\nx(x + 1) = 306\nx² + x - 306 = 0\n\nFactorizing:\nx² + 18x - 17x - 306 = 0\nx(x + 18) - 17(x + 18) = 0\n(x + 18)(x - 17) = 0\n\nTherefore,\nx = -18 or x = 17\n\nSince the integers are positive, x = 17.\n\nThe next integer = 17 + 1 = 18.\n\nTherefore, the required integers are 17 and 18."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If the roots of the quadratic equation x² - 5x + k = 0 are real and equal, find the value of k.",
+          "correct_answer": "k = 25/4",
+          "imgUrl": "",
+          "explanation": "Given equation:\nx² - 5x + k = 0\n\nHere a = 1, b = -5, c = k.\n\nFor real and equal roots, the discriminant must be zero.\n\nD = b² - 4ac\n0 = (-5)² - 4(1)(k)\n0 = 25 - 4k\n4k = 25\n\nTherefore,\nk = 25/4\n\nHence, the value of k is 25/4."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If the roots of the quadratic equation 2x² + kx + 8 = 0 are equal, find the value of k.",
+            "correct_answer": "k = 8 or k = -8",
+            "imgUrl": "",
+            "explanation": "Given equation:\n2x² + kx + 8 = 0\n\nHere a = 2, b = k, c = 8.\n\nFor equal roots, the discriminant must be zero.\n\nD = b² - 4ac\n0 = k² - 4(2)(8)\n0 = k² - 64\nk² = 64\n\nTherefore,\nk = ±8\n\nHence, k = 8 or k = -8."
           }
         ]
       }

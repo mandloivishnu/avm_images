@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -32,18 +32,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "2",
+      "marks": "",
       "word_limit": "",
       "text": "Board Exam-Based Questions",
       "parts": [
         {
           "q_id": "a",
-          "statement": "From a point Q, the length of the tangent to a circle is 24 cm and the distance of Q from the center is 25 cm. Find the radius of the circle.",
-          "correct_answer": "7 cm",
+          "statement": "From an external point P, two tangents PA and PB are drawn to a circle. If PA = 12 cm, find PB.",
+          "correct_answer": "12 cm",
           "imgUrl": "",
-          "explanation": "Given:\nTangent length (PQ) = 24 cm\nDistance from the center (OQ) = 25 cm\n\nWe know that the radius of a circle is perpendicular to the tangent at the point of contact. Therefore, triangle OPQ is a right-angled triangle with ∠OPQ = 90°.\n\nUsing the Pythagorean theorem:\nOQ² = OP² + PQ²\n(25)² = OP² + (24)²\n625 = OP² + 576\nOP² = 625 - 576\nOP² = 49\nOP = 7 cm\n\nTherefore, the radius of the circle is 7 cm."
+          "explanation": "Given:\nPA and PB are tangents drawn from the external point P.\nPA = 12 cm\n\nThe lengths of tangents drawn from an external point to a circle are equal.\n\nTherefore,\nPA = PB\nPB = 12 cm\n\nHence, the length of PB is 12 cm."
         }
       ],
       "or_option": {
@@ -51,10 +51,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "If TP and TQ are two tangents to a circle with center O such that ∠POQ = 110°, then find ∠PTQ.",
-            "correct_answer": "70°",
+            "statement": "From an external point P, two tangents PA and PB are drawn to a circle. If PA = 15 cm, find the length of PB.",
+            "correct_answer": "15 cm",
             "imgUrl": "",
-            "explanation": "Given:\n∠POQ = 110°\n\nIn quadrilateral OPTQ (where P and Q are points of contact), the radii OP and OQ are perpendicular to the tangents TP and TQ respectively.\nTherefore, ∠OPT = 90° and ∠OQT = 90°.\n\nThe sum of all angles in a quadrilateral is 360°:\n∠PTQ + ∠OPT + ∠OQT + ∠POQ = 360°\n∠PTQ + 90° + 90° + 110° = 360°\n∠PTQ + 290° = 360°\n∠PTQ = 360° - 290°\n∠PTQ = 70°"
+            "explanation": "Tangents drawn from an external point to a circle are equal in length.\n\nTherefore,\nPA = PB\n15 = PB\n\nHence, PB = 15 cm."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A tangent is drawn from a point P to a circle with centre O. If OP = 25 cm and the radius of the circle is 7 cm, find the length of the tangent.",
+          "correct_answer": "24 cm",
+          "imgUrl": "",
+          "explanation": "Given:\nOP = 25 cm\nRadius (OA) = 7 cm\n\nThe radius drawn to the point of contact is perpendicular to the tangent.\nTherefore, triangle OAP is right-angled at A.\n\nUsing Pythagoras theorem:\nOP² = OA² + PA²\n25² = 7² + PA²\n625 = 49 + PA²\nPA² = 625 − 49\nPA² = 576\nPA = 24 cm\n\nTherefore, the length of the tangent is 24 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A tangent from an external point P to a circle is 15 cm long. If the distance of P from the centre is 17 cm, find the radius of the circle.",
+            "correct_answer": "8 cm",
+            "imgUrl": "",
+            "explanation": "Given:\nTangent length (PA) = 15 cm\nOP = 17 cm\n\nSince the radius is perpendicular to the tangent at the point of contact, triangle OAP is right-angled at A.\n\nUsing Pythagoras theorem:\nOP² = OA² + PA²\n17² = r² + 15²\n289 = r² + 225\nr² = 64\nr = 8 cm\n\nTherefore, the radius of the circle is 8 cm."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Two tangents PA and PB are drawn from an external point P to a circle with centre O. Prove that ∠APO = ∠BPO.",
+          "correct_answer": "∠APO = ∠BPO",
+          "imgUrl": "",
+          "explanation": "Given:\nPA and PB are tangents to the circle with centre O.\nA and B are the points of contact.\n\nTo prove:\n∠APO = ∠BPO\n\nProof:\nOA ⟂ PA and OB ⟂ PB because the radius is perpendicular to the tangent at the point of contact.\n\nTherefore, ∠OAP = ∠OBP = 90°.\n\nAlso,\nOA = OB (radii of the same circle)\nPA = PB (tangents drawn from the same external point)\nOP = OP (common side)\n\nThus, right triangles OAP and OBP are congruent by RHS congruence.\n\nTherefore, corresponding angles are equal:\n∠APO = ∠BPO.\n\nHence proved."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that the angle between two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line segment joining the points of contact at the centre.",
+            "correct_answer": "∠APB + ∠AOB = 180°",
+            "imgUrl": "",
+            "explanation": "Let PA and PB be two tangents drawn from an external point P to a circle with centre O. A and B are the points of contact.\n\nSince the radius is perpendicular to the tangent at the point of contact:\n∠OAP = 90°\n∠OBP = 90°\n\nIn quadrilateral OAPB, the sum of its four angles is 360°.\n\nTherefore,\n∠AOB + ∠OAP + ∠APB + ∠PBO = 360°\n\n∠AOB + 90° + ∠APB + 90° = 360°\n\n∠AOB + ∠APB = 180°\n\nHence, the angle between the two tangents is supplementary to the angle subtended by the chord AB at the centre."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If two tangents PA and PB are drawn from an external point P to a circle and ∠APB = 60°, find ∠AOB, where O is the centre of the circle.",
+          "correct_answer": "120°",
+          "imgUrl": "",
+          "explanation": "Given:\n∠APB = 60°\n\nFor two tangents PA and PB drawn from an external point P:\n∠APB + ∠AOB = 180°\n\nTherefore,\n∠AOB = 180° − 60°\n= 120°\n\nHence, ∠AOB = 120°."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If two tangents PA and PB are drawn from an external point P to a circle and ∠AOB = 130°, find ∠APB.",
+            "correct_answer": "50°",
+            "imgUrl": "",
+            "explanation": "Given:\n∠AOB = 130°\n\nThe angle between two tangents and the angle subtended by the points of contact at the centre are supplementary.\n\nTherefore,\n∠APB + ∠AOB = 180°\n\n∠APB + 130° = 180°\n\n∠APB = 50°\n\nHence, ∠APB = 50°."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A circle touches all the three sides of a triangle ABC. If AB = 8 cm, BC = 10 cm and CA = 12 cm, find the lengths of the tangent segments from each vertex.",
+          "correct_answer": "From A = 5 cm, from B = 3 cm, from C = 7 cm",
+          "imgUrl": "",
+          "explanation": "Let the circle touch AB, BC and CA at P, Q and R respectively.\n\nTangents drawn from the same external point are equal.\nTherefore:\nAP = AR = x\nBP = BQ = y\nCQ = CR = z\n\nGiven:\nAB = 8 cm\nBC = 10 cm\nCA = 12 cm\n\nTherefore:\nx + y = 8 ...(1)\ny + z = 10 ...(2)\nx + z = 12 ...(3)\n\nAdding (1), (2) and (3):\n2(x + y + z) = 30\nx + y + z = 15\n\nFrom (2):\ny + z = 10\nTherefore,\nx = 15 − 10 = 5 cm\n\nFrom (1):\ny = 8 − 5 = 3 cm\n\nFrom (2):\nz = 10 − 3 = 7 cm\n\nTherefore:\nTangent segments from A = 5 cm\nTangent segments from B = 3 cm\nTangent segments from C = 7 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A circle touches the sides of a triangle ABC. If the tangent lengths from A and B are 6 cm and 4 cm respectively, and AB = 10 cm, find the tangent length from C when BC = 9 cm.",
+            "correct_answer": "5 cm",
+            "imgUrl": "",
+            "explanation": "Let the circle touch AB, BC and CA.\n\nGiven:\nTangent length from A = 6 cm\nTangent length from B = 4 cm\nAB = 10 cm\nBC = 9 cm\n\nSince tangents drawn from the same external point are equal:\nThe tangent segment from B on BC = 4 cm.\n\nLet the tangent length from C be x.\n\nThen:\nBC = 4 + x\n9 = 4 + x\nx = 5 cm\n\nTherefore, the tangent length from C is 5 cm."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Exam-Based Questions",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "A circle is inscribed in a square of side 14 cm. Find the radius of the circle.",
+          "correct_answer": "7 cm",
+          "imgUrl": "",
+          "explanation": "Given:\nSide of square = 14 cm\n\nSince the circle is inscribed in the square, its diameter is equal to the side of the square.\n\nDiameter = 14 cm\n\nRadius = Diameter / 2\n= 14/2\n= 7 cm\n\nTherefore, the radius of the circle is 7 cm."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "A circle is inscribed in an equilateral triangle of side 12 cm. Find the radius of the circle.",
+            "correct_answer": "2√3 cm",
+            "imgUrl": "",
+            "explanation": "Given:\nSide of equilateral triangle = 12 cm\n\nFor an equilateral triangle, the radius of the inscribed circle is:\nr = a√3 / 6\n\nTherefore,\nr = 12√3 / 6\n= 2√3 cm\n\nHence, the radius of the circle is 2√3 cm."
           }
         ]
       }

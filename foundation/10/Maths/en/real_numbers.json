@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -31,18 +31,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "4",
+      "marks": "",
       "word_limit": "",
-      "text": "Board Exam Based Questions",
+      "text": "Board Examination Based Question",
       "parts": [
         {
           "q_id": "a",
-          "statement": "Find the HCF and LCM of 6, 72 and 120 using the prime factorization method.",
-          "correct_answer": "HCF = 6, LCM = 360",
+          "statement": "Using Euclid's Division Algorithm, find the HCF of 135 and 225.",
+          "correct_answer": "HCF = 45",
           "imgUrl": "",
-          "explanation": "Prime factorization of the numbers:\n6 = 2 × 3\n72 = 2³ × 3²\n120 = 2³ × 3 × 5\n\nHCF = Product of the smallest power of each common prime factor\nHCF = 2¹ × 3¹ = 6\n\nLCM = Product of the greatest power of each prime factor involved\nLCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360\n\nTherefore, HCF = 6 and LCM = 360."
+          "explanation": "Using Euclid's Division Algorithm:\n\n225 = 135 × 1 + 90\n\n135 = 90 × 1 + 45\n\n90 = 45 × 2 + 0\n\nWhen the remainder becomes 0, the last divisor is the HCF.\n\nTherefore, the HCF of 135 and 225 is 45."
         }
       ],
       "or_option": {
@@ -50,10 +50,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Prove that √3 is an irrational number.",
-            "correct_answer": "Proven",
+            "statement": "Using Euclid's Division Algorithm, find the HCF of 867 and 255.",
+            "correct_answer": "HCF = 51",
             "imgUrl": "",
-            "explanation": "Let us assume that √3 is a rational number.\nTherefore, we can find co-prime integers a and b (b ≠ 0) such that:\n√3 = a / b => √3b = a\n\nSquaring both sides:\n3b² = a²  --(Equation 1)\nThis means a² is divisible by 3, so a is also divisible by 3.\n\nLet a = 3c for some integer c. Substituting into Equation 1:\n3b² = (3c)² = 9c²\nb² = 3c²\nThis means b² is divisible by 3, so b is also divisible by 3.\n\nThus, both a and b share a common factor of 3, which contradicts our assumption that a and b are co-prime.\nTherefore, our assumption is false, and √3 is an irrational number."
+            "explanation": "Using Euclid's Division Algorithm:\n\n867 = 255 × 3 + 102\n\n255 = 102 × 2 + 51\n\n102 = 51 × 2 + 0\n\nTherefore, the last non-zero remainder is 51.\n\nHence, the HCF of 867 and 255 is 51."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Using prime factorization method, find the HCF and LCM of 18, 24 and 30.",
+          "correct_answer": "HCF = 6, LCM = 360",
+          "imgUrl": "",
+          "explanation": "Prime factorization of the numbers:\n18 = 2 × 3²\n24 = 2³ × 3\n30 = 2 × 3 × 5\n\nHCF = Product of the common prime factors with the smallest powers.\nHCF = 2¹ × 3¹ = 6\n\nLCM = Product of all prime factors with the greatest powers.\nLCM = 2³ × 3² × 5\nLCM = 8 × 9 × 5 = 360\n\nTherefore, HCF = 6 and LCM = 360."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Using prime factorization method, find the HCF and LCM of 45, 60 and 75.",
+            "correct_answer": "HCF = 15, LCM = 900",
+            "imgUrl": "",
+            "explanation": "Prime factorization of the numbers:\n45 = 3² × 5\n60 = 2² × 3 × 5\n75 = 3 × 5²\n\nHCF = 3¹ × 5¹ = 15\n\nLCM = 2² × 3² × 5²\nLCM = 4 × 9 × 25 = 900\n\nTherefore, HCF = 15 and LCM = 900."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Prove that √5 is an irrational number.",
+          "correct_answer": "√5 is an irrational number.",
+          "imgUrl": "",
+          "explanation": "Suppose that √5 is a rational number.\n\nThen √5 = a/b, where a and b are co-prime integers and b ≠ 0.\n\nSquaring both sides:\n5 = a²/b²\n\nTherefore,\na² = 5b²\n\nThis means that a² is divisible by 5. Hence, a is also divisible by 5.\n\nLet a = 5c.\n\nThen,\n(5c)² = 5b²\n25c² = 5b²\nb² = 5c²\n\nThus, b² is divisible by 5, so b is also divisible by 5.\n\nTherefore, both a and b are divisible by 5, which contradicts the fact that a and b are co-prime.\n\nHence, our assumption is wrong. Therefore, √5 is an irrational number."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that √7 is an irrational number.",
+            "correct_answer": "√7 is an irrational number.",
+            "imgUrl": "",
+            "explanation": "Suppose that √7 is a rational number.\n\nThen √7 = a/b, where a and b are co-prime integers and b ≠ 0.\n\nSquaring both sides:\n7 = a²/b²\n\nTherefore,\na² = 7b²\n\nThus, a² is divisible by 7. Hence, a is also divisible by 7.\n\nLet a = 7c.\n\nThen,\n(7c)² = 7b²\n49c² = 7b²\nb² = 7c²\n\nTherefore, b² is divisible by 7, so b is also divisible by 7.\n\nThus, both a and b are divisible by 7, which contradicts the fact that a and b are co-prime.\n\nHence, √7 is an irrational number."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Determine whether the decimal expansion of 13/3125 is terminating or non-terminating recurring.",
+          "correct_answer": "Terminating decimal expansion",
+          "imgUrl": "",
+          "explanation": "Prime factorization of the denominator:\n3125 = 5⁵\n\nTherefore,\n13/3125 = 13/(5⁵)\n\nThe decimal expansion of a rational number p/q is terminating if the prime factors of q are only 2 and/or 5.\n\nHere, the denominator contains only the prime factor 5.\n\nTherefore, the decimal expansion of 13/3125 is terminating.\n\nIn fact,\n13/3125 = 0.00416"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Determine whether the decimal expansion of 7/75 is terminating or non-terminating recurring.",
+            "correct_answer": "Non-terminating recurring decimal expansion",
+            "imgUrl": "",
+            "explanation": "Prime factorization of the denominator:\n75 = 3 × 5²\n\nThe decimal expansion of p/q is terminating only when the prime factors of q are 2 and/or 5.\n\nHere, the denominator 75 contains the prime factor 3 also.\n\nTherefore, the decimal expansion of 7/75 is not terminating.\n\nHence, it is a non-terminating recurring decimal expansion."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The HCF and LCM of two positive integers are 12 and 420 respectively. If one of the integers is 60, find the other integer.",
+          "correct_answer": "The other integer = 84",
+          "imgUrl": "",
+          "explanation": "For two positive integers a and b:\nHCF × LCM = First number × Second number\n\nTherefore,\n12 × 420 = 60 × Second number\n\nSecond number = (12 × 420) / 60\n= 5040/60\n= 84\n\nTherefore, the other integer is 84."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "The HCF and LCM of two positive integers are 8 and 240 respectively. If one of the integers is 48, find the other integer.",
+            "correct_answer": "The other integer = 40",
+            "imgUrl": "",
+            "explanation": "We know:\nHCF × LCM = First number × Second number\n\nTherefore,\n8 × 240 = 48 × Second number\n\nSecond number = (8 × 240) / 48\n= 1920/48\n= 40\n\nTherefore, the other integer is 40."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Using Euclid's Division Lemma, prove that the square of any positive odd integer is of the form 8q + 1.",
+          "correct_answer": "The square of any positive odd integer is of the form 8q + 1.",
+          "imgUrl": "",
+          "explanation": "By Euclid's Division Lemma, any positive odd integer n can be written as:\nn = 2q + 1, where q is an integer.\n\nNow,\nn² = (2q + 1)²\n= 4q² + 4q + 1\n= 4q(q + 1) + 1\n\nAmong q and q + 1, one is even. Therefore, q(q + 1) is even.\n\nHence, 4q(q + 1) is divisible by 8.\n\nTherefore,\nn² = 8k + 1\n\nThus, the square of any positive odd integer is of the form 8q + 1."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Using Euclid's Division Lemma, prove that the square of any positive integer n is of the form 3q or 3q + 1.",
+            "correct_answer": "n² is of the form 3q or 3q + 1.",
+            "imgUrl": "",
+            "explanation": "By Euclid's Division Lemma, when a positive integer n is divided by 3, the remainder can be 0, 1, or 2.\n\nTherefore, there are three cases:\n\n1. n = 3q\nThen,\nn² = 9q² = 3(3q²)\nThus, n² is of the form 3k.\n\n2. n = 3q + 1\nThen,\nn² = (3q + 1)²\n= 9q² + 6q + 1\n= 3(3q² + 2q) + 1\nThus, n² is of the form 3k + 1.\n\n3. n = 3q + 2\nThen,\nn² = (3q + 2)²\n= 9q² + 12q + 4\n= 3(3q² + 4q + 1) + 1\nThus, n² is of the form 3k + 1.\n\nHence, for every positive integer n, n² is of the form 3q or 3q + 1."
           }
         ]
       }

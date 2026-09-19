@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "त्वरित पुनरावृत्ति (Quick Revision)",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "त्वरित पुनरावृत्ति (Quick Revision)",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "question_number": "3",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "त्वरित पुनरावृत्ति (Quick Revision)",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "question_number": "4",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "त्वरित पुनरावृत्ति (Quick Revision)",
@@ -99,7 +99,7 @@
       }
     },
     {
-      "question_number": "5",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "त्वरित पुनरावृत्ति (Quick Revision)",
@@ -123,9 +123,9 @@
       }
     },
     {
-      "question_number": "6",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "5",
+      "marks": "",
       "word_limit": "",
       "text": "बोर्ड परीक्षा आधारित प्रश्न",
       "parts": [
@@ -151,9 +151,9 @@
       }
     },
     {
-      "question_number": "7",
+      "question_number": "2",
       "question_type": "DESCRIPTIVE",
-      "marks": "5",
+      "marks": "",
       "word_limit": "",
       "text": "",
       "parts": [
@@ -179,9 +179,9 @@
       }
     },
     {
-      "question_number": "8",
+      "question_number": "3",
       "question_type": "DESCRIPTIVE",
-      "marks": "5",
+      "marks": "",
       "word_limit": "",
       "text": "",
       "parts": [

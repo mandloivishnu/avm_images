@@ -7,7 +7,7 @@
   },
   "questions": [
     {
-      "question_number": "1",
+      "question_number": "",
       "question_type": "QUICK_REVISION",
       "marks": "",
       "text": "Quick Revision",
@@ -31,18 +31,18 @@
       }
     },
     {
-      "question_number": "2",
+      "question_number": "1",
       "question_type": "DESCRIPTIVE",
-      "marks": "3",
+      "marks": "",
       "word_limit": "",
-      "text": "Board Exam Based Questions",
+      "text": "Board Examination Based Question",
       "parts": [
         {
           "q_id": "a",
-          "statement": "If sin A = 3/4, calculate cos A and tan A.",
-          "correct_answer": "cos A = (√7)/4, tan A = 3/√7",
+          "statement": "If tan A = 3/4, find the values of sin A and cos A.",
+          "correct_answer": "sin A = 3/5, cos A = 4/5",
           "imgUrl": "",
-          "explanation": "Given: sin A = Perpendicular / Hypotenuse = 3/4\n\nLet Perpendicular BC = 3k and Hypotenuse AC = 4k.\nUsing Pythagoras theorem in right-angled triangle ABC:\nAC² = AB² + BC²\n(4k)² = AB² + (3k)²\n16k² = AB² + 9k²\nAB² = 16k² - 9k² = 7k²\nAB = √7k (Base)\n\nThus:\ncos A = Base / Hypotenuse = √7k / 4k = √7 / 4\ntan A = Perpendicular / Base = 3k / √7k = 3 / √7"
+          "explanation": "Given:\ntan A = 3/4\n\nWe know:\ntan A = Perpendicular/Base\n\nLet perpendicular = 3k and base = 4k.\n\nBy Pythagoras theorem:\nHypotenuse² = Perpendicular² + Base²\n= (3k)² + (4k)²\n= 9k² + 16k²\n= 25k²\n\nTherefore, hypotenuse = 5k.\n\nNow,\nsin A = Perpendicular/Hypotenuse = 3k/5k = 3/5\n\ncos A = Base/Hypotenuse = 4k/5k = 4/5\n\nTherefore, sin A = 3/5 and cos A = 4/5."
         }
       ],
       "or_option": {
@@ -50,10 +50,150 @@
         "parts": [
           {
             "q_id": "b",
-            "statement": "Evaluate: sin 60° cos 30° + sin 30° cos 60°",
+            "statement": "If cos A = 5/13, find the values of sin A and tan A.",
+            "correct_answer": "sin A = 12/13, tan A = 12/5",
+            "imgUrl": "",
+            "explanation": "Given:\ncos A = 5/13 = Base/Hypotenuse\n\nLet base = 5k and hypotenuse = 13k.\n\nBy Pythagoras theorem:\nPerpendicular² = Hypotenuse² - Base²\n= (13k)² - (5k)²\n= 169k² - 25k²\n= 144k²\n\nTherefore, perpendicular = 12k.\n\nHence:\nsin A = Perpendicular/Hypotenuse = 12/13\n\ntan A = Perpendicular/Base = 12/5\n\nTherefore, sin A = 12/13 and tan A = 12/5."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If sin A = 3/5, find the values of cos A and tan A.",
+          "correct_answer": "cos A = 4/5, tan A = 3/4",
+          "imgUrl": "",
+          "explanation": "Given:\nsin A = 3/5 = Perpendicular/Hypotenuse\n\nLet perpendicular = 3k and hypotenuse = 5k.\n\nBy Pythagoras theorem:\nBase² = Hypotenuse² - Perpendicular²\n= (5k)² - (3k)²\n= 25k² - 9k²\n= 16k²\n\nTherefore, base = 4k.\n\nNow:\ncos A = Base/Hypotenuse = 4/5\n\ntan A = Perpendicular/Base = 3/4\n\nTherefore, cos A = 4/5 and tan A = 3/4."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the value of: sin 30° cos 60° + cos 30° sin 60°.",
             "correct_answer": "1",
             "imgUrl": "",
-            "explanation": "Substituting standard values:\nsin 60° = √3/2\ncos 30° = √3/2\nsin 30° = 1/2\ncos 60° = 1/2\n\nPutting values in the expression:\n= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4 = (3 + 1)/4 = 4/4 = 1\nTherefore, the value is 1."
+            "explanation": "Using the standard values:\nsin 30° = 1/2\ncos 60° = 1/2\ncos 30° = √3/2\nsin 60° = √3/2\n\nTherefore:\n= (1/2)(1/2) + (√3/2)(√3/2)\n= 1/4 + 3/4\n= 4/4\n= 1\n\nTherefore, the value is 1."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "In a right-angled triangle ABC, ∠B = 90°. If AB = 6 cm and BC = 8 cm, find the values of sin A, cos A and tan A.",
+          "correct_answer": "sin A = 4/5, cos A = 3/5, tan A = 4/3",
+          "imgUrl": "",
+          "explanation": "Given:\nAB = 6 cm, BC = 8 cm and ∠B = 90°.\n\nBy Pythagoras theorem:\nAC² = AB² + BC²\n= 6² + 8²\n= 36 + 64\n= 100\n\nTherefore, AC = 10 cm.\n\nFor angle A:\nPerpendicular = BC = 8 cm\nBase = AB = 6 cm\nHypotenuse = AC = 10 cm\n\nTherefore:\nsin A = BC/AC = 8/10 = 4/5\n\ncos A = AB/AC = 6/10 = 3/5\n\ntan A = BC/AB = 8/6 = 4/3\n\nTherefore, sin A = 4/5, cos A = 3/5 and tan A = 4/3."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "In a right-angled triangle, the perpendicular corresponding to angle A is 5 cm and the base is 12 cm. Find sin A, cos A and tan A.",
+            "correct_answer": "sin A = 5/13, cos A = 12/13, tan A = 5/12",
+            "imgUrl": "",
+            "explanation": "Given:\nPerpendicular = 5 cm and base = 12 cm.\n\nBy Pythagoras theorem:\nHypotenuse² = 5² + 12²\n= 25 + 144\n= 169\n\nTherefore, hypotenuse = 13 cm.\n\nHence:\nsin A = Perpendicular/Hypotenuse = 5/13\n\ncos A = Base/Hypotenuse = 12/13\n\ntan A = Perpendicular/Base = 5/12\n\nTherefore, sin A = 5/13, cos A = 12/13 and tan A = 5/12."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the value of: (sin 45°)/(cos 45°) + (cos 60°)/(sin 30°).",
+          "correct_answer": "2",
+          "imgUrl": "",
+          "explanation": "Using the standard values:\nsin 45° = 1/√2\ncos 45° = 1/√2\ncos 60° = 1/2\nsin 30° = 1/2\n\nTherefore:\n(sin 45°)/(cos 45°) + (cos 60°)/(sin 30°)\n= (1/√2)/(1/√2) + (1/2)/(1/2)\n= 1 + 1\n= 2\n\nTherefore, the value is 2."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the value of: 2 sin 30° + 3 cos 60° - tan 45°.",
+            "correct_answer": "3/2",
+            "imgUrl": "",
+            "explanation": "Using the standard values:\nsin 30° = 1/2\ncos 60° = 1/2\ntan 45° = 1\n\nTherefore:\n2(1/2) + 3(1/2) - 1\n= 1 + 3/2 - 1\n= 3/2\n\nTherefore, the value is 3/2."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If sec A = 13/12, find the values of tan A and sin A.",
+          "correct_answer": "tan A = 5/12, sin A = 5/13",
+          "imgUrl": "",
+          "explanation": "Given:\nsec A = 13/12\n\nWe know:\nsec A = Hypotenuse/Base\n\nLet hypotenuse = 13k and base = 12k.\n\nBy Pythagoras theorem:\nPerpendicular² = Hypotenuse² - Base²\n= (13k)² - (12k)²\n= 169k² - 144k²\n= 25k²\n\nTherefore, perpendicular = 5k.\n\nNow:\ntan A = Perpendicular/Base = 5/12\n\nsin A = Perpendicular/Hypotenuse = 5/13\n\nTherefore, tan A = 5/12 and sin A = 5/13."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If cot A = 7/24, find the values of sin A and cos A.",
+            "correct_answer": "sin A = 24/25, cos A = 7/25",
+            "imgUrl": "",
+            "explanation": "Given:\ncot A = 7/24 = Base/Perpendicular\n\nLet base = 7k and perpendicular = 24k.\n\nBy Pythagoras theorem:\nHypotenuse² = (7k)² + (24k)²\n= 49k² + 576k²\n= 625k²\n\nTherefore, hypotenuse = 25k.\n\nNow:\nsin A = Perpendicular/Hypotenuse = 24/25\n\ncos A = Base/Hypotenuse = 7/25\n\nTherefore, sin A = 24/25 and cos A = 7/25."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "",
+      "word_limit": "",
+      "text": "Board Examination Based Question",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the value of: sin 60° cos 30° + cos 60° sin 30°.",
+          "correct_answer": "1",
+          "imgUrl": "",
+          "explanation": "Using the standard values:\nsin 60° = √3/2\ncos 30° = √3/2\ncos 60° = 1/2\nsin 30° = 1/2\n\nTherefore:\n= (√3/2)(√3/2) + (1/2)(1/2)\n= 3/4 + 1/4\n= 4/4\n= 1\n\nTherefore, the value is 1."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If tan A = 1/√3, find the value of A.",
+            "correct_answer": "A = 30°",
+            "imgUrl": "",
+            "explanation": "Given:\ntan A = 1/√3\n\nWe know that among the standard angles:\ntan 30° = 1/√3\n\nTherefore:\ntan A = tan 30°\n\nHence, A = 30°.\n\nTherefore, the value of angle A is 30°."
           }
         ]
       }
