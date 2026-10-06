@@ -1,122 +1,1000 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi" class="h-full">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Science - Exam Blueprint & Syllabus</title>
-    <style>
-        :root {
-            --primary-color: #4f46e5;
-            --science-color: #10b981;
-            --sst-color: #f59e0b;
-            --hindi-color: #ef4444;
-            --english-color: #3b82f6;
-            --sanskrit-color: #8b5cf6;
-            --format-color: #ec4899;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-color: #1e293b;
-            --border-color: #e2e8f0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MP Board Class 10 Social Science Marking Scheme 2026-2027</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '"Inter"', 'sans-serif'],
+            hindi: ['"Noto Sans Devanagari"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+              800: '#9a3412',
+              900: '#7c2d12',
+            }
+          }
         }
+      }
+    }
+  </script>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 16px;
-            line-height: 1.5;
-        }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
-        h1 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: var(--primary-color);
-            margin-bottom: 24px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            border-left: 5px solid var(--primary-color);
-        }
-
-        .card.science { border-left-color: var(--science-color); }
-        .card.sst { border-left-color: var(--sst-color); }
-        .card.hindi { border-left-color: var(--hindi-color); }
-        .card.english { border-left-color: var(--english-color); }
-        .card.sanskrit { border-left-color: var(--sanskrit-color); }
-        .card.format { border-left-color: var(--format-color); }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-bottom: 12px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-        }
-
-        .total-badge {
-            background: #e0e7ff;
-            color: var(--primary-color);
-            padding: 2px 8px;
-            border-radius: 6px;
-            font-size: 0.85rem;
-        }
-
-        .science .total-badge { background: #d1fae5; color: #047857; }
-        .sst .total-badge { background: #fef3c7; color: #b45309; }
-        .hindi .total-badge { background: #fee2e2; color: #991b1b; }
-        .english .total-badge { background: #dbeafe; color: #1e40af; }
-        .sanskrit .total-badge { background: #ede9fe; color: #5b21b6; }
-        .format .total-badge { background: #fce7f3; color: #be185d; }
-
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-            font-size: 0.95rem;
-        }
-
-        li span {
-            font-weight: 600;
-        }
-
-    </style>
+  <style>
+    body {
+      font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      user-select: text;
+    }
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(148, 163, 184, 0.4);
+      border-radius: 9999px;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
 </head>
-<body>
 
-<div class="container">
-    <h1>Social Science</h1>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-full flex flex-col antialiased transition-colors duration-200">
 
-    <div class="card sst">
-        <div class="card-header">
-            🌍 Social Science
-            <span class="total-badge">75 Marks</span>
+  <!-- Android Top App Bar (Without Share Icon) -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-orange-100 dark:border-slate-800 shadow-sm">
+    <div class="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-600 via-orange-600 to-rose-600 flex items-center justify-center text-white shadow-md shadow-orange-500/20 shrink-0">
+          <i data-lucide="globe-2" class="w-5 h-5"></i>
         </div>
-        <ul>
-            <li><span>History (India & Contemporary World II):</span> 20 Marks</li>
-            <li><span>Geography (Contemporary India II):</span> 20 Marks</li>
-            <li><span>Political Science (Democratic Politics II):</span> 18 Marks</li>
-            <li><span>Economics (Understanding Economic Development):</span> 17 Marks</li>
-        </ul>
+        <div>
+          <span class="text-[11px] font-bold text-orange-600 dark:text-orange-400 block leading-tight" data-i18n="boardTitle">
+            माध्यमिक शिक्षा मण्डल, मध्यप्रदेश, भोपाल
+          </span>
+          <h1 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-tight" data-i18n="headerMainTitle">
+            सामाजिक विज्ञान (Class X) अंक योजना
+          </h1>
+        </div>
+      </div>
+
+      <!-- Action Buttons: Language Switcher & Dark Mode Toggle -->
+      <div class="flex items-center gap-1.5">
+        <!-- Bilingual Toggle Button -->
+        <button id="langToggleBtn" class="flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-orange-50 dark:bg-slate-800 border border-orange-200 dark:border-slate-700 text-orange-700 dark:text-orange-300 text-xs font-bold active:scale-95 transition-all">
+          <i data-lucide="languages" class="w-3.5 h-3.5"></i>
+          <span id="langLabel">English</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggleBtn" aria-label="Toggle Theme" class="p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-90 transition-all">
+          <i data-lucide="moon" id="themeIcon" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-lg w-full mx-auto px-4 py-3.5 pb-24 space-y-4">
+    
+    <!-- Hero Header Card -->
+    <section class="bg-gradient-to-br from-amber-700 via-orange-700 to-rose-800 rounded-3xl p-5 text-white shadow-xl shadow-orange-950/20 relative overflow-hidden">
+      <div class="absolute -right-8 -bottom-8 w-36 h-36 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+
+      <div class="flex items-center justify-between gap-2 mb-3">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-white/20 backdrop-blur-md text-white border border-white/20">
+          <i data-lucide="calendar" class="w-3.5 h-3.5"></i> <span data-i18n="sessionTag">सत्र 2026-27</span>
+        </span>
+        <span class="text-xs font-semibold text-orange-100 bg-orange-950/60 px-3 py-1 rounded-full border border-orange-300/20" data-i18n="examType">
+          हाईस्कूल परीक्षा
+        </span>
+      </div>
+
+      <div class="mb-4">
+        <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight" data-i18n="subjectTitle">
+          विषय :- सामाजिक विज्ञान (Social Science)
+        </h2>
+        <p class="text-orange-100 text-xs mt-0.5" data-i18n="heroSubtitle">
+          माध्यमिक शिक्षा मण्डल द्वारा निर्धारित आधिकारिक भागवार एवं अध्यायवार अंक योजना
+        </p>
+      </div>
+
+      <!-- Quick 4-Part Breakdown Notice -->
+      <div class="bg-orange-950/40 border border-white/15 rounded-2xl p-2.5 mb-3 flex items-start gap-2 text-xs text-orange-100">
+        <i data-lucide="layers" class="w-4 h-4 text-amber-300 shrink-0 mt-0.5"></i>
+        <p class="leading-relaxed" data-i18n="subjectDomainNotice">
+          <strong>4 प्रमुख भाग:</strong> भूगोल (25 अंक) + इतिहास (20 अंक) + राजनीति विज्ञान (15 अंक) + अर्थशास्त्र (15 अंक) = कुल 75 अंक।
+        </p>
+      </div>
+
+      <!-- Overview Stats Pills -->
+      <div class="grid grid-cols-4 gap-2 pt-3 border-t border-white/15 text-center">
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-orange-200 uppercase font-semibold" data-i18n="statObj">वस्तुनिष्ठ</p>
+          <p class="text-base font-bold">30 <span class="text-[10px] font-normal text-orange-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-orange-200 uppercase font-semibold" data-i18n="statVSA">2 अंक (12)</p>
+          <p class="text-base font-bold">24 <span class="text-[10px] font-normal text-orange-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-orange-200 uppercase font-semibold" data-i18n="statSA">3 अंक (03)</p>
+          <p class="text-base font-bold">09 <span class="text-[10px] font-normal text-orange-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-orange-200 uppercase font-semibold" data-i18n="statLA">4 अंक (03)</p>
+          <p class="text-base font-bold">12 <span class="text-[10px] font-normal text-orange-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+      </div>
+
+      <!-- Time & Maximum Marks -->
+      <div class="mt-3 pt-2.5 flex items-center justify-between border-t border-white/10 text-xs text-orange-100">
+        <span class="flex items-center gap-1.5"><i data-lucide="clock" class="w-3.5 h-3.5"></i> <span data-i18n="timeText">समय: <strong>3:00 घंटे</strong></span></span>
+        <span class="flex items-center gap-1.5"><i data-lucide="award" class="w-3.5 h-3.5"></i> <span data-i18n="totalMarksText">पूर्णांक: <strong>75 अंक</strong></span></span>
+      </div>
+    </section>
+
+    <!-- Preparation Tracker Card -->
+    <div class="bg-white dark:bg-slate-900 rounded-2xl p-4 border border-orange-100 dark:border-slate-800 shadow-sm">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <i data-lucide="check-circle-2" class="w-4 h-4 text-orange-600 dark:text-orange-400"></i>
+          <span class="text-xs font-bold text-slate-800 dark:text-slate-200" data-i18n="trackerTitle">सामाजिक विज्ञान अध्ययन प्रगति</span>
+        </div>
+        <span id="progressText" class="text-xs font-extrabold text-orange-600 dark:text-orange-400">0 / 23 पूर्ण (0%)</span>
+      </div>
+      <div class="w-full bg-slate-100 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden">
+        <div id="progressBar" class="bg-orange-500 h-full rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+      <div class="flex items-center justify-between mt-2 pt-1 text-[11px] text-slate-500 dark:text-slate-400">
+        <span data-i18n="trackerHint">तैयारी पूर्ण होने पर टिक करें</span>
+        <button id="resetProgressBtn" class="text-rose-600 dark:text-rose-400 font-medium hover:underline" data-i18n="resetBtn">रीसेट करें</button>
+      </div>
     </div>
 
-</div>
+    <!-- Search Bar & Filters -->
+    <div class="space-y-2.5">
+      <div class="relative">
+        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="खोजें: संसाधन, राष्ट्रवाद, संघवाद, मुद्रा, मानचित्र..." 
+          class="w-full pl-10 pr-4 py-2.5 text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl focus:outline-none focus:ring-2 focus:ring-orange-500 dark:focus:ring-orange-400 text-slate-800 dark:text-slate-100 shadow-sm transition-all"
+        />
+      </div>
 
+      <!-- Filter Chips -->
+      <div class="flex gap-2 overflow-x-auto pb-1 text-xs no-scrollbar scroll-smooth">
+        <button data-filter="all" class="filter-chip px-3.5 py-1.5 rounded-full font-bold whitespace-nowrap bg-orange-600 text-white shadow-sm transition-all">
+          <span data-i18n="filterAll">सम्पूर्ण 23 अध्याय (75 अंक)</span>
+        </button>
+        <button data-filter="geo" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterGeo">समकालीन भारत (25)</span>
+        </button>
+        <button data-filter="hist" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterHist">भारत व समकालीन विश्व (20)</span>
+        </button>
+        <button data-filter="pol" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterPol">लोकतांत्रिक राजनीति (15)</span>
+        </button>
+        <button data-filter="eco" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterEco">आर्थिक विकास की समझ (15)</span>
+        </button>
+        <button data-filter="exam-notes" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-amber-100 dark:bg-amber-950/70 text-amber-800 dark:text-amber-300 hover:bg-amber-200 transition-all">
+          <span data-i18n="filterNotes">परीक्षा प्रारूप एवं मानचित्र</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Cards Container -->
+    <div id="cardsContainer" class="space-y-4">
+
+      <!-- Dynamic list of Social Science chapters grouped by 4 books -->
+      <div id="sectionsList" class="space-y-4"></div>
+
+      <!-- Grand Total Banner -->
+      <div class="bg-gradient-to-r from-amber-950 via-orange-950 to-slate-900 text-white rounded-3xl p-5 border border-orange-600/30 shadow-xl">
+        <div class="flex items-center justify-between">
+          <div>
+            <span class="text-xs font-semibold text-orange-400 tracking-wider uppercase" data-i18n="grandTotalSub">हाईस्कूल परीक्षा मूल्यांकन</span>
+            <h4 class="text-lg font-bold" data-i18n="grandTotalTitle">कुल योग (Grand Total)</h4>
+            <p class="text-xs text-slate-300 mt-0.5" data-i18n="grandTotalDesc">सैद्धांतिक परीक्षा: 75 अंक + प्रायोजना कार्य/आंतरिक मूल्यांकन: 25 अंक = 100 अंक</p>
+          </div>
+          <div class="text-right">
+            <span class="text-3xl font-extrabold text-amber-400">75</span>
+            <span class="text-xs font-semibold text-slate-300 block" data-i18n="marksUnit">कुल अंक</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Official Exam Note Section (परीक्षा प्रारूप एवं प्रश्न योजना + मानचित्र निर्देश) -->
+      <section class="blueprint-card bg-amber-50/90 dark:bg-amber-950/20 border-2 border-amber-300/80 dark:border-amber-700/60 rounded-3xl p-4 sm:p-5 shadow-md" data-category="exam-notes">
+        <div class="flex items-center gap-2.5 pb-3 border-b border-amber-200 dark:border-amber-900/60 mb-3.5">
+          <div class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-800 dark:text-amber-300 flex items-center justify-center font-bold text-sm shrink-0">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-base text-amber-950 dark:text-amber-200" data-i18n="noteHeading">
+              नोट – प्रश्नपत्र प्रारूप एवं अंक योजना
+            </h3>
+            <p class="text-[11px] text-amber-800/80 dark:text-amber-400/90 font-medium" data-i18n="noteSubHeading">
+              माध्यमिक शिक्षा मण्डल, म.प्र. की आधिकारिक प्रश्न योजना
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-3.5">
+          <!-- 1. वस्तुनिष्ठ प्रश्न (1 से 5) -->
+          <div class="bg-white/95 dark:bg-slate-900/90 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm">
+            <div class="flex items-center justify-between mb-2 pb-1.5 border-b border-slate-100 dark:border-slate-800">
+              <span class="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                <i data-lucide="check-square" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+                <span data-i18n="objTitle">प्रश्न क्रमांक १ से ५ : ३० वस्तुनिष्ठ प्रश्न</span>
+              </span>
+              <span class="text-xs font-extrabold text-emerald-600 dark:text-emerald-400" data-i18n="eachOneMark">प्रत्येक प्रश्न ०१ अंक</span>
+            </div>
+
+            <p class="text-xs text-slate-600 dark:text-slate-400 mb-2 leading-relaxed" data-i18n="objDesc">
+              प्रश्न क्रमांक १ से ५ तक ३० वस्तुनिष्ठ प्रश्न होंगे। प्रत्येक प्रश्न पर ०१ अंक निर्धारित है:
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300 font-medium">
+              <div class="flex justify-between items-center bg-orange-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-orange-100/70 dark:border-slate-800">
+                <span data-i18n="q1">प्रश्न क्रमांक १ — <strong>सही विकल्प (MCQs)</strong></span>
+                <span class="font-bold text-orange-700 dark:text-orange-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center bg-orange-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-orange-100/70 dark:border-slate-800">
+                <span data-i18n="q2">प्रश्न क्रमांक २ — <strong>रिक्त स्थान (Fill in Blanks)</strong></span>
+                <span class="font-bold text-orange-700 dark:text-orange-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center bg-orange-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-orange-100/70 dark:border-slate-800">
+                <span data-i18n="q3">प्रश्न क्रमांक ३ — <strong>सत्य / असत्य (True/False)</strong></span>
+                <span class="font-bold text-orange-700 dark:text-orange-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center bg-orange-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-orange-100/70 dark:border-slate-800">
+                <span data-i18n="q4">प्रश्न क्रमांक ४ — <strong>सही जोड़ी (Match Columns)</strong></span>
+                <span class="font-bold text-orange-700 dark:text-orange-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center sm:col-span-2 bg-orange-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-orange-100/70 dark:border-slate-800">
+                <span data-i18n="q5">प्रश्न क्रमांक ५ — <strong>एक वाक्य में उत्तर (One Word/Sentence)</strong></span>
+                <span class="font-bold text-orange-700 dark:text-orange-300">०६ अंक</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. विवरणात्मक प्रश्न (6 से 23) -->
+          <div class="bg-white/95 dark:bg-slate-900/90 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm space-y-2">
+            <div class="flex items-center justify-between mb-1 pb-1.5 border-b border-slate-100 dark:border-slate-800">
+              <span class="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                <i data-lucide="layers" class="w-4 h-4 text-amber-600 dark:text-amber-400"></i>
+                <span data-i18n="descTitle">प्रश्न क्रमांक ६ से २३ : विवरणात्मक प्रश्न</span>
+              </span>
+              <span class="text-xs font-extrabold text-blue-600 dark:text-blue-400" data-i18n="total45Marks">कुल ४५ अंक</span>
+            </div>
+
+            <!-- 6 to 17 -->
+            <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+              <div>
+                <p class="font-bold text-xs text-slate-900 dark:text-white" data-i18n="q6to17Title">प्रश्न क्रमांक ६ से १७ तक</p>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400" data-i18n="q6to17Desc">कुल १२ प्रश्न • प्रत्येक प्रश्न पर ०२ अंक</p>
+              </div>
+              <div class="text-right">
+                <span class="font-extrabold text-xs text-emerald-700 dark:text-emerald-400">१२ × २ = २४ अंक</span>
+              </div>
+            </div>
+
+            <!-- 18 to 20 -->
+            <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+              <div>
+                <p class="font-bold text-xs text-slate-900 dark:text-white" data-i18n="q18to20Title">प्रश्न क्रमांक १८ से २० तक</p>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400" data-i18n="q18to20Desc">कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०३ अंक</p>
+              </div>
+              <div class="text-right">
+                <span class="font-extrabold text-xs text-blue-700 dark:text-blue-400">०३ × ३ = ०९ अंक</span>
+              </div>
+            </div>
+
+            <!-- 21 to 23 -->
+            <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+              <div>
+                <p class="font-bold text-xs text-slate-900 dark:text-white" data-i18n="q21to23Title">प्रश्न क्रमांक २१ से २३ तक</p>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400" data-i18n="q21to23Desc">कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०४ अंक</p>
+              </div>
+              <div class="text-right">
+                <span class="font-extrabold text-xs text-purple-700 dark:text-purple-400">०३ × ४ = १२ अंक</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. मानचित्र कार्य विशेष निर्देश (प्रश्न क्र. 23) -->
+          <div class="bg-gradient-to-br from-amber-500/10 via-orange-500/10 to-rose-500/10 border-2 border-orange-400/40 dark:border-orange-500/30 p-3.5 rounded-2xl shadow-sm space-y-2">
+            <div class="flex items-center gap-2">
+              <div class="w-7 h-7 rounded-lg bg-orange-600 text-white flex items-center justify-center shrink-0">
+                <i data-lucide="map-pin" class="w-4 h-4"></i>
+              </div>
+              <h4 class="text-xs font-bold text-orange-950 dark:text-orange-200" data-i18n="mapNoteHeading">
+                विशेष निर्देश : प्रश्न क्रमांक २३ (भारत का मानचित्र - ०४ अंक)
+              </h4>
+            </div>
+
+            <p class="text-xs text-slate-700 dark:text-slate-300 leading-relaxed font-medium" data-i18n="mapNoteMain">
+              प्रश्न क्रमांक २३ भारत के मानचित्र पर आधारित प्रश्न होगा, जो कि <strong>समकालीन भारत-२ के अध्याय-५ 'खनिज तथा ऊर्जा संसाधन'</strong> से आयेगा, जिस पर <strong>०४ अंक</strong> निर्धारित है।
+            </p>
+
+            <!-- Blind candidates note -->
+            <div class="p-2.5 rounded-xl bg-white/80 dark:bg-slate-900/80 border border-orange-200 dark:border-slate-800 text-[11px] text-slate-600 dark:text-slate-400">
+              <span class="font-bold text-orange-700 dark:text-orange-400" data-i18n="blindTag">दृष्टिबाधित विद्यार्थियों हेतु:</span>
+              <span data-i18n="blindNoteText">
+                केवल दृष्टिबाधित विद्यार्थियों के लिये प्रश्न क्र. २३ के स्थान पर ०१ अतिरिक्त सैद्धांतिक प्रश्न बनाकर जिसमें ०१-०१ अंक (एक शब्द अथवा एक वाक्य) वाले ०४ प्रश्न शामिल होंगे, दिया जाना है।
+              </span>
+            </div>
+          </div>
+
+          <!-- Total Calculation Equation Pill -->
+          <div class="p-3 bg-amber-100/90 dark:bg-amber-950/70 rounded-2xl text-[11px] text-amber-900 dark:text-amber-200 flex flex-wrap items-center justify-between gap-1 font-semibold">
+            <span data-i18n="calcFormula">अंक समीकरण: ३० (वस्तुनिष्ठ) + २४ (२ अंक) + ९ (३ अंक) + १२ (४ अंक)</span>
+            <span class="text-xs font-bold text-amber-950 dark:text-amber-100" data-i18n="calcTotal">= कुल ७५ अंक (२३ प्रश्न)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Official Reference Source Card -->
+      <section class="bg-white dark:bg-slate-900 rounded-3xl p-4 border border-slate-200 dark:border-slate-800 shadow-sm flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3 overflow-hidden">
+          <div class="w-10 h-10 rounded-2xl bg-orange-100 dark:bg-orange-950/80 text-orange-600 dark:text-orange-400 flex items-center justify-center shrink-0">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div class="truncate">
+            <span class="text-[10px] font-bold text-orange-600 dark:text-orange-400 uppercase tracking-wider block" data-i18n="refTag">आधिकारिक संदर्भ स्रोत</span>
+            <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 truncate" data-i18n="refTitle">माध्यमिक शिक्षा मण्डल, भोपाल</p>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400 truncate">mpbse.nic.in</p>
+          </div>
+        </div>
+        <a 
+          href="https://mpbse.nic.in" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          aria-label="Visit official MPBSE website"
+          class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-2xl bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700 text-white text-xs font-bold shadow-md shadow-orange-500/20 active:scale-95 transition-all shrink-0">
+          <span data-i18n="refButton">वेबसाइट</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+      </section>
+
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-4 py-2.5 rounded-full text-xs font-semibold shadow-2xl flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300 z-50">
+      <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+      <span id="toastMsg">प्रगति सुरक्षित की गई</span>
+    </div>
+
+  </main>
+
+  <script>
+    // 4 Distinct Books Data as per official blueprint
+    const socialScienceData = [
+      {
+        bookId: "book_geo",
+        category: "geo",
+        totalMarks: 25,
+        hi: {
+          bookName: "1. समकालीन भारत–2 (भूगोल)",
+          badge: "भूगोल (25 अंक)"
+        },
+        en: {
+          bookName: "1. Contemporary India–II (Geography)",
+          badge: "Geography (25 Marks)"
+        },
+        chapters: [
+          {
+            id: "geo_ch_1",
+            marks: 4,
+            hi: { title: "1. संसाधन एवं विकास" },
+            en: { title: "1. Resources and Development" }
+          },
+          {
+            id: "geo_ch_2",
+            marks: 4,
+            hi: { title: "2. वन एवं वन्य जीव संसाधन" },
+            en: { title: "2. Forest and Wildlife Resources" }
+          },
+          {
+            id: "geo_ch_3",
+            marks: 2,
+            hi: { title: "3. जल संसाधन" },
+            en: { title: "3. Water Resources" }
+          },
+          {
+            id: "geo_ch_4",
+            marks: 3,
+            hi: { title: "4. कृषि" },
+            en: { title: "4. Agriculture" }
+          },
+          {
+            id: "geo_ch_5",
+            marks: 4,
+            isMap: true,
+            hi: { 
+              title: "5. खनिज तथा ऊर्जा संसाधन",
+              mapBadge: "मानचित्र कार्य (4 अंक)"
+            },
+            en: { 
+              title: "5. Minerals and Energy Resources",
+              mapBadge: "Map Work (4 Marks)"
+            }
+          },
+          {
+            id: "geo_ch_6",
+            marks: 3,
+            hi: { title: "6. विनिर्माण उद्योग" },
+            en: { title: "6. Manufacturing Industries" }
+          },
+          {
+            id: "geo_ch_7",
+            marks: 5,
+            hi: { title: "7. राष्ट्रीय अर्थव्यवस्था की जीवन रेखाएं" },
+            en: { title: "7. Lifelines of National Economy" }
+          }
+        ]
+      },
+      {
+        bookId: "book_hist",
+        category: "hist",
+        totalMarks: 20,
+        hi: {
+          bookName: "2. भारत और समकालीन विश्व–2 (इतिहास)",
+          badge: "इतिहास (20 अंक)"
+        },
+        en: {
+          bookName: "2. India and the Contemporary World–II (History)",
+          badge: "History (20 Marks)"
+        },
+        chapters: [
+          {
+            id: "hist_ch_1",
+            marks: 2,
+            hi: { title: "1. यूरोप में राष्ट्रवाद का उदय" },
+            en: { title: "1. The Rise of Nationalism in Europe" }
+          },
+          {
+            id: "hist_ch_2",
+            marks: 5,
+            hi: { title: "2. भारत में राष्ट्रवाद" },
+            en: { title: "2. Nationalism in India" }
+          },
+          {
+            id: "hist_ch_3",
+            marks: 3,
+            hi: { title: "3. भूमण्डलीकृत विश्व का बनना" },
+            en: { title: "3. The Making of a Global World" }
+          },
+          {
+            id: "hist_ch_4",
+            marks: 4,
+            hi: { title: "4. औद्योगिकीकरण का युग" },
+            en: { title: "4. The Age of Industrialisation" }
+          },
+          {
+            id: "hist_ch_5",
+            marks: 4,
+            hi: { title: "5. मुद्रण संस्कृति और आधुनिक दुनिया" },
+            en: { title: "5. Print Culture and the Modern World" }
+          },
+          {
+            id: "hist_ch_6",
+            marks: 2,
+            hi: { title: "6. अमर बलिदानी" },
+            en: { title: "6. Amar Balidani (Immortal Martyrs)" }
+          }
+        ]
+      },
+      {
+        bookId: "book_pol",
+        category: "pol",
+        totalMarks: 15,
+        hi: {
+          bookName: "3. लोकतांत्रिक राजनीति–2 (नागरिक शास्त्र)",
+          badge: "राजनीति (15 अंक)"
+        },
+        en: {
+          bookName: "3. Democratic Politics–II (Civics)",
+          badge: "Civics (15 Marks)"
+        },
+        chapters: [
+          {
+            id: "pol_ch_1",
+            marks: 2,
+            hi: { title: "1. सत्ता की साझेदारी" },
+            en: { title: "1. Power Sharing" }
+          },
+          {
+            id: "pol_ch_2",
+            marks: 4,
+            hi: { title: "2. संघवाद" },
+            en: { title: "2. Federalism" }
+          },
+          {
+            id: "pol_ch_3",
+            marks: 2,
+            hi: { title: "3. जाति, धर्म और लैंगिक मसले" },
+            en: { title: "3. Gender, Religion and Caste" }
+          },
+          {
+            id: "pol_ch_4",
+            marks: 4,
+            hi: { title: "4. राजनीतिक दल" },
+            en: { title: "4. Political Parties" }
+          },
+          {
+            id: "pol_ch_5",
+            marks: 3,
+            hi: { title: "5. लोकतंत्र के परिणाम" },
+            en: { title: "5. Outcomes of Democracy" }
+          }
+        ]
+      },
+      {
+        bookId: "book_eco",
+        category: "eco",
+        totalMarks: 15,
+        hi: {
+          bookName: "4. आर्थिक विकास की समझ (अर्थशास्त्र)",
+          badge: "अर्थशास्त्र (15 अंक)"
+        },
+        en: {
+          bookName: "4. Understanding Economic Development (Economics)",
+          badge: "Economics (15 Marks)"
+        },
+        chapters: [
+          {
+            id: "eco_ch_1",
+            marks: 2,
+            hi: { title: "1. विकास" },
+            en: { title: "1. Development" }
+          },
+          {
+            id: "eco_ch_2",
+            marks: 4,
+            hi: { title: "2. भारतीय अर्थव्यवस्था के क्षेत्रक" },
+            en: { title: "2. Sectors of the Indian Economy" }
+          },
+          {
+            id: "eco_ch_3",
+            marks: 4,
+            hi: { title: "3. मुद्रा और साख" },
+            en: { title: "3. Money and Credit" }
+          },
+          {
+            id: "eco_ch_4",
+            marks: 3,
+            hi: { title: "4. वैश्वीकरण और भारतीय अर्थव्यवस्था" },
+            en: { title: "4. Globalisation and the Indian Economy" }
+          },
+          {
+            id: "eco_ch_5",
+            marks: 2,
+            hi: { title: "5. उपभोक्ता अधिकार" },
+            en: { title: "5. Consumer Rights" }
+          }
+        ]
+      }
+    ];
+
+    const i18nData = {
+      hi: {
+        boardTitle: "माध्यमिक शिक्षा मण्डल, मध्यप्रदेश, भोपाल",
+        headerMainTitle: "सामाजिक विज्ञान (Class X) अंक योजना",
+        sessionTag: "सत्र 2026-27",
+        examType: "हाईस्कूल परीक्षा",
+        subjectTitle: "विषय :- सामाजिक विज्ञान (Social Science)",
+        heroSubtitle: "माध्यमिक शिक्षा मण्डल द्वारा निर्धारित आधिकारिक भागवार एवं अध्यायवार अंक योजना",
+        subjectDomainNotice: "<strong>4 प्रमुख भाग:</strong> भूगोल (25 अंक) + इतिहास (20 अंक) + राजनीति विज्ञान (15 अंक) + अर्थशास्त्र (15 अंक) = कुल 75 अंक।",
+        statObj: "वस्तुनिष्ठ",
+        statVSA: "2 अंक (12)",
+        statSA: "3 अंक (03)",
+        statLA: "4 अंक (03)",
+        marksUnit: "अंक",
+        timeText: "समय: <strong>3:00 घंटे</strong>",
+        totalMarksText: "पूर्णांक: <strong>75 अंक</strong>",
+        trackerTitle: "सामाजिक विज्ञान अध्ययन प्रगति",
+        trackerHint: "तैयारी पूर्ण होने पर टिक करें",
+        resetBtn: "रीसेट करें",
+        filterAll: "सम्पूर्ण 23 अध्याय (75 अंक)",
+        filterGeo: "समकालीन भारत (25)",
+        filterHist: "भारत व समकालीन विश्व (20)",
+        filterPol: "लोकतांत्रिक राजनीति (15)",
+        filterEco: "आर्थिक विकास की समझ (15)",
+        filterNotes: "परीक्षा प्रारूप एवं मानचित्र",
+        grandTotalSub: "हाईस्कूल परीक्षा मूल्यांकन",
+        grandTotalTitle: "कुल योग (Grand Total)",
+        grandTotalDesc: "सैद्धांतिक परीक्षा: 75 अंक + प्रायोजना कार्य/आंतरिक मूल्यांकन: 25 अंक = 100 अंक",
+        noteHeading: "नोट – प्रश्नपत्र प्रारूप एवं अंक योजना",
+        noteSubHeading: "माध्यमिक शिक्षा मण्डल, म.प्र. की आधिकारिक प्रश्न योजना",
+        objTitle: "प्रश्न क्रमांक १ से ५ : ३० वस्तुनिष्ठ प्रश्न",
+        eachOneMark: "प्रत्येक प्रश्न ०१ अंक",
+        objDesc: "प्रश्न क्रमांक १ से ५ तक ३० वस्तुनिष्ठ प्रश्न होंगे। प्रत्येक प्रश्न पर ०१ अंक निर्धारित है:",
+        q1: "प्रश्न क्रमांक १ — <strong>सही विकल्प (MCQs)</strong>",
+        q2: "प्रश्न क्रमांक २ — <strong>रिक्त स्थान (Fill in Blanks)</strong>",
+        q3: "प्रश्न क्रमांक ३ — <strong>सत्य / असत्य (True/False)</strong>",
+        q4: "प्रश्न क्रमांक ४ — <strong>सही जोड़ी (Match Columns)</strong>",
+        q5: "प्रश्न क्रमांक ५ — <strong>एक वाक्य में उत्तर (One Word/Sentence)</strong>",
+        descTitle: "प्रश्न क्रमांक ६ से २३ : विवरणात्मक प्रश्न",
+        total45Marks: "कुल ४५ अंक",
+        q6to17Title: "प्रश्न क्रमांक ६ से १७ तक",
+        q6to17Desc: "कुल १२ प्रश्न • प्रत्येक प्रश्न पर ०२ अंक",
+        q18to20Title: "प्रश्न क्रमांक १८ से २० तक",
+        q18to20Desc: "कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०३ अंक",
+        q21to23Title: "प्रश्न क्रमांक २१ से २३ तक",
+        q21to23Desc: "कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०४ अंक",
+        mapNoteHeading: "विशेष निर्देश : प्रश्न क्रमांक २३ (भारत का मानचित्र - ०४ अंक)",
+        mapNoteMain: "प्रश्न क्रमांक २३ भारत के मानचित्र पर आधारित प्रश्न होगा, जो कि <strong>समकालीन भारत-२ के अध्याय-५ 'खनिज तथा ऊर्जा संसाधन'</strong> से आयेगा, जिस पर <strong>०४ अंक</strong> निर्धारित है।",
+        blindTag: "दृष्टिबाधित विद्यार्थियों हेतु: ",
+        blindNoteText: "केवल दृष्टिबाधित विद्यार्थियों के लिये प्रश्न क्र. २३ के स्थान पर ०१ अतिरिक्त सैद्धांतिक प्रश्न बनाकर जिसमें ०१-०१ अंक (एक शब्द अथवा एक वाक्य) वाले ०४ प्रश्न शामिल होंगे, दिया जाना है।",
+        calcFormula: "अंक समीकरण: ३० (वस्तुनिष्ठ) + २४ (२ अंक) + ९ (३ अंक) + १२ (४ अंक)",
+        calcTotal: "= कुल ७५ अंक (२३ प्रश्न)",
+        refTag: "आधिकारिक संदर्भ स्रोत",
+        refTitle: "माध्यमिक शिक्षा मण्डल, भोपाल",
+        refButton: "वेबसाइट",
+        searchPlaceholder: "खोजें: संसाधन, राष्ट्रवाद, संघवाद, मुद्रा, मानचित्र...",
+        toastReset: "प्रगति सफलतापूर्वक रीसेट हो गई"
+      },
+      en: {
+        boardTitle: "Board of Secondary Education, M.P., Bhopal",
+        headerMainTitle: "Social Science (Class X) Marking Scheme",
+        sessionTag: "Session 2026-27",
+        examType: "High School Exam",
+        subjectTitle: "Subject :- Social Science (Class X)",
+        heroSubtitle: "Official part-wise & chapter-wise marks distribution prescribed by MPBSE",
+        subjectDomainNotice: "<strong>4 Main Books:</strong> Geography (25 Marks) + History (20 Marks) + Civics (15 Marks) + Economics (15 Marks) = Total 75 Marks.",
+        statObj: "Objective",
+        statVSA: "2 Marks (12)",
+        statSA: "3 Marks (03)",
+        statLA: "4 Marks (03)",
+        marksUnit: "Marks",
+        timeText: "Time: <strong>3:00 Hours</strong>",
+        totalMarksText: "Max Marks: <strong>75 Marks</strong>",
+        trackerTitle: "Social Science Study Progress",
+        trackerHint: "Mark checkbox when prepared",
+        resetBtn: "Reset",
+        filterAll: "All 23 Chapters (75 M)",
+        filterGeo: "Contemporary India (25)",
+        filterHist: "India & Contemp. World (20)",
+        filterPol: "Democratic Politics (15)",
+        filterEco: "Economic Development (15)",
+        filterNotes: "Exam Blueprint & Map",
+        grandTotalSub: "High School Examination Evaluation",
+        grandTotalTitle: "Grand Total",
+        grandTotalDesc: "Theory Exam: 75 Marks + Project / Internal Assessment: 25 Marks = 100 Marks",
+        noteHeading: "Note – Question Paper Pattern & Blueprint",
+        noteSubHeading: "Official Marking Scheme by Board of Secondary Education, M.P.",
+        objTitle: "Questions 1 to 5 : 30 Objective Type Questions",
+        eachOneMark: "01 Mark Each",
+        objDesc: "Questions 1 to 5 contain 30 objective questions carrying 01 mark each:",
+        q1: "Question 1 — <strong>Multiple Choice (MCQs)</strong>",
+        q2: "Question 2 — <strong>Fill in the Blanks</strong>",
+        q3: "Question 3 — <strong>True / False</strong>",
+        q4: "Question 4 — <strong>Match the Columns</strong>",
+        q5: "Question 5 — <strong>One Word / Sentence Answer</strong>",
+        descTitle: "Questions 6 to 23 : Descriptive Questions",
+        total45Marks: "Total 45 Marks",
+        q6to17Title: "Questions 6 to 17",
+        q6to17Desc: "Total 12 questions • 02 marks each",
+        q18to20Title: "Questions 18 to 20",
+        q18to20Desc: "Total 03 questions • 03 marks each",
+        q21to23Title: "Questions 21 to 23",
+        q21to23Desc: "Total 03 questions • 04 marks each",
+        mapNoteHeading: "Special Guideline : Question 23 (India Map Work - 04 Marks)",
+        mapNoteMain: "Question 23 will be based on the <strong>Map of India</strong> from <strong>Contemporary India-II Chapter 5 'Minerals and Energy Resources'</strong> carrying <strong>04 Marks</strong>.",
+        blindTag: "For Visually Impaired Candidates: ",
+        blindNoteText: "In place of Question 23, one theoretical question comprising 4 sub-questions of 01 mark each (one-word/one-sentence) will be provided.",
+        calcFormula: "Equation: 30 (Objective) + 24 (2 Marks) + 9 (3 Marks) + 12 (4 Marks)",
+        calcTotal: "= Total 75 Marks (23 Questions)",
+        refTag: "Official Source & Authority",
+        refTitle: "MP Board of Secondary Education (Bhopal)",
+        refButton: "Website",
+        searchPlaceholder: "Search: Resources, Nationalism, Federalism, Money, Map...",
+        toastReset: "Progress reset successfully"
+      }
+    };
+
+    let currentLang = 'hi';
+    const sectionsContainer = document.getElementById('sectionsList');
+
+    function getBookColorClasses(category) {
+      switch (category) {
+        case 'geo':
+          return {
+            headerBg: 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800',
+            badgeBg: 'bg-emerald-100 dark:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300'
+          };
+        case 'hist':
+          return {
+            headerBg: 'bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border-amber-200 dark:border-amber-800',
+            badgeBg: 'bg-amber-100 dark:bg-amber-900/60 text-amber-700 dark:text-amber-300'
+          };
+        case 'pol':
+          return {
+            headerBg: 'bg-blue-50 dark:bg-blue-950/40 text-blue-800 dark:text-blue-300 border-blue-200 dark:border-blue-800',
+            badgeBg: 'bg-blue-100 dark:bg-blue-900/60 text-blue-700 dark:text-blue-300'
+          };
+        case 'eco':
+          return {
+            headerBg: 'bg-rose-50 dark:bg-rose-950/40 text-rose-800 dark:text-rose-300 border-rose-200 dark:border-rose-800',
+            badgeBg: 'bg-rose-100 dark:bg-rose-900/60 text-rose-700 dark:text-rose-300'
+          };
+        default:
+          return {
+            headerBg: 'bg-slate-50 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border-slate-200 dark:border-slate-700',
+            badgeBg: 'bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300'
+          };
+      }
+    }
+
+    function renderSections() {
+      sectionsContainer.innerHTML = '';
+
+      socialScienceData.forEach((section) => {
+        const langSection = section[currentLang];
+        const colors = getBookColorClasses(section.category);
+
+        const card = document.createElement('div');
+        card.className = "blueprint-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl overflow-hidden shadow-sm transition-all";
+        card.setAttribute('data-category', section.category);
+
+        let chaptersHtml = '';
+        section.chapters.forEach((ch) => {
+          const chData = ch[currentLang];
+          const mapBadgeHtml = ch.isMap 
+            ? `<span class="inline-flex items-center gap-1 ml-1 px-2 py-0.5 rounded-lg text-[10px] font-bold bg-orange-100 dark:bg-orange-950/80 text-orange-700 dark:text-orange-300 border border-orange-300 dark:border-orange-800"><i data-lucide="map" class="w-3 h-3"></i> ${chData.mapBadge}</span>` 
+            : '';
+
+          chaptersHtml += `
+            <li class="p-3 hover:bg-slate-50 dark:hover:bg-slate-800/40 transition-colors flex items-center justify-between gap-3 border-b border-slate-100 dark:border-slate-800/60 last:border-0">
+              <div class="flex items-center gap-3 flex-1">
+                <input type="checkbox" id="${ch.id}" class="task-checkbox h-5 w-5 rounded-lg text-orange-600 border-slate-300 focus:ring-orange-500 dark:border-slate-700 dark:bg-slate-800 shrink-0 cursor-pointer">
+                <label for="${ch.id}" class="text-xs sm:text-sm font-semibold text-slate-800 dark:text-slate-200 cursor-pointer flex-1">
+                  ${chData.title}
+                  ${mapBadgeHtml}
+                </label>
+              </div>
+              <span class="px-2.5 py-1 rounded-xl text-xs font-extrabold bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-700 whitespace-nowrap shrink-0">
+                ${ch.marks} ${currentLang === 'hi' ? 'अंक' : 'Marks'}
+              </span>
+            </li>
+          `;
+        });
+
+        card.innerHTML = `
+          <div class="p-3.5 border-b flex items-center justify-between ${colors.headerBg}">
+            <div>
+              <h3 class="font-bold text-sm sm:text-base leading-tight">${langSection.bookName}</h3>
+            </div>
+            <span class="px-2.5 py-1 rounded-xl text-xs font-bold ${colors.badgeBg} shrink-0">
+              ${section.totalMarks} ${currentLang === 'hi' ? 'अंक' : 'Marks'}
+            </span>
+          </div>
+          <ul class="divide-y divide-slate-100 dark:divide-slate-800">
+            ${chaptersHtml}
+          </ul>
+        `;
+
+        sectionsContainer.appendChild(card);
+      });
+
+      attachCheckboxEvents();
+      applyFilterAndSearch();
+      lucide.createIcons();
+    }
+
+    const langToggleBtn = document.getElementById('langToggleBtn');
+    const langLabel = document.getElementById('langLabel');
+
+    function updateLanguage(newLang) {
+      currentLang = newLang;
+      langLabel.textContent = newLang === 'hi' ? 'English' : 'हिन्दी';
+      document.getElementById('searchInput').placeholder = i18nData[newLang].searchPlaceholder;
+
+      // Update all elements with data-i18n attributes
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (i18nData[newLang][key]) {
+          el.innerHTML = i18nData[newLang][key];
+        }
+      });
+
+      renderSections();
+      loadSavedChecklist();
+    }
+
+    langToggleBtn.addEventListener('click', () => {
+      const nextLang = currentLang === 'hi' ? 'en' : 'hi';
+      updateLanguage(nextLang);
+    });
+
+    const STORAGE_KEY = 'mp_board_social_science_checklist_v1';
+    const progressBar = document.getElementById('progressBar');
+    const progressText = document.getElementById('progressText');
+    const resetProgressBtn = document.getElementById('resetProgressBtn');
+
+    function attachCheckboxEvents() {
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      checkboxes.forEach(cb => {
+        cb.addEventListener('change', calculateProgress);
+      });
+    }
+
+    function markParent(checkbox, isChecked) {
+      const itemRow = checkbox.closest('li');
+      if (itemRow) {
+        if (isChecked) {
+          itemRow.classList.add('opacity-50', 'line-through');
+        } else {
+          itemRow.classList.remove('opacity-50', 'line-through');
+        }
+      }
+    }
+
+    function calculateProgress() {
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      const total = checkboxes.length;
+      let checked = 0;
+      const state = {};
+
+      checkboxes.forEach(cb => {
+        if (cb.checked) {
+          checked++;
+          state[cb.id] = true;
+          markParent(cb, true);
+        } else {
+          markParent(cb, false);
+        }
+      });
+
+      const percentage = total === 0 ? 0 : Math.round((checked / total) * 100);
+      progressBar.style.width = percentage + '%';
+      const completeWord = currentLang === 'hi' ? 'पूर्ण' : 'completed';
+      progressText.textContent = `${checked} / ${total} ${completeWord} (${percentage}%)`;
+
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function loadSavedChecklist() {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      checkboxes.forEach(cb => {
+        if (saved[cb.id]) {
+          cb.checked = true;
+          markParent(cb, true);
+        }
+      });
+      calculateProgress();
+    }
+
+    resetProgressBtn.addEventListener('click', () => {
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      checkboxes.forEach(cb => {
+        cb.checked = false;
+        markParent(cb, false);
+      });
+      localStorage.removeItem(STORAGE_KEY);
+      calculateProgress();
+      showToast(i18nData[currentLang].toastReset);
+    });
+
+    const searchInput = document.getElementById('searchInput');
+    const filterChips = document.querySelectorAll('.filter-chip');
+    let activeFilter = 'all';
+
+    function applyFilterAndSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      const allCards = document.querySelectorAll('.blueprint-card');
+
+      allCards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        const category = card.getAttribute('data-category');
+
+        const matchesQuery = !query || text.includes(query);
+        const matchesCategory = activeFilter === 'all' || category === activeFilter;
+
+        if (matchesQuery && matchesCategory) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    searchInput.addEventListener('input', applyFilterAndSearch);
+
+    filterChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        filterChips.forEach(c => {
+          c.classList.remove('bg-orange-600', 'text-white', 'shadow-sm');
+          if (c.getAttribute('data-filter') === 'exam-notes') {
+            c.classList.add('bg-amber-100', 'dark:bg-amber-950/70', 'text-amber-800', 'dark:text-amber-300');
+          } else {
+            c.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+          }
+        });
+
+        chip.classList.add('bg-orange-600', 'text-white', 'shadow-sm');
+        chip.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300', 'bg-amber-100', 'dark:bg-amber-950/70', 'text-amber-800', 'dark:text-amber-300');
+
+        activeFilter = chip.getAttribute('data-filter');
+        applyFilterAndSearch();
+      });
+    });
+
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const themeIcon = document.getElementById('themeIcon');
+    const htmlEl = document.documentElement;
+
+    function applyTheme() {
+      const savedTheme = localStorage.getItem('mp_board_socsci_theme');
+      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        htmlEl.classList.add('dark');
+        setThemeIcon(true);
+      } else {
+        htmlEl.classList.remove('dark');
+        setThemeIcon(false);
+      }
+    }
+
+    function setThemeIcon(isDark) {
+      themeIcon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
+      lucide.createIcons();
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      const isDark = htmlEl.classList.toggle('dark');
+      localStorage.setItem('mp_board_socsci_theme', isDark ? 'dark' : 'light');
+      setThemeIcon(isDark);
+    });
+
+    // Custom Toast Notification
+    const toast = document.getElementById('toast');
+    const toastMsg = document.getElementById('toastMsg');
+
+    function showToast(msg) {
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2000);
+    }
+
+    // Initialize Page
+    applyTheme();
+    renderSections();
+    loadSavedChecklist();
+  </script>
 </body>
 </html>

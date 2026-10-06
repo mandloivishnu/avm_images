@@ -1,124 +1,764 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="hi" class="h-full">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>हिंदी - पाठ्यक्रम एवं अंक विभाजन</title>
-    <style>
-        :root {
-            --primary-color: #4f46e5;
-            --science-color: #10b981;
-            --sst-color: #f59e0b;
-            --hindi-color: #ef4444;
-            --english-color: #3b82f6;
-            --sanskrit-color: #8b5cf6;
-            --format-color: #ec4899;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-color: #1e293b;
-            --border-color: #e2e8f0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MP Board 10वीं हिन्दी अंक योजना</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            hindi: ['"Noto Sans Devanagari"', 'Poppins', 'sans-serif'],
+          },
+          colors: {
+            board: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              800: '#0c4a6e',
+              900: '#082f49'
+            },
+            saffron: {
+              500: '#f97316',
+              600: '#ea580c'
+            }
+          }
         }
+      }
+    }
+  </script>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 16px;
-            line-height: 1.6;
-        }
+  <!-- Google Fonts: Noto Sans Devanagari & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
-        h1 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: var(--primary-color);
-            margin-bottom: 24px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            border-left: 5px solid var(--primary-color);
-        }
-
-        .card.science { border-left-color: var(--science-color); }
-        .card.sst { border-left-color: var(--sst-color); }
-        .card.hindi { border-left-color: var(--hindi-color); }
-        .card.english { border-left-color: var(--english-color); }
-        .card.sanskrit { border-left-color: var(--sanskrit-color); }
-        .card.format { border-left-color: var(--format-color); }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-bottom: 12px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-        }
-
-        .total-badge {
-            background: #e0e7ff;
-            color: var(--primary-color);
-            padding: 2px 8px;
-            border-radius: 6px;
-            font-size: 0.85rem;
-        }
-
-        .science .total-badge { background: #d1fae5; color: #047857; }
-        .sst .total-badge { background: #fef3c7; color: #b45309; }
-        .hindi .total-badge { background: #fee2e2; color: #991b1b; }
-        .english .total-badge { background: #dbeafe; color: #1e40af; }
-        .sanskrit .total-badge { background: #ede9fe; color: #5b21b6; }
-        .format .total-badge { background: #fce7f3; color: #be185d; }
-
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-            font-size: 0.95rem;
-        }
-
-        li span {
-            font-weight: 600;
-        }
-
-    </style>
+  <style>
+    body {
+      font-family: 'Noto Sans Devanagari', 'Poppins', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      user-select: text;
+    }
+    /* Android subtle scrollbar */
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(156, 163, 175, 0.4);
+      border-radius: 9999px;
+    }
+    .touch-target {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  </style>
 </head>
-<body>
 
-<div class="container">
-    <h1>हिंदी (Hindi)</h1>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-screen flex flex-col antialiased transition-colors duration-200">
 
-    <div class="card hindi">
-        <div class="card-header">
-            📙 हिंदी (Hindi)
-            <span class="total-badge">75 अंक</span>
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 shadow-sm">
+    <div class="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20">
+          <i data-lucide="book-marked" class="w-5 h-5"></i>
         </div>
-        <ul>
-            <li><span>क्षितिज भाग-2 (काव्य खंड) एवं काव्यबोध:</span> 17 + 9 अंक (कविताएँ, व्याख्या, रस, छंद, अलंकार)</li>
-            <li><span>क्षितिज भाग-2 (गद्य खंड) एवं भाषाबोध:</span> 17 + 8 अंक (गद्य पाठ, जीवन परिचय, वाक्य के भेद, मुहावरे)</li>
-            <li><span>कृतिका भाग-2 (पूरक पाठ्यपुस्तक):</span> 6 अंक (मूल्यपरक लघु प्रश्न)</li>
-            <li><span>अपठित बोध:</span> 6 अंक (गद्यांश या काव्यांश आधारित बोध प्रश्न)</li>
-            <li><span>पत्र लेखन:</span> 4 अंक (औपचारिक एवं अनौपचारिक पत्र)</li>
-            <li><span>निबंध एवं अनुच्छेद लेखन:</span> 4 + 4 अंक</li>
-        </ul>
+        <div>
+          <span class="text-[11px] font-semibold tracking-wider uppercase text-sky-700 dark:text-sky-400 block leading-tight">माध्यमिक शिक्षा मण्डल, म.प्र.</span>
+          <h1 class="text-base font-bold leading-tight text-slate-900 dark:text-white">अंक योजना 2026-27</h1>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-1">
+        <button id="themeToggleBtn" aria-label="Toggle Theme" class="p-2.5 rounded-full text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95 transition-all">
+          <i data-lucide="moon" id="themeIcon" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-lg w-full mx-auto px-4 py-4 pb-24 space-y-4">
+    
+    <!-- Hero Badges Card -->
+    <section class="bg-gradient-to-br from-sky-600 via-sky-700 to-indigo-800 rounded-3xl p-5 text-white shadow-xl shadow-sky-800/15 relative overflow-hidden">
+      <div class="absolute -right-6 -bottom-6 w-32 h-32 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+      
+      <div class="flex items-center justify-between gap-2 mb-3">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-white/20 backdrop-blur-md text-sky-50 border border-white/20">
+          <i data-lucide="award" class="w-3.5 h-3.5"></i> हाईस्कूल परीक्षा
+        </span>
+        <span class="text-xs font-medium text-sky-200 bg-sky-950/40 px-2.5 py-1 rounded-full">
+          सत्र 2026-27
+        </span>
+      </div>
+
+      <div class="mb-4">
+        <h2 class="text-2xl font-bold tracking-tight mb-1">कक्षा 10वीं — हिन्दी</h2>
+        <p class="text-sky-100/90 text-xs font-normal">बोर्ड परीक्षा प्रश्नपत्र प्रारूप एवं इकाईवार आवंटित अंक</p>
+      </div>
+
+      <!-- Quick Metrics Grid -->
+      <div class="grid grid-cols-3 gap-2.5 pt-2 border-t border-white/15 text-center">
+        <div class="bg-white/10 rounded-2xl p-2.5 backdrop-blur-sm">
+          <p class="text-[11px] text-sky-200">पूर्णांक</p>
+          <p class="text-lg font-bold">75 <span class="text-xs font-normal text-sky-200">अंक</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl p-2.5 backdrop-blur-sm">
+          <p class="text-[11px] text-sky-200">समय</p>
+          <p class="text-lg font-bold">3:00 <span class="text-xs font-normal text-sky-200">घंटे</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl p-2.5 backdrop-blur-sm">
+          <p class="text-[11px] text-sky-200">कुल इकाइयाँ</p>
+          <p class="text-lg font-bold">8 <span class="text-xs font-normal text-sky-200">खण्ड</span></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-white dark:bg-slate-900 rounded-2xl p-4 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+          <span class="text-xs font-semibold text-slate-700 dark:text-slate-200">तैयारी प्रगति (Study Tracker)</span>
+        </div>
+        <span id="progressText" class="text-xs font-bold text-sky-600 dark:text-sky-400">0 / 0 विषय तैयार</span>
+      </div>
+      <div class="w-full bg-slate-100 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden">
+        <div id="progressBar" class="bg-emerald-500 h-full rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+      <div class="flex items-center justify-between mt-2 pt-1 text-[11px] text-slate-500 dark:text-slate-400">
+        <span>प्रत्येक अध्याय/विषय पूरा होने पर टिक करें</span>
+        <button id="resetProgressBtn" class="text-rose-600 dark:text-rose-400 hover:underline">रीसेट</button>
+      </div>
     </div>
 
-</div>
+    <div class="space-y-2.5">
+      <div class="relative">
+        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="पाठ, व्याकरण, रस या विधा खोजें..." 
+          class="w-full pl-10 pr-4 py-2.5 text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl focus:outline-none focus:ring-2 focus:ring-sky-500 dark:focus:ring-sky-400 text-slate-800 dark:text-slate-100 shadow-sm transition-all"
+        />
+      </div>
 
+      <!-- Quick Section Tabs -->
+      <div class="flex gap-2 overflow-x-auto pb-1 text-xs no-scrollbar scroll-smooth">
+        <button data-filter="all" class="filter-chip px-3.5 py-1.5 rounded-full font-medium whitespace-nowrap bg-sky-600 text-white shadow-sm transition-all">
+          सभी (All)
+        </button>
+        <button data-filter="काव्य" class="filter-chip px-3.5 py-1.5 rounded-full font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          क्षितिज काव्य
+        </button>
+        <button data-filter="गद्य" class="filter-chip px-3.5 py-1.5 rounded-full font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          क्षितिज गद्य
+        </button>
+        <button data-filter="व्याकरण" class="filter-chip px-3.5 py-1.5 rounded-full font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          व्याकरण व बोध
+        </button>
+        <button data-filter="लेखन" class="filter-chip px-3.5 py-1.5 rounded-full font-medium whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          रचना/लेखन
+        </button>
+      </div>
+    </div>
+
+    <div id="cardsContainer" class="space-y-3.5">
+
+      <!-- ITEM 1: क्षितिज भाग - 2 (काव्य खण्ड) -->
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="काव्य">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-sky-100 dark:bg-sky-950 text-sky-700 dark:text-sky-300 font-bold text-xs flex items-center justify-center shrink-0">
+              1
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">क्षितिज भाग – 2</h3>
+              <p class="text-xs text-sky-600 dark:text-sky-400 font-medium">काव्य खण्ड</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            17 अंक
+          </span>
+        </div>
+
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_1" class="leading-relaxed">
+              <span class="font-semibold text-slate-900 dark:text-slate-100">पद (सूरदास):</span> 
+              ऊधौ, तुम हौ अति बड़भागी; मन की मन ही माँझ रही; हमारे हरि हारिल की लकरी; हरि हैं राजनीति पढ़ि आए
+            </label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_2" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_2" class="leading-relaxed">राम–लक्ष्मण परशुराम संवाद (तुलसीदास)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_3" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_3" class="leading-relaxed">आत्मकथ्य (जयशंकर प्रसाद)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_4" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_4" class="leading-relaxed">उत्साह एवं अट नहीं रही है (सूर्यकांत त्रिपाठी 'निराला')</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_5" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_5" class="leading-relaxed">यह दंतुरित मुस्कान एवं फसल (नागार्जुन)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_6" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_6" class="leading-relaxed">संगतकार (मंगलेश डबराल)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_7" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_7" class="leading-relaxed">पद्य साहित्य का इतिहास एवं काल विभाजन: रीतिकाल, आधुनिक काल (प्रयोगवाद, प्रगतिवाद, नई कविता)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_1_8" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_1_8" class="leading-relaxed">कवि परिचय, भावार्थ (सन्दर्भ, प्रसंग, भावार्थ, काव्य सौन्दर्य) तथा सौन्दर्य बोध एवं भाव व विषय वस्तु पर आधारित प्रश्न</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="व्याकरण">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300 font-bold text-xs flex items-center justify-center shrink-0">
+              2
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">काव्य बोध</h3>
+              <p class="text-xs text-purple-600 dark:text-purple-400 font-medium">साहित्यिक व्याकरण</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            10 अंक
+          </span>
+        </div>
+
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_2_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_2_1" class="leading-relaxed">काव्य की परिभाषा एवं भेद (प्रबन्ध काव्य के भेद)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_2_2" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_2_2" class="leading-relaxed">रस : अंग एवं प्रकार (उदाहरण सहित)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_2_3" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_2_3" class="leading-relaxed">छन्द : दोहा एवं चौपाई</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_2_4" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_2_4" class="leading-relaxed">अलंकार : मानवीकरण, पुनरुक्तिप्रकाश, अतिशयोक्ति, अन्योक्ति अलंकार</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_2_5" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_2_5" class="leading-relaxed">शब्द गुण का सामान्य परिचय</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="गद्य">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-bold text-xs flex items-center justify-center shrink-0">
+              3
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">क्षितिज भाग – 2</h3>
+              <p class="text-xs text-emerald-600 dark:text-emerald-400 font-medium">गद्य खण्ड</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            17 अंक
+          </span>
+        </div>
+
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_1" class="leading-relaxed">नेताजी का चश्मा (स्वयं प्रकाश)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_2" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_2" class="leading-relaxed">बालगोबिन भगत (रामवृक्ष बेनीपुरी)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_3" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_3" class="leading-relaxed">लखनवी अंदाज (यशपाल)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_4" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_4" class="leading-relaxed">एक कहानी यह भी (मन्नू भण्डारी)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_5" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_5" class="leading-relaxed">नौबतखाने में इबादत (यतीन्द्र मिश्र)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_6" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_6" class="leading-relaxed">संस्कृति (भदंत आनंद कौसल्यायन)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_7" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_7" class="leading-relaxed">गद्य की प्रमुख एवं गौण विधाएँ</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_3_8" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_3_8" class="leading-relaxed">लेखक परिचय, व्याख्या (सन्दर्भ, प्रसंग, व्याख्या, विशेष) तथा विचार बोध प्रश्न</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="व्याकरण">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 font-bold text-xs flex items-center justify-center shrink-0">
+              4
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">भाषा बोध</h3>
+              <p class="text-xs text-indigo-600 dark:text-indigo-400 font-medium">व्यावहारिक हिन्दी व्याकरण</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            08 अंक
+          </span>
+        </div>
+
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_4_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_4_1" class="leading-relaxed">संधि एवं समास (भेद एवं उदाहरण)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_4_2" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_4_2" class="leading-relaxed">वाच्य, क्रिया के भेद एवं क्रिया विशेषण</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_4_3" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_4_3" class="leading-relaxed">मुहावरे एवं लोकोक्तियाँ, अनेकार्थी शब्द, वाक्यांश के लिए एक शब्द</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_4_4" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_4_4" class="leading-relaxed">वाक्य के भेद (अर्थ के आधार पर)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_4_5" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_4_5" class="leading-relaxed">शब्द शक्ति का सामान्य परिचय</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="गद्य">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 font-bold text-xs flex items-center justify-center shrink-0">
+              5
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">कृतिका भाग – 2</h3>
+              <p class="text-xs text-amber-600 dark:text-amber-400 font-medium">पूरक पाठ्यपुस्तक</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            08 अंक
+          </span>
+        </div>
+
+        <p class="text-xs text-slate-500 dark:text-slate-400 mb-2 font-medium">पूरक पाठ्यपुस्तक से विविध पाठों पर आधारित प्रश्न:</p>
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_5_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_5_1" class="leading-relaxed"><span class="font-medium">1.</span> माता का अँचल (शिवपूजन सहाय)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_5_2" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_5_2" class="leading-relaxed"><span class="font-medium">2.</span> साना-साना हाथ जोड़ि... (मधु कांकरिया)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_5_3" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_5_3" class="leading-relaxed"><span class="font-medium">3.</span> मैं क्यों लिखता हूँ ? (अज्ञेय)</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="व्याकरण">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-teal-100 dark:bg-teal-950 text-teal-700 dark:text-teal-300 font-bold text-xs flex items-center justify-center shrink-0">
+              6
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">अपठित बोध</h3>
+              <p class="text-xs text-teal-600 dark:text-teal-400 font-medium">बोध एवं समझ</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            04 अंक
+          </span>
+        </div>
+
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_6_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_6_1" class="leading-relaxed">अपठित काव्यांश / गद्यांश (शीर्षक, सारांश एवं आधारित बोध प्रश्न)</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="लेखन">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-rose-100 dark:bg-rose-950 text-rose-700 dark:text-rose-300 font-bold text-xs flex items-center justify-center shrink-0">
+              7
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">पत्र लेखन</h3>
+              <p class="text-xs text-rose-600 dark:text-rose-400 font-medium">रचनात्मक अभिव्यक्ति</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            04 अंक
+          </span>
+        </div>
+
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_7_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_7_1" class="leading-relaxed">औपचारिक पत्र (प्रार्थना पत्र, शिकायती पत्र, कार्यालयीन पत्र)</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_7_2" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_7_2" class="leading-relaxed">अनौपचारिक पत्र (मित्र, पारिवारिक एवं बधाई पत्र)</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="unit-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm hover:shadow-md transition-shadow" data-category="लेखन">
+        <div class="flex items-start justify-between gap-3 mb-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded-xl bg-orange-100 dark:bg-orange-950 text-orange-700 dark:text-orange-300 font-bold text-xs flex items-center justify-center shrink-0">
+              8
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">रचना एवं निबन्ध लेखन</h3>
+              <p class="text-xs text-orange-600 dark:text-orange-400 font-medium">लेखन कौशल</p>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-bold bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 whitespace-nowrap">
+            07 अंक
+          </span>
+        </div>
+
+        <ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300">
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_8_1" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_8_1" class="leading-relaxed">अनुच्छेद लेखन / संवाद लेखन / विज्ञापन लेखन / सूचना लेखन</label>
+          </li>
+          <li class="flex items-start gap-2.5">
+            <input type="checkbox" id="item_8_2" class="task-checkbox mt-1 h-4 w-4 rounded text-sky-600 border-slate-300 focus:ring-sky-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_8_2" class="leading-relaxed">निबन्ध लेखन (रूपरेखा सहित सारगर्भित रचना)</label>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+    <div class="mt-6 bg-gradient-to-r from-slate-900 to-sky-950 dark:from-slate-900 dark:to-slate-950 text-white rounded-3xl p-5 border border-sky-800/40 shadow-xl">
+      <div class="flex items-center justify-between">
+        <div>
+          <span class="text-xs font-semibold text-sky-400 tracking-wider uppercase">बोर्ड परीक्षा मूल्यांकन</span>
+          <h4 class="text-lg font-bold">कुल योग (Total Marks)</h4>
+          <p class="text-xs text-slate-300 mt-0.5">लिखित परीक्षा: 75 अंक + प्रायोजना/आंतरिक: 25 अंक = 100</p>
+        </div>
+        <div class="text-right">
+          <span class="text-3xl font-extrabold text-amber-400">75</span>
+          <span class="text-xs font-semibold text-slate-300 block">अंक</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMPORTANT EXAM BLUEPRINT NOTE SECTION (from document note) -->
+    <section class="bg-amber-50/80 dark:bg-amber-950/20 border-2 border-amber-300/80 dark:border-amber-700/60 rounded-3xl p-4 sm:p-5 shadow-md">
+      <div class="flex items-center gap-2.5 pb-3 border-b border-amber-200 dark:border-amber-900/60 mb-3.5">
+        <div class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-800 dark:text-amber-300 flex items-center justify-center font-bold text-sm shrink-0">
+          <i data-lucide="alert-circle" class="w-4 h-4"></i>
+        </div>
+        <div>
+          <h3 class="font-bold text-base text-amber-950 dark:text-amber-200">महत्वपूर्ण निर्देश / नोट</h3>
+          <p class="text-[11px] text-amber-800/80 dark:text-amber-400/90 font-medium">प्रश्नपत्र संरचना एवं अंक विभाजन प्रारूप</p>
+        </div>
+      </div>
+
+      <div class="space-y-3.5 text-xs sm:text-sm text-slate-800 dark:text-slate-200">
+        
+        <!-- Rule 1: Objective Questions -->
+        <div class="bg-white/80 dark:bg-slate-900/80 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm">
+          <div class="flex items-start gap-2 mb-2">
+            <span class="text-amber-600 dark:text-amber-400 font-bold shrink-0 text-base leading-none">➤</span>
+            <div class="flex-1">
+              <p class="font-bold text-slate-900 dark:text-white leading-snug">
+                प्रश्न क्रमांक 1 से 5 तक 30 वस्तुनिष्ठ प्रश्न होंगे। प्रत्येक प्रश्न पर 01 अंक निर्धारित है।
+              </p>
+              <span class="inline-block mt-1 text-[11px] font-semibold text-sky-700 dark:text-sky-300 bg-sky-50 dark:bg-sky-950/60 px-2 py-0.5 rounded-md border border-sky-200 dark:border-sky-800">
+                कुल: 30 अंक (30 × 1 अंक)
+              </span>
+            </div>
+          </div>
+
+          <!-- Sub-breakdown of Q 1 to 5 -->
+          <div class="ml-5 mt-2 space-y-1.5 pt-2 border-t border-slate-100 dark:border-slate-800/60 font-medium">
+            <div class="flex items-center justify-between py-0.5">
+              <span>• प्रश्न क्रमांक 1 — <strong class="text-slate-900 dark:text-slate-100">सही विकल्प</strong></span>
+              <span class="bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">06 अंक</span>
+            </div>
+            <div class="flex items-center justify-between py-0.5">
+              <span>• प्रश्न क्रमांक 2 — <strong class="text-slate-900 dark:text-slate-100">रिक्त स्थान</strong></span>
+              <span class="bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">06 अंक</span>
+            </div>
+            <div class="flex items-center justify-between py-0.5">
+              <span>• प्रश्न क्रमांक 3 — <strong class="text-slate-900 dark:text-slate-100">सत्य / असत्य</strong></span>
+              <span class="bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">06 अंक</span>
+            </div>
+            <div class="flex items-center justify-between py-0.5">
+              <span>• प्रश्न क्रमांक 4 — <strong class="text-slate-900 dark:text-slate-100">सही जोड़ी</strong></span>
+              <span class="bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">06 अंक</span>
+            </div>
+            <div class="flex items-center justify-between py-0.5">
+              <span>• प्रश्न क्रमांक 5 — <strong class="text-slate-900 dark:text-slate-100">एक वाक्य में उत्तर</strong></span>
+              <span class="bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">06 अंक</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rule 2: 2 Marks Questions -->
+        <div class="bg-white/80 dark:bg-slate-900/80 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm flex items-start justify-between gap-3">
+          <div class="flex items-start gap-2">
+            <span class="text-amber-600 dark:text-amber-400 font-bold shrink-0 text-base leading-none">➤</span>
+            <div>
+              <p class="font-bold text-slate-900 dark:text-white leading-snug">प्रश्न क्रमांक 6 से 17 तक कुल 12 प्रश्न होंगे।</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">प्रत्येक प्रश्न पर 02 अंक निर्धारित है। (अति लघु उत्तरीय)</p>
+            </div>
+          </div>
+          <span class="bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800 font-bold text-xs px-2.5 py-1 rounded-xl whitespace-nowrap">
+            24 अंक
+          </span>
+        </div>
+
+        <!-- Rule 3: 3 Marks Questions -->
+        <div class="bg-white/80 dark:bg-slate-900/80 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm flex items-start justify-between gap-3">
+          <div class="flex items-start gap-2">
+            <span class="text-amber-600 dark:text-amber-400 font-bold shrink-0 text-base leading-none">➤</span>
+            <div>
+              <p class="font-bold text-slate-900 dark:text-white leading-snug">प्रश्न क्रमांक 18 से 20 तक कुल 03 प्रश्न होंगे।</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">प्रत्येक प्रश्न पर 03 अंक निर्धारित है। (लघु उत्तरीय)</p>
+            </div>
+          </div>
+          <span class="bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 font-bold text-xs px-2.5 py-1 rounded-xl whitespace-nowrap">
+            09 अंक
+          </span>
+        </div>
+
+        <!-- Rule 4: 4 Marks Questions -->
+        <div class="bg-white/80 dark:bg-slate-900/80 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm flex items-start justify-between gap-3">
+          <div class="flex items-start gap-2">
+            <span class="text-amber-600 dark:text-amber-400 font-bold shrink-0 text-base leading-none">➤</span>
+            <div>
+              <p class="font-bold text-slate-900 dark:text-white leading-snug">प्रश्न क्रमांक 21 से 23 तक कुल 03 प्रश्न होंगे।</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">प्रत्येक प्रश्न पर 04 अंक निर्धारित है। (दीर्घ उत्तरीय / निबंध / पत्र)</p>
+            </div>
+          </div>
+          <span class="bg-rose-50 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-800 font-bold text-xs px-2.5 py-1 rounded-xl whitespace-nowrap">
+            12 अंक
+          </span>
+        </div>
+
+        <!-- Quick Summary Bar Calculation -->
+        <div class="p-3 bg-amber-100/70 dark:bg-amber-950/50 rounded-2xl text-[11px] text-amber-900 dark:text-amber-200 flex flex-wrap items-center justify-between gap-2 font-semibold">
+          <span>प्रश्नों का समीकरण: 30 + 24 + 9 + 12</span>
+          <span class="text-xs font-bold text-amber-800 dark:text-amber-300">= 75 अंक (कुल 23 प्रश्न)</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Feedback Notification Toast -->
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-4 py-2.5 rounded-full text-xs font-medium shadow-2xl flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300 z-50">
+      <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+      <span id="toastMsg">लिंक कॉपी हो गया!</span>
+    </div>
+
+  </main>
+
+  <script>
+    // Initialize icons
+    lucide.createIcons();
+
+    // Theme Management
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const themeIcon = document.getElementById('themeIcon');
+    const html = document.documentElement;
+
+    function initTheme() {
+      const savedTheme = localStorage.getItem('mp_board_theme');
+      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        html.classList.add('dark');
+        updateIcon(true);
+      } else {
+        html.classList.remove('dark');
+        updateIcon(false);
+      }
+    }
+
+    function updateIcon(isDark) {
+      if (isDark) {
+        themeIcon.setAttribute('data-lucide', 'sun');
+      } else {
+        themeIcon.setAttribute('data-lucide', 'moon');
+      }
+      lucide.createIcons();
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      const isDark = html.classList.toggle('dark');
+      localStorage.setItem('mp_board_theme', isDark ? 'dark' : 'light');
+      updateIcon(isDark);
+    });
+
+    initTheme();
+
+    // Study Progress Tracker
+    const STORAGE_KEY = 'mp_board_hindi_checklist_v1';
+    const checkboxes = document.querySelectorAll('.task-checkbox');
+    const progressBar = document.getElementById('progressBar');
+    const progressText = document.getElementById('progressText');
+    const resetProgressBtn = document.getElementById('resetProgressBtn');
+
+    function loadSavedProgress() {
+      const savedData = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      checkboxes.forEach(cb => {
+        if (savedData[cb.id]) {
+          cb.checked = true;
+          cb.closest('li').classList.add('opacity-60', 'line-through');
+        }
+      });
+      updateStats();
+    }
+
+    function updateStats() {
+      const total = checkboxes.length;
+      let checkedCount = 0;
+      const stateToSave = {};
+
+      checkboxes.forEach(cb => {
+        if (cb.checked) {
+          checkedCount++;
+          stateToSave[cb.id] = true;
+          cb.closest('li').classList.add('opacity-60', 'line-through');
+        } else {
+          cb.closest('li').classList.remove('opacity-60', 'line-through');
+        }
+      });
+
+      const percentage = Math.round((checkedCount / total) * 100);
+      progressBar.style.width = percentage + '%';
+      progressText.textContent = `${checkedCount} / ${total} विषय तैयार (${percentage}%)`;
+
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(stateToSave));
+    }
+
+    checkboxes.forEach(cb => {
+      cb.addEventListener('change', updateStats);
+    });
+
+    resetProgressBtn.addEventListener('click', () => {
+      if (confirmReset()) {
+        checkboxes.forEach(cb => {
+          cb.checked = false;
+          cb.closest('li').classList.remove('opacity-60', 'line-through');
+        });
+        localStorage.removeItem(STORAGE_KEY);
+        updateStats();
+        showToast('प्रगति रीसेट कर दी गई है!');
+      }
+    });
+
+    function confirmReset() {
+      return window.confirm('क्या आप अपनी अध्ययन प्रगति रीसेट करना चाहते हैं?');
+    }
+
+    loadSavedProgress();
+
+    // Search and Category Filter
+    const searchInput = document.getElementById('searchInput');
+    const filterChips = document.querySelectorAll('.filter-chip');
+    const unitCards = document.querySelectorAll('.unit-card');
+
+    let currentFilter = 'all';
+
+    function applyFilters() {
+      const query = searchInput.value.trim().toLowerCase();
+
+      unitCards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        const category = card.getAttribute('data-category');
+
+        const matchesSearch = !query || text.includes(query);
+        const matchesCategory = currentFilter === 'all' || category === currentFilter;
+
+        if (matchesSearch && matchesCategory) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    searchInput.addEventListener('input', applyFilters);
+
+    filterChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        filterChips.forEach(c => {
+          c.classList.remove('bg-sky-600', 'text-white');
+          c.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+        });
+        chip.classList.add('bg-sky-600', 'text-white');
+        chip.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+
+        currentFilter = chip.getAttribute('data-filter');
+        applyFilters();
+      });
+    });
+
+    // Toast Notification Utility
+    const toast = document.getElementById('toast');
+    const toastMsg = document.getElementById('toastMsg');
+
+    function showToast(msg) {
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2500);
+    }
+  </script>
 </body>
 </html>

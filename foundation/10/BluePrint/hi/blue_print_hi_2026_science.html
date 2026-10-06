@@ -1,123 +1,934 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="hi" class="h-full">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>विज्ञान - पाठ्यक्रम एवं अंक विभाजन</title>
-    <style>
-        :root {
-            --primary-color: #4f46e5;
-            --science-color: #10b981;
-            --sst-color: #f59e0b;
-            --hindi-color: #ef4444;
-            --english-color: #3b82f6;
-            --sanskrit-color: #8b5cf6;
-            --format-color: #ec4899;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-color: #1e293b;
-            --border-color: #e2e8f0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MP Board Class 10 Science Marking Scheme 2026-2027</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '"Inter"', 'sans-serif'],
+            hindi: ['"Noto Sans Devanagari"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#ecfdf5',
+              100: '#d1fae5',
+              500: '#10b981',
+              600: '#059669',
+              700: '#047857',
+              800: '#065f46',
+              900: '#064e3b',
+            }
+          }
         }
+      }
+    }
+  </script>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 16px;
-            line-height: 1.6;
-        }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
-        h1 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: var(--primary-color);
-            margin-bottom: 24px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            border-left: 5px solid var(--primary-color);
-        }
-
-        .card.science { border-left-color: var(--science-color); }
-        .card.sst { border-left-color: var(--sst-color); }
-        .card.hindi { border-left-color: var(--hindi-color); }
-        .card.english { border-left-color: var(--english-color); }
-        .card.sanskrit { border-left-color: var(--sanskrit-color); }
-        .card.format { border-left-color: var(--format-color); }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-bottom: 12px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-        }
-
-        .total-badge {
-            background: #e0e7ff;
-            color: var(--primary-color);
-            padding: 2px 8px;
-            border-radius: 6px;
-            font-size: 0.85rem;
-        }
-
-        .science .total-badge { background: #d1fae5; color: #047857; }
-        .sst .total-badge { background: #fef3c7; color: #b45309; }
-        .hindi .total-badge { background: #fee2e2; color: #991b1b; }
-        .english .total-badge { background: #dbeafe; color: #1e40af; }
-        .sanskrit .total-badge { background: #ede9fe; color: #5b21b6; }
-        .format .total-badge { background: #fce7f3; color: #be185d; }
-
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-            font-size: 0.95rem;
-        }
-
-        li span {
-            font-weight: 600;
-        }
-
-    </style>
+  <style>
+    body {
+      font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      user-select: text;
+    }
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(148, 163, 184, 0.4);
+      border-radius: 9999px;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
 </head>
-<body>
 
-<div class="container">
-    <h1>विज्ञान (Science)</h1>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-full flex flex-col antialiased transition-colors duration-200">
 
-    <div class="card science">
-        <div class="card-header">
-            🧪 विज्ञान (Science)
-            <span class="total-badge">75 अंक</span>
+  <!-- Android Top App Bar (Without Share Icon) -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-emerald-100 dark:border-slate-800 shadow-sm">
+    <div class="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-emerald-600 via-teal-600 to-cyan-500 flex items-center justify-center text-white shadow-md shadow-emerald-500/20 shrink-0">
+          <i data-lucide="flask-conical" class="w-5 h-5"></i>
         </div>
-        <ul>
-            <li><span>रासायनिक पदार्थ - प्रकृति एवं व्यवहार (अध्याय 1 से 4):</span> 25 अंक</li>
-            <li><span>जैव जगत (जैव प्रक्रम, नियंत्रण एवं समन्वय, जनन, अनुवांशिकी):</span> 22 अंक</li>
-            <li><span>प्राकृतिक घटनाएँ (प्रकाश - परावर्तन तथा अपवर्तन, मानव नेत्र):</span> 12 अंक</li>
-            <li><span>विद्युत का प्रभाव (विद्युत धारा के चुंबकीय प्रभाव सहित):</span> 11 अंक</li>
-            <li><span>प्राकृतिक संसाधन (हमारा पर्यावरण):</span> 5 अंक</li>
-        </ul>
+        <div>
+          <span class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 block leading-tight" data-i18n="boardTitle">
+            माध्यमिक शिक्षा मण्डल, मध्यप्रदेश, भोपाल
+          </span>
+          <h1 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-tight" data-i18n="headerMainTitle">
+            विज्ञान (Class X) अंक योजना
+          </h1>
+        </div>
+      </div>
+
+      <!-- Action Buttons: Language Switcher & Dark Mode Toggle -->
+      <div class="flex items-center gap-1.5">
+        <!-- Bilingual Toggle Button -->
+        <button id="langToggleBtn" class="flex items-center gap-1 px-2.5 py-1.5 rounded-xl bg-emerald-50 dark:bg-slate-800 border border-emerald-200 dark:border-slate-700 text-emerald-700 dark:text-emerald-300 text-xs font-bold active:scale-95 transition-all">
+          <i data-lucide="languages" class="w-3.5 h-3.5"></i>
+          <span id="langLabel">English</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggleBtn" aria-label="Toggle Theme" class="p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-90 transition-all">
+          <i data-lucide="moon" id="themeIcon" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-lg w-full mx-auto px-4 py-3.5 pb-24 space-y-4">
+    
+    <!-- Hero Header Card -->
+    <section class="bg-gradient-to-br from-emerald-700 via-teal-700 to-cyan-800 rounded-3xl p-5 text-white shadow-xl shadow-emerald-950/20 relative overflow-hidden">
+      <div class="absolute -right-8 -bottom-8 w-36 h-36 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+
+      <div class="flex items-center justify-between gap-2 mb-3">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-white/20 backdrop-blur-md text-white border border-white/20">
+          <i data-lucide="calendar" class="w-3.5 h-3.5"></i> <span data-i18n="sessionTag">सत्र 2026-27</span>
+        </span>
+        <span class="text-xs font-semibold text-emerald-100 bg-emerald-950/60 px-3 py-1 rounded-full border border-emerald-300/20" data-i18n="examType">
+          हाईस्कूल परीक्षा
+        </span>
+      </div>
+
+      <div class="mb-4">
+        <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight" data-i18n="subjectTitle">
+          विषय :- विज्ञान (Science)
+        </h2>
+        <p class="text-emerald-100 text-xs mt-0.5" data-i18n="heroSubtitle">
+          माध्यमिक शिक्षा मण्डल द्वारा निर्धारित आधिकारिक अध्यायवार अंक योजना
+        </p>
+      </div>
+
+      <!-- Quick Subject Domains Pill -->
+      <div class="bg-emerald-950/40 border border-white/15 rounded-2xl p-2.5 mb-3 flex items-start gap-2 text-xs text-emerald-100">
+        <i data-lucide="sparkles" class="w-4 h-4 text-cyan-300 shrink-0 mt-0.5"></i>
+        <p class="leading-relaxed" data-i18n="subjectDomainNotice">
+          <strong>विषय विभाजन:</strong> रसायन विज्ञान (24 अंक) + जीव विज्ञान (24 अंक) + भौतिकी (24 अंक) + हमारा पर्यावरण (03 अंक) = कुल 75 अंक।
+        </p>
+      </div>
+
+      <!-- Overview Stats Pills -->
+      <div class="grid grid-cols-4 gap-2 pt-3 border-t border-white/15 text-center">
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-emerald-200 uppercase font-semibold" data-i18n="statObj">वस्तुनिष्ठ</p>
+          <p class="text-base font-bold">30 <span class="text-[10px] font-normal text-emerald-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-emerald-200 uppercase font-semibold" data-i18n="statVSA">2 अंक (12)</p>
+          <p class="text-base font-bold">24 <span class="text-[10px] font-normal text-emerald-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-emerald-200 uppercase font-semibold" data-i18n="statSA">3 अंक (03)</p>
+          <p class="text-base font-bold">09 <span class="text-[10px] font-normal text-emerald-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-emerald-200 uppercase font-semibold" data-i18n="statLA">4 अंक (03)</p>
+          <p class="text-base font-bold">12 <span class="text-[10px] font-normal text-emerald-200" data-i18n="marksUnit">अंक</span></p>
+        </div>
+      </div>
+
+      <!-- Time & Maximum Marks -->
+      <div class="mt-3 pt-2.5 flex items-center justify-between border-t border-white/10 text-xs text-emerald-100">
+        <span class="flex items-center gap-1.5"><i data-lucide="clock" class="w-3.5 h-3.5"></i> <span data-i18n="timeText">समय: <strong>3:00 घंटे</strong></span></span>
+        <span class="flex items-center gap-1.5"><i data-lucide="award" class="w-3.5 h-3.5"></i> <span data-i18n="totalMarksText">पूर्णांक: <strong>75 अंक</strong></span></span>
+      </div>
+    </section>
+
+    <!-- Preparation Tracker Card -->
+    <div class="bg-white dark:bg-slate-900 rounded-2xl p-4 border border-emerald-100 dark:border-slate-800 shadow-sm">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+          <span class="text-xs font-bold text-slate-800 dark:text-slate-200" data-i18n="trackerTitle">विज्ञान अध्ययन प्रगति ट्रैकर</span>
+        </div>
+        <span id="progressText" class="text-xs font-extrabold text-emerald-600 dark:text-emerald-400">0 / 13 पूर्ण (0%)</span>
+      </div>
+      <div class="w-full bg-slate-100 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden">
+        <div id="progressBar" class="bg-emerald-500 h-full rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+      <div class="flex items-center justify-between mt-2 pt-1 text-[11px] text-slate-500 dark:text-slate-400">
+        <span data-i18n="trackerHint">तैयारी पूर्ण होने पर टिक करें</span>
+        <button id="resetProgressBtn" class="text-rose-600 dark:text-rose-400 font-medium hover:underline" data-i18n="resetBtn">रीसेट करें</button>
+      </div>
     </div>
 
-</div>
+    <!-- Search Bar & Filters -->
+    <div class="space-y-2.5">
+      <div class="relative">
+        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="खोजें: रासायनिक अभिक्रियाएं, जैव प्रक्रम, विद्युत, प्रकाश..." 
+          class="w-full pl-10 pr-4 py-2.5 text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:focus:ring-emerald-400 text-slate-800 dark:text-slate-100 shadow-sm transition-all"
+        />
+      </div>
 
+      <!-- Filter Chips -->
+      <div class="flex gap-2 overflow-x-auto pb-1 text-xs no-scrollbar scroll-smooth">
+        <button data-filter="all" class="filter-chip px-3.5 py-1.5 rounded-full font-bold whitespace-nowrap bg-emerald-600 text-white shadow-sm transition-all">
+          <span data-i18n="filterAll">सम्पूर्ण 13 अध्याय (75 अंक)</span>
+        </button>
+        <button data-filter="chem" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterChem">रसायन विज्ञान (24)</span>
+        </button>
+        <button data-filter="bio" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterBio">जीव विज्ञान (24)</span>
+        </button>
+        <button data-filter="physics" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterPhysics">भौतिक विज्ञान (24)</span>
+        </button>
+        <button data-filter="env" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          <span data-i18n="filterEnv">पर्यावरण (03)</span>
+        </button>
+        <button data-filter="exam-notes" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-amber-100 dark:bg-amber-950/70 text-amber-800 dark:text-amber-300 hover:bg-amber-200 transition-all">
+          <span data-i18n="filterNotes">परीक्षा प्रारूप (नोट)</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Cards Container -->
+    <div id="cardsContainer" class="space-y-3">
+
+      <!-- Dynamic list of 13 Science chapters -->
+      <div id="chaptersList" class="space-y-3"></div>
+
+      <!-- Grand Total Banner -->
+      <div class="bg-gradient-to-r from-emerald-950 via-teal-950 to-slate-900 text-white rounded-3xl p-5 border border-emerald-600/30 shadow-xl">
+        <div class="flex items-center justify-between">
+          <div>
+            <span class="text-xs font-semibold text-emerald-400 tracking-wider uppercase" data-i18n="grandTotalSub">हाईस्कूल परीक्षा मूल्यांकन</span>
+            <h4 class="text-lg font-bold" data-i18n="grandTotalTitle">कुल योग (Grand Total)</h4>
+            <p class="text-xs text-slate-300 mt-0.5" data-i18n="grandTotalDesc">सैद्धांतिक परीक्षा: 75 अंक + प्रायोगिक/प्रायोजना कार्य: 25 अंक = 100 अंक</p>
+          </div>
+          <div class="text-right">
+            <span class="text-3xl font-extrabold text-teal-400">75</span>
+            <span class="text-xs font-semibold text-slate-300 block" data-i18n="marksUnit">कुल अंक</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Official Exam Note Section (परीक्षा प्रारूप एवं प्रश्न योजना) -->
+      <section class="blueprint-card bg-amber-50/80 dark:bg-amber-950/20 border-2 border-amber-300/80 dark:border-amber-700/60 rounded-3xl p-4 sm:p-5 shadow-md" data-category="exam-notes">
+        <div class="flex items-center gap-2.5 pb-3 border-b border-amber-200 dark:border-amber-900/60 mb-3.5">
+          <div class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-800 dark:text-amber-300 flex items-center justify-center font-bold text-sm shrink-0">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-base text-amber-950 dark:text-amber-200" data-i18n="noteHeading">
+              नोट – प्रश्नपत्र प्रारूप एवं अंक योजना
+            </h3>
+            <p class="text-[11px] text-amber-800/80 dark:text-amber-400/90 font-medium" data-i18n="noteSubHeading">
+              माध्यमिक शिक्षा मण्डल, म.प्र. की आधिकारिक अंक योजना
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-3.5">
+          <!-- 1. वस्तुनिष्ठ प्रश्न (1 से 5) -->
+          <div class="bg-white/95 dark:bg-slate-900/90 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm">
+            <div class="flex items-center justify-between mb-2 pb-1.5 border-b border-slate-100 dark:border-slate-800">
+              <span class="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                <i data-lucide="check-square" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+                <span data-i18n="objTitle">प्रश्न क्रमांक १ से ५ : ३० वस्तुनिष्ठ प्रश्न</span>
+              </span>
+              <span class="text-xs font-extrabold text-emerald-600 dark:text-emerald-400" data-i18n="eachOneMark">प्रत्येक प्रश्न ०१ अंक</span>
+            </div>
+
+            <p class="text-xs text-slate-600 dark:text-slate-400 mb-2 leading-relaxed" data-i18n="objDesc">
+              प्रश्न क्रमांक १ से ५ तक ३० वस्तुनिष्ठ प्रश्न होंगे। प्रत्येक प्रश्न पर ०१ अंक निर्धारित है:
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 dark:text-slate-300 font-medium">
+              <div class="flex justify-between items-center bg-emerald-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-emerald-100/70 dark:border-slate-800">
+                <span data-i18n="q1">प्रश्न क्रमांक १ — <strong>सही विकल्प (MCQs)</strong></span>
+                <span class="font-bold text-emerald-700 dark:text-emerald-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center bg-emerald-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-emerald-100/70 dark:border-slate-800">
+                <span data-i18n="q2">प्रश्न क्रमांक २ — <strong>रिक्त स्थान (Fill in Blanks)</strong></span>
+                <span class="font-bold text-emerald-700 dark:text-emerald-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center bg-emerald-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-emerald-100/70 dark:border-slate-800">
+                <span data-i18n="q3">प्रश्न क्रमांक ३ — <strong>सत्य / असत्य (True/False)</strong></span>
+                <span class="font-bold text-emerald-700 dark:text-emerald-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center bg-emerald-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-emerald-100/70 dark:border-slate-800">
+                <span data-i18n="q4">प्रश्न क्रमांक ४ — <strong>सही जोड़ी (Match Columns)</strong></span>
+                <span class="font-bold text-emerald-700 dark:text-emerald-300">०६ अंक</span>
+              </div>
+              <div class="flex justify-between items-center sm:col-span-2 bg-emerald-50/50 dark:bg-slate-800/60 px-3 py-2 rounded-xl border border-emerald-100/70 dark:border-slate-800">
+                <span data-i18n="q5">प्रश्न क्रमांक ५ — <strong>एक वाक्य में उत्तर (One Word/Sentence)</strong></span>
+                <span class="font-bold text-emerald-700 dark:text-emerald-300">०६ अंक</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. विवरणात्मक प्रश्न (6 से 23) -->
+          <div class="bg-white/95 dark:bg-slate-900/90 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm space-y-2">
+            <div class="flex items-center justify-between mb-1 pb-1.5 border-b border-slate-100 dark:border-slate-800">
+              <span class="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                <i data-lucide="layers" class="w-4 h-4 text-amber-600 dark:text-amber-400"></i>
+                <span data-i18n="descTitle">प्रश्न क्रमांक ६ से २३ : विवरणात्मक प्रश्न</span>
+              </span>
+              <span class="text-xs font-extrabold text-blue-600 dark:text-blue-400" data-i18n="total45Marks">कुल ४५ अंक</span>
+            </div>
+
+            <!-- 6 to 17 -->
+            <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+              <div>
+                <p class="font-bold text-xs text-slate-900 dark:text-white" data-i18n="q6to17Title">प्रश्न क्रमांक ६ से १७ तक</p>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400" data-i18n="q6to17Desc">कुल १२ प्रश्न • प्रत्येक प्रश्न पर ०२ अंक</p>
+              </div>
+              <div class="text-right">
+                <span class="font-extrabold text-xs text-emerald-700 dark:text-emerald-400">१२ × २ = २४ अंक</span>
+              </div>
+            </div>
+
+            <!-- 18 to 20 -->
+            <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+              <div>
+                <p class="font-bold text-xs text-slate-900 dark:text-white" data-i18n="q18to20Title">प्रश्न क्रमांक १८ से २० तक</p>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400" data-i18n="q18to20Desc">कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०३ अंक</p>
+              </div>
+              <div class="text-right">
+                <span class="font-extrabold text-xs text-blue-700 dark:text-blue-400">०३ × ३ = ०९ अंक</span>
+              </div>
+            </div>
+
+            <!-- 21 to 23 -->
+            <div class="p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+              <div>
+                <p class="font-bold text-xs text-slate-900 dark:text-white" data-i18n="q21to23Title">प्रश्न क्रमांक २१ से २३ तक</p>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400" data-i18n="q21to23Desc">कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०४ अंक</p>
+              </div>
+              <div class="text-right">
+                <span class="font-extrabold text-xs text-purple-700 dark:text-purple-400">०३ × ४ = १२ अंक</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Total Calculation Equation Pill -->
+          <div class="p-3 bg-amber-100/90 dark:bg-amber-950/70 rounded-2xl text-[11px] text-amber-900 dark:text-amber-200 flex flex-wrap items-center justify-between gap-1 font-semibold">
+            <span data-i18n="calcFormula">अंक समीकरण: ३० (वस्तुनिष्ठ) + २४ (२ अंक) + ९ (३ अंक) + १२ (४ अंक)</span>
+            <span class="text-xs font-bold text-amber-950 dark:text-amber-100" data-i18n="calcTotal">= कुल ७५ अंक (२३ प्रश्न)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Official Reference Source Card -->
+      <section class="bg-white dark:bg-slate-900 rounded-3xl p-4 border border-slate-200 dark:border-slate-800 shadow-sm flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3 overflow-hidden">
+          <div class="w-10 h-10 rounded-2xl bg-emerald-100 dark:bg-emerald-950/80 text-emerald-600 dark:text-emerald-400 flex items-center justify-center shrink-0">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div class="truncate">
+            <span class="text-[10px] font-bold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider block" data-i18n="refTag">आधिकारिक संदर्भ स्रोत</span>
+            <p class="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-100 truncate" data-i18n="refTitle">माध्यमिक शिक्षा मण्डल, भोपाल</p>
+            <p class="text-[11px] text-slate-500 dark:text-slate-400 truncate">mpbse.nic.in</p>
+          </div>
+        </div>
+        <a 
+          href="https://mpbse.nic.in" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          aria-label="Visit official MPBSE website"
+          class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md shadow-emerald-500/20 active:scale-95 transition-all shrink-0">
+          <span data-i18n="refButton">वेबसाइट</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+      </section>
+
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-4 py-2.5 rounded-full text-xs font-semibold shadow-2xl flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300 z-50">
+      <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+      <span id="toastMsg">प्रगति सुरक्षित की गई</span>
+    </div>
+
+  </main>
+
+  <!-- JavaScript Logic -->
+  <script>
+    // Complete 13 Chapters Data with Hindi & English titles, branch tags and subtopics
+    const scienceChapters = [
+      {
+        id: "sci_ch_1",
+        category: "chem",
+        marks: 7,
+        hi: {
+          title: "अध्याय–1 : रासायनिक अभिक्रियाएं एवं समीकरण",
+          subtopics: "रासायनिक समीकरण लिखना एवं संतुलित करना, संयोजन, वियोजन, विस्थापन, द्विविस्थापन, उपचयन एवं अपचयन, संक्षारण, विकृतगंधिता",
+          branch: "रसायन विज्ञान"
+        },
+        en: {
+          title: "Chapter 1 : Chemical Reactions and Equations",
+          subtopics: "Writing & balancing chemical equations, Combination, Decomposition, Displacement, Double displacement, Oxidation and Reduction, Corrosion, Rancidity",
+          branch: "Chemistry"
+        }
+      },
+      {
+        id: "sci_ch_2",
+        category: "chem",
+        marks: 6,
+        hi: {
+          title: "अध्याय–2 : अम्ल, क्षारक एवं लवण",
+          subtopics: "अम्ल एवं क्षारक के रासायनिक गुणधर्म, pH पैमाना, दैनिक जीवन में pH का महत्व, लवण परिवार, विरंजक चूर्ण, बेकिंग सोडा, धावन सोडा, प्लास्टर ऑफ पेरिस",
+          branch: "रसायन विज्ञान"
+        },
+        en: {
+          title: "Chapter 2 : Acids, Bases and Salts",
+          subtopics: "Chemical properties of acids and bases, pH scale and its importance in everyday life, Salts family, Bleaching powder, Baking soda, Washing soda, Plaster of Paris",
+          branch: "Chemistry"
+        }
+      },
+      {
+        id: "sci_ch_3",
+        category: "chem",
+        marks: 5,
+        hi: {
+          title: "अध्याय–3 : धातु एवं अधातु",
+          subtopics: "धातुओं एवं अधातुओं के भौतिक व रासायनिक गुण, सक्रियता श्रेणी, आयनिक यौगिकों के गुणधर्म, धातुकर्म के मूलभूत प्रक्रम",
+          branch: "रसायन विज्ञान"
+        },
+        en: {
+          title: "Chapter 3 : Metals and Non-metals",
+          subtopics: "Physical & chemical properties of metals and non-metals, Reactivity series, Properties of ionic compounds, Basic metallurgical processes",
+          branch: "Chemistry"
+        }
+      },
+      {
+        id: "sci_ch_4",
+        category: "chem",
+        marks: 6,
+        hi: {
+          title: "अध्याय–4 : कार्बन एवं उसके यौगिक",
+          subtopics: "कार्बन में सहसंयोजी आबंधन, कार्बन की सर्वतोमुखी प्रकृति, समजातीय श्रेणी, प्रकार्यात्मक समूह, कार्बन यौगिकों के रासायनिक गुणधर्म (दहन, ऑक्सीकरण), एथेनॉल एवं एथेनॉइक अम्ल, साबुन और अपमार्जक",
+          branch: "रसायन विज्ञान"
+        },
+        en: {
+          title: "Chapter 4 : Carbon and its Compounds",
+          subtopics: "Covalent bonding in carbon, Versatile nature of carbon, Homologous series, Functional groups, Chemical properties of carbon compounds, Ethanol and Ethanoic acid, Soaps and detergents",
+          branch: "Chemistry"
+        }
+      },
+      {
+        id: "sci_ch_5",
+        category: "bio",
+        marks: 8,
+        hi: {
+          title: "अध्याय–5 : जैव प्रक्रम",
+          subtopics: "जैव प्रक्रम की परिभाषा, पोषण (स्वपोषी एवं विषमपोषी), मानव में पाचन, श्वसन, मानव में वहन (परिसंचरण तंत्र) एवं पादपों में परिवहन, उत्सर्जन (वृक्क की संरचना एवं कार्य)",
+          branch: "जीव विज्ञान"
+        },
+        en: {
+          title: "Chapter 5 : Life Processes",
+          subtopics: "What are life processes?, Nutrition (Autotrophic & Heterotrophic), Human digestive system, Respiration, Transportation in humans and plants, Excretion in humans & plants",
+          branch: "Biology"
+        }
+      },
+      {
+        id: "sci_ch_6",
+        category: "bio",
+        marks: 6,
+        hi: {
+          title: "अध्याय–6 : नियंत्रण एवं समन्वय",
+          subtopics: "जंतु तंत्रिका तंत्र, प्रतिवर्ती क्रिया, मानव मस्तिष्क, पादपों में समन्वय (पादप हार्मोन, अनुवर्तन गतियाँ), जंतुओं में हार्मोन (अंतःस्रावी ग्रंथियाँ)",
+          branch: "जीव विज्ञान"
+        },
+        en: {
+          title: "Chapter 6 : Control and Coordination",
+          subtopics: "Nervous system in animals, Reflex action, Human brain, Coordination in plants (Plant hormones, Tropic movements), Hormones in animals (Endocrine glands)",
+          branch: "Biology"
+        }
+      },
+      {
+        id: "sci_ch_7",
+        category: "bio",
+        marks: 6,
+        hi: {
+          title: "अध्याय–7 : जीव जनन कैसे करते हैं?",
+          subtopics: "अलैंगिक जनन की विधियाँ (विखंडन, खंडन, पुनर्जनन, मुकुलन, कायिक प्रवर्धन), पुष्पी पौधों में लैंगिक जनन, मानव में लैंगिक जनन (नर एवं मादा जनन तंत्र), जनन स्वास्थ्य",
+          branch: "जीव विज्ञान"
+        },
+        en: {
+          title: "Chapter 7 : How do Organisms Reproduce?",
+          subtopics: "Asexual reproduction methods (Fission, Fragmentation, Regeneration, Budding, Vegetative propagation), Sexual reproduction in flowering plants, Human reproductive system, Reproductive health",
+          branch: "Biology"
+        }
+      },
+      {
+        id: "sci_ch_8",
+        category: "bio",
+        marks: 4,
+        hi: {
+          title: "अध्याय–8 : आनुवंशिकता",
+          subtopics: "जनन के दौरान विभिन्नताओं का संचयन, आनुवंशिकता, मेंडल का योगदान (लक्षणों की वंशागति के नियम), लिंग निर्धारण (मानव में लिंग निर्धारण)",
+          branch: "जीव विज्ञान"
+        },
+        en: {
+          title: "Chapter 8 : Heredity",
+          subtopics: "Accumulation of variation during reproduction, Heredity, Mendel's contribution (Rules for inheritance of traits), Sex determination in human beings",
+          branch: "Biology"
+        }
+      },
+      {
+        id: "sci_ch_9",
+        category: "physics",
+        marks: 8,
+        hi: {
+          title: "अध्याय–9 : प्रकाश – परावर्तन तथा अपवर्तन",
+          subtopics: "प्रकाश का परावर्तन, गोलीय दर्पण (अवतल व उत्तल दर्पण द्वारा प्रतिबिम्ब निर्माण, दर्पण सूत्र, आवर्धन), प्रकाश का अपवर्तन (स्नेल का नियम), अपवर्तनांक, गोलीय लेंस (लेंस सूत्र, आवर्धन, लेंस की क्षमता)",
+          branch: "भौतिक विज्ञान"
+        },
+        en: {
+          title: "Chapter 9 : Light – Reflection and Refraction",
+          subtopics: "Reflection of light, Spherical mirrors (Image formation by concave & convex mirrors, Mirror formula, Magnification), Refraction of light, Refractive index, Spherical lenses (Lens formula, Magnification, Power of a lens)",
+          branch: "Physics"
+        }
+      },
+      {
+        id: "sci_ch_10",
+        category: "physics",
+        marks: 5,
+        hi: {
+          title: "अध्याय–10 : मानव नेत्र तथा रंगबिरंगा संसार",
+          subtopics: "मानव नेत्र की संरचना एवं समंजन क्षमता, दृष्टि दोष तथा उनका संशोधन (निकट दृष्टि, दीर्घ दृष्टि, जरा दूरदृष्टिता), प्रिज्म से प्रकाश का अपवर्तन, प्रकाश का विक्षेपण, वायुमंडलीय अपवर्तन, प्रकाश का प्रकीर्णन (टिंडल प्रभाव)",
+          branch: "भौतिक विज्ञान"
+        },
+        en: {
+          title: "Chapter 10 : The Human Eye and the Colorful World",
+          subtopics: "Structure of human eye & power of accommodation, Defects of vision & correction (Myopia, Hypermetropia, Presbyopia), Refraction through a prism, Dispersion of white light, Atmospheric refraction, Scattering of light (Tyndall effect)",
+          branch: "Physics"
+        }
+      },
+      {
+        id: "sci_ch_11",
+        category: "physics",
+        marks: 5,
+        hi: {
+          title: "अध्याय–11 : विद्युत",
+          subtopics: "विद्युत धारा और परिपथ, विद्युत विभव और विभवांतर, ओम का नियम, प्रतिरोध को प्रभावित करने वाले कारक, प्रतिरोधकों का श्रेणीक्रम व पार्श्वक्रम संयोजन, विद्युत धारा का तापीय प्रभाव (जूल का नियम), विद्युत शक्ति",
+          branch: "भौतिक विज्ञान"
+        },
+        en: {
+          title: "Chapter 11 : Electricity",
+          subtopics: "Electric current & circuit, Electric potential and potential difference, Ohm's law, Factors affecting resistance, Series and parallel combination of resistors, Heating effect of electric current (Joule's law), Electric power",
+          branch: "Physics"
+        }
+      },
+      {
+        id: "sci_ch_12",
+        category: "physics",
+        marks: 6,
+        hi: {
+          title: "अध्याय–12 : विद्युत धारा के चुंबकीय प्रभाव",
+          subtopics: "चुंबकीय क्षेत्र और क्षेत्र रेखाएँ, सीधे चालक, वृत्ताकार पाश तथा परिनालिका में धारा प्रवाहित होने के कारण चुंबकीय क्षेत्र, फ्लेमिंग का वाम-हस्त नियम, विद्युत चुंबकीय प्रेरण, घरेलू विद्युत परिपथ",
+          branch: "भौतिक विज्ञान"
+        },
+        en: {
+          title: "Chapter 12 : Magnetic Effects of Electric Current",
+          subtopics: "Magnetic field and field lines, Field due to current through a straight conductor, circular loop & solenoid, Force on a current-carrying conductor, Fleming's left-hand rule, Electromagnetic induction, Domestic electric circuits",
+          branch: "Physics"
+        }
+      },
+      {
+        id: "sci_ch_13",
+        category: "env",
+        marks: 3,
+        hi: {
+          title: "अध्याय–13 : हमारा पर्यावरण",
+          subtopics: "पारितंत्र (इसके घटक: जैविक व अजैविक घटक), खाद्य शृंखला एवं खाद्य जाल, पोषी स्तर, 10% ऊर्जा नियम, पर्यावरण पर मानवीय गतिविधियों का प्रभाव (ओजोन परत का अपक्षय, कचरा प्रबंधन)",
+          branch: "पर्यावरण विज्ञान"
+        },
+        en: {
+          title: "Chapter 13 : Our Environment",
+          subtopics: "Ecosystem (Biotic & abiotic components), Food chains and food webs, Trophic levels, 10% energy transfer rule, Environmental effects of human activities (Ozone layer depletion, Garbage management)",
+          branch: "Environmental Science"
+        }
+      }
+    ];
+
+    // Static text translations dictionary
+    const i18nData = {
+      hi: {
+        boardTitle: "माध्यमिक शिक्षा मण्डल, मध्यप्रदेश, भोपाल",
+        headerMainTitle: "विज्ञान (Class X) अंक योजना",
+        sessionTag: "सत्र 2026-27",
+        examType: "हाईस्कूल परीक्षा",
+        subjectTitle: "विषय :- विज्ञान (Science)",
+        heroSubtitle: "माध्यमिक शिक्षा मण्डल द्वारा निर्धारित आधिकारिक अध्यायवार अंक योजना",
+        subjectDomainNotice: "<strong>विषय विभाजन:</strong> रसायन विज्ञान (24 अंक) + जीव विज्ञान (24 अंक) + भौतिकी (24 अंक) + हमारा पर्यावरण (03 अंक) = कुल 75 अंक।",
+        statObj: "वस्तुनिष्ठ",
+        statVSA: "2 अंक (12)",
+        statSA: "3 अंक (03)",
+        statLA: "4 अंक (03)",
+        marksUnit: "अंक",
+        timeText: "समय: <strong>3:00 घंटे</strong>",
+        totalMarksText: "पूर्णांक: <strong>75 अंक</strong>",
+        trackerTitle: "विज्ञान अध्ययन प्रगति ट्रैकर",
+        trackerHint: "तैयारी पूर्ण होने पर टिक करें",
+        resetBtn: "रीसेट करें",
+        filterAll: "सम्पूर्ण 13 अध्याय (75 अंक)",
+        filterChem: "रसायन विज्ञान (24)",
+        filterBio: "जीव विज्ञान (24)",
+        filterPhysics: "भौतिक विज्ञान (24)",
+        filterEnv: "पर्यावरण (03)",
+        filterNotes: "परीक्षा प्रारूप (नोट)",
+        grandTotalSub: "हाईस्कूल परीक्षा मूल्यांकन",
+        grandTotalTitle: "कुल योग (Grand Total)",
+        grandTotalDesc: "सैद्धांतिक परीक्षा: 75 अंक + प्रायोगिक/प्रायोजना कार्य: 25 अंक = 100 अंक",
+        noteHeading: "नोट – प्रश्नपत्र प्रारूप एवं अंक योजना",
+        noteSubHeading: "माध्यमिक शिक्षा मण्डल, म.प्र. की आधिकारिक अंक योजना",
+        objTitle: "प्रश्न क्रमांक १ से ५ : ३० वस्तुनिष्ठ प्रश्न",
+        eachOneMark: "प्रत्येक प्रश्न ०१ अंक",
+        objDesc: "प्रश्न क्रमांक १ से ५ तक ३० वस्तुनिष्ठ प्रश्न होंगे। प्रत्येक प्रश्न पर ०१ अंक निर्धारित है:",
+        q1: "प्रश्न क्रमांक १ — <strong>सही विकल्प (MCQs)</strong>",
+        q2: "प्रश्न क्रमांक २ — <strong>रिक्त स्थान (Fill in Blanks)</strong>",
+        q3: "प्रश्न क्रमांक ३ — <strong>सत्य / असत्य (True/False)</strong>",
+        q4: "प्रश्न क्रमांक ४ — <strong>सही जोड़ी (Match Columns)</strong>",
+        q5: "प्रश्न क्रमांक ५ — <strong>एक वाक्य में उत्तर (One Word/Sentence)</strong>",
+        descTitle: "प्रश्न क्रमांक ६ से २३ : विवरणात्मक प्रश्न",
+        total45Marks: "कुल ४५ अंक",
+        q6to17Title: "प्रश्न क्रमांक ६ से १७ तक",
+        q6to17Desc: "कुल १२ प्रश्न • प्रत्येक प्रश्न पर ०२ अंक",
+        q18to20Title: "प्रश्न क्रमांक १८ से २० तक",
+        q18to20Desc: "कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०३ अंक",
+        q21to23Title: "प्रश्न क्रमांक २१ से २३ तक",
+        q21to23Desc: "कुल ०३ प्रश्न • प्रत्येक प्रश्न पर ०४ अंक",
+        calcFormula: "अंक समीकरण: ३० (वस्तुनिष्ठ) + २४ (२ अंक) + ९ (३ अंक) + १२ (४ अंक)",
+        calcTotal: "= कुल ७५ अंक (२३ प्रश्न)",
+        refTag: "आधिकारिक संदर्भ स्रोत",
+        refTitle: "माध्यमिक शिक्षा मण्डल, भोपाल",
+        refButton: "वेबसाइट",
+        searchPlaceholder: "खोजें: रासायनिक अभिक्रियाएं, जैव प्रक्रम, विद्युत, प्रकाश...",
+        toastCompleted: "प्रगति सुरक्षित की गई",
+        toastReset: "प्रगति सफलतापूर्वक रीसेट हो गई"
+      },
+      en: {
+        boardTitle: "Board of Secondary Education, M.P., Bhopal",
+        headerMainTitle: "Science (Class X) Marking Scheme",
+        sessionTag: "Session 2026-27",
+        examType: "High School Exam",
+        subjectTitle: "Subject :- Science (Class X)",
+        heroSubtitle: "Official chapter-wise marks distribution prescribed by MPBSE",
+        subjectDomainNotice: "<strong>Branch Breakdown:</strong> Chemistry (24 Marks) + Biology (24 Marks) + Physics (24 Marks) + Environment (03 Marks) = Total 75 Marks.",
+        statObj: "Objective",
+        statVSA: "2 Marks (12)",
+        statSA: "3 Marks (03)",
+        statLA: "4 Marks (03)",
+        marksUnit: "Marks",
+        timeText: "Time: <strong>3:00 Hours</strong>",
+        totalMarksText: "Max Marks: <strong>75 Marks</strong>",
+        trackerTitle: "Science Study Progress Tracker",
+        trackerHint: "Mark checkbox when prepared",
+        resetBtn: "Reset",
+        filterAll: "All 13 Chapters (75 M)",
+        filterChem: "Chemistry (24)",
+        filterBio: "Biology (24)",
+        filterPhysics: "Physics (24)",
+        filterEnv: "Environment (03)",
+        filterNotes: "Exam Blueprint (Note)",
+        grandTotalSub: "High School Examination Evaluation",
+        grandTotalTitle: "Grand Total",
+        grandTotalDesc: "Theory: 75 Marks + Practical/Internal Project: 25 Marks = 100 Marks",
+        noteHeading: "Note – Question Paper Pattern & Blueprint",
+        noteSubHeading: "Official Marking Scheme by Board of Secondary Education, M.P.",
+        objTitle: "Questions 1 to 5 : 30 Objective Type Questions",
+        eachOneMark: "01 Mark Each",
+        objDesc: "Questions 1 to 5 contain 30 objective questions carrying 01 mark each:",
+        q1: "Question 1 — <strong>Multiple Choice (MCQs)</strong>",
+        q2: "Question 2 — <strong>Fill in the Blanks</strong>",
+        q3: "Question 3 — <strong>True / False</strong>",
+        q4: "Question 4 — <strong>Match the Columns</strong>",
+        q5: "Question 5 — <strong>One Word / Sentence Answer</strong>",
+        descTitle: "Questions 6 to 23 : Descriptive Questions",
+        total45Marks: "Total 45 Marks",
+        q6to17Title: "Questions 6 to 17",
+        q6to17Desc: "Total 12 questions • 02 marks each",
+        q18to20Title: "Questions 18 to 20",
+        q18to20Desc: "Total 03 questions • 03 marks each",
+        q21to23Title: "Questions 21 to 23",
+        q21to23Desc: "Total 03 questions • 04 marks each",
+        calcFormula: "Equation: 30 (Objective) + 24 (2 Marks) + 9 (3 Marks) + 12 (4 Marks)",
+        calcTotal: "= Total 75 Marks (23 Questions)",
+        refTag: "Official Source & Authority",
+        refTitle: "MP Board of Secondary Education (Bhopal)",
+        refButton: "Website",
+        searchPlaceholder: "Search: Chemical reactions, Life processes, Electricity, Light...",
+        toastCompleted: "Progress updated",
+        toastReset: "Progress reset successfully"
+      }
+    };
+
+    let currentLang = 'hi';
+
+    const chaptersContainer = document.getElementById('chaptersList');
+
+    function getBranchBadgeStyle(cat) {
+      switch(cat) {
+        case 'chem':
+          return 'bg-amber-50 dark:bg-amber-950/70 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800';
+        case 'bio':
+          return 'bg-emerald-50 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800';
+        case 'physics':
+          return 'bg-blue-50 dark:bg-blue-950/70 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-800';
+        case 'env':
+          return 'bg-teal-50 dark:bg-teal-950/70 text-teal-700 dark:text-teal-300 border-teal-200 dark:border-teal-800';
+        default:
+          return 'bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700';
+      }
+    }
+
+    function renderChapters() {
+      chaptersContainer.innerHTML = '';
+
+      scienceChapters.forEach((ch) => {
+        const langData = ch[currentLang];
+        const card = document.createElement('div');
+        card.className = "blueprint-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-4 shadow-sm transition-all";
+        card.setAttribute('data-category', ch.category);
+
+        const badgeClass = getBranchBadgeStyle(ch.category);
+
+        card.innerHTML = `
+          <div class="flex items-start gap-3">
+            <input type="checkbox" id="${ch.id}" class="task-checkbox mt-1 h-5 w-5 rounded-lg text-emerald-600 border-slate-300 focus:ring-emerald-500 dark:border-slate-700 dark:bg-slate-800 shrink-0 cursor-pointer">
+            <label for="${ch.id}" class="flex-1 cursor-pointer">
+              <div class="flex items-start justify-between gap-2">
+                <div>
+                  <span class="font-bold text-slate-900 dark:text-white text-sm sm:text-base leading-snug block">
+                    ${langData.title}
+                  </span>
+                  <span class="inline-block mt-1 px-2 py-0.5 rounded-lg text-[10px] font-bold border ${badgeClass}">
+                    ${langData.branch}
+                  </span>
+                </div>
+                <span class="px-2.5 py-1 rounded-xl text-xs font-extrabold bg-emerald-50 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 whitespace-nowrap shrink-0">
+                  ${ch.marks} ${currentLang === 'hi' ? 'अंक' : 'Marks'}
+                </span>
+              </div>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-2 leading-relaxed">
+                ${langData.subtopics}
+              </p>
+            </label>
+          </div>
+        `;
+        chaptersContainer.appendChild(card);
+      });
+
+      attachCheckboxEvents();
+      applyFilterAndSearch();
+      lucide.createIcons();
+    }
+
+    const langToggleBtn = document.getElementById('langToggleBtn');
+    const langLabel = document.getElementById('langLabel');
+
+    function updateLanguage(newLang) {
+      currentLang = newLang;
+      langLabel.textContent = newLang === 'hi' ? 'English' : 'हिन्दी';
+      document.getElementById('searchInput').placeholder = i18nData[newLang].searchPlaceholder;
+
+      // Update all data-i18n elements
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (i18nData[newLang][key]) {
+          el.innerHTML = i18nData[newLang][key];
+        }
+      });
+
+      renderChapters();
+      loadSavedChecklist();
+    }
+
+    langToggleBtn.addEventListener('click', () => {
+      const nextLang = currentLang === 'hi' ? 'en' : 'hi';
+      updateLanguage(nextLang);
+    });
+
+    const STORAGE_KEY = 'mp_board_science_checklist_v1';
+    const progressBar = document.getElementById('progressBar');
+    const progressText = document.getElementById('progressText');
+    const resetProgressBtn = document.getElementById('resetProgressBtn');
+
+    function attachCheckboxEvents() {
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      checkboxes.forEach(cb => {
+        cb.addEventListener('change', calculateProgress);
+      });
+    }
+
+    function markParent(checkbox, isChecked) {
+      const card = checkbox.closest('.blueprint-card');
+      if (card) {
+        if (isChecked) {
+          card.classList.add('opacity-60', 'line-through');
+        } else {
+          card.classList.remove('opacity-60', 'line-through');
+        }
+      }
+    }
+
+    function calculateProgress() {
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      const total = checkboxes.length;
+      let checked = 0;
+      const state = {};
+
+      checkboxes.forEach(cb => {
+        if (cb.checked) {
+          checked++;
+          state[cb.id] = true;
+          markParent(cb, true);
+        } else {
+          markParent(cb, false);
+        }
+      });
+
+      const percentage = total === 0 ? 0 : Math.round((checked / total) * 100);
+      progressBar.style.width = percentage + '%';
+      const completeWord = currentLang === 'hi' ? 'पूर्ण' : 'completed';
+      progressText.textContent = `${checked} / ${total} ${completeWord} (${percentage}%)`;
+
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function loadSavedChecklist() {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      checkboxes.forEach(cb => {
+        if (saved[cb.id]) {
+          cb.checked = true;
+          markParent(cb, true);
+        }
+      });
+      calculateProgress();
+    }
+
+    resetProgressBtn.addEventListener('click', () => {
+      const checkboxes = document.querySelectorAll('.task-checkbox');
+      checkboxes.forEach(cb => {
+        cb.checked = false;
+        markParent(cb, false);
+      });
+      localStorage.removeItem(STORAGE_KEY);
+      calculateProgress();
+      showToast(i18nData[currentLang].toastReset);
+    });
+
+    const searchInput = document.getElementById('searchInput');
+    const filterChips = document.querySelectorAll('.filter-chip');
+    let activeFilter = 'all';
+
+    function applyFilterAndSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      const allCards = document.querySelectorAll('.blueprint-card');
+
+      allCards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        const category = card.getAttribute('data-category');
+
+        const matchesQuery = !query || text.includes(query);
+        const matchesCategory = activeFilter === 'all' || category === activeFilter;
+
+        if (matchesQuery && matchesCategory) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    searchInput.addEventListener('input', applyFilterAndSearch);
+
+    filterChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        filterChips.forEach(c => {
+          c.classList.remove('bg-emerald-600', 'text-white', 'shadow-sm');
+          if (c.getAttribute('data-filter') === 'exam-notes') {
+            c.classList.add('bg-amber-100', 'dark:bg-amber-950/70', 'text-amber-800', 'dark:text-amber-300');
+          } else {
+            c.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+          }
+        });
+
+        chip.classList.add('bg-emerald-600', 'text-white', 'shadow-sm');
+        chip.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300', 'bg-amber-100', 'dark:bg-amber-950/70', 'text-amber-800', 'dark:text-amber-300');
+
+        activeFilter = chip.getAttribute('data-filter');
+        applyFilterAndSearch();
+      });
+    });
+
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const themeIcon = document.getElementById('themeIcon');
+    const htmlEl = document.documentElement;
+
+    function applyTheme() {
+      const savedTheme = localStorage.getItem('mp_board_science_theme');
+      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        htmlEl.classList.add('dark');
+        setThemeIcon(true);
+      } else {
+        htmlEl.classList.remove('dark');
+        setThemeIcon(false);
+      }
+    }
+
+    function setThemeIcon(isDark) {
+      themeIcon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
+      lucide.createIcons();
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      const isDark = htmlEl.classList.toggle('dark');
+      localStorage.setItem('mp_board_science_theme', isDark ? 'dark' : 'light');
+      setThemeIcon(isDark);
+    });
+
+    // Custom Toast Notification
+    const toast = document.getElementById('toast');
+    const toastMsg = document.getElementById('toastMsg');
+
+    function showToast(msg) {
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2000);
+    }
+
+    // Initialize Page
+    applyTheme();
+    renderChapters();
+    loadSavedChecklist();
+  </script>
 </body>
 </html>

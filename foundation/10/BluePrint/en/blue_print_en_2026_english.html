@@ -1,122 +1,846 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English - Exam Blueprint & Syllabus</title>
-    <style>
-        :root {
-            --primary-color: #4f46e5;
-            --science-color: #10b981;
-            --sst-color: #f59e0b;
-            --hindi-color: #ef4444;
-            --english-color: #3b82f6;
-            --sanskrit-color: #8b5cf6;
-            --format-color: #ec4899;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-color: #1e293b;
-            --border-color: #e2e8f0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MP Board Class 10 English Marking Scheme 2026-2027</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Inter"', '"Plus Jakarta Sans"', 'sans-serif'],
+            hindi: ['"Noto Sans Devanagari"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
         }
+      }
+    }
+  </script>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 16px;
-            line-height: 1.5;
-        }
+  <!-- Google Fonts: Inter & Plus Jakarta Sans & Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-        }
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
 
-        h1 {
-            text-align: center;
-            font-size: 1.5rem;
-            color: var(--primary-color);
-            margin-bottom: 24px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 16px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-            border-left: 5px solid var(--primary-color);
-        }
-
-        .card.science { border-left-color: var(--science-color); }
-        .card.sst { border-left-color: var(--sst-color); }
-        .card.hindi { border-left-color: var(--hindi-color); }
-        .card.english { border-left-color: var(--english-color); }
-        .card.sanskrit { border-left-color: var(--sanskrit-color); }
-        .card.format { border-left-color: var(--format-color); }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-bottom: 12px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-        }
-
-        .total-badge {
-            background: #e0e7ff;
-            color: var(--primary-color);
-            padding: 2px 8px;
-            border-radius: 6px;
-            font-size: 0.85rem;
-        }
-
-        .science .total-badge { background: #d1fae5; color: #047857; }
-        .sst .total-badge { background: #fef3c7; color: #b45309; }
-        .hindi .total-badge { background: #fee2e2; color: #991b1b; }
-        .english .total-badge { background: #dbeafe; color: #1e40af; }
-        .sanskrit .total-badge { background: #ede9fe; color: #5b21b6; }
-        .format .total-badge { background: #fce7f3; color: #be185d; }
-
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-            font-size: 0.95rem;
-        }
-
-        li span {
-            font-weight: 600;
-        }
-
-    </style>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+      -webkit-tap-highlight-color: transparent;
+      user-select: text;
+    }
+    .font-hindi {
+      font-family: 'Noto Sans Devanagari', sans-serif;
+    }
+    /* Subtle Android webview scrollbar */
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(148, 163, 184, 0.4);
+      border-radius: 9999px;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
 </head>
-<body>
 
-<div class="container">
-    <h1>English</h1>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 min-h-full flex flex-col antialiased transition-colors duration-200">
 
-    <div class="card english">
-        <div class="card-header">
-            📘 English
-            <span class="total-badge">75 Marks</span>
+  <!-- Android Native-style Top App Bar (No Share Button) -->
+  <header class="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 shadow-sm">
+    <div class="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-violet-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+          <i data-lucide="book-open-check" class="w-5 h-5"></i>
         </div>
-        <ul>
-            <li><span>Section A: Reading Skills:</span> 10 Marks (Unseen factual/descriptive passages with MCQs)</li>
-            <li><span>Section B: Writing Skills:</span> 16 Marks (Note-making, letters, essays, picture composition)</li>
-            <li><span>Section C: Grammar:</span> 10 Marks (Tenses, Modals, Voice, Narration, Clauses)</li>
-            <li><span>Section D: Textbooks / Literature:</span> 39 Marks (Extracts, short & long answers from First Flight & Footprints)</li>
-        </ul>
+        <div>
+          <span class="font-hindi text-[11px] font-semibold tracking-wide text-blue-700 dark:text-blue-400 block leading-tight">
+            माध्यमिक शिक्षा मण्डल, मध्यप्रदेश, भोपाल
+          </span>
+          <h1 class="text-sm sm:text-base font-bold text-slate-900 dark:text-white leading-tight">
+            English (Class X) Blueprint
+          </h1>
+        </div>
+      </div>
+
+      <!-- Quick Theme Switcher -->
+      <button id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" class="p-2.5 rounded-full text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-90 transition-all">
+        <i data-lucide="moon" id="themeIcon" class="w-5 h-5"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-lg w-full mx-auto px-4 py-3.5 pb-24 space-y-4">
+    
+    <!-- Hero Header Card -->
+    <section class="bg-gradient-to-br from-blue-600 via-indigo-700 to-slate-900 rounded-3xl p-5 text-white shadow-xl shadow-blue-950/20 relative overflow-hidden">
+      <div class="absolute -right-8 -bottom-8 w-36 h-36 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+
+      <div class="flex items-center justify-between gap-2 mb-3">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-white/20 backdrop-blur-md text-white border border-white/20">
+          <i data-lucide="calendar" class="w-3.5 h-3.5"></i> Session 2026-2027
+        </span>
+        <span class="font-hindi text-xs font-semibold text-blue-200 bg-blue-950/60 px-3 py-1 rounded-full border border-blue-400/20">
+          हाईस्कूल परीक्षा अंक योजना
+        </span>
+      </div>
+
+      <div class="mb-4">
+        <h2 class="text-2xl font-extrabold tracking-tight">ENGLISH (10th)</h2>
+        <p class="text-blue-100 text-xs mt-0.5">Comprehensive Scheme of Marks & Assessment Blueprint</p>
+      </div>
+
+      <!-- Sectional Marks Pills -->
+      <div class="grid grid-cols-4 gap-2 pt-3 border-t border-white/15 text-center">
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-blue-200 uppercase font-semibold">Sec A</p>
+          <p class="text-base font-bold">10 <span class="text-[10px] font-normal text-blue-200">M</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-blue-200 uppercase font-semibold">Sec B</p>
+          <p class="text-base font-bold">16 <span class="text-[10px] font-normal text-blue-200">M</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-blue-200 uppercase font-semibold">Sec C</p>
+          <p class="text-base font-bold">10 <span class="text-[10px] font-normal text-blue-200">M</span></p>
+        </div>
+        <div class="bg-white/10 rounded-2xl py-2 px-1 backdrop-blur-sm">
+          <p class="text-[10px] text-blue-200 uppercase font-semibold">Sec D</p>
+          <p class="text-base font-bold">39 <span class="text-[10px] font-normal text-blue-200">M</span></p>
+        </div>
+      </div>
+
+      <!-- Time and Total Bar -->
+      <div class="mt-3 pt-2.5 flex items-center justify-between border-t border-white/10 text-xs text-blue-100">
+        <span class="flex items-center gap-1.5"><i data-lucide="clock" class="w-3.5 h-3.5"></i> Time: <strong>3:00 Hours</strong></span>
+        <span class="flex items-center gap-1.5"><i data-lucide="award" class="w-3.5 h-3.5"></i> Max Marks: <strong>75 Marks</strong></span>
+      </div>
+    </section>
+
+    <!-- Student Preparation Progress Bar -->
+    <div class="bg-white dark:bg-slate-900 rounded-2xl p-4 border border-slate-200 dark:border-slate-800 shadow-sm">
+      <div class="flex items-center justify-between mb-2">
+        <div class="flex items-center gap-2">
+          <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 dark:text-emerald-400"></i>
+          <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Study Checklist Tracker</span>
+        </div>
+        <span id="progressText" class="text-xs font-extrabold text-blue-600 dark:text-blue-400">0% Prepared</span>
+      </div>
+      <div class="w-full bg-slate-100 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden">
+        <div id="progressBar" class="bg-emerald-500 h-full rounded-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+      <div class="flex items-center justify-between mt-2 pt-1 text-[11px] text-slate-500 dark:text-slate-400">
+        <span>Tap checkmark once prepared</span>
+        <button id="resetProgressBtn" class="text-rose-600 dark:text-rose-400 font-medium hover:underline">Reset Checklist</button>
+      </div>
     </div>
 
-</div>
+    <div class="space-y-2.5">
+      <div class="relative">
+        <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
+        <input 
+          type="text" 
+          id="searchInput" 
+          placeholder="Search passages, letters, grammar, questions..." 
+          class="w-full pl-10 pr-4 py-2.5 text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 text-slate-800 dark:text-slate-100 shadow-sm transition-all"
+        />
+      </div>
 
+      <!-- Quick Filter Chips Horizontal Scroll -->
+      <div class="flex gap-2 overflow-x-auto pb-1 text-xs no-scrollbar scroll-smooth">
+        <button data-filter="all" class="filter-chip px-3.5 py-1.5 rounded-full font-bold whitespace-nowrap bg-blue-600 text-white shadow-sm transition-all">
+          All Sections
+        </button>
+        <button data-filter="sec-a" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          Sec A: Reading (10)
+        </button>
+        <button data-filter="sec-b" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          Sec B: Writing (16)
+        </button>
+        <button data-filter="sec-c" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          Sec C: Grammar (10)
+        </button>
+        <button data-filter="sec-d" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 transition-all">
+          Sec D: Textbooks (39)
+        </button>
+        <button data-filter="blueprint-notes" class="filter-chip px-3.5 py-1.5 rounded-full font-semibold whitespace-nowrap bg-amber-100 dark:bg-amber-950/70 text-amber-800 dark:text-amber-300 hover:bg-amber-200 transition-all">
+          Exam Notes & Pattern
+        </button>
+      </div>
+    </div>
+
+    <!-- Cards Container -->
+    <div id="cardsContainer" class="space-y-3.5">
+
+      <section class="blueprint-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm" data-category="sec-a">
+        <div class="flex items-start justify-between gap-3 mb-3 pb-2.5 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-8 h-8 rounded-xl bg-sky-100 dark:bg-sky-950 text-sky-700 dark:text-sky-300 font-bold text-xs flex items-center justify-center shrink-0">
+              A
+            </span>
+            <div>
+              <span class="text-[11px] font-bold text-sky-600 dark:text-sky-400 uppercase tracking-wide">Section - A</span>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">Reading Skills</h3>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-extrabold bg-sky-500/10 text-sky-700 dark:text-sky-300 border border-sky-500/20 whitespace-nowrap">
+            10 Marks
+          </span>
+        </div>
+
+        <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 leading-relaxed">
+          Two unseen passages to assess comprehension, interpretation, inference, and vocabulary. The passage may be factual, descriptive, literary, or case-based. Multiple choice questions / objective type questions will be asked.
+        </p>
+
+        <ul class="space-y-2.5 text-sm">
+          <li class="flex items-start gap-2.5 p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_1" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_eng_1" class="flex-1 text-slate-800 dark:text-slate-200 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.1 Unseen Passage 1</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">5 Objective/MCQ questions (1 mark each)</span>
+            </label>
+            <span class="font-bold text-xs bg-white dark:bg-slate-900 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700 text-sky-600 dark:text-sky-400">05 M</span>
+          </li>
+
+          <li class="flex items-start gap-2.5 p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_2" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+            <label for="item_eng_2" class="flex-1 text-slate-800 dark:text-slate-200 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.2 Unseen Passage 2</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">5 Objective/MCQ questions (1 mark each)</span>
+            </label>
+            <span class="font-bold text-xs bg-white dark:bg-slate-900 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-700 text-sky-600 dark:text-sky-400">05 M</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="blueprint-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm" data-category="sec-b">
+        <div class="flex items-start justify-between gap-3 mb-3 pb-2.5 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-8 h-8 rounded-xl bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 font-bold text-xs flex items-center justify-center shrink-0">
+              B
+            </span>
+            <div>
+              <span class="text-[11px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wide">Section - B</span>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">Writing Skills</h3>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-extrabold bg-indigo-500/10 text-indigo-700 dark:text-indigo-300 border border-indigo-500/20 whitespace-nowrap">
+            16 Marks
+          </span>
+        </div>
+
+        <div class="space-y-3.5">
+          <!-- Q.3 Note Making -->
+          <div class="bg-slate-50 dark:bg-slate-800/40 p-3 rounded-2xl border border-slate-100 dark:border-slate-800">
+            <div class="flex items-start gap-2.5 mb-2">
+              <input type="checkbox" id="item_eng_3" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+              <label for="item_eng_3" class="flex-1">
+                <span class="font-bold text-slate-900 dark:text-white text-sm">Q.3 Note Making based on a passage</span>
+                <span class="block text-xs text-slate-500 dark:text-slate-400">Structured note preparation with conventions</span>
+              </label>
+              <span class="font-bold text-xs bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 px-2 py-0.5 rounded-lg border border-indigo-200 dark:border-indigo-800">
+                04 Marks
+              </span>
+            </div>
+            <!-- Sub-breakdown table -->
+            <div class="grid grid-cols-2 gap-1.5 mt-2 pt-2 border-t border-slate-200/70 dark:border-slate-700/60 text-[11px]">
+              <div class="flex justify-between bg-white dark:bg-slate-900 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-800">
+                <span>Correct Title</span><strong class="text-indigo-600 dark:text-indigo-400">1 mark</strong>
+              </div>
+              <div class="flex justify-between bg-white dark:bg-slate-900 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-800">
+                <span>Numbering & Indenting</span><strong class="text-indigo-600 dark:text-indigo-400">1 mark</strong>
+              </div>
+              <div class="flex justify-between bg-white dark:bg-slate-900 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-800">
+                <span>Key / Glossary / Abbreviations</span><strong class="text-indigo-600 dark:text-indigo-400">1 mark</strong>
+              </div>
+              <div class="flex justify-between bg-white dark:bg-slate-900 px-2 py-1 rounded-lg border border-slate-200 dark:border-slate-800">
+                <span>Notes Body</span><strong class="text-indigo-600 dark:text-indigo-400">1 mark</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q.4 Letter Writing -->
+          <div class="bg-slate-50 dark:bg-slate-800/40 p-3 rounded-2xl border border-slate-100 dark:border-slate-800">
+            <div class="flex items-start gap-2.5 mb-2">
+              <input type="checkbox" id="item_eng_4" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+              <label for="item_eng_4" class="flex-1">
+                <span class="font-bold text-slate-900 dark:text-white text-sm">Q.4 Letter Writing (Formal / Informal)</span>
+                <span class="block text-xs text-slate-500 dark:text-slate-400">Identify elements, purpose, tone, and organization</span>
+              </label>
+              <span class="font-bold text-xs bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 px-2 py-0.5 rounded-lg border border-indigo-200 dark:border-indigo-800">
+                04 Marks
+              </span>
+            </div>
+            <!-- Sub-breakdown table -->
+            <div class="grid grid-cols-3 gap-1.5 mt-2 pt-2 border-t border-slate-200/70 dark:border-slate-700/60 text-[11px]">
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Format</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">1 mark</strong>
+              </div>
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Content / Body</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">2 marks</strong>
+              </div>
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Expression</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">1 mark</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q.5 Long Composition -->
+          <div class="bg-slate-50 dark:bg-slate-800/40 p-3 rounded-2xl border border-slate-100 dark:border-slate-800">
+            <div class="flex items-start gap-2.5 mb-2">
+              <input type="checkbox" id="item_eng_5" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+              <label for="item_eng_5" class="flex-1">
+                <span class="font-bold text-slate-900 dark:text-white text-sm">Q.5 Long Composition (Essay / Article / Paragraph)</span>
+                <span class="block text-xs text-slate-500 dark:text-slate-400">Coherent argument, research & critical thinking</span>
+              </label>
+              <span class="font-bold text-xs bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 px-2 py-0.5 rounded-lg border border-indigo-200 dark:border-indigo-800">
+                05 Marks
+              </span>
+            </div>
+            <!-- Sub-breakdown table -->
+            <div class="grid grid-cols-3 gap-1.5 mt-2 pt-2 border-t border-slate-200/70 dark:border-slate-700/60 text-[11px]">
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Language</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">1 mark</strong>
+              </div>
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Content</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">2 marks</strong>
+              </div>
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Expression*</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">2 marks</strong>
+              </div>
+            </div>
+            <p class="text-[10px] text-slate-500 dark:text-slate-400 mt-1 italic leading-tight">*Grammatical accuracy, coherence, appropriate words, spelling and punctuations.</p>
+          </div>
+
+          <!-- Q.6 Picture Guided Composition -->
+          <div class="bg-slate-50 dark:bg-slate-800/40 p-3 rounded-2xl border border-slate-100 dark:border-slate-800">
+            <div class="flex items-start gap-2.5 mb-2">
+              <input type="checkbox" id="item_eng_6" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+              <label for="item_eng_6" class="flex-1">
+                <span class="font-bold text-slate-900 dark:text-white text-sm">Q.6 Picture Guided Composition</span>
+                <span class="block text-xs text-slate-500 dark:text-slate-400">Describe details in given picture, reinforce vocabulary & sequencing</span>
+              </label>
+              <span class="font-bold text-xs bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 px-2 py-0.5 rounded-lg border border-indigo-200 dark:border-indigo-800">
+                03 Marks
+              </span>
+            </div>
+            <!-- Sub-breakdown table -->
+            <div class="grid grid-cols-3 gap-1.5 mt-2 pt-2 border-t border-slate-200/70 dark:border-slate-700/60 text-[11px]">
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Language</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">1 mark</strong>
+              </div>
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Content</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">1 mark</strong>
+              </div>
+              <div class="flex flex-col bg-white dark:bg-slate-900 p-1.5 rounded-lg text-center border border-slate-200 dark:border-slate-800">
+                <span class="text-slate-500 dark:text-slate-400 text-[10px]">Expression</span>
+                <strong class="text-indigo-600 dark:text-indigo-400 text-xs">1 mark</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blueprint-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm" data-category="sec-c">
+        <div class="flex items-start justify-between gap-3 mb-3 pb-2.5 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-8 h-8 rounded-xl bg-violet-100 dark:bg-violet-950 text-violet-700 dark:text-violet-300 font-bold text-xs flex items-center justify-center shrink-0">
+              C
+            </span>
+            <div>
+              <span class="text-[11px] font-bold text-violet-600 dark:text-violet-400 uppercase tracking-wide">Section - C</span>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">Grammar</h3>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-extrabold bg-violet-500/10 text-violet-700 dark:text-violet-300 border border-violet-500/20 whitespace-nowrap">
+            10 Marks
+          </span>
+        </div>
+
+        <ul class="space-y-3 text-sm">
+          <!-- Q.7 Fill in the blanks -->
+          <li class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <div class="flex items-start gap-2.5">
+              <input type="checkbox" id="item_eng_7" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+              <div class="flex-1">
+                <div class="flex items-center justify-between mb-1">
+                  <label for="item_eng_7" class="font-bold text-slate-900 dark:text-white text-sm">Q.7 Fill in the blanks</label>
+                  <span class="font-bold text-xs text-violet-700 dark:text-violet-300 bg-violet-100 dark:bg-violet-950/80 px-2 py-0.5 rounded-lg border border-violet-200 dark:border-violet-800">05 Marks</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                  Questions on gap filling based on:
+                </p>
+                <div class="flex flex-wrap gap-1.5 mt-2">
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Tenses</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Prepositions</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Verbs</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Conjunctions</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Articles</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Modals</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Determiners</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <!-- Q.8 Do as Directed -->
+          <li class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <div class="flex items-start gap-2.5">
+              <input type="checkbox" id="item_eng_8" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800">
+              <div class="flex-1">
+                <div class="flex items-center justify-between mb-1">
+                  <label for="item_eng_8" class="font-bold text-slate-900 dark:text-white text-sm">Q.8 Do as Directed</label>
+                  <span class="font-bold text-xs text-violet-700 dark:text-violet-300 bg-violet-100 dark:bg-violet-950/80 px-2 py-0.5 rounded-lg border border-violet-200 dark:border-violet-800">05 Marks</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                  Sentence transformation & syntactic structure questions:
+                </p>
+                <div class="flex flex-wrap gap-1.5 mt-2">
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Active / Passive Voices</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Transformation of Sentences</span>
+                  <span class="px-2 py-0.5 rounded-md text-[11px] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">Clauses & Combinations</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="blueprint-card bg-white dark:bg-slate-900 border border-slate-200/90 dark:border-slate-800 rounded-3xl p-4 shadow-sm" data-category="sec-d">
+        <div class="flex items-start justify-between gap-3 mb-3 pb-2.5 border-b border-slate-100 dark:border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="w-8 h-8 rounded-xl bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 font-bold text-xs flex items-center justify-center shrink-0">
+              D
+            </span>
+            <div>
+              <span class="text-[11px] font-bold text-amber-600 dark:text-amber-400 uppercase tracking-wide">Section - D</span>
+              <h3 class="font-bold text-slate-900 dark:text-white text-base leading-snug">Textbooks (Literature)</h3>
+            </div>
+          </div>
+          <span class="px-3 py-1 rounded-xl text-xs font-extrabold bg-amber-500/10 text-amber-700 dark:text-amber-300 border border-amber-500/20 whitespace-nowrap">
+            39 Marks
+          </span>
+        </div>
+
+        <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 leading-relaxed">
+          Assessment items from <em>First Flight</em> and <em>Footprints without Feet</em> including MCQs, extract analysis, short-answer, and analytical long-answer questions.
+        </p>
+
+        <div class="space-y-2.5">
+
+          <!-- Q.9 Textual MCQs -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_9" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_9" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.9 Textual MCQs</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">From First Flight textbook (4 questions × 1 mark)</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">04 M</span>
+          </div>
+
+          <!-- Q.10 Extracts -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_10" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_10" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.10 Extracts (Prose & Poetry)</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">(A) Extract from Prose [First Flight] = 3 Marks<br>(B) Extract from Poetry [First Flight] = 3 Marks</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">06 M</span>
+          </div>
+
+          <!-- Q.11 Short Answer First Flight Prose -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_11" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_11" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.11 Short answer questions (Prose)</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">From First Flight prose — 6 questions × 2 marks (Word limit: ~30 words)</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">12 M</span>
+          </div>
+
+          <!-- Q.12 Short Answer Poetry -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_12" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_12" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.12 Short answer questions (Poetry)</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">From First Flight poetry — 2 questions × 2 marks (Word limit: ~30 words)</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">04 M</span>
+          </div>
+
+          <!-- Q.13 Short Answer Footprints -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_13" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_13" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.13 Short answer questions (Supplementary)</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">From Footprints without Feet — 2 questions × 2 marks (Word limit: ~30 words)</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">04 M</span>
+          </div>
+
+          <!-- Q.14 Long Answer Prose -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_14" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_14" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.14 Long answer question (Prose)</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">From First Flight prose — 1 question × 3 marks (Word limit: ~75 words)</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">03 M</span>
+          </div>
+
+          <!-- Q.15 Long Answer Poetry -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_15" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_15" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.15 Long answer question (Poetry)</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">From First Flight poetry — 1 question × 3 marks (Word limit: ~75 words)</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">03 M</span>
+          </div>
+
+          <!-- Q.16 Long Answer Footprints -->
+          <div class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-100 dark:border-slate-800">
+            <input type="checkbox" id="item_eng_16" class="task-checkbox mt-1 h-4 w-4 rounded text-blue-600 border-slate-300">
+            <label for="item_eng_16" class="flex-1 text-xs sm:text-sm">
+              <span class="font-bold text-slate-900 dark:text-white">Q.16 Long answer question (Supplementary)</span>
+              <span class="block text-slate-500 dark:text-slate-400 text-xs">From Footprints without Feet — 1 question × 3 marks (Word limit: ~75 words)</span>
+            </label>
+            <span class="font-bold text-xs bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded-lg border border-amber-200 dark:border-amber-800">03 M</span>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-white rounded-3xl p-5 border border-blue-800/40 shadow-xl">
+        <div class="flex items-center justify-between">
+          <div>
+            <span class="text-xs font-semibold text-blue-400 tracking-wider uppercase">Board Exam Assessment</span>
+            <h4 class="text-lg font-bold">Grand Total (कुल योग)</h4>
+            <p class="text-xs text-slate-300 mt-0.5">Written Theory: 75 Marks + Internal Assessment: 25 Marks = 100</p>
+          </div>
+          <div class="text-right">
+            <span class="text-3xl font-extrabold text-amber-400">75</span>
+            <span class="text-xs font-semibold text-slate-300 block">Marks</span>
+          </div>
+        </div>
+      </div>
+
+      <section class="blueprint-card bg-amber-50/80 dark:bg-amber-950/20 border-2 border-amber-300/80 dark:border-amber-700/60 rounded-3xl p-4 sm:p-5 shadow-md" data-category="blueprint-notes">
+        <div class="flex items-center gap-2.5 pb-3 border-b border-amber-200 dark:border-amber-900/60 mb-3.5">
+          <div class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-800 dark:text-amber-300 flex items-center justify-center font-bold text-sm shrink-0">
+            <i data-lucide="info" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-base text-amber-950 dark:text-amber-200">Note – Exam Question Paper Pattern</h3>
+            <p class="text-[11px] text-amber-800/80 dark:text-amber-400/90 font-medium">Question type, word limits, and marks breakdown</p>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <!-- Part I: Objective Questions Table -->
+          <div class="bg-white/90 dark:bg-slate-900/90 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm">
+            <div class="flex items-center justify-between mb-2 pb-1.5 border-b border-slate-100 dark:border-slate-800">
+              <span class="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                <span class="w-5 h-5 rounded-md bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 flex items-center justify-center text-[11px]">I</span>
+                Objective Type Questions (1 Mark Each)
+              </span>
+              <span class="text-xs font-extrabold text-blue-600 dark:text-blue-400">30 Marks Total</span>
+            </div>
+
+            <div class="space-y-1.5 text-xs text-slate-700 dark:text-slate-300 font-medium">
+              <div class="flex justify-between py-1 border-b border-slate-100 dark:border-slate-800/60">
+                <span>• Two Unseen Passages</span>
+                <span class="text-slate-900 dark:text-slate-100 font-bold">10 Qs × 01 M = <strong>10 M</strong></span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100 dark:border-slate-800/60">
+                <span>• Fill in the blanks (Grammar)</span>
+                <span class="text-slate-900 dark:text-slate-100 font-bold">05 Qs × 01 M = <strong>05 M</strong></span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100 dark:border-slate-800/60">
+                <span>• Do as Directed (Grammar)</span>
+                <span class="text-slate-900 dark:text-slate-100 font-bold">05 Qs × 01 M = <strong>05 M</strong></span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100 dark:border-slate-800/60">
+                <span>• Textual MCQs (First Flight)</span>
+                <span class="text-slate-900 dark:text-slate-100 font-bold">04 Qs × 01 M = <strong>04 M</strong></span>
+              </div>
+              <div class="flex justify-between py-1 border-b border-slate-100 dark:border-slate-800/60">
+                <span>• Extract from Prose</span>
+                <span class="text-slate-900 dark:text-slate-100 font-bold">03 Qs × 01 M = <strong>03 M</strong></span>
+              </div>
+              <div class="flex justify-between py-1">
+                <span>• Extract from Poetry</span>
+                <span class="text-slate-900 dark:text-slate-100 font-bold">03 Qs × 01 M = <strong>03 M</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Part II: Word Limit & Descriptive Questions Table -->
+          <div class="bg-white/90 dark:bg-slate-900/90 p-3.5 rounded-2xl border border-amber-200/70 dark:border-slate-800 shadow-sm">
+            <div class="flex items-center justify-between mb-2 pb-1.5 border-b border-slate-100 dark:border-slate-800">
+              <span class="text-xs font-bold text-slate-900 dark:text-white flex items-center gap-1.5">
+                <span class="w-5 h-5 rounded-md bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 flex items-center justify-center text-[11px]">II</span>
+                Word Limits & Marks Distribution
+              </span>
+              <span class="text-xs font-extrabold text-indigo-600 dark:text-indigo-400">45 Marks Total</span>
+            </div>
+
+            <div class="space-y-2 text-xs">
+              <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+                <div>
+                  <p class="font-bold text-slate-900 dark:text-white">Very Short Answer</p>
+                  <p class="text-[11px] text-slate-500 dark:text-slate-400">Word limit: ~30 words</p>
+                </div>
+                <div class="text-right">
+                  <span class="font-bold text-slate-800 dark:text-slate-200">10 Qs × 02 M</span>
+                  <span class="block text-xs font-extrabold text-blue-600 dark:text-blue-400">= 20 Marks</span>
+                </div>
+              </div>
+
+              <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+                <div>
+                  <p class="font-bold text-slate-900 dark:text-white">Short Answer</p>
+                  <p class="text-[11px] text-slate-500 dark:text-slate-400">Word limit: ~75 words</p>
+                </div>
+                <div class="text-right">
+                  <span class="font-bold text-slate-800 dark:text-slate-200">04 Qs × 03 M</span>
+                  <span class="block text-xs font-extrabold text-indigo-600 dark:text-indigo-400">= 12 Marks</span>
+                </div>
+              </div>
+
+              <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+                <div>
+                  <p class="font-bold text-slate-900 dark:text-white">Long Answer (Analytical Type)</p>
+                  <p class="text-[11px] text-slate-500 dark:text-slate-400">Word limit: ~120 words</p>
+                </div>
+                <div class="text-right">
+                  <span class="font-bold text-slate-800 dark:text-slate-200">02 Qs × 04 M</span>
+                  <span class="block text-xs font-extrabold text-emerald-600 dark:text-emerald-400">= 08 Marks</span>
+                </div>
+              </div>
+
+              <div class="p-2 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
+                <div>
+                  <p class="font-bold text-slate-900 dark:text-white">Long Answer (Analytical / Essay)</p>
+                  <p class="text-[11px] text-slate-500 dark:text-slate-400">Word limit: ~130–150 words</p>
+                </div>
+                <div class="text-right">
+                  <span class="font-bold text-slate-800 dark:text-slate-200">01 Q × 05 M</span>
+                  <span class="block text-xs font-extrabold text-rose-600 dark:text-rose-400">= 05 Marks</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Total Equation Pill -->
+          <div class="p-3 bg-amber-100/80 dark:bg-amber-950/60 rounded-2xl text-[11px] text-amber-900 dark:text-amber-200 flex flex-wrap items-center justify-between gap-1 font-semibold">
+            <span>Overall Breakdown: 30 M (Obj) + 45 M (Descriptive)</span>
+            <span class="text-xs font-bold text-amber-950 dark:text-amber-100">= 75 Marks</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-4 py-2.5 rounded-full text-xs font-semibold shadow-2xl flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300 z-50">
+      <i data-lucide="check" class="w-4 h-4 text-emerald-400"></i>
+      <span id="toastMsg">Checklist updated</span>
+    </div>
+
+  </main>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+
+    // Theme Management (Light / Dark)
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const themeIcon = document.getElementById('themeIcon');
+    const htmlEl = document.documentElement;
+
+    function applyTheme() {
+      const savedTheme = localStorage.getItem('mp_board_english_theme');
+      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        htmlEl.classList.add('dark');
+        setThemeIcon(true);
+      } else {
+        htmlEl.classList.remove('dark');
+        setThemeIcon(false);
+      }
+    }
+
+    function setThemeIcon(isDark) {
+      themeIcon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
+      lucide.createIcons();
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      const isDark = htmlEl.classList.toggle('dark');
+      localStorage.setItem('mp_board_english_theme', isDark ? 'dark' : 'light');
+      setThemeIcon(isDark);
+    });
+
+    applyTheme();
+
+    // Study Checklist Tracker
+    const STORAGE_KEY = 'mp_board_english_checklist_v1';
+    const checkboxes = document.querySelectorAll('.task-checkbox');
+    const progressBar = document.getElementById('progressBar');
+    const progressText = document.getElementById('progressText');
+    const resetProgressBtn = document.getElementById('resetProgressBtn');
+
+    function loadSavedChecklist() {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+      checkboxes.forEach(cb => {
+        if (saved[cb.id]) {
+          cb.checked = true;
+          markParent(cb, true);
+        }
+      });
+      calculateProgress();
+    }
+
+    function markParent(checkbox, isChecked) {
+      // Avoid unescaped decimal points in class selectors which cause DOMException SyntaxError
+      const target = checkbox.closest('li') || checkbox.closest('.bg-slate-50') || checkbox.closest('div.flex');
+      if (target) {
+        if (isChecked) {
+          target.classList.add('opacity-60');
+        } else {
+          target.classList.remove('opacity-60');
+        }
+      }
+    }
+
+    function calculateProgress() {
+      const total = checkboxes.length;
+      let checked = 0;
+      const state = {};
+
+      checkboxes.forEach(cb => {
+        if (cb.checked) {
+          checked++;
+          state[cb.id] = true;
+          markParent(cb, true);
+        } else {
+          markParent(cb, false);
+        }
+      });
+
+      const percentage = total === 0 ? 0 : Math.round((checked / total) * 100);
+      progressBar.style.width = percentage + '%';
+      progressText.textContent = `${checked} / ${total} Topics Prepared (${percentage}%)`;
+
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    checkboxes.forEach(cb => {
+      cb.addEventListener('change', calculateProgress);
+    });
+
+    resetProgressBtn.addEventListener('click', () => {
+      checkboxes.forEach(cb => {
+        cb.checked = false;
+        markParent(cb, false);
+      });
+      localStorage.removeItem(STORAGE_KEY);
+      calculateProgress();
+      showToast('Study progress reset successfully');
+    });
+
+    loadSavedChecklist();
+
+    // Filter Chips & Real-time Search
+    const searchInput = document.getElementById('searchInput');
+    const filterChips = document.querySelectorAll('.filter-chip');
+    const blueprintCards = document.querySelectorAll('.blueprint-card');
+    let activeFilter = 'all';
+
+    function applyFilterAndSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+
+      blueprintCards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        const category = card.getAttribute('data-category');
+
+        const matchesQuery = !query || text.includes(query);
+        const matchesCategory = activeFilter === 'all' || category === activeFilter;
+
+        if (matchesQuery && matchesCategory) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    searchInput.addEventListener('input', applyFilterAndSearch);
+
+    filterChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        filterChips.forEach(c => {
+          c.classList.remove('bg-blue-600', 'text-white', 'shadow-sm');
+          if (c.getAttribute('data-filter') === 'blueprint-notes') {
+            c.classList.add('bg-amber-100', 'dark:bg-amber-950/70', 'text-amber-800', 'dark:text-amber-300');
+          } else {
+            c.classList.add('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300');
+          }
+        });
+
+        chip.classList.add('bg-blue-600', 'text-white', 'shadow-sm');
+        chip.classList.remove('bg-slate-100', 'dark:bg-slate-800', 'text-slate-600', 'dark:text-slate-300', 'bg-amber-100', 'dark:bg-amber-950/70', 'text-amber-800', 'dark:text-amber-300');
+
+        activeFilter = chip.getAttribute('data-filter');
+        applyFilterAndSearch();
+      });
+    });
+
+    // Toast Utility
+    const toast = document.getElementById('toast');
+    const toastMsg = document.getElementById('toastMsg');
+
+    function showToast(msg) {
+      toastMsg.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2000);
+    }
+  </script>
 </body>
 </html>
