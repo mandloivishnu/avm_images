@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>संधि शाला - MPBSE कक्षा 10 हिन्दी</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            hind: ['Hind', 'sans-serif'],
+            tiro: ['"Tiro Devanagari Hindi"', 'serif'],
+          },
+          colors: {
+            mpgold: '#f59e0b',
+            mpdark: '#070b14',
+            mpcard: '#0f172a',
+            mpsurface: '#17233f'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Hind', sans-serif;
+    }
+    .tiro-font {
+      font-family: 'Tiro Devanagari Hindi', serif;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .touch-btn:active {
+      transform: scale(0.96);
+    }
+    @keyframes pulseGlow {
+      0%, 100% { border-color: rgba(245, 158, 11, 0.35); box-shadow: 0 0 15px rgba(245, 158, 11, 0.1); }
+      50% { border-color: rgba(245, 158, 11, 0.7); box-shadow: 0 0 25px rgba(245, 158, 11, 0.25); }
+    }
+    .glow-card {
+      animation: pulseGlow 3s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-mpdark text-slate-100 min-h-screen pb-24 antialiased selection:bg-amber-500 selection:text-black">
+
+  <!-- TOP APP BAR (Optimized for Android Status Bar) -->
+  <header class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md border-b border-amber-500/20 px-3.5 py-2.5 flex items-center justify-between shadow-lg">
+    <div class="flex items-center gap-2.5">
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-600 to-yellow-400 flex items-center justify-center text-slate-950 font-black text-lg tiro-font shadow-md shadow-amber-500/30">
+        सं
+      </div>
+      <div>
+        <h1 class="text-sm sm:text-base font-bold text-amber-300 tiro-font tracking-wide leading-tight flex items-center gap-1.5">
+          संधि शाला
+          <span class="text-[9px] bg-amber-500/20 text-amber-300 font-sans px-1.5 py-0.2 rounded font-bold">10th MPBSE</span>
+        </h1>
+        <p class="text-[10px] text-slate-400">प्ले & लर्न स्मार्ट व्याकरण</p>
+      </div>
+    </div>
+
+    <!-- Category Filter Pills (स्वर, व्यंजन, विसर्ग) -->
+    <div class="flex bg-slate-950/90 p-1 rounded-xl border border-slate-800 text-xs shadow-inner">
+      <button onclick="setSandhiCategory('swar')" id="pill-swar" class="px-2.5 py-1 rounded-lg font-bold transition text-xs touch-btn bg-amber-500 text-slate-950 shadow">
+        स्वर
+      </button>
+      <button onclick="setSandhiCategory('vyanjan')" id="pill-vyanjan" class="px-2.5 py-1 rounded-lg font-medium transition text-xs touch-btn text-slate-300 hover:text-white">
+        व्यंजन
+      </button>
+      <button onclick="setSandhiCategory('visarg')" id="pill-visarg" class="px-2.5 py-1 rounded-lg font-medium transition text-xs touch-btn text-slate-300 hover:text-white">
+        विसर्ग
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================== -->
+  <!-- TAB 1: LEARN MODE (1. परिभाषा -> 2. नियम व ट्रिक -> 3. शब्द बैंक) -->
+  <!-- ============================================================== -->
+  <main id="learn-view" class="max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- 1. परिभाषा कार्ड (Dynamic Definition) -->
+    <section class="bg-gradient-to-br from-slate-900 via-slate-900 to-amber-950/20 border border-amber-500/30 rounded-2xl p-3.5 shadow-md">
+      <div class="flex items-center justify-between mb-1.5">
+        <div class="flex items-center gap-2">
+          <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded-full font-bold">
+            १. परिभाषा
+          </span>
+          <h2 id="def-title" class="text-xs sm:text-sm font-bold text-amber-200 tiro-font">
+            स्वर संधि किसे कहते हैं?
+          </h2>
+        </div>
+        <span id="def-total-words-badge" class="text-[10px] font-mono text-amber-400 bg-slate-950/80 px-2 py-0.5 rounded-full border border-slate-800">
+          १३ शब्द उपलब्ध
+        </span>
+      </div>
+      <p id="def-text" class="text-xs text-slate-300 leading-relaxed">
+        दो स्वरों के आपस में मिलने से जो विकार उत्पन्न होता है, उसे <b>स्वर संधि</b> कहते हैं। MP बोर्ड में इसके मुख्य रूप से ५ भेद पूछे जाते हैं।
+      </p>
+    </section>
+
+    <!-- 2. प्रमुख नियम व शॉर्टकट ट्रिक (Mnemonics Hub) -->
+    <section class="bg-slate-900/90 border border-slate-800 rounded-2xl p-3.5 space-y-2.5 shadow-sm">
+      <div class="flex items-center justify-between border-b border-slate-800/80 pb-2">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2 py-0.5 rounded-full font-bold">
+            २. प्रमुख नियम व ट्रिक
+          </span>
+          <span class="text-xs text-slate-300 font-semibold">रामबाण पहचान</span>
+        </div>
+        <span id="rules-count-label" class="text-[10px] text-amber-400/90 font-mono font-bold">
+          ५ प्रमुख भेद
+        </span>
+      </div>
+      
+      <!-- Rules container rendered dynamically -->
+      <div id="rules-container" class="space-y-2"></div>
+    </section>
+
+    <!-- 3. एक्टिव शब्द व विच्छेद विश्लेषण (Selected Word Focus Card) -->
+    <section class="bg-gradient-to-b from-[#111c33] to-[#0c1324] border border-amber-500/40 rounded-2xl p-3.5 shadow-xl glow-card relative overflow-hidden">
+      <div class="flex items-center justify-between mb-2">
+        <span id="card-bhed" class="text-[11px] font-bold text-amber-300 bg-amber-500/20 border border-amber-500/30 px-2.5 py-0.5 rounded-full">
+          दीर्घ स्वर संधि
+        </span>
+        <span class="text-[10px] text-emerald-400 font-bold bg-emerald-950/70 border border-emerald-500/40 px-2 py-0.5 rounded-full flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> MP बोर्ड परीक्षा स्पेशल
+        </span>
+      </div>
+
+      <!-- Word Equation Display -->
+      <div class="text-center py-2.5 px-2 bg-slate-950/80 rounded-xl border border-slate-800/80 mb-2.5 shadow-inner">
+        <div class="text-[10px] uppercase tracking-wider text-slate-400 mb-0.5 font-semibold">संधि विच्छेद एवं मेल</div>
+        <div id="card-equation" class="text-lg sm:text-xl font-bold text-amber-300 tiro-font tracking-wide">
+          विद्या + आलय = <span class="text-white underline decoration-amber-400 underline-offset-4 font-black">विद्यालय</span>
+        </div>
+        <div id="card-formula" class="text-xs text-amber-400/90 mt-1 font-mono font-semibold">
+          सूत्र: आ + आ = आ (अकः सवर्णे दीर्घः)
+        </div>
+      </div>
+
+      <!-- Quick Word Trick Card -->
+      <div class="bg-amber-500/10 border border-amber-500/25 rounded-xl p-2.5 flex items-start gap-2">
+        <span class="text-base leading-none mt-0.5">💡</span>
+        <div class="flex-1">
+          <div class="text-[11px] font-bold text-amber-300">पहचानने की ट्रिक:</div>
+          <div id="card-trick" class="text-xs text-slate-200 leading-snug mt-0.5">
+            शब्द के बीच में 'आ' (ा), 'ई' (ी) या 'ऊ' (ू) की बड़ी मात्रा दिखेगी।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. शब्द बैंक ग्रिड (Interactive 3-Column Touch Word Grid) -->
+    <section class="bg-slate-900/70 border border-slate-800/90 rounded-2xl p-3 space-y-2">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full font-bold">
+            ३. शब्द बैंक
+          </span>
+          <span class="text-xs text-slate-300 font-semibold">टैप करके विश्लेषण बदलें</span>
+        </div>
+        <span id="word-grid-counter" class="text-[10px] text-slate-400 font-mono">
+          कुल शब्द: १३
+        </span>
+      </div>
+
+      <!-- 3-Column Responsive Grid -->
+      <div id="word-chips-grid" class="grid grid-cols-3 gap-2 pt-1 max-h-72 overflow-y-auto no-scrollbar pr-0.5">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+  </main>
+  <!-- ============================================================== -->
+  <!-- TAB 2: QUIZ / TEST MODE (अभ्यास प्रश्न - MP Board Quiz Hub)      -->
+  <!-- ============================================================== -->
+  <main id="quiz-view" class="hidden max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- Score, Progress & Streak Bar -->
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 shadow-md flex items-center justify-between">
+      <div>
+        <div class="text-[10px] text-slate-400 font-bold uppercase tracking-wider flex items-center gap-1">
+          <span>MP बोर्ड परीक्षा सिमुलेटर</span>
+        </div>
+        <div class="text-xs font-bold text-amber-300 flex items-center gap-1.5 mt-0.5">
+          <span>प्रश्न: <span id="q-current" class="text-white font-mono font-black text-sm">1</span> / <span id="q-total" class="font-mono">10</span></span>
+        </div>
+      </div>
+
+      <!-- Streak and Total Marks -->
+      <div class="flex items-center gap-3">
+        <div class="text-center px-2 py-1 rounded-lg bg-slate-950 border border-slate-800">
+          <div class="text-[9px] text-slate-400">लगातार सही</div>
+          <div id="q-streak" class="text-xs font-bold text-amber-400 flex items-center justify-center gap-0.5">
+            🔥 <span>0</span>
+          </div>
+        </div>
+        <div class="text-right">
+          <div class="text-[10px] text-slate-400">कुल अंक</div>
+          <div id="q-score" class="text-base font-black text-emerald-400 font-mono">
+            0 / 20
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Question Card -->
+    <div class="bg-gradient-to-b from-[#11192e] to-[#0c1220] border border-amber-500/30 rounded-2xl p-4 space-y-3.5 shadow-xl">
+      <div class="flex items-center justify-between">
+        <span id="quiz-q-tag" class="text-[10px] bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2.5 py-0.5 rounded-full font-bold">
+          व्यंजन संधि स्पेशल
+        </span>
+        <span class="text-[10px] text-amber-400 font-bold font-mono">
+          +2 अंक
+        </span>
+      </div>
+
+      <h3 id="quiz-question" class="text-base font-bold text-white tiro-font leading-relaxed tracking-wide min-h-[48px] flex items-center">
+        'सज्जन' शब्द का सही संधि विच्छेद क्या होगा?
+      </h3>
+
+      <!-- 4 Options Container -->
+      <div id="quiz-options" class="space-y-2 pt-1">
+        <!-- Options injected here -->
+      </div>
+    </div>
+
+    <!-- Explanation & Result Feedback Card -->
+    <div id="quiz-feedback" class="hidden bg-slate-900 border border-slate-700/80 rounded-2xl p-3.5 space-y-2 shadow-lg transition-all">
+      <div class="flex items-center justify-between">
+        <div id="feedback-badge" class="text-xs font-bold text-emerald-400 flex items-center gap-1">
+          ✓ सही उत्तर! (+2 अंक)
+        </div>
+        <span class="text-[10px] text-slate-400 font-mono">बोर्ड नियम विश्लेषण</span>
+      </div>
+      
+      <p id="feedback-text" class="text-xs text-slate-200 leading-relaxed bg-slate-950/80 p-2.5 rounded-xl border border-slate-800">
+        <!-- Explanation text -->
+      </p>
+
+      <button onclick="nextQuizQuestion()" class="w-full py-2.5 bg-gradient-to-r from-amber-500 to-amber-600 active:from-amber-600 active:to-amber-700 text-slate-950 font-bold text-xs rounded-xl shadow-md touch-btn flex items-center justify-center gap-1.5">
+        <span>अगला प्रश्न (Next Question)</span>
+        <span>➔</span>
+      </button>
+    </div>
+
+    <!-- Quiz Completion Card (Hidden by default) -->
+    <div id="quiz-summary-card" class="hidden bg-gradient-to-b from-[#16233f] to-[#0d1627] border border-amber-500/40 rounded-2xl p-5 text-center space-y-3.5 shadow-2xl">
+      <div class="text-4xl animate-bounce">🏆</div>
+      <div>
+        <h4 class="text-lg font-bold text-amber-300 tiro-font">अभ्यास सत्र समाप्त!</h4>
+        <p class="text-xs text-slate-300 mt-1">आपकी MPBSE बोर्ड संधि तैयारी रिपोर्ट:</p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-2 bg-slate-950/80 p-3 rounded-xl border border-slate-800">
+        <div>
+          <div class="text-[10px] text-slate-400">कुल प्राप्तांक</div>
+          <div id="summary-score" class="text-lg font-black text-emerald-400 font-mono">0 / 20</div>
+        </div>
+        <div>
+          <div class="text-[10px] text-slate-400">सटीकता (Accuracy)</div>
+          <div id="summary-accuracy" class="text-lg font-black text-amber-400 font-mono">0%</div>
+        </div>
+      </div>
+
+      <button onclick="restartQuiz()" class="w-full py-3 bg-amber-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg touch-btn">
+        🔄 पुनः टेस्ट दें (Restart Quiz)
+      </button>
+    </div>
+
+  </main>
+  <!-- ============================================================== -->
+  <!-- FIXED BOTTOM NAVIGATION BAR (Thumb Zone Optimized)            -->
+  <!-- ============================================================== -->
+  <nav class="fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-md border-t border-slate-800/90 py-1.5 px-4 shadow-2xl">
+    <div class="max-w-md mx-auto grid grid-cols-2 gap-3">
+      <button onclick="switchTab('learn')" id="nav-btn-learn" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30">
+        <span class="text-lg leading-none mb-0.5">📖</span>
+        <span class="text-[11px] font-bold">सीखें व समझें</span>
+      </button>
+      <button onclick="switchTab('quiz')" id="nav-btn-quiz" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-slate-400 border border-transparent hover:text-white">
+        <span class="text-lg leading-none mb-0.5">🎯</span>
+        <span class="text-[11px] font-bold">अभ्यास प्रश्न</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================== -->
+  <!-- JAVASCRIPT LOGIC ENGINE & AUDIO SYNTHESIZER                    -->
+  <!-- ============================================================== -->
+  <script>
+    // -------------------------------------------------------------
+    // 1. Web Audio Synthesizer (Zero External Audio Dependencies)
+    // -------------------------------------------------------------
+    const AudioFX = {
+      ctx: null,
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+      },
+      tap() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(440, t);
+          osc.frequency.exponentialRampToValueAtTime(800, t + 0.04);
+          gain.gain.setValueAtTime(0.08, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.05);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.05);
+        } catch (e) {}
+      },
+      correct() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          // Arpeggio chime: E5 -> G#5 -> B5
+          const notes = [659.25, 830.61, 987.77];
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(freq, t + idx * 0.08);
+            gain.gain.setValueAtTime(0.12, t + idx * 0.08);
+            gain.gain.exponentialRampToValueAtTime(0.001, t + idx * 0.08 + 0.25);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(t + idx * 0.08);
+            osc.stop(t + idx * 0.08 + 0.25);
+          });
+        } catch (e) {}
+      },
+      incorrect() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(220, t);
+          osc.frequency.linearRampToValueAtTime(140, t + 0.18);
+          gain.gain.setValueAtTime(0.12, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.2);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.2);
+        } catch (e) {}
+      }
+    };
+    // -------------------------------------------------------------
+    // 2. Comprehensive MPBSE Board Database (33 Essential Words)
+    // -------------------------------------------------------------
+    const sandhiDatabase = {
+      swar: {
+        title: "स्वर संधि किसे कहते हैं?",
+        desc: "दो स्वरों के आपस में मिलने से जो विकार उत्पन्न होता है, उसे <b>स्वर संधि</b> कहते हैं। MP बोर्ड में इसके मुख्य रूप से ५ भेद पूछे जाते हैं।",
+        rules: [
+          { name: "दीर्घ संधि", formula: "अ/आ, इ/ई, उ/ऊ + सवर्ण स्वर = आ, ई, ऊ", trick: "शब्द के बीच में 'आ' (ा), 'ई' (ी) या 'ऊ' (ू) की बड़ी मात्रा दिखेगी।" },
+          { name: "गुण संधि", formula: "अ/आ + (इ/ई, उ/ऊ, ऋ) = ए, ओ, अर्", trick: "शब्द के बीच में एक चोटी मात्रा (े या ो) या 'र्' (महर्षि) दिखेगी।" },
+          { name: "वृद्धि संधि", formula: "अ/आ + (ए/ऐ, ओ/औ) = ऐ, औ", trick: "शब्द के ऊपर दो चोटी मात्रा (ै या ौ) दिखेगी।" },
+          { name: "यण संधि", formula: "इ/ई, उ/ऊ, ऋ + असमान स्वर = य्, व्, र्", trick: "'य', 'व' या 'र' से ठीक पहले आधा अक्षर जुड़ा होगा (स्वागत, यद्यपि)।" },
+          { name: "अयादि संधि", formula: "ए, ऐ, ओ, औ + स्वर = अय्, आय्, अव्, आव्", trick: "तीन अक्षरों का सरल शब्द, बीच में 'य' या 'व' की ध्वनि (नयन, पावक)।" }
+        ],
+        words: [
+          { id: 's1', word: "विद्यालय", vigrah: "विद्या + आलय", bhed: "दीर्घ स्वर संधि", formula: "आ + आ = आ", trick: "बीच में 'आ' (ा) की दीर्घ मात्रा है।" },
+          { id: 's2', word: "कवीन्द्र", vigrah: "कवि + इन्द्र", bhed: "दीर्घ स्वर संधि", formula: "इ + इ = ई", trick: "बीच में 'ई' (ी) की दीर्घ मात्रा है।" },
+          { id: 's3', word: "भानूदय", vigrah: "भानु + उदय", bhed: "दीर्घ स्वर संधि", formula: "उ + उ = ऊ", trick: "बीच में 'ऊ' (ू) की दीर्घ मात्रा है।" },
+          { id: 's4', word: "देवेन्द्र", vigrah: "देव + इन्द्र", bhed: "गुण स्वर संधि", formula: "अ + इ = ए", trick: "सिर पर 'ए' (े) की एक चोटी मात्रा है।" },
+          { id: 's5', word: "महोत्सव", vigrah: "महा + उत्सव", bhed: "गुण स्वर संधि", formula: "आ + उ = ओ", trick: "बीच में 'ओ' (ो) की एक चोटी मात्रा है।" },
+          { id: 's6', word: "महर्षि", vigrah: "महा + ऋषि", bhed: "गुण स्वर संधि", formula: "आ + ऋ = अर्", trick: "उच्चारण में 'अर्' तथा सिर पर रेफ 'र्' है।" },
+          { id: 's7', word: "एकैक", vigrah: "एक + एक", bhed: "वृद्धि स्वर संधि", formula: "अ + ए = ऐ", trick: "सिर पर 'ऐ' (ै) की दो चोटी मात्रा है।" },
+          { id: 's8', word: "सदैव", vigrah: "सदा + एव", bhed: "वृद्धि स्वर संधि", formula: "आ + ए = ऐ", trick: "सिर पर 'ऐ' (ै) की दो चोटी मात्रा है।" },
+          { id: 's9', word: "महौषध", vigrah: "महा + औषध", bhed: "वृद्धि स्वर संधि", formula: "आ + औ = औ", trick: "सिर पर 'औ' (ौ) की दो चोटी मात्रा है।" },
+          { id: 's10', word: "स्वागत", vigrah: "सु + आगत", bhed: "यण स्वर संधि", formula: "उ + आ = वा", trick: "'व' से ठीक पहले आधा 'स्' लगा हुआ है।" },
+          { id: 's11', word: "यद्यपि", vigrah: "यदि + अपि", bhed: "यण स्वर संधि", formula: "इ + अ = य", trick: "'द्य' में 'य' से पहले आधा 'द्' शामिल है।" },
+          { id: 's12', word: "नयन", vigrah: "ने + अन", bhed: "अयादि स्वर संधि", formula: "ए + अ = अय्", trick: "उच्चारण में 'नय्' (अय) की ध्वनि है।" },
+          { id: 's13', word: "पावक", vigrah: "पौ + अक", bhed: "अयादि स्वर संधि", formula: "औ + अ = आव्", trick: "उच्चारण में 'पाव्' (आव) की ध्वनि है।" }
+        ]
+      },
+      vyanjan: {
+        title: "व्यंजन संधि किसे कहते हैं?",
+        desc: "व्यंजन के बाद किसी स्वर या व्यंजन के आने से उस व्यंजन में जो परिवर्तन होता है, उसे <b>व्यंजन संधि</b> कहते हैं।",
+        rules: [
+          { name: "वर्ग का पहला वर्ण तीसरे में (1 → 3)", formula: "क्, च्, ट्, त्, प् + सघोष = ग्, ज्, ड्, द्, ब्", trick: "क-च-ट-त-प अपने ही वर्ग के तीसरे अक्षर में बदलते हैं (दिक् + अम्बर = दिगम्बर)।" },
+          { name: "त् संबंधी द्वित्व नियम", formula: "त् + च/ज/ट/ल = च्च, ज्ज, ट्ट, ल्ल", trick: "त् के बाद ज आने पर 'ज्ज' (सज्जन), ल आने पर 'ल्ल' (तल्लीन) बनता है।" },
+          { name: "अनुस्वार नियम (म् का ं बनना)", formula: "म् + व्यंजन = अनुस्वार (ं)", trick: "म् के बाद व्यंजन आने पर म् सिर पर बिंदी (ं) बनता है (सम् + कल्प = संकल्प)।" },
+          { name: "वर्ग का पहला वर्ण पाँचवें में (1 → 5)", formula: "त्/क् + न/म = न्न/ङ्", trick: "पहला वर्ण अपने ५वें अनुनासिक में बदलता है (उत् + नति = उन्नति)।" }
+        ],
+        words: [
+          { id: 'v1', word: "सज्जन", vigrah: "सत् + जन", bhed: "व्यंजन संधि", formula: "त् + ज = ज्ज", trick: "त् का ज में परिवर्तन (द्वित्व ज्ज अक्षर)।" },
+          { id: 'v2', word: "जगदीश", vigrah: "जगत् + ईश", bhed: "व्यंजन संधि", formula: "त् + ई = दी", trick: "प्रथम वर्ण 'त्' तीसरे वर्ण 'द्' में बदला।" },
+          { id: 'v3', word: "उच्चारण", vigrah: "उत् + चारण", bhed: "व्यंजन संधि", formula: "त् + च = च्च", trick: "त् के बाद च आने पर द्वित्व 'च्च' बन गया।" },
+          { id: 'v4', word: "संकल्प", vigrah: "सम् + कल्प", bhed: "व्यंजन संधि", formula: "म् + क = अनुस्वार (ं)", trick: "सम् का 'म्' बिंदी (अनुस्वार) में बदला।" },
+          { id: 'v5', word: "उन्नति", vigrah: "उत् + नति", bhed: "व्यंजन संधि", formula: "त् + न = न्न", trick: "त् अपने वर्ग के ५वें वर्ण 'न्' में परिवर्तित।" },
+          { id: 'v6', word: "दिगम्बर", vigrah: "दिक् + अम्बर", bhed: "व्यंजन संधि", formula: "क् + अ = ग", trick: "'क्' अपने तीसरे वर्ण 'ग्' में बदल गया।" },
+          { id: 'v7', word: "उज्ज्वल", vigrah: "उत् + ज्वल", bhed: "व्यंजन संधि", formula: "त् + ज = ज्ज", trick: "दोनों 'ज्' आधे होते हैं (बोर्ड परीक्षा शुद्ध वर्तनी)।" },
+          { id: 'v8', word: "सदाचार", vigrah: "सत् + आचार", bhed: "व्यंजन संधि", formula: "त् + आ = दा", trick: "'त्' तीसरे वर्ण 'द्' में परिवर्तित हुआ।" },
+          { id: 'v9', word: "संतोष", vigrah: "सम् + तोष", bhed: "व्यंजन संधि", formula: "म् + त = अनुस्वार (ं)", trick: "'म्' का अनुस्वार बिंदी में रूपांतरण।" },
+          { id: 'v10', word: "तल्लीन", vigrah: "तत् + लीन", bhed: "व्यंजन संधि", formula: "त् + ल = ल्ल", trick: "त् के आगे ल आने से आधा 'ल्' बन गया।" }
+        ]
+      },
+      visarg: {
+        title: "विसर्ग संधि किसे कहते हैं?",
+        desc: "विसर्ग (:) के बाद किसी स्वर अथवा व्यंजन के आने पर विसर्ग में जो विकार उत्पन्न होता है, उसे <b>विसर्ग संधि</b> कहते हैं।",
+        rules: [
+          { name: "विसर्ग का 'ओ' होना", formula: "अः + सघोष व्यंजन = ओ", trick: "यदि 'ओ' की मात्रा हटने पर सार्थक शब्द बचे (मनः + हर = मनोहर)।" },
+          { name: "विसर्ग का 'र्' (रेफ) होना", formula: "इः / उः + सघोष = र्", trick: "सिर पर उड़ने वाला 'र्' दिखे (निः + धन = निर्धन)।" },
+          { name: "विसर्ग का 'श्/ष्/स्' होना", formula: "विसर्ग + च/ट/त = श्/ष्/स्", trick: "विसर्ग आधा श, ष या स बन जाता है (नमः + ते = नमस्ते)।" },
+          { name: "विसर्ग लोप व दीर्घ स्वर नियम", formula: "निः + र = नी (ह्रस्व का दीर्घ)", trick: "विसर्ग के बाद 'र' आने पर विसर्ग हटता है और मात्रा बड़ी हो जाती है (नीरोग)।" }
+        ],
+        words: [
+          { id: 'vi1', word: "मनोहर", vigrah: "मनः + हर", bhed: "विसर्ग संधि", formula: "अः + ह = ओ", trick: "विसर्ग 'ओ' की मात्रा में रूपांतरित हुआ।" },
+          { id: 'vi2', word: "यशोदा", vigrah: "यशः + दा", bhed: "विसर्ग संधि", formula: "अः + द = ओ", trick: "यशः + दा = यशोदा (विसर्ग का 'ओ' होना)।" },
+          { id: 'vi3', word: "तपोवन", vigrah: "तपः + वन", bhed: "विसर्ग संधि", formula: "अः + व = ओ", trick: "तपः + वन = तपोवन ('ओ' की मात्रा)।" },
+          { id: 'vi4', word: "सरोज", vigrah: "सरः + ज", bhed: "विसर्ग संधि", formula: "अः + ज = ओ", trick: "सरः (तालाब) + ज (जन्मा) = कमल (सरोज)।" },
+          { id: 'vi5', word: "निर्धन", vigrah: "निः + धन", bhed: "विसर्ग संधि", formula: "इः + ध = र्", trick: "विसर्ग उड़ने वाले 'र्' (रेफ) में परिवर्तित।" },
+          { id: 'vi6', word: "नमस्ते", vigrah: "नमः + ते", bhed: "विसर्ग संधि", formula: "अः + त = स्", trick: "विसर्ग आधे 'स्' में बदल गया।" },
+          { id: 'vi7', word: "निश्चय", vigrah: "निः + चय", bhed: "विसर्ग संधि", formula: "इः + च = श्", trick: "विसर्ग के बाद 'च' आने पर आधा 'श्' बना।" },
+          { id: 'vi8', word: "दुष्कर", vigrah: "दुः + कर", bhed: "विसर्ग संधि", formula: "उः + क = ष्", trick: "विसर्ग षट्कोण वाले आधे 'ष्' में बदला।" },
+          { id: 'vi9', word: "नीरोग", vigrah: "निः + रोग", bhed: "विसर्ग संधि", formula: "निः + र = नी", trick: "विसर्ग का लोप हुआ और 'नि' दीर्घ 'नी' बना।" },
+          { id: 'vi10', word: "निरुपम", vigrah: "निः + उपम", bhed: "विसर्ग संधि", formula: "इः + उ = रु", trick: "विसर्ग 'र्' बना और 'उ' मिलकर 'रु' हुआ।" }
+        ]
+      }
+    };
+    // -------------------------------------------------------------
+    // 3. MP Board Quiz Questions Pool (10 Board Model Questions)
+    // -------------------------------------------------------------
+    const quizQuestions = [
+      {
+        tag: "व्यंजन संधि",
+        q: "'सज्जन' शब्द का सही संधि विच्छेद क्या होगा?",
+        options: ["सज + जन", "सत् + जन", "सत + जन", "सा + जन"],
+        ans: 1,
+        exp: "त् + ज = ज्ज (व्यंजन संधि का त्-संबंधी नियम)। सत् + जन मिलकर 'सज्जन' बनता है।"
+      },
+      {
+        tag: "स्वर संधि",
+        q: "'महोत्सव' में कौन सी संधि प्रयुक्त हुई है?",
+        options: ["दीर्घ स्वर संधि", "गुण स्वर संधि", "वृद्धि स्वर संधि", "यण स्वर संधि"],
+        ans: 1,
+        exp: "महा + उत्सव = महोत्सव (आ + उ = ओ)। सिर पर एक चोटी वाली मात्रा 'गुण संधि' की पहचान है।"
+      },
+      {
+        tag: "स्वर संधि",
+        q: "'स्वागत' का सही संधि विच्छेद क्या है?",
+        options: ["स्वा + गत", "सु + आगत", "स्व + आगत", "सु + गत"],
+        ans: 1,
+        exp: "सु + आगत = स्वागत (उ + आ = वा)। 'व' से पहले आधा 'स्' यण स्वर संधि का परिचायक है।"
+      },
+      {
+        tag: "विसर्ग संधि",
+        q: "'मनोहर' किस संधि का प्रमुख उदाहरण है?",
+        options: ["स्वर संधि", "व्यंजन संधि", "विसर्ग संधि", "दीर्घ संधि"],
+        ans: 2,
+        exp: "मनः + हर = मनोहर। यहाँ विसर्ग (:) का परिवर्तन 'ओ' में हुआ है।"
+      },
+      {
+        tag: "स्वर संधि",
+        q: "'एकैक' में कौन सी स्वर संधि है?",
+        options: ["गुण स्वर संधि", "दीर्घ स्वर संधि", "वृद्धि स्वर संधि", "अयादि स्वर संधि"],
+        ans: 2,
+        exp: "एक + एक = एकैक (अ + ए = ऐ)। दो चोटी वाली मात्रा (ै) 'वृद्धि संधि' का लक्षण है।"
+      },
+      {
+        tag: "व्यंजन संधि",
+        q: "'दिगम्बर' का सही संधि विच्छेद क्या होगा?",
+        options: ["दिग + अम्बर", "दिक् + अम्बर", "दिग् + अम्बर", "दीक + अम्बर"],
+        ans: 1,
+        exp: "दिक् + अम्बर = दिगम्बर। प्रथम वर्ण 'क्' अपने वर्ग के तीसरे वर्ण 'ग्' में बदल गया।"
+      },
+      {
+        tag: "विसर्ग संधि",
+        q: "'नीरोग' का सही संधि विच्छेद क्या है?",
+        options: ["नि + रोग", "निः + रोग", "नी + रोग", "निर + रोग"],
+        ans: 1,
+        exp: "निः + रोग = नीरोग। विसर्ग के बाद 'र' होने से विसर्ग का लोप होकर ह्रस्व 'नि' दीर्घ 'नी' में बदल जाता है।"
+      },
+      {
+        tag: "व्यंजन संधि",
+        q: "'उज्ज्वल' में कौन सी संधि है?",
+        options: ["स्वर संधि", "व्यंजन संधि", "विसर्ग संधि", "गुण संधि"],
+        ans: 1,
+        exp: "उत् + ज्वल = उज्ज्वल। त् का ज में परिवर्तन हुआ है, यह व्यंजन संधि है।"
+      },
+      {
+        tag: "स्वर संधि",
+        q: "'पावक' का संधि विच्छेद क्या होगा?",
+        options: ["पो + अक", "पौ + अक", "पाव + क", "पा + वक"],
+        ans: 1,
+        exp: "पौ + अक = पावक (औ + अ = आव्)। यह अयादि स्वर संधि का मानक उदाहरण है।"
+      },
+      {
+        tag: "विसर्ग संधि",
+        q: "'नमस्ते' का संधि विच्छेद क्या है?",
+        options: ["नम + स्ते", "नमः + ते", "नमस + ते", "नमो + ते"],
+        ans: 1,
+        exp: "नमः + ते = नमस्ते। विसर्ग के बाद 'त' आने पर विसर्ग आधा 'स्' में रूपांतरित होता है।"
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // 4. App State Variables
+    // -------------------------------------------------------------
+    let currentCategory = 'swar';
+    let activeWordId = 's1';
+    let currentQuizIndex = 0;
+    let quizScore = 0;
+    let streakCount = 0;
+
+    // -------------------------------------------------------------
+    // 5. Navigation & View Switcher
+    // -------------------------------------------------------------
+    function switchTab(tab) {
+      AudioFX.tap();
+      const learnView = document.getElementById('learn-view');
+      const quizView = document.getElementById('quiz-view');
+      const btnLearn = document.getElementById('nav-btn-learn');
+      const btnQuiz = document.getElementById('nav-btn-quiz');
+
+      if (tab === 'learn') {
+        learnView.classList.remove('hidden');
+        quizView.classList.add('hidden');
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30";
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-slate-400 border border-transparent hover:text-white";
+      } else {
+        learnView.classList.add('hidden');
+        quizView.classList.remove('hidden');
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30";
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-slate-400 border border-transparent hover:text-white";
+        renderQuizCard();
+      }
+    }
+
+    // -------------------------------------------------------------
+    // 6. Category Selection & Synchronizer
+    // -------------------------------------------------------------
+    function setSandhiCategory(cat) {
+      AudioFX.tap();
+      currentCategory = cat;
+
+      // Update Pill Visual States
+      ['swar', 'vyanjan', 'visarg'].forEach(c => {
+        const pill = document.getElementById(`pill-${c}`);
+        if (c === cat) {
+          pill.className = "px-2.5 py-1 rounded-lg font-bold transition text-xs touch-btn bg-amber-500 text-slate-950 shadow";
+        } else {
+          pill.className = "px-2.5 py-1 rounded-lg font-medium transition text-xs touch-btn text-slate-300 hover:text-white";
+        }
+      });
+
+      // Default to first word of newly selected category
+      activeWordId = sandhiDatabase[cat].words[0].id;
+      renderLearnView();
+    }
+    // -------------------------------------------------------------
+    // 7. Render Learn Mode
+    // -------------------------------------------------------------
+    function renderLearnView() {
+      const data = sandhiDatabase[currentCategory];
+
+      // 1. Definition Banner
+      document.getElementById('def-title').innerText = data.title;
+      document.getElementById('def-text').innerHTML = data.desc;
+      document.getElementById('def-total-words-badge').innerText = `${data.words.length} शब्द उपलब्ध`;
+      document.getElementById('rules-count-label').innerText = `${data.rules.length} प्रमुख नियम`;
+      document.getElementById('word-grid-counter').innerText = `कुल शब्द: ${data.words.length}`;
+
+      // 2. Rules Container
+      const rulesBox = document.getElementById('rules-container');
+      rulesBox.innerHTML = data.rules.map(r => `
+        <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-2.5">
+          <div class="flex items-center justify-between text-xs font-bold text-amber-300 mb-1">
+            <span>📌 ${r.name}</span>
+            <span class="text-[10px] text-slate-400 font-mono">${r.formula}</span>
+          </div>
+          <p class="text-[11px] text-slate-200 leading-normal">
+            <span class="text-amber-400 font-semibold">पहचान:</span> ${r.trick}
+          </p>
+        </div>
+      `).join('');
+
+      // Find active word
+      const selectedWord = data.words.find(w => w.id === activeWordId) || data.words[0];
+      updateActiveWordCard(selectedWord);
+
+      // 3. Render Word Chips with Highlight
+      renderWordChips(data.words);
+    }
+
+    function renderWordChips(words) {
+      const chipsBox = document.getElementById('word-chips-grid');
+      chipsBox.innerHTML = words.map(w => {
+        const isActive = w.id === activeWordId;
+        const activeStyles = isActive 
+          ? "bg-gradient-to-tr from-amber-500 to-amber-400 text-slate-950 font-black border-amber-300 shadow-md scale-[1.02]" 
+          : "bg-slate-950/80 border-slate-800 text-slate-200 hover:border-amber-400/60";
+
+        return `
+          <button onclick="handleWordSelect('${w.id}')" class="py-2 px-1.5 rounded-xl border text-center transition-all touch-btn flex flex-col items-center justify-center ${activeStyles}">
+            <span class="text-xs font-bold block truncate max-w-full">${w.word}</span>
+            <span class="text-[9px] ${isActive ? 'text-slate-950/80 font-bold' : 'text-slate-400'} truncate block mt-0.5">
+              ${w.bhed.replace(' स्वर संधि', '').replace(' संधि', '')}
+            </span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function handleWordSelect(wordId) {
+      AudioFX.tap();
+      activeWordId = wordId;
+      const data = sandhiDatabase[currentCategory];
+      const wordObj = data.words.find(w => w.id === wordId);
+      if (wordObj) {
+        updateActiveWordCard(wordObj);
+        renderWordChips(data.words);
+      }
+    }
+
+    function updateActiveWordCard(item) {
+      document.getElementById('card-bhed').innerText = item.bhed;
+      document.getElementById('card-equation').innerHTML = `${item.vigrah} = <span class="text-white underline decoration-amber-400 underline-offset-4 font-black">${item.word}</span>`;
+      document.getElementById('card-formula').innerText = `सूत्र: ${item.formula}`;
+      document.getElementById('card-trick').innerText = item.trick;
+    }
+
+    // -------------------------------------------------------------
+    // 8. Quiz Engine Logic
+    // -------------------------------------------------------------
+    function renderQuizCard() {
+      if (currentQuizIndex >= quizQuestions.length) {
+        showQuizSummary();
+        return;
+      }
+
+      document.getElementById('quiz-summary-card').classList.add('hidden');
+      document.getElementById('quiz-feedback').classList.add('hidden');
+
+      const q = quizQuestions[currentQuizIndex];
+      document.getElementById('q-current').innerText = currentQuizIndex + 1;
+      document.getElementById('q-total').innerText = quizQuestions.length;
+      document.getElementById('quiz-q-tag').innerText = q.tag;
+      document.getElementById('quiz-question').innerText = q.q;
+
+      const optionsBox = document.getElementById('quiz-options');
+      optionsBox.innerHTML = q.options.map((opt, i) => `
+        <button onclick="handleAnswer(${i})" class="quiz-opt-btn w-full text-left p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-100 font-semibold hover:border-amber-400/80 transition-all touch-btn flex items-center justify-between">
+          <span>${opt}</span>
+          <span class="text-slate-600 text-xs">○</span>
+        </button>
+      `).join('');
+    }
+
+    function handleAnswer(selectedIdx) {
+      const q = quizQuestions[currentQuizIndex];
+      const buttons = document.querySelectorAll('.quiz-opt-btn');
+      buttons.forEach(btn => btn.disabled = true);
+
+      const feedbackBox = document.getElementById('quiz-feedback');
+      const badge = document.getElementById('feedback-badge');
+      const text = document.getElementById('feedback-text');
+
+      feedbackBox.classList.remove('hidden');
+
+      if (selectedIdx === q.ans) {
+        AudioFX.correct();
+        quizScore += 2;
+        streakCount++;
+        document.getElementById('q-score').innerText = `${quizScore} / ${quizQuestions.length * 2}`;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>${streakCount}</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-emerald-500 bg-emerald-950/60 text-emerald-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-emerald-400 font-bold">✓</span>`;
+        badge.innerText = "✓ सही उत्तर! (+2 अंक प्राप्त)";
+        badge.className = "text-xs font-bold text-emerald-400 flex items-center gap-1";
+      } else {
+        AudioFX.incorrect();
+        streakCount = 0;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-red-500 bg-red-950/60 text-red-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-red-400 font-bold">✗</span>`;
+
+        // Highlight correct one
+        buttons[q.ans].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-emerald-500/80 bg-emerald-950/40 text-emerald-300 font-bold text-xs flex items-center justify-between";
+        buttons[q.ans].innerHTML = `<span>${q.options[q.ans]}</span> <span class="text-emerald-400 font-bold">✓</span>`;
+
+        badge.innerText = "✗ गलत उत्तर! (सही उत्तर पर ध्यान दें)";
+        badge.className = "text-xs font-bold text-red-400 flex items-center gap-1";
+      }
+
+      text.innerHTML = `<strong>विश्लेषण:</strong> ${q.exp}`;
+    }
+
+    function nextQuizQuestion() {
+      AudioFX.tap();
+      currentQuizIndex++;
+      renderQuizCard();
+    }
+
+    function showQuizSummary() {
+      document.getElementById('quiz-feedback').classList.add('hidden');
+      const summaryCard = document.getElementById('quiz-summary-card');
+      summaryCard.classList.remove('hidden');
+
+      const maxScore = quizQuestions.length * 2;
+      const accuracy = Math.round((quizScore / maxScore) * 100);
+
+      document.getElementById('summary-score').innerText = `${quizScore} / ${maxScore}`;
+      document.getElementById('summary-accuracy').innerText = `${accuracy}%`;
+    }
+
+    function restartQuiz() {
+      AudioFX.tap();
+      currentQuizIndex = 0;
+      quizScore = 0;
+      streakCount = 0;
+      document.getElementById('q-score').innerText = `0 / ${quizQuestions.length * 2}`;
+      document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+      renderQuizCard();
+    }
+
+    // Initialize application on load
+    window.addEventListener('DOMContentLoaded', () => {
+      renderLearnView();
+    });
+  </script>
+</body>
+</html>

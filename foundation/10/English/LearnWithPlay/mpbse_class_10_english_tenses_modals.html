@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Tenses & Modals - MPBSE Class 10 English Grammar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+            hind: ['Hind', 'sans-serif'],
+          },
+          colors: {
+            cyandark: '#040d1a',
+            cyancard: '#08172c',
+            cyansurface: '#0e2444',
+            cyanaccent: '#06b6d4',
+            cyanlight: '#38bdf8',
+            cyanmint: '#a5f3fc'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hindi-text {
+      font-family: 'Hind', sans-serif;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .touch-btn:active {
+      transform: scale(0.96);
+    }
+    @keyframes cyanPulse {
+      0%, 100% { border-color: rgba(6, 182, 212, 0.35); box-shadow: 0 0 16px rgba(6, 182, 212, 0.12); }
+      50% { border-color: rgba(56, 189, 248, 0.7); box-shadow: 0 0 24px rgba(6, 182, 212, 0.3); }
+    }
+    .glow-cyan {
+      animation: cyanPulse 3s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-cyandark text-slate-100 min-h-screen pb-24 antialiased selection:bg-cyan-500 selection:text-black">
+
+  <!-- TOP APP BAR -->
+  <header class="sticky top-0 z-40 bg-[#061426]/95 backdrop-blur-md border-b border-cyan-500/20 px-3.5 py-2.5 shadow-lg">
+    <div class="flex items-center justify-between mb-2">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-600 to-sky-400 flex items-center justify-center text-slate-950 font-black text-lg shadow-md shadow-cyan-500/30">
+          T&M
+        </div>
+        <div>
+          <h1 class="text-sm sm:text-base font-bold text-cyan-200 tracking-wide leading-tight flex items-center gap-1.5">
+            Tenses & Modals
+            <span class="text-[9px] bg-cyan-500/20 text-cyan-300 font-sans px-1.5 py-0.5 rounded font-bold border border-cyan-500/30">10th MPBSE</span>
+          </h1>
+          <p class="text-[10px] text-cyan-300/70 hindi-text">Section C: Fill in the Blanks & Do as Directed</p>
+        </div>
+      </div>
+      
+      <!-- Primary Category Switcher (Tenses vs Modals) -->
+      <div class="flex bg-slate-950/90 p-0.5 rounded-xl border border-cyan-900/60 text-xs shadow-inner">
+        <button onclick="setMainCategory('tenses')" id="main-pill-tenses" class="px-2.5 py-1 rounded-lg font-bold transition text-xs touch-btn bg-cyan-500 text-slate-950 shadow">
+          Tenses
+        </button>
+        <button onclick="setMainCategory('modals')" id="main-pill-modals" class="px-2.5 py-1 rounded-lg font-medium transition text-xs touch-btn text-cyan-200 hover:text-white">
+          Modals
+        </button>
+      </div>
+    </div>
+
+    <!-- Secondary Filter Scrollable Bar -->
+    <div id="sub-filter-bar" class="flex gap-1.5 overflow-x-auto no-scrollbar py-0.5 text-xs">
+      <!-- Injected by JS -->
+    </div>
+  </header>
+
+  <!-- ============================================================== -->
+  <!-- TAB 1: LEARN MODE (1. Concept -> 2. Golden Rules -> 3. Bank)   -->
+  <!-- ============================================================== -->
+  <main id="learn-view" class="max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- 1. Definition & Core Concept Card -->
+    <section class="bg-gradient-to-br from-[#0a1e38] via-[#07172b] to-[#040e1b] border border-cyan-500/30 rounded-2xl p-3.5 shadow-md">
+      <div class="flex items-center justify-between mb-1.5">
+        <div class="flex items-center gap-2">
+          <span class="text-[10px] bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 px-2 py-0.5 rounded-full font-bold">
+            1. Core Concept
+          </span>
+          <h2 id="def-title" class="text-xs sm:text-sm font-bold text-cyan-200">
+            What is a Tense? (काल)
+          </h2>
+        </div>
+        <span id="def-badge" class="text-[10px] font-mono text-cyan-300 bg-cyan-950/80 px-2 py-0.5 rounded-full border border-cyan-800">
+          Board High-Yield
+        </span>
+      </div>
+      <p id="def-text" class="text-xs text-slate-300 leading-relaxed hindi-text">
+        Tenses indicate the time of an action. MP Board exam questions predominantly test <b>Subject-Verb Agreement</b>, trigger words (yesterday, since, for, usually), and auxiliary transformations.
+      </p>
+    </section>
+
+    <!-- 2. Golden Rules & Mnemonics Hub -->
+    <section class="bg-[#071930]/90 border border-cyan-900/60 rounded-2xl p-3.5 space-y-2.5 shadow-sm">
+      <div class="flex items-center justify-between border-b border-cyan-900/50 pb-2">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-sky-500/20 text-sky-300 border border-sky-500/30 px-2 py-0.5 rounded-full font-bold">
+            2. Golden Clue Rules
+          </span>
+          <span class="text-xs text-cyan-200 font-semibold hindi-text">ट्रिक व पहचान सूत्र</span>
+        </div>
+        <span id="rules-count-label" class="text-[10px] text-cyan-300 font-mono font-bold">
+          Rules Active
+        </span>
+      </div>
+      
+      <!-- Dynamic Rules Container -->
+      <div id="rules-container" class="space-y-2 max-h-52 overflow-y-auto no-scrollbar pr-0.5"></div>
+    </section>
+
+    <!-- 3. Active Sentence Interactive Card -->
+    <section class="bg-gradient-to-b from-[#0c274b] to-[#07162c] border border-cyan-500/40 rounded-2xl p-3.5 shadow-xl glow-cyan relative overflow-hidden">
+      <div class="flex items-center justify-between mb-2">
+        <span id="card-bhed" class="text-[11px] font-bold text-cyan-200 bg-cyan-500/20 border border-cyan-500/40 px-2.5 py-0.5 rounded-full">
+          Past Simple (V2)
+        </span>
+        <span class="text-[10px] text-amber-300 font-bold bg-amber-950/70 border border-amber-500/40 px-2 py-0.5 rounded-full flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span> MP Board Favorite
+        </span>
+      </div>
+
+      <!-- Sentence Equation Display -->
+      <div class="text-center py-2.5 px-3 bg-slate-950/85 rounded-xl border border-cyan-900/60 mb-2.5 shadow-inner">
+        <div class="text-[10px] uppercase tracking-wider text-cyan-400/80 mb-1 font-semibold">Sentence Structure & Solution</div>
+        <div id="card-sentence" class="text-sm sm:text-base font-bold text-cyan-200 tracking-wide leading-relaxed">
+          He <span class="text-amber-300 underline underline-offset-4 decoration-amber-400 font-black">went</span> to Bhopal yesterday. (go)
+        </div>
+        <div id="card-formula" class="text-xs text-sky-300 mt-2 font-mono font-semibold">
+          Structure: Sub + V2 (Past Form) + Object
+        </div>
+      </div>
+
+      <!-- Quick Clue Card -->
+      <div class="bg-cyan-500/10 border border-cyan-500/25 rounded-xl p-2.5 flex items-start gap-2">
+        <span class="text-base leading-none mt-0.5">💡</span>
+        <div class="flex-1">
+          <div class="text-[11px] font-bold text-cyan-300">Golden Memory Clue (पहचान ट्रिक):</div>
+          <div id="card-trick" class="text-xs text-slate-200 leading-snug mt-0.5 hindi-text">
+            वाक्य में 'yesterday', 'ago', या 'last year' आते ही हमेशा क्रिया का 2nd form (V2) लगेगा।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Sentence Bank Grid -->
+    <section class="bg-[#051324]/80 border border-cyan-950 rounded-2xl p-3 space-y-2">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 px-2 py-0.5 rounded-full font-bold">
+            3. Question Bank
+          </span>
+          <span class="text-xs text-cyan-100 font-semibold hindi-text">टैप करके विश्लेषण देखें</span>
+        </div>
+        <span id="items-grid-counter" class="text-[10px] text-cyan-300/80 font-mono">
+          Items Available
+        </span>
+      </div>
+
+      <!-- 2-Column Responsive Grid -->
+      <div id="sentence-chips-grid" class="grid grid-cols-2 gap-2 pt-1 max-h-72 overflow-y-auto no-scrollbar pr-0.5">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================== -->
+  <!-- TAB 2: QUIZ / TEST MODE (Section C Board Examination Practice) -->
+  <!-- ============================================================== -->
+  <main id="quiz-view" class="hidden max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- Score & Streak Header -->
+    <div class="bg-[#081a33] border border-cyan-900/80 rounded-2xl p-3 shadow-md flex items-center justify-between">
+      <div>
+        <div class="text-[10px] text-cyan-400 font-bold uppercase tracking-wider">
+          MP Board Section C Test
+        </div>
+        <div class="text-xs font-bold text-cyan-200 flex items-center gap-1.5 mt-0.5">
+          <span>Question: <span id="q-current" class="text-white font-mono font-black text-sm">1</span> / <span id="q-total" class="font-mono">10</span></span>
+        </div>
+      </div>
+
+      <!-- Streak and Marks -->
+      <div class="flex items-center gap-3">
+        <div class="text-center px-2 py-1 rounded-lg bg-slate-950 border border-cyan-950">
+          <div class="text-[9px] text-cyan-400/80 hindi-text">लगातार सही</div>
+          <div id="q-streak" class="text-xs font-bold text-amber-400 flex items-center justify-center gap-0.5">
+            🔥 <span>0</span>
+          </div>
+        </div>
+        <div class="text-right">
+          <div class="text-[10px] text-cyan-400/80 hindi-text">कुल अंक</div>
+          <div id="q-score" class="text-base font-black text-cyan-300 font-mono">
+            0 / 20
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Question Card -->
+    <div class="bg-gradient-to-b from-[#0a2344] to-[#051427] border border-cyan-500/30 rounded-2xl p-4 space-y-3.5 shadow-xl">
+      <div class="flex items-center justify-between">
+        <span id="quiz-q-tag" class="text-[10px] bg-sky-500/20 text-sky-300 border border-sky-500/30 px-2.5 py-0.5 rounded-full font-bold">
+          Fill in the Blanks
+        </span>
+        <span class="text-[10px] text-cyan-300 font-bold font-mono">
+          +2 Marks
+        </span>
+      </div>
+
+      <h3 id="quiz-question" class="text-sm sm:text-base font-bold text-white leading-relaxed tracking-wide min-h-[52px] flex items-center">
+        He has been living in this town ________ 2015.
+      </h3>
+
+      <!-- 4 Options Container -->
+      <div id="quiz-options" class="space-y-2 pt-1">
+        <!-- Options injected here -->
+      </div>
+    </div>
+
+    <!-- Feedback & Explanation Card -->
+    <div id="quiz-feedback" class="hidden bg-[#091b34] border border-cyan-800/80 rounded-2xl p-3.5 space-y-2 shadow-lg transition-all">
+      <div class="flex items-center justify-between">
+        <div id="feedback-badge" class="text-xs font-bold text-cyan-300 flex items-center gap-1">
+          ✓ Correct Answer! (+2 Marks)
+        </div>
+        <span class="text-[10px] text-cyan-400/70 font-mono">Board Grammar Analysis</span>
+      </div>
+      
+      <p id="feedback-text" class="text-xs text-slate-200 leading-relaxed bg-slate-950/80 p-2.5 rounded-xl border border-cyan-950 hindi-text">
+        <!-- Explanation text -->
+      </p>
+
+      <button onclick="nextQuizQuestion()" class="w-full py-2.5 bg-gradient-to-r from-cyan-500 to-sky-500 active:from-cyan-600 active:to-sky-600 text-slate-950 font-bold text-xs rounded-xl shadow-md touch-btn flex items-center justify-center gap-1.5">
+        <span>Next Question</span>
+        <span>➔</span>
+      </button>
+    </div>
+
+    <!-- Summary Card -->
+    <div id="quiz-summary-card" class="hidden bg-gradient-to-b from-[#0c284d] to-[#061427] border border-cyan-500/40 rounded-2xl p-5 text-center space-y-3.5 shadow-2xl">
+      <div class="text-4xl animate-bounce">🏆</div>
+      <div>
+        <h4 class="text-lg font-bold text-cyan-300">Practice Test Completed!</h4>
+        <p class="text-xs text-cyan-200/80 mt-1 hindi-text">आपकी MPBSE बोर्ड परीक्षा तैयारी स्कोरकार्ड:</p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-2 bg-slate-950/80 p-3 rounded-xl border border-cyan-950">
+        <div>
+          <div class="text-[10px] text-cyan-400">Total Score</div>
+          <div id="summary-score" class="text-lg font-black text-cyan-300 font-mono">0 / 20</div>
+        </div>
+        <div>
+          <div class="text-[10px] text-cyan-400">Accuracy</div>
+          <div id="summary-accuracy" class="text-lg font-black text-sky-300 font-mono">0%</div>
+        </div>
+      </div>
+
+      <button onclick="restartQuiz()" class="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs rounded-xl shadow-lg touch-btn">
+        🔄 Retake Test (पुनः टेस्ट दें)
+      </button>
+    </div>
+
+  </main>
+
+  <!-- FIXED BOTTOM NAVIGATION BAR -->
+  <nav class="fixed bottom-0 left-0 right-0 z-50 bg-[#051120]/95 backdrop-blur-md border-t border-cyan-900/80 py-1.5 px-4 shadow-2xl">
+    <div class="max-w-md mx-auto grid grid-cols-2 gap-3">
+      <button onclick="switchTab('learn')" id="nav-btn-learn" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-cyan-300 bg-cyan-600/20 border border-cyan-500/40">
+        <span class="text-lg leading-none mb-0.5">📖</span>
+        <span class="text-[11px] font-bold">Learn & Practice</span>
+      </button>
+      <button onclick="switchTab('quiz')" id="nav-btn-quiz" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-cyan-400/60 border border-transparent hover:text-white">
+        <span class="text-lg leading-none mb-0.5">🎯</span>
+        <span class="text-[11px] font-bold">Practice Quiz</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- JAVASCRIPT ENGINE & AUDIO SYNTHESIZER -->
+  <script>
+    // 1. Web Audio Synthesizer (Zero External Audio Dependencies)
+    const AudioFX = {
+      ctx: null,
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+      },
+      tap() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(540, t);
+          osc.frequency.exponentialRampToValueAtTime(860, t + 0.04);
+          gain.gain.setValueAtTime(0.08, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.05);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.05);
+        } catch (e) {}
+      },
+      correct() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          // Arpeggio chime: C5 -> E5 -> G5
+          const notes = [523.25, 659.25, 783.99];
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(freq, t + idx * 0.08);
+            gain.gain.setValueAtTime(0.12, t + idx * 0.08);
+            gain.gain.exponentialRampToValueAtTime(0.001, t + idx * 0.08 + 0.25);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(t + idx * 0.08);
+            osc.stop(t + idx * 0.08 + 0.25);
+          });
+        } catch (e) {}
+      },
+      incorrect() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(210, t);
+          osc.frequency.linearRampToValueAtTime(140, t + 0.18);
+          gain.gain.setValueAtTime(0.12, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.2);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.2);
+        } catch (e) {}
+      }
+    };
+
+    // 2. Comprehensive Database for Tenses and Modals (MPBSE Syllabus Aligned)
+    const grammarStore = {
+      tenses: {
+        title: "Tenses (काल एवं समय)",
+        badge: "Section C Blueprint",
+        desc: "Tenses indicate the time of action and its degree of completeness. In MP Board exams, questions focus on <b>Simple Present (daily habit/universal truth)</b>, <b>Past Simple (yesterday/last year)</b>, and <b>Perfect Continuous with 'Since/For'</b>.",
+        subFilters: [
+          { id: 'all', name: "All Tenses" },
+          { id: 'pres_simple', name: "Present Simple" },
+          { id: 'pres_cont', name: "Pres Continuous" },
+          { id: 'pres_perf_cont', name: "Pres Perf Cont" },
+          { id: 'past_simple', name: "Past Simple" },
+          { id: 'past_cont', name: "Past Continuous" },
+          { id: 'past_perf', name: "Past Perfect" }
+        ],
+        rules: [
+          { id: 'pres_simple', name: "Present Simple (V1 / V5)", formula: "Sub (He/She/It/Singular) + V1 + s/es", trick: "Trigger words: 'always', 'usually', 'every day', 'never', 'daily' या universal truths (Sun rises in the east)।" },
+          { id: 'pres_cont', name: "Present Continuous", formula: "Sub + is/am/are + V1+ing (V4)", trick: "Trigger words: 'now', 'at present', 'look!', 'listen!'। कार्य वर्तमान में जारी है।" },
+          { id: 'pres_perf_cont', name: "Present Perfect Cont.", formula: "has/have + been + V4 + since/for", trick: "Point of time (2015, morning, Monday) के लिए 'since'; Period of time (two hours, 5 years) के लिए 'for'।" },
+          { id: 'past_simple', name: "Past Simple (V2)", formula: "Sub + V2 (Past Form of Verb)", trick: "Trigger words: 'yesterday', 'ago', 'last night', 'in 1947'। Negative/Interrogative में 'did + V1' लगता है।" },
+          { id: 'past_cont', name: "Past Continuous", formula: "Sub + was/were + V1+ing (V4)", trick: "जब भूतकाल में कोई कार्य हो रहा था। अक्सर 'while' या 'when' से जुड़े दो वाक्यों में प्रयुक्त होता है।" },
+          { id: 'past_perf', name: "Past Perfect (had + V3)", formula: "Sub + had + V3 (Past Participle)", trick: "डॉक्टर के आने से पहले रोगी मर चुका था (The patient had died before the doctor came)। पहले हुए कार्य के लिए 'had + V3'।" }
+        ],
+        items: [
+          { id: 't1', subId: 'past_simple', title: "He went yesterday", bhed: "Past Simple Tense", sentence: "He ________ to Bhopal yesterday. (go / went / gone)", answer: "went", formula: "Sub + V2 + Object", trick: "Trigger word 'yesterday' आया है, इसलिए go का 2nd form 'went' आएगा।" },
+          { id: 't2', subId: 'pres_simple', title: "The Earth moves", bhed: "Present Simple (Fact)", sentence: "The Sun ________ in the east. (rise / rises / rising)", answer: "rises", formula: "Singular Sub + V1+s/es", trick: "Universal truth (सार्वभौमिक सत्य) होने के कारण 3rd person singular के साथ 'rises' लगेगा।" },
+          { id: 't3', subId: 'pres_perf_cont', title: "Living since 2015", bhed: "Present Perfect Cont.", sentence: "I have been living here ________ 2015. (for / since / from)", answer: "since", formula: "has/have been + V4 + since + point of time", trick: "'2015' निश्चित समय (Point of time) है, इसलिए 'since' आएगा।" },
+          { id: 't4', subId: 'pres_perf_cont', title: "Waiting for 2 hours", bhed: "Present Perfect Cont.", sentence: "She has been waiting ________ two hours. (since / for / to)", answer: "for", formula: "has been + V4 + for + duration", trick: "'Two hours' अनिश्चित अवधि (Period of time) है, इसलिए 'for' आएगा।" },
+          { id: 't5', subId: 'pres_cont', title: "Look! Bus is coming", bhed: "Present Continuous", sentence: "Look! The bus ________. (comes / is coming / came)", answer: "is coming", formula: "Sub + is/am/are + V1+ing", trick: "'Look!' वर्तमान में घटित हो रही घटना की ओर संकेत करता है।" },
+          { id: 't6', subId: 'past_simple', title: "Did not attend", bhed: "Past Simple Negative", sentence: "She did not ________ the meeting. (attended / attend / attending)", answer: "attend", formula: "did not + V1 (Base Form)", trick: "MP Board Rule: 'did' के बाद हमेशा क्रिया का पहला रूप (V1) ही आता है।" },
+          { id: 't7', subId: 'past_perf', title: "Patient had died", bhed: "Past Perfect Combined", sentence: "The train had left before we ________ the station. (reached / reach / had reached)", answer: "reached", formula: "Past Perfect (had + V3) + before + Past Simple (V2)", trick: "दो भूतकालिक कार्यों में पहला 'had + V3' और बाद वाला 'V2' में होता है।" },
+          { id: 't8', subId: 'pres_simple', title: "He does his work", bhed: "Do as Directed", sentence: "He does his duty. (Change into negative)", answer: "He does not do his duty.", formula: "Sub + does not + V1 (do)", trick: "MP Board Special: 'He does his work' का नकारात्मक 'He does not do his work' बनता है।" },
+          { id: 't9', subId: 'past_cont', title: "While I was reading", bhed: "Past Continuous", sentence: "While I ________, the phone rang. (read / was reading / had read)", answer: "was reading", formula: "While + was/were + V4", trick: "'While' के साथ जारी भूतकालिक क्रिया (Continuous) आती है।" },
+          { id: 't10', subId: 'pres_simple', title: "They play cricket", bhed: "Subject-Verb Agreement", sentence: "They ________ cricket every Sunday. (play / plays / playing)", answer: "play", formula: "Plural Subject (They) + V1", trick: "Plural subject के साथ 's/es' नहीं लगता, केवल 'play' आएगा।" },
+          { id: 't11', subId: 'past_simple', title: "India got freedom", bhed: "Past Historical Event", sentence: "India ________ independence in 1947. (got / get / gets)", answer: "got", formula: "Sub + V2 + in [Past Year]", trick: "विगत वर्ष '1947' दर्शाने हेतु हमेशा भूतकाल (V2: got) प्रयुक्त होता है।" },
+          { id: 't12', subId: 'pres_perf_cont', title: "Raining since morning", bhed: "Present Perfect Cont.", sentence: "It has been raining ________ morning. (since / for / in)", answer: "since", formula: "has been + raining + since morning", trick: "'Morning' निश्चित समय बिंदु है, अतः 'since' सही उत्तर है।" }
+        ]
+      },
+      modals: {
+        title: "Modals (सहायक क्रियाएं / भाव बोधक)",
+        badge: "Section C Blueprint",
+        desc: "Modal Auxiliaries express ability, permission, possibility, necessity, or moral obligation. They are always followed by the <b>base form of the verb (V1)</b> without any change for singular/plural.",
+        subFilters: [
+          { id: 'all', name: "All Modals" },
+          { id: 'may_might', name: "May / Might" },
+          { id: 'can_could', name: "Can / Could" },
+          { id: 'should_must', name: "Should / Must" },
+          { id: 'ought_would', name: "Ought to / Would" }
+        ],
+        rules: [
+          { id: 'may_might', name: "May (औपचारिक अनुमति / संभावना)", formula: "May + V1 (Formal Permission / Strong Possibility)", trick: "शिक्षक या अधिकारी से अनुमति लेने के लिए: 'May I come in, sir?'; बारिश होने की संभावना: 'It may rain today'।" },
+          { id: 'can_could', name: "Can / Could (क्षमता / सामर्थ्य)", formula: "Can (Present Ability) / Could (Past Ability)", trick: "'Can you lift this box?' (क्षमता); 'When I was young, I could run fast' (भूतकाल की क्षमता)।" },
+          { id: 'should_must', name: "Should (सलाह) vs Must (अनिवार्यता)", formula: "Should (Advice) / Must (Compulsion/Duty)", trick: "सामान्य सलाह: 'You should take medicine'; अनिवार्य नियम/कानून: 'We must follow traffic rules'।" },
+          { id: 'ought_would', name: "Ought to (नैतिक कर्तव्य) / Would (निवेदन)", formula: "Ought to (Moral Duty) / Would you (Polite Request)", trick: "माता-पिता/देश की सेवा जैसे नैतिक कर्तव्य हेतु 'ought to'; चाय/कॉफ़ी का विनम्र प्रस्ताव: 'Would you like some tea?'" }
+        ],
+        items: [
+          { id: 'm1', subId: 'may_might', title: "May I come in, sir?", bhed: "Formal Permission", sentence: "________ I come in, sir? (May / Can / Must)", answer: "May", formula: "May + Sub + V1 (Formal request)", trick: "अध्यापक/वरिष्ठ से शिष्ट अनुमति के लिए 'May' अनिवार्य है।" },
+          { id: 'm2', subId: 'can_could', title: "I can lift this box", bhed: "Physical Ability", sentence: "He is strong. He ________ lift this heavy box. (can / may / should)", answer: "can", formula: "Can + V1 (Physical Capacity)", trick: "शारीरिक शक्ति व क्षमता (ability) दर्शाने के लिए 'can' का प्रयोग होता है।" },
+          { id: 'm3', subId: 'should_must', title: "Follow traffic rules", bhed: "Compulsion / Rule", sentence: "We ________ obey the traffic rules. (must / may / could)", answer: "must", formula: "Must + V1 (Compulsion/Law)", trick: "सड़क नियम व कानूनी बाध्यता के लिए 'must' (अनिवार्य) आता है।" },
+          { id: 'm4', subId: 'should_must', title: "You should consult doctor", bhed: "General Advice", sentence: "You look sick. You ________ see a doctor. (should / can / might)", answer: "should", formula: "Should + V1 (Advice/Suggestion)", trick: "किसी को अच्छी सलाह देने के लिए 'should' का प्रयोग होता है।" },
+          { id: 'm5', subId: 'ought_would', title: "Respect our elders", bhed: "Moral Obligation", sentence: "We ________ to respect our elders. (ought / should / must)", answer: "ought", formula: "Ought + to + V1 (Moral Duty)", trick: "रिक्त स्थान के बाद 'to' आया है, अतः 'ought to' ही सही है।" },
+          { id: 'm6', subId: 'may_might', title: "It may rain today", bhed: "Possibility", sentence: "There are dark clouds in the sky. It ________ rain today. (may / must / can)", answer: "may", formula: "May + V1 (Likely event)", trick: "आसमान में काले बादल होने से बारिश की प्रबल संभावना 'may' से व्यक्त होगी।" },
+          { id: 'm7', subId: 'can_could', title: "Could run fast in youth", bhed: "Past Ability", sentence: "When he was young, he ________ run very fast. (could / can / should)", answer: "could", formula: "Could + V1 (Past Ability)", trick: "'When he was young' भूतकाल दर्शाता है, इसलिए can का past form 'could' आएगा।" },
+          { id: 'm8', subId: 'ought_would', title: "Would you like tea?", bhed: "Polite Offer", sentence: "________ you like a cup of tea? (Would / Could / Should)", answer: "Would", formula: "Would + you + like + Noun", trick: "किसी को चाय/नाश्ता विनम्रता से पेश करने हेतु 'Would you like...' आता है।" },
+          { id: 'm9', subId: 'should_must', title: "Students must wear uniform", bhed: "Institutional Rule", sentence: "Students ________ wear proper uniform in school. (must / may / might)", answer: "must", formula: "Must + V1 (Strict Rule)", trick: "विद्यालय के अनिवार्य नियम के लिए 'must' सबसे उपयुक्त है।" },
+          { id: 'm10', subId: 'may_might', title: "Might be late (weak)", bhed: "Weak Possibility", sentence: "He ________ come today, but I am not very sure. (might / must / can)", answer: "might", formula: "Might + V1 (Remote Chance)", trick: "'Not very sure' दर्शाता है कि संभावना बहुत क्षीण है, अतः 'might' लगेगा।" },
+          { id: 'm11', subId: 'can_could', title: "Can speak English", bhed: "Acquired Skill", sentence: "She ________ speak three languages fluently. (can / may / must)", answer: "can", formula: "Can + V1 (Mental Capability)", trick: "भाषा बोलने का कौशल व क्षमता व्यक्त करने के लिए 'can' आएगा।" },
+          { id: 'm12', subId: 'ought_would', title: "Love our motherland", bhed: "Moral Duty", sentence: "Citizens ________ to serve their motherland. (ought / must / should)", answer: "ought", formula: "Ought to (Patriotic Duty)", trick: "वाक्य में पहले से 'to' मौजूद होने से 'ought' ही सही विकल्प है।" }
+        ]
+      }
+    };
+
+    // 3. MP Board Exam Questions Pool (Section C Model Set - 10 Questions)
+    const quizQuestions = [
+      {
+        tag: "Tenses: Past Simple",
+        q: "He ________ to market yesterday with his father.",
+        options: ["goes", "went", "gone", "is going"],
+        ans: 1,
+        exp: "वाक्य में 'yesterday' आया है, जो बीते हुए कल की बात कर रहा है। Simple Past में क्रिया का 2nd form (went) प्रयुक्त होता है।"
+      },
+      {
+        tag: "Modals: Formal Permission",
+        q: "Teacher, ________ I ask a question?",
+        options: ["can", "may", "must", "might"],
+        ans: 1,
+        exp: "शिक्षक या किसी बड़े से शिष्टाचारपूर्वक अनुमति माँगने के लिए 'May' का प्रयोग किया जाता है।"
+      },
+      {
+        tag: "Tenses: Perfect Continuous",
+        q: "She has been studying in this school ________ five years.",
+        options: ["since", "for", "from", "at"],
+        ans: 1,
+        exp: "'Five years' समय की अनिश्चित समयावधि (Period of time) है, अतः 'for' का प्रयोग होगा।"
+      },
+      {
+        tag: "Modals: Moral Obligation",
+        q: "We ________ to obey our parents and teachers.",
+        options: ["should", "must", "ought", "can"],
+        ans: 2,
+        exp: "रिक्त स्थान के तुरंत बाद 'to' लगा हुआ है। 'Ought to' नैतिक कर्तव्य को प्रदर्शित करता है।"
+      },
+      {
+        tag: "Tenses: Universal Truth",
+        q: "The teacher said that water ________ at 100°C.",
+        options: ["boiled", "boils", "boiling", "is boil"],
+        ans: 1,
+        exp: "वैज्ञानिक तथ्य और सार्वभौमिक सत्य (Universal Truth) हमेशा Simple Present (boils) में लिखे जाते हैं।"
+      },
+      {
+        tag: "Modals: Strong Compulsion",
+        q: "All drivers ________ follow the traffic signals on the road.",
+        options: ["may", "must", "can", "might"],
+        ans: 1,
+        exp: "कानून या जीवन सुरक्षा से जुड़े अनिवार्य नियमों के लिए हमेशा 'must' (बाध्यता) आता है।"
+      },
+      {
+        tag: "Tenses: Negative Rule",
+        q: "She did not ________ the sweet song yesterday.",
+        options: ["sing", "sang", "sung", "singing"],
+        ans: 0,
+        exp: "MP Board Special: 'did not' के साथ हमेशा क्रिया का पहला रूप (V1: sing) ही आता है।"
+      },
+      {
+        tag: "Modals: Past Ability",
+        q: "When my grandfather was young, he ________ swim across the river.",
+        options: ["can", "could", "should", "may"],
+        ans: 1,
+        exp: "भूतकाल की शारीरिक क्षमता (Past Ability) को दर्शाने के लिए 'could' का प्रयोग किया जाता है।"
+      },
+      {
+        tag: "Tenses: Past Combination",
+        q: "The bell rang while the students ________ their lunch.",
+        options: ["ate", "were eating", "had eaten", "eating"],
+        ans: 1,
+        exp: "'While' के साथ भूतकाल में जारी कार्य (Past Continuous: were eating) दर्शाया जाता है।"
+      },
+      {
+        tag: "Modals: Strong Probability",
+        q: "Look at the dark clouds! It ________ rain very heavily today.",
+        options: ["can", "may", "could", "ought"],
+        ans: 1,
+        exp: "मौसम में काले बादल देखकर बारिश की सशक्त प्राकृतिक संभावना व्यक्त करने हेतु 'may' सही है।"
+      }
+    ];
+
+    // 4. App State Variables
+    let currentMainCategory = 'tenses';
+    let currentSubFilter = 'all';
+    let activeItemId = 't1';
+    let currentQuizIndex = 0;
+    let quizScore = 0;
+    let streakCount = 0;
+
+    // 5. Navigation Tab Switcher (Learn vs Quiz)
+    function switchTab(tab) {
+      AudioFX.tap();
+      const learnView = document.getElementById('learn-view');
+      const quizView = document.getElementById('quiz-view');
+      const btnLearn = document.getElementById('nav-btn-learn');
+      const btnQuiz = document.getElementById('nav-btn-quiz');
+
+      if (tab === 'learn') {
+        learnView.classList.remove('hidden');
+        quizView.classList.add('hidden');
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-cyan-300 bg-cyan-600/20 border border-cyan-500/40";
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-cyan-400/60 border border-transparent hover:text-white";
+      } else {
+        learnView.classList.add('hidden');
+        quizView.classList.remove('hidden');
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-cyan-300 bg-cyan-600/20 border border-cyan-500/40";
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-cyan-400/60 border border-transparent hover:text-white";
+        renderQuizCard();
+      }
+    }
+
+    // 6. Category Selection & Sub-Filter Controller
+    function setMainCategory(cat) {
+      AudioFX.tap();
+      currentMainCategory = cat;
+      currentSubFilter = 'all';
+
+      const btnTenses = document.getElementById('main-pill-tenses');
+      const btnModals = document.getElementById('main-pill-modals');
+
+      if (cat === 'tenses') {
+        btnTenses.className = "px-2.5 py-1 rounded-lg font-bold transition text-xs touch-btn bg-cyan-500 text-slate-950 shadow";
+        btnModals.className = "px-2.5 py-1 rounded-lg font-medium transition text-xs touch-btn text-cyan-200 hover:text-white";
+        activeItemId = 't1';
+      } else {
+        btnModals.className = "px-2.5 py-1 rounded-lg font-bold transition text-xs touch-btn bg-cyan-500 text-slate-950 shadow";
+        btnTenses.className = "px-2.5 py-1 rounded-lg font-medium transition text-xs touch-btn text-cyan-200 hover:text-white";
+        activeItemId = 'm1';
+      }
+
+      renderSubFilterBar();
+      renderLearnView();
+    }
+
+    function renderSubFilterBar() {
+      const data = grammarStore[currentMainCategory];
+      const filterBar = document.getElementById('sub-filter-bar');
+
+      filterBar.innerHTML = data.subFilters.map(f => {
+        const isActive = f.id === currentSubFilter;
+        return `
+          <button onclick="setSubFilter('${f.id}')" id="sub-pill-${f.id}" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn ${
+            isActive 
+              ? 'bg-cyan-500 text-slate-950 font-bold shadow' 
+              : 'text-cyan-200/80 bg-slate-900/80 border border-cyan-900/60'
+          }">
+            ${f.name}
+          </button>
+        `;
+      }).join('');
+    }
+
+    function setSubFilter(subId) {
+      AudioFX.tap();
+      currentSubFilter = subId;
+      renderSubFilterBar();
+      renderLearnView();
+    }
+
+    // 7. Render Learn Mode
+    function renderLearnView() {
+      const data = grammarStore[currentMainCategory];
+
+      // 1. Definition Card
+      document.getElementById('def-title').innerText = data.title;
+      document.getElementById('def-badge').innerText = data.badge;
+      document.getElementById('def-text').innerHTML = data.desc;
+
+      // 2. Filter Rules
+      const filteredRules = currentSubFilter === 'all'
+        ? data.rules
+        : data.rules.filter(r => r.id === currentSubFilter);
+
+      document.getElementById('rules-count-label').innerText = `${filteredRules.length} Rules Active`;
+
+      const rulesBox = document.getElementById('rules-container');
+      rulesBox.innerHTML = filteredRules.map(r => `
+        <div class="bg-slate-950/80 border border-cyan-950 rounded-xl p-2.5">
+          <div class="flex items-center justify-between text-xs font-bold text-cyan-200 mb-1">
+            <span>📌 ${r.name}</span>
+            <span class="text-[10px] text-sky-300 font-mono">${r.formula}</span>
+          </div>
+          <p class="text-[11px] text-slate-200 leading-normal hindi-text">
+            <span class="text-cyan-300 font-semibold">पहचान ट्रिक:</span> ${r.trick}
+          </p>
+        </div>
+      `).join('');
+
+      // 3. Filter Items (Sentences)
+      const filteredItems = currentSubFilter === 'all'
+        ? data.items
+        : data.items.filter(it => it.subId === currentSubFilter);
+
+      document.getElementById('items-grid-counter').innerText = `${filteredItems.length} Available`;
+
+      // Consistency check for active card
+      const hasActive = filteredItems.some(it => it.id === activeItemId);
+      if (!hasActive && filteredItems.length > 0) {
+        activeItemId = filteredItems[0].id;
+      }
+
+      const activeObj = data.items.find(it => it.id === activeItemId) || data.items[0];
+      updateActiveCard(activeObj);
+      renderSentenceChips(filteredItems);
+    }
+
+    function renderSentenceChips(items) {
+      const chipsBox = document.getElementById('sentence-chips-grid');
+      chipsBox.innerHTML = items.map(it => {
+        const isActive = it.id === activeItemId;
+        const activeStyles = isActive 
+          ? "bg-gradient-to-tr from-cyan-500 to-sky-400 text-slate-950 font-bold border-cyan-200 shadow-md scale-[1.02]" 
+          : "bg-slate-950/80 border-cyan-950 text-slate-200 hover:border-cyan-500/60";
+
+        return `
+          <button onclick="handleItemSelect('${it.id}')" class="py-2.5 px-2 rounded-xl border text-left transition-all touch-btn flex flex-col justify-between ${activeStyles}">
+            <span class="text-xs font-bold block truncate max-w-full leading-tight">${it.title}</span>
+            <span class="text-[9px] ${isActive ? 'text-slate-900 font-bold' : 'text-cyan-400/80'} truncate block mt-1">
+              ${it.bhed}
+            </span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function handleItemSelect(itemId) {
+      AudioFX.tap();
+      activeItemId = itemId;
+      const data = grammarStore[currentMainCategory];
+      const itemObj = data.items.find(it => it.id === itemId);
+      if (itemObj) {
+        updateActiveCard(itemObj);
+        const filteredItems = currentSubFilter === 'all' 
+          ? data.items 
+          : data.items.filter(it => it.subId === currentSubFilter);
+        renderSentenceChips(filteredItems);
+      }
+    }
+
+    function updateActiveCard(item) {
+      document.getElementById('card-bhed').innerText = item.bhed;
+      document.getElementById('card-sentence').innerHTML = item.sentence.replace('________', `<span class="text-amber-300 underline underline-offset-4 decoration-amber-400 font-black">${item.answer}</span>`);
+      document.getElementById('card-formula').innerText = `Formula: ${item.formula}`;
+      document.getElementById('card-trick').innerText = item.trick;
+    }
+
+    // 8. Quiz Engine Logic
+    function renderQuizCard() {
+      if (currentQuizIndex >= quizQuestions.length) {
+        showQuizSummary();
+        return;
+      }
+
+      document.getElementById('quiz-summary-card').classList.add('hidden');
+      document.getElementById('quiz-feedback').classList.add('hidden');
+
+      const q = quizQuestions[currentQuizIndex];
+      document.getElementById('q-current').innerText = currentQuizIndex + 1;
+      document.getElementById('q-total').innerText = quizQuestions.length;
+      document.getElementById('quiz-q-tag').innerText = q.tag;
+      document.getElementById('quiz-question').innerText = q.q;
+
+      const optionsBox = document.getElementById('quiz-options');
+      optionsBox.innerHTML = q.options.map((opt, i) => `
+        <button onclick="handleAnswer(${i})" class="quiz-opt-btn w-full text-left p-3 rounded-xl bg-slate-950 border border-cyan-950 text-xs text-slate-100 font-semibold hover:border-cyan-500/80 transition-all touch-btn flex items-center justify-between">
+          <span>${opt}</span>
+          <span class="text-cyan-700 text-xs">○</span>
+        </button>
+      `).join('');
+    }
+
+    function handleAnswer(selectedIdx) {
+      const q = quizQuestions[currentQuizIndex];
+      const buttons = document.querySelectorAll('.quiz-opt-btn');
+      buttons.forEach(btn => btn.disabled = true);
+
+      const feedbackBox = document.getElementById('quiz-feedback');
+      const badge = document.getElementById('feedback-badge');
+      const text = document.getElementById('feedback-text');
+
+      feedbackBox.classList.remove('hidden');
+
+      if (selectedIdx === q.ans) {
+        AudioFX.correct();
+        quizScore += 2;
+        streakCount++;
+        document.getElementById('q-score').innerText = `${quizScore} / ${quizQuestions.length * 2}`;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>${streakCount}</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-cyan-400 bg-cyan-950/60 text-cyan-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-cyan-300 font-bold">✓</span>`;
+        badge.innerText = "✓ Correct! (+2 Marks awarded)";
+        badge.className = "text-xs font-bold text-cyan-300 flex items-center gap-1";
+      } else {
+        AudioFX.incorrect();
+        streakCount = 0;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-red-500 bg-red-950/60 text-red-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-red-400 font-bold">✗</span>`;
+
+        // Highlight correct option
+        buttons[q.ans].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-cyan-500/80 bg-cyan-950/40 text-cyan-200 font-bold text-xs flex items-center justify-between";
+        buttons[q.ans].innerHTML = `<span>${q.options[q.ans]}</span> <span class="text-cyan-300 font-bold">✓</span>`;
+
+        badge.innerText = "✗ Incorrect! Check the board rule below";
+        badge.className = "text-xs font-bold text-red-400 flex items-center gap-1";
+      }
+
+      text.innerHTML = `<strong>Rule Analysis:</strong> ${q.exp}`;
+    }
+
+    function nextQuizQuestion() {
+      AudioFX.tap();
+      currentQuizIndex++;
+      renderQuizCard();
+    }
+
+    function showQuizSummary() {
+      document.getElementById('quiz-feedback').classList.add('hidden');
+      const summaryCard = document.getElementById('quiz-summary-card');
+      summaryCard.classList.remove('hidden');
+
+      const maxScore = quizQuestions.length * 2;
+      const accuracy = Math.round((quizScore / maxScore) * 100);
+
+      document.getElementById('summary-score').innerText = `${quizScore} / ${maxScore}`;
+      document.getElementById('summary-accuracy').innerText = `${accuracy}%`;
+    }
+
+    function restartQuiz() {
+      AudioFX.tap();
+      currentQuizIndex = 0;
+      quizScore = 0;
+      streakCount = 0;
+      document.getElementById('q-score').innerText = `0 / ${quizQuestions.length * 2}`;
+      document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+      renderQuizCard();
+    }
+
+    // 9. Initial Load on DOM Ready
+    window.addEventListener('DOMContentLoaded', () => {
+      renderSubFilterBar();
+      renderLearnView();
+    });
+  </script>
+</body>
+</html>

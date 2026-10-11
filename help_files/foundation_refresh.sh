@@ -22,7 +22,7 @@
 # Instead we check curl's result per-file and just log + continue.
 
 # ---- CONFIG: edit this to your usual base folder, then run with no args ----
-DEFAULT_BASE_DIR="/d/Papers/LatestPapers/avm_images/foundation"
+DEFAULT_BASE_DIR="../foundation/"
 # -----------------------------------------------------------------------------
 
 BASE_DIR="${1:-$DEFAULT_BASE_DIR}"

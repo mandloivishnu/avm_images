@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Active & Passive Voice - MPBSE Class 10 English Grammar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
+            hind: ['Hind', 'sans-serif'],
+          },
+          colors: {
+            ambdark: '#0d0a07',
+            ambcard: '#17110c',
+            ambsurface: '#241a12',
+            ambaccent: '#f59e0b',
+            orangesun: '#f97316',
+            coralwarm: '#fb923c',
+            amblight: '#fef3c7'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .hindi-font {
+      font-family: 'Hind', sans-serif;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .touch-btn:active {
+      transform: scale(0.96);
+    }
+    @keyframes amberGlow {
+      0%, 100% { border-color: rgba(245, 158, 11, 0.35); box-shadow: 0 0 16px rgba(245, 158, 11, 0.12); }
+      50% { border-color: rgba(249, 115, 22, 0.7); box-shadow: 0 0 24px rgba(249, 115, 22, 0.28); }
+    }
+    .glow-amber {
+      animation: amberGlow 3s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-ambdark text-slate-100 min-h-screen pb-24 antialiased selection:bg-amber-500 selection:text-black">
+
+  <!-- TOP APP BAR -->
+  <header class="sticky top-0 z-40 bg-[#120d09]/95 backdrop-blur-md border-b border-amber-500/20 px-3.5 py-2.5 shadow-lg">
+    <div class="flex items-center justify-between mb-2">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-600 via-orange-500 to-amber-300 flex items-center justify-center text-slate-950 font-black text-lg shadow-md shadow-amber-500/30">
+          A⇄P
+        </div>
+        <div>
+          <h1 class="text-sm sm:text-base font-bold text-amber-200 tracking-wide leading-tight flex items-center gap-1.5">
+            Voice Transformer
+            <span class="text-[9px] bg-amber-500/20 text-amber-300 font-sans px-1.5 py-0.5 rounded font-bold border border-amber-500/30">10th MPBSE</span>
+          </h1>
+          <p class="text-[10px] text-amber-200/70 hindi-font">Section C: "Do as Directed" Special</p>
+        </div>
+      </div>
+      <div id="filter-counter-badge" class="text-[10px] font-mono text-amber-300 bg-amber-950/80 px-2 py-0.5 rounded-full border border-amber-500/30 font-bold">
+        24 Sentences
+      </div>
+    </div>
+
+    <!-- Category Filter Horizontal Scrollbar -->
+    <div class="flex gap-1.5 overflow-x-auto no-scrollbar py-0.5 text-xs">
+      <button onclick="setVoiceFilter('all')" id="pill-all" class="px-2.5 py-1 rounded-lg font-bold transition text-xs whitespace-nowrap touch-btn bg-amber-500 text-slate-950 shadow">
+        All (सभी)
+      </button>
+      <button onclick="setVoiceFilter('simple')" id="pill-simple" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-amber-100/80 bg-slate-900/80 border border-amber-900/60">
+        Simple Tenses
+      </button>
+      <button onclick="setVoiceFilter('continuous')" id="pill-continuous" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-amber-100/80 bg-slate-900/80 border border-amber-900/60">
+        Continuous (being)
+      </button>
+      <button onclick="setVoiceFilter('perfect')" id="pill-perfect" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-amber-100/80 bg-slate-900/80 border border-amber-900/60">
+        Perfect (been)
+      </button>
+      <button onclick="setVoiceFilter('modals')" id="pill-modals" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-amber-100/80 bg-slate-900/80 border border-amber-900/60">
+        Modals (be)
+      </button>
+      <button onclick="setVoiceFilter('special')" id="pill-special" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-amber-100/80 bg-slate-900/80 border border-amber-900/60">
+        Imperative & Who
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================== -->
+  <!-- TAB 1: LEARN & TRANSFORM MODE                                 -->
+  <!-- ============================================================== -->
+  <main id="learn-view" class="max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- 1. Definition Card -->
+    <section class="bg-gradient-to-br from-[#1a130c] via-[#140e08] to-[#0a0704] border border-amber-500/30 rounded-2xl p-3.5 shadow-md">
+      <div class="flex items-center justify-between mb-1.5">
+        <div class="flex items-center gap-2">
+          <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded-full font-bold">
+            1. Core Concept
+          </span>
+          <h2 id="def-title" class="text-xs sm:text-sm font-bold text-amber-200">
+            Active vs Passive Voice (वाच्य परिवर्तन)
+          </h2>
+        </div>
+        <span class="text-[10px] font-mono text-amber-400 bg-amber-950/80 px-2 py-0.5 rounded-full border border-amber-800">
+          Always V3 (Verb 3rd Form)
+        </span>
+      </div>
+      <p id="def-text" class="text-xs text-slate-300 leading-relaxed hindi-font">
+        In <b>Active Voice</b>, the Subject performs the action. In <b>Passive Voice</b>, the Object is prioritized and receives the action.
+        <br><span class="text-amber-300 font-semibold">गोल्डन नियम:</span> Passive Voice में मुख्य क्रिया का हमेशा <b>3rd Form (Past Participle - V3)</b> ही प्रयोग होता है!
+      </p>
+    </section>
+
+    <!-- 2. Golden Rules & Pronoun Shift Matrix -->
+    <section class="bg-[#18110b]/90 border border-amber-900/60 rounded-2xl p-3.5 space-y-2.5 shadow-sm">
+      <div class="flex items-center justify-between border-b border-amber-900/50 pb-2">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-orange-500/20 text-orange-300 border border-orange-500/30 px-2 py-0.5 rounded-full font-bold">
+            2. Golden Formulae
+          </span>
+          <span class="text-xs text-amber-200 font-semibold hindi-font">रामबाण नियम एवं चार्ट</span>
+        </div>
+        <span id="rules-count-label" class="text-[10px] text-amber-400 font-mono font-bold">
+          6 Core Rules
+        </span>
+      </div>
+
+      <!-- Pronoun Quick Strip -->
+      <div class="bg-slate-950/80 rounded-xl p-2 border border-amber-900/40 text-[10px] grid grid-cols-5 text-center gap-1">
+        <div class="bg-amber-950/40 rounded p-1"><span class="text-amber-400 font-bold">I</span> ➔ me</div>
+        <div class="bg-amber-950/40 rounded p-1"><span class="text-amber-400 font-bold">He</span> ➔ him</div>
+        <div class="bg-amber-950/40 rounded p-1"><span class="text-amber-400 font-bold">She</span> ➔ her</div>
+        <div class="bg-amber-950/40 rounded p-1"><span class="text-amber-400 font-bold">We</span> ➔ us</div>
+        <div class="bg-amber-950/40 rounded p-1"><span class="text-amber-400 font-bold">They</span> ➔ them</div>
+      </div>
+      
+      <!-- Rules container rendered dynamically -->
+      <div id="rules-container" class="space-y-2 max-h-48 overflow-y-auto no-scrollbar pr-0.5"></div>
+    </section>
+
+    <!-- 3. Active Sentence Interactive Transformer Card -->
+    <section class="bg-gradient-to-b from-[#22160d] to-[#120b06] border border-amber-500/40 rounded-2xl p-3.5 shadow-xl glow-amber relative overflow-hidden">
+      <div class="flex items-center justify-between mb-2">
+        <span id="card-bhed" class="text-[11px] font-bold text-amber-200 bg-amber-500/20 border border-amber-500/40 px-2.5 py-0.5 rounded-full">
+          Present Simple ➔ is/am/are + V3
+        </span>
+        <span class="text-[10px] text-orange-300 font-bold bg-orange-950/70 border border-orange-500/40 px-2 py-0.5 rounded-full flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-orange-400 animate-pulse"></span> MP Board 'Do as Directed'
+        </span>
+      </div>
+
+      <!-- Active Breakdown -->
+      <div class="bg-slate-950/85 rounded-xl border border-amber-900/60 p-3 mb-2 shadow-inner">
+        <div class="text-[9px] uppercase tracking-wider text-amber-400/80 mb-1 font-semibold flex items-center justify-between">
+          <span>Active Voice (सक्रिय वाक्य)</span>
+          <span class="text-slate-400">Subject + Verb + Object</span>
+        </div>
+        <div id="card-active-parts" class="text-sm sm:text-base font-bold text-white tracking-wide flex items-center flex-wrap gap-1.5">
+          <span class="bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded border border-amber-500/40">He</span>
+          <span class="bg-orange-500/20 text-orange-300 px-2 py-0.5 rounded border border-orange-500/40">writes</span>
+          <span class="bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded border border-emerald-500/40">a letter</span>.
+        </div>
+      </div>
+
+      <!-- Cross Swap Transformation Arrow Diagram -->
+      <div class="flex items-center justify-center gap-3 my-1.5 py-1 text-xs text-amber-300 font-bold">
+        <span class="flex items-center gap-1 bg-amber-950/80 px-2.5 py-1 rounded-full border border-amber-800 text-[10px]">
+          Object ➔ New Subject
+        </span>
+        <span class="text-orange-400 text-sm font-black animate-pulse">⇄</span>
+        <span class="flex items-center gap-1 bg-amber-950/80 px-2.5 py-1 rounded-full border border-amber-800 text-[10px]">
+          by + Agent (Old Subject)
+        </span>
+      </div>
+
+      <!-- Passive Result Display -->
+      <div class="bg-slate-950/85 rounded-xl border border-amber-900/60 p-3 mb-2 shadow-inner">
+        <div class="text-[9px] uppercase tracking-wider text-emerald-400/80 mb-1 font-semibold flex items-center justify-between">
+          <span>Passive Voice (कर्मवाच्य)</span>
+          <span class="text-amber-300 font-mono">Helping Verb + V3</span>
+        </div>
+        <div id="card-passive" class="text-sm sm:text-base font-bold text-amber-200 tracking-wide leading-relaxed">
+          A letter <span class="text-orange-400 underline decoration-amber-400 underline-offset-4 font-black">is written</span> by him.
+        </div>
+        <div id="card-formula" class="text-[11px] text-amber-300/90 mt-1.5 font-mono">
+          Rule: Obj + is/am/are + V3 + by + Sub
+        </div>
+      </div>
+
+      <!-- Quick Trick Memory Pill -->
+      <div class="bg-amber-500/10 border border-amber-500/25 rounded-xl p-2.5 flex items-start gap-2">
+        <span class="text-base leading-none mt-0.5">💡</span>
+        <div class="flex-1">
+          <div class="text-[11px] font-bold text-amber-300">Transformation Trick (पहचान व परिवर्तन):</div>
+          <div id="card-trick" class="text-xs text-slate-200 leading-snug mt-0.5 hindi-font">
+            Present Simple (V1/s/es) को passive में बदलते समय 'is/am/are' के साथ क्रिया का 3rd form (written) लगाया जाता है।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Interactive Sentence Bank Grid -->
+    <section class="bg-[#120d08]/80 border border-amber-950 rounded-2xl p-3 space-y-2">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded-full font-bold">
+            3. Sentence Bank
+          </span>
+          <span class="text-xs text-amber-100 font-semibold hindi-font">टैप करके विश्लेषण देखें</span>
+        </div>
+        <span id="sentence-grid-counter" class="text-[10px] text-amber-400/80 font-mono">
+          Total: 24
+        </span>
+      </div>
+
+      <!-- 2-Column Responsive Touch Grid -->
+      <div id="sentence-chips-grid" class="grid grid-cols-2 gap-2 pt-1 max-h-72 overflow-y-auto no-scrollbar pr-0.5">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================== -->
+  <!-- TAB 2: PRACTICE CHALLENGE (MP Board 10-Question Quiz Engine)    -->
+  <!-- ============================================================== -->
+  <main id="quiz-view" class="hidden max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- Score & Streak Header -->
+    <div class="bg-[#17110c] border border-amber-900/80 rounded-2xl p-3 shadow-md flex items-center justify-between">
+      <div>
+        <div class="text-[10px] text-amber-400 font-bold uppercase tracking-wider">
+          MP Board Voice Test
+        </div>
+        <div class="text-xs font-bold text-amber-200 flex items-center gap-1.5 mt-0.5">
+          <span>Question: <span id="q-current" class="text-white font-mono font-black text-sm">1</span> / <span id="q-total" class="font-mono">10</span></span>
+        </div>
+      </div>
+
+      <!-- Streak and Marks -->
+      <div class="flex items-center gap-3">
+        <div class="text-center px-2 py-1 rounded-lg bg-slate-950 border border-amber-950">
+          <div class="text-[9px] text-amber-400/80 hindi-font">लगातार सही</div>
+          <div id="q-streak" class="text-xs font-bold text-orange-400 flex items-center justify-center gap-0.5">
+            🔥 <span>0</span>
+          </div>
+        </div>
+        <div class="text-right">
+          <div class="text-[10px] text-amber-400/80 hindi-font">कुल अंक</div>
+          <div id="q-score" class="text-base font-black text-amber-300 font-mono">
+            0 / 20
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Question Card -->
+    <div class="bg-gradient-to-b from-[#21150c] to-[#120b06] border border-amber-500/30 rounded-2xl p-4 space-y-3.5 shadow-xl">
+      <div class="flex items-center justify-between">
+        <span id="quiz-q-tag" class="text-[10px] bg-orange-500/20 text-orange-300 border border-orange-500/30 px-2.5 py-0.5 rounded-full font-bold">
+          Do as Directed
+        </span>
+        <span class="text-[10px] text-amber-300 font-bold font-mono">
+          +2 Marks
+        </span>
+      </div>
+
+      <div class="space-y-1">
+        <div class="text-[11px] text-amber-300/80 font-semibold uppercase tracking-wider">Change into Passive Voice:</div>
+        <h3 id="quiz-question" class="text-sm sm:text-base font-bold text-white leading-relaxed tracking-wide min-h-[48px] flex items-center">
+          "She helped me."
+        </h3>
+      </div>
+
+      <!-- 4 Options Container -->
+      <div id="quiz-options" class="space-y-2 pt-1">
+        <!-- Options injected here -->
+      </div>
+    </div>
+
+    <!-- Feedback & Explanation Card -->
+    <div id="quiz-feedback" class="hidden bg-[#18110b] border border-amber-800/80 rounded-2xl p-3.5 space-y-2 shadow-lg transition-all">
+      <div class="flex items-center justify-between">
+        <div id="feedback-badge" class="text-xs font-bold text-amber-300 flex items-center gap-1">
+          ✓ Correct Answer! (+2 Marks)
+        </div>
+        <span class="text-[10px] text-amber-400/70 font-mono">Grammar Rule Analysis</span>
+      </div>
+      
+      <p id="feedback-text" class="text-xs text-slate-200 leading-relaxed bg-slate-950/80 p-2.5 rounded-xl border border-amber-950 hindi-font">
+        <!-- Explanation text -->
+      </p>
+
+      <button onclick="nextQuizQuestion()" class="w-full py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 active:from-amber-600 active:to-orange-600 text-slate-950 font-bold text-xs rounded-xl shadow-md touch-btn flex items-center justify-center gap-1.5">
+        <span>Next Question</span>
+        <span>➔</span>
+      </button>
+    </div>
+
+    <!-- Summary Card -->
+    <div id="quiz-summary-card" class="hidden bg-gradient-to-b from-[#24170d] to-[#110a05] border border-amber-500/40 rounded-2xl p-5 text-center space-y-3.5 shadow-2xl">
+      <div class="text-4xl animate-bounce">🏆</div>
+      <div>
+        <h4 class="text-lg font-bold text-amber-300">Voice Practice Test Completed!</h4>
+        <p class="text-xs text-amber-200/80 mt-1 hindi-font">आपकी MPBSE बोर्ड परीक्षा एक्टिव-पैसिव रिपोर्ट:</p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-2 bg-slate-950/80 p-3 rounded-xl border border-amber-950">
+        <div>
+          <div class="text-[10px] text-amber-400">Total Score</div>
+          <div id="summary-score" class="text-lg font-black text-amber-300 font-mono">0 / 20</div>
+        </div>
+        <div>
+          <div class="text-[10px] text-amber-400">Accuracy</div>
+          <div id="summary-accuracy" class="text-lg font-black text-orange-300 font-mono">0%</div>
+        </div>
+      </div>
+
+      <button onclick="restartQuiz()" class="w-full py-3 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs rounded-xl shadow-lg touch-btn">
+        🔄 Retake Test (पुनः टेस्ट दें)
+      </button>
+    </div>
+
+  </main>
+
+  <!-- FIXED BOTTOM NAVIGATION BAR -->
+  <nav class="fixed bottom-0 left-0 right-0 z-50 bg-[#0d0905]/95 backdrop-blur-md border-t border-amber-900/80 py-1.5 px-4 shadow-2xl">
+    <div class="max-w-md mx-auto grid grid-cols-2 gap-3">
+      <button onclick="switchTab('learn')" id="nav-btn-learn" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30">
+        <span class="text-lg leading-none mb-0.5">📖</span>
+        <span class="text-[11px] font-bold">Learn & Transform</span>
+      </button>
+      <button onclick="switchTab('quiz')" id="nav-btn-quiz" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400/60 border border-transparent hover:text-white">
+        <span class="text-lg leading-none mb-0.5">🎯</span>
+        <span class="text-[11px] font-bold">Practice Challenge</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- JAVASCRIPT ENGINE & WEB AUDIO SYNTHESIZER -->
+  <script>
+    // -------------------------------------------------------------
+    // 1. Web Audio Synthesizer (Zero External Audio Dependencies)
+    // -------------------------------------------------------------
+    const AudioFX = {
+      ctx: null,
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+      },
+      tap() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(530, t);
+          osc.frequency.exponentialRampToValueAtTime(840, t + 0.04);
+          gain.gain.setValueAtTime(0.08, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.05);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.05);
+        } catch (e) {}
+      },
+      correct() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          // Arpeggio chime: D5 -> F#5 -> A5 (Warm major chime)
+          const notes = [587.33, 739.99, 880.00];
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(freq, t + idx * 0.08);
+            gain.gain.setValueAtTime(0.12, t + idx * 0.08);
+            gain.gain.exponentialRampToValueAtTime(0.001, t + idx * 0.08 + 0.25);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(t + idx * 0.08);
+            osc.stop(t + idx * 0.08 + 0.25);
+          });
+        } catch (e) {}
+      },
+      incorrect() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(220, t);
+          osc.frequency.linearRampToValueAtTime(140, t + 0.18);
+          gain.gain.setValueAtTime(0.12, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.2);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.2);
+        } catch (e) {}
+      }
+    };
+
+    // -------------------------------------------------------------
+    // 2. Comprehensive Voice Rules & Formula Data
+    // -------------------------------------------------------------
+    const voiceRules = [
+      {
+        id: 'simple',
+        name: "Simple Tenses (V1 / V2 / will V1)",
+        formula: "Obj + is/am/are/was/were/will be + V3",
+        trick: "Present में 'is/am/are + V3', Past में 'was/were + V3' और Future में 'will be + V3' लगता है।"
+      },
+      {
+        id: 'continuous',
+        name: "Continuous Tenses (V1+ing ➔ being)",
+        formula: "Obj + is/am/are/was/were + being + V3",
+        trick: "क्रिया में 'ing' देखते ही passive में 'being' लगाना अनिवार्य है (V4 ➔ being + V3)।"
+      },
+      {
+        id: 'perfect',
+        name: "Perfect Tenses (has/have/had ➔ been)",
+        formula: "Obj + has/have/had/will have + been + V3",
+        trick: "has/have/had पहले से V3 के साथ आते हैं; passive में केवल बीच में 'been' जोड़ दिया जाता है।"
+      },
+      {
+        id: 'modals',
+        name: "Modals (can/could/may/must/should ➔ be)",
+        formula: "Obj + Modal + be + V3 + by + Sub",
+        trick: "किसी भी modal auxiliary के बाद passive में 'be + V3' लगता है (e.g., can be done, should be followed)।"
+      },
+      {
+        id: 'special',
+        name: "Imperative Sentences (आज्ञा/आदेश)",
+        formula: "Let + Object + be + V3",
+        trick: "जब वाक्य मुख्य क्रिया (Verb) से शुरू हो (Open the door ➔ Let the door be opened)।"
+      },
+      {
+        id: 'special',
+        name: "'Who' Questions ➔ By whom",
+        formula: "By whom + Helping Verb + Obj + V3?",
+        trick: "'Who' से शुरू होने वाले प्रश्न Passive में 'By whom' में बदल जाते हैं (Who broke this? ➔ By whom was this broken?)।"
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // 3. MPBSE 24 High-Yield Board Exam Sentences Database
+    // -------------------------------------------------------------
+    const voiceSentences = [
+      // Simple Tenses
+      {
+        id: 'v1',
+        cat: 'simple',
+        title: "He writes a letter",
+        bhed: "Present Simple (V1 ➔ is + V3)",
+        sub: "He",
+        verb: "writes",
+        obj: "a letter",
+        passive: "A letter is written by him.",
+        formula: "Obj + is/am/are + V3 + by + Sub",
+        trick: "Singular Object 'a letter' के साथ 'is' और write का 3rd form 'written' प्रयुक्त हुआ।"
+      },
+      {
+        id: 'v2',
+        cat: 'simple',
+        title: "She helped me",
+        bhed: "Past Simple (V2 ➔ was + V3)",
+        sub: "She",
+        verb: "helped",
+        obj: "me",
+        passive: "I was helped by her.",
+        formula: "Obj(I) + was/were + V3 + by + Sub",
+        trick: "'me' कर्ता बनकर 'I' बना; Past Simple होने से 'was + helped' लगा।"
+      },
+      {
+        id: 'v3',
+        cat: 'simple',
+        title: "She will cook food",
+        bhed: "Future Simple (will ➔ will be + V3)",
+        sub: "She",
+        verb: "will cook",
+        obj: "food",
+        passive: "Food will be cooked by her.",
+        formula: "Obj + will be + V3 + by + Sub",
+        trick: "Future Simple में 'will be' के साथ cook की 3rd form 'cooked' आती है।"
+      },
+      {
+        id: 'v4',
+        cat: 'simple',
+        title: "He does not like tea",
+        bhed: "Present Simple Negative",
+        sub: "He",
+        verb: "does not like",
+        obj: "tea",
+        passive: "Tea is not liked by him.",
+        formula: "Obj + is/am/are + not + V3 + by + Sub",
+        trick: "does not हटकर 'is not' लगेगा और like ➔ liked बनेगा।"
+      },
+      {
+        id: 'v5',
+        cat: 'simple',
+        title: "Did you complete the task?",
+        bhed: "Past Simple Interrogative",
+        sub: "you",
+        verb: "complete",
+        obj: "the task",
+        passive: "Was the task completed by you?",
+        formula: "Was/Were + Obj + V3 + by + Sub?",
+        trick: "'Did' से शुरू प्रश्न में passive भी 'Was' (singular object 'task' के लिए) से शुरू होगा।"
+      },
+      {
+        id: 'v6',
+        cat: 'simple',
+        title: "Ravi teaches English",
+        bhed: "Present Simple (V1 ➔ is + V3)",
+        sub: "Ravi",
+        verb: "teaches",
+        obj: "English",
+        passive: "English is taught by Ravi.",
+        formula: "Obj + is + V3 + by + Sub",
+        trick: "teach का 3rd form 'taught' होता है। व्यक्तिवाचक संज्ञा (Ravi) का रूप नहीं बदलता।"
+      },
+
+      // Continuous Tenses
+      {
+        id: 'v7',
+        cat: 'continuous',
+        title: "I am playing cricket",
+        bhed: "Present Continuous (being + V3)",
+        sub: "I",
+        verb: "am playing",
+        obj: "cricket",
+        passive: "Cricket is being played by me.",
+        formula: "Obj + is/am/are + being + V3 + by + Sub",
+        trick: "Continuous में 'being' लगाना अनिवार्य है: cricket + is + being + played।"
+      },
+      {
+        id: 'v8',
+        cat: 'continuous',
+        title: "They were watching a movie",
+        bhed: "Past Continuous (being + V3)",
+        sub: "They",
+        verb: "were watching",
+        obj: "a movie",
+        passive: "A movie was being watched by them.",
+        formula: "Obj + was/were + being + V3 + by + Sub",
+        trick: "'A movie' एकवचन है, अतः 'were' की जगह 'was being watched' आया।"
+      },
+      {
+        id: 'v9',
+        cat: 'continuous',
+        title: "She is singing a song",
+        bhed: "Present Continuous",
+        sub: "She",
+        verb: "is singing",
+        obj: "a song",
+        passive: "A song is being sung by her.",
+        formula: "Obj + is + being + V3 (sung) + by + Sub",
+        trick: "sing ➔ sang ➔ sung (V3); 'is being sung' का प्रयोग।"
+      },
+      {
+        id: 'v10',
+        cat: 'continuous',
+        title: "The boy was flying a kite",
+        bhed: "Past Continuous",
+        sub: "The boy",
+        verb: "was flying",
+        obj: "a kite",
+        passive: "A kite was being flown by the boy.",
+        formula: "Obj + was + being + V3 (flown) + by + Sub",
+        trick: "fly का 3rd form 'flown' होता है; 'was being flown'।"
+      },
+
+      // Perfect Tenses
+      {
+        id: 'v11',
+        cat: 'perfect',
+        title: "He has finished homework",
+        bhed: "Present Perfect (been + V3)",
+        sub: "He",
+        verb: "has finished",
+        obj: "the homework",
+        passive: "The homework has been finished by him.",
+        formula: "Obj + has/have + been + V3 + by + Sub",
+        trick: "Perfect tense में 'has' और 'V3' के बीच सिर्फ 'been' जुड़ता है।"
+      },
+      {
+        id: 'v12',
+        cat: 'perfect',
+        title: "We had won the match",
+        bhed: "Past Perfect (had been + V3)",
+        sub: "We",
+        verb: "had won",
+        obj: "the match",
+        passive: "The match had been won by us.",
+        formula: "Obj + had been + V3 + by + Sub(us)",
+        trick: "'We' कर्म में जाकर 'us' बना; had ➔ had been won।"
+      },
+      {
+        id: 'v13',
+        cat: 'perfect',
+        title: "She has painted the wall",
+        bhed: "Present Perfect",
+        sub: "She",
+        verb: "has painted",
+        obj: "the wall",
+        passive: "The wall has been painted by her.",
+        formula: "Obj + has been + V3 + by + Sub(her)",
+        trick: "'The wall' singular होने से 'has been painted' आया।"
+      },
+      {
+        id: 'v14',
+        cat: 'perfect',
+        title: "They have built a bridge",
+        bhed: "Present Perfect Plural to Sing.",
+        sub: "They",
+        verb: "have built",
+        obj: "a bridge",
+        passive: "A bridge has been built by them.",
+        formula: "New Obj(Singular) + has been + V3 + by + them",
+        trick: "सब्जेक्ट 'They' के साथ 'have' था, लेकिन नया ऑब्जेक्ट 'a bridge' एकवचन है इसलिए 'has been' लगेगा।"
+      },
+
+      // Modals in Passive
+      {
+        id: 'v15',
+        cat: 'modals',
+        title: "You can solve this puzzle",
+        bhed: "Modal: can ➔ can be + V3",
+        sub: "You",
+        verb: "can solve",
+        obj: "this puzzle",
+        passive: "This puzzle can be solved by you.",
+        formula: "Obj + Modal + be + V3 + by + Sub",
+        trick: "Modal 'can' के साथ 'be + solved' का प्रयोग होता है।"
+      },
+      {
+        id: 'v16',
+        cat: 'modals',
+        title: "We should follow rules",
+        bhed: "Modal: should ➔ should be + V3",
+        sub: "We",
+        verb: "should follow",
+        obj: "traffic rules",
+        passive: "Traffic rules should be followed by us.",
+        formula: "Obj + should be + V3 + by + us",
+        trick: "Moral advice modals में 'should be followed' बनता है।"
+      },
+      {
+        id: 'v17',
+        cat: 'modals',
+        title: "Students must wear uniform",
+        bhed: "Modal: must ➔ must be + V3",
+        sub: "Students",
+        verb: "must wear",
+        obj: "uniform",
+        passive: "Uniform must be worn by students.",
+        formula: "Obj + must be + V3(worn) + by + Sub",
+        trick: "wear का 3rd form 'worn' होता है; must be worn।"
+      },
+      {
+        id: 'v18',
+        cat: 'modals',
+        title: "He could not lift the box",
+        bhed: "Negative Modal",
+        sub: "He",
+        verb: "could not lift",
+        obj: "the box",
+        passive: "The box could not be lifted by him.",
+        formula: "Obj + could not be + V3 + by + him",
+        trick: "Negative modal में 'could not be + V3 (lifted)' संरचना बनती है।"
+      },
+
+      // Imperative & Who (Special Cases)
+      {
+        id: 'v19',
+        cat: 'special',
+        title: "Open the door",
+        bhed: "Imperative (Let + Obj + be + V3)",
+        sub: "(You)",
+        verb: "Open",
+        obj: "the door",
+        passive: "Let the door be opened.",
+        formula: "Let + Object + be + V3",
+        trick: "आदेश/कमांड वाले वाक्यों में 'Let + Obj + be + V3' सबसे प्रामाणिक बोर्ड प्रारूप है।"
+      },
+      {
+        id: 'v20',
+        cat: 'special',
+        title: "Do your work",
+        bhed: "Imperative Command",
+        sub: "(You)",
+        verb: "Do",
+        obj: "your work",
+        passive: "Let your work be done.",
+        formula: "Let + your work + be + done(V3)",
+        trick: "do का 3rd form 'done' होता है; 'Let your work be done'।"
+      },
+      {
+        id: 'v21',
+        cat: 'special',
+        title: "Who broke this mirror?",
+        bhed: "Interrogative 'Who' ➔ By whom",
+        sub: "Who",
+        verb: "broke",
+        obj: "this mirror",
+        passive: "By whom was this mirror broken?",
+        formula: "By whom + was/were + Obj + V3?",
+        trick: "'Who' हमेशा 'By whom' में बदलता है। Past Simple होने से 'was + broken' लगा।"
+      },
+      {
+        id: 'v22',
+        cat: 'special',
+        title: "Who wrote this poem?",
+        bhed: "Interrogative 'Who' ➔ By whom",
+        sub: "Who",
+        verb: "wrote",
+        obj: "this poem",
+        passive: "By whom was this poem written?",
+        formula: "By whom + was + Obj + V3(written)?",
+        trick: "write ➔ wrote ➔ written; 'By whom was this poem written?'।"
+      },
+      {
+        id: 'v23',
+        cat: 'special',
+        title: "Help the poor",
+        bhed: "Imperative / Moral Suggestion",
+        sub: "(You)",
+        verb: "Help",
+        obj: "the poor",
+        passive: "The poor should be helped. / Let the poor be helped.",
+        formula: "Obj + should be + V3 OR Let + Obj + be + V3",
+        trick: "सलाह के भाव में 'The poor should be helped' भी सर्वमान्य है।"
+      },
+      {
+        id: 'v24',
+        cat: 'special',
+        title: "Switch off the lights",
+        bhed: "Imperative Command",
+        sub: "(You)",
+        verb: "Switch off",
+        obj: "the lights",
+        passive: "Let the lights be switched off.",
+        formula: "Let + the lights + be + switched off",
+        trick: "Let + Object + be + V3 (switched off)।"
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // 4. MP Board 10 Practice Challenge Questions Pool
+    // -------------------------------------------------------------
+    const quizQuestions = [
+      {
+        tag: "MP Board 2023 Special",
+        q: "Change into Passive: \"She helped me.\"",
+        options: [
+          "I was helped by her.",
+          "I am helped by her.",
+          "I had been helped by her.",
+          "Me was helped by she."
+        ],
+        ans: 0,
+        exp: "'helped' Past Simple (V2) है, अतः passive में 'was/were + V3' लगेगा। 'me' कर्ता बनकर 'I' बनेगा: 'I was helped by her'."
+      },
+      {
+        tag: "Continuous Tense Rule",
+        q: "Change into Passive: \"I am playing cricket.\"",
+        options: [
+          "Cricket is played by me.",
+          "Cricket was being played by me.",
+          "Cricket is being played by me.",
+          "Cricket has been played by me."
+        ],
+        ans: 2,
+        exp: "Present Continuous में 'is/am/are + being + V3' लगता है: 'Cricket is being played by me'."
+      },
+      {
+        tag: "Imperative Command",
+        q: "Change into Passive: \"Open the door.\"",
+        options: [
+          "The door is opened.",
+          "Let the door be opened.",
+          "You should open door.",
+          "Let the door open."
+        ],
+        ans: 1,
+        exp: "आदेशात्मक (Imperative) वाक्यों का passive 'Let + Object + be + V3' सूत्र से बनाया जाता है।"
+      },
+      {
+        tag: "Interrogative 'Who' Rule",
+        q: "Change into Passive: \"Who broke this mirror?\"",
+        options: [
+          "By whom this mirror was broken?",
+          "Who was broken this mirror?",
+          "By whom was this mirror broken?",
+          "This mirror was broken by who?"
+        ],
+        ans: 2,
+        exp: "'Who' प्रश्नवाचक वाक्य 'By whom + Helping Verb + Subject + V3?' में बदलता है। अतः 'By whom was this mirror broken?' सही है।"
+      },
+      {
+        tag: "Present Simple Rule",
+        q: "Change into Passive: \"He writes a letter.\"",
+        options: [
+          "A letter was written by him.",
+          "A letter is written by him.",
+          "A letter is being written by him.",
+          "A letter has been written by him."
+        ],
+        ans: 1,
+        exp: "Present Simple (V1/writes) का passive 'is/am/are + V3' बनता है: 'A letter is written by him'."
+      },
+      {
+        tag: "Modals Auxiliary",
+        q: "Change into Passive: \"We should follow traffic rules.\"",
+        options: [
+          "Traffic rules can be followed by us.",
+          "Traffic rules should followed by us.",
+          "Traffic rules should be followed by us.",
+          "Traffic rules are followed by us."
+        ],
+        ans: 2,
+        exp: "Modals (should) के passive में 'Modal + be + V3' लगता है: 'Traffic rules should be followed by us'."
+      },
+      {
+        tag: "Perfect Tense Rule",
+        q: "Change into Passive: \"He has finished the homework.\"",
+        options: [
+          "The homework had been finished by him.",
+          "The homework has been finished by him.",
+          "The homework is finished by him.",
+          "The homework has finished by him."
+        ],
+        ans: 1,
+        exp: "Present Perfect (has + V3) में 'has been + V3' लगता है: 'The homework has been finished by him'."
+      },
+      {
+        tag: "Past Continuous",
+        q: "Change into Passive: \"They were watching a movie.\"",
+        options: [
+          "A movie was being watched by them.",
+          "A movie were being watched by them.",
+          "A movie had been watched by them.",
+          "A movie was watched by them."
+        ],
+        ans: 0,
+        exp: "Past Continuous में नया कर्ता 'A movie' एकवचन है, अतः 'was being watched' आएगा।"
+      },
+      {
+        tag: "Negative Simple Present",
+        q: "Change into Passive: \"He does not like tea.\"",
+        options: [
+          "Tea did not liked by him.",
+          "Tea was not liked by him.",
+          "Tea is not liked by him.",
+          "Tea has not liked by him."
+        ],
+        ans: 2,
+        exp: "'does not like' Present Simple Negative है, जो passive में 'is not liked' में परिवर्तित होता है।"
+      },
+      {
+        tag: "Modal Ability",
+        q: "Change into Passive: \"You can solve this puzzle.\"",
+        options: [
+          "This puzzle can solve by you.",
+          "This puzzle can be solved by you.",
+          "This puzzle could be solved by you.",
+          "This puzzle is solved by you."
+        ],
+        ans: 1,
+        exp: "'can solve' का passive रूप 'can be solved' होता है: 'This puzzle can be solved by you'."
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // 5. App State Variables
+    // -------------------------------------------------------------
+    let currentFilter = 'all';
+    let activeSentenceId = 'v1';
+    let currentQuizIndex = 0;
+    let quizScore = 0;
+    let streakCount = 0;
+
+    // -------------------------------------------------------------
+    // 6. Tab Navigation Logic (Learn vs Quiz)
+    // -------------------------------------------------------------
+    function switchTab(tab) {
+      AudioFX.tap();
+      const learnView = document.getElementById('learn-view');
+      const quizView = document.getElementById('quiz-view');
+      const btnLearn = document.getElementById('nav-btn-learn');
+      const btnQuiz = document.getElementById('nav-btn-quiz');
+
+      if (tab === 'learn') {
+        learnView.classList.remove('hidden');
+        quizView.classList.add('hidden');
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30";
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400/60 border border-transparent hover:text-white";
+      } else {
+        learnView.classList.add('hidden');
+        quizView.classList.remove('hidden');
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30";
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-amber-400/60 border border-transparent hover:text-white";
+        renderQuizCard();
+      }
+    }
+
+    // -------------------------------------------------------------
+    // 7. Category Filter Logic
+    // -------------------------------------------------------------
+    function setVoiceFilter(filterId) {
+      AudioFX.tap();
+      currentFilter = filterId;
+
+      const filters = ['all', 'simple', 'continuous', 'perfect', 'modals', 'special'];
+      filters.forEach(fid => {
+        const btn = document.getElementById(`pill-${fid}`);
+        if (!btn) return;
+        if (fid === filterId) {
+          btn.className = "px-2.5 py-1 rounded-lg font-bold transition text-xs whitespace-nowrap touch-btn bg-amber-500 text-slate-950 shadow";
+        } else {
+          btn.className = "px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-amber-100/80 bg-slate-900/80 border border-amber-900/60";
+        }
+      });
+
+      renderLearnView();
+    }
+
+    // -------------------------------------------------------------
+    // 8. Learn Mode Rendering
+    // -------------------------------------------------------------
+    function renderLearnView() {
+      // 1. Filter Sentences
+      const filteredSentences = currentFilter === 'all'
+        ? voiceSentences
+        : voiceSentences.filter(s => s.cat === currentFilter);
+
+      document.getElementById('filter-counter-badge').innerText = `${filteredSentences.length} Sentences`;
+      document.getElementById('sentence-grid-counter').innerText = `Total: ${filteredSentences.length}`;
+
+      // 2. Filter Rules
+      const filteredRules = currentFilter === 'all'
+        ? voiceRules
+        : voiceRules.filter(r => r.id === currentFilter);
+
+      document.getElementById('rules-count-label').innerText = `${filteredRules.length} Formulae`;
+
+      const rulesBox = document.getElementById('rules-container');
+      rulesBox.innerHTML = filteredRules.map(r => `
+        <div class="bg-slate-950/80 border border-amber-950 rounded-xl p-2.5">
+          <div class="flex items-center justify-between text-xs font-bold text-amber-200 mb-1">
+            <span>📌 ${r.name}</span>
+            <span class="text-[10px] text-orange-300 font-mono">${r.formula}</span>
+          </div>
+          <p class="text-[11px] text-slate-200 leading-normal hindi-font">
+            <span class="text-amber-400 font-semibold">नियम ट्रिक:</span> ${r.trick}
+          </p>
+        </div>
+      `).join('');
+
+      // Maintain active sentence selection
+      const hasActive = filteredSentences.some(s => s.id === activeSentenceId);
+      if (!hasActive && filteredSentences.length > 0) {
+        activeSentenceId = filteredSentences[0].id;
+      }
+
+      const activeObj = voiceSentences.find(s => s.id === activeSentenceId) || voiceSentences[0];
+      updateActiveCard(activeObj);
+      renderSentenceChips(filteredSentences);
+    }
+
+    function renderSentenceChips(items) {
+      const chipsBox = document.getElementById('sentence-chips-grid');
+      chipsBox.innerHTML = items.map(s => {
+        const isActive = s.id === activeSentenceId;
+        const activeStyles = isActive 
+          ? "bg-gradient-to-tr from-amber-500 to-orange-400 text-slate-950 font-bold border-amber-300 shadow-md scale-[1.02]" 
+          : "bg-slate-950/80 border-amber-950 text-slate-200 hover:border-amber-500/60";
+
+        return `
+          <button onclick="handleSentenceSelect('${s.id}')" class="py-2.5 px-2 rounded-xl border text-left transition-all touch-btn flex flex-col justify-between ${activeStyles}">
+            <span class="text-xs font-bold block truncate max-w-full leading-tight">"${s.title}"</span>
+            <span class="text-[9px] ${isActive ? 'text-slate-950 font-bold' : 'text-amber-400/80'} truncate block mt-1">
+              ${s.bhed.split(' ')[0]} ${s.bhed.split(' ')[1] || ''}
+            </span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function handleSentenceSelect(sentenceId) {
+      AudioFX.tap();
+      activeSentenceId = sentenceId;
+      const sentenceObj = voiceSentences.find(s => s.id === sentenceId);
+      if (sentenceObj) {
+        updateActiveCard(sentenceObj);
+        const filteredSentences = currentFilter === 'all' 
+          ? voiceSentences 
+          : voiceSentences.filter(s => s.cat === currentFilter);
+        renderSentenceChips(filteredSentences);
+      }
+    }
+
+    function updateActiveCard(item) {
+      document.getElementById('card-bhed').innerText = item.bhed;
+      document.getElementById('card-active-parts').innerHTML = `
+        <span class="bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded border border-amber-500/40">${item.sub}</span>
+        <span class="bg-orange-500/20 text-orange-300 px-2 py-0.5 rounded border border-orange-500/40">${item.verb}</span>
+        <span class="bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded border border-emerald-500/40">${item.obj}</span>.
+      `;
+      document.getElementById('card-passive').innerText = item.passive;
+      document.getElementById('card-formula').innerText = `Rule: ${item.formula}`;
+      document.getElementById('card-trick').innerText = item.trick;
+    }
+
+    // -------------------------------------------------------------
+    // 9. Practice Challenge Quiz Engine
+    // -------------------------------------------------------------
+    function renderQuizCard() {
+      if (currentQuizIndex >= quizQuestions.length) {
+        showQuizSummary();
+        return;
+      }
+
+      document.getElementById('quiz-summary-card').classList.add('hidden');
+      document.getElementById('quiz-feedback').classList.add('hidden');
+
+      const q = quizQuestions[currentQuizIndex];
+      document.getElementById('q-current').innerText = currentQuizIndex + 1;
+      document.getElementById('q-total').innerText = quizQuestions.length;
+      document.getElementById('quiz-q-tag').innerText = q.tag;
+      document.getElementById('quiz-question').innerText = q.q;
+
+      const optionsBox = document.getElementById('quiz-options');
+      optionsBox.innerHTML = q.options.map((opt, i) => `
+        <button onclick="handleAnswer(${i})" class="quiz-opt-btn w-full text-left p-3 rounded-xl bg-slate-950 border border-amber-950 text-xs text-slate-100 font-semibold hover:border-amber-500/80 transition-all touch-btn flex items-center justify-between">
+          <span>${opt}</span>
+          <span class="text-amber-700 text-xs">○</span>
+        </button>
+      `).join('');
+    }
+
+    function handleAnswer(selectedIdx) {
+      const q = quizQuestions[currentQuizIndex];
+      const buttons = document.querySelectorAll('.quiz-opt-btn');
+      buttons.forEach(btn => btn.disabled = true);
+
+      const feedbackBox = document.getElementById('quiz-feedback');
+      const badge = document.getElementById('feedback-badge');
+      const text = document.getElementById('feedback-text');
+
+      feedbackBox.classList.remove('hidden');
+
+      if (selectedIdx === q.ans) {
+        AudioFX.correct();
+        quizScore += 2;
+        streakCount++;
+        document.getElementById('q-score').innerText = `${quizScore} / ${quizQuestions.length * 2}`;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>${streakCount}</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-amber-400 bg-amber-950/60 text-amber-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-amber-300 font-bold">✓</span>`;
+        badge.innerText = "✓ Correct Answer! (+2 Marks)";
+        badge.className = "text-xs font-bold text-amber-300 flex items-center gap-1";
+      } else {
+        AudioFX.incorrect();
+        streakCount = 0;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-red-500 bg-red-950/60 text-red-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-red-400 font-bold">✗</span>`;
+
+        // Highlight correct answer
+        buttons[q.ans].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-amber-500/80 bg-amber-950/40 text-amber-200 font-bold text-xs flex items-center justify-between";
+        buttons[q.ans].innerHTML = `<span>${q.options[q.ans]}</span> <span class="text-amber-300 font-bold">✓</span>`;
+
+        badge.innerText = "✗ Incorrect! Check the board rule analysis";
+        badge.className = "text-xs font-bold text-red-400 flex items-center gap-1";
+      }
+
+      text.innerHTML = `<strong>Board Rule Breakdown:</strong> ${q.exp}`;
+    }
+
+    function nextQuizQuestion() {
+      AudioFX.tap();
+      currentQuizIndex++;
+      renderQuizCard();
+    }
+
+    function showQuizSummary() {
+      document.getElementById('quiz-feedback').classList.add('hidden');
+      const summaryCard = document.getElementById('quiz-summary-card');
+      summaryCard.classList.remove('hidden');
+
+      const maxScore = quizQuestions.length * 2;
+      const accuracy = Math.round((quizScore / maxScore) * 100);
+
+      document.getElementById('summary-score').innerText = `${quizScore} / ${maxScore}`;
+      document.getElementById('summary-accuracy').innerText = `${accuracy}%`;
+    }
+
+    function restartQuiz() {
+      AudioFX.tap();
+      currentQuizIndex = 0;
+      quizScore = 0;
+      streakCount = 0;
+      document.getElementById('q-score').innerText = `0 / ${quizQuestions.length * 2}`;
+      document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+      renderQuizCard();
+    }
+
+    // -------------------------------------------------------------
+    // 10. Initial Load
+    // -------------------------------------------------------------
+    window.addEventListener('DOMContentLoaded', () => {
+      renderLearnView();
+    });
+  </script>
+</body>
+</html>

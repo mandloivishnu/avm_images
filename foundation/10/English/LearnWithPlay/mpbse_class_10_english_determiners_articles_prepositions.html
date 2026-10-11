@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Determiners, Articles & Prepositions - MPBSE Class 10 English</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            jakarta: ['"Plus Jakarta Sans"', 'sans-serif'],
+            hind: ['Hind', 'sans-serif'],
+          },
+          colors: {
+            emdark: '#030d0a',
+            emcard: '#071812',
+            emsurface: '#0e241c',
+            emaccent: '#10b981',
+            tealaccent: '#14b8a6',
+            emmint: '#34d399',
+            emlight: '#a7f3d0'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .hindi-font {
+      font-family: 'Hind', sans-serif;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .touch-btn:active {
+      transform: scale(0.96);
+    }
+    @keyframes emeraldPulse {
+      0%, 100% { border-color: rgba(16, 185, 129, 0.35); box-shadow: 0 0 16px rgba(16, 185, 129, 0.12); }
+      50% { border-color: rgba(52, 211, 153, 0.7); box-shadow: 0 0 24px rgba(16, 185, 129, 0.3); }
+    }
+    .glow-emerald {
+      animation: emeraldPulse 3s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-emdark text-slate-100 min-h-screen pb-24 antialiased selection:bg-emerald-500 selection:text-black">
+
+  <!-- TOP APP BAR -->
+  <header class="sticky top-0 z-40 bg-[#061410]/95 backdrop-blur-md border-b border-emerald-500/20 px-3.5 py-2.5 shadow-lg">
+    <div class="flex items-center justify-between mb-2">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 via-teal-500 to-emerald-300 flex items-center justify-center text-slate-950 font-black text-xs shadow-md shadow-emerald-500/30">
+          A·D·P
+        </div>
+        <div>
+          <h1 class="text-sm sm:text-base font-bold text-emerald-200 tracking-wide leading-tight flex items-center gap-1.5">
+            Grammar Navigator
+            <span class="text-[9px] bg-emerald-500/20 text-emerald-300 font-sans px-1.5 py-0.5 rounded font-bold border border-emerald-500/30">10th MPBSE</span>
+          </h1>
+          <p class="text-[10px] text-emerald-300/70 hindi-font">Articles, Determiners & Prepositions (Section C)</p>
+        </div>
+      </div>
+      <div id="filter-counter-badge" class="text-[10px] font-mono text-emerald-300 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-500/30 font-bold">
+        27 Questions
+      </div>
+    </div>
+
+    <!-- Primary 3-Way Category Switcher -->
+    <div class="grid grid-cols-3 bg-slate-950/90 p-1 rounded-xl border border-emerald-900/60 text-xs shadow-inner mb-2">
+      <button onclick="setMainCategory('articles')" id="main-pill-articles" class="py-1 rounded-lg font-bold transition text-xs touch-btn bg-emerald-500 text-slate-950 shadow text-center">
+        Articles
+      </button>
+      <button onclick="setMainCategory('determiners')" id="main-pill-determiners" class="py-1 rounded-lg font-medium transition text-xs touch-btn text-emerald-200 hover:text-white text-center">
+        Determiners
+      </button>
+      <button onclick="setMainCategory('prepositions')" id="main-pill-prepositions" class="py-1 rounded-lg font-medium transition text-xs touch-btn text-emerald-200 hover:text-white text-center">
+        Prepositions
+      </button>
+    </div>
+
+    <!-- Secondary Filter Horizontal Scrollbar -->
+    <div id="sub-filter-bar" class="flex gap-1.5 overflow-x-auto no-scrollbar py-0.5 text-xs">
+      <!-- Injected by JavaScript -->
+    </div>
+  </header>
+
+  <!-- ============================================================== -->
+  <!-- TAB 1: LEARN & TRICKS MODE                                    -->
+  <!-- ============================================================== -->
+  <main id="learn-view" class="max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- 1. Definition & Core Concept Card -->
+    <section class="bg-gradient-to-br from-[#071d15] via-[#051610] to-[#020b08] border border-emerald-500/30 rounded-2xl p-3.5 shadow-md">
+      <div class="flex items-center justify-between mb-1.5">
+        <div class="flex items-center gap-2">
+          <span class="text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full font-bold">
+            1. Core Concept
+          </span>
+          <h2 id="def-title" class="text-xs sm:text-sm font-bold text-emerald-200">
+            Articles (A, An, The) Sound Rule
+          </h2>
+        </div>
+        <span id="def-badge" class="text-[10px] font-mono text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-800">
+          Sound > Letter
+        </span>
+      </div>
+      <p id="def-text" class="text-xs text-slate-300 leading-relaxed hindi-font">
+        Articles are modifiers placed before nouns. In MP Board exams, the most tested rule is <b>Vowel Sound (स्वर ध्वनि अ, आ, इ, ई, ए, ऐ, ओ, औ)</b> vs Consonant Sound. Always pronounce the first Hindi sound!
+      </p>
+    </section>
+
+    <!-- 2. Golden Shortcut Mnemonics Hub -->
+    <section class="bg-[#061812]/90 border border-emerald-900/60 rounded-2xl p-3.5 space-y-2.5 shadow-sm">
+      <div class="flex items-center justify-between border-b border-emerald-900/50 pb-2">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-teal-500/20 text-teal-300 border border-teal-500/30 px-2 py-0.5 rounded-full font-bold">
+            2. Golden Shortcut Rules
+          </span>
+          <span class="text-xs text-emerald-200 font-semibold hindi-font">परीक्षा रामबाण फॉर्मूला</span>
+        </div>
+        <span id="rules-count-label" class="text-[10px] text-emerald-400 font-mono font-bold">
+          Rules Active
+        </span>
+      </div>
+
+      <!-- Golden Rules Container -->
+      <div id="rules-container" class="space-y-2 max-h-52 overflow-y-auto no-scrollbar pr-0.5"></div>
+    </section>
+
+    <!-- 3. Active Sentence Interactive Card -->
+    <section class="bg-gradient-to-b from-[#0a271c] to-[#04120d] border border-emerald-500/40 rounded-2xl p-3.5 shadow-xl glow-emerald relative overflow-hidden">
+      <div class="flex items-center justify-between mb-2">
+        <span id="card-bhed" class="text-[11px] font-bold text-emerald-200 bg-emerald-500/20 border border-emerald-500/40 px-2.5 py-0.5 rounded-full">
+          Silent 'H' Sound (An Honest)
+        </span>
+        <span class="text-[10px] text-teal-300 font-bold bg-teal-950/70 border border-teal-500/40 px-2 py-0.5 rounded-full flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse"></span> MPBSE High-Frequency
+        </span>
+      </div>
+
+      <!-- Sentence Display Box -->
+      <div class="text-center py-2.5 px-3 bg-slate-950/85 rounded-xl border border-emerald-900/60 mb-2.5 shadow-inner">
+        <div class="text-[10px] uppercase tracking-wider text-emerald-400/80 mb-1 font-semibold">Board Fill in the Blanks</div>
+        <div id="card-sentence" class="text-sm sm:text-base font-bold text-emerald-200 tracking-wide leading-relaxed">
+          He is <span class="text-amber-300 underline underline-offset-4 decoration-amber-400 font-black">an</span> honest officer.
+        </div>
+        <div id="card-formula" class="text-xs text-emmint mt-2 font-mono font-semibold">
+          Rule: 'Honest' starts with vowel sound /ɒn-ɪst/ (ऑ/आ) ➔ 'An'
+        </div>
+      </div>
+
+      <!-- Quick Trick Memory Pill -->
+      <div class="bg-emerald-500/10 border border-emerald-500/25 rounded-xl p-2.5 flex items-start gap-2">
+        <span class="text-base leading-none mt-0.5">💡</span>
+        <div class="flex-1">
+          <div class="text-[11px] font-bold text-emerald-300">Memory Shortcut (याद रखने की ट्रिक):</div>
+          <div id="card-trick" class="text-xs text-slate-200 leading-snug mt-0.5 hindi-font">
+            शब्द का प्रथम अक्षर 'H' भले ही व्यंजन (Consonant) हो, परन्तु इसका उच्चारण 'ऑनेस्ट' (स्वर ध्वनि) से शुरू होता है। अतः हमेशा 'an' लगेगा।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Word & Sentence Bank Grid -->
+    <section class="bg-[#05140e]/80 border border-emerald-950 rounded-2xl p-3 space-y-2">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full font-bold">
+            3. Question Bank
+          </span>
+          <span class="text-xs text-emerald-100 font-semibold hindi-font">टैप करके विश्लेषण देखें</span>
+        </div>
+        <span id="items-grid-counter" class="text-[10px] text-emerald-400/80 font-mono">
+          Available: 27
+        </span>
+      </div>
+
+      <!-- 2-Column Responsive Grid -->
+      <div id="item-chips-grid" class="grid grid-cols-2 gap-2 pt-1 max-h-72 overflow-y-auto no-scrollbar pr-0.5">
+        <!-- Injected by JavaScript -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================== -->
+  <!-- TAB 2: PRACTICE QUIZ (MP Board Section C Simulator)           -->
+  <!-- ============================================================== -->
+  <main id="quiz-view" class="hidden max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- Score & Streak Header -->
+    <div class="bg-[#071912] border border-emerald-900/80 rounded-2xl p-3 shadow-md flex items-center justify-between">
+      <div>
+        <div class="text-[10px] text-emerald-400 font-bold uppercase tracking-wider">
+          MP Board Section C Quiz
+        </div>
+        <div class="text-xs font-bold text-emerald-200 flex items-center gap-1.5 mt-0.5">
+          <span>Question: <span id="q-current" class="text-white font-mono font-black text-sm">1</span> / <span id="q-total" class="font-mono">10</span></span>
+        </div>
+      </div>
+
+      <!-- Streak & Total Marks -->
+      <div class="flex items-center gap-3">
+        <div class="text-center px-2 py-1 rounded-lg bg-slate-950 border border-emerald-950">
+          <div class="text-[9px] text-emerald-400/80 hindi-font">लगातार सही</div>
+          <div id="q-streak" class="text-xs font-bold text-amber-400 flex items-center justify-center gap-0.5">
+            🔥 <span>0</span>
+          </div>
+        </div>
+        <div class="text-right">
+          <div class="text-[10px] text-emerald-400/80 hindi-font">कुल अंक</div>
+          <div id="q-score" class="text-base font-black text-emerald-300 font-mono">
+            0 / 20
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Question Card -->
+    <div class="bg-gradient-to-b from-[#0a271c] to-[#04120d] border border-emerald-500/30 rounded-2xl p-4 space-y-3.5 shadow-xl">
+      <div class="flex items-center justify-between">
+        <span id="quiz-q-tag" class="text-[10px] bg-teal-500/20 text-teal-300 border border-teal-500/30 px-2.5 py-0.5 rounded-full font-bold">
+          Fill in the Blanks
+        </span>
+        <span class="text-[10px] text-emerald-300 font-bold font-mono">
+          +2 Marks
+        </span>
+      </div>
+
+      <h3 id="quiz-question" class="text-sm sm:text-base font-bold text-white leading-relaxed tracking-wide min-h-[52px] flex items-center">
+        He is ________ honest man. (a / an / the)
+      </h3>
+
+      <!-- 4 Options Container -->
+      <div id="quiz-options" class="space-y-2 pt-1">
+        <!-- Options injected here -->
+      </div>
+    </div>
+
+    <!-- Feedback & Explanation Card -->
+    <div id="quiz-feedback" class="hidden bg-[#071a13] border border-emerald-800/80 rounded-2xl p-3.5 space-y-2 shadow-lg transition-all">
+      <div class="flex items-center justify-between">
+        <div id="feedback-badge" class="text-xs font-bold text-emerald-300 flex items-center gap-1">
+          ✓ Correct Answer! (+2 Marks)
+        </div>
+        <span class="text-[10px] text-emerald-400/70 font-mono">Board Grammar Analysis</span>
+      </div>
+      
+      <p id="feedback-text" class="text-xs text-slate-200 leading-relaxed bg-slate-950/80 p-2.5 rounded-xl border border-emerald-950 hindi-font">
+        <!-- Explanation text -->
+      </p>
+
+      <button onclick="nextQuizQuestion()" class="w-full py-2.5 bg-gradient-to-r from-emerald-500 to-teal-500 active:from-emerald-600 active:to-teal-600 text-slate-950 font-bold text-xs rounded-xl shadow-md touch-btn flex items-center justify-center gap-1.5">
+        <span>Next Question</span>
+        <span>➔</span>
+      </button>
+    </div>
+
+    <!-- Summary Card -->
+    <div id="quiz-summary-card" class="hidden bg-gradient-to-b from-[#0d3123] to-[#04130e] border border-emerald-500/40 rounded-2xl p-5 text-center space-y-3.5 shadow-2xl">
+      <div class="text-4xl animate-bounce">🏆</div>
+      <div>
+        <h4 class="text-lg font-bold text-emerald-300">Practice Test Completed!</h4>
+        <p class="text-xs text-emerald-200/80 mt-1 hindi-font">आपकी MPBSE बोर्ड परीक्षा तैयारी रिपोर्ट:</p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-2 bg-slate-950/80 p-3 rounded-xl border border-emerald-950">
+        <div>
+          <div class="text-[10px] text-emerald-400">Total Score</div>
+          <div id="summary-score" class="text-lg font-black text-emerald-300 font-mono">0 / 20</div>
+        </div>
+        <div>
+          <div class="text-[10px] text-emerald-400">Accuracy</div>
+          <div id="summary-accuracy" class="text-lg font-black text-teal-300 font-mono">0%</div>
+        </div>
+      </div>
+
+      <button onclick="restartQuiz()" class="w-full py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs rounded-xl shadow-lg touch-btn">
+        🔄 Retake Test (पुनः टेस्ट दें)
+      </button>
+    </div>
+
+  </main>
+
+  <!-- FIXED BOTTOM NAVIGATION BAR -->
+  <nav class="fixed bottom-0 left-0 right-0 z-50 bg-[#04100c]/95 backdrop-blur-md border-t border-emerald-900/80 py-1.5 px-4 shadow-2xl">
+    <div class="max-w-md mx-auto grid grid-cols-2 gap-3">
+      <button onclick="switchTab('learn')" id="nav-btn-learn" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400 bg-emerald-500/10 border border-emerald-500/30">
+        <span class="text-lg leading-none mb-0.5">📖</span>
+        <span class="text-[11px] font-bold">Learn & Tricks</span>
+      </button>
+      <button onclick="switchTab('quiz')" id="nav-btn-quiz" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400/60 border border-transparent hover:text-white">
+        <span class="text-lg leading-none mb-0.5">🎯</span>
+        <span class="text-[11px] font-bold">Practice Quiz</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================================================== -->
+  <!-- JAVASCRIPT ENGINE & WEB AUDIO API SYNTHESIZER                  -->
+  <!-- ============================================================== -->
+  <script>
+    // -------------------------------------------------------------
+    // 1. Web Audio Synthesizer (Zero External Dependencies)
+    // -------------------------------------------------------------
+    const AudioFX = {
+      ctx: null,
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+      },
+      tap() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(520, t);
+          osc.frequency.exponentialRampToValueAtTime(840, t + 0.04);
+          gain.gain.setValueAtTime(0.08, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.05);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.05);
+        } catch (e) {}
+      },
+      correct() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          // Major Triad Chime (F5 -> A5 -> C6)
+          const notes = [698.46, 880.00, 1046.50];
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(freq, t + idx * 0.08);
+            gain.gain.setValueAtTime(0.12, t + idx * 0.08);
+            gain.gain.exponentialRampToValueAtTime(0.001, t + idx * 0.08 + 0.25);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(t + idx * 0.08);
+            osc.stop(t + idx * 0.08 + 0.25);
+          });
+        } catch (e) {}
+      },
+      incorrect() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(200, t);
+          osc.frequency.linearRampToValueAtTime(130, t + 0.18);
+          gain.gain.setValueAtTime(0.12, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.2);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.2);
+        } catch (e) {}
+      }
+    };
+
+    // -------------------------------------------------------------
+    // 2. Comprehensive MPBSE Grammar Database (27 Core Questions)
+    // -------------------------------------------------------------
+    const grammarStore = {
+      articles: {
+        title: "Articles (A, An, The)",
+        badge: "Sound > Letter Rule",
+        desc: "Articles specify whether a noun is indefinite (A/An) or definite (The). MP Board questions frequently test <b>Vowel Sound (स्वर ध्वनि) vs Vowel Letter</b>, abbreviations (an MLA), and definite entities (The Ganga, The Sun, Superlative Degree).",
+        subFilters: [
+          { id: 'all', name: "All Articles" },
+          { id: 'sound_an', name: "Vowel Sound (An)" },
+          { id: 'sound_a', name: "Consonant Sound (A)" },
+          { id: 'definite_the', name: "Definite (The)" }
+        ],
+        rules: [
+          {
+            id: 'sound_an',
+            name: "An + Vowel Sound (स्वर ध्वनि अ, आ, इ, ई, ए, ऐ, ओ, औ)",
+            formula: "An + word sounding like vowel",
+            trick: "शब्द को हिंदी में बोलें! यदि पहला अक्षर 'अ' से 'औ' तक का स्वर हो, तो हमेशा 'An' लगेगा (e.g. ईमानदार = ऑनेस्ट ➔ An honest, एम.एल.ए. ➔ An MLA, घंटा = आवर ➔ An hour)।"
+          },
+          {
+            id: 'sound_a',
+            name: "A + Consonant Sound (व्यंजन ध्वनि क से ज्ञ)",
+            formula: "A + word sounding like consonant",
+            trick: "अंग्रेजी में U या E से शुरू होने पर भी यदि हिंदी उच्चारण 'य' (Ya) या 'व' (Wa) हो, तो 'A' लगेगा (e.g. यूनिवर्सिटी = यु ➔ A university, यूरोपियन ➔ A European, वन-आईड ➔ A one-eyed man)।"
+          },
+          {
+            id: 'definite_the',
+            name: "The + Unique, Holy Rivers & Superlatives",
+            formula: "The + Unique/Sacred/Superlative Adjective",
+            trick: "पवित्र नदियाँ (The Ganga), आकाशीय पिंड (The Sun, The Earth), प्रसिद्ध ग्रंथ (The Ramayana), तथा Superlative Degree (-est या most) से पहले 'The' अनिवार्य है।"
+          }
+        ],
+        items: [
+          {
+            id: 'a1',
+            subId: 'sound_an',
+            title: "An honest man",
+            bhed: "Silent 'H' Rule",
+            sentence: "He is ________ honest man. (a / an / the)",
+            answer: "an",
+            formula: "An + /ɒnɪst/ (स्वर ध्वनि 'ऑ')",
+            trick: "'Honest' का उच्चारण 'ह' नहीं बल्कि 'ऑ' (vowel sound) से होता है, इसलिए 'an' आएगा।"
+          },
+          {
+            id: 'a2',
+            subId: 'sound_an',
+            title: "An MLA",
+            bhed: "Abbreviation Sound Rule",
+            sentence: "His father is ________ MLA. (a / an / the)",
+            answer: "an",
+            formula: "An + /em-el-eɪ/ (स्वर ध्वनि 'ए')",
+            trick: "'M.L.A.' बोलते समय पहला अक्षर 'ए' (Em) निकलता है, जो स्वर है। अतः 'an MLA' सही है।"
+          },
+          {
+            id: 'a3',
+            subId: 'sound_a',
+            title: "A university professor",
+            bhed: "'U' as /j/ Sound",
+            sentence: "She is ________ university professor. (a / an / the)",
+            answer: "a",
+            formula: "A + /juːnɪˈvɜːsɪti/ (व्यंजन ध्वनि 'यु')",
+            trick: "'University' का पहला अक्षर 'य' (व्यंजन) से शुरू होता है, स्वर नहीं। अतः 'a' लगेगा।"
+          },
+          {
+            id: 'a4',
+            subId: 'sound_a',
+            title: "A European tourist",
+            bhed: "'Eu' as /j/ Sound",
+            sentence: "Mr. David is ________ European. (a / an / the)",
+            answer: "a",
+            formula: "A + /ˈjʊərəpiən/ (व्यंजन ध्वनि 'यू')",
+            trick: "'European' की शुरुआत 'य' ध्वनि से होती है, इसलिए 'an' नहीं बल्कि 'a' आएगा।"
+          },
+          {
+            id: 'a5',
+            subId: 'definite_the',
+            title: "The Ganga is holy",
+            bhed: "Sacred River Rule",
+            sentence: "________ Ganga is a sacred river. (A / An / The)",
+            answer: "The",
+            formula: "The + Name of Holy River",
+            trick: "पवित्र नदियों (Ganga, Yamuna, Narmada) के नाम से पहले हमेशा 'The' का प्रयोग होता है।"
+          },
+          {
+            id: 'a6',
+            subId: 'definite_the',
+            title: "The highest mountain",
+            bhed: "Superlative Degree",
+            sentence: "Mount Everest is ________ highest peak. (a / an / the)",
+            answer: "the",
+            formula: "The + Superlative (-est / most)",
+            trick: "'Highest' superlative degree है। Superlative विशेषण से पहले हमेशा 'the' आता है।"
+          },
+          {
+            id: 'a7',
+            subId: 'sound_an',
+            title: "An hour late",
+            bhed: "Silent 'H' Rule",
+            sentence: "The train was delayed by ________ hour. (a / an / the)",
+            answer: "an",
+            formula: "An + /aʊər/ (स्वर ध्वनि 'आ')",
+            trick: "'Hour' में 'H' साइलेंट होता है, उच्चारण 'आवर' (स्वर) से होता है। अतः 'an' आएगा।"
+          },
+          {
+            id: 'a8',
+            subId: 'sound_a',
+            title: "A one-rupee note",
+            bhed: "'O' as /w/ Sound",
+            sentence: "I found ________ one-rupee note on the road. (a / an / the)",
+            answer: "a",
+            formula: "A + /wʌn/ (व्यंजन ध्वनि 'व')",
+            trick: "'One' का उच्चारण 'व' (व्यंजन) से होता है, अतः 'a one-rupee note' सही है।"
+          },
+          {
+            id: 'a9',
+            subId: 'definite_the',
+            title: "The Sun rises",
+            bhed: "Unique Celestial Body",
+            sentence: "________ Sun rises in the east. (A / An / The)",
+            answer: "The",
+            formula: "The + Unique Natural Object",
+            trick: "संसार में अद्वितीय खगोलीय पिंडों (The Sun, The Moon, The Earth) के पहले 'The' लगता है।"
+          }
+        ]
+      },
+      determiners: {
+        title: "Determiners (मात्रा व संख्या बोधक)",
+        badge: "Countable vs Uncountable",
+        desc: "Determiners specify quantity or distribution before nouns. High-yield MP Board topics include <b>Some vs Any</b>, <b>Much vs Many</b>, <b>Few vs Little</b>, and <b>Each vs Every</b>.",
+        subFilters: [
+          { id: 'all', name: "All Determiners" },
+          { id: 'some_any', name: "Some / Any" },
+          { id: 'much_many', name: "Much / Many" },
+          { id: 'few_little', name: "Few / Little" }
+        ],
+        rules: [
+          {
+            id: 'some_any',
+            name: "Some (सकारात्मक/ऑफर) vs Any (नकारात्मक/प्रश्न)",
+            formula: "Some = Affirmative & Polite Offers | Any = Negative & Questions",
+            trick: "'I have some books' (सकारात्मक); 'I do not have any money' (नकारात्मक)। लेकिन चाय/कॉफी का विनम्र ऑफर होने पर 'Would you like some tea?' में 'some' आता है!"
+          },
+          {
+            id: 'much_many',
+            name: "Much (अगणनीय) vs Many (गणनीय बहुवचन)",
+            formula: "Much + Uncountable Noun | Many + Plural Countable Noun",
+            trick: "जिन्हें गिन सकते हैं (books, students, pens) उनके लिए 'many'। जिन्हें नापा/तौला जाता है (water, milk, time, money) उनके लिए 'much'।"
+          },
+          {
+            id: 'few_little',
+            name: "Few (संख्या - Countable) vs Little (मात्रा - Uncountable)",
+            formula: "Few/A Few = Countable | Little/A Little = Uncountable",
+            trick: "'Few' = न के बराबर संख्या; 'A few' = कुछ (सकारात्मक)। 'Little' = न के बराबर मात्रा (uncountable); 'A little' = थोड़ा सा (water/milk)।"
+          }
+        ],
+        items: [
+          {
+            id: 'd1',
+            subId: 'some_any',
+            title: "Negative: don't have any money",
+            bhed: "Negative Sentence Rule",
+            sentence: "I do not have ________ money with me. (some / any / many)",
+            answer: "any",
+            formula: "Negative (not) + any + Uncountable/Countable",
+            trick: "वाक्य में 'do not' (नकारात्मक) आया है। Negative वाक्यों में हमेशा 'any' का प्रयोग होता है।"
+          },
+          {
+            id: 'd2',
+            subId: 'some_any',
+            title: "Offer: Would you like some tea?",
+            bhed: "Polite Request / Offer",
+            sentence: "Would you like ________ tea? (some / any / few)",
+            answer: "some",
+            formula: "Would you like + some (Polite Offer)",
+            trick: "यद्यपि यह प्रश्न है, परन्तु यहाँ विनम्र आमंत्रण (Offer) दिया जा रहा है। अतः 'some' आएगा।"
+          },
+          {
+            id: 'd3',
+            subId: 'much_many',
+            title: "How many students?",
+            bhed: "Plural Countable Noun",
+            sentence: "How ________ students are present today? (much / many / any)",
+            answer: "many",
+            formula: "Many + Countable Plural (students)",
+            trick: "'Students' को गिना जा सकता है (Countable Noun)। संख्या पूछने के लिए 'many' लगता है।"
+          },
+          {
+            id: 'd4',
+            subId: 'much_many',
+            title: "How much water?",
+            bhed: "Uncountable Noun",
+            sentence: "There is not ________ water in the jug. (much / many / few)",
+            answer: "much",
+            formula: "Much + Uncountable Noun (water)",
+            trick: "'Water' अगणनीय (Uncountable) तरल पदार्थ है। मात्रा दर्शाने हेतु 'much' का प्रयोग होगा।"
+          },
+          {
+            id: 'd5',
+            subId: 'few_little',
+            title: "A little milk left",
+            bhed: "Positive Uncountable Amount",
+            sentence: "There is ________ milk left in the cup for tea. (a little / a few / many)",
+            answer: "a little",
+            formula: "A little + Uncountable (थोड़ा सा)",
+            trick: "'Milk' uncountable noun है और चाय बनाने के लिए कुछ मात्रा बची है, अतः 'a little' आएगा।"
+          },
+          {
+            id: 'd6',
+            subId: 'few_little',
+            title: "A few friends came",
+            bhed: "Positive Countable Plural",
+            sentence: "Only ________ students passed the tough test. (a few / a little / much)",
+            answer: "a few",
+            formula: "A few + Plural Countable",
+            trick: "'Students' को गिन सकते हैं, इसलिए 'a few' (कुछ गिने-चुने छात्र) सही उत्तर है।"
+          },
+          {
+            id: 'd7',
+            subId: 'some_any',
+            title: "Did you buy any apples?",
+            bhed: "Interrogative Question",
+            sentence: "Did you buy ________ mangoes from the market? (some / any / little)",
+            answer: "any",
+            formula: "Did + Subject + any + Object?",
+            trick: "सामान्य पूछताछ वाले प्रश्नवाचक वाक्यों (Interrogative) में 'any' का प्रयोग होता है।"
+          },
+          {
+            id: 'd8',
+            subId: 'much_many',
+            title: "Too much sugar",
+            bhed: "Uncountable Quantity",
+            sentence: "Don't add too ________ sugar to the milk. (much / many / few)",
+            answer: "much",
+            formula: "Much + Uncountable (sugar)",
+            trick: "'Sugar' को तौला जाता है, गिना नहीं जाता। अतः 'much' आएगा।"
+          },
+          {
+            id: 'd9',
+            subId: 'some_any',
+            title: "I have some good news",
+            bhed: "Affirmative Sentence",
+            sentence: "I have ________ good news for you. (some / any / many)",
+            answer: "some",
+            formula: "Affirmative Sentence + some",
+            trick: "सकारात्मक साधारण वाक्य में 'some' का प्रयोग प्रामाणिक है।"
+          }
+        ]
+      },
+      prepositions: {
+        title: "Prepositions (संबंधबोधक अव्यय)",
+        badge: "Motion vs Rest & Fix Rules",
+        desc: "Prepositions show relationships of time, place, direction, or cause. MP Board exam favorites: <b>In vs Into</b> (motion), <b>Between vs Among</b> (two vs many), <b>Since vs For</b>, and <b>Fixed Prepositions</b> (died of, senior to, listen to).",
+        subFilters: [
+          { id: 'all', name: "All Prepositions" },
+          { id: 'in_into', name: "In vs Into" },
+          { id: 'between_among', name: "Between vs Among" },
+          { id: 'fixed_prep', name: "Fixed Prepositions" }
+        ],
+        rules: [
+          {
+            id: 'in_into',
+            name: "In (स्थिर अवस्था) vs Into (गतिपूर्वक प्रवेश - Motion)",
+            formula: "In = State of Rest inside | Into = Movement entering inside",
+            trick: "यदि कोई वस्तु पहले से अंदर स्थिर है (swimming in the pond, sitting in the room) तो 'in'। यदि बाहर से अंदर कूदने/गिरने की गति (jumped into the river, poured into the cup) हो, तो 'into'।"
+          },
+          {
+            id: 'between_among',
+            name: "Between (केवल दो) vs Among (दो से अधिक)",
+            formula: "Between = 2 entities | Among = 3+ entities",
+            trick: "राम और श्याम (दो व्यक्ति) में बाँटना हो तो 'between'। पूरी कक्षा या सभी बच्चों (दो से अधिक) में बाँटना हो तो 'among'।"
+          },
+          {
+            id: 'fixed_prep',
+            name: "Board Fixed Prepositions (निश्चित संबंध)",
+            formula: "Died of disease | Senior/Junior to | Listen to | Congratulate on",
+            trick: "बीमारी से मौत: 'died OF cancer/cholera'। तुलनात्मक -ior शब्द: 'senior/junior/prefer TO'। ध्यान से सुनना: 'listen TO'। बधाई देना: 'congratulate ON'।"
+          }
+        ],
+        items: [
+          {
+            id: 'p1',
+            subId: 'in_into',
+            title: "Jumped into the river",
+            bhed: "Motion into Container",
+            sentence: "The frog jumped ________ the pond. (in / into / at)",
+            answer: "into",
+            formula: "Jumped + into + water body (Motion)",
+            trick: "मेंढक बाहर से कूदकर तालाब के अंदर गति कर रहा है। गतिपूर्वक प्रवेश में हमेशा 'into' लगता है।"
+          },
+          {
+            id: 'p2',
+            subId: 'in_into',
+            title: "Sitting in the room",
+            bhed: "State of Rest",
+            sentence: "The students are studying ________ the classroom. (in / into / on)",
+            answer: "in",
+            formula: "In + Enclosed Space (No Motion)",
+            trick: "विद्यार्थी कक्षा के भीतर पहले से मौजूद और स्थिर हैं, अतः 'in' आएगा।"
+          },
+          {
+            id: 'p3',
+            subId: 'between_among',
+            title: "Distribute between two",
+            bhed: "Between for 2 Persons",
+            sentence: "Distribute these sweets ________ Ram and Shyam. (between / among / in)",
+            answer: "between",
+            formula: "Between + Two specific nouns",
+            trick: "यहाँ स्पष्ट रूप से केवल दो व्यक्ति (Ram और Shyam) हैं। दो के लिए 'between' आता है।"
+          },
+          {
+            id: 'p4',
+            subId: 'between_among',
+            title: "Distribute among children",
+            bhed: "Among for More than 2",
+            sentence: "Divide the apples ________ the poor children. (between / among / with)",
+            answer: "among",
+            formula: "Among + Plural Group (3+)",
+            trick: "'Children' दो से अधिक का समूह दर्शाते हैं। दो से अधिक के बीच विभाजन के लिए 'among' आता है।"
+          },
+          {
+            id: 'p5',
+            subId: 'fixed_prep',
+            title: "Died of cancer",
+            bhed: "Fixed: Died OF Disease",
+            sentence: "The old man died ________ malaria. (of / from / with)",
+            answer: "of",
+            formula: "Died + of + Disease Name",
+            trick: "MP Board Top Rule: किसी बीमारी (cancer, cholera, malaria) से मृत्यु होने पर 'died OF' लिखा जाता है।"
+          },
+          {
+            id: 'p6',
+            subId: 'fixed_prep',
+            title: "Senior to me",
+            bhed: "Fixed: Latin Adjectives (-ior to)",
+            sentence: "Rohan is senior ________ me by two years. (than / to / from)",
+            answer: "to",
+            formula: "Senior / Junior / Superior + to",
+            trick: "Senior, Junior, Prefer के बाद कभी 'than' नहीं लगता, हमेशा 'to' लगता है।"
+          },
+          {
+            id: 'p7',
+            subId: 'fixed_prep',
+            title: "Listen to the teacher",
+            bhed: "Fixed: Listen TO",
+            sentence: "You must listen ________ your parents. (to / of / for)",
+            answer: "to",
+            formula: "Listen + to + Person/Advice",
+            trick: "'Listen' क्रिया के साथ हमेशा निश्चित प्रीपोजिशन 'to' आता है।"
+          },
+          {
+            id: 'p8',
+            subId: 'fixed_prep',
+            title: "Congratulated on success",
+            bhed: "Fixed: Congratulate ON",
+            sentence: "I congratulated him ________ his success. (on / for / at)",
+            answer: "on",
+            formula: "Congratulate + on + Achievement",
+            trick: "सफलता या उपलब्धि पर बधाई देने के लिए 'on' का प्रयोग किया जाता है ('for' गलत है)।"
+          },
+          {
+            id: 'p9',
+            subId: 'in_into',
+            title: "Pour milk into the cup",
+            bhed: "Motion into Vessel",
+            sentence: "Pour some water ________ the glass. (in / into / at)",
+            answer: "into",
+            formula: "Pour + into + Vessel",
+            trick: "पानी को गिलास में उड़ेलने में प्रवाह और गति है, अतः 'into' सही उत्तर है।"
+          }
+        ]
+      }
+    };
+
+    // -------------------------------------------------------------
+    // 3. MP Board Quiz Questions Pool (10 High-Yield Exam Items)
+    // -------------------------------------------------------------
+    const quizQuestions = [
+      {
+        tag: "Articles: Silent H",
+        q: "He is ________ honest man in our village.",
+        options: ["a", "an", "the", "no article"],
+        ans: 1,
+        exp: "'Honest' का पहला उच्चारण स्वर ध्वनि /ɒ/ (ऑ) से शुरू होता है। स्वर उच्चारण से पहले हमेशा 'an' लगता है।"
+      },
+      {
+        tag: "Determiners: Some vs Any",
+        q: "I don't have ________ money in my pocket.",
+        options: ["some", "any", "many", "few"],
+        ans: 1,
+        exp: "नकारात्मक वाक्य ('don't') में मात्रा या संख्या दर्शाने के लिए हमेशा 'any' का प्रयोग होता है।"
+      },
+      {
+        tag: "Prepositions: Fixed Rule",
+        q: "He died ________ cholera last month.",
+        options: ["from", "of", "with", "by"],
+        ans: 1,
+        exp: "MP Board Special: जब किसी व्यक्ति की मृत्यु किसी बीमारी से होती है, तो 'died OF' का प्रयोग होता है।"
+      },
+      {
+        tag: "Articles: Abbreviation",
+        q: "His uncle is ________ MLA from Rewa.",
+        options: ["a", "an", "the", "one"],
+        ans: 1,
+        exp: "'M.L.A.' का उच्चारण 'एम' (स्वर ध्वनि 'ए') से होता है। अतः यहाँ 'an' लगेगा।"
+      },
+      {
+        tag: "Prepositions: Motion Rule",
+        q: "The boy jumped ________ the river to save his dog.",
+        options: ["in", "into", "at", "on"],
+        ans: 1,
+        exp: "नदी के अंदर कूदने में गति (Movement from outside to inside) है। गतिपूर्वक प्रवेश के लिए 'into' आता है।"
+      },
+      {
+        tag: "Determiners: Much vs Many",
+        q: "How ________ water is needed to fill this tank?",
+        options: ["many", "much", "few", "any"],
+        ans: 1,
+        exp: "'Water' अगणनीय संज्ञा (Uncountable Noun) है। मात्रा पूछने के लिए 'How much' का प्रयोग किया जाता है।"
+      },
+      {
+        tag: "Articles: 'U' Sound",
+        q: "Rohan studies in ________ European university.",
+        options: ["an", "a", "the", "one"],
+        ans: 1,
+        exp: "'European' का उच्चारण 'य' (व्यंजन ध्वनि) से होता है, भले ही शुरुआत 'E' से हो। अतः 'a' लगेगा।"
+      },
+      {
+        tag: "Prepositions: Two vs Many",
+        q: "Distribute the notebooks ________ Ram and Shyam.",
+        options: ["between", "among", "with", "in"],
+        ans: 0,
+        exp: "केवल दो व्यक्तियों (Ram और Shyam) के बीच किसी वस्तु के बँटवारे के लिए 'between' प्रयुक्त होता है।"
+      },
+      {
+        tag: "Determiners: Polite Offer",
+        q: "Would you like ________ coffee, sir?",
+        options: ["any", "some", "few", "many"],
+        ans: 1,
+        exp: "यद्यपि वाक्य प्रश्नवाचक है, परन्तु यह एक विनम्र प्रस्ताव (Polite Offer) है। विनम्र आमंत्रण में 'some' आता है।"
+      },
+      {
+        tag: "Prepositions: Fixed Rule",
+        q: "My elder brother is senior ________ me by three years.",
+        options: ["than", "to", "from", "with"],
+        ans: 1,
+        exp: "Senior, Junior, Prior और Superior के बाद तुलना के लिए 'than' नहीं बल्कि 'to' लगता है।"
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // 4. App State Variables
+    // -------------------------------------------------------------
+    let currentMainCategory = 'articles';
+    let currentSubFilter = 'all';
+    let activeItemId = 'a1';
+    let currentQuizIndex = 0;
+    let quizScore = 0;
+    let streakCount = 0;
+
+    // -------------------------------------------------------------
+    // 5. Navigation Tab Switcher (Learn vs Quiz)
+    // -------------------------------------------------------------
+    function switchTab(tab) {
+      AudioFX.tap();
+      const learnView = document.getElementById('learn-view');
+      const quizView = document.getElementById('quiz-view');
+      const btnLearn = document.getElementById('nav-btn-learn');
+      const btnQuiz = document.getElementById('nav-btn-quiz');
+
+      if (tab === 'learn') {
+        learnView.classList.remove('hidden');
+        quizView.classList.add('hidden');
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400 bg-emerald-500/10 border border-emerald-500/30";
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400/60 border border-transparent hover:text-white";
+      } else {
+        learnView.classList.add('hidden');
+        quizView.classList.remove('hidden');
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400 bg-emerald-500/10 border border-emerald-500/30";
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400/60 border border-transparent hover:text-white";
+        renderQuizCard();
+      }
+    }
+
+    // -------------------------------------------------------------
+    // 6. Category Selection & Sub-Filter Controller
+    // -------------------------------------------------------------
+    function setMainCategory(cat) {
+      AudioFX.tap();
+      currentMainCategory = cat;
+      currentSubFilter = 'all';
+
+      const cats = ['articles', 'determiners', 'prepositions'];
+      cats.forEach(c => {
+        const btn = document.getElementById(`main-pill-${c}`);
+        if (c === cat) {
+          btn.className = "py-1 rounded-lg font-bold transition text-xs touch-btn bg-emerald-500 text-slate-950 shadow text-center";
+        } else {
+          btn.className = "py-1 rounded-lg font-medium transition text-xs touch-btn text-emerald-200 hover:text-white text-center";
+        }
+      });
+
+      // Default active item based on category
+      if (cat === 'articles') activeItemId = 'a1';
+      else if (cat === 'determiners') activeItemId = 'd1';
+      else if (cat === 'prepositions') activeItemId = 'p1';
+
+      renderSubFilterBar();
+      renderLearnView();
+    }
+
+    function renderSubFilterBar() {
+      const data = grammarStore[currentMainCategory];
+      const filterBar = document.getElementById('sub-filter-bar');
+
+      filterBar.innerHTML = data.subFilters.map(f => {
+        const isActive = f.id === currentSubFilter;
+        return `
+          <button onclick="setSubFilter('${f.id}')" id="sub-pill-${f.id}" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn ${
+            isActive 
+              ? 'bg-emerald-500 text-slate-950 font-bold shadow' 
+              : 'text-emerald-200/80 bg-slate-900/80 border border-emerald-900/60'
+          }">
+            ${f.name}
+          </button>
+        `;
+      }).join('');
+    }
+
+    function setSubFilter(subId) {
+      AudioFX.tap();
+      currentSubFilter = subId;
+      renderSubFilterBar();
+      renderLearnView();
+    }
+
+    // -------------------------------------------------------------
+    // 7. Render Learn Mode View
+    // -------------------------------------------------------------
+    function renderLearnView() {
+      const data = grammarStore[currentMainCategory];
+
+      // 1. Definition Card
+      document.getElementById('def-title').innerText = data.title;
+      document.getElementById('def-badge').innerText = data.badge;
+      document.getElementById('def-text').innerHTML = data.desc;
+
+      // 2. Rules List
+      const filteredRules = currentSubFilter === 'all'
+        ? data.rules
+        : data.rules.filter(r => r.id === currentSubFilter);
+
+      document.getElementById('rules-count-label').innerText = `${filteredRules.length} Rules Active`;
+
+      const rulesBox = document.getElementById('rules-container');
+      rulesBox.innerHTML = filteredRules.map(r => `
+        <div class="bg-slate-950/80 border border-emerald-950 rounded-xl p-2.5">
+          <div class="flex items-center justify-between text-xs font-bold text-emerald-200 mb-1">
+            <span>📌 ${r.name}</span>
+            <span class="text-[10px] text-emmint font-mono">${r.formula}</span>
+          </div>
+          <p class="text-[11px] text-slate-200 leading-normal hindi-font">
+            <span class="text-emerald-300 font-semibold">पहचान ट्रिक:</span> ${r.trick}
+          </p>
+        </div>
+      `).join('');
+
+      // 3. Question Items
+      const filteredItems = currentSubFilter === 'all'
+        ? data.items
+        : data.items.filter(it => it.subId === currentSubFilter);
+
+      document.getElementById('filter-counter-badge').innerText = `${filteredItems.length} Questions`;
+      document.getElementById('items-grid-counter').innerText = `Available: ${filteredItems.length}`;
+
+      // Maintain active card selection
+      const hasActive = filteredItems.some(it => it.id === activeItemId);
+      if (!hasActive && filteredItems.length > 0) {
+        activeItemId = filteredItems[0].id;
+      }
+
+      const activeObj = data.items.find(it => it.id === activeItemId) || data.items[0];
+      updateActiveCard(activeObj);
+      renderItemChips(filteredItems);
+    }
+
+    function renderItemChips(items) {
+      const chipsBox = document.getElementById('item-chips-grid');
+      chipsBox.innerHTML = items.map(it => {
+        const isActive = it.id === activeItemId;
+        const activeStyles = isActive 
+          ? "bg-gradient-to-tr from-emerald-500 to-teal-400 text-slate-950 font-bold border-emerald-300 shadow-md scale-[1.02]" 
+          : "bg-slate-950/80 border-emerald-950 text-slate-200 hover:border-emerald-500/60";
+
+        return `
+          <button onclick="handleItemSelect('${it.id}')" class="py-2.5 px-2 rounded-xl border text-left transition-all touch-btn flex flex-col justify-between ${activeStyles}">
+            <span class="text-xs font-bold block truncate max-w-full leading-tight">"${it.title}"</span>
+            <span class="text-[9px] ${isActive ? 'text-slate-950 font-bold' : 'text-emerald-400/80'} truncate block mt-1">
+              ${it.bhed}
+            </span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function handleItemSelect(itemId) {
+      AudioFX.tap();
+      activeItemId = itemId;
+      const data = grammarStore[currentMainCategory];
+      const itemObj = data.items.find(it => it.id === itemId);
+      if (itemObj) {
+        updateActiveCard(itemObj);
+        const filteredItems = currentSubFilter === 'all' 
+          ? data.items 
+          : data.items.filter(it => it.subId === currentSubFilter);
+        renderItemChips(filteredItems);
+      }
+    }
+
+    function updateActiveCard(item) {
+      document.getElementById('card-bhed').innerText = item.bhed;
+      document.getElementById('card-sentence').innerHTML = item.sentence.replace('________', `<span class="text-amber-300 underline underline-offset-4 decoration-amber-400 font-black">${item.answer}</span>`);
+      document.getElementById('card-formula').innerText = `Rule: ${item.formula}`;
+      document.getElementById('card-trick').innerText = item.trick;
+    }
+
+    // -------------------------------------------------------------
+    // 8. Quiz Engine Logic
+    // -------------------------------------------------------------
+    function renderQuizCard() {
+      if (currentQuizIndex >= quizQuestions.length) {
+        showQuizSummary();
+        return;
+      }
+
+      document.getElementById('quiz-summary-card').classList.add('hidden');
+      document.getElementById('quiz-feedback').classList.add('hidden');
+
+      const q = quizQuestions[currentQuizIndex];
+      document.getElementById('q-current').innerText = currentQuizIndex + 1;
+      document.getElementById('q-total').innerText = quizQuestions.length;
+      document.getElementById('quiz-q-tag').innerText = q.tag;
+      document.getElementById('quiz-question').innerText = q.q;
+
+      const optionsBox = document.getElementById('quiz-options');
+      optionsBox.innerHTML = q.options.map((opt, i) => `
+        <button onclick="handleAnswer(${i})" class="quiz-opt-btn w-full text-left p-3 rounded-xl bg-slate-950 border border-emerald-950 text-xs text-slate-100 font-semibold hover:border-emerald-500/80 transition-all touch-btn flex items-center justify-between">
+          <span>${opt}</span>
+          <span class="text-emerald-700 text-xs">○</span>
+        </button>
+      `).join('');
+    }
+
+    function handleAnswer(selectedIdx) {
+      const q = quizQuestions[currentQuizIndex];
+      const buttons = document.querySelectorAll('.quiz-opt-btn');
+      buttons.forEach(btn => btn.disabled = true);
+
+      const feedbackBox = document.getElementById('quiz-feedback');
+      const badge = document.getElementById('feedback-badge');
+      const text = document.getElementById('feedback-text');
+
+      feedbackBox.classList.remove('hidden');
+
+      if (selectedIdx === q.ans) {
+        AudioFX.correct();
+        quizScore += 2;
+        streakCount++;
+        document.getElementById('q-score').innerText = `${quizScore} / ${quizQuestions.length * 2}`;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>${streakCount}</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-emerald-400 bg-emerald-950/60 text-emerald-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-emerald-300 font-bold">✓</span>`;
+        badge.innerText = "✓ Correct Answer! (+2 Marks)";
+        badge.className = "text-xs font-bold text-emerald-300 flex items-center gap-1";
+      } else {
+        AudioFX.incorrect();
+        streakCount = 0;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-red-500 bg-red-950/60 text-red-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-red-400 font-bold">✗</span>`;
+
+        // Highlight correct answer
+        buttons[q.ans].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-emerald-500/80 bg-emerald-950/40 text-emerald-200 font-bold text-xs flex items-center justify-between";
+        buttons[q.ans].innerHTML = `<span>${q.options[q.ans]}</span> <span class="text-emerald-300 font-bold">✓</span>`;
+
+        badge.innerText = "✗ Incorrect! Check the board rule analysis";
+        badge.className = "text-xs font-bold text-red-400 flex items-center gap-1";
+      }
+
+      text.innerHTML = `<strong>Board Rule Breakdown:</strong> ${q.exp}`;
+    }
+
+    function nextQuizQuestion() {
+      AudioFX.tap();
+      currentQuizIndex++;
+      renderQuizCard();
+    }
+
+    function showQuizSummary() {
+      document.getElementById('quiz-feedback').classList.add('hidden');
+      const summaryCard = document.getElementById('quiz-summary-card');
+      summaryCard.classList.remove('hidden');
+
+      const maxScore = quizQuestions.length * 2;
+      const accuracy = Math.round((quizScore / maxScore) * 100);
+
+      document.getElementById('summary-score').innerText = `${quizScore} / ${maxScore}`;
+      document.getElementById('summary-accuracy').innerText = `${accuracy}%`;
+    }
+
+    function restartQuiz() {
+      AudioFX.tap();
+      currentQuizIndex = 0;
+      quizScore = 0;
+      streakCount = 0;
+      document.getElementById('q-score').innerText = `0 / ${quizQuestions.length * 2}`;
+      document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+      renderQuizCard();
+    }
+
+    // -------------------------------------------------------------
+    // 9. Initial Load on DOM Ready
+    // -------------------------------------------------------------
+    window.addEventListener('DOMContentLoaded', () => {
+      renderSubFilterBar();
+      renderLearnView();
+    });
+  </script>
+</body>
+</html>

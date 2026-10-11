@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>AVM Coaching - Feedback & Rating Analytics</title>
+
+  <!-- Firebase App & Firestore SDKs (v10 Compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-hover: #1d4ed8;
+      --whatsapp: #25d366;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --star-color: #f59e0b;
+      
+      --success-bg: #dcfce7;
+      --success-text: #166534;
+      --warning-bg: #fef3c7;
+      --warning-text: #92400e;
+      --danger-bg: #fee2e2;
+      --danger-text: #991b1b;
+      --neutral-bg: #f1f5f9;
+      --neutral-text: #475569;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      padding: 12px;
+      line-height: 1.4;
+    }
+
+    .wrapper {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--surface);
+      padding: 14px 18px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: 768px) {
+      header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    header h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .header-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .btn {
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+      color: #fff;
+    }
+
+    .btn-primary { background: var(--primary); }
+    .btn-primary:active { background: var(--primary-hover); }
+    .btn-secondary { background: #0f172a; }
+    .btn-whatsapp { background: var(--whatsapp); color: #fff; }
+
+    /* KPI Summary Row */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: 900px) {
+      .kpi-row {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+
+    .kpi-card span {
+      font-size: 0.70rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .kpi-card h3 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-top: 2px;
+    }
+
+    /* Action Tracker Section (Collapsible) */
+    .action-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    .action-header {
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8fafc;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .action-header h4 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .action-body {
+      padding: 12px 16px;
+      overflow-x: auto;
+      display: none;
+    }
+
+    .action-body.active {
+      display: block;
+    }
+
+    /* Filters Bar */
+    .filters-bar {
+      background: var(--surface);
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      margin-bottom: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .filters-main-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    @media (min-width: 768px) {
+      .filters-main-row {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+      }
+    }
+
+    .custom-date-row {
+      display: none;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 8px;
+      align-items: center;
+      padding-top: 8px;
+      border-top: 1px dashed var(--border);
+    }
+
+    .custom-date-row.active {
+      display: grid;
+    }
+
+    .date-input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .date-input-group label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    input, select {
+      padding: 9px 12px;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      outline: none;
+      background: #ffffff;
+      width: 100%;
+    }
+
+    input:focus, select:focus {
+      border-color: var(--primary);
+    }
+
+    /* Desktop View: Table */
+    .table-container {
+      display: none;
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      overflow-x: auto;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #334155;
+      font-weight: 700;
+      padding: 12px 12px;
+      border-bottom: 2px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+      color: #1e293b;
+    }
+
+    tr:nth-child(even) { background-color: #fafbfd; }
+    tr:hover { background-color: #f1f5f9; }
+
+    td.col-index, th.col-index {
+      width: 44px;
+      text-align: center;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: #f8fafc;
+    }
+
+    /* Stars & Badges */
+    .star-rating {
+      color: var(--star-color);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 7px;
+      border-radius: 5px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .badge-done { background: var(--success-bg); color: var(--success-text); }
+    .badge-pending { background: var(--warning-bg); color: var(--warning-text); }
+
+    /* Action Buttons */
+    .btn-act {
+      padding: 5px 9px;
+      border-radius: 5px;
+      border: none;
+      font-size: 0.74rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn-work { background: #3b82f6; color: white; }
+    .btn-toggle-done { background: #10b981; color: white; }
+    .btn-toggle-undone { background: #f59e0b; color: white; }
+    .btn-del { background: #ef4444; color: white; }
+
+    /* Mobile Cards View */
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .feedback-card {
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      padding: 14px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .index-pill {
+      background: #0f172a;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    .card-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.81rem;
+      padding: 3px 0;
+    }
+
+    .card-label {
+      color: var(--text-muted);
+    }
+
+    .card-val {
+      font-weight: 500;
+      text-align: right;
+    }
+
+    .feedback-text-box {
+      margin-top: 6px;
+      padding: 8px 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-style: italic;
+      color: #334155;
+      border: 1px solid var(--border);
+      white-space: normal;
+      word-break: break-word;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (min-width: 950px) {
+      .cards-container { display: none; }
+      .table-container { display: block; }
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 36px 16px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <div>
+        <h1>AVM Coaching Feedback Portal</h1>
+        <small style="color: var(--text-muted); font-size: 0.75rem;">User Ratings, Comments & Action Tracker (IST Timezone)</small>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-whatsapp" onclick="shareFeedbackSummaryWhatsApp()">📲 WhatsApp Summary</button>
+        <button class="btn btn-primary" onclick="fetchFeedbackData()">↻ Reload Data</button>
+      </div>
+    </header>
+
+    <!-- Rating KPI Counters -->
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <span>Total Feedbacks</span>
+        <h3 id="statTotalFeedbacks">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>Average Rating</span>
+        <h3 id="statAvgRating" style="color: var(--star-color);">0.0 ★</h3>
+      </div>
+      <div class="kpi-card">
+        <span>5-Star Ratings</span>
+        <h3 id="statFiveStar" style="color: #166534;">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>Critical (&le; 3 Stars)</span>
+        <h3 id="statLowStar" style="color: #991b1b;">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>Open Work Tasks</span>
+        <h3 id="statWorkOnCount" style="color: var(--primary);">0</h3>
+      </div>
+    </div>
+
+    <!-- Work On / Action Tracker Section with Action Saved Date (Collapsible) -->
+    <div class="action-card">
+      <div class="action-header" onclick="toggleActionView()">
+        <h4>📌 Action Items / Saved Feedbacks to Work On (<span id="actionItemCount">0</span> tasks)</h4>
+        <span id="actionArrow" style="font-size: 0.8rem; color: var(--text-muted);">▼ Show</span>
+      </div>
+      <div id="actionBody" class="action-body">
+        <table>
+          <thead>
+            <tr>
+              <th>User Name</th>
+              <th>Gmail ID</th>
+              <th>Rating</th>
+              <th>Feedback Note</th>
+              <th>Rating Date (IST)</th>
+              <th style="background-color: #e0f2fe; color: #0369a1;">Saved to Work On Date (IST)</th>
+              <th>Status</th>
+              <th style="text-align: center;">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="actionTableBody">
+            <tr>
+              <td colspan="8" style="text-align: center; color: var(--text-muted);">Loading action items...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Filters Strip with 7/15/30 Days & Custom Range -->
+    <div class="filters-bar">
+      <div class="filters-main-row">
+        <input type="text" id="searchInput" placeholder="Search by name, email, or feedback text..." oninput="applyFilters()" />
+        <select id="timeRangeFilter" onchange="handleTimeRangeChange()">
+          <option value="ALL">All Time</option>
+          <option value="TODAY">Today (IST)</option>
+          <option value="7DAYS">Last 7 Days</option>
+          <option value="15DAYS">Last 15 Days</option>
+          <option value="30DAYS">Last 30 Days</option>
+          <option value="CUSTOM">Custom Date Range</option>
+        </select>
+        <select id="ratingFilter" onchange="applyFilters()">
+          <option value="ALL">All Star Ratings</option>
+          <option value="5">5 Stars (⭐⭐⭐⭐⭐)</option>
+          <option value="4">4 Stars (⭐⭐⭐⭐)</option>
+          <option value="3">3 Stars (⭐⭐⭐)</option>
+          <option value="2">2 Stars (⭐⭐)</option>
+          <option value="1">1 Star (⭐)</option>
+        </select>
+        <select id="actionFilter" onchange="applyFilters()">
+          <option value="ALL">All Feedbacks</option>
+          <option value="WORK_ONLY">Only Saved in "Work On"</option>
+          <option value="NOT_WORK">Not in "Work On"</option>
+        </select>
+      </div>
+
+      <!-- Custom Date Pickers -->
+      <div id="customDateRow" class="custom-date-row">
+        <div class="date-input-group">
+          <label for="fromDate">From Date (IST)</label>
+          <input type="date" id="fromDate" onchange="applyFilters()" />
+        </div>
+        <div class="date-input-group">
+          <label for="toDate">To Date (IST)</label>
+          <input type="date" id="toDate" onchange="applyFilters()" />
+        </div>
+        <div style="align-self: flex-end;">
+          <button class="btn btn-secondary" onclick="resetCustomDates()">Reset Dates</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop View: Table -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-index">#</th>
+            <th>User Name</th>
+            <th>Gmail ID</th>
+            <th>Rating</th>
+            <th>Feedback</th>
+            <th>Rating Date (DD-MMM-YYYY, IST)</th>
+            <th>User Registered (IST)</th>
+            <th style="text-align: center;">Action Item</th>
+          </tr>
+        </thead>
+        <tbody id="desktopTableBody">
+          <tr>
+            <td colspan="8" class="empty-state">Loading feedback records from Firestore...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile View: Cards -->
+    <div id="mobileCardsContainer" class="cards-container">
+      <div class="empty-state">Loading feedback records from Firestore...</div>
+    </div>
+  </div>
+
+  <script>
+    // ------------------------------------------------------------------------
+    // 1. FIREBASE CONFIGURATION
+    // ------------------------------------------------------------------------
+    const firebaseConfig = {
+      projectId: "avmoaching621999"
+    };
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+    }
+    const db = firebase.firestore();
+
+    let allFeedbackRecords = [];
+    let currentFilteredRecords = [];
+    let workOnMap = {}; // feedbackDocId -> action item data
+
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+    // Format IST Date strictly: "DD-MMM-YYYY, hh:mm:ss a IST"
+    function formatIST(rawVal) {
+      if (!rawVal) return "N/A";
+      try {
+        let d;
+        if (rawVal.toDate) d = rawVal.toDate();
+        else if (typeof rawVal === "string") {
+          if (/^\d{2}-[A-Za-z]{3}-\d{4}/.test(rawVal)) return rawVal;
+          d = new Date(rawVal);
+        } else {
+          d = new Date(rawVal);
+        }
+
+        if (isNaN(d.getTime())) return String(rawVal);
+
+        const parts = new Intl.DateTimeFormat('en-GB', {
+          timeZone: 'Asia/Kolkata',
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: true
+        }).formatToParts(d);
+
+        let day = '', month = '', year = '', hour = '', min = '', sec = '', dayPeriod = '';
+        parts.forEach(p => {
+          if (p.type === 'day') day = p.value;
+          if (p.type === 'month') month = p.value;
+          if (p.type === 'year') year = p.value;
+          if (p.type === 'hour') hour = p.value;
+          if (p.type === 'minute') min = p.value;
+          if (p.type === 'second') sec = p.value;
+          if (p.type === 'dayPeriod') dayPeriod = p.value;
+        });
+
+        return `${day}-${month}-${year}, ${hour}:${min}:${sec} ${dayPeriod} IST`;
+      } catch (e) {
+        return "N/A";
+      }
+    }
+
+    // Extracts YYYY-MM-DD Date Key in IST (Asia/Kolkata) for range filtering
+    function parseDateKeyIST(rawVal) {
+      if (!rawVal) return null;
+      try {
+        let d;
+        if (rawVal.toDate) d = rawVal.toDate();
+        else if (typeof rawVal === "string") d = new Date(rawVal);
+        else d = new Date(rawVal);
+
+        if (isNaN(d.getTime())) {
+          const s = String(rawVal);
+          if (s.length >= 10 && s[4] === '-' && s[7] === '-') return s.substring(0, 10);
+          return null;
+        }
+
+        return new Intl.DateTimeFormat('en-CA', {
+          timeZone: 'Asia/Kolkata',
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit'
+        }).format(d); // YYYY-MM-DD
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function getTodayISTString() {
+      return new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Kolkata',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }).format(new Date());
+    }
+
+    function renderStars(ratingNum) {
+      const num = parseInt(ratingNum, 10) || 0;
+      return "★".repeat(num) + "☆".repeat(Math.max(0, 5 - num)) + ` (${num}/5)`;
+    }
+
+    // ------------------------------------------------------------------------
+    // 2. FETCH AND JOIN COLLECTIONS
+    // ------------------------------------------------------------------------
+    async function fetchFeedbackData() {
+      const mobileBox = document.getElementById("mobileCardsContainer");
+      const desktopBox = document.getElementById("desktopTableBody");
+      mobileBox.innerHTML = `<div class="empty-state">Fetching feedback records...</div>`;
+      desktopBox.innerHTML = `<tr><td colspan="8" class="empty-state">Fetching feedback records...</td></tr>`;
+
+      try {
+        const [feedbackSnap, profilesSnap, actionSnap] = await Promise.all([
+          db.collection("user_feedback_master").get(),
+          db.collection("user_profile_master").get(),
+          db.collection("feedback_action_items").get()
+        ]);
+
+        const profilesMap = {};
+        profilesSnap.forEach(doc => {
+          profilesMap[doc.id] = doc.data();
+        });
+
+        workOnMap = {};
+        actionSnap.forEach(doc => {
+          const item = doc.data();
+          workOnMap[item.feedbackDocId] = { actionDocId: doc.id, ...item };
+        });
+
+        const list = [];
+        let totalRatingSum = 0;
+        let fiveStarCount = 0;
+        let lowStarCount = 0;
+
+        feedbackSnap.forEach(doc => {
+          const fb = doc.data();
+          const uid = fb.userId || fb.userID || fb.uid || "";
+          const userProfile = profilesMap[uid] || {};
+
+          const rating = parseInt(fb.rating, 10) || 0;
+          totalRatingSum += rating;
+          if (rating === 5) fiveStarCount++;
+          if (rating > 0 && rating <= 3) lowStarCount++;
+
+          const rawTimestamp = fb.timestamp || fb.createdAt;
+          const dateKey = parseDateKeyIST(rawTimestamp);
+
+          list.push({
+            feedbackDocId: doc.id,
+            userId: uid,
+            userName: userProfile.name || fb.userName || "Unknown",
+            gmailId: userProfile.uToken || userProfile.email || fb.userEmail || "N/A",
+            rating: rating,
+            feedbackText: (fb.feedback && fb.feedback.trim()) ? fb.feedback.trim() : "(No text review provided)",
+            ratingDate: formatIST(rawTimestamp),
+            dateKey: dateKey,
+            userCreationDate: formatIST(userProfile.createdAt),
+            isWorkOn: !!workOnMap[doc.id],
+            workStatus: workOnMap[doc.id] ? workOnMap[doc.id].status : null,
+            actionSavedAt: workOnMap[doc.id] ? workOnMap[doc.id].actionSavedAt : null
+          });
+        });
+
+        // Newest feedback first
+        list.reverse();
+        allFeedbackRecords = list;
+
+        const totalCount = list.length;
+        document.getElementById("statTotalFeedbacks").innerText = totalCount;
+        document.getElementById("statAvgRating").innerText = totalCount > 0 ? (totalRatingSum / totalCount).toFixed(1) + " ★" : "0.0 ★";
+        document.getElementById("statFiveStar").innerText = fiveStarCount;
+        document.getElementById("statLowStar").innerText = lowStarCount;
+        document.getElementById("statWorkOnCount").innerText = Object.keys(workOnMap).filter(k => workOnMap[k].status !== 'DONE').length;
+
+        applyFilters();
+        renderActionItems();
+
+      } catch (err) {
+        console.error(err);
+        mobileBox.innerHTML = `<div class="empty-state" style="color:red;">Error loading feedbacks: ${err.message}</div>`;
+        desktopBox.innerHTML = `<tr><td colspan="8" class="empty-state" style="color:red;">Error loading feedbacks: ${err.message}</td></tr>`;
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 3. FILTERING WITH 7, 15, 30 DAYS & CUSTOM RANGE
+    // ------------------------------------------------------------------------
+    function handleTimeRangeChange() {
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const customRow = document.getElementById("customDateRow");
+      if (timeRange === "CUSTOM") {
+        customRow.classList.add("active");
+      } else {
+        customRow.classList.remove("active");
+      }
+      applyFilters();
+    }
+
+    function resetCustomDates() {
+      document.getElementById("fromDate").value = "";
+      document.getElementById("toDate").value = "";
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const query = document.getElementById("searchInput").value.trim().toLowerCase();
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const fromDate = document.getElementById("fromDate").value;
+      const toDate = document.getElementById("toDate").value;
+      const ratingFilter = document.getElementById("ratingFilter").value;
+      const actionFilter = document.getElementById("actionFilter").value;
+
+      const todayStr = getTodayISTString();
+      const todayDate = new Date(todayStr);
+
+      const filtered = allFeedbackRecords.filter(item => {
+        // Keyword Search
+        const matchQuery = !query || 
+          item.userName.toLowerCase().includes(query) || 
+          item.gmailId.toLowerCase().includes(query) || 
+          item.feedbackText.toLowerCase().includes(query);
+
+        // Date Filter
+        let matchTime = true;
+        if (item.dateKey) {
+          if (timeRange === "TODAY") {
+            matchTime = item.dateKey === todayStr;
+          } else if (timeRange === "7DAYS") {
+            const itemDate = new Date(item.dateKey);
+            const diff = (todayDate - itemDate) / (1000 * 60 * 60 * 24);
+            matchTime = diff >= 0 && diff <= 7;
+          } else if (timeRange === "15DAYS") {
+            const itemDate = new Date(item.dateKey);
+            const diff = (todayDate - itemDate) / (1000 * 60 * 60 * 24);
+            matchTime = diff >= 0 && diff <= 15;
+          } else if (timeRange === "30DAYS") {
+            const itemDate = new Date(item.dateKey);
+            const diff = (todayDate - itemDate) / (1000 * 60 * 60 * 24);
+            matchTime = diff >= 0 && diff <= 30;
+          } else if (timeRange === "CUSTOM") {
+            if (fromDate && item.dateKey < fromDate) matchTime = false;
+            if (toDate && item.dateKey > toDate) matchTime = false;
+          }
+        }
+
+        // Rating Filter
+        let matchRating = true;
+        if (ratingFilter !== "ALL") {
+          matchRating = item.rating === parseInt(ratingFilter, 10);
+        }
+
+        // Action Item Filter
+        let matchAction = true;
+        if (actionFilter === "WORK_ONLY") {
+          matchAction = item.isWorkOn;
+        } else if (actionFilter === "NOT_WORK") {
+          matchAction = !item.isWorkOn;
+        }
+
+        return matchQuery && matchTime && matchRating && matchAction;
+      });
+
+      currentFilteredRecords = filtered;
+      renderTableAndCards(filtered);
+    }
+
+    // ------------------------------------------------------------------------
+    // 4. RENDER DATA (Desktop Table & Mobile Cards)
+    // ------------------------------------------------------------------------
+    function renderTableAndCards(data) {
+      const desktopTbody = document.getElementById("desktopTableBody");
+      const mobileBox = document.getElementById("mobileCardsContainer");
+
+      if (data.length === 0) {
+        desktopTbody.innerHTML = `<tr><td colspan="8" class="empty-state">No matching feedback entries found for this filter.</td></tr>`;
+        mobileBox.innerHTML = `<div class="empty-state">No matching feedback entries found for this filter.</div>`;
+        return;
+      }
+
+      // Desktop Table
+      desktopTbody.innerHTML = data.map((r, i) => {
+        const rowNumber = i + 1;
+        const workBtn = r.isWorkOn
+          ? `<span class="badge ${r.workStatus === 'DONE' ? 'badge-done' : 'badge-pending'}">${r.workStatus === 'DONE' ? '✅ DONE' : '⏳ IN PROGRESS'}</span>`
+          : `<button class="btn-act btn-work" onclick="saveToWorkOn('${r.feedbackDocId}')">📌 Work On</button>`;
+
+        return `
+          <tr>
+            <td class="col-index">${rowNumber}</td>
+            <td><strong>${escapeHtml(r.userName)}</strong></td>
+            <td><code>${escapeHtml(r.gmailId)}</code></td>
+            <td><span class="star-rating">${renderStars(r.rating)}</span></td>
+            <td style="max-width: 320px; white-space: normal; word-break: break-word;">${escapeHtml(r.feedbackText)}</td>
+            <td><strong>${r.ratingDate}</strong></td>
+            <td>${r.userCreationDate}</td>
+            <td style="text-align: center;">${workBtn}</td>
+          </tr>
+        `;
+      }).join("");
+
+      // Mobile Cards
+      mobileBox.innerHTML = data.map((r, i) => {
+        const rowNumber = i + 1;
+        const workBtn = r.isWorkOn
+          ? `<span class="badge ${r.workStatus === 'DONE' ? 'badge-done' : 'badge-pending'}">${r.workStatus === 'DONE' ? '✅ Status: Done' : '⏳ Status: In Progress'}</span>`
+          : `<button class="btn-act btn-work" style="width:100%;" onclick="saveToWorkOn('${r.feedbackDocId}')">📌 Add to Work On List</button>`;
+
+        return `
+          <div class="feedback-card">
+            <div class="card-top">
+              <span class="index-pill">#${rowNumber}</span>
+              <span class="star-rating">${renderStars(r.rating)}</span>
+            </div>
+
+            <div class="card-row">
+              <span class="card-label">User Name</span>
+              <span class="card-val"><strong>${escapeHtml(r.userName)}</strong></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Gmail ID</span>
+              <span class="card-val"><code style="font-size:0.75rem;">${escapeHtml(r.gmailId)}</code></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Rating Given (IST)</span>
+              <span class="card-val"><strong>${r.ratingDate}</strong></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Registered (IST)</span>
+              <span class="card-val">${r.userCreationDate}</span>
+            </div>
+
+            <div class="feedback-text-box">
+              &ldquo;${escapeHtml(r.feedbackText)}&rdquo;
+            </div>
+
+            <div class="card-actions">
+              ${workBtn}
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // ------------------------------------------------------------------------
+    // 5. WORK ON ACTION ITEM MANAGEMENT (Records actionSavedAt Timestamp)
+    // ------------------------------------------------------------------------
+    async function saveToWorkOn(feedbackDocId) {
+      const record = allFeedbackRecords.find(x => x.feedbackDocId === feedbackDocId);
+      if (!record) return;
+
+      try {
+        const payload = {
+          feedbackDocId: feedbackDocId,
+          userName: record.userName,
+          gmailId: record.gmailId,
+          rating: record.rating,
+          feedbackText: record.feedbackText,
+          ratingDate: record.ratingDate,
+          actionSavedAt: firebase.firestore.FieldValue.serverTimestamp(),
+          status: "IN_PROGRESS"
+        };
+
+        const docRef = await db.collection("feedback_action_items").add(payload);
+        workOnMap[feedbackDocId] = { actionDocId: docRef.id, ...payload, actionSavedAt: new Date() };
+        
+        record.isWorkOn = true;
+        record.workStatus = "IN_PROGRESS";
+        record.actionSavedAt = new Date();
+
+        alert("Saved to Work On list!");
+        applyFilters();
+        renderActionItems();
+      } catch (err) {
+        alert("Failed to save action item: " + err.message);
+      }
+    }
+
+    async function toggleWorkStatus(actionDocId, newStatus) {
+      try {
+        await db.collection("feedback_action_items").doc(actionDocId).update({
+          status: newStatus
+        });
+        fetchFeedbackData();
+      } catch (err) {
+        alert("Status update failed: " + err.message);
+      }
+    }
+
+    async function deleteActionItem(actionDocId) {
+      if (!confirm("Remove this feedback from the Work On list?")) return;
+      try {
+        await db.collection("feedback_action_items").doc(actionDocId).delete();
+        fetchFeedbackData();
+      } catch (err) {
+        alert("Failed to delete action item: " + err.message);
+      }
+    }
+
+    function renderActionItems() {
+      const tbody = document.getElementById("actionTableBody");
+      const keys = Object.keys(workOnMap);
+      document.getElementById("actionItemCount").innerText = keys.length;
+
+      if (keys.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="8" style="text-align:center; color: var(--text-muted);">No action items saved yet. Click "📌 Work On" next to any feedback above.</td></tr>`;
+        return;
+      }
+
+      let html = "";
+      keys.forEach(k => {
+        const item = workOnMap[k];
+        const isDone = item.status === "DONE";
+
+        const toggleBtn = isDone
+          ? `<button class="btn-act btn-toggle-undone" onclick="toggleWorkStatus('${item.actionDocId}', 'IN_PROGRESS')">Mark In Progress</button>`
+          : `<button class="btn-act btn-toggle-done" onclick="toggleWorkStatus('${item.actionDocId}', 'DONE')">Mark Done</button>`;
+
+        const savedDateDisplay = formatIST(item.actionSavedAt);
+
+        html += `
+          <tr>
+            <td><strong>${escapeHtml(item.userName)}</strong></td>
+            <td><code>${escapeHtml(item.gmailId)}</code></td>
+            <td><span class="star-rating">${renderStars(item.rating)}</span></td>
+            <td style="max-width:280px; white-space:normal;">${escapeHtml(item.feedbackText)}</td>
+            <td>${item.ratingDate || "N/A"}</td>
+            <td><strong style="color: #0369a1;">${savedDateDisplay}</strong></td>
+            <td><span class="badge ${isDone ? 'badge-done' : 'badge-pending'}">${isDone ? 'DONE' : 'IN PROGRESS'}</span></td>
+            <td style="text-align:center; white-space:nowrap;">
+              ${toggleBtn}
+              <button class="btn-act btn-del" onclick="deleteActionItem('${item.actionDocId}')">🗑</button>
+            </td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    function toggleActionView() {
+      const body = document.getElementById("actionBody");
+      const arrow = document.getElementById("actionArrow");
+      if (body.classList.contains("active")) {
+        body.classList.remove("active");
+        arrow.innerText = "▼ Show";
+      } else {
+        body.classList.add("active");
+        arrow.innerText = "▲ Hide";
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 6. WHATSAPP SUMMARY SHARING
+    // ------------------------------------------------------------------------
+    function shareFeedbackSummaryWhatsApp() {
+      const nowIST = formatIST(new Date());
+      const total = currentFilteredRecords.length;
+      const fiveStars = currentFilteredRecords.filter(x => x.rating === 5).length;
+      const lowStars = currentFilteredRecords.filter(x => x.rating > 0 && x.rating <= 3).length;
+      const openWorkTasks = Object.values(workOnMap).filter(x => x.status !== 'DONE').length;
+
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const fromDate = document.getElementById("fromDate").value;
+      const toDate = document.getElementById("toDate").value;
+
+      let rangeLabel = "All Time";
+      if (timeRange === "TODAY") rangeLabel = "Today";
+      else if (timeRange === "7DAYS") rangeLabel = "Last 7 Days";
+      else if (timeRange === "15DAYS") rangeLabel = "Last 15 Days";
+      else if (timeRange === "30DAYS") rangeLabel = "Last 30 Days";
+      else if (timeRange === "CUSTOM") rangeLabel = `Custom (${fromDate || 'Start'} to ${toDate || 'End'})`;
+
+      const text = 
+`⭐ *AVM Coaching - User Feedback & Rating Audit*
+⏰ *Generated:* ${nowIST}
+🎯 *Filter Window:* ${rangeLabel}
+
+📊 *Feedback Statistics:*
+• *Total Feedbacks Counted:* ${total}
+• *5-Star Ratings:* ${fiveStars} ⭐
+• *Critical Ratings (&le; 3 Stars):* ${lowStars} ⚠️
+• *Open Work Items Pending:* ${openWorkTasks} 📌
+
+_Generated via Admin Management Console_`;
+
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+
+    function escapeHtml(s) {
+      if (!s) return "";
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      })[c]);
+    }
+
+    window.addEventListener("DOMContentLoaded", fetchFeedbackData);
+  </script>
+</body>
+</html>

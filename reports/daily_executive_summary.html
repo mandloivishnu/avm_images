@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>AVM Coaching - Date-Wise Executive Analytics & Improvement</title>
+
+  <!-- Firebase App & Firestore SDKs (v10 Compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-hover: #1d4ed8;
+      --whatsapp: #25d366;
+      --whatsapp-hover: #1ebd5a;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --star-color: #f59e0b;
+      
+      --success-bg: #dcfce7;
+      --success-text: #166534;
+      --warning-bg: #fef3c7;
+      --warning-text: #92400e;
+      --danger-bg: #fee2e2;
+      --danger-text: #991b1b;
+      --neutral-bg: #f1f5f9;
+      --neutral-text: #475569;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      padding: 12px;
+      line-height: 1.4;
+    }
+
+    .wrapper {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    /* Top Bar */
+    header {
+      background: var(--surface);
+      padding: 14px 18px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: 768px) {
+      header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    header h1 {
+      font-size: 1.18rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .header-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .btn {
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+      color: #fff;
+    }
+
+    .btn-primary { background: var(--primary); }
+    .btn-primary:active { background: var(--primary-hover); }
+    .btn-secondary { background: #0f172a; }
+    .btn-whatsapp { background: var(--whatsapp); color: #fff; }
+    .btn-whatsapp:active { background: var(--whatsapp-hover); }
+
+    /* KPI Summary Row */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: 900px) {
+      .kpi-row {
+        grid-template-columns: repeat(6, 1fr);
+      }
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+
+    .kpi-card span {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .kpi-card h3 {
+      font-size: 1.35rem;
+      font-weight: 800;
+      margin-top: 2px;
+    }
+
+    .kpi-card small {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      display: block;
+      margin-top: 2px;
+    }
+
+    /* Filters Bar */
+    .filters-bar {
+      background: var(--surface);
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      margin-bottom: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .filters-main-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    @media (min-width: 768px) {
+      .filters-main-row {
+        grid-template-columns: 2fr 1fr 1fr;
+      }
+    }
+
+    .custom-date-row {
+      display: none;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 8px;
+      align-items: center;
+      padding-top: 8px;
+      border-top: 1px dashed var(--border);
+    }
+
+    .custom-date-row.active {
+      display: grid;
+    }
+
+    .date-input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .date-input-group label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    input, select {
+      padding: 9px 12px;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      outline: none;
+      background: #ffffff;
+      width: 100%;
+    }
+
+    input:focus, select:focus {
+      border-color: var(--primary);
+    }
+
+    /* Table Container (Desktop) */
+    .table-container {
+      display: none;
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      overflow-x: auto;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+      margin-bottom: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #334155;
+      font-weight: 700;
+      padding: 10px 12px;
+      border-bottom: 2px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+      color: #1e293b;
+    }
+
+    tr:nth-child(even) { background-color: #fafbfd; }
+    tr:hover { background-color: #f1f5f9; }
+
+    td.col-index, th.col-index {
+      width: 44px;
+      text-align: center;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: #f8fafc;
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .badge-reg   { background: #e0f2fe; color: #0284c7; }
+    .badge-prem  { background: #dcfce7; color: #166534; }
+    .badge-pay   { background: #fef3c7; color: #b45309; }
+    .badge-hi    { background: #fef08a; color: #854d0e; }
+    .badge-en    { background: #f1f5f9; color: #475569; }
+    .badge-saved { background: #dcfce7; color: #15803d; font-size: 0.68rem; }
+    .badge-unsaved { background: #fee2e2; color: #b91c1c; font-size: 0.68rem; }
+
+    .btn-wa-icon {
+      background: var(--whatsapp);
+      color: white;
+      padding: 5px 8px;
+      border-radius: 6px;
+      border: none;
+      font-size: 0.74rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .btn-save-row {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 5px 8px;
+      border-radius: 5px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn-edit-note {
+      background: #f1f5f9;
+      border: 1px solid var(--border-dark);
+      padding: 4px 6px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      cursor: pointer;
+    }
+
+    /* Cards View (Mobile) */
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .date-card {
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      padding: 14px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .index-pill {
+      background: #0f172a;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    .card-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.81rem;
+      padding: 4px 0;
+    }
+
+    .card-label {
+      color: var(--text-muted);
+    }
+
+    .card-val {
+      font-weight: 600;
+      text-align: right;
+    }
+
+    .note-box {
+      margin-top: 8px;
+      padding: 8px 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-style: italic;
+      color: #334155;
+      border: 1px solid var(--border);
+      white-space: normal;
+      word-break: break-word;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 6px;
+      margin-top: 10px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (min-width: 950px) {
+      .cards-container { display: none; }
+      .table-container { display: block; }
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 36px 16px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <div>
+        <h1>AVM Coaching Date-Wise Analytics & Improvements</h1>
+        <small style="color: var(--text-muted); font-size: 0.75rem;">Daily Grouped Funnel, Auto-Snapshot Tracking & Notes (IST)</small>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-whatsapp" onclick="shareFullSummaryWhatsApp()">📲 WhatsApp Summary</button>
+        <button class="btn btn-primary" onclick="loadAllCollections()">↻ Refresh Data</button>
+      </div>
+    </header>
+
+    <!-- Top KPI Counters -->
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <span>Total Registrations</span>
+        <h3 id="statTotalReg" style="color: #0284c7;">0</h3>
+        <small id="statTodayRegBadge">+0 today</small>
+      </div>
+      <div class="kpi-card">
+        <span>Active Premium Users</span>
+        <h3 id="statTotalPrem" style="color: #166534;">0</h3>
+        <small id="statTodayPremBadge">+0 today</small>
+      </div>
+      <div class="kpi-card">
+        <span>Verified Paid Requests</span>
+        <h3 id="statTotalPaid" style="color: #15803d;">0</h3>
+        <small id="statTotalPending">0 pending</small>
+      </div>
+      <div class="kpi-card">
+        <span>Feedbacks Received</span>
+        <h3 id="statTotalFb" style="color: #b45309;">0</h3>
+        <small id="statAvgRating">0.0 ★ avg rating</small>
+      </div>
+      <div class="kpi-card">
+        <span>Hindi (HI) Users</span>
+        <h3 id="statTotalHi" style="color: #854d0e;">0</h3>
+        <small id="statTotalEn">0 English (EN)</small>
+      </div>
+      <div class="kpi-card">
+        <span>Saved Snapshots</span>
+        <h3 id="statSavedDays" style="color: var(--primary);">0</h3>
+        <small id="statActiveDays">0 active days</small>
+      </div>
+    </div>
+
+    <!-- Filters Strip with 7/15/30 Days & Custom Range -->
+    <div class="filters-bar">
+      <div class="filters-main-row">
+        <input type="text" id="searchInput" placeholder="Search by date (e.g. Oct-2026 or 2026)..." oninput="applyFilters()" />
+        <select id="timeRangeFilter" onchange="handleTimeRangeChange()">
+          <option value="ALL">All Time</option>
+          <option value="TODAY">Today (IST)</option>
+          <option value="7DAYS">Last 7 Days</option>
+          <option value="15DAYS">Last 15 Days</option>
+          <option value="30DAYS">Last 30 Days</option>
+          <option value="CUSTOM">Custom Date Range</option>
+        </select>
+        <select id="snapshotFilter" onchange="applyFilters()">
+          <option value="ALL">All Dates</option>
+          <option value="SAVED">Only Saved Snapshots</option>
+          <option value="UNSAVED">Only Unsaved / Pending Snapshot</option>
+        </select>
+      </div>
+
+      <!-- Custom Date Range Row -->
+      <div id="customDateRow" class="custom-date-row">
+        <div class="date-input-group">
+          <label for="fromDate">From Date (IST)</label>
+          <input type="date" id="fromDate" onchange="applyFilters()" />
+        </div>
+        <div class="date-input-group">
+          <label for="toDate">To Date (IST)</label>
+          <input type="date" id="toDate" onchange="applyFilters()" />
+        </div>
+        <div style="align-self: flex-end;">
+          <button class="btn btn-secondary" onclick="resetCustomDates()">Reset Dates</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Date-Wise Table -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-index">#</th>
+            <th>Date (DD-MMM-YYYY)</th>
+            <th>New Reg</th>
+            <th>Premium Upgrades</th>
+            <th>Feedbacks</th>
+            <th>Paid Req</th>
+            <th>Hindi (HI)</th>
+            <th>English (EN)</th>
+            <th>Snapshot State</th>
+            <th>App Improvement / Daily Notes</th>
+            <th style="text-align: center;">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="desktopTableBody">
+          <tr>
+            <td colspan="11" class="empty-state">Loading date-wise data from Firestore...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile Cards View -->
+    <div id="mobileCardsContainer" class="cards-container">
+      <div class="empty-state">Loading date-wise data from Firestore...</div>
+    </div>
+  </div>
+
+  <script>
+    // ------------------------------------------------------------------------
+    // 1. FIREBASE INITIALIZATION
+    // ------------------------------------------------------------------------
+    const firebaseConfig = {
+      projectId: "avmoaching621999"
+    };
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+    }
+    const db = firebase.firestore();
+
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+    let allDateRows = [];
+    let currentFilteredRows = [];
+    let savedSnapshotsMap = {}; // targetDate (YYYY-MM-DD) -> snapshot document data
+
+    // Helper: Format YYYY-MM-DD -> DD-MMM-YYYY
+    function formatToDDMMMYYYY(isoDateStr) {
+      if (!isoDateStr || isoDateStr.length < 10) return isoDateStr || "N/A";
+      const parts = isoDateStr.split('-');
+      if (parts.length < 3) return isoDateStr;
+      return `${parts[2]}-${MONTHS[parseInt(parts[1], 10) - 1] || parts[1]}-${parts[0]}`;
+    }
+
+    // Strict IST datetime: DD-MMM-YYYY, hh:mm:ss a IST
+    function formatFullIST(rawVal) {
+      if (!rawVal) return "N/A";
+      let d;
+      if (rawVal.toDate) d = rawVal.toDate();
+      else if (typeof rawVal === "string") d = new Date(rawVal);
+      else d = new Date(rawVal);
+
+      if (isNaN(d.getTime())) return String(rawVal);
+
+      const parts = new Intl.DateTimeFormat('en-GB', {
+        timeZone: 'Asia/Kolkata',
+        day: '2-digit', month: 'short', year: 'numeric',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: true
+      }).formatToParts(d);
+
+      let day='', month='', year='', hour='', min='', sec='', dayPeriod='';
+      parts.forEach(p => {
+        if (p.type === 'day') day = p.value;
+        if (p.type === 'month') month = p.value;
+        if (p.type === 'year') year = p.value;
+        if (p.type === 'hour') hour = p.value;
+        if (p.type === 'minute') min = p.value;
+        if (p.type === 'second') sec = p.value;
+        if (p.type === 'dayPeriod') dayPeriod = p.value;
+      });
+
+      return `${day}-${month}-${year}, ${hour}:${min}:${sec} ${dayPeriod} IST`;
+    }
+
+    // Extracts YYYY-MM-DD key in Asia/Kolkata timezone
+    function parseDateKeyIST(rawVal) {
+      if (!rawVal) return null;
+      try {
+        let d;
+        if (rawVal.toDate) d = rawVal.toDate();
+        else if (typeof rawVal === "string") d = new Date(rawVal);
+        else d = new Date(rawVal);
+
+        if (isNaN(d.getTime())) {
+          const s = String(rawVal);
+          if (s.length >= 10 && s[4] === '-' && s[7] === '-') return s.substring(0, 10);
+          return null;
+        }
+
+        return new Intl.DateTimeFormat('en-CA', {
+          timeZone: 'Asia/Kolkata',
+          year: 'numeric', month: '2-digit', day: '2-digit'
+        }).format(d); // YYYY-MM-DD
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function getTodayISTString() {
+      return new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Kolkata',
+        year: 'numeric', month: '2-digit', day: '2-digit'
+      }).format(new Date());
+    }
+
+    // ------------------------------------------------------------------------
+    // 2. FETCH ALL DATA & JOIN DATE-WISE
+    // ------------------------------------------------------------------------
+    async function loadAllCollections() {
+      const mobileBox = document.getElementById("mobileCardsContainer");
+      const desktopBox = document.getElementById("desktopTableBody");
+      mobileBox.innerHTML = `<div class="empty-state">Aggregating date-wise data from Firestore...</div>`;
+      desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state">Aggregating date-wise data from Firestore...</td></tr>`;
+
+      try {
+        const [profSnap, paySnap, fbSnap, contentSnap, snapSnap] = await Promise.all([
+          db.collection("user_profile_master").get(),
+          db.collection("payment_requests").get(),
+          db.collection("user_feedback_master").get(),
+          db.collection("user_content_master").get(),
+          db.collection("daily_app_improvement_snapshots").get()
+        ]);
+
+        // Map languages by userId
+        const contentLangMap = {};
+        contentSnap.forEach(doc => {
+          const d = doc.data();
+          if (d && d.contentLanguage) {
+            contentLangMap[doc.id] = String(d.contentLanguage).toLowerCase().trim();
+          }
+        });
+
+        // Map saved daily improvement snapshots by targetDate (YYYY-MM-DD)
+        savedSnapshotsMap = {};
+        snapSnap.forEach(doc => {
+          const d = doc.data();
+          const target = d.targetDate || (d.targetDateFormatted ? parseDateKeyIST(d.targetDateFormatted) : null);
+          if (target) {
+            savedSnapshotsMap[target] = { docId: doc.id, ...d };
+          }
+        });
+
+        // Date-wise Aggregation Buckets
+        const dateAgg = {};
+        function ensureDate(dateKey) {
+          if (!dateAgg[dateKey]) {
+            dateAgg[dateKey] = {
+              dateKey: dateKey,
+              newReg: 0,
+              premUpgrades: 0,
+              paidCount: 0,
+              feedbacks: 0,
+              hiCount: 0,
+              enCount: 0
+            };
+          }
+        }
+
+        // 1. Process Registrations
+        let totalUsers = 0, totalPrem = 0, totalHi = 0, totalEn = 0;
+        profSnap.forEach(doc => {
+          const u = doc.data();
+          totalUsers++;
+          const regDate = parseDateKeyIST(u.createdAt);
+          const lang = contentLangMap[doc.id] || (u.userLanguage ? String(u.userLanguage).toLowerCase().trim() : "en");
+          const isPrem = u.premiumAccess === true || String(u.premiumAccess).toLowerCase() === "true";
+          const premDate = parseDateKeyIST(u.premiumActivatedAt || u.createdAt);
+
+          if (lang === "hi") totalHi++;
+          else totalEn++;
+
+          if (isPrem) totalPrem++;
+
+          if (regDate) {
+            ensureDate(regDate);
+            dateAgg[regDate].newReg++;
+            if (lang === "hi") dateAgg[regDate].hiCount++;
+            else dateAgg[regDate].enCount++;
+          }
+
+          if (isPrem && premDate) {
+            ensureDate(premDate);
+            dateAgg[premDate].premUpgrades++;
+          }
+        });
+
+        // 2. Process Payments
+        let totalPaid = 0, totalPending = 0;
+        paySnap.forEach(doc => {
+          const p = doc.data();
+          const payDate = parseDateKeyIST(p.createdAt);
+          const status = String(p.status || "").toUpperCase();
+
+          if (["SUCCESS", "PAID", "APPROVED", "COMPLETED"].some(s => status.includes(s))) {
+            totalPaid++;
+            if (payDate) {
+              ensureDate(payDate);
+              dateAgg[payDate].paidCount++;
+            }
+          } else if (status.includes("PENDING")) {
+            totalPending++;
+          }
+        });
+
+        // 3. Process Feedbacks
+        let totalFb = 0, ratingSum = 0;
+        fbSnap.forEach(doc => {
+          const f = doc.data();
+          totalFb++;
+          const rating = parseInt(f.rating, 10) || 0;
+          if (rating > 0) ratingSum += rating;
+
+          const fbDate = parseDateKeyIST(f.timestamp || f.createdAt);
+          if (fbDate) {
+            ensureDate(fbDate);
+            dateAgg[fbDate].feedbacks++;
+          }
+        });
+
+        // Include any dates that exist in savedSnapshotsMap
+        Object.keys(savedSnapshotsMap).forEach(k => ensureDate(k));
+
+        // Sort dates descending
+        const allSortedDates = Object.keys(dateAgg).sort().reverse();
+        const todayKey = getTodayISTString();
+
+        allDateRows = allSortedDates.map(k => {
+          const row = dateAgg[k];
+          const savedSnap = savedSnapshotsMap[k] || null;
+
+          return {
+            dateKey: k,
+            displayDate: formatToDDMMMYYYY(k),
+            newReg: row.newReg,
+            premUpgrades: row.premUpgrades,
+            paidCount: row.paidCount,
+            feedbacks: row.feedbacks,
+            hiCount: row.hiCount,
+            enCount: row.enCount,
+            isSaved: !!savedSnap,
+            snapshotDocId: savedSnap ? savedSnap.docId : null,
+            improvementNotes: savedSnap ? savedSnap.improvementNotes : ""
+          };
+        });
+
+        // Update Top KPIs
+        document.getElementById("statTotalReg").innerText = totalUsers;
+        document.getElementById("statTodayRegBadge").innerText = `+${dateAgg[todayKey]?.newReg || 0} today`;
+        document.getElementById("statTotalPrem").innerText = totalPrem;
+        document.getElementById("statTodayPremBadge").innerText = `+${dateAgg[todayKey]?.premUpgrades || 0} today`;
+        document.getElementById("statTotalPaid").innerText = totalPaid;
+        document.getElementById("statTotalPending").innerText = `${totalPending} pending requests`;
+        document.getElementById("statTotalFb").innerText = totalFb;
+        document.getElementById("statAvgRating").innerText = totalFb > 0 ? `${(ratingSum / totalFb).toFixed(1)} ★ avg rating` : "0.0 ★";
+        document.getElementById("statTotalHi").innerText = totalHi;
+        document.getElementById("statTotalEn").innerText = `${totalEn} English (EN)`;
+        document.getElementById("statSavedDays").innerText = Object.keys(savedSnapshotsMap).length;
+        document.getElementById("statActiveDays").innerText = `${allDateRows.length} active dates`;
+
+        applyFilters();
+
+      } catch (err) {
+        console.error(err);
+        mobileBox.innerHTML = `<div class="empty-state" style="color:red;">Error loading: ${err.message}</div>`;
+        desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state" style="color:red;">Error loading: ${err.message}</td></tr>`;
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 3. FILTERING (Presets, Custom Dates & Saved State)
+    // ------------------------------------------------------------------------
+    function handleTimeRangeChange() {
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const customRow = document.getElementById("customDateRow");
+      if (timeRange === "CUSTOM") {
+        customRow.classList.add("active");
+      } else {
+        customRow.classList.remove("active");
+      }
+      applyFilters();
+    }
+
+    function resetCustomDates() {
+      document.getElementById("fromDate").value = "";
+      document.getElementById("toDate").value = "";
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const search = document.getElementById("searchInput").value.trim().toLowerCase();
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const snapFilter = document.getElementById("snapshotFilter").value;
+      const fromDate = document.getElementById("fromDate").value;
+      const toDate = document.getElementById("toDate").value;
+
+      const todayStr = getTodayISTString();
+      const todayDate = new Date(todayStr);
+
+      const filtered = allDateRows.filter(row => {
+        const matchSearch = !search || 
+          row.displayDate.toLowerCase().includes(search) || 
+          row.dateKey.toLowerCase().includes(search) ||
+          row.improvementNotes.toLowerCase().includes(search);
+
+        let matchTime = true;
+        if (timeRange === "TODAY") {
+          matchTime = row.dateKey === todayStr;
+        } else if (timeRange === "7DAYS") {
+          const rowDate = new Date(row.dateKey);
+          const diff = (todayDate - rowDate) / (1000 * 60 * 60 * 24);
+          matchTime = diff >= 0 && diff <= 7;
+        } else if (timeRange === "15DAYS") {
+          const rowDate = new Date(row.dateKey);
+          const diff = (todayDate - rowDate) / (1000 * 60 * 60 * 24);
+          matchTime = diff >= 0 && diff <= 15;
+        } else if (timeRange === "30DAYS") {
+          const rowDate = new Date(row.dateKey);
+          const diff = (todayDate - rowDate) / (1000 * 60 * 60 * 24);
+          matchTime = diff >= 0 && diff <= 30;
+        } else if (timeRange === "CUSTOM") {
+          if (fromDate && row.dateKey < fromDate) matchTime = false;
+          if (toDate && row.dateKey > toDate) matchTime = false;
+        }
+
+        let matchSaved = true;
+        if (snapFilter === "SAVED") matchSaved = row.isSaved;
+        else if (snapFilter === "UNSAVED") matchSaved = !row.isSaved;
+
+        return matchSearch && matchTime && matchSaved;
+      });
+
+      currentFilteredRows = filtered;
+      renderTableAndCards(filtered);
+    }
+
+    // ------------------------------------------------------------------------
+    // 4. RENDER DESKTOP TABLE & MOBILE CARDS
+    // ------------------------------------------------------------------------
+    function renderTableAndCards(data) {
+      const desktopTbody = document.getElementById("desktopTableBody");
+      const mobileBox = document.getElementById("mobileCardsContainer");
+
+      if (data.length === 0) {
+        desktopTbody.innerHTML = `<tr><td colspan="11" class="empty-state">No matching dates found for current filter.</td></tr>`;
+        mobileBox.innerHTML = `<div class="empty-state">No matching dates found for current filter.</div>`;
+        return;
+      }
+
+      // Desktop Table Render
+      desktopTbody.innerHTML = data.map((r, i) => {
+        const rowNumber = i + 1;
+        const snapBadge = r.isSaved
+          ? `<span class="badge badge-saved">SAVED</span>`
+          : `<span class="badge badge-unsaved">PENDING</span>`;
+
+        const actionBtn = r.isSaved
+          ? `<button class="btn-edit-note" onclick="editDailyNote('${r.dateKey}')">✏ Note</button>`
+          : `<button class="btn-save-row" onclick="saveRowSnapshot('${r.dateKey}')">💾 Save</button>`;
+
+        return `
+          <tr>
+            <td class="col-index">${rowNumber}</td>
+            <td><strong>${r.displayDate}</strong></td>
+            <td><span class="badge badge-reg">+${r.newReg}</span></td>
+            <td><span class="badge badge-prem">+${r.premUpgrades}</span></td>
+            <td><span class="badge badge-pay">${r.feedbacks}</span></td>
+            <td><strong>${r.paidCount}</strong></td>
+            <td><span class="badge badge-hi">${r.hiCount}</span></td>
+            <td><span class="badge badge-en">${r.enCount}</span></td>
+            <td>${snapBadge}</td>
+            <td style="max-width: 260px; white-space: normal; font-style: italic; color: #475569;">
+              ${escapeHtml(r.improvementNotes) || "(No note added)"}
+            </td>
+            <td style="text-align: center; white-space: nowrap;">
+              ${actionBtn}
+              <button class="btn-wa-icon" onclick="shareRowWhatsApp('${r.dateKey}')">WA</button>
+            </td>
+          </tr>
+        `;
+      }).join("");
+
+      // Mobile Cards Render
+      mobileBox.innerHTML = data.map((r, i) => {
+        const rowNumber = i + 1;
+        const snapBadge = r.isSaved
+          ? `<span class="badge badge-saved">SAVED SNAPSHOT</span>`
+          : `<span class="badge badge-unsaved">SNAPSHOT PENDING</span>`;
+
+        const actionBtn = r.isSaved
+          ? `<button class="btn-edit-note" style="flex:1;" onclick="editDailyNote('${r.dateKey}')">✏ Edit Note</button>`
+          : `<button class="btn-save-row" style="flex:1;" onclick="saveRowSnapshot('${r.dateKey}')">💾 Save Snapshot</button>`;
+
+        return `
+          <div class="date-card">
+            <div class="card-top">
+              <span class="index-pill">#${rowNumber}</span>
+              <strong style="font-size:0.95rem;">${r.displayDate}</strong>
+              ${snapBadge}
+            </div>
+
+            <div class="card-row">
+              <span class="card-label">New Registrations</span>
+              <span class="card-val"><span class="badge badge-reg">+${r.newReg}</span></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Premium Upgrades</span>
+              <span class="card-val"><span class="badge badge-prem">+${r.premUpgrades}</span></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Paid Requests / Feedbacks</span>
+              <span class="card-val">${r.paidCount} paid / ${r.feedbacks} reviews</span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Language Ratio (HI / EN)</span>
+              <span class="card-val">
+                <span class="badge badge-hi">${r.hiCount} HI</span>
+                <span class="badge badge-en">${r.enCount} EN</span>
+              </span>
+            </div>
+
+            <div class="note-box">
+              <strong>Daily Notes:</strong> ${escapeHtml(r.improvementNotes) || "None added yet."}
+            </div>
+
+            <div class="card-actions">
+              ${actionBtn}
+              <button class="btn-wa-icon" style="flex:1; justify-content:center;" onclick="shareRowWhatsApp('${r.dateKey}')">
+                📲 Share WA
+              </button>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // ------------------------------------------------------------------------
+    // 5. DIRECT SNAPSHOT & NOTE WRITING TO FIRESTORE
+    // ------------------------------------------------------------------------
+    async function saveRowSnapshot(dateKey) {
+      const row = allDateRows.find(x => x.dateKey === dateKey);
+      if (!row) return;
+
+      const note = prompt(`Enter development/improvement note for ${row.displayDate}:`, row.improvementNotes || "");
+      if (note === null) return; // User cancelled
+
+      try {
+        const payload = {
+          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+          targetDate: row.dateKey,
+          targetDateFormatted: row.displayDate,
+          todayReg: row.newReg,
+          todayPrem: row.premUpgrades,
+          feedbacks: row.feedbacks,
+          paidCount: row.paidCount,
+          improvementNotes: note.trim() || "(No note added)"
+        };
+
+        const docRef = await db.collection("daily_app_improvement_snapshots").add(payload);
+        savedSnapshotsMap[row.dateKey] = { docId: docRef.id, ...payload };
+        
+        row.isSaved = true;
+        row.snapshotDocId = docRef.id;
+        row.improvementNotes = payload.improvementNotes;
+
+        alert(`Snapshot saved for ${row.displayDate}!`);
+        applyFilters();
+      } catch (err) {
+        alert("Failed to save snapshot: " + err.message);
+      }
+    }
+
+    async function editDailyNote(dateKey) {
+      const row = allDateRows.find(x => x.dateKey === dateKey);
+      if (!row || !row.snapshotDocId) return;
+
+      const currentNote = row.improvementNotes || "";
+      const newNote = prompt(`Update development note for ${row.displayDate}:`, currentNote);
+      if (newNote === null || newNote === currentNote) return;
+
+      try {
+        await db.collection("daily_app_improvement_snapshots").doc(row.snapshotDocId).update({
+          improvementNotes: newNote.trim()
+        });
+        row.improvementNotes = newNote.trim();
+        alert("Note updated!");
+        applyFilters();
+      } catch (err) {
+        alert("Update failed: " + err.message);
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 6. WHATSAPP SHARE
+    // ------------------------------------------------------------------------
+    function shareFullSummaryWhatsApp() {
+      const nowIST = formatFullIST(new Date());
+      let tReg = 0, tPrem = 0, tPaid = 0, tFb = 0;
+
+      currentFilteredRows.forEach(r => {
+        tReg += r.newReg;
+        tPrem += r.premUpgrades;
+        tPaid += r.paidCount;
+        tFb += r.feedbacks;
+      });
+
+      const topBreakdown = currentFilteredRows.slice(0, 5).map(r => 
+        `• *${r.displayDate}*: +${r.newReg} Reg | +${r.premUpgrades} Prem | ${r.paidCount} Paid (Note: ${r.improvementNotes || 'None'})`
+      ).join("\n");
+
+      const text = 
+`📊 *AVM Coaching - Date-Wise Executive Report*
+⏰ *Generated:* ${nowIST}
+📅 *Dates Filtered:* ${currentFilteredRows.length}
+
+📈 *Filtered Period Summary:*
+• *New Registrations:* +${tReg}
+• *Premium Upgrades:* +${tPrem}
+• *Paid Requests:* ${tPaid}
+• *Feedbacks Logged:* ${tFb}
+
+🗓️ *Recent Daily Breakdown:*
+${topBreakdown || "No records in view"}
+
+_Generated via Admin Management Console_`;
+
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+
+    function shareRowWhatsApp(dateKey) {
+      const r = allDateRows.find(x => x.dateKey === dateKey);
+      if (!r) return;
+
+      const text = 
+`📅 *AVM Coaching Metrics for ${r.displayDate}*
+• *New Registrations:* +${r.newReg}
+• *Premium Upgrades:* +${r.premUpgrades}
+• *Paid Requests:* ${r.paidCount}
+• *Feedbacks Received:* ${r.feedbacks}
+• *Language:* ${r.hiCount} Hindi | ${r.enCount} English
+📝 *Daily Improvement Note:* ${r.improvementNotes || 'None'}`;
+
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+
+    function escapeHtml(s) {
+      if (!s) return "";
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      })[c]);
+    }
+
+    window.addEventListener("DOMContentLoaded", loadAllCollections);
+  </script>
+</body>
+</html>

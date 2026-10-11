@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>AVM Coaching - Foundation Categories Manager</title>
+
+  <!-- Firebase App & Firestore SDKs (v10 Compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-hover: #1d4ed8;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --success-bg: #dcfce7;
+      --success-text: #166534;
+      --danger-bg: #fee2e2;
+      --danger-text: #b91c1c;
+      --info-bg: #e0f2fe;
+      --info-text: #0284c7;
+      --warning-bg: #fef3c7;
+      --warning-text: #92400e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      padding: 16px;
+      line-height: 1.5;
+    }
+
+    .wrapper {
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--surface);
+      padding: 16px 20px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      margin-bottom: 16px;
+    }
+
+    @media (min-width: 768px) {
+      header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .header-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .card {
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      padding: 18px 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .grid-4 {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    label {
+      font-size: 0.76rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    input, select, textarea {
+      padding: 9px 12px;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      font-size: 0.88rem;
+      outline: none;
+      background: #ffffff;
+      color: var(--text-main);
+      width: 100%;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--primary);
+    }
+
+    textarea {
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.82rem;
+      min-height: 380px;
+      resize: vertical;
+      line-height: 1.4;
+      background: #fafafa;
+    }
+
+    .btn {
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.84rem;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+      color: #fff;
+    }
+
+    .btn-primary { background: var(--primary); }
+    .btn-primary:active { background: var(--primary-hover); }
+    .btn-secondary { background: #0f172a; }
+    .btn-clone { background: #0284c7; }
+    .btn-clone:hover { background: #0369a1; }
+    .btn-success { background: var(--success-text); }
+    .btn-danger { background: var(--danger-text); }
+    .btn-outline {
+      background: transparent;
+      color: var(--text-main);
+      border: 1px solid var(--border-dark);
+    }
+    .btn-outline:hover { background: #f1f5f9; }
+
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    .status-msg {
+      margin-top: 10px;
+      font-size: 0.84rem;
+      font-weight: 600;
+    }
+
+    .preview-box {
+      margin-top: 12px;
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: #f1f5f9;
+      font-size: 0.8rem;
+      color: #334155;
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    .badge-success {
+      background-color: var(--success-bg) !important;
+      color: var(--success-text) !important;
+    }
+    .badge-danger {
+      background-color: var(--danger-bg) !important;
+      color: var(--danger-text) !important;
+    }
+    .badge-info {
+      background-color: var(--info-bg) !important;
+      color: var(--info-text) !important;
+    }
+    .badge-new {
+      background-color: var(--warning-bg) !important;
+      color: var(--warning-text) !important;
+    }
+
+    /* Backup Table */
+    .backup-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+
+    .backup-header {
+      padding: 14px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8fafc;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .backup-header h4 {
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .backup-body {
+      padding: 14px 18px;
+      overflow-x: auto;
+      display: none;
+    }
+
+    .backup-body.active {
+      display: block;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #334155;
+      font-weight: 700;
+      padding: 10px 12px;
+      border-bottom: 2px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tr:nth-child(even) { background-color: #fafbfd; }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <div>
+        <h1>Foundation Categories & SubCategories Manager</h1>
+        <small style="color: var(--text-muted); font-size: 0.75rem;">Collection: foundation_categories | Auto-Backups: foundation_categories_backup</small>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-clone" onclick="cloneCurrentCategory()">📋 Copy to New Category</button>
+        <button class="btn btn-success" onclick="prepareAddNewCategory()">➕ Add Blank Category</button>
+        <button class="btn btn-secondary" onclick="loadAvailableDocuments()">↻ Refresh Docs</button>
+      </div>
+    </header>
+
+    <!-- BACKUP SECTION (COLLAPSIBLE) -->
+    <div class="backup-card">
+      <div class="backup-header" onclick="toggleBackupView()">
+        <h4>📦 Category Backups & Revert Manager (<span id="backupCount">0</span> backups found)</h4>
+        <span id="backupArrow" style="font-size: 0.8rem; color: var(--text-muted);">▼ Show Backups</span>
+      </div>
+      <div id="backupBody" class="backup-body">
+        <table>
+          <thead>
+            <tr>
+              <th>Backup Date & Time (IST)</th>
+              <th>Category Doc ID</th>
+              <th>Parent Name</th>
+              <th>Items Count</th>
+              <th style="text-align: center;">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="backupTableBody">
+            <tr>
+              <td colspan="5" style="text-align: center; color: var(--text-muted); padding: 16px;">Loading backups...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- STEP 1: SELECT OR ENTER CATEGORY -->
+    <div class="card">
+      <div class="card-title">
+        <span>Step 1: Choose Document in foundation_categories</span>
+        <span id="docStatusBadge" class="badge badge-info">Select Category</span>
+      </div>
+
+      <div class="grid-2">
+        <div class="form-group">
+          <label for="existingDocsSelect">Select Existing Category Document</label>
+          <select id="existingDocsSelect" onchange="onDocumentSelectChange()">
+            <option value="">-- Choose Existing Doc --</option>
+            <option value="BLUE_PRINT_EN" selected>BLUE_PRINT_EN</option>
+            <option value="BLUE_PRINT_HI">BLUE_PRINT_HI</option>
+            <option value="GENERAL_EN">GENERAL_EN</option>
+            <option value="GENERAL_HI">GENERAL_HI</option>
+            <option value="MATHEMATICS_EN">MATHEMATICS_EN</option>
+            <option value="MATHEMATICS_HI">MATHEMATICS_HI</option>
+            <option value="SCIENCE_HIN">SCIENCE_HIN</option>
+            <option value="SCINCE_EN">SCINCE_EN</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="documentIdInput">Document ID (Active Target)</label>
+          <input type="text" id="documentIdInput" value="BLUE_PRINT_EN" placeholder="e.g. BLUE_PRINT_EN" />
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="fetchDocumentById(document.getElementById('documentIdInput').value)">📥 Reload Selected from Firestore</button>
+        <button class="btn btn-clone" onclick="cloneCurrentCategory()">📋 Copy to New Category</button>
+        <button class="btn btn-success" onclick="prepareAddNewCategory()">➕ Reset Blank Form</button>
+        <button class="btn btn-outline" onclick="loadDefaultTemplate()">📄 Load Default 7-Subject Blueprint</button>
+      </div>
+      <div id="fetchStatus" class="status-msg"></div>
+    </div>
+
+    <!-- STEP 2: METADATA ATTRIBUTES -->
+    <div class="card">
+      <div class="card-title">Step 2: Document Attributes (Parent Fields)</div>
+
+      <div class="grid-4">
+        <div class="form-group">
+          <label for="parentNameInput">Parent Name</label>
+          <input type="text" id="parentNameInput" value="Marks & Paper Pattern" />
+        </div>
+
+        <div class="form-group">
+          <label for="langSelect">Language (lang)</label>
+          <select id="langSelect">
+            <option value="en" selected>en (English)</option>
+            <option value="hi">hi (Hindi)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="positionInput">Position</label>
+          <input type="number" id="positionInput" value="1" />
+        </div>
+
+        <div class="form-group">
+          <label for="priceInput">Premium Content Price</label>
+          <input type="number" id="priceInput" value="0" />
+        </div>
+      </div>
+
+      <div class="grid-4" style="margin-top: 10px;">
+        <div class="form-group">
+          <label for="activeSelect">Active</label>
+          <select id="activeSelect">
+            <option value="true" selected>true</option>
+            <option value="false">false</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="paymentEnabledSelect">Payment Enabled</label>
+          <select id="paymentEnabledSelect">
+            <option value="false" selected>false</option>
+            <option value="true">true</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="paymentPrioritySelect">isPaymentPriority</label>
+          <select id="paymentPrioritySelect">
+            <option value="false" selected>false</option>
+            <option value="true">true</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="standardInput">Standard (Comma Separated)</label>
+          <input type="text" id="standardInput" value="10" placeholder="e.g. 10 or 9, 10" />
+        </div>
+      </div>
+    </div>
+
+    <!-- STEP 3: SUBCATEGORIES JSON EDITOR -->
+    <div class="card">
+      <div class="card-title">
+        <span>Step 3: subCategories JSON Array Editor</span>
+        <span id="jsonValidBadge" class="badge badge-success">✓ Valid JSON Array</span>
+      </div>
+
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 8px;">
+        Auto-sync active: Changing the category above immediately updates this editor with that document's live <code>subCategories</code>. An automatic backup will be created before saving updates.
+      </p>
+
+      <textarea id="subCategoriesJsonText" spellcheck="false" oninput="validateJsonPreview()"></textarea>
+
+      <div class="btn-row">
+        <button class="btn btn-outline" onclick="formatJsonText()">✨ Format / Beautify JSON</button>
+        <button class="btn btn-outline" onclick="minifyJsonText()">⚡ Compact / Minify JSON</button>
+        <button class="btn btn-success" style="padding: 10px 20px; font-size: 0.9rem;" onclick="saveToFirestoreWithBackup()">💾 Auto-Backup & Save to Firestore</button>
+      </div>
+
+      <div id="saveStatus" class="status-msg"></div>
+
+      <div class="preview-box" id="summaryPreviewBox">
+        SubCategories count: <strong>0 items</strong> loaded.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ------------------------------------------------------------------------
+    // 1. FIREBASE CONFIGURATION
+    // ------------------------------------------------------------------------
+    const firebaseConfig = {
+      projectId: "avmoaching621999"
+    };
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+    }
+    const db = firebase.firestore();
+
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+    const DEFAULT_TEMPLATE_DATA = [
+      {
+        "name": "Mathematics",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/subject_images/maths.svg",
+        "position": 0,
+        "active": true,
+        "subjectCode": "PRINT",
+        "lang": "en",
+        "year": null,
+        "subCategoryUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/BluePrint/en/blue_print_en_2026_mathematics.json",
+        "paymentEnabled": false,
+        "premiumContentPrice": 0
+      },
+      {
+        "name": "Science",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/subject_images/science.svg",
+        "position": 1,
+        "active": true,
+        "subjectCode": "PRINT",
+        "lang": "en",
+        "year": null,
+        "subCategoryUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/BluePrint/en/blue_print_en_2026_science.json",
+        "paymentEnabled": false,
+        "premiumContentPrice": 0
+      },
+      {
+        "name": "Social Science",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/subject_images/social_science.svg",
+        "position": 2,
+        "active": true,
+        "subjectCode": "PRINT",
+        "lang": "en",
+        "year": null,
+        "subCategoryUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/BluePrint/en/blue_print_en_2026_social_science.json",
+        "paymentEnabled": false,
+        "premiumContentPrice": 0
+      },
+      {
+        "name": "Hindi",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/subject_images/hindi.svg",
+        "position": 3,
+        "active": true,
+        "subjectCode": "PRINT",
+        "lang": "en",
+        "year": null,
+        "subCategoryUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/BluePrint/en/blue_print_en_2026_hindi.json",
+        "paymentEnabled": false,
+        "premiumContentPrice": 0
+      },
+      {
+        "name": "English",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/subject_images/english.svg",
+        "position": 4,
+        "active": true,
+        "subjectCode": "PRINT",
+        "lang": "en",
+        "year": null,
+        "subCategoryUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/BluePrint/en/blue_print_en_2026_english.json",
+        "paymentEnabled": false,
+        "premiumContentPrice": 0
+      },
+      {
+        "name": "Sanskrit",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/subject_images/sanskrit.svg",
+        "position": 5,
+        "active": true,
+        "subjectCode": "PRINT",
+        "lang": "en",
+        "year": null,
+        "subCategoryUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/BluePrint/en/blue_print_en_2026_sanskrit.json",
+        "paymentEnabled": false,
+        "premiumContentPrice": 0
+      },
+      {
+        "name": "Question Paper Format",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/subject_images/paper_format.svg",
+        "position": 6,
+        "active": false,
+        "subjectCode": "PRINT",
+        "lang": "en",
+        "year": null,
+        "subCategoryUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/BluePrint/en/blue_print_en_2026_paper_format.json",
+        "paymentEnabled": false,
+        "premiumContentPrice": 0
+      }
+    ];
+
+    function formatIST(rawVal) {
+      if (!rawVal) return "N/A";
+      try {
+        let d;
+        if (rawVal.toDate) d = rawVal.toDate();
+        else if (typeof rawVal === "string") d = new Date(rawVal);
+        else d = new Date(rawVal);
+
+        if (isNaN(d.getTime())) return String(rawVal);
+
+        const parts = new Intl.DateTimeFormat('en-GB', {
+          timeZone: 'Asia/Kolkata',
+          day: '2-digit', month: 'short', year: 'numeric',
+          hour: '2-digit', minute: '2-digit', second: '2-digit',
+          hour12: true
+        }).formatToParts(d);
+
+        let day='', month='', year='', hour='', min='', sec='', dayPeriod='';
+        parts.forEach(p => {
+          if (p.type === 'day') day = p.value;
+          if (p.type === 'month') month = p.value;
+          if (p.type === 'year') year = p.value;
+          if (p.type === 'hour') hour = p.value;
+          if (p.type === 'minute') min = p.value;
+          if (p.type === 'second') sec = p.value;
+          if (p.type === 'dayPeriod') dayPeriod = p.value;
+        });
+
+        return `${day}-${month}-${year}, ${hour}:${min}:${sec} ${dayPeriod} IST`;
+      } catch (e) {
+        return "N/A";
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 2. AUTO-UPDATE ON SELECT & INITIALIZATION
+    // ------------------------------------------------------------------------
+    window.addEventListener("DOMContentLoaded", () => {
+      loadAvailableDocuments();
+      loadBackupsList();
+      fetchDocumentById("BLUE_PRINT_EN");
+    });
+
+    function onDocumentSelectChange() {
+      const selected = document.getElementById("existingDocsSelect").value;
+      if (selected) {
+        document.getElementById("documentIdInput").value = selected;
+        fetchDocumentById(selected);
+      }
+    }
+
+    async function loadAvailableDocuments() {
+      const select = document.getElementById("existingDocsSelect");
+      try {
+        const snap = await db.collection("foundation_categories").get();
+        if (!snap.empty) {
+          const currentVal = document.getElementById("documentIdInput").value || "BLUE_PRINT_EN";
+          select.innerHTML = '<option value="">-- Choose Existing Doc --</option>';
+          snap.forEach(doc => {
+            const opt = document.createElement("option");
+            opt.value = doc.id;
+            opt.textContent = doc.id;
+            if (doc.id === currentVal) opt.selected = true;
+            select.appendChild(opt);
+          });
+        }
+      } catch (e) {
+        console.warn("Could not list documents:", e);
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 3. FETCH LIVE CATEGORY & AUTO-POPULATE STEP 3
+    // ------------------------------------------------------------------------
+    async function fetchDocumentById(docId) {
+      if (!docId) return;
+      docId = docId.trim();
+      const statusBox = document.getElementById("fetchStatus");
+
+      statusBox.style.color = "var(--primary)";
+      statusBox.innerText = `Fetching ${docId} from Firestore...`;
+
+      try {
+        const docSnap = await db.collection("foundation_categories").doc(docId).get();
+
+        if (!docSnap.exists) {
+          statusBox.style.color = "var(--warning-text)";
+          statusBox.innerText = `Document "${docId}" does not exist yet. You can create it as a new category below!`;
+          document.getElementById("docStatusBadge").className = "badge badge-new";
+          document.getElementById("docStatusBadge").innerText = "New Category (Unsaved)";
+          return;
+        }
+
+        const data = docSnap.data();
+        statusBox.style.color = "var(--success-text)";
+        statusBox.innerText = `✓ Loaded live data for "${docId}"`;
+        document.getElementById("docStatusBadge").className = "badge badge-success";
+        document.getElementById("docStatusBadge").innerText = "Loaded: " + docId;
+
+        if (data.parentName !== undefined) document.getElementById("parentNameInput").value = data.parentName;
+        if (data.lang !== undefined) document.getElementById("langSelect").value = data.lang;
+        if (data.position !== undefined) document.getElementById("positionInput").value = data.position;
+        if (data.premiumContentPrice !== undefined) document.getElementById("priceInput").value = data.premiumContentPrice;
+        if (data.active !== undefined) document.getElementById("activeSelect").value = String(data.active);
+        if (data.paymentEnabled !== undefined) document.getElementById("paymentEnabledSelect").value = String(data.paymentEnabled);
+        if (data.isPaymentPriority !== undefined) document.getElementById("paymentPrioritySelect").value = String(data.isPaymentPriority);
+
+        if (Array.isArray(data.standard)) {
+          document.getElementById("standardInput").value = data.standard.join(", ");
+        }
+
+        if (data.subCategories) {
+          try {
+            const parsed = typeof data.subCategories === "string" ? JSON.parse(data.subCategories) : data.subCategories;
+            document.getElementById("subCategoriesJsonText").value = JSON.stringify(parsed, null, 2);
+          } catch (pe) {
+            document.getElementById("subCategoriesJsonText").value = String(data.subCategories);
+          }
+        } else {
+          document.getElementById("subCategoriesJsonText").value = "[]";
+        }
+
+        validateJsonPreview();
+      } catch (err) {
+        statusBox.style.color = "var(--danger-text)";
+        statusBox.innerText = `Fetch Error: ${err.message}`;
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 4. CLONE CURRENT CATEGORY INTO NEW CATEGORY (NEW FEATURE)
+    // ------------------------------------------------------------------------
+    function cloneCurrentCategory() {
+      const sourceDocId = document.getElementById("documentIdInput").value.trim() || "Active Document";
+      const newDocId = prompt(`Enter a new Document ID to clone "${sourceDocId}" into:\n(e.g., BLUE_PRINT_HI or GENERAL_CLASS10)`, sourceDocId + "_COPY");
+
+      if (!newDocId || !newDocId.trim()) return;
+
+      const cleanedNewId = newDocId.trim();
+
+      // Deselect dropdown so it points to the new target
+      document.getElementById("existingDocsSelect").value = "";
+      document.getElementById("documentIdInput").value = cleanedNewId;
+
+      // Adjust badge & notification
+      document.getElementById("docStatusBadge").className = "badge badge-new";
+      document.getElementById("docStatusBadge").innerText = `Cloned & Ready to Save as: ${cleanedNewId}`;
+
+      const statusBox = document.getElementById("fetchStatus");
+      statusBox.style.color = "var(--primary)";
+      statusBox.innerHTML = `📋 Cloned all details & sub-categories from <strong>${sourceDocId}</strong> into <strong>${cleanedNewId}</strong>. Edit fields or JSON below, then click "Auto-Backup & Save" to create it.`;
+
+      // Position focus on parent name so user can adjust
+      document.getElementById("parentNameInput").focus();
+    }
+
+    function prepareAddNewCategory() {
+      document.getElementById("existingDocsSelect").value = "";
+      document.getElementById("documentIdInput").value = "";
+      document.getElementById("documentIdInput").placeholder = "Type New Category Document ID (e.g. BLUE_PRINT_NEW)";
+      document.getElementById("documentIdInput").focus();
+
+      document.getElementById("parentNameInput").value = "";
+      document.getElementById("positionInput").value = "1";
+      document.getElementById("priceInput").value = "0";
+      document.getElementById("standardInput").value = "10";
+      document.getElementById("subCategoriesJsonText").value = JSON.stringify(DEFAULT_TEMPLATE_DATA, null, 2);
+
+      document.getElementById("docStatusBadge").className = "badge badge-new";
+      document.getElementById("docStatusBadge").innerText = "New Category Form Ready";
+
+      document.getElementById("fetchStatus").style.color = "var(--primary)";
+      document.getElementById("fetchStatus").innerText = "Form cleared. Enter new Document ID above and click Save to create.";
+      validateJsonPreview();
+    }
+
+    function loadDefaultTemplate() {
+      document.getElementById("subCategoriesJsonText").value = JSON.stringify(DEFAULT_TEMPLATE_DATA, null, 2);
+      validateJsonPreview();
+    }
+
+    // ------------------------------------------------------------------------
+    // 5. ACCURATE JSON VALIDATION WITH CLEAN STYLING
+    // ------------------------------------------------------------------------
+    function validateJsonPreview() {
+      const text = document.getElementById("subCategoriesJsonText").value;
+      const badge = document.getElementById("jsonValidBadge");
+      const summaryBox = document.getElementById("summaryPreviewBox");
+
+      badge.removeAttribute("style");
+
+      try {
+        const parsed = JSON.parse(text);
+        if (Array.isArray(parsed)) {
+          badge.className = "badge badge-success";
+          badge.innerText = "✓ Valid JSON Array";
+          summaryBox.innerHTML = `Valid Array with <strong>${parsed.length} sub-categories</strong>: ${parsed.map(p => p.name || 'Unnamed').join(", ")}`;
+          return true;
+        } else {
+          badge.className = "badge badge-info";
+          badge.innerText = "ℹ Valid Object (Not Array)";
+          summaryBox.innerHTML = "Valid JSON object, but subCategories should usually be an Array <code>[...]</code>.";
+          return true;
+        }
+      } catch (e) {
+        badge.className = "badge badge-danger";
+        badge.innerText = "✕ Invalid JSON Syntax";
+        summaryBox.innerHTML = `<span style="color: var(--danger-text); font-weight: 600;">JSON Syntax Error: ${e.message}</span>`;
+        return false;
+      }
+    }
+
+    function formatJsonText() {
+      const text = document.getElementById("subCategoriesJsonText").value;
+      try {
+        const parsed = JSON.parse(text);
+        document.getElementById("subCategoriesJsonText").value = JSON.stringify(parsed, null, 2);
+        validateJsonPreview();
+      } catch (e) {
+        alert("Cannot format: Invalid JSON (" + e.message + ")");
+      }
+    }
+
+    function minifyJsonText() {
+      const text = document.getElementById("subCategoriesJsonText").value;
+      try {
+        const parsed = JSON.parse(text);
+        document.getElementById("subCategoriesJsonText").value = JSON.stringify(parsed);
+        validateJsonPreview();
+      } catch (e) {
+        alert("Cannot minify: Invalid JSON (" + e.message + ")");
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 6. AUTO-BACKUP & SAVE TO FIRESTORE
+    // ------------------------------------------------------------------------
+    async function saveToFirestoreWithBackup() {
+      const docId = document.getElementById("documentIdInput").value.trim();
+      const saveStatus = document.getElementById("saveStatus");
+
+      if (!docId) {
+        alert("Document ID cannot be empty!");
+        return;
+      }
+
+      if (!validateJsonPreview()) {
+        alert("Please fix JSON errors before saving.");
+        return;
+      }
+
+      const jsonRaw = document.getElementById("subCategoriesJsonText").value;
+      let stringifiedSubCategories = "";
+
+      try {
+        const parsed = JSON.parse(jsonRaw);
+        stringifiedSubCategories = JSON.stringify(parsed);
+      } catch (e) {
+        alert("JSON parse error: " + e.message);
+        return;
+      }
+
+      const parentName = document.getElementById("parentNameInput").value.trim();
+      const lang = document.getElementById("langSelect").value;
+      const position = parseInt(document.getElementById("positionInput").value, 10) || 0;
+      const premiumPrice = parseInt(document.getElementById("priceInput").value, 10) || 0;
+      const active = document.getElementById("activeSelect").value === "true";
+      const paymentEnabled = document.getElementById("paymentEnabledSelect").value === "true";
+      const isPaymentPriority = document.getElementById("paymentPrioritySelect").value === "true";
+
+      const standardsRaw = document.getElementById("standardInput").value;
+      const standardArray = standardsRaw.split(",").map(s => s.trim()).filter(s => s.length > 0);
+
+      const payload = {
+        active: active,
+        isPaymentPriority: isPaymentPriority,
+        lang: lang,
+        parentName: parentName,
+        paymentEnabled: paymentEnabled,
+        position: position,
+        premiumContentPrice: premiumPrice,
+        standard: standardArray,
+        subCategories: stringifiedSubCategories
+      };
+
+      if (!confirm(`Save category "${docId}"?\nAn automatic backup will be created if this document already exists.`)) {
+        return;
+      }
+
+      saveStatus.style.color = "var(--primary)";
+      saveStatus.innerText = "Checking existing document and creating backup...";
+
+      try {
+        const docRef = db.collection("foundation_categories").doc(docId);
+        const existingSnap = await docRef.get();
+
+        // 1. AUTO-BACKUP IF DOCUMENT ALREADY EXISTS
+        if (existingSnap.exists) {
+          const oldData = existingSnap.data();
+          const now = new Date();
+          const cleanDateTag = formatIST(now).replace(/[\s,:]+/g, '_');
+          const backupDocId = `${docId}_BACKUP_${cleanDateTag}`;
+
+          await db.collection("foundation_categories_backup").doc(backupDocId).set({
+            backupDocId: backupDocId,
+            originalDocId: docId,
+            backupCreatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+            backupDateIST: formatIST(now),
+            data: oldData
+          });
+        }
+
+        // 2. WRITE ACTIVE DOCUMENT
+        saveStatus.innerText = `Saving category ${docId}...`;
+        await docRef.set(payload, { merge: true });
+
+        saveStatus.style.color = "var(--success-text)";
+        saveStatus.innerHTML = `✅ Successfully saved <strong>${docId}</strong>!`;
+        document.getElementById("docStatusBadge").className = "badge badge-success";
+        document.getElementById("docStatusBadge").innerText = "Active: " + docId;
+
+        loadAvailableDocuments();
+        loadBackupsList();
+      } catch (err) {
+        console.error(err);
+        saveStatus.style.color = "var(--danger-text)";
+        saveStatus.innerText = `Save Error: ${err.message}`;
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 7. BACKUP MANAGER (REVERT & DELETE)
+    // ------------------------------------------------------------------------
+    async function loadBackupsList() {
+      const tbody = document.getElementById("backupTableBody");
+      try {
+        const snap = await db.collection("foundation_categories_backup")
+                             .orderBy("backupCreatedAt", "desc")
+                             .limit(25)
+                             .get();
+
+        document.getElementById("backupCount").innerText = snap.size;
+
+        if (snap.empty) {
+          tbody.innerHTML = `<tr><td colspan="5" style="text-align: center; color: var(--text-muted); padding: 16px;">No backups created yet. Backups are automatically generated when you overwrite a category.</td></tr>`;
+          return;
+        }
+
+        let html = "";
+        snap.forEach(doc => {
+          const b = doc.data();
+          const backupId = doc.id;
+          const origDoc = b.originalDocId || "Unknown";
+          const data = b.data || {};
+          const backupTime = b.backupDateIST || formatIST(b.backupCreatedAt);
+
+          let itemCount = 0;
+          try {
+            const parsed = typeof data.subCategories === "string" ? JSON.parse(data.subCategories) : data.subCategories;
+            itemCount = Array.isArray(parsed) ? parsed.length : 1;
+          } catch(e) { itemCount = "Raw"; }
+
+          html += `
+            <tr>
+              <td><strong>${backupTime}</strong></td>
+              <td><code>${origDoc}</code></td>
+              <td>${escapeHtml(data.parentName || "N/A")}</td>
+              <td><span class="badge badge-info">${itemCount} items</span></td>
+              <td style="text-align: center; white-space: nowrap;">
+                <button class="btn btn-outline" style="padding: 4px 8px; font-size: 0.72rem;" onclick="revertFromBackup('${backupId}')">↺ Revert</button>
+                <button class="btn btn-danger" style="padding: 4px 8px; font-size: 0.72rem;" onclick="deleteBackupDoc('${backupId}')">🗑 Delete</button>
+              </td>
+            </tr>
+          `;
+        });
+        tbody.innerHTML = html;
+      } catch (e) {
+        tbody.innerHTML = `<tr><td colspan="5" style="color:red; text-align:center;">Error loading backups: ${e.message}</td></tr>`;
+      }
+    }
+
+    async function revertFromBackup(backupId) {
+      if (!confirm(`Are you sure you want to REVERT category data from backup:\n${backupId}?\nThis will overwrite the active document with this backup.`)) {
+        return;
+      }
+
+      try {
+        const backupSnap = await db.collection("foundation_categories_backup").doc(backupId).get();
+        if (!backupSnap.exists) {
+          alert("Backup document not found!");
+          return;
+        }
+
+        const bData = backupSnap.data();
+        const targetDocId = bData.originalDocId;
+        const restoredData = bData.data;
+
+        await db.collection("foundation_categories").doc(targetDocId).set(restoredData, { merge: true });
+
+        alert(`Successfully reverted "${targetDocId}" to backup state!`);
+        document.getElementById("documentIdInput").value = targetDocId;
+        fetchDocumentById(targetDocId);
+      } catch (e) {
+        alert("Revert failed: " + e.message);
+      }
+    }
+
+    async function deleteBackupDoc(backupId) {
+      if (!confirm(`Permanently delete this backup?\n${backupId}`)) return;
+
+      try {
+        await db.collection("foundation_categories_backup").doc(backupId).delete();
+        loadBackupsList();
+      } catch (e) {
+        alert("Delete failed: " + e.message);
+      }
+    }
+
+    function toggleBackupView() {
+      const body = document.getElementById("backupBody");
+      const arrow = document.getElementById("backupArrow");
+      if (body.classList.contains("active")) {
+        body.classList.remove("active");
+        arrow.innerText = "▼ Show Backups";
+      } else {
+        body.classList.add("active");
+        arrow.innerText = "▲ Hide Backups";
+      }
+    }
+
+    function escapeHtml(s) {
+      if (!s) return "";
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      })[c]);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>समास चक्र - MPBSE कक्षा 10 हिन्दी</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            hind: ['Hind', 'sans-serif'],
+            tiro: ['"Tiro Devanagari Hindi"', 'serif'],
+          },
+          colors: {
+            emdark: '#05110d',
+            emcard: '#0c221a',
+            emsurface: '#123326',
+            emaccent: '#10b981',
+            emlight: '#34d399',
+            emmint: '#a7f3d0'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    * {
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Hind', sans-serif;
+    }
+    .tiro-font {
+      font-family: 'Tiro Devanagari Hindi', serif;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    .touch-btn:active {
+      transform: scale(0.96);
+    }
+    @keyframes emeraldPulse {
+      0%, 100% { border-color: rgba(16, 185, 129, 0.35); box-shadow: 0 0 16px rgba(16, 185, 129, 0.12); }
+      50% { border-color: rgba(52, 211, 153, 0.7); box-shadow: 0 0 24px rgba(16, 185, 129, 0.28); }
+    }
+    .glow-emerald {
+      animation: emeraldPulse 3s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-emdark text-slate-100 min-h-screen pb-24 antialiased selection:bg-emerald-500 selection:text-black">
+
+  <!-- TOP APP BAR -->
+  <header class="sticky top-0 z-40 bg-[#091b14]/95 backdrop-blur-md border-b border-emerald-500/20 px-3.5 py-2.5 shadow-lg">
+    <div class="flex items-center justify-between mb-2">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-slate-950 font-black text-lg tiro-font shadow-md shadow-emerald-500/30">
+          स
+        </div>
+        <div>
+          <h1 class="text-sm sm:text-base font-bold text-emerald-300 tiro-font tracking-wide leading-tight flex items-center gap-1.5">
+            समास चक्र
+            <span class="text-[9px] bg-emerald-500/20 text-emerald-300 font-sans px-1.5 py-0.5 rounded font-bold border border-emerald-500/30">10th MPBSE</span>
+          </h1>
+          <p class="text-[10px] text-emerald-200/70">सामासिक पद एवं विग्रह प्रयोगशाला</p>
+        </div>
+      </div>
+      <div id="filter-count-badge" class="text-[10px] font-mono text-emerald-300 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-500/30 font-bold">
+        २७ शब्द
+      </div>
+    </div>
+
+    <!-- Horizontal Scrollable Bhed Filter Pills -->
+    <div class="flex gap-1.5 overflow-x-auto no-scrollbar py-0.5 text-xs">
+      <button onclick="setBhedFilter('all')" id="pill-all" class="px-2.5 py-1 rounded-lg font-bold transition text-xs whitespace-nowrap touch-btn bg-emerald-500 text-slate-950 shadow">
+        सभी (All)
+      </button>
+      <button onclick="setBhedFilter('avyayi')" id="pill-avyayi" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-emerald-100/80 bg-slate-900/80 border border-emerald-900/60">
+        अव्ययीभाव
+      </button>
+      <button onclick="setBhedFilter('tatpurush')" id="pill-tatpurush" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-emerald-100/80 bg-slate-900/80 border border-emerald-900/60">
+        तत्पुरुष
+      </button>
+      <button onclick="setBhedFilter('karmadharay')" id="pill-karmadharay" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-emerald-100/80 bg-slate-900/80 border border-emerald-900/60">
+        कर्मधारय
+      </button>
+      <button onclick="setBhedFilter('dvigu')" id="pill-dvigu" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-emerald-100/80 bg-slate-900/80 border border-emerald-900/60">
+        द्विगु
+      </button>
+      <button onclick="setBhedFilter('dvandva')" id="pill-dvandva" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-emerald-100/80 bg-slate-900/80 border border-emerald-900/60">
+        द्वंद्व
+      </button>
+      <button onclick="setBhedFilter('bahuvrihi')" id="pill-bahuvrihi" class="px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-emerald-100/80 bg-slate-900/80 border border-emerald-900/60">
+        बहुव्रीहि
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================== -->
+  <!-- TAB 1: LEARN MODE (1. परिभाषा -> 2. नियम व ट्रिक -> 3. शब्द बैंक) -->
+  <!-- ============================================================== -->
+  <main id="learn-view" class="max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- 1. परिभाषा कार्ड (Definition) -->
+    <section class="bg-gradient-to-br from-[#0c221a] via-[#081812] to-[#040e0b] border border-emerald-500/30 rounded-2xl p-3.5 shadow-md">
+      <div class="flex items-center justify-between mb-1.5">
+        <div class="flex items-center gap-2">
+          <span class="text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full font-bold">
+            १. परिभाषा
+          </span>
+          <h2 id="def-title" class="text-xs sm:text-sm font-bold text-emerald-200 tiro-font">
+            समास किसे कहते हैं?
+          </h2>
+        </div>
+        <span class="text-[10px] font-mono text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-800">
+          ६ प्रमुख भेद
+        </span>
+      </div>
+      <p id="def-text" class="text-xs text-slate-300 leading-relaxed">
+        दो या दो से अधिक शब्दों के मेल से बने नवीन व संक्षिप्त शब्द को <b>समास</b> कहते हैं। सामासिक शब्दों के बीच के संबंध को स्पष्ट करना <b>समास-विग्रह</b> कहलाता है।
+      </p>
+    </section>
+
+    <!-- 2. प्रमुख नियम व शॉर्टकट ट्रिक कार्ड (Dynamic Mnemonics Hub) -->
+    <section class="bg-[#0b1f17]/90 border border-emerald-900/60 rounded-2xl p-3.5 space-y-2.5 shadow-sm">
+      <div class="flex items-center justify-between border-b border-emerald-900/50 pb-2">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-teal-500/20 text-teal-300 border border-teal-500/30 px-2 py-0.5 rounded-full font-bold">
+            २. भेद पहचान ट्रिक
+          </span>
+          <span class="text-xs text-emerald-200 font-semibold">रामबाण फॉर्मूला</span>
+        </div>
+        <span id="rules-count-label" class="text-[10px] text-emerald-400 font-mono font-bold">
+          ६ नियम सक्रिय
+        </span>
+      </div>
+      
+      <!-- Rules container rendered dynamically -->
+      <div id="rules-container" class="space-y-2 max-h-52 overflow-y-auto no-scrollbar pr-0.5"></div>
+    </section>
+
+    <!-- 3. एक्टिव समास विग्रह विश्लेषण कार्ड (Active Selected Word) -->
+    <section class="bg-gradient-to-b from-[#0f2d22] to-[#071610] border border-emerald-500/40 rounded-2xl p-3.5 shadow-xl glow-emerald relative overflow-hidden">
+      <div class="flex items-center justify-between mb-2">
+        <span id="card-bhed" class="text-[11px] font-bold text-emerald-200 bg-emerald-500/20 border border-emerald-500/40 px-2.5 py-0.5 rounded-full">
+          अव्ययीभाव समास
+        </span>
+        <span class="text-[10px] text-teal-300 font-bold bg-teal-950/70 border border-teal-500/40 px-2 py-0.5 rounded-full flex items-center gap-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse"></span> MP बोर्ड हॉट टॉपिक
+        </span>
+      </div>
+
+      <!-- Word Display -->
+      <div class="text-center py-2.5 px-2 bg-slate-950/85 rounded-xl border border-emerald-900/60 mb-2.5 shadow-inner">
+        <div class="text-[10px] uppercase tracking-wider text-emerald-400/80 mb-0.5 font-semibold">समस्त पद एवं विग्रह</div>
+        <div id="card-equation" class="text-lg sm:text-xl font-bold text-emerald-300 tiro-font tracking-wide">
+          यथा + शक्ति = <span class="text-white underline decoration-emerald-400 underline-offset-4 font-black">यथाशक्ति</span>
+        </div>
+        <div id="card-vigrah" class="text-xs text-emerald-200/90 mt-1 font-semibold">
+          विग्रह: शक्ति के अनुसार
+        </div>
+      </div>
+
+      <!-- Quick Word Trick Card -->
+      <div class="bg-emerald-500/10 border border-emerald-500/25 rounded-xl p-2.5 flex items-start gap-2">
+        <span class="text-base leading-none mt-0.5">💡</span>
+        <div class="flex-1">
+          <div class="text-[11px] font-bold text-emerald-300">पहचानने की ट्रिक:</div>
+          <div id="card-trick" class="text-xs text-slate-200 leading-snug mt-0.5">
+            पहला पद अव्यय/उपसर्ग (यथा) है। समस्त पद क्रिया-विशेषण का कार्य करता है।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. शब्द बैंक ग्रिड (Interactive 3-Column Touch Word Grid) -->
+    <section class="bg-[#081b13]/80 border border-emerald-950 rounded-2xl p-3 space-y-2">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-1.5">
+          <span class="text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full font-bold">
+            ३. शब्द बैंक
+          </span>
+          <span class="text-xs text-emerald-100 font-semibold">टैप करके विश्लेषण देखें</span>
+        </div>
+        <span id="word-grid-counter" class="text-[10px] text-emerald-400/80 font-mono">
+          शब्द: २७
+        </span>
+      </div>
+
+      <!-- 3-Column Responsive Grid -->
+      <div id="word-chips-grid" class="grid grid-cols-3 gap-2 pt-1 max-h-72 overflow-y-auto no-scrollbar pr-0.5">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================== -->
+  <!-- TAB 2: QUIZ / TEST MODE (अभ्यास प्रश्न - MP Board Samas Quiz)   -->
+  <!-- ============================================================== -->
+  <main id="quiz-view" class="hidden max-w-md mx-auto px-3.5 pt-3.5 space-y-3.5">
+
+    <!-- Score & Streak Header -->
+    <div class="bg-[#0b1f17] border border-emerald-900/80 rounded-2xl p-3 shadow-md flex items-center justify-between">
+      <div>
+        <div class="text-[10px] text-emerald-400 font-bold uppercase tracking-wider">
+          MP Board मॉडल टेस्ट
+        </div>
+        <div class="text-xs font-bold text-emerald-200 flex items-center gap-1.5 mt-0.5">
+          <span>प्रश्न: <span id="q-current" class="text-white font-mono font-black text-sm">1</span> / <span id="q-total" class="font-mono">10</span></span>
+        </div>
+      </div>
+
+      <!-- Streak and Marks -->
+      <div class="flex items-center gap-3">
+        <div class="text-center px-2 py-1 rounded-lg bg-slate-950 border border-emerald-950">
+          <div class="text-[9px] text-emerald-400/80">लगातार सही</div>
+          <div id="q-streak" class="text-xs font-bold text-amber-400 flex items-center justify-center gap-0.5">
+            🔥 <span>0</span>
+          </div>
+        </div>
+        <div class="text-right">
+          <div class="text-[10px] text-emerald-400/80">कुल अंक</div>
+          <div id="q-score" class="text-base font-black text-emerald-300 font-mono">
+            0 / 20
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Question Card -->
+    <div class="bg-gradient-to-b from-[#0f2d22] to-[#071710] border border-emerald-500/30 rounded-2xl p-4 space-y-3.5 shadow-xl">
+      <div class="flex items-center justify-between">
+        <span id="quiz-q-tag" class="text-[10px] bg-teal-500/20 text-teal-300 border border-teal-500/30 px-2.5 py-0.5 rounded-full font-bold">
+          समास भेद पहचान
+        </span>
+        <span class="text-[10px] text-emerald-400 font-bold font-mono">
+          +2 अंक
+        </span>
+      </div>
+
+      <h3 id="quiz-question" class="text-base font-bold text-white tiro-font leading-relaxed tracking-wide min-h-[48px] flex items-center">
+        'पंचवटी' शब्द में कौन सा समास है?
+      </h3>
+
+      <!-- 4 Options Container -->
+      <div id="quiz-options" class="space-y-2 pt-1">
+        <!-- Options injected here -->
+      </div>
+    </div>
+
+    <!-- Feedback & Explanation Card -->
+    <div id="quiz-feedback" class="hidden bg-[#0c221a] border border-emerald-800/80 rounded-2xl p-3.5 space-y-2 shadow-lg transition-all">
+      <div class="flex items-center justify-between">
+        <div id="feedback-badge" class="text-xs font-bold text-emerald-300 flex items-center gap-1">
+          ✓ सही उत्तर! (+2 अंक प्राप्त)
+        </div>
+        <span class="text-[10px] text-emerald-400/70 font-mono">विग्रह विश्लेषण</span>
+      </div>
+      
+      <p id="feedback-text" class="text-xs text-slate-200 leading-relaxed bg-slate-950/80 p-2.5 rounded-xl border border-emerald-950">
+        <!-- Explanation text -->
+      </p>
+
+      <button onclick="nextQuizQuestion()" class="w-full py-2.5 bg-gradient-to-r from-emerald-500 to-teal-500 active:from-emerald-600 active:to-teal-600 text-slate-950 font-bold text-xs rounded-xl shadow-md touch-btn flex items-center justify-center gap-1.5">
+        <span>अगला प्रश्न (Next Question)</span>
+        <span>➔</span>
+      </button>
+    </div>
+
+    <!-- Summary Card -->
+    <div id="quiz-summary-card" class="hidden bg-gradient-to-b from-[#103628] to-[#081b13] border border-emerald-500/40 rounded-2xl p-5 text-center space-y-3.5 shadow-2xl">
+      <div class="text-4xl animate-bounce">🏆</div>
+      <div>
+        <h4 class="text-lg font-bold text-emerald-300 tiro-font">समास अभ्यास सत्र पूर्ण!</h4>
+        <p class="text-xs text-emerald-100/80 mt-1">आपकी MPBSE बोर्ड समास रिपोर्ट:</p>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-2 bg-slate-950/80 p-3 rounded-xl border border-emerald-950">
+        <div>
+          <div class="text-[10px] text-emerald-400">कुल प्राप्तांक</div>
+          <div id="summary-score" class="text-lg font-black text-emerald-300 font-mono">0 / 20</div>
+        </div>
+        <div>
+          <div class="text-[10px] text-emerald-400">सटीकता (Accuracy)</div>
+          <div id="summary-accuracy" class="text-lg font-black text-teal-300 font-mono">0%</div>
+        </div>
+      </div>
+
+      <button onclick="restartQuiz()" class="w-full py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs rounded-xl shadow-lg touch-btn">
+        🔄 पुनः टेस्ट दें (Restart Quiz)
+      </button>
+    </div>
+
+  </main>
+
+  <!-- FIXED BOTTOM NAVIGATION BAR -->
+  <nav class="fixed bottom-0 left-0 right-0 z-50 bg-[#071610]/95 backdrop-blur-md border-t border-emerald-900/80 py-1.5 px-4 shadow-2xl">
+    <div class="max-w-md mx-auto grid grid-cols-2 gap-3">
+      <button onclick="switchTab('learn')" id="nav-btn-learn" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400 bg-emerald-500/10 border border-emerald-500/30">
+        <span class="text-lg leading-none mb-0.5">📖</span>
+        <span class="text-[11px] font-bold">सीखें व समझें</span>
+      </button>
+      <button onclick="switchTab('quiz')" id="nav-btn-quiz" class="flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400/60 border border-transparent hover:text-white">
+        <span class="text-lg leading-none mb-0.5">🎯</span>
+        <span class="text-[11px] font-bold">अभ्यास प्रश्न</span>
+      </button>
+    </div>
+  </nav>
+
+  <script>
+    // -------------------------------------------------------------
+    // 1. Web Audio Synthesizer (Zero External Dependencies)
+    // -------------------------------------------------------------
+    const AudioFX = {
+      ctx: null,
+      init() {
+        if (!this.ctx) {
+          const AudioContext = window.AudioContext || window.webkitAudioContext;
+          if (AudioContext) this.ctx = new AudioContext();
+        }
+      },
+      tap() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(520, t);
+          osc.frequency.exponentialRampToValueAtTime(840, t + 0.04);
+          gain.gain.setValueAtTime(0.08, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.05);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.05);
+        } catch (e) {}
+      },
+      correct() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          // Arpeggio chime: F5 -> A5 -> C6 (Major triad)
+          const notes = [698.46, 880.00, 1046.50];
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(freq, t + idx * 0.08);
+            gain.gain.setValueAtTime(0.12, t + idx * 0.08);
+            gain.gain.exponentialRampToValueAtTime(0.001, t + idx * 0.08 + 0.25);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start(t + idx * 0.08);
+            osc.stop(t + idx * 0.08 + 0.25);
+          });
+        } catch (e) {}
+      },
+      incorrect() {
+        try {
+          this.init();
+          if (!this.ctx) return;
+          const t = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(200, t);
+          osc.frequency.linearRampToValueAtTime(130, t + 0.18);
+          gain.gain.setValueAtTime(0.12, t);
+          gain.gain.linearRampToValueAtTime(0.001, t + 0.2);
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          osc.start(t);
+          osc.stop(t + 0.2);
+        } catch (e) {}
+      }
+    };
+
+    // -------------------------------------------------------------
+    // 2. Comprehensive 6 Samas Bhed Rules & Data
+    // -------------------------------------------------------------
+    const samasRules = [
+      {
+        id: 'avyayi',
+        name: "अव्ययीभाव समास",
+        formula: "पूर्वपद प्रधान (अव्यय/उपसर्ग) + उत्तरपद",
+        trick: "पहला पद अव्यय/उपसर्ग (यथा, प्रति, आ, बे, भर) हो या एक ही शब्द दो बार आए (दिनों-दिन, रातों-रात)।"
+      },
+      {
+        id: 'tatpurush',
+        name: "तत्पुरुष समास",
+        formula: "उत्तरपद प्रधान + कारक चिह्नों का लोप",
+        trick: "विग्रह करने पर कारक चिह्न (को, से, के लिए, का, की, के, में, पर) बीच में प्रकट होते हैं।"
+      },
+      {
+        id: 'karmadharay',
+        name: "कर्मधारय समास",
+        formula: "विशेषण + विशेष्य अथवा उपमान + उपमेय",
+        trick: "विग्रह करने पर दोनों पदों के बीच 'है जो' या 'के समान' का प्रयोग होता है (नीलकमल, चरणकमल)।"
+      },
+      {
+        id: 'dvigu',
+        name: "द्विगु समास",
+        formula: "पहला पद संख्यावाचक + समूह/समाहार",
+        trick: "प्रथम पद संख्या (गिनती) बताए और समस्त पद किसी समूह का बोध कराए (पंचवटी = पाँच वटों का समूह)।"
+      },
+      {
+        id: 'dvandva',
+        name: "द्वंद्व समास",
+        formula: "दोनों पद प्रधान + योजक चिह्न (-)",
+        trick: "दोनों पद एक-दूसरे के समान या विलोम हों, बीच में 'और', 'या', 'एवं' का लोप हो (माता-पिता = माता और पिता)।"
+      },
+      {
+        id: 'bahuvrihi',
+        name: "बहुव्रीहि समास",
+        formula: "कोई पद प्रधान नहीं + अन्य अर्थ (तीसरा अर्थ)",
+        trick: "दोनों पद मिलकर किसी तीसरे प्रसिद्ध व्यक्ति/भगवान की ओर इशारा करें (दशानन = दस आनन हैं जिसके अर्थात रावण)।"
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // 3. MPBSE 27 High-Frequency Board Exam Words Bank
+    // -------------------------------------------------------------
+    const samasWords = [
+      // अव्ययीभाव
+      { id: 'w1', word: "यथाशक्ति", bhedId: "avyayi", bhedName: "अव्ययीभाव समास", vigrah: "शक्ति के अनुसार", split: "यथा + शक्ति", trick: "पहला पद 'यथा' अव्यय है।" },
+      { id: 'w2', word: "प्रतिदिन", bhedId: "avyayi", bhedName: "अव्ययीभाव समास", vigrah: "दिन-दिन (प्रत्येक दिन)", split: "प्रति + दिन", trick: "पहला पद 'प्रति' उपसर्ग/अव्यय है।" },
+      { id: 'w3', word: "आजन्म", bhedId: "avyayi", bhedName: "अव्ययीभाव समास", vigrah: "जन्म से लेकर", split: "आ + जन्म", trick: "पहला पद 'आ' उपसर्ग है।" },
+      { id: 'w4', word: "रातोंरात", bhedId: "avyayi", bhedName: "अव्ययीभाव समास", vigrah: "रात ही रात में", split: "रात + रात", trick: "शब्द की द्विरुक्ति (पुनरावृत्ति) हुई है।" },
+      { id: 'w5', word: "भरपेट", bhedId: "avyayi", bhedName: "अव्ययीभाव समास", vigrah: "पेट भरकर", split: "भर + पेट", trick: "पहला पद 'भर' अव्यय है।" },
+
+      // तत्पुरुष
+      { id: 'w6', word: "राजपुत्र", bhedId: "tatpurush", bhedName: "तत्पुरुष समास", vigrah: "राजा का पुत्र (संबंध तत्पुरुष)", split: "राजा + पुत्र", trick: "विग्रह में संबंध कारक 'का' आता है।" },
+      { id: 'w7', word: "तुलसीकृत", bhedId: "tatpurush", bhedName: "तत्पुरुष समास", vigrah: "तुलसी द्वारा कृत (करण तत्पुरुष)", split: "तुलसी + कृत", trick: "विग्रह में करण कारक 'द्वारा' आता है।" },
+      { id: 'w8', word: "देशभक्ति", bhedId: "tatpurush", bhedName: "तत्पुरुष समास", vigrah: "देश के लिए भक्ति (संप्रदान)", split: "देश + भक्ति", trick: "विग्रह में 'के लिए' कारक चिह्न है।" },
+      { id: 'w9', word: "ऋणमुक्त", bhedId: "tatpurush", bhedName: "तत्पुरुष समास", vigrah: "ऋण से मुक्त (अपादान तत्पुरुष)", split: "ऋण + मुक्त", trick: "अलग होने के अर्थ में 'से' कारक है।" },
+      { id: 'w10', word: "गंगाजल", bhedId: "tatpurush", bhedName: "तत्पुरुष समास", vigrah: "गंगा का जल (संबंध तत्पुरुष)", split: "गंगा + जल", trick: "संबंध कारक 'का' का लोप हुआ है।" },
+      { id: 'w11', word: "घुड़सवार", bhedId: "tatpurush", bhedName: "तत्पुरुष समास", vigrah: "घोड़े पर सवार (अधिकरण तत्पुरुष)", split: "घोड़ा + सवार", trick: "अधिकरण कारक 'पर' का लोप हुआ है।" },
+
+      // कर्मधारय
+      { id: 'w12', word: "नीलकमल", bhedId: "karmadharay", bhedName: "कर्मधारय समास", vigrah: "नीला है जो कमल (विशेषण-विशेष्य)", split: "नील + कमल", trick: "पहला पद 'नीला' कमल की विशेषता बता रहा है।" },
+      { id: 'w13', word: "चरणकमल", bhedId: "karmadharay", bhedName: "कर्मधारय समास", vigrah: "कमल के समान चरण (उपमान-उपमेय)", split: "चरण + कमल", trick: "चरणों की तुलना कमल से की गई है ('के समान')।" },
+      { id: 'w14', word: "चंद्रमुख", bhedId: "karmadharay", bhedName: "कर्मधारय समास", vigrah: "चंद्रमा के समान मुख", split: "चंद्र + मुख", trick: "मुख की उपमा चंद्रमा से ('के समान')।" },
+      { id: 'w15', word: "मृगनयनी", bhedId: "karmadharay", bhedName: "कर्मधारय समास", vigrah: "मृग के समान नयनों वाली", split: "मृग + नयन", trick: "नयनों की तुलना मृग (हिरण) से है।" },
+
+      // द्विगु
+      { id: 'w16', word: "पंचवटी", bhedId: "dvigu", bhedName: "द्विगु समास", vigrah: "पाँच वटों (वृक्षों) का समाहार", split: "पंच + वटी", trick: "पहला पद 'पंच' (५) संख्यावाचक है।" },
+      { id: 'w17', word: "चौराहा", bhedId: "dvigu", bhedName: "द्विगु समास", vigrah: "चार राहों का समूह", split: "चौ + राहा", trick: "पहला पद 'चौ' (४) संख्या का बोध कराता है।" },
+      { id: 'w18', word: "त्रिलोक", bhedId: "dvigu", bhedName: "द्विगु समास", vigrah: "तीन लोकों का समाहार", split: "त्रि + लोक", trick: "पहला पद 'त्रि' (३) संख्यावाचक है।" },
+      { id: 'w19', word: "नवरत्न", bhedId: "dvigu", bhedName: "द्विगु समास", vigrah: "नौ रत्नों का समूह", split: "नव + रत्न", trick: "पहला पद 'नव' (९) संख्यावाचक है।" },
+      { id: 'w20', word: "सप्ताह", bhedId: "dvigu", bhedName: "द्विगु समास", vigrah: "सात दिनों का समूह", split: "सप्त + अह", trick: "पहला पद 'सप्त' (७) संख्यावाचक है।" },
+
+      // द्वंद्व
+      { id: 'w21', word: "माता-पिता", bhedId: "dvandva", bhedName: "द्वंद्व समास", vigrah: "माता और पिता", split: "माता + पिता", trick: "दोनों पद प्रधान हैं और बीच में 'और' छुपा है।" },
+      { id: 'w22', word: "दिन-रात", bhedId: "dvandva", bhedName: "द्वंद्व समास", vigrah: "दिन और रात", split: "दिन + रात", trick: "परस्पर विलोम युग्म, दोनों पद प्रधान।" },
+      { id: 'w23', word: "सुख-दुख", bhedId: "dvandva", bhedName: "द्वंद्व समास", vigrah: "सुख और दुख", split: "सुख + दुख", trick: "योजक चिह्न (-) तथा दोनों पद प्रधान।" },
+      { id: 'w24', word: "पाप-पुण्य", bhedId: "dvandva", bhedName: "द्वंद्व समास", vigrah: "पाप या पुण्य", split: "पाप + पुण्य", trick: "विलोम शब्द, विग्रह में 'या/और' आता है।" },
+
+      // बहुव्रीहि
+      { id: 'w25', word: "दशानन", bhedId: "bahuvrihi", bhedName: "बहुव्रीहि समास", vigrah: "दस हैं आनन जिसके अर्थात रावण", split: "दस + आनन", trick: "तीसरे विशिष्ट अर्थ 'रावण' की ओर संकेत।" },
+      { id: 'w26', word: "चक्रपाणि", bhedId: "bahuvrihi", bhedName: "बहुव्रीहि समास", vigrah: "चक्र है हाथ में जिसके अर्थात विष्णु", split: "चक्र + पाणि", trick: "दोनों पद मिलकर 'विष्णु' का बोध कराते हैं।" },
+      { id: 'w27', word: "नीलकंठ", bhedId: "bahuvrihi", bhedName: "बहुव्रीहि समास", vigrah: "नीला है कंठ जिसका अर्थात शिवजी", split: "नील + कंठ", trick: "अन्य पद प्रधान (भगवान शिव का पर्याय)।" }
+    ];
+
+    // -------------------------------------------------------------
+    // 4. MP Board Quiz Questions Pool (10 Questions)
+    // -------------------------------------------------------------
+    const quizQuestions = [
+      {
+        tag: "द्विगु समास",
+        q: "'पंचवटी' शब्द में कौन सा समास है?",
+        options: ["तत्पुरुष समास", "द्विगु समास", "कर्मधारय समास", "बहुव्रीहि समास"],
+        ans: 1,
+        exp: "पंचवटी का विग्रह 'पाँच वटों का समाहार' है। पहला पद 'पंच' संख्यावाचक होने से यह द्विगु समास है।"
+      },
+      {
+        tag: "तत्पुरुष समास",
+        q: "'राजपुत्र' का सही समास-विग्रह क्या होगा?",
+        options: ["राजा का पुत्र", "राजा और पुत्र", "राजा है जो पुत्र", "राजा के लिए पुत्र"],
+        ans: 0,
+        exp: "राजपुत्र का सही विग्रह 'राजा का पुत्र' है। यहाँ संबंध कारक की विभक्ति 'का' का लोप हुआ है।"
+      },
+      {
+        tag: "अव्ययीभाव समास",
+        q: "'यथाशक्ति' में कौन सा समास प्रयुक्त हुआ है?",
+        options: ["कर्मधारय समास", "द्वंद्व समास", "अव्ययीभाव समास", "तत्पुरुष समास"],
+        ans: 2,
+        exp: "यथाशक्ति में पूर्वपद 'यथा' एक अव्यय है और इसका विग्रह 'शक्ति के अनुसार' होता है।"
+      },
+      {
+        tag: "द्वंद्व समास",
+        q: "जिस समास में दोनों पद प्रधान हों, उसे क्या कहते हैं?",
+        options: ["द्विगु समास", "द्वंद्व समास", "तत्पुरुष समास", "कर्मधारय समास"],
+        ans: 1,
+        exp: "जिस समस्त पद में दोनों पद प्रधान हों और विग्रह करने पर 'और/या' लगे, उसे द्वंद्व समास कहते हैं।"
+      },
+      {
+        tag: "बहुव्रीहि समास",
+        q: "'दशानन' (दस हैं आनन जिसके अर्थात रावण) में कौन सा समास है?",
+        options: ["द्विगु समास", "बहुव्रीहि समास", "कर्मधारय समास", "अव्ययीभाव समास"],
+        ans: 1,
+        exp: "यद्यपि 'दस' संख्या है, परंतु यह रावण के विशिष्ट अर्थ में रूढ़ हो गया है, अतः यहाँ बहुव्रीहि समास मान्य है।"
+      },
+      {
+        tag: "कर्मधारय समास",
+        q: "'चरणकमल' का सही समास-विग्रह क्या होगा?",
+        options: ["चरण और कमल", "कमल के समान चरण", "चरण में कमल", "चरण का कमल"],
+        ans: 1,
+        exp: "चरणकमल = कमल के समान चरण। यहाँ उपमेय (चरण) की उपमान (कमल) से तुलना होने से कर्मधारय समास है।"
+      },
+      {
+        tag: "तत्पुरुष समास",
+        q: "'देशभक्ति' शब्द में कौन सा तत्पुरुष समास है?",
+        options: ["करण तत्पुरुष", "कर्म तत्पुरुष", "संप्रदान तत्पुरुष", "अपादान तत्पुरुष"],
+        ans: 2,
+        exp: "देशभक्ति का विग्रह 'देश के लिए भक्ति' है। 'के लिए' संप्रदान कारक का चिह्न है।"
+      },
+      {
+        tag: "अव्ययीभाव समास",
+        q: "'रातोंरात' शब्द किस समास का उदाहरण है?",
+        options: ["द्वंद्व समास", "अव्ययीभाव समास", "तत्पुरुष समास", "कर्मधारय समास"],
+        ans: 1,
+        exp: "जब एक ही शब्द की पुनरावृत्ति (द्विरुक्ति) होकर अव्यय बने (रात ही रात में), तो वह अव्ययीभाव समास होता है।"
+      },
+      {
+        tag: "द्विगु समास",
+        q: "'चौराहा' का सही समास-विग्रह क्या है?",
+        options: ["चार राहें हैं जिसकी", "चार राहों का समूह", "चार और राह", "चार है जो राह"],
+        ans: 1,
+        exp: "चौराहा = चार राहों का समूह (समाहार)। संख्यावाचक पूर्वपद होने से यह द्विगु समास है।"
+      },
+      {
+        tag: "बहुव्रीहि समास",
+        q: "'नीलकंठ' का विग्रह 'नीला है कंठ जिसका अर्थात शिवजी' करने पर समास होगा:",
+        options: ["कर्मधारय", "बहुव्रीहि", "द्विगु", "तत्पुरुष"],
+        ans: 1,
+        exp: "जब अन्य पद (भगवान शिव) प्रधान हो, तो बहुव्रीहि समास होता है।"
+      }
+    ];
+
+    // -------------------------------------------------------------
+    // 5. State Management
+    // -------------------------------------------------------------
+    let activeBhedFilter = 'all';
+    let activeWordId = 'w1';
+    let currentQuizIndex = 0;
+    let quizScore = 0;
+    let streakCount = 0;
+
+    // -------------------------------------------------------------
+    // 6. Tab Navigation Logic
+    // -------------------------------------------------------------
+    function switchTab(tab) {
+      AudioFX.tap();
+      const learnView = document.getElementById('learn-view');
+      const quizView = document.getElementById('quiz-view');
+      const btnLearn = document.getElementById('nav-btn-learn');
+      const btnQuiz = document.getElementById('nav-btn-quiz');
+
+      if (tab === 'learn') {
+        learnView.classList.remove('hidden');
+        quizView.classList.add('hidden');
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400 bg-emerald-500/10 border border-emerald-500/30";
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400/60 border border-transparent hover:text-white";
+      } else {
+        learnView.classList.add('hidden');
+        quizView.classList.remove('hidden');
+        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400 bg-emerald-500/10 border border-emerald-500/30";
+        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-3 rounded-xl transition-all touch-btn text-emerald-400/60 border border-transparent hover:text-white";
+        renderQuizCard();
+      }
+    }
+
+    // -------------------------------------------------------------
+    // 7. Filter Pills Logic
+    // -------------------------------------------------------------
+    function setBhedFilter(filterId) {
+      AudioFX.tap();
+      activeBhedFilter = filterId;
+
+      const filterIds = ['all', 'avyayi', 'tatpurush', 'karmadharay', 'dvigu', 'dvandva', 'bahuvrihi'];
+      filterIds.forEach(fid => {
+        const btn = document.getElementById(`pill-${fid}`);
+        if (!btn) return;
+        if (fid === filterId) {
+          btn.className = "px-2.5 py-1 rounded-lg font-bold transition text-xs whitespace-nowrap touch-btn bg-emerald-500 text-slate-950 shadow";
+        } else {
+          btn.className = "px-2.5 py-1 rounded-lg font-medium transition text-xs whitespace-nowrap touch-btn text-emerald-100/80 bg-slate-900/80 border border-emerald-900/60";
+        }
+      });
+
+      renderLearnView();
+    }
+
+    // -------------------------------------------------------------
+    // 8. Learn Mode Rendering
+    // -------------------------------------------------------------
+    function renderLearnView() {
+      // 1. Filter Words
+      const filteredWords = activeBhedFilter === 'all' 
+        ? samasWords 
+        : samasWords.filter(w => w.bhedId === activeBhedFilter);
+
+      document.getElementById('filter-count-badge').innerText = `${filteredWords.length} शब्द`;
+      document.getElementById('word-grid-counter').innerText = `शब्द: ${filteredWords.length}`;
+
+      // 2. Filter Rules
+      const filteredRules = activeBhedFilter === 'all'
+        ? samasRules
+        : samasRules.filter(r => r.id === activeBhedFilter);
+
+      document.getElementById('rules-count-label').innerText = `${filteredRules.length} नियम`;
+
+      const rulesBox = document.getElementById('rules-container');
+      rulesBox.innerHTML = filteredRules.map(r => `
+        <div class="bg-slate-950/80 border border-emerald-950 rounded-xl p-2.5">
+          <div class="flex items-center justify-between text-xs font-bold text-emerald-300 mb-1">
+            <span>📌 ${r.name}</span>
+            <span class="text-[10px] text-teal-300/80 font-mono">${r.formula}</span>
+          </div>
+          <p class="text-[11px] text-slate-200 leading-normal">
+            <span class="text-emerald-400 font-semibold">पहचान:</span> ${r.trick}
+          </p>
+        </div>
+      `).join('');
+
+      // Ensure active word belongs to current list
+      const hasActive = filteredWords.some(w => w.id === activeWordId);
+      if (!hasActive && filteredWords.length > 0) {
+        activeWordId = filteredWords[0].id;
+      }
+
+      const activeObj = samasWords.find(w => w.id === activeWordId) || samasWords[0];
+      updateActiveWordCard(activeObj);
+      renderWordChips(filteredWords);
+    }
+
+    function renderWordChips(words) {
+      const chipsBox = document.getElementById('word-chips-grid');
+      chipsBox.innerHTML = words.map(w => {
+        const isActive = w.id === activeWordId;
+        const activeStyles = isActive 
+          ? "bg-gradient-to-tr from-emerald-500 to-teal-400 text-slate-950 font-black border-emerald-300 shadow-md scale-[1.02]" 
+          : "bg-slate-950/80 border-emerald-950 text-slate-200 hover:border-emerald-500/60";
+
+        return `
+          <button onclick="handleWordSelect('${w.id}')" class="py-2 px-1.5 rounded-xl border text-center transition-all touch-btn flex flex-col items-center justify-center ${activeStyles}">
+            <span class="text-xs font-bold block truncate max-w-full">${w.word}</span>
+            <span class="text-[9px] ${isActive ? 'text-slate-950 font-bold' : 'text-emerald-400/80'} truncate block mt-0.5">
+              ${w.bhedName.replace(' समास', '')}
+            </span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function handleWordSelect(wordId) {
+      AudioFX.tap();
+      activeWordId = wordId;
+      const wordObj = samasWords.find(w => w.id === wordId);
+      if (wordObj) {
+        updateActiveWordCard(wordObj);
+        const filteredWords = activeBhedFilter === 'all' 
+          ? samasWords 
+          : samasWords.filter(w => w.bhedId === activeBhedFilter);
+        renderWordChips(filteredWords);
+      }
+    }
+
+    function updateActiveWordCard(item) {
+      document.getElementById('card-bhed').innerText = item.bhedName;
+      document.getElementById('card-equation').innerHTML = `${item.split} = <span class="text-white underline decoration-emerald-400 underline-offset-4 font-black">${item.word}</span>`;
+      document.getElementById('card-vigrah').innerText = `विग्रह: ${item.vigrah}`;
+      document.getElementById('card-trick').innerText = item.trick;
+    }
+
+    // -------------------------------------------------------------
+    // 9. Quiz Engine Logic
+    // -------------------------------------------------------------
+    function renderQuizCard() {
+      if (currentQuizIndex >= quizQuestions.length) {
+        showQuizSummary();
+        return;
+      }
+
+      document.getElementById('quiz-summary-card').classList.add('hidden');
+      document.getElementById('quiz-feedback').classList.add('hidden');
+
+      const q = quizQuestions[currentQuizIndex];
+      document.getElementById('q-current').innerText = currentQuizIndex + 1;
+      document.getElementById('q-total').innerText = quizQuestions.length;
+      document.getElementById('quiz-q-tag').innerText = q.tag;
+      document.getElementById('quiz-question').innerText = q.q;
+
+      const optionsBox = document.getElementById('quiz-options');
+      optionsBox.innerHTML = q.options.map((opt, i) => `
+        <button onclick="handleAnswer(${i})" class="quiz-opt-btn w-full text-left p-3 rounded-xl bg-slate-950 border border-emerald-950 text-xs text-slate-100 font-semibold hover:border-emerald-500/80 transition-all touch-btn flex items-center justify-between">
+          <span>${opt}</span>
+          <span class="text-slate-600 text-xs">○</span>
+        </button>
+      `).join('');
+    }
+
+    function handleAnswer(selectedIdx) {
+      const q = quizQuestions[currentQuizIndex];
+      const buttons = document.querySelectorAll('.quiz-opt-btn');
+      buttons.forEach(btn => btn.disabled = true);
+
+      const feedbackBox = document.getElementById('quiz-feedback');
+      const badge = document.getElementById('feedback-badge');
+      const text = document.getElementById('feedback-text');
+
+      feedbackBox.classList.remove('hidden');
+
+      if (selectedIdx === q.ans) {
+        AudioFX.correct();
+        quizScore += 2;
+        streakCount++;
+        document.getElementById('q-score').innerText = `${quizScore} / ${quizQuestions.length * 2}`;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>${streakCount}</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-emerald-400 bg-emerald-950/60 text-emerald-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-emerald-300 font-bold">✓</span>`;
+        badge.innerText = "✓ सही उत्तर! (+2 अंक प्राप्त)";
+        badge.className = "text-xs font-bold text-emerald-300 flex items-center gap-1";
+      } else {
+        AudioFX.incorrect();
+        streakCount = 0;
+        document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+
+        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-red-500 bg-red-950/60 text-red-200 font-bold text-xs flex items-center justify-between shadow";
+        buttons[selectedIdx].innerHTML = `<span>${q.options[selectedIdx]}</span> <span class="text-red-400 font-bold">✗</span>`;
+
+        // Highlight correct answer
+        buttons[q.ans].className = "quiz-opt-btn w-full text-left p-3 rounded-xl border border-emerald-500/80 bg-emerald-950/40 text-emerald-200 font-bold text-xs flex items-center justify-between";
+        buttons[q.ans].innerHTML = `<span>${q.options[q.ans]}</span> <span class="text-emerald-300 font-bold">✓</span>`;
+
+        badge.innerText = "✗ गलत उत्तर! (सही उत्तर पर ध्यान दें)";
+        badge.className = "text-xs font-bold text-red-400 flex items-center gap-1";
+      }
+
+      text.innerHTML = `<strong>विश्लेषण:</strong> ${q.exp}`;
+    }
+
+    function nextQuizQuestion() {
+      AudioFX.tap();
+      currentQuizIndex++;
+      renderQuizCard();
+    }
+
+    function showQuizSummary() {
+      document.getElementById('quiz-feedback').classList.add('hidden');
+      const summaryCard = document.getElementById('quiz-summary-card');
+      summaryCard.classList.remove('hidden');
+
+      const maxScore = quizQuestions.length * 2;
+      const accuracy = Math.round((quizScore / maxScore) * 100);
+
+      document.getElementById('summary-score').innerText = `${quizScore} / ${maxScore}`;
+      document.getElementById('summary-accuracy').innerText = `${accuracy}%`;
+    }
+
+    function restartQuiz() {
+      AudioFX.tap();
+      currentQuizIndex = 0;
+      quizScore = 0;
+      streakCount = 0;
+      document.getElementById('q-score').innerText = `0 / ${quizQuestions.length * 2}`;
+      document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
+      renderQuizCard();
+    }
+
+    // -------------------------------------------------------------
+    // 10. Initial Load
+    // -------------------------------------------------------------
+    window.addEventListener('DOMContentLoaded', () => {
+      renderLearnView();
+    });
+  </script>
+</body>
+</html>

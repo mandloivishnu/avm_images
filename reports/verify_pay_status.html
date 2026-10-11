@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>AVM Coaching - Verification Portal & Audit History</title>
+
+  <!-- Firebase App & Firestore SDKs (v10 Compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-hover: #1d4ed8;
+      --whatsapp: #25d366;
+      --whatsapp-hover: #1ebd5a;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      
+      --success-bg: #dcfce7;
+      --success-text: #166534;
+      --warning-bg: #fef3c7;
+      --warning-text: #92400e;
+      --danger-bg: #fee2e2;
+      --danger-text: #991b1b;
+      --neutral-bg: #f1f5f9;
+      --neutral-text: #475569;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      padding: 12px;
+      line-height: 1.4;
+    }
+
+    .wrapper {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    /* Top Bar */
+    header {
+      background: var(--surface);
+      padding: 14px 18px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: 768px) {
+      header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    header h1 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .header-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .btn {
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s ease;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .btn-primary { background: var(--primary); }
+    .btn-primary:active { background: var(--primary-hover); }
+    .btn-secondary { background: #0f172a; }
+    .btn-secondary:active { background: #334155; }
+    .btn-whatsapp { background: var(--whatsapp); color: #fff; }
+    .btn-whatsapp:active { background: var(--whatsapp-hover); }
+
+    /* KPI Summary Row */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: 900px) {
+      .kpi-row {
+        grid-template-columns: repeat(6, 1fr);
+      }
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    }
+
+    .kpi-card span {
+      font-size: 0.70rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .kpi-card h3 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-top: 2px;
+    }
+
+    /* History / Snapshot Section */
+    .history-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    .history-header {
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8fafc;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .history-header h4 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .history-body {
+      padding: 12px 16px;
+      overflow-x: auto;
+      display: none;
+    }
+
+    .history-body.active {
+      display: block;
+    }
+
+    .history-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8rem;
+    }
+
+    .history-table th, .history-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    .history-table th {
+      background: #f1f5f9;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    /* Filters Bar */
+    .filters-bar {
+      background: var(--surface);
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      margin-bottom: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .filters-main-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    @media (min-width: 768px) {
+      .filters-main-row {
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+      }
+    }
+
+    .custom-date-row {
+      display: none;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 8px;
+      align-items: center;
+      padding-top: 8px;
+      border-top: 1px dashed var(--border);
+    }
+
+    .custom-date-row.active {
+      display: grid;
+    }
+
+    .date-input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .date-input-group label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    input, select {
+      padding: 9px 12px;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      outline: none;
+      background: #ffffff;
+      width: 100%;
+    }
+
+    input:focus, select:focus {
+      border-color: var(--primary);
+    }
+
+    /* Desktop View: Table */
+    .table-container {
+      display: none;
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      overflow-x: auto;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #334155;
+      font-weight: 700;
+      padding: 12px 12px;
+      border-bottom: 2px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+      color: #1e293b;
+    }
+
+    tr:nth-child(even) { background-color: #fafbfd; }
+    tr:hover { background-color: #f1f5f9; }
+
+    td.col-index, th.col-index {
+      width: 44px;
+      text-align: center;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: #f8fafc;
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 3px 7px;
+      border-radius: 5px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .badge-success { background: var(--success-bg); color: var(--success-text); }
+    .badge-warning { background: var(--warning-bg); color: var(--warning-text); }
+    .badge-danger  { background: var(--danger-bg); color: var(--danger-text); }
+    .badge-neutral { background: var(--neutral-bg); color: var(--neutral-text); }
+    .badge-lang-hi { background: #fef08a; color: #854d0e; }
+    .badge-lang-en { background: #e0f2fe; color: #0369a1; }
+
+    /* Action Buttons */
+    .btn-action {
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 0.76rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn-disable { background: #ef4444; color: white; }
+    .btn-enable { background: #10b981; color: white; }
+    .btn-action:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .btn-wa-icon {
+      background: var(--whatsapp);
+      color: white;
+      padding: 6px 8px;
+      border-radius: 6px;
+      border: none;
+      font-size: 0.76rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .btn-delete-snap {
+      background: #ef4444;
+      color: white;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-delete-snap:hover {
+      background: #dc2626;
+    }
+
+    /* Mobile Cards View */
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .record-card {
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      padding: 14px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .index-pill {
+      background: #0f172a;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    .card-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.81rem;
+      padding: 3px 0;
+    }
+
+    .card-label {
+      color: var(--text-muted);
+    }
+
+    .card-val {
+      font-weight: 500;
+      text-align: right;
+    }
+
+    .card-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 10px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (min-width: 950px) {
+      .cards-container { display: none; }
+      .table-container { display: block; }
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 36px 16px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <div>
+        <h1>AVM Coaching Admin</h1>
+        <small style="color: var(--text-muted); font-size: 0.75rem;">Payment Verification & User Audit (IST Timezone)</small>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-whatsapp" onclick="shareSummaryWhatsApp()">📲 WhatsApp Summary</button>
+        <button class="btn btn-secondary" onclick="saveSnapshot()">💾 Save Snapshot</button>
+        <button class="btn btn-primary" onclick="fetchData()">↻ Reload</button>
+      </div>
+    </header>
+
+    <!-- Metrics Bar with Filter-Aware Counters -->
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <span>Total Records</span>
+        <h3 id="statTotalUsers">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>Active Premium</span>
+        <h3 id="statPremiumUsers" style="color: var(--primary);">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>Paid Requests</span>
+        <h3 id="statPaidPayments" style="color: var(--success-text);">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>Pending Requests</span>
+        <h3 id="statPendingPayments" style="color: var(--warning-text);">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>Hindi (HI) Users</span>
+        <h3 id="statHindiUsers" style="color: #854d0e;">0</h3>
+      </div>
+      <div class="kpi-card">
+        <span>English (EN) Users</span>
+        <h3 id="statEnglishUsers" style="color: #0369a1;">0</h3>
+      </div>
+    </div>
+
+    <!-- Snapshot History Card (Collapsible) -->
+    <div class="history-card">
+      <div class="history-header" onclick="toggleHistoryView()">
+        <h4>🕒 Audit Snapshot History (<span id="historyCount">0</span> snapshots)</h4>
+        <span id="historyArrow" style="font-size: 0.8rem; color: var(--text-muted);">▼ Show</span>
+      </div>
+      <div id="historyBody" class="history-body">
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>Timestamp (DD-MMM-YYYY, IST)</th>
+              <th>Total Users</th>
+              <th>Active Premium</th>
+              <th>Paid</th>
+              <th>Pending</th>
+              <th>Hindi (HI)</th>
+              <th>English (EN)</th>
+              <th style="text-align: center;">Action</th>
+            </tr>
+          </thead>
+          <tbody id="historyTableBody">
+            <tr>
+              <td colspan="8" style="text-align: center; color: var(--text-muted);">Loading snapshots...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Filters Strip (Includes Time Range & Custom Date Picker) -->
+    <div class="filters-bar">
+      <div class="filters-main-row">
+        <input type="text" id="searchInput" placeholder="Search Name, User ID, or UTR..." oninput="applyFilters()" />
+        <select id="timeRangeFilter" onchange="handleTimeRangeChange()">
+          <option value="ALL">All Time</option>
+          <option value="TODAY">Today (IST)</option>
+          <option value="7DAYS">Last 7 Days</option>
+          <option value="30DAYS">Last 30 Days</option>
+          <option value="CUSTOM">Custom Date Range</option>
+        </select>
+        <select id="langFilter" onchange="applyFilters()">
+          <option value="ALL">All Languages</option>
+          <option value="hi">Hindi (hi)</option>
+          <option value="en">English (en)</option>
+        </select>
+        <select id="statusFilter" onchange="applyFilters()">
+          <option value="ALL">All Payment Statuses</option>
+          <option value="SUCCESS">Success / Paid / Approved</option>
+          <option value="PENDING">Pending Verification</option>
+          <option value="FAILED">Failed / Rejected</option>
+          <option value="NO_RECORD">No Payment Created</option>
+        </select>
+        <select id="premFilter" onchange="applyFilters()">
+          <option value="ALL">All Premium Statuses</option>
+          <option value="TRUE">Active Premium</option>
+          <option value="FALSE">Free / Inactive</option>
+        </select>
+      </div>
+
+      <!-- Custom Date Pickers (Shown when 'Custom Date Range' is selected) -->
+      <div id="customDateRow" class="custom-date-row">
+        <div class="date-input-group">
+          <label for="fromDate">From Date (IST)</label>
+          <input type="date" id="fromDate" onchange="applyFilters()" />
+        </div>
+        <div class="date-input-group">
+          <label for="toDate">To Date (IST)</label>
+          <input type="date" id="toDate" onchange="applyFilters()" />
+        </div>
+        <div style="align-self: flex-end;">
+          <button class="btn btn-secondary" onclick="resetCustomDates()">Reset Dates</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop View: Table -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-index">#</th>
+            <th>User ID</th>
+            <th>Name</th>
+            <th>Language</th>
+            <th>UTR</th>
+            <th>Category Name</th>
+            <th>Payment Status</th>
+            <th>Payment Date (IST)</th>
+            <th>Registered (IST)</th>
+            <th>Premium Access</th>
+            <th style="text-align: center;">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="desktopTableBody">
+          <tr>
+            <td colspan="11" class="empty-state">Loading records from Firestore...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Mobile View: Cards -->
+    <div id="mobileCardsContainer" class="cards-container">
+      <div class="empty-state">Loading records from Firestore...</div>
+    </div>
+  </div>
+
+  <script>
+    // ------------------------------------------------------------------------
+    // 1. FIREBASE INITIALIZATION
+    // ------------------------------------------------------------------------
+    const firebaseConfig = {
+      projectId: "avmoaching621999"
+    };
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+    }
+    const db = firebase.firestore();
+
+    let allRecords = [];
+    let currentFilteredRecords = [];
+
+    // Standardized strict DD-MMM-YYYY, hh:mm:ss a IST formatter
+    function formatIST(rawVal) {
+      if (!rawVal) return "N/A";
+      try {
+        let d;
+        if (rawVal.toDate) d = rawVal.toDate();
+        else if (typeof rawVal === "string") {
+          if (/^\d{2}-[A-Za-z]{3}-\d{4}/.test(rawVal)) return rawVal;
+          d = new Date(rawVal);
+        } else {
+          d = new Date(rawVal);
+        }
+
+        if (isNaN(d.getTime())) return String(rawVal);
+
+        const parts = new Intl.DateTimeFormat('en-GB', {
+          timeZone: 'Asia/Kolkata',
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: true
+        }).formatToParts(d);
+
+        let day = '', month = '', year = '', hour = '', min = '', sec = '', dayPeriod = '';
+        parts.forEach(p => {
+          if (p.type === 'day') day = p.value;
+          if (p.type === 'month') month = p.value;
+          if (p.type === 'year') year = p.value;
+          if (p.type === 'hour') hour = p.value;
+          if (p.type === 'minute') min = p.value;
+          if (p.type === 'second') sec = p.value;
+          if (p.type === 'dayPeriod') dayPeriod = p.value;
+        });
+
+        return `${day}-${month}-${year}, ${hour}:${min}:${sec} ${dayPeriod} IST`;
+      } catch (e) {
+        return "N/A";
+      }
+    }
+
+    // Helper: Extract YYYY-MM-DD Date Key in Asia/Kolkata
+    function parseDateKeyIST(rawVal) {
+      if (!rawVal) return null;
+      try {
+        let d;
+        if (rawVal.toDate) d = rawVal.toDate();
+        else if (typeof rawVal === "string") d = new Date(rawVal);
+        else d = new Date(rawVal);
+
+        if (isNaN(d.getTime())) {
+          const s = String(rawVal);
+          if (s.length >= 10 && s[4] === '-' && s[7] === '-') return s.substring(0, 10);
+          return null;
+        }
+
+        return new Intl.DateTimeFormat('en-CA', {
+          timeZone: 'Asia/Kolkata',
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit'
+        }).format(d); // Strictly YYYY-MM-DD
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function getTodayISTString() {
+      return new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Kolkata',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }).format(new Date());
+    }
+
+    // ------------------------------------------------------------------------
+    // 2. FETCH AND JOIN COLLECTIONS
+    // ------------------------------------------------------------------------
+    async function fetchData() {
+      const mobileBox = document.getElementById("mobileCardsContainer");
+      const desktopBox = document.getElementById("desktopTableBody");
+      mobileBox.innerHTML = `<div class="empty-state">Fetching Firestore records...</div>`;
+      desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state">Fetching Firestore records...</td></tr>`;
+
+      try {
+        const [profilesSnap, paymentsSnap, contentSnap] = await Promise.all([
+          db.collection("user_profile_master").get(),
+          db.collection("payment_requests").get(),
+          db.collection("user_content_master").get()
+        ]);
+
+        const paymentsByUser = {};
+        paymentsSnap.forEach(doc => {
+          const p = doc.data();
+          const uid = p.userId || p.userID || p.uid || p.user_id;
+          if (uid && !paymentsByUser[uid]) {
+            paymentsByUser[uid] = p;
+          }
+        });
+
+        const contentLangByUser = {};
+        contentSnap.forEach(doc => {
+          const c = doc.data();
+          if (c && c.contentLanguage) {
+            contentLangByUser[doc.id] = String(c.contentLanguage).toLowerCase().trim();
+          }
+        });
+
+        const list = [];
+
+        profilesSnap.forEach(doc => {
+          const u = doc.data();
+          const uid = doc.id;
+          const p = paymentsByUser[uid] || null;
+
+          const isPrem = u.premiumAccess === true || String(u.premiumAccess).toLowerCase() === "true";
+          const payStatus = p ? String(p.status || "N/A").toUpperCase() : "NO_RECORD";
+
+          const lang = contentLangByUser[uid] || (u.userLanguage ? String(u.userLanguage).toLowerCase().trim() : "en");
+
+          const regDateKey = parseDateKeyIST(u.createdAt);
+          const payDateKey = p ? parseDateKeyIST(p.createdAt) : null;
+
+          list.push({
+            userId: uid,
+            name: u.name || p?.userName || "N/A",
+            categoryName: p?.categoryName || "N/A",
+            utr: p?.utr || "N/A",
+            userLanguage: lang,
+            paymentStatus: payStatus,
+            paymentDate: p ? formatIST(p.createdAt) : "N/A",
+            profileCreatedAt: formatIST(u.createdAt),
+            regDateKey: regDateKey,
+            payDateKey: payDateKey,
+            premiumAccess: isPrem
+          });
+        });
+
+        allRecords = list;
+
+        applyFilters();
+        loadHistory();
+
+      } catch (err) {
+        console.error(err);
+        mobileBox.innerHTML = `<div class="empty-state" style="color:red;">Error: ${err.message}</div>`;
+        desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state" style="color:red;">Error: ${err.message}</td></tr>`;
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 3. FILTERING WITH DATE RANGE LOGIC
+    // ------------------------------------------------------------------------
+    function handleTimeRangeChange() {
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const customRow = document.getElementById("customDateRow");
+      if (timeRange === "CUSTOM") {
+        customRow.classList.add("active");
+      } else {
+        customRow.classList.remove("active");
+      }
+      applyFilters();
+    }
+
+    function resetCustomDates() {
+      document.getElementById("fromDate").value = "";
+      document.getElementById("toDate").value = "";
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const query = document.getElementById("searchInput").value.trim().toLowerCase();
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const fromDate = document.getElementById("fromDate").value;
+      const toDate = document.getElementById("toDate").value;
+      const langFilter = document.getElementById("langFilter").value;
+      const statusFilter = document.getElementById("statusFilter").value;
+      const premFilter = document.getElementById("premFilter").value;
+
+      const todayStr = getTodayISTString();
+      const todayDate = new Date(todayStr);
+
+      const filtered = allRecords.filter(item => {
+        // Keyword Search
+        const matchQuery = !query || 
+          item.userId.toLowerCase().includes(query) || 
+          item.name.toLowerCase().includes(query) || 
+          item.utr.toLowerCase().includes(query);
+
+        // Language Filter
+        let matchLang = true;
+        if (langFilter !== "ALL") {
+          matchLang = item.userLanguage === langFilter;
+        }
+
+        // Status Filter
+        let matchStatus = true;
+        if (statusFilter === "NO_RECORD") {
+          matchStatus = item.paymentStatus === "NO_RECORD";
+        } else if (statusFilter !== "ALL") {
+          matchStatus = item.paymentStatus.includes(statusFilter);
+        }
+
+        // Premium Filter
+        let matchPrem = true;
+        if (premFilter === "TRUE") matchPrem = item.premiumAccess === true;
+        if (premFilter === "FALSE") matchPrem = item.premiumAccess === false;
+
+        // Date Range Logic (Uses profile creation date, fallback to payment date)
+        let matchDate = true;
+        const targetDateKey = item.regDateKey || item.payDateKey;
+
+        if (timeRange !== "ALL") {
+          if (!targetDateKey) {
+            matchDate = false;
+          } else if (timeRange === "TODAY") {
+            matchDate = targetDateKey === todayStr;
+          } else if (timeRange === "7DAYS") {
+            const itemDate = new Date(targetDateKey);
+            const diffDays = (todayDate - itemDate) / (1000 * 60 * 60 * 24);
+            matchDate = diffDays >= 0 && diffDays <= 7;
+          } else if (timeRange === "30DAYS") {
+            const itemDate = new Date(targetDateKey);
+            const diffDays = (todayDate - itemDate) / (1000 * 60 * 60 * 24);
+            matchDate = diffDays >= 0 && diffDays <= 30;
+          } else if (timeRange === "CUSTOM") {
+            if (fromDate && targetDateKey < fromDate) matchDate = false;
+            if (toDate && targetDateKey > toDate) matchDate = false;
+          }
+        }
+
+        return matchQuery && matchLang && matchStatus && matchPrem && matchDate;
+      });
+
+      currentFilteredRecords = filtered;
+
+      // Update Top KPI Counters for the active filtered set
+      let fPrem = 0, fPaid = 0, fPending = 0, fHindi = 0, fEnglish = 0;
+      filtered.forEach(r => {
+        if (r.premiumAccess) fPrem++;
+        if (["SUCCESS", "PAID", "APPROVED", "COMPLETED"].some(s => r.paymentStatus.includes(s))) fPaid++;
+        if (r.paymentStatus.includes("PENDING")) fPending++;
+        if (r.userLanguage === 'hi') fHindi++;
+        else fEnglish++;
+      });
+
+      document.getElementById("statTotalUsers").innerText = filtered.length;
+      document.getElementById("statPremiumUsers").innerText = fPrem;
+      document.getElementById("statPaidPayments").innerText = fPaid;
+      document.getElementById("statPendingPayments").innerText = fPending;
+      document.getElementById("statHindiUsers").innerText = fHindi;
+      document.getElementById("statEnglishUsers").innerText = fEnglish;
+
+      render(filtered);
+    }
+
+    // ------------------------------------------------------------------------
+    // 4. RENDER DESKTOP & MOBILE VIEWS
+    // ------------------------------------------------------------------------
+    function getStatusBadge(status) {
+      if (["SUCCESS", "PAID", "COMPLETED", "APPROVED"].some(s => status.includes(s))) {
+        return `<span class="badge badge-success">${status}</span>`;
+      } else if (status.includes("PENDING")) {
+        return `<span class="badge badge-warning">${status}</span>`;
+      } else if (["FAILED", "REJECTED"].some(s => status.includes(s))) {
+        return `<span class="badge badge-danger">${status}</span>`;
+      }
+      return `<span class="badge badge-neutral">${status}</span>`;
+    }
+
+    function render(data) {
+      const desktopTbody = document.getElementById("desktopTableBody");
+      const mobileBox = document.getElementById("mobileCardsContainer");
+
+      if (data.length === 0) {
+        desktopTbody.innerHTML = `<tr><td colspan="11" class="empty-state">No matching records found for selected filter.</td></tr>`;
+        mobileBox.innerHTML = `<div class="empty-state">No matching records found for selected filter.</div>`;
+        return;
+      }
+
+      // Desktop table
+      desktopTbody.innerHTML = data.map((r, i) => {
+        const rowNumber = i + 1;
+        const actionBtn = r.premiumAccess
+          ? `<button class="btn-action btn-disable" onclick="toggleAccess('${r.userId}', false, this)">Disable</button>`
+          : `<button class="btn-action btn-enable" onclick="toggleAccess('${r.userId}', true, this)">Enable</button>`;
+
+        const premBadge = r.premiumAccess
+          ? `<span class="badge badge-success">ACTIVE</span>`
+          : `<span class="badge badge-neutral">INACTIVE</span>`;
+
+        const langBadgeClass = r.userLanguage === 'hi' ? 'badge-lang-hi' : 'badge-lang-en';
+
+        return `
+          <tr>
+            <td class="col-index">${rowNumber}</td>
+            <td><code style="font-size:0.75rem;">${r.userId}</code></td>
+            <td><strong>${escape(r.name)}</strong></td>
+            <td><span class="badge ${langBadgeClass}">${escape(r.userLanguage)}</span></td>
+            <td><code>${escape(r.utr)}</code></td>
+            <td>${escape(r.categoryName)}</td>
+            <td>${getStatusBadge(r.paymentStatus)}</td>
+            <td>${r.paymentDate}</td>
+            <td>${r.profileCreatedAt}</td>
+            <td>${premBadge}</td>
+            <td style="text-align:center; white-space:nowrap;">
+              ${actionBtn}
+              <button class="btn-wa-icon" onclick="shareRecordWhatsApp('${r.userId}')">WA</button>
+            </td>
+          </tr>
+        `;
+      }).join("");
+
+      // Mobile cards
+      mobileBox.innerHTML = data.map((r, i) => {
+        const rowNumber = i + 1;
+        const actionBtn = r.premiumAccess
+          ? `<button class="btn-action btn-disable" onclick="toggleAccess('${r.userId}', false, this)">Disable Premium</button>`
+          : `<button class="btn-action btn-enable" onclick="toggleAccess('${r.userId}', true, this)">Enable Premium</button>`;
+
+        const premBadge = r.premiumAccess
+          ? `<span class="badge badge-success">PREMIUM ACTIVE</span>`
+          : `<span class="badge badge-neutral">PREMIUM INACTIVE</span>`;
+
+        const langBadgeClass = r.userLanguage === 'hi' ? 'badge-lang-hi' : 'badge-lang-en';
+
+        return `
+          <div class="record-card">
+            <div class="card-top">
+              <span class="index-pill">#${rowNumber}</span>
+              <div style="display:flex; gap: 4px; align-items:center;">
+                <span class="badge ${langBadgeClass}">${escape(r.userLanguage)}</span>
+                ${premBadge}
+              </div>
+            </div>
+            
+            <div class="card-row">
+              <span class="card-label">Name</span>
+              <span class="card-val"><strong>${escape(r.name)}</strong></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">User ID</span>
+              <span class="card-val"><code style="font-size:0.72rem;">${r.userId}</code></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">UTR</span>
+              <span class="card-val"><code style="font-size:0.78rem;">${escape(r.utr)}</code></span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Category</span>
+              <span class="card-val">${escape(r.categoryName)}</span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Payment Status</span>
+              <span class="card-val">${getStatusBadge(r.paymentStatus)}</span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Payment Date (IST)</span>
+              <span class="card-val">${r.paymentDate}</span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Profile Created (IST)</span>
+              <span class="card-val">${r.profileCreatedAt}</span>
+            </div>
+
+            <div class="card-actions">
+              ${actionBtn}
+              <button class="btn-wa-icon" style="justify-content:center;" onclick="shareRecordWhatsApp('${r.userId}')">📲 Share WhatsApp</button>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // ------------------------------------------------------------------------
+    // 5. WHATSAPP REPORT SHARING
+    // ------------------------------------------------------------------------
+    function shareSummaryWhatsApp() {
+      const nowIST = formatIST(new Date());
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const fromDate = document.getElementById("fromDate").value;
+      const toDate = document.getElementById("toDate").value;
+
+      let filterLabel = "All Time";
+      if (timeRange === "TODAY") filterLabel = "Today";
+      else if (timeRange === "7DAYS") filterLabel = "Last 7 Days";
+      else if (timeRange === "30DAYS") filterLabel = "Last 30 Days";
+      else if (timeRange === "CUSTOM") filterLabel = `Custom (${fromDate || 'Start'} to ${toDate || 'End'})`;
+
+      let fPrem = 0, fPaid = 0, fPending = 0, fHindi = 0, fEnglish = 0;
+      currentFilteredRecords.forEach(r => {
+        if (r.premiumAccess) fPrem++;
+        if (["SUCCESS", "PAID", "APPROVED", "COMPLETED"].some(s => r.paymentStatus.includes(s))) fPaid++;
+        if (r.paymentStatus.includes("PENDING")) fPending++;
+        if (r.userLanguage === 'hi') fHindi++;
+        else fEnglish++;
+      });
+
+      const text = 
+`📊 *AVM Coaching - Audit Report Summary*
+⏰ *Time:* ${nowIST}
+🎯 *Filter Window:* ${filterLabel}
+
+👥 *Total Profiles Counted:* ${currentFilteredRecords.length}
+💎 *Active Premium Users:* ${fPrem}
+✅ *Verified Paid Payments:* ${fPaid}
+⏳ *Pending Verifications:* ${fPending}
+
+🌐 *Language Breakdown:*
+• *Hindi (HI):* ${fHindi}
+• *English (EN):* ${fEnglish}
+
+_Generated via Admin Management Console_`;
+
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+
+    function shareRecordWhatsApp(uid) {
+      const r = allRecords.find(x => x.userId === uid);
+      if (!r) return;
+
+      const text = 
+`👤 *User Audit Record - AVM Coaching*
+• *Name:* ${r.name}
+• *User ID:* ${r.userId}
+• *Language:* ${r.userLanguage.toUpperCase()}
+• *UTR:* ${r.utr}
+• *Category:* ${r.categoryName}
+• *Payment Status:* ${r.paymentStatus}
+• *Premium Status:* ${r.premiumAccess ? 'ACTIVE (TRUE)' : 'INACTIVE (FALSE)'}
+• *Payment Date (IST):* ${r.paymentDate}
+• *Registered (IST):* ${r.profileCreatedAt}`;
+
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+
+    // ------------------------------------------------------------------------
+    // 6. FIRESTORE SNAPSHOT HISTORY (Server Timestamp + Delete Feature)
+    // ------------------------------------------------------------------------
+    async function saveSnapshot() {
+      if (!confirm("Save a permanent snapshot of current metrics including language counts?")) return;
+
+      let fPrem = 0, fPaid = 0, fPending = 0, fHindi = 0, fEnglish = 0;
+      currentFilteredRecords.forEach(r => {
+        if (r.premiumAccess) fPrem++;
+        if (["SUCCESS", "PAID", "APPROVED", "COMPLETED"].some(s => r.paymentStatus.includes(s))) fPaid++;
+        if (r.paymentStatus.includes("PENDING")) fPending++;
+        if (r.userLanguage === 'hi') fHindi++;
+        else fEnglish++;
+      });
+
+      try {
+        const payload = {
+          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+          totalUsers: currentFilteredRecords.length,
+          premiumUsers: fPrem,
+          paidPayments: fPaid,
+          pendingPayments: fPending,
+          hindiUsers: fHindi,
+          englishUsers: fEnglish
+        };
+
+        await db.collection("audit_metrics_history").add(payload);
+        alert("Snapshot successfully stored in 'audit_metrics_history'!");
+        setTimeout(loadHistory, 600);
+      } catch (e) {
+        alert("Failed to save snapshot: " + e.message);
+      }
+    }
+
+    async function loadHistory() {
+      const historyTableBody = document.getElementById("historyTableBody");
+      try {
+        const snap = await db.collection("audit_metrics_history")
+                             .orderBy("timestamp", "desc")
+                             .limit(20)
+                             .get();
+
+        document.getElementById("historyCount").innerText = snap.size;
+
+        if (snap.empty) {
+          historyTableBody.innerHTML = `<tr><td colspan="8" style="text-align:center; color: var(--text-muted);">No snapshots saved yet. Click 'Save Snapshot' above.</td></tr>`;
+          return;
+        }
+
+        let html = "";
+        snap.forEach(doc => {
+          const d = doc.data();
+          const docId = doc.id;
+          const displayDate = d.timestamp ? formatIST(d.timestamp) : (d.formattedDate ? formatIST(d.formattedDate) : "Just Now");
+
+          html += `
+            <tr>
+              <td><strong>${displayDate}</strong></td>
+              <td>${d.totalUsers ?? 0}</td>
+              <td><span style="color: var(--primary); font-weight:700;">${d.premiumUsers ?? 0}</span></td>
+              <td><span style="color: var(--success-text); font-weight:700;">${d.paidPayments ?? 0}</span></td>
+              <td><span style="color: var(--warning-text); font-weight:700;">${d.pendingPayments ?? 0}</span></td>
+              <td><span style="color: #854d0e; font-weight:700;">${d.hindiUsers ?? 0}</span></td>
+              <td><span style="color: #0369a1; font-weight:700;">${d.englishUsers ?? 0}</span></td>
+              <td style="text-align: center;">
+                <button class="btn-delete-snap" onclick="deleteSnapshot('${docId}')">🗑 Delete</button>
+              </td>
+            </tr>
+          `;
+        });
+        historyTableBody.innerHTML = html;
+
+      } catch (err) {
+        historyTableBody.innerHTML = `<tr><td colspan="8" style="color:red;">Error loading history: ${err.message}</td></tr>`;
+      }
+    }
+
+    async function deleteSnapshot(docId) {
+      if (!confirm("Are you sure you want to permanently delete this snapshot?")) return;
+
+      try {
+        await db.collection("audit_metrics_history").doc(docId).delete();
+        loadHistory();
+      } catch (err) {
+        alert("Failed to delete snapshot: " + err.message);
+      }
+    }
+
+    function toggleHistoryView() {
+      const body = document.getElementById("historyBody");
+      const arrow = document.getElementById("historyArrow");
+      if (body.classList.contains("active")) {
+        body.classList.remove("active");
+        arrow.innerText = "▼ Show";
+      } else {
+        body.classList.add("active");
+        arrow.innerText = "▲ Hide";
+      }
+    }
+
+    // ------------------------------------------------------------------------
+    // 7. TOGGLE PREMIUM ACCESS DIRECTLY IN FIRESTORE
+    // ------------------------------------------------------------------------
+    async function toggleAccess(uid, targetState, btn) {
+      const verb = targetState ? "ENABLE" : "DISABLE";
+      if (!confirm(`Are you sure you want to ${verb} premium access for user:\n${uid}?`)) return;
+
+      btn.disabled = true;
+      btn.innerText = "Updating...";
+
+      try {
+        await db.collection("user_profile_master").doc(uid).update({
+          premiumAccess: targetState
+        });
+
+        const item = allRecords.find(x => x.userId === uid);
+        if (item) {
+          item.premiumAccess = targetState;
+        }
+
+        applyFilters();
+      } catch (e) {
+        alert("Firestore Update Failed: " + e.message);
+        btn.disabled = false;
+        btn.innerText = targetState ? "Enable" : "Disable";
+      }
+    }
+
+    function escape(s) {
+      if (!s) return "";
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      })[c]);
+    }
+
+    window.addEventListener("DOMContentLoaded", fetchData);
+  </script>
+</body>
+</html>
