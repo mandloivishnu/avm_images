@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
   <title>संधि शाला - MPBSE कक्षा 10 हिन्दी</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +17,6 @@
           fontFamily: {
             hind: ['Hind', 'sans-serif'],
             tiro: ['"Tiro Devanagari Hindi"', 'serif'],
-          },
-          colors: {
-            mpgold: '#f59e0b',
-            mpdark: '#070b14',
-            mpcard: '#0f172a',
-            mpsurface: '#17233f'
           }
         }
       }
@@ -32,8 +28,19 @@
       user-select: none;
       box-sizing: border-box;
     }
+    html {
+      background: #ffffff;
+      -webkit-text-size-adjust: 100%;
+    }
     body {
       font-family: 'Hind', sans-serif;
+      background: #ffffff;
+      color: #1e293b;
+      min-height: 100vh;
+      min-height: 100dvh;
+      overflow-x: hidden;
+      /* room for fixed bottom nav + Android gesture/navigation bar */
+      padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
     }
     .tiro-font {
       font-family: 'Tiro Devanagari Hindi', serif;
@@ -48,42 +55,61 @@
     .touch-btn:active {
       transform: scale(0.96);
     }
+
+    /* ---------- Android / notch safe areas ---------- */
+    .app-header {
+      padding-top: calc(env(safe-area-inset-top, 0px) + 0.5rem);
+      padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+      padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
+      padding-bottom: 0.5rem;
+    }
+    .app-main {
+      padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+      padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
+    }
+    .app-nav {
+      padding-top: 0.375rem;
+      padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.375rem);
+      padding-left: max(0.75rem, env(safe-area-inset-left, 0px));
+      padding-right: max(0.75rem, env(safe-area-inset-right, 0px));
+    }
+
     @keyframes pulseGlow {
-      0%, 100% { border-color: rgba(245, 158, 11, 0.35); box-shadow: 0 0 15px rgba(245, 158, 11, 0.1); }
-      50% { border-color: rgba(245, 158, 11, 0.7); box-shadow: 0 0 25px rgba(245, 158, 11, 0.25); }
+      0%, 100% { border-color: rgba(217, 119, 6, 0.35); box-shadow: 0 2px 10px rgba(245, 158, 11, 0.10); }
+      50% { border-color: rgba(217, 119, 6, 0.70); box-shadow: 0 4px 18px rgba(245, 158, 11, 0.25); }
     }
     .glow-card {
       animation: pulseGlow 3s infinite ease-in-out;
     }
   </style>
 </head>
-<body class="bg-mpdark text-slate-100 min-h-screen pb-28 antialiased selection:bg-amber-500 selection:text-black">
+<body class="antialiased selection:bg-amber-300 selection:text-black">
 
-  <!-- TOP APP BAR (Optimized for Android Status Bar) -->
-  <header class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md border-b border-amber-500/20 px-3 py-2 shadow-lg">
-    <div class="flex items-center justify-between gap-2 mb-2">
+  <!-- TOP APP BAR (Safe-area aware for Android status bar / notch) -->
+  <header class="app-header sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-amber-300 shadow-sm">
+    <div class="flex items-center justify-between gap-2">
       <div class="flex items-center gap-2 min-w-0">
         <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-amber-600 to-yellow-400 flex-shrink-0 flex items-center justify-center text-slate-950 font-black text-base sm:text-lg tiro-font shadow-md shadow-amber-500/30">
           सं
         </div>
         <div class="min-w-0">
-          <h1 class="text-xs sm:text-base font-bold text-amber-300 tiro-font tracking-wide leading-tight flex items-center flex-wrap gap-1">
+          <h1 class="text-xs sm:text-base font-bold text-amber-700 tiro-font tracking-wide leading-tight flex items-center flex-wrap gap-1">
             संधि शाला
-            <span class="text-[8px] sm:text-[9px] bg-amber-500/20 text-amber-300 font-sans px-1.5 py-0.2 rounded font-bold border border-amber-500/30">10th MPBSE</span>
+            <span class="text-[8px] sm:text-[9px] bg-amber-100 text-amber-800 font-sans px-1.5 py-0.5 rounded font-bold border border-amber-300">10th MPBSE</span>
           </h1>
-          <p class="text-[10px] text-slate-400 truncate">प्ले & लर्न स्मार्ट व्याकरण</p>
+          <p class="text-[10px] text-slate-500 truncate">प्ले & लर्न स्मार्ट व्याकरण</p>
         </div>
       </div>
 
       <!-- Category Filter Pills (स्वर, व्यंजन, विसर्ग) -->
-      <div class="flex bg-slate-950/90 p-0.5 rounded-xl border border-slate-800 text-xs shadow-inner flex-shrink-0">
+      <div class="flex bg-slate-100 p-0.5 rounded-xl border border-slate-200 text-xs shadow-inner flex-shrink-0">
         <button onclick="setSandhiCategory('swar')" id="pill-swar" class="px-2 sm:px-2.5 py-1 rounded-lg font-bold transition text-[11px] sm:text-xs touch-btn bg-amber-500 text-slate-950 shadow">
           स्वर
         </button>
-        <button onclick="setSandhiCategory('vyanjan')" id="pill-vyanjan" class="px-2 sm:px-2.5 py-1 rounded-lg font-medium transition text-[11px] sm:text-xs touch-btn text-slate-300 hover:text-white">
+        <button onclick="setSandhiCategory('vyanjan')" id="pill-vyanjan" class="px-2 sm:px-2.5 py-1 rounded-lg font-medium transition text-[11px] sm:text-xs touch-btn text-slate-600">
           व्यंजन
         </button>
-        <button onclick="setSandhiCategory('visarg')" id="pill-visarg" class="px-2 sm:px-2.5 py-1 rounded-lg font-medium transition text-[11px] sm:text-xs touch-btn text-slate-300 hover:text-white">
+        <button onclick="setSandhiCategory('visarg')" id="pill-visarg" class="px-2 sm:px-2.5 py-1 rounded-lg font-medium transition text-[11px] sm:text-xs touch-btn text-slate-600">
           विसर्ग
         </button>
       </div>
@@ -91,130 +117,128 @@
   </header>
 
   <!-- ============================================================== -->
-  <!-- TAB 1: LEARN MODE (1. परिभाषा -> 2. नियम व ट्रिक -> 3. शब्द बैंक) -->
+  <!-- TAB 1: LEARN MODE                                              -->
   <!-- ============================================================== -->
-  <main id="learn-view" class="max-w-md mx-auto px-3 pt-3 space-y-3">
+  <main id="learn-view" class="app-main max-w-md mx-auto pt-3 space-y-3">
 
-    <!-- 1. परिभाषा कार्ड (Dynamic Definition) -->
-    <section class="bg-gradient-to-br from-slate-900 via-slate-900 to-amber-950/20 border border-amber-500/30 rounded-2xl p-3 sm:p-3.5 shadow-md">
+    <!-- 1. परिभाषा कार्ड -->
+    <section class="bg-gradient-to-br from-white via-white to-amber-50 border border-amber-300 rounded-2xl p-3 sm:p-3.5 shadow-sm">
       <div class="flex flex-wrap items-center justify-between gap-1.5 mb-1.5">
         <div class="flex items-center gap-1.5 flex-wrap">
-          <span class="text-[9px] sm:text-[10px] bg-amber-500/20 text-amber-300 border border-amber-500/30 px-2 py-0.5 rounded-full font-bold">
+          <span class="text-[9px] sm:text-[10px] bg-amber-100 text-amber-800 border border-amber-300 px-2 py-0.5 rounded-full font-bold">
             १. परिभाषा
           </span>
-          <h2 id="def-title" class="text-xs sm:text-sm font-bold text-amber-200 tiro-font">
+          <h2 id="def-title" class="text-xs sm:text-sm font-bold text-amber-800 tiro-font">
             स्वर संधि किसे कहते हैं?
           </h2>
         </div>
-        <span id="def-total-words-badge" class="text-[9px] sm:text-[10px] font-mono text-amber-400 bg-slate-950/80 px-2 py-0.5 rounded-full border border-slate-800 flex-shrink-0">
+        <span id="def-total-words-badge" class="text-[9px] sm:text-[10px] font-mono text-amber-700 bg-slate-100 px-2 py-0.5 rounded-full border border-slate-200 flex-shrink-0">
           १३ शब्द उपलब्ध
         </span>
       </div>
-      <p id="def-text" class="text-xs text-slate-300 leading-relaxed break-words">
+      <p id="def-text" class="text-xs text-slate-700 leading-relaxed break-words">
         दो स्वरों के आपस में मिलने से जो विकार उत्पन्न होता है, उसे <b>स्वर संधि</b> कहते हैं। MP बोर्ड में इसके मुख्य रूप से ५ भेद पूछे जाते हैं।
       </p>
     </section>
 
-    <!-- 2. प्रमुख नियम व शॉर्टकट ट्रिक (Mnemonics Hub) -->
-    <section class="bg-slate-900/90 border border-slate-800 rounded-2xl p-3 sm:p-3.5 space-y-2.5 shadow-sm">
-      <div class="flex items-center justify-between border-b border-slate-800/80 pb-2">
+    <!-- 2. प्रमुख नियम व शॉर्टकट ट्रिक -->
+    <section class="bg-white border border-slate-200 rounded-2xl p-3 sm:p-3.5 space-y-2.5 shadow-sm">
+      <div class="flex items-center justify-between border-b border-slate-200 pb-2">
         <div class="flex items-center gap-1.5 flex-wrap">
-          <span class="text-[9px] sm:text-[10px] bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2 py-0.5 rounded-full font-bold">
+          <span class="text-[9px] sm:text-[10px] bg-indigo-100 text-indigo-700 border border-indigo-200 px-2 py-0.5 rounded-full font-bold">
             २. प्रमुख नियम व ट्रिक
           </span>
-          <span class="text-xs text-slate-300 font-semibold">रामबाण पहचान</span>
+          <span class="text-xs text-slate-700 font-semibold">रामबाण पहचान</span>
         </div>
-        <span id="rules-count-label" class="text-[10px] text-amber-400/90 font-mono font-bold flex-shrink-0">
+        <span id="rules-count-label" class="text-[10px] text-amber-700 font-mono font-bold flex-shrink-0">
           ५ प्रमुख भेद
         </span>
       </div>
-      
-      <!-- Rules container rendered dynamically -->
+
       <div id="rules-container" class="space-y-2"></div>
     </section>
 
-    <!-- 3. एक्टिव शब्द व विच्छेद विश्लेषण (Selected Word Focus Card) -->
-    <section class="bg-gradient-to-b from-[#111c33] to-[#0c1324] border border-amber-500/40 rounded-2xl p-3 sm:p-3.5 shadow-xl glow-card relative overflow-hidden">
+    <!-- 3. एक्टिव शब्द व विच्छेद विश्लेषण -->
+    <section class="bg-gradient-to-b from-amber-50 to-white border border-amber-300 rounded-2xl p-3 sm:p-3.5 shadow-lg glow-card relative overflow-hidden">
       <div class="flex flex-wrap items-center justify-between gap-1.5 mb-2">
-        <span id="card-bhed" class="text-[10px] sm:text-[11px] font-bold text-amber-300 bg-amber-500/20 border border-amber-500/30 px-2 py-0.5 rounded-full leading-tight">
+        <span id="card-bhed" class="text-[10px] sm:text-[11px] font-bold text-amber-800 bg-amber-100 border border-amber-300 px-2 py-0.5 rounded-full leading-tight">
           दीर्घ स्वर संधि
         </span>
-        <span class="text-[9px] sm:text-[10px] text-emerald-400 font-bold bg-emerald-950/70 border border-emerald-500/40 px-2 py-0.5 rounded-full flex items-center gap-1 flex-shrink-0">
-          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> MP बोर्ड परीक्षा स्पेशल
+        <span class="text-[9px] sm:text-[10px] text-emerald-700 font-bold bg-emerald-50 border border-emerald-300 px-2 py-0.5 rounded-full flex items-center gap-1 flex-shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span> MP बोर्ड परीक्षा स्पेशल
         </span>
       </div>
 
       <!-- Word Equation Display -->
-      <div class="text-center py-2.5 px-2 bg-slate-950/80 rounded-xl border border-slate-800/80 mb-2.5 shadow-inner">
-        <div class="text-[9px] sm:text-[10px] uppercase tracking-wider text-slate-400 mb-0.5 font-semibold">संधि विच्छेद एवं मेल</div>
-        <div id="card-equation" class="text-base sm:text-xl font-bold text-amber-300 tiro-font tracking-wide break-words">
-          विद्या + आलय = <span class="text-white underline decoration-amber-400 underline-offset-4 font-black">विद्यालय</span>
+      <div class="text-center py-2.5 px-2 bg-white rounded-xl border border-slate-200 mb-2.5 shadow-inner">
+        <div class="text-[9px] sm:text-[10px] uppercase tracking-wider text-slate-500 mb-0.5 font-semibold">संधि विच्छेद एवं मेल</div>
+        <div id="card-equation" class="text-base sm:text-xl font-bold text-amber-700 tiro-font tracking-wide break-words">
+          विद्या + आलय = <span class="text-slate-900 underline decoration-amber-500 underline-offset-4 font-black">विद्यालय</span>
         </div>
-        <div id="card-formula" class="text-[10px] sm:text-xs text-amber-400/90 mt-1 font-mono font-semibold break-words">
+        <div id="card-formula" class="text-[10px] sm:text-xs text-amber-700 mt-1 font-mono font-semibold break-words">
           सूत्र: आ + आ = आ (अकः सवर्णे दीर्घः)
         </div>
       </div>
 
       <!-- Quick Word Trick Card -->
-      <div class="bg-amber-500/10 border border-amber-500/25 rounded-xl p-2.5 flex items-start gap-2">
+      <div class="bg-amber-50 border border-amber-200 rounded-xl p-2.5 flex items-start gap-2">
         <span class="text-sm leading-none mt-0.5 flex-shrink-0">💡</span>
         <div class="flex-1 min-w-0">
-          <div class="text-[11px] font-bold text-amber-300">पहचानने की ट्रिक:</div>
-          <div id="card-trick" class="text-xs text-slate-200 leading-snug mt-0.5 break-words">
+          <div class="text-[11px] font-bold text-amber-800">पहचानने की ट्रिक:</div>
+          <div id="card-trick" class="text-xs text-slate-700 leading-snug mt-0.5 break-words">
             शब्द के बीच में 'आ' (ा), 'ई' (ी) या 'ऊ' (ू) की बड़ी मात्रा दिखेगी।
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. शब्द बैंक ग्रिड (Interactive 3-Column Touch Word Grid) -->
-    <section class="bg-slate-900/70 border border-slate-800/90 rounded-2xl p-3 space-y-2">
+    <!-- 4. शब्द बैंक ग्रिड -->
+    <section class="bg-slate-50 border border-slate-200 rounded-2xl p-3 space-y-2">
       <div class="flex items-center justify-between">
         <div class="flex items-center gap-1.5">
-          <span class="text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full font-bold">
+          <span class="text-[10px] bg-emerald-100 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full font-bold">
             ३. शब्द बैंक
           </span>
-          <span class="text-xs text-slate-300 font-semibold">टैप करके विश्लेषण बदलें</span>
+          <span class="text-xs text-slate-700 font-semibold">टैप करके विश्लेषण बदलें</span>
         </div>
-        <span id="word-grid-counter" class="text-[10px] text-slate-400 font-mono flex-shrink-0">
+        <span id="word-grid-counter" class="text-[10px] text-slate-500 font-mono flex-shrink-0">
           कुल शब्द: १३
         </span>
       </div>
 
-      <!-- 3-Column Responsive Grid -->
       <div id="word-chips-grid" class="grid grid-cols-3 gap-1.5 sm:gap-2 pt-1 max-h-72 overflow-y-auto no-scrollbar pr-0.5">
         <!-- Rendered by JS -->
       </div>
     </section>
 
   </main>
+
   <!-- ============================================================== -->
-  <!-- TAB 2: QUIZ / TEST MODE (अभ्यास प्रश्न - MP Board Quiz Hub)      -->
+  <!-- TAB 2: QUIZ / TEST MODE                                        -->
   <!-- ============================================================== -->
-  <main id="quiz-view" class="hidden max-w-md mx-auto px-3 pt-3 space-y-3">
+  <main id="quiz-view" class="app-main hidden max-w-md mx-auto pt-3 space-y-3">
 
     <!-- Score, Progress & Streak Bar -->
-    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-3 shadow-md flex items-center justify-between gap-2">
+    <div class="bg-white border border-slate-200 rounded-2xl p-3 shadow-sm flex items-center justify-between gap-2">
       <div>
-        <div class="text-[9px] sm:text-[10px] text-slate-400 font-bold uppercase tracking-wider flex items-center gap-1">
+        <div class="text-[9px] sm:text-[10px] text-slate-500 font-bold uppercase tracking-wider flex items-center gap-1">
           <span>MP बोर्ड परीक्षा सिमुलेटर</span>
         </div>
-        <div class="text-xs font-bold text-amber-300 flex items-center gap-1 mt-0.5">
-          <span>प्रश्न: <span id="q-current" class="text-white font-mono font-black text-sm">1</span> / <span id="q-total" class="font-mono">10</span></span>
+        <div class="text-xs font-bold text-amber-700 flex items-center gap-1 mt-0.5">
+          <span>प्रश्न: <span id="q-current" class="text-slate-900 font-mono font-black text-sm">1</span> / <span id="q-total" class="font-mono">10</span></span>
         </div>
       </div>
 
-      <!-- Streak and Total Marks -->
       <div class="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-        <div class="text-center px-2 py-1 rounded-lg bg-slate-950 border border-slate-800">
-          <div class="text-[8px] sm:text-[9px] text-slate-400">लगातार सही</div>
-          <div id="q-streak" class="text-xs font-bold text-amber-400 flex items-center justify-center gap-0.5">
+        <div class="text-center px-2 py-1 rounded-lg bg-slate-50 border border-slate-200">
+          <div class="text-[8px] sm:text-[9px] text-slate-500">लगातार सही</div>
+          <div id="q-streak" class="text-xs font-bold text-amber-600 flex items-center justify-center gap-0.5">
             🔥 <span>0</span>
           </div>
         </div>
         <div class="text-right">
-          <div class="text-[8px] sm:text-[9px] text-slate-400">कुल अंक</div>
-          <div id="q-score" class="text-sm sm:text-base font-black text-emerald-400 font-mono">
+          <div class="text-[8px] sm:text-[9px] text-slate-500">कुल अंक</div>
+          <div id="q-score" class="text-sm sm:text-base font-black text-emerald-600 font-mono">
             0 / 20
           </div>
         </div>
@@ -222,37 +246,35 @@
     </div>
 
     <!-- Active Question Card -->
-    <div class="bg-gradient-to-b from-[#11192e] to-[#0c1220] border border-amber-500/30 rounded-2xl p-3.5 sm:p-4 space-y-3 shadow-xl">
+    <div class="bg-gradient-to-b from-white to-amber-50/60 border border-amber-300 rounded-2xl p-3.5 sm:p-4 space-y-3 shadow-md">
       <div class="flex items-center justify-between">
-        <span id="quiz-q-tag" class="text-[10px] bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 px-2.5 py-0.5 rounded-full font-bold">
+        <span id="quiz-q-tag" class="text-[10px] bg-indigo-100 text-indigo-700 border border-indigo-200 px-2.5 py-0.5 rounded-full font-bold">
           व्यंजन संधि स्पेशल
         </span>
-        <span class="text-[10px] text-amber-400 font-bold font-mono">
+        <span class="text-[10px] text-amber-700 font-bold font-mono">
           +2 अंक
         </span>
       </div>
 
-      <h3 id="quiz-question" class="text-sm sm:text-base font-bold text-white tiro-font leading-relaxed tracking-wide min-h-[44px] flex items-center break-words">
+      <h3 id="quiz-question" class="text-sm sm:text-base font-bold text-slate-900 tiro-font leading-relaxed tracking-wide min-h-[44px] flex items-center break-words">
         'सज्जन' शब्द का सही संधि विच्छेद क्या होगा?
       </h3>
 
-      <!-- 4 Options Container -->
       <div id="quiz-options" class="space-y-2 pt-1">
         <!-- Options injected here -->
       </div>
     </div>
 
     <!-- Explanation & Result Feedback Card -->
-    <div id="quiz-feedback" class="hidden bg-slate-900 border border-slate-700/80 rounded-2xl p-3.5 space-y-2 shadow-lg transition-all">
+    <div id="quiz-feedback" class="hidden bg-white border border-slate-200 rounded-2xl p-3.5 space-y-2 shadow-md transition-all">
       <div class="flex items-center justify-between gap-1 flex-wrap">
-        <div id="feedback-badge" class="text-xs font-bold text-emerald-400 flex items-center gap-1">
+        <div id="feedback-badge" class="text-xs font-bold text-emerald-600 flex items-center gap-1">
           ✓ सही उत्तर! (+2 अंक)
         </div>
-        <span class="text-[9px] sm:text-[10px] text-slate-400 font-mono">बोर्ड नियम विश्लेषण</span>
+        <span class="text-[9px] sm:text-[10px] text-slate-500 font-mono">बोर्ड नियम विश्लेषण</span>
       </div>
-      
-      <p id="feedback-text" class="text-xs text-slate-200 leading-relaxed bg-slate-950/80 p-2.5 rounded-xl border border-slate-800 break-words">
-        <!-- Explanation text -->
+
+      <p id="feedback-text" class="text-xs text-slate-700 leading-relaxed bg-slate-50 p-2.5 rounded-xl border border-slate-200 break-words">
       </p>
 
       <button onclick="nextQuizQuestion()" class="w-full py-2.5 bg-gradient-to-r from-amber-500 to-amber-600 active:from-amber-600 active:to-amber-700 text-slate-950 font-bold text-xs rounded-xl shadow-md touch-btn flex items-center justify-center gap-1.5">
@@ -261,22 +283,22 @@
       </button>
     </div>
 
-    <!-- Quiz Completion Card (Hidden by default) -->
-    <div id="quiz-summary-card" class="hidden bg-gradient-to-b from-[#16233f] to-[#0d1627] border border-amber-500/40 rounded-2xl p-4 sm:p-5 text-center space-y-3.5 shadow-2xl">
+    <!-- Quiz Completion Card -->
+    <div id="quiz-summary-card" class="hidden bg-gradient-to-b from-amber-50 to-white border border-amber-300 rounded-2xl p-4 sm:p-5 text-center space-y-3.5 shadow-lg">
       <div class="text-4xl animate-bounce">🏆</div>
       <div>
-        <h4 class="text-base sm:text-lg font-bold text-amber-300 tiro-font">अभ्यास सत्र समाप्त!</h4>
-        <p class="text-xs text-slate-300 mt-1">आपकी MPBSE बोर्ड संधि तैयारी रिपोर्ट:</p>
+        <h4 class="text-base sm:text-lg font-bold text-amber-800 tiro-font">अभ्यास सत्र समाप्त!</h4>
+        <p class="text-xs text-slate-600 mt-1">आपकी MPBSE बोर्ड संधि तैयारी रिपोर्ट:</p>
       </div>
-      
-      <div class="grid grid-cols-2 gap-2 bg-slate-950/80 p-3 rounded-xl border border-slate-800">
+
+      <div class="grid grid-cols-2 gap-2 bg-white p-3 rounded-xl border border-slate-200">
         <div>
-          <div class="text-[10px] text-slate-400">कुल प्राप्तांक</div>
-          <div id="summary-score" class="text-base sm:text-lg font-black text-emerald-400 font-mono">0 / 20</div>
+          <div class="text-[10px] text-slate-500">कुल प्राप्तांक</div>
+          <div id="summary-score" class="text-base sm:text-lg font-black text-emerald-600 font-mono">0 / 20</div>
         </div>
         <div>
-          <div class="text-[10px] text-slate-400">सटीकता (Accuracy)</div>
-          <div id="summary-accuracy" class="text-base sm:text-lg font-black text-amber-400 font-mono">0%</div>
+          <div class="text-[10px] text-slate-500">सटीकता (Accuracy)</div>
+          <div id="summary-accuracy" class="text-base sm:text-lg font-black text-amber-600 font-mono">0%</div>
         </div>
       </div>
 
@@ -286,16 +308,17 @@
     </div>
 
   </main>
+
   <!-- ============================================================== -->
-  <!-- FIXED BOTTOM NAVIGATION BAR (Thumb Zone Optimized)            -->
+  <!-- FIXED BOTTOM NAVIGATION BAR (Safe-area aware)                  -->
   <!-- ============================================================== -->
-  <nav class="fixed bottom-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-md border-t border-slate-800/90 py-1.5 px-3 sm:px-4 shadow-2xl">
+  <nav class="app-nav fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-t border-slate-200 shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
     <div class="max-w-md mx-auto grid grid-cols-2 gap-2 sm:gap-3">
-      <button onclick="switchTab('learn')" id="nav-btn-learn" class="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30">
+      <button onclick="switchTab('learn')" id="nav-btn-learn" class="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-amber-700 bg-amber-100 border border-amber-300">
         <span class="text-base sm:text-lg leading-none mb-0.5">📖</span>
         <span class="text-[10px] sm:text-[11px] font-bold">सीखें व समझें</span>
       </button>
-      <button onclick="switchTab('quiz')" id="nav-btn-quiz" class="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-slate-400 border border-transparent hover:text-white">
+      <button onclick="switchTab('quiz')" id="nav-btn-quiz" class="flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-slate-500 border border-transparent">
         <span class="text-base sm:text-lg leading-none mb-0.5">🎯</span>
         <span class="text-[10px] sm:text-[11px] font-bold">अभ्यास प्रश्न</span>
       </button>
@@ -528,13 +551,24 @@
     ];
 
     // -------------------------------------------------------------
-    // 4. App State Variables
+    // 4. App State Variables + shared style strings
     // -------------------------------------------------------------
     let currentCategory = 'swar';
     let activeWordId = 's1';
     let currentQuizIndex = 0;
     let quizScore = 0;
     let streakCount = 0;
+
+    const STYLE = {
+      pillOn: "px-2 sm:px-2.5 py-1 rounded-lg font-bold transition text-[11px] sm:text-xs touch-btn bg-amber-500 text-slate-950 shadow",
+      pillOff: "px-2 sm:px-2.5 py-1 rounded-lg font-medium transition text-[11px] sm:text-xs touch-btn text-slate-600",
+      navOn: "flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-amber-700 bg-amber-100 border border-amber-300",
+      navOff: "flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-slate-500 border border-transparent",
+      optBase: "quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl bg-white border border-slate-300 text-xs text-slate-800 font-semibold hover:border-amber-500 transition-all touch-btn flex items-center justify-between gap-2",
+      optRight: "quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl border border-emerald-500 bg-emerald-50 text-emerald-800 font-bold text-xs flex items-center justify-between gap-2 shadow-sm",
+      optRightSoft: "quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl border border-emerald-500 bg-emerald-50 text-emerald-800 font-bold text-xs flex items-center justify-between gap-2",
+      optWrong: "quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl border border-red-500 bg-red-50 text-red-800 font-bold text-xs flex items-center justify-between gap-2 shadow-sm"
+    };
 
     // -------------------------------------------------------------
     // 5. Navigation & View Switcher
@@ -549,15 +583,16 @@
       if (tab === 'learn') {
         learnView.classList.remove('hidden');
         quizView.classList.add('hidden');
-        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30";
-        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-slate-400 border border-transparent hover:text-white";
+        btnLearn.className = STYLE.navOn;
+        btnQuiz.className = STYLE.navOff;
       } else {
         learnView.classList.add('hidden');
         quizView.classList.remove('hidden');
-        btnQuiz.className = "flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-amber-400 bg-amber-500/10 border border-amber-500/30";
-        btnLearn.className = "flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all touch-btn text-slate-400 border border-transparent hover:text-white";
+        btnQuiz.className = STYLE.navOn;
+        btnLearn.className = STYLE.navOff;
         renderQuizCard();
       }
+      window.scrollTo(0, 0);
     }
 
     // -------------------------------------------------------------
@@ -569,11 +604,7 @@
 
       ['swar', 'vyanjan', 'visarg'].forEach(c => {
         const pill = document.getElementById(`pill-${c}`);
-        if (c === cat) {
-          pill.className = "px-2 sm:px-2.5 py-1 rounded-lg font-bold transition text-[11px] sm:text-xs touch-btn bg-amber-500 text-slate-950 shadow";
-        } else {
-          pill.className = "px-2 sm:px-2.5 py-1 rounded-lg font-medium transition text-[11px] sm:text-xs touch-btn text-slate-300 hover:text-white";
-        }
+        pill.className = (c === cat) ? STYLE.pillOn : STYLE.pillOff;
       });
 
       activeWordId = sandhiDatabase[cat].words[0].id;
@@ -594,13 +625,13 @@
 
       const rulesBox = document.getElementById('rules-container');
       rulesBox.innerHTML = data.rules.map(r => `
-        <div class="bg-slate-950/80 border border-slate-800 rounded-xl p-2.5">
-          <div class="flex flex-wrap items-center justify-between text-xs font-bold text-amber-300 mb-1 gap-1">
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-2.5">
+          <div class="flex flex-wrap items-center justify-between text-xs font-bold text-amber-700 mb-1 gap-1">
             <span>📌 ${r.name}</span>
-            <span class="text-[9px] sm:text-[10px] text-slate-400 font-mono break-all">${r.formula}</span>
+            <span class="text-[9px] sm:text-[10px] text-slate-500 font-mono break-all">${r.formula}</span>
           </div>
-          <p class="text-[11px] text-slate-200 leading-normal break-words">
-            <span class="text-amber-400 font-semibold">पहचान:</span> ${r.trick}
+          <p class="text-[11px] text-slate-700 leading-normal break-words">
+            <span class="text-amber-700 font-semibold">पहचान:</span> ${r.trick}
           </p>
         </div>
       `).join('');
@@ -615,14 +646,14 @@
       const chipsBox = document.getElementById('word-chips-grid');
       chipsBox.innerHTML = words.map(w => {
         const isActive = w.id === activeWordId;
-        const activeStyles = isActive 
-          ? "bg-gradient-to-tr from-amber-500 to-amber-400 text-slate-950 font-black border-amber-300 shadow-md scale-[1.01]" 
-          : "bg-slate-950/80 border-slate-800 text-slate-200 hover:border-amber-400/60";
+        const activeStyles = isActive
+          ? "bg-gradient-to-tr from-amber-500 to-amber-400 text-slate-950 font-black border-amber-600 shadow-md scale-[1.01]"
+          : "bg-white border-slate-200 text-slate-800 hover:border-amber-500";
 
         return `
           <button onclick="handleWordSelect('${w.id}')" class="py-2 px-1 rounded-xl border text-center transition-all touch-btn flex flex-col items-center justify-center min-w-0 ${activeStyles}">
             <span class="text-[11px] sm:text-xs font-bold block truncate max-w-full">${w.word}</span>
-            <span class="text-[8px] sm:text-[9px] ${isActive ? 'text-slate-950/80 font-bold' : 'text-slate-400'} truncate block mt-0.5">
+            <span class="text-[8px] sm:text-[9px] ${isActive ? 'text-slate-900 font-bold' : 'text-slate-500'} truncate block mt-0.5">
               ${w.bhed.replace(' स्वर संधि', '').replace(' संधि', '')}
             </span>
           </button>
@@ -643,7 +674,7 @@
 
     function updateActiveWordCard(item) {
       document.getElementById('card-bhed').innerText = item.bhed;
-      document.getElementById('card-equation').innerHTML = `${item.vigrah} = <span class="text-white underline decoration-amber-400 underline-offset-4 font-black">${item.word}</span>`;
+      document.getElementById('card-equation').innerHTML = `${item.vigrah} = <span class="text-slate-900 underline decoration-amber-500 underline-offset-4 font-black">${item.word}</span>`;
       document.getElementById('card-formula').innerText = `सूत्र: ${item.formula}`;
       document.getElementById('card-trick').innerText = item.trick;
     }
@@ -668,9 +699,9 @@
 
       const optionsBox = document.getElementById('quiz-options');
       optionsBox.innerHTML = q.options.map((opt, i) => `
-        <button onclick="handleAnswer(${i})" class="quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-100 font-semibold hover:border-amber-400/80 transition-all touch-btn flex items-center justify-between gap-2">
+        <button onclick="handleAnswer(${i})" class="${STYLE.optBase}">
           <span class="leading-snug break-words">${opt}</span>
-          <span class="text-slate-600 text-xs flex-shrink-0">○</span>
+          <span class="text-slate-400 text-xs flex-shrink-0">○</span>
         </button>
       `).join('');
     }
@@ -693,32 +724,34 @@
         document.getElementById('q-score').innerText = `${quizScore} / ${quizQuestions.length * 2}`;
         document.getElementById('q-streak').innerHTML = `🔥 <span>${streakCount}</span>`;
 
-        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl border border-emerald-500 bg-emerald-950/60 text-emerald-200 font-bold text-xs flex items-center justify-between gap-2 shadow";
-        buttons[selectedIdx].innerHTML = `<span class="leading-snug break-words">${q.options[selectedIdx]}</span> <span class="text-emerald-400 font-bold flex-shrink-0">✓</span>`;
+        buttons[selectedIdx].className = STYLE.optRight;
+        buttons[selectedIdx].innerHTML = `<span class="leading-snug break-words">${q.options[selectedIdx]}</span> <span class="text-emerald-600 font-bold flex-shrink-0">✓</span>`;
         badge.innerText = "✓ सही उत्तर! (+2 अंक प्राप्त)";
-        badge.className = "text-xs font-bold text-emerald-400 flex items-center gap-1";
+        badge.className = "text-xs font-bold text-emerald-600 flex items-center gap-1";
       } else {
         AudioFX.incorrect();
         streakCount = 0;
         document.getElementById('q-streak').innerHTML = `🔥 <span>0</span>`;
 
-        buttons[selectedIdx].className = "quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl border border-red-500 bg-red-950/60 text-red-200 font-bold text-xs flex items-center justify-between gap-2 shadow";
-        buttons[selectedIdx].innerHTML = `<span class="leading-snug break-words">${q.options[selectedIdx]}</span> <span class="text-red-400 font-bold flex-shrink-0">✗</span>`;
+        buttons[selectedIdx].className = STYLE.optWrong;
+        buttons[selectedIdx].innerHTML = `<span class="leading-snug break-words">${q.options[selectedIdx]}</span> <span class="text-red-600 font-bold flex-shrink-0">✗</span>`;
 
-        buttons[q.ans].className = "quiz-opt-btn w-full text-left p-2.5 sm:p-3 rounded-xl border border-emerald-500/80 bg-emerald-950/40 text-emerald-300 font-bold text-xs flex items-center justify-between gap-2";
-        buttons[q.ans].innerHTML = `<span class="leading-snug break-words">${q.options[q.ans]}</span> <span class="text-emerald-400 font-bold flex-shrink-0">✓</span>`;
+        buttons[q.ans].className = STYLE.optRightSoft;
+        buttons[q.ans].innerHTML = `<span class="leading-snug break-words">${q.options[q.ans]}</span> <span class="text-emerald-600 font-bold flex-shrink-0">✓</span>`;
 
         badge.innerText = "✗ गलत उत्तर! (सही उत्तर पर ध्यान दें)";
-        badge.className = "text-xs font-bold text-red-400 flex items-center gap-1";
+        badge.className = "text-xs font-bold text-red-600 flex items-center gap-1";
       }
 
       text.innerHTML = `<strong>विश्लेषण:</strong> ${q.exp}`;
+      feedbackBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
     function nextQuizQuestion() {
       AudioFX.tap();
       currentQuizIndex++;
       renderQuizCard();
+      window.scrollTo(0, 0);
     }
 
     function showQuizSummary() {
