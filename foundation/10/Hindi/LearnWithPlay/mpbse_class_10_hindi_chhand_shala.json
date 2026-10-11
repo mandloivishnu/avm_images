@@ -1,0 +1,23 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "छंद शाला",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "BLUEPRINT",
+      "marks": "",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "statement": "",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation/10/Hindi/LearnWithPlay/mpbse_class_10_hindi_chhand_shala.html"
+        }
+      ]
+    }
+  ]
+}
