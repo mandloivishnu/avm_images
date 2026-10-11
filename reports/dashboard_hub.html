@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>AVM Coaching - Admin Portal Hub</title>
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-hover: #1d4ed8;
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface-hover: #334155;
+      --border: #334155;
+      --border-accent: #38bdf8;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      
+      --accent-blue: #0284c7;
+      --accent-emerald: #059669;
+      --accent-amber: #d97706;
+      --accent-indigo: #6366f1;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      padding: 12px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding: 24px 16px;
+      }
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Top Brand Header */
+    header {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    @media (min-width: 768px) {
+      header {
+        margin-bottom: 26px;
+      }
+    }
+
+    .logo-badge {
+      width: 48px;
+      height: 48px;
+      margin: 0 auto 10px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #2563eb, #38bdf8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1.15rem;
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+    }
+
+    header h1 {
+      font-size: 1.2rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+    }
+
+    @media (min-width: 768px) {
+      header h1 {
+        font-size: 1.45rem;
+      }
+    }
+
+    header p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Portal Navigation Grid (Single column on mobile, 2 columns on laptops) */
+    .portal-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    @media (min-width: 768px) {
+      .portal-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+    }
+
+    .portal-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (min-width: 768px) {
+      .portal-card {
+        padding: 16px 18px;
+        border-radius: 14px;
+      }
+    }
+
+    .portal-card:hover {
+      background: var(--surface-hover);
+      border-color: var(--border-accent);
+      transform: translateY(-2px);
+    }
+
+    .portal-card:active {
+      transform: scale(0.98);
+      background: var(--surface-hover);
+    }
+
+    .card-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      flex: 1;
+    }
+
+    .icon-box {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+    }
+
+    @media (min-width: 768px) {
+      .icon-box {
+        width: 46px;
+        height: 46px;
+        border-radius: 12px;
+        font-size: 1.25rem;
+      }
+    }
+
+    .icon-executive { background: rgba(2, 132, 199, 0.2); border: 1px solid rgba(2, 132, 199, 0.4); }
+    .icon-datewise  { background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.4); }
+    .icon-feedback  { background: rgba(217, 119, 6, 0.2);   border: 1px solid rgba(217, 119, 6, 0.4); }
+    .icon-verify    { background: rgba(5, 150, 105, 0.2); border: 1px solid rgba(5, 150, 105, 0.4); }
+
+    .card-info {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .card-info h2 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.3;
+      word-break: break-word;
+    }
+
+    @media (min-width: 768px) {
+      .card-info h2 {
+        font-size: 0.96rem;
+      }
+    }
+
+    .card-info p {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+      line-height: 1.35;
+      word-break: break-word;
+    }
+
+    .card-arrow {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+      transition: transform 0.2s ease;
+    }
+
+    .portal-card:hover .card-arrow {
+      color: #ffffff;
+      transform: translateX(3px);
+    }
+
+    /* Target Mode Toggle */
+    .target-bar {
+      margin-top: 16px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .switch-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 18px;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Brand Header -->
+    <header>
+      <div class="logo-badge">AVM</div>
+      <h1>Admin Management Portal</h1>
+      <p>Coaching Operations, Audit & Analytics Console</p>
+    </header>
+
+    <!-- Navigation Hub Cards -->
+    <div class="portal-grid">
+      <!-- 1. Daily Executive Summary -->
+      <a href="daily_executive_summary.html" class="portal-card" id="link-exec">
+        <div class="card-left">
+          <div class="icon-box icon-executive">📊</div>
+          <div class="card-info">
+            <h2>Daily Executive Summary</h2>
+            <p>Full-funnel KPI metrics, daily improvement notes & auto-snapshots</p>
+          </div>
+        </div>
+        <div class="card-arrow">➔</div>
+      </a>
+
+      <!-- 2. Date-Wise Activity Report -->
+      <a href="datewise_report.html" class="portal-card" id="link-date">
+        <div class="card-left">
+          <div class="icon-box icon-datewise">🗓️</div>
+          <div class="card-info">
+            <h2>Date-Wise Activity Report</h2>
+            <p>Chronological daily registrations, active premium & language ratio (IST)</p>
+          </div>
+        </div>
+        <div class="card-arrow">➔</div>
+      </a>
+
+      <!-- 3. Feedback & Rating Analysis -->
+      <a href="feedback_analysis.html" class="portal-card" id="link-fb">
+        <div class="card-left">
+          <div class="icon-box icon-feedback">⭐</div>
+          <div class="card-info">
+            <h2>Feedback & Rating Analysis</h2>
+            <p>Student ratings, user comments, action items & work-on status tracker</p>
+          </div>
+        </div>
+        <div class="card-arrow">➔</div>
+      </a>
+
+      <!-- 4. Payment Verification & Audit Portal -->
+      <a href="verify_pay_status.html" class="portal-card" id="link-verify">
+        <div class="card-left">
+          <div class="icon-box icon-verify">💳</div>
+          <div class="card-info">
+            <h2>Payment Verification & Audit</h2>
+            <p>UTR verification, payment request status & user premium toggle</p>
+          </div>
+        </div>
+        <div class="card-arrow">➔</div>
+      </a>
+    </div>
+
+    <!-- Toggle for New Tab vs Same Tab Navigation -->
+    <div class="target-bar">
+      <span>Navigation Mode</span>
+      <label class="switch-label">
+        <input type="checkbox" id="openNewTabToggle" onchange="toggleLinkTarget(this.checked)" />
+        <span>Open in new tab</span>
+      </label>
+    </div>
+
+    <!-- Footer Note -->
+    <footer>
+      AVM Coaching Operations • Mobile Android & Laptop Responsive
+    </footer>
+  </div>
+
+  <script>
+    function toggleLinkTarget(openInNewTab) {
+      const links = document.querySelectorAll('.portal-card');
+      links.forEach(link => {
+        if (openInNewTab) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+        } else {
+          link.removeAttribute('target');
+          link.removeAttribute('rel');
+        }
+      });
+      localStorage.setItem('avm_open_in_new_tab', openInNewTab ? 'true' : 'false');
+    }
+
+    // Restore user preference
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedPref = localStorage.getItem('avm_open_in_new_tab') === 'true';
+      const checkbox = document.getElementById('openNewTabToggle');
+      if (checkbox) {
+        checkbox.checked = savedPref;
+        toggleLinkTarget(savedPref);
+      }
+    });
+  </script>
+</body>
+</html>

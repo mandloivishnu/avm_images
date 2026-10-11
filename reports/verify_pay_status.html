@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <title>AVM Coaching - Verification Portal & Audit History</title>
 
   <!-- Firebase App & Firestore SDKs (v10 Compat) -->
@@ -43,7 +43,7 @@
     body {
       background-color: var(--bg);
       color: var(--text-main);
-      padding: 12px;
+      padding: 10px;
       line-height: 1.4;
     }
 
@@ -55,7 +55,7 @@
     /* Top Bar */
     header {
       background: var(--surface);
-      padding: 14px 18px;
+      padding: 12px 14px;
       border-radius: 12px;
       display: flex;
       flex-direction: column;
@@ -70,11 +70,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 14px 18px;
       }
     }
 
     header h1 {
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       font-weight: 700;
       letter-spacing: -0.01em;
     }
@@ -82,14 +83,14 @@
     .header-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 6px;
     }
 
     .btn {
-      padding: 8px 12px;
+      padding: 7px 10px;
       border-radius: 8px;
       font-weight: 600;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       cursor: pointer;
       border: none;
       display: inline-flex;
@@ -111,8 +112,14 @@
     .kpi-row {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
+      gap: 8px;
       margin-bottom: 12px;
+    }
+
+    @media (min-width: 640px) {
+      .kpi-row {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
 
     @media (min-width: 900px) {
@@ -123,14 +130,14 @@
 
     .kpi-card {
       background: var(--surface);
-      padding: 12px 14px;
+      padding: 10px 12px;
       border-radius: 10px;
       border: 1px solid var(--border);
       box-shadow: 0 1px 2px rgba(0,0,0,0.02);
     }
 
     .kpi-card span {
-      font-size: 0.70rem;
+      font-size: 0.65rem;
       color: var(--text-muted);
       text-transform: uppercase;
       font-weight: 700;
@@ -138,7 +145,7 @@
     }
 
     .kpi-card h3 {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
       font-weight: 800;
       margin-top: 2px;
     }
@@ -153,7 +160,7 @@
     }
 
     .history-header {
-      padding: 12px 16px;
+      padding: 10px 14px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -163,13 +170,13 @@
     }
 
     .history-header h4 {
-      font-size: 0.88rem;
+      font-size: 0.82rem;
       font-weight: 700;
       color: var(--text-main);
     }
 
     .history-body {
-      padding: 12px 16px;
+      padding: 10px 12px;
       overflow-x: auto;
       display: none;
     }
@@ -181,11 +188,11 @@
     .history-table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
     }
 
     .history-table th, .history-table td {
-      padding: 8px 10px;
+      padding: 7px 9px;
       border-bottom: 1px solid var(--border);
       text-align: left;
       white-space: nowrap;
@@ -200,19 +207,19 @@
     /* Filters Bar */
     .filters-bar {
       background: var(--surface);
-      padding: 12px 14px;
+      padding: 10px 12px;
       border-radius: 10px;
       border: 1px solid var(--border);
       margin-bottom: 12px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .filters-main-row {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 8px;
+      gap: 6px;
     }
 
     @media (min-width: 768px) {
@@ -223,11 +230,17 @@
 
     .custom-date-row {
       display: none;
-      grid-template-columns: 1fr 1fr auto;
+      grid-template-columns: 1fr;
       gap: 8px;
-      align-items: center;
+      align-items: flex-end;
       padding-top: 8px;
       border-top: 1px dashed var(--border);
+    }
+
+    @media (min-width: 540px) {
+      .custom-date-row {
+        grid-template-columns: 1fr 1fr auto;
+      }
     }
 
     .custom-date-row.active {
@@ -237,21 +250,21 @@
     .date-input-group {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 3px;
     }
 
     .date-input-group label {
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       font-weight: 700;
       color: var(--text-muted);
       text-transform: uppercase;
     }
 
     input, select {
-      padding: 9px 12px;
+      padding: 8px 10px;
       border: 1px solid var(--border-dark);
       border-radius: 8px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       outline: none;
       background: #ffffff;
       width: 100%;
@@ -275,14 +288,14 @@
       width: 100%;
       border-collapse: collapse;
       text-align: left;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
     }
 
     th {
       background: #f8fafc;
       color: #334155;
       font-weight: 700;
-      padding: 12px 12px;
+      padding: 10px 10px;
       border-bottom: 2px solid var(--border);
       border-right: 1px solid var(--border);
       white-space: nowrap;
@@ -291,7 +304,7 @@
     }
 
     td {
-      padding: 10px 12px;
+      padding: 8px 10px;
       border-bottom: 1px solid var(--border);
       border-right: 1px solid var(--border);
       white-space: nowrap;
@@ -302,7 +315,7 @@
     tr:hover { background-color: #f1f5f9; }
 
     td.col-index, th.col-index {
-      width: 44px;
+      width: 36px;
       text-align: center;
       font-weight: 700;
       color: var(--text-muted);
@@ -312,9 +325,9 @@
     /* Badges */
     .badge {
       display: inline-block;
-      padding: 3px 7px;
+      padding: 2px 6px;
       border-radius: 5px;
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       font-weight: 700;
       text-transform: uppercase;
     }
@@ -328,10 +341,10 @@
 
     /* Action Buttons */
     .btn-action {
-      padding: 6px 10px;
+      padding: 5px 8px;
       border-radius: 6px;
       border: none;
-      font-size: 0.76rem;
+      font-size: 0.72rem;
       font-weight: 600;
       cursor: pointer;
       text-align: center;
@@ -346,25 +359,25 @@
     .btn-wa-icon {
       background: var(--whatsapp);
       color: white;
-      padding: 6px 8px;
+      padding: 5px 7px;
       border-radius: 6px;
       border: none;
-      font-size: 0.76rem;
+      font-size: 0.72rem;
       font-weight: 700;
       cursor: pointer;
       text-decoration: none;
       display: inline-flex;
       align-items: center;
-      gap: 3px;
+      gap: 2px;
     }
 
     .btn-delete-snap {
       background: #ef4444;
       color: white;
       border: none;
-      padding: 4px 8px;
+      padding: 3px 6px;
       border-radius: 4px;
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       font-weight: 600;
       cursor: pointer;
       transition: background 0.15s;
@@ -377,14 +390,14 @@
     .cards-container {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .record-card {
       background: var(--surface);
       border-radius: 10px;
       border: 1px solid var(--border);
-      padding: 14px;
+      padding: 10px 12px;
       box-shadow: 0 1px 2px rgba(0,0,0,0.03);
     }
 
@@ -392,42 +405,48 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 8px;
-      padding-bottom: 8px;
+      margin-bottom: 6px;
+      padding-bottom: 6px;
       border-bottom: 1px dashed var(--border);
+      flex-wrap: wrap;
+      gap: 4px;
     }
 
     .index-pill {
       background: #0f172a;
       color: #ffffff;
       font-weight: 800;
-      font-size: 0.72rem;
-      padding: 2px 8px;
-      border-radius: 12px;
+      font-size: 0.68rem;
+      padding: 2px 7px;
+      border-radius: 10px;
     }
 
     .card-row {
       display: flex;
       justify-content: space-between;
-      font-size: 0.81rem;
-      padding: 3px 0;
+      align-items: flex-start;
+      font-size: 0.78rem;
+      padding: 2.5px 0;
+      gap: 8px;
     }
 
     .card-label {
       color: var(--text-muted);
+      flex-shrink: 0;
     }
 
     .card-val {
       font-weight: 500;
       text-align: right;
+      word-break: break-word;
     }
 
     .card-actions {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      margin-top: 10px;
-      padding-top: 8px;
+      gap: 6px;
+      margin-top: 8px;
+      padding-top: 6px;
       border-top: 1px solid var(--border);
     }
 
@@ -438,9 +457,9 @@
 
     .empty-state {
       text-align: center;
-      padding: 36px 16px;
+      padding: 28px 12px;
       color: var(--text-muted);
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
   </style>
 </head>
@@ -451,7 +470,7 @@
     <header>
       <div>
         <h1>AVM Coaching Admin</h1>
-        <small style="color: var(--text-muted); font-size: 0.75rem;">Payment Verification & User Audit (IST Timezone)</small>
+        <small style="color: var(--text-muted); font-size: 0.72rem;">Payment Verification & User Audit (Sorted: Newest First | IST)</small>
       </div>
       <div class="header-actions">
         <button class="btn btn-whatsapp" onclick="shareSummaryWhatsApp()">📲 WhatsApp Summary</button>
@@ -492,7 +511,7 @@
     <div class="history-card">
       <div class="history-header" onclick="toggleHistoryView()">
         <h4>🕒 Audit Snapshot History (<span id="historyCount">0</span> snapshots)</h4>
-        <span id="historyArrow" style="font-size: 0.8rem; color: var(--text-muted);">▼ Show</span>
+        <span id="historyArrow" style="font-size: 0.78rem; color: var(--text-muted);">▼ Show</span>
       </div>
       <div id="historyBody" class="history-body">
         <table class="history-table">
@@ -547,7 +566,7 @@
         </select>
       </div>
 
-      <!-- Custom Date Pickers (Shown when 'Custom Date Range' is selected) -->
+      <!-- Custom Date Pickers -->
       <div id="customDateRow" class="custom-date-row">
         <div class="date-input-group">
           <label for="fromDate">From Date (IST)</label>
@@ -557,13 +576,13 @@
           <label for="toDate">To Date (IST)</label>
           <input type="date" id="toDate" onchange="applyFilters()" />
         </div>
-        <div style="align-self: flex-end;">
-          <button class="btn btn-secondary" onclick="resetCustomDates()">Reset Dates</button>
+        <div>
+          <button class="btn btn-secondary" style="width: 100%;" onclick="resetCustomDates()">Reset Dates</button>
         </div>
       </div>
     </div>
 
-    <!-- Desktop View: Table -->
+    <!-- Desktop View: Table (Original Column Order Maintained) -->
     <div class="table-container">
       <table>
         <thead>
@@ -610,6 +629,19 @@
 
     let allRecords = [];
     let currentFilteredRecords = [];
+
+    // Helper: Safely extract raw millisecond timestamp for exact chronological sorting
+    function extractRawTime(rawVal) {
+      if (!rawVal) return 0;
+      try {
+        if (rawVal.toMillis) return rawVal.toMillis();
+        if (rawVal.toDate) return rawVal.toDate().getTime();
+        const d = new Date(rawVal);
+        return isNaN(d.getTime()) ? 0 : d.getTime();
+      } catch (e) {
+        return 0;
+      }
+    }
 
     // Standardized strict DD-MMM-YYYY, hh:mm:ss a IST formatter
     function formatIST(rawVal) {
@@ -674,7 +706,7 @@
           year: 'numeric',
           month: '2-digit',
           day: '2-digit'
-        }).format(d); // Strictly YYYY-MM-DD
+        }).format(d);
       } catch (e) {
         return null;
       }
@@ -737,6 +769,11 @@
           const regDateKey = parseDateKeyIST(u.createdAt);
           const payDateKey = p ? parseDateKeyIST(p.createdAt) : null;
 
+          // Priority to registration date, fallback to payment date for primary timestamp
+          const regRaw = extractRawTime(u.createdAt);
+          const payRaw = p ? extractRawTime(p.createdAt) : 0;
+          const sortTimestamp = regRaw > 0 ? regRaw : payRaw;
+
           list.push({
             userId: uid,
             name: u.name || p?.userName || "N/A",
@@ -748,9 +785,13 @@
             profileCreatedAt: formatIST(u.createdAt),
             regDateKey: regDateKey,
             payDateKey: payDateKey,
+            sortTimestamp: sortTimestamp,
             premiumAccess: isPrem
           });
         });
+
+        // Strict Chronological Sort: Descending (Newest date & time first)
+        list.sort((a, b) => b.sortTimestamp - a.sortTimestamp);
 
         allRecords = list;
 
@@ -822,7 +863,7 @@
         if (premFilter === "TRUE") matchPrem = item.premiumAccess === true;
         if (premFilter === "FALSE") matchPrem = item.premiumAccess === false;
 
-        // Date Range Logic (Uses profile creation date, fallback to payment date)
+        // Date Range Logic
         let matchDate = true;
         const targetDateKey = item.regDateKey || item.payDateKey;
 
@@ -848,6 +889,9 @@
         return matchQuery && matchLang && matchStatus && matchPrem && matchDate;
       });
 
+      // Maintain Chronological Sort (Newest first)
+      filtered.sort((a, b) => b.sortTimestamp - a.sortTimestamp);
+
       currentFilteredRecords = filtered;
 
       // Update Top KPI Counters for the active filtered set
@@ -870,9 +914,9 @@
       render(filtered);
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 4. RENDER DESKTOP & MOBILE VIEWS
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     function getStatusBadge(status) {
       if (["SUCCESS", "PAID", "COMPLETED", "APPROVED"].some(s => status.includes(s))) {
         return `<span class="badge badge-success">${status}</span>`;
@@ -894,7 +938,7 @@
         return;
       }
 
-      // Desktop table
+      // Desktop table (Original column positions preserved)
       desktopTbody.innerHTML = data.map((r, i) => {
         const rowNumber = i + 1;
         const actionBtn = r.premiumAccess
@@ -960,7 +1004,7 @@
             </div>
             <div class="card-row">
               <span class="card-label">UTR</span>
-              <span class="card-val"><code style="font-size:0.78rem;">${escape(r.utr)}</code></span>
+              <span class="card-val"><code style="font-size:0.75rem;">${escape(r.utr)}</code></span>
             </div>
             <div class="card-row">
               <span class="card-label">Category</span>
@@ -975,22 +1019,22 @@
               <span class="card-val">${r.paymentDate}</span>
             </div>
             <div class="card-row">
-              <span class="card-label">Profile Created (IST)</span>
-              <span class="card-val">${r.profileCreatedAt}</span>
+              <span class="card-label">Registered (IST)</span>
+              <span class="card-val" style="color:var(--primary); font-weight:700;">${r.profileCreatedAt}</span>
             </div>
 
             <div class="card-actions">
               ${actionBtn}
-              <button class="btn-wa-icon" style="justify-content:center;" onclick="shareRecordWhatsApp('${r.userId}')">📲 Share WhatsApp</button>
+              <button class="btn-wa-icon" style="justify-content:center;" onclick="shareRecordWhatsApp('${r.userId}')">📲 Share WA</button>
             </div>
           </div>
         `;
       }).join("");
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 5. WHATSAPP REPORT SHARING
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     function shareSummaryWhatsApp() {
       const nowIST = formatIST(new Date());
       const timeRange = document.getElementById("timeRangeFilter").value;
@@ -1045,16 +1089,16 @@ _Generated via Admin Management Console_`;
 • *Category:* ${r.categoryName}
 • *Payment Status:* ${r.paymentStatus}
 • *Premium Status:* ${r.premiumAccess ? 'ACTIVE (TRUE)' : 'INACTIVE (FALSE)'}
-• *Payment Date (IST):* ${r.paymentDate}
-• *Registered (IST):* ${r.profileCreatedAt}`;
+• *Registered (IST):* ${r.profileCreatedAt}
+• *Payment Date (IST):* ${r.paymentDate}`;
 
       const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
       window.open(url, '_blank');
     }
 
-    // ------------------------------------------------------------------------
-    // 6. FIRESTORE SNAPSHOT HISTORY (Server Timestamp + Delete Feature)
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
+    // 6. FIRESTORE SNAPSHOT HISTORY
+    // -------------------------------------------------------------
     async function saveSnapshot() {
       if (!confirm("Save a permanent snapshot of current metrics including language counts?")) return;
 
@@ -1152,9 +1196,9 @@ _Generated via Admin Management Console_`;
       }
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 7. TOGGLE PREMIUM ACCESS DIRECTLY IN FIRESTORE
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     async function toggleAccess(uid, targetState, btn) {
       const verb = targetState ? "ENABLE" : "DISABLE";
       if (!confirm(`Are you sure you want to ${verb} premium access for user:\n${uid}?`)) return;

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <title>AVM Coaching - Date-Wise Executive Analytics & Improvement</title>
 
   <!-- Firebase App & Firestore SDKs (v10 Compat) -->
@@ -44,8 +44,9 @@
     body {
       background-color: var(--bg);
       color: var(--text-main);
-      padding: 12px;
+      padding: 10px;
       line-height: 1.4;
+      min-height: 100vh;
     }
 
     .wrapper {
@@ -56,7 +57,7 @@
     /* Top Bar */
     header {
       background: var(--surface);
-      padding: 14px 18px;
+      padding: 12px 14px;
       border-radius: 12px;
       display: flex;
       flex-direction: column;
@@ -71,11 +72,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 14px 18px;
       }
     }
 
     header h1 {
-      font-size: 1.18rem;
+      font-size: 1.1rem;
       font-weight: 700;
       letter-spacing: -0.01em;
     }
@@ -83,14 +85,14 @@
     .header-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 6px;
     }
 
     .btn {
-      padding: 8px 12px;
+      padding: 7px 11px;
       border-radius: 8px;
       font-weight: 600;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       cursor: pointer;
       border: none;
       display: inline-flex;
@@ -98,6 +100,7 @@
       gap: 4px;
       transition: all 0.15s ease;
       color: #fff;
+      white-space: nowrap;
     }
 
     .btn-primary { background: var(--primary); }
@@ -110,8 +113,14 @@
     .kpi-row {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
+      gap: 8px;
       margin-bottom: 12px;
+    }
+
+    @media (min-width: 640px) {
+      .kpi-row {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
 
     @media (min-width: 900px) {
@@ -122,14 +131,14 @@
 
     .kpi-card {
       background: var(--surface);
-      padding: 12px 14px;
+      padding: 10px 12px;
       border-radius: 10px;
       border: 1px solid var(--border);
       box-shadow: 0 1px 2px rgba(0,0,0,0.02);
     }
 
     .kpi-card span {
-      font-size: 0.68rem;
+      font-size: 0.65rem;
       color: var(--text-muted);
       text-transform: uppercase;
       font-weight: 700;
@@ -137,13 +146,13 @@
     }
 
     .kpi-card h3 {
-      font-size: 1.35rem;
+      font-size: 1.15rem;
       font-weight: 800;
       margin-top: 2px;
     }
 
     .kpi-card small {
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       color: var(--text-muted);
       display: block;
       margin-top: 2px;
@@ -152,19 +161,19 @@
     /* Filters Bar */
     .filters-bar {
       background: var(--surface);
-      padding: 12px 14px;
+      padding: 10px 12px;
       border-radius: 10px;
       border: 1px solid var(--border);
       margin-bottom: 12px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .filters-main-row {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 8px;
+      gap: 6px;
     }
 
     @media (min-width: 768px) {
@@ -175,11 +184,17 @@
 
     .custom-date-row {
       display: none;
-      grid-template-columns: 1fr 1fr auto;
+      grid-template-columns: 1fr;
       gap: 8px;
-      align-items: center;
+      align-items: flex-end;
       padding-top: 8px;
       border-top: 1px dashed var(--border);
+    }
+
+    @media (min-width: 540px) {
+      .custom-date-row {
+        grid-template-columns: 1fr 1fr auto;
+      }
     }
 
     .custom-date-row.active {
@@ -189,21 +204,21 @@
     .date-input-group {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 3px;
     }
 
     .date-input-group label {
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       font-weight: 700;
       color: var(--text-muted);
       text-transform: uppercase;
     }
 
     input, select {
-      padding: 9px 12px;
+      padding: 8px 10px;
       border: 1px solid var(--border-dark);
       border-radius: 8px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       outline: none;
       background: #ffffff;
       width: 100%;
@@ -213,7 +228,7 @@
       border-color: var(--primary);
     }
 
-    /* Table Container (Desktop) */
+    /* Table Container (Desktop / Laptop) */
     .table-container {
       display: none;
       background: var(--surface);
@@ -228,14 +243,14 @@
       width: 100%;
       border-collapse: collapse;
       text-align: left;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
     }
 
     th {
       background: #f8fafc;
       color: #334155;
       font-weight: 700;
-      padding: 10px 12px;
+      padding: 10px 10px;
       border-bottom: 2px solid var(--border);
       border-right: 1px solid var(--border);
       white-space: nowrap;
@@ -244,7 +259,7 @@
     }
 
     td {
-      padding: 10px 12px;
+      padding: 8px 10px;
       border-bottom: 1px solid var(--border);
       border-right: 1px solid var(--border);
       white-space: nowrap;
@@ -255,7 +270,7 @@
     tr:hover { background-color: #f1f5f9; }
 
     td.col-index, th.col-index {
-      width: 44px;
+      width: 38px;
       text-align: center;
       font-weight: 700;
       color: var(--text-muted);
@@ -265,9 +280,9 @@
     /* Badges */
     .badge {
       display: inline-block;
-      padding: 3px 8px;
-      border-radius: 6px;
-      font-size: 0.72rem;
+      padding: 2.5px 7px;
+      border-radius: 5px;
+      font-size: 0.68rem;
       font-weight: 700;
     }
 
@@ -285,12 +300,13 @@
       padding: 5px 8px;
       border-radius: 6px;
       border: none;
-      font-size: 0.74rem;
+      font-size: 0.72rem;
       font-weight: 700;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 3px;
+      gap: 2px;
+      white-space: nowrap;
     }
 
     .btn-save-row {
@@ -302,29 +318,31 @@
       font-size: 0.72rem;
       font-weight: 600;
       cursor: pointer;
+      white-space: nowrap;
     }
 
     .btn-edit-note {
       background: #f1f5f9;
       border: 1px solid var(--border-dark);
-      padding: 4px 6px;
-      border-radius: 4px;
+      padding: 5px 8px;
+      border-radius: 5px;
       font-size: 0.72rem;
       cursor: pointer;
+      white-space: nowrap;
     }
 
-    /* Cards View (Mobile) */
+    /* Cards View (Mobile Android Screens) */
     .cards-container {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .date-card {
       background: var(--surface);
       border-radius: 10px;
       border: 1px solid var(--border);
-      padding: 14px;
+      padding: 10px 12px;
       box-shadow: 0 1px 2px rgba(0,0,0,0.03);
     }
 
@@ -332,29 +350,34 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 8px;
-      padding-bottom: 8px;
+      margin-bottom: 6px;
+      padding-bottom: 6px;
       border-bottom: 1px dashed var(--border);
+      flex-wrap: wrap;
+      gap: 4px;
     }
 
     .index-pill {
       background: #0f172a;
       color: #ffffff;
       font-weight: 800;
-      font-size: 0.72rem;
-      padding: 2px 8px;
-      border-radius: 12px;
+      font-size: 0.68rem;
+      padding: 2px 7px;
+      border-radius: 10px;
     }
 
     .card-row {
       display: flex;
       justify-content: space-between;
-      font-size: 0.81rem;
-      padding: 4px 0;
+      align-items: center;
+      font-size: 0.78rem;
+      padding: 3px 0;
+      gap: 8px;
     }
 
     .card-label {
       color: var(--text-muted);
+      flex-shrink: 0;
     }
 
     .card-val {
@@ -367,19 +390,20 @@
       padding: 8px 10px;
       background: #f8fafc;
       border-radius: 6px;
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       font-style: italic;
       color: #334155;
       border: 1px solid var(--border);
       white-space: normal;
       word-break: break-word;
+      line-height: 1.35;
     }
 
     .card-actions {
       display: flex;
       gap: 6px;
-      margin-top: 10px;
-      padding-top: 8px;
+      margin-top: 8px;
+      padding-top: 6px;
       border-top: 1px solid var(--border);
     }
 
@@ -390,9 +414,9 @@
 
     .empty-state {
       text-align: center;
-      padding: 36px 16px;
+      padding: 28px 12px;
       color: var(--text-muted);
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
   </style>
 </head>
@@ -403,7 +427,7 @@
     <header>
       <div>
         <h1>AVM Coaching Date-Wise Analytics & Improvements</h1>
-        <small style="color: var(--text-muted); font-size: 0.75rem;">Daily Grouped Funnel, Auto-Snapshot Tracking & Notes (IST)</small>
+        <small style="color: var(--text-muted); font-size: 0.72rem;">Daily Grouped Funnel & Snapshots (Sorted: Newest First | IST)</small>
       </div>
       <div class="header-actions">
         <button class="btn btn-whatsapp" onclick="shareFullSummaryWhatsApp()">📲 WhatsApp Summary</button>
@@ -441,14 +465,14 @@
       <div class="kpi-card">
         <span>Saved Snapshots</span>
         <h3 id="statSavedDays" style="color: var(--primary);">0</h3>
-        <small id="statActiveDays">0 active days</small>
+        <small id="statActiveDays">0 active dates</small>
       </div>
     </div>
 
     <!-- Filters Strip with 7/15/30 Days & Custom Range -->
     <div class="filters-bar">
       <div class="filters-main-row">
-        <input type="text" id="searchInput" placeholder="Search by date (e.g. Oct-2026 or 2026)..." oninput="applyFilters()" />
+        <input type="text" id="searchInput" placeholder="Search by date (e.g. Oct-2026 or 2026) or notes..." oninput="applyFilters()" />
         <select id="timeRangeFilter" onchange="handleTimeRangeChange()">
           <option value="ALL">All Time</option>
           <option value="TODAY">Today (IST)</option>
@@ -460,7 +484,7 @@
         <select id="snapshotFilter" onchange="applyFilters()">
           <option value="ALL">All Dates</option>
           <option value="SAVED">Only Saved Snapshots</option>
-          <option value="UNSAVED">Only Unsaved / Pending Snapshot</option>
+          <option value="UNSAVED">Only Pending Snapshots</option>
         </select>
       </div>
 
@@ -474,13 +498,13 @@
           <label for="toDate">To Date (IST)</label>
           <input type="date" id="toDate" onchange="applyFilters()" />
         </div>
-        <div style="align-self: flex-end;">
-          <button class="btn btn-secondary" onclick="resetCustomDates()">Reset Dates</button>
+        <div>
+          <button class="btn btn-secondary" style="width: 100%;" onclick="resetCustomDates()">Reset Dates</button>
         </div>
       </div>
     </div>
 
-    <!-- Desktop Date-Wise Table -->
+    <!-- Desktop Date-Wise Table (Laptop / Desktop) -->
     <div class="table-container">
       <table>
         <thead>
@@ -506,16 +530,16 @@
       </table>
     </div>
 
-    <!-- Mobile Cards View -->
+    <!-- Mobile Cards View (Android Phones) -->
     <div id="mobileCardsContainer" class="cards-container">
       <div class="empty-state">Loading date-wise data from Firestore...</div>
     </div>
   </div>
 
   <script>
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 1. FIREBASE INITIALIZATION
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     const firebaseConfig = {
       projectId: "avmoaching621999"
     };
@@ -529,7 +553,7 @@
 
     let allDateRows = [];
     let currentFilteredRows = [];
-    let savedSnapshotsMap = {}; // targetDate (YYYY-MM-DD) -> snapshot document data
+    let savedSnapshotsMap = {};
 
     // Helper: Format YYYY-MM-DD -> DD-MMM-YYYY
     function formatToDDMMMYYYY(isoDateStr) {
@@ -588,7 +612,7 @@
         return new Intl.DateTimeFormat('en-CA', {
           timeZone: 'Asia/Kolkata',
           year: 'numeric', month: '2-digit', day: '2-digit'
-        }).format(d); // YYYY-MM-DD
+        }).format(d);
       } catch (e) {
         return null;
       }
@@ -601,9 +625,9 @@
       }).format(new Date());
     }
 
-    // ------------------------------------------------------------------------
-    // 2. FETCH ALL DATA & JOIN DATE-WISE
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
+    // 2. FETCH ALL DATA, JOIN & SORT CHRONOLOGICALLY
+    // -------------------------------------------------------------
     async function loadAllCollections() {
       const mobileBox = document.getElementById("mobileCardsContainer");
       const desktopBox = document.getElementById("desktopTableBody");
@@ -718,8 +742,8 @@
         // Include any dates that exist in savedSnapshotsMap
         Object.keys(savedSnapshotsMap).forEach(k => ensureDate(k));
 
-        // Sort dates descending
-        const allSortedDates = Object.keys(dateAgg).sort().reverse();
+        // Strict Chronological Sort: Descending (Newest YYYY-MM-DD date first)
+        const allSortedDates = Object.keys(dateAgg).sort((a, b) => b.localeCompare(a));
         const todayKey = getTodayISTString();
 
         allDateRows = allSortedDates.map(k => {
@@ -764,9 +788,9 @@
       }
     }
 
-    // ------------------------------------------------------------------------
-    // 3. FILTERING (Presets, Custom Dates & Saved State)
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
+    // 3. FILTERING WITH STRICT CHRONOLOGICAL PRESERVATION
+    // -------------------------------------------------------------
     function handleTimeRangeChange() {
       const timeRange = document.getElementById("timeRangeFilter").value;
       const customRow = document.getElementById("customDateRow");
@@ -827,13 +851,16 @@
         return matchSearch && matchTime && matchSaved;
       });
 
+      // Strict Sorting: Always newest date first
+      filtered.sort((a, b) => b.dateKey.localeCompare(a.dateKey));
+
       currentFilteredRows = filtered;
       renderTableAndCards(filtered);
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 4. RENDER DESKTOP TABLE & MOBILE CARDS
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     function renderTableAndCards(data) {
       const desktopTbody = document.getElementById("desktopTableBody");
       const mobileBox = document.getElementById("mobileCardsContainer");
@@ -866,7 +893,7 @@
             <td><span class="badge badge-hi">${r.hiCount}</span></td>
             <td><span class="badge badge-en">${r.enCount}</span></td>
             <td>${snapBadge}</td>
-            <td style="max-width: 260px; white-space: normal; font-style: italic; color: #475569;">
+            <td style="max-width: 260px; white-space: normal; font-style: italic; color: #475569; word-break: break-word;">
               ${escapeHtml(r.improvementNotes) || "(No note added)"}
             </td>
             <td style="text-align: center; white-space: nowrap;">
@@ -877,7 +904,7 @@
         `;
       }).join("");
 
-      // Mobile Cards Render
+      // Mobile Cards Render (Android Phones)
       mobileBox.innerHTML = data.map((r, i) => {
         const rowNumber = i + 1;
         const snapBadge = r.isSaved
@@ -892,7 +919,7 @@
           <div class="date-card">
             <div class="card-top">
               <span class="index-pill">#${rowNumber}</span>
-              <strong style="font-size:0.95rem;">${r.displayDate}</strong>
+              <strong style="font-size:0.9rem; color:var(--primary);">${r.displayDate}</strong>
               ${snapBadge}
             </div>
 
@@ -931,15 +958,15 @@
       }).join("");
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 5. DIRECT SNAPSHOT & NOTE WRITING TO FIRESTORE
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     async function saveRowSnapshot(dateKey) {
       const row = allDateRows.find(x => x.dateKey === dateKey);
       if (!row) return;
 
       const note = prompt(`Enter development/improvement note for ${row.displayDate}:`, row.improvementNotes || "");
-      if (note === null) return; // User cancelled
+      if (note === null) return;
 
       try {
         const payload = {
@@ -987,9 +1014,9 @@
       }
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 6. WHATSAPP SHARE
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     function shareFullSummaryWhatsApp() {
       const nowIST = formatFullIST(new Date());
       let tReg = 0, tPrem = 0, tPaid = 0, tFb = 0;

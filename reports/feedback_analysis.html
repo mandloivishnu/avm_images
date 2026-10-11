@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <title>AVM Coaching - Feedback & Rating Analytics</title>
 
   <!-- Firebase App & Firestore SDKs (v10 Compat) -->
@@ -14,6 +14,7 @@
       --primary: #1e40af;
       --primary-hover: #1d4ed8;
       --whatsapp: #25d366;
+      --whatsapp-hover: #1ebd5a;
       --bg: #f8fafc;
       --surface: #ffffff;
       --border: #e2e8f0;
@@ -43,8 +44,9 @@
     body {
       background-color: var(--bg);
       color: var(--text-main);
-      padding: 12px;
+      padding: 10px;
       line-height: 1.4;
+      min-height: 100vh;
     }
 
     .wrapper {
@@ -52,9 +54,10 @@
       margin: 0 auto;
     }
 
+    /* Top Bar */
     header {
       background: var(--surface);
-      padding: 14px 18px;
+      padding: 12px 14px;
       border-radius: 12px;
       display: flex;
       flex-direction: column;
@@ -69,11 +72,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 14px 18px;
       }
     }
 
     header h1 {
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       font-weight: 700;
       letter-spacing: -0.01em;
     }
@@ -81,34 +85,44 @@
     .header-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 6px;
     }
 
     .btn {
-      padding: 8px 12px;
+      padding: 7px 11px;
       border-radius: 8px;
       font-weight: 600;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       cursor: pointer;
       border: none;
       display: inline-flex;
       align-items: center;
       gap: 4px;
       transition: all 0.15s ease;
+      text-decoration: none;
       color: #fff;
+      white-space: nowrap;
     }
 
     .btn-primary { background: var(--primary); }
     .btn-primary:active { background: var(--primary-hover); }
     .btn-secondary { background: #0f172a; }
+    .btn-secondary:active { background: #334155; }
     .btn-whatsapp { background: var(--whatsapp); color: #fff; }
+    .btn-whatsapp:active { background: var(--whatsapp-hover); }
 
     /* KPI Summary Row */
     .kpi-row {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
+      gap: 8px;
       margin-bottom: 12px;
+    }
+
+    @media (min-width: 640px) {
+      .kpi-row {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
 
     @media (min-width: 900px) {
@@ -119,14 +133,14 @@
 
     .kpi-card {
       background: var(--surface);
-      padding: 12px 14px;
+      padding: 10px 12px;
       border-radius: 10px;
       border: 1px solid var(--border);
       box-shadow: 0 1px 2px rgba(0,0,0,0.02);
     }
 
     .kpi-card span {
-      font-size: 0.70rem;
+      font-size: 0.65rem;
       color: var(--text-muted);
       text-transform: uppercase;
       font-weight: 700;
@@ -134,7 +148,7 @@
     }
 
     .kpi-card h3 {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
       font-weight: 800;
       margin-top: 2px;
     }
@@ -149,7 +163,7 @@
     }
 
     .action-header {
-      padding: 12px 16px;
+      padding: 10px 14px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -159,13 +173,13 @@
     }
 
     .action-header h4 {
-      font-size: 0.88rem;
+      font-size: 0.82rem;
       font-weight: 700;
       color: var(--text-main);
     }
 
     .action-body {
-      padding: 12px 16px;
+      padding: 10px 12px;
       overflow-x: auto;
       display: none;
     }
@@ -177,19 +191,19 @@
     /* Filters Bar */
     .filters-bar {
       background: var(--surface);
-      padding: 12px 14px;
+      padding: 10px 12px;
       border-radius: 10px;
       border: 1px solid var(--border);
       margin-bottom: 12px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .filters-main-row {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 8px;
+      gap: 6px;
     }
 
     @media (min-width: 768px) {
@@ -200,11 +214,17 @@
 
     .custom-date-row {
       display: none;
-      grid-template-columns: 1fr 1fr auto;
+      grid-template-columns: 1fr;
       gap: 8px;
-      align-items: center;
+      align-items: flex-end;
       padding-top: 8px;
       border-top: 1px dashed var(--border);
+    }
+
+    @media (min-width: 540px) {
+      .custom-date-row {
+        grid-template-columns: 1fr 1fr auto;
+      }
     }
 
     .custom-date-row.active {
@@ -214,21 +234,21 @@
     .date-input-group {
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 3px;
     }
 
     .date-input-group label {
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       font-weight: 700;
       color: var(--text-muted);
       text-transform: uppercase;
     }
 
     input, select {
-      padding: 9px 12px;
+      padding: 8px 10px;
       border: 1px solid var(--border-dark);
       border-radius: 8px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       outline: none;
       background: #ffffff;
       width: 100%;
@@ -252,14 +272,14 @@
       width: 100%;
       border-collapse: collapse;
       text-align: left;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
     }
 
     th {
       background: #f8fafc;
       color: #334155;
       font-weight: 700;
-      padding: 12px 12px;
+      padding: 10px 10px;
       border-bottom: 2px solid var(--border);
       border-right: 1px solid var(--border);
       white-space: nowrap;
@@ -268,7 +288,7 @@
     }
 
     td {
-      padding: 10px 12px;
+      padding: 8px 10px;
       border-bottom: 1px solid var(--border);
       border-right: 1px solid var(--border);
       white-space: nowrap;
@@ -279,7 +299,7 @@
     tr:hover { background-color: #f1f5f9; }
 
     td.col-index, th.col-index {
-      width: 44px;
+      width: 38px;
       text-align: center;
       font-weight: 700;
       color: var(--text-muted);
@@ -289,15 +309,16 @@
     /* Stars & Badges */
     .star-rating {
       color: var(--star-color);
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       font-weight: 700;
+      white-space: nowrap;
     }
 
     .badge {
       display: inline-block;
-      padding: 3px 7px;
+      padding: 2.5px 7px;
       border-radius: 5px;
-      font-size: 0.72rem;
+      font-size: 0.68rem;
       font-weight: 700;
       text-transform: uppercase;
     }
@@ -307,12 +328,14 @@
 
     /* Action Buttons */
     .btn-act {
-      padding: 5px 9px;
-      border-radius: 5px;
+      padding: 5px 8px;
+      border-radius: 6px;
       border: none;
-      font-size: 0.74rem;
+      font-size: 0.72rem;
       font-weight: 600;
       cursor: pointer;
+      white-space: nowrap;
+      transition: opacity 0.15s ease;
     }
 
     .btn-work { background: #3b82f6; color: white; }
@@ -320,18 +343,18 @@
     .btn-toggle-undone { background: #f59e0b; color: white; }
     .btn-del { background: #ef4444; color: white; }
 
-    /* Mobile Cards View */
+    /* Mobile Cards View (Android Phones) */
     .cards-container {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
     }
 
     .feedback-card {
       background: var(--surface);
       border-radius: 10px;
       border: 1px solid var(--border);
-      padding: 14px;
+      padding: 10px 12px;
       box-shadow: 0 1px 2px rgba(0,0,0,0.03);
     }
 
@@ -339,34 +362,40 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 8px;
-      padding-bottom: 8px;
+      margin-bottom: 6px;
+      padding-bottom: 6px;
       border-bottom: 1px dashed var(--border);
+      flex-wrap: wrap;
+      gap: 4px;
     }
 
     .index-pill {
       background: #0f172a;
       color: #ffffff;
       font-weight: 800;
-      font-size: 0.72rem;
-      padding: 2px 8px;
-      border-radius: 12px;
+      font-size: 0.68rem;
+      padding: 2px 7px;
+      border-radius: 10px;
     }
 
     .card-row {
       display: flex;
       justify-content: space-between;
-      font-size: 0.81rem;
-      padding: 3px 0;
+      align-items: flex-start;
+      font-size: 0.78rem;
+      padding: 2.5px 0;
+      gap: 8px;
     }
 
     .card-label {
       color: var(--text-muted);
+      flex-shrink: 0;
     }
 
     .card-val {
       font-weight: 500;
       text-align: right;
+      word-break: break-word;
     }
 
     .feedback-text-box {
@@ -374,19 +403,20 @@
       padding: 8px 10px;
       background: #f8fafc;
       border-radius: 6px;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       font-style: italic;
       color: #334155;
       border: 1px solid var(--border);
       white-space: normal;
       word-break: break-word;
+      line-height: 1.35;
     }
 
     .card-actions {
       display: flex;
       gap: 6px;
-      margin-top: 10px;
-      padding-top: 8px;
+      margin-top: 8px;
+      padding-top: 6px;
       border-top: 1px solid var(--border);
     }
 
@@ -397,9 +427,9 @@
 
     .empty-state {
       text-align: center;
-      padding: 36px 16px;
+      padding: 28px 12px;
       color: var(--text-muted);
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
   </style>
 </head>
@@ -410,7 +440,7 @@
     <header>
       <div>
         <h1>AVM Coaching Feedback Portal</h1>
-        <small style="color: var(--text-muted); font-size: 0.75rem;">User Ratings, Comments & Action Tracker (IST Timezone)</small>
+        <small style="color: var(--text-muted); font-size: 0.72rem;">User Ratings, Comments & Action Tracker (Sorted: Newest First | IST)</small>
       </div>
       <div class="header-actions">
         <button class="btn btn-whatsapp" onclick="shareFeedbackSummaryWhatsApp()">📲 WhatsApp Summary</button>
@@ -446,7 +476,7 @@
     <div class="action-card">
       <div class="action-header" onclick="toggleActionView()">
         <h4>📌 Action Items / Saved Feedbacks to Work On (<span id="actionItemCount">0</span> tasks)</h4>
-        <span id="actionArrow" style="font-size: 0.8rem; color: var(--text-muted);">▼ Show</span>
+        <span id="actionArrow" style="font-size: 0.78rem; color: var(--text-muted);">▼ Show</span>
       </div>
       <div id="actionBody" class="action-body">
         <table>
@@ -508,8 +538,8 @@
           <label for="toDate">To Date (IST)</label>
           <input type="date" id="toDate" onchange="applyFilters()" />
         </div>
-        <div style="align-self: flex-end;">
-          <button class="btn btn-secondary" onclick="resetCustomDates()">Reset Dates</button>
+        <div>
+          <button class="btn btn-secondary" style="width: 100%;" onclick="resetCustomDates()">Reset Dates</button>
         </div>
       </div>
     </div>
@@ -560,7 +590,18 @@
     let currentFilteredRecords = [];
     let workOnMap = {}; // feedbackDocId -> action item data
 
-    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    // Helper: Safely extract raw millisecond timestamp for chronological sorting
+    function extractRawTime(rawVal) {
+      if (!rawVal) return 0;
+      try {
+        if (rawVal.toMillis) return rawVal.toMillis();
+        if (rawVal.toDate) return rawVal.toDate().getTime();
+        const d = new Date(rawVal);
+        return isNaN(d.getTime()) ? 0 : d.getTime();
+      } catch (e) {
+        return 0;
+      }
+    }
 
     // Format IST Date strictly: "DD-MMM-YYYY, hh:mm:ss a IST"
     function formatIST(rawVal) {
@@ -625,7 +666,7 @@
           year: 'numeric',
           month: '2-digit',
           day: '2-digit'
-        }).format(d); // YYYY-MM-DD
+        }).format(d);
       } catch (e) {
         return null;
       }
@@ -645,9 +686,9 @@
       return "★".repeat(num) + "☆".repeat(Math.max(0, 5 - num)) + ` (${num}/5)`;
     }
 
-    // ------------------------------------------------------------------------
-    // 2. FETCH AND JOIN COLLECTIONS
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
+    // 2. FETCH, JOIN AND SORT COLLECTIONS
+    // -------------------------------------------------------------
     async function fetchFeedbackData() {
       const mobileBox = document.getElementById("mobileCardsContainer");
       const desktopBox = document.getElementById("desktopTableBody");
@@ -688,6 +729,7 @@
           if (rating > 0 && rating <= 3) lowStarCount++;
 
           const rawTimestamp = fb.timestamp || fb.createdAt;
+          const sortTimestamp = extractRawTime(rawTimestamp);
           const dateKey = parseDateKeyIST(rawTimestamp);
 
           list.push({
@@ -699,6 +741,7 @@
             feedbackText: (fb.feedback && fb.feedback.trim()) ? fb.feedback.trim() : "(No text review provided)",
             ratingDate: formatIST(rawTimestamp),
             dateKey: dateKey,
+            sortTimestamp: sortTimestamp,
             userCreationDate: formatIST(userProfile.createdAt),
             isWorkOn: !!workOnMap[doc.id],
             workStatus: workOnMap[doc.id] ? workOnMap[doc.id].status : null,
@@ -706,8 +749,8 @@
           });
         });
 
-        // Newest feedback first
-        list.reverse();
+        // Strict Chronological Sort: Descending (Newest date & time first)
+        list.sort((a, b) => b.sortTimestamp - a.sortTimestamp);
         allFeedbackRecords = list;
 
         const totalCount = list.length;
@@ -727,9 +770,9 @@
       }
     }
 
-    // ------------------------------------------------------------------------
-    // 3. FILTERING WITH 7, 15, 30 DAYS & CUSTOM RANGE
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
+    // 3. FILTERING WITH STRICT CHRONOLOGICAL PRESERVATION
+    // -------------------------------------------------------------
     function handleTimeRangeChange() {
       const timeRange = document.getElementById("timeRangeFilter").value;
       const customRow = document.getElementById("customDateRow");
@@ -767,8 +810,10 @@
 
         // Date Filter
         let matchTime = true;
-        if (item.dateKey) {
-          if (timeRange === "TODAY") {
+        if (timeRange !== "ALL") {
+          if (!item.dateKey) {
+            matchTime = false;
+          } else if (timeRange === "TODAY") {
             matchTime = item.dateKey === todayStr;
           } else if (timeRange === "7DAYS") {
             const itemDate = new Date(item.dateKey);
@@ -805,13 +850,16 @@
         return matchQuery && matchTime && matchRating && matchAction;
       });
 
+      // Maintain Chronological Sorting: Newest first
+      filtered.sort((a, b) => b.sortTimestamp - a.sortTimestamp);
+
       currentFilteredRecords = filtered;
       renderTableAndCards(filtered);
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 4. RENDER DATA (Desktop Table & Mobile Cards)
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     function renderTableAndCards(data) {
       const desktopTbody = document.getElementById("desktopTableBody");
       const mobileBox = document.getElementById("mobileCardsContainer");
@@ -843,7 +891,7 @@
         `;
       }).join("");
 
-      // Mobile Cards
+      // Mobile Cards (Android Screens)
       mobileBox.innerHTML = data.map((r, i) => {
         const rowNumber = i + 1;
         const workBtn = r.isWorkOn
@@ -866,8 +914,8 @@
               <span class="card-val"><code style="font-size:0.75rem;">${escapeHtml(r.gmailId)}</code></span>
             </div>
             <div class="card-row">
-              <span class="card-label">Rating Given (IST)</span>
-              <span class="card-val"><strong>${r.ratingDate}</strong></span>
+              <span class="card-label">Rating Date (IST)</span>
+              <span class="card-val"><strong style="color:var(--primary);">${r.ratingDate}</strong></span>
             </div>
             <div class="card-row">
               <span class="card-label">Registered (IST)</span>
@@ -886,9 +934,9 @@
       }).join("");
     }
 
-    // ------------------------------------------------------------------------
-    // 5. WORK ON ACTION ITEM MANAGEMENT (Records actionSavedAt Timestamp)
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
+    // 5. WORK ON ACTION ITEM MANAGEMENT
+    // -------------------------------------------------------------
     async function saveToWorkOn(feedbackDocId) {
       const record = allFeedbackRecords.find(x => x.feedbackDocId === feedbackDocId);
       if (!record) return;
@@ -951,9 +999,12 @@
         return;
       }
 
+      // Sort Action Items: Newest saved first
+      const actionList = keys.map(k => workOnMap[k]);
+      actionList.sort((a, b) => extractRawTime(b.actionSavedAt) - extractRawTime(a.actionSavedAt));
+
       let html = "";
-      keys.forEach(k => {
-        const item = workOnMap[k];
+      actionList.forEach(item => {
         const isDone = item.status === "DONE";
 
         const toggleBtn = isDone
@@ -967,7 +1018,7 @@
             <td><strong>${escapeHtml(item.userName)}</strong></td>
             <td><code>${escapeHtml(item.gmailId)}</code></td>
             <td><span class="star-rating">${renderStars(item.rating)}</span></td>
-            <td style="max-width:280px; white-space:normal;">${escapeHtml(item.feedbackText)}</td>
+            <td style="max-width:280px; white-space:normal; word-break: break-word;">${escapeHtml(item.feedbackText)}</td>
             <td>${item.ratingDate || "N/A"}</td>
             <td><strong style="color: #0369a1;">${savedDateDisplay}</strong></td>
             <td><span class="badge ${isDone ? 'badge-done' : 'badge-pending'}">${isDone ? 'DONE' : 'IN PROGRESS'}</span></td>
@@ -993,9 +1044,9 @@
       }
     }
 
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     // 6. WHATSAPP SUMMARY SHARING
-    // ------------------------------------------------------------------------
+    // -------------------------------------------------------------
     function shareFeedbackSummaryWhatsApp() {
       const nowIST = formatIST(new Date());
       const total = currentFilteredRecords.length;
