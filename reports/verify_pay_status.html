@@ -30,6 +30,14 @@
       --danger-text: #991b1b;
       --neutral-bg: #f1f5f9;
       --neutral-text: #475569;
+
+      /* Status Theme Colors */
+      --admin-bg: #e0e7ff;
+      --admin-text: #3730a3;
+      --merit-bg: #fef08a;
+      --merit-text: #854d0e;
+      --offer-bg: #fce7f3;
+      --offer-text: #9d174d;
     }
 
     * {
@@ -52,7 +60,6 @@
       margin: 0 auto;
     }
 
-    /* Top Bar */
     header {
       background: var(--surface);
       padding: 12px 14px;
@@ -117,15 +124,11 @@
     }
 
     @media (min-width: 640px) {
-      .kpi-row {
-        grid-template-columns: repeat(3, 1fr);
-      }
+      .kpi-row { grid-template-columns: repeat(3, 1fr); }
     }
 
     @media (min-width: 900px) {
-      .kpi-row {
-        grid-template-columns: repeat(6, 1fr);
-      }
+      .kpi-row { grid-template-columns: repeat(6, 1fr); }
     }
 
     .kpi-card {
@@ -274,6 +277,28 @@
       border-color: var(--primary);
     }
 
+    /* Status Select */
+    .select-status {
+      padding: 5px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      border: 1px solid transparent;
+      cursor: pointer;
+      width: auto;
+      min-width: 135px;
+      outline: none;
+      transition: all 0.15s ease;
+    }
+
+    .select-status.status-approved { background: var(--success-bg); color: var(--success-text); border-color: #86efac; }
+    .select-status.status-pending { background: var(--warning-bg); color: var(--warning-text); border-color: #fde68a; }
+    .select-status.status-rejected { background: var(--danger-bg); color: var(--danger-text); border-color: #fca5a5; }
+    .select-status.status-admin { background: var(--admin-bg); color: var(--admin-text); border-color: #c7d2fe; }
+    .select-status.status-merit { background: var(--merit-bg); color: var(--merit-text); border-color: #fde047; }
+    .select-status.status-offer { background: var(--offer-bg); color: var(--offer-text); border-color: #fbcfe8; }
+    .select-status.status-norecord { background: var(--neutral-bg); color: var(--neutral-text); border-color: var(--border-dark); }
+
     /* Desktop View: Table */
     .table-container {
       display: none;
@@ -322,7 +347,6 @@
       background: #f8fafc;
     }
 
-    /* Badges */
     .badge {
       display: inline-block;
       padding: 2px 6px;
@@ -333,13 +357,11 @@
     }
 
     .badge-success { background: var(--success-bg); color: var(--success-text); }
-    .badge-warning { background: var(--warning-bg); color: var(--warning-text); }
-    .badge-danger  { background: var(--danger-bg); color: var(--danger-text); }
     .badge-neutral { background: var(--neutral-bg); color: var(--neutral-text); }
     .badge-lang-hi { background: #fef08a; color: #854d0e; }
     .badge-lang-en { background: #e0f2fe; color: #0369a1; }
+    .badge-range { background: #e0e7ff; color: #3730a3; }
 
-    /* Action Buttons */
     .btn-action {
       padding: 5px 8px;
       border-radius: 6px;
@@ -354,7 +376,6 @@
 
     .btn-disable { background: #ef4444; color: white; }
     .btn-enable { background: #10b981; color: white; }
-    .btn-action:disabled { opacity: 0.5; cursor: not-allowed; }
 
     .btn-wa-icon {
       background: var(--whatsapp);
@@ -380,11 +401,8 @@
       font-size: 0.68rem;
       font-weight: 600;
       cursor: pointer;
-      transition: background 0.15s;
     }
-    .btn-delete-snap:hover {
-      background: #dc2626;
-    }
+    .btn-delete-snap:hover { background: #dc2626; }
 
     /* Mobile Cards View */
     .cards-container {
@@ -424,9 +442,9 @@
     .card-row {
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
+      align-items: center;
       font-size: 0.78rem;
-      padding: 2.5px 0;
+      padding: 3px 0;
       gap: 8px;
     }
 
@@ -438,7 +456,7 @@
     .card-val {
       font-weight: 500;
       text-align: right;
-      word-break: break-word;
+      word-break: break-all;
     }
 
     .card-actions {
@@ -450,7 +468,7 @@
       border-top: 1px solid var(--border);
     }
 
-    @media (min-width: 950px) {
+    @media (min-width: 1050px) {
       .cards-container { display: none; }
       .table-container { display: block; }
     }
@@ -466,11 +484,10 @@
 <body>
 
   <div class="wrapper">
-    <!-- Header -->
     <header>
       <div>
         <h1>AVM Coaching Admin</h1>
-        <small style="color: var(--text-muted); font-size: 0.72rem;">Payment Verification & User Audit (Sorted: Newest First | IST)</small>
+        <small style="color: var(--text-muted); font-size: 0.72rem;">Payment Verification & User Audit (Sorted: Newest Payment First | IST)</small>
       </div>
       <div class="header-actions">
         <button class="btn btn-whatsapp" onclick="shareSummaryWhatsApp()">📲 WhatsApp Summary</button>
@@ -490,7 +507,7 @@
         <h3 id="statPremiumUsers" style="color: var(--primary);">0</h3>
       </div>
       <div class="kpi-card">
-        <span>Paid Requests</span>
+        <span>Total Approved / Paid</span>
         <h3 id="statPaidPayments" style="color: var(--success-text);">0</h3>
       </div>
       <div class="kpi-card">
@@ -517,35 +534,36 @@
         <table class="history-table">
           <thead>
             <tr>
-              <th>Timestamp (DD-MMM-YYYY, IST)</th>
+              <th>Saved On (IST)</th>
+              <th>Analyzed Period / Range</th>
               <th>Total Users</th>
               <th>Active Premium</th>
               <th>Paid</th>
               <th>Pending</th>
               <th>Hindi (HI)</th>
               <th>English (EN)</th>
-              <th style="text-align: center;">Action</th>
+              <th style="text-align: center;">Actions</th>
             </tr>
           </thead>
           <tbody id="historyTableBody">
             <tr>
-              <td colspan="8" style="text-align: center; color: var(--text-muted);">Loading snapshots...</td>
+              <td colspan="9" style="text-align: center; color: var(--text-muted);">Loading snapshots...</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <!-- Filters Strip (Includes Time Range & Custom Date Picker) -->
+    <!-- Filters Strip -->
     <div class="filters-bar">
       <div class="filters-main-row">
-        <input type="text" id="searchInput" placeholder="Search Name, User ID, or UTR..." oninput="applyFilters()" />
+        <input type="text" id="searchInput" placeholder="Search uToken, User ID, Name, or UTR..." oninput="applyFilters()" />
         <select id="timeRangeFilter" onchange="handleTimeRangeChange()">
           <option value="ALL">All Time</option>
-          <option value="TODAY">Today (IST)</option>
-          <option value="7DAYS">Last 7 Days</option>
-          <option value="30DAYS">Last 30 Days</option>
-          <option value="CUSTOM">Custom Date Range</option>
+          <option value="TODAY">Today (Payment Date IST)</option>
+          <option value="7DAYS">Last 7 Days (Payment Date)</option>
+          <option value="30DAYS">Last 30 Days (Payment Date)</option>
+          <option value="CUSTOM">Custom Date Range (Payment Date)</option>
         </select>
         <select id="langFilter" onchange="applyFilters()">
           <option value="ALL">All Languages</option>
@@ -554,9 +572,12 @@
         </select>
         <select id="statusFilter" onchange="applyFilters()">
           <option value="ALL">All Payment Statuses</option>
-          <option value="SUCCESS">Success / Paid / Approved</option>
+          <option value="APPROVED">Approved (Regular Paid)</option>
+          <option value="ADMIN_APPROVED">Admin Approved</option>
+          <option value="APPROVED_MERIT">Approved Merit</option>
+          <option value="APPROVE_OFFER">Approve Offer</option>
           <option value="PENDING">Pending Verification</option>
-          <option value="FAILED">Failed / Rejected</option>
+          <option value="REJECTED">Rejected / Failed</option>
           <option value="NO_RECORD">No Payment Created</option>
         </select>
         <select id="premFilter" onchange="applyFilters()">
@@ -569,11 +590,11 @@
       <!-- Custom Date Pickers -->
       <div id="customDateRow" class="custom-date-row">
         <div class="date-input-group">
-          <label for="fromDate">From Date (IST)</label>
+          <label for="fromDate">From Payment Date (IST)</label>
           <input type="date" id="fromDate" onchange="applyFilters()" />
         </div>
         <div class="date-input-group">
-          <label for="toDate">To Date (IST)</label>
+          <label for="toDate">To Payment Date (IST)</label>
           <input type="date" id="toDate" onchange="applyFilters()" />
         </div>
         <div>
@@ -582,12 +603,13 @@
       </div>
     </div>
 
-    <!-- Desktop View: Table (Original Column Order Maintained) -->
+    <!-- Desktop View: Table -->
     <div class="table-container">
       <table>
         <thead>
           <tr>
             <th class="col-index">#</th>
+            <th>uToken</th>
             <th>User ID</th>
             <th>Name</th>
             <th>Language</th>
@@ -602,7 +624,7 @@
         </thead>
         <tbody id="desktopTableBody">
           <tr>
-            <td colspan="11" class="empty-state">Loading records from Firestore...</td>
+            <td colspan="12" class="empty-state">Loading records from Firestore...</td>
           </tr>
         </tbody>
       </table>
@@ -615,9 +637,6 @@
   </div>
 
   <script>
-    // ------------------------------------------------------------------------
-    // 1. FIREBASE INITIALIZATION
-    // ------------------------------------------------------------------------
     const firebaseConfig = {
       projectId: "avmoaching621999"
     };
@@ -627,10 +646,19 @@
     }
     const db = firebase.firestore();
 
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
     let allRecords = [];
     let currentFilteredRecords = [];
+    let savedAuditSnapshotsList = [];
 
-    // Helper: Safely extract raw millisecond timestamp for exact chronological sorting
+    function formatToDDMMMYYYY(isoDateStr) {
+      if (!isoDateStr || isoDateStr.length < 10) return isoDateStr || "N/A";
+      const parts = isoDateStr.split('-');
+      if (parts.length < 3) return isoDateStr;
+      return `${parts[2]}-${MONTHS[parseInt(parts[1], 10) - 1] || parts[1]}-${parts[0]}`;
+    }
+
     function extractRawTime(rawVal) {
       if (!rawVal) return 0;
       try {
@@ -643,7 +671,6 @@
       }
     }
 
-    // Standardized strict DD-MMM-YYYY, hh:mm:ss a IST formatter
     function formatIST(rawVal) {
       if (!rawVal) return "N/A";
       try {
@@ -660,12 +687,8 @@
 
         const parts = new Intl.DateTimeFormat('en-GB', {
           timeZone: 'Asia/Kolkata',
-          day: '2-digit',
-          month: 'short',
-          year: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit',
-          second: '2-digit',
+          day: '2-digit', month: 'short', year: 'numeric',
+          hour: '2-digit', minute: '2-digit', second: '2-digit',
           hour12: true
         }).formatToParts(d);
 
@@ -686,7 +709,6 @@
       }
     }
 
-    // Helper: Extract YYYY-MM-DD Date Key in Asia/Kolkata
     function parseDateKeyIST(rawVal) {
       if (!rawVal) return null;
       try {
@@ -703,9 +725,7 @@
 
         return new Intl.DateTimeFormat('en-CA', {
           timeZone: 'Asia/Kolkata',
-          year: 'numeric',
-          month: '2-digit',
-          day: '2-digit'
+          year: 'numeric', month: '2-digit', day: '2-digit'
         }).format(d);
       } catch (e) {
         return null;
@@ -715,20 +735,26 @@
     function getTodayISTString() {
       return new Intl.DateTimeFormat('en-CA', {
         timeZone: 'Asia/Kolkata',
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit'
+        year: 'numeric', month: '2-digit', day: '2-digit'
       }).format(new Date());
     }
 
-    // ------------------------------------------------------------------------
-    // 2. FETCH AND JOIN COLLECTIONS
-    // ------------------------------------------------------------------------
+    function normalizePaymentStatus(rawStatus) {
+      if (!rawStatus) return "PENDING";
+      const s = String(rawStatus).toUpperCase().trim();
+      if (s === "ADMIN_APPROVED") return "ADMIN_APPROVED";
+      if (s === "APPROVED_MERIT") return "APPROVED_MERIT";
+      if (s === "APPROVE_OFFER") return "APPROVE_OFFER";
+      if (s === "APPROVED" || s === "PAID" || s === "SUCCESS" || s === "COMPLETED") return "APPROVED";
+      if (s === "REJECT" || s === "REJECTED" || s === "FAILED") return "REJECTED";
+      return "PENDING";
+    }
+
     async function fetchData() {
       const mobileBox = document.getElementById("mobileCardsContainer");
       const desktopBox = document.getElementById("desktopTableBody");
       mobileBox.innerHTML = `<div class="empty-state">Fetching Firestore records...</div>`;
-      desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state">Fetching Firestore records...</td></tr>`;
+      desktopBox.innerHTML = `<tr><td colspan="12" class="empty-state">Fetching Firestore records...</td></tr>`;
 
       try {
         const [profilesSnap, paymentsSnap, contentSnap] = await Promise.all([
@@ -740,9 +766,14 @@
         const paymentsByUser = {};
         paymentsSnap.forEach(doc => {
           const p = doc.data();
+          p._docId = doc.id;
           const uid = p.userId || p.userID || p.uid || p.user_id;
-          if (uid && !paymentsByUser[uid]) {
-            paymentsByUser[uid] = p;
+          if (uid) {
+            const currRaw = paymentsByUser[uid] ? extractRawTime(paymentsByUser[uid].createdAt || paymentsByUser[uid].paymentDate || paymentsByUser[uid].timestamp) : -1;
+            const docRaw = extractRawTime(p.createdAt || p.paymentDate || p.timestamp);
+            if (!paymentsByUser[uid] || docRaw >= currRaw) {
+              paymentsByUser[uid] = p;
+            }
           }
         });
 
@@ -762,37 +793,40 @@
           const p = paymentsByUser[uid] || null;
 
           const isPrem = u.premiumAccess === true || String(u.premiumAccess).toLowerCase() === "true";
-          const payStatus = p ? String(p.status || "N/A").toUpperCase() : "NO_RECORD";
+          const payStatus = p ? normalizePaymentStatus(p.status) : "NO_RECORD";
 
           const lang = contentLangByUser[uid] || (u.userLanguage ? String(u.userLanguage).toLowerCase().trim() : "en");
 
-          const regDateKey = parseDateKeyIST(u.createdAt);
-          const payDateKey = p ? parseDateKeyIST(p.createdAt) : null;
+          const rawPayField = p ? (p.createdAt || p.paymentDate || p.timestamp || p.date) : null;
+          const payDateKey = p ? parseDateKeyIST(rawPayField) : null;
+          const payRaw = extractRawTime(rawPayField);
 
-          // Priority to registration date, fallback to payment date for primary timestamp
+          const regDateKey = parseDateKeyIST(u.createdAt);
           const regRaw = extractRawTime(u.createdAt);
-          const payRaw = p ? extractRawTime(p.createdAt) : 0;
-          const sortTimestamp = regRaw > 0 ? regRaw : payRaw;
+
+          const sortTimestamp = payRaw > 0 ? payRaw : regRaw;
+          const tokenVal = u.uToken || u.utoken || "N/A";
 
           list.push({
+            paymentDocId: p ? p._docId : null,
             userId: uid,
+            uToken: tokenVal,
             name: u.name || p?.userName || "N/A",
             categoryName: p?.categoryName || "N/A",
             utr: p?.utr || "N/A",
             userLanguage: lang,
             paymentStatus: payStatus,
-            paymentDate: p ? formatIST(p.createdAt) : "N/A",
+            paymentDate: p && rawPayField ? formatIST(rawPayField) : "N/A",
             profileCreatedAt: formatIST(u.createdAt),
             regDateKey: regDateKey,
             payDateKey: payDateKey,
+            payRaw: payRaw,
             sortTimestamp: sortTimestamp,
             premiumAccess: isPrem
           });
         });
 
-        // Strict Chronological Sort: Descending (Newest date & time first)
         list.sort((a, b) => b.sortTimestamp - a.sortTimestamp);
-
         allRecords = list;
 
         applyFilters();
@@ -801,13 +835,10 @@
       } catch (err) {
         console.error(err);
         mobileBox.innerHTML = `<div class="empty-state" style="color:red;">Error: ${err.message}</div>`;
-        desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state" style="color:red;">Error: ${err.message}</td></tr>`;
+        desktopBox.innerHTML = `<tr><td colspan="12" class="empty-state" style="color:red;">Error: ${err.message}</td></tr>`;
       }
     }
 
-    // ------------------------------------------------------------------------
-    // 3. FILTERING WITH DATE RANGE LOGIC
-    // ------------------------------------------------------------------------
     function handleTimeRangeChange() {
       const timeRange = document.getElementById("timeRangeFilter").value;
       const customRow = document.getElementById("customDateRow");
@@ -838,40 +869,34 @@
       const todayDate = new Date(todayStr);
 
       const filtered = allRecords.filter(item => {
-        // Keyword Search
         const matchQuery = !query || 
+          item.uToken.toLowerCase().includes(query) ||
           item.userId.toLowerCase().includes(query) || 
           item.name.toLowerCase().includes(query) || 
           item.utr.toLowerCase().includes(query);
 
-        // Language Filter
         let matchLang = true;
         if (langFilter !== "ALL") {
           matchLang = item.userLanguage === langFilter;
         }
 
-        // Status Filter
         let matchStatus = true;
-        if (statusFilter === "NO_RECORD") {
-          matchStatus = item.paymentStatus === "NO_RECORD";
-        } else if (statusFilter !== "ALL") {
-          matchStatus = item.paymentStatus.includes(statusFilter);
+        if (statusFilter !== "ALL") {
+          matchStatus = (item.paymentStatus === statusFilter);
         }
 
-        // Premium Filter
         let matchPrem = true;
         if (premFilter === "TRUE") matchPrem = item.premiumAccess === true;
         if (premFilter === "FALSE") matchPrem = item.premiumAccess === false;
 
-        // Date Range Logic
         let matchDate = true;
-        const targetDateKey = item.regDateKey || item.payDateKey;
+        const targetDateKey = item.payDateKey || item.regDateKey;
 
         if (timeRange !== "ALL") {
           if (!targetDateKey) {
             matchDate = false;
           } else if (timeRange === "TODAY") {
-            matchDate = targetDateKey === todayStr;
+            matchDate = (targetDateKey === todayStr);
           } else if (timeRange === "7DAYS") {
             const itemDate = new Date(targetDateKey);
             const diffDays = (todayDate - itemDate) / (1000 * 60 * 60 * 24);
@@ -889,17 +914,14 @@
         return matchQuery && matchLang && matchStatus && matchPrem && matchDate;
       });
 
-      // Maintain Chronological Sort (Newest first)
       filtered.sort((a, b) => b.sortTimestamp - a.sortTimestamp);
-
       currentFilteredRecords = filtered;
 
-      // Update Top KPI Counters for the active filtered set
       let fPrem = 0, fPaid = 0, fPending = 0, fHindi = 0, fEnglish = 0;
       filtered.forEach(r => {
         if (r.premiumAccess) fPrem++;
-        if (["SUCCESS", "PAID", "APPROVED", "COMPLETED"].some(s => r.paymentStatus.includes(s))) fPaid++;
-        if (r.paymentStatus.includes("PENDING")) fPending++;
+        if (["APPROVED", "ADMIN_APPROVED", "APPROVED_MERIT", "APPROVE_OFFER"].includes(r.paymentStatus)) fPaid++;
+        if (r.paymentStatus === "PENDING") fPending++;
         if (r.userLanguage === 'hi') fHindi++;
         else fEnglish++;
       });
@@ -914,18 +936,87 @@
       render(filtered);
     }
 
-    // -------------------------------------------------------------
-    // 4. RENDER DESKTOP & MOBILE VIEWS
-    // -------------------------------------------------------------
-    function getStatusBadge(status) {
-      if (["SUCCESS", "PAID", "COMPLETED", "APPROVED"].some(s => status.includes(s))) {
-        return `<span class="badge badge-success">${status}</span>`;
-      } else if (status.includes("PENDING")) {
-        return `<span class="badge badge-warning">${status}</span>`;
-      } else if (["FAILED", "REJECTED"].some(s => status.includes(s))) {
-        return `<span class="badge badge-danger">${status}</span>`;
+    function getStatusClass(status) {
+      switch (status) {
+        case "APPROVED": return "status-approved";
+        case "ADMIN_APPROVED": return "status-admin";
+        case "APPROVED_MERIT": return "status-merit";
+        case "APPROVE_OFFER": return "status-offer";
+        case "REJECTED": return "status-rejected";
+        case "PENDING": return "status-pending";
+        default: return "status-norecord";
       }
-      return `<span class="badge badge-neutral">${status}</span>`;
+    }
+
+    function renderStatusSelector(r) {
+      const colorClass = getStatusClass(r.paymentStatus);
+      const isNoRecord = r.paymentStatus === "NO_RECORD";
+
+      return `
+        <select class="select-status ${colorClass}" onchange="updatePaymentStatus('${r.paymentDocId || ''}', '${r.userId}', this)">
+          ${isNoRecord ? `<option value="NO_RECORD" selected disabled>NO RECORD</option>` : ''}
+          <option value="PENDING" ${r.paymentStatus === "PENDING" ? "selected" : ""}>PENDING</option>
+          <option value="APPROVED" ${r.paymentStatus === "APPROVED" ? "selected" : ""}>APPROVED</option>
+          <option value="ADMIN_APPROVED" ${r.paymentStatus === "ADMIN_APPROVED" ? "selected" : ""}>ADMIN_APPROVED</option>
+          <option value="APPROVED_MERIT" ${r.paymentStatus === "APPROVED_MERIT" ? "selected" : ""}>APPROVED_MERIT</option>
+          <option value="APPROVE_OFFER" ${r.paymentStatus === "APPROVE_OFFER" ? "selected" : ""}>APPROVE_OFFER</option>
+          <option value="REJECTED" ${r.paymentStatus === "REJECTED" ? "selected" : ""}>REJECT</option>
+        </select>
+      `;
+    }
+
+    async function updatePaymentStatus(docId, uid, selectElem) {
+      const newStatus = selectElem.value;
+      const originalValue = selectElem.getAttribute("data-current") || newStatus;
+      
+      if (!confirm(`Are you sure you want to update payment status to ${newStatus} for user: ${uid}?`)) {
+        selectElem.value = originalValue;
+        return;
+      }
+
+      selectElem.disabled = true;
+
+      try {
+        const item = allRecords.find(x => x.userId === uid);
+
+        if (!docId) {
+          const newDocRef = await db.collection("payment_requests").add({
+            userId: uid,
+            userName: item ? item.name : "N/A",
+            uToken: item ? item.uToken : "N/A",
+            status: newStatus,
+            categoryName: item ? item.categoryName : "General",
+            utr: item ? item.utr : "MANUAL_ENTRY",
+            createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+            updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+          });
+          docId = newDocRef.id;
+          if (item) {
+            item.paymentDocId = docId;
+            item.paymentDate = formatIST(new Date());
+            item.payDateKey = getTodayISTString();
+          }
+        } else {
+          await db.collection("payment_requests").doc(docId).update({
+            status: newStatus,
+            updatedAt: firebase.firestore.FieldValue.serverTimestamp()
+          });
+        }
+
+        if (item) {
+          item.paymentStatus = newStatus;
+        }
+
+        selectElem.className = `select-status ${getStatusClass(newStatus)}`;
+        selectElem.setAttribute("data-current", newStatus);
+
+        applyFilters();
+      } catch (err) {
+        alert("Failed to update status: " + err.message);
+        selectElem.value = originalValue;
+      } finally {
+        selectElem.disabled = false;
+      }
     }
 
     function render(data) {
@@ -933,12 +1024,11 @@
       const mobileBox = document.getElementById("mobileCardsContainer");
 
       if (data.length === 0) {
-        desktopTbody.innerHTML = `<tr><td colspan="11" class="empty-state">No matching records found for selected filter.</td></tr>`;
+        desktopTbody.innerHTML = `<tr><td colspan="12" class="empty-state">No matching records found for selected filter.</td></tr>`;
         mobileBox.innerHTML = `<div class="empty-state">No matching records found for selected filter.</div>`;
         return;
       }
 
-      // Desktop table (Original column positions preserved)
       desktopTbody.innerHTML = data.map((r, i) => {
         const rowNumber = i + 1;
         const actionBtn = r.premiumAccess
@@ -954,13 +1044,14 @@
         return `
           <tr>
             <td class="col-index">${rowNumber}</td>
+            <td><strong style="color: #0f172a; font-size: 0.76rem;"><code>${escape(r.uToken)}</code></strong></td>
             <td><code style="font-size:0.75rem;">${r.userId}</code></td>
             <td><strong>${escape(r.name)}</strong></td>
             <td><span class="badge ${langBadgeClass}">${escape(r.userLanguage)}</span></td>
             <td><code>${escape(r.utr)}</code></td>
             <td>${escape(r.categoryName)}</td>
-            <td>${getStatusBadge(r.paymentStatus)}</td>
-            <td>${r.paymentDate}</td>
+            <td>${renderStatusSelector(r)}</td>
+            <td><strong>${r.paymentDate}</strong></td>
             <td>${r.profileCreatedAt}</td>
             <td>${premBadge}</td>
             <td style="text-align:center; white-space:nowrap;">
@@ -971,7 +1062,6 @@
         `;
       }).join("");
 
-      // Mobile cards
       mobileBox.innerHTML = data.map((r, i) => {
         const rowNumber = i + 1;
         const actionBtn = r.premiumAccess
@@ -995,6 +1085,10 @@
             </div>
             
             <div class="card-row">
+              <span class="card-label">uToken</span>
+              <span class="card-val" style="color: var(--primary); font-weight:700;"><code>${escape(r.uToken)}</code></span>
+            </div>
+            <div class="card-row">
               <span class="card-label">Name</span>
               <span class="card-val"><strong>${escape(r.name)}</strong></span>
             </div>
@@ -1012,15 +1106,15 @@
             </div>
             <div class="card-row">
               <span class="card-label">Payment Status</span>
-              <span class="card-val">${getStatusBadge(r.paymentStatus)}</span>
+              <span class="card-val">${renderStatusSelector(r)}</span>
             </div>
             <div class="card-row">
               <span class="card-label">Payment Date (IST)</span>
-              <span class="card-val">${r.paymentDate}</span>
+              <span class="card-val" style="color:var(--primary); font-weight:700;">${r.paymentDate}</span>
             </div>
             <div class="card-row">
               <span class="card-label">Registered (IST)</span>
-              <span class="card-val" style="color:var(--primary); font-weight:700;">${r.profileCreatedAt}</span>
+              <span class="card-val">${r.profileCreatedAt}</span>
             </div>
 
             <div class="card-actions">
@@ -1032,9 +1126,6 @@
       }).join("");
     }
 
-    // -------------------------------------------------------------
-    // 5. WHATSAPP REPORT SHARING
-    // -------------------------------------------------------------
     function shareSummaryWhatsApp() {
       const nowIST = formatIST(new Date());
       const timeRange = document.getElementById("timeRangeFilter").value;
@@ -1048,27 +1139,37 @@
       else if (timeRange === "CUSTOM") filterLabel = `Custom (${fromDate || 'Start'} to ${toDate || 'End'})`;
 
       let fPrem = 0, fPaid = 0, fPending = 0, fHindi = 0, fEnglish = 0;
+      let fAdmin = 0, fMerit = 0, fOffer = 0;
       currentFilteredRecords.forEach(r => {
         if (r.premiumAccess) fPrem++;
-        if (["SUCCESS", "PAID", "APPROVED", "COMPLETED"].some(s => r.paymentStatus.includes(s))) fPaid++;
-        if (r.paymentStatus.includes("PENDING")) fPending++;
+        if (r.paymentStatus === "APPROVED") fPaid++;
+        if (r.paymentStatus === "ADMIN_APPROVED") fAdmin++;
+        if (r.paymentStatus === "APPROVED_MERIT") fMerit++;
+        if (r.paymentStatus === "APPROVE_OFFER") fOffer++;
+        if (r.paymentStatus === "PENDING") fPending++;
         if (r.userLanguage === 'hi') fHindi++;
         else fEnglish++;
       });
 
+      const totalAllowed = fPaid + fAdmin + fMerit + fOffer;
+
       const text = 
 `📊 *AVM Coaching - Audit Report Summary*
 ⏰ *Time:* ${nowIST}
-🎯 *Filter Window:* ${filterLabel}
+🎯 *Filter Window (Payment Date):* ${filterLabel}
 
 👥 *Total Profiles Counted:* ${currentFilteredRecords.length}
 💎 *Active Premium Users:* ${fPrem}
-✅ *Verified Paid Payments:* ${fPaid}
+✅ *Total Approved / Allowed:* ${totalAllowed}
+  • Direct Paid: ${fPaid}
+  • Admin Approved: ${fAdmin}
+  • Approved Merit: ${fMerit}
+  • Approve Offer: ${fOffer}
 ⏳ *Pending Verifications:* ${fPending}
 
 🌐 *Language Breakdown:*
-• *Hindi (HI):* ${fHindi}
-• *English (EN):* ${fEnglish}
+- *Hindi (HI):* ${fHindi}
+- *English (EN):* ${fEnglish}
 
 _Generated via Admin Management Console_`;
 
@@ -1082,31 +1183,70 @@ _Generated via Admin Management Console_`;
 
       const text = 
 `👤 *User Audit Record - AVM Coaching*
-• *Name:* ${r.name}
-• *User ID:* ${r.userId}
-• *Language:* ${r.userLanguage.toUpperCase()}
-• *UTR:* ${r.utr}
-• *Category:* ${r.categoryName}
-• *Payment Status:* ${r.paymentStatus}
-• *Premium Status:* ${r.premiumAccess ? 'ACTIVE (TRUE)' : 'INACTIVE (FALSE)'}
-• *Registered (IST):* ${r.profileCreatedAt}
-• *Payment Date (IST):* ${r.paymentDate}`;
+- *uToken:* ${r.uToken}
+- *Name:* ${r.name}
+- *User ID:* ${r.userId}
+- *Language:* ${r.userLanguage.toUpperCase()}
+- *UTR:* ${r.utr}
+- *Category:* ${r.categoryName}
+- *Payment Status:* ${r.paymentStatus}
+- *Premium Status:* ${r.premiumAccess ? 'ACTIVE (TRUE)' : 'INACTIVE (FALSE)'}
+- *Payment Date (IST):* ${r.paymentDate}
+- *Registered (IST):* ${r.profileCreatedAt}`;
 
       const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
       window.open(url, '_blank');
     }
 
     // -------------------------------------------------------------
-    // 6. FIRESTORE SNAPSHOT HISTORY
+    // 7. ENHANCED SNAPSHOT SAVING WITH START & END DATE RANGE
     // -------------------------------------------------------------
     async function saveSnapshot() {
-      if (!confirm("Save a permanent snapshot of current metrics including language counts?")) return;
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const fromDateInput = document.getElementById("fromDate").value;
+      const toDateInput = document.getElementById("toDate").value;
+
+      const todayStr = getTodayISTString();
+      let calculatedStart = "";
+      let calculatedEnd = todayStr;
+
+      if (timeRange === "TODAY") {
+        calculatedStart = todayStr;
+        calculatedEnd = todayStr;
+      } else if (timeRange === "7DAYS") {
+        const d = new Date();
+        d.setDate(d.getDate() - 7);
+        calculatedStart = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
+        calculatedEnd = todayStr;
+      } else if (timeRange === "30DAYS") {
+        const d = new Date();
+        d.setDate(d.getDate() - 30);
+        calculatedStart = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
+        calculatedEnd = todayStr;
+      } else if (timeRange === "CUSTOM") {
+        calculatedStart = fromDateInput || "Beginning";
+        calculatedEnd = toDateInput || todayStr;
+      } else {
+        // ALL TIME: Find min and max target dates among current records
+        const validDates = currentFilteredRecords
+          .map(r => r.payDateKey || r.regDateKey)
+          .filter(Boolean)
+          .sort();
+        calculatedStart = validDates.length > 0 ? validDates[0] : "All Time";
+        calculatedEnd = validDates.length > 0 ? validDates[validDates.length - 1] : todayStr;
+      }
+
+      const promptLabel = prompt(
+        `Confirm or name snapshot label for this date range [${calculatedStart} to ${calculatedEnd}]:`, 
+        `${timeRange === 'ALL' ? 'All Time Audit' : timeRange} (${formatToDDMMMYYYY(calculatedStart)} to ${formatToDDMMMYYYY(calculatedEnd)})`
+      );
+      if (promptLabel === null) return;
 
       let fPrem = 0, fPaid = 0, fPending = 0, fHindi = 0, fEnglish = 0;
       currentFilteredRecords.forEach(r => {
         if (r.premiumAccess) fPrem++;
-        if (["SUCCESS", "PAID", "APPROVED", "COMPLETED"].some(s => r.paymentStatus.includes(s))) fPaid++;
-        if (r.paymentStatus.includes("PENDING")) fPending++;
+        if (["APPROVED", "ADMIN_APPROVED", "APPROVED_MERIT", "APPROVE_OFFER"].includes(r.paymentStatus)) fPaid++;
+        if (r.paymentStatus === "PENDING") fPending++;
         if (r.userLanguage === 'hi') fHindi++;
         else fEnglish++;
       });
@@ -1114,6 +1254,10 @@ _Generated via Admin Management Console_`;
       try {
         const payload = {
           timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+          label: promptLabel.trim(),
+          filterType: timeRange,
+          startDate: calculatedStart,
+          endDate: calculatedEnd,
           totalUsers: currentFilteredRecords.length,
           premiumUsers: fPrem,
           paidPayments: fPaid,
@@ -1123,7 +1267,7 @@ _Generated via Admin Management Console_`;
         };
 
         await db.collection("audit_metrics_history").add(payload);
-        alert("Snapshot successfully stored in 'audit_metrics_history'!");
+        alert(`Snapshot for range [${calculatedStart} to ${calculatedEnd}] saved successfully!`);
         setTimeout(loadHistory, 600);
       } catch (e) {
         alert("Failed to save snapshot: " + e.message);
@@ -1135,33 +1279,46 @@ _Generated via Admin Management Console_`;
       try {
         const snap = await db.collection("audit_metrics_history")
                              .orderBy("timestamp", "desc")
-                             .limit(20)
+                             .limit(25)
                              .get();
 
         document.getElementById("historyCount").innerText = snap.size;
 
         if (snap.empty) {
-          historyTableBody.innerHTML = `<tr><td colspan="8" style="text-align:center; color: var(--text-muted);">No snapshots saved yet. Click 'Save Snapshot' above.</td></tr>`;
+          historyTableBody.innerHTML = `<tr><td colspan="9" style="text-align:center; color: var(--text-muted);">No snapshots saved yet. Click 'Save Snapshot' above.</td></tr>`;
           return;
         }
 
+        savedAuditSnapshotsList = [];
         let html = "";
         snap.forEach(doc => {
           const d = doc.data();
           const docId = doc.id;
+          savedAuditSnapshotsList.push({ id: docId, ...d });
+
           const displayDate = d.timestamp ? formatIST(d.timestamp) : (d.formattedDate ? formatIST(d.formattedDate) : "Just Now");
+          
+          let periodDisplay = "All Time";
+          if (d.startDate || d.endDate) {
+            periodDisplay = `${formatToDDMMMYYYY(d.startDate || '')} → ${formatToDDMMMYYYY(d.endDate || '')}`;
+          }
 
           html += `
             <tr>
               <td><strong>${displayDate}</strong></td>
+              <td>
+                <span class="badge badge-range">${d.filterType || 'CUSTOM'}</span><br>
+                <small style="color: #475569; font-weight: 600;">${periodDisplay}</small>
+              </td>
               <td>${d.totalUsers ?? 0}</td>
               <td><span style="color: var(--primary); font-weight:700;">${d.premiumUsers ?? 0}</span></td>
               <td><span style="color: var(--success-text); font-weight:700;">${d.paidPayments ?? 0}</span></td>
               <td><span style="color: var(--warning-text); font-weight:700;">${d.pendingPayments ?? 0}</span></td>
               <td><span style="color: #854d0e; font-weight:700;">${d.hindiUsers ?? 0}</span></td>
               <td><span style="color: #0369a1; font-weight:700;">${d.englishUsers ?? 0}</span></td>
-              <td style="text-align: center;">
-                <button class="btn-delete-snap" onclick="deleteSnapshot('${docId}')">🗑 Delete</button>
+              <td style="text-align: center; white-space: nowrap;">
+                <button class="btn-wa-icon" style="padding: 3px 6px;" onclick="shareSavedSnapshotWA('${docId}')">WA</button>
+                <button class="btn-delete-snap" onclick="deleteSnapshot('${docId}')">🗑</button>
               </td>
             </tr>
           `;
@@ -1169,8 +1326,31 @@ _Generated via Admin Management Console_`;
         historyTableBody.innerHTML = html;
 
       } catch (err) {
-        historyTableBody.innerHTML = `<tr><td colspan="8" style="color:red;">Error loading history: ${err.message}</td></tr>`;
+        historyTableBody.innerHTML = `<tr><td colspan="9" style="color:red;">Error loading history: ${err.message}</td></tr>`;
       }
+    }
+
+    function shareSavedSnapshotWA(docId) {
+      const snap = savedAuditSnapshotsList.find(x => x.id === docId);
+      if (!snap) return;
+
+      const periodText = `${formatToDDMMMYYYY(snap.startDate || '')} to ${formatToDDMMMYYYY(snap.endDate || '')}`;
+      const text = 
+`📊 *AVM Coaching - Saved Audit Snapshot*
+🏷️ *Label:* ${snap.label || 'Audit Snapshot'} (${snap.filterType || 'N/A'})
+📅 *Date Range Analyzed:* ${periodText}
+⏰ *Saved Timestamp:* ${formatIST(snap.timestamp)}
+
+👥 *Total Users Analyzed:* ${snap.totalUsers ?? 0}
+💎 *Premium Users:* ${snap.premiumUsers ?? 0}
+✅ *Approved / Paid:* ${snap.paidPayments ?? 0}
+⏳ *Pending Verification:* ${snap.pendingPayments ?? 0}
+🌐 *Language:* ${snap.hindiUsers ?? 0} Hindi | ${snap.englishUsers ?? 0} English
+
+_Generated via Admin Management Console_`;
+
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
     }
 
     async function deleteSnapshot(docId) {
@@ -1196,9 +1376,6 @@ _Generated via Admin Management Console_`;
       }
     }
 
-    // -------------------------------------------------------------
-    // 7. TOGGLE PREMIUM ACCESS DIRECTLY IN FIRESTORE
-    // -------------------------------------------------------------
     async function toggleAccess(uid, targetState, btn) {
       const verb = targetState ? "ENABLE" : "DISABLE";
       if (!confirm(`Are you sure you want to ${verb} premium access for user:\n${uid}?`)) return;

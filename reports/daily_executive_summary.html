@@ -21,16 +21,7 @@
       --border-dark: #cbd5e1;
       --text-main: #0f172a;
       --text-muted: #64748b;
-      --star-color: #f59e0b;
-      
-      --success-bg: #dcfce7;
-      --success-text: #166534;
-      --warning-bg: #fef3c7;
-      --warning-text: #92400e;
-      --danger-bg: #fee2e2;
-      --danger-text: #991b1b;
-      --neutral-bg: #f1f5f9;
-      --neutral-text: #475569;
+      --accent: #4f46e5;
     }
 
     * {
@@ -54,7 +45,6 @@
       margin: 0 auto;
     }
 
-    /* Top Bar */
     header {
       background: var(--surface);
       padding: 12px 14px;
@@ -106,10 +96,12 @@
     .btn-primary { background: var(--primary); }
     .btn-primary:active { background: var(--primary-hover); }
     .btn-secondary { background: #0f172a; }
+    .btn-indigo { background: var(--accent); }
     .btn-whatsapp { background: var(--whatsapp); color: #fff; }
     .btn-whatsapp:active { background: var(--whatsapp-hover); }
+    .btn-danger { background: #ef4444; }
 
-    /* KPI Summary Row */
+    /* Top KPI Summary Row */
     .kpi-row {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -118,15 +110,11 @@
     }
 
     @media (min-width: 640px) {
-      .kpi-row {
-        grid-template-columns: repeat(3, 1fr);
-      }
+      .kpi-row { grid-template-columns: repeat(3, 1fr); }
     }
 
     @media (min-width: 900px) {
-      .kpi-row {
-        grid-template-columns: repeat(6, 1fr);
-      }
+      .kpi-row { grid-template-columns: repeat(6, 1fr); }
     }
 
     .kpi-card {
@@ -156,6 +144,71 @@
       color: var(--text-muted);
       display: block;
       margin-top: 2px;
+    }
+
+    /* Selected Range Highlight Panel */
+    .range-summary-panel {
+      background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+      border: 1.5px solid #bfdbfe;
+      border-radius: 12px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .range-summary-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .range-title-group h2 {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #1e3a8a;
+    }
+
+    .range-title-group span {
+      font-size: 0.72rem;
+      color: #475569;
+    }
+
+    .range-kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    @media (min-width: 640px) {
+      .range-kpi-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (min-width: 900px) {
+      .range-kpi-grid { grid-template-columns: repeat(6, 1fr); }
+    }
+
+    .range-kpi-item {
+      background: #ffffff;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid #dbeafe;
+    }
+
+    .range-kpi-item span {
+      font-size: 0.65rem;
+      color: #64748b;
+      font-weight: 700;
+      display: block;
+      text-transform: uppercase;
+    }
+
+    .range-kpi-item strong {
+      font-size: 1.1rem;
+      font-weight: 800;
     }
 
     /* Filters Bar */
@@ -228,7 +281,7 @@
       border-color: var(--primary);
     }
 
-    /* Table Container (Desktop / Laptop) */
+    /* Table Container */
     .table-container {
       display: none;
       background: var(--surface);
@@ -269,12 +322,99 @@
     tr:nth-child(even) { background-color: #fafbfd; }
     tr:hover { background-color: #f1f5f9; }
 
+    tfoot tr {
+      background-color: #eff6ff !important;
+      font-weight: 700;
+      border-top: 2px solid #bfdbfe;
+    }
+
+    tfoot td {
+      color: #1e3a8a;
+      border-top: 2px solid #bfdbfe;
+    }
+
     td.col-index, th.col-index {
       width: 38px;
       text-align: center;
       font-weight: 700;
       color: var(--text-muted);
       background: #f8fafc;
+    }
+
+    /* Saved History Panel */
+    .saved-history-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-top: 20px;
+      padding: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    .saved-history-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      border-bottom: 1px dashed var(--border);
+      padding-bottom: 8px;
+    }
+
+    .saved-history-header h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .history-card-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    @media (min-width: 768px) {
+      .history-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1100px) {
+      .history-card-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .saved-range-card {
+      background: #fafbfd;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .saved-range-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 6px;
+    }
+
+    .saved-range-stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4px;
+      font-size: 0.76rem;
+      margin-top: 4px;
+    }
+
+    .saved-range-stats div {
+      background: #ffffff;
+      padding: 4px 6px;
+      border-radius: 6px;
+      border: 1px solid #f1f5f9;
     }
 
     /* Badges */
@@ -331,7 +471,7 @@
       white-space: nowrap;
     }
 
-    /* Cards View (Mobile Android Screens) */
+    /* Cards View */
     .cards-container {
       display: flex;
       flex-direction: column;
@@ -414,7 +554,7 @@
 
     .empty-state {
       text-align: center;
-      padding: 28px 12px;
+      padding: 24px 12px;
       color: var(--text-muted);
       font-size: 0.85rem;
     }
@@ -423,11 +563,10 @@
 <body>
 
   <div class="wrapper">
-    <!-- Header -->
     <header>
       <div>
         <h1>AVM Coaching Date-Wise Analytics & Improvements</h1>
-        <small style="color: var(--text-muted); font-size: 0.72rem;">Daily Grouped Funnel & Snapshots (Sorted: Newest First | IST)</small>
+        <small style="color: var(--text-muted); font-size: 0.72rem;">Daily Grouped Funnel & Multi-Day Range Snapshots (IST)</small>
       </div>
       <div class="header-actions">
         <button class="btn btn-whatsapp" onclick="shareFullSummaryWhatsApp()">📲 WhatsApp Summary</button>
@@ -469,7 +608,47 @@
       </div>
     </div>
 
-    <!-- Filters Strip with 7/15/30 Days & Custom Range -->
+    <!-- Dynamic Filtered Range Summary Row (7/15/30 Days) -->
+    <div class="range-summary-panel">
+      <div class="range-summary-header">
+        <div class="range-title-group">
+          <h2 id="rangeLabelHeading">Active Window Aggregate (All Time)</h2>
+          <span id="rangeDatesSubtext">Showing aggregated totals for 0 dates in selection</span>
+        </div>
+        <div style="display:flex; gap:6px;">
+          <button class="btn btn-indigo" onclick="saveActiveRangeSnapshot()">💾 Save Range Snapshot</button>
+        </div>
+      </div>
+
+      <div class="range-kpi-grid">
+        <div class="range-kpi-item">
+          <span>Period New Reg</span>
+          <strong id="rangeSumReg" style="color: #0284c7;">+0</strong>
+        </div>
+        <div class="range-kpi-item">
+          <span>Period Premium</span>
+          <strong id="rangeSumPrem" style="color: #166534;">+0</strong>
+        </div>
+        <div class="range-kpi-item">
+          <span>Period Feedbacks</span>
+          <strong id="rangeSumFb" style="color: #b45309;">0</strong>
+        </div>
+        <div class="range-kpi-item">
+          <span>Period Paid Req</span>
+          <strong id="rangeSumPaid" style="color: #15803d;">0</strong>
+        </div>
+        <div class="range-kpi-item">
+          <span>Hindi / English</span>
+          <strong id="rangeSumLang" style="font-size:0.95rem;">0 HI / 0 EN</strong>
+        </div>
+        <div class="range-kpi-item">
+          <span>Snapshots Stored</span>
+          <strong id="rangeSumSaved" style="color: var(--accent);">0 / 0</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filters Strip -->
     <div class="filters-bar">
       <div class="filters-main-row">
         <input type="text" id="searchInput" placeholder="Search by date (e.g. Oct-2026 or 2026) or notes..." oninput="applyFilters()" />
@@ -504,7 +683,7 @@
       </div>
     </div>
 
-    <!-- Desktop Date-Wise Table (Laptop / Desktop) -->
+    <!-- Desktop Date-Wise Table -->
     <div class="table-container">
       <table>
         <thead>
@@ -527,19 +706,31 @@
             <td colspan="11" class="empty-state">Loading date-wise data from Firestore...</td>
           </tr>
         </tbody>
+        <tfoot id="desktopTableFoot"></tfoot>
       </table>
     </div>
 
-    <!-- Mobile Cards View (Android Phones) -->
+    <!-- Mobile Cards View -->
     <div id="mobileCardsContainer" class="cards-container">
       <div class="empty-state">Loading date-wise data from Firestore...</div>
     </div>
+
+    <!-- Saved Multi-Day Range Snapshots History Panel -->
+    <section class="saved-history-panel">
+      <div class="saved-history-header">
+        <div>
+          <h3>Saved Multi-Day Range Snapshots History</h3>
+          <small style="color: var(--text-muted); font-size: 0.72rem;">Saved reviews from Firestore collection: <code>range_analysis_snapshots</code></small>
+        </div>
+        <button class="btn btn-secondary" onclick="loadSavedRangeSnapshots()">↻ Reload Snapshots</button>
+      </div>
+      <div id="savedRangesList" class="history-card-grid">
+        <div class="empty-state">No saved range snapshots loaded yet.</div>
+      </div>
+    </section>
   </div>
 
   <script>
-    // -------------------------------------------------------------
-    // 1. FIREBASE INITIALIZATION
-    // -------------------------------------------------------------
     const firebaseConfig = {
       projectId: "avmoaching621999"
     };
@@ -554,8 +745,8 @@
     let allDateRows = [];
     let currentFilteredRows = [];
     let savedSnapshotsMap = {};
+    let savedRangesList = [];
 
-    // Helper: Format YYYY-MM-DD -> DD-MMM-YYYY
     function formatToDDMMMYYYY(isoDateStr) {
       if (!isoDateStr || isoDateStr.length < 10) return isoDateStr || "N/A";
       const parts = isoDateStr.split('-');
@@ -563,7 +754,6 @@
       return `${parts[2]}-${MONTHS[parseInt(parts[1], 10) - 1] || parts[1]}-${parts[0]}`;
     }
 
-    // Strict IST datetime: DD-MMM-YYYY, hh:mm:ss a IST
     function formatFullIST(rawVal) {
       if (!rawVal) return "N/A";
       let d;
@@ -594,7 +784,6 @@
       return `${day}-${month}-${year}, ${hour}:${min}:${sec} ${dayPeriod} IST`;
     }
 
-    // Extracts YYYY-MM-DD key in Asia/Kolkata timezone
     function parseDateKeyIST(rawVal) {
       if (!rawVal) return null;
       try {
@@ -625,9 +814,6 @@
       }).format(new Date());
     }
 
-    // -------------------------------------------------------------
-    // 2. FETCH ALL DATA, JOIN & SORT CHRONOLOGICALLY
-    // -------------------------------------------------------------
     async function loadAllCollections() {
       const mobileBox = document.getElementById("mobileCardsContainer");
       const desktopBox = document.getElementById("desktopTableBody");
@@ -643,7 +829,6 @@
           db.collection("daily_app_improvement_snapshots").get()
         ]);
 
-        // Map languages by userId
         const contentLangMap = {};
         contentSnap.forEach(doc => {
           const d = doc.data();
@@ -652,7 +837,6 @@
           }
         });
 
-        // Map saved daily improvement snapshots by targetDate (YYYY-MM-DD)
         savedSnapshotsMap = {};
         snapSnap.forEach(doc => {
           const d = doc.data();
@@ -662,7 +846,6 @@
           }
         });
 
-        // Date-wise Aggregation Buckets
         const dateAgg = {};
         function ensureDate(dateKey) {
           if (!dateAgg[dateKey]) {
@@ -678,7 +861,6 @@
           }
         }
 
-        // 1. Process Registrations
         let totalUsers = 0, totalPrem = 0, totalHi = 0, totalEn = 0;
         profSnap.forEach(doc => {
           const u = doc.data();
@@ -706,7 +888,6 @@
           }
         });
 
-        // 2. Process Payments
         let totalPaid = 0, totalPending = 0;
         paySnap.forEach(doc => {
           const p = doc.data();
@@ -724,7 +905,6 @@
           }
         });
 
-        // 3. Process Feedbacks
         let totalFb = 0, ratingSum = 0;
         fbSnap.forEach(doc => {
           const f = doc.data();
@@ -739,10 +919,8 @@
           }
         });
 
-        // Include any dates that exist in savedSnapshotsMap
         Object.keys(savedSnapshotsMap).forEach(k => ensureDate(k));
 
-        // Strict Chronological Sort: Descending (Newest YYYY-MM-DD date first)
         const allSortedDates = Object.keys(dateAgg).sort((a, b) => b.localeCompare(a));
         const todayKey = getTodayISTString();
 
@@ -765,7 +943,6 @@
           };
         });
 
-        // Update Top KPIs
         document.getElementById("statTotalReg").innerText = totalUsers;
         document.getElementById("statTodayRegBadge").innerText = `+${dateAgg[todayKey]?.newReg || 0} today`;
         document.getElementById("statTotalPrem").innerText = totalPrem;
@@ -780,6 +957,7 @@
         document.getElementById("statActiveDays").innerText = `${allDateRows.length} active dates`;
 
         applyFilters();
+        loadSavedRangeSnapshots();
 
       } catch (err) {
         console.error(err);
@@ -788,9 +966,6 @@
       }
     }
 
-    // -------------------------------------------------------------
-    // 3. FILTERING WITH STRICT CHRONOLOGICAL PRESERVATION
-    // -------------------------------------------------------------
     function handleTimeRangeChange() {
       const timeRange = document.getElementById("timeRangeFilter").value;
       const customRow = document.getElementById("customDateRow");
@@ -851,27 +1026,66 @@
         return matchSearch && matchTime && matchSaved;
       });
 
-      // Strict Sorting: Always newest date first
       filtered.sort((a, b) => b.dateKey.localeCompare(a.dateKey));
-
       currentFilteredRows = filtered;
+
+      updateRangeAggregateCard(filtered, timeRange, fromDate, toDate);
       renderTableAndCards(filtered);
     }
 
-    // -------------------------------------------------------------
-    // 4. RENDER DESKTOP TABLE & MOBILE CARDS
-    // -------------------------------------------------------------
+    function updateRangeAggregateCard(data, timeRange, fromDate, toDate) {
+      let reg = 0, prem = 0, fb = 0, paid = 0, hi = 0, en = 0, saved = 0;
+      data.forEach(r => {
+        reg += r.newReg;
+        prem += r.premUpgrades;
+        fb += r.feedbacks;
+        paid += r.paidCount;
+        hi += r.hiCount;
+        en += r.enCount;
+        if (r.isSaved) saved++;
+      });
+
+      let label = "All-Time Window Aggregate";
+      if (timeRange === "7DAYS") label = "Last 7 Days Aggregate";
+      else if (timeRange === "15DAYS") label = "Last 15 Days Aggregate";
+      else if (timeRange === "30DAYS") label = "Last 30 Days Aggregate";
+      else if (timeRange === "TODAY") label = "Today's Aggregate";
+      else if (timeRange === "CUSTOM") {
+        label = `Custom Range: ${formatToDDMMMYYYY(fromDate) || 'Start'} to ${formatToDDMMMYYYY(toDate) || 'End'}`;
+      }
+
+      document.getElementById("rangeLabelHeading").innerText = label;
+      document.getElementById("rangeDatesSubtext").innerText = `Aggregated metrics across ${data.length} active dates`;
+      document.getElementById("rangeSumReg").innerText = `+${reg}`;
+      document.getElementById("rangeSumPrem").innerText = `+${prem}`;
+      document.getElementById("rangeSumFb").innerText = `${fb}`;
+      document.getElementById("rangeSumPaid").innerText = `${paid}`;
+      document.getElementById("rangeSumLang").innerText = `${hi} HI / ${en} EN`;
+      document.getElementById("rangeSumSaved").innerText = `${saved} / ${data.length}`;
+    }
+
     function renderTableAndCards(data) {
       const desktopTbody = document.getElementById("desktopTableBody");
+      const desktopTfoot = document.getElementById("desktopTableFoot");
       const mobileBox = document.getElementById("mobileCardsContainer");
 
       if (data.length === 0) {
         desktopTbody.innerHTML = `<tr><td colspan="11" class="empty-state">No matching dates found for current filter.</td></tr>`;
+        desktopTfoot.innerHTML = "";
         mobileBox.innerHTML = `<div class="empty-state">No matching dates found for current filter.</div>`;
         return;
       }
 
-      // Desktop Table Render
+      let tReg = 0, tPrem = 0, tFb = 0, tPaid = 0, tHi = 0, tEn = 0;
+      data.forEach(r => {
+        tReg += r.newReg;
+        tPrem += r.premUpgrades;
+        tFb += r.feedbacks;
+        tPaid += r.paidCount;
+        tHi += r.hiCount;
+        tEn += r.enCount;
+      });
+
       desktopTbody.innerHTML = data.map((r, i) => {
         const rowNumber = i + 1;
         const snapBadge = r.isSaved
@@ -904,7 +1118,21 @@
         `;
       }).join("");
 
-      // Mobile Cards Render (Android Phones)
+      desktopTfoot.innerHTML = `
+        <tr>
+          <td colspan="2" style="text-align:center;"><strong>PERIOD TOTAL (${data.length} Dates)</strong></td>
+          <td><strong style="color: #0284c7;">+${tReg}</strong></td>
+          <td><strong style="color: #166534;">+${tPrem}</strong></td>
+          <td><strong style="color: #b45309;">${tFb}</strong></td>
+          <td><strong style="color: #15803d;">${tPaid}</strong></td>
+          <td><strong>${tHi}</strong></td>
+          <td><strong>${tEn}</strong></td>
+          <td colspan="3" style="text-align: right; color: var(--text-muted); font-size: 0.72rem;">
+            Active range selection total
+          </td>
+        </tr>
+      `;
+
       mobileBox.innerHTML = data.map((r, i) => {
         const rowNumber = i + 1;
         const snapBadge = r.isSaved
@@ -958,9 +1186,155 @@
       }).join("");
     }
 
-    // -------------------------------------------------------------
-    // 5. DIRECT SNAPSHOT & NOTE WRITING TO FIRESTORE
-    // -------------------------------------------------------------
+    // Save Multi-Day Range Snapshot to Firestore
+    async function saveActiveRangeSnapshot() {
+      if (!currentFilteredRows.length) {
+        alert("No rows available in current selection to save.");
+        return;
+      }
+
+      const timeRange = document.getElementById("timeRangeFilter").value;
+      const defaultTag = timeRange === "CUSTOM" ? "Custom Range" : timeRange;
+      const rangeTag = prompt("Enter a label/tag for this range snapshot (e.g., 'Weekly Review 7 Days', 'Pre-Exam Sprint'):", defaultTag);
+      if (rangeTag === null) return;
+
+      const notes = prompt("Enter executive observation or growth strategy note for this period:", "");
+      if (notes === null) return;
+
+      let reg = 0, prem = 0, fb = 0, paid = 0, hi = 0, en = 0;
+      currentFilteredRows.forEach(r => {
+        reg += r.newReg;
+        prem += r.premUpgrades;
+        fb += r.feedbacks;
+        paid += r.paidCount;
+        hi += r.hiCount;
+        en += r.enCount;
+      });
+
+      const startDate = currentFilteredRows[currentFilteredRows.length - 1].dateKey;
+      const endDate = currentFilteredRows[0].dateKey;
+
+      try {
+        const payload = {
+          createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+          label: rangeTag.trim() || defaultTag,
+          filterType: timeRange,
+          startDate: startDate,
+          endDate: endDate,
+          totalDays: currentFilteredRows.length,
+          totalReg: reg,
+          totalPrem: prem,
+          totalFeedbacks: fb,
+          totalPaid: paid,
+          totalHindi: hi,
+          totalEnglish: en,
+          strategicNotes: notes.trim() || "(No notes added)"
+        };
+
+        await db.collection("range_analysis_snapshots").add(payload);
+        alert(`Analysis Snapshot for [${payload.label}] saved to Firestore!`);
+        loadSavedRangeSnapshots();
+      } catch (err) {
+        alert("Error saving range snapshot: " + err.message);
+      }
+    }
+
+    // Fetch and display saved range snapshots from Firestore
+    async function loadSavedRangeSnapshots() {
+      const container = document.getElementById("savedRangesList");
+      container.innerHTML = `<div class="empty-state">Loading saved snapshots...</div>`;
+
+      try {
+        const snap = await db.collection("range_analysis_snapshots").get();
+        if (snap.empty) {
+          container.innerHTML = `<div class="empty-state">No saved range snapshots yet. Select 7, 15 days or custom range and click "Save Range Snapshot".</div>`;
+          return;
+        }
+
+        savedRangesList = [];
+        snap.forEach(doc => {
+          savedRangesList.push({ id: doc.id, ...doc.data() });
+        });
+
+        // Sort: newest first
+        savedRangesList.sort((a, b) => {
+          const tA = a.createdAt?.toMillis ? a.createdAt.toMillis() : 0;
+          const tB = b.createdAt?.toMillis ? b.createdAt.toMillis() : 0;
+          return tB - tA;
+        });
+
+        container.innerHTML = savedRangesList.map(item => {
+          const savedOn = formatFullIST(item.createdAt);
+          const periodRange = `${formatToDDMMMYYYY(item.startDate)} → ${formatToDDMMMYYYY(item.endDate)} (${item.totalDays} Days)`;
+
+          return `
+            <div class="saved-range-card">
+              <div class="saved-range-card-top">
+                <strong style="color:var(--primary); font-size:0.86rem;">${escapeHtml(item.label)}</strong>
+                <span class="badge badge-saved">${item.filterType || 'RANGE'}</span>
+              </div>
+              <small style="color:var(--text-muted); font-size:0.72rem;">📅 ${periodRange}</small>
+              <small style="color:var(--text-muted); font-size:0.68rem;">Saved: ${savedOn}</small>
+
+              <div class="saved-range-stats">
+                <div><span>Reg:</span> <strong style="color:#0284c7;">+${item.totalReg}</strong></div>
+                <div><span>Prem:</span> <strong style="color:#166534;">+${item.totalPrem}</strong></div>
+                <div><span>Paid:</span> <strong style="color:#15803d;">${item.totalPaid}</strong></div>
+                <div><span>Feedbacks:</span> <strong style="color:#b45309;">${item.totalFeedbacks}</strong></div>
+              </div>
+
+              <div class="note-box" style="margin-top:4px; font-size:0.74rem;">
+                <strong>Note:</strong> ${escapeHtml(item.strategicNotes) || 'None'}
+              </div>
+
+              <div style="display:flex; gap:6px; margin-top:6px;">
+                <button class="btn btn-whatsapp" style="flex:1; justify-content:center; padding:5px;" onclick="shareSavedRangeWA('${item.id}')">📲 Share</button>
+                <button class="btn btn-danger" style="padding:5px 8px;" onclick="deleteSavedRange('${item.id}')">🗑</button>
+              </div>
+            </div>
+          `;
+        }).join("");
+
+      } catch (err) {
+        console.error(err);
+        container.innerHTML = `<div class="empty-state" style="color:red;">Failed to load saved range snapshots: ${err.message}</div>`;
+      }
+    }
+
+    function shareSavedRangeWA(id) {
+      const item = savedRangesList.find(x => x.id === id);
+      if (!item) return;
+
+      const text = 
+`📊 *AVM Coaching - Saved Range Snapshot*
+🏷️ *Label:* ${item.label} (${item.filterType})
+📅 *Period:* ${formatToDDMMMYYYY(item.startDate)} to ${formatToDDMMMYYYY(item.endDate)} (${item.totalDays} Days)
+
+📈 *Metrics:*
+• *Registrations:* +${item.totalReg}
+• *Premium Upgrades:* +${item.totalPrem}
+• *Paid Requests:* ${item.totalPaid}
+• *Feedbacks:* ${item.totalFeedbacks}
+• *Languages:* ${item.totalHindi} Hindi | ${item.totalEnglish} English
+
+📝 *Observation Note:* ${item.strategicNotes || 'None'}
+⏰ *Saved Timestamp:* ${formatFullIST(item.createdAt)}`;
+
+      const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+    }
+
+    async function deleteSavedRange(id) {
+      if (!confirm("Are you sure you want to delete this saved range snapshot?")) return;
+      try {
+        await db.collection("range_analysis_snapshots").doc(id).delete();
+        alert("Snapshot deleted.");
+        loadSavedRangeSnapshots();
+      } catch (err) {
+        alert("Delete failed: " + err.message);
+      }
+    }
+
     async function saveRowSnapshot(dateKey) {
       const row = allDateRows.find(x => x.dateKey === dateKey);
       if (!row) return;
@@ -1014,9 +1388,6 @@
       }
     }
 
-    // -------------------------------------------------------------
-    // 6. WHATSAPP SHARE
-    // -------------------------------------------------------------
     function shareFullSummaryWhatsApp() {
       const nowIST = formatFullIST(new Date());
       let tReg = 0, tPrem = 0, tPaid = 0, tFb = 0;
