@@ -20,6 +20,7 @@
       --accent-emerald: #059669;
       --accent-amber: #d97706;
       --accent-indigo: #6366f1;
+      --accent-purple: #a855f7;
     }
 
     * {
@@ -99,7 +100,7 @@
       margin-top: 4px;
     }
 
-    /* Portal Navigation Grid (Single column on mobile, 2 columns on laptops) */
+    /* Portal Navigation Grid */
     .portal-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -178,6 +179,7 @@
     .icon-datewise  { background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.4); }
     .icon-feedback  { background: rgba(217, 119, 6, 0.2);   border: 1px solid rgba(217, 119, 6, 0.4); }
     .icon-verify    { background: rgba(5, 150, 105, 0.2); border: 1px solid rgba(5, 150, 105, 0.4); }
+    .icon-thoughts  { background: rgba(168, 85, 247, 0.2); border: 1px solid rgba(168, 85, 247, 0.4); }
 
     .card-info {
       min-width: 0;
@@ -307,6 +309,18 @@
           <div class="card-info">
             <h2>Payment Verification & Audit</h2>
             <p>UTR verification, payment request status & user premium toggle</p>
+          </div>
+        </div>
+        <div class="card-arrow">➔</div>
+      </a>
+
+      <!-- 5. Daily Thoughts Manager -->
+      <a href="daily_thoughts_management.html" class="portal-card" id="link-thoughts">
+        <div class="card-left">
+          <div class="icon-box icon-thoughts">💡</div>
+          <div class="card-info">
+            <h2>Daily Thoughts Manager</h2>
+            <p>Day 1–31 bilingual thoughts (Hindi & English) & author editor</p>
           </div>
         </div>
         <div class="card-arrow">➔</div>
