@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>AVM Coaching - Daily Bilingual Thoughts Manager</title>
+
+  <!-- Firebase App & Firestore SDKs (v10 Compat) -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-hover: #1d4ed8;
+      --accent: #4f46e5;
+      --success: #166534;
+      --success-bg: #dcfce7;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      padding: 12px;
+      line-height: 1.4;
+      min-height: 100vh;
+    }
+
+    .wrapper {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--surface);
+      padding: 14px 18px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      margin-bottom: 14px;
+    }
+
+    @media (min-width: 768px) {
+      header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+    header h1 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .header-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .btn {
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.8rem;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .btn-primary { background: var(--primary); }
+    .btn-primary:active { background: var(--primary-hover); }
+    .btn-accent { background: var(--accent); }
+    .btn-success { background: #15803d; }
+
+    /* Form Card */
+    .form-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    .form-card h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 12px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .form-grid-top {
+        display: grid;
+        grid-template-columns: 160px 1fr 1fr;
+        gap: 12px;
+        align-items: flex-end;
+      }
+      .form-grid-bilingual {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-top: 10px;
+      }
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .input-group label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    input, select, textarea {
+      padding: 9px 12px;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      font-size: 0.84rem;
+      outline: none;
+      background: #ffffff;
+      width: 100%;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--primary);
+    }
+
+    /* Table Container */
+    .table-container {
+      background: var(--surface);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      overflow-x: auto;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+
+    th {
+      background: #f8fafc;
+      color: #334155;
+      font-weight: 700;
+      padding: 10px 12px;
+      border-bottom: 2px solid var(--border);
+      border-right: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      color: #1e293b;
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) { background-color: #fafbfd; }
+    tr:hover { background-color: #f1f5f9; }
+
+    .day-pill {
+      background: #0f172a;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 6px;
+      display: inline-block;
+      text-align: center;
+      min-width: 32px;
+    }
+
+    .status-badge {
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+
+    .status-synced { background: var(--success-bg); color: var(--success); }
+    .status-legacy { background: #fef3c7; color: #92400e; }
+    .status-pending { background: #fee2e2; color: #b91c1c; }
+
+    .btn-edit-sm {
+      background: #f1f5f9;
+      border: 1px solid var(--border-dark);
+      padding: 5px 9px;
+      border-radius: 6px;
+      font-size: 0.74rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .badge-lang {
+      font-size: 0.65rem;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 4px;
+    }
+    .badge-en { background: #e0f2fe; color: #0369a1; }
+    .badge-hi { background: #fef08a; color: #854d0e; }
+
+    .empty-state {
+      text-align: center;
+      padding: 32px 14px;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <div>
+        <h1>Daily Bilingual Thoughts Manager (Days 1–31)</h1>
+        <small style="color: var(--text-muted); font-size: 0.75rem;">
+          Firestore: <code>daily_thoughts</code> | Keys: <code>text_en</code>, <code>writer_en</code>, <code>text_hi</code>, <code>writer_hi</code>
+        </small>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-success" onclick="seedAllBilingualThoughts()">🌱 Seed All 31 Days (EN &amp; HI)</button>
+        <button class="btn btn-primary" onclick="loadThoughtsFromFirestore()">↻ Sync Live Status</button>
+      </div>
+    </header>
+
+    <!-- Form Section -->
+    <div class="form-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h2>Add or Update Bilingual Thought</h2>
+        <button class="btn btn-accent" onclick="saveSingleThought()">💾 Save Day to Firestore</button>
+      </div>
+
+      <div class="form-grid-top">
+        <div class="input-group">
+          <label for="daySelect">Day of Month</label>
+          <select id="daySelect" onchange="onDaySelected(this.value)">
+            <!-- Populated 1 to 31 -->
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="writerEn">Author / Writer (English)</label>
+          <input type="text" id="writerEn" placeholder="e.g. – Winston Churchill" />
+        </div>
+        <div class="input-group">
+          <label for="writerHi">Author / Writer (Hindi)</label>
+          <input type="text" id="writerHi" placeholder="e.g. – विंस्टन चर्चिल" />
+        </div>
+      </div>
+
+      <div class="form-grid-bilingual">
+        <div class="input-group">
+          <label for="textEn"><span class="badge-lang badge-en">EN</span> Thought (English)</label>
+          <textarea id="textEn" rows="3" placeholder="Enter thought in English..."></textarea>
+        </div>
+        <div class="input-group">
+          <label for="textHi"><span class="badge-lang badge-hi">HI</span> Thought (Hindi)</label>
+          <textarea id="textHi" rows="3" placeholder="हिंदी में सुविचार दर्ज करें..."></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- Table View -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 50px; text-align: center;">Day</th>
+            <th>English Thought &amp; Author (text_en / writer_en)</th>
+            <th>Hindi Thought &amp; Author (text_hi / writer_hi)</th>
+            <th style="width: 120px; text-align: center;">Sync State</th>
+            <th style="width: 70px; text-align: center;">Action</th>
+          </tr>
+        </thead>
+        <tbody id="thoughtsTableBody">
+          <tr>
+            <td colspan="5" class="empty-state">Loading thoughts...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const firebaseConfig = {
+      projectId: "avmoaching621999"
+    };
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+    }
+    const db = firebase.firestore();
+
+    // -------------------------------------------------------------
+    // Curated 31 Bilingual Motivational Thoughts
+    // -------------------------------------------------------------
+    const defaultThoughts = [
+      {
+        day: "1",
+        text_en: "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+        writer_en: "– Winston Churchill",
+        text_hi: "सफलता अंतिम नहीं है, असफलता घातक नहीं है: आगे बढ़ते रहने का साहस ही सबसे अधिक मायने रखता है।",
+        writer_hi: "– विंस्टन चर्चिल"
+      },
+      {
+        day: "2",
+        text_en: "Arise, awake, and stop not till the goal is reached.",
+        writer_en: "– Swami Vivekananda",
+        text_hi: "उठो, जागो और तब तक मत रुको जब तक लक्ष्य प्राप्त न हो जाए।",
+        writer_hi: "– स्वामी विवेकानंद"
+      },
+      {
+        day: "3",
+        text_en: "You have to dream before your dreams can come true.",
+        writer_en: "– Dr. A.P.J. Abdul Kalam",
+        text_hi: "सपने सच होने से पहले आपको सपने देखने होंगे।",
+        writer_hi: "– डॉ. ए.पी.जे. अब्दुल कलाम"
+      },
+      {
+        day: "4",
+        text_en: "The future belongs to those who believe in the beauty of their dreams.",
+        writer_en: "– Eleanor Roosevelt",
+        text_hi: "भविष्य उनका है जो अपने सपनों की सुंदरता में विश्वास रखते हैं।",
+        writer_hi: "– एलेनोर रूजवेल्ट"
+      },
+      {
+        day: "5",
+        text_en: "Education is the most powerful weapon which you can use to change the world.",
+        writer_en: "– Nelson Mandela",
+        text_hi: "शिक्षा सबसे शक्तिशाली हथियार है जिसका उपयोग आप दुनिया को बदलने के लिए कर सकते हैं।",
+        writer_hi: "– नेल्सन मंडेला"
+      },
+      {
+        day: "6",
+        text_en: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+        writer_en: "– Mahatma Gandhi",
+        text_hi: "ऐसे जियो जैसे कि तुम कल मरने वाले हो। ऐसे सीखो जैसे कि तुम हमेशा जीने वाले हो।",
+        writer_hi: "– महात्मा गांधी"
+      },
+      {
+        day: "7",
+        text_en: "It always seems impossible until it's done.",
+        writer_en: "– Nelson Mandela",
+        text_hi: "जब तक कोई काम पूरा नहीं हो जाता, तब तक वह हमेशा असंभव ही लगता है।",
+        writer_hi: "– नेल्सन मंडेला"
+      },
+      {
+        day: "8",
+        text_en: "The only way to do great work is to love what you do.",
+        writer_en: "– Steve Jobs",
+        text_hi: "महान कार्य करने का एकमात्र तरीका यह है कि आप जो करते हैं उससे प्रेम करें।",
+        writer_hi: "– स्टीव जॉब्स"
+      },
+      {
+        day: "9",
+        text_en: "In the middle of every difficulty lies opportunity.",
+        writer_en: "– Albert Einstein",
+        text_hi: "कठिनाइयों के बीच में ही अवसर छुपे होते हैं।",
+        writer_hi: "– अल्बर्ट आइंस्टीन"
+      },
+      {
+        day: "10",
+        text_en: "Take risks in your life. If you win, you can lead; if you lose, you can guide.",
+        writer_en: "– Swami Vivekananda",
+        text_hi: "जीवन में जोखिम उठाएं। यदि आप जीतते हैं तो नेतृत्व कर सकते हैं; यदि हारते हैं तो मार्गदर्शन कर सकते हैं।",
+        writer_hi: "– स्वामी विवेकानंद"
+      },
+      {
+        day: "11",
+        text_en: "Small aim is a crime; have great aim.",
+        writer_en: "– Dr. A.P.J. Abdul Kalam",
+        text_hi: "छोटा लक्ष्य अपराध है; हमेशा महान लक्ष्य रखें।",
+        writer_hi: "– डॉ. ए.पी.जे. अब्दुल कलाम"
+      },
+      {
+        day: "12",
+        text_en: "Believe you can and you're halfway there.",
+        writer_en: "– Theodore Roosevelt",
+        text_hi: "विश्वास रखें कि आप कर सकते हैं, और आपने आधा रास्ता पार कर लिया है।",
+        writer_hi: "– थियोडोर रूजवेल्ट"
+      },
+      {
+        day: "13",
+        text_en: "The expert in anything was once a beginner.",
+        writer_en: "– Helen Hayes",
+        text_hi: "हर विशेषज्ञ कभी न कभी एक शुरुआती ही होता है।",
+        writer_hi: "– हेलेन हेस"
+      },
+      {
+        day: "14",
+        text_en: "Action is the foundational key to all success.",
+        writer_en: "– Pablo Picasso",
+        text_hi: "कर्म ही सभी सफलताओं की बुनियादी कुंजी है।",
+        writer_hi: "– पाब्लो पिकासो"
+      },
+      {
+        day: "15",
+        text_en: "Your time is limited, so don't waste it living someone else's life.",
+        writer_en: "– Steve Jobs",
+        text_hi: "आपका समय सीमित है, इसलिए इसे किसी और की जिंदगी जीकर बर्बाद न करें।",
+        writer_hi: "– स्टीव जॉब्स"
+      },
+      {
+        day: "16",
+        text_en: "A person who never made a mistake never tried anything new.",
+        writer_en: "– Albert Einstein",
+        text_hi: "जिस व्यक्ति ने कभी गलती नहीं की, उसने कभी कुछ नया करने की कोशिश नहीं की।",
+        writer_hi: "– अल्बर्ट आइंस्टीन"
+      },
+      {
+        day: "17",
+        text_en: "You cannot change your future, but you can change your habits, and surely your habits will change your future.",
+        writer_en: "– Dr. A.P.J. Abdul Kalam",
+        text_hi: "आप अपना भविष्य नहीं बदल सकते, लेकिन अपनी आदतें बदल सकते हैं, और निश्चित रूप से आपकी आदतें आपका भविष्य बदल देंगी।",
+        writer_hi: "– डॉ. ए.पी.जे. अब्दुल कलाम"
+      },
+      {
+        day: "18",
+        text_en: "You must be the change you wish to see in the world.",
+        writer_en: "– Mahatma Gandhi",
+        text_hi: "आपको खुद वह बदलाव बनना होगा जो आप दुनिया में देखना चाहते हैं।",
+        writer_hi: "– महात्मा गांधी"
+      },
+      {
+        day: "19",
+        text_en: "Strength does not come from physical capacity. It comes from an indomitable will.",
+        writer_en: "– Mahatma Gandhi",
+        text_hi: "ताकत शारीरिक क्षमता से नहीं आती। यह अदम्य इच्छाशक्ति से आती है।",
+        writer_hi: "– महात्मा गांधी"
+      },
+      {
+        day: "20",
+        text_en: "Comfort is the enemy of achievement.",
+        writer_en: "– Farrah Gray",
+        text_hi: "आराम ही बड़ी उपलब्धियों का सबसे बड़ा शत्रु है।",
+        writer_hi: "– फराह ग्रे"
+      },
+      {
+        day: "21",
+        text_en: "Discipline is the bridge between goals and accomplishment.",
+        writer_en: "– Jim Rohn",
+        text_hi: "अनुशासन ही लक्ष्यों और उपलब्धियों के बीच का पुल है।",
+        writer_hi: "– जिम रोहन"
+      },
+      {
+        day: "22",
+        text_en: "If you want to shine like a sun, first burn like a sun.",
+        writer_en: "– Dr. A.P.J. Abdul Kalam",
+        text_hi: "यदि आप सूर्य की तरह चमकना चाहते हैं, तो पहले सूर्य की तरह तपना सीखें।",
+        writer_hi: "– डॉ. ए.पी.जे. अब्दुल कलाम"
+      },
+      {
+        day: "23",
+        text_en: "Talk to yourself once in a day, otherwise you may miss meeting an intelligent person in this world.",
+        writer_en: "– Swami Vivekananda",
+        text_hi: "दिन में एक बार खुद से बात करें, नहीं तो आप दुनिया के एक बुद्धिमान व्यक्ति से मिलने से चूक सकते हैं।",
+        writer_hi: "– स्वामी विवेकानंद"
+      },
+      {
+        day: "24",
+        text_en: "Do what you can, with what you have, where you are.",
+        writer_en: "– Theodore Roosevelt",
+        text_hi: "आप जहां भी हैं, आपके पास जो कुछ भी है, उसी के साथ वह करें जो आप कर सकते हैं।",
+        writer_hi: "– थियोडोर रूजवेल्ट"
+      },
+      {
+        day: "25",
+        text_en: "Don't watch the clock; do what it does. Keep going.",
+        writer_en: "– Sam Levenson",
+        text_hi: "घड़ी मत देखिए; वही कीजिए जो वह करती है। बस निरंतर चलते रहिए।",
+        writer_hi: "– सैम लेवेन्सन"
+      },
+      {
+        day: "26",
+        text_en: "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
+        writer_en: "– Colin Powell",
+        text_hi: "सफलता का कोई रहस्य नहीं है। यह तैयारी, कड़ी मेहनत और असफलता से सीखने का परिणाम है।",
+        writer_hi: "– कॉलिन पॉवेल"
+      },
+      {
+        day: "27",
+        text_en: "The mind is everything. What you think you become.",
+        writer_en: "– Buddha",
+        text_hi: "मन ही सब कुछ है। जैसा आप सोचते हैं, वैसे ही आप बन जाते हैं।",
+        writer_hi: "– भगवान बुद्ध"
+      },
+      {
+        day: "28",
+        text_en: "Great things never come from comfort zones.",
+        writer_en: "– Anonymous",
+        text_hi: "कम्फर्ट ज़ोन से कभी भी महान परिणाम प्राप्त नहीं होते।",
+        writer_hi: "– अज्ञात"
+      },
+      {
+        day: "29",
+        text_en: "Confidence and hard work is the best medicine to kill the disease called failure.",
+        writer_en: "– Dr. A.P.J. Abdul Kalam",
+        text_hi: "आत्मविश्वास और कड़ी मेहनत, असफलता नाम की बीमारी को हराने की सबसे अचूक दवा है।",
+        writer_hi: "– डॉ. ए.पी.जे. अब्दुल कलाम"
+      },
+      {
+        day: "30",
+        text_en: "Learn from yesterday, live for today, hope for tomorrow.",
+        writer_en: "– Albert Einstein",
+        text_hi: "बीते कल से सीखें, आज के लिए जिएं, और आने वाले कल के लिए आशा रखें।",
+        writer_hi: "– अल्बर्ट आइंस्टीन"
+      },
+      {
+        day: "31",
+        text_en: "Consistency is what transforms average into excellence.",
+        writer_en: "– Anonymous",
+        text_hi: "निरंतरता ही वह शक्ति है जो सामान्य को सर्वोत्तम में बदल देती है।",
+        writer_hi: "– अज्ञात"
+      }
+    ];
+
+    let liveThoughtsMap = {};
+
+    function initDayDropdown() {
+      const select = document.getElementById("daySelect");
+      select.innerHTML = "";
+      for (let i = 1; i <= 31; i++) {
+        const opt = document.createElement("option");
+        opt.value = String(i);
+        opt.innerText = `Day ${i}`;
+        select.appendChild(opt);
+      }
+      onDaySelected("1");
+    }
+
+    function onDaySelected(dayStr) {
+      const existing = liveThoughtsMap[dayStr] || defaultThoughts.find(t => t.day === dayStr);
+      if (existing) {
+        document.getElementById("textEn").value = existing.text_en || existing.text || "";
+        document.getElementById("writerEn").value = existing.writer_en || existing.writer || "";
+        document.getElementById("textHi").value = existing.text_hi || "";
+        document.getElementById("writerHi").value = existing.writer_hi || "";
+      } else {
+        document.getElementById("textEn").value = "";
+        document.getElementById("writerEn").value = "";
+        document.getElementById("textHi").value = "";
+        document.getElementById("writerHi").value = "";
+      }
+    }
+
+    // -------------------------------------------------------------
+    // Firestore Sync with Legacy Fallback Support
+    // -------------------------------------------------------------
+    async function loadThoughtsFromFirestore() {
+      const tbody = document.getElementById("thoughtsTableBody");
+      tbody.innerHTML = `<tr><td colspan="5" class="empty-state">Syncing thoughts with Firestore...</td></tr>`;
+
+      try {
+        const snap = await db.collection("daily_thoughts").get();
+        liveThoughtsMap = {};
+
+        snap.forEach(doc => {
+          const d = doc.data();
+          // Support new structure + legacy fallback
+          const textEn = d.text_en !== undefined ? d.text_en : (d.text || "");
+          const writerEn = d.writer_en !== undefined ? d.writer_en : (d.writer || "");
+          const textHi = d.text_hi || "";
+          const writerHi = d.writer_hi || "";
+
+          liveThoughtsMap[doc.id] = {
+            text_en: textEn,
+            writer_en: writerEn,
+            text_hi: textHi,
+            writer_hi: writerHi,
+            isLegacy: d.text_en === undefined && d.text !== undefined
+          };
+        });
+
+        renderTable();
+        onDaySelected(document.getElementById("daySelect").value);
+
+      } catch (err) {
+        console.error(err);
+        tbody.innerHTML = `<tr><td colspan="5" class="empty-state" style="color:red;">Failed to sync with Firestore: ${err.message}</td></tr>`;
+      }
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById("thoughtsTableBody");
+      let html = "";
+
+      for (let i = 1; i <= 31; i++) {
+        const dayKey = String(i);
+        const liveDoc = liveThoughtsMap[dayKey];
+        const defaultDoc = defaultThoughts.find(d => d.day === dayKey);
+
+        const currentEn = liveDoc ? liveDoc.text_en : defaultDoc.text_en;
+        const currentWEn = liveDoc ? liveDoc.writer_en : defaultDoc.writer_en;
+        const currentHi = liveDoc ? liveDoc.text_hi : defaultDoc.text_hi;
+        const currentWHi = liveDoc ? liveDoc.writer_hi : defaultDoc.writer_hi;
+
+        let statusHtml = `<span class="status-badge status-pending">Unseeded</span>`;
+        if (liveDoc) {
+          if (liveDoc.isLegacy) {
+            statusHtml = `<span class="status-badge status-legacy">Legacy (EN only)</span>`;
+          } else {
+            statusHtml = `<span class="status-badge status-synced">Synced (EN+HI)</span>`;
+          }
+        }
+
+        html += `
+          <tr>
+            <td style="text-align: center;"><span class="day-pill">${dayKey}</span></td>
+            <td>
+              <div><strong>${escapeHtml(currentEn)}</strong></div>
+              <small style="color: #64748b; font-style: italic;">${escapeHtml(currentWEn) || "–"}</small>
+            </td>
+            <td>
+              <div><strong>${escapeHtml(currentHi)}</strong></div>
+              <small style="color: #854d0e; font-style: italic;">${escapeHtml(currentWHi) || "–"}</small>
+            </td>
+            <td style="text-align: center;">${statusHtml}</td>
+            <td style="text-align: center;">
+              <button class="btn-edit-sm" onclick="editRow('${dayKey}')">✏ Edit</button>
+            </td>
+          </tr>
+        `;
+      }
+
+      tbody.innerHTML = html;
+    }
+
+    function editRow(dayStr) {
+      document.getElementById("daySelect").value = dayStr;
+      onDaySelected(dayStr);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // -------------------------------------------------------------
+    // Single Day Save
+    // -------------------------------------------------------------
+    async function saveSingleThought() {
+      const day = document.getElementById("daySelect").value;
+      const textEn = document.getElementById("textEn").value.trim();
+      const writerEn = document.getElementById("writerEn").value.trim();
+      const textHi = document.getElementById("textHi").value.trim();
+      const writerHi = document.getElementById("writerHi").value.trim();
+
+      if (!textEn && !textHi) {
+        alert("Please enter at least English or Hindi thought!");
+        return;
+      }
+
+      try {
+        const payload = {
+          text_en: textEn,
+          writer_en: writerEn,
+          text_hi: textHi,
+          writer_hi: writerHi
+        };
+
+        await db.collection("daily_thoughts").doc(day).set(payload, { merge: true });
+        liveThoughtsMap[day] = { ...payload, isLegacy: false };
+
+        alert(`Day ${day} bilingual thought updated successfully!`);
+        renderTable();
+      } catch (err) {
+        alert("Failed to update thought: " + err.message);
+      }
+    }
+
+    // -------------------------------------------------------------
+    // Batch Seed All 31 Bilingual Thoughts
+    // -------------------------------------------------------------
+    async function seedAllBilingualThoughts() {
+      if (!confirm("Are you sure you want to write all 31 bilingual thoughts to Firestore collection 'daily_thoughts'?")) {
+        return;
+      }
+
+      try {
+        const batch = db.batch();
+
+        defaultThoughts.forEach(item => {
+          const docRef = db.collection("daily_thoughts").doc(item.day);
+          batch.set(docRef, {
+            text_en: item.text_en,
+            writer_en: item.writer_en,
+            text_hi: item.text_hi,
+            writer_hi: item.writer_hi
+          }, { merge: true });
+        });
+
+        await batch.commit();
+        alert("All 31 bilingual thoughts successfully stored in Firestore!");
+        loadThoughtsFromFirestore();
+
+      } catch (err) {
+        alert("Batch write failed: " + err.message);
+      }
+    }
+
+    function escapeHtml(s) {
+      if (!s) return "";
+      return String(s).replace(/[&<>"']/g, c => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      })[c]);
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      initDayDropdown();
+      loadThoughtsFromFirestore();
+    });
+  </script>
+</body>
+</html>
