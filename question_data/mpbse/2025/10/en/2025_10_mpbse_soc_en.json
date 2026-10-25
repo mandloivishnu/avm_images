@@ -257,57 +257,51 @@
         }
       ]
     },
-    {
-      "question_number": "4",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "Match the correct pairs:",
-      "columns": {
-        "column_A_title": "A",
-        "column_B_title": "B",
-        "pairs": [
-          {
-            "a_item": "(a) Reserve Bank of India",
-            "b_item": "Formal source of credit",
-            "correct_match_index": "3",
-            "explanation": "Correct match: (a) Reserve Bank of India ⟶ Formal source of credit\n\nReason: RBI is India's central bank that supervises formal credit sources like commercial banks and cooperative societies, regulating their interest rates and cash reserves."
-          },
-          {
-            "a_item": "(b) Sectors based on ownership",
-            "b_item": "Public and private sectors",
-            "correct_match_index": "1",
-            "explanation": "Correct match: (b) Sectors based on ownership ⟶ Public and private sectors\n\nReason: Based on who owns assets and delivers services, economic activities are categorized into the 'public sector' (government ownership) and 'private sector' (private ownership)."
-          },
-          {
-            "a_item": "(c) Functions of political parties",
-            "b_item": "To contest elections and form government",
-            "correct_match_index": "5",
-            "explanation": "Correct match: (c) Functions of political parties ⟶ To contest elections and form government\n\nReason: The primary democratic function of political parties is to field candidates for elections, shape public opinion, and form and run governments upon winning."
-          },
-          {
-            "a_item": "(d) Print media",
-            "b_item": "Raising social issues and news",
-            "correct_match_index": "6",
-            "explanation": "Correct match: (d) Print media ⟶ Raising social issues and news\n\nReason: Newspapers, magazines, and books (print media) are vital channels for delivering news and creating public awareness on socio-political issues."
-          },
-          {
-            "a_item": "(e) Limestone",
-            "b_item": "Raw material for cement industry",
-            "correct_match_index": "2",
-            "explanation": "Correct match: (e) Limestone ⟶ Raw material for cement industry\n\nReason: Limestone is a non-metallic mineral that serves as the primary and essential raw material used in the manufacturing of cement."
-          },
-          {
-            "a_item": "(f) Simon Commission",
-            "b_item": "Year 1928",
-            "correct_match_index": "4",
-            "explanation": "Correct match: (f) Simon Commission ⟶ Year 1928\n\nReason: Formed under the chairmanship of Sir John Simon to review the constitutional system in India, the statutory commission arrived in India in February 1928."
-          }
-        ]
+   {
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "Match the correct pairs:",
+  "columns": {
+    "column_A_title": "A",
+    "column_B_title": "B",
+    "pairs": [
+      {
+        "a_item": "(a) Reserve Bank of India",
+        "b_item": "Raw material for cement industry",
+        "correct_match_index": "5"
       },
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
-    },
+      {
+        "a_item": "(b) Sectors based on ownership",
+        "b_item": "Year 1928",
+        "correct_match_index": "6"
+      },
+      {
+        "a_item": "(c) Functions of political parties",
+        "b_item": "Formal source of credit",
+        "correct_match_index": "1"
+      },
+      {
+        "a_item": "(d) Print media",
+        "b_item": "Public and private sectors",
+        "correct_match_index": "2"
+      },
+      {
+        "a_item": "(e) Limestone",
+        "b_item": "To contest elections and form government",
+        "correct_match_index": "3"
+      },
+      {
+        "a_item": "(f) Simon Commission",
+        "b_item": "Raising social issues and news",
+        "correct_match_index": "4"
+      }
+    ]
+  },
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "Column (A) and Column (B) have been correctly matched as follows:\n\n(a) Reserve Bank of India ⟶ Formal source of credit\nReason: RBI is India's central bank. It supervises and regulates formal credit sources such as commercial banks and cooperative banks.\n\n(b) Sectors based on ownership ⟶ Public and private sectors\nReason: Based on ownership, economic activities are classified into the public sector, owned by the government, and the private sector, owned by individuals or companies.\n\n(c) Functions of political parties ⟶ To contest elections and form government\nReason: Political parties contest elections, put forward policies and candidates, and form governments when they secure the required support.\n\n(d) Print media ⟶ Raising social issues and news\nReason: Newspapers, magazines, and other printed publications deliver news and raise awareness about social and political issues.\n\n(e) Limestone ⟶ Raw material for cement industry\nReason: Limestone is a major raw material used in cement manufacturing.\n\n(f) Simon Commission ⟶ Year 1928\nReason: The Simon Commission, chaired by Sir John Simon, arrived in India in February 1928 to review the working of the constitutional system and reforms in British India."
+},
     {
       "question_number": "5",
       "question_type": "DESCRIPTIVE",

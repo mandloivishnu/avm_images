@@ -213,54 +213,53 @@
         }
       ]
     },
-    {
-      "question_number": "3",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "Match the correct pairs:",
-      "columns": {
-        "column_A_title": "A",
-        "column_B_title": "B",
-        "pairs": [
-          {
-            "a_item": "(1) Automobile industry",
-            "b_item": "Gurugram",
-            "correct_match_index": "6",
-            "explanation": "Gurugram (Haryana) is a major center for automobile manufacturing in India."
-          },
-          {
-            "a_item": "(2) Artificial port",
-            "b_item": "Chennai",
-            "correct_match_index": "5",
-            "explanation": "Chennai port is one of the principal artificial (man-made) ports of India."
-          },
-          {
-            "a_item": "(3) Defeat of Napoleon",
-            "b_item": "1815",
-            "correct_match_index": "4",
-            "explanation": "Napoleon was defeated in the Battle of Waterloo in the year 1815."
-          },
-          {
-            "a_item": "(4) Rowlatt Act",
-            "b_item": "1919",
-            "correct_match_index": "3",
-            "explanation": "The Rowlatt Act was passed in March 1919, giving enormous powers to the British to repress political activities."
-          },
-          {
-            "a_item": "(5) James Watt",
-            "b_item": "Steam engine",
-            "correct_match_index": "2",
-            "explanation": "James Watt improved the Newcomen steam engine to produce the modern steam engine."
-          },
-          {
-            "a_item": "(6) Union List",
-            "b_item": "Defence",
-            "correct_match_index": "1",
-            "explanation": "Subjects of national importance like defence, foreign affairs, and banking are included in the Union List."
-          }
-        ]
+   
+{
+  "question_number": "3",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "Match the correct pairs:",
+  "columns": {
+    "column_A_title": "A",
+    "column_B_title": "B",
+    "pairs": [
+      {
+        "a_item": "(1) Automobile industry",
+        "b_item": "1919",
+        "correct_match_index": "3"
+      },
+      {
+        "a_item": "(2) Artificial port",
+        "b_item": "Steam engine",
+        "correct_match_index": "6"
+      },
+      {
+        "a_item": "(3) Defeat of Napoleon",
+        "b_item": "Gurugram",
+        "correct_match_index": "5"
+      },
+      {
+        "a_item": "(4) Rowlatt Act",
+        "b_item": "Defence",
+        "correct_match_index": "1"
+      },
+      {
+        "a_item": "(5) James Watt",
+        "b_item": "Chennai",
+        "correct_match_index": "2"
+      },
+      {
+        "a_item": "(6) Union List",
+        "b_item": "1815",
+        "correct_match_index": "4"
       }
-    },
+    ]
+  },
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "The correct matches for Column A and Column B, along with their reasons, are given below:\n\n(1) Automobile industry ⟶ Gurugram\nReason: Gurugram, Haryana, is a major automobile manufacturing hub in India.\n\n(2) Artificial port ⟶ Chennai\nReason: Chennai Port is a major artificial port developed through human intervention on India's eastern coast.\n\n(3) Defeat of Napoleon ⟶ 1815\nReason: Napoleon Bonaparte was decisively defeated at the Battle of Waterloo in 1815.\n\n(4) Rowlatt Act ⟶ 1919\nReason: The Rowlatt Act was passed in 1919 and gave the British colonial government extensive powers to suppress political activities and detain people without trial under specified conditions.\n\n(5) James Watt ⟶ Steam engine\nReason: James Watt significantly improved the Newcomen steam engine, making it more efficient.\n\n(6) Union List ⟶ Defence\nReason: Defence, foreign affairs, and banking are subjects of national importance included in the Union List of the Indian Constitution."
+}
+,
     {
       "question_number": "4",
       "question_type": "TRUE_FALSE",

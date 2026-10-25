@@ -303,56 +303,50 @@
       ]
     },
     {
-      "question_number": "5",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "Match the correct pairs:",
-      "columns": {
-        "column_A_title": "A",
-        "column_B_title": "B",
-        "pairs": [
-          {
-            "a_item": "(i) Mahanadi basin",
-            "b_item": "Hirakud Project",
-            "correct_match_index": "3",
-            "explanation": "Built across the Mahanadi River in Odisha, the Hirakud Dam is India's longest multipurpose river valley project, aiding in flood control and irrigation within the Mahanadi basin."
-          },
-          {
-            "a_item": "(ii) 'Vande Mataram'",
-            "b_item": "Bankim Chandra Chattopadhyay",
-            "correct_match_index": "4",
-            "explanation": "India's national song 'Vande Mataram' was composed in the 1870s by Bankim Chandra Chattopadhyay as a hymn to the motherland and was later included in his famous novel 'Anandamath'."
-          },
-          {
-            "a_item": "(iii) Capital of Sri Lanka",
-            "b_item": "Colombo",
-            "correct_match_index": "6",
-            "explanation": "Colombo is Sri Lanka's largest city, principal financial and commercial hub, and historically its executive capital."
-          },
-          {
-            "a_item": "(iv) Authorized by the country's government",
-            "b_item": "Currency",
-            "correct_match_index": "2",
-            "explanation": "Modern money or paper notes (currency) are authorized by a country's legal government and central bank, making them universally accepted as a medium of exchange."
-          },
-          {
-            "a_item": "(v) Electronic capital",
-            "b_item": "Bengaluru",
-            "correct_match_index": "1",
-            "explanation": "Karnataka's capital Bengaluru (Bangalore) is known as India's 'Electronic capital' or 'Silicon Valley' because it is the country's largest Information Technology (IT) and software hub."
-          },
-          {
-            "a_item": "(vi) Vernacular Press Act",
-            "b_item": "Year 1878",
-            "correct_match_index": "5",
-            "explanation": "Enacted in 1878 by Viceroy Lord Lytton, the Vernacular Press Act placed severe restrictions on the freedom of Indian-language (vernacular) newspapers to suppress nationalist writings."
-          }
-        ]
+  "question_number": "5",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "Match the correct pairs:",
+  "columns": {
+    "column_A_title": "A",
+    "column_B_title": "B",
+    "pairs": [
+      {
+        "a_item": "(i) Mahanadi basin",
+        "b_item": "Bengaluru",
+        "correct_match_index": "5"
       },
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
-    },
+      {
+        "a_item": "(ii) 'Vande Mataram'",
+        "b_item": "Year 1878",
+        "correct_match_index": "6"
+      },
+      {
+        "a_item": "(iii) Capital of Sri Lanka",
+        "b_item": "Hirakud Project",
+        "correct_match_index": "1"
+      },
+      {
+        "a_item": "(iv) Authorized by the country's government",
+        "b_item": "Currency",
+        "correct_match_index": "4"
+      },
+      {
+        "a_item": "(v) Electronic capital",
+        "b_item": "Colombo",
+        "correct_match_index": "3"
+      },
+      {
+        "a_item": "(vi) Vernacular Press Act",
+        "b_item": "Bankim Chandra Chattopadhyay",
+        "correct_match_index": "2"
+      }
+    ]
+  },
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "Column (A) and Column (B) have been correctly matched as follows:\n\n(i) Mahanadi basin ⟶ Hirakud Project\nReason: Built across the Mahanadi River in Odisha, the Hirakud Dam is a multipurpose project that helps with flood control and irrigation in the Mahanadi basin.\n\n(ii) 'Vande Mataram' ⟶ Bankim Chandra Chattopadhyay\nReason: India's national song 'Vande Mataram' was composed by Bankim Chandra Chattopadhyay and later included in his famous novel 'Anandamath'.\n\n(iii) Capital of Sri Lanka ⟶ Colombo\nReason: Colombo is Sri Lanka's largest city and a major financial and commercial hub. Sri Jayawardenepura Kotte is the country's legislative capital.\n\n(iv) Authorized by the country's government ⟶ Currency\nReason: Currency is issued and authorized under a country's monetary and legal framework and serves as a medium of exchange.\n\n(v) Electronic capital ⟶ Bengaluru\nReason: Bengaluru, the capital of Karnataka, is known as India's Silicon Valley because of its major Information Technology (IT) and software industries.\n\n(vi) Vernacular Press Act ⟶ Year 1878\nReason: The Vernacular Press Act was enacted in 1878 under Viceroy Lord Lytton to restrict Indian-language newspapers and suppress nationalist writings."
+},
     {
       "question_number": "6",
       "question_type": "DESCRIPTIVE",

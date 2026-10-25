@@ -336,69 +336,63 @@
         }
       ]
     },
-    {
-      "question_number": "3",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×8=8",
-      "text": "Match the following:",
-      "columns": {
-        "column_A_title": "Column (A)",
-        "column_B_title": "Column (B)",
-        "pairs": [
-          {
-            "a_item": "Strong acid",
-            "b_item": "HCl",
-            "correct_match_index": "5",
-            "explanation": "Correct match: Strong acid ⟶ HCl\n\nReason: Hydrochloric acid (HCl) ionizes completely in water to give high H⁺ ion concentration, hence it is a strong acid."
-          },
-          {
-            "a_item": "Metal",
-            "b_item": "Conductor",
-            "correct_match_index": "7",
-            "explanation": "Correct match: Metal ⟶ Conductor\n\nReason: Due to the presence of free electrons in metals, they are good conductors of heat and electricity."
-          },
-          {
-            "a_item": "Xylem",
-            "b_item": "Water transport",
-            "correct_match_index": "1",
-            "explanation": "Correct match: Xylem ⟶ Water transport\n\nReason: Xylem is the plant vascular tissue that transports water and minerals from roots to leaves."
-          },
-          {
-            "a_item": "Master gland",
-            "b_item": "Pituitary",
-            "correct_match_index": "2",
-            "explanation": "Correct match: Master gland ⟶ Pituitary\n\nReason: The pituitary gland controls the hormone secretion of all other endocrine glands, hence it is called the 'master gland'."
-          },
-          {
-            "a_item": "Female hormone",
-            "b_item": "Estrogen",
-            "correct_match_index": "6",
-            "explanation": "Correct match: Female hormone ⟶ Estrogen\n\nReason: Estrogen is the primary female sex hormone secreted by the ovaries."
-          },
-          {
-            "a_item": "Mendel",
-            "b_item": "Laws of inheritance",
-            "correct_match_index": "8",
-            "explanation": "Correct match: Mendel ⟶ Laws of inheritance\n\nReason: Gregor Johann Mendel discovered fundamental principles and laws of genetics through experiments on pea plants."
-          },
-          {
-            "a_item": "Straight line path",
-            "b_item": "Light ray",
-            "correct_match_index": "3",
-            "explanation": "Correct match: Straight line path ⟶ Light ray\n\nReason: Light rays always travel in straight (rectilinear) lines in a homogeneous transparent medium."
-          },
-          {
-            "a_item": "Potential difference",
-            "b_item": "Volt",
-            "correct_match_index": "4",
-            "explanation": "Correct match: Potential difference ⟶ Volt\n\nReason: The SI unit of electric potential difference is 'volt' (V)."
-          }
-        ]
+    
+{
+  "question_number": "3",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×8=8",
+  "text": "Match the following:",
+  "columns": {
+    "column_A_title": "Column (A)",
+    "column_B_title": "Column (B)",
+    "pairs": [
+      {
+        "a_item": "Strong acid",
+        "b_item": "Volt",
+        "correct_match_index": "6"
       },
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
-    },
+      {
+        "a_item": "Metal",
+        "b_item": "Light ray",
+        "correct_match_index": "7"
+      },
+      {
+        "a_item": "Xylem",
+        "b_item": "HCl",
+        "correct_match_index": "8"
+      },
+      {
+        "a_item": "Master gland",
+        "b_item": "Water transport",
+        "correct_match_index": "5"
+      },
+      {
+        "a_item": "Female hormone",
+        "b_item": "Conductor",
+        "correct_match_index": "3"
+      },
+      {
+        "a_item": "Mendel",
+        "b_item": "Pituitary",
+        "correct_match_index": "2"
+      },
+      {
+        "a_item": "Straight line path",
+        "b_item": "Estrogen",
+        "correct_match_index": "4"
+      },
+      {
+        "a_item": "Potential difference",
+        "b_item": "Laws of inheritance",
+        "correct_match_index": "1"
+      }
+    ]
+  },
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "The correct matches for Column (A) and Column (B), along with their reasons, are given below:\n\n1. Strong acid ⟶ HCl\nReason: Hydrochloric acid (HCl) ionizes almost completely in water, producing hydrogen ions (H⁺), so it is classified as a strong acid.\n\n2. Metal ⟶ Conductor\nReason: Metals generally conduct heat and electricity well because they contain mobile electrons.\n\n3. Xylem ⟶ Water transport\nReason: Xylem is a vascular tissue in plants that transports water and dissolved minerals from the roots to other parts of the plant.\n\n4. Master gland ⟶ Pituitary\nReason: The pituitary gland secretes hormones that regulate several other endocrine glands, so it is commonly called the master gland.\n\n5. Female hormone ⟶ Estrogen\nReason: Estrogen is a major female sex hormone, produced mainly by the ovaries.\n\n6. Mendel ⟶ Laws of inheritance\nReason: Gregor Johann Mendel established fundamental principles of inheritance through experiments on pea plants.\n\n7. Straight line path ⟶ Light ray\nReason: Light travels in straight lines through a homogeneous transparent medium. This is known as rectilinear propagation of light.\n\n8. Potential difference ⟶ Volt\nReason: The SI unit of electric potential difference is the volt (V)."
+}
+,
     {
       "question_number": "4",
       "question_type": "DESCRIPTIVE",

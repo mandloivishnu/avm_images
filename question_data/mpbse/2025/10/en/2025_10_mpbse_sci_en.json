@@ -315,56 +315,50 @@
       ]
     },
     {
-      "question_number": "4",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "Match the following:",
-      "columns": {
-        "column_A_title": "Column (A)",
-        "column_B_title": "Column (B)",
-        "pairs": [
-          {
-            "a_item": "(i) Oxygenated blood",
-            "b_item": "Medroic acid",
-            "correct_match_index": "4",
-            "explanation": "Correct match: (i) Oxygenated blood ⟶ Artery\n\nReason: Arteries primarily carry oxygen-rich (pure) blood away from the heart to various parts of the body."
-          },
-          {
-            "a_item": "(ii) Deoxygenated blood",
-            "b_item": "Citrus fruit",
-            "correct_match_index": "3",
-            "explanation": "Correct match: (ii) Deoxygenated blood ⟶ Vein\n\nReason: Veins collect carbon dioxide-rich (deoxygenated/impure) blood from body tissues and bring it back to the heart."
-          },
-          {
-            "a_item": "(iii) Bisexual flower",
-            "b_item": "Vein",
-            "correct_match_index": "6",
-            "explanation": "Correct match: (iii) Bisexual flower ⟶ Hibiscus\n\nReason: Flowers like Hibiscus (China rose), mustard, and rose contain both male (stamen) and female (pistil) reproductive organs in the same flower."
-          },
-          {
-            "a_item": "(iv) Unisexual flower",
-            "b_item": "Artery",
-            "correct_match_index": "5",
-            "explanation": "Correct match: (iv) Unisexual flower ⟶ Papaya\n\nReason: Plants like papaya and watermelon have separate male and female flowers, meaning each flower contains either stamens or pistils, not both."
-          },
-          {
-            "a_item": "(v) Orange",
-            "b_item": "Papaya",
-            "correct_match_index": "2",
-            "explanation": "Correct match: (v) Orange ⟶ Citrus fruit\n\nReason: Orange is a juicy citrus fruit naturally rich in citric acid, thus belonging to the citrus family."
-          },
-          {
-            "a_item": "(vi) Ant sting",
-            "b_item": "Hibiscus",
-            "correct_match_index": "1",
-            "explanation": "Correct match: (vi) Ant sting ⟶ Methanoic acid (Formic acid)\n\nReason: Ant stings and stinging hairs of nettle leaves inject methanoic (formic) acid, which causes a burning sensation and pain."
-          }
-        ]
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "Match the following:",
+  "columns": {
+    "column_A_title": "Column (A)",
+    "column_B_title": "Column (B)",
+    "pairs": [
+      {
+        "a_item": "(i) Oxygenated blood",
+        "b_item": "Papaya",
+        "correct_match_index": "5"
       },
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "Column (A) has been correctly and logically matched with Column (B)."
-    },
+      {
+        "a_item": "(ii) Deoxygenated blood",
+        "b_item": "Artery",
+        "correct_match_index": "4"
+      },
+      {
+        "a_item": "(iii) Bisexual flower",
+        "b_item": "Methanoic acid (Formic acid)",
+        "correct_match_index": "6"
+      },
+      {
+        "a_item": "(iv) Unisexual flower",
+        "b_item": "Hibiscus",
+        "correct_match_index": "3"
+      },
+      {
+        "a_item": "(v) Orange",
+        "b_item": "Vein",
+        "correct_match_index": "2"
+      },
+      {
+        "a_item": "(vi) Ant sting",
+        "b_item": "Citrus fruit",
+        "correct_match_index": "1"
+      }
+    ]
+  },
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "Column (A) and Column (B) have been correctly matched as follows:\n\n(i) Oxygenated blood ⟶ Artery\nReason: Arteries primarily carry oxygen-rich blood away from the heart to various parts of the body. The pulmonary artery is an exception because it carries deoxygenated blood to the lungs.\n\n(ii) Deoxygenated blood ⟶ Vein\nReason: Veins generally return blood from body tissues to the heart. The pulmonary veins are an exception because they carry oxygenated blood from the lungs to the heart.\n\n(iii) Bisexual flower ⟶ Hibiscus\nReason: Hibiscus flowers contain both male reproductive organs (stamens) and female reproductive organs (pistil) in the same flower.\n\n(iv) Unisexual flower ⟶ Papaya\nReason: Papaya plants generally bear male and female flowers separately, with each flower containing only one type of reproductive organ.\n\n(v) Orange ⟶ Citrus fruit\nReason: Orange is a citrus fruit that naturally contains citric acid.\n\n(vi) Ant sting ⟶ Methanoic acid (Formic acid)\nReason: Formic acid is associated with the defensive secretions of some ants and can cause irritation or a burning sensation."
+},
     {
       "question_number": "5",
       "question_type": "DESCRIPTIVE",
