@@ -357,54 +357,54 @@
       ]
     },
     {
-      "question_number": "4",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "Match the correct pairs:",
-      "explanation": "Column A and Column B are matched based on standard mathematical formulas.",
-      "columns": {
-        "column_A_title": "Column – A",
-        "column_B_title": "Column – B",
-        "pairs": [
-          {
-            "a_item": "(i) cos A · sec A",
-            "b_item": "πr²",
-            "correct_match_index": 4,
-            "explanation": "Correct match: (i) ⟶ 1\n\nReason: Since sec A = 1/cos A, cos A · sec A = cos A × (1/cos A) = 1."
-          },
-          {
-            "a_item": "(ii) Total surface area of a cube",
-            "b_item": "1/√3",
-            "correct_match_index": 5,
-            "explanation": "Correct match: (ii) ⟶ 6a²\n\nReason: A cube with side length 'a' has 6 square faces, so its total surface area is 6a²."
-          },
-          {
-            "a_item": "(iii) Area of a sector of a circle with angle θ",
-            "b_item": "2/3 πr³",
-            "correct_match_index": 3,
-            "explanation": "Correct match: (iii) ⟶ θ/360 × πr²\n\nReason: The area of a sector of a circle with radius r and central angle θ is = (θ/360°) × πr²."
-          },
-          {
-            "a_item": "(iv) tan 30°",
-            "b_item": "θ/360 × πr²",
-            "correct_match_index": 1,
-            "explanation": "Correct match: (iv) ⟶ 1/√3\n\nReason: From the trigonometric table, the value of tan 30° is 1/√3."
-          },
-          {
-            "a_item": "(v) Area of a circular region or disc",
-            "b_item": "1",
-            "correct_match_index": 0,
-            "explanation": "Correct match: (v) ⟶ πr²\n\nReason: The area of a circular disc of radius r is πr²."
-          },
-          {
-            "a_item": "(vi) Volume of a hemisphere",
-            "b_item": "6a²",
-            "correct_match_index": 2,
-            "explanation": "Correct match: (vi) ⟶ 2/3 πr³\n\nReason: The volume of a hemisphere of radius r is half the volume of a sphere (4/3 πr³), which is (2/3)πr³."
-          }
-        ]
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "Match the correct pairs:",
+  "explanation": "Column A and Column B are matched based on standard mathematical formulas.",
+  "columns": {
+    "column_A_title": "Column – A",
+    "column_B_title": "Column – B",
+    "pairs": [
+      {
+        "a_item": "(i) cos A · sec A",
+        "b_item": "πr²",
+        "correct_match_index": 4,
+        "explanation": "Correct match: (i) ⟶ 1\n\nReason: Since sec A = 1/cos A, cos A · sec A = cos A × (1/cos A) = 1."
+      },
+      {
+        "a_item": "(ii) Total surface area of a cube",
+        "b_item": "1/√3",
+        "correct_match_index": 5,
+        "explanation": "Correct match: (ii) ⟶ 6a²\n\nReason: A cube with side length 'a' has 6 square faces, so its total surface area is 6a²."
+      },
+      {
+        "a_item": "(iii) Area of a sector of a circle with angle θ",
+        "b_item": "2/3 πr³",
+        "correct_match_index": 3,
+        "explanation": "Correct match: (iii) ⟶ θ/360 × πr²\n\nReason: The area of a sector of a circle with radius r and central angle θ is = (θ/360°) × πr²."
+      },
+      {
+        "a_item": "(iv) tan 30°",
+        "b_item": "θ/360 × πr²",
+        "correct_match_index": 1,
+        "explanation": "Correct match: (iv) ⟶ 1/√3\n\nReason: From the trigonometric table, the value of tan 30° is 1/√3."
+      },
+      {
+        "a_item": "(v) Area of a circular region or disc",
+        "b_item": "1",
+        "correct_match_index": 0,
+        "explanation": "Correct match: (v) ⟶ πr²\n\nReason: The area of a circular disc of radius r is πr²."
+      },
+      {
+        "a_item": "(vi) Volume of a hemisphere",
+        "b_item": "6a²",
+        "correct_match_index": 2,
+        "explanation": "Correct match: (vi) ⟶ 2/3 πr³\n\nReason: The volume of a hemisphere of radius r is half the volume of a sphere (4/3 πr³), which is (2/3)πr³."
       }
-    },
+    ]
+  }
+},
     {
       "question_number": "5",
       "question_type": "UNSEEN_PASSAGE_PROSE",
