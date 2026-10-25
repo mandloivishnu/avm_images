@@ -277,39 +277,39 @@
     "column_B_title": "Column – B",
     "pairs": [
       {
-        "a_item": "(i) sin²A + cos²A",
+        "a_item": "sin²A + cos²A",
         "b_item": "5",
-        "correct_match_index": "3",
+        "correct_match_index": "4",
         "explanation": "Correct match: (i) ⟶ 1\n\nReason: According to the standard trigonometric identity, sin²A + cos²A = 1."
       },
       {
-        "a_item": "(ii) tan (90° − A)",
+        "a_item": "tan (90° − A)",
         "b_item": "a³",
-        "correct_match_index": "7",
+        "correct_match_index": "8",
         "explanation": "Correct match: (ii) ⟶ cot A\n\nReason: According to trigonometric ratios of complementary angles, tan(90° − A) = cot A."
       },
       {
-        "a_item": "(iii) 9 sec²A − 9 tan²A",
+        "a_item": "9 sec²A − 9 tan²A",
         "b_item": "bac",
-        "correct_match_index": "5",
+        "correct_match_index": "6",
         "explanation": "Correct match: (iii) ⟶ 9\n\nMathematical Solution: 9(sec²A − tan²A) = 9 × 1 = 9."
       },
       {
-        "a_item": "(iv) Distance between points (−4, 4) and (3, 0)",
+        "a_item": "Distance between points (−4, 4) and (3, 0)",
         "b_item": "1",
-        "correct_match_index": "6",
+        "correct_match_index": "7",
         "explanation": "Correct match: (iv) ⟶ √65\n\nMathematical Solution: √[(3 − (−4))² + (0 − 4)²] = √(7² + (−4)²) = √(49 + 16) = √65."
       },
       {
-        "a_item": "(v) Volume of a cuboid",
+        "a_item": "Volume of a cuboid",
         "b_item": "a²",
-        "correct_match_index": "2",
+        "correct_match_index": "3",
         "explanation": "Correct match: (v) ⟶ bac (Length × Breadth × Height)\n\nReason: The volume of a cuboid with dimensions a, b, and c is given by their product (bac)."
       },
       {
-        "a_item": "(vi) Area of a square",
+        "a_item": "Area of a square",
         "b_item": "9",
-        "correct_match_index": "4",
+        "correct_match_index": "5",
         "explanation": "Correct match: (vi) ⟶ a²\n\nReason: The formula for the area of a square with side 'a' is a²."
       },
       {
