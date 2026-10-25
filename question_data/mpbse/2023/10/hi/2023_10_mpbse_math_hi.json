@@ -265,68 +265,68 @@
       ]
     },
     {
-      "question_number": "3",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×6=6",
-      "text": "सही जोड़ी मिलाइए :",
-      "youtube_url": null,
-      "previous_exam_reference": null,
-      "explanation": "स्तम्भ A और स्तम्भ B के पदों का मिलान मानक त्रिकोणमितीय सर्वसमिकाओं, ज्यामिति एवं बीजगणितीय सूत्रों के आधार पर किया गया है।",
-      "columns": {
-        "column_A_title": "स्तम्भ – A",
-        "column_B_title": "स्तम्भ – B",
-        "pairs": [
-          {
-            "a_item": "(i) sin²A + cos²A",
-            "b_item": "5",
-            "correct_match_index": "4",
-            "explanation": "सही मिलान: (i) ⟶ 1\n\nकारण: सर्वमान्य त्रिकोणमितीय सर्वसमिका के अनुसार sin²A + cos²A = 1 होता है।"
-          },
-          {
-            "a_item": "(ii) tan (90° − A)",
-            "b_item": "a³",
-            "correct_match_index": "7",
-            "explanation": "सही मिलान: (ii) ⟶ cot A\n\nकारण: पूरक कोणों के त्रिकोणमितीय अनुपात के अनुसार tan(90° − A) = cot A होता है।"
-          },
-          {
-            "a_item": "(iii) 9 sec²A − 9 tan²A",
-            "b_item": "bac",
-            "correct_match_index": "6",
-            "explanation": "सही मिलान: (iii) ⟶ 9\n\nगणितीय हल: 9(sec²A − tan²A) = 9 × 1 = 9।"
-          },
-          {
-            "a_item": "(iv) बिंदुओं (−4, 4) और (3, 0) के बीच की दूरी",
-            "b_item": "1",
-            "correct_match_index": "1",
-            "explanation": "सही मिलान: (iv) ⟶ √65\n\nगणितीय हल: √[(3 − (−4))² + (0 − 4)²] = √(7² + (−4)²) = √(49 + 16) = √65।"
-          },
-          {
-            "a_item": "(v) घनाभ का आयतन",
-            "b_item": "a²",
-            "correct_match_index": "2",
-            "explanation": "सही मिलान: (v) ⟶ l × b × h\n\nकारण: लंबाई (l), चौड़ाई (b) और ऊँचाई (h) वाले घनाभ का आयतन l × b × h होता है।"
-          },
-          {
-            "a_item": "(vi) वर्ग का क्षेत्रफल",
-            "b_item": "9",
-            "correct_match_index": "5",
-            "explanation": "सही मिलान: (vi) ⟶ a²\n\nकारण: भुजा a वाले वर्ग के क्षेत्रफल का सूत्र a² होता है।"
-          },
-          {
-            "a_item": "",
-            "b_item": "√65",
-            "correct_match_index": "0",
-            "explanation": ""
-          },
-          {
-            "a_item": "",
-            "b_item": "cot A",
-            "correct_match_index": "0",
-            "explanation": ""
-          }
-        ]
+  "question_number": "3",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×6=6",
+  "text": "Match the correct pairs:",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "explanation": "Terms in Column A and Column B are matched based on standard trigonometric identities, geometry, and algebraic formulas.",
+  "columns": {
+    "column_A_title": "Column – A",
+    "column_B_title": "Column – B",
+    "pairs": [
+      {
+        "a_item": "(i) sin²A + cos²A",
+        "b_item": "5",
+        "correct_match_index": 3,
+        "explanation": "Correct match: (i) ⟶ 1\n\nReason: According to the standard trigonometric identity, sin²A + cos²A = 1."
+      },
+      {
+        "a_item": "(ii) tan (90° − A)",
+        "b_item": "a³",
+        "correct_match_index": 7,
+        "explanation": "Correct match: (ii) ⟶ cot A\n\nReason: According to trigonometric ratios of complementary angles, tan(90° − A) = cot A."
+      },
+      {
+        "a_item": "(iii) 9 sec²A − 9 tan²A",
+        "b_item": "bac",
+        "correct_match_index": 5,
+        "explanation": "Correct match: (iii) ⟶ 9\n\nMathematical Solution: 9(sec²A − tan²A) = 9 × 1 = 9."
+      },
+      {
+        "a_item": "(iv) Distance between points (−4, 4) and (3, 0)",
+        "b_item": "1",
+        "correct_match_index": 6,
+        "explanation": "Correct match: (iv) ⟶ √65\n\nMathematical Solution: √[(3 − (−4))² + (0 − 4)²] = √(7² + (−4)²) = √(49 + 16) = √65."
+      },
+      {
+        "a_item": "(v) Volume of a cuboid",
+        "b_item": "a²",
+        "correct_match_index": 2,
+        "explanation": "Correct match: (v) ⟶ bac (Length × Breadth × Height)\n\nReason: The volume of a cuboid with dimensions a, b, and c is given by their product (bac)."
+      },
+      {
+        "a_item": "(vi) Area of a square",
+        "b_item": "9",
+        "correct_match_index": 4,
+        "explanation": "Correct match: (vi) ⟶ a²\n\nReason: The formula for the area of a square with side 'a' is a²."
+      },
+      {
+        "a_item": "",
+        "b_item": "√65",
+        "correct_match_index": -1,
+        "explanation": ""
+      },
+      {
+        "a_item": "",
+        "b_item": "cot A",
+        "correct_match_index": -1,
+        "explanation": ""
       }
-    },
+    ]
+  }
+},
     {
       "question_number": "4",
       "question_type": "UNSEEN_PASSAGE_PROSE",
