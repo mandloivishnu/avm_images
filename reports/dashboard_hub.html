@@ -23,6 +23,7 @@
       --accent-purple: #a855f7;
       --accent-rose: #f43f5e;
       --accent-teal: #0d9488;
+      --accent-cyan: #06b6d4;
     }
 
     * {
@@ -177,13 +178,13 @@
       }
     }
 
-    .icon-executive  { background: rgba(2, 132, 199, 0.2); border: 1px solid rgba(2, 132, 199, 0.4); }
-    .icon-datewise   { background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.4); }
-    .icon-feedback   { background: rgba(217, 119, 6, 0.2);   border: 1px solid rgba(217, 119, 6, 0.4); }
-    .icon-verify     { background: rgba(5, 150, 105, 0.2); border: 1px solid rgba(5, 150, 105, 0.4); }
-    .icon-thoughts   { background: rgba(168, 85, 247, 0.2); border: 1px solid rgba(168, 85, 247, 0.4); }
-    .icon-global     { background: rgba(13, 148, 136, 0.2); border: 1px solid rgba(13, 148, 136, 0.4); }
-    .icon-specific   { background: rgba(244, 63, 94, 0.2); border: 1px solid rgba(244, 63, 94, 0.4); }
+    .icon-exec      { background: rgba(2, 132, 199, 0.2);  border: 1px solid rgba(2, 132, 199, 0.4); }
+    .icon-date      { background: rgba(99, 102, 241, 0.2); border: 1px solid rgba(99, 102, 241, 0.4); }
+    .icon-userrep   { background: rgba(6, 182, 212, 0.2);  border: 1px solid rgba(6, 182, 212, 0.4); }
+    .icon-feed      { background: rgba(217, 119, 6, 0.2);  border: 1px solid rgba(217, 119, 6, 0.4); }
+    .icon-verify    { background: rgba(5, 150, 105, 0.2);  border: 1px solid rgba(5, 150, 105, 0.4); }
+    .icon-global    { background: rgba(13, 148, 136, 0.2); border: 1px solid rgba(13, 148, 136, 0.4); }
+    .icon-specific  { background: rgba(244, 63, 94, 0.2);  border: 1px solid rgba(244, 63, 94, 0.4); }
 
     .card-info {
       min-width: 0;
@@ -265,7 +266,7 @@
     <header>
       <div class="logo-badge">AVM</div>
       <h1>Admin Management Portal</h1>
-      <p>Coaching Operations, Audit & Analytics Console</p>
+      <p>Reports, User Analytics & Notification Delivery Hub</p>
     </header>
 
     <!-- Navigation Hub Cards -->
@@ -273,7 +274,7 @@
       <!-- 1. Daily Executive Summary -->
       <a href="daily_executive_summary.html" class="portal-card" id="link-exec">
         <div class="card-left">
-          <div class="icon-box icon-executive">📊</div>
+          <div class="icon-box icon-exec">📊</div>
           <div class="card-info">
             <h2>Daily Executive Summary</h2>
             <p>Full-funnel KPI metrics, daily improvement notes & auto-snapshots</p>
@@ -285,7 +286,7 @@
       <!-- 2. Date-Wise Activity Report -->
       <a href="datewise_report.html" class="portal-card" id="link-date">
         <div class="card-left">
-          <div class="icon-box icon-datewise">🗓️</div>
+          <div class="icon-box icon-date">🗓️</div>
           <div class="card-info">
             <h2>Date-Wise Activity Report</h2>
             <p>Chronological daily registrations, active premium & language ratio (IST)</p>
@@ -294,10 +295,22 @@
         <div class="card-arrow">➔</div>
       </a>
 
-      <!-- 3. Feedback & Rating Analysis -->
+      <!-- 3. Daily User Details Report -->
+      <a href="daily_user_details_report.html" class="portal-card" id="link-user-details-report">
+        <div class="card-left">
+          <div class="icon-box icon-userrep">👥</div>
+          <div class="card-info">
+            <h2>Daily User Details Report</h2>
+            <p>Day-by-day student registration lists, created dates & detailed user breakdown</p>
+          </div>
+        </div>
+        <div class="card-arrow">➔</div>
+      </a>
+
+      <!-- 4. Feedback & Rating Analysis -->
       <a href="feedback_analysis.html" class="portal-card" id="link-fb">
         <div class="card-left">
-          <div class="icon-box icon-feedback">⭐</div>
+          <div class="icon-box icon-feed">⭐</div>
           <div class="card-info">
             <h2>Feedback & Rating Analysis</h2>
             <p>Student ratings, user comments, action items & work-on status tracker</p>
@@ -306,25 +319,13 @@
         <div class="card-arrow">➔</div>
       </a>
 
-      <!-- 4. Payment Verification & Audit Portal -->
+      <!-- 5. Payment Verification & Audit Portal -->
       <a href="verify_pay_status.html" class="portal-card" id="link-verify">
         <div class="card-left">
           <div class="icon-box icon-verify">💳</div>
           <div class="card-info">
             <h2>Payment Verification & Audit</h2>
             <p>UTR verification, payment request status & user premium toggle</p>
-          </div>
-        </div>
-        <div class="card-arrow">➔</div>
-      </a>
-
-      <!-- 5. Daily Thoughts Manager -->
-      <a href="daily_thoughts_management.html" class="portal-card" id="link-thoughts">
-        <div class="card-left">
-          <div class="icon-box icon-thoughts">💡</div>
-          <div class="card-info">
-            <h2>Daily Thoughts Manager</h2>
-            <p>Day 1–31 bilingual thoughts (Hindi & English) & author editor</p>
           </div>
         </div>
         <div class="card-arrow">➔</div>
