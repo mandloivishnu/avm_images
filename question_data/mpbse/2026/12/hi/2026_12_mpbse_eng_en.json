@@ -1,0 +1,1125 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "ENGLISH",
+    "totalMarks": "80",
+    "board": "MP Board",
+    "setName": "SET A",
+    "totalQuestions": "15",
+    "time": "3 Hours"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×10=10",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions given below it :",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2026",
+      "passage": "Books are our best companions. They enrich our minds with knowledge and open the doors of imagination. Reading good books helps in developing our personality, improving our language, and broadening our outlook. Unlike friends, books never demand anything from us. They are always ready to share their wisdom and experience.\nIn this modern age of technology, many people have turned away from books to television and mobile phones. Although, these gadgets provide entertainment and information, they cannot replace the joy and depth of reading. Books have the power to transport us to different worlds, teach us valuable lessons and inspire us to achieve greatness.\nEvery student should cultivate the habit of reading daily. Even a few pages a day can make a big difference in one's thoughts and behaviour. Reading good literature shapes our character and helps us understand life better.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "According to the passage, books are our",
+          "options": [
+            {
+              "index": "a",
+              "text": "best companions"
+            },
+            {
+              "index": "b",
+              "text": "enemies"
+            },
+            {
+              "index": "c",
+              "text": "teachers"
+            },
+            {
+              "index": "d",
+              "text": "relatives"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "best companions",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe very first sentence of the passage states: 'Books are our best companions.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Reading good books helps in",
+          "options": [
+            {
+              "index": "a",
+              "text": "wasting time"
+            },
+            {
+              "index": "b",
+              "text": "narrowing our outlook"
+            },
+            {
+              "index": "c",
+              "text": "broadening our outlook"
+            },
+            {
+              "index": "d",
+              "text": "increasing laziness"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "broadening our outlook",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe passage explicitly mentions: 'Reading good books helps in developing our personality, improving our language, and broadening our outlook.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "Books differ from friends because they",
+          "options": [
+            {
+              "index": "a",
+              "text": "argue with us"
+            },
+            {
+              "index": "b",
+              "text": "demand nothing"
+            },
+            {
+              "index": "c",
+              "text": "demand attention"
+            },
+            {
+              "index": "d",
+              "text": "get angry"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "demand nothing",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage notes: 'Unlike friends, books never demand anything from us.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "What has replaced books for many people in modern times ?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Nature"
+            },
+            {
+              "index": "b",
+              "text": "Magazines"
+            },
+            {
+              "index": "c",
+              "text": "Television and mobile phones"
+            },
+            {
+              "index": "d",
+              "text": "Newspapers"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Television and mobile phones",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nAccording to the passage, 'many people have turned away from books to television and mobile phones.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "According to the passage, gadgets",
+          "options": [
+            {
+              "index": "a",
+              "text": "are better than books"
+            },
+            {
+              "index": "b",
+              "text": "give joy and depth of reading"
+            },
+            {
+              "index": "c",
+              "text": "cannot replace the joy of reading"
+            },
+            {
+              "index": "d",
+              "text": "teach better lessons than books"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "cannot replace the joy of reading",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe text states: 'Although, these gadgets provide entertainment and information, they cannot replace the joy and depth of reading.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "vi",
+          "statement": "The passage suggests that reading books",
+          "options": [
+            {
+              "index": "a",
+              "text": "wastes time"
+            },
+            {
+              "index": "b",
+              "text": "makes people dull"
+            },
+            {
+              "index": "c",
+              "text": "reduces imagination"
+            },
+            {
+              "index": "d",
+              "text": "inspires and educates"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "inspires and educates",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nThe passage highlights that books 'teach us valuable lessons and inspire us to achieve greatness.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "vii",
+          "statement": "How can reading affect our behaviour?",
+          "options": [
+            {
+              "index": "a",
+              "text": "negatively"
+            },
+            {
+              "index": "b",
+              "text": "it can improve thoughts and behaviour"
+            },
+            {
+              "index": "c",
+              "text": "It has no effect"
+            },
+            {
+              "index": "d",
+              "text": "It can make us rude"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "it can improve thoughts and behaviour",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage states that reading even a few pages a day 'can make a big difference in one's thoughts and behaviour.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "viii",
+          "statement": "The word 'Cultivate' in the passage means",
+          "options": [
+            {
+              "index": "a",
+              "text": "To grow or develop a habit"
+            },
+            {
+              "index": "b",
+              "text": "To destroy"
+            },
+            {
+              "index": "c",
+              "text": "To forget"
+            },
+            {
+              "index": "d",
+              "text": "To criticize"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "To grow or develop a habit",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nIn this context, 'cultivate' means to develop, foster, or acquire a habit over time.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ix",
+          "statement": "What type of literature should one read?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Poor"
+            },
+            {
+              "index": "b",
+              "text": "Boring"
+            },
+            {
+              "index": "c",
+              "text": "Good"
+            },
+            {
+              "index": "d",
+              "text": "Cheap"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Good",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe author explicitly states: 'Reading good literature shapes our character and helps us understand life better.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "x",
+          "statement": "The overall message of the passage is",
+          "options": [
+            {
+              "index": "a",
+              "text": "to avoid books and use technology"
+            },
+            {
+              "index": "b",
+              "text": "to read good books regularly"
+            },
+            {
+              "index": "c",
+              "text": "to watch television for knowledge"
+            },
+            {
+              "index": "d",
+              "text": "to depend on mobile phones"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "to read good books regularly",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe primary takeaway is that everyone, especially students, should develop the habit of regularly reading good books.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "3+1=4",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions given below it :",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2026",
+      "passage": "The ultimate challenge is to make your mind calm and the ultimate solution is meditation. In today's age every second person recommends meditation to the first! And for a student, there cannot be a more powerful technique to improve long term performance in studies and other activities.\nCalm mind, better retention, better health, focus and concentration are the obvious benefits. You will realise the benefits, as your practice includes a general sense of well being and happiness and spiritual growth. The mood problem can be taken care of by this way 'meditation'.\nThere are many types of meditation. The simplest is of course, focussing on breathing. Since your breath is always with you, it can be done anytime, any place. But the best is to settle down in a cool place that has dim light and is relatively quiet. You must focus all your attention on your breathing. Observe your breath as it comes in and goes out. You will see that your mind will tend to wander a lot, but soon you will be able to bring it back on breathing.\nDon't obstruct thoughts, let them go off. All you need to do is to keep your focus on breathing. When you try this initially, you will see how difficult it is to do! But soon, you will gain mastery over it and who knows you might end up as a spiritual Guru !",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "Make notes on the above passage in points. Use abbreviations wherever necessary following numbering and indenting format.",
+          "answer": "TITLE: Meditation: The Ultimate Key to a Calm Mind\n\nNOTES:\n1. Need & Importance of Meditation:\n   1.1 Ultimate sol. for a calm mind.\n   1.2 Highly recommended for students to boost long-term perf.\n\n2. Key Benefits:\n   2.1 Mental: Calmness, focus, conc., & better retention.\n   2.2 Physical & Emotional: Better hlth., well-being, & mood reg.\n   2.3 Spiritual growth & inner happiness.\n\n3. Method of Breathing Meditation:\n   3.1 Simplest form; feasible anytime & anywhere.\n   3.2 Ideal set-up: Cool, quiet place with dim light.\n   3.3 Process:\n       3.3.1 Focus solely on inhal. & exhal.\n       3.3.2 Don't obstruct thoughts; let them pass.\n       3.3.3 Gently bring wandering mind back to breath.\n   3.4 Demands patience initially but leads to mastery.\n\nKey to Abbreviations:\n- sol. : solution\n- perf. : performance\n- conc. : concentration\n- hlth. : health\n- reg. : regulation\n- inhal. : inhalation\n- exhal. : exhalation"
+        },
+        {
+          "topic_id": "ii",
+          "name": "Write a suitable title to the passage.",
+          "answer": "Meditation: The Art of Calming the Mind / The Power of Meditation"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": null,
+      "text": "Advertisement / Notice Writing",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "You are Deepak/Deepika. You want to sell your bike (motorcycle). Design a suitable classified advertisement to be published in a local newspaper. Add other details from your side.",
+          "correct_answer": "",
+          "explanation": "FOR SALE\n\nAvailable for sale a Hero Splendor Plus motorcycle (Black & Silver), 2022 model, single-hand driven. Done only 14,000 km. In scratchless, showroom condition with excellent engine performance, mileage of 65 km/l, new tubeless tyres, and up-to-date insurance and PUC certificate. Expected price: ₹52,000/- (negotiable). Genuine buyers may contact Deepak/Deepika, Mobile No.: 9826XXXXXX or visit House No. 24, Civil Lines, Bhopal."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "You are Sharad/Seema, head Boy/Girl of your school GHSS, XYZ. Draft a notice to all captains of class 9th to 12th regarding a meeting on how to improve discipline in your school.",
+            "correct_answer": "",
+            "explanation": "GOVT. HIGHER SECONDARY SCHOOL, XYZ\n\nNOTICE\n\n12th August 2025\n\nMEETING REGARDING SCHOOL DISCIPLINE\n\nAll class captains and house captains of Classes IX to XII are hereby informed that an urgent meeting will be held to discuss measures for improving discipline on the school campus.\n\nDetails of the meeting are as follows:\n- Date: 16th August 2025\n- Time: 1:30 PM (during recess)\n- Venue: Activity Hall / Room No. 12\n\nDiscussion will center on punctuality, uniform adherence, corridor conduct, and maintaining cleanliness. Attendance is mandatory for all designated captains.\n\nSharad / Seema\nHead Boy / Head Girl"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": null,
+      "text": "Letter / Application Writing",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write an application to your principal requesting him/her to arrange for an extra class of English Subject, giving reasons on behalf of Rati, School Captain, GHSS Satna, M.P.",
+          "correct_answer": "",
+          "explanation": "To,\nThe Principal,\nGovt. Higher Secondary School,\nSatna (M.P.)\n\nSubject: Request to arrange extra classes for English.\n\nRespected Sir/Madam,\n\nI beg to state that I am Rati, the School Captain of GHSS Satna, writing on behalf of the students of Class XII. \n\nDue to the sudden medical leave of our subject teacher earlier this term, our English syllabus has remained incomplete, particularly the grammar and writing skills sections. With the board examinations approaching rapidly, many students are facing difficulties in their revision and practice.\n\nTherefore, we earnestly request you to kindly arrange extra classes for English during zero periods or after regular school hours so that we can complete our syllabus and clear our doubts well in time.\n\nThanking you.\n\nYours obediently,\nRati\nSchool Captain\nGHSS Satna (M.P.)\nDate: 20th September 2025"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "You are Samawart, a student of Class XII. Write a letter to your friend congratulating him/her on his/her brilliant success in board examination 2025.",
+            "correct_answer": "",
+            "explanation": "15, Tilak Nagar,\nIndore (M.P.)\n\nDate: 25th May 2025\n\nDear Rahul,\n\nI was thrilled to see your name on the merit list of the Class XII Board Examination 2025. Please accept my heartiest congratulations on securing an astounding 96% marks!\n\nYour consistent hard work, sincere dedication, and focused approach have truly paid off. You have made your parents, teachers, and all of us immensely proud. I always had complete faith in your potential, and this achievement serves as a stepping stone toward your bright future in engineering.\n\nGive my warmest regards to uncle and aunty, and lots of love to your younger brother. I look forward to meeting you soon to celebrate your success.\n\nYours sincerely,\nSamawart"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "Write a paragraph in about 120 words on any ONE of the following topics:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "My ideal Teacher",
+          "explanation": "MY IDEAL TEACHER\n\nA teacher plays a pivotal role in shaping the character and intellect of students. My ideal teacher is Mr. Sharma, who teaches us English. He possesses profound mastery over his subject and makes complex literary texts and grammar rules simple and interesting. Beyond academics, what sets him apart is his calm demeanor, patience, and empathetic nature. He treats every student with equal dignity, never discouraging those who struggle, but instead motivating them to excel. He instills strong moral values, discipline, and self-belief in us, leading by personal example. Mr. Sharma is not merely an educator, but a true mentor, guide, and philosopher whom I admire and strive to emulate."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Importance of computer in modern age.",
+          "explanation": "IMPORTANCE OF COMPUTER IN MODERN AGE\n\nIn the modern era, computers have become an indispensable part of human life. From banking, administration, and scientific research to education and entertainment, virtually every sector relies heavily on computers. They execute complex calculations at lightning speed, store vast amounts of data securely, and facilitate instant global communication via the internet. In schools and universities, computers have revolutionized the learning process through interactive visual aids, virtual classrooms, and digital libraries. During crises, they enabled work-from-home models and remote schooling. Without computers, modern transport, space research, and healthcare diagnostics would come to a standstill. Thus, computer literacy has become an essential life skill in the contemporary digital age."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Clean India, Green India.",
+          "explanation": "CLEAN INDIA, GREEN INDIA\n\n'Clean India, Green India' is a vital national mission that emphasizes the inseparable relationship between environmental sanitation and sustainable living. Cleanliness is not only essential for personal hygiene and public health, but it also elevates national pride. By eradicating open defecation, managing waste responsibly, and curbing single-use plastics, we can prevent lethal diseases and keep our surroundings pristine. Simultaneously, creating a 'Green India' requires aggressive tree plantation, conservation of natural water bodies, and reducing industrial pollution. Trees act as natural lungs, purifying the air and fighting global warming. Every citizen, particularly the youth, must take active responsibility by adopting eco-friendly habits to transform this vision into reality."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Role of Youth in Nation Development",
+          "explanation": "ROLE OF YOUTH IN NATION DEVELOPMENT\n\nThe youth represent the most dynamic, energetic, and productive segment of any country's population. They are the backbone of national progress and social transformation. With their innovative ideas, technical expertise, and boundless enthusiasm, young citizens can drive economic growth through entrepreneurship, research, and digital technology. Moreover, youth play a critical role in eradicating social evils such as caste discrimination, corruption, and gender inequality. By actively participating in democratic processes, community service, and environmental preservation, they steer the nation toward inclusive development. To channel this immense potential effectively, society must provide the youth with quality education, vocational skills, and moral grounding."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "v",
+            "statement": "Write a report in about 120 words about Sports Day Function of your school GHSS, Bhopal. Use the following inputs: Date, time, place, chief guest, various events performed, prize distribution, speech by guest, vote of thanks.",
+            "explanation": "ANNUAL SPORTS DAY CELEBRATION AT GHSS BHOPAL\n\nBy Student Reporter\n\nBhopal, 18th November 2025:\nGovt. Higher Secondary School, Bhopal celebrated its Annual Sports Day with immense fervor on 17th November 2025 at the school sports ground from 9:00 AM onwards. The District Sports Officer graced the occasion as the Chief Guest.\n\nThe programme commenced with a ceremonial march-past by the four student houses, followed by the unfurling of the sports flag and the torch-lighting ceremony. Various athletic events including 100m and 200m sprints, 4x100m relay, long jump, shot put, and tug-of-war were conducted amidst enthusiastic cheering from the stands.\n\nThe Chief Guest then gave away medals and trophies to the victors, with Tagore House lifting the overall championship trophy. In his inspiring address, the Chief Guest underscored the significance of sportsmanship, discipline, and physical fitness in a student's life. The memorable event concluded with a vote of thanks proposed by the Physical Education Teacher, followed by the National Anthem."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks by choosing the correct option: (Any Five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "He {BLANK} football since morning.",
+          "options": [
+            {
+              "index": "a",
+              "text": "played"
+            },
+            {
+              "index": "b",
+              "text": "playing"
+            },
+            {
+              "index": "c",
+              "text": "play"
+            },
+            {
+              "index": "d",
+              "text": "has been playing"
+            }
+          ],
+          "correct_answer": "has been playing",
+          "explanation": "Correct Answer: (D) has been playing\n\nExplanation:\nThe prepositional time phrase 'since morning' denotes an action that started in the past and is still ongoing, requiring the Present Perfect Continuous tense ('has been playing')."
+        },
+        {
+          "q_id": "ii",
+          "statement": "She works hard {BLANK} she may get good marks.",
+          "options": [
+            {
+              "index": "a",
+              "text": "though"
+            },
+            {
+              "index": "b",
+              "text": "if"
+            },
+            {
+              "index": "c",
+              "text": "and"
+            },
+            {
+              "index": "d",
+              "text": "so that"
+            }
+          ],
+          "correct_answer": "so that",
+          "explanation": "Correct Answer: (D) so that\n\nExplanation:\n'So that' is a subordinating conjunction of purpose, regularly followed by a clause expressing purpose with the modal auxiliary 'may'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "It {BLANK} rain today.",
+          "options": [
+            {
+              "index": "a",
+              "text": "need"
+            },
+            {
+              "index": "b",
+              "text": "may"
+            },
+            {
+              "index": "c",
+              "text": "dare"
+            },
+            {
+              "index": "d",
+              "text": "ought"
+            }
+          ],
+          "correct_answer": "may",
+          "explanation": "Correct Answer: (B) may\n\nExplanation:\nThe modal auxiliary 'may' is used to indicate possibility or likelihood, such as predicting weather."
+        },
+        {
+          "q_id": "iv",
+          "statement": "{BLANK} Ganga is a holy River.",
+          "options": [
+            {
+              "index": "a",
+              "text": "A"
+            },
+            {
+              "index": "b",
+              "text": "An"
+            },
+            {
+              "index": "c",
+              "text": "The"
+            },
+            {
+              "index": "d",
+              "text": "No article"
+            }
+          ],
+          "correct_answer": "The",
+          "explanation": "Correct Answer: (C) The\n\nExplanation:\nThe definite article 'The' is mandatory before the names of sacred rivers, oceans, and mountain ranges."
+        },
+        {
+          "q_id": "v",
+          "statement": "The principal is {BLANK} the office.",
+          "options": [
+            {
+              "index": "a",
+              "text": "in"
+            },
+            {
+              "index": "b",
+              "text": "into"
+            },
+            {
+              "index": "c",
+              "text": "on"
+            },
+            {
+              "index": "d",
+              "text": "upon"
+            }
+          ],
+          "correct_answer": "in",
+          "explanation": "Correct Answer: (A) in\n\nExplanation:\nThe preposition 'in' indicates a static state or position inside an enclosed space, whereas 'into' indicates movement toward the inside."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Sohan is superior {BLANK} Mohan.",
+          "options": [
+            {
+              "index": "a",
+              "text": "from"
+            },
+            {
+              "index": "b",
+              "text": "than"
+            },
+            {
+              "index": "c",
+              "text": "to"
+            },
+            {
+              "index": "d",
+              "text": "on"
+            }
+          ],
+          "correct_answer": "to",
+          "explanation": "Correct Answer: (C) to\n\nExplanation:\nLatin comparative adjectives ending in '-ior' (superior, inferior, senior, junior) are followed by the preposition 'to', never 'than'."
+        },
+        {
+          "q_id": "vii",
+          "statement": "The {BLANK} class was making noise.",
+          "options": [
+            {
+              "index": "a",
+              "text": "all"
+            },
+            {
+              "index": "b",
+              "text": "some"
+            },
+            {
+              "index": "c",
+              "text": "whole"
+            },
+            {
+              "index": "d",
+              "text": "both"
+            }
+          ],
+          "correct_answer": "whole",
+          "explanation": "Correct Answer: (C) whole\n\nExplanation:\nWhen preceded by the definite article 'the', the determiner 'whole' is used with a singular collective noun (i.e., 'The whole class'). Note that 'all' precedes the article (e.g., 'all the class')."
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "5×1=5",
+      "word_limit": null,
+      "text": "Do as directed (Any Five):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "As soon as the students saw the teacher, they became silent. (Rewrite the sentence using 'No sooner.........than')",
+          "explanation": "Rewritten Sentence: No sooner did the students see the teacher than they became silent.\n\nExplanation:\n'As soon as' in past tense is rewritten with 'No sooner did + subject + base verb...than' (or 'No sooner had + subject + V3...than')."
+        },
+        {
+          "q_id": "ii",
+          "statement": "He shut the window. (Change into negative sentence)",
+          "explanation": "Negative Sentence: He did not shut the window.\n\nExplanation:\nSince 'shut' is used in the simple past tense (third person singular without '-s'), its negative form is constructed using 'did not + shut'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "I know him. (Change the voice)",
+          "explanation": "Passive Voice: He is known to me.\n\nExplanation:\nIn the simple present tense, the passive takes 'is + known', and the verb 'know' takes the preposition 'to' instead of 'by'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "If they do not work hard, they will not get good marks. (Rewrite the sentence replacing 'If' with 'Unless')",
+          "explanation": "Rewritten Sentence: Unless they work hard, they will not get good marks.\n\nExplanation:\n'Unless' means 'if not', so replacing 'If they do not work hard' with 'Unless they work hard' retains the original conditional meaning."
+        },
+        {
+          "q_id": "v",
+          "statement": "They found a ladder. It was dragged from its place. (Combine the sentence to form a complex sentence with relative clause)",
+          "explanation": "Combined Complex Sentence: They found a ladder which was dragged from its place. (or 'that was dragged from its place.')\n\nExplanation:\nThe relative pronoun 'which' or 'that' replaces the pronoun 'It' to link the subordinate relative clause to 'ladder'."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Urmila is very strong. She can do everything. (Combine the sentence into simple sentence using 'too ... to')",
+          "explanation": "Combined Simple Sentence: Urmila is not too weak to do everything. (or: Urmila is too strong not to do everything.)\n\nExplanation:\nBecause 'too...to' inherently bears a negative restrictive connotation ('so...that cannot'), combining two positive capabilities requires balancing the negation."
+        },
+        {
+          "q_id": "vii",
+          "statement": "The manager will go to Mumbai on Monday. (Change the sentence into past Simple Tense)",
+          "explanation": "Past Simple Sentence: The manager went to Mumbai on Monday.\n\nExplanation:\nIn simple past tense, the future auxiliary 'will go' is replaced with the second form of the verb, 'went'."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the following passage carefully and answer the questions that follow: (Flamingo)",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2026",
+      "passage": "One dark evening as he was trudging along the road he caught sight of a little gray cottage by the road side. He knocked on the door to ask shelter for the night and was not refused. Instead of the sour faces which ordinarily met him, the owner, who was an old man without wife or child, was happy to get someone to talk to in his loneliness. Immediately he put the porridge pot on the fire and gave him supper; then he carved off such a big slice from his tobacco roll that it was enough both for the stranger's pipe and his own. Finally he got out an old pack of cards and played 'mjölis' with his guest until bedtime.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The extract is from which lesson?",
+          "options": [
+            {
+              "index": "a",
+              "text": "The Last Lesson"
+            },
+            {
+              "index": "b",
+              "text": "Lost Spring"
+            },
+            {
+              "index": "c",
+              "text": "The Rat Trap"
+            },
+            {
+              "index": "d",
+              "text": "Deep Water"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "The Rat Trap",
+          "explanation": "Correct Option: (C)\n\nExplanation:\nThis excerpt describes the peddler's visit to the old crofter's cottage in 'The Rattrap'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "What did the host offer the stranger?",
+          "options": [
+            {
+              "index": "a",
+              "text": "A pack of cards"
+            },
+            {
+              "index": "b",
+              "text": "Supper and tobacco"
+            },
+            {
+              "index": "c",
+              "text": "Mjolis and tobacco"
+            },
+            {
+              "index": "d",
+              "text": "Supper and cards"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Supper and tobacco",
+          "explanation": "Correct Option: (B)\n\nExplanation:\nThe passage explicitly mentions that the host gave him supper (porridge) and shared a big slice from his tobacco roll.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why was the owner happy to see the stranger? It was because",
+          "options": [
+            {
+              "index": "a",
+              "text": "the owner was lonely"
+            },
+            {
+              "index": "b",
+              "text": "the stranger was an old friend"
+            },
+            {
+              "index": "c",
+              "text": "the owner wanted to give shelter"
+            },
+            {
+              "index": "d",
+              "text": "the stranger would pay him"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "the owner was lonely",
+          "explanation": "Correct Option: (A)\n\nExplanation:\nThe text states: 'the owner, who was an old man without wife or child, was happy to get someone to talk to in his loneliness.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "The old man and the peddler played",
+          "options": [
+            {
+              "index": "a",
+              "text": "Rummy"
+            },
+            {
+              "index": "b",
+              "text": "Chess"
+            },
+            {
+              "index": "c",
+              "text": "Flash"
+            },
+            {
+              "index": "d",
+              "text": "Mjolis"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Mjolis",
+          "explanation": "Correct Option: (D)\n\nExplanation:\nAs stated in the passage, 'Finally he got out an old pack of cards and played 'mjölis' with his guest until bedtime.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "Write the name of the author of this extract:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Selma Lagerlof"
+            },
+            {
+              "index": "b",
+              "text": "William Douglas"
+            },
+            {
+              "index": "c",
+              "text": "Anees Jung"
+            },
+            {
+              "index": "d",
+              "text": "Louis Fischer"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Selma Lagerlof",
+          "explanation": "Correct Option: (A)\n\nExplanation:\n'The Rattrap' is written by Swedish author Selma Lagerlöf.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "9(A)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the following extract carefully and answer the questions that follow it: (Flamingo)",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2026",
+      "passage": "Driving from my parent's home to Cochin last Friday morning, I saw my mother, beside me, doze, open mouthed, her face ashen like that of a corpse and realised with pain that she was as old as she looked but soon put that thought away.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Which day is described in the above extract?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Monday"
+            },
+            {
+              "index": "b",
+              "text": "Friday"
+            },
+            {
+              "index": "c",
+              "text": "Tuesday"
+            },
+            {
+              "index": "d",
+              "text": "Sunday"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Friday",
+          "explanation": "Correct Option: (B)\n\nExplanation:\nThe opening line mentions: 'Driving from my parent's home to Cochin last Friday morning...'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Give the opposite of the word 'soon'.",
+          "options": [
+            {
+              "index": "a",
+              "text": "late"
+            },
+            {
+              "index": "b",
+              "text": "early"
+            },
+            {
+              "index": "c",
+              "text": "quick"
+            },
+            {
+              "index": "d",
+              "text": "hurry"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "late",
+          "explanation": "Correct Option: (A)\n\nExplanation:\nThe antonym of 'soon' (near future / early) is 'late'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "The word 'corpse' means",
+          "options": [
+            {
+              "index": "a",
+              "text": "a body part"
+            },
+            {
+              "index": "b",
+              "text": "father"
+            },
+            {
+              "index": "c",
+              "text": "parents"
+            },
+            {
+              "index": "d",
+              "text": "dead body"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "dead body",
+          "explanation": "Correct Option: (D)\n\nExplanation:\nA 'corpse' refers to the dead body of a human being.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "9(B)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×4=4",
+      "word_limit": null,
+      "text": "Read the following extract carefully and answer the questions given below it : (Vistas)",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2026",
+      "passage": "Yes, I've taken the obvious step: I talked to a psychiatrist friend of mine, among others. I told him about the third level at Grand Central Station, and he said it was a waking-dream wish fulfillment. He said, I was unhappy. That made my wife kind of mad, but he explained that he meant the modern world is full of insecurity, fear, war, worry and all the rest of it, and that I just want to escape. Well, who doesn't? Everybody I know wants to escape, but they don't wander down into any third level at Grand Central Station.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What did Charley's friend think of him?",
+          "options": [
+            {
+              "index": "a",
+              "text": "that Charley wanted to escape"
+            },
+            {
+              "index": "b",
+              "text": "that Charley was true"
+            },
+            {
+              "index": "c",
+              "text": "that Charley was right in his discovery"
+            },
+            {
+              "index": "d",
+              "text": "that Charley was lying"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "that Charley wanted to escape",
+          "explanation": "Correct Option: (A)\n\nExplanation:\nThe psychiatrist friend diagnosed his experience as a 'waking-dream wish fulfillment' and deduced that he just wanted to escape modern insecurities.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "What was the obvious step taken by Charley?",
+          "options": [
+            {
+              "index": "a",
+              "text": "He talked to his wife"
+            },
+            {
+              "index": "b",
+              "text": "He went to Galesburg, Illinois"
+            },
+            {
+              "index": "c",
+              "text": "He talked to a psychiatrist friend"
+            },
+            {
+              "index": "d",
+              "text": "He went home"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "He talked to a psychiatrist friend",
+          "explanation": "Correct Option: (C)\n\nExplanation:\nCharley states: 'I've taken the obvious step: I talked to a psychiatrist friend of mine...'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "Who is the main character of the story?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Marley"
+            },
+            {
+              "index": "b",
+              "text": "Charley"
+            },
+            {
+              "index": "c",
+              "text": "Harley"
+            },
+            {
+              "index": "d",
+              "text": "Darley"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Charley",
+          "explanation": "Correct Option: (B)\n\nExplanation:\nCharley is the protagonist and narrator of Jack Finney's story 'The Third Level'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "The antonym of 'Wander'",
+          "options": [
+            {
+              "index": "a",
+              "text": "Roam"
+            },
+            {
+              "index": "b",
+              "text": "Ramble"
+            },
+            {
+              "index": "c",
+              "text": "Stroll"
+            },
+            {
+              "index": "d",
+              "text": "Stay"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Stay",
+          "explanation": "Correct Option: (D)\n\nExplanation:\n'Wander' means to move about aimlessly without fixed destination; its antonym is to remain fixed or 'stay'.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×5=10",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words each : (Any Five) (Flamingo)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What had been put up on the bulletin board?",
+          "explanation": "An order from Berlin was displayed on the bulletin board stating that only German would be taught in the schools of Alsace and Lorraine, replacing the teaching of French."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why was Douglas determined to get over his fear of water?",
+          "explanation": "Douglas was determined to overcome his fear of water because it ruined his fishing trips and deprived him of the joy of canoeing, boating, and swimming in lakes and cascades."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What makes the city of Firozabad famous?",
+          "explanation": "Firozabad is renowned as the center of India's glass-blowing industry, famous for manufacturing colorful glass bangles for women across the entire country."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Why did Gandhi agree to a settlement of 25 percent refund to the farmers?",
+          "explanation": "Gandhiji agreed to the 25 percent refund because the amount was less important than the principle; the British landlords were forced to surrender their prestige along with the money."
+        },
+        {
+          "q_id": "v",
+          "statement": "Subbu is described as a many-sided genius. List two of his special abilities.",
+          "explanation": "Subbu had the remarkable ability to provide multiple creative solutions for any movie scene instantly, and he was an accomplished poet and novelist who wrote genuine literature."
+        },
+        {
+          "q_id": "vi",
+          "statement": "What are some of the positive views on interviews?",
+          "explanation": "In its highest form, an interview is a supreme source of authentic truth and an indispensable medium of communication that vividly brings forth the life and ideas of contemporaries."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Why did Sophie wriggle when Geoff told her father that she had met Danny Casey?",
+          "explanation": "Sophie wriggled because she was aware of her father's aggressive disbelief and temper. She feared his angry reaction to what was merely her fabricated romantic fantasy."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×3=6",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words each: (Any three) (Flamingo)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is the 'sadness' that the poet refers to in the poem 'Keeping Quiet'?",
+          "explanation": "The 'sadness' refers to the tragedy of human beings failing to understand themselves, relentlessly rushing in destructive pursuits, and constantly threatening their own existence with death."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What is the secret of good health according to the poet John Keats ?",
+          "explanation": "According to Keats, experiencing beautiful things provides quiet bowers and sweet dreams filled with deep breathing, quietude, and sound sleep, which together foster good mental and physical health."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How does the poet describe Aunt Jennifer's tigers?",
+          "explanation": "The poet describes the tigers as bright topaz denizens of a green world who prance fearlessly, moving with sleek elegance, confidence, and chivalric certainty across the tapestry."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is the 'childish longing' that the poet refers to in the poem 'A Roadside Stand'?",
+          "explanation": "The 'childish longing' is the vain hope of the poor roadside stand owners who sit all day waiting expectantly for city cars to stop and buy their produce."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words each: (Any Two) (Vistas)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What did Dr. Sadao and his wife do with the man?",
+          "explanation": "Despite being an enemy American soldier, Dr. Sadao and Hana brought the wounded man into their house, operated on him to remove the bullet, nursed him to health, and helped him escape safely."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why does Mr. Lamb leave his garden open?",
+          "explanation": "Mr. Lamb leaves his garden gates open to welcome anyone who wishes to come in. He loves human company, conversations, and wants no barrier between himself and the outside world."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How did Zitkala-Sa find the eating by formula a hard trail?",
+          "explanation": "Zitkala-Sa found eating strictly regulated by bells confusing and humiliating. She felt terrified and helpless when everyone pulled chairs, sat, and ate in rigid mechanical unison."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×2=6",
+      "word_limit": "75 words",
+      "text": "Answer the following questions in about 75 words: (Any Two) (Flamingo)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did M. Hamel pay a tribute to the French Language?",
+          "explanation": "M. Hamel praised French as the most beautiful, clearest, and most logical language in the world. He passionately urged the students and villagers to guard their language among themselves and never forget it. He explained that when people are enslaved, holding fast to their language is like having the key to their prison. Finally, overcome with emotion, he turned to the blackboard and wrote as large as he could: 'Vive La France!'."
+        },
+        {
+          "q_id": "ii",
+          "statement": "When did the Iron Master realise his mistake?",
+          "explanation": "The ironmaster realized his mistake the next morning in the manor house. In the dim light of the forge furnace, he had mistaken the ragged peddler for his old regimental comrade, Captain Nils Olof. However, in broad daylight, after the peddler was cleanly shaved, bathed, and dressed in the ironmaster's fine clothes, the ironmaster instantly recognized that the man was an absolute stranger and threatened to call the sheriff."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What was Gandhiji's politics intertwined with?",
+          "explanation": "Gandhiji's politics was intertwined with the practical, day-to-day problems of the millions of poor peasants and citizens. His was not a loyalty to abstractions or high theories, but a direct loyalty to living human beings. While fighting the Champaran sharecroppers' case, he simultaneously addressed their sanitary conditions, health concerns, and lack of primary education, demonstrating that political freedom was inseparable from social uplift and human dignity."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75 words",
+      "text": "Answer the following questions in about 75 words (Any One) (Flamingo)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the central idea of the poem 'A Thing of Beauty'.",
+          "explanation": "The central idea of John Keats's poem 'A Thing of Beauty' is that beauty is eternal and a perennial source of joy. Its loveliness increases with time and never fades into nothingness. Amidst human despondence, suffering, sadness, and dearth of noble nature, shapes of natural beauty—like the sun, moon, old and young trees, clear rills, and daffodils—lift the dark pall from our spirits, giving us hope and reason to love life."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Summarise the poem 'A Roadside Stand'.",
+          "explanation": "In 'A Roadside Stand', Robert Frost presents the poignant plight of underprivileged rural folks who run a modest fruit and vegetable shed by the highway. They plead for city dwellers to stop their speeding cars and purchase their farm produce to earn some cash. However, affluent city motorists either ignore them completely or criticize their crude signs. Frost condemns the false promises of politicians and 'greedy good-doers' who exploit these innocent rural people while failing to deliver genuine economic relief."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75 words",
+      "text": "Answer the following questions in about 75 words (Any One) (Vistas)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Who was Dr. Sadao? Where was his house?",
+          "explanation": "Dr. Sadao Hoki was a distinguished Japanese surgeon and scientist who had studied medicine and surgery in America. He was highly valued by the Japanese General for both his surgical expertise and his scientific research on wound treatments. His house was built on a scenic spot on the rocky Japanese coast, set high above a narrow beach outlined with bent pine trees where he had spent his boyhood days."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How did the hundredth tiger take its revenge upon the Tiger King?",
+          "explanation": "The wooden toy tiger that the Tiger King bought for his son's third birthday became the instrument of his death. The toy had been carved by an unskilled carpenter, leaving sharp splinters of wood protruding from its surface. While playing, a tiny sliver pierced the Maharaja's right hand. Infection developed rapidly, turning into a suppurating sore that spread throughout his arm. Despite surgery by three famous surgeons, the king died, fulfilling the astrologer's prediction that the hundredth tiger would take his life."
+        }
+      ]
+    }
+  ]
+}
