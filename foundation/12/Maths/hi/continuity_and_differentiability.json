@@ -45,9 +45,8 @@
         {
           "q_id": "a",
           "statement": "बिंदु x = 0 पर फलन f(x) = |x| के सांतत्य की जाँच कीजिए।",
-          "correct_answer": "चरण 1: फलन की परिभाषा: f(x) = -x (यदि x < 0) तथा f(x) = x (यदि x ≥ 0)।\nचरण 2: x = 0 पर फलन का मान: f(0) = 0।\nचरण 3: बायीं सीमा (LHL) = lim(x→0⁻) (-x) = 0।\nचरण 4: दायीं सीमा (RHL) = lim(x→0⁺) (x) = 0।\nचरण 5: चूँकि LHL = RHL = f(0) = 0 है, अतः फलन f(x) = |x|, x = 0 पर संतत है।",
-          "imgUrl": "",
-          "explanation": "LHL = RHL = f(0) = 0 (संतत)"
+          "explanation": "चरण 1: फलन की परिभाषा: f(x) = -x (यदि x < 0) तथा f(x) = x (यदि x ≥ 0)।\nचरण 2: x = 0 पर फलन का मान: f(0) = 0।\nचरण 3: बायीं सीमा (LHL) = lim(x→0⁻) (-x) = 0।\nचरण 4: दायीं सीमा (RHL) = lim(x→0⁺) (x) = 0।\nचरण 5: चूँकि LHL = RHL = f(0) = 0 है, अतः फलन f(x) = |x|, x = 0 पर संतत है।",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -56,9 +55,8 @@
           {
             "q_id": "b",
             "statement": "क्या फलन f(x) = |x|, x = 0 पर अवकलनीय है? कारण दीजिए।",
-            "correct_answer": "चरण 1: बायाँ अवकलज (LHD) = lim(h→0) [f(0 - h) - f(0)] / (-h) = lim(h→0) [|-h| - 0] / (-h) = lim(h→0) [h / (-h)] = -1।\nचरण 2: दायाँ अवकलज (RHD) = lim(h→0) [f(0 + h) - f(0)] / h = lim(h→0) [h - 0] / h = +1।\nचरण 3: चूँकि LHD ≠ RHD (-1 ≠ +1), अतः फलन x = 0 पर अवकलनीय नहीं है।",
-            "imgUrl": "",
-            "explanation": "LHD (-1) ≠ RHD (+1)"
+            "explanation": "चरण 1: बायाँ अवकलज (LHD) = lim(h→0) [f(0 - h) - f(0)] / (-h) = lim(h→0) [|-h| - 0] / (-h) = lim(h→0) [h / (-h)] = -1।\nचरण 2: दायाँ अवकलज (RHD) = lim(h→0) [f(0 + h) - f(0)] / h = lim(h→0) [h - 0] / h = +1।\nचरण 3: चूँकि LHD ≠ RHD (-1 ≠ +1), अतः फलन x = 0 पर अवकलनीय नहीं है।",
+            "imgUrl": ""
           }
         ]
       }
@@ -73,9 +71,8 @@
         {
           "q_id": "a",
           "statement": "k का मान ज्ञात कीजिए यदि फलन f(x) = { kx + 1 (यदि x ≤ 5), 3x - 5 (यदि x > 5) }, x = 5 पर संतत हो।",
-          "correct_answer": "चरण 1: x = 5 पर फलन का मान f(5) = k(5) + 1 = 5k + 1।\nचरण 2: बायीं सीमा LHL = lim(x→5⁻) (kx + 1) = 5k + 1।\nचरण 3: दायीं सीमा RHL = lim(x→5⁺) (3x - 5) = 3(5) - 5 = 15 - 5 = 10।\nचरण 4: x = 5 पर सांतत्य हेतु LHL = RHL = f(5) आवश्यक है:\n5k + 1 = 10 ⇒ 5k = 9 ⇒ k = 9/5।",
-          "imgUrl": "",
-          "explanation": "5k + 1 = 10 ⇒ k = 9/5"
+          "explanation": "चरण 1: x = 5 पर फलन का मान f(5) = k(5) + 1 = 5k + 1।\nचरण 2: बायीं सीमा LHL = lim(x→5⁻) (kx + 1) = 5k + 1।\nचरण 3: दायीं सीमा RHL = lim(x→5⁺) (3x - 5) = 3(5) - 5 = 15 - 5 = 10।\nचरण 4: x = 5 पर सांतत्य हेतु LHL = RHL = f(5) आवश्यक है:\n5k + 1 = 10 ⇒ 5k = 9 ⇒ k = 9/5।",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -84,9 +81,8 @@
           {
             "q_id": "b",
             "statement": "यदि f(x) = { kx², x ≤ 2; 3, x > 2 }, x = 2 पर संतत हो, तो k का मान क्या होगा?",
-            "correct_answer": "चरण 1: x = 2 पर मान f(2) = k(2)² = 4k तथा LHL = 4k।\nचरण 2: दायीं सीमा RHL = lim(x→2⁺) (3) = 3।\nचरण 3: सांतत्य हेतु LHL = RHL ⇒ 4k = 3 ⇒ k = 3/4।",
-            "imgUrl": "",
-            "explanation": "4k = 3 ⇒ k = 3/4"
+            "explanation": "चरण 1: x = 2 पर मान f(2) = k(2)² = 4k तथा LHL = 4k।\nचरण 2: दायीं सीमा RHL = lim(x→2⁺) (3) = 3।\nचरण 3: सांतत्य हेतु LHL = RHL ⇒ 4k = 3 ⇒ k = 3/4।",
+            "imgUrl": ""
           }
         ]
       }
@@ -101,9 +97,8 @@
         {
           "q_id": "a",
           "statement": "y = sin(x² + 5) का x के सापेक्ष अवकलन ज्ञात कीजिए।",
-          "correct_answer": "चरण 1: माना u = x² + 5, तब y = sin u।\nचरण 2: श्रृंखला नियम (Chain rule) से: dy/dx = (dy/du) · (du/dx)।\nचरण 3: dy/du = d/du(sin u) = cos u तथा du/dx = d/dx(x² + 5) = 2x।\nचरण 4: dy/dx = cos(x² + 5) · 2x = 2x cos(x² + 5)।",
-          "imgUrl": "",
-          "explanation": "dy/dx = 2x cos(x² + 5)"
+          "explanation": "चरण 1: माना u = x² + 5, तब y = sin u।\nचरण 2: श्रृंखला नियम (Chain rule) से: dy/dx = (dy/du) · (du/dx)।\nचरण 3: dy/du = d/du(sin u) = cos u तथा du/dx = d/dx(x² + 5) = 2x।\nचरण 4: dy/dx = cos(x² + 5) · 2x = 2x cos(x² + 5)।",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -112,9 +107,8 @@
           {
             "q_id": "b",
             "statement": "y = e^(cos x) का dy/dx ज्ञात कीजिए।",
-            "correct_answer": "चरण 1: श्रृंखला नियम से dy/dx = d/dx [e^(cos x)] = e^(cos x) · d/dx(cos x)।\nचरण 2: cos x का अवकलन d/dx(cos x) = -sin x।\nचरण 3: मान रखने पर: dy/dx = -sin x · e^(cos x)।",
-            "imgUrl": "",
-            "explanation": "-sin x · e^(cos x)"
+            "explanation": "चरण 1: श्रृंखला नियम से dy/dx = d/dx [e^(cos x)] = e^(cos x) · d/dx(cos x)।\nचरण 2: cos x का अवकलन d/dx(cos x) = -sin x।\nचरण 3: मान रखने पर: dy/dx = -sin x · e^(cos x)।",
+            "imgUrl": ""
           }
         ]
       }
@@ -129,9 +123,8 @@
         {
           "q_id": "a",
           "statement": "यदि x = a cos θ तथा y = a sin θ हो, तो dy/dx ज्ञात कीजिए।",
-          "correct_answer": "चरण 1: x का θ के सापेक्ष अवकलन: dx/dθ = d/dθ(a cos θ) = -a sin θ।\nचरण 2: y का θ के सापेक्ष अवकलन: dy/dθ = d/dθ(a sin θ) = a cos θ।\nचरण 3: प्रचलिक अवकलन सूत्र से: dy/dx = (dy/dθ) / (dx/dθ)।\nचरण 4: dy/dx = (a cos θ) / (-a sin θ) = -cos θ / sin θ = -cot θ।",
-          "imgUrl": "",
-          "explanation": "dy/dx = (a cos θ)/(-a sin θ) = -cot θ"
+          "explanation": "चरण 1: x का θ के सापेक्ष अवकलन: dx/dθ = d/dθ(a cos θ) = -a sin θ।\nचरण 2: y का θ के सापेक्ष अवकलन: dy/dθ = d/dθ(a sin θ) = a cos θ।\nचरण 3: प्रचलिक अवकलन सूत्र से: dy/dx = (dy/dθ) / (dx/dθ)।\nचरण 4: dy/dx = (a cos θ) / (-a sin θ) = -cos θ / sin θ = -cot θ।",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -140,9 +133,8 @@
           {
             "q_id": "b",
             "statement": "यदि x = at² तथा y = 2at हो, तो dy/dx ज्ञात कीजिए।",
-            "correct_answer": "चरण 1: dx/dt = d/dt(at²) = 2at।\nचरण 2: dy/dt = d/dt(2at) = 2a।\nचरण 3: dy/dx = (dy/dt) / (dx/dt) = 2a / (2at) = 1/t।",
-            "imgUrl": "",
-            "explanation": "dy/dx = 2a/(2at) = 1/t"
+            "explanation": "चरण 1: dx/dt = d/dt(at²) = 2at।\nचरण 2: dy/dt = d/dt(2at) = 2a।\nचरण 3: dy/dx = (dy/dt) / (dx/dt) = 2a / (2at) = 1/t।",
+            "imgUrl": ""
           }
         ]
       }
@@ -157,9 +149,8 @@
         {
           "q_id": "a",
           "statement": "यदि y = x^x हो, तो dy/dx ज्ञात कीजिए।",
-          "correct_answer": "चरण 1: दोनों पक्षों का प्राकृतिक लघुगणक (log) लेने पर: log y = log(x^x) = x log x।\nचरण 2: x के सापेक्ष दोनों पक्षों का अवकलन करने पर:\n(1/y) · (dy/dx) = d/dx (x log x) = x · (1/x) + (log x) · 1 = 1 + log x।\nचरण 3: dy/dx = y(1 + log x)।\nचरण 4: y = x^x मान प्रतिस्थापित करने पर: dy/dx = x^x (1 + log x)।",
-          "imgUrl": "",
-          "explanation": "dy/dx = x^x (1 + log x)"
+          "explanation": "चरण 1: दोनों पक्षों का प्राकृतिक लघुगणक (log) लेने पर: log y = log(x^x) = x log x।\nचरण 2: x के सापेक्ष दोनों पक्षों का अवकलन करने पर:\n(1/y) · (dy/dx) = d/dx (x log x) = x · (1/x) + (log x) · 1 = 1 + log x।\nचरण 3: dy/dx = y(1 + log x)।\nचरण 4: y = x^x मान प्रतिस्थापित करने पर: dy/dx = x^x (1 + log x)।",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -168,9 +159,8 @@
           {
             "q_id": "b",
             "statement": "यदि y = x³ + tan x हो, तो d²y/dx² ज्ञात कीजिए।",
-            "correct_answer": "चरण 1: प्रथम अवकलज dy/dx = d/dx(x³) + d/dx(tan x) = 3x² + sec² x।\nचरण 2: पुनः x के सापेक्ष अवकलन: d²y/dx² = d/dx(3x²) + d/dx(sec² x)।\nचरण 3: d/dx(sec² x) = 2 sec x · (sec x tan x) = 2 sec² x tan x।\nचरण 4: अतः d²y/dx² = 6x + 2 sec² x tan x।",
-            "imgUrl": "",
-            "explanation": "d²y/dx² = 6x + 2 sec² x tan x"
+            "explanation": "चरण 1: प्रथम अवकलज dy/dx = d/dx(x³) + d/dx(tan x) = 3x² + sec² x।\nचरण 2: पुनः x के सापेक्ष अवकलन: d²y/dx² = d/dx(3x²) + d/dx(sec² x)।\nचरण 3: d/dx(sec² x) = 2 sec x · (sec x tan x) = 2 sec² x tan x।\nचरण 4: अतः d²y/dx² = 6x + 2 sec² x tan x।",
+            "imgUrl": ""
           }
         ]
       }
