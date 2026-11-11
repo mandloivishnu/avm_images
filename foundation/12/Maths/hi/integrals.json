@@ -14,7 +14,6 @@
       "definitionBean": {
         "title": "अनिश्चित एवं निश्चित समाकलन (Quick Revision)",
         "definition": "समाकलन अवकलन की प्रतिलोम (व्युत्क्रम) संक्रिया है, जिसे 'प्रति-अवकलज' (Antiderivative) भी कहा जाता है।",
-        "explanation": "समाकलन की तीन प्रमुख विधियाँ हैं: प्रतिस्थापन विधि, आंशिक भिन्न विधि तथा खंडशः समाकलन (ILATE नियम)। निश्चित समाकलन में सीमाओं का उपयोग होता है तथा निश्चित समाकलन के गुणधर्म (विशेषकर किंग प्रॉपर्टी) अत्यंत उपयोगी हैं।",
         "importantPoints": [
           "मूल सूत्र: ∫ xⁿ dx = xⁿ⁺¹ / (n + 1) + C (जहाँ n ≠ -1)",
           "∫ (1/x) dx = log|x| + C, ∫ eˣ dx = eˣ + C",
@@ -45,9 +44,8 @@
         {
           "q_id": "a",
           "statement": "मान ज्ञात कीजिए: ∫ (2x / (1 + x²)) dx।",
-          "correct_answer": "प्रतिस्थापन विधि से:\nमाना 1 + x² = t\nx के सापेक्ष अवकलन करने पर: 2x dx = dt\nमान रखने पर:\n∫ (1/t) dt = log|t| + C\nt = 1 + x² प्रतिस्थापित करने पर:\n= log|1 + x²| + C।",
-          "imgUrl": "",
-          "explanation": "∫ (2x / (1 + x²)) dx = log(1 + x²) + C"
+          "correct_answer": "माना 1 + x² = t ⇒ 2x dx = dt\n\n∫ (1/t) dt = log|t| + C\n= log|1 + x²| + C",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -56,9 +54,8 @@
           {
             "q_id": "b",
             "statement": "∫ tan x dx का मान क्या होता है?",
-            "correct_answer": "∫ tan x dx = log|sec x| + C = -log|cos x| + C।",
-            "imgUrl": "",
-            "explanation": "log|sec x| + C"
+            "correct_answer": "∫ tan x dx = log|sec x| + C  (अथवा -log|cos x| + C)",
+            "imgUrl": ""
           }
         ]
       }
@@ -73,9 +70,8 @@
         {
           "q_id": "a",
           "statement": "खंडशः समाकलन विधि से मान ज्ञात कीजिए: ∫ x eˣ dx।",
-          "correct_answer": "ILATE नियमानुसार:\nप्रथम फलन u = x तथा द्वितीय फलन v = eˣ\nसूत्र: ∫ u v dx = u ∫ v dx - ∫ [ (du/dx) ∫ v dx ] dx\n= x ∫ eˣ dx - ∫ [ (d/dx(x)) ∫ eˣ dx ] dx\n= x eˣ - ∫ [ 1 · eˣ ] dx\n= x eˣ - eˣ + C\n= eˣ (x - 1) + C।",
-          "imgUrl": "",
-          "explanation": "∫ x eˣ dx = eˣ(x - 1) + C"
+          "correct_answer": "ILATE नियम से: u = x, v = eˣ\n\n∫ x eˣ dx = x ∫ eˣ dx - ∫ [ (d/dx(x)) ∫ eˣ dx ] dx\n= x eˣ - ∫ eˣ dx = x eˣ - eˣ + C = eˣ(x - 1) + C",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -84,9 +80,8 @@
           {
             "q_id": "b",
             "statement": "∫ log x dx का मान ज्ञात कीजिए।",
-            "correct_answer": "∫ (log x · 1) dx = log x ∫ 1 dx - ∫ [(1/x) · x] dx = x log x - ∫ 1 dx = x log x - x + C = x(log x - 1) + C।",
-            "imgUrl": "",
-            "explanation": "x log x - x + C"
+            "correct_answer": "∫ (log x · 1) dx = log x (x) - ∫ (1/x · x) dx\n= x log x - x + C = x(log x - 1) + C",
+            "imgUrl": ""
           }
         ]
       }
@@ -101,9 +96,8 @@
         {
           "q_id": "a",
           "statement": "मान ज्ञात कीजिए: ∫ eˣ (sin x + cos x) dx।",
-          "correct_answer": "हम जानते हैं कि सूत्र: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C होता है।\nयहाँ माना f(x) = sin x\nतब f'(x) = cos x\nअतः दिया गया समाकलन मानक रूप में है:\n∫ eˣ [sin x + cos x] dx = eˣ sin x + C।",
-          "imgUrl": "",
-          "explanation": "eˣ f(x) + C सूत्र के प्रयोग से = eˣ sin x + C।"
+          "correct_answer": "सूत्र: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C\n\nयहाँ f(x) = sin x तथा f'(x) = cos x है:\n∫ eˣ (sin x + cos x) dx = eˣ sin x + C",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -112,9 +106,8 @@
           {
             "q_id": "b",
             "statement": "∫ eˣ (1/x - 1/x²) dx का मान क्या होगा?",
-            "correct_answer": "f(x) = 1/x लेने पर f'(x) = -1/x² है। अतः मान eˣ(1/x) + C होगा।",
-            "imgUrl": "",
-            "explanation": "(eˣ / x) + C"
+            "correct_answer": "यहाँ f(x) = 1/x तथा f'(x) = -1/x² है।\nअतः मान = eˣ(1/x) + C = (eˣ / x) + C",
+            "imgUrl": ""
           }
         ]
       }
@@ -129,9 +122,8 @@
         {
           "q_id": "a",
           "statement": "सिद्ध कीजिए कि ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx = π/4।",
-          "correct_answer": "माना I = ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx  ...(1)\nगुणधर्म ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx लगाने पर:\nI = ∫₀^(π/2) (√sin(π/2 - x) / (√sin(π/2 - x) + √cos(π/2 - x))) dx\nचूँकि sin(π/2 - x) = cos x तथा cos(π/2 - x) = sin x:\nI = ∫₀^(π/2) (√cos x / (√cos x + √sin x)) dx  ...(2)\nसमीकरण (1) और (2) को जोड़ने पर:\n2I = ∫₀^(π/2) [(√sin x + √cos x) / (√sin x + √cos x)] dx\n2I = ∫₀^(π/2) 1 dx = [x]₀^(π/2) = π/2 - 0 = π/2\n⇒ I = π/4। इति सिद्धम्।",
-          "imgUrl": "",
-          "explanation": "2I = π/2 ⇒ I = π/4"
+          "correct_answer": "I = ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx  ...(1)\nP4 गुणधर्म लगाने पर:\nI = ∫₀^(π/2) (√cos x / (√cos x + √sin x)) dx  ...(2)\n\n(1) + (2) जोड़ने पर:\n2I = ∫₀^(π/2) 1 dx = [ x ]₀^(π/2) = π/2 ⇒ I = π/4",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -140,9 +132,8 @@
           {
             "q_id": "b",
             "statement": "∫₀^(π/2) log(tan x) dx का मान ज्ञात कीजिए।",
-            "correct_answer": "P4 गुणधर्म लगाने पर I = ∫₀^(π/2) log(cot x) dx = -∫₀^(π/2) log(tan x) dx = -I ⇒ 2I = 0 ⇒ I = 0।",
-            "imgUrl": "",
-            "explanation": "2I = 0 ⇒ I = 0"
+            "correct_answer": "P4 गुणधर्म लगाने पर I = ∫₀^(π/2) log(cot x) dx = -I\n⇒ 2I = 0 ⇒ I = 0",
+            "imgUrl": ""
           }
         ]
       }
@@ -157,9 +148,8 @@
         {
           "q_id": "a",
           "statement": "मान ज्ञात कीजिए: ∫₋₁¹ sin⁵ x cos⁴ x dx।",
-          "correct_answer": "माना f(x) = sin⁵ x cos⁴ x\nf(-x) = sin⁵(-x) cos⁴(-x) = (-sin x)⁵ (cos x)⁴ = -sin⁵ x cos⁴ x = -f(x)\nचूँकि f(-x) = -f(x), अतः f(x) एक विषम (Odd) फलन है।\nनिश्चित समाकलन के गुणधर्मानुसार, यदि f(x) विषम फलन हो, तो:\n∫₋ₐᵃ f(x) dx = 0\nअतः ∫₋₁¹ sin⁵ x cos⁴ x dx = 0।",
-          "imgUrl": "",
-          "explanation": "विषम फलन होने के कारण मान = 0।"
+          "correct_answer": "माना f(x) = sin⁵ x cos⁴ x\nf(-x) = (-sin x)⁵ (cos x)⁴ = -sin⁵ x cos⁴ x = -f(x)\n\nचूँकि f(x) एक विषम फलन है, अतः गुणधर्मानुसार:\n∫₋₁¹ sin⁵ x cos⁴ x dx = 0",
+          "imgUrl": ""
         }
       ],
       "or_option": {
@@ -168,9 +158,8 @@
           {
             "q_id": "b",
             "statement": "यदि f(x) एक सम (Even) फलन हो, तो ∫₋ₐᵃ f(x) dx का मान क्या होता है?",
-            "correct_answer": "यदि f(-x) = f(x) (सम फलन) हो, तो ∫₋ₐᵃ f(x) dx = 2 ∫₀ᵃ f(x) dx होता है।",
-            "imgUrl": "",
-            "explanation": "2 ∫₀ᵃ f(x) dx"
+            "correct_answer": "यदि f(-x) = f(x) (सम फलन) हो, तो:\n\n∫₋ₐᵃ f(x) dx = 2 ∫₀ᵃ f(x) dx",
+            "imgUrl": ""
           }
         ]
       }
