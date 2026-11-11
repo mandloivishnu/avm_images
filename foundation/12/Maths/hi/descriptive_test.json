@@ -1,0 +1,350 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "कक्षा 12वीं गणित - महत्वपूर्ण वर्णनात्मक प्रश्न संग्रह",
+    "totalMarks": "50",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "संबंध एवं फलन",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "तुल्यता संबंध (Equivalence Relation) की परिभाषा लिखिए।",
+          "correct_answer": "किसी समुच्चय A पर परिभाषित कोई संबंध R एक तुल्यता संबंध कहलाता है यदि वह:\n1. स्वतुल्य हो: प्रत्येक a ∈ A के लिए (a, a) ∈ R\n2. सममित हो: यदि (a, b) ∈ R तो (b, a) ∈ R\n3. संक्रामक हो: यदि (a, b) ∈ R तथा (b, c) ∈ R तो (a, c) ∈ R।",
+          "imgUrl": "",
+          "explanation": "स्वतुल्य, सममित तथा संक्रामक होने पर तुल्यता संबंध बनता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "subjectName": "प्रतिलोम त्रिकोणमितीय फलन",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "sin⁻¹(-1/2) का मुख्य मान ज्ञात कीजिए।",
+          "correct_answer": "हम जानते हैं कि sin⁻¹(x) की मुख्य मान शाखा [-π/2, π/2] होती है।\nमाना y = sin⁻¹(-1/2)\n⇒ sin y = -1/2 = -sin(π/6) = sin(-π/6)\nचूँकि -π/6 ∈ [-π/2, π/2], अतः मुख्य मान -π/6 है।",
+          "imgUrl": "",
+          "explanation": "sin⁻¹(-x) = -sin⁻¹(x), अतः -π/6।"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "subjectName": "आव्यूह",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "सममित एवं विषम-सममित आव्यूह को परिभाषित कीजिए।",
+          "correct_answer": "सममित आव्यूह: एक वर्ग आव्यूह A सममित कहलाता है यदि A' = A (जहाँ A' परिवर्त आव्यूह है)।\nविषम-सममित आव्यूह: एक वर्ग आव्यूह A विषम-सममित कहलाता है यदि A' = -A। (इसके मुख्य विकर्ण के सभी अवयव शून्य होते हैं)।",
+          "imgUrl": "",
+          "explanation": "A' = A (सममित), A' = -A (विषम-सममित)।"
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "subjectName": "सारणिक",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि A कोटि 3 का एक वर्ग आव्यूह है, तो |adj A| का मान |A| के पदों में क्या होगा? सूत्र स्थापित कीजिए।",
+          "correct_answer": "सूत्रानुसार किसी n कोटि के वर्ग आव्यूह के लिए:\n|adj A| = |A|^(n - 1)\nयहाँ n = 3 है, अतः:\n|adj A| = |A|^(3 - 1) = |A|²।",
+          "imgUrl": "",
+          "explanation": "|adj A| = |A|^(n-1)"
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "subjectName": "सांतत्य तथा अवकलनीयता",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "सिद्ध कीजिए कि फलन f(x) = |x|, x = 0 पर संतत है परंतु अवकलनीय नहीं।",
+          "correct_answer": "1. सांतत्य: lim (x→0⁻) |x| = 0, lim (x→0⁺) |x| = 0, f(0) = 0। अतः f(x), x = 0 पर संतत है।\n2. अवकलनीयता: L f'(0) = lim (h→0) (|0-h| - 0)/(-h) = -1, जबकि R f'(0) = lim (h→0) (|0+h| - 0)/h = 1।\nचूँकि L f'(0) ≠ R f'(0), अतः यह x = 0 पर अवकलनीय नहीं है।",
+          "imgUrl": "",
+          "explanation": "संतत है, किंतु बायाँ अवकलज (-1) ≠ दायाँ अवकलज (+1)।"
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "subjectName": "सांतत्य तथा अवकलनीयता",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि y = log(sin x) हो, तो dy/dx ज्ञात कीजिए।",
+          "correct_answer": "श्रृंखला नियम (Chain Rule) द्वारा:\ndy/dx = d/dx [log(sin x)]\n= (1 / sin x) · d/dx (sin x)\n= (1 / sin x) · cos x = cot x।",
+          "imgUrl": "",
+          "explanation": "dy/dx = cot x"
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "subjectName": "अवकलज के अनुप्रयोग",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "वृत्त के क्षेत्रफल के परिवर्तन की दर इसकी त्रिज्या r के सापेक्ष ज्ञात कीजिए जब r = 6 cm हो।",
+          "correct_answer": "वृत्त का क्षेत्रफल A = π r²\nr के सापेक्ष अवकलन करने पर:\ndA/dr = d/dr (π r²) = 2π r\nजब r = 6 cm:\ndA/dr = 2π × 6 = 12π cm²/cm।",
+          "imgUrl": "",
+          "explanation": "dA/dr = 2πr = 12π cm²/cm"
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "subjectName": "समाकलन",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "मान ज्ञात कीजिए: ∫ e^x (sin x + cos x) dx।",
+          "correct_answer": "हम जानते हैं कि मानक समाकलन सूत्र:\n∫ e^x [f(x) + f'(x)] dx = e^x f(x) + C\nयहाँ f(x) = sin x लेने पर f'(x) = cos x प्राप्त होता है।\nअतः ∫ e^x (sin x + cos x) dx = e^x sin x + C।",
+          "imgUrl": "",
+          "explanation": "∫ e^x [f(x) + f'(x)] dx = e^x f(x) + C"
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "subjectName": "समाकलन",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "निश्चित समाकलन का मान ज्ञात कीजिए: ∫₀^(π/2) (sin x / (sin x + cos x)) dx।",
+          "correct_answer": "माना I = ∫₀^(π/2) [sin x / (sin x + cos x)] dx ...(1)\nगुणधर्म ∫₀^a f(x) dx = ∫₀^a f(a - x) dx से:\nI = ∫₀^(π/2) [cos x / (cos x + sin x)] dx ...(2)\nसमीकरण (1) और (2) को जोड़ने पर:\n2I = ∫₀^(π/2) 1 dx = [x]₀^(π/2) = π/2\n⇒ I = π/4।",
+          "imgUrl": "",
+          "explanation": "गुणधर्म द्वारा 2I = π/2 ⇒ I = π/4"
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "subjectName": "समाकलनों के अनुप्रयोग",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "समाकलन विधि का उपयोग कर वृत्त x² + y² = a² का प्रथम चतुर्थांश में क्षेत्रफल ज्ञात कीजिए।",
+          "correct_answer": "प्रथम चतुर्थांश में क्षेत्रफल:\nA = ∫₀^a y dx = ∫₀^a √(a² - x²) dx\n= [ (x/2)√(a² - x²) + (a²/2) sin⁻¹(x/a) ]₀^a\n= (a²/2) · sin⁻¹(1) - 0 = (a²/2) · (π/2) = π a² / 4 वर्ग इकाई।",
+          "imgUrl": "",
+          "explanation": "प्रथम चतुर्थांश का क्षेत्रफल = πa²/4"
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "subjectName": "अवकल समीकरण",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "अवकल समीकरण (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) = 0 की कोटि एवं घात ज्ञात कीजिए।",
+          "correct_answer": "1. कोटि (Order): उच्चतम अवकलज d²y/dx² है, अतः कोटि = 2 है।\n2. घात (Degree): चूँकि अवकल समीकरण dy/dx में एक बहुपद नहीं है (sin(dy/dx) पद उपस्थित है), अतः इसकी घात परिभाषित नहीं है।",
+          "imgUrl": "",
+          "explanation": "कोटि = 2, घात = परिभाषित नहीं।"
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "subjectName": "अवकल समीकरण",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "रैखिक अवकल समीकरण dy/dx + P y = Q का समाकलन गुणक (I.F.) क्या होता है?",
+          "correct_answer": "प्रथम कोटि के रैखिक अवकल समीकरण dy/dx + P y = Q (जहाँ P और Q केवल x के फलन या अचर हैं) के लिए समाकलन गुणक (Integrating Factor):\nI.F. = e^(∫ P dx) होता है।",
+          "imgUrl": "",
+          "explanation": "I.F. = e^(∫ P dx)"
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "subjectName": "सदिश बीजगणित",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि दो सदिश a⃗ और b⃗ परस्पर लंबवत हों, तो उनके अदिश गुणनफल का मान क्या होगा? कारण स्पष्ट कीजिए।",
+          "correct_answer": "दो सदिशों का अदिश गुणनफल a⃗ · b⃗ = |a⃗| |b⃗| cos θ होता है।\nयदि a⃗ ⊥ b⃗ है, तो उनके बीच का कोण θ = 90° होगा।\nअतः a⃗ · b⃗ = |a⃗| |b⃗| cos 90° = 0।",
+          "imgUrl": "",
+          "explanation": "लंबवत सदिशों के लिए a⃗ · b⃗ = 0।"
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "subjectName": "सदिश बीजगणित",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "सदिश a⃗ = 2î + 3ĵ + 2k̂ का सदिश b⃗ = î + 2ĵ + k̂ पर प्रक्षेप (Projection) ज्ञात कीजिए।",
+          "correct_answer": "a⃗ का b⃗ पर प्रक्षेप = (a⃗ · b⃗) / |b⃗|\na⃗ · b⃗ = (2)(1) + (3)(2) + (2)(1) = 2 + 6 + 2 = 10\n|b⃗| = √(1² + 2² + 1²) = √(1 + 4 + 1) = √6\nअतः प्रक्षेप = 10 / √6 = 5√6 / 3।",
+          "imgUrl": "",
+          "explanation": "प्रक्षेप = (a⃗ · b⃗) / |b⃗| = 10 / √6"
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "subjectName": "त्रिविमीय ज्यामिति",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि एक रेखा के दिक्-कोसाइन l, m, n हैं, तो सिद्ध कीजिए कि l² + m² + n² = 1।",
+          "correct_answer": "माना मूलबिंदु O(0,0,0) से किसी बिंदु P(x, y, z) की दूरी r = √(x² + y² + z²) है।\nदिक्-कोसाइन परिभाषा से: l = x/r, m = y/r, n = z/r\nवर्ग करके जोड़ने पर:\nl² + m² + n² = (x² + y² + z²) / r² = r² / r² = 1।",
+          "imgUrl": "",
+          "explanation": "l² + m² + n² = 1"
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "subjectName": "त्रिविमीय ज्यामिति",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "दो रेखाओं के परस्पर लंबवत होने का प्रतिबंध उनके दिक्-अनुपातों (a₁, b₁, c₁) तथा (a₂, b₂, c₂) के पदों में लिखिए।",
+          "correct_answer": "दो रेखाएं परस्पर लंबवत होंगी यदि और केवल यदि उनके बीच का कोण 90° हो:\na₁ a₂ + b₁ b₂ + c₁ c₂ = 0।",
+          "imgUrl": "",
+          "explanation": "a₁ a₂ + b₁ b₂ + c₁ c₂ = 0"
+        }
+      ]
+    },
+    {
+      "question_number": "17",
+      "subjectName": "रैखिक प्रोग्रामन",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "रैखिक प्रोग्रामन समस्या में सुसंगत क्षेत्र (Feasible Region) किसे कहते हैं?",
+          "correct_answer": "रैखिक प्रोग्रामन समस्या में दिए गए सभी व्यवरोधों (असमिकाओं) तथा ऋणेतर प्रतिबंधों (x ≥ 0, y ≥ 0) को एक साथ संतुष्ट करने वाले सभी उभयनिष्ठ बिंदुओं का समुच्चय सुसंगत क्षेत्र कहलाता है।",
+          "imgUrl": "",
+          "explanation": "सभी व्यवरोधों को संतुष्ट करने वाला उभयनिष्ठ क्षेत्र।"
+        }
+      ]
+    },
+    {
+      "question_number": "18",
+      "subjectName": "प्रायिकता",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "सप्रतिबंध प्रायिकता P(A|B) की परिभाषा एवं सूत्र लिखिए।",
+          "correct_answer": "यदि किसी यादृच्छिक प्रयोग की दो घटनाएं A और B हों तथा घटना B पहले ही घटित हो चुकी हो (P(B) ≠ 0), तो B के घटित होने पर A के घटित होने की प्रायिकता को सप्रतिबंध प्रायिकता कहते हैं:\nP(A|B) = P(A ∩ B) / P(B)।",
+          "imgUrl": "",
+          "explanation": "P(A|B) = P(A ∩ B) / P(B)"
+        }
+      ]
+    },
+    {
+      "question_number": "19",
+      "subjectName": "प्रायिकता",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "स्वतंत्र घटनाओं (Independent Events) के लिए आवश्यक एवं पर्याप्त प्रतिबंध लिखिए।",
+          "correct_answer": "दो घटनाएं A और B परस्पर स्वतंत्र कहलाती हैं यदि एक घटना के घटित होने का प्रभाव दूसरी घटना के घटित होने पर न पड़े:\nप्रतिबंध: P(A ∩ B) = P(A) · P(B)।",
+          "imgUrl": "",
+          "explanation": "P(A ∩ B) = P(A) · P(B)"
+        }
+      ]
+    },
+    {
+      "question_number": "20",
+      "subjectName": "प्रायिकता",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि P(A) = 3/5 तथा P(B) = 1/5 हो और A तथा B स्वतंत्र घटनाएं हों, तो P(A ∩ B) का मान ज्ञात कीजिए।",
+          "correct_answer": "चूँकि A और B स्वतंत्र घटनाएं हैं, अतः:\nP(A ∩ B) = P(A) · P(B)\n= (3/5) · (1/5) = 3/25।",
+          "imgUrl": "",
+          "explanation": "P(A ∩ B) = 3/5 × 1/5 = 3/25"
+        }
+      ]
+    }
+  ]
+}

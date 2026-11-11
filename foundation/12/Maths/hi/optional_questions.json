@@ -1,0 +1,1110 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "कक्षा 12वीं गणित - 50 महत्वपूर्ण बहुविकल्पीय प्रश्न संग्रह",
+    "totalMarks": "50",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "संबंध एवं फलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "सही विकल्प का चयन कर लिखिए :",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "यदि समुच्चय A = {1, 2, 3} पर संबंध R = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 1)} परिभाषित है, तो R कैसा संबंध है?",
+          "options": [
+            { "index": "अ", "text": "केवल सममित" },
+            { "index": "ब", "text": "केवल स्वतुल्य" },
+            { "index": "स", "text": "तुल्यता संबंध" },
+            { "index": "द", "text": "स्वतुल्य तथा सममित किंतु संक्रामक नहीं" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "तुल्यता संबंध",
+          "explanation": "यह स्वतुल्य है क्योंकि (a,a)∈R; सममित है क्योंकि (1,2) व (2,1)∈R; तथा संक्रामक प्रतिबंधों को भी पूर्णतः संतुष्ट करता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "subjectName": "संबंध एवं फलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "2",
+          "statement": "फलन f: R → R, f(x) = x⁴ द्वारा परिभाषित फलन कैसा फलन है?",
+          "options": [
+            { "index": "अ", "text": "एकैकी आच्छादक" },
+            { "index": "ब", "text": "बहुएक आच्छादक" },
+            { "index": "स", "text": "एकैकी किंतु आच्छादक नहीं" },
+            { "index": "द", "text": "न तो एकैकी और न ही आच्छादक" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "न तो एकैकी और न ही आच्छादक",
+          "explanation": "f(-1) = f(1) = 1 होने से यह एकैकी नहीं है, तथा ऋणात्मक वास्तविक संख्याओं का कोई पूर्व-प्रतिबिंब न होने से यह आच्छादक भी नहीं है।"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "subjectName": "प्रतिलोम त्रिकोणमितीय फलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "3",
+          "statement": "cos⁻¹(cos 7π/6) का मुख्य मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "7π/6" },
+            { "index": "ब", "text": "5π/6" },
+            { "index": "स", "text": "π/3" },
+            { "index": "द", "text": "π/6" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "5π/6",
+          "explanation": "cos⁻¹ का परिसर [0, π] होता है। cos(7π/6) = cos(2π - 5π/6) = cos(5π/6), अतः मान 5π/6 होगा।"
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "subjectName": "प्रतिलोम त्रिकोणमितीय फलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "4",
+          "statement": "tan⁻¹(√3) - sec⁻¹(-2) का मान किसके बराबर है?",
+          "options": [
+            { "index": "अ", "text": "π/3" },
+            { "index": "ब", "text": "-π/3" },
+            { "index": "स", "text": "π" },
+            { "index": "द", "text": "2π/3" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "-π/3",
+          "explanation": "tan⁻¹(√3) = π/3 तथा sec⁻¹(-2) = π - sec⁻¹(2) = π - π/3 = 2π/3। अतः π/3 - 2π/3 = -π/3।"
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "subjectName": "प्रतिलोम त्रिकोणमितीय फलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "5",
+          "statement": "sin(tan⁻¹ x), जहाँ |x| < 1, का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "x / √(1 - x²)" },
+            { "index": "ब", "text": "1 / √(1 - x²)" },
+            { "index": "स", "text": "1 / √(1 + x²)" },
+            { "index": "द", "text": "x / √(1 + x²)" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "x / √(1 + x²)",
+          "explanation": "माना tan⁻¹ x = θ ⇒ tan θ = x/1। समकोण त्रिभुज से लंब = x, कर्ण = √(1+x²), अतः sin θ = x / √(1+x²)।"
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "subjectName": "आव्यूह",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "6",
+          "statement": "यदि A तथा B समान कोटि के सममित आव्यूह हैं, तो AB - BA सदैव कैसा आव्यूह होगा?",
+          "options": [
+            { "index": "अ", "text": "विषम-सममित आव्यूह" },
+            { "index": "ब", "text": "सममित आव्यूह" },
+            { "index": "स", "text": "शून्य आव्यूह" },
+            { "index": "द", "text": "तत्समक आव्यूह" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "विषम-सममित आव्यूह",
+          "explanation": "(AB - BA)' = (AB)' - (BA)' = B'A' - A'B' = BA - AB = -(AB - BA), अतः यह विषम-सममित है।"
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "subjectName": "आव्यूह",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "7",
+          "statement": "कोटि 3 × 3 के ऐसे आव्यूहों की कुल कितनी संख्या होगी जिनकी प्रत्येक प्रविष्टि 0 या 1 है?",
+          "options": [
+            { "index": "अ", "text": "27" },
+            { "index": "ब", "text": "18" },
+            { "index": "स", "text": "81" },
+            { "index": "द", "text": "512" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "512",
+          "explanation": "3 × 3 आव्यूह में कुल 9 अवयव होते हैं। प्रत्येक स्थान को भरने के 2 तरीके हैं, अतः कुल आव्यूह = 2⁹ = 512।"
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "subjectName": "आव्यूह",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "8",
+          "statement": "यदि एक आव्यूह A सममित तथा विषम-सममित दोनों ही है, तो A कैसा आव्यूह है?",
+          "options": [
+            { "index": "अ", "text": "A एक विकर्ण आव्यूह है" },
+            { "index": "ब", "text": "A एक शून्य आव्यूह है" },
+            { "index": "स", "text": "A एक वर्ग आव्यूह नहीं है" },
+            { "index": "द", "text": "इनमें से कोई नहीं" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "A एक शून्य आव्यूह है",
+          "explanation": "A' = A तथा A' = -A ⇒ A = -A ⇒ 2A = 0 ⇒ A = 0 (शून्य आव्यूह)।"
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "subjectName": "सारणिक",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "9",
+          "statement": "यदि A कोटि 3 का एक वर्ग आव्यूह है, तो |k A| का मान किसके बराबर होगा?",
+          "options": [
+            { "index": "अ", "text": "k |A|" },
+            { "index": "ब", "text": "k² |A|" },
+            { "index": "स", "text": "k³ |A|" },
+            { "index": "द", "text": "3k |A|" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "k³ |A|",
+          "explanation": "n कोटि के आव्यूह के लिए गुणधर्म |k A| = kⁿ |A| होता है। यहाँ n = 3 होने से k³ |A| होगा।"
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "subjectName": "सारणिक",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "10",
+          "statement": "यदि शीर्ष (2, -6), (5, 4) और (k, 4) वाले त्रिभुज का क्षेत्रफल 35 वर्ग इकाई हो, तो k का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "12" },
+            { "index": "ब", "text": "-2" },
+            { "index": "स", "text": "-12, -2" },
+            { "index": "द", "text": "12, -2" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "12, -2",
+          "explanation": "सारणिक क्षेत्रफल सूत्र 1/2 [x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)] = ±35 हल करने पर k = 12 या -2 प्राप्त होता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "subjectName": "सारणिक",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "11",
+          "statement": "एक व्युत्क्रमणीय आव्यूह A के लिए (A⁻¹)' किसके बराबर होता है?",
+          "options": [
+            { "index": "अ", "text": "(A')⁻¹" },
+            { "index": "ब", "text": "A" },
+            { "index": "स", "text": "A'" },
+            { "index": "द", "text": "|A| I" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "(A')⁻¹",
+          "explanation": "आव्यूह के व्युत्क्रम एवं परिवर्त का क्रम विनिमेय होता है: (A⁻¹)' = (A')⁻¹।"
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "subjectName": "सांतत्य तथा अवकलनीयता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "12",
+          "statement": "फलन f(x) = [x] (महत्तम पूर्णांक फलन) किन बिंदुओं पर असंतत होता है?",
+          "options": [
+            { "index": "अ", "text": "केवल x = 0 पर" },
+            { "index": "ब", "text": "सभी पूर्णांक बिंदुओं पर" },
+            { "index": "स", "text": "सभी वास्तविक संख्याओं पर" },
+            { "index": "द", "text": "केवल धनात्मक संख्याओं पर" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "सभी पूर्णांक बिंदुओं पर",
+          "explanation": "प्रत्येक पूर्णांक k पर lim(x→k⁻) [x] = k - 1 जबकि lim(x→k⁺) [x] = k, अतः यह सभी पूर्णांकों पर असंतत है।"
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "subjectName": "सांतत्य तथा अवकलनीयता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "13",
+          "statement": "यदि x = a t² तथा y = 2at हो, तो dy/dx का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "1 / t" },
+            { "index": "ब", "text": "t" },
+            { "index": "स", "text": "-1 / t²" },
+            { "index": "द", "text": "a / t" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "1 / t",
+          "explanation": "dx/dt = 2at तथा dy/dt = 2a। अतः dy/dx = (dy/dt) / (dx/dt) = 2a / (2at) = 1/t।"
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "subjectName": "सांतत्य तथा अवकलनीयता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "14",
+          "statement": "d/dx [sin⁻¹ x + cos⁻¹ x] का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "π/2" },
+            { "index": "स", "text": "1 / √(1 - x²)" },
+            { "index": "द", "text": "1" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "0",
+          "explanation": "sin⁻¹ x + cos⁻¹ x = π/2 (अचर), और किसी अचर का अवकलज शून्य (0) होता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "subjectName": "सांतत्य तथा अवकलनीयता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "15",
+          "statement": "यदि y = e^(3 log x) हो, तो dy/dx का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "3x²" },
+            { "index": "ब", "text": "3x" },
+            { "index": "स", "text": "e^(3 log x)" },
+            { "index": "द", "text": "x³" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "3x²",
+          "explanation": "y = e^(log x³) = x³। अतः dy/dx = d/dx (x³) = 3x²।"
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "subjectName": "अवकलज के अनुप्रयोग",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "16",
+          "statement": "फलन f(x) = x³ - 3x² + 3x - 100 वास्तविक संख्याओं R पर कैसा फलन है?",
+          "options": [
+            { "index": "अ", "text": "निरंतर वर्धमान" },
+            { "index": "ब", "text": "निरंतर ह्रासमान" },
+            { "index": "स", "text": "न वर्धमान न ह्रासमान" },
+            { "index": "द", "text": "अचर फलन" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "निरंतर वर्धमान",
+          "explanation": "f'(x) = 3x² - 6x + 3 = 3(x - 1)² ≥ 0 सभी x ∈ R के लिए, अतः यह निरंतर वर्धमान फलन है।"
+        }
+      ]
+    },
+    {
+      "question_number": "17",
+      "subjectName": "अवकलज के अनुप्रयोग",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "17",
+          "statement": "वक्र y = 2x² + 3 sin x के x = 0 पर अभिलंब की प्रवणता क्या होगी?",
+          "options": [
+            { "index": "अ", "text": "3" },
+            { "index": "ब", "text": "1/3" },
+            { "index": "स", "text": "-3" },
+            { "index": "द", "text": "-1/3" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "-1/3",
+          "explanation": "dy/dx = 4x + 3 cos x; x = 0 पर स्पर्श रेखा की प्रवणता m = 3। अभिलंब की प्रवणता = -1/m = -1/3।"
+        }
+      ]
+    },
+    {
+      "question_number": "18",
+      "subjectName": "अवकलज के अनुप्रयोग",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "18",
+          "statement": "एक वृत्त की त्रिज्या 0.7 cm/s की दर से बढ़ रही है। इसकी परिधि की वृद्धि दर क्या होगी?",
+          "options": [
+            { "index": "अ", "text": "4.4 cm/s" },
+            { "index": "ब", "text": "2.2 cm/s" },
+            { "index": "स", "text": "1.4 cm/s" },
+            { "index": "द", "text": "0.7 cm/s" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "4.4 cm/s",
+          "explanation": "परिधि C = 2πr ⇒ dC/dt = 2π(dr/dt) = 2 × (22/7) × 0.7 = 4.4 cm/s।"
+        }
+      ]
+    },
+    {
+      "question_number": "19",
+      "subjectName": "समाकलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "19",
+          "statement": "∫ sec x dx का मान किसके बराबर होता है?",
+          "options": [
+            { "index": "अ", "text": "log |sec x + tan x| + C" },
+            { "index": "ब", "text": "log |sec x - tan x| + C" },
+            { "index": "स", "text": "sec x tan x + C" },
+            { "index": "द", "text": "log |sin x| + C" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "log |sec x + tan x| + C",
+          "explanation": "मानक समाकलन सूत्र के अनुसार ∫ sec x dx = log |sec x + tan x| + C होता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "20",
+      "subjectName": "समाकलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "20",
+          "statement": "∫ (dx / (x² + a²)) का समाकलन क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "(1/a) tan⁻¹(x/a) + C" },
+            { "index": "ब", "text": "tan⁻¹(x/a) + C" },
+            { "index": "स", "text": "(1/2a) log |(x-a)/(x+a)| + C" },
+            { "index": "द", "text": "sin⁻¹(x/a) + C" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "(1/a) tan⁻¹(x/a) + C",
+          "explanation": "मानक सूत्र: ∫ 1/(x² + a²) dx = (1/a) tan⁻¹(x/a) + C।"
+        }
+      ]
+    },
+    {
+      "question_number": "21",
+      "subjectName": "समाकलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "21",
+          "statement": "∫ (dx / √(a² - x²)) का मान क्या है?",
+          "options": [
+            { "index": "अ", "text": "sin⁻¹(x/a) + C" },
+            { "index": "ब", "text": "(1/a) sin⁻¹(x/a) + C" },
+            { "index": "स", "text": "cos⁻¹(x/a) + C" },
+            { "index": "द", "text": "log |x + √(a²-x²)| + C" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "sin⁻¹(x/a) + C",
+          "explanation": "मानक सूत्र: ∫ 1/√(a² - x²) dx = sin⁻¹(x/a) + C।"
+        }
+      ]
+    },
+    {
+      "question_number": "22",
+      "subjectName": "समाकलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "22",
+          "statement": "∫ e^x (1/x - 1/x²) dx का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "e^x / x + C" },
+            { "index": "ब", "text": "-e^x / x² + C" },
+            { "index": "स", "text": "e^x log x + C" },
+            { "index": "द", "text": "-e^x / x + C" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "e^x / x + C",
+          "explanation": "यहाँ f(x) = 1/x लेने पर f'(x) = -1/x² है। सूत्र e^x f(x) + C से मान e^x / x + C होगा।"
+        }
+      ]
+    },
+    {
+      "question_number": "23",
+      "subjectName": "समाकलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "23",
+          "statement": "निश्चित समाकलन ∫_(-1)^1 x¹⁷ cos⁴ x dx का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "1" },
+            { "index": "द", "text": "-1" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "0",
+          "explanation": "f(-x) = (-x)¹⁷ cos⁴(-x) = -x¹⁷ cos⁴ x = -f(x)। फलन विषम (Odd function) है, अतः मान शून्य होगा।"
+        }
+      ]
+    },
+    {
+      "question_number": "24",
+      "subjectName": "समाकलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "24",
+          "statement": "∫₀^(π/2) log(tan x) dx का मान किसके बराबर होता है?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "π/2" },
+            { "index": "स", "text": "π/4" },
+            { "index": "द", "text": "log 2" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "0",
+          "explanation": "I = ∫₀^(π/2) log(tan x) dx = ∫₀^(π/2) log(cot x) dx = -I ⇒ 2I = 0 ⇒ I = 0।"
+        }
+      ]
+    },
+    {
+      "question_number": "25",
+      "subjectName": "समाकलनों के अनुप्रयोग",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "25",
+          "statement": "दीर्घवृत्त x²/a² + y²/b² = 1 का संपूर्ण क्षेत्रफल कितना होता है?",
+          "options": [
+            { "index": "अ", "text": "π a b" },
+            { "index": "ब", "text": "π a² b²" },
+            { "index": "स", "text": "2π a b" },
+            { "index": "द", "text": "4π a b" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "π a b",
+          "explanation": "दीर्घवृत्त का कुल क्षेत्रफल 4 × (प्रथम चतुर्थांश का क्षेत्रफल) = 4 × (πab/4) = πab वर्ग इकाई होता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "26",
+      "subjectName": "समाकलनों के अनुप्रयोग",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "26",
+          "statement": "वक्र y² = 4x, y-अक्ष एवं रेखा y = 3 से घिरे क्षेत्र का क्षेत्रफल क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "9/4" },
+            { "index": "ब", "text": "9/3" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "9/2" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "9/4",
+          "explanation": "क्षेत्रफल = ∫₀³ x dy = ∫₀³ (y²/4) dy = [y³/12]₀³ = 27/12 = 9/4 वर्ग इकाई।"
+        }
+      ]
+    },
+    {
+      "question_number": "27",
+      "subjectName": "अवकल समीकरण",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "27",
+          "statement": "अवकल समीकरण 2x² (d²y/dx²) - 3(dy/dx) + y = 0 की कोटि क्या है?",
+          "options": [
+            { "index": "अ", "text": "2" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "0" },
+            { "index": "द", "text": "परिभाषित नहीं" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "2",
+          "explanation": "समीकरण में उच्चतम अवकलज d²y/dx² है, अतः इसकी कोटि 2 है।"
+        }
+      ]
+    },
+    {
+      "question_number": "28",
+      "subjectName": "अवकल समीकरण",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "28",
+          "statement": "अवकल समीकरण [1 + (dy/dx)²]^(3/2) = d²y/dx² की घात क्या होगी?",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "6" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "2",
+          "explanation": "दोनों पक्षों का वर्ग करने पर: [1 + (dy/dx)²]³ = (d²y/dx²)²। उच्चतम अवकलज की घात 2 है।"
+        }
+      ]
+    },
+    {
+      "question_number": "29",
+      "subjectName": "अवकल समीकरण",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "29",
+          "statement": "अवकल समीकरण dy/dx + y sec x = tan x का समाकलन गुणक (I.F.) क्या है?",
+          "options": [
+            { "index": "अ", "text": "sec x + tan x" },
+            { "index": "ब", "text": "sec x - tan x" },
+            { "index": "स", "text": "sec x" },
+            { "index": "द", "text": "tan x" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "sec x + tan x",
+          "explanation": "P = sec x ⇒ I.F. = e^(∫ sec x dx) = e^(log(sec x + tan x)) = sec x + tan x।"
+        }
+      ]
+    },
+    {
+      "question_number": "30",
+      "subjectName": "अवकल समीकरण",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "30",
+          "statement": "चार कोटि वाले किसी अवकल समीकरण के व्यापक हल में उपस्थित स्वेच्छ अचरों की कुल संख्या कितनी होती है?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "2" },
+            { "index": "स", "text": "3" },
+            { "index": "द", "text": "4" }
+          ],
+          "correct_index": "द",
+          "correct_answer": "4",
+          "explanation": "किसी अवकल समीकरण के व्यापक हल में स्वेच्छ अचरों की संख्या उस समीकरण की कोटि (यहाँ 4) के बराबर होती है।"
+        }
+      ]
+    },
+    {
+      "question_number": "31",
+      "subjectName": "अवकल समीकरण",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "31",
+          "statement": "तीन कोटि वाले अवकल समीकरण के विशिष्ट हल (Particular Solution) में उपस्थित स्वेच्छ अचरों की संख्या क्या होगी?",
+          "options": [
+            { "index": "अ", "text": "3" },
+            { "index": "ब", "text": "0" },
+            { "index": "स", "text": "1" },
+            { "index": "द", "text": "2" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "0",
+          "explanation": "विशिष्ट हल में कोई भी स्वेच्छ अचर उपस्थित नहीं होता है, अतः संख्या शून्य (0) होती है।"
+        }
+      ]
+    },
+    {
+      "question_number": "32",
+      "subjectName": "सदिश बीजगणित",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "32",
+          "statement": "सदिश î + ĵ + k̂ का परिमाण क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "1" },
+            { "index": "ब", "text": "√2" },
+            { "index": "स", "text": "√3" },
+            { "index": "द", "text": "3" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "√3",
+          "explanation": "|a⃗| = √(1² + 1² + 1²) = √3।"
+        }
+      ]
+    },
+    {
+      "question_number": "33",
+      "subjectName": "सदिश बीजगणित",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "33",
+          "statement": "î · (ĵ × k̂) + ĵ · (î × k̂) + k̂ · (î × ĵ) का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "-1" },
+            { "index": "स", "text": "1" },
+            { "index": "द", "text": "3" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "1",
+          "explanation": "ĵ × k̂ = î ⇒ î · î = 1; î × k̂ = -ĵ ⇒ ĵ · (-ĵ) = -1; k̂ · k̂ = 1। अतः 1 - 1 + 1 = 1।"
+        }
+      ]
+    },
+    {
+      "question_number": "34",
+      "subjectName": "सदिश बीजगणित",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "34",
+          "statement": "यदि दो शून्येतर सदिशों a⃗ और b⃗ के लिए |a⃗ · b⃗| = |a⃗ × b⃗| हो, तो उनके बीच का कोण क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "π/4" },
+            { "index": "स", "text": "π/2" },
+            { "index": "द", "text": "π" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "π/4",
+          "explanation": "ab cos θ = ab sin θ ⇒ tan θ = 1 ⇒ θ = π/4 (45°)।"
+        }
+      ]
+    },
+    {
+      "question_number": "35",
+      "subjectName": "सदिश बीजगणित",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "35",
+          "statement": "यदि a⃗ एक मात्रक सदिश है तथा (x⃗ - a⃗) · (x⃗ + a⃗) = 8 है, तो |x⃗| का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "2" },
+            { "index": "ब", "text": "3" },
+            { "index": "स", "text": "8" },
+            { "index": "द", "text": "9" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "3",
+          "explanation": "|x⃗|² - |a⃗|² = 8 ⇒ |x⃗|² - 1 = 8 ⇒ |x⃗|² = 9 ⇒ |x⃗| = 3।"
+        }
+      ]
+    },
+    {
+      "question_number": "36",
+      "subjectName": "सदिश बीजगणित",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "36",
+          "statement": "दो समांतर सदिशों a⃗ और b⃗ के लिए सदिश गुणनफल a⃗ × b⃗ किसके बराबर होता है?",
+          "options": [
+            { "index": "अ", "text": "0⃗ (शून्य सदिश)" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "|a⃗| |b⃗|" },
+            { "index": "द", "text": "-1" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "0⃗ (शून्य सदिश)",
+          "explanation": "समांतर सदिशों के बीच कोण θ = 0° या 180° होता है, जिससे sin θ = 0 होता है, अतः a⃗ × b⃗ = 0⃗।"
+        }
+      ]
+    },
+    {
+      "question_number": "37",
+      "subjectName": "त्रिविमीय ज्यामिति",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "37",
+          "statement": "y-अक्ष की दिक्-कोसाइन (Direction Cosines) क्या होती हैं?",
+          "options": [
+            { "index": "अ", "text": "(1, 0, 0)" },
+            { "index": "ब", "text": "(0, 1, 0)" },
+            { "index": "स", "text": "(0, 0, 1)" },
+            { "index": "द", "text": "(1, 1, 1)" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "(0, 1, 0)",
+          "explanation": "y-अक्ष x, y और z अक्षों के साथ क्रमशः 90°, 0° और 90° का कोण बनाती है; cos 90°=0, cos 0°=1, अतः (0, 1, 0)।"
+        }
+      ]
+    },
+    {
+      "question_number": "38",
+      "subjectName": "त्रिविमीय ज्यामिति",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "38",
+          "statement": "यदि एक रेखा अक्षों के साथ क्रमशः α, β, γ कोण बनाती है, तो cos² α + cos² β + cos² γ का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "2" },
+            { "index": "द", "text": "-1" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "l = cos α, m = cos β, n = cos γ और l² + m² + n² = 1 होता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "39",
+      "subjectName": "त्रिविमीय ज्यामिति",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "39",
+          "statement": "बिंदुओं (x₁, y₁, z₁) तथा (x₂, y₂, z₂) को मिलाने वाली रेखा के दिक्-अनुपात क्या होंगे?",
+          "options": [
+            { "index": "अ", "text": "x₂ - x₁, y₂ - y₁, z₂ - z₁" },
+            { "index": "ब", "text": "x₁ + x₂, y₁ + y₂, z₁ + z₂" },
+            { "index": "स", "text": "x₁ x₂, y₁ y₂, z₁ z₂" },
+            { "index": "द", "text": "x₂/x₁, y₂/y₁, z₂/z₁" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "x₂ - x₁, y₂ - y₁, z₂ - z₁",
+          "explanation": "दो बिंदुओं को मिलाने वाली रेखा के दिक्-अनुपात उनके निर्देशांकों के अंतर (x₂ - x₁, y₂ - y₁, z₂ - z₁) द्वारा दिए जाते हैं।"
+        }
+      ]
+    },
+    {
+      "question_number": "40",
+      "subjectName": "त्रिविमीय ज्यामिति",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "40",
+          "statement": "दो समांतर रेखाओं के दिक्-अनुपातों (a₁, b₁, c₁) तथा (a₂, b₂, c₂) के बीच सही संबंध क्या है?",
+          "options": [
+            { "index": "अ", "text": "a₁/a₂ = b₁/b₂ = c₁/c₂" },
+            { "index": "ब", "text": "a₁ a₂ + b₁ b₂ + c₁ c₂ = 0" },
+            { "index": "स", "text": "a₁ = a₂, b₁ = b₂, c₁ = c₂ = 0" },
+            { "index": "द", "text": "a₁ a₂ = b₁ b₂" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+          "explanation": "समांतर रेखाओं के दिक्-अनुपात समानुपाती होते हैं: a₁/a₂ = b₁/b₂ = c₁/c₂।"
+        }
+      ]
+    },
+    {
+      "question_number": "41",
+      "subjectName": "रैखिक प्रोग्रामन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "41",
+          "statement": "उद्देश्य फलन Z = ax + by का इष्टतम (अधिकतम या न्यूनतम) मान सदैव कहाँ प्राप्त होता है?",
+          "options": [
+            { "index": "अ", "text": "सुसंगत क्षेत्र के अंतःबिंदु पर" },
+            { "index": "ब", "text": "सुसंगत क्षेत्र के कोणीय (शीर्ष) बिंदुओं पर" },
+            { "index": "स", "text": "केवल मूलबिंदु पर" },
+            { "index": "द", "text": "अनंत पर" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "सुसंगत क्षेत्र के कोणीय (शीर्ष) बिंदुओं पर",
+          "explanation": "रैखिक प्रोग्रामन प्रमेय के अनुसार इष्टतम मान सदैव सुसंगत क्षेत्र के शीर्ष (Corner points) पर ही मिलता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "42",
+      "subjectName": "रैखिक प्रोग्रामन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "42",
+          "statement": "व्यवरोधों x + y ≤ 4, x ≥ 0, y ≥ 0 के अंतर्गत Z = 3x + 4y का अधिकतम मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "12" },
+            { "index": "ब", "text": "16" },
+            { "index": "स", "text": "0" },
+            { "index": "द", "text": "7" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "16",
+          "explanation": "शीर्ष बिंदु (0,0), (4,0) तथा (0,4) हैं। Z(0,0)=0, Z(4,0)=12, Z(0,4)=16। अतः अधिकतम मान 16 है।"
+        }
+      ]
+    },
+    {
+      "question_number": "43",
+      "subjectName": "प्रायिकता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "43",
+          "statement": "यदि P(A) = 1/2, P(B) = 0 हो, तो P(A|B) का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1/2" },
+            { "index": "स", "text": "परिभाषित नहीं" },
+            { "index": "द", "text": "1" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "परिभाषित नहीं",
+          "explanation": "P(A|B) = P(A ∩ B) / P(B)। चूँकि हर P(B) = 0 है, अतः यह मान अपरिभाषित है।"
+        }
+      ]
+    },
+    {
+      "question_number": "44",
+      "subjectName": "प्रायिकता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "44",
+          "statement": "यदि A और B दो घटनाएं इस प्रकार हैं कि P(A|B) = P(B|A) ≠ 0, तो कौन-सा विकल्प सत्य है?",
+          "options": [
+            { "index": "अ", "text": "A ⊂ B" },
+            { "index": "ब", "text": "A = B" },
+            { "index": "स", "text": "P(A) = P(B)" },
+            { "index": "द", "text": "P(A ∩ B) = φ" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "P(A) = P(B)",
+          "explanation": "P(A ∩ B) / P(B) = P(A ∩ B) / P(A) ⇒ P(A) = P(B)।"
+        }
+      ]
+    },
+    {
+      "question_number": "45",
+      "subjectName": "प्रायिकता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "45",
+          "statement": "एक पासे को फेंकने पर विषम संख्या आने की प्रायिकता यदि ज्ञात हो कि संख्या 3 से बड़ी है, क्या होगी?",
+          "options": [
+            { "index": "अ", "text": "1/3" },
+            { "index": "ब", "text": "2/3" },
+            { "index": "स", "text": "1/2" },
+            { "index": "द", "text": "1/6" }
+          ],
+          "correct_index": "अ",
+          "correct_answer": "1/3",
+          "explanation": "3 से बड़ी संख्याएँ B = {4, 5, 6} (कुल 3)। इनमें विषम संख्या केवल {5} (कुल 1) है। अतः प्रायिकता = 1/3।"
+        }
+      ]
+    },
+    {
+      "question_number": "46",
+      "subjectName": "प्रायिकता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "46",
+          "statement": "यदि दो स्वतंत्र घटनाओं A तथा B के लिए P(A) = 0.3 तथा P(B) = 0.4 हो, तो P(A ∪ B) का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "0.7" },
+            { "index": "ब", "text": "0.58" },
+            { "index": "स", "text": "0.12" },
+            { "index": "द", "text": "0.82" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "0.58",
+          "explanation": "P(A ∩ B) = 0.3 × 0.4 = 0.12। P(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 0.3 + 0.4 - 0.12 = 0.58।"
+        }
+      ]
+    },
+    {
+      "question_number": "47",
+      "subjectName": "प्रायिकता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "47",
+          "statement": "ताश की 52 पत्तों की गड्डी में से एक पत्ता यादृच्छया निकाला जाता है। इसके इक्का या हुकुम का पत्ता होने की प्रायिकता क्या है?",
+          "options": [
+            { "index": "अ", "text": "17/52" },
+            { "index": "ब", "text": "4/13" },
+            { "index": "स", "text": "1/13" },
+            { "index": "द", "text": "16/52" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "4/13",
+          "explanation": "इक्के = 4, हुकुम के पत्ते = 13, हुकुम का इक्का = 1। अनुकूल पत्ते = 4 + 13 - 1 = 16। प्रायिकता = 16/52 = 4/13।"
+        }
+      ]
+    },
+    {
+      "question_number": "48",
+      "subjectName": "प्रायिकता",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "48",
+          "statement": "किसी यादृच्छिक चर X का प्रायिकता बंटन दिया हो, तो सभी प्रायिकताओं का योग Σ P(X) सदैव किसके बराबर होता है?",
+          "options": [
+            { "index": "अ", "text": "0" },
+            { "index": "ब", "text": "1" },
+            { "index": "स", "text": "अपरिभाषित" },
+            { "index": "द", "text": "0.5" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "1",
+          "explanation": "प्रायिकता बंटन के मूलभूत नियमानुसार सभी संभावित घटनाओं की प्रायिकताओं का कुल योग सदैव 1 होता है।"
+        }
+      ]
+    },
+    {
+      "question_number": "49",
+      "subjectName": "संबंध एवं फलन",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "49",
+          "statement": "यदि समुच्चय A में n अवयव हैं, तो A पर कुल कितने भिन्न-भिन्न संबंध परिभाषित किए जा सकते हैं?",
+          "options": [
+            { "index": "अ", "text": "2ⁿ" },
+            { "index": "ब", "text": "n²" },
+            { "index": "स", "text": "2^(n²)" },
+            { "index": "द", "text": "2^(2n)" }
+          ],
+          "correct_index": "स",
+          "correct_answer": "2^(n²)",
+          "explanation": "A × A में कुल n × n = n² अवयव होते हैं। अतः इसके उपसमुच्चयों (संबंधों) की कुल संख्या 2^(n²) होगी।"
+        }
+      ]
+    },
+    {
+      "question_number": "50",
+      "subjectName": "सारणिक",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "50",
+          "statement": "यदि A कोटि 3 का एक वर्ग आव्यूह है और |A| = 5 है, तो |adj A| का मान क्या होगा?",
+          "options": [
+            { "index": "अ", "text": "5" },
+            { "index": "ब", "text": "25" },
+            { "index": "स", "text": "125" },
+            { "index": "द", "text": "1/5" }
+          ],
+          "correct_index": "ब",
+          "correct_answer": "25",
+          "explanation": "सूत्र: |adj A| = |A|^(n-1) = 5^(3-1) = 5² = 25।"
+        }
+      ]
+    }
+  ]
+}
