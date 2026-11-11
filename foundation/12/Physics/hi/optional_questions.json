@@ -3,14 +3,14 @@
     "paperYear": "2027",
     "subjectName": "कक्षा 12वीं भौतिक विज्ञान - 50 महत्वपूर्ण बहुविकल्पीय प्रश्न संग्रह",
     "totalMarks": "50",
-    "board": "Bihar Board"
+    "board": "MP Board"
   },
   "questions": [
     {
-      "question_number": "1",
-      "subjectName": "विद्युत धारा",
+      "question_number": "",
+      "subjectName": "भौतिक विज्ञान (सम्पूर्ण पाठ्यक्रम - Quick Test)",
       "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
+      "marks": "1*50=50",
       "text": "सही विकल्प का चयन कर लिखिए :",
       "parts": [
         {
@@ -25,16 +25,7 @@
           "correct_index": "ब",
           "correct_answer": "ऐम्पियर",
           "explanation": "विद्युत धारा प्रति एकांक समय में प्रवाहित आवेश है (I = Q/t), जिसका SI मात्रक कूलॉम प्रति सेकंड अर्थात ऐम्पियर (A) होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "2",
-      "subjectName": "विद्युत धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "2",
           "statement": "ओम के नियम का गणितीय रूप क्या है?",
@@ -47,16 +38,7 @@
           "correct_index": "ब",
           "correct_answer": "V = IR",
           "explanation": "नियत ताप तथा नियत भौतिक अवस्था पर चालक के सिरों के बीच का विभवांतर उसमें प्रवाहित धारा के समानुपाती होता है (V = IR)।"
-        }
-      ]
-    },
-    {
-      "question_number": "3",
-      "subjectName": "विद्युत धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "3",
           "statement": "विद्युत प्रतिरोध का SI मात्रक क्या है?",
@@ -69,16 +51,7 @@
           "correct_index": "अ",
           "correct_answer": "ओम",
           "explanation": "प्रतिरोध R = V / I होता है और इसका SI मात्रक वोल्ट/ऐम्पियर जिसे ओम (Ω) कहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "4",
-      "subjectName": "विद्युत धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "4",
           "statement": "विशिष्ट प्रतिरोध (प्रतिरोधकता) का SI मात्रक क्या होता है?",
@@ -91,16 +64,7 @@
           "correct_index": "स",
           "correct_answer": "ओम-मीटर",
           "explanation": "विशिष्ट प्रतिरोध का सूत्र ρ = RA / l है, अतः इसका SI मात्रक (Ω × m²)/m = ओम-मीटर (Ω·m) होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "5",
-      "subjectName": "विद्युत धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "5",
           "statement": "किरचाँफ का संधि नियम किसके संरक्षण पर आधारित है?",
@@ -113,16 +77,7 @@
           "correct_index": "ब",
           "correct_answer": "आवेश संरक्षण",
           "explanation": "संधि पर आने वाली कुल धाराओं का योग जाने वाली कुल धाराओं के योग के बराबर होता है (Σ I = 0), जो आवेश संरक्षण को दर्शाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "6",
-      "subjectName": "विद्युत धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "6",
           "statement": "किरचाँफ का लूप नियम (Loop Rule) किस संरक्षण सिद्धांत पर आधारित है?",
@@ -135,16 +90,7 @@
           "correct_index": "अ",
           "correct_answer": "ऊर्जा संरक्षण",
           "explanation": "लूप नियम के अनुसार बंद परिपथ में सभी विभवांतरों तथा विद्युत वाहक बलों का बीजगणितीय योग शून्य होता है (Σ V = 0), जो ऊर्जा संरक्षण पर आधारित है।"
-        }
-      ]
-    },
-    {
-      "question_number": "7",
-      "subjectName": "चुंबकत्व एवं पदार्थ",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "7",
           "statement": "चुंबकीय द्विध्रुव आघूर्ण (M) का SI मात्रक क्या होता है?",
@@ -157,16 +103,7 @@
           "correct_index": "ब",
           "correct_answer": "ऐम्पियर-मीटर²",
           "explanation": "चुंबकीय द्विध्रुव आघूर्ण M = m × 2l होता है, जिसका SI मात्रक A·m² (ऐम्पियर-मीटर²) है।"
-        }
-      ]
-    },
-    {
-      "question_number": "8",
-      "subjectName": "चुंबकत्व एवं पदार्थ",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "8",
           "statement": "ताँबा, बिस्मथ और जल किस प्रकार के चुंबकीय पदार्थ हैं?",
@@ -179,16 +116,7 @@
           "correct_index": "स",
           "correct_answer": "प्रतिचुंबकीय",
           "explanation": "बिस्मथ, ताँबा, चाँदी और जल चुंबकीय क्षेत्र में रखे जाने पर दुर्बल रूप से प्रतिकर्षित होते हैं, अतः ये प्रतिचुंबकीय पदार्थ हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "9",
-      "subjectName": "चुंबकत्व एवं पदार्थ",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "9",
           "statement": "एल्युमिनियम और प्लैटिनम किस वर्ग के चुंबकीय पदार्थ हैं?",
@@ -201,16 +129,7 @@
           "correct_index": "ब",
           "correct_answer": "अनुचुंबकीय",
           "explanation": "वे पदार्थ जो बाह्य चुंबकीय क्षेत्र की ओर दुर्बल रूप से आकर्षित होते हैं, अनुचुंबकीय कहलाते हैं; जैसे एल्युमिनियम और प्लैटिनम।"
-        }
-      ]
-    },
-    {
-      "question_number": "10",
-      "subjectName": "चुंबकत्व एवं पदार्थ",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "10",
           "statement": "निम्नलिखित में से लौहचुंबकीय पदार्थ का सही उदाहरण कौन-सा है?",
@@ -223,16 +142,7 @@
           "correct_index": "स",
           "correct_answer": "लोहा, कोबाल्ट तथा निकेल",
           "explanation": "लोहा, कोबाल्ट तथा निकेल चुंबकीय क्षेत्र की दिशा में अत्यंत प्रबल रूप से आकर्षित होते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "11",
-      "subjectName": "चुंबकत्व एवं पदार्थ",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "11",
           "statement": "चुंबक के बाहर चुंबकीय क्षेत्र रेखाओं की दिशा क्या होती है?",
@@ -245,16 +155,7 @@
           "correct_index": "ब",
           "correct_answer": "उत्तर ध्रुव से दक्षिण ध्रुव",
           "explanation": "चुंबकीय क्षेत्र रेखाएँ चुंबक के बाहर उत्तरी ध्रुव से दक्षिणी ध्रुव की ओर और चुंबक के भीतर दक्षिणी ध्रुव से उत्तरी ध्रुव की ओर चलती हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "12",
-      "subjectName": "प्रत्यावर्ती धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "12",
           "statement": "प्रत्यावर्ती धारा का तात्कालिक समीकरण क्या होता है?",
@@ -267,16 +168,7 @@
           "correct_index": "ब",
           "correct_answer": "I = I₀ sin ωt",
           "explanation": "प्रत्यावर्ती धारा का मानक ज्यावक्रीय रूप I = I₀ sin ωt द्वारा व्यक्त किया जाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "13",
-      "subjectName": "प्रत्यावर्ती धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "13",
           "statement": "प्रत्यावर्ती धारा परिपथ में शक्ति गुणांक का मान किसके बराबर होता है?",
@@ -289,16 +181,7 @@
           "correct_index": "ब",
           "correct_answer": "R / Z",
           "explanation": "शक्ति गुणांक वोल्टेज तथा धारा के बीच के कलांतर कोण ϕ का कोसाइन होता है, जिसका मान cos ϕ = R / Z होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "14",
-      "subjectName": "प्रत्यावर्ती धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "14",
           "statement": "श्रेणीबद्ध LCR परिपथ में अनुनाद की स्थिति में कौन-सा संबंध सत्य है?",
@@ -311,16 +194,7 @@
           "correct_index": "स",
           "correct_answer": "X_L = X_C",
           "explanation": "अनुनाद की स्थिति में प्रेरणिक प्रतिघात और धारितीय प्रतिघात परस्पर बराबर हो जाते हैं (X_L = X_C)।"
-        }
-      ]
-    },
-    {
-      "question_number": "15",
-      "subjectName": "प्रत्यावर्ती धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "15",
           "statement": "LCR परिपथ की अनुनादी आवृत्ति (f₀) का सूत्र क्या है?",
@@ -333,16 +207,7 @@
           "correct_index": "ब",
           "correct_answer": "f₀ = 1 / (2π√(LC))",
           "explanation": "X_L = X_C रखने पर ωL = 1/(ωC) प्राप्त होता है, जिससे f₀ = 1 / (2π√(LC)) निकलता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "16",
-      "subjectName": "प्रत्यावर्ती धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "16",
           "statement": "ट्रांसफॉर्मर किस भौतिक सिद्धांत पर कार्य करता है?",
@@ -355,16 +220,7 @@
           "correct_index": "ब",
           "correct_answer": "पारस्परिक प्रेरण",
           "explanation": "ट्रांसफॉर्मर पारस्परिक प्रेरण (Mutual Induction) के सिद्धांत पर प्रत्यावर्ती वोल्टेज को परिवर्तित करता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "17",
-      "subjectName": "प्रत्यावर्ती धारा",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "17",
           "statement": "ट्रांसफॉर्मर का परिणमन अनुपात (Transformation Ratio) किसके बराबर होता है?",
@@ -377,16 +233,7 @@
           "correct_index": "ब",
           "correct_answer": "V_s / V_p = N_s / N_p",
           "explanation": "द्वितीयक और प्राथमिक कुण्डली के वोल्टेज का अनुपात उनके फेरों की संख्या के अनुपात के बराबर होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "18",
-      "subjectName": "विद्युतचुंबकीय तरंगें",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "18",
           "statement": "विद्युतचुंबकीय तरंगों में विद्युत क्षेत्र (E) और चुंबकीय क्षेत्र (B) के बीच का कोण कितना होता है?",
@@ -399,16 +246,7 @@
           "correct_index": "स",
           "correct_answer": "90°",
           "explanation": "विद्युतचुंबकीय तरंगों में विद्युत क्षेत्र तथा चुंबकीय क्षेत्र परस्पर एक-दूसरे के लंबवत (90°) दोलन करते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "19",
-      "subjectName": "विद्युतचुंबकीय तरंगें",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "19",
           "statement": "निर्वात में विद्युतचुंबकीय तरंगों की चाल कितनी होती है?",
@@ -421,16 +259,7 @@
           "correct_index": "ब",
           "correct_answer": "3 × 10⁸ m/s",
           "explanation": "निर्वात में सभी विद्युतचुंबकीय तरंगें प्रकाश की चाल c = 3 × 10⁸ m/s से संचरित होती हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "20",
-      "subjectName": "विद्युतचुंबकीय तरंगें",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "20",
           "statement": "निर्वात में प्रकाश की चाल (c) का चुंबकीय पारगम्यता (μ₀) और विद्युतशीलता (ε₀) के पदों में सूत्र क्या है?",
@@ -443,16 +272,7 @@
           "correct_index": "ब",
           "correct_answer": "c = 1 / √(μ₀ ε₀)",
           "explanation": "मैक्सवेल के समीकरणों के अनुसार निर्वात में विद्युतचुंबकीय तरंग की चाल c = 1 / √(μ₀ ε₀) होती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "21",
-      "subjectName": "विद्युतचुंबकीय तरंगें",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "21",
           "statement": "नकली नोटों तथा जाली दस्तावेजों की पहचान के लिए किस विकिरण का उपयोग किया जाता है?",
@@ -465,16 +285,7 @@
           "correct_index": "स",
           "correct_answer": "पराबैंगनी किरणें",
           "explanation": "पराबैंगनी किरणें फ्लोरोसेंट स्याही को चमकाती हैं, इसलिए इनका उपयोग सुरक्षा दस्तावेजों और जाली नोटों की जांच में होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "22",
-      "subjectName": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "22",
           "statement": "क्रांतिक कोण (C) और अपवर्तनांक (μ) के मध्य सही संबंध क्या है?",
@@ -487,16 +298,7 @@
           "correct_index": "ब",
           "correct_answer": "sin C = 1 / μ",
           "explanation": "स्नेल के नियम के अनुसार r = 90° होने पर sin C = 1 / μ संबंध प्राप्त होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "23",
-      "subjectName": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "23",
           "statement": "लेंस की क्षमता का SI मात्रक क्या होता है?",
@@ -509,16 +311,7 @@
           "correct_index": "ब",
           "correct_answer": "डायोप्टर",
           "explanation": "लेंस की क्षमता P = 1 / f (मीटर में) होती है तथा इसका SI मात्रक m⁻¹ जिसे डायोप्टर (D) कहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "24",
-      "subjectName": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "24",
           "statement": "लेंस निर्माता सूत्र (Lens Maker's Formula) निम्नलिखित में से कौन-सा है?",
@@ -531,16 +324,7 @@
           "correct_index": "ब",
           "correct_answer": "1/f = (μ - 1)(1/R₁ - 1/R₂)",
           "explanation": "लेंस निर्माता सूत्र पतले लेंस की फोकस दूरी, उसके अपवर्तनांक तथा पृष्ठों की वक्रता त्रिज्याओं में संबंध 1/f = (μ - 1)(1/R₁ - 1/R₂) व्यक्त करता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "25",
-      "subjectName": "किरण प्रकाशिकी एवं प्रकाशिक यंत्र",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "25",
           "statement": "संयुक्त सूक्ष्मदर्शी में प्रयुक्त दोनों लेंस किस प्रकार के होते हैं?",
@@ -553,16 +337,7 @@
           "correct_index": "ब",
           "correct_answer": "दोनों उत्तल लेंस",
           "explanation": "संयुक्त सूक्ष्मदर्शी में अभिदृश्यक और नेत्रिका दोनों ही उत्तल लेंस होते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "26",
-      "subjectName": "तरंग-प्रकाशिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "26",
           "statement": "समान कला में कंपन करने वाले माध्यम के सभी कणों के बिंदुपथ को क्या कहते हैं?",
@@ -575,16 +350,7 @@
           "correct_index": "ब",
           "correct_answer": "तरंगाग्र",
           "explanation": "समान कला में दोलन करने वाले माध्यम के कणों को मिलाने वाला काल्पनिक पृष्ठ तरंगाग्र (Wavefront) कहलाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "27",
-      "subjectName": "तरंग-प्रकाशिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "27",
           "statement": "हाइगेन्स के तरंग सिद्धांत के अनुसार तरंगाग्र का प्रत्येक बिंदु किस रूप में कार्य करता है?",
@@ -597,16 +363,7 @@
           "correct_index": "ब",
           "correct_answer": "द्वितीयक तरंगिकाओं के स्रोत की तरह",
           "explanation": "हाइगेन्स के अनुसार तरंगाग्र का प्रत्येक बिंदु एक नए विक्षोभ का केंद्र बन जाता है जिसे द्वितीयक तरंगिकाओं का स्रोत कहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "28",
-      "subjectName": "तरंग-प्रकाशिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "28",
           "statement": "दो प्रकाश तरंगों के अध्यारोपण से तीव्रता में होने वाले पुनर्वितरण की घटना को क्या कहते हैं?",
@@ -619,16 +376,7 @@
           "correct_index": "ब",
           "correct_answer": "व्यतिकरण",
           "explanation": "समान आवृत्ति की दो कला-संबद्ध तरंगों के अध्यारोपण से प्रकाश ऊर्जा के पुनर्वितरण को व्यतिकरण कहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "29",
-      "subjectName": "तरंग-प्रकाशिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "29",
           "statement": "प्रकाश का किसी तीक्ष्ण बाधा या बारीक छिद्र के किनारों से मुड़ना क्या कहलाता है?",
@@ -641,16 +389,7 @@
           "correct_index": "स",
           "correct_answer": "विवर्तन",
           "explanation": "तरंगदैर्ध्य की कोटि के अवरोध से टकराकर प्रकाश का ज्यामितीय छाया क्षेत्र में मुड़ना विवर्तन कहलाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "30",
-      "subjectName": "तरंग-प्रकाशिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "30",
           "statement": "प्रकाश के कंपन को संचरण दिशा के लंबवत किसी एक निश्चित दिशा में सीमित करने की घटना को क्या कहते हैं?",
@@ -663,16 +402,7 @@
           "correct_index": "अ",
           "correct_answer": "ध्रुवण",
           "explanation": "कंपनों को एक निश्चित तल में प्रतिबंधित करना ध्रुवण (Polarization) कहलाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "31",
-      "subjectName": "विकिरण तथा द्रव्य की द्वैत प्रकृति",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "31",
           "statement": "धातु की सतह पर उपयुक्त आवृत्ति का प्रकाश पड़ने पर इलेक्ट्रॉनों के निष्कासन की घटना क्या कहलाती है?",
@@ -685,16 +415,7 @@
           "correct_index": "ब",
           "correct_answer": "प्रकाश-विद्युत प्रभाव",
           "explanation": "प्रकाश ऊर्जा के अवशोषण द्वारा धातु से इलेक्ट्रॉनों का उत्सर्जित होना प्रकाश-विद्युत प्रभाव कहलाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "32",
-      "subjectName": "विकिरण तथा द्रव्य की द्वैत प्रकृति",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "32",
           "statement": "प्रकाश-इलेक्ट्रॉन उत्सर्जन के लिए आवश्यक न्यूनतम आवृत्ति को क्या कहते हैं?",
@@ -707,16 +428,7 @@
           "correct_index": "ब",
           "correct_answer": "देहली आवृत्ति",
           "explanation": "वह न्यूनतम आवृत्ति जिससे कम आवृत्ति पर कोई इलेक्ट्रॉन उत्सर्जित नहीं हो सकता, देहली आवृत्ति कहलाती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "33",
-      "subjectName": "विकिरण तथा द्रव्य की द्वैत प्रकृति",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "33",
           "statement": "द्रव्य तरंगों के लिए दे-ब्रॉग्ली तरंगदैर्ध्य (λ) का सही सूत्र क्या है?",
@@ -729,16 +441,7 @@
           "correct_index": "ब",
           "correct_answer": "λ = h / p",
           "explanation": "गतिमान कण का तरंगदैर्ध्य λ = h / p = h / (mv) होता है, जहाँ h प्लांक नियतांक है।"
-        }
-      ]
-    },
-    {
-      "question_number": "34",
-      "subjectName": "विकिरण तथा द्रव्य की द्वैत प्रकृति",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "34",
           "statement": "आइंस्टीन का प्रकाश-विद्युत समीकरण किस रूप में लिखा जाता है?",
@@ -751,16 +454,7 @@
           "correct_index": "ब",
           "correct_answer": "hν = ϕ + K_max",
           "explanation": "आपतित फोटॉन की ऊर्जा कार्य फलन तथा उत्सर्जित इलेक्ट्रॉन की अधिकतम गतिज ऊर्जा के योग के बराबर होती है (hν = ϕ + K_max)।"
-        }
-      ]
-    },
-    {
-      "question_number": "35",
-      "subjectName": "विकिरण तथा द्रव्य की द्वैत प्रकृति",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "35",
           "statement": "फोटॉन की ऊर्जा E का सूत्र क्या होता है?",
@@ -773,16 +467,7 @@
           "correct_index": "ब",
           "correct_answer": "E = hν",
           "explanation": "प्लांक के क्वांटम सिद्धांत के अनुसार एक फोटॉन की ऊर्जा E = hν होती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "36",
-      "subjectName": "परमाणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "36",
           "statement": "रदरफोर्ड के अल्फा कण प्रकीर्णन प्रयोग से किसकी खोज हुई थी?",
@@ -795,16 +480,7 @@
           "correct_index": "ब",
           "correct_answer": "परमाणु नाभिक",
           "explanation": "रदरफोर्ड ने सिद्ध किया कि परमाणु का समस्त धनावेश तथा द्रव्यमान केंद्र में एक सूक्ष्म आयतन (नाभिक) में केंद्रित रहता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "37",
-      "subjectName": "परमाणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "37",
           "statement": "बोर के परमाणु मॉडल के अनुसार स्थायी कक्षाओं में इलेक्ट्रॉन क्या नहीं करते?",
@@ -817,16 +493,7 @@
           "correct_index": "ब",
           "correct_answer": "ऊर्जा का विकिरण नहीं करते",
           "explanation": "बोर के अनुसार निश्चित अ-विकिरणीय कक्षाओं में चक्कर लगाते समय इलेक्ट्रॉन ऊर्जा उत्सर्जित नहीं करते।"
-        }
-      ]
-    },
-    {
-      "question_number": "38",
-      "subjectName": "परमाणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "38",
           "statement": "परमाणु के इलेक्ट्रॉन को मूल अवस्था से अनंत दूरी तक ले जाने हेतु आवश्यक न्यूनतम ऊर्जा को क्या कहते हैं?",
@@ -839,16 +506,7 @@
           "correct_index": "ब",
           "correct_answer": "आयनन ऊर्जा",
           "explanation": "इलेक्ट्रॉन को नाभिक के आकर्षण से पूर्णतः मुक्त कर अनंत पर ले जाने के लिए आवश्यक न्यूनतम ऊर्जा आयनन ऊर्जा कहलाती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "39",
-      "subjectName": "परमाणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "39",
           "statement": "हाइड्रोजन परमाणु की दूसरी कक्षा (n = 2) में इलेक्ट्रॉन की कुल ऊर्जा कितनी होगी?",
@@ -861,16 +519,7 @@
           "correct_index": "ब",
           "correct_answer": "-3.4 eV",
           "explanation": "सूत्र E_n = -13.6 / n² eV में n = 2 रखने पर E₂ = -13.6 / 4 = -3.4 eV प्राप्त होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "40",
-      "subjectName": "नाभिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "40",
           "statement": "परमाणु के नाभिक में कौन-से मूल कण उपस्थित होते हैं?",
@@ -883,16 +532,7 @@
           "correct_index": "ब",
           "correct_answer": "प्रोटॉन और न्यूट्रॉन",
           "explanation": "परमाणु का नाभिक प्रोटॉन तथा न्यूट्रॉन से मिलकर बनता है, जिन्हें सम्मिलित रूप से न्यूक्लिऑन कहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "41",
-      "subjectName": "नाभिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "41",
           "statement": "किसी नाभिक को उसके घटक न्यूक्लिऑनों में अलग करने हेतु आवश्यक न्यूनतम ऊर्जा को क्या कहते हैं?",
@@ -905,16 +545,7 @@
           "correct_index": "ब",
           "correct_answer": "बंधन ऊर्जा",
           "explanation": "नाभिक को सभी प्रोटॉनों व न्यूट्रॉनों में अलग-अलग विखंडित करने के लिए आवश्यक न्यूनतम ऊर्जा बंधन ऊर्जा कहलाती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "42",
-      "subjectName": "नाभिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "42",
           "statement": "रेडियोधर्मी नाभिकों के स्वतः क्षय होने की प्रक्रिया में कौन-से विकिरण उत्सर्जित हो सकते हैं?",
@@ -927,16 +558,7 @@
           "correct_index": "स",
           "correct_answer": "अल्फा, बीटा या गामा",
           "explanation": "अस्थिर नाभिक अपने स्थायित्व को प्राप्त करने के लिए स्वतः अल्फा, बीटा या गामा विकिरण उत्सर्जित करते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "43",
-      "subjectName": "नाभिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "43",
           "statement": "एक अर्धायु काल के पश्चात अविघटित रेडियोधर्मी नाभिकों की संख्या शेष रह जाती है:",
@@ -949,16 +571,7 @@
           "correct_index": "ब",
           "correct_answer": "N₀ / 2",
           "explanation": "अर्धायु काल वह समयांतराल है जिसमें प्रारंभिक सक्रिय नाभिकों की संख्या घटकर ठीक आधी (N₀ / 2) रह जाती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "44",
-      "subjectName": "नाभिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "44",
           "statement": "दो अर्धायु काल के पश्चात किसी रेडियोधर्मी पदार्थ की शेष बची मात्रा कितनी होगी?",
@@ -971,16 +584,7 @@
           "correct_index": "ब",
           "correct_answer": "N₀ / 4",
           "explanation": "n अर्धायु के बाद शेष नाभिक N = N₀ (1/2)ⁿ होते हैं; n = 2 रखने पर N = N₀ / 4 प्राप्त होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "45",
-      "subjectName": "अर्धचालक इलेक्ट्रॉनिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "45",
           "statement": "अर्धचालक पदार्थों की चालकता किनके मध्य होती है?",
@@ -993,16 +597,7 @@
           "correct_index": "ब",
           "correct_answer": "चालक और कुचालक के बीच",
           "explanation": "अर्धचालकों की विद्युत चालकता सुचालकों से कम तथा अचालकों (कुचालकों) से अधिक होती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "46",
-      "subjectName": "अर्धचालक इलेक्ट्रॉनिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "46",
           "statement": "बिना किसी बाह्य अशुद्धि वाला शुद्ध अर्धचालक क्या कहलाता है?",
@@ -1015,16 +610,7 @@
           "correct_index": "ब",
           "correct_answer": "नैज (शुद्ध) अर्धचालक",
           "explanation": "प्राकृतिक रूप से शुद्ध सिलिकॉन या जर्मेनियम जिसमें कोई डोपिंग न की गई हो, शुद्ध (नैज) अर्धचालक कहलाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "47",
-      "subjectName": "अर्धचालक इलेक्ट्रॉनिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "47",
           "statement": "P-प्रकार के अर्धचालक में बहुसंख्यक आवेश वाहक कौन होते हैं?",
@@ -1037,16 +623,7 @@
           "correct_index": "ब",
           "correct_answer": "होल (कोटर)",
           "explanation": "त्रिसंयोजी अशुद्धि मिलाने पर इलेक्ट्रॉनों की कमी के कारण होल उत्पन्न होते हैं, जो P-प्रकार में मुख्य वाहक होते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "48",
-      "subjectName": "अर्धचालक इलेक्ट्रॉनिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "48",
           "statement": "N-प्रकार के अर्धचालक में बहुसंख्यक आवेश वाहक कौन होते हैं?",
@@ -1059,16 +636,7 @@
           "correct_index": "ब",
           "correct_answer": "इलेक्ट्रॉन",
           "explanation": "पंचसंयोजी अशुद्धि (जैसे फास्फोरस या आर्सेनिक) मिलाने पर मुक्त इलेक्ट्रॉन अधिक संख्या में प्राप्त होते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "49",
-      "subjectName": "अर्धचालक इलेक्ट्रॉनिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "49",
           "statement": "प्रत्यावर्ती धारा (AC) को दिष्ट धारा (DC) में परिवर्तित करने के लिए किस युक्ति का उपयोग किया जाता है?",
@@ -1081,16 +649,7 @@
           "correct_index": "ब",
           "correct_answer": "P-N संधि डायोड (दिष्टकारी)",
           "explanation": "P-N संधि डायोड केवल अग्र अभिनति में धारा प्रवाहित होने देता है, इसलिए इसका उपयोग दिष्टकारी के रूप में AC को DC में बदलने के लिए होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "50",
-      "subjectName": "अर्धचालक इलेक्ट्रॉनिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
           "q_id": "50",
           "statement": "N-प्रकार अर्धचालक बनाने के लिए सिलिकॉन में किस संयोजकता वाली अशुद्धि मिलाई जाती है?",

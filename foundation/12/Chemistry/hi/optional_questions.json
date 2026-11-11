@@ -7,14 +7,14 @@
   },
   "questions": [
     {
-      "question_number": "1",
-      "subjectName": "विलयन",
+      "question_number": "",
+      "subjectName": "रसायन विज्ञान (सम्पूर्ण पाठ्यक्रम - Quick Test)",
       "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
+      "marks": "1*50=50",
       "text": "सही विकल्प का चयन कर लिखिए :",
       "parts": [
         {
-          "q_id": "",
+          "q_id": "1",
           "statement": "निम्नलिखित में से कौन-सी सांद्रता इकाई ताप परिवर्तन से प्रभावित नहीं होती है?",
           "options": [
             { "index": "अ", "text": "मोलरता" },
@@ -25,18 +25,9 @@
           "correct_index": "ब",
           "correct_answer": "मोललता",
           "explanation": "मोललता विलायक के द्रव्यमान (किग्रा) पर आधारित होती है, और द्रव्यमान ताप के साथ परिवर्तित नहीं होता।"
-        }
-      ]
-    },
-    {
-      "question_number": "2",
-      "subjectName": "विलयन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "2",
           "statement": "सोडा वाटर की बोतल खोलने पर CO₂ गैस के बुलबुले निकलने का कारण किस नियम से संबंधित है?",
           "options": [
             { "index": "अ", "text": "राउल्ट का नियम" },
@@ -47,18 +38,9 @@
           "correct_index": "ब",
           "correct_answer": "हेनरी का नियम",
           "explanation": "हेनरी के नियमानुसार दाब घटने पर द्रव में गैस की विलेयता घट जाती है, जिससे CO₂ बाहर निकलती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "3",
-      "subjectName": "विलयन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "3",
           "statement": "एक आदर्श विलयन के निर्माण के लिए कौन-सा प्रक्रम शून्य होता है?",
           "options": [
             { "index": "अ", "text": "ΔH_mix = 0 तथा ΔV_mix = 0" },
@@ -69,18 +51,9 @@
           "correct_index": "अ",
           "correct_answer": "ΔH_mix = 0 तथा ΔV_mix = 0",
           "explanation": "आदर्श विलयन बनने पर न तो ऊष्मा उत्सर्जित/अवशोषित होती है (ΔH = 0) और न ही आयतन में परिवर्तन होता है (ΔV = 0)।"
-        }
-      ]
-    },
-    {
-      "question_number": "4",
-      "subjectName": "विलयन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "4",
           "statement": "निम्नलिखित में से कौन-सा अणुसंख्य गुणधर्म (Colligative Property) नहीं है?",
           "options": [
             { "index": "अ", "text": "वाष्प दाब का आपेक्षिक अवनमन" },
@@ -91,18 +64,9 @@
           "correct_index": "स",
           "correct_answer": "पृष्ठ तनाव",
           "explanation": "पृष्ठ तनाव विलायक का आंतरिक भौतिक गुण है, यह विलेय कणों की संख्या पर निर्भर करने वाला अणुसंख्य गुण नहीं है।"
-        }
-      ]
-    },
-    {
-      "question_number": "5",
-      "subjectName": "विलयन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "5",
           "statement": "शुद्ध जल की मोलरता कितनी होती है?",
           "options": [
             { "index": "अ", "text": "18 M" },
@@ -113,18 +77,9 @@
           "correct_index": "ब",
           "correct_answer": "55.55 M",
           "explanation": "1000 ग्राम जल में मोल = 1000 / 18 = 55.55 मोल प्रति लीटर।"
-        }
-      ]
-    },
-    {
-      "question_number": "6",
-      "subjectName": "विद्युतरसायन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "6",
           "statement": "विशिष्ट चालकता (κ) का SI मात्रक क्या होता है?",
           "options": [
             { "index": "अ", "text": "ओम सेमी" },
@@ -135,18 +90,9 @@
           "correct_index": "ब",
           "correct_answer": "सीमेन्स मीटर⁻¹ (S m⁻¹)",
           "explanation": "विशिष्ट चालकता = 1/प्रतिरोधकता, अतः मात्रक Ω⁻¹·m⁻¹ या S m⁻¹ होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "7",
-      "subjectName": "विद्युतरसायन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "7",
           "statement": "विलयन की तनुता बढ़ाने पर निम्नलिखित में से किसका मान घटता है?",
           "options": [
             { "index": "अ", "text": "मोलर चालकता" },
@@ -157,18 +103,9 @@
           "correct_index": "स",
           "correct_answer": "विशिष्ट चालकता",
           "explanation": "तनुता बढ़ाने पर प्रति एकांक आयतन (1 सेमी³) में उपस्थित आयनों की संख्या घट जाती है, अतः विशिष्ट चालकता घटती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "8",
-      "subjectName": "विद्युतरसायन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "8",
           "statement": "लोहे पर जंग लगने से बचाने के लिए उस पर जस्ते (Zn) की परत चढ़ाना क्या कहलाता है?",
           "options": [
             { "index": "अ", "text": "विद्युत-अपघटन" },
@@ -179,18 +116,9 @@
           "correct_index": "ब",
           "correct_answer": "यशदलेपन (गैल्वनीकरण)",
           "explanation": "जिंक की बलिदानी परत चढ़ाने की प्रक्रिया को गैल्वनाइजेशन या यशदलेपन कहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "9",
-      "subjectName": "विद्युतरसायन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "9",
           "statement": "मानक हाइड्रोजन इलेक्ट्रोड (SHE) का विभव स्वेच्छा से कितना माना गया है?",
           "options": [
             { "index": "अ", "text": "1.00 V" },
@@ -201,18 +129,9 @@
           "correct_index": "ब",
           "correct_answer": "0.00 V",
           "explanation": "मानक हाइड्रोजन इलेक्ट्रोड को संदर्भ मानकर इसका विभव सभी तापों पर 0.00 वोल्ट निर्धारित किया गया है।"
-        }
-      ]
-    },
-    {
-      "question_number": "10",
-      "subjectName": "विद्युतरसायन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "10",
           "statement": "1 फैराडे विद्युत आवेश का मान लगभग कितना होता है?",
           "options": [
             { "index": "अ", "text": "96,500 कूलॉम" },
@@ -223,18 +142,9 @@
           "correct_index": "अ",
           "correct_answer": "96,500 कूलॉम",
           "explanation": "1 मोल इलेक्ट्रॉनों का कुल आवेश F = N_A · e ≈ 96487 C ≈ 96500 C होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "11",
-      "subjectName": "रासायनिक बलगतिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "11",
           "statement": "शून्य कोटि की अभिक्रिया के वेग स्थिरांक (k) की इकाई क्या होती है?",
           "options": [
             { "index": "अ", "text": "सेकंड⁻¹" },
@@ -245,18 +155,9 @@
           "correct_index": "ब",
           "correct_answer": "मोल लीटर⁻¹ सेकंड⁻¹",
           "explanation": "दर = k[A]⁰ = k; अतः k की इकाई वही होती है जो अभिक्रिया वेग की होती है (mol L⁻¹ s⁻¹)।"
-        }
-      ]
-    },
-    {
-      "question_number": "12",
-      "subjectName": "रासायनिक बलगतिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "12",
           "statement": "प्रथम कोटि की अभिक्रिया का अर्धायु काल (t_1/2) किस पर निर्भर करता है?",
           "options": [
             { "index": "अ", "text": "प्रारंभिक सांद्रता पर" },
@@ -267,18 +168,9 @@
           "correct_index": "ब",
           "correct_answer": "केवल वेग स्थिरांक k पर",
           "explanation": "सूत्र t_1/2 = 0.693 / k होता है, जो प्रारंभिक सांद्रता से पूर्णतः स्वतंत्र है।"
-        }
-      ]
-    },
-    {
-      "question_number": "13",
-      "subjectName": "रासायनिक बलगतिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "13",
           "statement": "किसी रासायनिक अभिक्रिया में उत्प्रेरक का मुख्य कार्य क्या होता है?",
           "options": [
             { "index": "अ", "text": "सक्रियण ऊर्जा (Ea) को कम करना" },
@@ -289,18 +181,9 @@
           "correct_index": "अ",
           "correct_answer": "सक्रियण ऊर्जा (Ea) को कम करना",
           "explanation": "उत्प्रेरक कम सक्रियण ऊर्जा वाला एक वैकल्पिक पथ प्रदान करके अभिक्रिया के वेग को तीव्र कर देता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "14",
-      "subjectName": "रासायनिक बलगतिकी",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "14",
           "statement": "आर्हीनियस समीकरण का सही स्वरूप क्या है?",
           "options": [
             { "index": "अ", "text": "k = A e^(-Ea / RT)" },
@@ -311,18 +194,9 @@
           "correct_index": "अ",
           "correct_answer": "k = A e^(-Ea / RT)",
           "explanation": "आर्हीनियस समीकरण ताप एवं वेग स्थिरांक के बीच संबंध k = A e^(-Ea/RT) व्यक्त करता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "15",
-      "subjectName": "d- एवं f- ब्लॉक के तत्व",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "15",
           "statement": "निम्नलिखित में से कौन-सा आयन जलीय विलयन में रंगहीन होता है?",
           "options": [
             { "index": "अ", "text": "Cu²⁺" },
@@ -333,18 +207,9 @@
           "correct_index": "स",
           "correct_answer": "Sc³⁺",
           "explanation": "Sc³⁺ का इलेक्ट्रॉनिक विन्यास 3d⁰ होता है। अयुग्मित d-इलेक्ट्रॉन न होने के कारण d-d संक्रमण संभव नहीं है, अतः यह रंगहीन है।"
-        }
-      ]
-    },
-    {
-      "question_number": "16",
-      "subjectName": "d- एवं f- ब्लॉक के तत्व",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "16",
           "statement": "संक्रमण तत्वों में 3d श्रेणी में उच्चतम ऑक्सीकरण अवस्था (+7) कौन प्रदर्शित करता है?",
           "options": [
             { "index": "अ", "text": "Cr" },
@@ -355,18 +220,9 @@
           "correct_index": "ब",
           "correct_answer": "Mn",
           "explanation": "मैंगनीज (Mn: 3d⁵ 4s²) अपने सभी 7 संयोजी इलेक्ट्रॉनों का उपयोग करके KMnO₄ में +7 ऑक्सीकरण अवस्था दर्शाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "17",
-      "subjectName": "d- एवं f- ब्लॉक के तत्व",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "17",
           "statement": "Zr और Hf की परमाण्विक त्रिज्या लगभग समान होने का मुख्य कारण क्या है?",
           "options": [
             { "index": "अ", "text": "समान वर्ग में होना" },
@@ -377,18 +233,9 @@
           "correct_index": "ब",
           "correct_answer": "लैन्थेनॉइड संकुचन",
           "explanation": "Hf से पहले 14 लैन्थेनॉइड तत्वों के आने से 4f इलेक्ट्रॉनों के दुर्बल परिरक्षण के कारण त्रिज्या घट जाती है और वह Zr के बराबर हो जाती है।"
-        }
-      ]
-    },
-    {
-      "question_number": "18",
-      "subjectName": "d- एवं f- ब्लॉक के तत्व",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "18",
           "statement": "संक्रमण धातुएं तथा उनके यौगिक अच्छे उत्प्रेरक होते हैं, क्योंकि:",
           "options": [
             { "index": "अ", "text": "वे परिवर्ती ऑक्सीकरण अवस्थाएं एवं रिक्त d-कक्षक रखते हैं" },
@@ -399,18 +246,9 @@
           "correct_index": "अ",
           "correct_answer": "वे परिवर्ती ऑक्सीकरण अवस्थाएं एवं रिक्त d-कक्षक रखते हैं",
           "explanation": "परिवर्ती ऑक्सीकरण अवस्था प्रदर्शित करने तथा रिक्त d-कक्षकों की उपस्थिति के कारण वे मध्यवर्ती संकुल बनाकर उत्प्रेरक का कार्य करते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "19",
-      "subjectName": "उपसहसंयोजन यौगिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "19",
           "statement": "EDTA⁴⁻ (एथिलीनडाईऐमीनटेट्राऐसीटेट आयन) किस प्रकार का लिगैंड है?",
           "options": [
             { "index": "अ", "text": "एकदंतुर" },
@@ -421,18 +259,9 @@
           "correct_index": "स",
           "correct_answer": "षट्दंतुर (Hexadentate)",
           "explanation": "EDTA में 2 नाइट्रोजन तथा 4 ऑक्सीजन परमाणु दाता के रूप में कार्य करते हैं, अतः यह षट्दंतुर लिगैंड है।"
-        }
-      ]
-    },
-    {
-      "question_number": "20",
-      "subjectName": "उपसहसंयोजन यौगिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "20",
           "statement": "[Ni(CO)₄] में निकेल की ऑक्सीकरण संख्या कितनी है?",
           "options": [
             { "index": "अ", "text": "+2" },
@@ -443,18 +272,9 @@
           "correct_index": "स",
           "correct_answer": "0",
           "explanation": "कार्बन मोनोऑक्साइड (CO) एक उदासीन लिगैंड है (आवेश = 0), अतः Ni की ऑक्सीकरण अवस्था शून्य (0) है।"
-        }
-      ]
-    },
-    {
-      "question_number": "21",
-      "subjectName": "उपसहसंयोजन यौगिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "21",
           "statement": "[Co(NH₃)₅(SO₄)]Br और [Co(NH₃)₅Br]SO₄ आपस में कौन-सी समावयवता प्रदर्शित करते हैं?",
           "options": [
             { "index": "अ", "text": "बंधन समावयवता" },
@@ -465,18 +285,9 @@
           "correct_index": "ब",
           "correct_answer": "आयनन समावयवता",
           "explanation": "जलीय विलयन में पहला संकुल Br⁻ आयन देता है जबकि दूसरा SO₄²⁻ आयन देता है, अतः यह आयनन समावयवता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "22",
-      "subjectName": "उपसहसंयोजन यौगिक",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "22",
           "statement": "क्रिस्टल क्षेत्र विपाटन में प्रबल क्षेत्र लिगैंड की उपस्थिति में अष्टफलकीय संकुल कैसा चक्रण संकुल बनाते हैं?",
           "options": [
             { "index": "अ", "text": "उच्च चक्रण (High spin)" },
@@ -487,18 +298,9 @@
           "correct_index": "ब",
           "correct_answer": "निम्न चक्रण (Low spin)",
           "explanation": "प्रबल क्षेत्र लिगैंड (जैसे CN⁻, CO) इलेक्ट्रॉनों का युग्मन करा देते हैं, जिससे निम्न चक्रण संकुल बनते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "23",
-      "subjectName": "हैलोऐल्केन तथा हैलोऐरीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "23",
           "statement": "SN1 अभिक्रिया में अभिक्रिया का वेग किस पर निर्भर करता है?",
           "options": [
             { "index": "अ", "text": "केवल क्रियाधार (Substrate) की सांद्रता पर" },
@@ -509,18 +311,9 @@
           "correct_index": "अ",
           "correct_answer": "केवल क्रियाधार (Substrate) की सांद्रता पर",
           "explanation": "SN1 एक अणुक अभिक्रिया है, इसका वेग केवल ऐल्किल हैलाइड की सांद्रता पर निर्भर करता है: वेग = k[R-X]।"
-        }
-      ]
-    },
-    {
-      "question_number": "24",
-      "subjectName": "हैलोऐल्केन तथा हैलोऐरीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "24",
           "statement": "SN2 क्रियाविधि के प्रति सर्वाधिक क्रियाशील ऐल्किल हैलाइड कौन-सा है?",
           "options": [
             { "index": "अ", "text": "3° ऐल्किल हैलाइड" },
@@ -531,18 +324,9 @@
           "correct_index": "स",
           "correct_answer": "CH₃-X (मेथिल हैलाइड)",
           "explanation": "त्रिविम बाधा (Steric hindrance) न्यूनतम होने के कारण मेथिल हैलाइड और 1° हैलाइड SN2 के प्रति सर्वाधिक क्रियाशील होते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "25",
-      "subjectName": "हैलोऐल्केन तथा हैलोऐरीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "25",
           "statement": "क्लोरोफॉर्म को प्रकाश तथा वायु की उपस्थिति में खुला छोड़ने पर कौन-सी विषैली गैस बनती है?",
           "options": [
             { "index": "अ", "text": "मस्टर्ड गैस" },
@@ -553,18 +337,9 @@
           "correct_index": "ब",
           "correct_answer": "फॉस्जीन (COCl₂)",
           "explanation": "CHCl₃ + 1/2 O₂ -(प्रकाश)→ COCl₂ (कार्बोनिल क्लोराइड/फॉस्जीन) + HCl।"
-        }
-      ]
-    },
-    {
-      "question_number": "26",
-      "subjectName": "हैलोऐल्केन तथा हैलोऐरीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "26",
           "statement": "शुष्क ईथर की उपस्थिति में क्लोरोबेंजीन की क्रिया सोडियम से कराने पर डाईफेनिल बनने की अभिक्रिया क्या कहलाती है?",
           "options": [
             { "index": "अ", "text": "वुड्ज़ अभिक्रिया" },
@@ -575,18 +350,9 @@
           "correct_index": "ब",
           "correct_answer": "फिटिग अभिक्रिया",
           "explanation": "दो मोल ऐरिल हैलाइड की सोडियम से क्रिया फिटिग अभिक्रिया कहलाती है: 2C₆H₅Cl + 2Na → C₆H₅-C₆H₅ + 2NaCl।"
-        }
-      ]
-    },
-    {
-      "question_number": "27",
-      "subjectName": "हैलोऐल्केन तथा हैलोऐरीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "27",
           "statement": "ऐल्किल हैलाइड की क्रिया शुष्क Ag₂O से कराने पर मुख्य उत्पाद क्या प्राप्त होता है?",
           "options": [
             { "index": "अ", "text": "ऐल्कोहॉल" },
@@ -597,18 +363,9 @@
           "correct_index": "ब",
           "correct_answer": "ईथर",
           "explanation": "2R-X + Ag₂O (शुष्क) → R-O-R + 2AgX (ईथर प्राप्त होता है; आर्द्र Ag₂O से ऐल्कोहॉल बनता है)।"
-        }
-      ]
-    },
-    {
-      "question_number": "28",
-      "subjectName": "ऐल्कोहॉल, फीनॉल एवं ईथर",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "28",
           "statement": "ल्यूकास अभिकर्मक किसका मिश्रण होता है?",
           "options": [
             { "index": "अ", "text": "सांद्र HCl + निर्जल ZnCl₂" },
@@ -619,18 +376,9 @@
           "correct_index": "अ",
           "correct_answer": "सांद्र HCl + निर्जल ZnCl₂",
           "explanation": "सांद्र हाइड्रोक्लोरिक अम्ल और निर्जल जिंक क्लोराइड के सममोलर मिश्रण को ल्यूकास अभिकर्मक कहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "29",
-      "subjectName": "ऐल्कोहॉल, फीनॉल एवं ईथर",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "29",
           "statement": "ल्यूकास अभिकर्मक के साथ कमरे के ताप पर तुरंत धुंधलापन देने वाला ऐल्कोहॉल कौन-सा है?",
           "options": [
             { "index": "अ", "text": "1° ऐल्कोहॉल" },
@@ -641,18 +389,9 @@
           "correct_index": "स",
           "correct_answer": "3° ऐल्कोहॉल",
           "explanation": "तृतीयक कार्बधनायन सर्वाधिक स्थायी होने के कारण 3° ऐल्कोहॉल तुरंत अविलेय क्लोराइड का धुंधलापन देता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "30",
-      "subjectName": "ऐल्कोहॉल, फीनॉल एवं ईथर",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "30",
           "statement": "विक्टर मेयर परीक्षण में प्राथमिक (1°) ऐल्कोहॉल कौन-सा रंग देता है?",
           "options": [
             { "index": "अ", "text": "लाल" },
@@ -663,18 +402,9 @@
           "correct_index": "अ",
           "correct_answer": "लाल",
           "explanation": "R-B-C नियम: प्राथमिक ऐल्कोहॉल नाइट्रोलिक अम्ल बनने के कारण क्षार में लाल (Red) रंग देता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "31",
-      "subjectName": "ऐल्कोहॉल, फीनॉल एवं ईथर",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "31",
           "statement": "फीनॉल को जिंक (Zn) चूर्ण के साथ आसवित करने पर क्या प्राप्त होता है?",
           "options": [
             { "index": "अ", "text": "टॉलूईन" },
@@ -685,18 +415,9 @@
           "correct_index": "ब",
           "correct_answer": "बेंजीन",
           "explanation": "C₆H₅OH + Zn -(गर्म)→ C₆H₆ (बेंजीन) + ZnO।"
-        }
-      ]
-    },
-    {
-      "question_number": "32",
-      "subjectName": "ऐल्कोहॉल, फीनॉल एवं ईथर",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "32",
           "statement": "फीनॉल की क्रिया ब्रोमीन जल (Br₂/H₂O) से कराने पर किस रंग का अवक्षेप प्राप्त होता है?",
           "options": [
             { "index": "अ", "text": "सफेद अवक्षेप (2,4,6-ट्राइब्रोमोफीनॉल)" },
@@ -707,18 +428,9 @@
           "correct_index": "अ",
           "correct_answer": "सफेद अवक्षेप (2,4,6-ट्राइब्रोमोफीनॉल)",
           "explanation": "जलीय माध्यम में -OH समूह अत्यधिक सक्रियकारी हो जाता है और 2,4,6-ट्राइब्रोमोफीनॉल का सफेद अवक्षेप बनता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "33",
-      "subjectName": "ऐल्कोहॉल, फीनॉल एवं ईथर",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "33",
           "statement": "पिक्रिक अम्ल का रासायनिक नाम क्या है?",
           "options": [
             { "index": "अ", "text": "2,4,6-ट्राइनाइट्रोफीनॉल" },
@@ -729,18 +441,9 @@
           "correct_index": "अ",
           "correct_answer": "2,4,6-ट्राइनाइट्रोफीनॉल",
           "explanation": "फीनॉल को सांद्र HNO₃ और सांद्र H₂SO₄ के साथ गर्म करने पर 2,4,6-ट्राइनाइट्रोफीनॉल (पिक्रिक अम्ल) बनता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "34",
-      "subjectName": "ऐल्कोहॉल, फीनॉल एवं ईथर",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "34",
           "statement": "विलियमसन संश्लेषण द्वारा तृतीयक ब्यूटिल एथिल ईथर बनाने के लिए कौन-से अभिकर्मक सर्वोत्तम हैं?",
           "options": [
             { "index": "अ", "text": "तृतीयक ब्यूटिल क्लोराइड + सोडियम एथॉक्साइड" },
@@ -751,18 +454,9 @@
           "correct_index": "ब",
           "correct_answer": "सोडियम तृतीयक-ब्यूटॉक्साइड + एथिल ब्रोमाइड",
           "explanation": "3° हैलाइड लेने पर विलोपन अभिक्रिया मुख्य हो जाती है, अतः 1° हैलाइड (C₂H₅Br) और 3° ऐल्कॉक्साइड लिया जाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "35",
-      "subjectName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "35",
           "statement": "टॉलेन अभिकर्मक (Tollens' Reagent) क्या होता है?",
           "options": [
             { "index": "अ", "text": "अमोनियामय सिल्वर नाइट्रेट विलयन" },
@@ -773,18 +467,9 @@
           "correct_index": "अ",
           "correct_answer": "अमोनियामय सिल्वर नाइट्रेट विलयन",
           "explanation": "[Ag(NH₃)₂]⁺ OH⁻ को टॉलेन अभिकर्मक कहते हैं, जो ऐल्डिहाइड के साथ रजत दर्पण (Silver Mirror) देता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "36",
-      "subjectName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "36",
           "statement": "फेलिंग विलयन को अपचयित करके लाल अवक्षेप (Cu₂O) देने वाला समूह कौन-सा है?",
           "options": [
             { "index": "अ", "text": "ऐरोमैटिक ऐल्डिहाइड" },
@@ -795,18 +480,9 @@
           "correct_index": "ब",
           "correct_answer": "ऐलिफैटिक ऐल्डिहाइड",
           "explanation": "ऐलिफैटिक ऐल्डिहाइड फेलिंग विलयन को अपचयित कर Cu₂O का लाल अवक्षेप देते हैं, जबकि कीटोन और बेंजैल्डिहाइड यह परीक्षण नहीं देते।"
-        }
-      ]
-    },
-    {
-      "question_number": "37",
-      "subjectName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "37",
           "statement": "निम्नलिखित में से कौन-सा यौगिक आयोडोफॉर्म परीक्षण (I₂ + NaOH के साथ पीला अवक्षेप) नहीं देता?",
           "options": [
             { "index": "अ", "text": "ऐसीटोन (CH₃COCH₃)" },
@@ -817,18 +493,9 @@
           "correct_index": "द",
           "correct_answer": "मेथेनॉल (CH₃OH)",
           "explanation": "आयोडोफॉर्म परीक्षण के लिए यौगिक में CH₃-CO- या CH₃-CH(OH)- समूह होना अनिवार्य है, जो मेथेनॉल में नहीं होता।"
-        }
-      ]
-    },
-    {
-      "question_number": "38",
-      "subjectName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "38",
           "statement": "रोज़ेनमुंड अपचयन में ऐसिड क्लोराइड से ऐल्डिहाइड बनाने के लिए कौन-सा उत्प्रेरक प्रयुक्त होता है?",
           "options": [
             { "index": "अ", "text": "Pd / BaSO₄ (जहरीला किया गया सल्फर या क्विनोलीन द्वारा)" },
@@ -839,18 +506,9 @@
           "correct_index": "अ",
           "correct_answer": "Pd / BaSO₄ (जहरीला किया गया सल्फर या क्विनोलीन द्वारा)",
           "explanation": "R-COCl + H₂ -(Pd/BaSO₄)→ R-CHO + HCl (BaSO₄ उत्प्रेरक विष की तरह कार्य कर ऐल्डिहाइड को ऐल्कोहॉल में अपचयित होने से रोकता है)।"
-        }
-      ]
-    },
-    {
-      "question_number": "39",
-      "subjectName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "39",
           "statement": "कार्बोनिल समूह (>C=O) को सीधे मेथिलीन समूह (>CH₂) में बदलने वाली क्लीमेन्सन अपचयन अभिक्रिया में प्रयुक्त अभिकर्मक है:",
           "options": [
             { "index": "अ", "text": "Zn-Hg तथा सांद्र HCl" },
@@ -861,18 +519,9 @@
           "correct_index": "अ",
           "correct_answer": "Zn-Hg तथा सांद्र HCl",
           "explanation": "जिंक अमलगम और सांद्र हाइड्रोक्लोरिक अम्ल द्वारा कार्बोनिल यौगिकों का हाइड्रोकार्बन में अपचयन क्लीमेन्सन अपचयन कहलाता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "40",
-      "subjectName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "40",
           "statement": "फॉर्मेलिन किसका 40% जलीय विलयन होता है?",
           "options": [
             { "index": "अ", "text": "फॉर्मिक अम्ल" },
@@ -883,18 +532,9 @@
           "correct_index": "ब",
           "correct_answer": "फॉर्मैल्डिहाइड (HCHO)",
           "explanation": "फॉर्मैल्डिहाइड के लगभग 40% जलीय विलयन को फॉर्मेलिन कहते हैं, जो जैविक नमूनों के परिरक्षण में प्रयुक्त होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "41",
-      "subjectName": "ऐल्डिहाइड, कीटोन एवं कार्बोक्सिलिक अम्ल",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "41",
           "statement": "निम्नलिखित में से सबसे प्रबल अम्ल कौन-सा है?",
           "options": [
             { "index": "अ", "text": "CH₃COOH" },
@@ -905,18 +545,9 @@
           "correct_index": "द",
           "correct_answer": "CCl₃COOH (ट्राइक्लोरोऐसीटिक अम्ल)",
           "explanation": "तीन क्लोरीन परमाणुओं के प्रबल ऋणात्मक प्रेरणिक प्रभाव (-I प्रभाव) के कारण CCl₃COOH सबसे प्रबल अम्ल है।"
-        }
-      ]
-    },
-    {
-      "question_number": "42",
-      "subjectName": "ऐमीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "42",
           "statement": "हॉफमैन ब्रोमामाइड निम्नीकरण अभिक्रिया में ऐमाइड से क्या प्राप्त होता है?",
           "options": [
             { "index": "अ", "text": "एक अधिक कार्बन वाली 1° ऐमीन" },
@@ -927,18 +558,9 @@
           "correct_index": "ब",
           "correct_answer": "एक कम कार्बन वाली प्राथमिक (1°) ऐमीन",
           "explanation": "R-CONH₂ + Br₂ + 4KOH → R-NH₂ + K₂CO₃ + 2KBr + 2H₂O (श्रृंखला में एक कार्बन कम हो जाता है)।"
-        }
-      ]
-    },
-    {
-      "question_number": "43",
-      "subjectName": "ऐमीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "43",
           "statement": "कार्बिलऐमीन परीक्षण द्वारा केवल किसकी पहचान की जाती है?",
           "options": [
             { "index": "अ", "text": "केवल प्राथमिक (1°) ऐमीन" },
@@ -949,18 +571,9 @@
           "correct_index": "अ",
           "correct_answer": "केवल प्राथमिक (1°) ऐमीन",
           "explanation": "1° ऐमीन को CHCl₃ और एल्कोहॉली KOH के साथ गर्म करने पर अत्यधिक दुर्गंधयुक्त आइसोसायनाइड (कार्बिलऐमीन) बनता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "44",
-      "subjectName": "ऐमीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "44",
           "statement": "हिंसबर्ग अभिकर्मक (Hinsberg Reagent) का रासायनिक नाम क्या है?",
           "options": [
             { "index": "अ", "text": "बेंजीन सल्फोनिल क्लोराइड" },
@@ -971,18 +584,9 @@
           "correct_index": "अ",
           "correct_answer": "बेंजीन सल्फोनिल क्लोराइड",
           "explanation": "C₆H₅SO₂Cl को हिंसबर्ग अभिकर्मक कहते हैं, जो 1°, 2° तथा 3° ऐमीन में विभेद करने के काम आता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "45",
-      "subjectName": "ऐमीन",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "45",
           "statement": "जलीय माध्यम में मेथिल प्रतिस्थापित ऐमीनों की क्षारीय प्रबलता का सही क्रम क्या है?",
           "options": [
             { "index": "अ", "text": "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃" },
@@ -993,18 +597,9 @@
           "correct_index": "अ",
           "correct_answer": "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃",
           "explanation": "प्रेरणिक प्रभाव, जलयोजन ऊर्जा और त्रिविम बाधा के संयुक्त प्रभाव से मेथिल समूह के लिए क्रम 2° > 1° > 3° > NH₃ होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "46",
-      "subjectName": "जैव-अणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "46",
           "statement": "प्रोटीनों के जल-अपघटन से प्राप्त होने वाली अंतिम मूल इकाइयां क्या कहलाती हैं?",
           "options": [
             { "index": "अ", "text": "ग्लूकोज" },
@@ -1015,18 +610,9 @@
           "correct_index": "ब",
           "correct_answer": "α-अमीनो अम्ल",
           "explanation": "प्रोटीन α-अमीनो अम्लों के बहुलक होते हैं, जो पेप्टाइड बंध (-CO-NH-) द्वारा जुड़े रहते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "47",
-      "subjectName": "जैव-अणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "47",
           "statement": "निम्नलिखित में से कौन-सा क्षारक DNA में नहीं पाया जाता, बल्कि RNA में पाया जाता है?",
           "options": [
             { "index": "अ", "text": "ऐडिनीन" },
@@ -1037,18 +623,9 @@
           "correct_index": "स",
           "correct_answer": "यूरेसिल",
           "explanation": "DNA में थायमीन (T) पाया जाता है, जबकि RNA में थायमीन के स्थान पर यूरेसिल (U) उपस्थित होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "48",
-      "subjectName": "जैव-अणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "48",
           "statement": "विटामिन C का रासायनिक नाम क्या है?",
           "options": [
             { "index": "अ", "text": "साइट्रिक अम्ल" },
@@ -1059,18 +636,9 @@
           "correct_index": "ब",
           "correct_answer": "ऐस्कॉर्बिक अम्ल",
           "explanation": "विटामिन C को ऐस्कॉर्बिक अम्ल कहते हैं; इसकी कमी से स्कर्वी रोग होता है।"
-        }
-      ]
-    },
-    {
-      "question_number": "49",
-      "subjectName": "जैव-अणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "49",
           "statement": "जल में विलेय विटामिनों का सही युग्म कौन-सा है?",
           "options": [
             { "index": "अ", "text": "विटामिन A और D" },
@@ -1081,18 +649,9 @@
           "correct_index": "ब",
           "correct_answer": "विटामिन B और C",
           "explanation": "विटामिन B एवं C जल में विलेय होते हैं, जबकि विटामिन A, D, E, K वसा में विलेय होते हैं।"
-        }
-      ]
-    },
-    {
-      "question_number": "50",
-      "subjectName": "जैव-अणु",
-      "question_type": "MULTIPLE_CHOICE",
-      "marks": "1",
-      "text": "",
-      "parts": [
+        },
         {
-          "q_id": "",
+          "q_id": "50",
           "statement": "ग्लूकोज में कितने किरल (असममित) कार्बन परमाणु उपस्थित होते हैं?",
           "options": [
             { "index": "अ", "text": "2" },
