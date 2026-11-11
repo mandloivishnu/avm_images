@@ -14,6 +14,7 @@
       "definitionBean": {
         "title": "अनिश्चित एवं निश्चित समाकलन (Quick Revision)",
         "definition": "समाकलन अवकलन की प्रतिलोम (व्युत्क्रम) संक्रिया है, जिसे 'प्रति-अवकलज' (Antiderivative) भी कहा जाता है।",
+        "explanation": "समाकलन की तीन प्रमुख विधियाँ हैं: प्रतिस्थापन विधि, आंशिक भिन्न विधि तथा खंडशः समाकलन (ILATE नियम)। निश्चित समाकलन में सीमाओं का उपयोग होता है तथा निश्चित समाकलन के गुणधर्म (विशेषकर किंग प्रॉपर्टी) अत्यंत उपयोगी हैं।",
         "importantPoints": [
           "मूल सूत्र: ∫ xⁿ dx = xⁿ⁺¹ / (n + 1) + C (जहाँ n ≠ -1)",
           "∫ (1/x) dx = log|x| + C, ∫ eˣ dx = eˣ + C",
@@ -39,13 +40,14 @@
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "30",
-      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "text": "",
       "parts": [
         {
           "q_id": "a",
           "statement": "मान ज्ञात कीजिए: ∫ (2x / (1 + x²)) dx।",
-          "correct_answer": "माना 1 + x² = t ⇒ 2x dx = dt\n\n∫ (1/t) dt = log|t| + C\n= log|1 + x²| + C",
-          "imgUrl": ""
+          "correct_answer": "चरण 1: प्रतिस्थापन विधि: माना 1 + x² = t।\nचरण 2: x के सापेक्ष अवकलन करने पर: 2x dx = dt।\nचरण 3: मान प्रतिस्थापित करने पर: ∫ (1/t) dt = log|t| + C।\nचरण 4: t का मान रखने पर: = log|1 + x²| + C = log(1 + x²) + C (चूँकि 1 + x² सदैव धनात्मक है)।",
+          "imgUrl": "",
+          "explanation": "∫ (2x / (1 + x²)) dx = log(1 + x²) + C"
         }
       ],
       "or_option": {
@@ -54,8 +56,9 @@
           {
             "q_id": "b",
             "statement": "∫ tan x dx का मान क्या होता है?",
-            "correct_answer": "∫ tan x dx = log|sec x| + C  (अथवा -log|cos x| + C)",
-            "imgUrl": ""
+            "correct_answer": "चरण 1: ∫ tan x dx = ∫ (sin x / cos x) dx।\nचरण 2: माना cos x = t ⇒ -sin x dx = dt ⇒ sin x dx = -dt।\nचरण 3: = ∫ (-1/t) dt = -log|t| + C = -log|cos x| + C = log|1/cos x| + C = log|sec x| + C।",
+            "imgUrl": "",
+            "explanation": "log|sec x| + C"
           }
         ]
       }
@@ -65,13 +68,14 @@
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "30",
-      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "text": "",
       "parts": [
         {
           "q_id": "a",
           "statement": "खंडशः समाकलन विधि से मान ज्ञात कीजिए: ∫ x eˣ dx।",
-          "correct_answer": "ILATE नियम से: u = x, v = eˣ\n\n∫ x eˣ dx = x ∫ eˣ dx - ∫ [ (d/dx(x)) ∫ eˣ dx ] dx\n= x eˣ - ∫ eˣ dx = x eˣ - eˣ + C = eˣ(x - 1) + C",
-          "imgUrl": ""
+          "correct_answer": "चरण 1: ILATE नियमानुसार प्रथम फलन u = x तथा द्वितीय फलन v = eˣ।\nचरण 2: खंडशः समाकलन सूत्र: ∫ u v dx = u ∫ v dx - ∫ [ (du/dx) ∫ v dx ] dx।\nचरण 3: = x ∫ eˣ dx - ∫ [ (d/dx(x)) · ∫ eˣ dx ] dx = x eˣ - ∫ [ 1 · eˣ ] dx।\nचरण 4: = x eˣ - eˣ + C = eˣ (x - 1) + C।",
+          "imgUrl": "",
+          "explanation": "∫ x eˣ dx = eˣ(x - 1) + C"
         }
       ],
       "or_option": {
@@ -80,8 +84,9 @@
           {
             "q_id": "b",
             "statement": "∫ log x dx का मान ज्ञात कीजिए।",
-            "correct_answer": "∫ (log x · 1) dx = log x (x) - ∫ (1/x · x) dx\n= x log x - x + C = x(log x - 1) + C",
-            "imgUrl": ""
+            "correct_answer": "चरण 1: ∫ log x dx = ∫ (log x · 1) dx। यहाँ u = log x तथा v = 1।\nचरण 2: = (log x) ∫ 1 dx - ∫ [ (d/dx(log x)) · ∫ 1 dx ] dx = (log x)(x) - ∫ [ (1/x) · x ] dx।\nचरण 3: = x log x - ∫ 1 dx = x log x - x + C = x(log x - 1) + C।",
+            "imgUrl": "",
+            "explanation": "x log x - x + C"
           }
         ]
       }
@@ -91,13 +96,14 @@
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "30",
-      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "text": "",
       "parts": [
         {
           "q_id": "a",
           "statement": "मान ज्ञात कीजिए: ∫ eˣ (sin x + cos x) dx।",
-          "correct_answer": "सूत्र: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C\n\nयहाँ f(x) = sin x तथा f'(x) = cos x है:\n∫ eˣ (sin x + cos x) dx = eˣ sin x + C",
-          "imgUrl": ""
+          "correct_answer": "चरण 1: मानक समाकलन सूत्र: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C।\nचरण 2: दिए गए समाकलन में माना f(x) = sin x।\nचरण 3: अवकलन करने पर: f'(x) = d/dx(sin x) = cos x।\nचरण 4: सूत्र में मान रखने पर: ∫ eˣ [sin x + cos x] dx = eˣ sin x + C।",
+          "imgUrl": "",
+          "explanation": "eˣ f(x) + C सूत्र के प्रयोग से = eˣ sin x + C।"
         }
       ],
       "or_option": {
@@ -106,8 +112,9 @@
           {
             "q_id": "b",
             "statement": "∫ eˣ (1/x - 1/x²) dx का मान क्या होगा?",
-            "correct_answer": "यहाँ f(x) = 1/x तथा f'(x) = -1/x² है।\nअतः मान = eˣ(1/x) + C = (eˣ / x) + C",
-            "imgUrl": ""
+            "correct_answer": "चरण 1: माना f(x) = 1/x = x⁻¹।\nचरण 2: तब f'(x) = -1 · x⁻² = -1/x²।\nचरण 3: सूत्र ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C से: ∫ eˣ (1/x - 1/x²) dx = eˣ(1/x) + C = (eˣ / x) + C।",
+            "imgUrl": "",
+            "explanation": "(eˣ / x) + C"
           }
         ]
       }
@@ -117,13 +124,14 @@
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "30",
-      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "text": "",
       "parts": [
         {
           "q_id": "a",
           "statement": "सिद्ध कीजिए कि ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx = π/4।",
-          "correct_answer": "I = ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx  ...(1)\nP4 गुणधर्म लगाने पर:\nI = ∫₀^(π/2) (√cos x / (√cos x + √sin x)) dx  ...(2)\n\n(1) + (2) जोड़ने पर:\n2I = ∫₀^(π/2) 1 dx = [ x ]₀^(π/2) = π/2 ⇒ I = π/4",
-          "imgUrl": ""
+          "correct_answer": "चरण 1: माना I = ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx  ...(1)\nचरण 2: P4 गुणधर्म ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx से:\nI = ∫₀^(π/2) [√sin(π/2 - x) / (√sin(π/2 - x) + √cos(π/2 - x))] dx\nचूँकि sin(π/2 - x) = cos x तथा cos(π/2 - x) = sin x:\nI = ∫₀^(π/2) (√cos x / (√cos x + √sin x)) dx  ...(2)\nचरण 3: समीकरण (1) और (2) को जोड़ने पर:\n2I = ∫₀^(π/2) [ (√sin x + √cos x) / (√sin x + √cos x) ] dx = ∫₀^(π/2) 1 dx = [ x ]₀^(π/2) = π/2 - 0 = π/2।\nचरण 4: 2I = π/2 ⇒ I = π/4। इति सिद्धम्।",
+          "imgUrl": "",
+          "explanation": "2I = π/2 ⇒ I = π/4"
         }
       ],
       "or_option": {
@@ -132,8 +140,9 @@
           {
             "q_id": "b",
             "statement": "∫₀^(π/2) log(tan x) dx का मान ज्ञात कीजिए।",
-            "correct_answer": "P4 गुणधर्म लगाने पर I = ∫₀^(π/2) log(cot x) dx = -I\n⇒ 2I = 0 ⇒ I = 0",
-            "imgUrl": ""
+            "correct_answer": "चरण 1: माना I = ∫₀^(π/2) log(tan x) dx  ...(1)\nचरण 2: P4 से: I = ∫₀^(π/2) log(tan(π/2 - x)) dx = ∫₀^(π/2) log(cot x) dx = ∫₀^(π/2) log(1/tan x) dx = -∫₀^(π/2) log(tan x) dx = -I  ...(2)\nचरण 3: I + I = 0 ⇒ 2I = 0 ⇒ I = 0।",
+            "imgUrl": "",
+            "explanation": "2I = 0 ⇒ I = 0"
           }
         ]
       }
@@ -143,13 +152,14 @@
       "question_type": "DESCRIPTIVE",
       "marks": "2",
       "word_limit": "30",
-      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "text": "",
       "parts": [
         {
           "q_id": "a",
           "statement": "मान ज्ञात कीजिए: ∫₋₁¹ sin⁵ x cos⁴ x dx।",
-          "correct_answer": "माना f(x) = sin⁵ x cos⁴ x\nf(-x) = (-sin x)⁵ (cos x)⁴ = -sin⁵ x cos⁴ x = -f(x)\n\nचूँकि f(x) एक विषम फलन है, अतः गुणधर्मानुसार:\n∫₋₁¹ sin⁵ x cos⁴ x dx = 0",
-          "imgUrl": ""
+          "correct_answer": "चरण 1: माना f(x) = sin⁵ x cos⁴ x।\nचरण 2: x के स्थान पर -x रखने पर:\nf(-x) = [sin(-x)]⁵ · [cos(-x)]⁴ = (-sin x)⁵ · (cos x)⁴ = -sin⁵ x cos⁴ x = -f(x)।\nचरण 3: चूँकि f(-x) = -f(x), अतः f(x) एक विषम (Odd) फलन है।\nचरण 4: गुणधर्मानुसार: यदि f(x) विषम फलन हो, तो ∫₋ₐᵃ f(x) dx = 0 होता है।\nअतः ∫₋₁¹ sin⁵ x cos⁴ x dx = 0।",
+          "imgUrl": "",
+          "explanation": "विषम फलन होने के कारण मान = 0।"
         }
       ],
       "or_option": {
@@ -158,8 +168,9 @@
           {
             "q_id": "b",
             "statement": "यदि f(x) एक सम (Even) फलन हो, तो ∫₋ₐᵃ f(x) dx का मान क्या होता है?",
-            "correct_answer": "यदि f(-x) = f(x) (सम फलन) हो, तो:\n\n∫₋ₐᵃ f(x) dx = 2 ∫₀ᵃ f(x) dx",
-            "imgUrl": ""
+            "correct_answer": "चरण 1: सम फलन की परिभाषा: f(-x) = f(x)।\nचरण 2: निश्चित समाकलन के गुणधर्मानुसार, यदि f(x) सम फलन हो, तो सीमाओं को शून्य से a तक सीमित करके दोगुना कर दिया जाता है:\n∫₋ₐᵃ f(x) dx = 2 ∫₀ᵃ f(x) dx।",
+            "imgUrl": "",
+            "explanation": "2 ∫₀ᵃ f(x) dx"
           }
         ]
       }
