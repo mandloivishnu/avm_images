@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>AVM Coaching - User Profile Backup</title>
+
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <style>
+    :root {
+      --primary: #1e40af;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --success-bg: #dcfce7; --success-text: #166534;
+      --warning-bg: #fef3c7; --warning-text: #92400e;
+      --danger: #ef4444;
+      --neutral-bg: #f1f5f9; --neutral-text: #475569;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
+    body { background: var(--bg); color: var(--text-main); padding: 10px; line-height: 1.4; }
+    .wrapper { max-width: 1200px; margin: 0 auto; }
+
+    header { background: var(--surface); padding: 14px 18px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 12px; display: flex; flex-direction: column; gap: 10px; }
+    @media (min-width: 768px) { header { flex-direction: row; justify-content: space-between; align-items: center; } }
+    header h1 { font-size: 1.1rem; font-weight: 700; }
+    header small { color: var(--text-muted); font-size: 0.72rem; }
+    .header-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+
+    .btn { padding: 8px 12px; border-radius: 8px; font-weight: 600; font-size: 0.8rem; cursor: pointer; border: none; color: #fff; display: inline-flex; align-items: center; gap: 4px; }
+    .btn:disabled { opacity: 0.55; cursor: not-allowed; }
+    .btn-primary { background: var(--primary); }
+    .btn-dark { background: #0f172a; }
+    .btn-green { background: #10b981; }
+    .btn-red { background: var(--danger); }
+    .btn-amber { background: #d97706; }
+    .btn-sm { padding: 4px 8px; font-size: 0.72rem; border-radius: 6px; }
+
+    .kpi-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 12px; }
+    @media (min-width: 800px) { .kpi-row { grid-template-columns: repeat(4, 1fr); } }
+    .kpi-card { background: var(--surface); padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); }
+    .kpi-card span { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; }
+    .kpi-card h3 { font-size: 1.05rem; font-weight: 800; margin-top: 2px; word-break: break-word; }
+
+    .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; }
+    .panel h4 { font-size: 0.85rem; margin-bottom: 8px; }
+    .opts { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; font-size: 0.8rem; }
+    .opts label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+    .opts select, .opts input[type=text] { padding: 5px 8px; border: 1px solid var(--border-dark); border-radius: 6px; font-size: 0.8rem; }
+    .hint { font-size: 0.72rem; color: var(--text-muted); margin-top: 8px; }
+
+    .progress-wrap { display: none; margin-top: 10px; }
+    .progress-wrap.active { display: block; }
+    .bar { height: 10px; background: var(--neutral-bg); border-radius: 6px; overflow: hidden; }
+    .bar > div { height: 100%; width: 0; background: var(--primary); transition: width 0.2s; }
+    #progressText { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
+
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    th, td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: left; white-space: nowrap; }
+    th { background: #f1f5f9; color: #334155; font-weight: 700; }
+    tr:hover td { background: #f8fafc; }
+    .badge { display: inline-block; padding: 2px 6px; border-radius: 5px; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; }
+    .b-manual { background: #e0e7ff; color: #3730a3; }
+    .b-auto { background: var(--success-bg); color: var(--success-text); }
+    .empty { text-align: center; padding: 22px; color: var(--text-muted); font-size: 0.85rem; }
+    .log { font-size: 0.72rem; color: var(--text-muted); max-height: 110px; overflow-y: auto; margin-top: 8px; font-family: monospace; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <header>
+    <div>
+      <h1>AVM Coaching - user_profile_master Backup</h1>
+      <small>Date-wise backups saved inside Firestore (IST) &bull; One click or automatic</small>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-green" id="btnBackup" onclick="runBackup('MANUAL')">💾 Backup Now</button>
+      <button class="btn btn-primary" onclick="loadBackups()">↻ Reload</button>
+    </div>
+  </header>
+
+  <div class="kpi-row">
+    <div class="kpi-card"><span>Live Users (user_profile_master)</span><h3 id="kLive">–</h3></div>
+    <div class="kpi-card"><span>Saved Backups</span><h3 id="kBackups">0</h3></div>
+    <div class="kpi-card"><span>Last Backup (IST)</span><h3 id="kLast" style="font-size:0.85rem;">–</h3></div>
+    <div class="kpi-card"><span>Auto Backup</span><h3 id="kAuto">–</h3></div>
+  </div>
+
+  <div class="panel">
+    <h4>⚙️ Settings</h4>
+    <div class="opts">
+      <label><input type="checkbox" id="optAuto" onchange="saveSettings()"> Auto backup once per day (when this page is open)</label>
+      <label>Keep last
+        <select id="optKeep" onchange="saveSettings()">
+          <option value="0">All backups</option>
+          <option value="7">7</option>
+          <option value="15">15</option>
+          <option value="30">30</option>
+          <option value="60">60</option>
+          <option value="90">90</option>
+        </select> backups
+      </label>
+      <label><input type="checkbox" id="optNoPass" onchange="saveSettings()"> Exclude <code>password</code> field from backup</label>
+    </div>
+    <div class="hint">
+      Settings are remembered in this browser. Tip: keep this page open in a pinned tab - it checks every 30 minutes and creates today's backup if it is missing.
+    </div>
+    <div class="progress-wrap" id="progressWrap">
+      <div class="bar"><div id="progressBar"></div></div>
+      <div id="progressText"></div>
+    </div>
+    <div class="log" id="logBox"></div>
+  </div>
+
+  <div class="panel">
+    <h4>🗂 Backup History (latest 60)</h4>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th><th>Backup ID</th><th>Date (IST)</th><th>Created (IST)</th><th>Type</th><th>Users</th><th>Password</th><th style="text-align:center;">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="backupBody"><tr><td colspan="8" class="empty">Loading...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const firebaseConfig = { projectId: "avmoaching621999" };
+  if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+
+  const SRC = "user_profile_master";
+  const BK = "user_profile_master_backups";   // metadata docs; users stored in subcollection "users"
+  const BATCH = 400;
+  const SETTINGS_KEY = "avm_backup_settings_v1";
+
+  let running = false;
+  let backupList = [];
+
+  /* ---------- helpers ---------- */
+  function istParts(d) {
+    const parts = new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
+    }).formatToParts(d);
+    const o = {}; parts.forEach(p => o[p.type] = p.value);
+    if (o.hour === '24') o.hour = '00';
+    return o;
+  }
+  function todayKey(d = new Date()) { const p = istParts(d); return `${p.year}-${p.month}-${p.day}`; }
+  function stampKey(d = new Date()) { const p = istParts(d); return `${p.hour}${p.minute}${p.second}`; }
+  function formatIST(raw) {
+    if (!raw) return "N/A";
+    const d = raw.toDate ? raw.toDate() : new Date(raw);
+    if (isNaN(d.getTime())) return "N/A";
+    return new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', year: 'numeric',
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true
+    }).format(d).replace(',', '') + " IST";
+  }
+  function esc(s) {
+    if (s === null || s === undefined) return "";
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  }
+  function log(msg) {
+    const box = document.getElementById("logBox");
+    box.textContent = `[${formatIST(new Date())}] ${msg}\n` + box.textContent;
+  }
+  function setProgress(pct, text) {
+    document.getElementById("progressWrap").classList.add("active");
+    document.getElementById("progressBar").style.width = pct + "%";
+    document.getElementById("progressText").textContent = text;
+  }
+  function hideProgress() {
+    setTimeout(() => document.getElementById("progressWrap").classList.remove("active"), 2500);
+  }
+
+  /* ---------- settings ---------- */
+  function loadSettings() {
+    let s = { auto: true, keep: "30", noPass: false };
+    try { s = Object.assign(s, JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}")); } catch (e) {}
+    document.getElementById("optAuto").checked = !!s.auto;
+    document.getElementById("optKeep").value = String(s.keep);
+    document.getElementById("optNoPass").checked = !!s.noPass;
+    updateAutoKpi();
+  }
+  function getSettings() {
+    return {
+      auto: document.getElementById("optAuto").checked,
+      keep: parseInt(document.getElementById("optKeep").value, 10) || 0,
+      noPass: document.getElementById("optNoPass").checked
+    };
+  }
+  function saveSettings() {
+    const s = getSettings();
+    try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); } catch (e) {}
+    updateAutoKpi();
+  }
+  function updateAutoKpi() {
+    const el = document.getElementById("kAuto");
+    el.textContent = getSettings().auto ? "ON" : "OFF";
+    el.style.color = getSettings().auto ? "var(--success-text)" : "var(--danger)";
+  }
+
+  /* ---------- backup ---------- */
+  async function runBackup(type) {
+    if (running) return;
+    running = true;
+    const btn = document.getElementById("btnBackup");
+    btn.disabled = true;
+
+    const settings = getSettings();
+    const now = new Date();
+    const dateKey = todayKey(now);
+    const backupId = `${dateKey}_${type}_${stampKey(now)}`;
+
+    try {
+      setProgress(5, "Reading user_profile_master...");
+      const snap = await db.collection(SRC).get();
+      const total = snap.size;
+      if (total === 0) throw new Error("Source collection is empty - nothing to back up.");
+
+      const metaRef = db.collection(BK).doc(backupId);
+      // metadata first with status IN_PROGRESS, so incomplete backups are visible
+      await metaRef.set({
+        backupId, dateKey, type,
+        status: "IN_PROGRESS",
+        totalUsers: total,
+        passwordExcluded: settings.noPass,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp()
+      });
+
+      const docs = snap.docs;
+      let written = 0;
+      for (let i = 0; i < docs.length; i += BATCH) {
+        const batch = db.batch();
+        docs.slice(i, i + BATCH).forEach(d => {
+          const data = Object.assign({}, d.data());
+          if (settings.noPass) delete data.password;
+          batch.set(metaRef.collection("users").doc(d.id), data);   // Timestamps/arrays preserved natively
+        });
+        await batch.commit();
+        written += Math.min(BATCH, docs.length - i);
+        setProgress(5 + Math.round((written / total) * 90), `Backed up ${written} / ${total} users...`);
+      }
+
+      await metaRef.update({
+        status: "COMPLETE",
+        completedAt: firebase.firestore.FieldValue.serverTimestamp()
+      });
+
+      setProgress(100, `✅ Backup complete: ${total} users saved as "${backupId}"`);
+      log(`Backup ${backupId} complete (${total} users).`);
+
+      await applyRetention(settings.keep);
+      await loadBackups();
+    } catch (err) {
+      console.error(err);
+      setProgress(0, "❌ Backup failed: " + err.message);
+      log("Backup FAILED: " + err.message);
+      alert("Backup failed: " + err.message);
+    } finally {
+      running = false;
+      btn.disabled = false;
+      hideProgress();
+    }
+  }
+
+  async function deleteSubcollection(backupId) {
+    const colRef = db.collection(BK).doc(backupId).collection("users");
+    while (true) {
+      const snap = await colRef.limit(BATCH).get();
+      if (snap.empty) break;
+      const batch = db.batch();
+      snap.forEach(d => batch.delete(d.ref));
+      await batch.commit();
+    }
+  }
+
+  async function deleteBackupFully(backupId) {
+    await deleteSubcollection(backupId);
+    await db.collection(BK).doc(backupId).delete();
+  }
+
+  async function applyRetention(keep) {
+    if (!keep || keep <= 0) return;
+    const snap = await db.collection(BK).orderBy("createdAt", "desc").get();
+    const extra = snap.docs.slice(keep);
+    for (const d of extra) {
+      await deleteBackupFully(d.id);
+      log(`Retention: deleted old backup ${d.id}`);
+    }
+  }
+
+  /* ---------- auto ---------- */
+  async function autoCheck() {
+    if (!getSettings().auto || running) return;
+    try {
+      const today = todayKey();
+      const snap = await db.collection(BK).where("dateKey", "==", today).get();
+      const hasToday = snap.docs.some(d => d.data().status === "COMPLETE");
+      if (!hasToday) {
+        log("Auto backup: no backup found for today, starting...");
+        await runBackup("AUTO");
+      }
+    } catch (e) {
+      log("Auto check error: " + e.message);
+    }
+  }
+
+  /* ---------- list ---------- */
+  async function loadBackups() {
+    const body = document.getElementById("backupBody");
+    try {
+      const [liveCount, snap] = await Promise.all([
+        db.collection(SRC).get().then(s => s.size),
+        db.collection(BK).orderBy("createdAt", "desc").limit(60).get()
+      ]);
+      document.getElementById("kLive").textContent = liveCount;
+      document.getElementById("kBackups").textContent = snap.size;
+
+      backupList = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+      const lastDone = backupList.find(b => b.status === "COMPLETE");
+      document.getElementById("kLast").textContent = lastDone ? formatIST(lastDone.createdAt) : "No backup yet";
+
+      if (backupList.length === 0) {
+        body.innerHTML = `<tr><td colspan="8" class="empty">No backups yet. Click "Backup Now".</td></tr>`;
+        return;
+      }
+
+      body.innerHTML = backupList.map((b, i) => {
+        const ok = b.status === "COMPLETE";
+        return `
+          <tr>
+            <td>${i + 1}</td>
+            <td><code style="font-size:0.74rem;">${esc(b.id)}</code></td>
+            <td><strong>${esc(b.dateKey || "")}</strong></td>
+            <td>${formatIST(b.createdAt)}</td>
+            <td><span class="badge ${b.type === 'AUTO' ? 'b-auto' : 'b-manual'}">${esc(b.type)}</span>
+                ${ok ? "" : `<span class="badge" style="background:var(--warning-bg);color:var(--warning-text);">${esc(b.status || 'INCOMPLETE')}</span>`}</td>
+            <td><strong>${b.totalUsers ?? 0}</strong></td>
+            <td>${b.passwordExcluded ? "Excluded" : "Included"}</td>
+            <td style="text-align:center;">
+              <button class="btn btn-sm btn-dark" onclick="downloadBackup('${esc(b.id)}')">⬇ JSON</button>
+              <button class="btn btn-sm btn-amber" ${ok ? "" : "disabled"} onclick="restoreBackup('${esc(b.id)}')">♻ Restore</button>
+              <button class="btn btn-sm btn-red" onclick="removeBackup('${esc(b.id)}')">🗑</button>
+            </td>
+          </tr>`;
+      }).join("");
+    } catch (err) {
+      body.innerHTML = `<tr><td colspan="8" class="empty" style="color:red;">Error: ${esc(err.message)}</td></tr>`;
+    }
+  }
+
+  /* ---------- actions ---------- */
+  function jsonSafe(v) {
+    if (v === null || v === undefined) return v;
+    if (typeof v.toDate === "function") return v.toDate().toISOString();
+    if (Array.isArray(v)) return v.map(jsonSafe);
+    if (typeof v === "object") {
+      const o = {}; Object.keys(v).forEach(k => o[k] = jsonSafe(v[k])); return o;
+    }
+    return v;
+  }
+
+  async function downloadBackup(backupId) {
+    try {
+      setProgress(30, "Preparing download...");
+      const snap = await db.collection(BK).doc(backupId).collection("users").get();
+      const out = {};
+      snap.forEach(d => out[d.id] = jsonSafe(d.data()));
+      const blob = new Blob([JSON.stringify({ backupId, totalUsers: snap.size, users: out }, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `user_profile_master_${backupId}.json`;
+      document.body.appendChild(a); a.click(); a.remove();
+      setProgress(100, `Downloaded ${snap.size} users.`);
+    } catch (e) {
+      alert("Download failed: " + e.message);
+    } finally { hideProgress(); }
+  }
+
+  async function removeBackup(backupId) {
+    if (!confirm(`Permanently delete backup ${backupId}?`)) return;
+    try {
+      setProgress(30, "Deleting backup...");
+      await deleteBackupFully(backupId);
+      log(`Deleted backup ${backupId}`);
+      await loadBackups();
+    } catch (e) {
+      alert("Delete failed: " + e.message);
+    } finally { hideProgress(); }
+  }
+
+  async function restoreBackup(backupId) {
+    const target = prompt(
+      `RESTORE from ${backupId}\n\nType a User ID to restore only that user,\nor type ALL to restore every user in this backup.\n\n(Existing fields are overwritten with backup values; fields added after the backup are kept.)`
+    );
+    if (!target) return;
+    const t = target.trim();
+    if (t === "ALL") {
+      const word = prompt("This will overwrite live data in user_profile_master.\nType RESTORE to confirm:");
+      if (word !== "RESTORE") return;
+    }
+    try {
+      const col = db.collection(BK).doc(backupId).collection("users");
+      if (t !== "ALL") {
+        const d = await col.doc(t).get();
+        if (!d.exists) { alert("User ID not found in this backup."); return; }
+        await db.collection(SRC).doc(t).set(d.data(), { merge: true });
+        log(`Restored user ${t} from ${backupId}`);
+        alert("User restored.");
+        return;
+      }
+      const snap = await col.get();
+      const docs = snap.docs;
+      let done = 0;
+      for (let i = 0; i < docs.length; i += BATCH) {
+        const batch = db.batch();
+        docs.slice(i, i + BATCH).forEach(d => batch.set(db.collection(SRC).doc(d.id), d.data(), { merge: true }));
+        await batch.commit();
+        done += Math.min(BATCH, docs.length - i);
+        setProgress(Math.round((done / docs.length) * 100), `Restored ${done} / ${docs.length}`);
+      }
+      log(`Restored ALL (${docs.length}) users from ${backupId}`);
+      alert(`Restore complete: ${docs.length} users.`);
+    } catch (e) {
+      alert("Restore failed: " + e.message);
+    } finally { hideProgress(); loadBackups(); }
+  }
+
+  /* ---------- init ---------- */
+  window.addEventListener("DOMContentLoaded", async () => {
+    loadSettings();
+    await loadBackups();
+    autoCheck();
+    setInterval(autoCheck, 30 * 60 * 1000);
+  });
+</script>
+</body>
+</html>

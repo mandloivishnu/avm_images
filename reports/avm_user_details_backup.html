@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>AVM Coaching - Backup & Restore Console</title>
+
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <style>
+    :root {
+      --primary: #1e40af;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --border-dark: #cbd5e1;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --success-bg: #dcfce7; --success-text: #166534;
+      --warning-bg: #fef3c7; --warning-text: #92400e;
+      --danger: #ef4444;
+      --neutral-bg: #f1f5f9;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
+    body { background: var(--bg); color: var(--text-main); padding: 10px; line-height: 1.4; }
+    .wrapper { max-width: 1300px; margin: 0 auto; }
+
+    header { background: var(--surface); padding: 14px 18px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 12px; display: flex; flex-direction: column; gap: 10px; }
+    @media (min-width: 768px) { header { flex-direction: row; justify-content: space-between; align-items: center; } }
+    header h1 { font-size: 1.1rem; font-weight: 700; }
+    header small { color: var(--text-muted); font-size: 0.72rem; }
+    .header-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+
+    .btn { padding: 8px 12px; border-radius: 8px; font-weight: 600; font-size: 0.8rem; cursor: pointer; border: none; color: #fff; display: inline-flex; align-items: center; gap: 4px; }
+    .btn:disabled { opacity: 0.55; cursor: not-allowed; }
+    .btn-primary { background: var(--primary); }
+    .btn-dark { background: #0f172a; }
+    .btn-green { background: #10b981; }
+    .btn-red { background: var(--danger); }
+    .btn-amber { background: #d97706; }
+    .btn-grey { background: #64748b; }
+    .btn-sm { padding: 4px 8px; font-size: 0.72rem; border-radius: 6px; }
+
+    .kpi-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 12px; }
+    @media (min-width: 700px) { .kpi-row { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 1000px) { .kpi-row { grid-template-columns: repeat(6, 1fr); } }
+    .kpi-card { background: var(--surface); padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); }
+    .kpi-card span { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; }
+    .kpi-card h3 { font-size: 1.05rem; font-weight: 800; margin-top: 2px; word-break: break-word; }
+
+    .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; }
+    .panel h4 { font-size: 0.85rem; margin-bottom: 8px; }
+    .grid2 { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    @media (min-width: 800px) { .grid2 { grid-template-columns: 1fr 1fr; } }
+    .group-title { font-size: 0.68rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px; }
+    .opts { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 0.8rem; }
+    .opts label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+    select, input[type=text], input[type=file] { padding: 6px 8px; border: 1px solid var(--border-dark); border-radius: 6px; font-size: 0.8rem; background: #fff; max-width: 100%; }
+    .hint { font-size: 0.72rem; color: var(--text-muted); margin-top: 8px; }
+
+    .progress-wrap { display: none; margin-top: 10px; }
+    .progress-wrap.active { display: block; }
+    .bar { height: 10px; background: var(--neutral-bg); border-radius: 6px; overflow: hidden; }
+    .bar > div { height: 100%; width: 0; background: var(--primary); transition: width 0.2s; }
+    #progressText { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
+    .log { font-size: 0.72rem; color: var(--text-muted); max-height: 110px; overflow-y: auto; margin-top: 8px; font-family: monospace; white-space: pre-wrap; }
+
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+    th, td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: left; white-space: nowrap; }
+    th { background: #f1f5f9; color: #334155; font-weight: 700; }
+    tr:hover td { background: #f8fafc; }
+    .badge { display: inline-block; padding: 2px 6px; border-radius: 5px; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; }
+    .b-manual { background: #e0e7ff; color: #3730a3; }
+    .b-auto { background: var(--success-bg); color: var(--success-text); }
+    .b-warn { background: var(--warning-bg); color: var(--warning-text); }
+    .empty { text-align: center; padding: 22px; color: var(--text-muted); font-size: 0.85rem; }
+
+    /* Restore modal */
+    .modal-back { display: none; position: fixed; inset: 0; background: rgba(15,23,42,0.55); z-index: 50; align-items: center; justify-content: center; padding: 12px; }
+    .modal-back.active { display: flex; }
+    .modal { background: #fff; border-radius: 12px; width: 100%; max-width: 560px; max-height: 92vh; overflow-y: auto; padding: 16px 18px; }
+    .modal h4 { font-size: 1rem; margin-bottom: 10px; }
+    .field { margin-bottom: 12px; font-size: 0.82rem; }
+    .field > .group-title { margin-bottom: 4px; }
+    .field .opts { gap: 6px 14px; }
+    .modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 6px; }
+    .warn-box { background: var(--warning-bg); color: var(--warning-text); border-radius: 8px; padding: 8px 10px; font-size: 0.74rem; margin-bottom: 12px; }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+
+  <header>
+    <div>
+      <h1>AVM Coaching - Backup & Restore Console</h1>
+      <small>user_profile_master • user_content_master • payment_requests &bull; Firestore or local file &bull; IST</small>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-green" id="btnBackup" onclick="runBackup('MANUAL')">💾 Backup Now</button>
+      <button class="btn btn-amber" onclick="openRestore(null, 'file')">📂 Restore from File</button>
+      <button class="btn btn-primary" onclick="loadBackups()">↻ Reload</button>
+    </div>
+  </header>
+
+  <div class="kpi-row">
+    <div class="kpi-card"><span>Live Profiles</span><h3 id="kProf">–</h3></div>
+    <div class="kpi-card"><span>Live Content Docs</span><h3 id="kCont">–</h3></div>
+    <div class="kpi-card"><span>Live Payments</span><h3 id="kPay">–</h3></div>
+    <div class="kpi-card"><span>Firestore Backups</span><h3 id="kBackups">0</h3></div>
+    <div class="kpi-card"><span>Last Backup (IST)</span><h3 id="kLast" style="font-size:0.82rem;">–</h3></div>
+    <div class="kpi-card"><span>Auto Backup</span><h3 id="kAuto">–</h3></div>
+  </div>
+
+  <div class="panel">
+    <h4>⚙️ Backup Options</h4>
+    <div class="grid2">
+      <div>
+        <div class="group-title">1. What to back up</div>
+        <div class="opts" id="srcOpts"></div>
+        <label style="display:inline-flex;gap:6px;align-items:center;font-size:0.8rem;margin-top:8px;">
+          <input type="checkbox" id="optNoPass" onchange="saveSettings()"> Exclude <code>password</code> field (user_profile_master)
+        </label>
+      </div>
+      <div>
+        <div class="group-title">2. Where to save</div>
+        <div class="opts">
+          <label><input type="checkbox" id="optFs" onchange="saveSettings()"> ☁️ Write to Firestore</label>
+          <label><input type="checkbox" id="optFile" onchange="saveSettings()"> 💻 Download to this computer (JSON file)</label>
+        </div>
+        <div class="hint">Tick one or both. "Backup Now" follows these choices.</div>
+      </div>
+    </div>
+
+    <div style="border-top:1px dashed var(--border); margin-top:12px; padding-top:10px;">
+      <div class="group-title">3. Automation (Firestore only)</div>
+      <div class="opts">
+        <label><input type="checkbox" id="optAuto" onchange="saveSettings()"> Auto backup once per day (while this page is open)</label>
+        <label>Keep last
+          <select id="optKeep" onchange="saveSettings()">
+            <option value="0">All backups</option>
+            <option value="7">7</option><option value="15">15</option>
+            <option value="30">30</option><option value="60">60</option><option value="90">90</option>
+          </select> Firestore backups
+        </label>
+      </div>
+      <div class="hint">Settings are remembered in this browser. Auto backup always writes to Firestore (browsers block silent file downloads). The page checks every 30 minutes and backs up the selected collections if today's backup is missing.</div>
+    </div>
+
+    <div class="progress-wrap" id="progressWrap">
+      <div class="bar"><div id="progressBar"></div></div>
+      <div id="progressText"></div>
+    </div>
+    <div class="log" id="logBox"></div>
+  </div>
+
+  <div class="panel">
+    <h4>🗂 Firestore Backup History (latest 60)</h4>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th><th>Backup ID</th><th>Date (IST)</th><th>Created (IST)</th><th>Type</th>
+            <th>Docs (Profiles · Content · Payments)</th><th>Password</th><th style="text-align:center;">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="backupBody"><tr><td colspan="8" class="empty">Loading...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<!-- Restore modal -->
+<div class="modal-back" id="modalBack">
+  <div class="modal">
+    <h4>♻ Restore Data</h4>
+    <div class="warn-box">Restore writes into your LIVE collections. It adds/updates documents from the backup; it does not delete documents created after the backup.</div>
+
+    <div class="field">
+      <div class="group-title">Restore from</div>
+      <div class="opts">
+        <label><input type="radio" name="rsrc" value="firestore" onchange="toggleRestoreSource()"> ☁️ Firestore backup</label>
+        <label><input type="radio" name="rsrc" value="file" onchange="toggleRestoreSource()"> 💻 Downloaded file on this computer</label>
+      </div>
+      <div id="rsFsBox" style="margin-top:6px;"><select id="rsBackupSel" style="width:100%;"></select></div>
+      <div id="rsFileBox" style="margin-top:6px; display:none;"><input type="file" id="rsFile" accept=".json,application/json" style="width:100%;"></div>
+    </div>
+
+    <div class="field">
+      <div class="group-title">Collections to restore</div>
+      <div class="opts" id="rsCols"></div>
+    </div>
+
+    <div class="field">
+      <div class="group-title">Which documents</div>
+      <div class="opts">
+        <label><input type="radio" name="rscope" value="all" checked onchange="toggleScope()"> All documents</label>
+        <label><input type="radio" name="rscope" value="one" onchange="toggleScope()"> One document ID only</label>
+      </div>
+      <input type="text" id="rsDocId" placeholder="Paste user / document ID" style="width:100%; margin-top:6px; display:none;">
+    </div>
+
+    <div class="field">
+      <div class="group-title">Write mode</div>
+      <select id="rsMode" style="width:100%;">
+        <option value="merge">Merge - update backed-up fields, keep other fields (safer)</option>
+        <option value="overwrite">Overwrite - replace the whole document exactly as backed up</option>
+      </select>
+    </div>
+
+    <div class="field" id="rsConfirmBox">
+      <div class="group-title">Type RESTORE to confirm (required for "All documents")</div>
+      <input type="text" id="rsConfirm" placeholder="RESTORE" style="width:100%;">
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn btn-grey" onclick="closeRestore()">Cancel</button>
+      <button class="btn btn-amber" id="btnDoRestore" onclick="doRestore()">♻ Restore</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const firebaseConfig = { projectId: "avmoaching621999" };
+  if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+
+  const PROFILE = "user_profile_master";
+  const SOURCES = [
+    { name: "user_profile_master", label: "User Profiles" },
+    { name: "user_content_master", label: "User Content" },
+    { name: "payment_requests",    label: "Payments" }
+  ];
+  const BK = "user_profile_master_backups";   // metadata docs; each source collection stored as a subcollection with the same name
+  const FORMAT = "avm-firestore-backup-v2";
+  const BATCH = 400;
+  const SETTINGS_KEY = "avm_backup_settings_v2";
+
+  let running = false;
+  let backupList = [];
+
+  /* ================= helpers ================= */
+  function istParts(d) {
+    const parts = new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false
+    }).formatToParts(d);
+    const o = {}; parts.forEach(p => o[p.type] = p.value);
+    if (o.hour === '24') o.hour = '00';
+    return o;
+  }
+  function todayKey(d = new Date()) { const p = istParts(d); return `${p.year}-${p.month}-${p.day}`; }
+  function stampKey(d = new Date()) { const p = istParts(d); return `${p.hour}${p.minute}${p.second}`; }
+  function formatIST(raw) {
+    if (!raw) return "N/A";
+    const d = raw.toDate ? raw.toDate() : new Date(raw);
+    if (isNaN(d.getTime())) return "N/A";
+    return new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', year: 'numeric',
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true
+    }).format(d).replace(',', '') + " IST";
+  }
+  function esc(s) {
+    if (s === null || s === undefined) return "";
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+  }
+  function log(msg) {
+    const box = document.getElementById("logBox");
+    box.textContent = `[${formatIST(new Date())}] ${msg}\n` + box.textContent;
+  }
+  function setProgress(pct, text) {
+    document.getElementById("progressWrap").classList.add("active");
+    document.getElementById("progressBar").style.width = pct + "%";
+    document.getElementById("progressText").textContent = text;
+  }
+  function hideProgress() {
+    setTimeout(() => document.getElementById("progressWrap").classList.remove("active"), 3000);
+  }
+
+  /* ========== Firestore type <-> JSON (keeps Timestamps etc. intact in files) ========== */
+  function encodeVal(v) {
+    if (v === null || v === undefined) return v;
+    const F = firebase.firestore;
+    if (v instanceof F.Timestamp) return { __t: "ts", s: v.seconds, n: v.nanoseconds };
+    if (v instanceof F.GeoPoint) return { __t: "geo", lat: v.latitude, lng: v.longitude };
+    if (v instanceof F.DocumentReference) return { __t: "ref", p: v.path };
+    if (F.Blob && v instanceof F.Blob) return { __t: "blob", b: v.toBase64() };
+    if (Array.isArray(v)) return v.map(encodeVal);
+    if (typeof v === "object") {
+      const o = {}; Object.keys(v).forEach(k => o[k] = encodeVal(v[k])); return o;
+    }
+    return v;
+  }
+  function decodeVal(v) {
+    if (v === null || v === undefined) return v;
+    const F = firebase.firestore;
+    if (Array.isArray(v)) return v.map(decodeVal);
+    if (typeof v === "object") {
+      if (v.__t === "ts") return new F.Timestamp(v.s, v.n);
+      if (v.__t === "geo") return new F.GeoPoint(v.lat, v.lng);
+      if (v.__t === "ref") return db.doc(v.p);
+      if (v.__t === "blob") return F.Blob.fromBase64String(v.b);
+      const o = {}; Object.keys(v).forEach(k => o[k] = decodeVal(v[k])); return o;
+    }
+    return v;
+  }
+
+  function buildFilePayload(meta, data) {
+    const collections = {};
+    Object.keys(data).forEach(name => {
+      const docs = {};
+      data[name].forEach(item => docs[item.id] = encodeVal(item.data));
+      collections[name] = { count: data[name].length, docs };
+    });
+    return {
+      format: FORMAT,
+      backupId: meta.backupId,
+      dateKey: meta.dateKey,
+      type: meta.type,
+      createdAtIso: new Date().toISOString(),
+      passwordExcluded: !!meta.passwordExcluded,
+      collections
+    };
+  }
+  function downloadJSON(obj, filename) {
+    const blob = new Blob([JSON.stringify(obj)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  }
+  function readFileText(file) {
+    return new Promise((res, rej) => {
+      const r = new FileReader();
+      r.onload = () => res(r.result);
+      r.onerror = () => rej(r.error);
+      r.readAsText(file);
+    });
+  }
+
+  /* ================= settings ================= */
+  function renderSourceChecks(selected) {
+    document.getElementById("srcOpts").innerHTML = SOURCES.map(s =>
+      `<label><input type="checkbox" class="srcChk" value="${s.name}" ${selected.includes(s.name) ? "checked" : ""} onchange="saveSettings()"> ${s.label} <code style="font-size:0.7rem;">${s.name}</code></label>`
+    ).join("");
+  }
+  function loadSettings() {
+    let s = { auto: true, keep: "30", noPass: false, cols: SOURCES.map(x => x.name), toFirestore: true, toFile: false };
+    try { s = Object.assign(s, JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}")); } catch (e) {}
+    renderSourceChecks(s.cols);
+    document.getElementById("optAuto").checked = !!s.auto;
+    document.getElementById("optKeep").value = String(s.keep);
+    document.getElementById("optNoPass").checked = !!s.noPass;
+    document.getElementById("optFs").checked = !!s.toFirestore;
+    document.getElementById("optFile").checked = !!s.toFile;
+    updateAutoKpi();
+  }
+  function getSettings() {
+    return {
+      auto: document.getElementById("optAuto").checked,
+      keep: parseInt(document.getElementById("optKeep").value, 10) || 0,
+      noPass: document.getElementById("optNoPass").checked,
+      cols: Array.from(document.querySelectorAll(".srcChk:checked")).map(x => x.value),
+      toFirestore: document.getElementById("optFs").checked,
+      toFile: document.getElementById("optFile").checked
+    };
+  }
+  function saveSettings() {
+    try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(getSettings())); } catch (e) {}
+    updateAutoKpi();
+  }
+  function updateAutoKpi() {
+    const on = document.getElementById("optAuto").checked;
+    const el = document.getElementById("kAuto");
+    el.textContent = on ? "ON" : "OFF";
+    el.style.color = on ? "var(--success-text)" : "var(--danger)";
+  }
+
+  /* ================= backup ================= */
+  async function runBackup(type, override) {
+    if (running) return;
+    const s = getSettings();
+    const toFs = override ? override.toFirestore : s.toFirestore;
+    const toFile = override ? override.toFile : s.toFile;
+    const cols = s.cols;
+
+    if (!cols.length) { alert("Select at least one collection to back up."); return; }
+    if (!toFs && !toFile) { alert("Select at least one destination (Firestore and/or download)."); return; }
+
+    running = true;
+    const btn = document.getElementById("btnBackup");
+    btn.disabled = true;
+
+    const now = new Date();
+    const dateKey = todayKey(now);
+    const backupId = `${dateKey}_${type}_${stampKey(now)}`;
+
+    try {
+      // 1. read all selected collections
+      const data = {};
+      const counts = {};
+      let total = 0;
+      for (let i = 0; i < cols.length; i++) {
+        const name = cols[i];
+        setProgress(3 + Math.round((i / cols.length) * 20), `Reading ${name}...`);
+        const snap = await db.collection(name).get();
+        data[name] = snap.docs.map(d => {
+          const x = Object.assign({}, d.data());
+          if (name === PROFILE && s.noPass) delete x.password;
+          return { id: d.id, data: x };
+        });
+        counts[name] = snap.size;
+        total += snap.size;
+      }
+      if (total === 0) throw new Error("Selected collections are empty - nothing to back up.");
+
+      const meta = { backupId, dateKey, type, passwordExcluded: s.noPass };
+
+      // 2. local file
+      if (toFile) {
+        setProgress(25, "Creating download file...");
+        downloadJSON(buildFilePayload(meta, data), `avm_backup_${backupId}.json`);
+        log(`File downloaded: avm_backup_${backupId}.json (${total} docs).`);
+      }
+
+      // 3. Firestore
+      if (toFs) {
+        const metaRef = db.collection(BK).doc(backupId);
+        await metaRef.set({
+          backupId, dateKey, type,
+          status: "IN_PROGRESS",
+          collections: cols,
+          counts,
+          totalDocs: total,
+          passwordExcluded: s.noPass,
+          createdAt: firebase.firestore.FieldValue.serverTimestamp()
+        });
+
+        let written = 0;
+        for (const name of cols) {
+          const items = data[name];
+          for (let i = 0; i < items.length; i += BATCH) {
+            const batch = db.batch();
+            items.slice(i, i + BATCH).forEach(it => batch.set(metaRef.collection(name).doc(it.id), it.data));
+            await batch.commit();
+            written += Math.min(BATCH, items.length - i);
+            setProgress(30 + Math.round((written / total) * 65), `Writing to Firestore: ${written} / ${total} docs (${name})`);
+          }
+        }
+        await metaRef.update({ status: "COMPLETE", completedAt: firebase.firestore.FieldValue.serverTimestamp() });
+        log(`Firestore backup ${backupId} complete (${total} docs).`);
+        await applyRetention(s.keep);
+      }
+
+      const where = [toFs ? "Firestore" : null, toFile ? "file" : null].filter(Boolean).join(" + ");
+      setProgress(100, `✅ Backup complete (${total} docs) → ${where}`);
+      await loadBackups();
+    } catch (err) {
+      console.error(err);
+      setProgress(0, "❌ Backup failed: " + err.message);
+      log("Backup FAILED: " + err.message);
+      alert("Backup failed: " + err.message);
+    } finally {
+      running = false;
+      btn.disabled = false;
+      hideProgress();
+    }
+  }
+
+  function subNamesOf(meta) { return meta.collections && meta.collections.length ? meta.collections : [PROFILE]; }
+  // older backups stored profiles in a subcollection called "users"
+  function subNameFor(meta, col) {
+    if (meta.collections && meta.collections.length) return meta.collections.includes(col) ? col : null;
+    return col === PROFILE ? "users" : null;
+  }
+
+  async function deleteSubcollection(backupId, sub) {
+    const colRef = db.collection(BK).doc(backupId).collection(sub);
+    while (true) {
+      const snap = await colRef.limit(BATCH).get();
+      if (snap.empty) break;
+      const batch = db.batch();
+      snap.forEach(d => batch.delete(d.ref));
+      await batch.commit();
+    }
+  }
+  async function deleteBackupFully(backupId, meta) {
+    const subs = meta && meta.collections && meta.collections.length ? meta.collections : ["users"];
+    for (const sub of subs) await deleteSubcollection(backupId, sub);
+    await db.collection(BK).doc(backupId).delete();
+  }
+  async function applyRetention(keep) {
+    if (!keep || keep <= 0) return;
+    const snap = await db.collection(BK).orderBy("createdAt", "desc").get();
+    const extra = snap.docs.slice(keep);
+    for (const d of extra) {
+      await deleteBackupFully(d.id, d.data());
+      log(`Retention: deleted old backup ${d.id}`);
+    }
+  }
+
+  /* ================= automation ================= */
+  async function autoCheck() {
+    const s = getSettings();
+    if (!s.auto || running || !s.cols.length) return;
+    try {
+      const snap = await db.collection(BK).where("dateKey", "==", todayKey()).get();
+      const hasToday = snap.docs.some(d => {
+        const m = d.data();
+        const have = m.collections && m.collections.length ? m.collections : [PROFILE];
+        return m.status === "COMPLETE" && s.cols.every(c => have.includes(c));
+      });
+      if (!hasToday) {
+        log("Auto backup: today's backup missing, starting...");
+        await runBackup("AUTO", { toFirestore: true, toFile: false });
+      }
+    } catch (e) {
+      log("Auto check error: " + e.message);
+    }
+  }
+
+  /* ================= history list ================= */
+  async function loadBackups() {
+    const body = document.getElementById("backupBody");
+    try {
+      const [prof, cont, pay, snap] = await Promise.all([
+        db.collection("user_profile_master").get().then(s => s.size),
+        db.collection("user_content_master").get().then(s => s.size),
+        db.collection("payment_requests").get().then(s => s.size),
+        db.collection(BK).orderBy("createdAt", "desc").limit(60).get()
+      ]);
+      document.getElementById("kProf").textContent = prof;
+      document.getElementById("kCont").textContent = cont;
+      document.getElementById("kPay").textContent = pay;
+      document.getElementById("kBackups").textContent = snap.size;
+
+      backupList = snap.docs.map(d => ({ id: d.id, ...d.data() }));
+      const lastDone = backupList.find(b => b.status === "COMPLETE");
+      document.getElementById("kLast").textContent = lastDone ? formatIST(lastDone.createdAt) : "No backup yet";
+
+      if (backupList.length === 0) {
+        body.innerHTML = `<tr><td colspan="8" class="empty">No Firestore backups yet. Click "Backup Now".</td></tr>`;
+        return;
+      }
+
+      const c = (b, name) => {
+        if (b.counts && b.counts[name] !== undefined) return b.counts[name];
+        if (!b.collections && name === PROFILE) return b.totalUsers ?? 0;
+        return "–";
+      };
+
+      body.innerHTML = backupList.map((b, i) => {
+        const ok = b.status === "COMPLETE";
+        return `
+          <tr>
+            <td>${i + 1}</td>
+            <td><code style="font-size:0.74rem;">${esc(b.id)}</code></td>
+            <td><strong>${esc(b.dateKey || "")}</strong></td>
+            <td>${formatIST(b.createdAt)}</td>
+            <td><span class="badge ${b.type === 'AUTO' ? 'b-auto' : 'b-manual'}">${esc(b.type)}</span>
+                ${ok ? "" : `<span class="badge b-warn">${esc(b.status || 'INCOMPLETE')}</span>`}</td>
+            <td><strong>${c(b, "user_profile_master")}</strong> · ${c(b, "user_content_master")} · ${c(b, "payment_requests")}</td>
+            <td>${b.passwordExcluded ? "Excluded" : "Included"}</td>
+            <td style="text-align:center;">
+              <button class="btn btn-sm btn-dark" onclick="downloadBackup('${esc(b.id)}')">⬇ File</button>
+              <button class="btn btn-sm btn-amber" ${ok ? "" : "disabled"} onclick="openRestore('${esc(b.id)}', 'firestore')">♻ Restore</button>
+              <button class="btn btn-sm btn-red" onclick="removeBackup('${esc(b.id)}')">🗑</button>
+            </td>
+          </tr>`;
+      }).join("");
+    } catch (err) {
+      body.innerHTML = `<tr><td colspan="8" class="empty" style="color:red;">Error: ${esc(err.message)}</td></tr>`;
+    }
+  }
+
+  /* ================= actions ================= */
+  async function loadBackupData(meta, cols, singleId) {
+    const out = {};
+    for (const col of cols) {
+      const sub = subNameFor(meta, col);
+      if (!sub) continue;
+      const colRef = db.collection(BK).doc(meta.id || meta.backupId).collection(sub);
+      if (singleId) {
+        const d = await colRef.doc(singleId).get();
+        out[col] = d.exists ? [{ id: d.id, data: d.data() }] : [];
+      } else {
+        const snap = await colRef.get();
+        out[col] = snap.docs.map(d => ({ id: d.id, data: d.data() }));
+      }
+    }
+    return out;
+  }
+
+  async function downloadBackup(backupId) {
+    const meta = backupList.find(b => b.id === backupId);
+    if (!meta) return;
+    try {
+      setProgress(30, "Preparing download file...");
+      const data = await loadBackupData(meta, SOURCES.map(s => s.name), null);
+      downloadJSON(buildFilePayload({ backupId, dateKey: meta.dateKey, type: meta.type, passwordExcluded: meta.passwordExcluded }, data),
+                   `avm_backup_${backupId}.json`);
+      setProgress(100, "Downloaded backup file.");
+    } catch (e) {
+      alert("Download failed: " + e.message);
+    } finally { hideProgress(); }
+  }
+
+  async function removeBackup(backupId) {
+    const meta = backupList.find(b => b.id === backupId);
+    if (!confirm(`Permanently delete Firestore backup ${backupId}?`)) return;
+    try {
+      setProgress(30, "Deleting backup...");
+      await deleteBackupFully(backupId, meta);
+      log(`Deleted backup ${backupId}`);
+      await loadBackups();
+    } catch (e) {
+      alert("Delete failed: " + e.message);
+    } finally { hideProgress(); }
+  }
+
+  /* ================= restore ================= */
+  function openRestore(backupId, source) {
+    // collections checkboxes
+    document.getElementById("rsCols").innerHTML = SOURCES.map(s =>
+      `<label><input type="checkbox" class="rsColChk" value="${s.name}" checked> ${s.label}</label>`).join("");
+
+    // backup dropdown
+    const sel = document.getElementById("rsBackupSel");
+    const complete = backupList.filter(b => b.status === "COMPLETE");
+    sel.innerHTML = complete.length
+      ? complete.map(b => `<option value="${esc(b.id)}">${esc(b.id)} — ${b.totalDocs ?? b.totalUsers ?? 0} docs</option>`).join("")
+      : `<option value="">No completed Firestore backups</option>`;
+    if (backupId) sel.value = backupId;
+
+    document.querySelector(`input[name=rsrc][value=${source || "firestore"}]`).checked = true;
+    document.querySelector("input[name=rscope][value=all]").checked = true;
+    document.getElementById("rsDocId").value = "";
+    document.getElementById("rsConfirm").value = "";
+    document.getElementById("rsFile").value = "";
+    document.getElementById("rsMode").value = "merge";
+    toggleRestoreSource();
+    toggleScope();
+    document.getElementById("modalBack").classList.add("active");
+  }
+  function closeRestore() { document.getElementById("modalBack").classList.remove("active"); }
+  function toggleRestoreSource() {
+    const v = document.querySelector("input[name=rsrc]:checked").value;
+    document.getElementById("rsFsBox").style.display = v === "firestore" ? "block" : "none";
+    document.getElementById("rsFileBox").style.display = v === "file" ? "block" : "none";
+  }
+  function toggleScope() {
+    const one = document.querySelector("input[name=rscope]:checked").value === "one";
+    document.getElementById("rsDocId").style.display = one ? "block" : "none";
+    document.getElementById("rsConfirmBox").style.display = one ? "none" : "block";
+  }
+
+  async function doRestore() {
+    if (running) return;
+    const src = document.querySelector("input[name=rsrc]:checked").value;
+    const cols = Array.from(document.querySelectorAll(".rsColChk:checked")).map(x => x.value);
+    const scopeOne = document.querySelector("input[name=rscope]:checked").value === "one";
+    const singleId = scopeOne ? document.getElementById("rsDocId").value.trim() : null;
+    const mode = document.getElementById("rsMode").value;
+
+    if (!cols.length) { alert("Select at least one collection."); return; }
+    if (scopeOne && !singleId) { alert("Enter the document ID to restore."); return; }
+    if (!scopeOne && document.getElementById("rsConfirm").value.trim() !== "RESTORE") {
+      alert('Type RESTORE in the confirmation box to restore all documents.'); return;
+    }
+
+    running = true;
+    const btn = document.getElementById("btnDoRestore");
+    btn.disabled = true;
+
+    try {
+      let dataset = {};
+      let passwordExcluded = false;
+
+      setProgress(5, "Reading backup source...");
+      if (src === "firestore") {
+        const id = document.getElementById("rsBackupSel").value;
+        const meta = backupList.find(b => b.id === id);
+        if (!meta) throw new Error("Select a Firestore backup.");
+        passwordExcluded = !!meta.passwordExcluded;
+        dataset = await loadBackupData(meta, cols, singleId);
+      } else {
+        const file = document.getElementById("rsFile").files[0];
+        if (!file) throw new Error("Choose the backup .json file from your computer.");
+        const parsed = JSON.parse(await readFileText(file));
+        if (!parsed || parsed.format !== FORMAT || !parsed.collections) {
+          throw new Error("Unsupported file. Use a file created by this page (format " + FORMAT + ").");
+        }
+        passwordExcluded = !!parsed.passwordExcluded;
+        cols.forEach(col => {
+          const entry = parsed.collections[col];
+          if (!entry) return;
+          const ids = singleId ? (entry.docs[singleId] ? [singleId] : []) : Object.keys(entry.docs);
+          dataset[col] = ids.map(id => ({ id, data: decodeVal(entry.docs[id]) }));
+        });
+      }
+
+      const summary = Object.keys(dataset).map(c => `${c}: ${dataset[c].length}`).join("\n");
+      const totalDocs = Object.keys(dataset).reduce((n, c) => n + dataset[c].length, 0);
+      if (totalDocs === 0) throw new Error("No matching documents found in the backup.");
+
+      let warn = "";
+      if (mode === "overwrite" && passwordExcluded && cols.includes(PROFILE) && dataset[PROFILE] && dataset[PROFILE].length) {
+        warn = "\n\n⚠ This backup excluded passwords. Overwrite mode will REMOVE the password field from restored profiles. Use Merge mode instead.";
+      }
+      if (!confirm(`Restore ${totalDocs} document(s) into LIVE Firestore using ${mode.toUpperCase()} mode?\n\n${summary}${warn}`)) {
+        setProgress(0, "Restore cancelled.");
+        return;
+      }
+
+      let done = 0;
+      for (const col of Object.keys(dataset)) {
+        const items = dataset[col];
+        for (let i = 0; i < items.length; i += BATCH) {
+          const batch = db.batch();
+          items.slice(i, i + BATCH).forEach(it => {
+            const ref = db.collection(col).doc(it.id);
+            if (mode === "merge") batch.set(ref, it.data, { merge: true });
+            else batch.set(ref, it.data);
+          });
+          await batch.commit();
+          done += Math.min(BATCH, items.length - i);
+          setProgress(10 + Math.round((done / totalDocs) * 90), `Restored ${done} / ${totalDocs} (${col})`);
+        }
+      }
+      log(`Restore from ${src} complete: ${totalDocs} docs (${mode}).`);
+      setProgress(100, `✅ Restore complete: ${totalDocs} documents.`);
+      closeRestore();
+      alert(`Restore complete: ${totalDocs} documents.`);
+      loadBackups();
+    } catch (e) {
+      console.error(e);
+      setProgress(0, "❌ Restore failed: " + e.message);
+      log("Restore FAILED: " + e.message);
+      alert("Restore failed: " + e.message);
+    } finally {
+      running = false;
+      btn.disabled = false;
+      hideProgress();
+    }
+  }
+
+  /* ================= init ================= */
+  window.addEventListener("DOMContentLoaded", async () => {
+    loadSettings();
+    await loadBackups();
+    autoCheck();
+    setInterval(autoCheck, 30 * 60 * 1000);
+  });
+</script>
+</body>
+</html>

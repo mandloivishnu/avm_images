@@ -1,0 +1,179 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "कक्षा 12वीं गणित - अध्याय 5 : सांतत्य तथा अवकलनीयता",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "फलन का सांतत्य एवं अवकलन के नियम (Quick Revision)",
+        "definition": "यदि किसी बिंदु x = a पर बायीं सीमा, दायीं सीमा तथा फलन का मान परस्पर बराबर हों (LHL = RHL = f(a)), तो फलन x = a पर संतत कहलाता है।",
+        "explanation": "प्रत्येक अवकलनीय फलन अनिवार्यतः संतत होता है, परन्तु इसका विलोम सदैव सत्य नहीं होता। श्रृंखला नियम (Chain rule), अस्पष्ट फलनों का अवकलन तथा चरघातांकी/लघुगणकीय अवकलन इसके मुख्य भाग हैं।",
+        "importantPoints": [
+          "सांतत्य की शर्त: lim(x→a⁻) f(x) = lim(x→a⁺) f(x) = f(a)",
+          "श्रृंखला नियम (Chain Rule): dy/dx = (dy/du) · (du/dx)",
+          "लघुगणकीय अवकलन: जब फलन चर की घात चर (u^v) रूप में हो, तो दोनों ओर log लेकर अवकलन करते हैं",
+          "प्रचलिक रूप: dy/dx = (dy/dt) / (dx/dt)",
+          "द्वितीय कोटि अवकलज: d²y/dx² = d/dx (dy/dx)",
+          "रोले तथा मध्यमान प्रमेय (MVT): f'(c) = (f(b) - f(a)) / (b - a)"
+        ],
+        "highlightWords": [
+          "सांतत्य (Continuity)",
+          "अवकलनीयता",
+          "श्रृंखला नियम",
+          "लघुगणकीय अवकलन",
+          "प्रचलिक रूप",
+          "द्वितीय कोटि अवकलज"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "बिंदु x = 0 पर फलन f(x) = |x| के सांतत्य की जाँच कीजिए।",
+          "correct_answer": "फलन f(x) = |x| = { -x (यदि x < 0), x (यदि x ≥ 0) }\n1. f(0) = 0\n2. LHL = lim(x→0⁻) f(x) = lim(h→0) |0 - h| = lim(h→0) h = 0\n3. RHL = lim(x→0⁺) f(x) = lim(h→0) |0 + h| = lim(h→0) h = 0\nचूँकि LHL = RHL = f(0) = 0 है, अतः फलन f(x) = |x|, x = 0 पर संतत है।",
+          "imgUrl": "",
+          "explanation": "LHL = RHL = f(0) = 0 (संतत)"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "क्या फलन f(x) = |x|, x = 0 पर अवकलनीय है? कारण दीजिए।",
+            "correct_answer": "नहीं, क्योंकि x = 0 पर बायाँ अवकलज (LHD) = -1 तथा दायाँ अवकलज (RHD) = +1 है। चूँकि LHD ≠ RHD, अतः यह x = 0 पर अवकलनीय नहीं है।",
+            "imgUrl": "",
+            "explanation": "LHD (-1) ≠ RHD (+1)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "k का मान ज्ञात कीजिए यदि फलन f(x) = { kx + 1 (यदि x ≤ 5), 3x - 5 (यदि x > 5) }, x = 5 पर संतत हो।",
+          "correct_answer": "चूँकि फलन x = 5 पर संतत है, अतः LHL = RHL = f(5)\n1. f(5) = k(5) + 1 = 5k + 1\n2. LHL = lim(x→5⁻) (kx + 1) = 5k + 1\n3. RHL = lim(x→5⁺) (3x - 5) = 3(5) - 5 = 15 - 5 = 10\nसांतत्य की शर्त से:\n5k + 1 = 10\n⇒ 5k = 9 ⇒ k = 9/5।",
+          "imgUrl": "",
+          "explanation": "5k + 1 = 10 ⇒ k = 9/5"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "यदि f(x) = { kx², x ≤ 2; 3, x > 2 }, x = 2 पर संतत हो, तो k का मान क्या होगा?",
+            "correct_answer": "f(2) = k(2)² = 4k तथा RHL = 3। सांतत्य से 4k = 3 ⇒ k = 3/4।",
+            "imgUrl": "",
+            "explanation": "4k = 3 ⇒ k = 3/4"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "y = sin(x² + 5) का x के सापेक्ष अवकलन ज्ञात कीजिए।",
+          "correct_answer": "श्रृंखला नियम (Chain rule) के प्रयोग से:\ndy/dx = d/dx [sin(x² + 5)]\n= cos(x² + 5) · d/dx (x² + 5)\n= cos(x² + 5) · (2x + 0)\n= 2x cos(x² + 5)।",
+          "imgUrl": "",
+          "explanation": "dy/dx = 2x cos(x² + 5)"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "y = e^(cos x) का dy/dx ज्ञात कीजिए।",
+            "correct_answer": "dy/dx = e^(cos x) · d/dx (cos x) = e^(cos x) · (-sin x) = -sin x · e^(cos x)।",
+            "imgUrl": "",
+            "explanation": "-sin x · e^(cos x)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि x = a cos θ तथा y = a sin θ हो, तो dy/dx ज्ञात कीजिए।",
+          "correct_answer": "प्रचलिक रूप का अवकलन:\n1. dx/dθ = d/dθ (a cos θ) = -a sin θ\n2. dy/dθ = d/dθ (a sin θ) = a cos θ\nअतः सूत्र dy/dx = (dy/dθ) / (dx/dθ) से:\ndy/dx = (a cos θ) / (-a sin θ) = -cos θ / sin θ = -cot θ।",
+          "imgUrl": "",
+          "explanation": "dy/dx = (a cos θ)/(-a sin θ) = -cot θ"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "यदि x = at² तथा y = 2at हो, तो dy/dx ज्ञात कीजिए।",
+            "correct_answer": "dx/dt = 2at तथा dy/dt = 2a।\ndy/dx = (dy/dt) / (dx/dt) = 2a / (2at) = 1/t।",
+            "imgUrl": "",
+            "explanation": "dy/dx = 2a/(2at) = 1/t"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "यदि y = x^x हो, तो dy/dx ज्ञात कीजिए।",
+          "correct_answer": "दोनों पक्षों का प्राकृतिक लघुगणक (log) लेने पर:\nlog y = log(x^x) = x log x\nx के सापेक्ष दोनों पक्षों का अवकलन करने पर:\n(1/y) · (dy/dx) = x · d/dx(log x) + log x · d/dx(x)\n(1/y) · (dy/dx) = x · (1/x) + log x · (1)\n(1/y) · (dy/dx) = 1 + log x\n⇒ dy/dx = y (1 + log x)\ny का मान प्रतिस्थापित करने पर:\ndy/dx = x^x (1 + log x)।",
+          "imgUrl": "",
+          "explanation": "dy/dx = x^x (1 + log x)"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "यदि y = x³ + tan x हो, तो d²y/dx² ज्ञात कीजिए।",
+            "correct_answer": "प्रथम अवकलज: dy/dx = 3x² + sec² x\nद्वितीय अवकलज: d²y/dx² = d/dx(3x²) + d/dx(sec² x) = 6x + 2 sec x · (sec x tan x) = 6x + 2 sec² x tan x।",
+            "imgUrl": "",
+            "explanation": "d²y/dx² = 6x + 2 sec² x tan x"
+          }
+        ]
+      }
+    }
+  ]
+}

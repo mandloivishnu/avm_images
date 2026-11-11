@@ -1,0 +1,178 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "भौतिक विज्ञान - अध्याय 7 : प्रत्यावर्ती धारा",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "त्वरित पुनरावृत्ति (Quick Revision)",
+      "definitionBean": {
+        "title": "प्रत्यावर्ती परिपथ एवं युक्तियाँ (Quick Revision)",
+        "definition": "ऐसी धारा जिसका मान और दिशा समय के साथ आवर्ती रूप से परिवर्तित होते हैं, प्रत्यावर्ती धारा (AC) कहलाती है।",
+        "explanation": "प्रत्यावर्ती परिपथों में धारा का RMS मान प्रभावी मान होता है। शक्ति गुणांक ऊर्जा ह्रास को निर्धारित करता है, तथा ट्रांसफॉर्मर अन्योन्य प्रेरण से वोल्टेज परिवर्तन करता है।",
+        "importantPoints": [
+          "तात्कालिक मान: I = I₀ sin ωt",
+          "RMS मान: Irms = I₀ / √2",
+          "शक्ति गुणांक: cos φ = R / Z",
+          "अनुनाद अवस्था: XL = XC",
+          "अनुनादी आवृत्ति: f₀ = 1 / (2π√LC)",
+          "ट्रांसफॉर्मर अनुपात: Vs / Vp = Ns / Np (पारस्परिक प्रेरण)"
+        ],
+        "highlightWords": [
+          "प्रत्यावर्ती धारा",
+          "RMS मान",
+          "शक्ति गुणांक",
+          "अनुनाद",
+          "ट्रांसफॉर्मर"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "प्रत्यावर्ती धारा किसे कहते हैं?",
+          "correct_answer": "वह विद्युत धारा जिसका परिमाण तथा दिशा समय के साथ आवर्ती रूप से बदलते रहते हैं, प्रत्यावर्ती धारा कहलाती हैं। सूत्र : I = I₀ sin ωt।",
+          "imgUrl": "",
+          "explanation": "सूत्र : I = I₀ sin ωt"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "प्रत्यावर्ती धारा का तात्कालिक समीकरण लिखिए।",
+            "correct_answer": "I = I₀ sin ωt (जहाँ I₀ शिखर मान तथा ω कोणीय आवृत्ति है)।",
+            "imgUrl": "",
+            "explanation": "I = I₀ sin ωt"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "प्रत्यावर्ती धारा का वर्ग माध्य मूल (RMS) मान क्या है?",
+          "correct_answer": "प्रत्यावर्ती धारा के एक पूर्ण चक्र में धारा के वर्गों के माध्य के वर्गमूल को उसका RMS मान कहते हैं। सूत्र : Irms = I₀ / √2।",
+          "imgUrl": "",
+          "explanation": "सूत्र : Irms = I₀ / √2"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "प्रत्यावर्ती धारा के शिखर मान (I₀) और RMS मान (Irms) में क्या संबंध है?",
+            "correct_answer": "Irms = I₀ / √2।",
+            "imgUrl": "",
+            "explanation": "संबंध : Irms = I₀ / √2"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "शक्ति गुणांक (Power Factor) क्या है?",
+          "correct_answer": "प्रत्यावर्ती परिपथ में वोल्टेज तथा धारा के बीच कालांतर φ के कोसाइन को शक्ति गुणांक कहते हैं। सूत्र : cos φ = R / Z।",
+          "imgUrl": "",
+          "explanation": "सूत्र : cos φ = R / Z"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "शक्ति गुणांक का सूत्र प्रतिरोध और प्रतिबाधा के पदों में लिखिए।",
+            "correct_answer": "cos φ = R / Z (जहाँ R प्रतिरोध तथा Z प्रतिबाधा है)।",
+            "imgUrl": "",
+            "explanation": "cos φ = R / Z"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "अनुनाद क्या है?",
+          "correct_answer": "श्रेणीबद्ध LCR परिपथ में जब प्रेरणिक प्रतिघात तथा धारितीय प्रतिघात बराबर हो जाते हैं, तो परिपथ की अवस्था अनुनाद कहलाती है। सूत्र : XL = XC तथा अनुनादी आवृत्ति : f₀ = 1 / (2π√LC)।",
+          "imgUrl": "",
+          "explanation": "सूत्र : XL = XC\nअनुनादी आवृत्ति : f₀ = 1 / (2π√LC)"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "श्रेणी LCR परिपथ में अनुनादी आवृत्ति का सूत्र लिखिए।",
+            "correct_answer": "f₀ = 1 / (2π√LC)।",
+            "imgUrl": "",
+            "explanation": "f₀ = 1 / (2π√LC)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "बोर्ड परीक्षा आधारित प्रश्न",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "ट्रांसफॉर्मर क्या हैं?",
+          "correct_answer": "ट्रांसफॉर्मर एक ऐसी विद्युत युक्ति है, जो पारस्परिक प्रेरण के सिद्धांत पर प्रत्यावर्ती वोल्टेज को बढ़ाती या घटाती है। सूत्र : Vs / Vp = Ns / Np।",
+          "imgUrl": "",
+          "explanation": "सूत्र : Vs / Vp = Ns / Np"
+        }
+      ],
+      "or_option": {
+        "text": "अथवा",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "ट्रांसफॉर्मर किस सिद्धांत पर कार्य करता है?",
+            "correct_answer": "ट्रांसफॉर्मर पारस्परिक प्रेरण (Mutual Induction) के सिद्धांत पर कार्य करता है।",
+            "imgUrl": "",
+            "explanation": "पारस्परिक प्रेरण का सिद्धांत"
+          }
+        ]
+      }
+    }
+  ]
+}
