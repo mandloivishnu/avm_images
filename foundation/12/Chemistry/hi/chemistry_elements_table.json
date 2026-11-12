@@ -1,0 +1,23 @@
+{
+  "paper_details": {
+    "paperYear": "2026-27",
+    "subjectName": "Chemistry - Periodic Table (Indian Tricks)",
+    "totalMarks": "1",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "BLUEPRINT",
+      "marks": "",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "statement": "",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation/12/Chemistry/hi/periodic_table_indian_tricks_android.html"
+        }
+      ]
+    }
+  ]
+}
