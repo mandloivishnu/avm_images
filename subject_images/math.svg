@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Maths</title>
+  <rect width="128" height="128" rx="28" fill="#F76707"/>
+  <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M34 28v24M22 40h24"/>
+    <path d="M82 40h24"/>
+    <path d="M24 88l20 20M44 88L24 108"/>
+    <path d="M82 98h24"/>
+  </g>
+  <circle cx="94" cy="86" r="4" fill="#FFFFFF"/><circle cx="94" cy="110" r="4" fill="#FFFFFF"/>
+  <path d="M64 12v104M12 64h104" stroke="#FFFFFF" stroke-width="2" opacity=".35"/>
+</svg>

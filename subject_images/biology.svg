@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Biology</title>
+  <rect width="128" height="128" rx="28" fill="#2F9E44"/>
+  <g stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none">
+    <path d="M44 20C44 48 84 48 84 64S44 80 44 108"/>
+    <path d="M84 20C84 48 44 48 44 64S84 80 84 108"/>
+    <path d="M52 34h24M48 48h32M48 80h32M52 94h24" stroke-width="4" opacity=".9"/>
+  </g>
+  <circle cx="64" cy="64" r="0" fill="#FFFFFF"/>
+</svg>

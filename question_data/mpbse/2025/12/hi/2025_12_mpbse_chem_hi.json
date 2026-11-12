@@ -31,82 +31,153 @@
           "q_id": "i",
           "statement": "दो या दो से अधिक अवयवों का समांगी मिश्रण है –",
           "options": [
-            { "index": "a", "text": "विलयन" },
-            { "index": "b", "text": "द्रव विलेय" },
-            { "index": "c", "text": "द्रव विलायक" },
-            { "index": "d", "text": "विलायक" }
+            {
+              "index": "a",
+              "text": "विलयन"
+            },
+            {
+              "index": "b",
+              "text": "द्रव विलेय"
+            },
+            {
+              "index": "c",
+              "text": "द्रव विलायक"
+            },
+            {
+              "index": "d",
+              "text": "विलायक"
+            }
           ],
-          "correct_answer": "a",
-          "correct_answer_text": "विलयन",
-          "explanation": "सही विकल्प (a) है।\n\nकारण:\nदो या दो से अधिक घटकों के समांगी मिश्रण को विलयन (Solution) कहते हैं।"
+          "correct_index": "a",
+          "correct_answer": "विलयन",
+          "explanation": "दो या दो से अधिक घटकों के समांगी मिश्रण को विलयन (Solution) कहते हैं।"
         },
         {
           "q_id": "ii",
           "statement": "वेग = K[A]^(1/2) [B]^(3/2) व्यंजक में अभिक्रिया की समग्र कोटि है –",
           "options": [
-            { "index": "a", "text": "4" },
-            { "index": "b", "text": "3" },
-            { "index": "c", "text": "2" },
-            { "index": "d", "text": "1" }
+            {
+              "index": "a",
+              "text": "4"
+            },
+            {
+              "index": "b",
+              "text": "3"
+            },
+            {
+              "index": "c",
+              "text": "2"
+            },
+            {
+              "index": "d",
+              "text": "1"
+            }
           ],
-          "correct_answer": "c",
-          "correct_answer_text": "2",
-          "explanation": "सही विकल्प (c) है।\n\nकारण:\nसमग्र अभिक्रिया कोटि = अभिकारकों की घातों का योग = 1/2 + 3/2 = 4/2 = 2।"
+          "correct_index": "c",
+          "correct_answer": "2",
+          "explanation": "समग्र अभिक्रिया कोटि = अभिकारकों की घातों का योग = 1/2 + 3/2 = 4/2 = 2।"
         },
         {
           "q_id": "iii",
           "statement": "संक्रमण तत्व है –",
           "options": [
-            { "index": "a", "text": "सोडियम" },
-            { "index": "b", "text": "पोटैशियम" },
-            { "index": "c", "text": "टाइटेनियम" },
-            { "index": "d", "text": "सीजियम" }
+            {
+              "index": "a",
+              "text": "सोडियम"
+            },
+            {
+              "index": "b",
+              "text": "पोटैशियम"
+            },
+            {
+              "index": "c",
+              "text": "टाइटेनियम"
+            },
+            {
+              "index": "d",
+              "text": "सीजियम"
+            }
           ],
-          "correct_answer": "c",
-          "correct_answer_text": "टाइटेनियम",
-          "explanation": "सही विकल्प (c) है।\n\nकारण:\nटाइटेनियम (Ti, Z = 22) d-ब्लॉक का तत्व है, जिसका d-उपकोश अपूर्ण होता है। अतः यह संक्रमण तत्व है।"
+          "correct_index": "c",
+          "correct_answer": "टाइटेनियम",
+          "explanation": "टाइटेनियम (Ti, Z = 22) d-ब्लॉक का तत्व है, जिसका d-उपकोश अपूर्ण होता है। अतः यह संक्रमण तत्व है।"
         },
         {
           "q_id": "iv",
           "statement": "बेन्जैल्डिहाइड है –",
           "options": [
-            { "index": "a", "text": "C₆H₅OH" },
-            { "index": "b", "text": "C₆H₄(CHO)(OH)" },
-            { "index": "c", "text": "C₆H₅CHO" },
-            { "index": "d", "text": "C₆H₆CHO" }
+            {
+              "index": "a",
+              "text": "C₆H₅OH"
+            },
+            {
+              "index": "b",
+              "text": "C₆H₄(CHO)(OH)"
+            },
+            {
+              "index": "c",
+              "text": "C₆H₅CHO"
+            },
+            {
+              "index": "d",
+              "text": "C₆H₆CHO"
+            }
           ],
-          "correct_answer": "c",
-          "correct_answer_text": "C₆H₅CHO",
-          "explanation": "सही विकल्प (c) है।\n\nकारण:\nबेन्जीन वलय से जुड़े ऐल्डिहाइड समूह वाले यौगिक (C₆H₅CHO) को बेन्जैल्डिहाइड कहते हैं।"
+          "correct_index": "c",
+          "correct_answer": "C₆H₅CHO",
+          "explanation": "बेन्जीन वलय से जुड़े ऐल्डिहाइड समूह वाले यौगिक (C₆H₅CHO) को बेन्जैल्डिहाइड कहते हैं।"
         },
         {
           "q_id": "v",
           "statement": "ऐथेन-1, 2-डाइऐमीन है –",
           "options": [
-            { "index": "a", "text": "H₂N–CH₂–CH₂–NH₂" },
-            { "index": "b", "text": "CH₃NHCH₂CH₃" },
-            { "index": "c", "text": "H₂N–CH₂–NH–CH₃" },
-            { "index": "d", "text": "CH₃NHCH₂CH₂CH₃" }
+            {
+              "index": "a",
+              "text": "H₂N–CH₂–CH₂–NH₂"
+            },
+            {
+              "index": "b",
+              "text": "CH₃NHCH₂CH₃"
+            },
+            {
+              "index": "c",
+              "text": "H₂N–CH₂–NH–CH₃"
+            },
+            {
+              "index": "d",
+              "text": "CH₃NHCH₂CH₂CH₃"
+            }
           ],
-          "correct_answer": "a",
-          "correct_answer_text": "H₂N–CH₂–CH₂–NH₂",
-          "explanation": "सही विकल्प (a) है।\n\nकारण:\nदो कार्बन की श्रृंखला पर पहले और दूसरे कार्बन पर ऐमीनो समूह जुड़ा होने से इसका सूत्र H₂N–CH₂–CH₂–NH₂ होता है।"
+          "correct_index": "a",
+          "correct_answer": "H₂N–CH₂–CH₂–NH₂",
+          "explanation": "दो कार्बन की श्रृंखला पर पहले और दूसरे कार्बन पर ऐमीनो समूह जुड़ा होने से इसका सूत्र H₂N–CH₂–CH₂–NH₂ होता है।"
         },
         {
           "q_id": "vi",
           "statement": "कोशिकाओं के मध्य संदेश वाहक का कार्य करते हैं –",
           "options": [
-            { "index": "a", "text": "DNA" },
-            { "index": "b", "text": "RNA" },
-            { "index": "c", "text": "हार्मोन" },
-            { "index": "d", "text": "एन्जाइम" }
+            {
+              "index": "a",
+              "text": "DNA"
+            },
+            {
+              "index": "b",
+              "text": "RNA"
+            },
+            {
+              "index": "c",
+              "text": "हार्मोन"
+            },
+            {
+              "index": "d",
+              "text": "एन्जाइम"
+            }
           ],
-          "correct_answer": "c",
-          "correct_answer_text": "हार्मोन",
-          "explanation": "सही विकल्प (c) है।\n\nकारण:\nहार्मोन अंतरकोशिकीय संदेशवाहक (intercellular messengers) के रूप में कार्य करते हैं।"
+          "correct_index": "c",
+          "correct_answer": "हार्मोन",
+          "explanation": "हार्मोन अंतरकोशिकीय संदेशवाहक (intercellular messengers) के रूप में कार्य करते हैं।"
         }
-      ],
-      "explanation": "कक्षा 12 रसायनशास्त्र NCERT पाठ्यक्रम पर आधारित बहुविकल्पीय प्रश्न।"
+      ]
     },
     {
       "question_number": "2",
@@ -214,36 +285,31 @@
           {
             "a_item": "(i) सिलिकन",
             "b_item": "(b) अर्द्धचालक",
-            "correct_match_index": "2",
-            "explanation": "सिलिकन एक प्रसिद्ध अर्धचालक (Semiconductor) तत्व है।"
+            "correct_match_index": "2"
           },
           {
             "a_item": "(ii) K₄[Fe(CN)₆]",
             "b_item": "(e) प्रतिआयन",
-            "correct_match_index": "5",
-            "explanation": "K₄[Fe(CN)₆] में K⁺ आयन समन्वय मण्डल के बाहर प्रतिआयन (Counter ion) के रूप में उपस्थित हैं।"
+            "correct_match_index": "5"
           },
           {
             "a_item": "(iii) ल्यूकास अभिकर्मक",
             "b_item": "(d) सांद्र HCl एवं ZnCl₂",
-            "correct_match_index": "4",
-            "explanation": "सांद्र HCl तथा निर्जल ZnCl₂ के 1:1 मिश्रण को ल्यूकास अभिकर्मक कहते हैं।"
+            "correct_match_index": "4"
           },
           {
             "a_item": "(iv) फॉर्मिक अम्ल",
             "b_item": "(c) लाल चींटियाँ",
-            "correct_match_index": "3",
-            "explanation": "फॉर्मिक अम्ल (HCOOH) लाल चींटियों (Formica) के डंक में पाया जाता है।"
+            "correct_match_index": "3"
           },
           {
             "a_item": "(v) मोनोसैकेराइड",
             "b_item": "(a) अपचायी शर्करा",
-            "correct_match_index": "1",
-            "explanation": "सभी मोनोसैकेराइड्स (ग्लूकोज, फ्रक्टोज आदि) अपचायी शर्करा (Reducing sugars) होते हैं।"
+            "correct_match_index": "1"
           }
         ]
       },
-      "explanation": "स्तम्भ (अ) का स्तम्भ (ब) से उपयुक्त मिलान।"
+      "explanation": "स्तम्भ (अ) का स्तम्भ (ब) से उपयुक्त मिलान।\n\n(i) सिलिकन ⟶ (b) अर्द्धचालक\nकारण: सिलिकन एक प्रसिद्ध अर्धचालक (Semiconductor) तत्व है।\n\n(ii) K₄[Fe(CN)₆] ⟶ (e) प्रतिआयन\nकारण: K₄[Fe(CN)₆] में K⁺ आयन समन्वय मण्डल के बाहर प्रतिआयन (Counter ion) के रूप में उपस्थित हैं।\n\n(iii) ल्यूकास अभिकर्मक ⟶ (d) सांद्र HCl एवं ZnCl₂\nकारण: सांद्र HCl तथा निर्जल ZnCl₂ के 1:1 मिश्रण को ल्यूकास अभिकर्मक कहते हैं।\n\n(iv) फॉर्मिक अम्ल ⟶ (c) लाल चींटियाँ\nकारण: फॉर्मिक अम्ल (HCOOH) लाल चींटियों (Formica) के डंक में पाया जाता है।\n\n(v) मोनोसैकेराइड ⟶ (a) अपचायी शर्करा\nकारण: सभी मोनोसैकेराइड्स (ग्लूकोज, फ्रक्टोज आदि) अपचायी शर्करा (Reducing sugars) होते हैं।"
     },
     {
       "question_number": "5",
@@ -288,7 +354,7 @@
       "question_number": "6",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "संक्षारण की परिभाषा लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -314,7 +380,7 @@
       "question_number": "7",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "प्राथमिक अभिक्रियाएँ क्या हैं? लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -340,7 +406,7 @@
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "अंतराकाशी यौगिकों के कोई दो अभिलक्षण लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -366,7 +432,7 @@
       "question_number": "9",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "होमोलेप्टिक संकुल को एक उदाहरण सहित लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -392,7 +458,7 @@
       "question_number": "10",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "निम्नलिखित उपसहसंयोजन यौगिकों के सूत्र लिखिए :\n(i) पोटैशियम टेट्रासायनिडोनिकैलेट (II)\n(ii) पेन्टाऐम्मीनकार्बोनेटोकोबाल्ट (III) क्लोराइड",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -418,7 +484,7 @@
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "निम्नलिखित रासायनिक अभिक्रियाओं के मुख्य मोनोहैलो उत्पाद की संरचना लिखिए :",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -444,7 +510,7 @@
       "question_number": "12",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "विटामिन A के कोई चार प्रमुख स्रोतों के नाम लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -470,7 +536,7 @@
       "question_number": "13",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "अभिक्रिया की आण्विकता के कोई तीन निष्कर्ष या अभिलक्षण लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -496,7 +562,7 @@
       "question_number": "14",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "संक्रमण तत्व कणन एन्थैल्पी के उच्च मान क्यों दर्शाते हैं, लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -522,7 +588,7 @@
       "question_number": "15",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "डाइक्लोरोमेथेन (मेथिलीन क्लोराइड) के मनुष्य पर पड़ने वाले कोई तीन प्रभाव लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -548,7 +614,7 @@
       "question_number": "16",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "डाइऐजोकरण क्या है? डाइऐजोनियम लवण का भण्डारण क्यों नहीं किया जाता है ? डाइऐजोकरण का रासायनिक समीकरण लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -574,7 +640,7 @@
       "question_number": "17",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "क्वथनांक में उन्नयन को परिभाषित कीजिए एवं इसके आधार पर विलेय के मोलर द्रव्यमान निर्धारण के लिए गणितीय व्यंजक की व्युत्पत्ति कीजिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -600,7 +666,7 @@
       "question_number": "18",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "CuSO₄ के विलयन को 1.5 एम्पियर की धारा से 10 मिनट तक वैद्युत अपघटित किया गया। कैथोड पर निक्षेपित कॉपर का द्रव्यमान परिकलित कर लिखिए।",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -626,7 +692,7 @@
       "question_number": "19",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "निम्नलिखित अभिक्रियाओं को पूर्ण कीजिए :\n(i) CH₃–CH₂–CH₂–O–CH₃ + HBr ⟶\n(ii) C₆H₅OH + Zn ⟶\n(iii) CH₃–CH=CH₂ + H₂O/H⁺ ⟶\n(iv) C₆H₅OH + सांद्र HNO₃ ⟶",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -652,7 +718,7 @@
       "question_number": "20",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "निम्नलिखित अभिक्रियाओं को रासायनिक समीकरण सहित लिखिए :\n(i) गाटरमान-कॉख अभिक्रिया\n(ii) ईटार्ड अभिक्रिया",
+      "text": "",
       "parts": [
         {
           "q_id": "",

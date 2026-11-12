@@ -5,7 +5,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
-BASE_URL="https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@dev/foundation"
+BASE_URL="https://purge.jsdelivr.net/gh/mandloivishnu/avm_images@master/foundation"
 
 FOLDERS=(
   "12/Maths/hi"
@@ -40,7 +40,7 @@ for folder in "${FOLDERS[@]}"; do
         echo "Purging: $filename"
 
         HTTP_CODE=$(curl -s -X GET "$API_URL/$filename" \
-            -o /dev/null \
+            -o /master/null \
             -w "%{http_code}")
 
         if [[ "$HTTP_CODE" == "200" ]]; then

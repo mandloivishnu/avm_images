@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AVM Question JSON Verifier</title>
+<style>
+:root{--bg:#f4f6f9;--card:#fff;--bd:#dde2ea;--tx:#1d2433;--mu:#667085;--ok:#1b7f3b;--okbg:#e6f4ea;--er:#c0262d;--erbg:#fdeaea;--wa:#9a6700;--wabg:#fff4d6;--in:#1a56c4;--inbg:#e7f0ff;--ac:#3b5bdb}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+header{background:#1f2a44;color:#fff;padding:14px 20px}
+header h1{margin:0;font-size:18px}
+header p{margin:2px 0 0;color:#b9c4e0;font-size:13px}
+main{max-width:1100px;margin:0 auto;padding:16px}
+.panel{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:14px;margin-bottom:14px}
+.drop{border:2px dashed #aab4c8;border-radius:10px;padding:22px;text-align:center;color:var(--mu);cursor:pointer}
+.drop.over{background:#eef2ff;border-color:var(--ac)}
+button,.btn{background:var(--ac);color:#fff;border:0;border-radius:6px;padding:7px 14px;font-size:14px;cursor:pointer}
+button.sec{background:#e9edf5;color:var(--tx)}
+button.sec.on{background:#1f2a44;color:#fff}
+details summary{cursor:pointer;color:var(--mu);font-size:13px}
+textarea{width:100%;min-height:70px;font:12px monospace;border:1px solid var(--bd);border-radius:6px;padding:6px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.pill{padding:3px 10px;border-radius:99px;font-size:13px;font-weight:600}
+.pill.er{background:var(--erbg);color:var(--er)}.pill.wa{background:var(--wabg);color:var(--wa)}.pill.ok{background:var(--okbg);color:var(--ok)}.pill.in{background:var(--inbg);color:var(--in)}
+.q{background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--ok);border-radius:10px;margin-bottom:12px}
+.q.er{border-left-color:var(--er)}.q.wa{border-left-color:#e0a100}
+.qh{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;cursor:pointer;gap:10px}
+.qh b{font-size:14px}.qh small{color:var(--mu)}
+.qb{display:none;padding:0 14px 14px;border-top:1px solid var(--bd)}
+.q.open .qb{display:block}
+.iss{list-style:none;padding:0;margin:10px 0}
+.iss li{padding:5px 9px;border-radius:6px;margin-bottom:4px;font-size:13px}
+.iss li.error{background:var(--erbg);color:var(--er)}.iss li.warn{background:var(--wabg);color:var(--wa)}.iss li.info{background:var(--inbg);color:var(--in)}
+.iss code{font-size:12px;background:rgba(0,0,0,.06);padding:1px 4px;border-radius:3px}
+.phone{max-width:460px;border:1px solid #c9d0dc;border-radius:12px;padding:12px;background:#fff}
+.phone h4{margin:0 0 6px;font-size:15px}.marks{float:right;color:var(--mu);font-size:13px}
+.part{margin:10px 0;padding:8px 0;border-top:1px dashed var(--bd)}
+.opt{display:block;padding:6px 10px;margin:4px 0;border:1px solid #ccd3df;border-radius:6px;cursor:pointer}
+.opt.c{border-color:var(--ok);background:var(--okbg);color:var(--ok)}.opt.w{border-color:var(--er);background:var(--erbg);color:var(--er)}
+.row{display:flex;gap:6px}.row>*{flex:1}
+.cell{padding:8px;border:1px solid #ccd3df;border-radius:6px;margin:3px 0;cursor:pointer;background:#f3f3f3}
+.cell.sel{background:#d0e8ff}.cell.hd{background:#d9d9d9;font-weight:700;text-align:center;cursor:default}
+.shake{animation:sh .4s}@keyframes sh{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.exp{color:var(--in);font-size:13px;cursor:pointer;text-decoration:underline;margin-top:4px;display:inline-block}
+.exptext{background:#f6f8fb;padding:6px 8px;border-radius:6px;font-size:13px;margin-top:4px}
+.good{color:#1b5e20}.bad{color:#c62828}
+.hl{font-weight:700;color:#0000ff}
+pre{background:#f6f8fb;padding:8px;border-radius:6px;overflow:auto;font-size:12px;max-height:260px}
+.tf button{margin-right:8px}
+iframe{width:100%;height:220px;border:1px solid var(--bd);border-radius:6px}
+.mu{color:var(--mu);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>AVM Question JSON Verifier</h1>
+  <p>Mirrors UserClassAdapter + ViewHolders: shows what will crash, what will silently disappear, and how each question renders.</p>
+</header>
+<main>
+  <div class="panel">
+    <div class="drop" id="drop">Drop a .json file here or <span style="color:var(--ac);font-weight:600">click to choose</span>
+      <input type="file" id="file" accept=".json,application/json" hidden>
+    </div>
+    <div class="mu" id="fname" style="margin-top:6px"></div>
+    <details style="margin-top:8px"><summary>Advanced: questionType mapping / list key</summary>
+      <p class="mu">If your <code>ViewTypes</code> constants have different string values than their names (e.g. <code>MULTIPLE_CHOICE = "mcq"</code>), add overrides here as JSON: <code>{"mcq":"MULTIPLE_CHOICE"}</code>. Matching is case-insensitive.</p>
+      <textarea id="typemap" placeholder='{"mcq":"MULTIPLE_CHOICE","tf":"TRUE_FALSE"}'></textarea>
+      <p class="mu">If the root of your JSON is an object, the list of questions is auto-detected (first array of objects). Override the key name:</p>
+      <input id="listkey" placeholder="e.g. questions" style="padding:5px;border:1px solid var(--bd);border-radius:6px">
+      <button class="sec" id="rerun" style="margin-left:6px">Re-run</button>
+    </details>
+  </div>
+  <div id="out"></div>
+</main>
+
+<script>
+const TYPES = ['FILL_BLANK','MULTIPLE_CHOICE','TRUE_FALSE','MATCH_COLUMN','DESCRIPTIVE','EXPLANATION_STANZA','UNSEEN_PASSAGE','VISUAL_COMPOSITION','ESSAY_OUTLINE','LETTER_ESSAY','ONE_WORD_SENTENCE','QUICK_REVISION','BLUE_PRINT'];
+const norm = s => String(s).trim().toUpperCase().replace(/[^A-Z0-9\u0900-\u097F]+/g,'_');
+const isNull = v => v == null || (typeof v === 'string' && v.trim() === '');
+const isArr = Array.isArray;
+const sameText = (a,b) => String(a ?? '').trim().toLowerCase() === String(b ?? '').trim().toLowerCase(); // best guess for HelperUtility.isSameText
+const isHttp = u => typeof u === 'string' && /^https?:\/\//i.test(u.trim());
+
+function h(tag, attrs, ...kids){
+  const e = document.createElement(tag);
+  for (const [k,v] of Object.entries(attrs||{})){
+    if (k==='class') e.className=v; else if (k.startsWith('on')) e.addEventListener(k.slice(2),v); else e.setAttribute(k,v);
+  }
+  kids.flat().forEach(c => e.append(c instanceof Node ? c : document.createTextNode(c ?? '')));
+  return e;
+}
+
+/* ---------------- loading ---------------- */
+let RAW = null;
+const drop = document.getElementById('drop'), fileIn = document.getElementById('file');
+drop.onclick = () => fileIn.click();
+drop.ondragover = e => { e.preventDefault(); drop.classList.add('over'); };
+drop.ondragleave = () => drop.classList.remove('over');
+drop.ondrop = e => { e.preventDefault(); drop.classList.remove('over'); if (e.dataTransfer.files[0]) load(e.dataTransfer.files[0]); };
+fileIn.onchange = () => fileIn.files[0] && load(fileIn.files[0]);
+document.getElementById('rerun').onclick = () => RAW != null && run(RAW);
+
+function load(f){
+  document.getElementById('fname').textContent = f.name + ' (' + (f.size/1024).toFixed(1) + ' KB)';
+  const r = new FileReader();
+  r.onload = () => {
+    let txt = r.result;
+    if (txt.charCodeAt(0) === 0xFEFF) txt = txt.slice(1);
+    try { RAW = JSON.parse(txt); run(RAW); }
+    catch(e){
+      RAW = null;
+      const m = /position (\d+)/.exec(e.message);
+      let ctx = '';
+      if (m){ const p=+m[1]; const line = txt.slice(0,p).split('\n').length; ctx = ` (line ${line}: …${txt.slice(Math.max(0,p-40),p+40).replace(/\n/g,' ')}…)`; }
+      out(h('div',{class:'panel'}, h('b',{class:'bad'},'Invalid JSON — Gson parse will fail. '), e.message + ctx));
+    }
+  };
+  r.readAsText(f, 'UTF-8');
+}
+const outEl = document.getElementById('out');
+function out(...n){ outEl.replaceChildren(...n); }
+
+function findList(root){
+  const key = document.getElementById('listkey').value.trim();
+  if (isArr(root)) return {list:root, where:'root array'};
+  if (root && typeof root==='object'){
+    if (key && isArr(root[key])) return {list:root[key], where:`"${key}"`};
+    for (const [k,v] of Object.entries(root)) if (isArr(v) && v.length && typeof v[0]==='object') return {list:v, where:`"${k}"`};
+    for (const [k,v] of Object.entries(root)) if (v && typeof v==='object' && !isArr(v)){ const r=findList(v); if (r) return {list:r.list, where:`"${k}" → ${r.where}`}; }
+  }
+  return null;
+}
+
+/* ---------------- validation ---------------- */
+function resolveType(qt){
+  if (qt == null) return null;
+  let map = {};
+  try { const t = document.getElementById('typemap').value.trim(); if (t) for (const [k,v] of Object.entries(JSON.parse(t))) map[norm(k)] = norm(v); } catch(e){}
+  const n = norm(qt);
+  if (map[n]) return map[n];
+  const BUILTIN = {FILL_IN_THE_BLANK:'FILL_BLANK',FILL_IN_THE_BLANKS:'FILL_BLANK',FILL_BLANKS:'FILL_BLANK',MCQ:'MULTIPLE_CHOICE',MATCH_THE_COLUMN:'MATCH_COLUMN',MATCH_THE_COLUMNS:'MATCH_COLUMN',TRUE_OR_FALSE:'TRUE_FALSE',STANZA:'EXPLANATION_STANZA',PASSAGE:'UNSEEN_PASSAGE',ESSAY:'ESSAY_OUTLINE',LETTER:'LETTER_ESSAY'};
+  if (BUILTIN[n]) return BUILTIN[n];
+  return TYPES.includes(n) ? n : null;
+}
+
+/* JSON files use snake_case; the validator reads camelCase. Add aliases (originals kept). */
+const ALIASES = {question_type:'questionType',question_number:'questionNumber',or_option:'orOption',essay_topics:'essayTopics',definition_bean:'definitionBean',highlight_words:'highlightWords',important_points:'importantPoints',real_life_examples:'realLifeExamples',svg_url:'svgUrl',json_animation_url:'jsonAnimationUrl',image_url:'imageUrl',img_url:'imgUrl',previous_years_details:'previousYearsDetails'};
+function alias(o){
+  if (isArr(o)) return o.map(alias);
+  if (o && typeof o==='object'){
+    const r={};
+    for (const [k,v] of Object.entries(o)) r[k]=alias(v);
+    for (const [k,v] of Object.entries(o)) if (ALIASES[k] && !(ALIASES[k] in r)) r[ALIASES[k]]=r[k];
+    return r;
+  }
+  return o;
+}
+
+function validate(q, idx){
+  const issues = [];
+  const add = (level, path, msg) => issues.push({level, path, msg});
+  const E = (p,m)=>add('error',p,m), W=(p,m)=>add('warn',p,m), I=(p,m)=>add('info',p,m);
+
+  if (q == null || typeof q !== 'object'){ E('(item)','Item is null / not an object → adapter returns an invisible empty row.'); return {issues,type:null}; }
+  const type = resolveType(q.questionType);
+  if (q.questionType == null) E('questionType','Missing → empty invisible row (note: adapter null-check uses && so a null item would NPE, but a null type falls to default).');
+  else if (type && norm(q.questionType)!==type) W('questionType',`"${q.questionType}" is not an exact ViewTypes name; the validator treated it as ${type}. In the app, Gson maps enum values by exact constant name (or @SerializedName). If ViewTypes has no matching name/@SerializedName for "${q.questionType}", questionType becomes null and the row is INVISIBLE. Confirm, or change the JSON to "${type}".`);
+  else if (!type) E('questionType',`"${q.questionType}" doesn't match any ViewTypes constant → falls to default: invisible empty view. Known: ${TYPES.join(', ')}. (Use the mapping box if your enum values differ.)`);
+
+  if (type && type !== 'QUICK_REVISION'){
+    if (isNull(q.questionNumber)) W('questionNumber','Missing → title shows "null) …" for types that concatenate it directly (not Descriptive/Essay-safe).');
+    if (isNull(q.text)) W('text','Missing → title shows "…) null".');
+  }
+  if (type && !['QUICK_REVISION','ESSAY_OUTLINE'].includes(type)){
+    if (q.marks == null) W('marks', 'Missing → marks label empty' + (type==='DESCRIPTIVE'?' (hidden)':'')+'.');
+    else if (typeof q.marks !== 'string') E('marks',`Is ${typeof q.marks}. If the Java field is String, Gson coerces it; but if it's int, tvMarks.setText(int) looks up a resource ID and CRASHES. Use a string like "2".`);
+  }
+
+  const parts = (p, path, {needOptions=false, needStmt=true}={}) => {
+    if (!isArr(p)){ E(path, 'Missing or not an array → NullPointerException in for-each loop in bind(); the catch in onBindViewHolder swallows it but the row renders blank/partial.'); return false; }
+    if (!p.length) W(path,'Empty array → nothing rendered under the title.');
+    return true;
+  };
+
+  switch(type){
+    case 'FILL_BLANK': {
+      if (!parts(q.parts,'parts')) break;
+      q.parts.forEach((p,i)=>{
+        const b=`parts[${i}]`;
+        if (!p){ E(b,'null part → NPE'); return; }
+        if (isNull(p.q_id)) W(b+'.q_id','Missing → shows "null)".');
+        if (p.statement == null) E(b+'.statement','null → NPE at statement.replace("{BLANK}", …); this row fails to bind.');
+        else if (!p.statement.includes('{BLANK}')) W(b+'.statement','No {BLANK} placeholder → nothing to replace; the blank/answer won\'t show.');
+        const hasOpt = isArr(p.options) && p.options.length;
+        if (hasOpt){
+          p.options.forEach((o,j)=>{ if(!o || isNull(o.text)) E(`${b}.options[${j}].text`,'Missing → blank option button.'); });
+          if (isNull(p.correct_answer)) E(b+'.correct_answer','Missing → every tap is wrong and the correct answer can never be reached.');
+          else if (!p.options.some(o=>o && sameText(o.text,p.correct_answer))) E(b+'.correct_answer',`"${p.correct_answer}" matches no option text → user can never get it right.`);
+          const t=p.options.map(o=>o&&String(o.text).trim().toLowerCase()); if (new Set(t).size!==t.length) W(b+'.options','Duplicate option texts.');
+        } else {
+          I(b,'No options → shows "view explanation" only (self-check mode).');
+          if (isNull(p.explanation)) W(b+'.explanation','No options AND no explanation → the part shows nothing useful.');
+        }
+        if (isNull(p.explanation)) W(b+'.explanation','Missing → empty explanation text when revealed.');
+      });
+      break;
+    }
+    case 'MULTIPLE_CHOICE': {
+      if (!isArr(q.parts) || !q.parts.length){ E('parts','Missing/empty → screen shows "No content found".'); break; }
+      q.parts.forEach((p,i)=>{
+        const b=`parts[${i}]`;
+        if (!p){ E(b,'null part'); return; }
+        if (!isArr(p.options)||!p.options.length){ E(b+'.options','Missing/empty → this part is SKIPPED silently (continue in populateOptionalQuestionData).'); return; }
+        if (isNull(p.statement)) W(b+'.statement','Missing → shows "id) null".');
+        if (isNull(p.q_id)) W(b+'.q_id','Missing → shows "null)".');
+        p.options.forEach((o,j)=>{ if(!o||isNull(o.text)) E(`${b}.options[${j}].text`,'Missing → NPE/blank radio button.'); });
+        if (isNull(p.correct_answer)) E(b+'.correct_answer','Missing → no option is ever marked correct.');
+        else {
+          const exact = p.options.some(o=>o && o.text===p.correct_answer);
+          const loose = p.options.some(o=>o && sameText(o.text,p.correct_answer));
+          if (!exact && loose) E(b+'.correct_answer',`Only matches case/whitespace-insensitively. McqVH uses equals() when the user taps the right option → it will be marked WRONG (✖). Make it exactly "${p.options.find(o=>sameText(o.text,p.correct_answer)).text}".`);
+          else if (!exact) E(b+'.correct_answer',`"${p.correct_answer}" matches no option → user can never get it right.`);
+        }
+        const t=p.options.map(o=>o&&String(o.text).trim()); if (new Set(t).size!==t.length) W(b+'.options','Duplicate option texts.');
+        if (p.options.some(o=>o && /[✔✖]\s*$/.test(String(o.text)))) W(b+'.options','Option text ends with ✔/✖ — McqVH strips these when checking.');
+        if (isNull(p.explanation)) W(b+'.explanation','Missing → empty explanation.');
+        if (isNull(p.previousYearsDetails)) I(b+'.previousYearsDetails','Not set → info dialog shows the default message.');
+      });
+      break;
+    }
+    case 'TRUE_FALSE': {
+      if (!parts(q.parts,'parts')) break;
+      q.parts.forEach((p,i)=>{
+        const b=`parts[${i}]`;
+        if (!p){ E(b,'null part'); return; }
+        if (p.correct_answer == null) E(b+'.correct_answer','null → NPE at correct_answer.trim() — the whole question fails to render.');
+        else {
+          const c = String(p.correct_answer).trim().toLowerCase();
+          if (!['true','false','सत्य','असत्य'].includes(c)) E(b+'.correct_answer',`"${p.correct_answer}" isn't one of true / false / सत्य / असत्य → both buttons always show wrong.`);
+        }
+        if (p.statement == null) W(b+'.statement','Missing → empty statement.');
+        if (p.q_id == null) I(b+'.q_id','Missing → no number shown (handled).');
+        if (isNull(p.explanation)) I(b+'.explanation','Missing → shows "No explanation available." (but the code later overwrites it with null → blank).');
+      });
+      break;
+    }
+    case 'MATCH_COLUMN': {
+      const c = q.columns;
+      if (!c){ E('columns','Missing → NPE in addMatchColumns; nothing rendered.'); break; }
+      if (isNull(c.column_A_title)||isNull(c.column_B_title)) W('columns.column_A_title / column_B_title','Missing header title(s).');
+      if (!isArr(c.pairs)||!c.pairs.length){ E('columns.pairs','Missing/empty → NPE / no rows.'); break; }
+      const n=c.pairs.length, seen={};
+      c.pairs.forEach((p,i)=>{
+        const b=`columns.pairs[${i}]`;
+        if (!p){ E(b,'null pair'); return; }
+        if (isNull(p.a_item)) E(b+'.a_item','Missing → blank cell.');
+        if (isNull(p.b_item)) E(b+'.b_item','Missing → blank cell.');
+        const m=p.correct_match_index;
+        const mi = (typeof m==='string' && /^\s*\d+\s*$/.test(m)) ? parseInt(m,10) : m;
+        if (!Number.isInteger(mi)) E(b+'.correct_match_index',`Must be an integer (1-based). Got ${JSON.stringify(m)}.`);
+        else if (typeof m==='string') I(b+'.correct_match_index','Is a string ("'+m+'"); Gson converts it to int, so OK.');
+        if (!Number.isInteger(mi)) {}
+        else if (mi<1||mi>n) E(b+'.correct_match_index',`${m} is outside 1..${n} → no B cell can ever match; user is stuck.`);
+        else (seen[m]=seen[m]||[]).push(i);
+      });
+      Object.entries(seen).forEach(([m,a])=>{ if(a.length>1) W('columns.pairs',`Rows ${a.join(', ')} all point to B #${m}. Only one can be matched since matched cells get disabled — the rest become impossible.`); });
+      I('columns','Column B is displayed in the order given (b_item of each pair), correct_match_index is 1-based against that order. Pre-shuffle B if you want it mixed up.');
+      if (isNull(q.explanation)) I('explanation','Missing → "No explanation available."');
+      break;
+    }
+    case 'DESCRIPTIVE': {
+      if (!parts(q.parts,'parts')) break;
+      I('parts','Parts are drawn by HelperUtility.addNormalTextQuestionFromQuestionPart (source not provided, so field checks are generic).');
+      q.parts.forEach((p,i)=>{ if(!p) E(`parts[${i}]`,'null part'); else if (isNull(p.statement)&&isNull(p.text)&&isNull(p.question)) W(`parts[${i}]`,'No statement/text field found — may render blank.'); });
+      if (q.orOption != null){
+        if (typeof q.orOption!=='object') E('orOption','Not an object.');
+        else if (!isNull(q.orOption.text)){
+          if (!isArr(q.orOption.parts)) E('orOption.parts','orOption.text is set but parts is missing → NPE in the for-each; "OR" heading shows but the alternative question doesn\'t, and bind() aborts.');
+        } else I('orOption','orOption.text empty → the whole OR block is skipped.');
+      }
+      break;
+    }
+    case 'ESSAY_OUTLINE': {
+      if (!isArr(q.essayTopics)||!q.essayTopics.length) E('essayTopics','Missing/empty → nothing under the heading (EssayVH uses essayTopics).');
+      else I('essayTopics','Rendered by HelperUtility.addWrittenQuestion (source not provided; EssayTopic fields unknown).');
+      if (isNull(q.text)) W('text','Missing heading.');
+      break;
+    }
+    case 'QUICK_REVISION': {
+      const d=q.definitionBean;
+      if (!d){ E('definitionBean','Missing → bind() returns early; blank card.'); break; }
+      if (isNull(d.title)) W('definitionBean.title','Missing → blank title.');
+      if (d.definition == null) E('definitionBean.definition','null → new SpannableString(null) NPE; the row fails to bind.');
+      if (d.explanation == null) E('definitionBean.explanation','null → new SpannableString(null) NPE; the row fails to bind.');
+      if (d.highlightWords != null && !isArr(d.highlightWords)) E('definitionBean.highlightWords','Must be an array of strings.');
+      else (d.highlightWords||[]).forEach((w,i)=>{
+        if (typeof w!=='string'||!w) E(`definitionBean.highlightWords[${i}]`,'Empty/non-string → ');
+        else if (!(String(d.definition||'').includes(w)||String(d.explanation||'').includes(w))) W(`definitionBean.highlightWords[${i}]`,`"${w}" is not found (case-sensitive) in definition or explanation → nothing highlighted.`);
+      });
+      if (d.importantPoints!=null && !isArr(d.importantPoints)) E('definitionBean.importantPoints','Must be an array of strings.');
+      if (!isNull(d.imgUrl) && !isHttp(d.imgUrl)) W('definitionBean.imgUrl','Not an http(s) URL.');
+      if (d.realLifeExamples!=null && !isArr(d.realLifeExamples)) E('definitionBean.realLifeExamples','Must be an array.');
+      (d.realLifeExamples||[]).forEach((ex,i)=>{
+        const b=`definitionBean.realLifeExamples[${i}]`;
+        if(!ex){E(b,'null example → NPE');return;}
+        if (isNull(ex.title)) W(b+'.title','Missing.'); if (isNull(ex.example)) W(b+'.example','Missing description.');
+        const s=ex.svgUrl,a=ex.jsonAnimationUrl,m=ex.imageUrl;
+        if(!isNull(s)&&!isHttp(s)) W(b+'.svgUrl','Not http(s) → ignored; falls to Lottie/image.');
+        if(!isNull(a)&&!isHttp(a)) W(b+'.jsonAnimationUrl','Not http(s) → ignored.');
+        if(!isNull(s)&&isHttp(s)){
+          if(!/\.(svg|html?)(\?.*)?$/i.test(s)) W(b+'.svgUrl','Extension isn\'t .svg/.html/.htm → treated as SVG (image/svg+xml). If it is HTML it will render wrong.');
+          if(/^http:\/\//i.test(s)) W(b+'.svgUrl','http:// — Android 9+ blocks cleartext unless allowed in network security config.');
+          if(/github\.com\/.*\/blob\//.test(s)) E(b+'.svgUrl','GitHub "blob" URL returns an HTML page, not the file. Use raw.githubusercontent.com or jsDelivr.');
+        }
+        if(isNull(s)&&isNull(a)&&isNull(m)) I(b,'No media → text-only example.');
+      });
+      break;
+    }
+    case 'EXPLANATION_STANZA': case 'UNSEEN_PASSAGE': case 'VISUAL_COMPOSITION': case 'LETTER_ESSAY': case 'ONE_WORD_SENTENCE': case 'BLUE_PRINT': {
+      I('(type)',`${type}: ViewHolder source wasn't provided — only generic checks. Verify the fields in the raw JSON below.`);
+      if (!isArr(q.parts) && type!=='BLUE_PRINT') W('parts','No parts array — fine only if this ViewHolder doesn\'t use it.');
+      if (type==='BLUE_PRINT'){ const u=q.imgUrl||q.imageUrl||q.url; if (u && !isHttp(u)) W('image url','Not http(s).'); }
+      break;
+    }
+  }
+  return {issues,type};
+}
+
+/* ---------------- previews (mirror ViewHolder behavior) ---------------- */
+function expl(text, start){
+  const box = h('div'); const t = h('div',{class:'exptext',style:'display:none'}, text ?? '');
+  const l = h('span',{class:'exp'},'View explanation');
+  l.onclick = () => { const o=t.style.display!=='none'; t.style.display=o?'none':'block'; l.textContent=o?'View explanation':'Hide explanation'; };
+  box.append(l,t); return box;
+}
+function head(q){ return h('h4',{}, h('span',{class:'marks'}, q.marks==null?'':String(q.marks)), (q.questionNumber ?? '') + ') ' + (q.text ?? '')); }
+
+function pvFill(q){
+  const root=h('div',{class:'phone'}, head(q));
+  (q.parts||[]).forEach(p=>{
+    if(!p||p.statement==null) return;
+    const s=h('div',{}, (p.q_id??'')+') '+p.statement.replace('{BLANK}','____'));
+    const part=h('div',{class:'part'},s);
+    const opts=p.options||[];
+    if (opts.length){
+      const ex=expl(p.explanation); ex.style.display='none';
+      const row=h('div',{class:'row'});
+      opts.forEach(o=>{
+        const b=h('div',{class:'opt',style:'text-align:center'}, o?.text??'');
+        b.onclick=()=>{
+          if (b.dataset.lock) return;
+          if (sameText(o.text,p.correct_answer)){ b.classList.add('c'); s.textContent=(p.q_id??'')+') '+p.statement.replace('{BLANK}',p.correct_answer); s.className='good'; row.querySelectorAll('.opt').forEach(x=>x.dataset.lock=1); }
+          else { b.classList.add('w'); b.dataset.lock=1; s.textContent=(p.q_id??'')+') '+p.statement.replace('{BLANK}',o.text); s.className='bad'; }
+          ex.style.display='block';
+        };
+        row.append(b);
+      });
+      part.append(row,ex);
+    } else part.append(expl(p.explanation));
+    root.append(part);
+  });
+  return root;
+}
+function pvMcq(q){
+  const root=h('div',{class:'phone'}, head(q));
+  (q.parts||[]).forEach((p,pi)=>{
+    if(!p||!isArr(p.options)||!p.options.length) return;
+    const part=h('div',{class:'part'}, h('div',{}, (p.q_id??'')+') '+(p.statement??'')));
+    const ind=h('div',{class:'good',style:'display:none'},'Correct answer!');
+    const ex=expl(p.explanation); ex.style.display='none';
+    const labels=[];
+    p.options.forEach(o=>{
+      const l=h('label',{class:'opt'}, h('input',{type:'radio',name:`r${Math.random()}`+pi}), ' '+(o?.text??''));
+      l.dataset.t=o?.text??''; labels.push(l);
+      l.querySelector('input').onchange=()=>{
+        let ok=false;
+        labels.forEach(x=>{ x.className='opt'; x.lastChild.textContent=' '+x.dataset.t; });
+        labels.forEach(x=>{
+          const picked = x===l;
+          if (picked){ if (x.dataset.t===p.correct_answer){ x.classList.add('c'); x.lastChild.textContent=' '+x.dataset.t+' ✔'; ok=true; } else { x.classList.add('w'); x.lastChild.textContent=' '+x.dataset.t+' ✖'; } }
+          else if (sameText(x.dataset.t,p.correct_answer)){ x.classList.add('c'); x.lastChild.textContent=' '+x.dataset.t+' ✔'; }
+        });
+        ind.style.display=ok?'block':'none'; ex.style.display='block';
+      };
+      part.append(l);
+    });
+    part.append(ind,ex); root.append(part);
+  });
+  if (!root.querySelector('.part')) root.append(h('div',{class:'bad'},'No content found'));
+  return root;
+}
+function pvTf(q){
+  const root=h('div',{class:'phone'}, head(q));
+  (q.parts||[]).forEach(p=>{
+    if(!p||p.correct_answer==null) return;
+    const c=String(p.correct_answer).trim().toLowerCase();
+    const s=h('div',{}, (p.q_id!=null?p.q_id+') ':'')+(p.statement??''));
+    const ex=expl(p.explanation); ex.style.display='none';
+    const bT=h('button',{class:'sec'},'✔ True'), bF=h('button',{class:'sec'},'✖ False');
+    bT.onclick=()=>{ s.className=(c==='true'||c==='सत्य')?'good':'bad'; ex.style.display='block'; };
+    bF.onclick=()=>{ s.className=(c==='false'||c==='असत्य')?'good':'bad'; ex.style.display='block'; };
+    root.append(h('div',{class:'part tf'},s,bT,bF,ex));
+  });
+  return root;
+}
+function pvMatch(q){
+  const root=h('div',{class:'phone'}, head(q)); const c=q.columns; if(!c||!isArr(c.pairs)) return root;
+  let selA=-1; const A=[],B=[]; const used=new Set();
+  root.append(h('div',{class:'row'}, h('div',{class:'cell hd'},c.column_A_title??''), h('div',{class:'cell hd'},c.column_B_title??'')));
+  c.pairs.forEach((p,i)=>{
+    const a=h('div',{class:'cell'},p?.a_item??''), b=h('div',{class:'cell'},p?.b_item??'');
+    A.push(a);B.push(b);
+    a.onclick=()=>{ if(a.dataset.done) return; selA=i; a.classList.add('sel'); };
+    b.onclick=()=>{
+      if(selA<0||b.dataset.done) return;
+      const ci=c.pairs[selA].correct_match_index-1;
+      if(i!==ci){ A[selA].classList.remove('sel'); b.classList.add('shake'); setTimeout(()=>b.classList.remove('shake'),450); selA=-1; return; }
+      const col=`hsl(${Math.floor(Math.random()*360)},70%,85%)`;
+      A[selA].style.background=B[ci].style.background=col; A[selA].dataset.done=B[ci].dataset.done=1; selA=-1;
+    };
+    root.append(h('div',{class:'row'},a,b));
+  });
+  root.append(expl(q.explanation||'No explanation available.'));
+  return root;
+}
+function pvDesc(q){
+  const root=h('div',{class:'phone'}, head(q));
+  const draw=ps=>(ps||[]).forEach(p=>{ if(p) root.append(h('div',{class:'part'}, (p.q_id!=null?p.q_id+') ':'')+(p.statement??p.text??JSON.stringify(p)))); });
+  draw(q.parts);
+  if (q.orOption && !isNull(q.orOption.text)){
+    root.append(h('div',{style:'text-align:center;font-weight:700;margin:10px 0'},q.orOption.text));
+    if(!isNull(q.orOption.statement)) root.append(h('div',{style:'font-weight:700'},q.orOption.statement));
+    draw(q.orOption.parts);
+  }
+  return root;
+}
+function hlText(text, words){
+  const t=String(text??''), mark=new Array(t.length).fill(false);
+  (words||[]).forEach(w=>{ const s=typeof w==='string'?t.indexOf(w):-1; if(s>=0) for(let i=s;i<s+w.length;i++) mark[i]=true; });
+  const span=h('div'); let i=0;
+  while(i<t.length){ let j=i; while(j<t.length&&mark[j]===mark[i]) j++; span.append(mark[i]?h('span',{class:'hl'},t.slice(i,j)):t.slice(i,j)); i=j; }
+  return span;
+}
+function pvQuick(q){
+  const d=q.definitionBean||{}; const root=h('div',{class:'phone'}, h('h4',{},d.title??''));
+  root.append(hlText(d.definition,d.highlightWords), h('div',{style:'height:6px'}), hlText(d.explanation,d.highlightWords));
+  (d.importantPoints||[]).forEach(p=>root.append(h('div',{style:'color:#444;padding:4px 0'},'• '+p)));
+  if(isHttp(d.imgUrl)) root.append(h('img',{src:d.imgUrl,style:'max-width:100%',onerror:function(){this.replaceWith(h('div',{class:'bad mu'},'⚠ imgUrl failed to load: '+d.imgUrl));}}));
+  (d.realLifeExamples||[]).forEach(ex=>{
+    if(!ex) return;
+    const b=h('div',{class:'part'}, h('b',{},ex.title??''), h('div',{},ex.example??''));
+    if (isHttp(ex.svgUrl)){
+      const holder=h('div',{class:'mu'},'Loading SVG/HTML…'); b.append(holder);
+      fetch(ex.svgUrl).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }).then(t=>{
+        const html=/\.html?(\?.*)?$/i.test(ex.svgUrl);
+        const f=h('iframe',{sandbox:'allow-scripts'}); f.srcdoc=html?t:`<body style="margin:0">${t}</body>`; holder.replaceWith(f);
+      }).catch(e=>holder.replaceWith(h('div',{class:'bad mu'},`⚠ svgUrl fetch failed (${e.message}). Could be CORS in this browser (the app doesn't have CORS) or a bad link — open it directly to confirm.`, ' ', h('a',{href:ex.svgUrl,target:'_blank'},'open'))));
+    } else if (isHttp(ex.jsonAnimationUrl)){
+      b.append(h('div',{class:'mu'},'Lottie: '+ex.jsonAnimationUrl+' '), h('a',{href:ex.jsonAnimationUrl,target:'_blank'},'open'));
+      fetch(ex.jsonAnimationUrl).then(r=>r.json()).then(j=>{ if(!(j.v&&j.layers)) b.append(h('div',{class:'bad mu'},'⚠ JSON doesn\'t look like a Lottie file (missing v/layers).')); else b.append(h('div',{class:'good mu'},`✔ valid Lottie JSON (${j.w}×${j.h}, ${j.layers.length} layers)`)); }).catch(()=>b.append(h('div',{class:'mu'},'(could not fetch for check — CORS or bad link)')));
+    } else if (isHttp(ex.imageUrl)){
+      b.append(h('img',{src:ex.imageUrl,style:'max-width:100%',onerror:function(){this.replaceWith(h('div',{class:'bad mu'},'⚠ image failed to load: '+ex.imageUrl));}}));
+    }
+    root.append(b);
+  });
+  return root;
+}
+function pvGeneric(q){ return h('div',{}, h('div',{class:'mu'},'No preview for this type (ViewHolder source not provided). Raw JSON:'), h('pre',{},JSON.stringify(q,null,2))); }
+const PREVIEW={FILL_BLANK:pvFill,MULTIPLE_CHOICE:pvMcq,TRUE_FALSE:pvTf,MATCH_COLUMN:pvMatch,DESCRIPTIVE:pvDesc,QUICK_REVISION:pvQuick};
+
+/* ---------------- main ---------------- */
+let filter='all';
+function run(root){
+  const found=findList(root);
+  if(!found){ out(h('div',{class:'panel'},h('b',{class:'bad'},'No array of questions found. '),'Root must be an array of QuestionItem, or an object containing one. Set the list key under Advanced.')); return; }
+  const {list,where}=found;
+  const results=list.map((orig,i)=>{ const q=alias(orig); return {q,orig,i,...validate(q,i)}; });
+  const cnt={er:0,wa:0,in:0,bad:0}; const byType={};
+  results.forEach(r=>{
+    const e=r.issues.filter(x=>x.level==='error').length, w=r.issues.filter(x=>x.level==='warn').length;
+    cnt.er+=e; cnt.wa+=w; cnt.in+=r.issues.filter(x=>x.level==='info').length; if(e) cnt.bad++;
+    r.status=e?'er':w?'wa':'ok';
+    const k=r.type||'(unknown)'; byType[k]=(byType[k]||0)+1;
+  });
+  const summary=h('div',{class:'panel'},
+    h('div',{}, h('b',{},`${list.length} items`),` found in ${where}. `, cnt.er===0?h('b',{class:'good'},'No blocking errors.'):h('b',{class:'bad'},`${cnt.bad} item(s) have errors.`)),
+    h('div',{class:'pills'}, h('span',{class:'pill er'},`${cnt.er} errors`),h('span',{class:'pill wa'},`${cnt.wa} warnings`),h('span',{class:'pill in'},`${cnt.in} notes`), ...Object.entries(byType).map(([k,v])=>h('span',{class:'pill ok',style:'background:#eef1f6;color:#333'},`${k}: ${v}`))),
+    h('div',{},
+      ...[['all','All'],['er','Errors'],['wa','Warnings'],['ok','Clean']].map(([k,l])=>h('button',{class:'sec'+(filter===k?' on':''),style:'margin-right:6px',onclick:()=>{filter=k;run(root);}},l)),
+      h('button',{class:'sec',onclick:()=>document.querySelectorAll('.q').forEach(x=>x.classList.add('open'))},'Expand all'),' ',
+      h('button',{class:'sec',onclick:()=>document.querySelectorAll('.q').forEach(x=>x.classList.remove('open'))},'Collapse all')));
+  const cards=results.filter(r=>filter==='all'||r.status===filter).map(r=>{
+    const {q,orig,i,type,issues,status}=r;
+    const card=h('div',{class:'q '+status+(status==='er'?' open':'')});
+    const title=q&&typeof q==='object'?(q.questionNumber!=null?q.questionNumber+') ':'')+String(q.text??q.definitionBean?.title??'').slice(0,70):'';
+    card.append(h('div',{class:'qh',onclick:()=>card.classList.toggle('open')},
+      h('div',{}, h('b',{},`#${i+1} · ${type||q?.questionType||'?'}`),' ',h('small',{},title)),
+      h('div',{}, ...['error','warn','info'].map(l=>{const n=issues.filter(x=>x.level===l).length;return n?h('span',{class:'pill '+(l==='error'?'er':l==='warn'?'wa':'in'),style:'margin-left:4px'},n):'';}), status==='ok'?h('span',{class:'pill ok'},'✔ OK'):'')));
+    const body=h('div',{class:'qb'});
+    if(issues.length) body.append(h('ul',{class:'iss'}, issues.map(x=>h('li',{class:x.level}, h('b',{},x.level.toUpperCase()+' '), h('code',{},x.path),' — ',x.msg))));
+    let pv; try{ pv=(PREVIEW[type]||pvGeneric)(q); }catch(e){ pv=h('div',{class:'bad'},'Preview crashed: '+e.message+' (this is what the app would also hit; the adapter would swallow it).'); }
+    body.append(h('div',{class:'mu',style:'margin:8px 0 4px'},'Preview (interactive, approximates the app):'), pv,
+      h('details',{style:'margin-top:8px'},h('summary',{},'Raw JSON'),h('pre',{},JSON.stringify(orig,null,2))));
+    card.append(body); return card;
+  });
+  out(summary,...cards);
+}
+</script>
+</body>
+</html>
