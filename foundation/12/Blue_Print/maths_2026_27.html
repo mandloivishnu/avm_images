@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>MPBSE Class 12 Mathematics (गणित) Marking Scheme & Syllabus Tracker 2026–27</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --accent-soft: #eff6ff;
+      --accent-border: #bfdbfe;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --success: #16a34a;
+      --success-soft: #f0fdf4;
+      --success-border: #bbf7d0;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Noto Sans Devanagari', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 12px 12px 48px;
+    }
+
+    /* Header Banner */
+    .board-header {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+      color: #ffffff;
+      border-radius: 16px;
+      padding: 16px;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.12);
+      margin-bottom: 12px;
+    }
+
+    .board-name {
+      font-size: 0.78rem;
+      font-weight: 600;
+      opacity: 0.92;
+      letter-spacing: 0.01em;
+    }
+
+    .exam-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      margin: 4px 0 10px;
+      line-height: 1.3;
+    }
+
+    .meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .meta-pill {
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.76rem;
+      font-weight: 600;
+    }
+
+    /* Sticky Toolbar */
+    .sticky-bar {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(248, 250, 252, 0.94);
+      backdrop-filter: blur(10px);
+      padding: 8px 0;
+      margin-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .toolbar-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .seg-group {
+      display: inline-flex;
+      background: #e2e8f0;
+      padding: 3px;
+      border-radius: 10px;
+    }
+
+    .seg-btn {
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 6px 11px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.18s ease;
+    }
+
+    .seg-btn.active {
+      background: #ffffff;
+      color: var(--accent-dark);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-box {
+      position: relative;
+      margin-top: 8px;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 9px 36px 9px 12px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-family: inherit;
+      font-size: 0.85rem;
+      background: #ffffff;
+      color: var(--text);
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .clear-search {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: #e2e8f0;
+      color: var(--muted);
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Progress Dashboard */
+    .dashboard-card {
+      background: var(--card);
+      border: 1.5px solid var(--accent-border);
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+    }
+
+    .dash-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .dash-title {
+      font-size: 0.88rem;
+      font-weight: 800;
+      color: var(--accent-dark);
+    }
+
+    .dash-pct {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 10px;
+      background: #e2e8f0;
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--success));
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .stat-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 6px;
+      text-align: center;
+    }
+
+    .stat-val {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .stat-lbl {
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .filter-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-pills {
+      display: flex;
+      gap: 6px;
+    }
+
+    .filter-btn {
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 5px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+    }
+
+    .reset-btn {
+      border: 1px solid #fecaca;
+      background: #fef2f2;
+      color: #dc2626;
+      font-family: inherit;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 5px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+
+    /* Unit Cards */
+    .unit-card {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.03);
+      transition: border-color 0.2s ease, background-color 0.2s ease;
+    }
+
+    .unit-card.completed {
+      border-color: var(--success-border);
+      background: linear-gradient(to bottom right, #ffffff, var(--success-soft));
+    }
+
+    .unit-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .master-cb {
+      width: 22px;
+      height: 22px;
+      margin-top: 2px;
+      accent-color: var(--success);
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    .unit-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .unit-top-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 4px;
+    }
+
+    .unit-code {
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--accent-dark);
+      background: var(--accent-soft);
+      border: 1px solid var(--accent-border);
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+
+    .marks-badge {
+      font-size: 0.76rem;
+      font-weight: 800;
+      color: #ffffff;
+      background: var(--accent);
+      padding: 2px 9px;
+      border-radius: 999px;
+    }
+
+    .done-badge {
+      font-size: 0.7rem;
+      font-weight: 800;
+      color: var(--success);
+      background: var(--success-soft);
+      border: 1px solid var(--success-border);
+      padding: 2px 8px;
+      border-radius: 999px;
+      display: none;
+    }
+
+    .unit-card.completed .done-badge {
+      display: inline-block;
+    }
+
+    .unit-title {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: var(--text);
+      margin: 2px 0 8px;
+    }
+
+    .topics-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .topic-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 9px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text);
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s ease;
+    }
+
+    .topic-chip.checked {
+      background: var(--success-soft);
+      border-color: var(--success-border);
+      color: #166534;
+      text-decoration: line-through;
+      opacity: 0.88;
+    }
+
+    .topic-chip input {
+      width: 15px;
+      height: 15px;
+      accent-color: var(--success);
+      margin: 0;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+
+    /* Official Table View */
+    .table-wrap {
+      display: none;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow-x: auto;
+      margin-bottom: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+    }
+
+    th {
+      background: var(--accent);
+      color: #ffffff;
+      text-align: left;
+      padding: 10px;
+      font-weight: 700;
+    }
+
+    td {
+      padding: 10px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    tr.row-done {
+      background-color: var(--success-soft);
+    }
+
+    tfoot td {
+      font-weight: 800;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+    }
+
+    /* Pattern Card */
+    .pattern-card {
+      background: #ffffff;
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin-top: 14px;
+    }
+
+    .pattern-title {
+      font-size: 0.92rem;
+      font-weight: 800;
+      color: var(--accent-dark);
+      margin: 0 0 8px;
+    }
+
+    .pattern-list {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .pattern-list li {
+      margin-bottom: 6px;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 28px 16px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      display: none;
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 100;
+    }
+
+    .modal-box {
+      background: #ffffff;
+      border-radius: 16px;
+      max-width: 360px;
+      width: 100%;
+      padding: 18px;
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+    }
+
+    .modal-title {
+      font-size: 1rem;
+      font-weight: 800;
+      margin: 0 0 6px;
+    }
+
+    .modal-desc {
+      font-size: 0.84rem;
+      color: var(--muted);
+      margin: 0 0 16px;
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .btn-cancel {
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    .btn-confirm {
+      border: none;
+      background: #dc2626;
+      color: #ffffff;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="board-header">
+      <div class="board-name" id="boardName">माध्यमिक शिक्षा मण्डल, मध्यप्रदेश, भोपाल</div>
+      <h1 class="exam-title" id="examTitle">हायर सेकेण्डरी परीक्षा सत्र 2026–27 • गणित</h1>
+      <div class="meta-pills">
+        <span class="meta-pill" id="pillClass">कक्षा : 12वीं</span>
+        <span class="meta-pill" id="pillStream">गणित संकाय</span>
+        <span class="meta-pill" id="pillMarks">पूर्णांक : 80</span>
+        <span class="meta-pill" id="pillTime">समय : 3:00 घंटे</span>
+      </div>
+    </header>
+
+    <div class="sticky-bar">
+      <div class="toolbar-row">
+        <div class="seg-group" role="group" aria-label="Language Switcher">
+          <button class="seg-btn active" id="langHiBtn" onclick="setLang('hi')">हिंदी</button>
+          <button class="seg-btn" id="langEnBtn" onclick="setLang('en')">English</button>
+        </div>
+
+        <div class="seg-group" role="group" aria-label="View Switcher">
+          <button class="seg-btn active" id="viewCardBtn" onclick="setView('card')">कार्ड व्यू</button>
+          <button class="seg-btn" id="viewTableBtn" onclick="setView('table')">तालिका व्यू</button>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" class="search-input" placeholder="इकाई, अध्याय या टॉपिक खोजें..." oninput="handleSearch()" />
+        <button id="clearSearchBtn" class="clear-search" onclick="clearSearch()" aria-label="Clear">✕</button>
+      </div>
+    </div>
+
+    <section class="dashboard-card">
+      <div class="dash-top">
+        <span class="dash-title" id="dashTitle">सिलेबस पूर्णता ट्रैकर</span>
+        <span class="dash-pct" id="pctText">0%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-val" id="statUnits">0 / 0</div>
+          <div class="stat-lbl" id="lblUnits">इकाई / अध्याय</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val" id="statTopics">0 / 0</div>
+          <div class="stat-lbl" id="lblTopics">टॉपिक पूर्ण</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val" id="statMarks">0 / 80</div>
+          <div class="stat-lbl" id="lblMarks">अंक तैयारी</div>
+        </div>
+      </div>
+      <div class="filter-row">
+        <div class="filter-pills">
+          <button class="filter-btn active" id="fAll" onclick="setFilter('all')">सभी</button>
+          <button class="filter-btn" id="fPending" onclick="setFilter('pending')">बाकी</button>
+          <button class="filter-btn" id="fDone" onclick="setFilter('done')">पूर्ण</button>
+        </div>
+        <button class="reset-btn" id="resetBtn" onclick="openResetModal()">रीसेट करें</button>
+      </div>
+    </section>
+
+    <main id="cardsContainer"></main>
+
+    <div class="table-wrap" id="tableContainer">
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 36px;">✓</th>
+            <th id="thUnit">इकाई</th>
+            <th id="thChapter">अध्याय / विषय वस्तु</th>
+            <th style="width: 68px; text-align: center;" id="thMarks">अंक</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" id="tfTotalLabel">कुल योग (Total Marks)</td>
+            <td style="text-align: center;">80</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <div class="empty-state" id="emptyState">कोई परिणाम नहीं मिला।</div>
+
+    <section class="pattern-card">
+      <h2 class="pattern-title" id="patternTitle">प्रश्न-पत्र निर्माण योजना (Exam Pattern Note)</h2>
+      <ul class="pattern-list" id="patternList"></ul>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="resetModal">
+    <div class="modal-box">
+      <h3 class="modal-title" id="modalTitle">प्रगति रीसेट करें?</h3>
+      <p class="modal-desc" id="modalDesc">क्या आप वाकई इस विषय की सभी पूर्ण की गई इकाइयों और टॉपिक्स का डेटा साफ़ करना चाहते हैं?</p>
+      <div class="modal-actions">
+        <button class="btn-cancel" id="modalCancel" onclick="closeResetModal()">रद्द करें</button>
+        <button class="btn-confirm" id="modalConfirm" onclick="confirmReset()">हाँ, रीसेट करें</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const SUBJECT_DATA = {"slug": "class12_maths_2026_27", "storage_key": "mpbse_12_maths_2026_27_tracker", "lang_key": "mpbse_12_maths_lang", "accent": "#2563eb", "accent_dark": "#1d4ed8", "accent_soft": "#eff6ff", "accent_border": "#bfdbfe", "subject_hi": "गणित", "subject_en": "Mathematics", "stream_hi": "गणित संकाय", "stream_en": "Mathematics Stream", "max_marks": 80, "duration_hi": "3:00 घंटे", "duration_en": "3:00 Hours", "units": [{"id": "m1", "unit_code": "अध्याय-1 / Ch-1", "title_hi": "संबंध एवं फलन", "title_en": "Relations and Functions", "marks": 5, "topics_hi": ["भूमिका", "संबंधों के प्रकार", "फलनों के प्रकार", "फलनों का संयोजन तथा व्युत्क्रमणीय फलन"], "topics_en": ["Introduction", "Types of Relations", "Types of Functions", "Composition of Functions and Invertible Function"]}, {"id": "m2", "unit_code": "अध्याय-2 / Ch-2", "title_hi": "प्रतिलोम त्रिकोणमितीय फलन", "title_en": "Inverse Trigonometric Functions", "marks": 6, "topics_hi": ["भूमिका", "आधारभूत संकल्पनाएँ", "प्रतिलोम त्रिकोणमितीय फलनों के गुणधर्म"], "topics_en": ["Introduction", "Basic Concepts", "Properties of Inverse Trigonometric Functions"]}, {"id": "m3", "unit_code": "अध्याय-3 / Ch-3", "title_hi": "आव्यूह", "title_en": "Matrices", "marks": 6, "topics_hi": ["भूमिका एवं आव्यूह", "आव्यूहों के प्रकार", "आव्यूहों पर संक्रियाएँ", "आव्यूह का परिवर्त", "सममित तथा विषम सममित आव्यूह", "व्युत्क्रमणीय आव्यूह"], "topics_en": ["Introduction & Matrix", "Types of Matrices", "Operations on Matrices", "Transpose of a Matrix", "Symmetric and Skew Symmetric Matrices", "Invertible Matrices"]}, {"id": "m4", "unit_code": "अध्याय-4 / Ch-4", "title_hi": "सारणिक", "title_en": "Determinants", "marks": 6, "topics_hi": ["भूमिका एवं सारणिक", "त्रिभुज का क्षेत्रफल", "उपसारणिक और सहखंड", "आव्यूह के सहखंडज और व्युत्क्रम", "सारणिकों और आव्यूहों के अनुप्रयोग"], "topics_en": ["Introduction & Determinant", "Area of a Triangle", "Minors and Cofactors", "Adjoint and Inverse of a Matrix", "Applications of Determinants and Matrices"]}, {"id": "m5", "unit_code": "अध्याय-5 / Ch-5", "title_hi": "सांतत्य तथा अवकलनीयता", "title_en": "Continuity and Differentiability", "marks": 8, "topics_hi": ["भूमिका एवं सांतत्य", "अवकलनीयता", "चरघातांकी तथा लघुगणकीय फलन", "लघुगणकीय अवकलन", "फलनों के प्राचलिक रूपों के अवकलज", "द्वितीय कोटि का अवकलज"], "topics_en": ["Introduction & Continuity", "Differentiability", "Exponential and Logarithmic Functions", "Logarithmic Differentiation", "Derivatives of Functions in Parametric Forms", "Second Order Derivative"]}, {"id": "m6", "unit_code": "अध्याय-6 / Ch-6", "title_hi": "अवकलज के अनुप्रयोग", "title_en": "Application of Derivatives", "marks": 6, "topics_hi": ["भूमिका", "राशियों के परिवर्तन की दर", "वर्धमान और ह्रासमान फलन", "उच्चतम और निम्नतम"], "topics_en": ["Introduction", "Rate of Change of Quantities", "Increasing and Decreasing Functions", "Maxima and Minima"]}, {"id": "m7", "unit_code": "अध्याय-7 / Ch-7", "title_hi": "समाकलन", "title_en": "Integrals", "marks": 12, "topics_hi": ["भूमिका एवं अवकलन के व्युत्क्रम प्रक्रम के रूप में समाकलन", "समाकलन की विधियाँ", "कुछ विशिष्ट फलनों के समाकलन", "आंशिक भिन्नों द्वारा समाकलन", "खंडशः समाकलन", "निश्चित समाकलन एवं कलन की आधारभूत प्रमेय", "प्रतिस्थापन द्वारा निश्चित समाकलनों का मान ज्ञात करना", "निश्चित समाकलनों के कुछ गुणधर्म"], "topics_en": ["Introduction & Integration as Inverse Process of Differentiation", "Methods of Integration", "Integrals of Some Particular Functions", "Integration by Partial Fractions", "Integration by Parts", "Definite Integral & Fundamental Theorem of Calculus", "Evaluation of Definite Integrals by Substitution", "Some Properties of Definite Integrals"]}, {"id": "m8", "unit_code": "अध्याय-8 / Ch-8", "title_hi": "समाकलनों के अनुप्रयोग", "title_en": "Application of Integrals", "marks": 3, "topics_hi": ["भूमिका", "साधारण वक्रों के अंतर्गत क्षेत्रफल"], "topics_en": ["Introduction", "Area under Simple Curves"]}, {"id": "m9", "unit_code": "अध्याय-9 / Ch-9", "title_hi": "अवकल समीकरण", "title_en": "Differential Equations", "marks": 6, "topics_hi": ["भूमिका एवं आधारभूत संकल्पनाएँ", "अवकल समीकरण का व्यापक एवं विशिष्ट हल", "प्रथम कोटि एवं प्रथम घात के अवकल समीकरणों को हल करने की विधियाँ"], "topics_en": ["Introduction & Basic Concepts", "General and Particular Solutions of a Differential Equation", "Methods of Solving First Order, First Degree Differential Equations"]}, {"id": "m10", "unit_code": "अध्याय-10 / Ch-10", "title_hi": "सदिश बीजगणित", "title_en": "Vector Algebra", "marks": 7, "topics_hi": ["भूमिका एवं कुछ आधारभूत संकल्पनाएँ", "सदिशों के प्रकार", "सदिशों का योगफल", "एक अदिश से सदिश का गुणन", "दो सदिशों का गुणनफल"], "topics_en": ["Introduction & Some Basic Concepts", "Types of Vectors", "Addition of Vectors", "Multiplication of a Vector by a Scalar", "Product of Two Vectors"]}, {"id": "m11", "unit_code": "अध्याय-11 / Ch-11", "title_hi": "त्रि-विमीय ज्यामिति", "title_en": "Three Dimensional Geometry", "marks": 7, "topics_hi": ["भूमिका", "रेखा के दिक्-कोसाइन और दिक्-अनुपात", "अंतरिक्ष में रेखा का समीकरण", "दो रेखाओं के मध्य कोण", "दो रेखाओं के मध्य न्यूनतम दूरी"], "topics_en": ["Introduction", "Direction Cosines and Direction Ratios of a Line", "Equation of a Line in Space", "Angle between Two Lines", "Shortest Distance between Two Lines"]}, {"id": "m12", "unit_code": "अध्याय-12 / Ch-12", "title_hi": "रैखिक प्रोग्रामन", "title_en": "Linear Programming", "marks": 3, "topics_hi": ["भूमिका", "रैखिक प्रोग्रामन समस्या और उसका गणितीय सूत्रीकरण"], "topics_en": ["Introduction", "Linear Programming Problem and its Mathematical Formulation"]}, {"id": "m13", "unit_code": "अध्याय-13 / Ch-13", "title_hi": "प्रायिकता", "title_en": "Probability", "marks": 5, "topics_hi": ["भूमिका", "सप्रतिबंध प्रायिकता", "प्रायिकता का गुणन नियम", "स्वतंत्र घटनाएँ", "बेज-प्रमेय"], "topics_en": ["Introduction", "Conditional Probability", "Multiplication Theorem on Probability", "Independent Events", "Bayes' Theorem"]}], "pattern_hi": ["प्रश्न क्रमांक 1 से 5 तक 32 वस्तुनिष्ठ प्रश्न होंगे। प्रत्येक प्रश्न पर 01 अंक निर्धारित है।", "प्रश्न क्रमांक 1 – सही विकल्प (06), प्रश्न क्रमांक 2 – रिक्त स्थान (06), प्रश्न क्रमांक 3 – सत्य/असत्य (06), प्रश्न क्रमांक 4 – सही जोड़ी (07), प्रश्न क्रमांक 5 – एक वाक्य में उत्तर (07)।", "प्रश्न क्रमांक 6 से 15 तक कुल 10 प्रश्न होंगे। प्रत्येक प्रश्न पर 02 अंक निर्धारित है। (कुल 20 अंक)", "प्रश्न क्रमांक 16 से 19 तक कुल 04 प्रश्न होंगे। प्रत्येक प्रश्न पर 03 अंक निर्धारित है। (कुल 12 अंक)", "प्रश्न क्रमांक 20 से 23 तक कुल 04 प्रश्न होंगे। प्रत्येक प्रश्न पर 04 अंक निर्धारित है। (कुल 16 अंक)"], "pattern_en": ["Questions 1 to 5 will comprise 32 objective-type questions carrying 01 mark each (Total 32 marks).", "Q.1: Multiple Choice (06), Q.2: Fill in the Blanks (06), Q.3: True/False (06), Q.4: Match the Column (07), Q.5: One-Sentence Answer (07).", "Questions 6 to 15: Total 10 very short answer questions carrying 02 marks each (Total 20 marks).", "Questions 16 to 19: Total 04 short answer questions carrying 03 marks each (Total 12 marks).", "Questions 20 to 23: Total 04 analytical/long answer questions carrying 04 marks each (Total 16 marks)."]};
+    const STORAGE_KEY = "mpbse_12_maths_2026_27_tracker";
+    const LANG_KEY = "mpbse_12_maths_lang";
+
+    let currentLang = localStorage.getItem(LANG_KEY) || "hi";
+    let currentView = "card";
+    let currentFilter = "all";
+    let searchQuery = "";
+    let completedMap = {};
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+      if (saved && typeof saved === "object") completedMap = saved;
+    } catch (e) {
+      completedMap = {};
+    }
+
+    const UI_STRINGS = {
+      hi: {
+        boardName: "माध्यमिक शिक्षा मण्डल, मध्यप्रदेश, भोपाल",
+        examTitle: `हायर सेकेण्डरी परीक्षा सत्र 2026–27 • ${SUBJECT_DATA.subject_hi}`,
+        pillClass: "कक्षा : 12वीं",
+        pillStream: SUBJECT_DATA.stream_hi,
+        pillMarks: `पूर्णांक : ${SUBJECT_DATA.max_marks}`,
+        pillTime: `समय : ${SUBJECT_DATA.duration_hi}`,
+        viewCard: "कार्ड व्यू",
+        viewTable: "तालिका व्यू",
+        searchPlaceholder: "इकाई, अध्याय या टॉपिक खोजें...",
+        dashTitle: "सिलेबस पूर्णता ट्रैकर",
+        lblUnits: "इकाई / अध्याय",
+        lblTopics: "टॉपिक पूर्ण",
+        lblMarks: "अंक तैयारी",
+        fAll: "सभी",
+        fPending: "बाकी",
+        fDone: "पूर्ण",
+        resetBtn: "रीसेट करें",
+        doneBadge: "पूर्ण ✓",
+        thUnit: "इकाई",
+        thChapter: "अध्याय / विषय वस्तु",
+        thMarks: "अंक",
+        tfTotalLabel: "कुल योग",
+        patternTitle: "प्रश्न-पत्र निर्माण योजना (नोट)",
+        emptyState: "खोज या फ़िल्टर के अनुसार कोई अध्याय नहीं मिला।",
+        modalTitle: "प्रगति रीसेट करें?",
+        modalDesc: "क्या आप वाकई इस विषय की सभी पूर्ण की गई इकाइयों और टॉपिक्स का डेटा साफ़ करना चाहते हैं?",
+        modalCancel: "रद्द करें",
+        modalConfirm: "हाँ, रीसेट करें"
+      },
+      en: {
+        boardName: "Board of Secondary Education, Madhya Pradesh, Bhopal",
+        examTitle: `Higher Secondary Exam Session 2026–27 • ${SUBJECT_DATA.subject_en}`,
+        pillClass: "Class : 12th",
+        pillStream: SUBJECT_DATA.stream_en,
+        pillMarks: `Max Marks : ${SUBJECT_DATA.max_marks}`,
+        pillTime: `Duration : ${SUBJECT_DATA.duration_en}`,
+        viewCard: "Card View",
+        viewTable: "Table View",
+        searchPlaceholder: "Search unit, chapter or topic...",
+        dashTitle: "Syllabus Completion Tracker",
+        lblUnits: "Units / Chapters",
+        lblTopics: "Topics Done",
+        lblMarks: "Marks Covered",
+        fAll: "All",
+        fPending: "Pending",
+        fDone: "Completed",
+        resetBtn: "Reset",
+        doneBadge: "Completed ✓",
+        thUnit: "Unit",
+        thChapter: "Chapter / Syllabus Content",
+        thMarks: "Marks",
+        tfTotalLabel: "Grand Total",
+        patternTitle: "Question Paper Blueprint & Exam Pattern Note",
+        emptyState: "No matching chapters or topics found.",
+        modalTitle: "Reset Syllabus Progress?",
+        modalDesc: "Are you sure you want to clear all saved progress for this subject?",
+        modalCancel: "Cancel",
+        modalConfirm: "Yes, Reset"
+      }
+    };
+
+    function saveProgress() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(completedMap));
+    }
+
+    function topicKey(unitId, idx) {
+      return `${unitId}_t${idx}`;
+    }
+
+    function isUnitCompleted(unit) {
+      return unit.topics_hi.every((_, idx) => !!completedMap[topicKey(unit.id, idx)]);
+    }
+
+    function isUnitPartial(unit) {
+      const doneCount = unit.topics_hi.filter((_, idx) => !!completedMap[topicKey(unit.id, idx)]).length;
+      return doneCount > 0 && doneCount < unit.topics_hi.length;
+    }
+
+    function toggleUnit(unitId) {
+      const unit = SUBJECT_DATA.units.find(u => u.id === unitId);
+      if (!unit) return;
+      const targetState = !isUnitCompleted(unit);
+      unit.topics_hi.forEach((_, idx) => {
+        if (targetState) {
+          completedMap[topicKey(unit.id, idx)] = true;
+        } else {
+          delete completedMap[topicKey(unit.id, idx)];
+        }
+      });
+      saveProgress();
+      render();
+    }
+
+    function toggleTopic(unitId, idx) {
+      const key = topicKey(unitId, idx);
+      if (completedMap[key]) {
+        delete completedMap[key];
+      } else {
+        completedMap[key] = true;
+      }
+      saveProgress();
+      render();
+    }
+
+    function setLang(lang) {
+      currentLang = lang;
+      localStorage.setItem(LANG_KEY, lang);
+      document.documentElement.lang = lang;
+      render();
+    }
+
+    function setView(view) {
+      currentView = view;
+      render();
+    }
+
+    function setFilter(filter) {
+      currentFilter = filter;
+      render();
+    }
+
+    function handleSearch() {
+      const input = document.getElementById("searchInput");
+      searchQuery = input.value.trim().toLowerCase();
+      document.getElementById("clearSearchBtn").style.display = searchQuery ? "flex" : "none";
+      render();
+    }
+
+    function clearSearch() {
+      const input = document.getElementById("searchInput");
+      input.value = "";
+      searchQuery = "";
+      document.getElementById("clearSearchBtn").style.display = "none";
+      render();
+    }
+
+    function openResetModal() {
+      document.getElementById("resetModal").style.display = "flex";
+    }
+
+    function closeResetModal() {
+      document.getElementById("resetModal").style.display = "none";
+    }
+
+    function confirmReset() {
+      completedMap = {};
+      saveProgress();
+      closeResetModal();
+      render();
+    }
+
+    function matchesSearch(unit) {
+      if (!searchQuery) return true;
+      const hay = [
+        unit.unit_code,
+        unit.title_hi,
+        unit.title_en,
+        ...unit.topics_hi,
+        ...unit.topics_en
+      ].join(" ").toLowerCase();
+      return hay.includes(searchQuery);
+    }
+
+    function matchesFilter(unit) {
+      const done = isUnitCompleted(unit);
+      if (currentFilter === "done") return done;
+      if (currentFilter === "pending") return !done;
+      return true;
+    }
+
+    function updateDashboard() {
+      const t = UI_STRINGS[currentLang];
+      const totalUnits = SUBJECT_DATA.units.length;
+      let doneUnits = 0;
+      let totalTopics = 0;
+      let doneTopics = 0;
+      let earnedMarks = 0;
+
+      SUBJECT_DATA.units.forEach(unit => {
+        const uTotal = unit.topics_hi.length;
+        const uDone = unit.topics_hi.filter((_, idx) => !!completedMap[topicKey(unit.id, idx)]).length;
+        totalTopics += uTotal;
+        doneTopics += uDone;
+        if (uDone === uTotal && uTotal > 0) doneUnits++;
+        earnedMarks += (uDone / uTotal) * unit.marks;
+      });
+
+      const pct = totalTopics > 0 ? Math.round((doneTopics / totalTopics) * 100) : 0;
+      const formattedMarks = Number.isInteger(earnedMarks) ? earnedMarks : earnedMarks.toFixed(1);
+
+      document.getElementById("pctText").textContent = `${pct}%`;
+      document.getElementById("progressFill").style.width = `${pct}%`;
+      document.getElementById("statUnits").textContent = `${doneUnits} / ${totalUnits}`;
+      document.getElementById("statTopics").textContent = `${doneTopics} / ${totalTopics}`;
+      document.getElementById("statMarks").textContent = `${formattedMarks} / ${SUBJECT_DATA.max_marks}`;
+    }
+
+    function render() {
+      const t = UI_STRINGS[currentLang];
+
+      // Update static labels
+      document.getElementById("boardName").textContent = t.boardName;
+      document.getElementById("examTitle").textContent = t.examTitle;
+      document.getElementById("pillClass").textContent = t.pillClass;
+      document.getElementById("pillStream").textContent = t.pillStream;
+      document.getElementById("pillMarks").textContent = t.pillMarks;
+      document.getElementById("pillTime").textContent = t.pillTime;
+
+      document.getElementById("langHiBtn").classList.toggle("active", currentLang === "hi");
+      document.getElementById("langEnBtn").classList.toggle("active", currentLang === "en");
+      document.getElementById("viewCardBtn").textContent = t.viewCard;
+      document.getElementById("viewTableBtn").textContent = t.viewTable;
+      document.getElementById("viewCardBtn").classList.toggle("active", currentView === "card");
+      document.getElementById("viewTableBtn").classList.toggle("active", currentView === "table");
+      document.getElementById("searchInput").placeholder = t.searchPlaceholder;
+
+      document.getElementById("dashTitle").textContent = t.dashTitle;
+      document.getElementById("lblUnits").textContent = t.lblUnits;
+      document.getElementById("lblTopics").textContent = t.lblTopics;
+      document.getElementById("lblMarks").textContent = t.lblMarks;
+
+      document.getElementById("fAll").textContent = t.fAll;
+      document.getElementById("fPending").textContent = t.fPending;
+      document.getElementById("fDone").textContent = t.fDone;
+      document.getElementById("fAll").classList.toggle("active", currentFilter === "all");
+      document.getElementById("fPending").classList.toggle("active", currentFilter === "pending");
+      document.getElementById("fDone").classList.toggle("active", currentFilter === "done");
+      document.getElementById("resetBtn").textContent = t.resetBtn;
+
+      document.getElementById("thUnit").textContent = t.thUnit;
+      document.getElementById("thChapter").textContent = t.thChapter;
+      document.getElementById("thMarks").textContent = t.thMarks;
+      document.getElementById("tfTotalLabel").textContent = t.tfTotalLabel;
+      document.getElementById("patternTitle").textContent = t.patternTitle;
+      document.getElementById("emptyState").textContent = t.emptyState;
+
+      document.getElementById("modalTitle").textContent = t.modalTitle;
+      document.getElementById("modalDesc").textContent = t.modalDesc;
+      document.getElementById("modalCancel").textContent = t.modalCancel;
+      document.getElementById("modalConfirm").textContent = t.modalConfirm;
+
+      updateDashboard();
+
+      const filteredUnits = SUBJECT_DATA.units.filter(u => matchesSearch(u) && matchesFilter(u));
+      const cardsContainer = document.getElementById("cardsContainer");
+      const tableContainer = document.getElementById("tableContainer");
+      const tableBody = document.getElementById("tableBody");
+      const emptyState = document.getElementById("emptyState");
+
+      cardsContainer.innerHTML = "";
+      tableBody.innerHTML = "";
+
+      if (filteredUnits.length === 0) {
+        emptyState.style.display = "block";
+        cardsContainer.style.display = "none";
+        tableContainer.style.display = "none";
+      } else {
+        emptyState.style.display = "none";
+        cardsContainer.style.display = currentView === "card" ? "block" : "none";
+        tableContainer.style.display = currentView === "table" ? "block" : "none";
+
+        filteredUnits.forEach(unit => {
+          const done = isUnitCompleted(unit);
+          const partial = isUnitPartial(unit);
+          const title = currentLang === "hi" ? unit.title_hi : unit.title_en;
+          const topics = currentLang === "hi" ? unit.topics_hi : unit.topics_en;
+          const marksLabel = currentLang === "hi" ? `${unit.marks} अंक` : `${unit.marks} Marks`;
+
+          // Render Card
+          const card = document.createElement("article");
+          card.className = `unit-card${done ? " completed" : ""}`;
+
+          const header = document.createElement("div");
+          header.className = "unit-header";
+
+          const masterCb = document.createElement("input");
+          masterCb.type = "checkbox";
+          masterCb.className = "master-cb";
+          masterCb.checked = done;
+          masterCb.indeterminate = partial;
+          masterCb.onchange = () => toggleUnit(unit.id);
+
+          const info = document.createElement("div");
+          info.className = "unit-info";
+
+          const topLine = document.createElement("div");
+          topLine.className = "unit-top-line";
+          topLine.innerHTML = `
+            <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+              <span class="unit-code">${unit.unit_code}</span>
+              <span class="done-badge">${t.doneBadge}</span>
+            </div>
+            <span class="marks-badge">${marksLabel}</span>
+          `;
+
+          const titleEl = document.createElement("h3");
+          titleEl.className = "unit-title";
+          titleEl.textContent = title;
+
+          const topicsWrap = document.createElement("div");
+          topicsWrap.className = "topics-wrap";
+
+          topics.forEach((topicText, idx) => {
+            const isChecked = !!completedMap[topicKey(unit.id, idx)];
+            const chip = document.createElement("label");
+            chip.className = `topic-chip${isChecked ? " checked" : ""}`;
+
+            const cb = document.createElement("input");
+            cb.type = "checkbox";
+            cb.checked = isChecked;
+            cb.onchange = () => toggleTopic(unit.id, idx);
+
+            const span = document.createElement("span");
+            span.textContent = topicText;
+
+            chip.appendChild(cb);
+            chip.appendChild(span);
+            topicsWrap.appendChild(chip);
+          });
+
+          info.appendChild(topLine);
+          info.appendChild(titleEl);
+          info.appendChild(topicsWrap);
+          header.appendChild(masterCb);
+          header.appendChild(info);
+          card.appendChild(header);
+          cardsContainer.appendChild(card);
+
+          // Render Table Row
+          const tr = document.createElement("tr");
+          if (done) tr.className = "row-done";
+
+          const tdCb = document.createElement("td");
+          const rowCb = document.createElement("input");
+          rowCb.type = "checkbox";
+          rowCb.checked = done;
+          rowCb.indeterminate = partial;
+          rowCb.style.accentColor = "var(--success)";
+          rowCb.onchange = () => toggleUnit(unit.id);
+          tdCb.appendChild(rowCb);
+
+          const tdCode = document.createElement("td");
+          tdCode.style.fontWeight = "700";
+          tdCode.textContent = unit.unit_code;
+
+          const tdDesc = document.createElement("td");
+          tdDesc.innerHTML = `<strong>${title}</strong><div style="color:var(--muted);margin-top:4px;font-size:0.78rem;">${topics.join(" • ")}</div>`;
+
+          const tdMarks = document.createElement("td");
+          tdMarks.style.textAlign = "center";
+          tdMarks.style.fontWeight = "800";
+          tdMarks.textContent = unit.marks;
+
+          tr.appendChild(tdCb);
+          tr.appendChild(tdCode);
+          tr.appendChild(tdDesc);
+          tr.appendChild(tdMarks);
+          tableBody.appendChild(tr);
+        });
+      }
+
+      // Render Exam Pattern
+      const patternList = document.getElementById("patternList");
+      const patternItems = currentLang === "hi" ? SUBJECT_DATA.pattern_hi : SUBJECT_DATA.pattern_en;
+      patternList.innerHTML = patternItems.map(item => `<li>${item}</li>`).join("");
+    }
+
+    render();
+  </script>
+</body>
+</html>

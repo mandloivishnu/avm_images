@@ -273,44 +273,46 @@
         }
       ]
     },
-    {
-      "question_number": "4",
-      "question_type": "MATCH_COLUMN",
-      "marks": "1×5=5",
-      "text": "सही जोड़ी बनाइये :",
-      "columns": {
-        "column_A_title": "स्तम्भ (अ)",
-        "column_B_title": "स्तम्भ (ब)",
-        "pairs": [
-          {
-            "a_item": "(i) सिलिकन",
-            "b_item": "(b) अर्द्धचालक",
-            "correct_match_index": "2"
-          },
-          {
-            "a_item": "(ii) K₄[Fe(CN)₆]",
-            "b_item": "(e) प्रतिआयन",
-            "correct_match_index": "5"
-          },
-          {
-            "a_item": "(iii) ल्यूकास अभिकर्मक",
-            "b_item": "(d) सांद्र HCl एवं ZnCl₂",
-            "correct_match_index": "4"
-          },
-          {
-            "a_item": "(iv) फॉर्मिक अम्ल",
-            "b_item": "(c) लाल चींटियाँ",
-            "correct_match_index": "3"
-          },
-          {
-            "a_item": "(v) मोनोसैकेराइड",
-            "b_item": "(a) अपचायी शर्करा",
-            "correct_match_index": "1"
-          }
-        ]
+   {
+  "question_number": "4",
+  "question_type": "MATCH_COLUMN",
+  "marks": "1×5=5",
+  "text": "सही जोड़ी बनाइये :",
+  "youtube_url": null,
+  "previous_exam_reference": null,
+  "columns": {
+    "column_A_title": "स्तम्भ (अ)",
+    "column_B_title": "स्तम्भ (ब)",
+    "pairs": [
+      {
+        "a_item": "(i) सिलिकन",
+        "b_item": "अपचायी शर्करा",
+        "correct_match_index": "2"
       },
-      "explanation": "स्तम्भ (अ) का स्तम्भ (ब) से उपयुक्त मिलान।\n\n(i) सिलिकन ⟶ (b) अर्द्धचालक\nकारण: सिलिकन एक प्रसिद्ध अर्धचालक (Semiconductor) तत्व है।\n\n(ii) K₄[Fe(CN)₆] ⟶ (e) प्रतिआयन\nकारण: K₄[Fe(CN)₆] में K⁺ आयन समन्वय मण्डल के बाहर प्रतिआयन (Counter ion) के रूप में उपस्थित हैं।\n\n(iii) ल्यूकास अभिकर्मक ⟶ (d) सांद्र HCl एवं ZnCl₂\nकारण: सांद्र HCl तथा निर्जल ZnCl₂ के 1:1 मिश्रण को ल्यूकास अभिकर्मक कहते हैं।\n\n(iv) फॉर्मिक अम्ल ⟶ (c) लाल चींटियाँ\nकारण: फॉर्मिक अम्ल (HCOOH) लाल चींटियों (Formica) के डंक में पाया जाता है।\n\n(v) मोनोसैकेराइड ⟶ (a) अपचायी शर्करा\nकारण: सभी मोनोसैकेराइड्स (ग्लूकोज, फ्रक्टोज आदि) अपचायी शर्करा (Reducing sugars) होते हैं।"
-    },
+      {
+        "a_item": "(ii) K₄[Fe(CN)₆]",
+        "b_item": "अर्द्धचालक",
+        "correct_match_index": "5"
+      },
+      {
+        "a_item": "(iii) ल्यूकास अभिकर्मक",
+        "b_item": "लाल चींटियाँ",
+        "correct_match_index": "4"
+      },
+      {
+        "a_item": "(iv) फॉर्मिक अम्ल",
+        "b_item": "सांद्र HCl एवं ZnCl₂",
+        "correct_match_index": "3"
+      },
+      {
+        "a_item": "(v) मोनोसैकेराइड",
+        "b_item": "प्रतिआयन",
+        "correct_match_index": "1"
+      }
+    ]
+  },
+  "explanation": "स्तम्भ (अ) की प्रविष्टियों का स्तम्भ (ब) से सही मिलान एवं उनके कारण निम्नलिखित हैं:\n\n(i) सिलिकन ⟶ अर्द्धचालक\nकारण: सिलिकन एक प्रसिद्ध अर्धचालक (Semiconductor) तत्व है।\n\n(ii) K₄[Fe(CN)₆] ⟶ प्रतिआयन\nकारण: K₄[Fe(CN)₆] में K⁺ आयन समन्वय मण्डल के बाहर प्रतिआयन (Counter ion) के रूप में उपस्थित हैं।\n\n(iii) ल्यूकास अभिकर्मक ⟶ सांद्र HCl एवं ZnCl₂\nकारण: सांद्र HCl तथा निर्जल ZnCl₂ के 1:1 मिश्रण को ल्यूकास अभिकर्मक कहते हैं।\n\n(iv) फॉर्मिक अम्ल ⟶ लाल चींटियाँ\nकारण: फॉर्मिक अम्ल (HCOOH) लाल चींटियों (Formica) के डंक में पाया जाता है।\n\n(v) मोनोसैकेराइड ⟶ अपचायी शर्करा\nकारण: सभी मोनोसैकेराइड्स (ग्लूकोज, फ्रक्टोज आदि) अपचायी शर्करा (Reducing sugars) होते हैं।"
+},
     {
       "question_number": "5",
       "question_type": "DESCRIPTIVE",

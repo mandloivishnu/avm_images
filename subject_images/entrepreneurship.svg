@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Entrepreneurship</title>
+  <rect width="128" height="128" rx="28" fill="#C2255C"/>
+  <path d="M64 18a28 28 0 0 0-16 51c4 3 6 7 6 12h20c0-5 2-9 6-12a28 28 0 0 0-16-51z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M54 92h20M57 104h14" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="64" cy="48" r="11" fill="#FFD43B"/>
+  <path d="M64 42v12M60 46h6M60 52h6" stroke="#C2255C" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

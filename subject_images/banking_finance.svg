@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <title>Banking and Finance</title>
+  <rect width="128" height="128" rx="28" fill="#2B8A3E"/>
+  <path d="M64 20L22 44h84z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#FFFFFF" stroke-width="7" stroke-linecap="round">
+    <path d="M36 56v32M52 56v32M76 56v32M92 56v32"/>
+  </g>
+  <path d="M22 100h84" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="64" cy="34" r="4" fill="#FFD43B"/>
+</svg>
