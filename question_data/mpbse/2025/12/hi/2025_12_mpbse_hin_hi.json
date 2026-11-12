@@ -342,38 +342,38 @@
         "pairs": [
           {
             "a_item": "(i) जिठौत",
-            "b_item": "जेठ का पुत्र",
-            "correct_match_index": "1"
-          },
-          {
-            "a_item": "(ii) बिम्ब",
-            "b_item": "शब्द चित्र",
-            "correct_match_index": "2"
-          },
-          {
-            "a_item": "(iii) जूझ",
-            "b_item": "केशव प्रथम वीर",
-            "correct_match_index": "3"
-          },
-          {
-            "a_item": "(iv) अतीत में दबे पाँव",
             "b_item": "यात्रा वृत्तांत",
             "correct_match_index": "4"
           },
           {
-            "a_item": "(v) फ्रीलांसर पत्रकार",
-            "b_item": "अलग-अलग अखबारों में लेखन",
-            "correct_match_index": "5"
-          },
-          {
-            "a_item": "(vi) समाचार लेखन की शैली",
+            "a_item": "(ii) बिम्ब",
             "b_item": "उल्टा पिरामिड",
             "correct_match_index": "6"
           },
           {
-            "a_item": "(vii) कॉलेज ऑफ प्रीस्ट्स",
-            "b_item": "धार्मिक अनुष्ठान का स्थान",
+            "a_item": "(iii) जूझ",
+            "b_item": "अलग-अलग अखबारों में लेखन",
             "correct_match_index": "7"
+          },
+          {
+            "a_item": "(iv) अतीत में दबे पाँव",
+            "b_item": "जेठ का पुत्र",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(v) फ्रीलांसर पत्रकार",
+            "b_item": "धार्मिक अनुष्ठान का स्थान",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(vi) समाचार लेखन की शैली",
+            "b_item": "शब्द चित्र",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(vii) कॉलेज ऑफ प्रीस्ट्स",
+            "b_item": "केशव प्रथम वीर",
+            "correct_match_index": "5"
           }
         ]
       },
