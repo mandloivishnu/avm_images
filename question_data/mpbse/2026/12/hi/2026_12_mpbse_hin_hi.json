@@ -342,23 +342,23 @@
         "pairs": [
           {
             "a_item": "(i) उत्साह",
-            "b_item": "सूर्यकांत त्रिपाठी 'निराला'",
-            "correct_match_index": "1"
+            "b_item": "देशभक्ति की भावना",
+            "correct_match_index": "4"
           },
           {
             "a_item": "(ii) अर्द्धसममात्रिक छन्द",
-            "b_item": "दोहा",
-            "correct_match_index": "2"
+            "b_item": "धर्म-चक्र",
+            "correct_match_index": "6"
           },
           {
             "a_item": "(iii) नेताजी का चश्मा",
-            "b_item": "देशभक्ति की भावना",
-            "correct_match_index": "3"
+            "b_item": "अनेकार्थी शब्द",
+            "correct_match_index": "1"
           },
           {
             "a_item": "(iv) एक से अधिक अर्थ देने वाले शब्द",
-            "b_item": "अनेकार्थी शब्द",
-            "correct_match_index": "4"
+            "b_item": "सूर्यकांत त्रिपाठी 'निराला'",
+            "correct_match_index": "3"
           },
           {
             "a_item": "(v) 'त्रिभुवन' में समास है",
@@ -367,8 +367,8 @@
           },
           {
             "a_item": "(vi) प्रेयर-व्हील",
-            "b_item": "धर्म-चक्र",
-            "correct_match_index": "6"
+            "b_item": "दोहा",
+            "correct_match_index": "2"
           }
         ]
       },
