@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
-  <title>Biology</title>
-  <rect width="128" height="128" rx="28" fill="#2F9E44"/>
-  <g stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" fill="none">
-    <path d="M44 20C44 48 84 48 84 64S44 80 44 108"/>
-    <path d="M84 20C84 48 44 48 44 64S84 80 84 108"/>
-    <path d="M52 34h24M48 48h32M48 80h32M52 94h24" stroke-width="4" opacity=".9"/>
-  </g>
-  <circle cx="64" cy="64" r="0" fill="#FFFFFF"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260"><title>Biology</title><rect width="400" height="260" rx="18" fill="#dcfce7" stroke="#15803d" stroke-width="4"/><g transform="translate(0,15)"><circle cx="170" cy="110" r="50" fill="#bbf7d0" stroke="#166534" stroke-width="3"/><circle cx="170" cy="110" r="16" fill="#16a34a" stroke="#166534" stroke-width="3"/><circle cx="145" cy="90" r="6" fill="#f59e0b" stroke="#334155" stroke-width="3"/><circle cx="195" cy="130" r="6" fill="#f59e0b" stroke="#334155" stroke-width="3"/><path d="M250 130 q28.0 -70 62.99999999999999 -20 q-30 70 -62.99999999999999 20z" fill="#22c55e" stroke="#166534" stroke-width="3"/><line x1="250" y1="130" x2="299.0" y2="116.0" stroke="#166534" stroke-width="3"/></g><rect x="20" y="212" width="360" height="34" rx="10" fill="#15803d"/><text x="200" y="235" font-family="Arial,sans-serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">Biology</text></svg>

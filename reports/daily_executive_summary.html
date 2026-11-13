@@ -114,7 +114,10 @@
     }
 
     @media (min-width: 900px) {
-      .kpi-row { grid-template-columns: repeat(6, 1fr); }
+      .kpi-row { grid-template-columns: repeat(4, 1fr); }
+    }
+    @media (min-width: 1150px) {
+      .kpi-row { grid-template-columns: repeat(7, 1fr); }
     }
 
     .kpi-card {
@@ -188,7 +191,10 @@
     }
 
     @media (min-width: 900px) {
-      .range-kpi-grid { grid-template-columns: repeat(6, 1fr); }
+      .range-kpi-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+    @media (min-width: 1150px) {
+      .range-kpi-grid { grid-template-columns: repeat(7, 1fr); }
     }
 
     .range-kpi-item {
@@ -431,6 +437,8 @@
     .badge-pay   { background: #fef3c7; color: #b45309; }
     .badge-hi    { background: #fef08a; color: #854d0e; }
     .badge-en    { background: #f1f5f9; color: #475569; }
+    .badge-c10   { background: #f3e8ff; color: #6b21a8; }
+    .badge-c12   { background: #ffedd5; color: #9a3412; }
     .badge-saved { background: #dcfce7; color: #15803d; font-size: 0.68rem; }
     .badge-unsaved { background: #fee2e2; color: #b91c1c; font-size: 0.68rem; }
 
@@ -602,6 +610,11 @@
         <small id="statTotalEn">0 English (EN)</small>
       </div>
       <div class="kpi-card">
+        <span>Class 10 / 12 Users</span>
+        <h3 id="statTotalC10" style="color: #6b21a8;">0</h3>
+        <small id="statTotalC12">0 Class 12</small>
+      </div>
+      <div class="kpi-card">
         <span>Saved Snapshots</span>
         <h3 id="statSavedDays" style="color: var(--primary);">0</h3>
         <small id="statActiveDays">0 active dates</small>
@@ -640,6 +653,10 @@
         <div class="range-kpi-item">
           <span>Hindi / English</span>
           <strong id="rangeSumLang" style="font-size:0.95rem;">0 HI / 0 EN</strong>
+        </div>
+        <div class="range-kpi-item">
+          <span>Class 10 / Class 12</span>
+          <strong id="rangeSumClass" style="font-size:0.95rem; color: #6b21a8;">0 C10 / 0 C12</strong>
         </div>
         <div class="range-kpi-item">
           <span>Snapshots Stored</span>
@@ -696,6 +713,8 @@
             <th>Paid Req</th>
             <th>Hindi (HI)</th>
             <th>English (EN)</th>
+            <th>Class 10</th>
+            <th>Class 12</th>
             <th>Snapshot State</th>
             <th>App Improvement / Daily Notes</th>
             <th style="text-align: center;">Actions</th>
@@ -703,7 +722,7 @@
         </thead>
         <tbody id="desktopTableBody">
           <tr>
-            <td colspan="11" class="empty-state">Loading date-wise data from Firestore...</td>
+            <td colspan="13" class="empty-state">Loading date-wise data from Firestore...</td>
           </tr>
         </tbody>
         <tfoot id="desktopTableFoot"></tfoot>
@@ -818,7 +837,7 @@
       const mobileBox = document.getElementById("mobileCardsContainer");
       const desktopBox = document.getElementById("desktopTableBody");
       mobileBox.innerHTML = `<div class="empty-state">Aggregating date-wise data from Firestore...</div>`;
-      desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state">Aggregating date-wise data from Firestore...</td></tr>`;
+      desktopBox.innerHTML = `<tr><td colspan="13" class="empty-state">Aggregating date-wise data from Firestore...</td></tr>`;
 
       try {
         const [profSnap, paySnap, fbSnap, contentSnap, snapSnap] = await Promise.all([
@@ -830,10 +849,19 @@
         ]);
 
         const contentLangMap = {};
+        const contentClassMap = {};
         contentSnap.forEach(doc => {
           const d = doc.data();
-          if (d && d.contentLanguage) {
+          if (!d) return;
+          if (d.contentLanguage) {
             contentLangMap[doc.id] = String(d.contentLanguage).toLowerCase().trim();
+          }
+          const rawClass = d.class || d.selectedClass || d.userClass || d.className || d.grade || d.standard || d.class_name || "";
+          if (rawClass !== "" && rawClass !== null && rawClass !== undefined) {
+            const clsStr = String(rawClass).trim();
+            if (clsStr.includes("10")) contentClassMap[doc.id] = "10";
+            else if (clsStr.includes("12")) contentClassMap[doc.id] = "12";
+            else contentClassMap[doc.id] = clsStr;
           }
         });
 
@@ -856,22 +884,34 @@
               paidCount: 0,
               feedbacks: 0,
               hiCount: 0,
-              enCount: 0
+              enCount: 0,
+              c10Count: 0,
+              c12Count: 0
             };
           }
         }
 
-        let totalUsers = 0, totalPrem = 0, totalHi = 0, totalEn = 0;
+        let totalUsers = 0, totalPrem = 0, totalHi = 0, totalEn = 0, totalC10 = 0, totalC12 = 0;
         profSnap.forEach(doc => {
           const u = doc.data();
           totalUsers++;
           const regDate = parseDateKeyIST(u.createdAt);
           const lang = contentLangMap[doc.id] || (u.userLanguage ? String(u.userLanguage).toLowerCase().trim() : "en");
+          const fallbackClass = u.class || u.selectedClass || u.userClass || u.className || u.grade || "";
+          let userClass = contentClassMap[doc.id] || (fallbackClass ? String(fallbackClass).trim() : "N/A");
+          if (userClass !== "N/A") {
+            if (userClass.includes("10")) userClass = "10";
+            else if (userClass.includes("12")) userClass = "12";
+          }
+
           const isPrem = u.premiumAccess === true || String(u.premiumAccess).toLowerCase() === "true";
           const premDate = parseDateKeyIST(u.premiumActivatedAt || u.createdAt);
 
           if (lang === "hi") totalHi++;
           else totalEn++;
+
+          if (userClass === "10") totalC10++;
+          else if (userClass === "12") totalC12++;
 
           if (isPrem) totalPrem++;
 
@@ -880,6 +920,8 @@
             dateAgg[regDate].newReg++;
             if (lang === "hi") dateAgg[regDate].hiCount++;
             else dateAgg[regDate].enCount++;
+            if (userClass === "10") dateAgg[regDate].c10Count++;
+            else if (userClass === "12") dateAgg[regDate].c12Count++;
           }
 
           if (isPrem && premDate) {
@@ -937,6 +979,8 @@
             feedbacks: row.feedbacks,
             hiCount: row.hiCount,
             enCount: row.enCount,
+            c10Count: row.c10Count,
+            c12Count: row.c12Count,
             isSaved: !!savedSnap,
             snapshotDocId: savedSnap ? savedSnap.docId : null,
             improvementNotes: savedSnap ? savedSnap.improvementNotes : ""
@@ -953,6 +997,8 @@
         document.getElementById("statAvgRating").innerText = totalFb > 0 ? `${(ratingSum / totalFb).toFixed(1)} ★ avg rating` : "0.0 ★";
         document.getElementById("statTotalHi").innerText = totalHi;
         document.getElementById("statTotalEn").innerText = `${totalEn} English (EN)`;
+        document.getElementById("statTotalC10").innerText = `${totalC10} C10`;
+        document.getElementById("statTotalC12").innerText = `${totalC12} Class 12`;
         document.getElementById("statSavedDays").innerText = Object.keys(savedSnapshotsMap).length;
         document.getElementById("statActiveDays").innerText = `${allDateRows.length} active dates`;
 
@@ -962,7 +1008,7 @@
       } catch (err) {
         console.error(err);
         mobileBox.innerHTML = `<div class="empty-state" style="color:red;">Error loading: ${err.message}</div>`;
-        desktopBox.innerHTML = `<tr><td colspan="11" class="empty-state" style="color:red;">Error loading: ${err.message}</td></tr>`;
+        desktopBox.innerHTML = `<tr><td colspan="13" class="empty-state" style="color:red;">Error loading: ${err.message}</td></tr>`;
       }
     }
 
@@ -1034,7 +1080,7 @@
     }
 
     function updateRangeAggregateCard(data, timeRange, fromDate, toDate) {
-      let reg = 0, prem = 0, fb = 0, paid = 0, hi = 0, en = 0, saved = 0;
+      let reg = 0, prem = 0, fb = 0, paid = 0, hi = 0, en = 0, c10 = 0, c12 = 0, saved = 0;
       data.forEach(r => {
         reg += r.newReg;
         prem += r.premUpgrades;
@@ -1042,6 +1088,8 @@
         paid += r.paidCount;
         hi += r.hiCount;
         en += r.enCount;
+        c10 += r.c10Count;
+        c12 += r.c12Count;
         if (r.isSaved) saved++;
       });
 
@@ -1061,6 +1109,7 @@
       document.getElementById("rangeSumFb").innerText = `${fb}`;
       document.getElementById("rangeSumPaid").innerText = `${paid}`;
       document.getElementById("rangeSumLang").innerText = `${hi} HI / ${en} EN`;
+      document.getElementById("rangeSumClass").innerText = `${c10} C10 / ${c12} C12`;
       document.getElementById("rangeSumSaved").innerText = `${saved} / ${data.length}`;
     }
 
@@ -1070,13 +1119,13 @@
       const mobileBox = document.getElementById("mobileCardsContainer");
 
       if (data.length === 0) {
-        desktopTbody.innerHTML = `<tr><td colspan="11" class="empty-state">No matching dates found for current filter.</td></tr>`;
+        desktopTbody.innerHTML = `<tr><td colspan="13" class="empty-state">No matching dates found for current filter.</td></tr>`;
         desktopTfoot.innerHTML = "";
         mobileBox.innerHTML = `<div class="empty-state">No matching dates found for current filter.</div>`;
         return;
       }
 
-      let tReg = 0, tPrem = 0, tFb = 0, tPaid = 0, tHi = 0, tEn = 0;
+      let tReg = 0, tPrem = 0, tFb = 0, tPaid = 0, tHi = 0, tEn = 0, tC10 = 0, tC12 = 0;
       data.forEach(r => {
         tReg += r.newReg;
         tPrem += r.premUpgrades;
@@ -1084,6 +1133,8 @@
         tPaid += r.paidCount;
         tHi += r.hiCount;
         tEn += r.enCount;
+        tC10 += r.c10Count;
+        tC12 += r.c12Count;
       });
 
       desktopTbody.innerHTML = data.map((r, i) => {
@@ -1106,6 +1157,8 @@
             <td><strong>${r.paidCount}</strong></td>
             <td><span class="badge badge-hi">${r.hiCount}</span></td>
             <td><span class="badge badge-en">${r.enCount}</span></td>
+            <td><span class="badge badge-c10">${r.c10Count}</span></td>
+            <td><span class="badge badge-c12">${r.c12Count}</span></td>
             <td>${snapBadge}</td>
             <td style="max-width: 260px; white-space: normal; font-style: italic; color: #475569; word-break: break-word;">
               ${escapeHtml(r.improvementNotes) || "(No note added)"}
@@ -1127,6 +1180,8 @@
           <td><strong style="color: #15803d;">${tPaid}</strong></td>
           <td><strong>${tHi}</strong></td>
           <td><strong>${tEn}</strong></td>
+          <td><strong style="color: #6b21a8;">${tC10}</strong></td>
+          <td><strong style="color: #9a3412;">${tC12}</strong></td>
           <td colspan="3" style="text-align: right; color: var(--text-muted); font-size: 0.72rem;">
             Active range selection total
           </td>
@@ -1170,6 +1225,13 @@
                 <span class="badge badge-en">${r.enCount} EN</span>
               </span>
             </div>
+            <div class="card-row">
+              <span class="card-label">Class Breakdown (10 / 12)</span>
+              <span class="card-val">
+                <span class="badge badge-c10">${r.c10Count} C10</span>
+                <span class="badge badge-c12">${r.c12Count} C12</span>
+              </span>
+            </div>
 
             <div class="note-box">
               <strong>Daily Notes:</strong> ${escapeHtml(r.improvementNotes) || "None added yet."}
@@ -1201,7 +1263,7 @@
       const notes = prompt("Enter executive observation or growth strategy note for this period:", "");
       if (notes === null) return;
 
-      let reg = 0, prem = 0, fb = 0, paid = 0, hi = 0, en = 0;
+      let reg = 0, prem = 0, fb = 0, paid = 0, hi = 0, en = 0, c10 = 0, c12 = 0;
       currentFilteredRows.forEach(r => {
         reg += r.newReg;
         prem += r.premUpgrades;
@@ -1209,6 +1271,8 @@
         paid += r.paidCount;
         hi += r.hiCount;
         en += r.enCount;
+        c10 += r.c10Count;
+        c12 += r.c12Count;
       });
 
       const startDate = currentFilteredRows[currentFilteredRows.length - 1].dateKey;
@@ -1228,6 +1292,8 @@
           totalPaid: paid,
           totalHindi: hi,
           totalEnglish: en,
+          totalClass10: c10,
+          totalClass12: c12,
           strategicNotes: notes.trim() || "(No notes added)"
         };
 
@@ -1281,6 +1347,8 @@
                 <div><span>Prem:</span> <strong style="color:#166534;">+${item.totalPrem}</strong></div>
                 <div><span>Paid:</span> <strong style="color:#15803d;">${item.totalPaid}</strong></div>
                 <div><span>Feedbacks:</span> <strong style="color:#b45309;">${item.totalFeedbacks}</strong></div>
+                <div><span>Class 10:</span> <strong style="color:#6b21a8;">${item.totalClass10 ?? 0}</strong></div>
+                <div><span>Class 12:</span> <strong style="color:#9a3412;">${item.totalClass12 ?? 0}</strong></div>
               </div>
 
               <div class="note-box" style="margin-top:4px; font-size:0.74rem;">
@@ -1316,6 +1384,7 @@
 • *Paid Requests:* ${item.totalPaid}
 • *Feedbacks:* ${item.totalFeedbacks}
 • *Languages:* ${item.totalHindi} Hindi | ${item.totalEnglish} English
+• *Classes:* ${item.totalClass10 ?? 0} Class 10 | ${item.totalClass12 ?? 0} Class 12
 
 📝 *Observation Note:* ${item.strategicNotes || 'None'}
 ⏰ *Saved Timestamp:* ${formatFullIST(item.createdAt)}`;
@@ -1351,6 +1420,8 @@
           todayPrem: row.premUpgrades,
           feedbacks: row.feedbacks,
           paidCount: row.paidCount,
+          c10Count: row.c10Count,
+          c12Count: row.c12Count,
           improvementNotes: note.trim() || "(No note added)"
         };
 
@@ -1390,13 +1461,15 @@
 
     function shareFullSummaryWhatsApp() {
       const nowIST = formatFullIST(new Date());
-      let tReg = 0, tPrem = 0, tPaid = 0, tFb = 0;
+      let tReg = 0, tPrem = 0, tPaid = 0, tFb = 0, tC10 = 0, tC12 = 0;
 
       currentFilteredRows.forEach(r => {
         tReg += r.newReg;
         tPrem += r.premUpgrades;
         tPaid += r.paidCount;
         tFb += r.feedbacks;
+        tC10 += r.c10Count;
+        tC12 += r.c12Count;
       });
 
       const topBreakdown = currentFilteredRows.slice(0, 5).map(r => 
@@ -1413,6 +1486,7 @@
 • *Premium Upgrades:* +${tPrem}
 • *Paid Requests:* ${tPaid}
 • *Feedbacks Logged:* ${tFb}
+• *Class Breakdown:* ${tC10} Class 10 | ${tC12} Class 12
 
 🗓️ *Recent Daily Breakdown:*
 ${topBreakdown || "No records in view"}
@@ -1434,6 +1508,7 @@ _Generated via Admin Management Console_`;
 • *Paid Requests:* ${r.paidCount}
 • *Feedbacks Received:* ${r.feedbacks}
 • *Language:* ${r.hiCount} Hindi | ${r.enCount} English
+• *Class:* ${r.c10Count} Class 10 | ${r.c12Count} Class 12
 📝 *Daily Improvement Note:* ${r.improvementNotes || 'None'}`;
 
       const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
