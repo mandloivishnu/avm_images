@@ -1,0 +1,167 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics - Chapter 5 : Magnetism and Matter",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Magnetic Dipole and Classification of Materials (Quick Revision)",
+        "definition": "Based on magnetic behavior, materials are classified into diamagnetic, paramagnetic, and ferromagnetic categories.",
+        "explanation": "Magnetic dipole moment is the product of pole strength and the distance between the two poles. Magnetic field lines form closed loops and never intersect each other.",
+        "importantPoints": [
+          "Magnetic dipole moment: M = m × 2l (Unit: Ampere-meter²)",
+          "Diamagnetic: Weakly repelled by magnetic field (e.g., Bismuth, Copper, Water)",
+          "Paramagnetic: Weakly attracted towards magnetic field (e.g., Aluminium, Oxygen)",
+          "Ferromagnetic: Strongly attracted towards magnetic field (e.g., Iron, Cobalt, Nickel)",
+          "Magnetic field lines never intersect each other"
+        ],
+        "highlightWords": [
+          "Magnetic Dipole Moment",
+          "Diamagnetic",
+          "Paramagnetic",
+          "Ferromagnetic",
+          "Magnetic Field Lines"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Magnetic Dipole Moment?",
+          "explanation": "1. Definition: The product of pole strength (m) of either pole of a magnet or magnetic dipole and the effective length (2l) between the two poles is called Magnetic Dipole Moment (M).\n2. Formula:\nM = m × 2l  (For a current loop, M = N I A)\n3. Unit and Quantity:\n- SI Unit: Ampere-meter² (A·m²) or Joule per Tesla (J/T).\n- It is a vector quantity whose direction is from South pole (S) to North pole (N) inside the magnet.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the SI unit of magnetic dipole moment?",
+            "explanation": "1. SI Unit: The SI unit of magnetic dipole moment is 'Ampere-meter²' (A·m²) or 'Joule per Tesla' (J/T).\n2. Dimensional Formula: [M⁰ L² T⁰ A¹].\n3. In context of a current-carrying coil: If a coil of N turns has area A and carries current I, then M = N I A. Here, the product of current (A) and area (m²) gives the unit A·m².",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are Diamagnetic Materials?",
+          "explanation": "1. Definition: Materials which when placed in an external non-uniform magnetic field move from stronger magnetic field to weaker magnetic field, i.e., are weakly repelled by a magnetic field, are called Diamagnetic Materials.\n2. Main Properties:\n- Their magnetic susceptibility (χm) is small and negative.\n- Their relative permeability μr is slightly less than 1 (0 < μr < 1).\n- They do not obey Curie's law (remain unaffected by temperature).\n3. Examples: Bismuth, Copper (Cu), Zinc (Zn), Silver, Gold, Water, and Nitrogen.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Give two examples of diamagnetic materials.",
+            "explanation": "Main examples of diamagnetic materials:\n1. Copper and Water [Others: Bismuth, Gold, Zinc].\n\nBehavior of Materials:\n- When these materials are brought near the poles of a strong magnet, they are repelled by the magnet.\n- All electrons in them are in paired state, so their net resultant magnetic moment is zero. On applying an external field, weak magnetism is induced in the opposite direction.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are Paramagnetic Materials?",
+          "explanation": "1. Definition: Materials which when placed in an external non-uniform magnetic field move from weaker magnetic field to stronger magnetic field, i.e., are weakly attracted in the direction of magnetic field, are called Paramagnetic Materials.\n2. Main Properties:\n- Their magnetic susceptibility (χm) is small but positive.\n- Their relative permeability is slightly greater than 1 (μr > 1).\n- They obey Curie's law (χm ∝ 1/T); their magnetism decreases on increasing temperature.\n3. Examples: Aluminium, Platinum, Sodium, Oxygen gas, and Chromium.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write two examples of paramagnetic materials.",
+            "explanation": "Main examples of paramagnetic materials:\n1. Aluminium and gaseous Oxygen [Others: Platinum, Sodium].\n\nBehavior of Materials:\n- The atoms of these materials have unpaired electrons, due to which each atom has a permanent magnetic dipole moment.\n- On applying an external magnetic field, these atomic dipoles try to align in the direction of the external field, causing the material to be weakly attracted towards the field.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are Ferromagnetic Materials?",
+          "explanation": "1. Definition: Materials which when placed in an external magnetic field are very strongly attracted in the direction of the field and retain their magnetism even after the field is removed are called Ferromagnetic Materials.\n2. Main Properties:\n- They have self-aligned domain structure.\n- Their magnetic susceptibility (χm) is very high and positive (~ 1000) and relative permeability is very large (μr >> 1).\n- On heating above Curie temperature, they change into paramagnetic materials.\n3. Examples: Iron (Fe), Cobalt (Co), Nickel (Ni), and Gadolinium.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write any two examples of ferromagnetic materials.",
+            "explanation": "Main examples of ferromagnetic materials:\n1. Iron and Nickel [Others: Cobalt, Alnico].\n\nBehavior of Materials:\n- These materials contain domains in which millions of atomic magnetic moments are aligned in the same direction.\n- On applying an external field, the domains rotate and become parallel to the external field, making the material an extremely strong magnet. They are used in making permanent magnets and transformer cores.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write two properties of magnetic field lines.",
+          "explanation": "Main properties of magnetic field lines are as follows:\n1. Continuous closed curves: These lines emerge from the North pole (N) and enter the South pole (S) outside the magnet, and go from South pole (S) to North pole (N) inside the magnet; thus they form continuous closed loops.\n2. Never intersect each other: Two magnetic field lines never intersect each other.\n3. Direction and strength: The tangent drawn at any point shows the direction of the magnetic field at that point, and the density of lines shows the strength of the field.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why do two magnetic field lines never intersect each other?",
+            "explanation": "Reason and Scientific Explanation:\n1. The tangent drawn at any point on a magnetic field line shows the resultant direction of the magnetic field vector (B) at that point.\n2. If two field lines intersect each other at any point, then two different tangents can be drawn at that point of intersection.\n3. This would mean that at that single point, the resultant magnetic field has two different directions, which is physically impossible. Therefore, two lines can never intersect each other.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

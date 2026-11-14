@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+<title>Periodic Table & Indian Mnemonic Tricks | आवर्त सारणी एवं शॉर्ट ट्रिक्स</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f4f6fb;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #475569;
+    --border: #e2e8f0;
+    --primary: #1d4ed8;
+    --primary-light: #eff6ff;
+    --s-bg: #fee2e2; --s-border: #fca5a5; --s-text: #991b1b;
+    --p-bg: #fef3c7; --p-border: #fcd34d; --p-text: #92400e;
+    --d-bg: #dbeafe; --d-border: #93c5fd; --d-text: #1e40af;
+    --f-bg: #dcfce7; --f-border: #86efac; --f-text: #166534;
+    --radius: 14px;
+    --shadow: 0 2px 10px rgba(15, 23, 42, 0.06);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans Devanagari', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+  header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+    color: #fff;
+    padding: 16px 14px 14px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.18);
+  }
+  .header-top {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .title-wrap h1 {
+    margin: 0;
+    font-size: 1.08rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  .title-wrap p {
+    margin: 2px 0 0;
+    font-size: 0.76rem;
+    color: #cbd5e1;
+  }
+  .lang-toggle {
+    display: flex;
+    background: rgba(255,255,255,0.14);
+    border-radius: 999px;
+    padding: 3px;
+    flex-shrink: 0;
+  }
+  .lang-btn {
+    border: none;
+    background: transparent;
+    color: #e2e8f0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .lang-btn.active {
+    background: #fff;
+    color: #0f172a;
+  }
+  .nav-tabs {
+    max-width: 960px;
+    margin: 12px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+  .tab-btn {
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.08);
+    color: #f1f5f9;
+    padding: 8px 6px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.18s ease;
+  }
+  .tab-btn.active {
+    background: #ffffff;
+    color: #1e3a8a;
+    border-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 12px 12px 68px;
+  }
+  .search-bar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .search-input-wrap {
+    position: relative;
+    flex: 1;
+  }
+  .search-input {
+    width: 100%;
+    padding: 10px 36px 10px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    font-size: 0.88rem;
+    background: #fff;
+    color: var(--text);
+    font-family: inherit;
+    outline: none;
+  }
+  .search-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.12);
+  }
+  .clear-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: #e2e8f0;
+    color: #334155;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .chip-row {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    scrollbar-width: none;
+  }
+  .chip-row::-webkit-scrollbar { display: none; }
+  .filter-chip {
+    border: 1.5px solid var(--border);
+    background: #fff;
+    color: var(--muted);
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .filter-chip.active {
+    background: #0f172a;
+    color: #fff;
+    border-color: #0f172a;
+  }
+  .filter-chip[data-block="s"].active { background: var(--s-text); border-color: var(--s-text); }
+  .filter-chip[data-block="p"].active { background: var(--p-text); border-color: var(--p-text); }
+  .filter-chip[data-block="d"].active { background: var(--d-text); border-color: var(--d-text); }
+  .filter-chip[data-block="f"].active { background: var(--f-text); border-color: var(--f-text); }
+
+  /* Tricks Cards */
+  .trick-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .trick-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .block-badge {
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 3px 9px;
+    border-radius: 999px;
+    text-transform: uppercase;
+  }
+  .badge-s { background: var(--s-bg); color: var(--s-text); border: 1px solid var(--s-border); }
+  .badge-p { background: var(--p-bg); color: var(--p-text); border: 1px solid var(--p-border); }
+  .badge-d { background: var(--d-bg); color: var(--d-text); border: 1px solid var(--d-border); }
+  .badge-f { background: var(--f-bg); color: var(--f-text); border: 1px solid var(--f-border); }
+  .group-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .trick-banner {
+    background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+    border-left: 4px solid var(--primary);
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .trick-main {
+    font-size: 1.02rem;
+    font-weight: 800;
+    color: #0f172a;
+  }
+  .trick-roman {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1d4ed8;
+    margin-top: 2px;
+  }
+  .trick-alt {
+    font-size: 0.74rem;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .breakdown-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+    gap: 6px;
+  }
+  .mini-el {
+    border-radius: 10px;
+    padding: 6px 5px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    transition: transform 0.12s ease;
+  }
+  .mini-el:active { transform: scale(0.96); }
+  .mini-el .z-num { font-size: 0.65rem; font-weight: 700; opacity: 0.8; }
+  .mini-el .sym { font-size: 1.05rem; font-weight: 800; line-height: 1.15; }
+  .mini-el .cue { font-size: 0.7rem; font-weight: 600; margin-top: 2px; }
+  .el-s { background: var(--s-bg); border-color: var(--s-border); color: var(--s-text); }
+  .el-p { background: var(--p-bg); border-color: var(--p-border); color: var(--p-text); }
+  .el-d { background: var(--d-bg); border-color: var(--d-border); color: var(--d-text); }
+  .el-f { background: var(--f-bg); border-color: var(--f-border); color: var(--f-text); }
+
+  /* Element List View (Android Cards) */
+  .el-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(156px, 1fr));
+    gap: 8px;
+  }
+  .el-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    cursor: pointer;
+  }
+  .el-card:active { background: #f8fafc; }
+  .el-symbol-box {
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-weight: 800;
+  }
+  .el-symbol-box small { font-size: 0.64rem; line-height: 1; }
+  .el-symbol-box span { font-size: 1.1rem; line-height: 1.15; }
+  .el-info { min-width: 0; flex: 1; }
+  .el-name {
+    font-size: 0.84rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .el-sub {
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
+
+  /* Classic Periodic Table Grid View */
+  .table-hint {
+    font-size: 0.75rem;
+    color: var(--muted);
+    background: #fff;
+    border: 1px dashed #cbd5e1;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ptable-scroll {
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 14px;
+    padding: 10px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .ptable-grid {
+    display: grid;
+    grid-template-columns: repeat(18, minmax(46px, 1fr));
+    gap: 4px;
+    min-width: 880px;
+  }
+  .pt-cell {
+    border-radius: 7px;
+    padding: 4px 3px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    min-height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .pt-cell:hover { filter: brightness(0.96); }
+  .pt-cell .pt-z { font-size: 0.58rem; font-weight: 700; opacity: 0.85; }
+  .pt-cell .pt-sym { font-size: 0.92rem; font-weight: 800; line-height: 1.1; }
+  .pt-cell .pt-nm { font-size: 0.54rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pt-spacer {
+    height: 12px;
+    grid-column: 1 / -1;
+  }
+  .pt-label {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.68rem;
+    font-weight: 800;
+    color: var(--muted);
+    background: #f1f5f9;
+    border-radius: 7px;
+  }
+
+  /* Modal Bottom Sheet for Android */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.55);
+    z-index: 100;
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal-sheet {
+    background: #fff;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 20px 20px 0 0;
+    padding: 18px 16px 24px;
+    box-shadow: 0 -8px 30px rgba(0,0,0,0.2);
+    animation: slideUp 0.2s ease-out;
+  }
+  @media (min-width: 600px) {
+    .modal-backdrop { align-items: center; }
+    .modal-sheet { border-radius: 20px; }
+  }
+  @keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .modal-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .modal-badge {
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+  .modal-badge .mz { font-size: 0.78rem; }
+  .modal-badge .msym { font-size: 1.55rem; line-height: 1.1; }
+  .modal-close {
+    border: none;
+    background: #f1f5f9;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #334155;
+  }
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .detail-item {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 8px 10px;
+  }
+  .detail-item label {
+    display: block;
+    font-size: 0.68rem;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .detail-item span {
+    font-size: 0.86rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .modal-trick-box {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    padding: 10px 12px;
+  }
+  .modal-trick-box label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #1d4ed8;
+    margin-bottom: 2px;
+  }
+  .modal-trick-box p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .empty-state {
+    text-align: center;
+    padding: 36px 16px;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="title-wrap">
+      <h1 id="appTitle">आवर्त सारणी एवं शॉर्ट ट्रिक्स (118 तत्व)</h1>
+      <p id="appSub">Periodic Table • Famous Indian Mnemonics (NCERT / JEE / NEET)</p>
+    </div>
+    <div class="lang-toggle" role="group" aria-label="Language toggle">
+      <button class="lang-btn active" id="btnHi" onclick="setLang('hi')">हिंदी</button>
+      <button class="lang-btn" id="btnEn" onclick="setLang('en')">English</button>
+    </div>
+  </div>
+  <div class="nav-tabs">
+    <button class="tab-btn active" id="tabTricks" onclick="switchTab('tricks')">🧠 शॉर्ट ट्रिक्स</button>
+    <button class="tab-btn" id="tabCards" onclick="switchTab('cards')">📋 तत्व सूची (118)</button>
+    <button class="tab-btn" id="tabGrid" onclick="switchTab('grid')">🔢 आवर्त सारणी</button>
+  </div>
+</header>
+
+<main>
+  <div class="search-bar">
+    <div class="search-input-wrap">
+      <input type="text" id="searchInput" class="search-input" placeholder="तत्व, प्रतीक, परमाणु क्रमांक या ट्रिक खोजें (जैसे: Na, सोडियम, हलीना)..." oninput="onSearchInput()" />
+      <button class="clear-btn" id="clearBtn" onclick="clearSearch()" aria-label="Clear">✕</button>
+    </div>
+  </div>
+
+  <div class="chip-row" id="blockChips">
+    <button class="filter-chip active" data-block="all" onclick="setBlock('all')" id="chipAll">सभी ब्लॉक (All)</button>
+    <button class="filter-chip" data-block="s" onclick="setBlock('s')">s-Block (वर्ग 1–2)</button>
+    <button class="filter-chip" data-block="p" onclick="setBlock('p')">p-Block (वर्ग 13–18)</button>
+    <button class="filter-chip" data-block="d" onclick="setBlock('d')">d-Block (Transition)</button>
+    <button class="filter-chip" data-block="f" onclick="setBlock('f')">f-Block (Lanthanoids & Actinoids)</button>
+  </div>
+
+  <!-- TAB 1: TRICKS -->
+  <section id="viewTricks"></section>
+
+  <!-- TAB 2: ELEMENT CARDS -->
+  <section id="viewCards" class="hidden">
+    <div class="el-list-grid" id="cardsGrid"></div>
+  </section>
+
+  <!-- TAB 3: PERIODIC TABLE GRID -->
+  <section id="viewGrid" class="hidden">
+    <div class="table-hint">
+      <span id="gridHintText">👈 बाएँ-दाएँ स्क्रॉल करें और किसी भी तत्व पर टैप करें</span>
+      <span>1–118</span>
+    </div>
+    <div class="ptable-scroll">
+      <div class="ptable-grid" id="ptableGrid"></div>
+    </div>
+  </section>
+
+  <div id="emptyState" class="empty-state hidden">कोई परिणाम नहीं मिला। कृपया दूसरा शब्द खोजें।</div>
+</main>
+
+<!-- ELEMENT DETAIL BOTTOM SHEET -->
+<div class="modal-backdrop" id="detailModal" onclick="closeModal(event)">
+  <div class="modal-sheet" onclick="event.stopPropagation()">
+    <div class="modal-top">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <div class="modal-badge" id="mBadge">
+          <span class="mz" id="mZ">1</span>
+          <span class="msym" id="mSym">H</span>
+        </div>
+        <div>
+          <h2 style="margin:0;font-size:1.12rem;" id="mName">Hydrogen</h2>
+          <div style="font-size:0.82rem;color:var(--muted);" id="mSubName">हाइड्रोजन</div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="forceCloseModal()" aria-label="Close">✕</button>
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-item">
+        <label id="lblMass">परमाणु द्रव्यमान (Atomic Mass)</label>
+        <span id="mMass">1.008 u</span>
+      </div>
+      <div class="detail-item">
+        <label id="lblBlockGroup">ब्लॉक / वर्ग / आवर्त</label>
+        <span id="mBlockGroup">s-Block • G1 • P1</span>
+      </div>
+      <div class="detail-item" style="grid-column: 1 / -1;">
+        <label id="lblConfig">इलेक्ट्रॉनिक विन्यास (Electronic Config)</label>
+        <span id="mConfig" style="font-family: 'Inter', monospace;">1s¹</span>
+      </div>
+    </div>
+
+    <div class="modal-trick-box" id="mTrickBox">
+      <label id="lblTrick">याद रखने की भारतीय ट्रिक (Mnemonic Trick)</label>
+      <p id="mTrickText">—</p>
+      <div style="font-size:0.78rem;color:#1d4ed8;margin-top:3px;font-weight:600;" id="mTrickRoman"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const ELEMENTS = [{"z": 1, "sym": "H", "en": "Hydrogen", "hi": "हाइड्रोजन", "mass": "1.008", "block": "s", "group": 1, "period": 1, "cat": "nonmetal", "config": "1s¹"}, {"z": 2, "sym": "He", "en": "Helium", "hi": "हीलियम", "mass": "4.003", "block": "p", "group": 18, "period": 1, "cat": "noble", "config": "1s²"}, {"z": 3, "sym": "Li", "en": "Lithium", "hi": "लिथियम", "mass": "6.94", "block": "s", "group": 1, "period": 2, "cat": "alkali", "config": "[He] 2s¹"}, {"z": 4, "sym": "Be", "en": "Beryllium", "hi": "बेरिलियम", "mass": "9.012", "block": "s", "group": 2, "period": 2, "cat": "alkaline", "config": "[He] 2s²"}, {"z": 5, "sym": "B", "en": "Boron", "hi": "बोरॉन", "mass": "10.81", "block": "p", "group": 13, "period": 2, "cat": "metalloid", "config": "[He] 2s² 2p¹"}, {"z": 6, "sym": "C", "en": "Carbon", "hi": "कार्बन", "mass": "12.011", "block": "p", "group": 14, "period": 2, "cat": "nonmetal", "config": "[He] 2s² 2p²"}, {"z": 7, "sym": "N", "en": "Nitrogen", "hi": "नाइट्रोजन", "mass": "14.007", "block": "p", "group": 15, "period": 2, "cat": "nonmetal", "config": "[He] 2s² 2p³"}, {"z": 8, "sym": "O", "en": "Oxygen", "hi": "ऑक्सीजन", "mass": "15.999", "block": "p", "group": 16, "period": 2, "cat": "nonmetal", "config": "[He] 2s² 2p⁴"}, {"z": 9, "sym": "F", "en": "Fluorine", "hi": "फ्लोरीन", "mass": "18.998", "block": "p", "group": 17, "period": 2, "cat": "halogen", "config": "[He] 2s² 2p⁵"}, {"z": 10, "sym": "Ne", "en": "Neon", "hi": "नियॉन", "mass": "20.180", "block": "p", "group": 18, "period": 2, "cat": "noble", "config": "[He] 2s² 2p⁶"}, {"z": 11, "sym": "Na", "en": "Sodium", "hi": "सोडियम", "mass": "22.990", "block": "s", "group": 1, "period": 3, "cat": "alkali", "config": "[Ne] 3s¹"}, {"z": 12, "sym": "Mg", "en": "Magnesium", "hi": "मैग्नीशियम", "mass": "24.305", "block": "s", "group": 2, "period": 3, "cat": "alkaline", "config": "[Ne] 3s²"}, {"z": 13, "sym": "Al", "en": "Aluminium", "hi": "एल्युमिनियम", "mass": "26.982", "block": "p", "group": 13, "period": 3, "cat": "post", "config": "[Ne] 3s² 3p¹"}, {"z": 14, "sym": "Si", "en": "Silicon", "hi": "सिलिकॉन", "mass": "28.085", "block": "p", "group": 14, "period": 3, "cat": "metalloid", "config": "[Ne] 3s² 3p²"}, {"z": 15, "sym": "P", "en": "Phosphorus", "hi": "फॉस्फोरस", "mass": "30.974", "block": "p", "group": 15, "period": 3, "cat": "nonmetal", "config": "[Ne] 3s² 3p³"}, {"z": 16, "sym": "S", "en": "Sulfur", "hi": "सल्फर", "mass": "32.06", "block": "p", "group": 16, "period": 3, "cat": "nonmetal", "config": "[Ne] 3s² 3p⁴"}, {"z": 17, "sym": "Cl", "en": "Chlorine", "hi": "क्लोरीन", "mass": "35.45", "block": "p", "group": 17, "period": 3, "cat": "halogen", "config": "[Ne] 3s² 3p⁵"}, {"z": 18, "sym": "Ar", "en": "Argon", "hi": "आर्गन", "mass": "39.948", "block": "p", "group": 18, "period": 3, "cat": "noble", "config": "[Ne] 3s² 3p⁶"}, {"z": 19, "sym": "K", "en": "Potassium", "hi": "पोटैशियम", "mass": "39.098", "block": "s", "group": 1, "period": 4, "cat": "alkali", "config": "[Ar] 4s¹"}, {"z": 20, "sym": "Ca", "en": "Calcium", "hi": "कैल्शियम", "mass": "40.078", "block": "s", "group": 2, "period": 4, "cat": "alkaline", "config": "[Ar] 4s²"}, {"z": 21, "sym": "Sc", "en": "Scandium", "hi": "स्कैंडियम", "mass": "44.956", "block": "d", "group": 3, "period": 4, "cat": "transition", "config": "[Ar] 3d¹ 4s²"}, {"z": 22, "sym": "Ti", "en": "Titanium", "hi": "टाइटेनियम", "mass": "47.867", "block": "d", "group": 4, "period": 4, "cat": "transition", "config": "[Ar] 3d² 4s²"}, {"z": 23, "sym": "V", "en": "Vanadium", "hi": "वैनेडियम", "mass": "50.942", "block": "d", "group": 5, "period": 4, "cat": "transition", "config": "[Ar] 3d³ 4s²"}, {"z": 24, "sym": "Cr", "en": "Chromium", "hi": "क्रोमियम", "mass": "51.996", "block": "d", "group": 6, "period": 4, "cat": "transition", "config": "[Ar] 3d⁵ 4s¹"}, {"z": 25, "sym": "Mn", "en": "Manganese", "hi": "मैंगनीज", "mass": "54.938", "block": "d", "group": 7, "period": 4, "cat": "transition", "config": "[Ar] 3d⁵ 4s²"}, {"z": 26, "sym": "Fe", "en": "Iron", "hi": "आयरन (लोहा)", "mass": "55.845", "block": "d", "group": 8, "period": 4, "cat": "transition", "config": "[Ar] 3d⁶ 4s²"}, {"z": 27, "sym": "Co", "en": "Cobalt", "hi": "कोबाल्ट", "mass": "58.933", "block": "d", "group": 9, "period": 4, "cat": "transition", "config": "[Ar] 3d⁷ 4s²"}, {"z": 28, "sym": "Ni", "en": "Nickel", "hi": "निकेल", "mass": "58.693", "block": "d", "group": 10, "period": 4, "cat": "transition", "config": "[Ar] 3d⁸ 4s²"}, {"z": 29, "sym": "Cu", "en": "Copper", "hi": "कॉपर (ताँबा)", "mass": "63.546", "block": "d", "group": 11, "period": 4, "cat": "transition", "config": "[Ar] 3d¹⁰ 4s¹"}, {"z": 30, "sym": "Zn", "en": "Zinc", "hi": "जिंक (जस्ता)", "mass": "65.38", "block": "d", "group": 12, "period": 4, "cat": "transition", "config": "[Ar] 3d¹⁰ 4s²"}, {"z": 31, "sym": "Ga", "en": "Gallium", "hi": "गैलियम", "mass": "69.723", "block": "p", "group": 13, "period": 4, "cat": "post", "config": "[Ar] 3d¹⁰ 4s² 4p¹"}, {"z": 32, "sym": "Ge", "en": "Germanium", "hi": "जर्मेनियम", "mass": "72.630", "block": "p", "group": 14, "period": 4, "cat": "metalloid", "config": "[Ar] 3d¹⁰ 4s² 4p²"}, {"z": 33, "sym": "As", "en": "Arsenic", "hi": "आर्सेनिक", "mass": "74.922", "block": "p", "group": 15, "period": 4, "cat": "metalloid", "config": "[Ar] 3d¹⁰ 4s² 4p³"}, {"z": 34, "sym": "Se", "en": "Selenium", "hi": "सेलेनियम", "mass": "78.971", "block": "p", "group": 16, "period": 4, "cat": "nonmetal", "config": "[Ar] 3d¹⁰ 4s² 4p⁴"}, {"z": 35, "sym": "Br", "en": "Bromine", "hi": "ब्रोमीन", "mass": "79.904", "block": "p", "group": 17, "period": 4, "cat": "halogen", "config": "[Ar] 3d¹⁰ 4s² 4p⁵"}, {"z": 36, "sym": "Kr", "en": "Krypton", "hi": "क्रिप्टॉन", "mass": "83.798", "block": "p", "group": 18, "period": 4, "cat": "noble", "config": "[Ar] 3d¹⁰ 4s² 4p⁶"}, {"z": 37, "sym": "Rb", "en": "Rubidium", "hi": "रुबिडियम", "mass": "85.468", "block": "s", "group": 1, "period": 5, "cat": "alkali", "config": "[Kr] 5s¹"}, {"z": 38, "sym": "Sr", "en": "Strontium", "hi": "स्ट्रॉन्शियम", "mass": "87.62", "block": "s", "group": 2, "period": 5, "cat": "alkaline", "config": "[Kr] 5s²"}, {"z": 39, "sym": "Y", "en": "Yttrium", "hi": "यिट्रियम", "mass": "88.906", "block": "d", "group": 3, "period": 5, "cat": "transition", "config": "[Kr] 4d¹ 5s²"}, {"z": 40, "sym": "Zr", "en": "Zirconium", "hi": "जिरकोनियम", "mass": "91.224", "block": "d", "group": 4, "period": 5, "cat": "transition", "config": "[Kr] 4d² 5s²"}, {"z": 41, "sym": "Nb", "en": "Niobium", "hi": "नायोबियम", "mass": "92.906", "block": "d", "group": 5, "period": 5, "cat": "transition", "config": "[Kr] 4d⁴ 5s¹"}, {"z": 42, "sym": "Mo", "en": "Molybdenum", "hi": "मॉलिब्डेनम", "mass": "95.95", "block": "d", "group": 6, "period": 5, "cat": "transition", "config": "[Kr] 4d⁵ 5s¹"}, {"z": 43, "sym": "Tc", "en": "Technetium", "hi": "टेक्नीशियम", "mass": "(98)", "block": "d", "group": 7, "period": 5, "cat": "transition", "config": "[Kr] 4d⁵ 5s²"}, {"z": 44, "sym": "Ru", "en": "Ruthenium", "hi": "रूथेनियम", "mass": "101.07", "block": "d", "group": 8, "period": 5, "cat": "transition", "config": "[Kr] 4d⁷ 5s¹"}, {"z": 45, "sym": "Rh", "en": "Rhodium", "hi": "रोडियम", "mass": "102.91", "block": "d", "group": 9, "period": 5, "cat": "transition", "config": "[Kr] 4d⁸ 5s¹"}, {"z": 46, "sym": "Pd", "en": "Palladium", "hi": "पैलेडियम", "mass": "106.42", "block": "d", "group": 10, "period": 5, "cat": "transition", "config": "[Kr] 4d¹⁰"}, {"z": 47, "sym": "Ag", "en": "Silver", "hi": "सिल्वर (चाँदी)", "mass": "107.87", "block": "d", "group": 11, "period": 5, "cat": "transition", "config": "[Kr] 4d¹⁰ 5s¹"}, {"z": 48, "sym": "Cd", "en": "Cadmium", "hi": "कैडमियम", "mass": "112.41", "block": "d", "group": 12, "period": 5, "cat": "transition", "config": "[Kr] 4d¹⁰ 5s²"}, {"z": 49, "sym": "In", "en": "Indium", "hi": "इंडियम", "mass": "114.82", "block": "p", "group": 13, "period": 5, "cat": "post", "config": "[Kr] 4d¹⁰ 5s² 5p¹"}, {"z": 50, "sym": "Sn", "en": "Tin", "hi": "टिन", "mass": "118.71", "block": "p", "group": 14, "period": 5, "cat": "post", "config": "[Kr] 4d¹⁰ 5s² 5p²"}, {"z": 51, "sym": "Sb", "en": "Antimony", "hi": "एंटीमनी", "mass": "121.76", "block": "p", "group": 15, "period": 5, "cat": "metalloid", "config": "[Kr] 4d¹⁰ 5s² 5p³"}, {"z": 52, "sym": "Te", "en": "Tellurium", "hi": "टेल्यूरियम", "mass": "127.60", "block": "p", "group": 16, "period": 5, "cat": "metalloid", "config": "[Kr] 4d¹⁰ 5s² 5p⁴"}, {"z": 53, "sym": "I", "en": "Iodine", "hi": "आयोडीन", "mass": "126.90", "block": "p", "group": 17, "period": 5, "cat": "halogen", "config": "[Kr] 4d¹⁰ 5s² 5p⁵"}, {"z": 54, "sym": "Xe", "en": "Xenon", "hi": "जीनॉन", "mass": "131.29", "block": "p", "group": 18, "period": 5, "cat": "noble", "config": "[Kr] 4d¹⁰ 5s² 5p⁶"}, {"z": 55, "sym": "Cs", "en": "Caesium", "hi": "सीजियम", "mass": "132.91", "block": "s", "group": 1, "period": 6, "cat": "alkali", "config": "[Xe] 6s¹"}, {"z": 56, "sym": "Ba", "en": "Barium", "hi": "बेरियम", "mass": "137.33", "block": "s", "group": 2, "period": 6, "cat": "alkaline", "config": "[Xe] 6s²"}, {"z": 57, "sym": "La", "en": "Lanthanum", "hi": "लैंथेनम", "mass": "138.91", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 5d¹ 6s²"}, {"z": 58, "sym": "Ce", "en": "Cerium", "hi": "सीरियम", "mass": "140.12", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f¹ 5d¹ 6s²"}, {"z": 59, "sym": "Pr", "en": "Praseodymium", "hi": "प्रेजोडायमियम", "mass": "140.91", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f³ 6s²"}, {"z": 60, "sym": "Nd", "en": "Neodymium", "hi": "नियोडायमियम", "mass": "144.24", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f⁴ 6s²"}, {"z": 61, "sym": "Pm", "en": "Promethium", "hi": "प्रोमेथियम", "mass": "(145)", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f⁵ 6s²"}, {"z": 62, "sym": "Sm", "en": "Samarium", "hi": "समेरियम", "mass": "150.36", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f⁶ 6s²"}, {"z": 63, "sym": "Eu", "en": "Europium", "hi": "यूरोपियम", "mass": "151.96", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f⁷ 6s²"}, {"z": 64, "sym": "Gd", "en": "Gadolinium", "hi": "गैडोलिनियम", "mass": "157.25", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f⁷ 5d¹ 6s²"}, {"z": 65, "sym": "Tb", "en": "Terbium", "hi": "टर्बियम", "mass": "158.93", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f⁹ 6s²"}, {"z": 66, "sym": "Dy", "en": "Dysprosium", "hi": "डिस्प्रोसियम", "mass": "162.50", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f¹⁰ 6s²"}, {"z": 67, "sym": "Ho", "en": "Holmium", "hi": "होल्मियम", "mass": "164.93", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f¹¹ 6s²"}, {"z": 68, "sym": "Er", "en": "Erbium", "hi": "अर्बियम", "mass": "167.26", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f¹² 6s²"}, {"z": 69, "sym": "Tm", "en": "Thulium", "hi": "थूलियम", "mass": "168.93", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f¹³ 6s²"}, {"z": 70, "sym": "Yb", "en": "Ytterbium", "hi": "यिटर्बियम", "mass": "173.05", "block": "f", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f¹⁴ 6s²"}, {"z": 71, "sym": "Lu", "en": "Lutetium", "hi": "ल्यूटेशियम", "mass": "174.97", "block": "d", "group": 3, "period": 6, "cat": "lanthanoid", "config": "[Xe] 4f¹⁴ 5d¹ 6s²"}, {"z": 72, "sym": "Hf", "en": "Hafnium", "hi": "हैफ्नियम", "mass": "178.49", "block": "d", "group": 4, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d² 6s²"}, {"z": 73, "sym": "Ta", "en": "Tantalum", "hi": "टैंटेलम", "mass": "180.95", "block": "d", "group": 5, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d³ 6s²"}, {"z": 74, "sym": "W", "en": "Tungsten", "hi": "टंगस्टन", "mass": "183.84", "block": "d", "group": 6, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d⁴ 6s²"}, {"z": 75, "sym": "Re", "en": "Rhenium", "hi": "रेनियम", "mass": "186.21", "block": "d", "group": 7, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d⁵ 6s²"}, {"z": 76, "sym": "Os", "en": "Osmium", "hi": "ऑस्मियम", "mass": "190.23", "block": "d", "group": 8, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d⁶ 6s²"}, {"z": 77, "sym": "Ir", "en": "Iridium", "hi": "इरिडियम", "mass": "192.22", "block": "d", "group": 9, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d⁷ 6s²"}, {"z": 78, "sym": "Pt", "en": "Platinum", "hi": "प्लैटिनम", "mass": "195.08", "block": "d", "group": 10, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d⁹ 6s¹"}, {"z": 79, "sym": "Au", "en": "Gold", "hi": "गोल्ड (सोना)", "mass": "196.97", "block": "d", "group": 11, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s¹"}, {"z": 80, "sym": "Hg", "en": "Mercury", "hi": "मर्करी (पारा)", "mass": "200.59", "block": "d", "group": 12, "period": 6, "cat": "transition", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s²"}, {"z": 81, "sym": "Tl", "en": "Thallium", "hi": "थैलियम", "mass": "204.38", "block": "p", "group": 13, "period": 6, "cat": "post", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹"}, {"z": 82, "sym": "Pb", "en": "Lead", "hi": "लेड (सीसा)", "mass": "207.2", "block": "p", "group": 14, "period": 6, "cat": "post", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²"}, {"z": 83, "sym": "Bi", "en": "Bismuth", "hi": "बिस्मथ", "mass": "208.98", "block": "p", "group": 15, "period": 6, "cat": "post", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³"}, {"z": 84, "sym": "Po", "en": "Polonium", "hi": "पोलोनियम", "mass": "(209)", "block": "p", "group": 16, "period": 6, "cat": "post", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴"}, {"z": 85, "sym": "At", "en": "Astatine", "hi": "एस्टैटीन", "mass": "(210)", "block": "p", "group": 17, "period": 6, "cat": "halogen", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵"}, {"z": 86, "sym": "Rn", "en": "Radon", "hi": "रेडॉन", "mass": "(222)", "block": "p", "group": 18, "period": 6, "cat": "noble", "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶"}, {"z": 87, "sym": "Fr", "en": "Francium", "hi": "फ्रांसियम", "mass": "(223)", "block": "s", "group": 1, "period": 7, "cat": "alkali", "config": "[Rn] 7s¹"}, {"z": 88, "sym": "Ra", "en": "Radium", "hi": "रेडियम", "mass": "(226)", "block": "s", "group": 2, "period": 7, "cat": "alkaline", "config": "[Rn] 7s²"}, {"z": 89, "sym": "Ac", "en": "Actinium", "hi": "एक्टिनियम", "mass": "(227)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 6d¹ 7s²"}, {"z": 90, "sym": "Th", "en": "Thorium", "hi": "थोरियम", "mass": "232.04", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 6d² 7s²"}, {"z": 91, "sym": "Pa", "en": "Protactinium", "hi": "प्रोटैक्टिनियम", "mass": "231.04", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f² 6d¹ 7s²"}, {"z": 92, "sym": "U", "en": "Uranium", "hi": "यूरेनियम", "mass": "238.03", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f³ 6d¹ 7s²"}, {"z": 93, "sym": "Np", "en": "Neptunium", "hi": "नेप्च्यूनियम", "mass": "(237)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f⁴ 6d¹ 7s²"}, {"z": 94, "sym": "Pu", "en": "Plutonium", "hi": "प्लूटोनियम", "mass": "(244)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f⁶ 7s²"}, {"z": 95, "sym": "Am", "en": "Americium", "hi": "अमेरिकियम", "mass": "(243)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f⁷ 7s²"}, {"z": 96, "sym": "Cm", "en": "Curium", "hi": "क्यूरियम", "mass": "(247)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f⁷ 6d¹ 7s²"}, {"z": 97, "sym": "Bk", "en": "Berkelium", "hi": "बर्केलियम", "mass": "(247)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f⁹ 7s²"}, {"z": 98, "sym": "Cf", "en": "Californium", "hi": "कैलिफोर्नियम", "mass": "(251)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f¹⁰ 7s²"}, {"z": 99, "sym": "Es", "en": "Einsteinium", "hi": "आइंस्टाइनियम", "mass": "(252)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f¹¹ 7s²"}, {"z": 100, "sym": "Fm", "en": "Fermium", "hi": "फर्मियम", "mass": "(257)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f¹² 7s²"}, {"z": 101, "sym": "Md", "en": "Mendelevium", "hi": "मेंडेलीवियम", "mass": "(258)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f¹³ 7s²"}, {"z": 102, "sym": "No", "en": "Nobelium", "hi": "नोबेलियम", "mass": "(259)", "block": "f", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f¹⁴ 7s²"}, {"z": 103, "sym": "Lr", "en": "Lawrencium", "hi": "लॉरेंसियम", "mass": "(266)", "block": "d", "group": 3, "period": 7, "cat": "actinoid", "config": "[Rn] 5f¹⁴ 7s² 7p¹"}, {"z": 104, "sym": "Rf", "en": "Rutherfordium", "hi": "रदरफोर्डियम", "mass": "(267)", "block": "d", "group": 4, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d² 7s²"}, {"z": 105, "sym": "Db", "en": "Dubnium", "hi": "डब्नियम", "mass": "(268)", "block": "d", "group": 5, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d³ 7s²"}, {"z": 106, "sym": "Sg", "en": "Seaborgium", "hi": "सीबोर्गियम", "mass": "(269)", "block": "d", "group": 6, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d⁴ 7s²"}, {"z": 107, "sym": "Bh", "en": "Bohrium", "hi": "बोरियम", "mass": "(270)", "block": "d", "group": 7, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d⁵ 7s²"}, {"z": 108, "sym": "Hs", "en": "Hassium", "hi": "हैसियम", "mass": "(277)", "block": "d", "group": 8, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d⁶ 7s²"}, {"z": 109, "sym": "Mt", "en": "Meitnerium", "hi": "मेइटनेरियम", "mass": "(278)", "block": "d", "group": 9, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d⁷ 7s²"}, {"z": 110, "sym": "Ds", "en": "Darmstadtium", "hi": "डार्मस्टैडियम", "mass": "(281)", "block": "d", "group": 10, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d⁸ 7s²"}, {"z": 111, "sym": "Rg", "en": "Roentgenium", "hi": "रॉन्टजेनियम", "mass": "(282)", "block": "d", "group": 11, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d⁹ 7s²"}, {"z": 112, "sym": "Cn", "en": "Copernicium", "hi": "कोपरनिसियम", "mass": "(285)", "block": "d", "group": 12, "period": 7, "cat": "transition", "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s²"}, {"z": 113, "sym": "Nh", "en": "Nihonium", "hi": "निहोनियम", "mass": "(286)", "block": "p", "group": 13, "period": 7, "cat": "post", "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹"}, {"z": 114, "sym": "Fl", "en": "Flerovium", "hi": "फ्लेरोवियम", "mass": "(289)", "block": "p", "group": 14, "period": 7, "cat": "post", "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²"}, {"z": 115, "sym": "Mc", "en": "Moscovium", "hi": "मोस्कोवियम", "mass": "(290)", "block": "p", "group": 15, "period": 7, "cat": "post", "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³"}, {"z": 116, "sym": "Lv", "en": "Livermorium", "hi": "लिवरमोरियम", "mass": "(293)", "block": "p", "group": 16, "period": 7, "cat": "post", "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴"}, {"z": 117, "sym": "Ts", "en": "Tennessine", "hi": "टेनेसीन", "mass": "(294)", "block": "p", "group": 17, "period": 7, "cat": "halogen", "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵"}, {"z": 118, "sym": "Og", "en": "Oganesson", "hi": "ओगनेसन", "mass": "(294)", "block": "p", "group": 18, "period": 7, "cat": "noble", "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶"}];
+const TRICKS = [{"id": "g1", "block": "s", "group_en": "Group 1 • Alkali Metals (क्षार धातुएँ)", "group_hi": "वर्ग 1 • क्षार धातुएँ (Alkali Metals)", "symbols": ["H", "Li", "Na", "K", "Rb", "Cs", "Fr"], "trick_hi": "ह ली ना की रब से फ़रियाद", "trick_roman": "Ha Li Na Ki Rab Se Fariyad", "alt_trick": "हे ली ना करे रब से फ़रियाद", "breakdown": [{"s": "H", "w": "ह / हे (Ha)"}, {"s": "Li", "w": "ली (Li)"}, {"s": "Na", "w": "ना (Na)"}, {"s": "K", "w": "की / करे (Ki)"}, {"s": "Rb", "w": "रब (Rab)"}, {"s": "Cs", "w": "से (Se)"}, {"s": "Fr", "w": "फ़रियाद (Fariyad)"}]}, {"id": "g2", "block": "s", "group_en": "Group 2 • Alkaline Earth Metals (क्षारीय मृदा धातुएँ)", "group_hi": "वर्ग 2 • क्षारीय मृदा धातुएँ (Alkaline Earth)", "symbols": ["Be", "Mg", "Ca", "Sr", "Ba", "Ra"], "trick_hi": "बेटा माँगे कार स्कूटर बाप राज़ी", "trick_roman": "Beta Maange Car Scooter Baap Raazi", "alt_trick": "बेटा माँगे कन्या सुंदर बाप रोये", "breakdown": [{"s": "Be", "w": "बेटा (Beta)"}, {"s": "Mg", "w": "माँगे (Maange)"}, {"s": "Ca", "w": "कार (Car)"}, {"s": "Sr", "w": "स्कूटर (Scooter)"}, {"s": "Ba", "w": "बाप (Baap)"}, {"s": "Ra", "w": "राज़ी (Raazi)"}]}, {"id": "g13", "block": "p", "group_en": "Group 13 • Boron Family (बोरॉन परिवार)", "group_hi": "वर्ग 13 • बोरॉन परिवार (Boron Family)", "symbols": ["B", "Al", "Ga", "In", "Tl", "Nh"], "trick_hi": "बैंगन आलू गाजर इन थैला (नहीं)", "trick_roman": "Baingan Aaloo Gaajar In Thaila (Nahi)", "alt_trick": "बाबा अली गए इंडिया तेल लेने", "breakdown": [{"s": "B", "w": "बैंगन (Baingan)"}, {"s": "Al", "w": "आलू (Aaloo)"}, {"s": "Ga", "w": "गाजर (Gaajar)"}, {"s": "In", "w": "इन (In)"}, {"s": "Tl", "w": "थैला (Thaila)"}, {"s": "Nh", "w": "नहीं (Nahi)"}]}, {"id": "g14", "block": "p", "group_en": "Group 14 • Carbon Family (कार्बन परिवार)", "group_hi": "वर्ग 14 • कार्बन परिवार (Carbon Family)", "symbols": ["C", "Si", "Ge", "Sn", "Pb", "Fl"], "trick_hi": "कहे सीता जी सुनो प्रभु (फ्लोर पर)", "trick_roman": "Kahe Sita Ji Suno Prabhu (Floor par)", "alt_trick": "काशी गए शंकर प्रभु", "breakdown": [{"s": "C", "w": "कहे (Kahe)"}, {"s": "Si", "w": "सीता (Sita)"}, {"s": "Ge", "w": "जी (Ji)"}, {"s": "Sn", "w": "सुनो (Suno)"}, {"s": "Pb", "w": "प्रभु (Prabhu)"}, {"s": "Fl", "w": "फ्लोर (Floor)"}]}, {"id": "g15", "block": "p", "group_en": "Group 15 • Pnictogens / Nitrogen Family", "group_hi": "वर्ग 15 • नाइट्रोजन परिवार (Pnictogens)", "symbols": ["N", "P", "As", "Sb", "Bi", "Mc"], "trick_hi": "नाना पाटेकर ऐश्वर्या सब बिंदास (मस्त)", "trick_roman": "Nana Patekar Aishwarya Sab Bindaas (Mast)", "alt_trick": "नेपाल पाकिस्तान ऑस्ट्रेलिया सब भिखारी", "breakdown": [{"s": "N", "w": "नाना (Nana)"}, {"s": "P", "w": "पाटेकर (Patekar)"}, {"s": "As", "w": "ऐश्वर्या (Aishwarya)"}, {"s": "Sb", "w": "सब (Sab)"}, {"s": "Bi", "w": "बिंदास (Bindaas)"}, {"s": "Mc", "w": "मस्त (Mast)"}]}, {"id": "g16", "block": "p", "group_en": "Group 16 • Chalcogens / Oxygen Family", "group_hi": "वर्ग 16 • ऑक्सीजन परिवार (Chalcogens)", "symbols": ["O", "S", "Se", "Te", "Po", "Lv"], "trick_hi": "ओल्ड स्टाइल से टीपो (लव)", "trick_roman": "Old Style Se Teepo (Love)", "alt_trick": "उस से टी पो", "breakdown": [{"s": "O", "w": "ओल्ड (Old)"}, {"s": "S", "w": "स्टाइल (Style)"}, {"s": "Se", "w": "से (Se)"}, {"s": "Te", "w": "टी (Tee)"}, {"s": "Po", "w": "पो (Po)"}, {"s": "Lv", "w": "लव (Love)"}]}, {"id": "g17", "block": "p", "group_en": "Group 17 • Halogens (हैलोजन परिवार)", "group_hi": "वर्ग 17 • हैलोजन परिवार (Halogens)", "symbols": ["F", "Cl", "Br", "I", "At", "Ts"], "trick_hi": "फिर कल बाहर आई आंटी (टेंशन में)", "trick_roman": "Phir Kal Baahar Aayi Aunty (Tension mein)", "alt_trick": "फ़ादर कलेक्टर बेटा इंस्पेक्टर अटॉर्नी", "breakdown": [{"s": "F", "w": "फिर (Phir)"}, {"s": "Cl", "w": "कल (Kal)"}, {"s": "Br", "w": "बाहर (Baahar)"}, {"s": "I", "w": "आई (Aayi)"}, {"s": "At", "w": "आंटी (Aunty)"}, {"s": "Ts", "w": "टेंशन (Tension)"}]}, {"id": "g18", "block": "p", "group_en": "Group 18 • Noble Gases (अक्रिय गैसें)", "group_hi": "वर्ग 18 • अक्रिय / उत्कृष्ट गैसें (Noble Gases)", "symbols": ["He", "Ne", "Ar", "Kr", "Xe", "Rn", "Og"], "trick_hi": "हीना नीना और करीना का एक्स-रे रंगीन (ओ जी)", "trick_roman": "Heena Neena Aur Kareena Ka X-Ray Rangeen (O Ji)", "alt_trick": "हरभजन नेहरा अगरकर करिश्मा ज़ीरॉक्स रन", "breakdown": [{"s": "He", "w": "हीना (Heena)"}, {"s": "Ne", "w": "नीना (Neena)"}, {"s": "Ar", "w": "और (Aur)"}, {"s": "Kr", "w": "करीना (Kareena)"}, {"s": "Xe", "w": "एक्स-रे (X-Ray)"}, {"s": "Rn", "w": "रंगीन (Rangeen)"}, {"s": "Og", "w": "ओ जी (O Ji)"}]}, {"id": "d3", "block": "d", "group_en": "3d Transition Series (Period 4 • Sc to Zn)", "group_hi": "3d संक्रमण श्रेणी (आवर्त 4 • Sc से Zn)", "symbols": ["Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn"], "trick_hi": "साइंस टीचर विनीता कृपलानी मन फे को नी क्यूँ जान जलाती हो", "trick_roman": "Science Teacher Vineeta Kriplani Man Fe Co Ni Kyun Jaan Jalati Ho", "alt_trick": "स्कूटी वैन कार में फेको निकिल कॉपर जिंक", "breakdown": [{"s": "Sc", "w": "साइंस (Science)"}, {"s": "Ti", "w": "टीचर (Teacher)"}, {"s": "V", "w": "विनीता (Vineeta)"}, {"s": "Cr", "w": "कृपलानी (Kriplani)"}, {"s": "Mn", "w": "मन (Man)"}, {"s": "Fe", "w": "फे (Fe)"}, {"s": "Co", "w": "को (Co)"}, {"s": "Ni", "w": "नी (Ni)"}, {"s": "Cu", "w": "क्यूँ (Kyun)"}, {"s": "Zn", "w": "जान (Jaan)"}]}, {"id": "d4", "block": "d", "group_en": "4d Transition Series (Period 5 • Y to Cd)", "group_hi": "4d संक्रमण श्रेणी (आवर्त 5 • Y से Cd)", "symbols": ["Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd"], "trick_hi": "यारी ज़रा निभाना मौत तक, रुकावट राह में पड़े तो आग में कूद जाना", "trick_roman": "Yaari Zara Nibhana Maut Tak, Rukawat Raah Mein Pade To Aag Mein Kood Jaana", "alt_trick": "ये ज़रूरी नहीं मोहब्बत तेरी रुलाती रहे पंडित जी आगे चलिए", "breakdown": [{"s": "Y", "w": "यारी (Yaari)"}, {"s": "Zr", "w": "ज़रा (Zara)"}, {"s": "Nb", "w": "निभाना (Nibhana)"}, {"s": "Mo", "w": "मौत (Maut)"}, {"s": "Tc", "w": "तक (Tak)"}, {"s": "Ru", "w": "रुकावट (Rukawat)"}, {"s": "Rh", "w": "राह (Raah)"}, {"s": "Pd", "w": "पड़े (Pade)"}, {"s": "Ag", "w": "आग (Aag)"}, {"s": "Cd", "w": "कूद (Kood)"}]}, {"id": "d5", "block": "d", "group_en": "5d Transition Series (Period 6 • La to Hg)", "group_hi": "5d संक्रमण श्रेणी (आवर्त 6 • La से Hg)", "symbols": ["La", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg"], "trick_hi": "ला हफ़्ता ताऊ वरना रे ओसामा इरफ़ान पीटेंगे और हँसेंगे", "trick_roman": "La Hafta Taau Warna Re Osama Irfan Peetenge Aur Hansenge", "alt_trick": "ला हफ़्ता वरना रे उससे इधर पिटाई और होगी", "breakdown": [{"s": "La", "w": "ला (La)"}, {"s": "Hf", "w": "हफ़्ता (Hafta)"}, {"s": "Ta", "w": "ताऊ (Taau)"}, {"s": "W", "w": "वरना (Warna)"}, {"s": "Re", "w": "रे (Re)"}, {"s": "Os", "w": "ओसामा (Osama)"}, {"s": "Ir", "w": "इरफ़ान (Irfan)"}, {"s": "Pt", "w": "पीटेंगे (Peetenge)"}, {"s": "Au", "w": "और (Aur)"}, {"s": "Hg", "w": "हँसेंगे (Hansenge)"}]}, {"id": "f4", "block": "f", "group_en": "Lanthanoids (4f Series • Ce to Lu)", "group_hi": "लैंथेनॉइड श्रेणी (4f • Ce से Lu)", "symbols": ["Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu"], "trick_hi": "सीने पर नदियाँ प्रेम की समाई, यूं गदगद तब दिल हुआ, अरे तुम यूं ही लाजवाब हो", "trick_roman": "Seene Par Nadiyan Prem Ki Samayi, Yun Gadgad Tab Dil Hua, Are Tum Yun Hi Lajawaab Ho", "alt_trick": "सीता प्रसाद एंड पूनम शर्मा यूरोप गए तभी डायरिया हो गया और तुम अभी लौटे", "breakdown": [{"s": "Ce", "w": "सीने (Seene)"}, {"s": "Pr", "w": "पर (Par)"}, {"s": "Nd", "w": "नदियाँ (Nadiyan)"}, {"s": "Pm", "w": "प्रेम की (Prem)"}, {"s": "Sm", "w": "समाई (Samayi)"}, {"s": "Eu", "w": "यूं (Yun)"}, {"s": "Gd", "w": "गदगद (Gadgad)"}, {"s": "Tb", "w": "तब (Tab)"}, {"s": "Dy", "w": "दिल (Dil)"}, {"s": "Ho", "w": "हुआ (Hua)"}, {"s": "Er", "w": "अरे (Are)"}, {"s": "Tm", "w": "तुम (Tum)"}, {"s": "Yb", "w": "यूं ही (Yun Hi)"}, {"s": "Lu", "w": "लाजवाब (Lajawaab)"}]}, {"id": "f5", "block": "f", "group_en": "Actinoids (5f Series • Th to Lr)", "group_hi": "ऐक्टिनॉइड श्रेणी (5f • Th से Lr)", "symbols": ["Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"], "trick_hi": "थोड़े पहलवान उनसे निपटेंगे, पुराने आम कम बिकेंगे, कैफ़े में ऐसे फरमाओ मैडम नाश्ता लाओ", "trick_roman": "Thode Pahalwan Unse Niptenge, Puraane Aam Kam Bikenge, Cafe Mein Aise Farmao Madam Nashta Lao", "alt_trick": "थानेदार पाण्डेय उन पर नज़र पुरानी, अमेरिका कम बिका कैलिफ़ोर्निया इस फ़िल्म में नो लारेंस", "breakdown": [{"s": "Th", "w": "थोड़े (Thode)"}, {"s": "Pa", "w": "पहलवान (Pahalwan)"}, {"s": "U", "w": "उनसे (Unse)"}, {"s": "Np", "w": "निपटेंगे (Niptenge)"}, {"s": "Pu", "w": "पुराने (Puraane)"}, {"s": "Am", "w": "आम (Aam)"}, {"s": "Cm", "w": "कम (Kam)"}, {"s": "Bk", "w": "बिकेंगे (Bikenge)"}, {"s": "Cf", "w": "कैफ़े (Cafe)"}, {"s": "Es", "w": "ऐसे (Aise)"}, {"s": "Fm", "w": "फरमाओ (Farmao)"}, {"s": "Md", "w": "मैडम (Madam)"}, {"s": "No", "w": "नाश्ता (Nashta)"}, {"s": "Lr", "w": "लाओ (Lao)"}]}];
+
+const elBySym = {};
+ELEMENTS.forEach(e => { elBySym[e.sym] = e; });
+
+const trickBySym = {};
+TRICKS.forEach(t => {
+  t.symbols.forEach(sym => {
+    if (!trickBySym[sym]) trickBySym[sym] = t;
+  });
+});
+
+let lang = 'hi';
+let activeTab = 'tricks';
+let activeBlock = 'all';
+let query = '';
+
+const i18n = {
+  hi: {
+    appTitle: 'आवर्त सारणी एवं शॉर्ट ट्रिक्स (118 तत्व)',
+    appSub: 'Periodic Table • Famous Indian Mnemonics (NCERT / JEE / NEET)',
+    tabTricks: '🧠 शॉर्ट ट्रिक्स',
+    tabCards: '📋 तत्व सूची (118)',
+    tabGrid: '🔢 आवर्त सारणी',
+    searchPh: 'तत्व, प्रतीक, परमाणु क्रमांक या ट्रिक खोजें (जैसे: Na, सोडियम, हलीना)...',
+    chipAll: 'सभी ब्लॉक (All)',
+    gridHint: '👈 बाएँ-दाएँ स्क्रॉल करें और किसी भी तत्व पर टैप करें',
+    empty: 'कोई परिणाम नहीं मिला। कृपया दूसरा शब्द खोजें।',
+    altPrefix: 'वैकल्पिक ट्रिक: ',
+    lblMass: 'परमाणु द्रव्यमान (Atomic Mass)',
+    lblBlockGroup: 'ब्लॉक / वर्ग / आवर्त',
+    lblConfig: 'इलेक्ट्रॉनिक विन्यास (Electronic Config)',
+    lblTrick: 'याद रखने की भारतीय ट्रिक (Mnemonic Trick)'
+  },
+  en: {
+    appTitle: 'Periodic Table & Indian Mnemonic Tricks',
+    appSub: 'Complete 118 Elements • Hinglish & Hindi Memory Tricks (NCERT)',
+    tabTricks: '🧠 Short Tricks',
+    tabCards: '📋 Elements (118)',
+    tabGrid: '🔢 Periodic Table',
+    searchPh: 'Search element, symbol, atomic no. or trick (e.g., Na, Sodium, Halina)...',
+    chipAll: 'All Blocks',
+    gridHint: '👈 Scroll horizontally & tap any element for details & trick',
+    empty: 'No matching elements or tricks found.',
+    altPrefix: 'Alternative Trick: ',
+    lblMass: 'Atomic Mass',
+    lblBlockGroup: 'Block / Group / Period',
+    lblConfig: 'Electronic Configuration',
+    lblTrick: 'Famous Indian Mnemonic Trick'
+  }
+};
+
+function setLang(newLang) {
+  lang = newLang;
+  document.getElementById('btnHi').classList.toggle('active', lang === 'hi');
+  document.getElementById('btnEn').classList.toggle('active', lang === 'en');
+  const t = i18n[lang];
+  document.getElementById('appTitle').textContent = t.appTitle;
+  document.getElementById('appSub').textContent = t.appSub;
+  document.getElementById('tabTricks').textContent = t.tabTricks;
+  document.getElementById('tabCards').textContent = t.tabCards;
+  document.getElementById('tabGrid').textContent = t.tabGrid;
+  document.getElementById('searchInput').placeholder = t.searchPh;
+  document.getElementById('chipAll').textContent = t.chipAll;
+  document.getElementById('gridHintText').textContent = t.gridHint;
+  document.getElementById('emptyState').textContent = t.empty;
+  document.getElementById('lblMass').textContent = t.lblMass;
+  document.getElementById('lblBlockGroup').textContent = t.lblBlockGroup;
+  document.getElementById('lblConfig').textContent = t.lblConfig;
+  document.getElementById('lblTrick').textContent = t.lblTrick;
+  renderAll();
+}
+
+function switchTab(tab) {
+  activeTab = tab;
+  document.getElementById('tabTricks').classList.toggle('active', tab === 'tricks');
+  document.getElementById('tabCards').classList.toggle('active', tab === 'cards');
+  document.getElementById('tabGrid').classList.toggle('active', tab === 'grid');
+
+  document.getElementById('viewTricks').classList.toggle('hidden', tab !== 'tricks');
+  document.getElementById('viewCards').classList.toggle('hidden', tab !== 'cards');
+  document.getElementById('viewGrid').classList.toggle('hidden', tab !== 'grid');
+
+  renderAll();
+}
+
+function setBlock(block) {
+  activeBlock = block;
+  document.querySelectorAll('.filter-chip').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.block === block);
+  });
+  renderAll();
+}
+
+function onSearchInput() {
+  const inp = document.getElementById('searchInput');
+  query = inp.value.trim().toLowerCase();
+  document.getElementById('clearBtn').style.display = query ? 'flex' : 'none';
+  renderAll();
+}
+
+function clearSearch() {
+  const inp = document.getElementById('searchInput');
+  inp.value = '';
+  query = '';
+  document.getElementById('clearBtn').style.display = 'none';
+  renderAll();
+}
+
+function matchesElement(el) {
+  if (activeBlock !== 'all' && el.block !== activeBlock) return false;
+  if (!query) return true;
+  const tr = trickBySym[el.sym];
+  const trickText = tr ? `${tr.trick_hi} ${tr.trick_roman} ${tr.alt_trick}` : '';
+  const hay = `${el.z} ${el.sym} ${el.en} ${el.hi} ${el.block}-block ${trickText}`.toLowerCase();
+  return hay.includes(query);
+}
+
+function renderTricks() {
+  const container = document.getElementById('viewTricks');
+  const filtered = TRICKS.filter(t => {
+    if (activeBlock !== 'all' && t.block !== activeBlock) return false;
+    if (!query) return true;
+    const elNames = t.symbols.map(s => {
+      const e = elBySym[s];
+      return e ? `${e.z} ${e.sym} ${e.en} ${e.hi}` : s;
+    }).join(' ');
+    const hay = `${t.group_en} ${t.group_hi} ${t.trick_hi} ${t.trick_roman} ${t.alt_trick} ${elNames}`.toLowerCase();
+    return hay.includes(query);
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = '';
+    return 0;
+  }
+
+  container.innerHTML = filtered.map(t => {
+    const title = lang === 'hi' ? t.group_hi : t.group_en;
+    const cardsHtml = t.breakdown.map(item => {
+      const el = elBySym[item.s];
+      const z = el ? el.z : '';
+      return `
+        <div class="mini-el el-${t.block}" onclick="openDetail('${item.s}')">
+          <div class="z-num">${z}</div>
+          <div class="sym">${item.s}</div>
+          <div class="cue">${item.w}</div>
+        </div>
+      `;
+    }).join('');
+
+    return `
+      <article class="trick-card">
+        <div class="trick-header">
+          <span class="group-title">${title}</span>
+          <span class="block-badge badge-${t.block}">${t.block}-Block</span>
+        </div>
+        <div class="trick-banner">
+          <div class="trick-main">“${t.trick_hi}”</div>
+          <div class="trick-roman">${t.trick_roman}</div>
+          <div class="trick-alt">${i18n[lang].altPrefix}${t.alt_trick}</div>
+        </div>
+        <div class="breakdown-grid">${cardsHtml}</div>
+      </article>
+    `;
+  }).join('');
+
+  return filtered.length;
+}
+
+function renderCards() {
+  const grid = document.getElementById('cardsGrid');
+  const filtered = ELEMENTS.filter(matchesElement);
+  if (filtered.length === 0) {
+    grid.innerHTML = '';
+    return 0;
+  }
+  grid.innerHTML = filtered.map(el => {
+    const primaryName = lang === 'hi' ? el.hi : el.en;
+    const secondaryName = lang === 'hi' ? el.en : el.hi;
+    return `
+      <div class="el-card" onclick="openDetail('${el.sym}')">
+        <div class="el-symbol-box el-${el.block}">
+          <small>${el.z}</small>
+          <span>${el.sym}</span>
+        </div>
+        <div class="el-info">
+          <div class="el-name">${primaryName}</div>
+          <div class="el-sub">${secondaryName} • ${el.mass} u</div>
+          <div class="el-sub" style="font-weight:700;">${el.block}-Block • G${el.group}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+  return filtered.length;
+}
+
+function renderGrid() {
+  const container = document.getElementById('ptableGrid');
+  let html = '';
+
+  // Main table rows 1 to 7
+  for (let p = 1; p <= 7; p++) {
+    for (let g = 1; g <= 18; g++) {
+      // Lanthanoid / Actinoid placeholders in Group 3, Period 6 & 7
+      if (p === 6 && g === 3) {
+        html += `<div class="pt-cell el-f" style="opacity:0.85;cursor:default;"><div class="pt-z">57–71</div><div class="pt-sym">La–Lu</div><div class="pt-nm">4f</div></div>`;
+        continue;
+      }
+      if (p === 7 && g === 3) {
+        html += `<div class="pt-cell el-f" style="opacity:0.85;cursor:default;"><div class="pt-z">89–103</div><div class="pt-sym">Ac–Lr</div><div class="pt-nm">5f</div></div>`;
+        continue;
+      }
+
+      const el = ELEMENTS.find(e => e.period === p && e.group === g && !(e.z >= 57 && e.z <= 71) && !(e.z >= 89 && e.z <= 103));
+      if (!el) {
+        html += `<div></div>`;
+      } else {
+        const dimmed = (activeBlock !== 'all' && el.block !== activeBlock) || (query && !matchesElement(el));
+        html += `
+          <div class="pt-cell el-${el.block}" style="${dimmed ? 'opacity:0.22;' : ''}" onclick="openDetail('${el.sym}')">
+            <div class="pt-z">${el.z}</div>
+            <div class="pt-sym">${el.sym}</div>
+            <div class="pt-nm">${lang === 'hi' ? el.hi : el.en}</div>
+          </div>
+        `;
+      }
+    }
+  }
+
+  html += `<div class="pt-spacer"></div>`;
+
+  // Lanthanoids row (57 to 71)
+  html += `<div class="pt-label">Lanthanoids (4f)</div>`;
+  html += `<div></div>`;
+  for (let z = 57; z <= 71; z++) {
+    const el = ELEMENTS.find(e => e.z === z);
+    const dimmed = (activeBlock !== 'all' && el.block !== activeBlock) || (query && !matchesElement(el));
+    html += `
+      <div class="pt-cell el-f" style="${dimmed ? 'opacity:0.22;' : ''}" onclick="openDetail('${el.sym}')">
+        <div class="pt-z">${el.z}</div>
+        <div class="pt-sym">${el.sym}</div>
+        <div class="pt-nm">${lang === 'hi' ? el.hi : el.en}</div>
+      </div>
+    `;
+  }
+
+  // Actinoids row (89 to 103)
+  html += `<div class="pt-label">Actinoids (5f)</div>`;
+  html += `<div></div>`;
+  for (let z = 89; z <= 103; z++) {
+    const el = ELEMENTS.find(e => e.z === z);
+    const dimmed = (activeBlock !== 'all' && el.block !== activeBlock) || (query && !matchesElement(el));
+    html += `
+      <div class="pt-cell el-f" style="${dimmed ? 'opacity:0.22;' : ''}" onclick="openDetail('${el.sym}')">
+        <div class="pt-z">${el.z}</div>
+        <div class="pt-sym">${el.sym}</div>
+        <div class="pt-nm">${lang === 'hi' ? el.hi : el.en}</div>
+      </div>
+    `;
+  }
+
+  container.innerHTML = html;
+  return 118;
+}
+
+function renderAll() {
+  let count = 0;
+  if (activeTab === 'tricks') count = renderTricks();
+  else if (activeTab === 'cards') count = renderCards();
+  else count = renderGrid();
+
+  document.getElementById('emptyState').classList.toggle('hidden', count > 0);
+}
+
+function openDetail(sym) {
+  const el = elBySym[sym];
+  if (!el) return;
+  const badge = document.getElementById('mBadge');
+  badge.className = `modal-badge el-${el.block}`;
+  document.getElementById('mZ').textContent = el.z;
+  document.getElementById('mSym').textContent = el.sym;
+  document.getElementById('mName').textContent = lang === 'hi' ? el.hi : el.en;
+  document.getElementById('mSubName').textContent = lang === 'hi' ? el.en : el.hi;
+  document.getElementById('mMass').textContent = `${el.mass} u`;
+  document.getElementById('mBlockGroup').textContent = `${el.block}-Block • Group ${el.group} • Period ${el.period}`;
+  document.getElementById('mConfig').textContent = el.config;
+
+  const tr = trickBySym[sym];
+  const trickBox = document.getElementById('mTrickBox');
+  if (tr) {
+    trickBox.style.display = 'block';
+    document.getElementById('mTrickText').textContent = `“${tr.trick_hi}”`;
+    document.getElementById('mTrickRoman').textContent = tr.trick_roman;
+  } else {
+    trickBox.style.display = 'none';
+  }
+
+  document.getElementById('detailModal').classList.add('open');
+}
+
+function closeModal(e) {
+  if (e.target.id === 'detailModal') forceCloseModal();
+}
+
+function forceCloseModal() {
+  document.getElementById('detailModal').classList.remove('open');
+}
+
+// Initial render
+renderAll();
+</script>
+</body>
+</html>

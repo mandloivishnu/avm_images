@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 5 : Continuity and Differentiability",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Continuity of a Function and Rules of Differentiation (Quick Revision)",
+        "definition": "If at any point x = a, the left-hand limit, right-hand limit, and the value of the function are all equal (LHL = RHL = f(a)), then the function is called continuous at x = a.",
+        "explanation": "Every differentiable function is necessarily continuous, but the converse is not always true. Chain rule, differentiation of implicit functions, and exponential/logarithmic differentiation are its main parts.",
+        "importantPoints": [
+          "Condition for continuity: lim(x→a⁻) f(x) = lim(x→a⁺) f(x) = f(a)",
+          "Chain Rule: dy/dx = (dy/du) · (du/dx)",
+          "Logarithmic Differentiation: When a function is of the form variable raised to variable (u^v), take log on both sides and differentiate",
+          "Parametric Form: dy/dx = (dy/dt) / (dx/dt)",
+          "Second Order Derivative: d²y/dx² = d/dx (dy/dx)",
+          "Rolle's and Mean Value Theorem (MVT): f'(c) = (f(b) - f(a)) / (b - a)"
+        ],
+        "highlightWords": [
+          "Continuity",
+          "Differentiability",
+          "Chain Rule",
+          "Logarithmic Differentiation",
+          "Parametric Form",
+          "Second Order Derivative"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Examine the continuity of the function f(x) = |x| at x = 0.",
+          "explanation": "Step 1: Definition of function: f(x) = -x (if x < 0) and f(x) = x (if x ≥ 0).\nStep 2: Value of function at x = 0: f(0) = 0.\nStep 3: Left-hand limit (LHL) = lim(x→0⁻) (-x) = 0.\nStep 4: Right-hand limit (RHL) = lim(x→0⁺) (x) = 0.\nStep 5: Since LHL = RHL = f(0) = 0, the function f(x) = |x| is continuous at x = 0.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Is the function f(x) = |x| differentiable at x = 0? Give reason.",
+            "explanation": "Step 1: Left-hand derivative (LHD) = lim(h→0) [f(0 - h) - f(0)] / (-h) = lim(h→0) [|-h| - 0] / (-h) = lim(h→0) [h / (-h)] = -1.\nStep 2: Right-hand derivative (RHD) = lim(h→0) [f(0 + h) - f(0)] / h = lim(h→0) [h - 0] / h = +1.\nStep 3: Since LHD ≠ RHD (-1 ≠ +1), the function is not differentiable at x = 0.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the value of k if the function f(x) = { kx + 1 (if x ≤ 5), 3x - 5 (if x > 5) } is continuous at x = 5.",
+          "explanation": "Step 1: Value of function at x = 5: f(5) = k(5) + 1 = 5k + 1.\nStep 2: Left-hand limit LHL = lim(x→5⁻) (kx + 1) = 5k + 1.\nStep 3: Right-hand limit RHL = lim(x→5⁺) (3x - 5) = 3(5) - 5 = 15 - 5 = 10.\nStep 4: For continuity at x = 5, LHL = RHL = f(5) is required:\n5k + 1 = 10 ⇒ 5k = 9 ⇒ k = 9/5.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If f(x) = { kx², x ≤ 2; 3, x > 2 } is continuous at x = 2, what will be the value of k?",
+            "explanation": "Step 1: Value at x = 2: f(2) = k(2)² = 4k and LHL = 4k.\nStep 2: Right-hand limit RHL = lim(x→2⁺) (3) = 3.\nStep 3: For continuity, LHL = RHL ⇒ 4k = 3 ⇒ k = 3/4.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Differentiate y = sin(x² + 5) with respect to x.",
+          "explanation": "Step 1: Let u = x² + 5, then y = sin u.\nStep 2: By Chain rule: dy/dx = (dy/du) · (du/dx).\nStep 3: dy/du = d/du(sin u) = cos u and du/dx = d/dx(x² + 5) = 2x.\nStep 4: dy/dx = cos(x² + 5) · 2x = 2x cos(x² + 5).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find dy/dx for y = e^(cos x).",
+            "explanation": "Step 1: By Chain rule, dy/dx = d/dx [e^(cos x)] = e^(cos x) · d/dx(cos x).\nStep 2: Derivative of cos x is d/dx(cos x) = -sin x.\nStep 3: Substituting the value: dy/dx = -sin x · e^(cos x).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If x = a cos θ and y = a sin θ, then find dy/dx.",
+          "explanation": "Step 1: Differentiating x with respect to θ: dx/dθ = d/dθ(a cos θ) = -a sin θ.\nStep 2: Differentiating y with respect to θ: dy/dθ = d/dθ(a sin θ) = a cos θ.\nStep 3: By parametric differentiation formula: dy/dx = (dy/dθ) / (dx/dθ).\nStep 4: dy/dx = (a cos θ) / (-a sin θ) = -cos θ / sin θ = -cot θ.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If x = at² and y = 2at, then find dy/dx.",
+            "explanation": "Step 1: dx/dt = d/dt(at²) = 2at.\nStep 2: dy/dt = d/dt(2at) = 2a.\nStep 3: dy/dx = (dy/dt) / (dx/dt) = 2a / (2at) = 1/t.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If y = x^x, then find dy/dx.",
+          "explanation": "Step 1: Taking natural logarithm (log) on both sides: log y = log(x^x) = x log x.\nStep 2: Differentiating both sides with respect to x:\n(1/y) · (dy/dx) = d/dx (x log x) = x · (1/x) + (log x) · 1 = 1 + log x.\nStep 3: dy/dx = y(1 + log x).\nStep 4: Substituting y = x^x: dy/dx = x^x (1 + log x).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If y = x³ + tan x, then find d²y/dx².",
+            "explanation": "Step 1: First derivative dy/dx = d/dx(x³) + d/dx(tan x) = 3x² + sec² x.\nStep 2: Differentiating again with respect to x: d²y/dx² = d/dx(3x²) + d/dx(sec² x).\nStep 3: d/dx(sec² x) = 2 sec x · (sec x tan x) = 2 sec² x tan x.\nStep 4: Therefore, d²y/dx² = 6x + 2 sec² x tan x.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

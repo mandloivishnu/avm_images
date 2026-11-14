@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 7 : Alcohols, Phenols and Ethers",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Oxygen-Containing Organic Compounds and Reactions (Quick Revision)",
+        "definition": "When a hydrogen atom of a hydrocarbon is replaced by an -OH group, alcohols (aliphatic) and phenols (aromatic) are formed, whereas an oxygen atom (-O-) between two alkyl/aryl groups is called an ether.",
+        "explanation": "In alcohols, primary, secondary, and tertiary alcohols are differentiated by the Lucas test. Phenol is acidic in nature (more acidic than alcohol). Kolbe's and Reimer-Tiemann reactions are the most important name reactions of phenol.",
+        "importantPoints": [
+          "Lucas Reagent (Conc. HCl + Anhydrous ZnCl₂): 3° gives immediate cloudiness, 2° in 5 minutes, 1° does not at room temperature",
+          "Phenol is more acidic than alcohol because the phenoxide ion is highly stable due to resonance",
+          "Kolbe's Reaction: Phenol + NaOH + CO₂ -(H⁺)→ Salicylic acid",
+          "Reimer-Tiemann Reaction: Phenol + CHCl₃ + aq. NaOH -(H⁺)→ Salicylaldehyde",
+          "Williamson Ether Synthesis: R-X + R'-ONa → R-O-R' + NaX (SN2 mechanism, 1° halide is best)"
+        ],
+        "highlightWords": [
+          "Alcohol",
+          "Lucas test",
+          "Acidity of phenol",
+          "Phenoxide ion",
+          "Kolbe's reaction",
+          "Reimer-Tiemann reaction",
+          "Williamson synthesis"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is the Lucas test? How are primary, secondary, and tertiary alcohols differentiated by it?",
+          "explanation": "Lucas reagent is an equimolar mixture of concentrated HCl and anhydrous ZnCl₂. It reacts with alcohol to form insoluble alkyl chloride, which causes cloudiness in the solution:\n1. Tertiary (3°) alcohol: Gives immediate cloudiness (within a few seconds at room temperature).\n2. Secondary (2°) alcohol: Gives cloudiness after about 5 minutes.\n3. Primary (1°) alcohol: Does not give cloudiness at normal room temperature (gives it only on heating).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Which colours are obtained in the identification of 1°, 2°, and 3° alcohols by Victor Meyer's method?",
+            "explanation": "R-B-C Rule:\n• Primary (1°) alcohol: Red colour (due to formation of nitrolic acid)\n• Secondary (2°) alcohol: Blue colour (due to formation of pseudonitrole)\n• Tertiary (3°) alcohol: Colourless (no reaction).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why is phenol more acidic than alcohol? Explain the reason.",
+          "explanation": "Reason:\n1. Phenol loses a proton (H⁺) to form a phenoxide ion (C₆H₅O⁻), which becomes highly stable due to resonance with the benzene ring.\n2. On the other hand, when a proton is removed from alcohol, an alkoxide ion (R-O⁻) is formed, which has no resonance; instead, due to the positive inductive effect (+I effect) of the alkyl group, the negative charge density on oxygen increases, making it unstable.\nTherefore, phenol releases H⁺ easily and is more acidic than alcohol.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the effect of the presence of an -NO₂ (electron-withdrawing) group on the acidity of phenol?",
+            "explanation": "The nitro (-NO₂) group disperses the negative charge of the phenoxide ion through its -I and -M effects and makes it even more stable, due to which the acidity of phenol increases greatly (e.g., picric acid is extremely acidic).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the equations for the following chemical reactions:\n(i) Kolbe's Reaction\n(ii) Reimer-Tiemann Reaction",
+          "explanation": "(i) Kolbe's Reaction: When sodium phenoxide is heated with CO₂ at 400 K temperature and 4-7 atm pressure and then acidified, salicylic acid is obtained:\nC₆H₅ONa + CO₂ -(400K, 4-7 atm)→ Sodium salicylate -(H⁺)→ C₆H₄(OH)COOH (Salicylic acid).\n(ii) Reimer-Tiemann Reaction: When phenol is heated with chloroform (CHCl₃) and aqueous NaOH at 340 K, followed by acidification, ortho-salicylaldehyde is formed as the main product:\nC₆H₅OH + CHCl₃ + 3NaOH -(340K)→ C₆H₄(OH)CHO (Salicylaldehyde) + 3NaCl + 2H₂O.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the equation for the reaction of phenol with zinc (Zn) dust.",
+            "explanation": "When phenol is heated (distilled) with zinc dust, benzene is formed:\nC₆H₅OH + Zn -(Δ)→ C₆H₆ (Benzene) + ZnO.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is the Williamson ether synthesis method? Write its chemical equation.",
+          "explanation": "Definition: When an alkyl halide is heated with sodium or potassium alkoxide, an ether is obtained. This is the best method to prepare both symmetrical and unsymmetrical ethers (SN2 mechanism):\nEquation: R-X + R'-ONa → R-O-R' (Ether) + NaX\nExample: CH₃-I + C₂H₅-ONa → C₂H₅-O-CH₃ (Ethyl methyl ether) + NaI.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Which reagents should be taken to prepare tert-butyl ethyl ether and why?",
+            "explanation": "Sodium tert-butoxide [(CH₃)₃C-ONa] and ethyl bromide (CH₃CH₂Br) should be taken. If a tertiary halide is taken, an elimination reaction occurs in the presence of a strong base and an alkene becomes the main product.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why is the boiling point of alcohol much higher than that of ethers and hydrocarbons of comparable molecular mass?",
+          "explanation": "Due to the presence of a polar -O-H bond in alcohol molecules, strong intermolecular hydrogen bonds are found between the molecules, which require a large amount of heat energy to break. Hydrogen bonds are not found in ethers and hydrocarbons, so the boiling point of alcohol is very high.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Diethyl ether is almost insoluble in water whereas ethyl alcohol is completely soluble, why?",
+            "explanation": "Ethyl alcohol easily forms strong hydrogen bonds with water molecules, whereas in diethyl ether, the large alkyl groups cannot form effective hydrogen bonds with water.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

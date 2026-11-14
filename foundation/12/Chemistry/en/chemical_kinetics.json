@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 3 : Chemical Kinetics",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Rate of Reaction, Order and Activation Energy (Quick Revision)",
+        "definition": "The study of the rate of chemical reactions, factors affecting the rate, and the mechanism of reactions is called chemical kinetics.",
+        "explanation": "Order of reaction is an experimental value, whereas molecularity is theoretical. Integrated rate equations for zero and first order reactions are most important from an exam point of view. The effect of temperature is explained by the Arrhenius equation.",
+        "importantPoints": [
+          "Rate of Reaction: r = ± d[C] / dt (Unit: mol·L⁻¹·s⁻¹)",
+          "Rate Law: Rate = k [A]^x [B]^y (Order n = x + y)",
+          "Zero Order Reaction: Rate = k [A]⁰ = k | Half-life: t₁/₂ = [A]₀ / (2k)",
+          "First Order Reaction: k = (2.303 / t) log ([A]₀ / [A]) | Half-life: t₁/₂ = 0.693 / k (does not depend on initial concentration)",
+          "Threshold Energy = Normal Energy + Activation Energy (Ea)",
+          "Arrhenius Equation: k = A · e^(-Ea / RT)"
+        ],
+        "highlightWords": [
+          "Rate of reaction",
+          "Order of reaction",
+          "Molecularity of reaction",
+          "Half-life period",
+          "Activation energy",
+          "Arrhenius equation"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write any three main differences between Order and Molecularity of a reaction.",
+          "explanation": "1. Order: It is the sum of powers of concentration terms in the rate equation (experimental value). Molecularity: It is the total number of reacting molecules taking part in an elementary step (theoretical value).\n2. Order can be zero, fraction (whole or decimal), or negative. Molecularity is always a positive integer (1, 2, 3); it cannot be zero or fractional.\n3. Order is valid for complex reactions as well, whereas molecularity is meaningful only for elementary reactions.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is a Pseudo First Order reaction? Give an example.",
+            "explanation": "A reaction whose molecularity is two or more, but kinetically it shows first-order behaviour, is called a pseudo first order reaction.\nExample: Acid hydrolysis of ethyl acetate:\nCH₃COOC₂H₅ + H₂O (excess) → CH₃COOH + C₂H₅OH (Here water is in excess, so the rate depends only on ethyl acetate).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is a zero-order reaction? Write the unit of its rate constant and the formula for half-life period.",
+          "explanation": "A reaction whose rate depends on the zero power of the concentration of reactants (i.e., does not depend on concentration) is called a zero-order reaction.\nFormula: r = k [A]⁰ = k\n1. Unit of rate constant (k): mol·L⁻¹·s⁻¹\n2. Formula for half-life period: t₁/₂ = [A]₀ / (2k) (It is directly proportional to the initial concentration).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write a practical example of a zero-order reaction.",
+            "explanation": "Decomposition of ammonia gas on a hot platinum surface is a zero-order reaction:\n2NH₃(g) -(Pt / Δ)→ N₂(g) + 3H₂(g).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Prove that the half-life period of a first-order reaction does not depend on the initial concentration of the reactant.",
+          "explanation": "Integrated rate equation of a first-order reaction:\nk = (2.303 / t) log ([A]₀ / [A])\nAt half-life period (t = t₁/₂), remaining concentration [A] = [A]₀ / 2\nPutting the value:\nk = (2.303 / t₁/₂) log ([A]₀ / ([A]₀ / 2)) = (2.303 / t₁/₂) log 2\nSince log 2 = 0.3010:\nk = (2.303 × 0.3010) / t₁/₂ = 0.693 / t₁/₂\nTherefore, t₁/₂ = 0.693 / k\nThis expression does not contain initial concentration [A]₀, hence it is proved that half-life period does not depend on initial concentration.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the unit of rate constant (k) for a first-order reaction?",
+            "explanation": "time⁻¹ (i.e., s⁻¹, min⁻¹, or hr⁻¹).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Define Activation Energy (Ea) and Threshold Energy.",
+          "explanation": "1. Threshold Energy: The minimum energy possessed by reactant molecules which is required to convert into products after effective collision is called threshold energy.\n2. Activation Energy: The minimum extra energy supplied from outside to reactant molecules having normal energy level to reach the threshold energy is called activation energy.\nRelation: Activation Energy (Ea) = Threshold Energy - Normal Energy of Reactants.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why does the rate of reaction usually increase rapidly on increasing temperature?",
+            "explanation": "On increasing the temperature by 10°C, the fraction of molecules undergoing effective collisions with energy greater than threshold energy becomes almost double, due to which the rate of reaction also increases by about 2 to 3 times.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the Arrhenius equation and explain the symbols used in it.",
+          "explanation": "Arrhenius equation: k = A · e^(-Ea / RT)\nor log (k₂ / k₁) = (Ea / 2.303R) · [(T₂ - T₁) / (T₁ · T₂)]\nSymbols:\n• k = Rate constant\n• A = Arrhenius frequency factor (pre-exponential factor)\n• Ea = Activation energy (J/mol)\n• R = Universal gas constant (8.314 J·K⁻¹·mol⁻¹)\n• T = Absolute temperature (in K).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "How does a catalyst increase the rate of a reaction?",
+            "explanation": "A catalyst provides an alternative pathway with lower activation energy (Low Ea) for the reaction, due to which a larger number of reactant molecules convert into products and the speed of the reaction increases.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

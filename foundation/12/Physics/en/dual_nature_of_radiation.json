@@ -1,0 +1,166 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics - Chapter 11 : Dual Nature of Radiation and Matter",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Photoelectric Effect and de Broglie Waves (Quick Revision)",
+        "definition": "Radiation energy shows both particle and wave behavior, which is called the dual nature of radiation and matter.",
+        "explanation": "The emission of electrons from a metal surface by light of suitable frequency is the photoelectric effect, which was explained by Einstein. de Broglie stated that a wave is associated with every moving particle.",
+        "importantPoints": [
+          "Work function: Minimum energy required to free an electron from a metal surface",
+          "Threshold frequency: Minimum frequency required for electron emission",
+          "de Broglie formula: λ = h / p = h / (mv)",
+          "Einstein's equation: hν = φ + Kmax = φ + 1/2 mv²max"
+        ],
+        "highlightWords": [
+          "Photoelectric Effect",
+          "Work Function",
+          "Threshold Frequency",
+          "de Broglie Wavelength",
+          "Einstein's Equation"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Photoelectric Effect?",
+          "explanation": "1. Definition: When light or electromagnetic radiation of suitable high frequency (greater than threshold frequency) falls on a metal surface, electrons are emitted from its surface. This phenomenon is called the Photoelectric Effect.\n2. Important Facts:\n- The emitted electrons are called 'photoelectrons' and the resulting current is called 'photoelectric current'.\n- Electron emission is an instantaneous process (time lag is less than 10⁻⁹ seconds).\n- The number of emitted electrons is directly proportional to the intensity of incident light.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What are the electrons emitted in the photoelectric effect called?",
+            "explanation": "The electrons emitted in the photoelectric effect are called 'Photoelectrons'.\n\nMain Points:\n1. Nature: They are identical to ordinary electrons; they are called photoelectrons only because they are emitted by light energy.\n2. Kinetic Energy: Their maximum kinetic energy depends on the frequency of incident light, not on the intensity of light.\n3. Rate of Emission: The number of photoelectrons emitted per second is directly proportional to the intensity of incident radiation.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Work Function?",
+          "explanation": "1. Definition: The minimum energy required just to eject (free) an electron from the surface of a metal is called the Work Function (φ₀ or W) of that metal.\n2. Formula:\nφ₀ = hν₀ = hc / λ₀  (where h is Planck's constant, ν₀ is threshold frequency, and λ₀ is threshold wavelength).\n3. Unit and Dependence:\n- It is usually expressed in electron-volt (eV) (1 eV = 1.6 × 10⁻¹⁹ J).\n- Its value depends on the nature of the metal and the purity of its surface (Cesium has the lowest work function of 2.14 eV).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "On what factors does the value of work function depend?",
+            "explanation": "The value of work function depends on the following factors:\n1. Chemical nature of the metal: Different metals have different work functions. For example, alkali metals (like Cesium) have a very low work function, while Platinum has the highest.\n2. Surface condition and cleanliness of the metal: The presence of dust, oxide layers, or impurities on the surface changes the work function.\nImportant: Work function does not depend on the intensity or frequency of incident light; it is an intrinsic property of the metal.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Threshold Frequency?",
+          "explanation": "1. Definition: The minimum frequency of incident light below which no emission of photoelectrons can take place from a metal surface is called Threshold Frequency (ν₀).\n2. Relation with Work Function:\nν₀ = φ₀ / h  (where φ₀ is the work function of the metal and h is Planck's constant).\n3. Physical Significance:\n- If the frequency of incident light is ν < ν₀, no electron emission is possible regardless of how high the light intensity is.\n- It is a characteristic property of the metal.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If the frequency of incident light is less than the threshold frequency, will electron emission take place?",
+            "explanation": "Answer: No, if the frequency of incident light is less than the threshold frequency (ν < ν₀), emission of photoelectrons will not take place under any condition.\n\nReason:\n1. According to photon theory, one electron absorbs only one photon.\n2. If the energy of the photon (E = hν) is less than the work function of the metal (φ₀ = hν₀), the electron cannot break the surface binding of the metal.\n3. Increasing light intensity only increases the number of photons, not their individual energy; hence emission will never occur.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the formula for de Broglie wavelength.",
+          "explanation": "Formula for de Broglie wavelength:\nλ = h / p = h / (mv)\n\nMeaning of symbols and derivation basis:\n1. λ = Wavelength of matter wave associated with a moving particle.\n2. h = Planck's constant (6.63 × 10⁻³⁴ J·s).\n3. p = mv = Momentum of the particle (where m is mass and v is velocity of the particle).\nIn terms of kinetic energy:\nWhen kinetic energy is K = p² / 2m, then λ = h / √(2mK). This formula proves that moving material particles exhibit wave nature.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is de Broglie hypothesis?",
+            "explanation": "1. Hypothesis: According to Louis de Broglie, nature loves symmetry. Just as radiation (light) has dual nature of both wave and particle, every moving material particle (such as electron, proton) also has a wave associated with it, called a 'matter wave' or 'de Broglie wave'.\n2. Wavelength formula: λ = h / p = h / (mv).\n3. Experimental verification: The Davisson and Germer experiment confirmed this hypothesis through electron diffraction.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write Einstein's photoelectric equation.",
+          "explanation": "Einstein's photoelectric equation:\nhν = φ₀ + Kmax   or   hν = hν₀ + 1/2 mv²max\n\nMeaning and explanation of symbols:\n1. hν = Total energy of incident photon (where h is Planck's constant and ν is frequency).\n2. φ₀ = hν₀ = Work function of the metal (minimum energy needed to free an electron).\n3. Kmax = 1/2 mv²max = Maximum kinetic energy of the emitted photoelectron.\nPrinciple of conservation of energy: A part of the incident photon's energy is used as work function and the remaining part gives maximum kinetic energy to the electron.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the formula for Kmax in Einstein's equation?",
+            "explanation": "Formula for maximum kinetic energy from Einstein's equation:\nKmax = hν - φ₀   or   1/2 mv²max = h(ν - ν₀)\n\nMain Points:\n1. h = Planck's constant, ν = frequency of incident light, and ν₀ = threshold frequency of the metal.\n2. In terms of stopping potential (V₀): Kmax = e V₀, so e V₀ = h(ν - ν₀).\n3. Conclusion: The maximum kinetic energy of photoelectrons depends linearly only on the frequency of incident light, and not at all on light intensity.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

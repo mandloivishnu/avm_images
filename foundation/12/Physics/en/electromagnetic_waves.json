@@ -1,0 +1,165 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics - Chapter 8 : Electromagnetic Waves",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Electromagnetic Waves and Spectrum (Quick Revision)",
+        "definition": "Waves produced by the propagation of mutually perpendicular oscillating electric and magnetic fields are called Electromagnetic Waves.",
+        "explanation": "These are transverse waves that travel in vacuum with the speed of light (3 × 10⁸ m/s). They do not require any material medium for propagation.",
+        "importantPoints": [
+          "Electric and magnetic fields oscillate perpendicular to each other",
+          "Speed in vacuum: c = 1 / √(μ₀ε₀) = 3 × 10⁸ m/s",
+          "Spectrum order: Radio, Micro, Infrared, Visible, Ultraviolet, X-rays, Gamma rays",
+          "Ultraviolet rays: Used in sterilization and detecting forged documents"
+        ],
+        "highlightWords": [
+          "Electromagnetic Waves",
+          "Speed in Vacuum",
+          "Spectrum",
+          "Ultraviolet Rays"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are called Electromagnetic Waves?",
+          "explanation": "1. Definition: Waves produced by accelerated or oscillating charges in which electric field (E) and magnetic field (B) oscillate sinusoidally in mutually perpendicular planes and both are perpendicular to the direction of wave propagation are called Electromagnetic Waves.\n2. Main Characteristics:\n- They do not require any material medium to travel; they can propagate in vacuum as well.\n- Their speed in vacuum is equal to the speed of light c = 3 × 10⁸ m/s.\n- They are transverse waves in nature.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the nature of electromagnetic waves?",
+            "explanation": "1. Nature: Electromagnetic waves are 'Transverse' in nature.\n2. Explanation: In these waves, the electric field vector (E) and magnetic field vector (B) are perpendicular to each other and both oscillate perpendicular to the direction of wave propagation.\n3. Proof: The phenomenon of polarization is possible only in transverse waves; since electromagnetic waves show polarization, it proves that their nature is completely transverse.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write two properties of electromagnetic waves.",
+          "explanation": "Main properties of electromagnetic waves are as follows:\n1. No medium required: No material medium is required for the propagation of these waves. They travel in vacuum with the speed of light c = 3 × 10⁸ m/s.\n2. Transverse nature and uncharged form: These waves are transverse and being neutral (uncharged), they are not deflected by external electric or magnetic fields.\n3. Energy and Momentum: These waves carry both energy and momentum during propagation.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the speed of electromagnetic waves in vacuum?",
+            "explanation": "1. Value of Speed: The speed of electromagnetic waves in vacuum is equal to the speed of light, i.e., c = 3 × 10⁸ m/s (approximately 299,792,458 m/s).\n2. Theoretical Relation Formula:\nc = 1 / √(μ₀ ε₀)\nwhere μ₀ = magnetic permeability of free space (4π × 10⁻⁷ T·m/A) and ε₀ = electric permittivity of free space (8.854 × 10⁻¹² C²/N·m²).\n3. Significance: Electromagnetic waves of all frequencies (from gamma rays to radio waves) travel with this same speed in vacuum.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the formula for the speed of electromagnetic waves.",
+          "explanation": "Formula for speed:\n1. Speed in vacuum or free space:\nc = 1 / √(μ₀ ε₀) = 3 × 10⁸ m/s\nwhere μ₀ = magnetic permeability of free space and ε₀ = absolute permittivity of free space.\n2. Speed in a material medium:\nv = 1 / √(μ ε) = c / √(μr εr) = c / n (where n is the refractive index of the medium).\n3. In terms of ratio of amplitudes: c = E₀ / B₀ (ratio of peak values of electric and magnetic fields).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the names of the symbols used in the formula c = 1 / √(μ₀ε₀).",
+            "explanation": "Details of symbols used in the formula c = 1 / √(μ₀ ε₀):\n1. c = Speed of electromagnetic wave (light) in vacuum, whose value is 3 × 10⁸ m/s.\n2. μ₀ = Absolute magnetic permeability of free space, whose value is 4π × 10⁻⁷ Henry/meter (or N/A²).\n3. ε₀ = Absolute electric permittivity of free space, whose value is 8.854 × 10⁻¹² Farad/meter (or C²/N·m²).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Electromagnetic Spectrum?",
+          "explanation": "1. Definition: The continuous classification obtained by arranging all known electromagnetic waves in increasing order of their frequency or decreasing order of their wavelength is called the 'Electromagnetic Spectrum'.\n2. Order of Spectrum (decreasing wavelength / increasing frequency):\nRadio waves → Microwaves → Infrared rays → Visible light → Ultraviolet rays → X-rays → Gamma rays.\n3. Main Property: All of them travel with the same speed (3 × 10⁸ m/s) in vacuum, but their energy, penetrating power, and method of production are different.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the names of any four parts of the electromagnetic spectrum.",
+            "explanation": "Four major parts of the electromagnetic spectrum and their uses:\n1. Radio Waves: Longest wavelength; used in radio and TV communication.\n2. Microwaves: Used in radar systems and microwave ovens for cooking food.\n3. Visible Light: This is the part of the spectrum that gives our eyes the sensitivity to see (400 nm to 700 nm).\n4. X-Rays: Very high penetrating power; used in medical science to examine bones (radiography).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write two uses of ultraviolet rays.",
+          "explanation": "Main uses of Ultraviolet (UV) Rays:\n1. Sterilization of water and medical instruments: Ultraviolet rays have a strong ability to kill bacteria and germs, so they are used in water purifiers (RO) and in hospitals to sterilize surgical instruments.\n2. Security and detection of forged documents: They are used to detect forgery by checking fluorescent ink on bank notes, fingerprints, and important legal documents.\n(Other: In 'LASIK' eye surgery).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Which rays are used to sterilize water and medical instruments?",
+            "explanation": "Answer: Ultraviolet (UV) Rays.\n\nWorking and Reason:\n1. Ultraviolet rays have a shorter wavelength (about 100 nm to 400 nm) and higher energy than visible light.\n2. This high energy breaks the molecular structure of DNA in bacteria, viruses, and microorganisms, making them inactive and dead.\n3. Being chemical-free, it provides complete sterilization without any side effects while maintaining the purity of water.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

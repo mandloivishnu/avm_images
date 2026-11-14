@@ -1,0 +1,760 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Physics - Important Short Answer Questions Collection",
+    "totalMarks": "100",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Electric Current?",
+          "explanation": "The amount of electric charge flowing per unit time through a cross-section of a conductor is called Electric Current.\nFormula : I = Q / t\nSI Unit : Ampere (A)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Ohm's Law.",
+          "explanation": "If the physical condition and temperature of a conductor remain constant, the electric current flowing through it is directly proportional to the potential difference across its ends.\nFormula : V = IR",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Electrical Resistance?",
+          "explanation": "The property of a conductor which opposes the flow of electric current is called Electrical Resistance.\nFormula : R = V / I\nSI Unit : Ohm (Ω)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Specific Resistance?",
+          "explanation": "The resistance of a conductor of unit length and unit cross-sectional area of a material is called the Specific Resistance of that material.\nFormula : ρ = RA / l\nSI Unit : Ohm-meter (Ω·m)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "50",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Kirchhoff's Laws.",
+          "explanation": "Kirchhoff's two main laws are:\n1. Junction Rule : At any junction, the sum of currents entering the junction is equal to the sum of currents leaving it.\nFormula : Σ I = 0\n2. Loop Rule : In any closed electric circuit, the algebraic sum of all potential differences and electromotive forces is zero.\nFormula : Σ V = 0",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Magnetic Dipole Moment?",
+          "explanation": "The magnetic strength of a magnetic dipole is called Magnetic Dipole Moment.\nFormula : M = m × 2l (where m is magnetic pole strength and 2l is the distance between the two poles)\nSI Unit : Ampere-meter² (A·m²)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are Diamagnetic Materials?",
+          "explanation": "Materials which when placed in a magnetic field are weakly repelled by the magnetic field are called Diamagnetic Materials.\nExamples : Bismuth, Copper, Silver, and Water.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are Paramagnetic Materials?",
+          "explanation": "Materials which when placed in a magnetic field are weakly attracted towards the magnetic field are called Paramagnetic Materials.\nExamples : Aluminium, Platinum, and Oxygen.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are Ferromagnetic Materials?",
+          "explanation": "Materials which are strongly attracted towards a magnetic field and show strong magnetic properties are called Ferromagnetic Materials.\nExamples : Iron, Cobalt, and Nickel.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two properties of magnetic field lines.",
+          "explanation": "1. Magnetic field lines go from North pole to South pole outside a magnet and from South pole to North pole inside a magnet.\n2. Two magnetic field lines never intersect each other.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Alternating Current?",
+          "explanation": "An electric current whose magnitude and direction change periodically with time is called Alternating Current.\nFormula : I = I₀ sin ωt",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the Root Mean Square (RMS) value of Alternating Current?",
+          "explanation": "The square root of the mean of squares of current over one complete cycle of alternating current is called its RMS value.\nFormula : I_rms = I₀ / √2",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Power Factor?",
+          "explanation": "In an AC circuit, the cosine of the phase difference ϕ between voltage and current is called Power Factor.\nFormula : cos ϕ = R / Z",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Resonance?",
+          "explanation": "In a series LCR circuit, when inductive reactance and capacitive reactance become equal, the state of the circuit is called Resonance.\nFormula : X_L = X_C\nResonant frequency : f₀ = 1 / (2π√(LC))",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a Transformer?",
+          "explanation": "A transformer is an electrical device that increases or decreases alternating voltage on the principle of mutual induction.\nFormula : V_s / V_p = N_s / N_p",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are called Electromagnetic Waves?",
+          "explanation": "Waves in which electric field and magnetic field oscillate perpendicular to each other and which propagate with the speed of light are called Electromagnetic Waves.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two properties of electromagnetic waves.",
+          "explanation": "1. Electromagnetic waves can also propagate in vacuum.\n2. Their speed in vacuum is (3 × 10⁸ m/s).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the formula for the speed of electromagnetic waves.",
+          "explanation": "The formula for speed of electromagnetic waves in vacuum is:\nc = 1 / √(μ₀ ε₀)\nwhere c is speed of wave, μ₀ is magnetic permeability of free space, and ε₀ is electric permittivity of free space.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Electromagnetic Spectrum?",
+          "explanation": "The sequence obtained by arranging electromagnetic waves in order of their frequency or wavelength is called Electromagnetic Spectrum.\nExamples : Radio waves, Microwaves, Infrared rays, Visible light, Ultraviolet rays, X-rays, and Gamma rays.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two uses of ultraviolet rays.",
+          "explanation": "1. They are used to sterilize water and medical instruments.\n2. They are used to detect fake currency notes and forged documents.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What do you understand by Total Internal Reflection of light?",
+          "explanation": "When a ray of light travels from a denser medium to a rarer medium and the angle of incidence is greater than the critical angle, the light is completely reflected back into the denser medium. This phenomenon is called Total Internal Reflection.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Critical Angle?",
+          "explanation": "The angle of incidence in the denser medium for which the angle of refraction in the rarer medium is (90°) is called Critical Angle.\nFormula : sin C = 1 / μ",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Power of a Lens?",
+          "explanation": "The reciprocal of focal length of a lens in meters is called its Power.\nFormula : P = 1 / f\nSI Unit : Dioptre (D)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "24",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write Lens Maker's Formula.",
+          "explanation": "The relation between focal length of a thin lens in air and refractive index of its material is called Lens Maker's Formula:\nFormula : 1 / f = (μ - 1) * (1/R₁ - 1/R₂)\nwhere f is focal length, μ is refractive index, and R₁, R₂ are radii of curvature of both surfaces of the lens.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "25",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the use of a Compound Microscope?",
+          "explanation": "A compound microscope is an optical instrument used to see very small objects by magnifying them greatly. It consists of two convex lenses — objective lens and eyepiece.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "26",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Wavefront?",
+          "explanation": "The surface joining all particles of a medium vibrating in the same phase is called a Wavefront.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "27",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Huygens' Principle?",
+          "explanation": "Each point on a wavefront acts as a source of secondary wavelets, and the forward envelope of these wavelets forms a new wavefront.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "28",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Interference of Light?",
+          "explanation": "The phenomenon of increase or decrease in the intensity of light due to the superposition of two light waves is called Interference.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "29",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Diffraction of Light?",
+          "explanation": "The phenomenon of bending of light around the corners of a small aperture or obstacle and spreading into the geometrical shadow region is called Diffraction.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "30",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Polarization of Light?",
+          "explanation": "The phenomenon of restricting the vibrations of light to a single fixed direction perpendicular to the direction of propagation is called Polarization. It proves the transverse nature of light.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "31",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Photoelectric Effect?",
+          "explanation": "When light of suitable frequency falls on a metal surface, electrons are emitted from it. This phenomenon is called Photoelectric Effect.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "32",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Work Function?",
+          "explanation": "The minimum energy required to eject an electron from the surface of a metal is called the Work Function of that metal.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "33",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Threshold Frequency?",
+          "explanation": "The minimum frequency of light at which emission of photoelectrons starts from a metal surface is called Threshold Frequency.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "34",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the formula for de Broglie wavelength.",
+          "explanation": "The wavelength associated with a moving particle is called de Broglie wavelength.\nFormula : λ = h / p = h / (mv)\nwhere h is Planck's constant and p is momentum of the particle.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "35",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write Einstein's photoelectric equation.",
+          "explanation": "Einstein's photoelectric equation is:\nhν = ϕ + K_max\nor\nhν = ϕ + (1/2)mv_max²\nwhere hν is energy of incident photon and ϕ is work function of the metal.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "36",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Rutherford's atomic model?",
+          "explanation": "According to Rutherford, there is a small, positively charged nucleus at the center of an atom and electrons revolve around it. Most of the space in an atom is empty.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "37",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Bohr's atomic model?",
+          "explanation": "According to Bohr, electrons revolve around the nucleus in certain fixed energy orbits. While revolving in these orbits, they do not radiate energy.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "38",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Ionization Energy of an atom?",
+          "explanation": "The minimum energy required to take an electron from the ground state of an atom to infinite distance is called Ionization Energy.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "39",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Excitation Energy?",
+          "explanation": "The energy required to move an atom from its ground state to any higher energy state is called Excitation Energy.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "40",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the formula for the energy of an electron in the nth orbit of a hydrogen atom.",
+          "explanation": "The formula for the energy of an electron in the nth orbit of a hydrogen atom is:\nE_n = - 13.6 / n² eV\nwhere (n) is principal quantum number and eV is unit of energy.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "41",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Atomic Nucleus?",
+          "explanation": "The small, dense, and positively charged region located at the center of an atom is called Atomic Nucleus. It contains protons and neutrons.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "42",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Mass Defect?",
+          "explanation": "The difference between the total mass of free protons and neutrons of a nucleus and the actual mass of the nucleus is called Mass Defect.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "43",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Binding Energy?",
+          "explanation": "The minimum energy required to separate all protons and neutrons of a nucleus from each other is called the Binding Energy of the nucleus.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "44",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Radioactivity?",
+          "explanation": "The phenomenon of spontaneous emission of alpha, beta, or gamma radiations from unstable atomic nuclei is called Radioactivity.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "45",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Half-life?",
+          "explanation": "The time taken for the number of nuclei of a radioactive substance to reduce to half of its initial value is called Half-life.\nFormula : N = N₀ / 2 (after one half-life)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "46",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Semiconductor?",
+          "explanation": "Materials whose electrical conductivity lies between conductors and insulators are called Semiconductors.\nExamples : Silicon and Germanium.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "47",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is called Pure Semiconductor?",
+          "explanation": "A semiconductor in which no impurity is added is called a Pure (Intrinsic) Semiconductor.\nExamples : Pure Silicon and Pure Germanium.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "48",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are P-type Semiconductors?",
+          "explanation": "When a trivalent impurity is added to a pure semiconductor, the resulting semiconductor is called a P-type Semiconductor. Holes are the majority charge carriers in it.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "49",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are N-type Semiconductors?",
+          "explanation": "When a pentavalent impurity is added to a pure semiconductor, the resulting semiconductor is called an N-type Semiconductor. Electrons are the majority charge carriers in it.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "50",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a P-N Junction Diode?",
+          "explanation": "The junction formed by joining P-type and N-type semiconductors is called a P-N junction. The device made from it is called a P-N Junction Diode. It is mainly used to convert alternating current (AC) into direct current (DC).",
+          "imgUrl": ""
+        }
+      ]
+    }
+  ]
+}

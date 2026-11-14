@@ -1,0 +1,171 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 6 : Application of Derivatives",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Rate of Change, Increasing-Decreasing & Maxima-Minima (Quick Revision)",
+        "definition": "The derivative dy/dx is used to find the rate of change of quantities, determine increasing/decreasing intervals, and find the maximum and minimum values of functions.",
+        "explanation": "If f'(x) > 0, the function is increasing, and if f'(x) < 0, it is decreasing. In the Second Derivative Test, if f'(c) = 0 and f''(c) < 0, we get a local maximum, and if f''(c) > 0, we get a local minimum.",
+        "importantPoints": [
+          "Rate of change: dy/dt = (dy/dx) · (dx/dt)",
+          "Increasing Function: f'(x) > 0 in interval (a, b)",
+          "Decreasing Function: f'(x) < 0 in interval (a, b)",
+          "Critical Point: Where f'(x) = 0 or f'(x) is not defined",
+          "Second Derivative Test:",
+          "  • f'(c) = 0 and f''(c) < 0 ⇒ Local Maximum at x = c",
+          "  • f'(c) = 0 and f''(c) > 0 ⇒ Local Minimum at x = c",
+          "  • f'(c) = 0 and f''(c) = 0 ⇒ Test fails"
+        ],
+        "highlightWords": [
+          "Rate of Change",
+          "Increasing Function",
+          "Decreasing Function",
+          "Critical Point",
+          "Maxima and Minima",
+          "Second Derivative Test"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The radius of a circle is increasing uniformly at the rate of 3 cm/s. Find the rate at which the area of the circle is increasing when the radius is 10 cm.",
+          "explanation": "Step 1: Area of a circle is A = πr².\nStep 2: Differentiating both sides with respect to time t:\ndA/dt = d/dt (πr²) = 2πr · (dr/dt)\nStep 3: Given that dr/dt = 3 cm/s and r = 10 cm.\nSubstituting the values:\ndA/dt = 2π(10)(3) = 60π cm²/s.\nHence, the rate of change of the area of the circle is 60π cm²/s.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "An edge of a variable cube is increasing at the rate of 3 cm/s. How fast is the volume of the cube increasing when the edge is 10 cm long?",
+            "explanation": "Step 1: Let the edge of the cube be x and volume be V. Formula: V = x³.\nStep 2: Differentiating with respect to t: dV/dt = 3x² · (dx/dt).\nStep 3: Given dx/dt = 3 cm/s and x = 10 cm.\nSubstituting the values: dV/dt = 3(10)² · (3) = 3(100)(3) = 900 cm³/s.\nHence, the volume of the cube is increasing at the rate of 900 cm³/s.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Prove that the function f(x) = 3x + 17 is strictly increasing on the set of real numbers R.",
+          "explanation": "Step 1: Given function is f(x) = 3x + 17.\nStep 2: Differentiating with respect to x:\nf'(x) = d/dx(3x + 17) = 3 · (1) + 0 = 3.\nStep 3: Since f'(x) = 3 > 0 (always positive) for every real number x ∈ R.\nTherefore, by definition, the function f(x) is strictly increasing on R. Hence proved.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that f(x) = e^(2x) is strictly increasing on R.",
+            "explanation": "Step 1: Given f(x) = e^(2x). Differentiating: f'(x) = 2e^(2x).\nStep 2: We know that the exponential value e^(2x) > 0 for every x ∈ R.\nStep 3: Therefore, f'(x) = 2e^(2x) > 0 is always true.\nHence, the function f(x) is strictly increasing on the set of real numbers R.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the intervals in which the function f(x) = x² - 4x + 6 is (i) strictly increasing (ii) strictly decreasing.",
+          "explanation": "Step 1: Finding the derivative: f'(x) = 2x - 4 = 2(x - 2).\nStep 2: For critical point, f'(x) = 0 ⇒ 2(x - 2) = 0 ⇒ x = 2. This point divides R into two intervals (-∞, 2) and (2, ∞).\nStep 3 (i): In interval (2, ∞), for x > 2, f'(x) > 0, so f(x) is strictly increasing in (2, ∞).\nStep 4 (ii): In interval (-∞, 2), for x < 2, f'(x) < 0, so f(x) is strictly decreasing in (-∞, 2).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Discuss whether cos x is increasing or decreasing in the interval (0, π/2).",
+            "explanation": "Step 1: Let f(x) = cos x. Differentiating: f'(x) = -sin x.\nStep 2: In the first quadrant (0, π/2), sin x > 0.\nStep 3: Therefore, f'(x) = -sin x < 0 (negative).\nConclusion: The function f(x) = cos x is strictly decreasing in the interval (0, π/2).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find two positive numbers x and y such that x + y = 60 and xy³ is maximum.",
+          "explanation": "Step 1: Given x + y = 60 ⇒ x = 60 - y.\nStep 2: Product P = xy³ = (60 - y)y³ = 60y³ - y⁴.\nStep 3: Differentiating: dP/dy = 180y² - 4y³ = 4y²(45 - y).\nFor optimum value, dP/dy = 0 ⇒ 4y²(45 - y) = 0 ⇒ y = 45 (since y > 0 is a positive number).\nStep 4: Second derivative: d²P/dy² = 360y - 12y².\nAt y = 45, d²P/dy² = 45(360 - 540) = 45(-180) < 0 (Maximum).\nStep 5: x = 60 - 45 = 15.\nHence, the required numbers are x = 15 and y = 45.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find two positive numbers whose sum is 24 and whose product is as large as possible.",
+            "explanation": "Step 1: Let the numbers be x and (24 - x). Product P = x(24 - x) = 24x - x².\nStep 2: First derivative dP/dx = 24 - 2x.\nFor maximum value, dP/dx = 0 ⇒ 24 - 2x = 0 ⇒ x = 12.\nStep 3: Second derivative d²P/dx² = -2 < 0 (Hence, product is maximum at x = 12).\nStep 4: Second number = 24 - 12 = 12.\nTherefore, the required numbers are 12 and 12.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the local maximum and local minimum values of the function f(x) = x³ - 3x² + 3.",
+          "explanation": "Step 1: f'(x) = 3x² - 6x = 3x(x - 2).\nCritical points: f'(x) = 0 ⇒ 3x(x - 2) = 0 ⇒ x = 0, x = 2.\nStep 2: Second derivative f''(x) = 6x - 6.\nStep 3: At x = 0: f''(0) = -6 < 0 ⇒ Local maximum at x = 0.\nLocal maximum value = f(0) = 0³ - 3(0)² + 3 = 3.\nStep 4: At x = 2: f''(2) = 6(2) - 6 = +6 > 0 ⇒ Local minimum at x = 2.\nLocal minimum value = f(2) = 2³ - 3(2)² + 3 = 8 - 12 + 3 = -1.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the difference between Absolute Maximum and Local Maximum?",
+            "explanation": "1. Local Maximum: The value of a function that is the greatest among all values in its immediate small neighbourhood (x - δ, x + δ).\n2. Absolute Maximum: The value of a function that is the greatest possible global value of the function in the entire given closed interval [a, b].",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

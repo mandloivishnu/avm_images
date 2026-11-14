@@ -1,0 +1,168 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics - Chapter 3 : Electric Current",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Electric Current and Circuit Laws (Quick Revision)",
+        "definition": "The rate of flow of electric charge is called electric current. Ohm's and Kirchhoff's laws are the basic foundation for circuit analysis.",
+        "explanation": "Electric current (I) = Q/t. The relation between potential difference and current in a conductor is given by Ohm's law, while Kirchhoff's junction and loop rules are used to solve complex electric circuits.",
+        "importantPoints": [
+          "Electric current: I = Q/t (Unit: Ampere)",
+          "Ohm's law: V = IR",
+          "Resistance: R = V/I (Unit: Ohm)",
+          "Specific resistance (Resistivity): ρ = RA/l (Unit: Ohm-meter)",
+          "Kirchhoff's junction rule (Conservation of charge): ΣI = 0",
+          "Kirchhoff's loop rule (Conservation of energy): ΣV = 0"
+        ],
+        "highlightWords": [
+          "Electric Current",
+          "Ohm's Law",
+          "Resistance",
+          "Specific Resistance",
+          "Kirchhoff's Laws"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Electric Current?",
+          "explanation": "1. Definition: The total net electric charge flowing per unit time through any cross-section of a conductor is called Electric Current.\n2. Formula:\nAverage current I = Q / t  (or instantaneous current I = dq / dt)\n3. SI Unit and Quantity:\n- Its SI unit is Ampere (A) (1 A = 1 Coulomb / 1 second).\n- Despite having both magnitude and direction, electric current is a scalar quantity because it does not obey the laws of vector addition and adds algebraically.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the SI unit and formula of electric current.",
+            "explanation": "Formula of electric current:\nI = Q / t   (where Q is flowing charge and t is time interval)\nIn terms of electrons: I = n e / t  (n = number of electrons, e = 1.6 × 10⁻¹⁹ C)\n\nUnit and Definition:\n1. SI Unit: Ampere (A).\n2. Definition of 1 Ampere: If 1 Coulomb of charge flows through a conductor in 1 second, then the current flowing through it is called 1 Ampere (i.e., flow of 6.25 × 10¹⁸ electrons per second).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "State Ohm's Law.",
+          "explanation": "1. Law: If the physical conditions (such as length, cross-sectional area, material) and temperature of a conductor remain constant, then the potential difference (V) applied across the ends of the conductor is directly proportional to the electric current (I) flowing through it.\n2. Mathematical Form:\nV ∝ I   =>   V = I R\nwhere R is a constant, called the 'electrical resistance' of the conductor.\n3. Limitation: This law is applicable only to metallic conductors at constant temperature (semiconductors and gases show non-ohmic behavior).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the main condition for Ohm's law?",
+            "explanation": "Main conditions for obeying Ohm's law:\n1. The temperature of the conductor must remain constant, because an increase in temperature changes the resistance of conductors and the relation between V and I does not remain linear.\n2. The physical conditions of the conductor such as length, area of cross-section, and mechanical strain should not change.\nWhen these conditions are met, the graph drawn between V and I is a straight line passing through the origin.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Electrical Resistance?",
+          "explanation": "1. Definition: The inherent property of a conductor by virtue of which it opposes (obstructs) the flow of electric current through itself is called Electrical Resistance.\n2. Formula:\nR = V / I = ρ l / A  (where V is potential difference, I is current, l is length, and A is area).\n3. SI Unit and Dependence:\n- SI Unit: Ohm (Ω) [1 Ω = 1 V / 1 A].\n- Dependence: It is directly proportional to length (R ∝ l), inversely proportional to cross-sectional area (R ∝ 1/A), and depends on the material and temperature of the conductor.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the SI unit of resistance and how is it related to potential difference and current?",
+            "explanation": "1. SI Unit: The SI unit of resistance is 'Ohm' (symbol: Ω).\n2. Relation Formula:\nR = V / I\n(Resistance = Potential difference across ends of conductor / Current flowing)\n3. Definition of 1 Ohm: If a current of 1 Ampere flows through a conductor when a potential difference of 1 Volt is applied across its ends, the resistance of that conductor is called 1 Ohm. Its dimensional formula is [M¹ L² T⁻³ A⁻²].",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Specific Resistance?",
+          "explanation": "1. Definition: The resistance of a conductor wire of unit length and unit area of cross-section is called the Specific Resistance or Resistivity (ρ) of that material.\n2. Formula:\nρ = R A / l  (where R is resistance, A is area, and l is length).\n3. SI Unit and Characteristics:\n- SI Unit: Ohm-meter (Ω·m).\n- It depends only on the nature of the material and temperature of the conductor; it does not depend on the length or thickness of the conductor.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the SI unit and formula of specific resistance.",
+            "explanation": "Specific Resistance (Resistivity):\n1. Formula: ρ = (R × A) / l\nSymbols: R = resistance (Ω), A = area of cross-section (m²), l = length of wire (m).\n2. SI Unit: Ohm-meter (Ω·m) [Calculation: Ω × m² / m = Ω·m].\n3. Important Point: Specific resistance is an intrinsic characteristic property of a material. Metals have low specific resistance (good conductors) and insulators have very high specific resistance.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "State Kirchhoff's Laws.",
+          "explanation": "Kirchhoff gave two laws to analyze complex electric circuits:\n1. First Law (Junction Rule): In an electric circuit, the algebraic sum of all electric currents meeting at any junction is zero (ΣI = 0). Incoming currents are taken as positive and outgoing currents as negative. It is based on 'Conservation of Charge'.\n2. Second Law (Loop / Voltage Rule): In any closed electric loop, the algebraic sum of the products of resistances and corresponding currents in different parts of the loop is equal to the sum of total EMFs in that loop (ΣIR = ΣE or ΣV = 0). It is based on 'Conservation of Energy'.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "State Kirchhoff's junction rule and mention which conservation law it is based on.",
+            "explanation": "1. Statement: In an electric circuit, the sum of all currents entering any electrical junction is equal to the sum of all currents leaving that junction:\nΣI = 0   (or I_entering = I_leaving)\n2. Principle of Conservation: This rule is based on the fundamental principle of 'Conservation of Charge'.\n3. Reason: Since charge can neither accumulate at a junction nor be created or destroyed there, charge leaves the junction at the same rate at which it enters.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

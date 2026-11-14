@@ -1,0 +1,713 @@
+{
+  "chapters": [
+    {
+      "id": "ch03_electric_current",
+      "title": "Chapter 3 : Electric Current",
+      "subject": "Physics - Chapter 3 : Electric Current",
+      "quick_revision": {
+        "title": "Electric Current and Circuit Laws (Quick Revision)",
+        "definition": "The rate of flow of electric charge is called electric current. Ohm's and Kirchhoff's laws are the basic foundation for circuit analysis.",
+        "explanation": "Electric current (I) = Q/t. The relation between potential difference and current in a conductor is given by Ohm's law, while Kirchhoff's junction and loop rules are used to solve complex electric circuits.",
+        "importantPoints": [
+          "Electric current: I = Q/t (Unit: Ampere)",
+          "Ohm's law: V = IR",
+          "Resistance: R = V/I (Unit: Ohm)",
+          "Specific resistance (Resistivity): ρ = RA/l (Unit: Ohm-meter)",
+          "Kirchhoff's junction rule (Conservation of charge): ΣI = 0",
+          "Kirchhoff's loop rule (Conservation of energy): ΣV = 0"
+        ],
+        "highlightWords": [
+          "Electric Current",
+          "Ohm's Law",
+          "Resistance",
+          "Specific Resistance",
+          "Kirchhoff's Laws"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is called Electric Current?",
+          "explanation": "Formula : I = Q / t\nSI Unit - Ampere (A)",
+          "or_question": {
+            "statement": "Write the SI unit and formula of electric current.",
+            "explanation": "I = Q / t, Unit: Ampere (A)"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "State Ohm's Law.",
+          "explanation": "Formula : V = IR\nwhere R is the resistance of the conductor.",
+          "or_question": {
+            "statement": "What is the main condition for Ohm's law?",
+            "explanation": "V ∝ I is valid only when physical conditions and temperature remain constant."
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What is called Electrical Resistance?",
+          "explanation": "Formula : R = V / I\nSI Unit - Ohm (Ω)",
+          "or_question": {
+            "statement": "What is the SI unit of resistance and how is it related to potential difference and current?",
+            "explanation": "R = V / I"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What is Specific Resistance?",
+          "explanation": "Formula : ρ = RA / l\nSI Unit - Ohm-meter (Ω·m)",
+          "or_question": {
+            "statement": "Write the SI unit and formula of specific resistance.",
+            "explanation": "ρ = RA / l"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "State Kirchhoff's Laws.",
+          "explanation": "1. Junction Rule: ΣI = 0\n2. Loop Rule: ΣV = 0",
+          "or_question": {
+            "statement": "State Kirchhoff's junction rule and mention which conservation law it is based on.",
+            "explanation": "Formula : ΣI = 0 (Conservation of charge)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch05_magnetism_and_matter",
+      "title": "Chapter 5 : Magnetism and Matter",
+      "subject": "Physics - Chapter 5 : Magnetism and Matter",
+      "quick_revision": {
+        "title": "Magnetic Dipole and Classification of Materials (Quick Revision)",
+        "definition": "Based on magnetic behavior, materials are classified into diamagnetic, paramagnetic, and ferromagnetic categories.",
+        "explanation": "Magnetic dipole moment is the product of pole strength and the distance between the two poles. Magnetic field lines form closed loops and never intersect each other.",
+        "importantPoints": [
+          "Magnetic dipole moment: M = m × 2l (Unit: Ampere-meter²)",
+          "Diamagnetic: Weakly repelled by magnetic field (e.g., Bismuth, Copper, Water)",
+          "Paramagnetic: Weakly attracted towards magnetic field (e.g., Aluminium, Oxygen)",
+          "Ferromagnetic: Strongly attracted towards magnetic field (e.g., Iron, Cobalt, Nickel)",
+          "Magnetic field lines never intersect each other"
+        ],
+        "highlightWords": [
+          "Magnetic Dipole Moment",
+          "Diamagnetic",
+          "Paramagnetic",
+          "Ferromagnetic",
+          "Magnetic Field Lines"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is called Magnetic Dipole Moment?",
+          "explanation": "Formula : M = m × 2l\nSI Unit - Ampere-meter² (A·m²)",
+          "or_question": {
+            "statement": "What is the SI unit of magnetic dipole moment?",
+            "explanation": "Unit = A·m²"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What are Diamagnetic Materials?",
+          "explanation": "Examples - Bismuth, Copper, Silver, and Water.",
+          "or_question": {
+            "statement": "Give two examples of diamagnetic materials.",
+            "explanation": "Bismuth, Copper, Silver, Water"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What are Paramagnetic Materials?",
+          "explanation": "Examples - Aluminium, Platinum, and Oxygen.",
+          "or_question": {
+            "statement": "Write two examples of paramagnetic materials.",
+            "explanation": "Aluminium, Platinum, Oxygen"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What are Ferromagnetic Materials?",
+          "explanation": "Examples - Iron, Cobalt, and Nickel.",
+          "or_question": {
+            "statement": "Write any two examples of ferromagnetic materials.",
+            "explanation": "Iron, Cobalt, Nickel"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "Write two properties of magnetic field lines.",
+          "explanation": "1. Outside N to S, inside S to N\n2. Never intersect each other.",
+          "or_question": {
+            "statement": "Why do two magnetic field lines never intersect each other?",
+            "explanation": "Two directions are not possible at the point of intersection."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch07_alternating_current",
+      "title": "Chapter 7 : Alternating Current",
+      "subject": "Physics - Chapter 7 : Alternating Current",
+      "quick_revision": {
+        "title": "Alternating Circuits and Devices (Quick Revision)",
+        "definition": "A current whose magnitude and direction change periodically with time is called Alternating Current (AC).",
+        "explanation": "In AC circuits, the RMS value of current is the effective value. Power factor determines energy loss, and a transformer changes voltage through mutual induction.",
+        "importantPoints": [
+          "Instantaneous value: I = I₀ sin ωt",
+          "RMS value: Irms = I₀ / √2",
+          "Power factor: cos φ = R / Z",
+          "Resonance condition: XL = XC",
+          "Resonant frequency: f₀ = 1 / (2π√LC)",
+          "Transformer ratio: Vs / Vp = Ns / Np (Mutual Induction)"
+        ],
+        "highlightWords": [
+          "Alternating Current",
+          "RMS Value",
+          "Power Factor",
+          "Resonance",
+          "Transformer"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is Alternating Current?",
+          "explanation": "Formula : I = I₀ sin ωt",
+          "or_question": {
+            "statement": "Write the instantaneous equation of Alternating Current.",
+            "explanation": "I = I₀ sin ωt"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What is the Root Mean Square (RMS) value of Alternating Current?",
+          "explanation": "Formula : Irms = I₀ / √2",
+          "or_question": {
+            "statement": "What is the relation between the peak value (I₀) and RMS value (Irms) of Alternating Current?",
+            "explanation": "Relation : Irms = I₀ / √2"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What is Power Factor?",
+          "explanation": "Formula : cos φ = R / Z",
+          "or_question": {
+            "statement": "Write the formula of Power Factor in terms of resistance and impedance.",
+            "explanation": "cos φ = R / Z"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What is Resonance?",
+          "explanation": "Formula : XL = XC\nResonant frequency : f₀ = 1 / (2π√LC)",
+          "or_question": {
+            "statement": "Write the formula for resonant frequency in a series LCR circuit.",
+            "explanation": "f₀ = 1 / (2π√LC)"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "What is a Transformer?",
+          "explanation": "Formula : Vs / Vp = Ns / Np",
+          "or_question": {
+            "statement": "On which principle does a transformer work?",
+            "explanation": "Principle of mutual induction"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch08_electromagnetic_waves",
+      "title": "Chapter 8 : Electromagnetic Waves",
+      "subject": "Physics - Chapter 8 : Electromagnetic Waves",
+      "quick_revision": {
+        "title": "Electromagnetic Waves and Spectrum (Quick Revision)",
+        "definition": "Waves produced by the propagation of mutually perpendicular oscillating electric and magnetic fields are called Electromagnetic Waves.",
+        "explanation": "These are transverse waves that travel in vacuum with the speed of light (3 × 10⁸ m/s). They do not require any material medium for propagation.",
+        "importantPoints": [
+          "Electric and magnetic fields oscillate perpendicular to each other",
+          "Speed in vacuum: c = 1 / √(μ₀ε₀) = 3 × 10⁸ m/s",
+          "Spectrum order: Radio, Micro, Infrared, Visible, Ultraviolet, X-rays, Gamma rays",
+          "Ultraviolet rays: Used in sterilization and detecting forged documents"
+        ],
+        "highlightWords": [
+          "Electromagnetic Waves",
+          "Speed in Vacuum",
+          "Spectrum",
+          "Ultraviolet Rays"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What are called Electromagnetic Waves?",
+          "explanation": "Electric and magnetic fields oscillate perpendicular to each other and travel with speed of light.",
+          "or_question": {
+            "statement": "What is the nature of electromagnetic waves?",
+            "explanation": "Transverse waves"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "Write two properties of electromagnetic waves.",
+          "explanation": "1. Propagation in vacuum\n2. Speed = 3 × 10⁸ m/s",
+          "or_question": {
+            "statement": "What is the speed of electromagnetic waves in vacuum?",
+            "explanation": "c = 3 × 10⁸ m/s"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "Write the formula for the speed of electromagnetic waves.",
+          "explanation": "c = 1 / √(μ₀ε₀)",
+          "or_question": {
+            "statement": "Write the names of the symbols used in the formula c = 1 / √(μ₀ε₀).",
+            "explanation": "Meaning of symbols: c, μ₀, ε₀"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What is Electromagnetic Spectrum?",
+          "explanation": "Systematic order of wavelength or frequency",
+          "or_question": {
+            "statement": "Write the names of any four parts of the electromagnetic spectrum.",
+            "explanation": "Radio, Micro, Visible, X-rays"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "Write two uses of ultraviolet rays.",
+          "explanation": "1. Sterilization\n2. Detection of fake notes/documents",
+          "or_question": {
+            "statement": "Which rays are used to sterilize water and medical instruments?",
+            "explanation": "Ultraviolet rays"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch09_ray_optics",
+      "title": "Chapter 9 : Ray Optics and Optical Instruments",
+      "subject": "Physics - Chapter 9 : Ray Optics and Optical Instruments",
+      "quick_revision": {
+        "title": "Optics Laws and Optical Instruments (Quick Revision)",
+        "definition": "The study of reflection, refraction of light, and working principles of various optical instruments (such as microscope) is called Ray Optics.",
+        "explanation": "Total internal reflection occurs when angle of incidence is greater than critical angle. Power of a lens is equal to the reciprocal of its focal length, and lenses are designed using the Lens Maker's formula.",
+        "importantPoints": [
+          "Total internal reflection: Denser to rarer medium, i > C",
+          "Critical angle relation: sin C = 1 / μ",
+          "Power of lens: P = 1 / f (in meters), Unit: Dioptre (D)",
+          "Lens maker's formula: 1/f = (μ - 1)(1/R₁ - 1/R₂)",
+          "Compound microscope: High magnification using objective and eyepiece lenses"
+        ],
+        "highlightWords": [
+          "Total Internal Reflection",
+          "Critical Angle",
+          "Power of Lens",
+          "Lens Maker's Formula",
+          "Compound Microscope"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What do you understand by Total Internal Reflection of light?",
+          "explanation": "Conditions: 1. Denser to rarer medium, 2. Angle of incidence > Critical angle",
+          "or_question": {
+            "statement": "Write two necessary conditions for total internal reflection.",
+            "explanation": "Conditions: Denser to rarer, i > C"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What is called Critical Angle?",
+          "explanation": "Formula : sin C = 1 / μ",
+          "or_question": {
+            "statement": "Write the relation between refractive index (μ) and critical angle (C).",
+            "explanation": "sin C = 1 / μ"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What is called Power of a Lens?",
+          "explanation": "Formula : P = 1 / f (in meters)\nSI Unit - Dioptre (D)",
+          "or_question": {
+            "statement": "What is the SI unit of power of a lens?",
+            "explanation": "SI Unit = Dioptre (D)"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "Write Lens Maker's Formula.",
+          "explanation": "1/f = (μ - 1)(1/R₁ - 1/R₂)",
+          "or_question": {
+            "statement": "Write the meaning of symbols used in Lens Maker's formula.",
+            "explanation": "Meaning of f, μ, R₁, R₂"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "What is the use of a Compound Microscope?",
+          "explanation": "Use: Obtaining a magnified image of tiny objects. Lenses: Objective and Eyepiece.",
+          "or_question": {
+            "statement": "Write the names of both convex lenses used in a compound microscope.",
+            "explanation": "Objective and Eyepiece"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch10_wave_optics",
+      "title": "Chapter 10 : Wave Optics",
+      "subject": "Physics - Chapter 10 : Wave Optics",
+      "quick_revision": {
+        "title": "Wave Theory and Optical Phenomena (Quick Revision)",
+        "definition": "Considering light as a wave, the study of phenomena like interference, diffraction, and polarization is called Wave Optics.",
+        "explanation": "According to Huygens, every point on a wavefront is a source of secondary wavelets. Interference is related to superposition of waves, diffraction to bending around corners, and polarization to transverse nature of light.",
+        "importantPoints": [
+          "Wavefront: Surface of particles vibrating in the same phase",
+          "Huygens' principle: Each point is a source of secondary wavelets",
+          "Interference: Change in intensity due to superposition of waves",
+          "Diffraction: Bending of light around corners of obstacle or aperture",
+          "Polarization: Restricting vibrations of light to one fixed direction (proof of transverse nature)"
+        ],
+        "highlightWords": [
+          "Wavefront",
+          "Huygens' Principle",
+          "Interference",
+          "Diffraction",
+          "Polarization"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is called Wavefront?",
+          "explanation": "The locus of particles vibrating in the same phase is a wavefront.",
+          "or_question": {
+            "statement": "What is the shape of wavefront produced due to a point source?",
+            "explanation": "Spherical wavefront"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What is Huygens' Principle?",
+          "explanation": "Concept of secondary wavelets",
+          "or_question": {
+            "statement": "According to Huygens, how is a new wavefront formed?",
+            "explanation": "Forward envelope of secondary wavelets"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What is Interference of Light?",
+          "explanation": "Redistribution of intensity due to superposition of waves",
+          "or_question": {
+            "statement": "What are the two main types of interference?",
+            "explanation": "Constructive and destructive interference"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What is Diffraction of Light?",
+          "explanation": "Bending around the corners of an obstacle",
+          "or_question": {
+            "statement": "What is the necessary condition for diffraction of light?",
+            "explanation": "Size should be of the order of wavelength"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "What is Polarization of Light?",
+          "explanation": "Polarization proves the transverse nature of light.",
+          "or_question": {
+            "statement": "Which optical phenomenon proves the transverse nature of light?",
+            "explanation": "Phenomenon of polarization"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch11_dual_nature_of_radiation",
+      "title": "Chapter 11 : Dual Nature of Radiation and Matter",
+      "subject": "Physics - Chapter 11 : Dual Nature of Radiation and Matter",
+      "quick_revision": {
+        "title": "Photoelectric Effect and de Broglie Waves (Quick Revision)",
+        "definition": "Radiation energy shows both particle and wave behavior, which is called the dual nature of radiation and matter.",
+        "explanation": "The emission of electrons from a metal surface by light of suitable frequency is the photoelectric effect, which was explained by Einstein. de Broglie stated that a wave is associated with every moving particle.",
+        "importantPoints": [
+          "Work function: Minimum energy required to free an electron from a metal surface",
+          "Threshold frequency: Minimum frequency required for electron emission",
+          "de Broglie formula: λ = h / p = h / (mv)",
+          "Einstein's equation: hν = φ + Kmax = φ + 1/2 mv²max"
+        ],
+        "highlightWords": [
+          "Photoelectric Effect",
+          "Work Function",
+          "Threshold Frequency",
+          "de Broglie Wavelength",
+          "Einstein's Equation"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is Photoelectric Effect?",
+          "explanation": "Emission of photoelectrons from a metal surface",
+          "or_question": {
+            "statement": "What are the electrons emitted in the photoelectric effect called?",
+            "explanation": "Photoelectrons"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What is called Work Function?",
+          "explanation": "Minimum required energy (φ)",
+          "or_question": {
+            "statement": "On what factors does the value of work function depend?",
+            "explanation": "Depends on nature of metal"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What is Threshold Frequency?",
+          "explanation": "Minimum frequency ν₀",
+          "or_question": {
+            "statement": "If the frequency of incident light is less than the threshold frequency, will electron emission take place?",
+            "explanation": "Emission not possible when ν < ν₀"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "Write the formula for de Broglie wavelength.",
+          "explanation": "Formula : λ = h / p = h / (mv)",
+          "or_question": {
+            "statement": "What is de Broglie hypothesis?",
+            "explanation": "Matter wave hypothesis"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "Write Einstein's photoelectric equation.",
+          "explanation": "hν = φ + 1/2 mv²max",
+          "or_question": {
+            "statement": "What is the formula for Kmax in Einstein's equation?",
+            "explanation": "Kmax = 1/2 mv²max"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch12_atoms",
+      "title": "Chapter 12 : Atoms",
+      "subject": "Physics - Chapter 12 : Atoms",
+      "quick_revision": {
+        "title": "Atomic Models and Energy Levels (Quick Revision)",
+        "definition": "Rutherford's nuclear model and Bohr's quantum model were proposed to explain atomic structure.",
+        "explanation": "Rutherford discovered the heavy nucleus at the center, while Bohr gave the concept of fixed non-radiating stationary orbits and energy quantization.",
+        "importantPoints": [
+          "Rutherford model: Tiny positively charged nucleus at center, most part is empty",
+          "Bohr model: Non-radiating stationary orbits with fixed energy",
+          "Ionization energy: Minimum energy required to take an electron from ground state to infinity",
+          "Excitation energy: Energy required to move an electron from ground state to a higher energy state",
+          "Energy formula: En = - 13.6 / n² eV"
+        ],
+        "highlightWords": [
+          "Rutherford Model",
+          "Bohr Model",
+          "Ionization Energy",
+          "Excitation Energy",
+          "Energy Level Formula"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is Rutherford's atomic model?",
+          "explanation": "Positively charged nucleus at center and most space is empty.",
+          "or_question": {
+            "statement": "According to Rutherford's model, where is most of the mass of an atom concentrated?",
+            "explanation": "In the nucleus"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What is Bohr's atomic model?",
+          "explanation": "Electrons revolve in non-radiating orbits of fixed energy.",
+          "or_question": {
+            "statement": "According to Bohr, why do electrons not radiate energy while revolving in stationary orbits?",
+            "explanation": "Principle of stationary orbits"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What is called Ionization Energy of an atom?",
+          "explanation": "Energy required to take from ground state (n=1) to infinity (n=∞)",
+          "or_question": {
+            "statement": "What is the value of ionization energy of a hydrogen atom?",
+            "explanation": "E_ion = +13.6 eV"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What is called Excitation Energy?",
+          "explanation": "Energy required for transition from ground level to higher level",
+          "or_question": {
+            "statement": "What is the main difference between Ionization Energy and Excitation Energy?",
+            "explanation": "Difference: Higher orbit vs complete removal"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "Write the formula for the energy of an electron in the nth orbit of a hydrogen atom.",
+          "explanation": "En = - 13.6 / n² eV",
+          "or_question": {
+            "statement": "What is the energy of the second orbit (n = 2) of a hydrogen atom?",
+            "explanation": "E₂ = -3.4 eV"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch13_nuclei",
+      "title": "Chapter 13 : Nuclei",
+      "subject": "Physics - Chapter 13 : Nuclei",
+      "quick_revision": {
+        "title": "Nuclear Composition and Radioactivity (Quick Revision)",
+        "definition": "The central dense positively charged part of an atom is called the nucleus, in which protons and neutrons are bound together.",
+        "explanation": "The difference between the mass of constituent nucleons and the actual mass of the nucleus is called mass defect, which becomes binding energy by Einstein's relation (E=Δmc²). Unstable nuclei exhibit radioactivity.",
+        "importantPoints": [
+          "Nuclear composition: Protons + Neutrons (Nucleons)",
+          "Mass defect: Total mass of free nucleons - Actual mass of nucleus",
+          "Binding energy: Minimum energy required to separate nucleons from each other",
+          "Radioactivity: Spontaneous emission of α, β, γ radiations from unstable nuclei",
+          "Half-life formula: Remaining nuclei after one half-life N = N₀ / 2"
+        ],
+        "highlightWords": [
+          "Nucleus",
+          "Mass Defect",
+          "Binding Energy",
+          "Radioactivity",
+          "Half-Life"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is called Atomic Nucleus?",
+          "explanation": "Small, dense, positively charged region at center (Protons + Neutrons).",
+          "or_question": {
+            "statement": "What are the fundamental constituents of a nucleus?",
+            "explanation": "Protons and Neutrons"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What is Mass Defect?",
+          "explanation": "Δm = (Total nucleon mass) - (Actual mass of nucleus)",
+          "or_question": {
+            "statement": "How is mass defect related to energy?",
+            "explanation": "Eb = Δm × c²"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What is called Binding Energy?",
+          "explanation": "Minimum energy required to separate nucleons.",
+          "or_question": {
+            "statement": "On which quantity does the stability of a nucleus depend?",
+            "explanation": "Depends on binding energy per nucleon"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What is Radioactivity?",
+          "explanation": "Spontaneous emission of α, β, γ radiations from unstable nuclei.",
+          "or_question": {
+            "statement": "What are the three main radiations emitted during radioactive decay?",
+            "explanation": "Alpha, Beta, Gamma"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "What is called Half-life?",
+          "explanation": "Formula : N = N₀ / 2 (after one half-life)",
+          "or_question": {
+            "statement": "What fraction of the initial quantity will remain after two half-lives?",
+            "explanation": "N = N₀ / 4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch14_semiconductor_electronics",
+      "title": "Chapter 14 : Semiconductor Electronics",
+      "subject": "Physics - Chapter 14 : Semiconductor Electronics",
+      "quick_revision": {
+        "title": "Semiconductors and Diode Devices (Quick Revision)",
+        "definition": "Materials whose conductivity lies between conductors and insulators are called Semiconductors.",
+        "explanation": "Adding impurities (doping) forms P-type (trivalent impurity) and N-type (pentavalent impurity) semiconductors. Joining them forms a P-N junction diode, which is used in rectification.",
+        "importantPoints": [
+          "Semiconductor: Conductivity between conductor and insulator (e.g., Silicon, Germanium)",
+          "Pure (Intrinsic) semiconductor: Internal semiconductor without any impurity",
+          "P-type: Trivalent impurity, majority carriers: Holes",
+          "N-type: Pentavalent impurity, majority carriers: Electrons",
+          "P-N junction diode: Mainly used to convert AC into DC (Rectifier)"
+        ],
+        "highlightWords": [
+          "Semiconductor",
+          "Intrinsic Semiconductor",
+          "P-Type",
+          "N-Type",
+          "P-N Junction Diode"
+        ]
+      },
+      "questions": [
+        {
+          "question_number": "1",
+          "statement": "What is called Semiconductor?",
+          "explanation": "Examples : Silicon and Germanium.",
+          "or_question": {
+            "statement": "Give two common examples of semiconductors.",
+            "explanation": "Silicon, Germanium"
+          }
+        },
+        {
+          "question_number": "2",
+          "statement": "What is called Pure Semiconductor?",
+          "explanation": "Examples : Pure Silicon and Pure Germanium.",
+          "or_question": {
+            "statement": "By what other name is pure semiconductor known?",
+            "explanation": "Intrinsic semiconductor"
+          }
+        },
+        {
+          "question_number": "3",
+          "statement": "What are P-type Semiconductors?",
+          "explanation": "Trivalent impurity; majority charge carriers: Holes.",
+          "or_question": {
+            "statement": "Who are the majority charge carriers in a P-type semiconductor?",
+            "explanation": "Majority carriers: Holes"
+          }
+        },
+        {
+          "question_number": "4",
+          "statement": "What are N-type Semiconductors?",
+          "explanation": "Pentavalent impurity; majority charge carriers: Electrons.",
+          "or_question": {
+            "statement": "Who are the majority charge carriers in an N-type semiconductor?",
+            "explanation": "Majority carriers: Electrons"
+          }
+        },
+        {
+          "question_number": "5",
+          "statement": "What is a P-N Junction Diode?",
+          "explanation": "Use: Converting Alternating Current (AC) into Direct Current (DC) (as a rectifier).",
+          "or_question": {
+            "statement": "What is the main use of a P-N junction diode?",
+            "explanation": "To convert AC into DC"
+          }
+        }
+      ]
+    }
+  ]
+}

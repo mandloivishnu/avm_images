@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12 Physics Visual Revision</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6f8; padding: 10px; margin: 0; line-height: 1.5; overflow-x: hidden; }
+        .container { max-width: 600px; margin: 0 auto; padding-bottom: 20px; }
+        h1 { text-align: center; color: #1a73e8; font-size: 1.5rem; margin-bottom: 5px; animation: fadeInDown 0.6s ease-out; }
+        .footer { text-align: center; font-size: 0.85rem; color: #5f6368; margin-bottom: 25px; animation: fadeIn 1s ease-out; }
+
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-4px); } 100% { transform: translateY(0px); } }
+
+        .card {
+            background: #fff; border-radius: 12px; padding: 15px; margin-bottom: 16px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.06); opacity: 0; animation: fadeInUp 0.6s ease-out forwards;
+            border-left: 4px solid #1a73e8;
+        }
+
+        .card:nth-child(3) { animation-delay: 0.1s; } .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.3s; } .card:nth-child(6) { animation-delay: 0.4s; }
+        .card:nth-child(7) { animation-delay: 0.5s; } .card:nth-child(8) { animation-delay: 0.6s; }
+        .card:nth-child(9) { animation-delay: 0.7s; } .card:nth-child(10){ animation-delay: 0.8s; }
+        .card:nth-child(11){ animation-delay: 0.9s; }
+
+        .card h2 { color: #202124; font-size: 1.15rem; margin-top: 0; border-bottom: 2px solid #e8eaed; padding-bottom: 8px; display: flex; align-items: center; }
+        .icon { font-size: 1.4rem; margin-right: 8px; animation: float 3s ease-in-out infinite; }
+
+        .topic { display: flex; flex-wrap: wrap; align-items: center; background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #f1f3f4; }
+        .topic-no-svg { display: flex; flex-direction: column; align-items: stretch; background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #f1f3f4; }
+        .topic-content { flex: 1 1 0%; min-width: 0; }
+        .topic-title { font-weight: 700; color: #1a73e8; display: block; margin-bottom: 4px; font-size: 0.95rem; }
+        .topic-desc { color: #3c4043; font-size: 0.9rem; margin: 0; }
+        .formula { background: #e8f0fe; color: #1967d2; font-family: monospace; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+
+        .svg-icon { width: 90px; height: 50px; margin-left: 12px; flex-shrink: 0; background: #fff; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); padding: 5px; }
+
+        /* Definitions and Examples */
+        .extra { flex: 0 0 100%; width: 100%; box-sizing: border-box; margin-top: 10px; padding-top: 8px; border-top: 1px dashed #dadce0; }
+        .def-title { font-weight: 700; color: #188038; font-size: 0.88rem; margin-bottom: 4px; }
+        .extra ul { margin: 0 0 8px 0; padding-left: 18px; }
+        .extra li { color: #3c4043; font-size: 0.86rem; margin-bottom: 4px; }
+        .extra li b { color: #202124; }
+        .example { background: #fff8e1; border-left: 3px solid #f9ab00; border-radius: 6px; padding: 7px 10px; font-size: 0.86rem; color: #3c4043; }
+        .example b { color: #b06000; }
+        .example + .example { margin-top: 6px; }
+
+        .reallife { background: #e6f4ea; border-left: 3px solid #34a853; border-radius: 6px; padding: 7px 10px; margin-top: 6px; font-size: 0.86rem; color: #3c4043; }
+        .reallife b { color: #137333; }
+        .reallife .hi-text { display: block; margin-top: 4px; padding-top: 4px; border-top: 1px dotted #a8dab5; color: #2d3748; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Class 12 Physics Cheat Sheet</h1>
+        <div class="footer">Visual &amp; Animated Revision (Definitions + Solved Examples + Bilingual Real-Life Examples)</div>
+
+        <div class="card">
+            <h2><span class="icon">⚡</span> Unit 1: Electrostatics</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Electric Charges and Fields</span>
+                    <p class="topic-desc"><strong>Coulomb's Law:</strong> Force between two point charges: <span class="formula">F = k(q₁q₂)/r²</span>. <br><strong>Gauss's Law:</strong> Total electric flux <span class="formula">Φ = q / ε₀</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><circle cx="25" cy="25" r="12" fill="#ef5350"/><text x="25" y="29" fill="#fff" font-size="12" text-anchor="middle" font-weight="bold">+</text><circle cx="75" cy="25" r="12" fill="#42a5f5"/><text x="75" y="29" fill="#fff" font-size="12" text-anchor="middle" font-weight="bold">-</text><line x1="42" y1="25" x2="58" y2="25" stroke="#000" stroke-width="2"><animate attributeName="x2" values="42;58;42" dur="1.5s" repeatCount="indefinite"/></line></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Electric Charge:</b> An intrinsic property of matter due to which it produces and experiences electrical and magnetic effects. SI unit: Coulomb (C).</li>
+                        <li><b>Quantisation of Charge:</b> All free charges are integral multiples of a basic unit of charge denoted by <i>e</i>: <span class="formula">q = ne</span>, where e = 1.6×10⁻¹⁹ C.</li>
+                        <li><b>Electric Field (E):</b> The electrostatic force experienced by a unit positive test charge placed at a point, <span class="formula">E = F/q</span>. SI unit: N/C or V/m.</li>
+                        <li><b>Electric Flux:</b> The total number of electric field lines passing normally through a given surface area, <span class="formula">Φ = EA cosθ</span>.</li>
+                        <li><b>Electric Dipole Moment:</b> Product of magnitude of either charge and the separation between them, <span class="formula">p = q × 2a</span>. Direction: from negative to positive charge.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> If two charges of 1 μC each are 10 cm apart, <span class="formula">F = 9×10⁹ × (10⁻⁶)² / (0.1)² = 0.9 N</span> (repulsion). Flux through a closed surface enclosing 1 nC charge is <span class="formula">Φ = q/ε₀ ≈ 113 N·m²/C</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Rubbing a plastic comb on dry hair charges it through friction, allowing it to attract tiny bits of paper via electrostatic force. Lightning during thunderstorms also occurs due to heavy charge accumulation in clouds.
+                        <span class="hi-text"><b>हिंदी में:</b> प्लास्टिक की कंघी को सूखे बालों पर रगड़ने से वह आवेशित हो जाती है और कागज़ के छोटे टुकड़ों को खींच लेती है। यही स्थिरवैद्युत बल है। बादलों में आवेश जमा होने पर आकाशीय बिजली भी इसी कारण गिरती है।</span>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Electrostatic Potential and Capacitance</span>
+                    <p class="topic-desc"><strong>Potential (V):</strong> Work done per unit charge. <br><strong>Capacitor:</strong> Stores electrical energy (<span class="formula">U = &frac12;CV²</span>). Dielectric increases capacitance: <span class="formula">C = Kε₀A/d</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><line x1="20" y1="10" x2="20" y2="40" stroke="#1a73e8" stroke-width="4"/><line x1="80" y1="10" x2="80" y2="40" stroke="#ef5350" stroke-width="4"/><rect x="35" y="15" width="30" height="20" fill="#e3f2fd" stroke="#42a5f5" stroke-width="1"/></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Electrostatic Potential:</b> Work done by an external force in bringing a unit positive charge from infinity to a point in an electric field, <span class="formula">V = W/q</span>. SI unit: Volt (J/C).</li>
+                        <li><b>Potential Difference:</b> Work done per unit positive test charge in moving it from one point to another against electrostatic force.</li>
+                        <li><b>Equipotential Surface:</b> A surface with a constant value of potential at all points on it. No work is done in moving a test charge on this surface.</li>
+                        <li><b>Capacitance:</b> Ratio of the charge Q given to a conductor to the rise in its potential V, <span class="formula">C = Q/V</span>. SI unit: Farad (F).</li>
+                        <li><b>Dielectric:</b> A non-conducting substance that gets polarised when placed in an external electric field. Dielectric constant <span class="formula">K = C/C₀</span>.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> When a 10 μF capacitor is charged to 100 V, charge <span class="formula">Q = CV = 1 mC</span> and stored energy <span class="formula">U = ½ × 10×10⁻⁶ × 100² = 0.05 J</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> In a camera or mobile flash, a capacitor charges up slowly and then releases all its stored energy in a fraction of a second to produce a bright flash. Ceiling fans also use a capacitor to provide starting torque.
+                        <span class="hi-text"><b>हिंदी में:</b> मोबाइल/कैमरे के फ्लैश में संधारित्र धीरे-धीरे आवेशित होकर ऊर्जा जमा करता है और फिर एक ही पल में सारी ऊर्जा छोड़कर तेज़ रोशनी देता है। पंखे की स्टार्टिंग में भी संधारित्र लगता है।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🔋</span> Unit 2: Current Electricity</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Drift Velocity and Ohm's Law</span>
+                    <p class="topic-desc"><strong>Drift Velocity:</strong> Average velocity of electrons in a conductor (<span class="formula">I = nAev_d</span>). <br><strong>Ohm's Law:</strong> Potential difference is directly proportional to current (<span class="formula">V = IR</span>).</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="10" y="20" width="80" height="10" rx="4" fill="#cfd8dc"/><circle cx="15" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="15" to="85" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="45" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="45" to="85" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="75" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="75" to="85" dur="0.4s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Electric Current:</b> The rate of flow of electric charge through any cross-section of a conductor, <span class="formula">I = Q/t</span>. SI unit: Ampere (A).</li>
+                        <li><b>Drift Velocity:</b> The average velocity with which free electrons get drifted towards the positive end of a conductor under an external electric field, <span class="formula">v_d = eEτ/m</span> (τ = relaxation time).</li>
+                        <li><b>Mobility (μ):</b> The magnitude of the drift velocity per unit electric field, <span class="formula">μ = v_d/E</span>.</li>
+                        <li><b>Electrical Resistance:</b> Opposition offered by a conductor to the flow of current, <span class="formula">R = ρl/A</span>. SI unit: Ohm (Ω).</li>
+                        <li><b>Resistivity (ρ):</b> Resistance of a material of unit length and unit area of cross-section. It depends on the nature of material and temperature, not dimensions.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> If 2 A current flows through a 5 Ω wire, <span class="formula">V = IR = 2 × 5 = 10 V</span>, and charge flowing in 5 s is <span class="formula">Q = It = 10 C</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Compare electricity to water in a pipe: Voltage = water pressure, Current = water flow, Resistance = narrowness of the pipe. Heating coils in irons and room heaters have high resistance so they get hot, whereas house wiring uses thick copper wires for low resistance.
+                        <span class="hi-text"><b>हिंदी में:</b> पानी की पाइप से समझें: वोल्टेज = पानी का दबाव, धारा = पानी का बहाव, प्रतिरोध = पाइप की तंगी। इसीलिए हीटर या प्रेस का तार उच्च प्रतिरोध का होता है और गर्म होता है, जबकि घर की वायरिंग मोटे तांबे के तार से की जाती है।</span>
+                    </div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Kirchhoff's Rules</span>
+                    <p class="topic-desc"><strong>Junction Rule (KCL):</strong> Total current entering a junction equals total current leaving it. <br><strong>Loop Rule (KVL):</strong> Algebraic sum of changes in potential around any closed loop is zero.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polyline points="20,25 40,10 60,10 80,25" fill="none" stroke="#1a73e8" stroke-width="2"/><polyline points="20,25 40,40 60,40 80,25" fill="none" stroke="#1a73e8" stroke-width="2"/><circle cx="50" cy="25" r="4" fill="#ef5350"/></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Electromotive Force (emf):</b> Potential difference between the positive and negative electrodes of a cell in an open circuit (when no current is drawn). SI unit: Volt (V).</li>
+                        <li><b>Internal Resistance (r):</b> Resistance offered by the electrolyte of a cell to the flow of current inside it. Terminal voltage <span class="formula">V = ε − Ir</span>.</li>
+                        <li><b>Junction:</b> Any point in an electric circuit where two or more conductors meet. KCL is based on conservation of charge.</li>
+                        <li><b>Wheatstone Bridge:</b> Under balanced condition, no current flows through the galvanometer, <span class="formula">P/Q = R/S</span>. KVL is based on conservation of energy.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> If 5 A enters a junction and 3 A goes into one branch, the other branch carries <span class="formula">5 − 3 = 2 A</span> (KCL). For a 12 V cell with 4 Ω and 2 Ω in series, <span class="formula">I = 12/(4+2) = 2 A</span> (KVL).</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> When a river splits into two streams, total water remains conserved (KCL). Similarly, at a home switchboard, main current splits among parallel appliances like fans, bulbs, and TV. Just like climbing a hill and returning to the starting point gives zero net height change, net potential change in a closed loop is zero (KVL).
+                        <span class="hi-text"><b>हिंदी में:</b> नदी जब दो धाराओं में बँटती है तो कुल पानी वही रहता है (KCL)। इसी तरह घर के बोर्ड पर पंखा, बल्ब और टीवी समांतर जुड़े होते हैं और मुख्य तार की धारा उनमें बँट जाती है। (KVL की तरह पहाड़ पर चढ़कर वापस उसी जगह आने पर कुल ऊँचाई-परिवर्तन शून्य होता है।)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🧲</span> Unit 3: Magnetic Effects of Current</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Biot-Savart &amp; Ampere's Circuital Law</span>
+                    <p class="topic-desc"><strong>Biot-Savart Law:</strong> Magnetic field due to a current element. <br><strong>Ampere's Law:</strong> <span class="formula">&oint; B &middot; dl = &mu;₀I</span>. Used to find field inside a solenoid.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="20" y="15" width="30" height="20" fill="#ef5350"/><rect x="50" y="15" width="30" height="20" fill="#42a5f5"/><text x="35" y="29" fill="#fff" font-size="10" text-anchor="middle" font-weight="bold">N</text><text x="65" y="29" fill="#fff" font-size="10" text-anchor="middle" font-weight="bold">S</text><path d="M 25 15 C 25 -5, 75 -5, 75 15" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4,4"><animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite"/></path><path d="M 25 35 C 25 55, 75 55, 75 35" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4,4"><animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" repeatCount="indefinite"/></path></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Magnetic Field (B):</b> Space around a magnet or current-carrying conductor where magnetic force is experienced. SI unit: Tesla (T).</li>
+                        <li><b>Magnetic Lorentz Force:</b> Force acting on a charge <i>q</i> moving with velocity <i>v</i> in a magnetic field <i>B</i>, <span class="formula">F = qvB sinθ</span>.</li>
+                        <li><b>Biot-Savart Law:</b> Magnetic field due to a small current element <span class="formula">dB = (μ₀/4π) · I dl sinθ / r²</span>.</li>
+                        <li><b>Solenoid:</b> A long cylindrical coil of insulated wire. Inside a long solenoid, field is uniform: <span class="formula">B = μ₀nI</span>.</li>
+                        <li><b>Circular Loop (at centre):</b> <span class="formula">B = μ₀I/2R</span>.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> For a long straight wire carrying 5 A, magnetic field at 10 cm distance is <span class="formula">B = μ₀I/2πr = 2×10⁻⁷ × 5 / 0.1 = 10⁻⁵ T</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Placing a magnetic compass near a live electric wire deflects its needle (Oersted's experiment). Scrapyard cranes use electromagnets (solenoids) to lift heavy iron when current is switched on and drop it when switched off.
+                        <span class="hi-text"><b>हिंदी में:</b> बिजली के तार के पास कंपास रखने पर उसकी सुई घूम जाती है (ओर्स्टेड का प्रयोग)। क्रेन में लगा विद्युत चुंबक (परिनालिका की तरह) कबाड़खाने में बिजली चालू करने पर लोहे को उठाता है और बंद करने पर छोड़ देता है।</span>
+                    </div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Moving Coil Galvanometer &amp; Magnetism</span>
+                <p class="topic-desc">Measures small electric currents. Works on the principle that a current-carrying coil in a magnetic field experiences a torque (<span class="formula">τ = NIAB sinθ</span>). Earth behaves like a giant magnet (declination, dip, horizontal component).</p>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Magnetic Dipole Moment:</b> Product of current and area of a current loop, <span class="formula">m = NIA</span>.</li>
+                        <li><b>Current Sensitivity:</b> Deflection produced per unit current in a galvanometer, <span class="formula">θ/I = NBA/k</span>.</li>
+                        <li><b>Ammeter / Voltmeter:</b> Galvanometer converts to an ammeter by connecting a low shunt resistance in parallel, and to a voltmeter by connecting a high resistance in series.</li>
+                        <li><b>Magnetic Declination:</b> Angle between geographic meridian and magnetic meridian at a place.</li>
+                        <li><b>Angle of Dip (Inclination):</b> Angle that Earth's total magnetic field makes with the horizontal direction.</li>
+                        <li><b>Diamagnetic / Paramagnetic / Ferromagnetic:</b> Materials weakly repelled, weakly attracted, and strongly attracted by a magnetic field respectively.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> A 100-turn coil (area 0.01 m², current 2 A) placed perpendicular to a 0.5 T field experiences torque <span class="formula">τ = NIAB = 100 × 2 × 0.01 × 0.5 = 1 N·m</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Electric fans, mixer grinders, and e-rickshaw motors run on this principle: a current-carrying coil inside a magnetic field experiences torque and rotates. Old analog needle meters also work this way.
+                        <span class="hi-text"><b>हिंदी में:</b> बिजली का पंखा, मिक्सर और ई-रिक्शा की मोटर इसी सिद्धांत पर चलते हैं: चुंबकीय क्षेत्र में धारावाही कुंडली पर बल आघूर्ण लगता है और वह घूमने लगती है। पुराने एनालॉग मीटर की सुई भी इसी से घूमती है।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🔄</span> Unit 4: Electromagnetic Induction &amp; AC</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Electromagnetic Induction (EMI)</span>
+                    <p class="topic-desc"><strong>Faraday's Law:</strong> Changing magnetic flux induces an EMF (<span class="formula">e = -dΦ/dt</span>). <br><strong>Lenz's Law:</strong> Induced EMF opposes the cause that produces it.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><path d="M 60 10 Q 75 10, 75 25 Q 75 40, 60 40 Q 45 40, 45 25 Q 45 10, 60 10" fill="none" stroke="#fbc02d" stroke-width="4"/><rect x="5" y="20" width="30" height="10" fill="#ef5350"><animate attributeName="x" values="5; 35; 5" dur="2s" repeatCount="indefinite"/></rect><text x="20" y="28" fill="#fff" font-size="8" text-anchor="middle">N S</text></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Magnetic Flux:</b> Total number of magnetic field lines passing normally through a surface, <span class="formula">Φ = BA cosθ</span>. SI unit: Weber (Wb).</li>
+                        <li><b>Electromagnetic Induction:</b> Phenomenon of generating an induced emf in a circuit by changing the magnetic flux linked with it.</li>
+                        <li><b>Motional EMF:</b> EMF induced across the ends of a conductor moving in a magnetic field, <span class="formula">e = Blv</span>.</li>
+                        <li><b>Self-Inductance (L):</b> Property of a coil by which it opposes any change in current flowing through itself, <span class="formula">e = −L dI/dt</span>. SI unit: Henry (H).</li>
+                        <li><b>Mutual Inductance (M):</b> Induction of emf in a secondary coil due to change of current in a neighbouring primary coil.</li>
+                        <li><b>Eddy Currents:</b> Circulating currents induced in bulk pieces of conductors when subjected to changing magnetic flux (e.g., induction cooktop).</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> A 0.5 m rod moving at 2 m/s perpendicular to a 0.2 T field develops <span class="formula">e = Blv = 0.2 × 0.5 × 2 = 0.2 V</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> A bicycle dynamo spins a magnet near a coil using wheel rotation to light the headlamp. Power plants rotate huge coils via turbines to generate electricity, while induction cooktops use eddy currents to heat metal vessels directly.
+                        <span class="hi-text"><b>हिंदी में:</b> साइकिल का डायनेमो पहिये के घूमने से चुंबक घुमाकर बल्ब जलाता है। बिजलीघर में टरबाइन से कुंडली घुमाकर बिजली बनती है, और इंडक्शन चूल्हा भँवर धाराओं से बर्तन को सीधे गर्म करता है।</span>
+                    </div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Alternating Current (AC) &amp; Transformer</span>
+                <p class="topic-desc"><strong>LCR Circuit:</strong> Resonance occurs when inductive reactance equals capacitive reactance (<span class="formula">X_L = X_C</span>). <br><strong>Transformer:</strong> Steps up or steps down AC voltage using mutual induction: <span class="formula">V_s/V_p = N_s/N_p</span>.</p>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Alternating Current:</b> Current whose magnitude changes continuously with time and direction reverses periodically.</li>
+                        <li><b>RMS Value:</b> Effective value of AC that produces the same heat as a steady DC, <span class="formula">I_rms = I₀/√2 ≈ 0.707 I₀</span>.</li>
+                        <li><b>Reactance:</b> Opposition offered by inductor <span class="formula">X_L = ωL</span> or capacitor <span class="formula">X_C = 1/ωC</span> to AC.</li>
+                        <li><b>Impedance (Z):</b> Total effective opposition of an LCR circuit, <span class="formula">Z = √(R² + (X_L − X_C)²)</span>.</li>
+                        <li><b>Power Factor:</b> Ratio <span class="formula">cosφ = R/Z</span>. Average power <span class="formula">P = V_rms I_rms cosφ</span>.</li>
+                        <li><b>Resonant Frequency:</b> <span class="formula">f₀ = 1/(2π√LC)</span>.</li>
+                        <li><b>Step-Up / Step-Down Transformer:</b> Increases voltage when <span class="formula">N_s &gt; N_p</span>; decreases voltage when <span class="formula">N_s &lt; N_p</span>.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> If peak household AC voltage is 311 V, <span class="formula">V_rms = 311/√2 ≈ 220 V</span>. A transformer with N_p = 1000, N_s = 100 and 220 V input gives <span class="formula">V_s = 22 V</span> (Step-Down).</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> A mobile charger steps down 220 V household AC to around 5 V. Power stations transmit electricity over long distances at very high voltage to reduce heat loss in wires, and local neighbourhood transformers step it back down to 220 V.
+                        <span class="hi-text"><b>हिंदी में:</b> मोबाइल चार्जर घर की 220 V AC को लगभग 5 V में बदलता है (स्टेप-डाउन)। बिजलीघर से शहर तक बिजली बहुत ऊँची वोल्टता पर भेजी जाती है ताकि तार में ऊर्जा हानि कम हो, और मोहल्ले का ट्रांसफॉर्मर उसे 220 V करता है।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">📡</span> Unit 5: Electromagnetic Waves</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Electromagnetic Spectrum</span>
+                    <p class="topic-desc">Transverse waves of oscillating electric and magnetic fields travelling at speed of light (<span class="formula">c = 1/&radic;(&mu;₀&epsilon;₀)</span>). <br><strong>Order (increasing frequency):</strong> Radio &rarr; Microwave &rarr; Infrared &rarr; Visible &rarr; UV &rarr; X-rays &rarr; Gamma.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><path d="M 10 25 Q 25 5, 40 25 T 70 25 T 100 25" fill="none" stroke="#ef5350" stroke-width="2"><animate attributeName="d" values="M 10 25 Q 25 5, 40 25 T 70 25 T 100 25; M 10 25 Q 25 45, 40 25 T 70 25 T 100 25; M 10 25 Q 25 5, 40 25 T 70 25 T 100 25" dur="1.2s" repeatCount="indefinite"/></path><path d="M 10 25 Q 25 45, 40 25 T 70 25 T 100 25" fill="none" stroke="#42a5f5" stroke-width="2"><animate attributeName="d" values="M 10 25 Q 25 45, 40 25 T 70 25 T 100 25; M 10 25 Q 25 5, 40 25 T 70 25 T 100 25; M 10 25 Q 25 45, 40 25 T 70 25 T 100 25" dur="1.2s" repeatCount="indefinite"/></path></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Displacement Current:</b> Current arising due to a time-varying electric flux, <span class="formula">I_d = ε₀ dΦ_E/dt</span> (Maxwell).</li>
+                        <li><b>Electromagnetic Wave:</b> Transverse wave in which electric (E) and magnetic (B) fields oscillate perpendicular to each other and to the direction of wave propagation. Requires no material medium.</li>
+                        <li><b>Speed in Vacuum:</b> <span class="formula">c = 3×10⁸ m/s = fλ</span>.</li>
+                        <li><b>Main Uses:</b> Radio (communication), Microwaves (radar/ovens), IR (TV remotes), UV (sterilisation), X-rays (medical imaging), Gamma rays (cancer therapy).</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> For an FM radio station broadcasting at 100 MHz, wavelength <span class="formula">λ = c/f = 3×10⁸ / 10⁸ = 3 m</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Microwave ovens heat food, TV remotes use infrared rays, Wi-Fi and mobile networks run on radio/microwaves, hospitals use X-rays to check bone fractures, and UV water purifiers kill germs in drinking water.
+                        <span class="hi-text"><b>हिंदी में:</b> माइक्रोवेव ओवन खाना गर्म करता है, टीवी रिमोट इन्फ्रारेड से चलता है, Wi-Fi और मोबाइल सिग्नल रेडियो/माइक्रोवेव तरंगों से काम करते हैं, अस्पताल में हड्डी की जाँच X-रे से होती है, और RO/UV वाटर प्यूरीफायर में UV कीटाणु मारती है।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🌈</span> Unit 6: Optics</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Ray Optics (TIR and Lenses)</span>
+                    <p class="topic-desc"><strong>TIR:</strong> Occurs when light travels from denser to rarer medium with angle of incidence &gt; critical angle. <br><strong>Lens Maker's Formula:</strong> <span class="formula">1/f = (n-1)(1/R₁ - 1/R₂)</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polygon points="50,10 20,40 80,40" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/><line x1="0" y1="25" x2="35" y2="25" stroke="#fbc02d" stroke-width="2"/><line x1="35" y1="25" x2="60" y2="35" stroke="#fbc02d" stroke-width="2"><animate attributeName="x2" values="35;60" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y2" values="25;35" dur="1.5s" repeatCount="indefinite"/></line></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Refractive Index (n):</b> Ratio of speed of light in vacuum to speed of light in the medium, <span class="formula">n = c/v = sin i / sin r</span>.</li>
+                        <li><b>Total Internal Reflection (TIR):</b> Complete reflection of light back into the denser medium when incident at an angle greater than the critical angle. Uses: optical fibres, sparkling of diamonds.</li>
+                        <li><b>Critical Angle (C):</b> Angle of incidence in the denser medium for which the angle of refraction in the rarer medium is 90°, <span class="formula">sin C = 1/n</span>.</li>
+                        <li><b>Focal Length (f):</b> Distance between the optical centre and principal focus of a lens.</li>
+                        <li><b>Power of a Lens:</b> Reciprocal of focal length in metres, <span class="formula">P = 1/f</span>. SI unit: Dioptre (D).</li>
+                        <li><b>Lens Formula:</b> <span class="formula">1/v − 1/u = 1/f</span>.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example 1:</b> For glass (n = 1.5), critical angle <span class="formula">sin C = 1/1.5 → C ≈ 42°</span>.</div>
+                    <div class="example"><b>💡 Example 2:</b> An object placed 30 cm from a convex lens of f = +20 cm forms an image at <span class="formula">1/v = 1/20 − 1/30 = 1/60 → v = 60 cm</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> High-speed internet optical fibre cables carry light signals over long distances using TIR. Diamonds sparkle brilliantly due to TIR, and summer road mirages also happen because of it. Spectacles, cameras, and magnifying glasses work on the lens formula.
+                        <span class="hi-text"><b>हिंदी में:</b> इंटरनेट की ऑप्टिकल फाइबर केबल में प्रकाश पूर्ण आंतरिक परावर्तन से मुड़ता हुआ लंबी दूरी तय करता है। हीरा इसी कारण चमकता है। गर्मी में सड़क पर पानी जैसा दिखना (मरीचिका) भी TIR है। चश्मे, कैमरे और आवर्धक लेंस सब लेंस सूत्र पर काम करते हैं।</span>
+                    </div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Wave Optics</span>
+                <p class="topic-desc"><strong>Huygens' Principle:</strong> Every point on a wavefront acts as a source of secondary wavelets. <br><strong>Interference:</strong> Superposition of light waves forming bright and dark fringes (<span class="formula">&beta; = &lambda;D/d</span>).</p>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Wavefront:</b> Locus of all points in a medium vibrating in the same phase at a given instant.</li>
+                        <li><b>Coherent Sources:</b> Two sources emitting light waves of the same frequency with a constant phase difference over time.</li>
+                        <li><b>Constructive Interference:</b> Occurs when path difference is <span class="formula">nλ</span>, giving maximum intensity (bright fringe).</li>
+                        <li><b>Destructive Interference:</b> Occurs when path difference is <span class="formula">(2n−1)λ/2</span>, giving minimum intensity (dark fringe).</li>
+                        <li><b>Diffraction:</b> Bending of light around the sharp corners of an obstacle or narrow aperture.</li>
+                        <li><b>Polarisation:</b> Restricting vibrations of light waves to a single plane (proves light is transverse). Brewster's Law: <span class="formula">tan θ_B = n</span>.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> In Young's Double Slit Experiment (YDSE), if λ = 600 nm, D = 1 m, and d = 1 mm, fringe width <span class="formula">β = λD/d = 6×10⁻⁷ × 1 / 10⁻³ = 0.6 mm</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Rainbow colours seen on soap bubbles or thin oil films on water are caused by interference, while colourful patterns on a CD/DVD come from diffraction. Polarised sunglasses block reflected glare from wet roads.
+                        <span class="hi-text"><b>हिंदी में:</b> साबुन के बुलबुले या पानी पर तेल की परत पर दिखने वाले इंद्रधनुषी रंग और CD/DVD पर रंगीन चमक व्यतिकरण/विवर्तन के कारण होते हैं। धूप के पोलराइज़्ड चश्मे सड़क की चकाचौंध (ध्रुवित प्रकाश) को रोकते हैं।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">☀️</span> Unit 7: Dual Nature of Radiation &amp; Matter</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Photoelectric Effect &amp; de Broglie Waves</span>
+                    <p class="topic-desc"><strong>Einstein's Equation:</strong> <span class="formula">K_max = h&nu; - &Phi;</span>. <br><strong>de Broglie Wavelength:</strong> Wave nature of moving particles <span class="formula">&lambda; = h/p = h/mv</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="10" y="35" width="80" height="10" fill="#90a4ae"/><circle cx="30" cy="10" r="4" fill="#ffca28"><animate attributeName="cy" values="10; 35" dur="1s" repeatCount="indefinite"/><animate attributeName="cx" values="30; 50" dur="1s" repeatCount="indefinite"/></circle><circle cx="50" cy="35" r="3" fill="#42a5f5"><animate attributeName="cy" values="35; 10" dur="1s" repeatCount="indefinite"/><animate attributeName="cx" values="50; 80" dur="1s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Photoelectric Effect:</b> Emission of electrons from a metal surface when light of suitable frequency falls on it.</li>
+                        <li><b>Threshold Frequency (ν₀):</b> Minimum frequency of incident light below which no photoelectric emission takes place.</li>
+                        <li><b>Work Function (Φ):</b> Minimum energy required by an electron to just escape from a metal surface, <span class="formula">Φ = hν₀</span>.</li>
+                        <li><b>Stopping Potential (V₀):</b> Minimum negative anode potential at which photoelectric current becomes zero, <span class="formula">eV₀ = K_max</span>.</li>
+                        <li><b>Photon:</b> Discrete packet (quantum) of light energy, <span class="formula">E = hν</span>.</li>
+                        <li><b>Matter Wave:</b> Wave associated with a moving material particle. For an electron accelerated through V volts, <span class="formula">λ = 12.27/√V Å</span>.</li>
+                    </ul>
+                    <div class="example"><b>💡 Example 1:</b> If a 5 eV photon hits a metal with work function Φ = 2 eV, <span class="formula">K_max = 5 − 2 = 3 eV</span> and stopping potential <span class="formula">V₀ = 3 V</span>.</div>
+                    <div class="example"><b>💡 Example 2:</b> Wavelength of an electron accelerated through 100 V is <span class="formula">λ = 12.27/√100 ≈ 1.23 Å</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Automatic doors in malls and lifts use light sensors: when a person interrupts the beam, current changes and the door opens. Solar panels generate electricity via the photoelectric effect, and electron microscopes use electron waves to view ultra-tiny objects.
+                        <span class="hi-text"><b>हिंदी में:</b> मॉल या लिफ्ट के स्वचालित दरवाज़े में प्रकाश-सेंसर होता है: प्रकाश कटने पर धारा बदलती है और दरवाज़ा खुलता है। सोलर पैनल प्रकाश-विद्युत प्रभाव से बिजली बनाते हैं और इलेक्ट्रॉन सूक्ष्मदर्शी में इलेक्ट्रॉन की तरंग प्रकृति से बहुत छोटी चीज़ें दिखती हैं।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">⚛️</span> Unit 8: Atoms and Nuclei</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Bohr's Model and Hydrogen Spectrum</span>
+                    <p class="topic-desc">Electrons revolve only in stable orbits where angular momentum is quantized: <span class="formula">mvr = nh/2&pi;</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><circle cx="50" cy="25" r="6" fill="#ef5350"/><ellipse cx="50" cy="25" rx="22" ry="8" fill="none" stroke="#999" transform="rotate(20 50 25)"/><ellipse cx="50" cy="25" rx="22" ry="8" fill="none" stroke="#999" transform="rotate(-40 50 25)"/><circle cx="72" cy="25" r="3" fill="#42a5f5"><animateTransform attributeName="transform" type="rotate" from="0 50 25" to="360 50 25" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Rutherford's Nuclear Model:</b> Entire positive charge and most of the mass of an atom are concentrated in a tiny central core called the nucleus, with electrons revolving around it.</li>
+                        <li><b>Bohr's First Postulate:</b> An electron revolves in certain stable orbits without radiating energy.</li>
+                        <li><b>Bohr's Third Postulate:</b> A photon is emitted or absorbed when an electron jumps between energy levels, <span class="formula">hν = E_i − E_f</span>.</li>
+                        <li><b>Energy of Hydrogen Electron:</b> <span class="formula">E_n = −13.6/n² eV</span>.</li>
+                        <li><b>Spectral Series:</b> Lyman (n→1, UV), Balmer (n→2, Visible), Paschen (n→3, IR).</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> During transition from n = 3 to n = 2, energy emitted is <span class="formula">ΔE = 13.6 (1/4 − 1/9) ≈ 1.89 eV</span> (first red line of Balmer series).</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> The orange-red glow of neon signs, yellow glow of sodium street lamps, and vibrant colours of fireworks happen when excited electrons jump back to lower orbits and emit specific photons. Astronomers identify elements in distant stars by studying their light spectrum.
+                        <span class="hi-text"><b>हिंदी में:</b> नियॉन साइन का लाल-नारंगी रंग, सोडियम लैंप (स्ट्रीट लाइट) की पीली रोशनी और आतिशबाज़ी के अलग-अलग रंग इलेक्ट्रॉनों के ऊँची कक्षा से नीचे गिरने पर निकले विशिष्ट फोटॉन के कारण होते हैं। वैज्ञानिक तारों का स्पेक्ट्रम देखकर उनके तत्व पहचानते हैं।</span>
+                    </div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Nuclei and Binding Energy</span>
+                <p class="topic-desc"><strong>Mass Defect:</strong> Mass of a nucleus is always less than the total mass of its free protons and neutrons. This missing mass converts into <strong>Binding Energy</strong> (<span class="formula">E = &Delta;mc&sup2;</span>) that holds the nucleus together.</p>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Mass Number (A) / Atomic Number (Z):</b> A = total protons + neutrons (nucleons), Z = number of protons.</li>
+                        <li><b>Isotopes:</b> Atoms having same Z but different A (e.g., ¹H, ²H). <b>Isobars:</b> Atoms having same A but different Z.</li>
+                        <li><b>Binding Energy:</b> Minimum energy required to separate a nucleus into its constituent nucleons. <b>1 u = 931.5 MeV</b>.</li>
+                        <li><b>Half-Life (T½):</b> Time taken for half of the radioactive nuclei in a sample to decay, <span class="formula">N = N₀ (½)^(t/T½)</span>.</li>
+                        <li><b>Nuclear Fission / Fusion:</b> Splitting of a heavy nucleus into lighter nuclei (nuclear reactors) / Combining of light nuclei into a heavier nucleus (energy source of the Sun).</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> Mass defect of ⁴He nucleus is 0.0304 u, so its Binding Energy is <span class="formula">BE = 0.0304 × 931.5 ≈ 28.3 MeV</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> Nuclear power plants generate electricity via controlled fission of uranium, where tiny mass converts into huge energy. The Sun shines due to nuclear fusion of hydrogen, and radioactive half-life is used in carbon dating to estimate the age of ancient fossils.
+                        <span class="hi-text"><b>हिंदी में:</b> परमाणु बिजलीघर में यूरेनियम के विखंडन से थोड़ा द्रव्यमान ऊर्जा में बदलकर बिजली बनती है। सूर्य हाइड्रोजन के संलयन से चमकता है। रेडियोसक्रियता की अर्ध-आयु से पुरातात्विक वस्तुओं की उम्र (कार्बन डेटिंग) निकाली जाती है।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">💻</span> Unit 9: Electronic Devices</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Semiconductors and p-n Junction Diode</span>
+                    <p class="topic-desc"><strong>p-n Junction:</strong> Conducts current easily in forward bias. A rectifier converts AC into DC.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polygon points="35,15 35,35 55,25" fill="#4caf50"/><line x1="55" y1="15" x2="55" y2="35" stroke="#333" stroke-width="3"/><line x1="10" y1="25" x2="35" y2="25" stroke="#333" stroke-width="2"/><line x1="55" y1="25" x2="90" y2="25" stroke="#333" stroke-width="2"/><circle cx="15" cy="25" r="3" fill="#fbc02d"><animate attributeName="cx" values="10;90" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 Important Definitions</div>
+                    <ul>
+                        <li><b>Semiconductor:</b> Material whose conductivity lies between conductors and insulators (e.g., Si, Ge). Its resistance decreases as temperature increases.</li>
+                        <li><b>n-type Semiconductor:</b> Obtained by doping pure Si/Ge with pentavalent impurity (e.g., Phosphorus); electrons are majority carriers.</li>
+                        <li><b>p-type Semiconductor:</b> Obtained by doping pure Si/Ge with trivalent impurity (e.g., Boron); holes are majority carriers.</li>
+                        <li><b>Depletion Region:</b> Space-charge region near the p-n junction devoid of free charge carriers. Barrier potential: Si ≈ 0.7 V, Ge ≈ 0.3 V.</li>
+                        <li><b>Forward / Reverse Bias:</b> Connecting p-side to positive and n-side to negative is forward bias (current flows); reversing polarity gives reverse bias (negligible current).</li>
+                        <li><b>Rectifier:</b> Device that converts AC into pulsating DC — Half-wave (1 diode) and Full-wave (2 or 4 diodes).</li>
+                    </ul>
+                    <div class="example"><b>💡 Example:</b> A silicon diode (forward biased) connected in series with a 1 kΩ resistor and a 5 V battery carries current <span class="formula">I = (5 − 0.7)/1000 = 4.3 mA</span>.</div>
+                    <div class="reallife">
+                        🌍 <b>Real-Life Example:</b> A diode acts like a one-way traffic valve, allowing current to flow in only one direction. Mobile chargers use rectifiers to convert AC into DC, while LED bulbs, TV screens, and remote indicators work on special p-n junctions (LEDs).
+                        <span class="hi-text"><b>हिंदी में:</b> डायोड एकतरफा वाल्व की तरह है: धारा सिर्फ एक दिशा में जाने देता है। मोबाइल चार्जर में दिष्टकारी AC को DC बनाता है और LED बल्ब, टीवी तथा रिमोट की रोशनी भी p-n संधि (LED) पर ही आधारित हैं।</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

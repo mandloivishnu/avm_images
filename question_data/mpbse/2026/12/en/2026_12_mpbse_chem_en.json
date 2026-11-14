@@ -1,0 +1,746 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "CHEMISTRY",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "16",
+    "timeAllowed": "3 Hours",
+    "board": "MP Board",
+    "examType": "Higher Secondary Main Examination",
+    "set": "A",
+    "paperCode": "265498",
+    "language": "English",
+    "instructions": [
+      "All questions are compulsory.",
+      "Question numbers 1 to 5 are objective-type questions carrying a total of 28 marks.",
+      "Question numbers 6 to 12 carry 2 marks each. (Word limit: 30 words)",
+      "Question numbers 13 to 16 carry 3 marks each. (Word limit: 75 words)",
+      "Question numbers 17 to 20 carry 4 marks each. (Word limit: 120 words)",
+      "Internal choices are provided in every question from question numbers 6 to 20."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The pressure of a solution that stops the flow of solvent is called –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Vapour pressure"
+            },
+            {
+              "index": "b",
+              "text": "Osmotic pressure"
+            },
+            {
+              "index": "c",
+              "text": "Partial pressure"
+            },
+            {
+              "index": "d",
+              "text": "Gas pressure"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Osmotic pressure",
+          "explanation": "The minimum excess pressure that must be applied to a solution to prevent the spontaneous passage of solvent molecules into it through a semipermeable membrane is called osmotic pressure."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How much charge is required for the reduction of 1 mole of Al³⁺ to Al?",
+          "options": [
+            {
+              "index": "a",
+              "text": "1F"
+            },
+            {
+              "index": "b",
+              "text": "2F"
+            },
+            {
+              "index": "c",
+              "text": "4F"
+            },
+            {
+              "index": "d",
+              "text": "3F"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "3F",
+          "explanation": "According to the reaction Al³⁺ + 3e⁻ ⟶ Al, reduction of 1 mole of Al³⁺ requires 3 moles of electrons, i.e., 3 Faraday (3F) of charge."
+        },
+        {
+          "q_id": "iii",
+          "statement": "In a chemical reaction, a 10°C rise in temperature increases the rate constant approximately by –",
+          "options": [
+            {
+              "index": "a",
+              "text": "No change"
+            },
+            {
+              "index": "b",
+              "text": "Three times"
+            },
+            {
+              "index": "c",
+              "text": "Two times (Doubles)"
+            },
+            {
+              "index": "d",
+              "text": "Ten times"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Two times (Doubles)",
+          "explanation": "According to the temperature coefficient rule, for every 10°C rise in temperature, the rate constant of a reaction is nearly doubled."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The total number of elements in the 'd'-block is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "39"
+            },
+            {
+              "index": "b",
+              "text": "40"
+            },
+            {
+              "index": "c",
+              "text": "38"
+            },
+            {
+              "index": "d",
+              "text": "36"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "40",
+          "explanation": "The d-block comprises 10 groups (Groups 3 to 12) across four transition series (3d, 4d, 5d, and 6d), with 10 elements in each series, totalling 40 elements."
+        },
+        {
+          "q_id": "v",
+          "statement": "Acetylation of salicylic acid yields –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Aspirin"
+            },
+            {
+              "index": "b",
+              "text": "DDT"
+            },
+            {
+              "index": "c",
+              "text": "Phenol"
+            },
+            {
+              "index": "d",
+              "text": "BHC"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Aspirin",
+          "explanation": "Acetylation of salicylic acid produces acetylsalicylic acid, commonly known as Aspirin."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Acid chlorides are hydrogenated over catalyst palladium on barium sulphate to yield aldehydes. The name of this reaction is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Stephen reaction"
+            },
+            {
+              "index": "b",
+              "text": "Carbylamine reaction"
+            },
+            {
+              "index": "c",
+              "text": "Hunsdiecker reaction"
+            },
+            {
+              "index": "d",
+              "text": "Rosenmund reduction"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Rosenmund reduction",
+          "explanation": "Reduction of an acyl chloride with H₂ in the presence of Pd/BaSO₄ catalyst to form an aldehyde is called Rosenmund reduction."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "All {BLANK} properties of a solution are related to the lowering of vapour pressure.",
+          "options": [],
+          "correct_answer": "Colligative",
+          "explanation": "Colligative\n\nReason: All colligative properties of a solution (osmotic pressure, elevation in boiling point, depression in freezing point) are related to the relative lowering of vapour pressure."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Compared to thermal plants whose efficiency is 40%, fuel cells produce electricity with an efficiency of about {BLANK} percent.",
+          "options": [],
+          "correct_answer": "70 (70%)",
+          "explanation": "70\n\nReason: Fuel cells convert chemical energy directly into electrical energy with an efficiency of about 70%."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Zn, Cd, and Hg are generally not regarded as {BLANK} elements.",
+          "options": [],
+          "correct_answer": "Transition",
+          "explanation": "Transition\n\nReason: Zn, Cd, and Hg have completely filled d-orbitals (d¹⁰) in their ground state as well as in their common oxidation states, so they are not regarded as transition elements."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Addition of bromine dissolved in CCl₄ to an alkene results in discharge of the reddish-brown colour of bromine. This constitutes an important method for the detection of {BLANK} in a molecule.",
+          "options": [],
+          "correct_answer": "Unsaturation (double bond)",
+          "explanation": "Unsaturation (double bond)\n\nReason: Disappearance of the reddish-brown colour of bromine indicates the presence of a carbon-carbon double bond or unsaturation in an organic molecule."
+        },
+        {
+          "q_id": "v",
+          "statement": "Amines have an unshared pair of electrons on the nitrogen atom, due to which they behave as {BLANK}.",
+          "options": [],
+          "correct_answer": "Lewis bases",
+          "explanation": "Lewis bases\n\nReason: Due to the presence of a lone pair of electrons on the nitrogen atom, amines act as electron-pair donors, i.e., Lewis bases."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Hydrolysis of proteins gives only {BLANK}.",
+          "options": [],
+          "correct_answer": "α-amino acids",
+          "explanation": "α-amino acids\n\nReason: All proteins are polymers of α-amino acids, so complete hydrolysis yields only α-amino acids."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Conductivity of a solution increases with dilution.",
+          "correct_answer": "false",
+          "explanation": "False\n\nReason: Conductivity (κ) always decreases with dilution because the number of ions per unit volume that carry the current decreases on dilution."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The magnetic moment of a divalent ion in aqueous solution if its atomic number is 25 will be 5.92 B.M.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: For Z = 25 (Mn), the divalent ion Mn²⁺ (3d⁵) has 5 unpaired electrons, so μ = √(5×7) = √35 ≈ 5.92 B.M."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Bromo, iodo, and polychloro derivatives of hydrocarbons are heavier than water.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: Due to higher molecular mass, their density is greater than that of water."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Alkenes undergo electrophilic addition reactions, whereas aldehydes and ketones undergo nucleophilic addition reactions.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: Due to the polarity of the carbonyl group (>C=O), the carbonyl carbon acquires a partial positive charge and undergoes nucleophilic attack."
+        },
+        {
+          "q_id": "v",
+          "statement": "Lower aliphatic amines are soluble in water, whereas higher amines are essentially insoluble in water.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: Lower amines form hydrogen bonds with water molecules, while in higher amines the bulky hydrophobic alkyl group hinders hydrogen bonding, making them insoluble."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The common sugar used in our homes is called glucose.",
+          "correct_answer": "false",
+          "explanation": "False\n\nReason: Common household table sugar is sucrose, not glucose."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×5=5",
+      "text": "Match the correct pairs:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column (A)",
+        "column_B_title": "Column (B)",
+        "pairs": [
+          {
+            "a_item": "(i) Glycogen",
+            "b_item": "Picric acid",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(ii) Sodium benzoate",
+            "b_item": "Secondary valency 6",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(iii) 2,4,6-Trinitrophenol",
+            "b_item": "Food preservative",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(iv) K₄[Fe(CN)₆]",
+            "b_item": "Half-order",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(v) Rate = K[A]^(3/2)[B]^(-1)",
+            "b_item": "Animal starch",
+            "correct_match_index": "4"
+          }
+        ]
+      },
+      "explanation": "The correct matching of Column (A) with Column (B) and their reasons are:\n\n(i) Glycogen ⟶ Animal starch\nReason: Carbohydrates are stored in the animal body as glycogen, hence it is known as animal starch.\n\n(ii) Sodium benzoate ⟶ Food preservative\nReason: Sodium benzoate is widely used as a food preservative.\n\n(iii) 2,4,6-Trinitrophenol ⟶ Picric acid\nReason: 2,4,6-Trinitrophenol is commonly known as picric acid.\n\n(iv) K₄[Fe(CN)₆] ⟶ Secondary valency 6\nReason: The central metal ion Fe²⁺ is coordinated to six CN⁻ ligands, so its coordination number (secondary valency) is 6.\n\n(v) Rate = K[A]^(3/2)[B]^(-1) ⟶ Half-order\nReason: Overall order of reaction = 3/2 + (-1) = 1/2 (half-order)."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Write the answer in one word / sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the chemical name of Vitamin B₂.",
+          "correct_answer": "Riboflavin",
+          "explanation": "Riboflavin"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Write the chemical formula of Iron(III) hexacyanidoferrate(II).",
+          "correct_answer": "Fe₄[Fe(CN)₆]₃",
+          "explanation": "Fe₄[Fe(CN)₆]₃ (Prussian blue)"
+        },
+        {
+          "q_id": "iii",
+          "statement": "Write the unit of rate constant for a second-order reaction.",
+          "correct_answer": "L mol⁻¹ s⁻¹ (mol⁻¹ L s⁻¹)",
+          "explanation": "L mol⁻¹ s⁻¹ or mol⁻¹ L s⁻¹\n\nReason: For a second-order reaction, unit of k = (mol L⁻¹)¹⁻² s⁻¹ = mol⁻¹ L s⁻¹."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Materials with zero resistivity or infinite conductivity are called –",
+          "correct_answer": "Superconductors",
+          "explanation": "Superconductors"
+        },
+        {
+          "q_id": "v",
+          "statement": "Write the numerical value of van't Hoff factor 'i' for complete dissociation of the electrolyte K₂SO₄.",
+          "correct_answer": "3",
+          "explanation": "3\n\nReason: K₂SO₄ ⟶ 2K⁺ + SO₄²⁻; on complete dissociation, 1 mole produces 3 moles of ions, so i = 3."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Suggest two materials other than hydrogen that can be used as fuels in fuel cells.",
+          "correct_answer": "",
+          "explanation": "Two materials other than hydrogen that can be used as fuels in fuel cells are:\n1. Methanol (CH₃OH)\n2. Methane (CH₄) or Carbon monoxide (CO)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define specific conductivity and molar conductivity of an electrolytic solution.",
+            "correct_answer": "",
+            "explanation": "1. Specific Conductivity (κ): The conductance of 1 cubic centimetre (1 cm³) volume of an electrolytic solution is called its specific conductivity. It is the reciprocal of resistivity.\n2. Molar Conductivity (Λ_m): The conducting power of all the ions produced by dissolving 1 mole of an electrolyte in solution placed between two electrodes 1 cm apart is called molar conductivity (Λ_m = κ × 1000 / M)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the structure and hybridisation of chromate ion.",
+          "correct_answer": "",
+          "explanation": "Chromate ion (CrO₄²⁻):\n1. Structure: Tetrahedral, in which the central Cr atom is bonded to four oxygen atoms.\n2. Hybridisation: sp³ (or d³s) hybridisation."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the structure and hybridisation of manganate ion.",
+            "correct_answer": "",
+            "explanation": "Manganate ion (MnO₄²⁻):\n1. Structure: Tetrahedral; it is a green paramagnetic ion.\n2. Hybridisation: sp³ (or d³s) hybridisation."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the number and general electronic configuration of inner-transition elements (f-block).",
+          "correct_answer": "",
+          "explanation": "1. Total number: There are 28 inner-transition (f-block) elements in total (14 lanthanoids + 14 actinoids).\n2. General electronic configuration: (n–2)f¹⁻¹⁴ (n–1)d⁰⁻¹ ns²"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the number of 3d electrons in each of the following ions:\n(i) Cr³⁺\n(ii) Fe³⁺",
+            "correct_answer": "",
+            "explanation": "(i) Cr³⁺ (Z = 24): Electronic configuration of Cr is [Ar] 3d⁵ 4s¹. On losing 3 electrons, Cr³⁺ has configuration [Ar] 3d³. Hence, number of 3d electrons = 3.\n(ii) Fe³⁺ (Z = 26): Electronic configuration of Fe is [Ar] 3d⁶ 4s². On losing 3 electrons, Fe³⁺ has configuration [Ar] 3d⁵. Hence, number of 3d electrons = 5."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "[NiCl₄]²⁻ is paramagnetic while [Ni(CO)₄] is diamagnetic though both are tetrahedral. Why?",
+          "correct_answer": "",
+          "explanation": "In [NiCl₄]²⁻, Ni²⁺ (3d⁸) is coordinated to weak-field Cl⁻ ligands which do not cause pairing of electrons; hence, due to 2 unpaired electrons, it is paramagnetic.\nIn contrast, in [Ni(CO)₄], Ni⁰ (3d⁸ 4s²) is coordinated to strong-field CO ligands which force pairing of all electrons (3d¹⁰); having no unpaired electrons, it is diamagnetic."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Tetrahedral complexes with two different types of unidentate ligands coordinated with the central metal ion do not show geometrical isomerism. Why?",
+            "correct_answer": "",
+            "explanation": "In tetrahedral complexes, the relative positions of all four unidentate ligands attached to the central metal atom are identical with respect to each other (equidistant at 109°28'). Interchanging ligand positions produces the exact same spatial arrangement, so geometrical isomerism is not possible."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write any two major differences between Cannizzaro reaction and Aldol condensation.",
+          "correct_answer": "",
+          "explanation": "1. Requirement of α-hydrogen: Aldol condensation is given by aldehydes/ketones having at least one α-hydrogen atom, whereas Cannizzaro reaction is given only by aldehydes lacking α-hydrogen atoms (e.g., HCHO, C₆H₅CHO).\n2. Reagent and products: Aldol condensation occurs in the presence of dilute alkali to form β-hydroxy aldehydes/ketones, whereas Cannizzaro reaction occurs in concentrated alkali (50% NaOH) via disproportionation to yield an alcohol and a carboxylic acid salt."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What happens when methyl magnesium bromide reacts with dry ice in the presence of dry ether followed by hydrolysis? Write only the chemical equation.",
+            "correct_answer": "",
+            "explanation": "Methyl magnesium bromide reacts with dry ice (solid CO₂) followed by acidic hydrolysis to yield acetic acid (ethanoic acid):\n\nCH₃MgBr + O=C=O ⟶(Dry ether) CH₃COOMgBr ⟶(H₂O / H⁺) CH₃COOH + Mg(OH)Br"
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the structures and IUPAC names of any two isomers obtained from the molecular formula C₄H₁₁N.",
+          "correct_answer": "",
+          "explanation": "Two isomers of molecular formula C₄H₁₁N:\n1. Structure: CH₃–CH₂–CH₂–CH₂–NH₂\nIUPAC Name: Butan-1-amine\n\n2. Structure: CH₃–CH₂–NH–CH₂–CH₃\nIUPAC Name: N-Ethylethanamine"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write chemical equations for the following conversions:\n(i) CH₃–CH₂–Cl into CH₃–CH₂–CH₂–NH₂\n(ii) C₆H₅–CH₂–Cl into C₆H₅–CH₂–CH₂–NH₂",
+            "correct_answer": "",
+            "explanation": "(i) CH₃–CH₂–Cl + KCN (alc.) ⟶ CH₃–CH₂–CN ⟶(Na / C₂H₅OH or LiAlH₄) CH₃–CH₂–CH₂–NH₂\n\n(ii) C₆H₅–CH₂–Cl + KCN (alc.) ⟶ C₆H₅–CH₂–CN ⟶(Na / C₂H₅OH or LiAlH₄) C₆H₅–CH₂–CH₂–NH₂"
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How will you carry out the following conversions?\n(i) Benzene into Aniline\n(ii) Ethanamide into Ethanamine",
+          "correct_answer": "",
+          "explanation": "(i) Benzene into Aniline:\nC₆H₆ ⟶(Conc. HNO₃ + Conc. H₂SO₄) C₆H₅NO₂ ⟶(Fe + HCl or Sn + HCl) C₆H₅NH₂\n\n(ii) Ethanamide into Ethanamine:\nCH₃CONH₂ ⟶(1. LiAlH₄ / ether, 2. H₂O) CH₃CH₂NH₂"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the Sandmeyer reaction along with its chemical equation.",
+            "correct_answer": "",
+            "explanation": "Sandmeyer Reaction: When a cold aqueous solution of benzenediazonium chloride is treated with cuprous halide dissolved in corresponding halogen acid (Cu₂Cl₂/HCl or Cu₂Br₂/HBr), chlorobenzene or bromobenzene is formed.\nEquation: C₆H₅N₂⁺Cl⁻ ⟶(Cu₂Cl₂ / HCl) C₆H₅Cl + N₂↑"
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The standard electrode potential for Daniell cell is 1.1 V. Calculate the standard Gibbs energy for the reaction:\nZn(s) + Cu²⁺(aq) ⟶ Zn²⁺(aq) + Cu(s)",
+          "correct_answer": "",
+          "explanation": "Solution:\n\n1. Given:\nStandard cell potential (E°_cell) = 1.1 V\nNumber of electrons transferred (n) = 2\nFaraday constant (F) = 96487 C mol⁻¹ (or 96500 C mol⁻¹)\n\n2. Formula:\nΔ_r G° = -nFE°_cell\n\n3. Calculation:\nΔ_r G° = -2 × 96487 C mol⁻¹ × 1.1 V\nΔ_r G° = -212271.4 J mol⁻¹ = -212.27 kJ mol⁻¹ (or -212.3 kJ mol⁻¹)\n\nThe standard Gibbs energy of the reaction is -212.27 kJ mol⁻¹."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "(i) Name three metals that are extracted electrolytically.\n(ii) Write any three applications of mercury cell.",
+            "correct_answer": "",
+            "explanation": "(i) Three metals extracted electrolytically:\n1. Aluminium (Al)\n2. Sodium (Na)\n3. Magnesium (Mg)\n\n(ii) Three applications of mercury cell:\n1. In hearing aids.\n2. In wrist watches.\n3. In cameras and other low-current micro-electronic devices."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "List three types of structural isomerism possible for coordination compounds and give one example of each.",
+          "correct_answer": "",
+          "explanation": "Three major types of structural isomerism in coordination compounds:\n\n1. Ionisation Isomerism: Arises due to the exchange of ions between the coordination sphere and the ionisation sphere.\nExample: [Co(NH₃)₅SO₄]Br and [Co(NH₃)₅Br]SO₄\n\n2. Linkage Isomerism: Arises in coordination compounds containing ambidentate ligands that can coordinate through different donor atoms.\nExample: [Co(NH₃)₅(NO₂)]Cl₂ and [Co(NH₃)₅(ONO)]Cl₂\n\n3. Coordination Isomerism: Arises from the interchange of ligands between cationic and anionic entities of different metal ions present in a complex.\nExample: [Co(NH₃)₆][Cr(CN)₆] and [Cr(NH₃)₆][Co(CN)₆]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Using IUPAC norms, write the formulas for the following:\n(i) Potassium tetrahydroxidozincate(II)\n(ii) Pentaamminenitrito-O-cobalt(III) chloride\n(iii) Potassium trioxalatochromate(III)",
+            "correct_answer": "",
+            "explanation": "(i) Potassium tetrahydroxidozincate(II): K₂[Zn(OH)₄]\n(ii) Pentaamminenitrito-O-cobalt(III) chloride: [Co(NH₃)₅(ONO)]Cl₂\n(iii) Potassium trioxalatochromate(III): K₃[Cr(C₂O₄)₃]"
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How can the following compounds be converted into benzoic acid? Write chemical equations.\n(i) Acetophenone\n(ii) Bromobenzene\n(iii) Styrene",
+          "correct_answer": "",
+          "explanation": "(i) Acetophenone to Benzoic acid:\nC₆H₅COCH₃ ⟶(1. Alkaline KMnO₄ / KOH, Δ; 2. H₃O⁺) C₆H₅COOH\n\n(ii) Bromobenzene to Benzoic acid:\nC₆H₅Br + Mg ⟶(Dry ether) C₆H₅MgBr ⟶(1. CO₂; 2. H₃O⁺) C₆H₅COOH\n\n(iii) Styrene to Benzoic acid:\nC₆H₅CH=CH₂ ⟶(1. Alkaline KMnO₄ / KOH, Δ; 2. H₃O⁺) C₆H₅COOH"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Give reasons:\n(i) Boiling points of aldehydes and ketones are higher than those of hydrocarbons and ethers of comparable molecular masses.\n(ii) Boiling points of aldehydes and ketones are lower than those of alcohols of comparable molecular masses.\n(iii) Aldehydes are more reactive than ketones.",
+            "correct_answer": "",
+            "explanation": "(i) Aldehydes and ketones have strong dipole-dipole interactions due to the polar carbonyl (>C=O) group, which are stronger than weak van der Waals forces in hydrocarbons and dipole interactions in ethers. Hence, their boiling points are higher.\n\n(ii) Alcohols possess strong intermolecular hydrogen bonding between their molecules, whereas aldehydes and ketones lack intermolecular hydrogen bonding. Therefore, their boiling points are lower than those of alcohols.\n\n(iii) In ketones, two bulky alkyl groups attached to the carbonyl carbon exert a +I effect (reducing electrophilicity of carbonyl carbon) and cause steric hindrance, whereas aldehydes have only one alkyl group. Hence, aldehydes are more reactive towards nucleophilic addition."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define the following terms as related to proteins:\n(i) Peptide linkage\n(ii) Primary structure\n(iii) Denaturation",
+          "correct_answer": "",
+          "explanation": "(i) Peptide linkage: An amide bond (–CO–NH–) formed between the –COOH group of one α-amino acid molecule and the –NH₂ group of another α-amino acid molecule with the elimination of a water molecule is called a peptide linkage.\n\n(ii) Primary structure: The specific, definite sequence in which α-amino acids are linked together in a polypeptide chain of a protein is called its primary structure.\n\n(iii) Denaturation: When a protein in its native form is subjected to physical changes like temperature or chemical changes like pH, hydrogen bonds are disturbed, causing loss of secondary and tertiary structures and biological activity. This process is called denaturation of proteins."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What happens when D-glucose is treated with the following reagents?\n(i) HI (Hydrogen iodide)\n(ii) Bromine water\n(iii) HNO₃ (Nitric acid)",
+            "correct_answer": "",
+            "explanation": "(i) On prolonged heating with HI: D-glucose is completely reduced to form n-hexane.\nC₆H₁₂O₆ + HI ⟶(Δ) CH₃–(CH₂)₄–CH₃ (n-hexane)\n\n(ii) With Bromine water: Oxidised to a six-carbon carboxylic acid, gluconic acid.\nC₆H₁₂O₆ + [O] ⟶(Br₂ water) HOOC–(CHOH)₄–CH₂OH (Gluconic acid)\n\n(iii) With Nitric acid (HNO₃): Strong oxidation yields a dicarboxylic acid, saccharic acid.\nC₆H₁₂O₆ ⟶(HNO₃) HOOC–(CHOH)₄–COOH (Saccharic acid)"
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(i) Calculate the mole fraction of ethylene glycol (C₂H₆O₂) in a solution containing 20% of C₂H₆O₂ by mass.\n(ii) Calculate the molality of 2.5 g of ethanoic acid (CH₃COOH) in 75 g of benzene.",
+          "correct_answer": "",
+          "explanation": "Solution:\n\n(i) Calculation of mole fraction of ethylene glycol:\nAssume total mass of solution = 100 g\nMass of C₂H₆O₂ = 20 g, Mass of water (H₂O) = 80 g\nMolar mass of C₂H₆O₂ = 24 + 6 + 32 = 62 g mol⁻¹\nMolar mass of H₂O = 18 g mol⁻¹\n\nMoles of C₂H₆O₂ (n₁) = 20 / 62 = 0.322 mol\nMoles of H₂O (n₂) = 80 / 18 = 4.444 mol\nMole fraction of C₂H₆O₂ (x₁) = 0.322 / (0.322 + 4.444) = 0.322 / 4.766 = 0.068\n\n(ii) Calculation of molality:\nMass of CH₃COOH (w₂) = 2.5 g\nMolar mass of CH₃COOH (M₂) = 24 + 4 + 32 = 60 g mol⁻¹\nMass of benzene (solvent, w₁) = 75 g\n\nMolality (m) = (w₂ × 1000) / (M₂ × w₁)\nm = (2.5 × 1000) / (60 × 75) = 2500 / 4500 = 0.556 mol kg⁻¹"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "(i) Write any two major applications of Henry's law.\n(ii) What role does molecular interaction play in a solution of alcohol and water?",
+            "correct_answer": "",
+            "explanation": "(i) Two applications of Henry's law:\n1. To increase the solubility of CO₂ in soft drinks and soda water, the bottle is sealed under high pressure.\n2. Scuba divers use air diluted with helium for breathing underwater to avoid a painful and dangerous medical condition known as 'bends'.\n\n(ii) Role of molecular interaction in a solution of alcohol and water:\nBoth pure alcohol and pure water molecules are held together by strong intermolecular hydrogen bonding. On mixing the two, the new hydrogen bonds formed between alcohol and water molecules are weaker than those in the pure components. This increases the escaping tendency of molecules, thereby increasing the vapour pressure of the solution and showing positive deviation from Raoult's law."
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(i) The rate constant for a first-order reaction is found to be 5.5 × 10⁻¹⁴ s⁻¹. Find the half-life of the reaction.\n(ii) Write any two major effects of a catalyst.",
+          "correct_answer": "",
+          "explanation": "(i) Calculation of half-life (t₁/₂):\nGiven: K = 5.5 × 10⁻¹⁴ s⁻¹\nFormula: t₁/₂ = 0.693 / K\nt₁/₂ = 0.693 / (5.5 × 10⁻¹⁴)\nt₁/₂ = 0.126 × 10¹⁴ = 1.26 × 10¹³ seconds.\n\n(ii) Two major effects of a catalyst:\n1. A catalyst provides an alternate reaction pathway with a lower activation energy (E_a), thereby increasing the rate of reaction.\n2. A catalyst does not alter the Gibbs energy (ΔG) or the equilibrium constant of a reaction; it merely helps attain equilibrium faster."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "(i) The decomposition of gaseous ammonia on a hot platinum surface at high pressure is a zero-order reaction. Explain.\n(ii) In a first-order reaction, show mathematically that the time required for 99.9% completion is 10 times the half-life (t₁/₂) of the reaction.",
+            "correct_answer": "",
+            "explanation": "(i) At high pressure, the entire metal surface of the hot platinum (Pt) catalyst gets completely saturated with gaseous ammonia molecules. Further increase in pressure cannot alter the concentration of adsorbed ammonia molecules on the catalyst surface; hence, the rate of reaction becomes independent of ammonia concentration (zero-order reaction).\n\n(ii) Mathematical proof:\nFor a first-order reaction: t = (2.303 / k) log([R]₀ / [R])\nLet initial concentration [R]₀ = 100\nAt 99.9% completion, remaining concentration [R] = 100 - 99.9 = 0.1\nt₉₉.₉% = (2.303 / k) log(100 / 0.1) = (2.303 / k) log(10³) = (2.303 × 3) / k = 6.909 / k  ...(1)\n\nFor half-life (t₁/₂):\nt₁/₂ = 0.693 / k  ...(2)\n\nDividing equation (1) by equation (2):\nt₉₉.₉% / t₁/₂ = (6.909 / k) / (0.693 / k) ≈ 10\nTherefore, t₉₉.₉% = 10 × t₁/₂ (Proved)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the structure of the major organic product in each of the following reactions:\n(i) CH₃–CH₂–CH₂–Cl + NaI ⟶(Acetone / Heat)\n(ii) (CH₃)₃C–Br + KOH ⟶(Ethanol / Heat)\n(iii) CH₃–CH₂–CH=CH₂ + HBr ⟶(Peroxide)\n(iv) CH₃–CH=C(CH₃)₂ + HBr ⟶",
+          "correct_answer": "",
+          "explanation": "(i) Major product via Finkelstein reaction:\nCH₃–CH₂–CH₂–I (1-Iodopropane)\n\n(ii) Major product via dehydrohalogenation (β-elimination):\n(CH₃)₂C=CH₂ (2-Methylpropene)\n\n(iii) Major product via Anti-Markovnikov addition (Kharasch effect):\nCH₃–CH₂–CH₂–CH₂–Br (1-Bromobutane)\n\n(iv) Major product via Markovnikov's rule:\nCH₃–CH₂–C(Br)(CH₃)₂ (2-Bromo-2-methylbutane)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Primary alkyl halide C₄H₉Br 'a' reacted with alcoholic KOH to give compound 'b'. Compound 'b' is reacted with HBr to give 'c' which is an isomer of 'a'. When 'a' is reacted with sodium metal, it gives compound 'd', which is different from the compound formed when n-butyl bromide is reacted with sodium. Give the structural formula of 'a' and write the equations for all the reactions.",
+            "correct_answer": "",
+            "explanation": "Structural formula of compound 'a': Isobutyl bromide [(CH₃)₂CH–CH₂–Br] (1-Bromo-2-methylpropane)\n\nChemical equations for all reactions:\n1. Reaction with alcoholic KOH:\n(CH₃)₂CH–CH₂–Br + KOH (alc.) ⟶ (CH₃)₂C=CH₂ [Compound 'b', 2-methylpropene] + KBr + H₂O\n\n2. Reaction of 'b' with HBr (Markovnikov's rule):\n(CH₃)₂C=CH₂ + HBr ⟶ (CH₃)₃C–Br [Compound 'c', tert-butyl bromide, an isomer of 'a']\n\n3. Wurtz reaction of 'a' with sodium metal:\n2(CH₃)₂CH–CH₂–Br + 2Na ⟶(Dry ether) (CH₃)₂CH–CH₂–CH₂–CH(CH₃)₂ [Compound 'd', 2,5-dimethylhexane] + 2NaBr\n(This is different from n-octane formed by reacting n-butyl bromide with sodium.)"
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the structures and IUPAC names of the expected products of the following reactions:\n(a) Catalytic reduction of butanal.\n(b) Hydration of propene in the presence of dilute sulphuric acid.\n(c) Reaction of propanone with methylmagnesium bromide followed by hydrolysis.\n(d) Reaction of chlorobenzene with sodium hydroxide followed by acidification with hydrochloric acid.",
+          "correct_answer": "",
+          "explanation": "(a) Catalytic reduction of butanal:\nCH₃–CH₂–CH₂–CHO + H₂ ⟶(Ni / Pd) CH₃–CH₂–CH₂–CH₂–OH\nIUPAC Name: Butan-1-ol\n\n(b) Hydration of propene in presence of dilute H₂SO₄:\nCH₃–CH=CH₂ + H₂O ⟶(H⁺) CH₃–CH(OH)–CH₃\nIUPAC Name: Propan-2-ol\n\n(c) Reaction of propanone with CH₃MgBr followed by hydrolysis:\nCH₃–CO–CH₃ + CH₃MgBr ⟶ (CH₃)₃C–OMgBr ⟶(H₂O/H⁺) (CH₃)₃C–OH\nIUPAC Name: 2-Methylpropan-2-ol\n\n(d) Reaction of chlorobenzene with NaOH (623 K, 300 atm) followed by acidification:\nC₆H₅Cl + NaOH ⟶ C₆H₅ONa ⟶(HCl) C₆H₅OH\nIUPAC Name: Phenol"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What happens when:\n(i) Methoxyethane reacts with concentrated HI.\n(ii) Phenol is heated with zinc dust.\n(iii) Ethanol is oxidised with acidified potassium permanganate.\n(iv) Anisole is heated with a mixture of concentrated sulphuric acid and concentrated nitric acid.",
+            "correct_answer": "",
+            "explanation": "(i) Methoxyethane reacts with concentrated HI to form iodomethane and ethanol:\nCH₃–O–C₂H₅ + HI (conc.) ⟶ CH₃I + C₂H₅OH\n\n(ii) Phenol on heating with zinc dust reduces to benzene:\nC₆H₅OH + Zn ⟶(Δ) C₆H₆ + ZnO\n\n(iii) Ethanol on oxidation with acidified KMnO₄ yields ethanoic acid (acetic acid):\nCH₃CH₂OH + 2[O] ⟶(Acidified KMnO₄) CH₃COOH + H₂O\n\n(iv) Nitration of anisole with conc. H₂SO₄ and conc. HNO₃ gives a mixture of ortho-nitroanisole (minor) and para-nitroanisole (major):\nC₆H₅OCH₃ + HNO₃ ⟶(Conc. H₂SO₄) o-O₂N–C₆H₄–OCH₃ + p-O₂N–C₆H₄–OCH₃ + H₂O"
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    }
+  ]
+}

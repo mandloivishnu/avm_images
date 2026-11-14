@@ -1,0 +1,1269 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Physics - 50 Important Multiple Choice Questions Collection",
+    "totalMarks": "50",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "subjectName": "Physics (Full Syllabus - Quick Test)",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1*50=50",
+      "text": "Choose the correct option and write :",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "What is the SI unit of electric current?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Volt"
+            },
+            {
+              "index": "B",
+              "text": "Ampere"
+            },
+            {
+              "index": "C",
+              "text": "Ohm"
+            },
+            {
+              "index": "D",
+              "text": "Watt"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Ampere",
+          "explanation": "Electric current is the charge flowing per unit time (I = Q/t), whose SI unit is Coulomb per second, i.e., Ampere (A)."
+        },
+        {
+          "q_id": "2",
+          "statement": "What is the mathematical form of Ohm's law?",
+          "options": [
+            {
+              "index": "A",
+              "text": "V = I / R"
+            },
+            {
+              "index": "B",
+              "text": "V = IR"
+            },
+            {
+              "index": "C",
+              "text": "V = I²R"
+            },
+            {
+              "index": "D",
+              "text": "I = VR"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "V = IR",
+          "explanation": "At constant temperature and constant physical conditions, the potential difference across the ends of a conductor is directly proportional to the current flowing through it (V = IR)."
+        },
+        {
+          "q_id": "3",
+          "statement": "What is the SI unit of electrical resistance?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Ohm"
+            },
+            {
+              "index": "B",
+              "text": "Ohm-meter"
+            },
+            {
+              "index": "C",
+              "text": "Ampere"
+            },
+            {
+              "index": "D",
+              "text": "Farad"
+            }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Ohm",
+          "explanation": "Resistance is R = V / I and its SI unit is Volt/Ampere, which is called Ohm (Ω)."
+        },
+        {
+          "q_id": "4",
+          "statement": "What is the SI unit of specific resistance (resistivity)?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Ohm"
+            },
+            {
+              "index": "B",
+              "text": "Ohm/meter"
+            },
+            {
+              "index": "C",
+              "text": "Ohm-meter"
+            },
+            {
+              "index": "D",
+              "text": "Mho"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Ohm-meter",
+          "explanation": "The formula for specific resistance is ρ = RA / l, so its SI unit is (Ω × m²)/m = Ohm-meter (Ω·m)."
+        },
+        {
+          "q_id": "5",
+          "statement": "Kirchhoff's junction rule is based on the conservation of which quantity?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Conservation of energy"
+            },
+            {
+              "index": "B",
+              "text": "Conservation of charge"
+            },
+            {
+              "index": "C",
+              "text": "Conservation of momentum"
+            },
+            {
+              "index": "D",
+              "text": "Conservation of mass"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Conservation of charge",
+          "explanation": "The sum of all currents entering a junction equals the sum of all currents leaving the junction (Σ I = 0), which shows conservation of charge."
+        },
+        {
+          "q_id": "6",
+          "statement": "Kirchhoff's Loop Rule is based on which conservation principle?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Conservation of energy"
+            },
+            {
+              "index": "B",
+              "text": "Conservation of charge"
+            },
+            {
+              "index": "C",
+              "text": "Conservation of momentum"
+            },
+            {
+              "index": "D",
+              "text": "Conservation of angular momentum"
+            }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Conservation of energy",
+          "explanation": "According to the loop rule, the algebraic sum of all potential differences and electromotive forces in a closed circuit is zero (Σ V = 0), which is based on conservation of energy."
+        },
+        {
+          "q_id": "7",
+          "statement": "What is the SI unit of magnetic dipole moment (M)?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Ampere/meter"
+            },
+            {
+              "index": "B",
+              "text": "Ampere-meter²"
+            },
+            {
+              "index": "C",
+              "text": "Tesla"
+            },
+            {
+              "index": "D",
+              "text": "Weber"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Ampere-meter²",
+          "explanation": "Magnetic dipole moment is M = m × 2l, whose SI unit is A·m² (Ampere-meter²)."
+        },
+        {
+          "q_id": "8",
+          "statement": "What type of magnetic materials are copper, bismuth, and water?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Ferromagnetic"
+            },
+            {
+              "index": "B",
+              "text": "Paramagnetic"
+            },
+            {
+              "index": "C",
+              "text": "Diamagnetic"
+            },
+            {
+              "index": "D",
+              "text": "Ferrimagnetic"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Diamagnetic",
+          "explanation": "Bismuth, copper, silver, and water are weakly repelled when placed in a magnetic field, hence they are diamagnetic materials."
+        },
+        {
+          "q_id": "9",
+          "statement": "Aluminium and platinum belong to which class of magnetic materials?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Diamagnetic"
+            },
+            {
+              "index": "B",
+              "text": "Paramagnetic"
+            },
+            {
+              "index": "C",
+              "text": "Ferromagnetic"
+            },
+            {
+              "index": "D",
+              "text": "Non-magnetic"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Paramagnetic",
+          "explanation": "Materials that are weakly attracted towards an external magnetic field are called paramagnetic, such as aluminium and platinum."
+        },
+        {
+          "q_id": "10",
+          "statement": "Which of the following is the correct example of ferromagnetic materials?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Bismuth"
+            },
+            {
+              "index": "B",
+              "text": "Water"
+            },
+            {
+              "index": "C",
+              "text": "Iron, Cobalt, and Nickel"
+            },
+            {
+              "index": "D",
+              "text": "Oxygen"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Iron, Cobalt, and Nickel",
+          "explanation": "Iron, cobalt, and nickel are very strongly attracted in the direction of a magnetic field."
+        },
+        {
+          "q_id": "11",
+          "statement": "What is the direction of magnetic field lines outside a magnet?",
+          "options": [
+            {
+              "index": "A",
+              "text": "South pole to North pole"
+            },
+            {
+              "index": "B",
+              "text": "North pole to South pole"
+            },
+            {
+              "index": "C",
+              "text": "From center outwards"
+            },
+            {
+              "index": "D",
+              "text": "No fixed direction"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "North pole to South pole",
+          "explanation": "Magnetic field lines travel from North pole to South pole outside the magnet and from South pole to North pole inside the magnet."
+        },
+        {
+          "q_id": "12",
+          "statement": "What is the instantaneous equation of alternating current?",
+          "options": [
+            {
+              "index": "A",
+              "text": "I = I₀ cos ωt"
+            },
+            {
+              "index": "B",
+              "text": "I = I₀ sin ωt"
+            },
+            {
+              "index": "C",
+              "text": "I = I₀ tan ωt"
+            },
+            {
+              "index": "D",
+              "text": "I = I₀ e^(ωt)"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "I = I₀ sin ωt",
+          "explanation": "The standard sinusoidal form of alternating current is expressed by I = I₀ sin ωt."
+        },
+        {
+          "q_id": "13",
+          "statement": "What is the value of power factor in an AC circuit equal to?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Z / R"
+            },
+            {
+              "index": "B",
+              "text": "R / Z"
+            },
+            {
+              "index": "C",
+              "text": "R × Z"
+            },
+            {
+              "index": "D",
+              "text": "1 / (RZ)"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "R / Z",
+          "explanation": "Power factor is the cosine of the phase difference angle ϕ between voltage and current, whose value is cos ϕ = R / Z."
+        },
+        {
+          "q_id": "14",
+          "statement": "Which relation is true in a series LCR circuit at resonance?",
+          "options": [
+            {
+              "index": "A",
+              "text": "X_L > X_C"
+            },
+            {
+              "index": "B",
+              "text": "X_L < X_C"
+            },
+            {
+              "index": "C",
+              "text": "X_L = X_C"
+            },
+            {
+              "index": "D",
+              "text": "X_L = 0"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "X_L = X_C",
+          "explanation": "At resonance, inductive reactance and capacitive reactance become equal to each other (X_L = X_C)."
+        },
+        {
+          "q_id": "15",
+          "statement": "What is the formula for resonant frequency (f₀) of an LCR circuit?",
+          "options": [
+            {
+              "index": "A",
+              "text": "f₀ = 2π√(LC)"
+            },
+            {
+              "index": "B",
+              "text": "f₀ = 1 / (2π√(LC))"
+            },
+            {
+              "index": "C",
+              "text": "f₀ = √(LC) / 2π"
+            },
+            {
+              "index": "D",
+              "text": "f₀ = 1 / (4π²LC)"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "f₀ = 1 / (2π√(LC))",
+          "explanation": "Putting X_L = X_C gives ωL = 1/(ωC), from which f₀ = 1 / (2π√(LC)) is obtained."
+        },
+        {
+          "q_id": "16",
+          "statement": "On which physical principle does a transformer work?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Self-induction"
+            },
+            {
+              "index": "B",
+              "text": "Mutual induction"
+            },
+            {
+              "index": "C",
+              "text": "Joule's heating law"
+            },
+            {
+              "index": "D",
+              "text": "Photoelectric effect"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Mutual induction",
+          "explanation": "A transformer changes alternating voltage on the principle of Mutual Induction."
+        },
+        {
+          "q_id": "17",
+          "statement": "What is the transformation ratio of a transformer equal to?",
+          "options": [
+            {
+              "index": "A",
+              "text": "V_p / V_s = N_s / N_p"
+            },
+            {
+              "index": "B",
+              "text": "V_s / V_p = N_s / N_p"
+            },
+            {
+              "index": "C",
+              "text": "V_s / V_p = N_p / N_s"
+            },
+            {
+              "index": "D",
+              "text": "V_s × V_p = N_s × N_p"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "V_s / V_p = N_s / N_p",
+          "explanation": "The ratio of voltages in secondary and primary coils is equal to the ratio of their number of turns."
+        },
+        {
+          "q_id": "18",
+          "statement": "What is the angle between electric field (E) and magnetic field (B) in electromagnetic waves?",
+          "options": [
+            {
+              "index": "A",
+              "text": "0°"
+            },
+            {
+              "index": "B",
+              "text": "45°"
+            },
+            {
+              "index": "C",
+              "text": "90°"
+            },
+            {
+              "index": "D",
+              "text": "180°"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "90°",
+          "explanation": "In electromagnetic waves, electric field and magnetic field oscillate perpendicular (90°) to each other."
+        },
+        {
+          "q_id": "19",
+          "statement": "What is the speed of electromagnetic waves in vacuum?",
+          "options": [
+            {
+              "index": "A",
+              "text": "3 × 10⁶ m/s"
+            },
+            {
+              "index": "B",
+              "text": "3 × 10⁸ m/s"
+            },
+            {
+              "index": "C",
+              "text": "3 × 10¹⁰ m/s"
+            },
+            {
+              "index": "D",
+              "text": "330 m/s"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "3 × 10⁸ m/s",
+          "explanation": "All electromagnetic waves propagate in vacuum with the speed of light c = 3 × 10⁸ m/s."
+        },
+        {
+          "q_id": "20",
+          "statement": "What is the formula for speed of light (c) in vacuum in terms of magnetic permeability (μ₀) and electric permittivity (ε₀)?",
+          "options": [
+            {
+              "index": "A",
+              "text": "c = √(μ₀ ε₀)"
+            },
+            {
+              "index": "B",
+              "text": "c = 1 / √(μ₀ ε₀)"
+            },
+            {
+              "index": "C",
+              "text": "c = μ₀ / ε₀"
+            },
+            {
+              "index": "D",
+              "text": "c = 1 / (μ₀ ε₀)"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "c = 1 / √(μ₀ ε₀)",
+          "explanation": "According to Maxwell's equations, the speed of electromagnetic waves in vacuum is c = 1 / √(μ₀ ε₀)."
+        },
+        {
+          "q_id": "21",
+          "statement": "Which radiation is used to identify fake currency notes and forged documents?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Radio waves"
+            },
+            {
+              "index": "B",
+              "text": "Infrared waves"
+            },
+            {
+              "index": "C",
+              "text": "Ultraviolet rays"
+            },
+            {
+              "index": "D",
+              "text": "Microwaves"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Ultraviolet rays",
+          "explanation": "Ultraviolet rays make fluorescent ink glow, so they are used to check security documents and fake notes."
+        },
+        {
+          "q_id": "22",
+          "statement": "What is the correct relation between critical angle (C) and refractive index (μ)?",
+          "options": [
+            {
+              "index": "A",
+              "text": "sin C = μ"
+            },
+            {
+              "index": "B",
+              "text": "sin C = 1 / μ"
+            },
+            {
+              "index": "C",
+              "text": "cos C = 1 / μ"
+            },
+            {
+              "index": "D",
+              "text": "tan C = μ"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "sin C = 1 / μ",
+          "explanation": "According to Snell's law, when r = 90°, the relation sin C = 1 / μ is obtained."
+        },
+        {
+          "q_id": "23",
+          "statement": "What is the SI unit of power of a lens?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Meter"
+            },
+            {
+              "index": "B",
+              "text": "Dioptre"
+            },
+            {
+              "index": "C",
+              "text": "Centimeter"
+            },
+            {
+              "index": "D",
+              "text": "Watt"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Dioptre",
+          "explanation": "Power of a lens is P = 1 / f (in meters) and its SI unit is m⁻¹, which is called Dioptre (D)."
+        },
+        {
+          "q_id": "24",
+          "statement": "Which of the following is Lens Maker's Formula?",
+          "options": [
+            {
+              "index": "A",
+              "text": "1/f = (μ - 1)(1/R₁ + 1/R₂)"
+            },
+            {
+              "index": "B",
+              "text": "1/f = (μ - 1)(1/R₁ - 1/R₂)"
+            },
+            {
+              "index": "C",
+              "text": "1/f = (μ + 1)(1/R₁ - 1/R₂)"
+            },
+            {
+              "index": "D",
+              "text": "f = (μ - 1)(R₁ - R₂)"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "1/f = (μ - 1)(1/R₁ - 1/R₂)",
+          "explanation": "Lens Maker's formula expresses the relation between focal length of a thin lens, its refractive index, and radii of curvature of surfaces: 1/f = (μ - 1)(1/R₁ - 1/R₂)."
+        },
+        {
+          "q_id": "25",
+          "statement": "What type of lenses are both lenses used in a compound microscope?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Both concave lenses"
+            },
+            {
+              "index": "B",
+              "text": "Both convex lenses"
+            },
+            {
+              "index": "C",
+              "text": "One plane and one concave lens"
+            },
+            {
+              "index": "D",
+              "text": "One cylindrical and one convex lens"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Both convex lenses",
+          "explanation": "In a compound microscope, both objective and eyepiece are convex lenses."
+        },
+        {
+          "q_id": "26",
+          "statement": "What is the locus of all particles of a medium vibrating in the same phase called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Ray"
+            },
+            {
+              "index": "B",
+              "text": "Wavefront"
+            },
+            {
+              "index": "C",
+              "text": "Wavelength"
+            },
+            {
+              "index": "D",
+              "text": "Plane of vibration"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Wavefront",
+          "explanation": "The imaginary surface joining particles of a medium oscillating in the same phase is called a Wavefront."
+        },
+        {
+          "q_id": "27",
+          "statement": "According to Huygens' wave theory, how does each point on a wavefront act?",
+          "options": [
+            {
+              "index": "A",
+              "text": "As an energy absorber"
+            },
+            {
+              "index": "B",
+              "text": "As a source of secondary wavelets"
+            },
+            {
+              "index": "C",
+              "text": "As an obstacle"
+            },
+            {
+              "index": "D",
+              "text": "As a stationary point"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "As a source of secondary wavelets",
+          "explanation": "According to Huygens, every point on a wavefront becomes a center of new disturbance called a source of secondary wavelets."
+        },
+        {
+          "q_id": "28",
+          "statement": "What is the phenomenon of redistribution of intensity due to superposition of two light waves called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Diffraction"
+            },
+            {
+              "index": "B",
+              "text": "Interference"
+            },
+            {
+              "index": "C",
+              "text": "Polarization"
+            },
+            {
+              "index": "D",
+              "text": "Dispersion"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Interference",
+          "explanation": "The redistribution of light energy due to superposition of two coherent waves of same frequency is called Interference."
+        },
+        {
+          "q_id": "29",
+          "statement": "What is the bending of light around the corners of a sharp obstacle or fine aperture called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Reflection"
+            },
+            {
+              "index": "B",
+              "text": "Refraction"
+            },
+            {
+              "index": "C",
+              "text": "Diffraction"
+            },
+            {
+              "index": "D",
+              "text": "Scattering"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Diffraction",
+          "explanation": "Bending of light into the geometrical shadow region after hitting an obstacle of the order of wavelength is called Diffraction."
+        },
+        {
+          "q_id": "30",
+          "statement": "What is the phenomenon of restricting light vibrations to a single fixed direction perpendicular to the direction of propagation called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Polarization"
+            },
+            {
+              "index": "B",
+              "text": "Diffraction"
+            },
+            {
+              "index": "C",
+              "text": "Interference"
+            },
+            {
+              "index": "D",
+              "text": "Total internal reflection"
+            }
+          ],
+          "correct_index": "A",
+          "correct_answer": "Polarization",
+          "explanation": "Restricting vibrations to a single fixed plane is called Polarization."
+        },
+        {
+          "q_id": "31",
+          "statement": "What is the phenomenon of ejection of electrons when light of suitable frequency falls on a metal surface called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Thermionic emission"
+            },
+            {
+              "index": "B",
+              "text": "Photoelectric effect"
+            },
+            {
+              "index": "C",
+              "text": "Raman effect"
+            },
+            {
+              "index": "D",
+              "text": "Compton effect"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Photoelectric effect",
+          "explanation": "Emission of electrons from a metal by absorption of light energy is called Photoelectric Effect."
+        },
+        {
+          "q_id": "32",
+          "statement": "What is the minimum frequency required for photoelectron emission called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Peak frequency"
+            },
+            {
+              "index": "B",
+              "text": "Threshold frequency"
+            },
+            {
+              "index": "C",
+              "text": "Resonant frequency"
+            },
+            {
+              "index": "D",
+              "text": "Beat frequency"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Threshold frequency",
+          "explanation": "The minimum frequency below which no electron can be emitted is called Threshold Frequency."
+        },
+        {
+          "q_id": "33",
+          "statement": "What is the correct formula for de Broglie wavelength (λ) of matter waves?",
+          "options": [
+            {
+              "index": "A",
+              "text": "λ = p / h"
+            },
+            {
+              "index": "B",
+              "text": "λ = h / p"
+            },
+            {
+              "index": "C",
+              "text": "λ = h × p"
+            },
+            {
+              "index": "D",
+              "text": "λ = p / (mc)"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "λ = h / p",
+          "explanation": "The wavelength of a moving particle is λ = h / p = h / (mv), where h is Planck's constant."
+        },
+        {
+          "q_id": "34",
+          "statement": "In which form is Einstein's photoelectric equation written?",
+          "options": [
+            {
+              "index": "A",
+              "text": "hν = ϕ - K_max"
+            },
+            {
+              "index": "B",
+              "text": "hν = ϕ + K_max"
+            },
+            {
+              "index": "C",
+              "text": "K_max = hν + ϕ"
+            },
+            {
+              "index": "D",
+              "text": "ϕ = hν × K_max"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "hν = ϕ + K_max",
+          "explanation": "The energy of incident photon equals the sum of work function and maximum kinetic energy of the emitted electron (hν = ϕ + K_max)."
+        },
+        {
+          "q_id": "35",
+          "statement": "What is the formula for energy E of a photon?",
+          "options": [
+            {
+              "index": "A",
+              "text": "E = h / ν"
+            },
+            {
+              "index": "B",
+              "text": "E = hν"
+            },
+            {
+              "index": "C",
+              "text": "E = hν²"
+            },
+            {
+              "index": "D",
+              "text": "E = ν / h"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "E = hν",
+          "explanation": "According to Planck's quantum theory, the energy of one photon is E = hν."
+        },
+        {
+          "q_id": "36",
+          "statement": "What was discovered from Rutherford's alpha-particle scattering experiment?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Electron"
+            },
+            {
+              "index": "B",
+              "text": "Atomic nucleus"
+            },
+            {
+              "index": "C",
+              "text": "Neutron"
+            },
+            {
+              "index": "D",
+              "text": "Positron"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Atomic nucleus",
+          "explanation": "Rutherford proved that the entire positive charge and mass of an atom is concentrated in a tiny volume (nucleus) at the center."
+        },
+        {
+          "q_id": "37",
+          "statement": "According to Bohr's atomic model, what do electrons not do in stationary orbits?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Do not move"
+            },
+            {
+              "index": "B",
+              "text": "Do not radiate energy"
+            },
+            {
+              "index": "C",
+              "text": "Do not have angular momentum"
+            },
+            {
+              "index": "D",
+              "text": "Do not experience attractive force"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Do not radiate energy",
+          "explanation": "According to Bohr, electrons do not emit energy while revolving in fixed non-radiating orbits."
+        },
+        {
+          "q_id": "38",
+          "statement": "What is the minimum energy required to take an electron from ground state to infinite distance called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Excitation energy"
+            },
+            {
+              "index": "B",
+              "text": "Ionization energy"
+            },
+            {
+              "index": "C",
+              "text": "Binding energy"
+            },
+            {
+              "index": "D",
+              "text": "Kinetic energy"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Ionization energy",
+          "explanation": "The minimum energy needed to completely free an electron from nuclear attraction and take it to infinity is called Ionization Energy."
+        },
+        {
+          "q_id": "39",
+          "statement": "What will be the total energy of an electron in the second orbit (n = 2) of a hydrogen atom?",
+          "options": [
+            {
+              "index": "A",
+              "text": "-13.6 eV"
+            },
+            {
+              "index": "B",
+              "text": "-3.4 eV"
+            },
+            {
+              "index": "C",
+              "text": "-1.51 eV"
+            },
+            {
+              "index": "D",
+              "text": "-0.85 eV"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "-3.4 eV",
+          "explanation": "Putting n = 2 in the formula E_n = -13.6 / n² eV gives E₂ = -13.6 / 4 = -3.4 eV."
+        },
+        {
+          "q_id": "40",
+          "statement": "Which fundamental particles are present in the nucleus of an atom?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Electron and Proton"
+            },
+            {
+              "index": "B",
+              "text": "Proton and Neutron"
+            },
+            {
+              "index": "C",
+              "text": "Electron and Neutron"
+            },
+            {
+              "index": "D",
+              "text": "Only Electron"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Proton and Neutron",
+          "explanation": "The nucleus of an atom is composed of protons and neutrons, which are collectively called nucleons."
+        },
+        {
+          "q_id": "41",
+          "statement": "What is the minimum energy required to separate a nucleus into its constituent nucleons called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Ionization energy"
+            },
+            {
+              "index": "B",
+              "text": "Binding energy"
+            },
+            {
+              "index": "C",
+              "text": "Excitation energy"
+            },
+            {
+              "index": "D",
+              "text": "Fission energy"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Binding energy",
+          "explanation": "The minimum energy required to split a nucleus into all individual protons and neutrons is called Binding Energy."
+        },
+        {
+          "q_id": "42",
+          "statement": "Which radiations can be emitted during the spontaneous decay of radioactive nuclei?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Only alpha"
+            },
+            {
+              "index": "B",
+              "text": "Only beta"
+            },
+            {
+              "index": "C",
+              "text": "Alpha, beta, or gamma"
+            },
+            {
+              "index": "D",
+              "text": "Only X-rays"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Alpha, beta, or gamma",
+          "explanation": "Unstable nuclei spontaneously emit alpha, beta, or gamma radiations to achieve stability."
+        },
+        {
+          "q_id": "43",
+          "statement": "After one half-life, the number of undecayed radioactive nuclei remaining is:",
+          "options": [
+            {
+              "index": "A",
+              "text": "N₀ / 4"
+            },
+            {
+              "index": "B",
+              "text": "N₀ / 2"
+            },
+            {
+              "index": "C",
+              "text": "N₀ / 8"
+            },
+            {
+              "index": "D",
+              "text": "Zero"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "N₀ / 2",
+          "explanation": "Half-life is the time interval in which the number of initial active nuclei decreases to exact half (N₀ / 2)."
+        },
+        {
+          "q_id": "44",
+          "statement": "What will be the remaining quantity of a radioactive substance after two half-lives?",
+          "options": [
+            {
+              "index": "A",
+              "text": "N₀ / 2"
+            },
+            {
+              "index": "B",
+              "text": "N₀ / 4"
+            },
+            {
+              "index": "C",
+              "text": "N₀ / 6"
+            },
+            {
+              "index": "D",
+              "text": "N₀ / 16"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "N₀ / 4",
+          "explanation": "Remaining nuclei after n half-lives is N = N₀ (1/2)ⁿ; putting n = 2 gives N = N₀ / 4."
+        },
+        {
+          "q_id": "45",
+          "statement": "The conductivity of semiconductor materials lies between which of the following?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Greater than conductors only"
+            },
+            {
+              "index": "B",
+              "text": "Between conductors and insulators"
+            },
+            {
+              "index": "C",
+              "text": "Less than insulators"
+            },
+            {
+              "index": "D",
+              "text": "Infinite"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Between conductors and insulators",
+          "explanation": "Electrical conductivity of semiconductors is less than good conductors and greater than insulators."
+        },
+        {
+          "q_id": "46",
+          "statement": "What is a pure semiconductor without any external impurity called?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Extrinsic semiconductor"
+            },
+            {
+              "index": "B",
+              "text": "Intrinsic (Pure) semiconductor"
+            },
+            {
+              "index": "C",
+              "text": "P-type semiconductor"
+            },
+            {
+              "index": "D",
+              "text": "N-type semiconductor"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Intrinsic (Pure) semiconductor",
+          "explanation": "Naturally pure silicon or germanium without any doping is called a Pure (Intrinsic) Semiconductor."
+        },
+        {
+          "q_id": "47",
+          "statement": "Who are the majority charge carriers in a P-type semiconductor?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Electrons"
+            },
+            {
+              "index": "B",
+              "text": "Holes"
+            },
+            {
+              "index": "C",
+              "text": "Protons"
+            },
+            {
+              "index": "D",
+              "text": "Neutrons"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Holes",
+          "explanation": "Adding trivalent impurity creates holes due to deficiency of electrons, which are the majority carriers in P-type."
+        },
+        {
+          "q_id": "48",
+          "statement": "Who are the majority charge carriers in an N-type semiconductor?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Holes"
+            },
+            {
+              "index": "B",
+              "text": "Electrons"
+            },
+            {
+              "index": "C",
+              "text": "Positive ions"
+            },
+            {
+              "index": "D",
+              "text": "Negative ions"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "Electrons",
+          "explanation": "Adding pentavalent impurity (like phosphorus or arsenic) gives free electrons in large numbers."
+        },
+        {
+          "q_id": "49",
+          "statement": "Which device is used to convert Alternating Current (AC) into Direct Current (DC)?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Transformer"
+            },
+            {
+              "index": "B",
+              "text": "P-N Junction Diode (Rectifier)"
+            },
+            {
+              "index": "C",
+              "text": "Oscillator"
+            },
+            {
+              "index": "D",
+              "text": "Amplifier"
+            }
+          ],
+          "correct_index": "B",
+          "correct_answer": "P-N Junction Diode (Rectifier)",
+          "explanation": "A P-N junction diode allows current to flow only in forward bias, so it is used as a rectifier to convert AC into DC."
+        },
+        {
+          "q_id": "50",
+          "statement": "Impurity of which valency is added to silicon to make an N-type semiconductor?",
+          "options": [
+            {
+              "index": "A",
+              "text": "Monovalent"
+            },
+            {
+              "index": "B",
+              "text": "Trivalent"
+            },
+            {
+              "index": "C",
+              "text": "Pentavalent"
+            },
+            {
+              "index": "D",
+              "text": "Zero valent"
+            }
+          ],
+          "correct_index": "C",
+          "correct_answer": "Pentavalent",
+          "explanation": "Adding pentavalent impurity frees one extra valence electron for conduction, forming an N-type semiconductor."
+        }
+      ]
+    }
+  ]
+}

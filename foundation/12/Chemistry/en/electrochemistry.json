@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 2 : Electrochemistry",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Electrochemical Cells and Faraday's Laws (Quick Revision)",
+        "definition": "The study of processes and cells that convert chemical energy into electrical energy and electrical energy into chemical energy is called electrochemistry.",
+        "explanation": "In a galvanic cell, electrical energy is produced by a spontaneous redox reaction, whose potential is determined by the Nernst equation. The amount of substance deposited in electrolysis is determined by Faraday's laws.",
+        "importantPoints": [
+          "Specific Conductivity (Kappa, κ): Conductivity of 1 cm³ solution (Unit: S·cm⁻¹ or Ω⁻¹·cm⁻¹)",
+          "Molar Conductivity (Λm): Λm = (κ × 1000) / M (Unit: S·cm²·mol⁻¹)",
+          "Kohlrausch's Law: At infinite dilution, the molar conductivity of an electrolyte is the sum of ionic conductivities of its cations and anions (Λm° = ν+λ+° + ν-λ-°)",
+          "Nernst Equation: E_cell = E°_cell - (0.0591 / n) log [Product] / [Reactant]",
+          "Faraday's First Law: W = Z · I · t = Z · Q",
+          "Corrosion: Slow destruction of metal surface in presence of air and moisture (e.g., rusting of iron)"
+        ],
+        "highlightWords": [
+          "Specific conductivity",
+          "Molar conductivity",
+          "Kohlrausch's law",
+          "Nernst equation",
+          "Faraday's laws",
+          "Corrosion"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Define Specific Conductivity and Molar Conductivity and write their units.",
+          "explanation": "1. Specific Conductivity (κ): The conductivity of a solution of an electrolyte having 1 cm length and 1 cm² cross-sectional area is called specific conductivity. Unit: S·cm⁻¹ (or Ω⁻¹·cm⁻¹).\n2. Molar Conductivity (Λm): The conductivity of a solution containing 1 mole of electrolyte is called molar conductivity. Formula: Λm = (κ × 1000) / M | Unit: S·cm²·mol⁻¹.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why does specific conductivity decrease while molar conductivity increases on increasing dilution?",
+            "explanation": "On increasing dilution, the number of ions present per unit volume decreases, so specific conductivity decreases. However, due to a large increase in total volume, the mobility of ions increases, which increases molar conductivity.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "State Kohlrausch's Law and mention its two applications.",
+          "explanation": "Law: At infinite dilution, the molar conductivity of an electrolyte is equal to the sum of the individual molar ionic conductivities of all its cations and anions (Λm° = ν+ λ+° + ν- λ-°).\nApplications:\n1. To determine the molar conductivity at infinite dilution of weak electrolytes (like CH₃COOH).\n2. To calculate the degree of dissociation (α = Λm / Λm°) of a weak electrolyte.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the formula for the degree of dissociation (α) of a weak electrolyte in terms of Kohlrausch's law.",
+            "explanation": "α = Λm / Λm°, where Λm is the molar conductivity at any concentration C and Λm° is the molar conductivity at infinite dilution.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "State Faraday's first and second laws of electrolysis.",
+          "explanation": "1. First Law: During electrolysis, the mass of substance (W) liberated/deposited at any electrode is directly proportional to the electric charge (Q) passed through it (W = Z · Q = Z · I · t).\n2. Second Law: When the same electric current is passed through different electrolytes connected in series, the masses of substances deposited at the electrodes are directly proportional to their chemical equivalent weights (E) (W₁ / W₂ = E₁ / E₂).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is Electrochemical Equivalent (Z)?",
+            "explanation": "The mass of substance liberated at an electrode when 1 coulomb of electric charge is passed through an electrolyte solution is called the electrochemical equivalent (Z) of that substance. Formula: Z = E / F (where F = 96500 C).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the Nernst equation and explain the terms used in it.",
+          "explanation": "Nernst equation at 298 K for the electrode reaction Mⁿ⁺ + ne⁻ → M:\nE = E° - (0.0591 / n) log [1 / [Mⁿ⁺]]\nwhere E = electrode potential, E° = standard electrode potential, n = number of electrons involved, and [Mⁿ⁺] = molar concentration of metal ion.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the potential of Standard Hydrogen Electrode (SHE) assumed to be?",
+            "explanation": "The standard electrode potential of Standard Hydrogen Electrode (SHE) is arbitrarily assumed to be 0.00 Volt (E° = 0.00 V).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is corrosion? Write any two measures to prevent it.",
+          "explanation": "Definition: The slow destruction of a metal surface by changing into unwanted compounds (like oxides, carbonates) due to the effect of gases and moisture present in the atmosphere is called corrosion (e.g., rusting of iron).\nPreventive measures:\n1. Applying a layer of paint, oil, or grease on the surface.\n2. Galvanization: Coating a thin layer of zinc on iron.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the chemical formula of rust on iron.",
+            "explanation": "The chemical formula of rust is hydrated ferric oxide Fe₂O₃ · xH₂O.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 9 : Amines",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Nitrogen-Containing Organic Compounds and Diazonium Salts (Quick Revision)",
+        "definition": "Compounds formed by replacing one, two, or all three hydrogen atoms of ammonia (NH₃) with alkyl or aryl groups are called primary (1°), secondary (2°), and tertiary (3°) amines respectively.",
+        "explanation": "Amines are basic in nature due to the presence of a lone pair of electrons on the nitrogen atom. Only primary amines give the carbylamine test. Hoffmann bromamide degradation and Sandmeyer reactions are key links in organic conversions.",
+        "importantPoints": [
+          "Basic Strength (in aqueous medium): (CH₃)₂NH (2°) > CH₃NH₂ (1°) > (CH₃)₃N (3°) > NH₃ > C₆H₅NH₂ (Aniline)",
+          "Aniline is less basic than aliphatic amines because its lone pair of electrons gets delocalized in resonance with the benzene ring",
+          "Carbylamine Test: 1° Amine + CHCl₃ + 3KOH(alc.) -(Δ)→ R-NC (foul-smelling isocyanide) + 3KCl + 3H₂O",
+          "Hoffmann Bromamide Degradation: R-CONH₂ + Br₂ + 4KOH → R-NH₂ (1° amine with one less carbon) + K₂CO₃ + 2KBr + 2H₂O",
+          "Hinsberg's Reagent (Benzenesulfonyl chloride, C₆H₅SO₂Cl): Used to distinguish between 1°, 2°, and 3° amines"
+        ],
+        "highlightWords": [
+          "Amine",
+          "Basic nature",
+          "Carbylamine test",
+          "Isocyanide",
+          "Hoffmann bromamide degradation",
+          "Hinsberg test",
+          "Diazonium salt"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why is aniline (aromatic amine) a much weaker base than methylamine (aliphatic amine)?",
+          "explanation": "Reason:\n1. In aniline (C₆H₅NH₂), the lone pair of electrons on the nitrogen atom takes part in resonance with the benzene ring and gets delocalized over the ring, reducing electron density on nitrogen for accepting a proton (H⁺).\n2. In methylamine (CH₃NH₂), due to the positive inductive effect (+I effect) of the methyl group, electron density on nitrogen increases, so it easily accepts a proton.\nThus, methylamine is a strong base and aniline is a weak base.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the decreasing order of basicity of methyl-substituted amines in an aqueous medium.",
+            "explanation": "(CH₃)₂NH (Secondary) > CH₃NH₂ (Primary) > (CH₃)₃N (Tertiary) > NH₃ (Ammonia).\n(Reason: Combined effect of inductive effect, solvation energy, and steric hindrance).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is the Carbylamine Reaction? Write the chemical equation.",
+          "explanation": "Definition: When a primary (1°) aliphatic or aromatic amine is heated with chloroform (CHCl₃) and alcoholic potassium hydroxide (KOH), an extremely foul-smelling substance 'isocyanide' (carbylamine) is formed. Only 1° amines give this test (2° and 3° amines do not):\nEquation:\nR-NH₂ + CHCl₃ + 3KOH (alc.) -(Δ)→ R-NC (Alkyl isocyanide) + 3KCl + 3H₂O\nExample: C₂H₅NH₂ + CHCl₃ + 3KOH -(Δ)→ C₂H₅NC (Ethyl isocyanide) + 3KCl + 3H₂O.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Will dimethylamine [(CH₃)₂NH] give the carbylamine test? Write the reason.",
+            "explanation": "No, because dimethylamine is a secondary (2°) amine and only primary (1°) amines give the carbylamine test.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is the Hoffmann Bromamide Degradation reaction? Write it with an equation.",
+          "explanation": "Definition: When an aliphatic or aromatic primary amide is heated with bromine (Br₂) and aqueous or alcoholic KOH, a primary (1°) amine containing one carbon atom less than the original amide is obtained.\nEquation:\nR-CONH₂ + Br₂ + 4KOH -(Δ)→ R-NH₂ (Primary amine) + K₂CO₃ + 2KBr + 2H₂O\nExample: CH₃-CONH₂ (Acetamide) + Br₂ + 4KOH -(Δ)→ CH₃-NH₂ (Methylamine) + K₂CO₃ + 2KBr + 2H₂O.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the name and equation of the reaction to prepare aniline from benzamide (C₆H₅CONH₂).",
+            "explanation": "Name of reaction: Hoffmann Bromamide reaction.\nEquation:\nC₆H₅CONH₂ + Br₂ + 4KOH -(Δ)→ C₆H₅NH₂ (Aniline) + K₂CO₃ + 2KBr + 2H₂O.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Hinsberg's reagent? How are 1°, 2°, and 3° amines differentiated using it?",
+          "explanation": "Hinsberg's reagent is 'benzenesulfonyl chloride' (C₆H₅SO₂Cl). Differentiation:\n1. Primary (1°) amine: Reacts with Hinsberg's reagent to form N-alkylbenzenesulfonamide, which is soluble in alkali (KOH) due to the presence of an acidic H.\n2. Secondary (2°) amine: Reacts with Hinsberg's reagent to form N,N-dialkylbenzenesulfonamide, which is insoluble in alkali (KOH) because there is no acidic H on N.\n3. Tertiary (3°) amine: Does not react with Hinsberg's reagent (no replaceable H).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the chemical name and formula of Hinsberg's reagent.",
+            "explanation": "Chemical name: Benzenesulfonyl chloride. Formula: C₆H₅SO₂Cl.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Diazotisation? Write the chemical equation for the Sandmeyer reaction.",
+          "explanation": "1. Diazotisation: When aniline is reacted with sodium nitrite (NaNO₂) and dilute HCl at 273-278 K (0-5°C), benzene diazonium chloride is formed:\nC₆H₅NH₂ + NaNO₂ + 2HCl -(0-5°C)→ C₆H₅N₂⁺Cl⁻ (Benzene diazonium chloride) + NaCl + 2H₂O.\n2. Sandmeyer Reaction: When freshly prepared benzene diazonium chloride is reacted with Cu₂Cl₂/HCl or Cu₂Br₂/HBr, chlorobenzene or bromobenzene is formed respectively:\nC₆H₅N₂⁺Cl⁻ -(Cu₂Cl₂ / HCl)→ C₆H₅Cl (Chlorobenzene) + N₂↑.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the equation for the Gattermann reaction.",
+            "explanation": "When benzene diazonium chloride is reacted with copper powder (Cu powder) and halogen acid (HCl or HBr), halobenzene is obtained:\nC₆H₅N₂⁺Cl⁻ -(Cu powder / HCl)→ C₆H₅Cl + N₂↑ + CuCl.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

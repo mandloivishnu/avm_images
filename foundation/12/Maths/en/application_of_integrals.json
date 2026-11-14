@@ -1,0 +1,167 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 8 : Application of Integrals",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Quadrature and Area Bounded by Curves (Quick Revision)",
+        "definition": "The primary geometric application of definite integrals is finding the area of plane regions bounded by curves, lines, and axes.",
+        "explanation": "The area of the region bounded by the curve y = f(x), the x-axis, and the ordinates x = a and x = b is A = ∫ₐᵇ y dx. Areas of circles, ellipses, and parabolas are standard exam questions.",
+        "importantPoints": [
+          "Area along x-axis: A = ∫ₐᵇ y dx",
+          "Area along y-axis: A = ∫_c^d x dy",
+          "Total area of circle x² + y² = a² is πa²",
+          "Total area of ellipse x²/a² + y²/b² = 1 is πab",
+          "Area bounded by parabola y² = 4ax and its latus rectum = 8a²/3"
+        ],
+        "highlightWords": [
+          "Application of Integrals",
+          "Quadrature",
+          "Area of Circle",
+          "Area of Ellipse",
+          "Region Bounded by Parabola"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the circle x² + y² = a² using integration.",
+          "explanation": "Step 1: The circle x² + y² = a² is symmetrical about both axes. Thus, Total Area = 4 × Area of first quadrant.\nStep 2: In the first quadrant, y = √(a² - x²) where x varies from 0 to a.\nStep 3: A = 4 ∫₀ᵃ √(a² - x²) dx\nUsing formula ∫√(a² - x²) dx = (x/2)√(a² - x²) + (a²/2) sin⁻¹(x/a):\nA = 4 [ (x/2)√(a² - x²) + (a²/2) sin⁻¹(x/a) ]₀ᵃ\n= 4 [ (0 + (a²/2) sin⁻¹(1)) - 0 ] = 4 [ (a²/2) · (π/2) ] = 4 [ πa²/4 ] = πa² sq. units.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What will be the area of the circle x² + y² = 4 in the first quadrant?",
+            "explanation": "Step 1: Radius of the circle x² + y² = 2² is a = 2.\nStep 2: Area of first quadrant = (1/4) × Total area = (1/4) · πa².\nStep 3: Substituting value = (1/4) · π(2)² = (1/4) · 4π = π sq. units.\nHence, the area of the first quadrant is π sq. units.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the ellipse x²/a² + y²/b² = 1 using integration.",
+          "explanation": "Step 1: The ellipse is symmetrical about both axes, so Total Area A = 4 × Area of first quadrant.\nStep 2: In the first quadrant, y = (b/a)√(a² - x²), where x varies from 0 to a.\nStep 3: A = 4 ∫₀ᵃ (b/a)√(a² - x²) dx = 4(b/a) [ (x/2)√(a² - x²) + (a²/2) sin⁻¹(x/a) ]₀ᵃ\n= 4(b/a) [ 0 + (a²/2) sin⁻¹(1) - 0 ] = 4(b/a) [ (a²/2) · (π/2) ] = 4(b/a) · (πa²/4) = πab sq. units.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the total area of the ellipse x²/16 + y²/9 = 1.",
+            "explanation": "Step 1: Comparing with standard equation x²/a² + y²/b² = 1: a² = 16 ⇒ a = 4 and b² = 9 ⇒ b = 3.\nStep 2: Formula for area of ellipse = πab.\nStep 3: Substituting values: Area = π(4)(3) = 12π sq. units.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the region bounded by the parabola y² = x, the lines x = 1, x = 4 and the x-axis in the first quadrant.",
+          "explanation": "Step 1: In the first quadrant, from y² = x, y = √x = x^(1/2). Limits are x = 1 to x = 4.\nStep 2: Required area A = ∫₁⁴ y dx = ∫₁⁴ x^(1/2) dx.\nStep 3: Integrating: [ x^(3/2) / (3/2) ]₁⁴ = (2/3) [ 4^(3/2) - 1^(3/2) ]\n= (2/3) [ (2²)^(3/2) - 1 ] = (2/3) [ 8 - 1 ] = (2/3) · 7 = 14/3 sq. units.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the area of the region bounded by the curve y = x², the x-axis, and the ordinates x = 0 and x = 3.",
+            "explanation": "Step 1: Area A = ∫₀³ y dx = ∫₀³ x² dx.\nStep 2: Integrating: [ x³/3 ]₀³.\nStep 3: Applying limits: (3)³/3 - 0 = 27/3 = 9 sq. units.\nHence, the required area is 9 sq. units.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the region bounded by the parabola y = x² and the line y = 4.",
+          "explanation": "Step 1: The parabola y = x² is symmetrical about the y-axis and limits of y are 0 to 4. x = √y (for first quadrant).\nStep 2: Total area A = 2 ∫₀⁴ x dy = 2 ∫₀⁴ √y dy.\nStep 3: Integrating: 2 [ y^(3/2) / (3/2) ]₀⁴ = 2 · (2/3) [ 4^(3/2) - 0 ]\n= (4/3) · [ 8 ] = 32/3 sq. units.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What will be the area bounded by the curve y = cos x and the x-axis from x = 0 to x = π/2?",
+            "explanation": "Step 1: In the interval [0, π/2], cos x ≥ 0.\nStep 2: Area A = ∫₀^(π/2) cos x dx = [ sin x ]₀^(π/2).\nStep 3: Applying limits: sin(π/2) - sin(0) = 1 - 0 = 1 sq. unit.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the region bounded by the line y = 3x + 2, the x-axis, and the ordinates x = -1 and x = 1.",
+          "explanation": "Step 1: The line cuts the x-axis when y = 0 ⇒ 3x + 2 = 0 ⇒ x = -2/3.\nIn interval [-1, -2/3], the line is below the x-axis (y ≤ 0) and in [-2/3, 1], it is above (y ≥ 0).\nStep 2: Total area A = ∫₋₁^(-2/3) -(3x + 2) dx + ∫_(-2/3)¹ (3x + 2) dx\nStep 3: First part = - [ 3x²/2 + 2x ]₋₁^(-2/3) = - [ (3(4/9)/2 - 4/3) - (3/2 - 2) ] = - [ (2/3 - 4/3) - (-1/2) ] = - [ -2/3 + 1/2 ] = 1/6\nSecond part = [ 3x²/2 + 2x ]_(-2/3)¹ = (3/2 + 2) - (2/3 - 4/3) = 7/2 - (-2/3) = 7/2 + 2/3 = 25/6\nStep 4: Total area = 1/6 + 25/6 = 26/6 = 13/3 sq. units.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If a curve lies below the x-axis, how is the positive value of its area obtained?",
+            "explanation": "Step 1: When a curve lies below the x-axis, the value of y is negative, due to which the definite integral ∫ y dx comes out to be negative.\nStep 2: Since area is a non-negative geometric quantity, to get its positive value we take the absolute value (modulus) of the integral: A = |∫ₐᵇ y dx| or A = ∫ₐᵇ (-y) dx.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,764 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "PHYSICS",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "8",
+    "timeAllowed": "3 Hours",
+    "board": "MP Board",
+    "examType": "Higher Secondary Examination (Main)",
+    "set": "A",
+    "paperCode": "265307 / 210",
+    "language": "English",
+    "instructions": [
+      "All questions are compulsory. Internal choices are provided in every question from question numbers 6 to 20.",
+      "Question numbers 1, 2, and 4 carry 6 marks each, with 1 mark allotted to each sub-question.",
+      "Question numbers 3 and 5 carry 5 marks each, with 1 mark allotted to each sub-question.",
+      "Question numbers 6 to 12 carry 2 marks each. The word limit for each answer is approximately 30 words.",
+      "Question numbers 13 to 16 carry 3 marks each. The word limit for each answer is approximately 75 words.",
+      "Question numbers 17 to 20 carry 4 marks each. The word limit for each answer is approximately 120 words.",
+      "Draw neat and labelled diagrams wherever necessary."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose and write the correct option from the choices given in each question:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The size of an ideal electric dipole is –",
+          "options": [
+            {
+              "index": "i",
+              "text": "Zero"
+            },
+            {
+              "index": "ii",
+              "text": "Infinite"
+            },
+            {
+              "index": "iii",
+              "text": "One"
+            },
+            {
+              "index": "iv",
+              "text": "None of the above"
+            }
+          ],
+          "correct_index": "i",
+          "correct_answer": "Zero",
+          "explanation": "In an ideal (point) electric dipole, the magnitude of charge is infinitely large (q → ∞) and the distance between the two charges is negligibly small (2a → 0), so the physical size of the dipole is taken as zero."
+        },
+        {
+          "q_id": "b",
+          "statement": "The standard potential of the Earth is –",
+          "options": [
+            {
+              "index": "i",
+              "text": "Zero"
+            },
+            {
+              "index": "ii",
+              "text": "Infinite"
+            },
+            {
+              "index": "iii",
+              "text": "One"
+            },
+            {
+              "index": "iv",
+              "text": "None of the above"
+            }
+          ],
+          "correct_index": "i",
+          "correct_answer": "Zero",
+          "explanation": "Due to the enormous size of the Earth, its capacitance is considered infinite. Adding or removing charge from it causes no change in its potential; hence, Earth's standard potential is taken as zero as a reference."
+        },
+        {
+          "q_id": "c",
+          "statement": "The wavelength range of infrared waves is –",
+          "options": [
+            {
+              "index": "i",
+              "text": "400 nm to 700 nm"
+            },
+            {
+              "index": "ii",
+              "text": "1 nm to 400 nm"
+            },
+            {
+              "index": "iii",
+              "text": "1 mm to 0.1 m"
+            },
+            {
+              "index": "iv",
+              "text": "700 nm to 1 mm"
+            }
+          ],
+          "correct_index": "iv",
+          "correct_answer": "700 nm to 1 mm",
+          "explanation": "In the electromagnetic spectrum, infrared radiation extends from the red end of visible light (about 700 nm) up to the microwave boundary (about 1 mm)."
+        },
+        {
+          "q_id": "d",
+          "statement": "If the angle of incidence for a surface is 60°, then the angle of reflection at that surface will be –",
+          "options": [
+            {
+              "index": "i",
+              "text": "30°"
+            },
+            {
+              "index": "ii",
+              "text": "45°"
+            },
+            {
+              "index": "iii",
+              "text": "75°"
+            },
+            {
+              "index": "iv",
+              "text": "60°"
+            }
+          ],
+          "correct_index": "iv",
+          "correct_answer": "60°",
+          "explanation": "According to the first law of reflection of light, the angle of incidence is always equal to the angle of reflection (∠i = ∠r). Therefore, the angle of reflection will be 60°."
+        },
+        {
+          "q_id": "e",
+          "statement": "The specific charge of an electron is –",
+          "options": [
+            {
+              "index": "i",
+              "text": "1.9 × 10⁻³¹ C/kg"
+            },
+            {
+              "index": "ii",
+              "text": "1.6 × 10⁻¹⁹ C/kg"
+            },
+            {
+              "index": "iii",
+              "text": "1.76 × 10¹¹ C/kg"
+            },
+            {
+              "index": "iv",
+              "text": "1.76 × 10⁻¹¹ C/kg"
+            }
+          ],
+          "correct_index": "iii",
+          "correct_answer": "1.76 × 10¹¹ C/kg",
+          "explanation": "Specific charge (e/m) = (1.602 × 10⁻¹⁹ C) / (9.1 × 10⁻³¹ kg) ≈ 1.76 × 10¹¹ C/kg."
+        },
+        {
+          "q_id": "f",
+          "statement": "The thickness of the depletion layer in a p-n junction diode is –",
+          "options": [
+            {
+              "index": "i",
+              "text": "1 m"
+            },
+            {
+              "index": "ii",
+              "text": "1 µm"
+            },
+            {
+              "index": "iii",
+              "text": "1 nm"
+            },
+            {
+              "index": "iv",
+              "text": "1 pm"
+            }
+          ],
+          "correct_index": "ii",
+          "correct_answer": "1 µm",
+          "explanation": "The thickness of the depletion layer formed at a p-n junction is of the order of 10⁻⁶ m, i.e., 1 micrometre (1 µm)."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match Column 'A' with Column 'B' and write the correct pairs:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column 'A'",
+        "column_B_title": "Column 'B'",
+        "pairs": [
+          {
+            "a_item": "(a) Electric flux",
+            "b_item": "μ₀nI",
+            "correct_match_index": "4"
+          },
+          {
+            "a_item": "(b) Potential gradient",
+            "b_item": "Volt × second",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(c) Magnetic flux",
+            "b_item": "μ₀nI / 2",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(d) Motional emf",
+            "b_item": "Volt × metre",
+            "correct_match_index": "6"
+          },
+          {
+            "a_item": "(e) Magnetic field inside a solenoid",
+            "b_item": "Volt / metre",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(f) Magnetic field at either end of a solenoid",
+            "b_item": "Volt",
+            "correct_match_index": "3"
+          }
+        ]
+      },
+      "explanation": "The correct matching of Column 'A' with Column 'B' and their reasons are:\n\n(a) Electric flux ⟶ Volt × metre\nReason: Electric flux Φ = E · A = (V/m) × m² = Volt × metre.\n\n(b) Potential gradient ⟶ Volt / metre\nReason: Potential gradient = dV/dr, whose SI unit is Volt/metre (V/m).\n\n(c) Magnetic flux ⟶ Volt × second\nReason: According to Faraday's law e = dΦ/dt, so Φ = e × t = Volt × second (Weber).\n\n(d) Motional emf ⟶ Volt\nReason: The SI unit of electromotive force (emf) is Volt (V).\n\n(e) Magnetic field inside a solenoid ⟶ μ₀nI\nReason: Inside a long ideal current-carrying solenoid along its axis, the uniform magnetic field is B = μ₀nI.\n\n(f) Magnetic field at either end of a solenoid ⟶ μ₀nI / 2\nReason: At the ends of a long solenoid, the magnetic field is half its value at the centre (B = μ₀nI / 2)."
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Answer each question in one sentence:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write Ohm's law in terms of current density, specific conductivity, and electric field intensity.",
+          "correct_answer": "j⃗ = σ E⃗ (or j = σE)",
+          "explanation": "j⃗ = σ E⃗\n\n(where j = current density, σ = specific conductivity, and E = electric field intensity. This is known as the microscopic/vector form of Ohm's law)."
+        },
+        {
+          "q_id": "b",
+          "statement": "Write the dimensional formula of magnetic permeability.",
+          "correct_answer": "[M L T⁻² A⁻²]",
+          "explanation": "[M¹ L¹ T⁻² A⁻²]\n\nReason: From B = μ₀I/(2πr) and F = qvB, the unit of μ₀ is N/A² = kg·m·s⁻²·A⁻²."
+        },
+        {
+          "q_id": "c",
+          "statement": "Write the formula for the impedance of an LCR circuit.",
+          "correct_answer": "Z = √[R² + (X_L - X_C)²] or Z = √[R² + (ωL - 1/ωC)²]",
+          "explanation": "Z = √[R² + (ωL - 1/ωC)²]\n\n(where R = resistance, ωL = inductive reactance, and 1/ωC = capacitive reactance)."
+        },
+        {
+          "q_id": "d",
+          "statement": "Which property of light remains unchanged during the phenomenon of refraction?",
+          "correct_answer": "Frequency",
+          "explanation": "Frequency\n\nReason: Frequency is a characteristic of the light source; when light travels from one medium to another, its wavelength and speed change, but its frequency remains unchanged."
+        },
+        {
+          "q_id": "e",
+          "statement": "Who are the majority charge carriers in a p-type semiconductor?",
+          "correct_answer": "Holes",
+          "explanation": "Holes\n\nReason: When a trivalent impurity is doped into a pure semiconductor, the number of holes becomes much greater than the number of free electrons."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "4",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks with appropriate words:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Magnetic flux density is a {BLANK} quantity.",
+          "options": [],
+          "correct_answer": "Vector",
+          "explanation": "Vector\n\nReason: Magnetic flux density (i.e., magnetic field intensity B⃗) possesses both magnitude and direction, hence it is a vector quantity."
+        },
+        {
+          "q_id": "b",
+          "statement": "Lamps emitting {BLANK} rays are used in water purifiers to kill germs.",
+          "options": [],
+          "correct_answer": "Ultraviolet (UV)",
+          "explanation": "Ultraviolet (UV)\n\nReason: Ultraviolet rays have germicidal properties that destroy the DNA of microorganisms, sterilising the water."
+        },
+        {
+          "q_id": "c",
+          "statement": "For an unpolarised wave, the displacement varies randomly with time, though it always remains {BLANK} to the direction of wave propagation.",
+          "options": [],
+          "correct_answer": "Perpendicular",
+          "explanation": "Perpendicular\n\nReason: Light is a transverse electromagnetic wave, so the vibrations of its electric field vector are always perpendicular to the direction of propagation."
+        },
+        {
+          "q_id": "d",
+          "statement": "The rest mass of a photon is {BLANK}.",
+          "options": [],
+          "correct_answer": "Zero",
+          "explanation": "Zero\n\nReason: According to the theory of relativity, a photon moving at the speed of light has zero rest mass (m₀ = 0)."
+        },
+        {
+          "q_id": "e",
+          "statement": "The value of Planck's constant is {BLANK}.",
+          "options": [],
+          "correct_answer": "6.63 × 10⁻³⁴ J·s",
+          "explanation": "6.63 × 10⁻³⁴ J·s\n\nReason: The standard value of Planck's constant h is 6.626 × 10⁻³⁴ joule-second."
+        },
+        {
+          "q_id": "f",
+          "statement": "The threshold (cut-in) voltage for a germanium diode is approximately {BLANK} volt.",
+          "options": [],
+          "correct_answer": "0.3",
+          "explanation": "0.3 (approx. 0.2 V to 0.3 V)\n\nReason: For a germanium p-n junction diode, the barrier/threshold potential is about 0.3 V (whereas for silicon it is about 0.7 V)."
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×5=5",
+      "text": "Write True or False:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The quality factor is equal to ω_r L / R.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: In a series resonant LCR circuit, the quality factor Q = (ω_r L) / R = 1 / (ω_r C R)."
+        },
+        {
+          "q_id": "b",
+          "statement": "Redistribution of energy takes place in the phenomenon of diffraction.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: Both interference and diffraction obey the law of conservation of energy; energy is neither created nor destroyed, it merely redistributes from minima to maxima."
+        },
+        {
+          "q_id": "c",
+          "statement": "By suitable heating, sufficient thermal energy can be imparted to free electrons to enable them to come out of the metal.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: On heating a metal, free electrons gain thermal kinetic energy equal to or greater than the work function and escape from the metal surface; this is called thermionic emission."
+        },
+        {
+          "q_id": "d",
+          "statement": "Low-energy photons are emitted in γ-decay.",
+          "correct_answer": "false",
+          "explanation": "False\n\nReason: During gamma decay (γ-decay), an excited nucleus transitions to a lower energy state by emitting extremely high-energy photons (of the order of MeV)."
+        },
+        {
+          "q_id": "e",
+          "statement": "On increasing the temperature of semiconductors, their conductivity decreases.",
+          "correct_answer": "false",
+          "explanation": "False\n\nReason: Semiconductors have a negative temperature coefficient of resistance. Increasing temperature breaks covalent bonds, increasing charge carrier concentration and thus increasing conductivity."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Show that the electric flux passing through a surface placed parallel to an electric field is zero.",
+          "correct_answer": "",
+          "explanation": "By definition of electric flux:\nΦ = E · A = E A cos θ\nwhere θ is the angle between electric field E⃗ and the area vector A⃗ of the surface.\n\nThe area vector is always normal (perpendicular) to the plane of the surface. Therefore, when the surface is placed parallel to the electric field, the area vector A⃗ becomes perpendicular to the electric field E⃗ (i.e., θ = 90°).\n\nHence:\nΦ = E A cos 90° = E A × 0 = 0\n\nThus, it is proved that the total electric flux passing through a surface parallel to an electric field is zero."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is volume charge density? Write its S.I. unit.",
+            "correct_answer": "",
+            "explanation": "Definition: The amount of electric charge present per unit volume of a conductor or body is called volume charge density (ρ).\n\nFormula: ρ = q / V\n(where q = total charge and V = volume)\n\nS.I. Unit: Coulomb / metre³ (C/m³ or C·m⁻³)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are Ohmic and Non-ohmic resistances?",
+          "correct_answer": "",
+          "explanation": "1. Ohmic Resistance: Resistors that strictly obey Ohm's law (V ∝ I) under all physical conditions and whose V-I graph is a straight line passing through the origin are called ohmic resistances (e.g., copper wire, silver, alloy wires).\n\n2. Non-ohmic Resistance: Devices or circuit elements that do not obey Ohm's law and whose V-I graph is non-linear are called non-ohmic resistances (e.g., p-n junction diode, transistor, vacuum tubes)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is internal resistance? Write its dimensional formula.",
+            "correct_answer": "",
+            "explanation": "Definition: When current flows through a cell, the opposition (resistance) offered by the electrolyte inside the cell to the flow of ions is called the internal resistance (r) of the cell.\n\nDimensional Formula: The dimensional formula of resistance is [M¹ L² T⁻³ A⁻²]."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Ampere's circuital law.",
+          "correct_answer": "",
+          "explanation": "According to Ampere's circuital law:\n\"The line integral of the magnetic field B⃗ around any closed path (loop) in free space (vacuum or air) is equal to μ₀ times the total electric current (I) enclosed by that closed loop.\"\n\nMathematical form:\n∮ B⃗ · dl⃗ = μ₀ I"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two differences between diamagnetic and paramagnetic substances.",
+            "correct_answer": "",
+            "explanation": "Two major differences between diamagnetic and paramagnetic substances:\n\n1. Behaviour in an external magnetic field: Diamagnetic substances are feebly magnetised in a direction opposite to the applied magnetic field (weakly repelled), whereas paramagnetic substances are feebly magnetised in the direction of the applied magnetic field (weakly attracted).\n2. Magnetic susceptibility (χ): The magnetic susceptibility of diamagnetic substances is small, negative, and independent of temperature, whereas for paramagnetic substances it is small, positive, and inversely proportional to absolute temperature (Curie's law)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write any two properties of electromagnetic waves.",
+          "correct_answer": "",
+          "explanation": "Two major properties of electromagnetic waves:\n\n1. Transverse nature: They are transverse waves in which the oscillating electric field vector E⃗ and magnetic field vector B⃗ are mutually perpendicular to each other and also perpendicular to the direction of wave propagation.\n2. Propagation in vacuum: They require no material medium for propagation and travel in vacuum with the speed of light (c = 3 × 10⁸ m/s)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the names of various electromagnetic waves in order of decreasing frequency.",
+            "correct_answer": "",
+            "explanation": "Various electromagnetic waves in order of decreasing frequency (or increasing wavelength) are:\n\n1. Gamma rays (γ-rays)\n2. X-rays\n3. Ultraviolet rays (UV)\n4. Visible light\n5. Infrared waves (IR)\n6. Microwaves\n7. Radio waves"
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The power of a lens is -5 D. Find its focal length. What is the name (type) of the lens?",
+          "correct_answer": "f = -0.2 m (-20 cm), Lens: Concave lens",
+          "explanation": "Solution:\n\n1. Calculation of focal length:\nPower of lens P = -5 D\nFormula: f = 1 / P (in metres)\nf = 1 / (-5) = -0.2 m = -20 cm\n\n2. Name of the lens:\nSince the focal length and power are negative, it is a 'Concave Lens' (diverging lens)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A small telescope has an objective lens of focal length 144 cm and an eyepiece of focal length 6.0 cm. What is the magnifying power of the telescope? What is the separation between the objective and the eyepiece?",
+            "correct_answer": "m = 24, L = 150 cm",
+            "explanation": "Solution:\n\nGiven:\nFocal length of objective (f₀) = 144 cm\nFocal length of eyepiece (fₑ) = 6.0 cm\n\n1. Magnifying power of the telescope in normal adjustment (magnitude):\nm = f₀ / fₑ\nm = 144 / 6.0 = 24\n(With sign convention, m = -24)\n\n2. Separation between the objective and the eyepiece (length of telescope tube L):\nL = f₀ + fₑ\nL = 144 + 6.0 = 150 cm\n\nThe magnifying power is 24 and the separation between the two lenses is 150 cm."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a de Broglie wave? Write its formula for a moving particle.",
+          "correct_answer": "",
+          "explanation": "Definition: According to Louis de Broglie, a wave character is associated with every moving material particle (such as an electron, proton, etc.). These waves are called matter waves or de Broglie waves.\n\nFormula for de Broglie wavelength of a moving particle:\nλ = h / p = h / (m v)\n\n(where h = Planck's constant, p = momentum, m = mass of particle, and v = velocity of particle)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write Einstein's photoelectric equation.",
+            "correct_answer": "",
+            "explanation": "Einstein's photoelectric equation is based on the law of conservation of energy:\n\nE = W₀ + K_max\nhν = hν₀ + (1/2) m v_max²\n\nor,\nK_max = (1/2) m v_max² = h (ν - ν₀)\n\n(where h = Planck's constant, ν = frequency of incident light, ν₀ = threshold frequency, W₀ = work function, and K_max = maximum kinetic energy of emitted photoelectrons)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Using Bohr's model, calculate the energy of an electron in a hydrogen atom at levels n = 1 and n = 2.",
+          "correct_answer": "E₁ = -13.6 eV, E₂ = -3.4 eV",
+          "explanation": "Solution:\n\nAccording to Bohr's model, the total energy of an electron in the n-th orbit of a hydrogen atom is given by:\nEₙ = - 13.6 / n² eV\n\n1. For the first level (n = 1):\nE₁ = - 13.6 / (1)² = - 13.6 eV\n\n2. For the second level (n = 2):\nE₂ = - 13.6 / (2)² = - 13.6 / 4 = - 3.4 eV\n\nThe energy is -13.6 eV at n = 1 and -3.4 eV at n = 2."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Calculate the energy equivalent of 1 gram of substance.",
+            "correct_answer": "9 × 10¹³ J",
+            "explanation": "Solution:\n\nGiven:\nMass (m) = 1 g = 1 × 10⁻³ kg\nSpeed of light (c) = 3 × 10⁸ m/s\n\nFrom Einstein's mass-energy equivalence relation:\nE = m c²\n\nSubstituting values:\nE = (1 × 10⁻³ kg) × (3 × 10⁸ m/s)²\nE = 10⁻³ × 9 × 10¹⁶\nE = 9 × 10¹³ J (Joules)\n\nThe energy equivalent of 1 gram of substance is 9 × 10¹³ Joules."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is drift velocity? Establish the relation between current density and drift velocity.",
+          "correct_answer": "",
+          "explanation": "(1) Drift Velocity:\nWhen a potential difference is applied across the ends of a conductor, the free electrons drift in the direction opposite to the electric field with a small constant average velocity (of the order of 10⁻⁴ m/s); this velocity is called drift velocity (v_d).\n\n(2) Relation between current density (j) and drift velocity (v_d):\nConsider a conductor of length l and area of cross-section A having n free electrons per unit volume.\nTotal charge in the conductor q = n A l e\nTime taken by electrons to cross the conductor t = l / v_d\n\nElectric current:\nI = q / t = (n A l e) / (l / v_d) = n A e v_d\n\nBy definition of current density (j = I / A):\nj = (n A e v_d) / A\nj = n e v_d\n\nIn vector form: j⃗ = - n e v⃗_d\nThis is the required relation between current density and drift velocity."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Establish the relation between internal resistance, electromotive force (emf), and terminal voltage of a cell.",
+            "correct_answer": "",
+            "explanation": "Consider a cell of emf E and internal resistance r connected to an external resistor R and a key. Let current I flow through the circuit and V be the terminal voltage of the cell.\n\n1. Total resistance of the circuit = R + r\nBy Ohm's law, current in the circuit:\nI = E / (R + r)\n\n2. Cross-multiplying:\nE = I (R + r)\nE = I R + I r\n\n3. Since potential difference across the external resistor (terminal voltage) V = I R:\nE = V + I r\nor, V = E - I r\n\n4. In terms of internal resistance:\nI r = E - V\nr = (E - V) / I\n\nSince I = V / R, therefore:\nr = [(E - V) / (V / R)]\nr = R [ (E / V) - 1 ]\n\nThis is the relation between emf, terminal potential difference, and internal resistance of a cell."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define the sensitivity of a moving coil galvanometer. Write its formula and state the conditions for its value to be maximum.",
+          "correct_answer": "",
+          "explanation": "(1) Definition of Current Sensitivity:\nThe deflection (θ) produced in the coil of a moving coil galvanometer when a unit current flows through it is called its current sensitivity (S_i).\n\n(2) Formula:\nS_i = θ / I = N A B / C\n(where N = number of turns, A = area of coil, B = radial magnetic field, and C = torsional constant / restoring couple per unit twist of the phosphor-bronze strip).\n\n(3) Conditions for maximum sensitivity:\n1. Number of turns (N) in the coil should be large.\n2. Area of the coil (A) should be large.\n3. Magnetic field (B) should be very strong (using strong magnets and a soft iron core).\n4. The torsional constant (C) of the suspension fibre should be very small (hence phosphor-bronze wire is used)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain Biot-Savart's law.",
+            "correct_answer": "",
+            "explanation": "Biot-Savart's Law:\nThe magnitude of the magnetic field dB produced at a point P at distance r and angle θ due to a small current element dl of a current-carrying conductor is:\n\n1. Directly proportional to the current flowing through the conductor: dB ∝ I\n2. Directly proportional to the length of the current element: dB ∝ dl\n3. Directly proportional to the sine of the angle between the element and the line joining it to the point: dB ∝ sin θ\n4. Inversely proportional to the square of the distance of the point from the element: dB ∝ 1/r²\n\nCombining all factors:\ndB ∝ (I dl sin θ) / r²\n\nIn SI units:\ndB = (μ₀ / 4π) · [ (I dl sin θ) / r² ]\n\nIn vector form: dB⃗ = (μ₀ / 4π) · [ I (dl⃗ × r̂) / r² ]"
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the three postulates of Bohr's atomic model.",
+          "correct_answer": "",
+          "explanation": "The three main postulates of Niels Bohr's atomic model are:\n\n1. Stationary Orbits: An electron revolves around the nucleus only in certain discrete, non-radiating circular orbits called stationary orbits, without radiating energy while moving in them.\n2. Quantisation of Angular Momentum: Electrons revolve only in those orbits for which their orbital angular momentum is an integral multiple of h / 2π:\nL = m v r = n (h / 2π)   (where n = 1, 2, 3... is the principal quantum number)\n3. Frequency Condition (Transition Rule): When an electron jumps from a higher energy orbit (E₂) to a lower energy orbit (E₁), a photon of energy equal to the energy difference between the two states is emitted:\nhν = E₂ - E₁"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is nuclear force? Write any two of its properties.",
+            "correct_answer": "",
+            "explanation": "(1) Nuclear Force:\nThe extremely strong attractive force that binds the nucleons (protons and neutrons) tightly together inside the atomic nucleus is called the nuclear force.\n\n(2) Two major properties of nuclear force:\n1. Strongest force: It is the strongest fundamental attractive force known in nature (about 10³⁸ times stronger than the gravitational force).\n2. Short-range and charge-independent: It acts only over extremely short distances (about 1 to 2 fermi, 10⁻¹⁵ m) and is independent of electric charge (i.e., acts equally between p-p, n-n, and p-n pairs)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write any three differences between N-type and P-type semiconductors.",
+          "correct_answer": "",
+          "explanation": "Three major differences between N-type and P-type semiconductors:\n\n| Basis / Feature | N-type Semiconductor | P-type Semiconductor |\n|---|---|---|\n| 1. Doping impurity | Formed by doping a pure semiconductor with a pentavalent impurity (e.g., P, As, Sb). | Formed by doping a pure semiconductor with a trivalent impurity (e.g., B, Al, In). |\n| 2. Charge carriers | Free electrons are majority carriers and holes are minority carriers (nₑ >> nₕ). | Holes are majority carriers and free electrons are minority carriers (nₕ >> nₑ). |\n| 3. Donor / Acceptor level | The donor energy level lies just below the bottom of the conduction band. | The acceptor energy level lies just above the top of the valence band. |"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Describe the use of a p-n junction diode as a half-wave rectifier under the following headings:\n(i) Principle\n(ii) Electric circuit\n(iii) Working",
+            "correct_answer": "",
+            "explanation": "(i) Principle:\nA p-n junction diode conducts current easily when forward biased (offering very low resistance) and blocks current almost completely when reverse biased (offering extremely high resistance).\n\n(ii) Electric Circuit:\n[Circuit diagram: The primary coil of a step-down transformer is connected to an AC source. One end of the secondary coil is connected to the p-side of diode D, while a load resistor R_L is connected between the n-side and the other end of the secondary coil to obtain output voltage.]\n\n(iii) Working:\n• During the positive half-cycle: End A of the secondary coil is positive and end B is negative. Diode D is forward biased and conducts current through the load resistor R_L.\n• During the negative half-cycle: End A becomes negative and end B becomes positive. Diode D is reverse biased and does not conduct; hence no current flows through R_L.\nThus, unidirectional pulsating DC output is obtained only during alternate half-cycles."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive the refraction formula n/v - 1/u = (n - 1)/R for a convex spherical refracting surface.",
+          "correct_answer": "",
+          "explanation": "Consider a convex spherical refracting surface separating a rarer medium (refractive index n₁ = 1) from a denser medium (refractive index n₂ = n), with pole P and centre of curvature C. A point object O lies on the principal axis and its real image is formed at I.\n\n1. From geometry (let rays make angles α, β, γ with the principal axis):\nIn ΔOAC, by exterior angle theorem:\nAngle of incidence i = α + γ\nIn ΔIAC:\nγ = r + β ⇒ Angle of refraction r = γ - β\n\n2. For a small aperture (α, β, γ, i, r are very small):\nα ≈ tan α = AM / MO ≈ AM / (-u)\nβ ≈ tan β = AM / MI ≈ AM / (+v)\nγ ≈ tan γ = AM / MC ≈ AM / (+R)\n\n3. By Snell's law:\nn₁ sin i = n₂ sin r\nFor small angles: 1 · i = n · r\ni = n r\n\nSubstituting i and r:\nα + γ = n (γ - β)\nα + n β = (n - 1) γ\n\n4. Substituting values of α, β, γ:\n[AM / (-u)] + n [AM / v] = (n - 1) [AM / R]\n\nCancelling AM from both sides:\nn/v - 1/u = (n - 1) / R\n\nThis is the required formula for refraction at a convex spherical surface."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Derive an expression for the equivalent focal length of two thin lenses kept in contact.",
+            "correct_answer": "",
+            "explanation": "Consider two thin convex lenses L₁ and L₂ of focal lengths f₁ and f₂ placed coaxially in contact with each other. A point object O is placed on the principal axis at distance u.\n\n1. Refraction through the first lens L₁:\nObject distance = u and image I₁ is formed at distance v₁.\nFrom the lens formula:\n1/v₁ - 1/u = 1/f₁   --- (Equation 1)\n\n2. Refraction through the second lens L₂:\nThe image I₁ acts as a virtual object for the second lens L₂, forming the final image I at distance v.\nThus, for lens L₂:\n1/v - 1/v₁ = 1/f₂   --- (Equation 2)\n\n3. Adding Equations (1) and (2):\n(1/v₁ - 1/u) + (1/v - 1/v₁) = 1/f₁ + 1/f₂\n1/v - 1/u = 1/f₁ + 1/f₂\n\n4. If F is the equivalent focal length of the combination, then:\n1/v - 1/u = 1/F\n\nTherefore:\n1/F = 1/f₁ + 1/f₂\n(or F = f₁f₂ / (f₁ + f₂))\n\nIn terms of power: P = P₁ + P₂"
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive an expression for the electric potential at a point due to a point charge.",
+          "correct_answer": "",
+          "explanation": "Consider a point charge +q placed at point O in vacuum. We need to find the electric potential at point P at a distance r from O.\n\n1. Consider a unit positive charge (+1 C) placed at point A at distance x from O along line OP.\nBy Coulomb's law, the repulsive electrostatic force on it is:\nF = 1/(4πε₀) · (q / x²)\n\n2. Small work done in moving this unit positive charge through an infinitesimally small displacement dx from A to B against the electrostatic force:\ndW = - F dx   (negative sign indicates displacement is opposite to force)\ndW = - [1/(4πε₀) · (q / x²)] dx\n\n3. Total work done in bringing the unit positive charge from infinity (∞) to point P (distance r), which defines electric potential V:\nV = ∫ dW = - ∫[∞ to r] [q / (4πε₀ x²)] dx\nV = - [q / (4πε₀)] ∫[∞ to r] x⁻² dx\nV = - [q / (4πε₀)] [ - 1/x ]_[∞ to r]\nV = [q / (4πε₀)] [ 1/r - 1/∞ ]\n\nSince 1/∞ = 0:\nV = 1/(4πε₀) · (q / r) Volt\n\nThis is the required expression for electric potential at distance r due to a point charge."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Derive expressions for the equivalent capacitance of capacitors connected in series and in parallel.",
+            "correct_answer": "",
+            "explanation": "(1) Equivalent Capacitance in Series Combination:\nLet three capacitors C₁, C₂, C₃ be connected in series. Each capacitor carries the same charge Q, while potential differences across them are V₁, V₂, V₃ respectively.\nTotal potential difference: V = V₁ + V₂ + V₃\nSince V = Q/C:\nQ/C = Q/C₁ + Q/C₂ + Q/C₃\n1/C = 1/C₁ + 1/C₂ + 1/C₃\n\n(2) Equivalent Capacitance in Parallel Combination:\nLet three capacitors C₁, C₂, C₃ be connected in parallel. The potential difference V across each capacitor is the same, while charges on them are Q₁, Q₂, Q₃ respectively.\nTotal charge: Q = Q₁ + Q₂ + Q₃\nSince Q = CV:\nC V = C₁ V + C₂ V + C₃ V\nC = C₁ + C₂ + C₃"
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain the various energy losses occurring in a transformer.",
+          "correct_answer": "",
+          "explanation": "The major energy losses during energy transfer from primary to secondary coil in a transformer are:\n\n1. Copper Loss: Energy is lost as Joule heat (I²Rt) due to the electrical resistance of the copper windings in the primary and secondary coils. (Minimised by using thick copper wires).\n2. Iron Loss / Eddy Current Loss: Alternating magnetic flux induces eddy currents in the iron core, heating it up and wasting energy. (Minimised by using a laminated core).\n3. Hysteresis Loss: Repeated magnetisation and demagnetisation of the iron core during each AC cycle dissipates energy as heat. (Minimised by using a soft iron / silicon steel core with low hysteresis loss).\n4. Flux Leakage: Not all magnetic flux produced by the primary coil links with the secondary coil. (Minimised by winding coils over one another on the same core limb).\n5. Humming Loss: Energy lost as sound due to magnetostriction (vibrations) of the core."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "State Faraday's laws of electromagnetic induction and explain the second law.",
+            "correct_answer": "",
+            "explanation": "(1) Faraday's Laws:\n• First Law: Whenever the magnetic flux linked with a closed circuit changes, an induced electromotive force (emf) is produced in the circuit. This induced emf lasts only as long as the change in magnetic flux continues.\n• Second Law: The magnitude of the induced emf in a circuit is directly proportional to the time rate of change of magnetic flux linked with the circuit.\n\n(2) Explanation and Mathematical Formulation of Second Law:\nLet Φ₁ be the magnetic flux linked with a coil at time t₁ and Φ₂ at time t₂.\nChange in flux ΔΦ = Φ₂ - Φ₁ in time interval Δt = t₂ - t₁.\n\nAccording to Faraday's second law:\ne ∝ ΔΦ / Δt\nIn limiting form: e = - dΦ/dt (in SI units, proportionality constant = 1)\n\nThe negative (-) sign represents Lenz's law, indicating that the induced emf opposes the change in magnetic flux.\nIf the coil has N turns, then: e = - N (dΦ/dt)"
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+2+1=4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is critical angle? Establish the relation between refractive index of a medium and critical angle.",
+          "correct_answer": "μ = 1 / sin i_c",
+          "explanation": "1. Critical Angle:\nThe particular angle of incidence in the denser medium for which the corresponding angle of refraction in the rarer medium is 90° is called the critical angle (i_c or C).\n\n2. Relation between refractive index and critical angle:\nBy Snell's law (for a ray travelling from denser medium 1 to rarer medium 2):\n₁μ₂ = sin i / sin r\n\nWhen angle of incidence i = i_c, angle of refraction r = 90°:\n₁μ₂ = sin i_c / sin 90° = sin i_c   (since sin 90° = 1)\n\nBy the principle of reversibility of light:\n₂μ₁ (i.e., refractive index μ of denser medium with respect to rarer medium) = 1 / ₁μ₂\n\nTherefore:\nμ = 1 / sin i_c   (or sin i_c = 1 / μ)"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Write the conditions for Total Internal Reflection (TIR).",
+          "correct_answer": "",
+          "explanation": "Two essential conditions for Total Internal Reflection are:\n1. Light must travel from an optically denser medium to an optically rarer medium.\n2. The angle of incidence in the denser medium must be greater than the critical angle for that pair of media (i > i_c)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "When monochromatic light is incident on a surface separating two media, both the reflected and refracted light have the same frequency. Explain why?",
+            "correct_answer": "",
+            "explanation": "Reflection and refraction arise through the interaction of incident light with the atomic constituents of matter. Atoms may be viewed as oscillators which take up the frequency of the external agency (light) causing forced oscillations. The frequency of light emitted by a charged oscillator equals its frequency of oscillation. Since frequency is a characteristic of the source, both reflected and refracted light retain the same frequency as the incident light."
+          },
+          {
+            "q_id": "ii",
+            "statement": "When light travels from a rarer to a denser medium, its speed decreases. Does the reduction in speed imply a reduction in the energy carried by the light wave?",
+            "correct_answer": "",
+            "explanation": "No. The decrease in speed does not imply a decrease in the energy carried by the light wave. In the wave picture, energy depends on the amplitude and frequency of the wave (E = hν), not on its speed of propagation. When light enters a denser medium, its frequency remains constant while wavelength decreases, causing speed (v = νλ) to decrease, but the energy transmitted per second remains conserved."
+          },
+          {
+            "q_id": "iii",
+            "statement": "In the wave picture of light, intensity of light is determined by the square of the amplitude of the wave. What determines the intensity of light in the photon picture of light?",
+            "correct_answer": "",
+            "explanation": "In the photon picture (quantum theory) of light, for a given frequency, the intensity of light is determined by the number of photons incident per unit area per unit time (photon flux)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    }
+  ]
+}

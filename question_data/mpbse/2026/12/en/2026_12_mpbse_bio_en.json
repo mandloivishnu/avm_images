@@ -1,0 +1,768 @@
+{
+  "paper_details": {
+    "paperYear": "2026",
+    "subjectName": "BIOLOGY",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "16",
+    "timeAllowed": "3 Hours",
+    "board": "MP Board",
+    "examType": "Higher Secondary Examination (Main)",
+    "set": "A",
+    "paperCode": "265524",
+    "language": "English",
+    "instructions": [
+      "Question numbers 1 to 5 consist of 28 objective-type questions. Each question carries 1 mark.",
+      "Question numbers 6 to 12 are very short answer type questions, comprising 7 questions in total. Each question carries 2 marks. Word limit is approximately 30 words.",
+      "Question numbers 13 to 16 are short answer type questions, comprising 4 questions in total. Each question carries 3 marks. Word limit is approximately 75 words.",
+      "Question numbers 17 to 20 are long answer type questions, comprising 4 questions in total. Each question carries 4 marks. Word limit is approximately 120 words.",
+      "Internal choices are provided in every question from question numbers 6 to 20.",
+      "Draw neat and labelled diagrams wherever necessary."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The state of inactivity of an embryo inside a seed is called –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Polyembryony"
+            },
+            {
+              "index": "b",
+              "text": "Vernalisation"
+            },
+            {
+              "index": "c",
+              "text": "Dormancy"
+            },
+            {
+              "index": "d",
+              "text": "Apomixis"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Dormancy",
+          "explanation": "The metabolically inactive state of an embryo inside a seed is called seed dormancy, which keeps the embryo safe under unfavourable environmental conditions."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The process of fertilisation takes place in which region of the oviduct (fallopian tube)?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Uterine cavity"
+            },
+            {
+              "index": "b",
+              "text": "Isthmus"
+            },
+            {
+              "index": "c",
+              "text": "Ampulla"
+            },
+            {
+              "index": "d",
+              "text": "Infundibulum"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Ampulla",
+          "explanation": "In human females, fertilisation (fusion of sperm and ovum) takes place in the ampullary region (ampulla) of the fallopian tube."
+        },
+        {
+          "q_id": "iii",
+          "statement": "DNA fragments have the same kind of sticky ends which are joined together with the help of which of the following?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Restriction enzyme"
+            },
+            {
+              "index": "b",
+              "text": "DNA ligase"
+            },
+            {
+              "index": "c",
+              "text": "Chitinase"
+            },
+            {
+              "index": "d",
+              "text": "Hind-II"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "DNA ligase",
+          "explanation": "The enzyme DNA ligase joins cut DNA fragments together by forming phosphodiester bonds between their complementary sticky ends."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which of the following is NOT a step in a cycle of Polymerase Chain Reaction (PCR)?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Denaturation"
+            },
+            {
+              "index": "b",
+              "text": "Primer annealing"
+            },
+            {
+              "index": "c",
+              "text": "Extension of primers"
+            },
+            {
+              "index": "d",
+              "text": "Identification of DNA with desirable genes"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Identification of DNA with desirable genes",
+          "explanation": "A PCR cycle consists of three main steps: (1) Denaturation, (2) Annealing, and (3) Extension. 'Identification of DNA with desirable genes' is not a step of a PCR cycle."
+        },
+        {
+          "q_id": "v",
+          "statement": "An interaction between two species in which both species are benefited is called –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Commensalism"
+            },
+            {
+              "index": "b",
+              "text": "Mutualism"
+            },
+            {
+              "index": "c",
+              "text": "Parasitism"
+            },
+            {
+              "index": "d",
+              "text": "Competition"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Mutualism",
+          "explanation": "Mutualism is a biological interaction in which both interacting species derive mutual benefit (+, +), such as in lichens and mycorrhizae."
+        },
+        {
+          "q_id": "vi",
+          "statement": "If we subtract respiration losses from Gross Primary Productivity (GPP), we obtain –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Productivity"
+            },
+            {
+              "index": "b",
+              "text": "Net Primary Productivity"
+            },
+            {
+              "index": "c",
+              "text": "Secondary Productivity"
+            },
+            {
+              "index": "d",
+              "text": "Primary Production"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Net Primary Productivity",
+          "explanation": "According to the ecological formula: NPP = GPP - R, subtracting respiration loss (R) from Gross Primary Productivity (GPP) gives Net Primary Productivity (NPP)."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks with the correct answers:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The contraceptive pill named {BLANK} was developed at the Central Drug Research Institute (CDRI) in Lucknow, India.",
+          "options": [],
+          "correct_answer": "Saheli",
+          "explanation": "Saheli\n\nReason: 'Saheli' is a non-steroidal, once-a-week oral contraceptive pill developed by CDRI, Lucknow."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Sickle-cell anaemia is an example of {BLANK} mutation.",
+          "options": [],
+          "correct_answer": "Point",
+          "explanation": "Point\n\nReason: It is a point mutation caused by the substitution of a single base pair in the sixth codon of the beta-globin chain, changing GAG to GUG."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Homo sapiens (modern humans) arose in {BLANK} and moved across continents.",
+          "options": [],
+          "correct_answer": "Africa",
+          "explanation": "Africa\n\nReason: Modern humans (Homo sapiens) originated in the African continent and gradually spread across other continents."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Virus-infected cells secrete proteins called {BLANK}.",
+          "options": [],
+          "correct_answer": "Interferons",
+          "explanation": "Interferons\n\nReason: Virus-infected cells secrete glycoproteins called interferons, which protect non-infected cells from further viral infection."
+        },
+        {
+          "q_id": "v",
+          "statement": "Insulin consists of two short polypeptide chains: chain 'A' and chain 'B' that are linked together by {BLANK} bridges/bonds.",
+          "options": [],
+          "correct_answer": "Disulphide",
+          "explanation": "Disulphide\n\nReason: Polypeptide chains 'A' and 'B' of mature insulin are linked together by two inter-chain disulphide bonds (-S-S-)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "When a species becomes extinct, the plant and animal species associated with it in an obligatory way also become extinct. This is called {BLANK}.",
+          "options": [],
+          "correct_answer": "Co-extinction",
+          "explanation": "Co-extinction\n\nReason: When the extinction of one species leads to the extinction of other plant or animal species obligatorily dependent on it, the phenomenon is termed co-extinction."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The exine of a pollen grain is made up of sporopollenin.",
+          "correct_answer": "true",
+          "explanation": "True\n\nExplanation: The outer layer (exine) of a pollen grain is composed of sporopollenin, the most resistant organic material known."
+        },
+        {
+          "q_id": "ii",
+          "statement": "50 primary spermatocytes produce 200 sperms (spermatozoa).",
+          "correct_answer": "true",
+          "explanation": "True\n\nExplanation: One primary spermatocyte undergoes meiosis to form 4 haploid sperms; therefore, 50 primary spermatocytes produce 50 × 4 = 200 sperms."
+        },
+        {
+          "q_id": "iii",
+          "statement": "A person suffering from colour blindness can discriminate only between red and green colours.",
+          "correct_answer": "false",
+          "explanation": "False\n\nExplanation: A person affected by colour blindness fails to discriminate between red and green colours."
+        },
+        {
+          "q_id": "iv",
+          "statement": "A nitrogenous base named uracil is found in DNA.",
+          "correct_answer": "false",
+          "explanation": "False\n\nExplanation: Uracil is present only in RNA; in DNA, thymine is present in place of uracil."
+        },
+        {
+          "q_id": "v",
+          "statement": "Bone marrow and thymus are secondary lymphoid organs.",
+          "correct_answer": "false",
+          "explanation": "False\n\nExplanation: Bone marrow and thymus are 'primary' lymphoid organs where immature lymphocytes differentiate into antigen-sensitive lymphocytes."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Each restriction endonuclease recognises a specific palindromic nucleotide sequence in the DNA.",
+          "correct_answer": "true",
+          "explanation": "True\n\nExplanation: Each restriction endonuclease inspects the length of a DNA sequence, recognises its specific palindromic nucleotide sequence, and cuts the DNA at that specific site."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×5=5",
+      "text": "Match the correct pairs:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column (A)",
+        "column_B_title": "Column (B)",
+        "pairs": [
+          {
+            "a_item": "(i) Strawberry",
+            "b_item": "Blood cholesterol",
+            "correct_match_index": "4"
+          },
+          {
+            "a_item": "(ii) Vasectomy",
+            "b_item": "Clostridium butylicum",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(iii) Swiss cheese",
+            "b_item": "Male sterilisation",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(iv) Butyric acid",
+            "b_item": "False fruit",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(v) Statin",
+            "b_item": "Propionibacterium sharmanii",
+            "correct_match_index": "1"
+          }
+        ]
+      },
+      "explanation": "The correct matching of Column (A) with Column (B) and their reasons are:\n\n(i) Strawberry ⟶ False fruit\nReason: In strawberry, the thalamus also contributes to fruit formation, so it is a false fruit.\n\n(ii) Vasectomy ⟶ Male sterilisation\nReason: Vasectomy is a permanent surgical method of contraception (sterilisation) in males.\n\n(iii) Swiss cheese ⟶ Propionibacterium sharmanii\nReason: The large holes in Swiss cheese are due to the production of a large amount of CO₂ by the bacterium Propionibacterium sharmanii.\n\n(iv) Butyric acid ⟶ Clostridium butylicum\nReason: The bacterium Clostridium butylicum is used for the commercial production of butyric acid.\n\n(v) Statin ⟶ Blood cholesterol\nReason: Statins (produced by the yeast Monascus purpureus) are used as blood-cholesterol-lowering agents."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Write the answer in one sentence / word:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the genetic codon that performs dual functions (coding for methionine and acting as an initiator codon).",
+          "correct_answer": "AUG",
+          "explanation": "AUG\n\nReason: The codon AUG acts as an initiator codon during protein synthesis and also codes for the amino acid methionine."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What type of charge is present on DNA fragments?",
+          "correct_answer": "Negative charge",
+          "explanation": "Negative charge\n\nReason: Due to the presence of negatively charged phosphate groups (PO₄³⁻) in the sugar-phosphate backbone, DNA fragments carry a negative charge."
+        },
+        {
+          "q_id": "iii",
+          "statement": "In tissue culture, what is the capacity to generate a whole plant from any cell / explant called?",
+          "correct_answer": "Totipotency",
+          "explanation": "Totipotency\n\nReason: The inherent capacity of any living plant cell or explant to regenerate into a complete whole plant is called totipotency."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is the interaction between two species called in which one species is benefited and the other is neither harmed nor benefited?",
+          "correct_answer": "Commensalism",
+          "explanation": "Commensalism\n\nReason: Commensalism is a (+, 0) population interaction where one species benefits while the other remains unaffected."
+        },
+        {
+          "q_id": "v",
+          "statement": "A food chain that begins with dead organic matter is called –",
+          "correct_answer": "Detritus Food Chain (DFC)",
+          "explanation": "Detritus Food Chain (DFC)\n\nReason: The detritus food chain begins with dead organic matter (detritus) and passes through decomposers and detritivores."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1=2",
+      "text": " ",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Medical Termination of Pregnancy (MTP)? Up to how many weeks is it considered safe? Write.",
+          "correct_answer": "",
+          "explanation": "1. Medical Termination of Pregnancy (MTP): Intentional or voluntary termination of pregnancy before full term is called Medical Termination of Pregnancy (induced abortion).\n2. Safe Period: MTPs are considered relatively safe during the first trimester, i.e., up to 12 weeks (approximately 3 months) of pregnancy."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write what is Test Tube Baby programme.",
+            "correct_answer": "",
+            "explanation": "Test Tube Baby Programme (IVF-ET):\nIn this technique, ova from the wife/donor (female) and sperms from the husband/donor (male) are collected and induced to form a zygote under simulated conditions in the laboratory (In Vitro Fertilisation – IVF). The zygote or early embryos (with up to 8 blastomeres) are then transferred into the fallopian tube (ZIFT), or embryos with more than 8 blastomeres are transferred into the uterus (IUT) to complete further development."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1=2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Mendel's Law of Dominance and explain why the F₂ generation ratio is 3:1.",
+          "correct_answer": "",
+          "explanation": "1. Law of Dominance: When two pure-breeding parents with a pair of contrasting characters are crossed, only one character expresses itself in the F₁ generation (called the dominant trait), while the other remains hidden (called the recessive trait).\n2. Reason for 3:1 Ratio: On selfing the F₁ hybrid tall plants (Tt), heterozygous plants (Tt) also appear phenotypically tall because 'T' is dominant over 't'. Thus, 1 TT (pure tall) and 2 Tt (hybrid tall) result in 3 tall plants and 1 tt (dwarf) plant, giving a 3:1 phenotypic ratio in the F₂ generation."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What do you understand by Test Cross? Write with an example.",
+            "correct_answer": "",
+            "explanation": "Test Cross:\nA cross between an organism showing a dominant phenotype (whose genotype is unknown) and its recessive parent to determine the unknown genotype is called a test cross.\nExample: Crossing a heterozygous tall pea plant (Tt) with a homozygous dwarf parent (tt): Tt × tt ⟶ 1 Tall (Tt) : 1 Dwarf (tt) (1:1 ratio)."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1=2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the name and symptoms of the chromosomal disorder caused due to the following:\n(i) Presence of an additional copy of chromosome number 21\n(ii) Absence of one 'X' chromosome (XO)",
+          "correct_answer": "",
+          "explanation": "(i) Trisomy of chromosome 21:\n• Name of disorder: Down's Syndrome\n• Symptoms: Short stature with small round head, furrowed tongue, partially open mouth, and retarded physical, psychomotor, and mental development.\n\n(ii) Absence of one 'X' chromosome (44 + XO):\n• Name of disorder: Turner's Syndrome\n• Symptoms: Affected females are sterile with rudimentary ovaries and lack secondary sexual characters."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Describe sex determination in honey bee with the help of a diagram.",
+            "correct_answer": "",
+            "explanation": "Sex determination in honey bees is based on the haplodiploid system:\n1. Female (Queen/Worker): Diploid (2n = 32), develops from a fertilised egg.\n2. Male (Drone): Haploid (n = 16), develops from an unfertilised egg by parthenogenesis.\n\n[Diagram]:\nFemale (2n=32) ⟶ Meiosis ⟶ Eggs (n=16)\nMale (n=16) ⟶ Mitosis ⟶ Sperms (n=16)\n• Fertilisation (n + n = 2n = 32) ⟶ Female\n• Parthenogenesis (n = 16) ⟶ Male (Drone)"
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1=2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the functions of B-lymphocytes and T-lymphocytes in the immune system.",
+          "correct_answer": "",
+          "explanation": "1. B-lymphocytes: They produce an army of proteins called antibodies in the blood in response to pathogens to fight with them, providing humoral immune response.\n2. T-lymphocytes: They do not secrete antibodies themselves but help B-cells produce them, and directly destroy infected or cancerous cells to mediate cell-mediated immunity (CMI)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw a labelled diagram of the human lymphatic system.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "",
+            "explanation": "[Labelled diagram of the human lymphatic system:]\nLabel the major lymphoid organs:\n• Primary lymphoid organs: Thymus and Bone marrow.\n• Secondary lymphoid organs: Spleen, Lymph nodes, and Lymphatic vessels."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write any 2 differences between Exonuclease and Endonuclease.",
+          "correct_answer": "",
+          "explanation": "Two differences between Exonuclease and Endonuclease:\n\n1. Site of cleavage: Exonucleases remove nucleotides from the outer ends of the DNA strand, whereas endonucleases make cuts at specific positions within the DNA molecule.\n2. Role in genetic engineering: Exonucleases are generally not used in rDNA construction, whereas restriction endonucleases act as molecular scissors by cutting DNA at specific palindromic recognition sequences."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw a labelled diagram of a bioreactor.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "",
+            "explanation": "[Labelled diagram of a simple stirred-tank bioreactor:]\nLabels:\n1. Motor and driven shaft\n2. Flat-bladed impeller (agitator)\n3. Sparger (sterile air supply for aeration)\n4. Foam breaker\n5. Acid/base control for pH and temperature control system\n6. Culture broth and sampling port."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw and label the given diagram of population growth in your answer book (from 1 to 4).",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "Correct labelling of the 4 factors affecting population density (N):\n\n• 1 = Natality (B) [Sign +]\n• 2 = Immigration (I) [Sign +]\n• 3 = Mortality (D) [Sign -]\n• 4 = Emigration (E) [Sign -]\n\n(Formula: Nₜ₊₁ = Nₜ + [(B + I) - (D + E)])"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "State Gause's 'Competitive Exclusion Principle' and also state which type of species gets eliminated when resources are limiting.",
+            "correct_answer": "",
+            "explanation": "1. Gause's Competitive Exclusion Principle: Two closely related species competing for the same limiting resources cannot co-exist indefinitely.\n2. Eliminated species: When resources are limiting, the competitively inferior species will be eliminated eventually by the competitively superior species."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "In which trophic levels can a sparrow be placed in the same ecosystem? Write.",
+          "correct_answer": "",
+          "explanation": "A sparrow is an omnivorous bird and can occupy two different trophic levels in the same ecosystem:\n1. Primary Consumer (T₂): When it feeds directly on seeds, fruits, peas, or grains.\n2. Secondary Consumer (T₃): When it feeds on insects and worms."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What shape does the pyramid of numbers of a large tree take? Explain with a diagram.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "",
+            "explanation": "The pyramid of numbers in a single large tree ecosystem is 'Inverted'.\n\n[Linear Pyramid Diagram]:\n▼ Top level (Hyperparasites/parasites like lice & bugs – very large number)\n▼ Herbivorous birds (Moderate number)\n▼ Single large tree / Producer (Number = 1)\n\nReason: At the base there is only one tree (producer), which supports many herbivorous birds, and each bird in turn supports a much larger number of ectoparasites."
+          }
+        ]
+      },
+      "word_limit": "Approximately 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+2=3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Autogamy? Why cannot cross-pollination take place in cleistogamous flowers? Explain with reason.",
+          "correct_answer": "",
+          "explanation": "1. Autogamy: Transfer of pollen grains from the anther to the stigma of the same flower is called autogamy.\n2. Reason for absence of cross-pollination in cleistogamous flowers: Cleistogamous flowers do not open at all (they remain permanently closed). Because the flowers never open, external pollen grains cannot land on the stigma. When anthers dehisce inside the closed flower buds, pollen grains come in contact only with the stigma of the same flower, making cross-pollination completely impossible."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is Megasporogenesis? Draw a labelled diagram of a mature embryo sac.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "",
+            "explanation": "(1) Megasporogenesis: The process of formation of four haploid megaspores from a diploid megaspore mother cell (MMC) through meiotic division is called megasporogenesis.\n\n(2) Labelled diagram description of a mature embryo sac (female gametophyte):\nIt is a 7-celled, 8-nucleate structure:\n• At the chalazal end: 3 antipodal cells.\n• In the centre: A large central cell containing 2 polar nuclei.\n• At the micropylar end: The egg apparatus consisting of 1 egg cell and 2 synergids with filiform apparatus."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1+1=3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write short notes on the following:\n(i) Natural Selection\n(ii) Homology\n(iii) Analogy",
+          "correct_answer": "",
+          "explanation": "(i) Natural Selection: According to Darwin, nature selects only those organisms that are better adapted to their environment. Such fit individuals leave more progeny and pass on their advantageous traits to future generations.\n\n(ii) Homology: Organs in different organisms that share a similar basic anatomical structure and embryonic origin but perform different functions (e.g., flippers of whales, forelimbs of cheetah, and hands of humans). Homology indicates divergent evolution.\n\n(iii) Analogy: Organs in different organisms that have different anatomical structures and origins but perform similar functions (e.g., wings of a butterfly and wings of a bird). Analogy indicates convergent evolution."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write about the following:\n(i) Big Bang Theory\n(ii) Write only the names of the gases taken by scientist S. L. Miller in the closed flask during his experiment.\n(iii) Write the equation of Hardy-Weinberg Principle.",
+            "correct_answer": "",
+            "explanation": "(i) Big Bang Theory: It is the most widely accepted theory explaining the origin of the universe. It proposes a singular huge thermonuclear explosion about 20 billion years ago, after which the universe expanded, temperature cooled down, and galaxies and stars were formed.\n\n(ii) Gases used in Miller's experiment: Methane (CH₄), Ammonia (NH₃), Hydrogen (H₂), and Water vapour (H₂O).\n\n(iii) Hardy-Weinberg Principle equation:\np² + 2pq + q² = 1 (and p + q = 1)\nwhere p = frequency of dominant allele, q = frequency of recessive allele, and 2pq = frequency of heterozygotes."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1+1=3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is biogas? Draw a labelled diagram of a biogas plant and write the uses of biogas in daily life.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "(1) Biogas: Biogas is a mixture of inflammable gases (predominantly methane CH₄, along with CO₂ and H₂S) produced by the microbial activity of methanogenic bacteria (such as Methanobacterium) acting anaerobically on cattle dung and organic waste.\n\n(2) Uses in daily life:\n1. As a clean, smokeless fuel for cooking in rural areas.\n2. For lighting and generating electricity to run pumps/generators.\n(Additional: The spent slurry is used as an excellent organic fertiliser.)\n\n(3) Diagram of Biogas Plant:\n[Draw a neat labelled diagram showing the concrete digester tank, dung-water mixing tank/inlet, floating gas holder, gas outlet pipe, and sludge overflow tank.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is BOD? Write three measures to reduce the BOD of polluted water in a pond.",
+            "correct_answer": "",
+            "explanation": "(1) BOD (Biochemical Oxygen Demand): BOD refers to the amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria. It is a direct measure of organic pollution in water.\n\n(2) Three measures to reduce BOD of pond water:\n1. Preventing waste discharge: Stopping the direct inflow of untreated domestic sewage, garbage, and cattle waste into the pond.\n2. Artificial aeration: Using fountains or aerators to pump air into the pond water, increasing dissolved oxygen levels.\n3. Controlling aquatic weeds and bioremediation: Removing excessive weeds like water hyacinth and using beneficial microbes/phytoremediation to speed up natural decomposition."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Biodiversity? Write the names of its 3 major levels.",
+          "correct_answer": "",
+          "explanation": "(1) Biodiversity: Biodiversity refers to the totality of genes, species, and ecosystems of a region or the entire Earth, encompassing all forms of plants, animals, and microorganisms.\n\n(2) Its 3 major levels:\n1. Genetic Diversity: Diversity shown by a single species at the genetic level over its distributional range (e.g., over 50,000 strains of rice in India).\n2. Species Diversity: Diversity at the species level in a given region (e.g., the Western Ghats have a greater amphibian species diversity than the Eastern Ghats).\n3. Ecological Diversity: Diversity at the ecosystem level (e.g., deserts, rain forests, mangroves, coral reefs, and wetlands in India)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the major hypotheses proposed by ecologists and evolutionary biologists regarding patterns of biodiversity (any three).",
+            "correct_answer": "",
+            "explanation": "Three major hypotheses explaining higher species richness in tropical regions:\n\n1. Speciation time hypothesis: Temperate regions were subjected to frequent glaciations in the past, whereas tropical latitudes remained relatively undisturbed for millions of years, giving a long evolutionary time for species diversification.\n2. Constant and predictable environment: Tropical environments are less seasonal, relatively more constant, and predictable, which promotes niche specialisation and leads to greater species diversity.\n3. More solar energy: Tropical regions receive more solar energy throughout the year, contributing to higher primary productivity, which indirectly supports greater biodiversity."
+          }
+        ]
+      },
+      "word_limit": "Approximately 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1+1+1+1=4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write briefly about the following:\n(i) Functions of Placenta\n(ii) Menopause\n(iii) Stem Cells\n(iv) Zona Pellucida",
+          "correct_answer": "",
+          "explanation": "(i) Functions of Placenta: It facilitates the supply of oxygen and nutrients to the embryo from maternal blood, removes carbon dioxide and excretory waste materials produced by the embryo, and acts as an endocrine tissue producing hormones like hCG, hPL, estrogens, and progestogens.\n\n(ii) Menopause: In human females, menstrual cycles cease permanently around 45–50 years of age; this permanent cessation of menstruation is termed menopause and marks the end of reproductive capacity.\n\n(iii) Stem Cells: These are undifferentiated cells present in the inner cell mass of the blastocyst (and certain adult tissues) that possess the potency to divide and give rise to all tissues and organs in the body.\n\n(iv) Zona Pellucida: It is a transparent, non-cellular glycoprotein layer surrounding the primary oocyte/ovum. When one sperm comes in contact with it, it induces changes in the membrane that block the entry of additional sperms (preventing polyspermy)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw neat and labelled diagrams of human sperm and transverse section (T.S.) of ovary.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "",
+            "explanation": "(1) Labelled diagram of Human Sperm:\n• Head – containing acrosome and elongated haploid nucleus\n• Neck\n• Middle piece – containing numerous spirally arranged mitochondria\n• Tail – for motility.\n\n(2) Labelled diagram of Transverse Section (T.S.) of Ovary:\n• Primary, secondary, and tertiary follicles\n• Mature Graafian follicle and ovulated ovum\n• Corpus luteum and corpus albicans\n• Blood vessels and ovarian stroma."
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is DNA Fingerprinting? Write its applications in the present scenario.",
+          "correct_answer": "",
+          "explanation": "(1) DNA Fingerprinting: It is a quick and accurate technique used to compare DNA sequences of any two individuals by identifying differences in specific repetitive DNA regions (VNTRs – Variable Number of Tandem Repeats). It was initially developed by Alec Jeffreys.\n\n(2) Applications in the present scenario:\n1. Forensic Science: Identifying criminals, murderers, and rapists from blood, hair follicles, saliva, semen, or skin samples found at crime scenes.\n2. Solving Paternity Disputes: Determining the biological parents of a child in legal and family disputes.\n3. Population and Evolutionary Genetics: Determining genetic diversities and evolutionary relationships among different populations and species.\n4. Identification of Disaster Victims & Immigration: Identifying mutilated bodies in accidents, wars, or natural calamities, and verifying family relationships in immigration cases."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw a diagram of the Watson and Crick double-helix model of DNA and write its salient features.",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "",
+            "explanation": "(1) Salient features of Watson and Crick DNA Double-Helix Model:\n1. DNA is made of two polynucleotide chains where the backbone is constituted by sugar-phosphate and the nitrogenous bases project inside.\n2. The two chains have anti-parallel polarity (one chain runs in 5'⟶3' direction and the other in 3'⟶5' direction).\n3. Complementary base pairing: Adenine pairs with Thymine through two hydrogen bonds (A = T), and Guanine pairs with Cytosine through three hydrogen bonds (G ≡ C).\n4. The two chains are coiled in a right-handed fashion; the pitch of the helix is 3.4 nm (34 Å) with roughly 10 base pairs (bp) in each turn (distance between two consecutive bp is 0.34 nm).\n\n(2) Labelled Diagram:\n[Draw a neat diagram of the DNA double helix showing major and minor grooves, sugar-phosphate backbone, and complementary base pairs.]"
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1/2+1/2+1.5+1.5=4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write about AIDS under the following points:\n(i) Name of the causative agent of AIDS\n(ii) Name of the diagnostic test for AIDS\n(iii) Write major causes of AIDS infection\n(iv) Preventive measures of AIDS",
+          "correct_answer": "",
+          "explanation": "(i) Causative agent: HIV (Human Immunodeficiency Virus), which belongs to a group of viruses called retroviruses.\n\n(ii) Diagnostic test: ELISA (Enzyme-Linked Immunosorbent Assay). Confirmatory diagnosis is done via Western Blot test.\n\n(iii) Major causes of HIV/AIDS transmission:\n1. Unprotected sexual contact with an infected person.\n2. Transfusion of contaminated blood and blood products.\n3. Sharing infected needles and syringes (as in intravenous drug abusers).\n4. From an infected mother to her child through the placenta.\n\n(iv) Preventive and control measures:\n1. Advocating safe sex and regular use of condoms.\n2. Making blood banks safe by mandatory HIV screening before blood transfusion.\n3. Ensuring the use of only disposable needles and syringes in public and private hospitals.\n4. Spreading public awareness through organisations like NACO (National AIDS Control Organisation) and NGOs."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write briefly about the following:\n(i) Autoimmune disease\n(ii) Withdrawal syndrome\n(iii) Ill-effects of drug and alcohol abuse\n(iv) Prevention and control measures of drug and alcohol abuse",
+            "correct_answer": "",
+            "explanation": "(i) Autoimmune Disease: Sometimes, due to genetic and other unknown reasons, the body attacks self-cells, resulting in damage to the body. This condition is called autoimmune disease (e.g., Rheumatoid arthritis).\n\n(ii) Withdrawal Syndrome: If a regular dose of drugs/alcohol is abruptly discontinued, the body manifests characteristic and unpleasant symptoms such as anxiety, shakiness, nausea, and sweating, which is termed withdrawal syndrome.\n\n(iii) Ill-effects of drug/alcohol abuse: Damage to nervous system and liver (cirrhosis), reckless and violent behaviour, depression, drop in academic performance, and financial and family breakdown.\n\n(iv) Prevention and control measures: Avoiding undue peer pressure, education and counselling from parents and teachers, seeking help from parents and peers, looking for danger signs early, and seeking professional medical and psychological help."
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2+2=4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Gene Therapy? Write the permanent cure for Adenosine Deaminase (ADA) deficiency.",
+          "correct_answer": "",
+          "explanation": "1. Gene Therapy: Gene therapy is a collection of methods that allows correction of a gene defect that has been diagnosed in a child/embryo, wherein normal functional genes are inserted into a person's cells and tissues to take over the function of and compensate for the non-functional gene.\n2. Permanent cure for ADA deficiency: If the gene isolate from marrow cells producing ADA is introduced into cells at early embryonic stages, it provides a permanent cure."
+        },
+        {
+          "q_id": "b",
+          "statement": "Why does the insecticidal protein produced during the growth of Bt cotton not kill the Bacillus bacterium, whereas it kills specific insects? Write.",
+          "correct_answer": "",
+          "explanation": "Reason:\nInside the bacterium Bacillus thuringiensis, the Bt toxin protein exists as an inactive protoxin, so it does not harm the Bacillus.\nHowever, once an insect ingests the inactive toxin, it is converted into an active form of toxin due to the alkaline pH of the insect's gut which solubilises the crystals. The activated toxin binds to the surface of midgut epithelial cells and creates pores that cause cell swelling and lysis, eventually causing the death of the insect."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are Transgenic Animals? Why are transgenic animals produced? Write about the benefits of these animals to humans.",
+            "correct_answer": "",
+            "explanation": "(1) Transgenic Animals: Animals that have had their DNA manipulated to possess and express an extra (foreign) gene are known as transgenic animals (e.g., Rosie the transgenic cow, transgenic mice).\n\n(2) Reasons for production and benefits to humans:\n1. Normal physiology and development: Designed to allow the study of how genes are regulated and how they affect normal functions of the body (e.g., studying insulin-like growth factors).\n2. Study of disease: Serve as models for human diseases such as cancer, cystic fibrosis, rheumatoid arthritis, and Alzheimer's to investigate new treatments.\n3. Biological products: Production of useful human proteins (e.g., human protein α-1-antitrypsin used to treat emphysema; transgenic cow 'Rosie' produced human protein-enriched milk containing human alpha-lactalbumin).\n4. Vaccine safety: Transgenic mice are used to test the safety of vaccines (such as the polio vaccine) before they are used on humans."
+          }
+        ]
+      },
+      "word_limit": "Approximately 120 words"
+    }
+  ]
+}

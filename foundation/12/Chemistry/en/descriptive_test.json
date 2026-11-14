@@ -1,0 +1,410 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Important Descriptive Questions Collection",
+    "totalMarks": "50",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Solutions",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is Henry's Law? Write its mathematical form.",
+          "explanation": "At constant temperature, the mass of a gas (m) dissolved in a given volume of a solvent is directly proportional to the pressure (p) of that gas.\nMathematical form: m = K_H · p (where K_H is Henry's constant).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "subjectName": "Solutions",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Raoult's Law.",
+          "explanation": "In a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction in the solution.\nFormula: p_A = p_A° · x_A",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "subjectName": "Solutions",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two differences between ideal and non-ideal solutions.",
+          "explanation": "1. Ideal solutions obey Raoult's law at all concentrations, whereas non-ideal solutions do not.\n2. On forming an ideal solution, volume change (ΔV_mix = 0) and enthalpy change (ΔH_mix = 0) are zero, whereas in a non-ideal solution they are not zero.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "subjectName": "Solutions",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define Molarity and Molality.",
+          "explanation": "Molarity (M): The number of moles of solute dissolved in 1 litre of solution is called molarity. (Depends on temperature)\nMolality (m): The number of moles of solute dissolved in 1 kg (1000 grams) of solvent is called molality. (Independent of temperature)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "subjectName": "Solutions",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is osmotic pressure? Write its formula.",
+          "explanation": "The minimum external pressure required to be applied on a solution to stop the flow of solvent molecules into the solution through a semipermeable membrane is called osmotic pressure.\nFormula: π = CRT (where C is concentration, R is gas constant, T is temperature).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "subjectName": "Electrochemistry",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Kohlrausch's Law.",
+          "explanation": "At infinite dilution, the molar conductivity of an electrolyte is equal to the sum of the individual ionic molar conductivities of its cations and anions.\nFormula: Λ°_m = ν₊ λ°₊ + ν₋ λ°₋",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "subjectName": "Electrochemistry",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define Specific Conductivity and Molar Conductivity.",
+          "explanation": "Specific Conductivity (κ): The conductivity of a column of a conductor 1 cm long and 1 sq cm in cross-section is called specific conductivity.\nMolar Conductivity (Λ_m): The conductivity produced by all the ions of a solution containing 1 mole of electrolyte dissolved in volume V.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "subjectName": "Electrochemistry",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the Nernst Equation.",
+          "explanation": "Equation to find electrode potential at 298 K temperature:\nE = E° - (0.0591 / n) log [Reduced form / Oxidized form]\nFor a cell: E_cell = E°_cell - (0.0591 / n) log Q",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "subjectName": "Electrochemistry",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is corrosion? Write two measures to prevent it.",
+          "explanation": "The slow destruction of a metal surface by converting into unwanted compounds due to the effect of atmospheric gases and moisture is called corrosion (e.g., rusting of iron).\nPreventive measures: 1. Galvanization 2. Applying paint or grease on the surface.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "subjectName": "Chemical Kinetics",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two differences between Order and Molecularity of a reaction.",
+          "explanation": "1. Order is the sum of powers of concentration terms used in the rate law (it is an experimental value and can be zero or fractional).\n2. Molecularity is the number of molecules taking part in an elementary step (it is a theoretical value and is always a whole number, never zero).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "subjectName": "Chemical Kinetics",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive the formula for half-life period for a zero-order reaction.",
+          "explanation": "Integrated rate equation for zero order: k = ([R]₀ - [R]) / t\nAt t = t_1/2, [R] = [R]₀ / 2\nk = ([R]₀ - [R]₀/2) / t_1/2 = [R]₀ / (2 t_1/2)\nTherefore, t_1/2 = [R]₀ / 2k (It is directly proportional to initial concentration).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "subjectName": "Chemical Kinetics",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the formula for the half-life period of a first-order reaction. What does it not depend on?",
+          "explanation": "Formula for half-life period of a first-order reaction:\nt_1/2 = 0.693 / k\nIt does not depend on the initial concentration [R]₀ of the reactant.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "subjectName": "d- and f- Block Elements",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why do transition elements form coloured ions?",
+          "explanation": "Ions of transition elements have incomplete d-subshells (d¹ to d⁹). By absorbing visible light, d-d transition of unpaired electrons takes place in them, resulting in the appearance of the complementary colour.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "subjectName": "d- and f- Block Elements",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is lanthanoid contraction? Write one of its main reasons.",
+          "explanation": "The gradual decrease in atomic and ionic radii of elements in the lanthanoid series with an increase in atomic number is called lanthanoid contraction.\nReason: Poor shielding effect of 4f electrons.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "subjectName": "Coordination Compounds",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a Chelate? Give an example.",
+          "explanation": "When a polydentate ligand attaches to a central metal ion through two or more donor atoms to form a ring-like structure, such a complex is called a chelate. It gives extra stability to the complex.\nExample: [Cu(en)₂]²⁺ (where en = ethylenediamine).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "subjectName": "Coordination Compounds",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the IUPAC name of K₄[Fe(CN)₆] and the oxidation state of the central metal.",
+          "explanation": "IUPAC name: Potassium hexacyanidoferrate(II)\nOxidation state: +2\n[4(+1) + x + 6(-1) = 0 ⇒ x = +2]",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "17",
+      "subjectName": "Haloalkanes and Haloarenes",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two main differences between SN1 and SN2 reactions.",
+          "explanation": "1. SN1 reaction occurs in two steps and a carbocation intermediate is formed (3° > 2° > 1°).\n2. SN2 reaction occurs in a single step through a transition state and inversion of configuration (Walden Inversion) takes place (1° > 2° > 3°).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "18",
+      "subjectName": "Haloalkanes and Haloarenes",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is chlorobenzene less reactive towards nucleophilic substitution compared to haloalkanes?",
+          "explanation": "Reason: 1. Due to resonance effect, partial double bond character comes in the C-Cl bond, making it difficult to break. 2. Carbon is sp² hybridized, whose electronegativity is higher than sp³ carbon.",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "19",
+      "subjectName": "Haloalkanes and Haloarenes",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the chemical equation for the Wurtz-Fittig reaction.",
+          "explanation": "When a mixture of an aryl halide and an alkyl halide is heated with sodium metal in the presence of dry ether, alkyl benzene is formed:\nC₆H₅Cl + 2Na + Cl-CH₃ -(Dry ether)→ C₆H₅-CH₃ (Toluene) + 2NaCl",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "20",
+      "subjectName": "Alcohols, Phenols and Ethers",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the Lucas test? How are 1°, 2°, and 3° alcohols differentiated by it?",
+          "explanation": "Lucas reagent (conc. HCl + anhydrous ZnCl₂) gives cloudiness of insoluble alkyl chloride with alcohol:\n• 3° alcohol: Immediate cloudiness\n• 2° alcohol: After about 5 minutes\n• 1° alcohol: No cloudiness at room temperature (only on heating).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "21",
+      "subjectName": "Alcohols, Phenols and Ethers",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is phenol more acidic than alcohol?",
+          "explanation": "Phenol loses H⁺ to form a phenoxide ion, which is highly stable due to resonance with the benzene ring. Whereas the alkoxide ion formed from alcohol is not stabilized by resonance (due to +I effect).",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "22",
+      "subjectName": "Alcohols, Phenols and Ethers",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the balanced chemical equation for Kolbe's reaction.",
+          "explanation": "When sodium phenoxide is heated with CO₂ at 400 K temperature and 4-7 atm pressure and then acidified, salicylic acid is obtained:\nC₆H₅ONa + CO₂ -(400 K, 4-7 atm)→ Sodium salicylate -(H⁺)→ C₆H₄(OH)COOH (Salicylic acid)",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "23",
+      "subjectName": "Alcohols, Phenols and Ethers",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the equation for the Reimer-Tiemann reaction.",
+          "explanation": "When phenol is heated with chloroform (CHCl₃) at 340 K in the presence of aqueous NaOH and acidified, ortho-salicylaldehyde is obtained as the main product:\nC₆H₅OH + CHCl₃ + 3NaOH -(340 K)→ C₆H₄(OH)CHO + 3NaCl + 2H₂O",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "24",
+      "subjectName": "Alcohols, Phenols and Ethers",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the chemical equation for the Williamson ether synthesis method.",
+          "explanation": "When an alkyl halide is heated with sodium alkoxide, ether is formed (SN2 mechanism):\nR-X + R'-ONa → R-O-R' + NaX\nExample: CH₃-I + C₂H₅-ONa → C₂H₅-O-CH₃ + NaI",
+          "imgUrl": ""
+        }
+      ]
+    },
+    {
+      "question_number": "25",
+      "subjectName": "Aldehydes, Ketones and Carboxylic Acids",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the Cannizzaro reaction? Write one chemical equation.",
+          "explanation": "Aldehydes that do not have α-hydrogen atoms (like HCHO, C₆H₅CHO) react with concentrated alkali (50% NaOH) to undergo self-oxidation and reduction, forming one molecule of alcohol and another molecule of salt of carboxylic acid:\n2HCHO + NaOH → CH₃OH + HCOONa",
+          "imgUrl": ""
+        }
+      ]
+    }
+  ]
+}

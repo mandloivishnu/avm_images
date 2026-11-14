@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 12 : Linear Programming",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Objective Function, Constraints & Corner Point Method (Quick Revision)",
+        "definition": "The mathematical formulation and graphical solution for the optimal (maximum or minimum) utilization of limited resources is called Linear Programming (LPP).",
+        "explanation": "The common region determined by the constraints (inequalities) is called the 'Feasible Region'. The optimal value of the objective function Z = ax + by is always obtained at the corner points of the feasible region.",
+        "importantPoints": [
+          "Objective Function: Z = ax + by (which needs to be maximized or minimized)",
+          "Constraints: Linear inequalities imposed on the variables",
+          "Non-negative Constraints: x ≥ 0, y ≥ 0 (Feasible region remains in the first quadrant)",
+          "Feasible Region: Common region satisfying all constraints",
+          "Corner Point Method: Finding the value of Z at all vertex points and comparing them",
+          "If the feasible region is bounded, both maximum and minimum values of Z are necessarily obtained"
+        ],
+        "highlightWords": [
+          "Linear Programming (LPP)",
+          "Objective Function Z",
+          "Constraints",
+          "Feasible Region",
+          "Corner Point Method",
+          "Optimal Solution"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Define Objective Function and Constraints in a Linear Programming Problem.",
+          "explanation": "1. Objective Function: A linear function Z = ax + by, which is to be maximized (profit) or minimized (cost) under available resources, is called the objective function.\n2. Constraints: The linear inequalities representing the limitations and restrictions imposed on the decision variables of the problem are called constraints (e.g., ax + by ≤ d, x ≥ 0, y ≥ 0).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is meant by Feasible Region?",
+            "explanation": "The region containing all common points that simultaneously satisfy all the constraints (inequalities) and the non-negative restrictions (x ≥ 0, y ≥ 0) of a linear programming problem is called the feasible region.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Maximize Z = 3x + 4y graphically subject to the constraints:\nx + y ≤ 4, x ≥ 0, y ≥ 0.",
+          "explanation": "Step 1: The points of the line x + y = 4 on the axes are A(4, 0) and B(0, 4).\nStep 2: Putting (0, 0) gives 0 + 0 ≤ 4 (True). Thus, the feasible region OAB is a bounded triangular region with vertices O(0, 0), A(4, 0), B(0, 4).\nStep 3: Evaluating Z = 3x + 4y at the corner points:\n• At O(0, 0): Z = 3(0) + 4(0) = 0\n• At A(4, 0): Z = 3(4) + 4(0) = 12\n• At B(0, 4): Z = 3(0) + 4(4) = 16 (Maximum)\nConclusion: The maximum value of Z is 16 at the point (0, 4).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If the constraints are x + y ≤ 4, x ≥ 0, y ≥ 0, what will be the minimum value of Z = 3x + 4y?",
+            "explanation": "Step 1: Corner points of the feasible region OAB are O(0, 0), A(4, 0), and B(0, 4).\nStep 2: Value at origin O(0, 0): Z = 3(0) + 4(0) = 0.\nHence, the minimum value of Z is 0 which occurs at the point (0, 0).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the main steps of the Corner Point Method procedure.",
+          "explanation": "Step 1: Convert the inequalities of the constraints into equations and draw their graph.\nStep 2: Find the common feasible region of all inequalities.\nStep 3: Find the coordinates of all corner points (vertices) of the feasible region.\nStep 4: Calculate the value of Z = ax + by at each corner point.\nStep 5: Identify the largest value among these as 'Maximum' and the smallest value as 'Minimum'.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If the same maximum value of Z is obtained at two corner points of an LPP, what is the conclusion?",
+            "explanation": "If the same maximum value of Z is obtained at two distinct corner points, then every point on the line segment joining those two points will give the same maximum value of Z (i.e., the problem will have infinitely many optimal solutions).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the minimum value of Z = 4x + y subject to the constraints:\nx + y ≤ 50, 3x + y ≤ 90, x ≥ 0, y ≥ 0.",
+          "explanation": "Step 1: Finding the corner points of the feasible region:\n1. O(0, 0)\n2. A(30, 0) [x-axis intercept of 3x + y = 90]\n3. B(20, 30) [Intersection point of x + y = 50 and 3x + y = 90: 2x = 40 ⇒ x = 20, y = 30]\n4. C(0, 50) [y-axis intercept of x + y = 50]\nStep 2: Value of Z = 4x + y at corner points:\n• O(0, 0) : Z = 4(0) + 0 = 0 (Minimum)\n• A(30, 0) : Z = 4(30) + 0 = 120\n• B(20, 30) : Z = 4(20) + 30 = 110\n• C(0, 50) : Z = 4(0) + 50 = 50\nConclusion: The minimum value of Z is 0 (at point 0, 0). (If non-zero minimum value is asked, it is 50 at point (0, 50)).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What will be the maximum value of Z = 4x + y in the above problem?",
+            "explanation": "Step 1: Values at corner points: O(0)=0, C(0,50)=50, B(20,30)=110, A(30,0)=120.\nStep 2: The largest value is 120.\nHence, the maximum value of Z is 120 obtained at point A(30, 0).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "How is the existence of an optimal value of the objective function determined when the feasible region is unbounded?",
+          "explanation": "Step 1: Let M be the maximum value of Z at corner points. Draw the open half-plane of the inequality ax + by > M. If there is no point in common between this half-plane and the feasible region, then M is the maximum value; otherwise, no maximum value exists.\nStep 2: For minimum value m, draw the open half-plane of the inequality ax + by < m. If there is no common point, then m is the minimum value; otherwise, no minimum value exists.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the physical/practical meaning of the non-negative restrictions x ≥ 0, y ≥ 0?",
+            "explanation": "In practical problems, the number of manufactured items, number of workers, or quantity of material can never be negative. Therefore, the decision variables x and y are always zero or positive (x ≥ 0, y ≥ 0).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

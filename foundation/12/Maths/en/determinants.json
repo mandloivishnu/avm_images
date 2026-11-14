@@ -1,0 +1,170 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 4 : Determinants",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Value of Determinant, Adjoint & Inverse of a Matrix (Quick Revision)",
+        "definition": "A unique number associated with every square matrix A is called its determinant, denoted by |A| or det(A).",
+        "explanation": "With the help of minors (Mᵢⱼ) and cofactors (Aᵢⱼ = (-1)ⁱ⁺ʲ Mᵢⱼ), the adjoint matrix adj(A) is found. If |A| ≠ 0 (non-singular matrix), then A⁻¹ = (1 / |A|) adj(A).",
+        "importantPoints": [
+          "2×2 Determinant: |[a, b], [c, d]| = ad - bc",
+          "Cofactor: Aᵢⱼ = (-1)ⁱ⁺ʲ Mᵢⱼ (where Mᵢⱼ is the minor)",
+          "Adjoint Matrix: adj(A) = Transpose of the matrix formed by cofactors",
+          "Important Theorem: A · adj(A) = adj(A) · A = |A| I",
+          "Inverse Matrix: A⁻¹ = (1 / |A|) adj(A) (Condition: |A| ≠ 0)",
+          "Singular Matrix: If |A| = 0",
+          "Area of Triangle = 1/2 |[x₁, y₁, 1], [x₂, y₂, 1], [x₃, y₃, 1]|"
+        ],
+        "highlightWords": [
+          "Determinant",
+          "Minor",
+          "Cofactor",
+          "Adjoint Matrix adj(A)",
+          "Inverse Matrix A⁻¹",
+          "Singular Matrix"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If |[x, 2], [18, x]| = |[6, 2], [18, 6]|, find the value of x.",
+          "explanation": "Step 1: Left determinant = (x)(x) - (2)(18) = x² - 36.\nStep 2: Right determinant = (6)(6) - (2)(18) = 36 - 36 = 0.\nStep 3: Comparing both sides: x² - 36 = 0 ⇒ x² = 36.\nStep 4: Taking square root: x = ±6.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the value of the determinant |[2, 4], [-1, 2]|.",
+            "explanation": "Step 1: Using 2×2 determinant formula |[a, b], [c, d]| = ad - bc.\nStep 2: Substituting values: (2)(2) - (4)(-1) = 4 - (-4) = 4 + 4 = 8.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are Non-singular and Singular matrices?",
+          "explanation": "1. Singular Matrix: If the value of the determinant of a square matrix A is zero (|A| = 0), it is called a singular matrix. (Its A⁻¹ does not exist).\n2. Non-singular Matrix: If the value of the determinant of a square matrix A is non-zero (|A| ≠ 0), it is called a non-singular matrix. (Its A⁻¹ exists).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If the matrix A = [[1, 2], [3, k]] is singular, what will be the value of k?",
+            "explanation": "Step 1: Condition for a singular matrix: Determinant value |A| = 0.\nStep 2: |A| = (1)(k) - (2)(3) = k - 6.\nStep 3: k - 6 = 0 ⇒ k = 6.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the adjoint of the matrix A = [[2, 3], [1, 4]].",
+          "explanation": "Step 1: Finding cofactors of elements Aᵢⱼ = (-1)ⁱ⁺ʲ Mᵢⱼ:\nA₁₁ = (-1)²(4) = 4, A₁₂ = (-1)³(1) = -1\nA₂₁ = (-1)³(3) = -3, A₂₂ = (-1)⁴(2) = 2\nStep 2: Matrix of cofactors = [[4, -1], [-3, 2]].\nStep 3: Adjoint adj(A) = Its Transpose = [[4, -3], [-1, 2]].",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If A is a square matrix of order 3 and |A| = 5, find the value of |adj(A)|.",
+            "explanation": "Step 1: Standard formula: |adj(A)| = |A|^(n - 1), where n is the order of the matrix.\nStep 2: Given n = 3 and |A| = 5.\nStep 3: |adj(A)| = (5)^(3 - 1) = 5² = 25.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the inverse A⁻¹ of the matrix A = [[2, -2], [4, 3]].",
+          "explanation": "Step 1: Determinant |A| = (2)(3) - (-2)(4) = 6 - (-8) = 6 + 8 = 14 ≠ 0 (Thus A⁻¹ exists).\nStep 2: Adjoint adj(A) of a 2×2 matrix: Interchanging main diagonal elements and changing signs of other elements:\nadj(A) = [[3, 2], [-4, 2]].\nStep 3: From inverse formula A⁻¹ = (1 / |A|) adj(A):\nA⁻¹ = (1/14) [[3, 2], [-4, 2]] = [[3/14, 1/7], [-2/7, 1/7]].",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that (AB)⁻¹ = B⁻¹A⁻¹.",
+            "explanation": "Step 1: By definition of inverse, (AB)(AB)⁻¹ = I.\nStep 2: Multiplying both sides on the left by A⁻¹: A⁻¹(AB)(AB)⁻¹ = A⁻¹I ⇒ (A⁻¹A)B(AB)⁻¹ = A⁻¹ ⇒ IB(AB)⁻¹ = A⁻¹ ⇒ B(AB)⁻¹ = A⁻¹.\nStep 3: Again multiplying both sides on the left by B⁻¹: B⁻¹B(AB)⁻¹ = B⁻¹A⁻¹ ⇒ I(AB)⁻¹ = B⁻¹A⁻¹ ⇒ (AB)⁻¹ = B⁻¹A⁻¹. Hence proved.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the area of the triangle with vertices (1, 0), (6, 0), and (4, 3) using determinants.",
+          "explanation": "Step 1: Area of triangle Δ = 1/2 |[x₁, y₁, 1], [x₂, y₂, 1], [x₃, y₃, 1]|.\nStep 2: Putting the points: Δ = 1/2 |[1, 0, 1], [6, 0, 1], [4, 3, 1]|.\nStep 3: Expanding along the second column (C₂) (since two elements are 0):\nΔ = 1/2 [ -3 · ((1)(1) - (1)(6)) ] = 1/2 [ -3 · (1 - 6) ] = 1/2 [ -3 · (-5) ] = 15/2 = 7.5 sq. units.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the condition for three points (x₁, y₁), (x₂, y₂), and (x₃, y₃) to be collinear using determinants?",
+            "explanation": "Step 1: Three points are called collinear if they lie on the same straight line, i.e., the area of the triangle formed by them is zero.\nStep 2: Condition in determinant form: |[x₁, y₁, 1], [x₂, y₂, 1], [x₃, y₃, 1]| = 0.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

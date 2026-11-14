@@ -1,0 +1,167 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics - Chapter 13 : Nuclei",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Nuclear Composition and Radioactivity (Quick Revision)",
+        "definition": "The central dense positively charged part of an atom is called the nucleus, in which protons and neutrons are bound together.",
+        "explanation": "The difference between the mass of constituent nucleons and the actual mass of the nucleus is called mass defect, which becomes binding energy by Einstein's relation (E=Δmc²). Unstable nuclei exhibit radioactivity.",
+        "importantPoints": [
+          "Nuclear composition: Protons + Neutrons (Nucleons)",
+          "Mass defect: Total mass of free nucleons - Actual mass of nucleus",
+          "Binding energy: Minimum energy required to separate nucleons from each other",
+          "Radioactivity: Spontaneous emission of α, β, γ radiations from unstable nuclei",
+          "Half-life formula: Remaining nuclei after one half-life N = N₀ / 2"
+        ],
+        "highlightWords": [
+          "Nucleus",
+          "Mass Defect",
+          "Binding Energy",
+          "Radioactivity",
+          "Half-Life"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Atomic Nucleus?",
+          "explanation": "1. Definition: The extremely small, dense, and positively charged region located at the center of an atom, where the entire positive charge and about 99.9% of the mass of the atom is concentrated, is called the Atomic Nucleus.\n2. Structure and Composition: The nucleus contains protons (positively charged) and neutrons (electrically neutral), which are jointly called 'nucleons'.\n3. Physical Dimensions:\n- The radius of the nucleus is about 10⁻¹⁵ meters (1 Fermi) (R = R₀ A¹/³).\n- The density of the nucleus is extremely high (~ 2.3 × 10¹⁷ kg/m³) and remains constant for all elements.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What are the fundamental constituents of a nucleus?",
+            "explanation": "The fundamental constituents of a nucleus are protons and neutrons, which are collectively called 'Nucleons'.\n\nDetails of Constituents:\n1. Proton: It is a positively charged particle. It has charge q = +1.6 × 10⁻¹⁹ C and mass mp ≈ 1.6726 × 10⁻²⁷ kg. The number of protons is called atomic number (Z).\n2. Neutron: It is an electrically neutral particle. Its mass is mn ≈ 1.6749 × 10⁻²⁷ kg.\nThese particles are tightly bound together inside the nucleus by the 'strong nuclear force'.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Mass Defect?",
+          "explanation": "1. Definition: The difference between the sum of masses of all free constituents (Z protons and N neutrons) of a stable nucleus and the actual experimental mass of the nucleus is called 'Mass Defect' (Δm).\n2. Formula:\nΔm = [Z mp + (A - Z) mn] - M_nucleus\nwhere Z = atomic number, A = mass number, mp = mass of proton, mn = mass of neutron, and M_nucleus = actual mass of nucleus.\n3. Physical Reason: When nucleons combine to form a nucleus, this missing mass is released in the form of binding energy according to Einstein's law (E = Δm·c²).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "How is mass defect related to energy?",
+            "explanation": "Relation and Principle:\nMass defect is directly related to 'Nuclear Binding Energy' according to Einstein's mass-energy equivalence equation:\nEb = Δm × c²\n\nImportant Points:\n1. When free protons and neutrons combine to form a nucleus, the decrease in mass (mass defect Δm) converts into energy and is released outside the nucleus.\n2. In nuclear physics: A mass defect of 1 amu (atomic mass unit) is equivalent to 931.5 MeV of energy (Eb = Δm × 931.5 MeV). This energy provides stability to the nucleus.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Binding Energy?",
+          "explanation": "1. Definition: The minimum energy required to break a nucleus and separate all its constituent nucleons (protons and neutrons) to an infinite distance from each other is called the 'Binding Energy' (Eb) of that nucleus.\n2. Formula: Eb = Δm × c² = Δm × 931.5 MeV.\n3. Binding Energy per Nucleon:\nEbn = Eb / A (where A is total mass number). This quantity is the true measure of stability of a nucleus; the higher the value of Ebn, the more stable the nucleus is (Fe-56 is most stable, 8.75 MeV/nucleon).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "On which quantity does the stability of a nucleus depend?",
+            "explanation": "The stability of a nucleus depends on 'Binding Energy per Nucleon' (Eb / A), and not on total binding energy.\n\nMain Points:\n1. A nucleus with a higher value of binding energy per nucleon is more firmly bound and more stable.\n2. For nuclei of medium mass number (30 < A < 170), this value is around 8.5 MeV (maximum 8.75 MeV/nucleon for Iron-56).\n3. Light nuclei achieve stability through fusion and heavy nuclei through fission to attain higher binding energy per nucleon.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Radioactivity?",
+          "explanation": "1. Definition: The phenomenon of spontaneous disintegration of certain heavy and unstable atomic nuclei present in nature, emitting invisible radiations (alpha, beta, and gamma) and transforming into new stable elements is called 'Radioactivity'.\n2. Main Characteristics:\n- It is a spontaneous nuclear phenomenon that remains completely unaffected by external factors like temperature, pressure, and chemical combination.\n- It was discovered by Henri Becquerel in 1896.\n3. Unit: The SI unit of radioactivity is Becquerel (Bq) (1 Bq = 1 disintegration/second). Another traditional unit is Curie (Ci).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What are the three main radiations emitted during radioactive decay?",
+            "explanation": "Three main radiations emitted during radioactive decay:\n1. Alpha (α) particles: These are doubly ionized helium nuclei (⁴₂He). They carry +2e charge and have the highest ionizing power.\n2. Beta (β) particles: These are fast-moving negatively charged electrons (⁰₋₁e) emitted from the nucleus. Their penetrating power is 100 times more than alpha particles.\n3. Gamma (γ) rays: These are electromagnetic waves (photons) of extremely high energy and short wavelength. They are neutral and have the highest penetrating power.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Half-life?",
+          "explanation": "1. Definition: The time interval in which a radioactive substance disintegrates to reduce to half (50%) of its initial quantity (number of active nuclei) is called the Half-life (T_1/2) of that substance.\n2. Formula:\nT_1/2 = 0.693 / λ  (where λ is the decay constant of the substance).\n3. Remaining quantity after n half-lives:\nN = N₀ (1/2)ⁿ = N₀ / 2ⁿ  (where n = t / T_1/2).\nHalf-life is a characteristic property of a substance that does not depend on any external physical or chemical change.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What fraction of the initial quantity will remain after two half-lives?",
+            "explanation": "Solution and Calculation:\nAfter two half-lives, 1/4 (25%) of the initial quantity will remain.\n\nStep-by-step Calculation:\n1. Formula: N = N₀ (1/2)ⁿ, where N₀ is initial quantity and n is number of half-lives.\n2. Putting n = 2:\n   N = N₀ (1/2)² = N₀ / 4\n3. In percentage: (N / N₀) × 100 = (1/4) × 100 = 25%.\nThat is, 50% remains after the first half-life and 25% remains after the second half-life, while 75% of the substance decays.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

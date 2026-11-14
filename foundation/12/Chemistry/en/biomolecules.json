@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 10 : Biomolecules",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Carbohydrates, Proteins and Nucleic Acids (Quick Revision)",
+        "definition": "Complex organic compounds that build the body of living organisms, support their growth, and carry out biochemical processes are called biomolecules.",
+        "explanation": "Carbohydrates are the main source of energy (mono-, oligo-, and polysaccharides). Proteins are polymers of amino acids joined by peptide bonds. Nucleic acids (DNA and RNA) are carriers of genetic information.",
+        "importantPoints": [
+          "Reducing Sugars: Which reduce Tollens' and Fehling's reagents (all monosaccharides e.g., glucose, fructose)",
+          "Peptide Bond (-CO-NH-): An amide bond formed by the condensation of two amino acids with the removal of a water molecule",
+          "Denaturation of Proteins: Destruction of secondary and tertiary structures due to change in temperature or pH (primary structure remains unaffected, e.g., boiling of an egg)",
+          "Difference between DNA and RNA: DNA has deoxyribose sugar and thymine (T); RNA has ribose sugar and uracil (U)",
+          "Vitamin Classification: Water-soluble (B and C) and fat-soluble (A, D, E, K)"
+        ],
+        "highlightWords": [
+          "Biomolecules",
+          "Carbohydrates",
+          "Glucose",
+          "Peptide bond",
+          "Denaturation of proteins",
+          "Nucleic acids (DNA/RNA)",
+          "Vitamins"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write any three main differences between DNA and RNA.",
+          "explanation": "1. Sugar: DNA contains β-D-2-deoxyribose sugar, whereas RNA contains β-D-ribose sugar.\n2. Nitrogenous Bases: DNA has Adenine (A), Guanine (G), Cytosine (C), and Thymine (T) bases; whereas RNA has Uracil (U) in place of Thymine.\n3. Structure and Function: DNA is double-stranded and transfers genetic information; whereas RNA is usually single-stranded and performs protein synthesis.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the difference between a nucleoside and a nucleotide?",
+            "explanation": "1. Nucleoside = Nitrogenous base + Pentose sugar.\n2. Nucleotide = Nitrogenous base + Pentose sugar + Phosphate group (i.e., phosphate ester of nucleoside). Nucleic acids are polymers of nucleotides.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Denaturation of Proteins? Give one example.",
+          "explanation": "Definition: When a native protein is subjected to a physical change (like increase in temperature) or chemical change (like change in pH), hydrogen bonds break. As a result, the secondary and tertiary structures of the protein are destroyed and globules unfold, causing the protein to lose its biological activity. This is called denaturation of proteins.\n(Note: 1° structure remains unchanged in denaturation).\nExamples:\n1. Coagulation/hardening of egg white (albumin) on boiling an egg.\n2. Curdling of milk (pH change due to lactic acid formation).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is a Peptide Bond (-CO-NH-)? Explain.",
+            "explanation": "When the carboxylic group (-COOH) of one amino acid joins with the amino group (-NH₂) of another amino acid by losing a water molecule (H₂O), the resulting amide bond (-CO-NH-) is called a peptide bond.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are essential and non-essential amino acids? Give one example of each.",
+          "explanation": "1. Essential Amino Acids: Amino acids that cannot be synthesized by the human body itself and must be taken from outside through food are called essential amino acids. Example: Valine, Leucine.\n2. Non-essential Amino Acids: Amino acids that can be synthesized inside our body itself and do not need to be taken from outside in the diet are called non-essential amino acids. Example: Glycine, Alanine.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is a Zwitter Ion? Why are amino acids amphoteric in nature?",
+            "explanation": "In an aqueous solution, the acidic -COOH group of an amino acid loses a proton and the basic -NH₂ group accepts that proton, creating both positive and negative charges on the same molecule: H₃N⁺-CH(R)-COO⁻. This dipolar ion is called a zwitter ion. Because a zwitter ion can react with both acids and bases, it is amphoteric in nature.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are Reducing and Non-reducing Sugars? Give examples.",
+          "explanation": "1. Reducing Sugars: Carbohydrates that have a free aldehyde (-CHO) or ketone (>C=O) group and reduce Tollens' reagent and Fehling's solution are called reducing sugars. Examples: All monosaccharides (glucose, fructose) and disaccharides (maltose, lactose).\n2. Non-reducing Sugars: Carbohydrates that do not have a free carbonyl group (bonded in a glycosidic linkage) and do not reduce Tollens' and Fehling's reagents. Examples: Sucrose (cane sugar), starch, cellulose.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why is sucrose a non-reducing sugar?",
+            "explanation": "Because in sucrose, both reducing groups—C-1 (aldehyde) of glucose and C-2 (ketone) of fructose—are bonded together by a glycosidic linkage, leaving no free carbonyl group.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "On what basis are vitamins classified? Write their main sources and deficiency diseases.",
+          "explanation": "Based on solubility, vitamins are classified into two groups:\n1. Water-soluble vitamins: Vitamin B complex and Vitamin C (they are not stored in the body and are excreted with urine).\n• Deficiency of Vitamin C: Scurvy (bleeding gums). Sources: Citrus fruits, amla.\n2. Fat-soluble vitamins: Vitamins A, D, E, and K (they remain stored in the liver and adipose tissues).\n• Deficiency of Vitamin A: Night blindness. Sources: Carrot, milk, fish liver oil.\n• Deficiency of Vitamin D: Rickets (weakening of bones). Sources: Sunlight, milk.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why cannot Vitamin C be stored in our body?",
+            "explanation": "Vitamin C is highly soluble in water, so it cannot be stored in the liver and is continuously excreted from the body through urine. Therefore, it is necessary to take it regularly in the diet.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 7 : Integrals",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Indefinite and Definite Integrals (Quick Revision)",
+        "definition": "Integration is the inverse process of differentiation, which is also called 'Antiderivative'.",
+        "explanation": "There are three main methods of integration: Integration by Substitution, Integration by Partial Fractions, and Integration by Parts (ILATE rule). Definite integrals use limits, and properties of definite integrals (especially King's property) are very useful.",
+        "importantPoints": [
+          "Basic formula: ∫ xⁿ dx = xⁿ⁺¹ / (n + 1) + C (where n ≠ -1)",
+          "∫ (1/x) dx = log|x| + C, ∫ eˣ dx = eˣ + C",
+          "Integration by Parts (ILATE rule): ∫ u · v dx = u ∫ v dx - ∫ [ (du/dx) ∫ v dx ] dx",
+          "Standard form: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C",
+          "Property P4 of Definite Integral (King's Rule): ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx",
+          "Odd Function Property: If f(-x) = -f(x), then ∫₋ₐᵃ f(x) dx = 0"
+        ],
+        "highlightWords": [
+          "Antiderivative",
+          "Integration by Substitution",
+          "Integration by Parts",
+          "ILATE Rule",
+          "Properties of Definite Integrals",
+          "Odd Function Property"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Evaluate: ∫ (2x / (1 + x²)) dx.",
+          "explanation": "Step 1: Substitution method: Let 1 + x² = t.\nStep 2: Differentiating with respect to x: 2x dx = dt.\nStep 3: Substituting the values: ∫ (1/t) dt = log|t| + C.\nStep 4: Putting back the value of t: = log|1 + x²| + C = log(1 + x²) + C (since 1 + x² is always positive).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the value of ∫ tan x dx?",
+            "explanation": "Step 1: ∫ tan x dx = ∫ (sin x / cos x) dx.\nStep 2: Let cos x = t ⇒ -sin x dx = dt ⇒ sin x dx = -dt.\nStep 3: = ∫ (-1/t) dt = -log|t| + C = -log|cos x| + C = log|1/cos x| + C = log|sec x| + C.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Evaluate using integration by parts: ∫ x eˣ dx.",
+          "explanation": "Step 1: According to ILATE rule, first function u = x and second function v = eˣ.\nStep 2: Integration by parts formula: ∫ u v dx = u ∫ v dx - ∫ [ (du/dx) ∫ v dx ] dx.\nStep 3: = x ∫ eˣ dx - ∫ [ (d/dx(x)) · ∫ eˣ dx ] dx = x eˣ - ∫ [ 1 · eˣ ] dx.\nStep 4: = x eˣ - eˣ + C = eˣ (x - 1) + C.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the value of ∫ log x dx.",
+            "explanation": "Step 1: ∫ log x dx = ∫ (log x · 1) dx. Here u = log x and v = 1.\nStep 2: = (log x) ∫ 1 dx - ∫ [ (d/dx(log x)) · ∫ 1 dx ] dx = (log x)(x) - ∫ [ (1/x) · x ] dx.\nStep 3: = x log x - ∫ 1 dx = x log x - x + C = x(log x - 1) + C.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Evaluate: ∫ eˣ (sin x + cos x) dx.",
+          "explanation": "Step 1: Standard integration formula: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C.\nStep 2: In the given integral, let f(x) = sin x.\nStep 3: Differentiating: f'(x) = d/dx(sin x) = cos x.\nStep 4: Putting values in the formula: ∫ eˣ [sin x + cos x] dx = eˣ sin x + C.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What will be the value of ∫ eˣ (1/x - 1/x²) dx?",
+            "explanation": "Step 1: Let f(x) = 1/x = x⁻¹.\nStep 2: Then f'(x) = -1 · x⁻² = -1/x².\nStep 3: From formula ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C: ∫ eˣ (1/x - 1/x²) dx = eˣ(1/x) + C = (eˣ / x) + C.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Prove that ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx = π/4.",
+          "explanation": "Step 1: Let I = ∫₀^(π/2) (√sin x / (√sin x + √cos x)) dx  ...(1)\nStep 2: By P4 property ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx:\nI = ∫₀^(π/2) [√sin(π/2 - x) / (√sin(π/2 - x) + √cos(π/2 - x))] dx\nSince sin(π/2 - x) = cos x and cos(π/2 - x) = sin x:\nI = ∫₀^(π/2) (√cos x / (√cos x + √sin x)) dx  ...(2)\nStep 3: Adding equations (1) and (2):\n2I = ∫₀^(π/2) [ (√sin x + √cos x) / (√sin x + √cos x) ] dx = ∫₀^(π/2) 1 dx = [ x ]₀^(π/2) = π/2 - 0 = π/2.\nStep 4: 2I = π/2 ⇒ I = π/4. Hence proved.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Evaluate ∫₀^(π/2) log(tan x) dx.",
+            "explanation": "Step 1: Let I = ∫₀^(π/2) log(tan x) dx  ...(1)\nStep 2: By P4: I = ∫₀^(π/2) log(tan(π/2 - x)) dx = ∫₀^(π/2) log(cot x) dx = ∫₀^(π/2) log(1/tan x) dx = -∫₀^(π/2) log(tan x) dx = -I  ...(2)\nStep 3: I + I = 0 ⇒ 2I = 0 ⇒ I = 0.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Evaluate: ∫₋₁¹ sin⁵ x cos⁴ x dx.",
+          "explanation": "Step 1: Let f(x) = sin⁵ x cos⁴ x.\nStep 2: Replacing x with -x:\nf(-x) = [sin(-x)]⁵ · [cos(-x)]⁴ = (-sin x)⁵ · (cos x)⁴ = -sin⁵ x cos⁴ x = -f(x).\nStep 3: Since f(-x) = -f(x), f(x) is an odd function.\nStep 4: By property: If f(x) is an odd function, then ∫₋ₐᵃ f(x) dx = 0.\nHence, ∫₋₁¹ sin⁵ x cos⁴ x dx = 0.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If f(x) is an even function, what is the value of ∫₋ₐᵃ f(x) dx?",
+            "explanation": "Step 1: Definition of even function: f(-x) = f(x).\nStep 2: According to the property of definite integrals, if f(x) is an even function, the limits are restricted from zero to a and doubled:\n∫₋ₐᵃ f(x) dx = 2 ∫₀ᵃ f(x) dx.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

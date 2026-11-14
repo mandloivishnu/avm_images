@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 3 : Matrices",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Matrix Operations, Symmetric & Skew-Symmetric Matrices (Quick Revision)",
+        "definition": "An ordered rectangular array of numbers or functions is called a matrix. A matrix having m rows and n columns has order m × n.",
+        "explanation": "Addition and multiplication of matrices are possible only when their respective orders are suitable. The transpose of a matrix A' (or Aᵀ) is obtained by interchanging rows and columns. If A' = A, it is symmetric, and if A' = -A, it is a skew-symmetric matrix.",
+        "importantPoints": [
+          "Matrix Addition: Corresponding elements of matrices of the same order are added",
+          "Matrix Multiplication: Product AB (m×p) of A (m×n) and B (n×p) is possible (Columns of first = Rows of second)",
+          "In general, matrix multiplication is not commutative: AB ≠ BA",
+          "Properties of Transpose: (A')' = A, (A + B)' = A' + B', (AB)' = B'A' (Reversal Law)",
+          "Symmetric Matrix: A' = A",
+          "Skew-symmetric Matrix: A' = -A (All elements on its main diagonal are zero)",
+          "Every square matrix can be expressed as the sum of a symmetric and a skew-symmetric matrix: A = 1/2(A + A') + 1/2(A - A')"
+        ],
+        "highlightWords": [
+          "Order of Matrix",
+          "Matrix Multiplication",
+          "Transpose Matrix",
+          "Symmetric Matrix",
+          "Skew-symmetric Matrix"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Define Symmetric and Skew-symmetric matrices.",
+          "explanation": "1. Symmetric Matrix: A square matrix A is called symmetric if the transpose of A is equal to A, i.e., A' = A (or aᵢⱼ = aⱼᵢ for all i, j).\n2. Skew-symmetric Matrix: A square matrix A is called skew-symmetric if the transpose of A is equal to -A, i.e., A' = -A (or aᵢⱼ = -aⱼᵢ for all i, j). All elements of its main diagonal are zero (aᵢᵢ = 0).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that all diagonal elements of a skew-symmetric matrix are zero.",
+            "explanation": "Step 1: By definition of skew-symmetric matrix: aᵢⱼ = -aⱼᵢ.\nStep 2: Putting i = j for main diagonal elements: aᵢᵢ = -aᵢᵢ.\nStep 3: Transposing: aᵢᵢ + aᵢᵢ = 0 ⇒ 2aᵢᵢ = 0 ⇒ aᵢᵢ = 0.\nHence, it is proved that all diagonal elements of a skew-symmetric matrix are zero.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], find the value of 2A + 3B.",
+          "explanation": "Step 1: Scalar multiplication 2A = 2 × [[1, 2], [3, 4]] = [[2, 4], [6, 8]].\nStep 2: Scalar multiplication 3B = 3 × [[5, 6], [7, 8]] = [[15, 18], [21, 24]].\nStep 3: Adding corresponding elements:\n2A + 3B = [[2 + 15, 4 + 18], [6 + 21, 8 + 24]] = [[17, 22], [27, 32]].",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If A = [[2, 4], [3, 2]] and B = [[1, 3], [-2, 5]], find A - B.",
+            "explanation": "Step 1: For subtracting matrices, corresponding elements are subtracted:\nA - B = [[2 - 1, 4 - 3], [3 - (-2), 2 - 5]].\nStep 2: Solving: = [[1, 1], [3 + 2, -3]] = [[1, 1], [5, -3]].",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 3]], find the product AB.",
+          "explanation": "Step 1: According to the Row × Column rule of matrix multiplication:\nAB = [[(1)(2) + (2)(1), (1)(0) + (2)(3)], [(3)(2) + (4)(1), (3)(0) + (4)(3)]].\nStep 2: Calculating:\n= [[2 + 2, 0 + 6], [6 + 4, 0 + 12]] = [[4, 6], [10, 12]].",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Is matrix multiplication generally commutative? Give an explanation.",
+            "explanation": "No, in general matrix multiplication is not commutative, i.e., AB ≠ BA. Often if AB is defined, BA may not even be defined, or even if they are of the same order, the products come out to be different.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Prove that for any square matrix A, (A + A') is always a symmetric matrix.",
+          "explanation": "Step 1: Let P = A + A'.\nStep 2: Taking transpose of both sides: P' = (A + A')'.\nStep 3: Applying properties (A + B)' = A' + B' and (A')' = A:\nP' = A' + (A')' = A' + A.\nStep 4: Matrix addition is commutative (A' + A = A + A'):\nP' = A + A' = P.\nSince P' = P, (A + A') is a symmetric matrix. Hence proved.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Prove that (A - A') is always a skew-symmetric matrix.",
+            "explanation": "Step 1: Let Q = A - A'. Taking transpose: Q' = (A - A')' = A' - (A')' = A' - A.\nStep 2: Taking negative sign common: Q' = -(A - A') = -Q.\nStep 3: Since Q' = -Q, (A - A') is always a skew-symmetric matrix.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "If A = [[cos α, sin α], [-sin α, cos α]], verify that A'A = I (Identity Matrix).",
+          "explanation": "Step 1: A' = [[cos α, -sin α], [sin α, cos α]].\nStep 2: Finding product A'A:\nA'A = [[cos α, -sin α], [sin α, cos α]] [[cos α, sin α], [-sin α, cos α]]\n= [[cos²α + (-sin α)(-sin α), cos α sin α + (-sin α) cos α], [sin α cos α + cos α(-sin α), sin²α + cos²α]]\nStep 3: = [[cos²α + sin²α, cos α sin α - sin α cos α], [sin α cos α - sin α cos α, sin²α + cos²α]]\n= [[1, 0], [0, 1]] = I. Hence proved.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is an Orthogonal Matrix?",
+            "explanation": "A square matrix A is called an orthogonal matrix if the product of the matrix and its transpose is the identity matrix I, i.e., A · A' = A' · A = I (where A' = A⁻¹).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

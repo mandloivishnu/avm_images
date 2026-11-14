@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12 Physics Visual Revision</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6f8; padding: 10px; margin: 0; line-height: 1.5; overflow-x: hidden; }
+        .container { max-width: 600px; margin: 0 auto; padding-bottom: 20px; }
+        h1 { text-align: center; color: #1a73e8; font-size: 1.5rem; margin-bottom: 5px; animation: fadeInDown 0.6s ease-out; }
+        .footer { text-align: center; font-size: 0.85rem; color: #5f6368; margin-bottom: 25px; animation: fadeIn 1s ease-out; }
+        
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-4px); } 100% { transform: translateY(0px); } }
+
+        .card { 
+            background: #fff; border-radius: 12px; padding: 15px; margin-bottom: 16px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.06); opacity: 0; animation: fadeInUp 0.6s ease-out forwards;
+            border-left: 4px solid #1a73e8;
+        }
+        
+        .card:nth-child(3) { animation-delay: 0.1s; } .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.3s; } .card:nth-child(6) { animation-delay: 0.4s; }
+        .card:nth-child(7) { animation-delay: 0.5s; } .card:nth-child(8) { animation-delay: 0.6s; }
+        .card:nth-child(9) { animation-delay: 0.7s; } .card:nth-child(10){ animation-delay: 0.8s; }
+        .card:nth-child(11){ animation-delay: 0.9s; }
+
+        .card h2 { color: #202124; font-size: 1.15rem; margin-top: 0; border-bottom: 2px solid #e8eaed; padding-bottom: 8px; display: flex; align-items: center; }
+        .icon { font-size: 1.4rem; margin-right: 8px; animation: float 3s ease-in-out infinite; }
+
+        .topic { display: flex; align-items: center; background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #f1f3f4; }
+        .topic-no-svg { display: block; background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #f1f3f4; }
+        .topic-content { flex: 1; }
+        .topic-title { font-weight: 700; color: #1a73e8; display: block; margin-bottom: 4px; font-size: 0.95rem; }
+        .topic-desc { color: #3c4043; font-size: 0.9rem; margin: 0; }
+        .formula { background: #e8f0fe; color: #1967d2; font-family: monospace; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+        
+        .svg-icon { width: 90px; height: 50px; margin-left: 12px; flex-shrink: 0; background: #fff; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); padding: 5px; }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Physics Cheat Sheet</h1>
+        <div class="footer">Class 12 Visual & Animated Revision - Detailed Version</div>
+        
+        <div class="card">
+            <h2><span class="icon">⚡</span> Unit 1: Electrostatics</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Electric Charges & Fields</span>
+                    <p class="topic-desc"><strong>Coulomb's Law:</strong> Computes the electrostatic force between two point charges: <span class="formula">F = k(q₁q₂)/r²</span>. <br><strong>Gauss's Law:</strong> Total flux <span class="formula">Φ = q_enclosed / ε₀</span>. Crucial for finding the E-field of symmetric charge distributions like wires and sheets.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><circle cx="25" cy="25" r="12" fill="#ef5350"/><text x="25" y="29" fill="#fff" font-size="12" text-anchor="middle" font-weight="bold">+</text><circle cx="75" cy="25" r="12" fill="#42a5f5"/><text x="75" y="29" fill="#fff" font-size="12" text-anchor="middle" font-weight="bold">-</text><line x1="42" y1="25" x2="58" y2="25" stroke="#000" stroke-width="2"><animate attributeName="x2" values="42;58;42" dur="1.5s" repeatCount="indefinite"/></line></svg>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Potential & Capacitance</span>
+                <p class="topic-desc"><strong>Potential (V):</strong> Work done per unit charge. Equipotential surfaces intersect E-field lines at 90&deg;. <br><strong>Capacitors:</strong> Store electrical energy (<span class="formula">U = &frac12;CV²</span>). Adding a dielectric medium increases capacitance by a factor of K: <span class="formula">C = Kε₀A/d</span>.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🔋</span> Unit 2: Current Electricity</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Drift Velocity & Ohm's Law</span>
+                    <p class="topic-desc"><strong>Drift Velocity:</strong> Average velocity of free electrons moving in a conductor under an electric field (<span class="formula">I = nAev_d</span>). <br><strong>Ohm's Law:</strong> Current is proportional to voltage (<span class="formula">V = IR</span>). Resistance depends on temperature and material.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="10" y="20" width="80" height="10" rx="4" fill="#cfd8dc"/><circle cx="15" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="15" to="85" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="45" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="45" to="85" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="75" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="75" to="85" dur="0.4s" repeatCount="indefinite"/></circle></svg>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Kirchhoff's Laws & Circuits</span>
+                <p class="topic-desc"><strong>Junction Rule (KCL):</strong> Sum of currents entering = sum of currents leaving (conservation of charge). <br><strong>Loop Rule (KVL):</strong> Sum of voltage drops and EMFs in a closed loop is zero (conservation of energy). Used in solving complex circuits and Wheatstone bridge.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🧲</span> Unit 3: Magnetic Effects</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Magnetic Fields (Biot-Savart & Ampere)</span>
+                    <p class="topic-desc"><strong>Biot-Savart Law:</strong> Gives magnetic field from a tiny current element. <br><strong>Ampere's Law:</strong> <span class="formula">&oint; B &middot; dl = &mu;₀I</span>. Used to easily find the magnetic field inside a long solenoid or straight wire.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="20" y="15" width="30" height="20" fill="#ef5350"/><rect x="50" y="15" width="30" height="20" fill="#42a5f5"/><text x="35" y="29" fill="#fff" font-size="10" text-anchor="middle" font-weight="bold">N</text><text x="65" y="29" fill="#fff" font-size="10" text-anchor="middle" font-weight="bold">S</text><path d="M 25 15 C 25 -5, 75 -5, 75 15" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4,4"><animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite"/></path><path d="M 25 35 C 25 55, 75 55, 75 35" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4,4"><animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" repeatCount="indefinite"/></path></svg>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Moving Coil Galvanometer & Magnetism</span>
+                <p class="topic-desc">Detects small currents based on the principle that a current-carrying coil experiences torque (<span class="formula">τ = NIAB sinθ</span>) in a magnetic field. <br><strong>Magnetism:</strong> Bar magnets have a dipole moment. Earth acts as a giant magnet with specific elements (declination, dip, horizontal component).</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🔄</span> Unit 4: EMI & AC</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Electromagnetic Induction</span>
+                    <p class="topic-desc"><strong>Faraday's Law:</strong> Changing magnetic flux induces an EMF: <span class="formula">e = -dΦ/dt</span>. <br><strong>Lenz's Law:</strong> The induced EMF opposes the change that produced it (Conservation of Energy).</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><path d="M 60 10 Q 75 10, 75 25 Q 75 40, 60 40 Q 45 40, 45 25 Q 45 10, 60 10" fill="none" stroke="#fbc02d" stroke-width="4"/><rect x="5" y="20" width="30" height="10" fill="#ef5350"><animate attributeName="x" values="5; 35; 5" dur="2s" repeatCount="indefinite"/></rect><text x="20" y="28" fill="#fff" font-size="8" text-anchor="middle">N S</text></svg>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Alternating Current & Transformers</span>
+                <p class="topic-desc"><strong>LCR Circuits:</strong> Resonance occurs when inductive reactance equals capacitive reactance (<span class="formula">X_L = X_C</span>), maximizing current. <br><strong>Transformers:</strong> Step up or down AC voltage using mutual induction. Ratio: <span class="formula">V_s/V_p = N_s/N_p</span>.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">📡</span> Unit 5: Electromagnetic Waves</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">EM Spectrum & Properties</span>
+                    <p class="topic-desc">Transverse waves of oscillating electric and magnetic fields traveling at light speed (<span class="formula">c = 1/&radic;(&mu;₀&epsilon;₀)</span>). <br><strong>Spectrum Order (Increasing Freq):</strong> Radio &rarr; Microwave &rarr; Infrared &rarr; Visible &rarr; UV &rarr; X-Rays &rarr; Gamma Rays.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><path d="M 10 25 Q 25 5, 40 25 T 70 25 T 100 25" fill="none" stroke="#ef5350" stroke-width="2"><animate attributeName="d" values="M 10 25 Q 25 5, 40 25 T 70 25 T 100 25; M 10 25 Q 25 45, 40 25 T 70 25 T 100 25; M 10 25 Q 25 5, 40 25 T 70 25 T 100 25" dur="1.2s" repeatCount="indefinite"/></path><path d="M 10 25 Q 25 45, 40 25 T 70 25 T 100 25" fill="none" stroke="#42a5f5" stroke-width="2"><animate attributeName="d" values="M 10 25 Q 25 45, 40 25 T 70 25 T 100 25; M 10 25 Q 25 5, 40 25 T 70 25 T 100 25; M 10 25 Q 25 45, 40 25 T 70 25 T 100 25" dur="1.2s" repeatCount="indefinite"/></path></svg>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🌈</span> Unit 6: Optics</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Ray Optics (Lenses & TIR)</span>
+                    <p class="topic-desc"><strong>Total Internal Reflection (TIR):</strong> Occurs when light travels from denser to rarer medium and incidence angle > critical angle (Used in optical fibers). <br><strong>Lens Maker's Formula:</strong> Connects focal length, refractive index, and radii of curvature.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polygon points="50,10 20,40 80,40" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/><line x1="0" y1="25" x2="35" y2="25" stroke="#fbc02d" stroke-width="2"/><line x1="35" y1="25" x2="60" y2="35" stroke="#fbc02d" stroke-width="2"><animate attributeName="x2" values="35;60" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y2" values="25;35" dur="1.5s" repeatCount="indefinite"/></line></svg>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Wave Optics</span>
+                <p class="topic-desc"><strong>Huygens Principle:</strong> Every point on a wavefront acts as a secondary source. <br><strong>Interference (Young's Double Slit):</strong> Superposition of light causing bright/dark fringes. Fringe width <span class="formula">&beta; = &lambda;D/d</span>. <br><strong>Diffraction:</strong> Bending of light around sharp corners.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">☀️</span> Unit 7: Dual Nature of Radiation</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Photoelectric Effect & Matter Waves</span>
+                    <p class="topic-desc"><strong>Einstein's Equation:</strong> <span class="formula">K_max = h&nu; - &Phi;</span>. Photons knock electrons out of a metal if frequency is above threshold. <br><strong>De Broglie Wavelength:</strong> Moving particles have wave nature: <span class="formula">&lambda; = h/p = h/mv</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="10" y="35" width="80" height="10" fill="#90a4ae"/><circle cx="30" cy="10" r="4" fill="#ffca28"><animate attributeName="cy" values="10; 35" dur="1s" repeatCount="indefinite"/><animate attributeName="cx" values="30; 50" dur="1s" repeatCount="indefinite"/></circle><circle cx="50" cy="35" r="3" fill="#42a5f5"><animate attributeName="cy" values="35; 10" dur="1s" repeatCount="indefinite"/><animate attributeName="cx" values="50; 80" dur="1s" repeatCount="indefinite"/></circle></svg>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">⚛️</span> Unit 8: Atoms & Nuclei</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Bohr Model & Atomic Spectra</span>
+                    <p class="topic-desc">Electrons orbit in specific stationary states where angular momentum is quantized (<span class="formula">mvr = nh/2&pi;</span>). Energy is emitted/absorbed only when electrons jump between these orbits.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><circle cx="50" cy="25" r="6" fill="#ef5350"/><ellipse cx="50" cy="25" rx="22" ry="8" fill="none" stroke="#999" transform="rotate(20 50 25)"/><ellipse cx="50" cy="25" rx="22" ry="8" fill="none" stroke="#999" transform="rotate(-40 50 25)"/><circle cx="72" cy="25" r="3" fill="#42a5f5"><animateTransform attributeName="transform" type="rotate" from="0 50 25" to="360 50 25" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">Nuclei & Binding Energy</span>
+                <p class="topic-desc"><strong>Mass Defect:</strong> The nucleus mass is slightly less than the sum of its protons/neutrons. This missing mass converts to <strong>Binding Energy</strong> (<span class="formula">E = &Delta;mc&sup2;</span>), which holds the nucleus together. High binding energy per nucleon = high stability.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">💻</span> Unit 9: Electronic Devices</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">Semiconductors & p-n Junctions</span>
+                    <p class="topic-desc"><strong>p-n Junction:</strong> Joining p-type and n-type semiconductors creates a depletion region. <br><strong>Forward Bias:</strong> Conducts current. <strong>Reverse Bias:</strong> Blocks current. <br><strong>Rectifiers:</strong> Use diodes to convert AC to DC (Half-wave uses 1 diode, Full-wave uses 2).</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polygon points="35,15 35,35 55,25" fill="#4caf50"/><line x1="55" y1="15" x2="55" y2="35" stroke="#333" stroke-width="3"/><line x1="10" y1="25" x2="35" y2="25" stroke="#333" stroke-width="2"/><line x1="55" y1="25" x2="90" y2="25" stroke="#333" stroke-width="2"/><circle cx="15" cy="25" r="3" fill="#fbc02d"><animate attributeName="cx" values="10;90" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

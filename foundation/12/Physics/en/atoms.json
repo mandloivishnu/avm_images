@@ -1,0 +1,167 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics - Chapter 12 : Atoms",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Atomic Models and Energy Levels (Quick Revision)",
+        "definition": "Rutherford's nuclear model and Bohr's quantum model were proposed to explain atomic structure.",
+        "explanation": "Rutherford discovered the heavy nucleus at the center, while Bohr gave the concept of fixed non-radiating stationary orbits and energy quantization.",
+        "importantPoints": [
+          "Rutherford model: Tiny positively charged nucleus at center, most part is empty",
+          "Bohr model: Non-radiating stationary orbits with fixed energy",
+          "Ionization energy: Minimum energy required to take an electron from ground state to infinity",
+          "Excitation energy: Energy required to move an electron from ground state to a higher energy state",
+          "Energy formula: En = - 13.6 / n² eV"
+        ],
+        "highlightWords": [
+          "Rutherford Model",
+          "Bohr Model",
+          "Ionization Energy",
+          "Excitation Energy",
+          "Energy Level Formula"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Rutherford's atomic model?",
+          "explanation": "Main points of Rutherford's nuclear model based on the alpha-particle scattering experiment:\n1. Presence of Nucleus: The entire positive charge and almost the entire mass of an atom is concentrated in an extremely small region at its center (radius ~ 10⁻¹⁵ m), called the nucleus.\n2. Empty Space: Compared to the radius of the atom (~ 10⁻¹⁰ m), the nucleus is extremely small, so most of the space inside an atom is empty.\n3. Revolution of Electrons: Electrons revolve around the nucleus in various circular orbits. The centripetal force is provided by the electrostatic force of attraction between the nucleus and the electrons.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "According to Rutherford's model, where is most of the mass of an atom concentrated?",
+            "explanation": "According to Rutherford's model, almost the entire positive charge and whole mass of an atom is concentrated in an extremely small and dense region at its center called the 'Nucleus'.\n\nImportant Points:\n1. The size of the nucleus is about 10⁻⁵ times the total size of the atom (radius ~ 10⁻¹⁵ m).\n2. Electrons are extremely light, so the mass of an atom depends only on the protons and neutrons present in the nucleus.\n3. The large region outside the nucleus is mostly empty where electrons revolve.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Bohr's atomic model?",
+          "explanation": "Niels Bohr gave three main postulates based on Planck's quantum theory:\n1. Stationary Orbits: Electrons revolve only in certain fixed non-radiating stationary orbits and do not radiate energy while revolving in them.\n2. Quantization of Angular Momentum: Electrons can revolve only in those orbits in which their angular momentum is an integral multiple of h / 2π (L = mvr = nh / 2π, where n = 1, 2, 3...).\n3. Energy Transition: When an electron jumps from a higher energy level (E₂) to a lower energy level (E₁), a photon is emitted: E₂ - E₁ = hν.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "According to Bohr, why do electrons not radiate energy while revolving in stationary orbits?",
+            "explanation": "1. Bohr's Postulate: Contrary to classical electrodynamics, Bohr stated that electrons revolve only in specific discrete non-radiating orbits.\n2. Reason: In these stationary orbits, the angular momentum of the electron is quantized (mvr = nh / 2π). The total energy of the electron remains constant (conserved) in these fixed orbits.\n3. Condition for Radiation: An electron emits or absorbs energy only when it jumps from one energy level to another (E₂ - E₁ = hν), not while staying in a stationary orbit.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Ionization Energy of an atom?",
+          "explanation": "1. Definition: The minimum external energy required to completely free an electron from the innermost shell, i.e., ground state (n = 1) of an atom against nuclear attraction and take it to infinity (n = ∞) is called the Ionization Energy of the atom.\n2. Mathematical Expression:\nE_ionization = E_∞ - E₁ = 0 - (-13.6 eV) = +13.6 eV (for hydrogen atom).\n3. Ionization Potential: The minimum accelerating potential that provides the required energy to free the electron is called ionization potential (13.6 V for hydrogen).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the value of ionization energy of a hydrogen atom?",
+            "explanation": "Value and Calculation:\nThe ionization energy of a hydrogen atom is +13.6 eV (electron-volt) or 2.18 × 10⁻¹⁸ Joule.\n\nSteps of Calculation:\n1. Total energy of an electron in the ground state (n = 1) of a hydrogen atom is E₁ = -13.6 / (1)² = -13.6 eV.\n2. Energy of an electron at infinite distance (n = ∞) is E_∞ = 0 eV.\n3. Ionization energy = E_∞ - E₁ = 0 - (-13.6 eV) = +13.6 eV. On giving this energy, the atom becomes an H⁺ ion.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is called Excitation Energy?",
+          "explanation": "1. Definition: The energy required to excite an atom from its ground state (n = 1) to any higher energy state (Excited State, n = 2, 3, ...) is called Excitation Energy.\n2. Formula:\nΔE = E_n - E₁\n3. Example (for Hydrogen):\n- Energy of first excited state (n = 2) is E₂ = -3.4 eV.\n- First excitation energy = E₂ - E₁ = -3.4 - (-13.6) = +10.2 eV.\nBy absorbing this energy, the electron excites the atom.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the main difference between Ionization Energy and Excitation Energy?",
+            "explanation": "Main differences between Ionization Energy and Excitation Energy:\n1. Target State: Excitation energy moves an electron from the ground level to a higher energy orbit (such as n = 2, 3), whereas ionization energy sends the electron outside the atom to infinity (n = ∞) and ionizes the atom.\n2. Amount of Energy Required: The value of excitation energy is always less than ionization energy (for hydrogen, first excitation energy is 10.2 eV while ionization energy is 13.6 eV).\n3. Result: In excitation, the atom remains neutral, whereas after ionization, the atom becomes a positive ion.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the formula for the energy of an electron in the nth orbit of a hydrogen atom.",
+          "explanation": "Formula for total energy of an electron in the nth orbit of a hydrogen atom:\nEn = - 13.6 / n² eV  (or in SI units, En = - 2.18 × 10⁻¹⁸ / n² J)\n\nMeaning and explanation of symbols:\n1. n = Principal quantum number (orbit number = 1, 2, 3...).\n2. Physical significance of negative (-) sign: The negative sign shows that the electron is bound to the nucleus by an attractive force and the system is in a stable (bound) state.\n3. As the value of n increases, the value of En increases (becomes less negative), and at n = ∞, the energy becomes zero.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the energy of the second orbit (n = 2) of a hydrogen atom?",
+            "explanation": "Calculation and Value:\nThe energy of the second orbit (n = 2) of a hydrogen atom is -3.4 eV.\n\nSteps of Solution:\n1. Bohr's formula: En = - 13.6 / n² eV\n2. Putting n = 2 for the second orbit:\n   E₂ = - 13.6 / (2)² = - 13.6 / 4 = - 3.4 eV\n3. Conclusion: Compared to the ground orbit (-13.6 eV), the energy of the n = 2 level is higher. An external energy of 10.2 eV is needed to send an electron from the ground state to this orbit.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

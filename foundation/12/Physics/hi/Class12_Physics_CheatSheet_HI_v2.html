@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>कक्षा 12 भौतिकी विज़ुअल रिवीजन</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6f8; padding: 10px; margin: 0; line-height: 1.5; overflow-x: hidden; }
+        .container { max-width: 600px; margin: 0 auto; padding-bottom: 20px; }
+        h1 { text-align: center; color: #1a73e8; font-size: 1.5rem; margin-bottom: 5px; animation: fadeInDown 0.6s ease-out; }
+        .footer { text-align: center; font-size: 0.85rem; color: #5f6368; margin-bottom: 25px; animation: fadeIn 1s ease-out; }
+
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-4px); } 100% { transform: translateY(0px); } }
+
+        .card {
+            background: #fff; border-radius: 12px; padding: 15px; margin-bottom: 16px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.06); opacity: 0; animation: fadeInUp 0.6s ease-out forwards;
+            border-left: 4px solid #1a73e8;
+        }
+
+        .card:nth-child(3) { animation-delay: 0.1s; } .card:nth-child(4) { animation-delay: 0.2s; }
+        .card:nth-child(5) { animation-delay: 0.3s; } .card:nth-child(6) { animation-delay: 0.4s; }
+        .card:nth-child(7) { animation-delay: 0.5s; } .card:nth-child(8) { animation-delay: 0.6s; }
+        .card:nth-child(9) { animation-delay: 0.7s; } .card:nth-child(10){ animation-delay: 0.8s; }
+        .card:nth-child(11){ animation-delay: 0.9s; }
+
+        .card h2 { color: #202124; font-size: 1.15rem; margin-top: 0; border-bottom: 2px solid #e8eaed; padding-bottom: 8px; display: flex; align-items: center; }
+        .icon { font-size: 1.4rem; margin-right: 8px; animation: float 3s ease-in-out infinite; }
+
+        .topic { display: flex; flex-wrap: wrap; align-items: center; background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #f1f3f4; }
+        .topic-no-svg { display: flex; flex-direction: column; align-items: stretch; background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 12px; border: 1px solid #f1f3f4; }
+        .topic-content { flex: 1 1 0%; min-width: 0; }
+        .topic-title { font-weight: 700; color: #1a73e8; display: block; margin-bottom: 4px; font-size: 0.95rem; }
+        .topic-desc { color: #3c4043; font-size: 0.9rem; margin: 0; }
+        .formula { background: #e8f0fe; color: #1967d2; font-family: monospace; padding: 2px 6px; border-radius: 4px; font-weight: bold; }
+
+        .svg-icon { width: 90px; height: 50px; margin-left: 12px; flex-shrink: 0; background: #fff; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); padding: 5px; }
+
+        /* परिभाषाएँ और उदाहरण */
+        .extra { flex: 0 0 100%; width: 100%; box-sizing: border-box; margin-top: 10px; padding-top: 8px; border-top: 1px dashed #dadce0; }
+        .def-title { font-weight: 700; color: #188038; font-size: 0.88rem; margin-bottom: 4px; }
+        .extra ul { margin: 0 0 8px 0; padding-left: 18px; }
+        .extra li { color: #3c4043; font-size: 0.86rem; margin-bottom: 3px; }
+        .extra li b { color: #202124; }
+        .example { background: #fff8e1; border-left: 3px solid #f9ab00; border-radius: 6px; padding: 7px 10px; font-size: 0.86rem; color: #3c4043; }
+        .example b { color: #b06000; }
+        .example + .example { margin-top: 6px; }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 भौतिक शास्त्र (Physics) चीट शीट</h1>
+        <div class="footer">कक्षा 12 - विज़ुअल व एनिमेटेड रिवीजन (परिभाषाएँ + उदाहरण सहित)</div>
+
+        <div class="card">
+            <h2><span class="icon">⚡</span> इकाई 1: स्थिरवैद्युतिकी</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">विद्युत आवेश तथा क्षेत्र</span>
+                    <p class="topic-desc"><strong>कूलॉम का नियम:</strong> दो बिंदु आवेशों के बीच बल: <span class="formula">F = k(q₁q₂)/r²</span>. <br><strong>गाउस का नियम:</strong> कुल फ्लक्स <span class="formula">Φ = q / ε₀</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><circle cx="25" cy="25" r="12" fill="#ef5350"/><text x="25" y="29" fill="#fff" font-size="12" text-anchor="middle" font-weight="bold">+</text><circle cx="75" cy="25" r="12" fill="#42a5f5"/><text x="75" y="29" fill="#fff" font-size="12" text-anchor="middle" font-weight="bold">-</text><line x1="42" y1="25" x2="58" y2="25" stroke="#000" stroke-width="2"><animate attributeName="x2" values="42;58;42" dur="1.5s" repeatCount="indefinite"/></line></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>विद्युत आवेश:</b> पदार्थ का वह गुण जिसके कारण वह विद्युत व चुंबकीय प्रभाव अनुभव करता है। SI मात्रक: कूलॉम (C)।</li>
+                        <li><b>आवेश का क्वांटमीकरण:</b> किसी वस्तु पर आवेश सदैव e का पूर्ण गुणज होता है: <span class="formula">q = ne</span>, जहाँ e = 1.6×10⁻¹⁹ C।</li>
+                        <li><b>विद्युत क्षेत्र (E):</b> एकांक धनात्मक परीक्षण आवेश पर लगने वाला बल, <span class="formula">E = F/q</span>। मात्रक: N/C या V/m।</li>
+                        <li><b>विद्युत फ्लक्स:</b> किसी पृष्ठ से गुजरने वाली विद्युत क्षेत्र रेखाओं की संख्या, <span class="formula">Φ = EA cosθ</span>।</li>
+                        <li><b>विद्युत द्विध्रुव आघूर्ण:</b> आवेश व दूरी का गुणनफल, <span class="formula">p = q × 2a</span>। दिशा: ऋण से धन आवेश की ओर।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> 1 μC के दो आवेश 10 cm दूर हैं तो <span class="formula">F = 9×10⁹ × (10⁻⁶)² / (0.1)² = 0.9 N</span> (प्रतिकर्षण)। 1 nC आवेश को घेरने वाले बंद पृष्ठ से फ्लक्स <span class="formula">Φ = q/ε₀ ≈ 113 N·m²/C</span>।</div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">स्थिरवैद्युत विभव तथा धारिता</span>
+                    <p class="topic-desc"><strong>विभव (V):</strong> एकांक आवेश पर किया गया कार्य। <br><strong>संधारित्र:</strong> विद्युत ऊर्जा संचित करता है (<span class="formula">U = &frac12;CV²</span>)। परावैद्युत से धारिता बढ़ती है: <span class="formula">C = Kε₀A/d</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><line x1="20" y1="10" x2="20" y2="40" stroke="#1a73e8" stroke-width="4"/><line x1="80" y1="10" x2="80" y2="40" stroke="#ef5350" stroke-width="4"/><rect x="35" y="15" width="30" height="20" fill="#e3f2fd" stroke="#42a5f5" stroke-width="1"/></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>विद्युत विभव:</b> एकांक धनावेश को अनंत से क्षेत्र में किसी बिंदु तक लाने में किया गया कार्य, <span class="formula">V = W/q</span>। मात्रक: वोल्ट (J/C)।</li>
+                        <li><b>विभवांतर:</b> एकांक धनावेश को एक बिंदु से दूसरे बिंदु तक ले जाने में किया गया कार्य।</li>
+                        <li><b>समविभव पृष्ठ:</b> वह पृष्ठ जिसके सभी बिंदुओं पर विभव समान हो। इस पर आवेश चलाने में कार्य शून्य होता है।</li>
+                        <li><b>धारिता:</b> चालक को दिए आवेश व उससे उत्पन्न विभव का अनुपात, <span class="formula">C = Q/V</span>। मात्रक: फैराड (F)।</li>
+                        <li><b>परावैद्युत:</b> विद्युतरोधी पदार्थ जो बाह्य क्षेत्र में ध्रुवित हो जाता है। परावैद्युत स्थिरांक <span class="formula">K = C/C₀</span>।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> 10 μF के संधारित्र को 100 V से आवेशित करने पर <span class="formula">Q = CV = 1 mC</span> और संचित ऊर्जा <span class="formula">U = ½ × 10×10⁻⁶ × 100² = 0.05 J</span>।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🔋</span> इकाई 2: धारा विद्युत</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">अपवाह वेग और ओम का नियम</span>
+                    <p class="topic-desc"><strong>अपवाह वेग:</strong> चालक में इलेक्ट्रॉनों का औसत वेग (<span class="formula">I = nAev_d</span>)। <br><strong>ओम का नियम:</strong> विभव, धारा के समानुपाती होता है (<span class="formula">V = IR</span>)।</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="10" y="20" width="80" height="10" rx="4" fill="#cfd8dc"/><circle cx="15" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="15" to="85" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="45" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="45" to="85" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="75" cy="25" r="4" fill="#fbc02d"><animate attributeName="cx" from="75" to="85" dur="0.4s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>विद्युत धारा:</b> किसी परिच्छेद से आवेश प्रवाहित होने की दर, <span class="formula">I = Q/t</span>। मात्रक: ऐम्पियर (A)।</li>
+                        <li><b>अपवाह वेग:</b> विद्युत क्षेत्र लगाने पर मुक्त इलेक्ट्रॉनों का औसत वेग, <span class="formula">v_d = eEτ/m</span> (τ = श्रांतिकाल)।</li>
+                        <li><b>गतिशीलता (μ):</b> एकांक विद्युत क्षेत्र में अपवाह वेग, <span class="formula">μ = v_d/E</span>।</li>
+                        <li><b>प्रतिरोध:</b> चालक द्वारा धारा के प्रवाह में उत्पन्न रुकावट, <span class="formula">R = ρl/A</span>। मात्रक: ओम (Ω)।</li>
+                        <li><b>प्रतिरोधकता (ρ):</b> एकांक लंबाई व एकांक अनुप्रस्थ-काट वाले पदार्थ का प्रतिरोध। यह पदार्थ का गुण है, आकार का नहीं।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> 5 Ω के तार में 2 A धारा बहे तो <span class="formula">V = IR = 2 × 5 = 10 V</span> और 5 s में <span class="formula">Q = It = 10 C</span> आवेश प्रवाहित होगा।</div>
+                </div>
+            </div>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">किरचाफ के नियम</span>
+                    <p class="topic-desc"><strong>संधि नियम (KCL):</strong> जंक्शन पर कुल धारा शून्य होती है। <br><strong>पाश नियम (KVL):</strong> बंद लूप में विभव परिवर्तन शून्य होता है।</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polyline points="20,25 40,10 60,10 80,25" fill="none" stroke="#1a73e8" stroke-width="2"/><polyline points="20,25 40,40 60,40 80,25" fill="none" stroke="#1a73e8" stroke-width="2"/><circle cx="50" cy="25" r="4" fill="#ef5350"/></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>विद्युत वाहक बल (emf):</b> सेल द्वारा एकांक आवेश को पूरे परिपथ में प्रवाहित करने में दी गई ऊर्जा। मात्रक: वोल्ट।</li>
+                        <li><b>आंतरिक प्रतिरोध (r):</b> सेल के इलेक्ट्रोलाइट द्वारा धारा को दिया गया प्रतिरोध। टर्मिनल वोल्टता <span class="formula">V = ε − Ir</span>।</li>
+                        <li><b>संधि (जंक्शन):</b> परिपथ का वह बिंदु जहाँ तीन या अधिक चालक मिलते हैं। KCL आवेश संरक्षण पर आधारित है।</li>
+                        <li><b>व्हीटस्टोन सेतु:</b> संतुलन की स्थिति में गैल्वेनोमीटर में धारा शून्य, <span class="formula">P/Q = R/S</span>। KVL ऊर्जा संरक्षण पर आधारित है।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> जंक्शन पर 5 A आ रही है और एक शाखा में 3 A जा रही है, तो दूसरी शाखा में <span class="formula">5 − 3 = 2 A</span> जाएगी (KCL)। 12 V सेल के साथ 4 Ω और 2 Ω श्रेणी में हों तो <span class="formula">I = 12/(4+2) = 2 A</span> (KVL)।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🧲</span> इकाई 3: धारा का चुंबकीय प्रभाव</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">बायो-सावर्ट व ऐम्पियर का नियम</span>
+                    <p class="topic-desc"><strong>बायो-सावर्ट:</strong> अल्पांश के कारण चुंबकीय क्षेत्र। <br><strong>ऐम्पियर नियम:</strong> <span class="formula">&oint; B &middot; dl = &mu;₀I</span>. परिनालिका में क्षेत्र निकालने के लिए।</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="20" y="15" width="30" height="20" fill="#ef5350"/><rect x="50" y="15" width="30" height="20" fill="#42a5f5"/><text x="35" y="29" fill="#fff" font-size="10" text-anchor="middle" font-weight="bold">N</text><text x="65" y="29" fill="#fff" font-size="10" text-anchor="middle" font-weight="bold">S</text><path d="M 25 15 C 25 -5, 75 -5, 75 15" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4,4"><animate attributeName="stroke-dashoffset" from="20" to="0" dur="1s" repeatCount="indefinite"/></path><path d="M 25 35 C 25 55, 75 55, 75 35" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4,4"><animate attributeName="stroke-dashoffset" from="0" to="20" dur="1s" repeatCount="indefinite"/></path></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>चुंबकीय क्षेत्र (B):</b> किसी स्थान पर चल आवेश या धारावाही चालक पर बल उत्पन्न करने वाला क्षेत्र। मात्रक: टेस्ला (T)।</li>
+                        <li><b>लॉरेंज बल:</b> चुंबकीय क्षेत्र में गतिमान आवेश पर बल, <span class="formula">F = qvB sinθ</span>।</li>
+                        <li><b>बायो-सावर्ट नियम:</b> <span class="formula">dB = (μ₀/4π) · I dl sinθ / r²</span>।</li>
+                        <li><b>परिनालिका:</b> बेलनाकार सिरे पर लिपटी कुंडली। अंदर का क्षेत्र एकसमान: <span class="formula">B = μ₀nI</span>।</li>
+                        <li><b>वृत्ताकार लूप (केंद्र पर):</b> <span class="formula">B = μ₀I/2R</span>।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> सीधे लंबे तार में 5 A धारा हो तो 10 cm दूरी पर <span class="formula">B = μ₀I/2πr = 2×10⁻⁷ × 5 / 0.1 = 10⁻⁵ T</span>।</div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">चल कुंडली धारामापी व चुंबकत्व</span>
+                <p class="topic-desc">अल्प धारा मापना। यह चुंबकीय क्षेत्र में धारावाही कुंडली पर लगने वाले बल आघूर्ण (<span class="formula">τ = NIAB sinθ</span>) पर काम करता है। पृथ्वी एक बड़े चुंबक की तरह व्यवहार करती है (दिक्पात, नमन कोण, क्षैतिज घटक)।</p>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>चुंबकीय द्विध्रुव आघूर्ण:</b> धारा लूप का आघूर्ण, <span class="formula">m = NIA</span>।</li>
+                        <li><b>धारा सुग्राहिता:</b> प्रति एकांक धारा विक्षेप, <span class="formula">θ/I = NBA/k</span>।</li>
+                        <li><b>अमीटर / वोल्टमीटर:</b> गैल्वेनोमीटर के समांतर अल्प शंट लगाने से अमीटर और श्रेणी में उच्च प्रतिरोध लगाने से वोल्टमीटर बनता है।</li>
+                        <li><b>दिक्पात कोण:</b> भौगोलिक व चुंबकीय याम्योत्तर के बीच का कोण।</li>
+                        <li><b>नमन कोण:</b> पृथ्वी के कुल चुंबकीय क्षेत्र व क्षैतिज के बीच का कोण।</li>
+                        <li><b>प्रतिचुंबकीय / अनुचुंबकीय / लौहचुंबकीय:</b> क्रमशः क्षेत्र से दूर जाने, क्षेत्र की ओर थोड़ा आकर्षित होने, और क्षेत्र की ओर प्रबल आकर्षित होने वाले पदार्थ।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> 100 फेरों की कुंडली (क्षेत्रफल 0.01 m², धारा 2 A) 0.5 T क्षेत्र में लंबवत रखी हो तो <span class="formula">τ = NIAB = 100 × 2 × 0.01 × 0.5 = 1 N·m</span>।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🔄</span> इकाई 4: प्रेरण व AC</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">विद्युत चुंबकीय प्रेरण</span>
+                    <p class="topic-desc"><strong>फैराडे:</strong> चुंबकीय फ्लक्स बदलने से EMF उत्पन्न होता है (<span class="formula">e = -dΦ/dt</span>)। <br><strong>लेंज:</strong> प्रेरित EMF उत्पन्न करने वाले कारण का विरोध करता है।</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><path d="M 60 10 Q 75 10, 75 25 Q 75 40, 60 40 Q 45 40, 45 25 Q 45 10, 60 10" fill="none" stroke="#fbc02d" stroke-width="4"/><rect x="5" y="20" width="30" height="10" fill="#ef5350"><animate attributeName="x" values="5; 35; 5" dur="2s" repeatCount="indefinite"/></rect><text x="20" y="28" fill="#fff" font-size="8" text-anchor="middle">N S</text></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>चुंबकीय फ्लक्स:</b> <span class="formula">Φ = BA cosθ</span>। मात्रक: वेबर (Wb)।</li>
+                        <li><b>विद्युत चुंबकीय प्रेरण:</b> फ्लक्स में परिवर्तन से कुंडली में emf उत्पन्न होने की घटना।</li>
+                        <li><b>गतिज emf:</b> चुंबकीय क्षेत्र में गतिमान छड़ में उत्पन्न emf, <span class="formula">e = Blv</span>।</li>
+                        <li><b>स्वप्रेरकत्व (L):</b> स्वयं की कुंडली में प्रेरित emf का गुण, <span class="formula">e = −L dI/dt</span>। मात्रक: हेनरी (H)।</li>
+                        <li><b>अन्योन्य प्रेरकत्व (M):</b> एक कुंडली में धारा बदलने पर पास की दूसरी कुंडली में emf उत्पन्न होने का गुण।</li>
+                        <li><b>भँवर धाराएँ:</b> परिवर्ती फ्लक्स से धातु के टुकड़े में उत्पन्न बंद-पाश धाराएँ (उदा. इंडक्शन चूल्हा)।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> 0.5 m की छड़ 0.2 T के लंबवत क्षेत्र में 2 m/s से चले तो <span class="formula">e = Blv = 0.2 × 0.5 × 2 = 0.2 V</span>।</div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">प्रत्यावर्ती धारा (AC) और ट्रांसफॉर्मर</span>
+                <p class="topic-desc"><strong>LCR परिपथ:</strong> अनुनाद (Resonance) तब होता है जब <span class="formula">X_L = X_C</span> हो। <br><strong>ट्रांसफॉर्मर:</strong> अन्योन्य प्रेरण से AC वोल्टेज को घटाने/बढ़ाने का उपकरण। अनुपात: <span class="formula">V_s/V_p = N_s/N_p</span>.</p>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>प्रत्यावर्ती धारा:</b> वह धारा जिसका परिमाण व दिशा समय के साथ आवर्ती रूप से बदलते हैं।</li>
+                        <li><b>RMS मान:</b> AC का वह मान जो समान ऊष्मा उत्पन्न करने वाली DC के बराबर हो, <span class="formula">I_rms = I₀/√2 ≈ 0.707 I₀</span>।</li>
+                        <li><b>प्रतिघात:</b> <span class="formula">X_L = ωL</span> (प्रेरकीय), <span class="formula">X_C = 1/ωC</span> (धारितीय)।</li>
+                        <li><b>प्रतिबाधा:</b> <span class="formula">Z = √(R² + (X_L − X_C)²)</span>।</li>
+                        <li><b>शक्ति गुणांक:</b> <span class="formula">cosφ = R/Z</span>। औसत शक्ति <span class="formula">P = V_rms I_rms cosφ</span>।</li>
+                        <li><b>अनुनाद आवृत्ति:</b> <span class="formula">f₀ = 1/(2π√LC)</span>।</li>
+                        <li><b>स्टेप-अप / स्टेप-डाउन:</b> <span class="formula">N_s &gt; N_p</span> पर वोल्टता बढ़ती है, <span class="formula">N_s &lt; N_p</span> पर घटती है।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> घरेलू AC का शिखर मान 311 V है तो <span class="formula">V_rms = 311/√2 ≈ 220 V</span>। ट्रांसफॉर्मर में N_p = 1000, N_s = 100 और 220 V इनपुट पर <span class="formula">V_s = 22 V</span> (स्टेप-डाउन)।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">📡</span> इकाई 5: विद्युत चुंबकीय तरंगें</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">विद्युत चुंबकीय स्पेक्ट्रम</span>
+                    <p class="topic-desc">विद्युत और चुंबकीय क्षेत्र जो प्रकाश की गति (<span class="formula">c = 1/&radic;(&mu;₀&epsilon;₀)</span>) से चलते हैं। <br><strong>क्रम (बढ़ती आवृत्ति):</strong> रेडियो &rarr; माइक्रोवेव &rarr; इन्फ्रारेड &rarr; दृश्य &rarr; UV &rarr; X-रे &rarr; गामा।</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><path d="M 10 25 Q 25 5, 40 25 T 70 25 T 100 25" fill="none" stroke="#ef5350" stroke-width="2"><animate attributeName="d" values="M 10 25 Q 25 5, 40 25 T 70 25 T 100 25; M 10 25 Q 25 45, 40 25 T 70 25 T 100 25; M 10 25 Q 25 5, 40 25 T 70 25 T 100 25" dur="1.2s" repeatCount="indefinite"/></path><path d="M 10 25 Q 25 45, 40 25 T 70 25 T 100 25" fill="none" stroke="#42a5f5" stroke-width="2"><animate attributeName="d" values="M 10 25 Q 25 45, 40 25 T 70 25 T 100 25; M 10 25 Q 25 5, 40 25 T 70 25 T 100 25; M 10 25 Q 25 45, 40 25 T 70 25 T 100 25" dur="1.2s" repeatCount="indefinite"/></path></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>विस्थापन धारा:</b> परिवर्ती विद्युत फ्लक्स से उत्पन्न धारा, <span class="formula">I_d = ε₀ dΦ_E/dt</span> (मैक्सवेल)।</li>
+                        <li><b>विद्युत चुंबकीय तरंग:</b> अनुप्रस्थ तरंग जिसमें E व B परस्पर लंबवत तथा संचरण दिशा के भी लंबवत होते हैं। इसे माध्यम की आवश्यकता नहीं होती।</li>
+                        <li><b>निर्वात में चाल:</b> <span class="formula">c = 3×10⁸ m/s = fλ</span>।</li>
+                        <li><b>उपयोग:</b> रेडियो (संचार), माइक्रोवेव (रडार/ओवन), IR (रिमोट), UV (स्टरलाइज़ेशन), X-रे (चिकित्सा), गामा (कैंसर उपचार)।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> FM रेडियो की आवृत्ति 100 MHz हो तो <span class="formula">λ = c/f = 3×10⁸ / 10⁸ = 3 m</span>।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">🌈</span> इकाई 6: प्रकाशिकी (Optics)</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">किरण प्रकाशिकी (TIR और लेंस)</span>
+                    <p class="topic-desc"><strong>TIR:</strong> सघन से विरल माध्यम में आपतन कोण > क्रांतिक कोण होने पर। <br><strong>लेंस मेकर सूत्र:</strong> <span class="formula">1/f = (n-1)(1/R₁ - 1/R₂)</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polygon points="50,10 20,40 80,40" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/><line x1="0" y1="25" x2="35" y2="25" stroke="#fbc02d" stroke-width="2"/><line x1="35" y1="25" x2="60" y2="35" stroke="#fbc02d" stroke-width="2"><animate attributeName="x2" values="35;60" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y2" values="25;35" dur="1.5s" repeatCount="indefinite"/></line></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>अपवर्तनांक:</b> <span class="formula">n = c/v = sin i / sin r</span>।</li>
+                        <li><b>पूर्ण आंतरिक परावर्तन (TIR):</b> सघन से विरल माध्यम में आपतन कोण क्रांतिक कोण से बड़ा होने पर प्रकाश का पूरा परावर्तन। उपयोग: प्रकाशीय तंतु, हीरे की चमक।</li>
+                        <li><b>क्रांतिक कोण:</b> वह आपतन कोण जिस पर अपवर्तन कोण 90° हो जाए, <span class="formula">sin C = 1/n</span>।</li>
+                        <li><b>फोकस दूरी:</b> लेंस के प्रकाशिक केंद्र से मुख्य फोकस की दूरी।</li>
+                        <li><b>लेंस की क्षमता:</b> <span class="formula">P = 1/f</span> (f मीटर में)। मात्रक: डायोप्टर (D)।</li>
+                        <li><b>लेंस सूत्र:</b> <span class="formula">1/v − 1/u = 1/f</span>।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण 1:</b> काँच (n = 1.5) के लिए <span class="formula">sin C = 1/1.5 → C ≈ 42°</span>।</div>
+                    <div class="example"><b>💡 उदाहरण 2:</b> f = +20 cm के उत्तल लेंस से 30 cm दूर वस्तु हो तो <span class="formula">1/v = 1/20 − 1/30 = 1/60 → v = 60 cm</span>।</div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">तरंग प्रकाशिकी</span>
+                <p class="topic-desc"><strong>हाइगेंस का सिद्धांत:</strong> तरंगाग्र का प्रत्येक बिंदु नई तरंगों का स्रोत बनता है। <br><strong>व्यतिकरण:</strong> प्रकाश तरंगों का मिलना जिससे फ्रिंजें बनती हैं (<span class="formula">&beta; = &lambda;D/d</span>)।</p>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>तरंगाग्र:</b> समान कला में कंपन करने वाले सभी बिंदुओं को मिलाने वाला पृष्ठ।</li>
+                        <li><b>कला-संबद्ध स्रोत:</b> वे स्रोत जिनके बीच कलांतर समय के साथ नियत रहे।</li>
+                        <li><b>संपोषी व्यतिकरण:</b> पथांतर <span class="formula">nλ</span> पर तीव्रता अधिकतम (चमकीली फ्रिंज)।</li>
+                        <li><b>विनाशी व्यतिकरण:</b> पथांतर <span class="formula">(2n−1)λ/2</span> पर तीव्रता न्यूनतम (काली फ्रिंज)।</li>
+                        <li><b>विवर्तन:</b> अवरोध या सूक्ष्म स्लिट के किनारों पर प्रकाश का मुड़ना।</li>
+                        <li><b>ध्रुवण:</b> प्रकाश के कंपन एक तल में सीमित करना (प्रकाश अनुप्रस्थ तरंग है)। ब्रूस्टर नियम: <span class="formula">tan θ_B = n</span>।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> यंग के द्विझिरी प्रयोग में λ = 600 nm, D = 1 m, d = 1 mm हो तो <span class="formula">β = λD/d = 6×10⁻⁷ × 1 / 10⁻³ = 0.6 mm</span>।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">☀️</span> इकाई 7: विकिरण की द्वैत प्रकृति</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">प्रकाश-विद्युत प्रभाव व डी ब्रोग्ली</span>
+                    <p class="topic-desc"><strong>आइंस्टीन का समीकरण:</strong> <span class="formula">K_max = h&nu; - &Phi;</span>. <br><strong>डी ब्रोग्ली तरंगदैर्ध्य:</strong> कणों की तरंग प्रकृति <span class="formula">&lambda; = h/p = h/mv</span>.</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><rect x="10" y="35" width="80" height="10" fill="#90a4ae"/><circle cx="30" cy="10" r="4" fill="#ffca28"><animate attributeName="cy" values="10; 35" dur="1s" repeatCount="indefinite"/><animate attributeName="cx" values="30; 50" dur="1s" repeatCount="indefinite"/></circle><circle cx="50" cy="35" r="3" fill="#42a5f5"><animate attributeName="cy" values="35; 10" dur="1s" repeatCount="indefinite"/><animate attributeName="cx" values="50; 80" dur="1s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>प्रकाश-विद्युत प्रभाव:</b> उपयुक्त आवृत्ति का प्रकाश पड़ने पर धातु की सतह से इलेक्ट्रॉनों का उत्सर्जन।</li>
+                        <li><b>देहली आवृत्ति (ν₀):</b> वह न्यूनतम आवृत्ति जिससे कम पर उत्सर्जन नहीं होता।</li>
+                        <li><b>कार्य फलन (Φ):</b> धातु से इलेक्ट्रॉन निकालने के लिए आवश्यक न्यूनतम ऊर्जा, <span class="formula">Φ = hν₀</span>।</li>
+                        <li><b>निरोधी विभव (V₀):</b> वह ऋणात्मक विभव जिस पर प्रकाश-धारा शून्य हो जाए, <span class="formula">eV₀ = K_max</span>।</li>
+                        <li><b>फोटॉन:</b> प्रकाश की ऊर्जा का क्वांटम, <span class="formula">E = hν</span>।</li>
+                        <li><b>द्रव्य तरंग:</b> गतिमान कण से जुड़ी तरंग। V वोल्ट से त्वरित इलेक्ट्रॉन के लिए <span class="formula">λ = 12.27/√V Å</span>।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण 1:</b> Φ = 2 eV वाली धातु पर 5 eV का फोटॉन पड़े तो <span class="formula">K_max = 5 − 2 = 3 eV</span> और <span class="formula">V₀ = 3 V</span>।</div>
+                    <div class="example"><b>💡 उदाहरण 2:</b> 100 V से त्वरित इलेक्ट्रॉन की तरंगदैर्ध्य <span class="formula">λ = 12.27/√100 ≈ 1.23 Å</span>।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">⚛️</span> इकाई 8: परमाणु तथा नाभिक</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">बोर मॉडल और स्पेक्ट्रम</span>
+                    <p class="topic-desc">इलेक्ट्रॉन केवल उन कक्षाओं में घूमते हैं जहाँ कोणीय संवेग <span class="formula">mvr = nh/2&pi;</span> होता है।</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><circle cx="50" cy="25" r="6" fill="#ef5350"/><ellipse cx="50" cy="25" rx="22" ry="8" fill="none" stroke="#999" transform="rotate(20 50 25)"/><ellipse cx="50" cy="25" rx="22" ry="8" fill="none" stroke="#999" transform="rotate(-40 50 25)"/><circle cx="72" cy="25" r="3" fill="#42a5f5"><animateTransform attributeName="transform" type="rotate" from="0 50 25" to="360 50 25" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>रदरफोर्ड मॉडल:</b> परमाणु का सारा धनावेश व द्रव्यमान एक अति सूक्ष्म नाभिक में केंद्रित है और इलेक्ट्रॉन उसके चारों ओर घूमते हैं।</li>
+                        <li><b>बोर का प्रथम अभिधारणा:</b> इलेक्ट्रॉन केवल कुछ निश्चित (स्थायी) कक्षाओं में बिना ऊर्जा उत्सर्जित किए घूमता है।</li>
+                        <li><b>बोर की तृतीय अभिधारणा:</b> कक्षा बदलने पर फोटॉन उत्सर्जित/अवशोषित होता है, <span class="formula">hν = E_i − E_f</span>।</li>
+                        <li><b>हाइड्रोजन की ऊर्जा:</b> <span class="formula">E_n = −13.6/n² eV</span>।</li>
+                        <li><b>स्पेक्ट्रमी श्रेणियाँ:</b> लाइमन (n→1, UV), बामर (n→2, दृश्य), पाश्चन (n→3, IR)।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> n = 3 से n = 2 पर संक्रमण में <span class="formula">ΔE = 13.6 (1/4 − 1/9) ≈ 1.89 eV</span> (बामर की पहली लाल रेखा)।</div>
+                </div>
+            </div>
+            <div class="topic-no-svg">
+                <span class="topic-title">नाभिक और बंधन ऊर्जा</span>
+                <p class="topic-desc"><strong>द्रव्यमान क्षति:</strong> नाभिक का द्रव्यमान प्रोटॉन/न्यूट्रॉन के कुल द्रव्यमान से कम होता है। यही <strong>बंधन ऊर्जा</strong> (<span class="formula">E = &Delta;mc&sup2;</span>) में बदलकर नाभिक को बांधे रखती है।</p>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>द्रव्यमान संख्या (A) / परमाणु क्रमांक (Z):</b> A = प्रोटॉन + न्यूट्रॉन, Z = प्रोटॉनों की संख्या।</li>
+                        <li><b>समस्थानिक:</b> समान Z पर भिन्न A वाले परमाणु (जैसे ¹H, ²H)। <b>समभारिक:</b> समान A पर भिन्न Z।</li>
+                        <li><b>बंधन ऊर्जा:</b> नाभिक को उसके न्यूक्लिऑनों में तोड़ने के लिए आवश्यक न्यूनतम ऊर्जा। <b>1 u = 931.5 MeV</b>।</li>
+                        <li><b>अर्ध-आयु (T½):</b> वह समय जिसमें रेडियोसक्रिय नाभिकों की संख्या आधी रह जाए, <span class="formula">N = N₀ (½)^(t/T½)</span>।</li>
+                        <li><b>नाभिकीय विखंडन / संलयन:</b> भारी नाभिक का टूटना (परमाणु बम/रिएक्टर) / हल्के नाभिकों का जुड़ना (सूर्य की ऊर्जा)।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> ⁴He की द्रव्यमान क्षति 0.0304 u है तो <span class="formula">BE = 0.0304 × 931.5 ≈ 28.3 MeV</span>।</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">💻</span> इकाई 9: इलेक्ट्रॉनिक युक्तियाँ</h2>
+            <div class="topic">
+                <div class="topic-content">
+                    <span class="topic-title">अर्धचालक और डायोड</span>
+                    <p class="topic-desc"><strong>p-n संधि:</strong> अग्र अभिनति (Forward bias) में धारा बहती है। दिष्टकारी (Rectifier) AC को DC में बदलता है।</p>
+                </div>
+                <svg viewBox="0 0 100 50" class="svg-icon"><polygon points="35,15 35,35 55,25" fill="#4caf50"/><line x1="55" y1="15" x2="55" y2="35" stroke="#333" stroke-width="3"/><line x1="10" y1="25" x2="35" y2="25" stroke="#333" stroke-width="2"/><line x1="55" y1="25" x2="90" y2="25" stroke="#333" stroke-width="2"/><circle cx="15" cy="25" r="3" fill="#fbc02d"><animate attributeName="cx" values="10;90" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+                <div class="extra">
+                    <div class="def-title">📖 महत्वपूर्ण परिभाषाएँ</div>
+                    <ul>
+                        <li><b>अर्धचालक:</b> वह पदार्थ जिसकी चालकता चालक व कुचालक के बीच हो (Si, Ge)। ताप बढ़ाने पर प्रतिरोध घटता है।</li>
+                        <li><b>n-प्रकार:</b> Si में पंचसंयोजी अशुद्धि (जैसे फॉस्फोरस) मिलाने पर, इलेक्ट्रॉन बहुसंख्यक वाहक।</li>
+                        <li><b>p-प्रकार:</b> Si में त्रिसंयोजी अशुद्धि (जैसे बोरॉन) मिलाने पर, कोटर (hole) बहुसंख्यक वाहक।</li>
+                        <li><b>अवक्षय क्षेत्र:</b> p-n संधि के पास मुक्त वाहकों से रहित क्षेत्र। अवरोध विभव: Si ≈ 0.7 V, Ge ≈ 0.3 V।</li>
+                        <li><b>अग्र / पश्च अभिनति:</b> p को धनात्मक व n को ऋणात्मक देने पर अग्र (धारा बहती है) तथा उलटा देने पर पश्च (लगभग शून्य धारा)।</li>
+                        <li><b>दिष्टकारी:</b> AC को DC में बदलने वाली युक्ति — अर्ध-तरंग (एक डायोड) और पूर्ण-तरंग (दो/चार डायोड)।</li>
+                    </ul>
+                    <div class="example"><b>💡 उदाहरण:</b> 5 V बैटरी के साथ 1 kΩ प्रतिरोध व सिलिकॉन डायोड (अग्र अभिनति) श्रेणी में हों तो <span class="formula">I = (5 − 0.7)/1000 = 4.3 mA</span>।</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

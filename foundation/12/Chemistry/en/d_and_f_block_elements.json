@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 4 : d and f Block Elements",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Transition Elements and Lanthanoid Contraction (Quick Revision)",
+        "definition": "Elements in which the last electron enters the penultimate d-orbital or f-orbital are called transition elements (d-block) and inner transition elements (f-block) respectively.",
+        "explanation": "d-block elements exhibit variable valency, coloured ions, paramagnetic properties, and catalytic properties. In f-block, lanthanoid contraction due to poor shielding of 4f electrons is the most important phenomenon.",
+        "importantPoints": [
+          "Transition elements: Elements with partially filled d-orbitals (General configuration: (n-1)d¹⁻¹⁰ ns¹⁻²)",
+          "Zn, Cd, Hg are not considered transition elements because their d-orbitals are completely filled ((n-1)d¹⁰)",
+          "Coloured ions: Due to d-d transition by unpaired d-electrons",
+          "Magnetic property: Paramagnetic due to presence of unpaired electrons (μ = √[n(n+2)] BM)",
+          "Lanthanoid contraction: Gradual decrease in atomic and ionic radii due to poor shielding of 4f electrons",
+          "Alloy formation: Easily form alloys due to similar atomic sizes (e.g., brass, bronze)"
+        ],
+        "highlightWords": [
+          "Transition elements",
+          "Variable oxidation state",
+          "d-d transition",
+          "Paramagnetic property",
+          "Lanthanoid contraction",
+          "Alloy"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are transition elements? Why are Zinc (Zn), Cadmium (Cd), and Mercury (Hg) generally not considered transition elements?",
+          "explanation": "Definition: Elements whose (n-1)d orbitals are partially filled (d¹ to d⁹) in their atomic or ionic state are called transition elements.\nReason: Zn, Cd, and Hg have completely filled d-orbitals (d¹⁰ configuration) in their ground state atoms as well as in their common oxidation states, so they are not considered transition elements.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the general electronic configuration of transition elements.",
+            "explanation": "(n-1)d¹⁻¹⁰ ns¹⁻² (where n is the number of the outermost shell).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why do transition metals form coloured ions? Explain.",
+          "explanation": "Ions of transition metals have incomplete (n-1)d orbitals containing unpaired electrons. When white light falls on them, they absorb a specific colour of visible light and get excited from a lower energy d-orbital to a higher energy d-orbital (d-d transition). The complementary colour of the absorbed colour is reflected and appears coloured to us.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why are Sc³⁺ and Zn²⁺ ions colourless?",
+            "explanation": "Sc³⁺ has zero d-electrons (3d⁰) and Zn²⁺ has a completely filled d-orbital (3d¹⁰). Since neither has any unpaired d-electron, d-d transition is not possible, so they are colourless.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why do transition elements show variable oxidation states?",
+          "explanation": "In transition elements, the difference between the energy levels of the outermost ns orbital and the penultimate (n-1)d orbital is very small. Therefore, in chemical bond formation, not only ns electrons, but unpaired electrons of the (n-1)d orbital can also participate as needed, due to which they exhibit various oxidation states (e.g., Mn: +2 to +7).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Which element in the 3d series shows the highest oxidation state and how much?",
+            "explanation": "Manganese (Mn) shows the highest oxidation state of +7 (e.g., in KMnO₄).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Lanthanoid contraction? Write any two of its main effects (consequences).",
+          "explanation": "Definition: In the lanthanoid series, as the atomic number increases, the nuclear attraction increases due to the poor shielding effect of 4f electrons, resulting in a steady gradual decrease in the radii of atoms and ions (M³⁺). This is called lanthanoid contraction.\nEffects:\n1. The sizes of elements of the 4d and 5d transition series become almost equal (e.g., equal radii of Zr and Hf).\n2. Great similarity is found in the chemical properties of lanthanoid elements, making their separation difficult.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why are the sizes and properties of Zr (Zirconium) and Hf (Hafnium) almost similar?",
+            "explanation": "Due to lanthanoid contraction, the atomic and ionic radii of Zr (4d series) and Hf (5d series) become almost equal, due to which their chemical properties are also very similar.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why are transition elements good catalysts? Give any two reasons.",
+          "explanation": "1. Due to their ability to show variable valency, they form unstable intermediate compounds with reactants.\n2. Due to the presence of free valencies and vacant d-orbitals on their solid surface, they provide a large active surface area for the adsorption of reactants.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the spin-only formula for magnetic moment.",
+            "explanation": "μ = √[n(n + 2)] BM (where n is the number of unpaired electrons and BM is Bohr Magneton).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 2 : Inverse Trigonometric Functions",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Principal Value Branch & Inverse Trigonometric Properties (Quick Revision)",
+        "definition": "The inverse functions obtained by restricting the domains of trigonometric functions are called inverse trigonometric functions.",
+        "explanation": "The principal value of sin⁻¹ x lies in [-π/2, π/2] and that of cos⁻¹ x lies in [0, π]. Questions related to the Principal Value Branch are compulsorily asked in board exams.",
+        "importantPoints": [
+          "sin⁻¹ x: Domain [-1, 1], Principal Value Branch [-π/2, π/2]",
+          "cos⁻¹ x: Domain [-1, 1], Principal Value Branch [0, π]",
+          "tan⁻¹ x: Domain R, Principal Value Branch (-π/2, π/2)",
+          "sin⁻¹(-x) = -sin⁻¹(x), tan⁻¹(-x) = -tan⁻¹(x), cosec⁻¹(-x) = -cosec⁻¹(x)",
+          "cos⁻¹(-x) = π - cos⁻¹(x), sec⁻¹(-x) = π - sec⁻¹(x), cot⁻¹(-x) = π - cot⁻¹(x)",
+          "sin⁻¹ x + cos⁻¹ x = π/2 (where x ∈ [-1, 1])",
+          "tan⁻¹ x + cot⁻¹ x = π/2 (where x ∈ R)"
+        ],
+        "highlightWords": [
+          "Inverse Trigonometric Functions",
+          "Principal Value Branch",
+          "Range of sin⁻¹ x",
+          "Range of cos⁻¹ x",
+          "Range of tan⁻¹ x"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the principal values of sin⁻¹(1/2) and sin⁻¹(-1/2).",
+          "explanation": "Step 1: Let sin⁻¹(1/2) = θ ⇒ sin θ = 1/2 = sin(π/6). Since π/6 ∈ [-π/2, π/2], sin⁻¹(1/2) = π/6.\nStep 2: Using formula sin⁻¹(-x) = -sin⁻¹(x):\nsin⁻¹(-1/2) = -sin⁻¹(1/2) = -π/6 (because -π/6 ∈ [-π/2, π/2]).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the principal value branch (range) of sin⁻¹(x).",
+            "explanation": "The principal value branch of sin⁻¹(x) is the closed interval [-π/2, π/2].",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the principal value of cos⁻¹(-1/2).",
+          "explanation": "Step 1: Using formula cos⁻¹(-x) = π - cos⁻¹(x).\nStep 2: cos⁻¹(-1/2) = π - cos⁻¹(1/2).\nStep 3: Since cos(π/3) = 1/2 ⇒ cos⁻¹(1/2) = π/3.\nStep 4: Substituting value: π - π/3 = (3π - π)/3 = 2π/3.\nSince 2π/3 ∈ [0, π], the principal value is 2π/3.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the principal value branch (range) of cos⁻¹(x).",
+            "explanation": "The principal value branch of cos⁻¹(x) is the closed interval [0, π].",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the principal value of tan⁻¹(-√3).",
+          "explanation": "Step 1: Using formula tan⁻¹(-x) = -tan⁻¹(x).\nStep 2: tan⁻¹(-√3) = -tan⁻¹(√3).\nStep 3: Since tan(π/3) = √3 ⇒ tan⁻¹(√3) = π/3.\nStep 4: = -π/3.\nSince -π/3 ∈ (-π/2, π/2), the principal value is -π/3.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the value of tan⁻¹(1) + cos⁻¹(-1/2) + sin⁻¹(-1/2).",
+            "explanation": "Step 1: tan⁻¹(1) = π/4.\nStep 2: By identity: cos⁻¹(x) + sin⁻¹(x) = π/2 (where x = -1/2 ∈ [-1, 1]).\nStep 3: Total value = tan⁻¹(1) + [cos⁻¹(-1/2) + sin⁻¹(-1/2)] = π/4 + π/2 = 3π/4.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the value of sin⁻¹(sin(2π/3)).",
+          "explanation": "Step 1: Since 2π/3 ∉ [-π/2, π/2], the value cannot directly be 2π/3.\nStep 2: Trigonometric conversion: sin(2π/3) = sin(π - π/3) = sin(π/3).\nStep 3: sin⁻¹(sin(2π/3)) = sin⁻¹(sin(π/3)) = π/3 (because π/3 ∈ [-π/2, π/2]).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What will be the value of cos⁻¹(cos(7π/6))?",
+            "explanation": "Step 1: Since 7π/6 ∉ [0, π], conversion is required.\nStep 2: cos(7π/6) = cos(2π - 5π/6) = cos(5π/6).\nStep 3: cos⁻¹(cos(7π/6)) = cos⁻¹(cos(5π/6)) = 5π/6 (because 5π/6 ∈ [0, π]).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Prove that sin⁻¹ x + cos⁻¹ x = π/2, where x ∈ [-1, 1].",
+          "explanation": "Step 1: Let sin⁻¹ x = θ ⇒ x = sin θ.\nStep 2: We know that sin θ = cos(π/2 - θ).\nHence x = cos(π/2 - θ).\nStep 3: Taking cos⁻¹ on both sides: cos⁻¹ x = π/2 - θ.\nStep 4: Substituting θ = sin⁻¹ x: cos⁻¹ x = π/2 - sin⁻¹ x\n⇒ sin⁻¹ x + cos⁻¹ x = π/2. Hence proved.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "If tan⁻¹ x + cot⁻¹ x = π/2, what will be the value of tan⁻¹(√3) + cot⁻¹(√3)?",
+            "explanation": "Step 1: For every real number x ∈ R, the standard identity is: tan⁻¹ x + cot⁻¹ x = π/2.\nStep 2: Putting x = √3 ∈ R here: tan⁻¹(√3) + cot⁻¹(√3) = π/2.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 6 : Haloalkanes and Haloarenes",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Nucleophilic Substitution and Mechanism (Quick Revision)",
+        "definition": "Compounds formed by replacing a hydrogen atom of an aliphatic or aromatic hydrocarbon with a halogen (F, Cl, Br, I) are called haloalkanes and haloarenes respectively.",
+        "explanation": "Haloalkanes mainly show nucleophilic substitution reactions (SN1 and SN2). Wurtz, Fittig, and Wurtz-Fittig reactions are very useful in increasing the carbon chain and preparing aromatic compounds.",
+        "importantPoints": [
+          "SN1 Reaction: Two steps, carbocation intermediate, Rate ∝ [Substrate] (3° > 2° > 1°), racemization",
+          "SN2 Reaction: Single step, transition state, Rate ∝ [Substrate][Nucleophile] (1° > 2° > 3°), Walden inversion",
+          "Haloarenes are very less reactive towards nucleophilic substitution due to resonance and partial double bond character of C-Cl bond",
+          "Wurtz Reaction: R-X + 2Na + X-R -(Dry ether)→ R-R + 2NaX",
+          "Auto-oxidation of chloroform: 2CHCl₃ + O₂ -(Light)→ 2COCl₂ (Phosgene poisonous gas) + 2HCl"
+        ],
+        "highlightWords": [
+          "Haloalkane",
+          "SN1 reaction",
+          "SN2 reaction",
+          "Walden inversion",
+          "Wurtz reaction",
+          "Phosgene gas"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write any three main differences between the mechanisms of SN1 and SN2 reactions.",
+          "explanation": "1. SN1 reaction completes in two steps (carbocation intermediate is formed), whereas SN2 reaction completes in a single step through a transition state.\n2. The rate of SN1 depends only on the concentration of substrate (haloalkane) (first order), whereas the rate of SN2 depends on both substrate and nucleophile (second order).\n3. Order of reactivity of alkyl halides: For SN1 it is 3° > 2° > 1°, whereas for SN2 it is 1° > 2° > 3° (Walden inversion occurs in SN2).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is Walden Inversion? In which type of reaction is it observed?",
+            "explanation": "In an SN2 reaction, the nucleophile attacks the carbon from directly behind (at 180°) the leaving group (halogen), causing the spatial configuration of the resulting product to completely flip (invert) compared to the original reactant, just like an umbrella turning inside out in strong wind. This is called Walden inversion.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why is chlorobenzene (haloarene) much less reactive towards nucleophilic substitution reactions compared to haloalkanes?",
+          "explanation": "Main reasons:\n1. Resonance effect: In chlorobenzene, the lone pair of electrons of chlorine participates in resonance with the benzene ring, giving partial double bond character to the C-Cl bond, making it difficult to break.\n2. Hybridization of C atom: In chlorobenzene, the carbon with the C-Cl bond is sp² hybridized (more s-character, higher electronegativity), whereas in haloalkanes it is sp³ hybridized.\n3. High instability of the phenyl cation.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why is the C-Cl bond length shorter in chlorobenzene than in chloromethane?",
+            "explanation": "Due to resonance, the C-Cl bond in chlorobenzene acquires partial double bond character, and because its carbon is sp² hybridized, the C-Cl bond length is shorter (169 pm) and stronger.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the chemical equations for the following reactions:\n(i) Wurtz Reaction\n(ii) Fittig Reaction",
+          "explanation": "(i) Wurtz Reaction: In the presence of dry ether, two molecules of alkyl halide react with sodium metal to form higher alkanes:\n2CH₃-Cl + 2Na -(Dry ether)→ CH₃-CH₃ (Ethane) + 2NaCl.\n(ii) Fittig Reaction: In the presence of dry ether, two molecules of haloarene (like chlorobenzene) react with sodium to form diphenyl:\n2C₆H₅-Cl + 2Na -(Dry ether)→ C₆H₅-C₆H₅ (Diphenyl) + 2NaCl.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the equation for the Wurtz-Fittig reaction.",
+            "explanation": "One molecule of alkyl halide and one molecule of aryl halide react with sodium in dry ether to form alkyl benzene:\nC₆H₅-Cl + 2Na + Cl-CH₃ -(Dry ether)→ C₆H₅-CH₃ (Toluene) + 2NaCl.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why is chloroform kept in dark coloured bottles filled up to the brim in a dark room?",
+          "explanation": "In the presence of air and sunlight, chloroform (CHCl₃) slowly undergoes auto-oxidation to form an extremely poisonous gas 'phosgene' (carbonyl chloride, COCl₂):\n2CHCl₃ + O₂ -(Light)→ 2COCl₂ (Phosgene) + 2HCl.\nTo prevent this harmful oxidation, it is kept in dark (brown) bottles filled up to the brim along with a little ethyl alcohol in the dark.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Why is 1% ethyl alcohol added to chloroform?",
+            "explanation": "Ethyl alcohol acts as a negative catalyst to slow down the rate of phosgene formation, and even if a little phosgene is formed, it reacts with it to form non-poisonous diethyl carbonate.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Saytzeff's rule for elimination reactions in haloalkanes? Explain with an example.",
+          "explanation": "Rule: When dehydrohalogenation of a secondary or tertiary alkyl halide is carried out, as a result of β-elimination, that alkene is formed as the main product which has a greater number of alkyl groups on the double bond (i.e., more substituted alkene).\nExample: Reaction of 2-bromobutane with alcoholic KOH gives but-2-ene (81%, main product) and but-1-ene (19%, minor product):\nCH₃-CH₂-CH(Br)-CH₃ -(alc. KOH / Δ)→ CH₃-CH=CH-CH₃ (Main) + KBr + H₂O.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the difference between the reaction of alcoholic KOH and aqueous (aq.) KOH with alkyl halide?",
+            "explanation": "1. Aqueous KOH gives a nucleophilic substitution reaction to form an alcohol (R-X + aq. KOH → R-OH + KX).\n2. Alcoholic KOH gives an elimination (dehydrohalogenation) reaction to form an alkene (R-CH₂-CH₂-X + alc. KOH → R-CH=CH₂ + KX + H₂O).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

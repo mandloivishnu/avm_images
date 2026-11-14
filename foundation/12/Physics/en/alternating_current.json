@@ -1,0 +1,170 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics - Chapter 7 : Alternating Current",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Alternating Circuits and Devices (Quick Revision)",
+        "definition": "A current whose magnitude and direction change periodically with time is called Alternating Current (AC).",
+        "explanation": "In AC circuits, the RMS value of current is the effective value. Power factor determines energy loss, and a transformer changes voltage through mutual induction.",
+        "importantPoints": [
+          "Instantaneous value: I = I₀ sin ωt",
+          "RMS value: Irms = I₀ / √2",
+          "Power factor: cos φ = R / Z",
+          "Resonance condition: XL = XC",
+          "Resonant frequency: f₀ = 1 / (2π√LC)",
+          "Transformer ratio: Vs / Vp = Ns / Np (Mutual Induction)"
+        ],
+        "highlightWords": [
+          "Alternating Current",
+          "RMS Value",
+          "Power Factor",
+          "Resonance",
+          "Transformer"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Alternating Current?",
+          "explanation": "1. Definition: An electric current whose magnitude and direction change periodically with time and repeat the same cycle after a fixed time interval is called Alternating Current (AC).\n\n2. Instantaneous Equation: I = I₀ sin ωt (where I₀ is the peak value of current, ω = 2πf is the angular frequency, and t is time).\n\n3. Main Characteristics:\n\n- This current changes its polarity periodically, so it does not show electrolysis effect.\n- In India, the standard frequency of household AC is 50 Hz.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the instantaneous equation of Alternating Current.",
+            "explanation": "Instantaneous equation of Alternating Current:\nI = I₀ sin ωt  (or I = I₀ sin(2πft))\n\nMeaning of symbols:\n1. I = Instantaneous value of current at time t.\n2. I₀ = Amplitude or peak value of current.\n3. ω = Angular frequency (ω = 2πf = 2π/T, where f is frequency and T is time period).\n4. ωt = Instantaneous phase angle, which determines the direction and value of current at any instant.",
+            "imgUrl": "",
+            "explanation1": "I = I₀ sin ωt (where I₀ is peak value, ω is angular frequency)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is the Root Mean Square (RMS) value of Alternating Current?",
+          "explanation": "1. Definition: The square root of the average (mean) of the squares of instantaneous current values over one complete cycle of alternating current is called the Root Mean Square (RMS) value or effective value of AC.\n\n2. Relation with Peak Value: Irms = I₀ / √2 ≈ 0.707 I₀.\n\n3. Physical Significance:\n- The heat produced by an alternating current in a resistor in a given time is equal to the heat produced by a steady direct current (DC) of the same value.\n- All AC voltmeters and ammeters always measure the RMS value.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the relation between the peak value (I₀) and RMS value (Irms) of Alternating Current?",
+            "explanation": "Relation:\nIrms = I₀ / √2 ≈ 0.707 I₀\n\nImportant Points:\n1. For one complete cycle, the mean of the square of instantaneous current I = I₀ sin ωt is <I²> = I₀²/2.\n\n2. Taking its square root gives the RMS value: Irms = √(I₀²/2) = I₀ / √2.\n\n3. Peak value (I₀) is the maximum value of current, while Irms is its working/effective value. The peak value of 220V household AC is about 311V.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Power Factor?",
+          "explanation": "1. Definition: In an AC circuit, the cosine (cos φ) of the phase difference (φ) between voltage and current is called the Power Factor.\n2. Formula:\ncos φ = R / Z = True Power / Apparent Power (where R is resistance and Z is total impedance of the circuit).\n\n3. Values in different circuits:\n- In a pure resistive circuit, φ = 0°, cos φ = 1 (maximum power dissipation).\n- In a pure inductive or capacitive circuit, φ = 90°, cos φ = 0 (zero power dissipation or wattless current).",
+          "imgUrl": "",
+          "explanation1": "cos φ = R / Z (value lies between 0 and 1)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the formula of Power Factor in terms of resistance and impedance.",
+            "explanation": "Formula:\ncos φ = R / Z\n\nMeaning and explanation of symbols:\n1. R = Ohmic resistance of the circuit (Unit: Ohm Ω).\n\n2. Z = Total impedance of the circuit [For an LCR circuit, Z = √(R² + (XL - XC)²)].\n\n3. Effect on power loss: The average power consumed in the circuit is Pav = Vrms × Irms × cos φ. When Z = R (resonance condition), the power factor is cos φ = 1 (maximum).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Resonance?",
+          "explanation": "1. Definition: In a series LCR circuit, when the frequency of the applied AC source becomes equal to the natural frequency of the circuit, the inductive reactance (XL) and capacitive reactance (XC) become equal to each other (XL = XC). This condition is called electrical resonance.\n\n2. Main Characteristics:\n- The impedance of the circuit becomes minimum (Z = R).\n- The current amplitude in the circuit becomes maximum (I₀ = V₀ / R).\n\n3. Resonant frequency formula: f₀ = 1 / (2π√(LC)).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the formula for resonant frequency in a series LCR circuit.",
+            "explanation": "Formula for resonant frequency:\nf₀ = 1 / (2π√(LC))  (and angular resonant frequency ω₀ = 1 / √(LC))\n\nDerivation basis and symbols:\n1. At resonance, Inductive reactance = Capacitive reactance (XL = XC).\n2. ωL = 1 / (ωC)  =>  ω² = 1 / (LC)  =>  ω = 1 / √(LC).\n3. Since ω = 2πf, we get f₀ = 1 / (2π√(LC)).\nHere, L = self-inductance (in Henry) and C = capacitance (in Farad). It is used in radio tuning.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is a Transformer?",
+          "explanation": "1. Definition: A transformer is a static electrical device that works on the principle of mutual induction to increase (step-up) or decrease (step-down) alternating voltage without changing its frequency.\n\n2. Types:\n- Step-up transformer: Converts low AC voltage into high AC voltage (Ns > Np).\n- Step-down transformer: Converts high AC voltage into low AC voltage (Ns < Np).\n3. Transformation ratio formula: Vs / Vp = Ns / Np = Ip / Is = k. It works only on AC, not on DC.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "On which principle does a transformer work?",
+            "explanation": "1. Working Principle: A transformer works on the principle of Mutual Induction.\n\n2. Brief Working: When an alternating current is passed through the primary coil, a changing magnetic flux is produced in the soft iron core. This flux also passes through the secondary coil, inducing an electromotive force (EMF) in the secondary coil according to Faraday's law.\n\n3. Transformation Ratio: Es / Ep = Ns / Np (where Np and Ns are the number of turns in primary and secondary coils respectively). Since flux change is zero in Direct Current (DC), a transformer does not work on DC.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

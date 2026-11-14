@@ -1,0 +1,170 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 5 : Coordination Compounds",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Coordination Complexes, Ligands and Werner's Theory (Quick Revision)",
+        "definition": "Molecular compounds in which a central metal atom/ion is surrounded by anions or neutral molecules (ligands) through coordinate bonds and retains its identity in aqueous solution are called coordination compounds.",
+        "explanation": "Werner's theory is the basis of primary and secondary valency. Ligands can be monodentate, bidentate, or ambidentate. Hybridization, geometry, and magnetic behaviour of complexes are explained by VBT and CFT.",
+        "importantPoints": [
+          "Double Salts (e.g., Alum, Mohr's salt): Dissociate completely into their ions in aqueous solution",
+          "Coordination Complexes (e.g., K₄[Fe(CN)₆]): Complex ion maintains its identity in solution",
+          "Ligands: Atoms/molecules/ions that donate a lone pair of electrons (Lewis bases)",
+          "Ambidentate Ligand: Contains two different donor atoms, but only one attaches at a time (e.g., -NO₂⁻ / -ONO⁻, -SCN⁻ / -NCS⁻)",
+          "Chelate Ligand: Polydentate ligands that form a ring structure with the metal (e.g., EDTA, oxalate)",
+          "Werner's Theory: Primary valency is ionizable (satisfied by anions), secondary valency is non-ionizable (coordination number)"
+        ],
+        "highlightWords": [
+          "Coordination compounds",
+          "Double salt",
+          "Ligand",
+          "Ambidentate ligand",
+          "Chelation",
+          "Werner's theory",
+          "Coordination number"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write any three differences between a Double Salt and a Coordination Compound.",
+          "explanation": "1. Double salts are stable only in the solid state and dissociate completely into their original ions when dissolved in water (e.g., Mohr's salt FeSO₄·(NH₄)₂SO₄·6H₂O).\n2. Coordination compounds retain their identity in both solid and aqueous solutions and do not break completely into ions (e.g., K₄[Fe(CN)₆]).\n3. Double salts have only ionic bonds, whereas coordination compounds definitely have coordinate bonds.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the chemical formula of Mohr's salt and state whether it is a double salt or a complex?",
+            "explanation": "The formula of Mohr's salt is FeSO₄ · (NH₄)₂SO₄ · 6H₂O. It is a Double Salt.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are ligands? Give one example each of monodentate and bidentate ligands.",
+          "explanation": "Definition: Atoms, molecules, or anions directly attached to the central metal atom or ion in a coordination complex that form a coordinate bond by donating at least one lone pair of electrons are called ligands (these are Lewis bases).\n1. Monodentate ligand (one donor atom): NH₃, H₂O, Cl⁻, CN⁻.\n2. Bidentate ligand (two donor atoms): Ethylenediamine (en) [H₂N-CH₂-CH₂-NH₂] or oxalate ion (C₂O₄²⁻).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is a Chelating Ligand? What is its importance?",
+            "explanation": "When a polydentate ligand attaches to a central metal ion to form a cyclic ring structure, it is called a chelating ligand. Due to chelation, the stability of the complex increases greatly. (e.g., EDTA, oxalate).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are Ambidentate ligands? Explain with examples.",
+          "explanation": "Monodentate ligands that have two different donor atoms, but only one donor atom attaches to the central metal at a time during complex formation, are called ambidentate ligands.\nExamples:\n1. Nitro group: If N attaches, it is -NO₂ (nitro) and if O attaches, it is -ONO (nitrito).\n2. Thiocyanate group: If S attaches, it is -SCN (thiocyanato) and if N attaches, it is -NCS (isothiocyanato).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the full name of EDTA and state what its denticity is?",
+            "explanation": "The full name of EDTA is 'Ethylenediaminetetraacetate'. It is a hexadentate ligand (Denticity = 6).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the main postulates of Werner's coordination theory.",
+          "explanation": "According to Alfred Werner, metals show two types of valencies:\n1. Primary Valency: It is ionizable, equal to the oxidation state of the metal, and is satisfied only by anions.\n2. Secondary Valency: It is non-ionizable, equal to the coordination number of the metal, and is satisfied by neutral molecules or anions. It is fixed and directional, which determines the geometry of the complex.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What are the primary and secondary valencies of cobalt in the complex [Co(NH₃)₆]Cl₃?",
+            "explanation": "Primary valency = +3 (satisfied by three Cl⁻ ions) and Secondary valency (coordination number) = 6 (satisfied by six NH₃ molecules).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the IUPAC names of the following complexes:\n(i) K₄[Fe(CN)₆]\n(ii) [Co(NH₃)₆]Cl₃",
+          "explanation": "(i) K₄[Fe(CN)₆] : Potassium hexacyanoferrate(II)\n(ii) [Co(NH₃)₆]Cl₃ : Hexaamminecobalt(III) chloride.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the oxidation state and hybridization of nickel in [Ni(CO)₄].",
+            "explanation": "Oxidation state = 0 (zero, because CO is a neutral ligand) and Hybridization = sp³ (Geometry: Tetrahedral).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

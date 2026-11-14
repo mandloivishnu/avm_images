@@ -1,0 +1,350 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Important Descriptive Questions Collection",
+    "totalMarks": "50",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "subjectName": "Relations and Functions",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the definition of an Equivalence Relation.",
+          "correct_answer": "A relation R defined on a set A is called an equivalence relation if it is:\n1. Reflexive: (a, a) ∈ R for every a ∈ A\n2. Symmetric: If (a, b) ∈ R, then (b, a) ∈ R\n3. Transitive: If (a, b) ∈ R and (b, c) ∈ R, then (a, c) ∈ R.",
+          "imgUrl": "",
+          "explanation": "A relation becomes an equivalence relation when it is reflexive, symmetric, and transitive."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "subjectName": "Inverse Trigonometric Functions",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the principal value of sin⁻¹(-1/2).",
+          "correct_answer": "We know that the principal value branch of sin⁻¹(x) is [-π/2, π/2].\nLet y = sin⁻¹(-1/2)\n⇒ sin y = -1/2 = -sin(π/6) = sin(-π/6)\nSince -π/6 ∈ [-π/2, π/2], the principal value is -π/6.",
+          "imgUrl": "",
+          "explanation": "sin⁻¹(-x) = -sin⁻¹(x), hence -π/6."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "subjectName": "Matrices",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define Symmetric and Skew-symmetric matrices.",
+          "correct_answer": "Symmetric Matrix: A square matrix A is called symmetric if A' = A (where A' is the transpose matrix).\nSkew-symmetric Matrix: A square matrix A is called skew-symmetric if A' = -A. (All elements of its main diagonal are zero).",
+          "imgUrl": "",
+          "explanation": "A' = A (Symmetric), A' = -A (Skew-symmetric)."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "subjectName": "Determinants",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If A is a square matrix of order 3, what will be the value of |adj A| in terms of |A|? Establish the formula.",
+          "correct_answer": "According to the formula, for any square matrix of order n:\n|adj A| = |A|^(n - 1)\nHere n = 3, therefore:\n|adj A| = |A|^(3 - 1) = |A|².",
+          "imgUrl": "",
+          "explanation": "|adj A| = |A|^(n-1)"
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "subjectName": "Continuity and Differentiability",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Prove that the function f(x) = |x| is continuous at x = 0, but not differentiable.",
+          "correct_answer": "1. Continuity: lim (x→0⁻) |x| = 0, lim (x→0⁺) |x| = 0, f(0) = 0. Thus, f(x) is continuous at x = 0.\n2. Differentiability: L f'(0) = lim (h→0) (|0-h| - 0)/(-h) = -1, while R f'(0) = lim (h→0) (|0+h| - 0)/h = 1.\nSince L f'(0) ≠ R f'(0), it is not differentiable at x = 0.",
+          "imgUrl": "",
+          "explanation": "It is continuous, but left-hand derivative (-1) ≠ right-hand derivative (+1)."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "subjectName": "Continuity and Differentiability",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If y = log(sin x), then find dy/dx.",
+          "correct_answer": "By Chain Rule:\ndy/dx = d/dx [log(sin x)]\n= (1 / sin x) · d/dx (sin x)\n= (1 / sin x) · cos x = cot x.",
+          "imgUrl": "",
+          "explanation": "dy/dx = cot x"
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "subjectName": "Application of Derivatives",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the rate of change of the area of a circle with respect to its radius r when r = 6 cm.",
+          "correct_answer": "Area of circle A = π r²\nDifferentiating with respect to r:\ndA/dr = d/dr (π r²) = 2π r\nWhen r = 6 cm:\ndA/dr = 2π × 6 = 12π cm²/cm.",
+          "imgUrl": "",
+          "explanation": "dA/dr = 2πr = 12π cm²/cm"
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "subjectName": "Integrals",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Evaluate: ∫ e^x (sin x + cos x) dx.",
+          "correct_answer": "We know the standard integration formula:\n∫ e^x [f(x) + f'(x)] dx = e^x f(x) + C\nHere taking f(x) = sin x gives f'(x) = cos x.\nHence, ∫ e^x (sin x + cos x) dx = e^x sin x + C.",
+          "imgUrl": "",
+          "explanation": "∫ e^x [f(x) + f'(x)] dx = e^x f(x) + C"
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "subjectName": "Integrals",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Evaluate the definite integral: ∫₀^(π/2) (sin x / (sin x + cos x)) dx.",
+          "correct_answer": "Let I = ∫₀^(π/2) [sin x / (sin x + cos x)] dx ...(1)\nBy property ∫₀^a f(x) dx = ∫₀^a f(a - x) dx:\nI = ∫₀^(π/2) [cos x / (cos x + sin x)] dx ...(2)\nAdding equations (1) and (2):\n2I = ∫₀^(π/2) 1 dx = [x]₀^(π/2) = π/2\n⇒ I = π/4.",
+          "imgUrl": "",
+          "explanation": "By property 2I = π/2 ⇒ I = π/4"
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "subjectName": "Application of Integrals",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Using integration, find the area of the circle x² + y² = a² in the first quadrant.",
+          "correct_answer": "Area in first quadrant:\nA = ∫₀^a y dx = ∫₀^a √(a² - x²) dx\n= [ (x/2)√(a² - x²) + (a²/2) sin⁻¹(x/a) ]₀^a\n= (a²/2) · sin⁻¹(1) - 0 = (a²/2) · (π/2) = π a² / 4 sq. units.",
+          "imgUrl": "",
+          "explanation": "Area of first quadrant = πa²/4"
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "subjectName": "Differential Equations",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the order and degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) = 0.",
+          "correct_answer": "1. Order: The highest order derivative is d²y/dx², so Order = 2.\n2. Degree: Since the differential equation is not a polynomial in dy/dx (the term sin(dy/dx) is present), its degree is not defined.",
+          "imgUrl": "",
+          "explanation": "Order = 2, Degree = Not defined."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "subjectName": "Differential Equations",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the Integrating Factor (I.F.) of the linear differential equation dy/dx + P y = Q?",
+          "correct_answer": "For the first-order linear differential equation dy/dx + P y = Q (where P and Q are functions of x only or constants), the Integrating Factor is:\nI.F. = e^(∫ P dx).",
+          "imgUrl": "",
+          "explanation": "I.F. = e^(∫ P dx)"
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "subjectName": "Vector Algebra",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If two vectors a⃗ and b⃗ are perpendicular to each other, what will be the value of their scalar product? Explain with reason.",
+          "correct_answer": "The scalar (dot) product of two vectors is a⃗ · b⃗ = |a⃗| |b⃗| cos θ.\nIf a⃗ ⊥ b⃗, then the angle between them is θ = 90°.\nHence, a⃗ · b⃗ = |a⃗| |b⃗| cos 90° = 0.",
+          "imgUrl": "",
+          "explanation": "For perpendicular vectors, a⃗ · b⃗ = 0."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "subjectName": "Vector Algebra",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the projection of vector a⃗ = 2î + 3ĵ + 2k̂ on vector b⃗ = î + 2ĵ + k̂.",
+          "correct_answer": "Projection of a⃗ on b⃗ = (a⃗ · b⃗) / |b⃗|\na⃗ · b⃗ = (2)(1) + (3)(2) + (2)(1) = 2 + 6 + 2 = 10\n|b⃗| = √(1² + 2² + 1²) = √(1 + 4 + 1) = √6\nHence, Projection = 10 / √6 = 5√6 / 3.",
+          "imgUrl": "",
+          "explanation": "Projection = (a⃗ · b⃗) / |b⃗| = 10 / √6"
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "subjectName": "Three Dimensional Geometry",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If l, m, n are the direction cosines of a line, prove that l² + m² + n² = 1.",
+          "correct_answer": "Let the distance of a point P(x, y, z) from the origin O(0,0,0) be r = √(x² + y² + z²).\nBy definition of direction cosines: l = x/r, m = y/r, n = z/r\nSquaring and adding:\nl² + m² + n² = (x² + y² + z²) / r² = r² / r² = 1.",
+          "imgUrl": "",
+          "explanation": "l² + m² + n² = 1"
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "subjectName": "Three Dimensional Geometry",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the condition for two lines to be perpendicular to each other in terms of their direction ratios (a₁, b₁, c₁) and (a₂, b₂, c₂).",
+          "correct_answer": "Two lines will be perpendicular to each other if and only if the angle between them is 90°:\na₁ a₂ + b₁ b₂ + c₁ c₂ = 0.",
+          "imgUrl": "",
+          "explanation": "a₁ a₂ + b₁ b₂ + c₁ c₂ = 0"
+        }
+      ]
+    },
+    {
+      "question_number": "17",
+      "subjectName": "Linear Programming",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is meant by Feasible Region in a Linear Programming Problem?",
+          "correct_answer": "The set of all common points that simultaneously satisfy all the given constraints (inequalities) and the non-negative restrictions (x ≥ 0, y ≥ 0) in a linear programming problem is called the feasible region.",
+          "imgUrl": "",
+          "explanation": "The common region satisfying all constraints."
+        }
+      ]
+    },
+    {
+      "question_number": "18",
+      "subjectName": "Probability",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the definition and formula of Conditional Probability P(A|B).",
+          "correct_answer": "If A and B are two events associated with a random experiment and event B has already occurred (P(B) ≠ 0), then the probability of occurrence of A given that B has already occurred is called conditional probability:\nP(A|B) = P(A ∩ B) / P(B).",
+          "imgUrl": "",
+          "explanation": "P(A|B) = P(A ∩ B) / P(B)"
+        }
+      ]
+    },
+    {
+      "question_number": "19",
+      "subjectName": "Probability",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the necessary and sufficient condition for Independent Events.",
+          "correct_answer": "Two events A and B are said to be mutually independent if the occurrence of one event does not affect the occurrence of the other event:\nCondition: P(A ∩ B) = P(A) · P(B).",
+          "imgUrl": "",
+          "explanation": "P(A ∩ B) = P(A) · P(B)"
+        }
+      ]
+    },
+    {
+      "question_number": "20",
+      "subjectName": "Probability",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If P(A) = 3/5 and P(B) = 1/5, and A and B are independent events, find the value of P(A ∩ B).",
+          "correct_answer": "Since A and B are independent events, therefore:\nP(A ∩ B) = P(A) · P(B)\n= (3/5) · (1/5) = 3/25.",
+          "imgUrl": "",
+          "explanation": "P(A ∩ B) = 3/5 × 1/5 = 3/25"
+        }
+      ]
+    }
+  ]
+}

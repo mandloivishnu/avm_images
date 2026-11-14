@@ -1,0 +1,169 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Chemistry - Chapter 8 : Aldehydes, Ketones and Carboxylic Acids",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Carbonyl Compounds and Nucleophilic Addition Reactions (Quick Revision)",
+        "definition": "Organic compounds containing a carbonyl group (>C=O) are called aldehydes, ketones, or carboxylic acids (-COOH).",
+        "explanation": "Due to a partial positive charge on carbon in the carbonyl group, it is reactive towards nucleophilic addition reactions. Aldehydes reduce Tollens' and Fehling's reagents, while ketones do not. Cannizzaro and Aldol condensation are the main reactions for exams.",
+        "importantPoints": [
+          "Tollens' Test: Aldehyde + Tollens' reagent [Ag(NH₃)₂]⁺ → Silver mirror",
+          "Fehling's Test: Aliphatic aldehyde + Fehling's solution → Red precipitate of Cu₂O",
+          "Aldol Condensation: Aldehydes/ketones containing α-hydrogen form β-hydroxy aldehydes in the presence of dilute alkali",
+          "Cannizzaro Reaction: Aldehydes without α-hydrogen (e.g., HCHO, C₆H₅CHO) undergo self-redox with concentrated alkali",
+          "Acidity of Carboxylic Acids: -COOH group is more acidic than both phenol and alcohol"
+        ],
+        "highlightWords": [
+          "Carbonyl group",
+          "Tollens' reagent",
+          "Silver mirror test",
+          "Fehling's solution",
+          "Aldol condensation",
+          "Cannizzaro reaction",
+          "Carboxylic acid"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What are Tollens' reagent and Fehling's solution tests? How are they used to differentiate between aldehydes and ketones?",
+          "explanation": "1. Tollens' Test: When Tollens' reagent (ammoniacal silver nitrate solution) is heated with an aldehyde, silver metal is deposited and forms a shiny 'Silver mirror' on the wall of the test tube:\nR-CHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → R-COO⁻ + 2Ag↓ (Silver mirror) + 4NH₃ + 2H₂O\nKetones do not give this test.\n2. Fehling's Test: When an aldehyde is heated with Fehling's solution (CuSO₄ + Rochelle salt), a reddish-brown precipitate of cuprous oxide (Cu₂O) is formed. Ketones do not give this test either.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is Formalin? Write one of its main uses.",
+            "explanation": "A 40% aqueous solution of formaldehyde (HCHO) is called Formalin. It is used for the preservation of biological and scientific specimens.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is Aldol Condensation? Explain with a chemical equation.",
+          "explanation": "Definition: Aldehydes or ketones that contain at least one α-hydrogen atom condense with each other in the presence of a dilute alkali (like dilute NaOH or Ba(OH)₂) to form a β-hydroxy aldehyde (aldol) or β-hydroxy ketone. On heating, a water molecule is removed to form an α,β-unsaturated carbonyl compound.\nEquation (Two molecules of acetaldehyde):\n2CH₃-CHO -(dil. NaOH)→ CH₃-CH(OH)-CH₂-CHO (3-Hydroxybutanal / Aldol) -(Δ, -H₂O)→ CH₃-CH=CH-CHO (But-2-enal).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Do formaldehyde (HCHO) and benzaldehyde (C₆H₅CHO) give Aldol condensation?",
+            "explanation": "No, because neither formaldehyde nor benzaldehyde contains any α-hydrogen atom.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What is the Cannizzaro Reaction? Write it with a chemical equation.",
+          "explanation": "Definition: Aldehydes that do not have any α-hydrogen atom (e.g., HCHO, C₆H₅CHO) undergo self-oxidation and reduction (disproportionation/redox) reaction when heated with a concentrated alkali (50% NaOH or KOH). In this, one molecule of aldehyde is reduced to an alcohol, and the other molecule is oxidized to the salt of a carboxylic acid.\nEquation (Formaldehyde):\n2HCHO + conc. NaOH -(Δ)→ CH₃OH (Methyl alcohol) + HCOONa (Sodium formate).\n(Benzaldehyde):\n2C₆H₅CHO + conc. NaOH -(Δ)→ C₆H₅CH₂OH (Benzyl alcohol) + C₆H₅COONa (Sodium benzoate).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the names of two main aldehydes that show the Cannizzaro reaction.",
+            "explanation": "1. Formaldehyde (HCHO)\n2. Benzaldehyde (C₆H₅CHO).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Why are carboxylic acids more acidic than phenol?",
+          "explanation": "Reason:\n1. The carboxylate ion (R-COO⁻) formed after the removal of H⁺ from a carboxylic acid forms two equivalent resonance structures, in which the negative charge is equally delocalized over two highly electronegative oxygen atoms.\n2. Although resonance occurs in the phenoxide ion, the negative charge comes onto less electronegative carbon atoms, which is less effective.\nTherefore, the carboxylate ion is much more stable than the phenoxide ion, making carboxylic acids stronger acids than phenol.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the correct order of acidity of haloacetic acids and why?\n(F-CH₂COOH, Cl-CH₂COOH, Br-CH₂COOH, CH₃COOH)",
+            "explanation": "Order: F-CH₂COOH > Cl-CH₂COOH > Br-CH₂COOH > CH₃COOH.\nReason: Due to the high electronegativity of halogen atoms, their negative inductive effect (-I effect) makes the carboxylate ion more stable (F has the highest -I effect).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Complete the following reactions and write their names:\n(i) Rosenmund Reduction\n(ii) Clemmensen Reduction",
+          "explanation": "(i) Rosenmund Reduction: Partial reduction of acyl chloride (acetyl chloride) using a Pd catalyst supported on BaSO₄ (in boiling xylene) gives an aldehyde:\nR-COCl + H₂ -(Pd-BaSO₄ / Xylene)→ R-CHO + HCl\n(e.g., CH₃COCl + H₂ → CH₃CHO + HCl).\n(ii) Clemmensen Reduction: When a carbonyl group (>C=O) is heated with zinc amalgam (Zn-Hg) and concentrated HCl, it gets reduced to a -CH₂- (methylene) group to form a hydrocarbon:\n>C=O + 4[H] -(Zn-Hg / conc. HCl)→ >CH₂ + H₂O\n(e.g., CH₃-CO-CH₃ + 4[H] → CH₃-CH₂-CH₃ + H₂O).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Write the chemical equation for the Wolff-Kishner Reduction.",
+            "explanation": "Carbonyl compounds react with hydrazine (NH₂NH₂) to form hydrazone, which on heating with KOH and ethylene glycol gives a hydrocarbon:\n>C=O + NH₂NH₂ → >C=N-NH₂ -(KOH / Glycol, Δ)→ >CH₂ + N₂↑.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}

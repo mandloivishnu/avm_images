@@ -1,0 +1,170 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Class 12th Mathematics - Chapter 9 : Differential Equations",
+    "totalMarks": "10",
+    "board": "MP Board"
+  },
+  "questions": [
+    {
+      "question_number": "",
+      "question_type": "QUICK_REVISION",
+      "marks": "",
+      "text": "Quick Revision",
+      "definitionBean": {
+        "title": "Order, Degree & Solutions of Differential Equations (Quick Revision)",
+        "definition": "An equation involving independent variable, dependent variable, and derivatives of the dependent variable is called a differential equation.",
+        "explanation": "Order is the order of the highest derivative, while Degree is the highest power of the highest order derivative in polynomial form. Variable separable method and Linear differential equations (IF method) are its main solutions.",
+        "importantPoints": [
+          "Order: Order of the highest derivative present in the equation",
+          "Degree: Highest positive integer power of the highest order derivative (when the equation is a polynomial in derivatives)",
+          "If the equation contains sin(dy/dx), e^(dy/dx), log(dy/dx), then degree is not defined",
+          "Variable Separable Method: f(x) dx + g(y) dy = 0 ⇒ Solution obtained on integration",
+          "Linear Differential Equation: dy/dx + Py = Q (where P, Q are functions of x only)",
+          "Integrating Factor (IF): IF = e^(∫ P dx)",
+          "General Solution: y · (IF) = ∫ [ Q · (IF) ] dx + C"
+        ],
+        "highlightWords": [
+          "Differential Equation",
+          "Order of Equation",
+          "Degree of Equation",
+          "Variable Separable",
+          "Linear Differential Equation",
+          "Integrating Factor (IF)"
+        ],
+        "imgUrl": "",
+        "realLifeExamples1": []
+      }
+    },
+    {
+      "question_number": "1",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Define order and degree of a differential equation. State the order and degree of the equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) = 0.",
+          "explanation": "1. Order: The order of the highest order derivative present in a differential equation is called the order of the equation. Here the highest derivative is d²y/dx², so Order = 2.\n2. Degree: When a differential equation is a polynomial in derivatives, the highest power of the highest order derivative is called the degree of the equation. Here due to sin(dy/dx), it is not a polynomial in derivatives, so Degree is not defined.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the order and degree of the differential equation xy (d²y/dx²) + x(dy/dx)² - y(dy/dx) = 0.",
+            "explanation": "Step 1: The highest order derivative present in the equation is d²y/dx², so Order = 2.\nStep 2: The equation is a polynomial in derivatives and the highest power of d²y/dx² is 1, so Degree = 1.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "2",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the general solution of the equation dy/dx = (1 + y²) / (1 + x²).",
+          "explanation": "Step 1: Separating the variables: dy / (1 + y²) = dx / (1 + x²).\nStep 2: Integrating both sides: ∫ (1 / (1 + y²)) dy = ∫ (1 / (1 + x²)) dx.\nStep 3: Using integration formula: tan⁻¹ y = tan⁻¹ x + C (where C is an arbitrary constant).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the general solution of dy/dx = e^(x - y).",
+            "explanation": "Step 1: By laws of exponents, dy/dx = eˣ · e⁻ʸ = eˣ / eʸ.\nStep 2: Separating variables: eʸ dy = eˣ dx.\nStep 3: Integrating both sides: ∫ eʸ dy = ∫ eˣ dx ⇒ eʸ = eˣ + C.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the standard form of a first-order linear differential equation and state the formula for its Integrating Factor (IF) and General Solution.",
+          "explanation": "1. Standard Form: dy/dx + Py = Q (where P and Q are functions of x only or constants).\n2. Integrating Factor (IF): IF = e^(∫ P dx).\n3. General Solution: y · (IF) = ∫ [ Q · (IF) ] dx + C.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "Find the Integrating Factor (IF) of the differential equation dy/dx + y/x = x².",
+            "explanation": "Step 1: Comparing the equation with dy/dx + Py = Q: P = 1/x.\nStep 2: Integrating factor IF = e^(∫ P dx) = e^(∫ (1/x) dx).\nStep 3: IF = e^(log x) = x.",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the general solution of the differential equation dy/dx + y = e⁻ˣ.",
+          "explanation": "Step 1: Comparing with dy/dx + Py = Q: P = 1 and Q = e⁻ˣ.\nStep 2: Integrating factor IF = e^(∫ 1 dx) = eˣ.\nStep 3: General solution: y · (IF) = ∫ [ Q · (IF) ] dx + C\n⇒ y · eˣ = ∫ [ e⁻ˣ · eˣ ] dx + C = ∫ e⁰ dx + C = ∫ 1 dx + C = x + C.\nStep 4: y = (x + C) e⁻ˣ.",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "How do you identify a Homogeneous differential equation? What substitution is made to solve it?",
+            "explanation": "1. Identification: If in the differential equation dy/dx = f(x, y), the function f(x, y) is a homogeneous function of degree zero, i.e., f(λx, λy) = λ⁰ f(x, y) = f(x, y).\n2. Substitution: To solve it, we substitute y = vx (or dy/dx = v + x dv/dx).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Find the particular solution of the equation dy/dx = -4xy² given that y = 1 when x = 0.",
+          "explanation": "Step 1: Separating variables: (1/y²) dy = -4x dx ⇒ y⁻² dy = -4x dx.\nStep 2: Integrating: ∫ y⁻² dy = -4 ∫ x dx ⇒ -y⁻¹ = -4(x²/2) + C ⇒ -1/y = -2x² + C.\nStep 3: Putting given condition x = 0, y = 1: -1/1 = -2(0)² + C ⇒ C = -1.\nStep 4: Substituting the value: -1/y = -2x² - 1 ⇒ 1/y = 2x² + 1 ⇒ y = 1 / (2x² + 1).",
+          "imgUrl": ""
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "b",
+            "statement": "What is the difference between a General Solution and a Particular Solution?",
+            "explanation": "1. General Solution: The solution which contains arbitrary constants equal in number to the order of the differential equation.\n2. Particular Solution: The solution obtained from the general solution by giving particular values to the arbitrary constants using initial conditions (it contains no arbitrary constants).",
+            "imgUrl": ""
+          }
+        ]
+      }
+    }
+  ]
+}
