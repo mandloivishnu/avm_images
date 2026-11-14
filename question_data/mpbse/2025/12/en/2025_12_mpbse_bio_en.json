@@ -1,0 +1,756 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "BIOLOGY",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "8",
+    "timeAllowed": "3 Hours",
+    "board": "MP Board",
+    "examType": "Higher Secondary Main Examination Year - 2025",
+    "set": "A",
+    "paperCode": "202541",
+    "language": "English",
+    "instructions": [
+      "Question numbers 1 to 5 consist of 28 objective-type questions. Each question carries 1 mark.",
+      "Question numbers 6 to 12 are very short answer type questions (total 7 questions). Each question carries 2 marks. Word limit is about 30 words.",
+      "Question numbers 13 to 16 are short answer type questions (total 4 questions). Each question carries 3 marks. Word limit is about 75 words.",
+      "Question numbers 17 to 20 are long answer type questions (total 4 questions). Each question carries 4 marks. Word limit is about 120 words.",
+      "Internal choices are provided in every question from question numbers 6 to 20.",
+      "Draw neat and well-labelled diagrams wherever necessary."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose and write the correct option:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Primary consumer is -",
+          "options": [
+            {
+              "index": "a",
+              "text": "Herbivores"
+            },
+            {
+              "index": "b",
+              "text": "Carnivores"
+            },
+            {
+              "index": "c",
+              "text": "Omnivores"
+            },
+            {
+              "index": "d",
+              "text": "Sanguivores (Blood-feeding)"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Herbivores",
+          "explanation": "In an ecosystem, green plants are primary producers. Organisms that directly feed on these producers are called primary consumers, which are herbivores by nature."
+        },
+        {
+          "q_id": "ii",
+          "statement": "From which microorganism was the first antibiotic obtained?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Penicillium"
+            },
+            {
+              "index": "b",
+              "text": "Streptococcus"
+            },
+            {
+              "index": "c",
+              "text": "Salmonella typhimurium"
+            },
+            {
+              "index": "d",
+              "text": "Vibrio cholerae"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Penicillium",
+          "explanation": "The first antibiotic discovered by Alexander Fleming was 'Penicillin', which was obtained from the fungus 'Penicillium notatum'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What is the age period of adolescence?",
+          "options": [
+            {
+              "index": "a",
+              "text": "0 - 11 years"
+            },
+            {
+              "index": "b",
+              "text": "12 - 18 years"
+            },
+            {
+              "index": "c",
+              "text": "19 - 45 years"
+            },
+            {
+              "index": "d",
+              "text": "45 - 70 years"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "12 - 18 years",
+          "explanation": "Adolescence is the transitional period between childhood and adulthood, generally considered to be the age group of 12 to 18 years."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Mainly how many parts does a transcription unit in DNA have?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Two parts"
+            },
+            {
+              "index": "b",
+              "text": "Three parts"
+            },
+            {
+              "index": "c",
+              "text": "Four parts"
+            },
+            {
+              "index": "d",
+              "text": "Five parts"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Three parts",
+          "explanation": "A transcription unit in DNA mainly consists of three regions: (1) Promoter, (2) Structural gene, and (3) Terminator."
+        },
+        {
+          "q_id": "v",
+          "statement": "The hormone that induces the process of ovulation is -",
+          "options": [
+            {
+              "index": "a",
+              "text": "LH"
+            },
+            {
+              "index": "b",
+              "text": "TSH"
+            },
+            {
+              "index": "c",
+              "text": "ACTH"
+            },
+            {
+              "index": "d",
+              "text": "STH"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "LH",
+          "explanation": "In the middle of the menstrual cycle (around the 14th day), Luteinizing Hormone (LH) reaches its peak level (LH surge), which ruptures the Graafian follicle and induces ovulation."
+        },
+        {
+          "q_id": "vi",
+          "statement": "With which part of the funicle is the body of the ovule attached?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Micropyle"
+            },
+            {
+              "index": "b",
+              "text": "Hilum"
+            },
+            {
+              "index": "c",
+              "text": "Integument"
+            },
+            {
+              "index": "d",
+              "text": "Chalaza"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Hilum",
+          "explanation": "Hilum is the junction point where the main body of the ovule fuses with the funicle (stalk of the ovule)."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks with the correct answer:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "When human 'need' turns into 'greed', it leads to {BLANK} of natural resources.",
+          "options": [],
+          "correct_answer": "Over-exploitation",
+          "explanation": "Answer: Over-exploitation\n\nReason: When basic human needs turn into greed, natural resources are excessively consumed (over-exploitation), causing severe loss to biodiversity."
+        },
+        {
+          "q_id": "ii",
+          "statement": "If any protein-encoding gene is expressed in a heterologous host, it is called a {BLANK}.",
+          "options": [],
+          "correct_answer": "Recombinant protein",
+          "explanation": "Answer: Recombinant protein\n\nReason: When a heterologous host expresses a protein-coding gene from another organism, the resulting product is called a recombinant protein."
+        },
+        {
+          "q_id": "iii",
+          "statement": "DNA is a {BLANK} charged molecule.",
+          "options": [],
+          "correct_answer": "Negatively",
+          "explanation": "Answer: Negatively\n\nReason: Due to the presence of phosphate groups (PO₄³⁻) in its sugar-phosphate backbone, DNA carries a net negative charge."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Cyclosporin-A is produced from a fungus named {BLANK}.",
+          "options": [],
+          "correct_answer": "Trichoderma polysporum",
+          "explanation": "Answer: Trichoderma polysporum\n\nReason: Cyclosporin-A is an immunosuppressive agent obtained from the fungus 'Trichoderma polysporum'."
+        },
+        {
+          "q_id": "v",
+          "statement": "Placental wolf and Tasmanian wolf appear similar due to {BLANK}.",
+          "options": [],
+          "correct_answer": "Convergent evolution (Adaptive radiation)",
+          "explanation": "Answer: Convergent evolution (Adaptive radiation)\n\nReason: Placental wolf and Tasmanian wolf (marsupial) show similar adaptations because they live in similar habitats, which is a classic example of convergent evolution."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Total well-being in physical, emotional, behavioural and social aspects is referred to as {BLANK}.",
+          "options": [],
+          "correct_answer": "Reproductive Health / Health",
+          "explanation": "Answer: Reproductive Health\n\nReason: According to WHO, reproductive health means total well-being in all aspects of reproduction—physical, emotional, behavioural, and social."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Corpus luteum is found in the testis.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: Corpus luteum (yellow body) is formed in the female ovary from the ruptured Graafian follicle after ovulation, not in the testis."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Nucleic acid is a long polymer of nucleotides.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: Nucleic acids (DNA and RNA) are long polymers (polynucleotides) formed by joining many nucleotide units through phosphodiester bonds."
+        },
+        {
+          "q_id": "iii",
+          "statement": "All microorganisms are not pathogenic.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: Most microorganisms are beneficial to humans (such as Lactobacillus, Yeast); only a small fraction of microbes are disease-causing (pathogenic)."
+        },
+        {
+          "q_id": "iv",
+          "statement": "ADA deficiency is treated by transplantation of lymphocytes.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: In gene therapy, lymphocytes from the patient's blood are grown in culture, a functional ADA cDNA is introduced into them, and they are subsequently returned (transplanted) into the patient."
+        },
+        {
+          "q_id": "v",
+          "statement": "Malaria disease in humans is caused by Plasmodium.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nExplanation: Malaria is a protozoan disease caused by infection with 'Plasmodium' (such as P. vivax, P. falciparum, etc.)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Lichen is an example of close parasitism between fungus and cyanobacteria.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nExplanation: Lichen is an example of 'mutualism / symbiosis' between a fungus and photosynthetic algae/cyanobacteria, not parasitism."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×5=5",
+      "text": "Match the correct pairs:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column (A)",
+        "column_B_title": "Column (B)",
+        "pairs": [
+          {
+            "a_item": "(i) Apomixis",
+            "b_item": "Sea weeds",
+            "correct_match_index": "4"
+          },
+          {
+            "a_item": "(ii) Darwin",
+            "b_item": "Earthworm",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(iii) Toddy",
+            "b_item": "Galapagos Island",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(iv) Agarose",
+            "b_item": "Grass family",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(v) Detritivore",
+            "b_item": "South India",
+            "correct_match_index": "2"
+          }
+        ]
+      },
+      "explanation": "Correct matching of Column (A) with Column (B) and their reasons:\n\n(i) Apomixis ⟶ Grass family\nReason: Many plants of Asteraceae and the grass family (Poaceae) form seeds without fertilization, a process called apomixis.\n\n(ii) Darwin ⟶ Galapagos Island\nReason: Charles Darwin studied finches on the Galapagos Islands during his voyage on HMS Beagle.\n\n(iii) Toddy ⟶ South India\nReason: Toddy is a traditional drink of South India made by fermenting sap from palms.\n\n(iv) Agarose ⟶ Sea weeds\nReason: Agarose gel used in gel electrophoresis is a natural polymer extracted from sea weeds (red algae).\n\n(v) Detritivore ⟶ Earthworm\nReason: Earthworm is a major detritivore that breaks down dead organic matter (detritus) into smaller particles."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Write the answer in one sentence / word:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Which part of a flower forms the fruit?",
+          "correct_answer": "Ovary",
+          "explanation": "Answer: Ovary\n\nReason: After fertilization, the mature and ripened ovary of a flower develops into the fruit."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What is colostrum?",
+          "correct_answer": "The first milk secreted by the mother during the initial days after childbirth is called colostrum.",
+          "explanation": "Answer: The yellowish thick milk produced by mammary glands during the initial few days of lactation is called colostrum. It is rich in IgA antibodies that protect the newborn."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Write any one Mendelian disorder.",
+          "correct_answer": "Haemophilia (or Sickle-cell anaemia / Cystic fibrosis / Thalassemia)",
+          "explanation": "Answer: Haemophilia\n\nReason: It is a sex-linked recessive Mendelian genetic disorder in which blood fails to clot properly."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is a restriction enzyme?",
+          "correct_answer": "Enzymes that cut DNA at specific recognition sequences (palindromic sites) are called restriction endonucleases (restriction enzymes).",
+          "explanation": "Answer: Known as 'molecular scissors', these enzymes cleave DNA at specific nucleotide sequences."
+        },
+        {
+          "q_id": "v",
+          "statement": "How many total biodiversity hotspots are there in the world?",
+          "correct_answer": "36 (Thirty-six)",
+          "explanation": "Answer: 36\n\nReason: Initially, 25 biodiversity hotspots were identified worldwide, and later the total number increased to 36."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write any two parts of an anther.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo main parts of a typical anther are:\n1. Anther lobes (Theca) – Usually a bilobed structure.\n2. Microsporangia (Pollen sacs) – Chambers inside which pollen grains are produced."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any two parts of a mature ovum.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main parts of a mature ovum are:\n1. Zona pellucida – Non-cellular transparent layer surrounding the ovum.\n2. Corona radiata – Outer protective layer formed by follicular cells."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define monohybrid cross and dihybrid cross.",
+          "correct_answer": "",
+          "explanation": "Answer:\n1. Monohybrid Cross: A genetic cross between two parents made to study the inheritance of only one pair of contrasting characters (e.g., plant height: Tall × Dwarf).\n2. Dihybrid Cross: A genetic cross made to study the simultaneous inheritance of two pairs of contrasting characters (e.g., seed shape & colour: Round-Yellow × Wrinkled-Green)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define dominant gene and recessive gene.",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Dominant Gene: A gene that expresses its trait in both homozygous and heterozygous conditions (e.g., factor 'T' for tallness).\n2. Recessive Gene: A gene that expresses its trait only in the homozygous condition and remains masked in the presence of a dominant gene (e.g., factor 't' for dwarfness)."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the definition of DNA.",
+          "correct_answer": "",
+          "explanation": "Answer:\nDNA (Deoxyribonucleic Acid): It is the primary genetic material found in most living organisms. It is a double-helical macromolecule composed of two coiled polynucleotide chains of deoxyribonucleotides that stores and transmits hereditary information."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the definition of RNA.",
+            "correct_answer": "",
+            "explanation": "Answer:\nRNA (Ribonucleic Acid): It is a single-stranded polymer of ribonucleotides containing ribose sugar and uracil base in place of thymine. It mainly helps in protein synthesis and acts as genetic material in some viruses."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the names of pathogens of the following diseases:\n(1) Typhoid\n(2) Pneumonia",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) Pathogen of Typhoid: Salmonella typhi (bacterium)\n(2) Pathogen of Pneumonia: Streptococcus pneumoniae or Haemophilus influenzae (bacteria)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the name of a fungal species used in the production of antibiotics. Who discovered it?",
+            "correct_answer": "",
+            "explanation": "Answer:\n1. Name of fungal species: Penicillium notatum\n2. Discoverer: Alexander Fleming discovered the first antibiotic 'Penicillin' from it in 1928."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two advantages of tissue culture.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo main advantages of tissue culture are:\n1. Micropropagation: Thousands of disease-free plants can be produced from a small plant tissue (explant) in a very short time and limited space.\n2. Recovery of virus-free plants: By culturing the apical meristem, healthy virus-free plants can be obtained even from virus-infected plants."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two advantages of Genetically Modified Organisms (GMO).",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main advantages of GMOs are:\n1. Pest-resistant crops: Reduces dependence on chemical pesticides (e.g., Bt-cotton).\n2. Enhanced nutritional value: Improves the nutritional quality of food crops (e.g., Vitamin-A enriched 'Golden Rice')."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the names of two components of an ecosystem.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo main components of an ecosystem are:\n1. Biotic components: Living organisms such as producers (green plants), consumers (animals), and decomposers (microorganisms).\n2. Abiotic components: Non-living physical factors such as temperature, light, water, air, soil, and minerals."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain commensalism with an example.",
+            "correct_answer": "",
+            "explanation": "Answer:\nCommensalism: It is a population interaction in which one species benefits while the other is neither harmed nor benefited (+, 0).\nExample: An orchid growing as an epiphyte on a mango branch; the orchid gets shelter and sunlight, while the mango tree derives no apparent benefit or harm."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw only a diagram of trophic levels in an ecosystem.",
+          "correct_answer": "",
+          "explanation": "Answer:\nLinear diagram of trophic levels in an ecosystem:\n\n[Fourth Trophic Level (T₄)] ⟶ Top Carnivores (e.g., Lion / Man)\n         ▲\n[Third Trophic Level (T₃)] ⟶ Carnivores / Secondary Consumers (e.g., Frog / Fish)\n         ▲\n[Second Trophic Level (T₂)] ⟶ Herbivores / Primary Consumers (e.g., Grasshopper / Deer)\n         ▲\n[First Trophic Level (T₁)] ⟶ Primary Producers (e.g., Plants / Phytoplankton)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain ex-situ conservation with an example.",
+            "correct_answer": "",
+            "explanation": "Answer:\nEx-situ Conservation: The conservation of threatened and endangered plants or animals outside their natural habitats in specially protected human-supervised places is called ex-situ conservation.\nExamples: Botanical gardens, zoological parks (zoos), and seed/gene banks."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw a longitudinal section (L.S.) diagram of a grass embryo showing 3 labels:\n(1) Scutellum\n(2) Coleoptile\n(3) Radicle",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "Answer:\n[Diagram Description:]\nDraw a neat L.S. diagram of a monocot (grass) embryo and label the following three parts:\n1. Scutellum – The large, shield-shaped single cotyledon situated towards one side of the embryonal axis.\n2. Coleoptile – A hollow foliar protective sheath enclosing the plumule and shoot apex.\n3. Radicle – The lower end of the embryonal axis from which the primary root develops (covered by coleorhiza)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write one function each of the following:\n(1) Corpus luteum\n(2) Acrosome\n(3) Tapetum",
+            "correct_answer": "",
+            "explanation": "Answer:\n(1) Corpus Luteum: It secretes large amounts of progesterone hormone, which is essential for maintaining the endometrium of the uterus for pregnancy.\n\n(2) Acrosome: Located at the anterior tip of the sperm head, it contains hydrolytic enzymes (like hyaluronidase) that help dissolve egg membranes during fertilization.\n\n(3) Tapetum: It is the innermost wall layer of the microsporangium in an anther that nourishes the developing pollen grains."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the definition of the following:\n(1) Heterozygous\n(2) Linkage\n(3) Test cross",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) Heterozygous: An organism having two different alleles for a particular trait (e.g., Tt) is called heterozygous for that trait.\n\n(2) Linkage: The physical association of genes located on the same chromosome and their tendency to be inherited together into the next generation without separating during meiosis is called linkage.\n\n(3) Test Cross: A cross between an individual showing a dominant phenotype (unknown genotype, e.g., F₁ hybrid) and its homozygous recessive parent (tt) to determine the genotype of the dominant individual is called a test cross."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is pedigree analysis? Draw a diagram of standard human symbols used in human pedigree analysis.",
+            "correct_answer": "",
+            "explanation": "Answer:\n(1) Pedigree Analysis: The diagrammatic representation and study of the inheritance of a specific trait or genetic disorder across several generations in a human family is called pedigree analysis.\n\n(2) Standard Symbols Used:\n• Square (□) = Male\n• Circle (○) = Female\n• Diamond / Rhombus (◊) = Sex unspecified\n• Solid / Shaded symbol (■ / ●) = Affected individual\n• Horizontal line joining square and circle (□—○) = Mating\n• Double horizontal line (□═○) = Mating between relatives (consanguineous mating)"
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw a well-labelled diagram of an antibody molecule.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "Answer:\n[Antibody Molecule (H₂L₂) Structure Description:]\nAn antibody molecule has a 'Y'-shaped structure. Draw and label the following:\n1. Two heavy chains and two light chains.\n2. Disulfide bonds (-S-S-) holding the chains together.\n3. Antigen-binding site (variable region) at the tips of the two arms of 'Y'.\n4. Constant region."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the name of the drug obtained from the following plants and one harmful effect of each on the body:\n(1) Papaver somniferum\n(2) Cannabis sativa\n(3) Erythroxylum coca",
+            "correct_answer": "",
+            "explanation": "Answer:\n(1) Papaver somniferum (Opium poppy):\n• Drug name: Morphine / Heroin (Opioids).\n• Harmful effect: It acts as a central nervous system depressant and slows down body functions.\n\n(2) Cannabis sativa (Hemp plant):\n• Drug name: Marijuana / Hashish / Charas / Ganja (Cannabinoids).\n• Harmful effect: It severely affects the cardiovascular system of the body.\n\n(3) Erythroxylum coca (Coca plant):\n• Drug name: Cocaine (Coke / Crack).\n• Harmful effect: It excessively stimulates the central nervous system and causes hallucinations in high doses."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw an ideal pyramid of energy in an ecosystem.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "Answer:\nThe pyramid of energy is always upright because energy flow is unidirectional and follows Lindeman's 10% law.\n\n[Ideal Pyramid Diagram Structure]:\n       /   Top Consumers (T₄) - 10 J         \\\n      /    Secondary Consumers (T₃) - 100 J   \\\n     /     Primary Consumers (T₂) - 1,000 J    \\\n    /______Primary Producers (T₁) - 10,000 J____\\\n                  Sunlight (10,00,000 J)\n\n(Note: Only 10% of energy is transferred to the next trophic level, while 90% is lost as heat.)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What are sacred groves? What is their role in conservation?",
+            "correct_answer": "",
+            "explanation": "Answer:\n(1) Sacred Groves: Tracts of forest or patches of trees that are strictly protected by local tribes and communities due to religious and cultural beliefs, where cutting trees or hunting is completely prohibited (e.g., Khasi and Jaintia Hills in Meghalaya, Aravalli Hills of Rajasthan).\n\n(2) Role in Conservation:\n1. They serve as the last safe natural refuges for many rare, threatened, and endemic plants and animals.\n2. They enable effective in-situ conservation of biodiversity through community traditions without government intervention."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write differences between oogenesis and spermatogenesis. (Any four)",
+          "correct_answer": "",
+          "explanation": "Answer:\nFour main differences between Spermatogenesis and Oogenesis are:\n\n| S.No. | Basis | Spermatogenesis | Oogenesis |\n|---|---|---|---|\n| 1. | Site / Organ | Occurs in the seminiferous tubules of male testes. | Occurs in the female ovaries. |\n| 2. | Onset & Duration | Starts at puberty and continues throughout life. | Starts during embryonic development and stops at menopause (around age 50). |\n| 3. | Number of gametes | One primary spermatocyte produces four functional, motile sperms. | One primary oocyte produces only one functional ovum and polar bodies. |\n| 4. | Polar bodies | No polar bodies are formed. | Polar bodies are formed due to unequal cytoplasmic division. |"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Draw a well-labelled diagram of a sectional view of a seminiferous tubule (enlarged).",
+            "correct_answer": "",
+            "isAnswerImage": true,
+            "imgUrl": "",
+            "explanation": "Answer:\n[Diagram Description of Transverse Section of Seminiferous Tubule:]\nDraw and label the following layers and cells from periphery towards the lumen:\n1. Germinal epithelium\n2. Sertoli cells – Provide nutrition to developing germ cells.\n3. Spermatogonia\n4. Primary and Secondary spermatocytes\n5. Spermatids and mature Spermatozoa\n6. Interstitial cells or Leydig cells – Present in the interstitial spaces outside the tubules."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain Mendel's Law of Independent Assortment with the help of a checker board.",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) Law of Independent Assortment:\nAccording to Mendel, when two pairs of contrasting traits are combined in a hybrid, segregation of one pair of characters is completely independent of the other pair of characters.\n\n(2) Dihybrid Cross Representation:\n• Parents: Round-Yellow (RRYY) × Wrinkled-Green (rryy)\n• F₁ Generation: All Round and Yellow seeds (RrYy)\n• Four types of gametes formed by F₁ selfing: RY, Ry, rY, ry\n\n(3) F₂ Checker Board (Punnett Square):\nFemale/Male | RY | Ry | rY | ry\nRY | RRYY (Round, Yellow) | RRYy (Round, Yellow) | RrYY (Round, Yellow) | RrYy (Round, Yellow)\nRy | RRYy (Round, Yellow) | RRyy (Round, Green) | RrYy (Round, Yellow) | Rryy (Round, Green)\nrY | RrYY (Round, Yellow) | RrYy (Round, Yellow) | rrYY (Wrinkled, Yellow) | rrYy (Wrinkled, Yellow)\nry | RrYy (Round, Yellow) | Rryy (Round, Green) | rrYy (Wrinkled, Yellow) | rryy (Wrinkled, Green)\n\n(4) F₂ Phenotypic Ratio:\nRound-Yellow : Round-Green : Wrinkled-Yellow : Wrinkled-Green = 9 : 3 : 3 : 1"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain the process of transcription in bacteria with the help of a labelled diagram.",
+            "correct_answer": "",
+            "explanation": "Answer:\nIn bacteria (prokaryotes), transcription (synthesis of RNA from DNA) is catalyzed by a single DNA-dependent RNA polymerase in three steps:\n\n1. Initiation:\nRNA polymerase binds to the promoter site. It associates transiently with the initiation factor 'Sigma (σ) factor' to initiate transcription.\n\n2. Elongation:\nThe enzyme unwinds the DNA helix and adds complementary ribonucleotides in the 5' ⟶ 3' direction, elongating the RNA chain.\n\n3. Termination:\nWhen RNA polymerase reaches the terminator region, the termination factor 'Rho (ρ) factor' binds to it. The nascent RNA and RNA polymerase fall off from the DNA template.\n\n[Diagram: Draw a neat diagram showing Initiation (with σ factor), Elongation, and Termination (with ρ factor).]"
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write short notes on the following:\n(i) Vaccination\n(ii) Allergy",
+          "correct_answer": "",
+          "explanation": "Answer:\n(i) Vaccination:\nIt is based on the property of 'memory' of the immune system. In vaccination, a preparation of antigenic proteins of a pathogen or inactivated/weakened pathogen is introduced into the body. This stimulates the production of specific antibodies and memory B and T-cells. When the actual pathogen attacks later, memory cells quickly recognize it and produce a massive antibody response to destroy it (e.g., Polio, Smallpox, BCG vaccines).\n\n(ii) Allergy:\nThe exaggerated hypersensitive response of the immune system to certain antigens (allergens) present in the environment is called allergy.\n• Allergens: Dust mites, pollen grains, animal dander, etc.\n• Antibodies produced: Primarily IgE type.\n• Cause: Release of chemicals like histamine and serotonin from mast cells.\n• Symptoms: Sneezing, watery eyes, skin rashes, and difficulty in breathing."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Describe cancer disease on the basis of the following points:\n(i) Tumour\n(ii) Detection\n(iii) Causes\n(iv) Treatment",
+            "correct_answer": "",
+            "explanation": "Answer:\n(i) Tumour: Normal cells lose the property of contact inhibition and divide uncontrollably to form a mass of cells called a tumour. They are of two types: (1) Benign tumours that remain confined to their original location, and (2) Malignant tumours that spread rapidly, show metastasis, and are cancerous.\n\n(ii) Detection: Biopsy and histopathological studies, radiography (X-rays), CT scan, MRI, and antibodies against cancer-specific antigens.\n\n(iii) Causes: Cancer-causing agents are called carcinogens:\n• Physical agents: X-rays, gamma rays, UV rays.\n• Chemical agents: Chemicals present in tobacco smoke.\n• Biological agents: Oncogenic viruses and activation of cellular oncogenes.\n\n(iv) Treatment:\n1. Surgery to remove the tumour.\n2. Radiotherapy to destroy tumour cells using radiation.\n3. Chemotherapy using anti-cancer drugs.\n4. Immunotherapy (e.g., using α-interferon)."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain Recombinant DNA technology with a suitable diagram.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "Answer:\n(1) Recombinant DNA Technology:\nIn this technique, a gene of desired trait is isolated and transferred into a host organism using a vector (plasmid) to obtain the desired product.\n\n(2) Main Steps:\n1. Isolation of genetic material (DNA) containing the desired gene.\n2. Cutting of both desired DNA and plasmid vector DNA at specific sites using the same restriction endonuclease enzyme.\n3. Joining the foreign DNA fragment with the plasmid vector using DNA ligase enzyme to form 'Recombinant DNA' (rDNA).\n4. Transferring (transforming) the rDNA into a competent host cell (such as E. coli).\n5. Culturing transformed host cells on a large scale in bioreactors to extract the desired product.\n\n[Diagram: Draw a diagram showing Foreign DNA + Vector DNA ⟶ Cutting with restriction enzyme ⟶ Joining by ligase ⟶ rDNA formation ⟶ Transformation into E. coli & cloning.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write four applications of biotechnology in medicine.",
+            "correct_answer": "",
+            "explanation": "Answer:\nFour major applications of biotechnology in medicine are:\n\n1. Genetically Engineered Human Insulin (Humulin): Using rDNA technology, human insulin is produced commercially on a large scale in E. coli bacteria, providing safe treatment for diabetic patients.\n\n2. Gene Therapy: Used to correct hereditary genetic defects. For example, in 1990, a 4-year-old girl with ADA deficiency was treated by introducing functional ADA cDNA into her lymphocytes.\n\n3. Molecular Diagnosis: Techniques like PCR (Polymerase Chain Reaction) and ELISA allow early detection of diseases (such as HIV/AIDS and cancer) before symptoms appear.\n\n4. Recombinant Vaccines: Safer vaccines are produced using biotechnology, such as the Hepatitis-B vaccine produced in yeast (Saccharomyces cerevisiae)."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    }
+  ]
+}

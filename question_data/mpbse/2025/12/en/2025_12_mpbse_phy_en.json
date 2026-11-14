@@ -1,0 +1,744 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "PHYSICS",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "12",
+    "timeAllowed": "3 Hours",
+    "board": "MP Board",
+    "examType": "Higher Secondary Main Examination",
+    "set": "A",
+    "paperCode": "202535 / 210",
+    "language": "English",
+    "instructions": [
+      "All questions are compulsory. Internal choices are given in each question from question numbers 6 to 20.",
+      "Question numbers 1, 2 and 4 carry 6 marks each, with 1 mark allotted to each sub-question.",
+      "Question numbers 3 and 5 carry 5 marks each, with 1 mark allotted to each sub-question.",
+      "Question numbers 6 to 12 carry 2 marks each. Word limit for each answer is about 30 words.",
+      "Question numbers 13 to 16 carry 3 marks each. Word limit for each answer is about 75 words.",
+      "Question numbers 17 to 20 carry 4 marks each. Word limit for each answer is about 120 words.",
+      "Draw neat and well-labelled diagrams wherever required."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose and write the correct option from the given choices in each question:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Majority charge carriers in n-type semiconductors are -",
+          "options": [
+            {
+              "index": "i",
+              "text": "Electrons"
+            },
+            {
+              "index": "ii",
+              "text": "Holes"
+            },
+            {
+              "index": "iii",
+              "text": "Neutrons"
+            },
+            {
+              "index": "iv",
+              "text": "Mobile ions"
+            }
+          ],
+          "correct_index": "i",
+          "correct_answer": "Electrons",
+          "explanation": "When pure silicon or germanium is doped with pentavalent impurities (such as phosphorus or arsenic), the number of free electrons becomes much larger than the number of holes. Hence, electrons are the majority charge carriers in n-type semiconductors."
+        },
+        {
+          "q_id": "b",
+          "statement": "Dielectric constant of air is -",
+          "options": [
+            {
+              "index": "i",
+              "text": "Infinite"
+            },
+            {
+              "index": "ii",
+              "text": "Zero"
+            },
+            {
+              "index": "iii",
+              "text": "One"
+            },
+            {
+              "index": "iv",
+              "text": "Two"
+            }
+          ],
+          "correct_index": "iii",
+          "correct_answer": "One",
+          "explanation": "The dielectric constant of vacuum is exactly 1, and for air at normal temperature and pressure it is about 1.00059, which is practically taken as 1 (One)."
+        },
+        {
+          "q_id": "c",
+          "statement": "A moving charge produces -",
+          "options": [
+            {
+              "index": "i",
+              "text": "Only magnetic field"
+            },
+            {
+              "index": "ii",
+              "text": "Only electric field"
+            },
+            {
+              "index": "iii",
+              "text": "Both magnetic field and electric field"
+            },
+            {
+              "index": "iv",
+              "text": "Neither magnetic field nor electric field"
+            }
+          ],
+          "correct_index": "iii",
+          "correct_answer": "Both magnetic field and electric field",
+          "explanation": "A stationary charge produces only an electrostatic field, whereas a moving charge produces both an electric field and a magnetic field around it."
+        },
+        {
+          "q_id": "d",
+          "statement": "Kirchhoff's first law of current distribution follows -",
+          "options": [
+            {
+              "index": "i",
+              "text": "Law of conservation of energy"
+            },
+            {
+              "index": "ii",
+              "text": "Law of conservation of charge"
+            },
+            {
+              "index": "iii",
+              "text": "Law of conservation of momentum"
+            },
+            {
+              "index": "iv",
+              "text": "Law of conservation of mass"
+            }
+          ],
+          "correct_index": "ii",
+          "correct_answer": "Law of conservation of charge",
+          "explanation": "Kirchhoff's first law (junction rule) states that the algebraic sum of currents meeting at a junction is zero. Since charge cannot accumulate or be destroyed at a junction, it is based on the conservation of charge."
+        },
+        {
+          "q_id": "e",
+          "statement": "Which phenomenon does NOT show the wave nature of light?",
+          "options": [
+            {
+              "index": "i",
+              "text": "Photoelectric effect"
+            },
+            {
+              "index": "ii",
+              "text": "Interference"
+            },
+            {
+              "index": "iii",
+              "text": "Diffraction"
+            },
+            {
+              "index": "iv",
+              "text": "Polarisation"
+            }
+          ],
+          "correct_index": "i",
+          "correct_answer": "Photoelectric effect",
+          "explanation": "Interference, diffraction, and polarisation confirm the wave nature of light, whereas the photoelectric effect can only be explained on the basis of Einstein's quantum theory (particle/photon nature of light)."
+        },
+        {
+          "q_id": "f",
+          "statement": "Who discovered the photoelectric effect?",
+          "options": [
+            {
+              "index": "i",
+              "text": "Lenz"
+            },
+            {
+              "index": "ii",
+              "text": "Maxwell"
+            },
+            {
+              "index": "iii",
+              "text": "J. J. Thomson"
+            },
+            {
+              "index": "iv",
+              "text": "Heinrich Hertz"
+            }
+          ],
+          "correct_index": "iv",
+          "correct_answer": "Heinrich Hertz",
+          "explanation": "In 1887, Heinrich Hertz first discovered the photoelectric effect during his experiments on electromagnetic waves (later studied in detail by Hallwachs and Lenard, and explained theoretically by Einstein)."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks with appropriate words:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "There are {BLANK} electrons in 1 Coulomb of charge.",
+          "options": [],
+          "correct_answer": "6.25 × 10¹⁸",
+          "explanation": "Answer: 6.25 × 10¹⁸\n\nReason: From q = ne, n = q / e = 1 / (1.6 × 10⁻¹⁹ C) = 6.25 × 10¹⁸ electrons."
+        },
+        {
+          "q_id": "b",
+          "statement": "A {BLANK} drawn at any point on a magnetic field line gives the direction of the resultant magnetic field at that point.",
+          "options": [],
+          "correct_answer": "Tangent",
+          "explanation": "Answer: Tangent\n\nReason: The tangent drawn at any point on a magnetic field line indicates the direction of the net magnetic field at that point."
+        },
+        {
+          "q_id": "c",
+          "statement": "The nature of propagation of electromagnetic waves is {BLANK}.",
+          "options": [],
+          "correct_answer": "Transverse",
+          "explanation": "Answer: Transverse\n\nReason: In electromagnetic waves, both the electric field (E) and magnetic field (B) oscillate perpendicular to the direction of wave propagation, hence they are transverse in nature."
+        },
+        {
+          "q_id": "d",
+          "statement": "Redistribution of energy takes place in the phenomenon of {BLANK} of light.",
+          "options": [],
+          "correct_answer": "Interference",
+          "explanation": "Answer: Interference\n\nReason: In interference of light, energy is neither created nor destroyed; it is merely redistributed from points of destructive interference to points of constructive interference."
+        },
+        {
+          "q_id": "e",
+          "statement": "In the phenomenon of total internal reflection, when the angle of refraction is {BLANK}, the angle of incidence equals the critical angle.",
+          "options": [],
+          "correct_answer": "90°",
+          "explanation": "Answer: 90° (or right angle)\n\nReason: The angle of incidence in a denser medium for which the corresponding angle of refraction in the rarer medium is 90° is called the critical angle."
+        },
+        {
+          "q_id": "f",
+          "statement": "A simple microscope is a converging lens of {BLANK} focal length.",
+          "options": [],
+          "correct_answer": "Short / Small",
+          "explanation": "Answer: Short / Small\n\nReason: Magnifying power of a simple microscope is m = 1 + (D/f). To achieve higher magnifying power, the focal length (f) of the lens must be small."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×5=5",
+      "text": "Write True or False:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The electrostatic field inside a conductor is zero.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: Under electrostatic equilibrium, no excess charge resides inside a conductor; all charge stays on its outer surface, making the electric field inside zero."
+        },
+        {
+          "q_id": "b",
+          "statement": "Magnetic field lines always form closed loops.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: Magnetic monopoles do not exist. Magnetic field lines travel from north pole to south pole outside a magnet and from south pole to north pole inside it, forming continuous closed loops."
+        },
+        {
+          "q_id": "c",
+          "statement": "Long radio waves have the highest frequency.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: In the electromagnetic spectrum, radio waves have the longest wavelength and therefore the lowest frequency (ν = c/λ). Gamma rays have the highest frequency."
+        },
+        {
+          "q_id": "d",
+          "statement": "For an unpolarised wave, the displacement remains unchanged with time.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: In an unpolarised light wave, the displacement of the electric field vector changes continuously and randomly in all perpendicular directions with time."
+        },
+        {
+          "q_id": "e",
+          "statement": "The average value of alternating current over one complete cycle is zero.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: Over a complete cycle, the average value for the positive half-cycle (+2I₀/π) and negative half-cycle (−2I₀/π) are equal and opposite, so the net average value over a full cycle is zero."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match Column 'A' with Column 'B' and write the correct pairs:",
+      "columns": {
+        "column_A_title": "Column 'A'",
+        "column_B_title": "Column 'B'",
+        "pairs": [
+          {
+            "a_item": "(a) Intensity of light",
+            "b_item": "(i) Minimum energy required to emit electron from surface",
+            "correct_match_index": "4"
+          },
+          {
+            "a_item": "(b) Frequency of light",
+            "b_item": "(ii) Minimum frequency required to emit electron from surface",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(c) Work function",
+            "b_item": "(iii) Frequency of photon",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(d) Matter wave",
+            "b_item": "(iv) Number of photons",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(e) Threshold frequency",
+            "b_item": "(v) Moving particle",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(f) Particle nature of light",
+            "b_item": "(vi) Photon",
+            "correct_match_index": "6"
+          }
+        ]
+      },
+      "explanation": "Column matching based on Photoelectric Effect and Dual Nature of Matter:\n\n(a) Intensity of light ⟶ (iv) Number of photons\nReason: Intensity of light is directly proportional to the number of photons incident per unit area per second.\n\n(b) Frequency of light ⟶ (iii) Frequency of photon\nReason: The frequency of incident light determines the characteristic frequency (ν) of each photon (E = hν).\n\n(c) Work function ⟶ (i) Minimum energy required to emit electron from surface\nReason: The minimum energy needed by an electron to just escape from a metal surface is called its work function (Φ₀ = hν₀).\n\n(d) Matter wave ⟶ (v) Moving particle\nReason: According to de Broglie's hypothesis, a wave is associated with every moving material particle, called a matter wave.\n\n(e) Threshold frequency ⟶ (ii) Minimum frequency required to emit electron from surface\nReason: The minimum frequency of incident light below which no photoelectric emission takes place is called threshold frequency (ν₀).\n\n(f) Particle nature of light ⟶ (vi) Photon\nReason: Particle nature of light shows that light consists of discrete packets or bundles of energy called photons."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Answer each question in one sentence:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "Write the mathematical form of quantisation of electric charge.",
+          "correct_answer": "q = ± ne (where n = 1, 2, 3, ... and e = 1.6 × 10⁻¹⁹ C)",
+          "explanation": "Answer: q = ± ne\n\n(where q = total charge, n = an integer, and e = elementary charge = 1.6 × 10⁻¹⁹ C)."
+        },
+        {
+          "q_id": "b",
+          "statement": "What is the order of frequency of visible light?",
+          "correct_answer": "The frequency of visible light is of the order of 10¹⁴ Hz (approx. 4 × 10¹⁴ Hz to 8 × 10¹⁴ Hz).",
+          "explanation": "Answer: Of the order of 10¹⁴ Hz."
+        },
+        {
+          "q_id": "c",
+          "statement": "What will be the power of a lens of focal length + 0.5 m?",
+          "correct_answer": "+ 2 D (Dioptre)",
+          "explanation": "Answer: + 2 D\n\nCalculation: Power of lens P = 1 / f(m) = 1 / (+0.5) = + 2 D (Dioptre)."
+        },
+        {
+          "q_id": "d",
+          "statement": "Write the SI unit of mutual inductance.",
+          "correct_answer": "Henry (H)",
+          "explanation": "Answer: Henry (H or Wb/A)."
+        },
+        {
+          "q_id": "e",
+          "statement": "Write the root mean square (rms) value of alternating current.",
+          "correct_answer": "I_rms = I₀ / √2 ≈ 0.707 I₀ (where I₀ is peak current)",
+          "explanation": "Answer: I_rms = I₀ / √2 (or I_rms = 0.707 I₀, where I₀ is the peak value of current)."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two differences between intrinsic and extrinsic semiconductors.",
+          "correct_answer": "",
+          "explanation": "Answer:\nTwo main differences between intrinsic and extrinsic semiconductors are:\n\n1. Purity: Intrinsic semiconductors are completely pure semiconductors (free from any impurity); whereas extrinsic semiconductors are formed by adding suitable trivalent or pentavalent impurities (doping) to a pure semiconductor.\n2. Concentration of charge carriers: In intrinsic semiconductors, the number of free electrons equals the number of holes (nₑ = nₕ); whereas in extrinsic semiconductors, one type of charge carrier is in majority (nₑ >> nₕ in n-type, and nₕ >> nₑ in p-type)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "At normal temperature, current does not flow in semiconductors, whereas it flows at high temperature. Why?",
+            "correct_answer": "",
+            "explanation": "Answer:\nAt very low (or absolute zero) temperature, all valence electrons in a semiconductor are tightly bound in covalent bonds, so no free electrons are available in the conduction band and no current flows.\n\nHowever, at higher temperatures, some covalent bonds break due to thermal energy, creating free electrons in the conduction band and holes in the valence band. Due to the availability of these mobile charge carriers, electric current starts flowing at high temperatures."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is ionisation energy?",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe minimum external energy required to completely remove an electron from the ground state (lowest energy level) of an atom to infinity (i.e., to ionise the atom) is called ionisation energy.\n\nExample: The ground-state ionisation energy of a hydrogen atom is 13.6 eV."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain the significance of negative energy of an electron in an orbit.",
+            "correct_answer": "",
+            "explanation": "Answer:\nThe negative total energy of an electron in an orbit signifies that the electron is bound to the nucleus by electrostatic force of attraction.\n\nNegative energy indicates that the electron cannot leave the atom on its own; positive external energy must be supplied to free the electron from the attraction of the nucleus."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Malus' law.",
+          "correct_answer": "",
+          "explanation": "Answer:\nAccording to Malus' Law:\n\"When a beam of completely plane-polarised light is incident on an analyser, the intensity (I) of light transmitted by the analyser is directly proportional to the square of the cosine of the angle (θ) between the transmission axes of the polariser and the analyser.\"\n\nFormula: I = I₀ cos²θ\n(where I₀ is the maximum intensity of incident plane-polarised light)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write two differences between polarised and unpolarised light waves.",
+            "correct_answer": "",
+            "explanation": "Answer:\nTwo main differences between polarised and unpolarised light waves are:\n\n1. Vibrations of electric vector: In unpolarised light, vibrations of the electric field vector occur symmetrically in all possible directions perpendicular to the direction of wave propagation; whereas in polarised light, vibrations are restricted to only one specific plane perpendicular to wave propagation.\n2. Symmetry: Unpolarised light is symmetrical about the ray axis, whereas polarised light is asymmetrical about the ray axis."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Alternating current of the same voltage is more dangerous (stronger) than direct current. Why?",
+          "correct_answer": "",
+          "explanation": "Answer:\nThe rated voltage of an alternating current (AC) is its root mean square value (V_rms), whereas its peak value is V₀ = √2 × V_rms = 1.414 × V_rms.\n\nFor example, 220 V AC reaches a peak voltage of about 311 V, whereas 220 V DC remains constant at 220 V. Therefore, AC of the same nominal voltage gives a much stronger and more dangerous shock."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Why is the core of a transformer laminated?",
+            "correct_answer": "",
+            "explanation": "Answer:\nDue to changing magnetic flux in a transformer, eddy currents are induced in the iron core, causing wasteful loss of electrical energy as heat.\n\nInstead of making the core a solid block, it is laminated by joining many thin, insulated (varnished) iron strips together. This increases the resistance of the core and greatly reduces eddy currents, minimizing energy loss."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "State Lenz's law regarding electromagnetic induction.",
+          "correct_answer": "",
+          "explanation": "Answer:\nLenz's Law:\n\"In every case of electromagnetic induction, the direction of the induced electromotive force (emf) or induced current is always such that it opposes the very cause which produces it.\"\n\nSignificance: Lenz's law is based on the law of conservation of energy."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A spark is produced when an electric circuit is suddenly switched off. Why?",
+            "correct_answer": "",
+            "explanation": "Answer:\nWhen an electric circuit is suddenly switched off, the current flowing in the circuit drops from its maximum value to zero in a very short time.\n\nDue to the very high rate of change of magnetic flux, a large self-induced emf is generated in the circuit in the same direction as the original current. This high induced voltage ionises the air gap between the switch contacts, producing a spark."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The storage battery of a car has an emf of 12 V. If the internal resistance of the battery is 0.4 Ω, what is the maximum current that can be drawn from the battery?",
+          "correct_answer": "30 A",
+          "explanation": "Solution:\n\nGiven:\nEmf of battery (E) = 12 V\nInternal resistance (r) = 0.4 Ω\n\nFor maximum current (I_max), external resistance R = 0.\n\nFormula:\nI_max = E / r\n\nSubstituting values:\nI_max = 12 / 0.4 = 120 / 4 = 30 A\n\nAnswer: The maximum current that can be drawn from the battery is 30 A."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A battery of emf 10 V and internal resistance 3 Ω is connected to a resistor. If the current in the circuit is 0.5 A, what is the resistance of the resistor?",
+            "correct_answer": "17 Ω",
+            "explanation": "Solution:\n\nGiven:\nEmf (E) = 10 V\nInternal resistance (r) = 3 Ω\nCurrent in circuit (I) = 0.5 A\nResistance of resistor (R) = ?\n\nFormula:\nI = E / (R + r)\n\nOr,\nR + r = E / I\nR + 3 = 10 / 0.5\nR + 3 = 20\nR = 20 − 3 = 17 Ω\n\nAnswer: The resistance of the resistor is 17 Ω."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define capacitance of a capacitor and write its SI unit.",
+          "correct_answer": "",
+          "explanation": "Answer:\nDefinition: The capacitance (C) of a capacitor is defined as the ratio of the charge (Q) given to either of its plates to the potential difference (V) produced between the two plates.\nFormula: C = Q / V\n\nSI Unit: The SI unit of capacitance is Farad (F) or Coulomb/Volt (C/V)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "The electric potential at every point inside a hollow charged conductor is uniform (same). Why?",
+            "correct_answer": "",
+            "explanation": "Answer:\nThe electrostatic field inside a hollow charged conductor is always zero (E = 0).\n\nFrom the relation between electric field and potential, E = − dV/dr, if E = 0, then dV/dr = 0.\nThis means potential does not change with distance inside the cavity; hence, the potential remains constant at every point inside a hollow conductor and equals the potential on its surface."
+          }
+        ]
+      },
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive an expression for the intensity of electric field at a point on the axial line due to an electric dipole.",
+          "correct_answer": "",
+          "explanation": "Derivation:\nConsider an electric dipole AB consisting of charges +q and −q separated by a distance 2a. Its dipole moment is p = q × 2a. Let P be a point on its axial line at a distance r from its centre O.\n\n1. Electric field at P due to charge +q:\nE₁ = 1/(4πε₀) · [q / (r − a)²] (directed from B to P)\n\n2. Electric field at P due to charge −q:\nE₂ = 1/(4πε₀) · [q / (r + a)²] (directed from P to A)\n\n3. Net electric field at P (since E₁ and E₂ are opposite and E₁ > E₂):\nE = E₁ − E₂\nE = [q / (4πε₀)] · [ 1/(r − a)² − 1/(r + a)² ]\nE = [q / (4πε₀)] · [ 4ar / (r² − a²)² ]\n\nSince p = q × 2a, therefore:\nE = [1 / (4πε₀)] · [ 2pr / (r² − a²)² ]\n\nFor a short dipole (r >> a), neglecting a²:\nE = 1/(4πε₀) · (2p / r³)\nThis is the required expression for axial electric field."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Deduce Coulomb's inverse square law with the help of Gauss's theorem.",
+            "correct_answer": "",
+            "explanation": "Deduction:\nConsider an isolated point charge +q situated at point O in vacuum. To find the electric field at point P at distance r from O, imagine a spherical Gaussian surface of radius r centred at O.\n\nBy symmetry, the magnitude of electric field E is the same at every point on the spherical surface and is directed radially outward.\n\n1. Total electric flux passing through the Gaussian surface:\nΦ = ∮ E · dA = E ∮ dA\nSince surface area of sphere ∮ dA = 4πr²:\nΦ = E · (4πr²)\n\n2. According to Gauss's Theorem:\nΦ = q / ε₀\n\n3. Equating both expressions:\nE · (4πr²) = q / ε₀\nE = 1/(4πε₀) · (q / r²)\n\n4. If a test charge q₀ is placed at point P, the force acting on it is:\nF = q₀ · E\nF = 1/(4πε₀) · (q · q₀ / r²)\n\nThis is Coulomb's inverse square law."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive an expression for the torque (moment of couple) acting on a bar magnet placed in a uniform magnetic field.",
+          "correct_answer": "",
+          "explanation": "Derivation:\nConsider a bar magnet NS of effective length 2l and pole strength m placed in a uniform magnetic field B making an angle θ with the direction of the field. Its magnetic dipole moment is M = m × 2l.\n\n1. Forces acting on the two poles:\n• Force on North pole (N) = mB (along the direction of field B)\n• Force on South pole (S) = mB (opposite to the direction of field B)\n\nThese two forces are equal in magnitude, parallel, and opposite in direction. Thus, net translational force is zero, but they form a couple that tends to align the magnet along the field.\n\n2. Torque (τ):\nτ = Magnitude of either force × Perpendicular distance between the two forces\n\nFrom geometry, perpendicular distance NP = 2l sin θ\nτ = mB × (2l sin θ)\nτ = (m × 2l) B sin θ\n\nSince magnetic moment M = m × 2l:\nτ = M B sin θ\n\nIn vector form: τ⃗ = M⃗ × B⃗"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Derive an expression for mutual inductance between two plane circular coils.",
+            "correct_answer": "",
+            "explanation": "Derivation:\nConsider two concentric, coplanar circular coils C₁ and C₂.\nLet primary coil C₁ have radius r₁ and N₁ turns.\nLet secondary coil C₂ have radius r₂ and N₂ turns (where r₂ < r₁).\n\n1. When a current I₁ flows through primary coil C₁, the magnetic field at its centre is:\nB₁ = μ₀ N₁ I₁ / (2r₁)\n\n2. Magnetic flux linked with each turn of secondary coil C₂ (area A₂ = πr₂²):\nΦ₂ = B₁ · A₂ = [μ₀ N₁ I₁ / (2r₁)] × (π r₂²)\n\n3. Total flux linkage in secondary coil (N₂Φ₂):\nN₂ Φ₂ = [μ₀ N₁ N₂ π r₂² / (2r₁)] · I₁\n\n4. By definition of mutual inductance (N₂Φ₂ = M I₁):\nM = (N₂ Φ₂) / I₁\nM = (μ₀ N₁ N₂ π r₂²) / (2r₁)\n\nIf a core of relative permeability μᵣ is placed inside, then:\nM = (μ₀ μᵣ N₁ N₂ π r₂²) / (2r₁)"
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Establish the relation between real depth, apparent depth of an object placed in a denser medium, and refractive index of the medium.",
+          "correct_answer": "",
+          "explanation": "Derivation:\nConsider a denser medium (like water) of refractive index μ containing a point object O at a real depth h below the surface.\n\n1. A ray OA incident normally on the surface passes straight into air without deviation.\n2. Another ray OB incident at angle i bends away from the normal in the rarer medium (air) at angle of refraction r.\n3. When produced backwards, the two refracted rays appear to meet at point I, forming the virtual image of O. Thus, apparent depth AI = h'.\n\nBy Snell's Law (for light travelling from denser to rarer medium):\n₂μ₁ = sin i / sin r\n\nTherefore, refractive index of denser medium with respect to air:\n₁μ₂ (μ) = 1 / ₂μ₁ = sin r / sin i\n\nIn right-angled triangles ΔOAB and ΔIAB:\nsin i ≈ tan i = AB / OA = AB / h\nsin r ≈ tan r = AB / IA = AB / h'\n(since point B is very close to point A)\n\nSubstituting values:\nμ = (AB / h') / (AB / h) = h / h'\n\nTherefore, Refractive Index (μ) = Real Depth / Apparent Depth\n(or Apparent depth h' = Real depth / μ)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Derive the Lens Maker's Formula for a convex lens.",
+            "correct_answer": "",
+            "explanation": "Lens Maker's Formula: 1/f = (μ − 1) [ 1/R₁ − 1/R₂ ]\n\nDerivation:\nConsider a thin convex lens of refractive index μ placed in air (refractive index = 1). Let R₁ and R₂ be the radii of curvature of its two spherical surfaces. A point object O is placed on the principal axis at distance u.\n\n1. For refraction at the first spherical surface:\nImage I₁ is formed at distance v₁. Using the spherical refraction formula:\nμ/v₁ − 1/u = (μ − 1)/R₁   --- (Equation 1)\n\n2. For refraction at the second spherical surface:\nI₁ acts as a virtual object and the final image I is formed at distance v. Here light travels from denser to rarer medium (refractive index 1/μ):\n(1/μ)/v − 1/v₁ = [(1/μ) − 1]/R₂\nMultiplying both sides by μ:\n1/v − μ/v₁ = −(μ − 1)/R₂   --- (Equation 2)\n\n3. Adding Equations (1) and (2):\n1/v − 1/u = (μ − 1) [ 1/R₁ − 1/R₂ ]\n\nWhen the object is at infinity (u = ∞), the image is formed at the principal focus (v = f):\n1/f = (μ − 1) [ 1/R₁ − 1/R₂ ]\nThis is the Lens Maker's Formula."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Using Bohr's model, calculate the speed of the electron in a hydrogen atom in the n = 1, 2 and 3 levels.",
+          "correct_answer": "v₁ ≈ 2.18 × 10⁶ m/s, v₂ ≈ 1.09 × 10⁶ m/s, v₃ ≈ 7.27 × 10⁵ m/s",
+          "explanation": "Solution:\n\nAccording to Bohr's model, the speed of an electron in the nth orbit of a hydrogen atom is:\nvₙ = e² / (2 ε₀ n h) = (1 / n) · [ e² / (2 ε₀ h) ]\n\nWhere speed in the ground state (n = 1) is:\nv₁ = c / 137 ≈ 2.18 × 10⁶ m/s\n\nThus, for the nth level: vₙ = v₁ / n\n\n1. For first level (n = 1):\nv₁ = 2.18 × 10⁶ / 1 = 2.18 × 10⁶ m/s\n\n2. For second level (n = 2):\nv₂ = 2.18 × 10⁶ / 2 = 1.09 × 10⁶ m/s\n\n3. For third level (n = 3):\nv₃ = 2.18 × 10⁶ / 3 ≈ 0.727 × 10⁶ m/s = 7.27 × 10⁵ m/s\n\nAnswer:\nSpeed at n = 1 is 2.18 × 10⁶ m/s\nSpeed at n = 2 is 1.09 × 10⁶ m/s\nSpeed at n = 3 is 7.27 × 10⁵ m/s"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the binding energy of a nitrogen nucleus (₁₄N₇) in MeV. Given m_N = 14.00307 u.",
+            "correct_answer": "104.66 MeV",
+            "explanation": "Solution:\n\nIn a nitrogen nucleus (₁₄N₇):\nNumber of protons Z = 7\nNumber of neutrons N = A − Z = 14 − 7 = 7\n\nStandard values:\nMass of 1 proton (m_p) = 1.007825 u\nMass of 1 neutron (m_n) = 1.008665 u\nGiven mass of nucleus m_N = 14.00307 u\n\n1. Total mass of all nucleons:\nΣm = 7 × m_p + 7 × m_n\nΣm = 7 × (1.007825) + 7 × (1.008665)\nΣm = 7.054775 + 7.060655 = 14.11543 u\n\n2. Mass defect (Δm):\nΔm = Σm − m_N\nΔm = 14.11543 u − 14.00307 u = 0.11236 u\n\n3. Binding Energy:\nSince 1 u = 931.5 MeV\nB.E. = Δm × 931.5 MeV\nB.E. = 0.11236 × 931.5 MeV ≈ 104.66 MeV\n\nAnswer: The binding energy of the nitrogen nucleus is approximately 104.66 MeV."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive an expression for the capacitance of a parallel plate capacitor. Write two factors affecting it.",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) Derivation of Capacitance:\nConsider a parallel plate capacitor consisting of two plane conducting plates X and Y, each of area A and separated by a distance d. Plate X is given +Q charge and plate Y gets −Q charge.\nSurface charge density on the plates is σ = Q / A.\n\nElectric field between the plates:\nE = σ / (K ε₀) = Q / (K ε₀ A)  (where K is the dielectric constant of the medium)\n\nPotential difference (V) between the plates:\nV = E · d = (Q · d) / (K ε₀ A)\n\nBy definition of capacitance (C = Q / V):\nC = Q / [ (Q · d) / (K ε₀ A) ]\nC = (K ε₀ A) / d\n(For air or vacuum, K = 1, so C₀ = ε₀ A / d)\n\n(2) Two Factors Affecting Capacitance:\n1. Area of plates: Capacitance is directly proportional to the area of the plates (C ∝ A). Increasing plate area increases capacitance.\n2. Distance between plates: Capacitance is inversely proportional to the distance between the plates (C ∝ 1/d). Decreasing the separation increases capacitance."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Describe Wheatstone Bridge on the basis of the following points:\n(a) Principle\n(b) Labelled circuit diagram\n(c) Necessary condition\n(d) Any one use",
+            "correct_answer": "",
+            "explanation": "Answer:\n(a) Principle:\nFour resistors P, Q, R and S are connected to form the four arms of a quadrilateral ABCD, with a galvanometer connected across one diagonal and a cell across the other diagonal. When the bridge is balanced (zero deflection in the galvanometer), the ratio of resistances of any two adjacent arms equals the ratio of resistances of the remaining two arms.\n\n(b) Labelled Circuit Diagram:\n[Draw a quadrilateral ABCD with resistors P, Q, R, S in arms AB, BC, AD, DC respectively. Connect a galvanometer G with key K₂ across diagonal BD, and a cell E with key K₁ across diagonal AC.]\n\n(c) Necessary Condition:\nAt balance point: P / Q = R / S\n\n(d) Any One Use:\nUsed in a Meter Bridge or Post Office Box to accurately determine the unknown electrical resistance of a wire."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the intensity of magnetic field at a point on the axis of a circular current-carrying coil.",
+          "correct_answer": "",
+          "explanation": "Derivation:\nConsider a circular coil of radius a carrying a current I. We need to find the magnetic field intensity at point P on its axis at a distance x from its centre O.\n\n1. Consider a small current element dl at the top of the coil. The distance from this element to point P is r = √(a² + x²).\n\n2. According to Biot-Savart Law, the magnetic field at P due to element dl is:\ndB = (μ₀ / 4π) · [ (I dl sin 90°) / r² ] = (μ₀ / 4π) · [ (I dl) / (a² + x²) ]\n\n3. Resolving dB into two rectangular components:\n• Perpendicular components dB cos θ due to diametrically opposite elements cancel each other.\n• Axial components dB sin θ add up along the axis.\n\n4. Net magnetic field at point P:\nB = ∮ dB sin θ = ∮ [ (μ₀ / 4π) · (I dl / r²) ] · (a / r)  [since sin θ = a / r]\nB = [ (μ₀ I a) / (4π r³) ] ∮ dl\n\nSince circumference of the coil ∮ dl = 2πa:\nB = [ (μ₀ I a) / (4π r³) ] · (2πa) = (μ₀ I a²) / (2 r³)\n\nSubstituting r = (a² + x²)^(1/2):\nB = [ μ₀ I a² ] / [ 2 (a² + x²)^(3/2) ]\n\nIf the coil has N turns, then:\nB = [ μ₀ N I a² ] / [ 2 (a² + x²)^(3/2) ] Tesla"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is an Alternating Current (AC) generator? Describe its working with a neat diagram.",
+            "correct_answer": "",
+            "explanation": "Answer:\n(1) Alternating Current (AC) Generator:\nAn electromechanical device that converts mechanical energy into alternating electrical energy is called an AC generator. It works on the principle of 'electromagnetic induction'.\n\n(2) Main Parts:\n1. Field magnet (N–S)\n2. Armature coil (ABCD)\n3. Slip rings (S₁ and S₂)\n4. Carbon brushes (B₁ and B₂)\n\n(3) Labelled Diagram:\n[Draw a neat diagram showing armature coil ABCD rotating between strong magnetic poles N and S, slip rings S₁, S₂ mounted on the shaft, carbon brushes B₁, B₂, and external load circuit.]\n\n(4) Working:\nWhen the armature coil is rotated rapidly in the magnetic field by an external mechanical source, the magnetic flux linked with the coil changes continuously.\nBy Faraday's law, an alternating emf is induced in the coil:\ne = − dΦ/dt = e₀ sin(ωt) (where e₀ = NBAω)\n\nDuring the first half-rotation, current flows in one direction, and during the next half-rotation, current reverses its direction, delivering continuous alternating current to the external circuit."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive the formula for the refractive index of the material of a prism.",
+          "correct_answer": "",
+          "explanation": "Formula: μ = sin[(A + δₘ)/2] / sin(A/2)\n\nDerivation:\nLet ABC be the principal section of a prism with angle of prism A. An incident ray PQ strikes the first face AB at angle of incidence i₁, refracts at angle r₁, strikes the second face AC at angle r₂, and emerges at angle of emergence i₂.\n\n1. Total angle of deviation (δ):\nδ = (i₁ − r₁) + (i₂ − r₂)\nδ = (i₁ + i₂) − (r₁ + r₂)   --- (Equation 1)\n\n2. In cyclic quadrilateral AQNR:\n∠A + ∠QNR = 180°\nIn triangle ΔQNR:\nr₁ + r₂ + ∠QNR = 180°\nComparing both: r₁ + r₂ = A   --- (Equation 2)\n\n3. Substituting Equation (2) in Equation (1):\nδ = i₁ + i₂ − A\nor, A + δ = i₁ + i₂   --- (Equation 3)\n\n4. In the position of minimum deviation (when δ = δₘ):\ni₁ = i₂ = i and r₁ = r₂ = r\n\nFrom Equation (2): 2r = A ⇒ r = A / 2\nFrom Equation (3): A + δₘ = 2i ⇒ i = (A + δₘ) / 2\n\n5. By Snell's Law:\nμ = sin i / sin r\n\nSubstituting values:\nμ = sin[(A + δₘ) / 2] / sin[A / 2]\nThis is the required prism formula."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write four differences between interference and diffraction of light.",
+            "correct_answer": "",
+            "explanation": "Answer:\nFour main differences between Interference and Diffraction of light are:\n\n| S.No. | Basis | Interference | Diffraction |\n|---|---|---|---|\n| 1. | Origin | Produced by the superposition of two separate wavefronts coming from two coherent sources. | Produced by the superposition of secondary wavelets originating from different points of the same wavefront. |\n| 2. | Fringe width | All bright and dark fringes are generally of equal width. | Fringes are never of equal width (the central maximum is widest). |\n| 3. | Intensity distribution | All bright fringes have the same intensity, and dark fringes are completely dark. | Central maximum has maximum intensity, and intensity decreases rapidly for higher-order maxima. |\n| 4. | Contrast | Contrast between bright and dark fringes is very sharp and distinct. | Contrast between fringes is comparatively poor. |"
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is a P-N junction diode? Describe its use as a full-wave rectifier with a neat diagram.",
+          "correct_answer": "",
+          "explanation": "Answer:\n(1) P-N Junction Diode:\nWhen a p-type semiconductor crystal is atomically joined to an n-type semiconductor crystal by a special fabrication process so that the crystal structure remains continuous across the boundary, the contact surface is called a P-N junction and the two-terminal device is called a P-N junction diode.\n\n(2) Working as a Full-Wave Rectifier:\nIn a full-wave rectifier, two diodes D₁ and D₂ are connected to the two ends of the secondary coil of a centre-tap transformer, and the load resistor R_L is connected between the centre-tap and the common cathodes of the diodes.\n\n• During the positive half-cycle of AC: End A is positive and end B is negative. Diode D₁ is forward biased and conducts, while D₂ is reverse biased and does not conduct. Current flows through load R_L.\n• During the negative half-cycle of AC: End A becomes negative and end B becomes positive. Diode D₁ is reverse biased and does not conduct, while D₂ is forward biased and conducts. Current again flows through load R_L in the same direction.\n\nThus, unidirectional (DC) current flows through the load during both halves of the input AC cycle.\n\n(3) Circuit Diagram:\n[Draw a neat circuit diagram showing centre-tap transformer, two diodes D₁ and D₂, load resistor R_L, along with input and output waveforms.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "C, Si and Ge have the same lattice structure. Why is C an insulator while Si and Ge are intrinsic semiconductors?",
+            "correct_answer": "",
+            "explanation": "Answer:\nCarbon (C), Silicon (Si), and Germanium (Ge) all belong to Group 14 of the periodic table, each having 4 valence electrons and the same diamond-like crystal lattice structure. Yet their electrical properties differ due to differences in their forbidden energy band gap (E_g) and atomic size:\n\n1. Carbon (C): Carbon has a very small atomic size (atomic number = 6). Its valence electrons lie very close to the nucleus and are tightly bound by strong nuclear attraction. The forbidden energy gap for carbon is very large (E_g ≈ 5.4 eV). At room temperature, thermal energy is insufficient to excite electrons from the valence band to the conduction band, so carbon behaves as an insulator.\n\n2. Silicon (Si) and Germanium (Ge): Silicon (Z = 14) and Germanium (Z = 32) have much larger atomic sizes than carbon, so their valence electrons are loosely bound to the nucleus. Their forbidden energy gaps are very small (E_g ≈ 1.1 eV for Si and E_g ≈ 0.7 eV for Ge). At room temperature, thermal energy is sufficient to break some covalent bonds and excite electrons into the conduction band, enabling them to behave as semiconductors."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    }
+  ]
+}

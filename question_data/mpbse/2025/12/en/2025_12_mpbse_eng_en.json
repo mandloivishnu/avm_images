@@ -1,0 +1,1125 @@
+{
+  "paper_details": {
+    "paperYear": "2025",
+    "subjectName": "ENGLISH",
+    "totalMarks": "80",
+    "board": "MP Board",
+    "setName": "SET A",
+    "totalQuestions": "15",
+    "time": "3 Hours"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×10=10",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions given below it :",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2025",
+      "passage": "Education is a sub-system of the wider social system. Although it functions autonomously, it has linkage with economic, political, religious and other sub-systems which exert a powerful influence on the goals of the educational sub-systems.\nEducation can rarely free itself from social and cultural norms and has to relate itself to the needs of society.\nDue to globalization and modernization, our society is passing through momentous changes in its value system. Values of yesteryears have taken a backseat and materialism, corruption, dishonesty and other negative values have come to the fore. At this junction, all formal and informal agencies of education like family, school and community should realize the explosiveness of the situation. It is rightly said that values cannot be taught, they are caught. All the agencies should become role models if we want our youth to be on the right path. Absence of a congenial and loving atmosphere and quarrel among parents are the major hurdles in this direction. In a nutshell, the family has ceased to be an institution for providing cultural, aesthetic and moral education.\nOn the other hand, formal education is squeezed between memory and mechanization. The teacher has become a businessman doing private tuition instead of institutional teaching. Race for degrees and jobs has deteriorated the situation further.\nThe National Policy of Education (1986) has shown concern in this regard when it says, \"The growing concern over the erosion of essential values and an increasing cynicism in society has brought to focus the need for re-adjustment in the curriculum in order to make education a forceful tool for the cultivation of social and moral values.\"\nThe whole system of education needs a complete over-hauling. If at all, we the citizens are desirous of thwarting deterioration in values, teaching at all levels must emphasize on moral education and character building. Intellect without wisdom can be suicidal.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Education is a sub-system of the wider",
+          "options": [
+            {
+              "index": "a",
+              "text": "social system"
+            },
+            {
+              "index": "b",
+              "text": "political system"
+            },
+            {
+              "index": "c",
+              "text": "economical system"
+            },
+            {
+              "index": "d",
+              "text": "religious system"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "social system",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe opening line of the passage states: 'Education is a sub-system of the wider social system.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Our society is passing through momentous change in its value system due to",
+          "options": [
+            {
+              "index": "a",
+              "text": "globalization"
+            },
+            {
+              "index": "b",
+              "text": "modernization"
+            },
+            {
+              "index": "c",
+              "text": "globalization and modernization"
+            },
+            {
+              "index": "d",
+              "text": "political change"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "globalization and modernization",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nAccording to the passage, 'Due to globalization and modernization, our society is passing through momentous changes in its value system.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "_____ is an informal agency of education.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Family"
+            },
+            {
+              "index": "b",
+              "text": "School"
+            },
+            {
+              "index": "c",
+              "text": "Office"
+            },
+            {
+              "index": "d",
+              "text": "College"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Family",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nFamily is an informal agency of education, while schools and colleges represent formal institutions.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Values cannot be taught, they are",
+          "options": [
+            {
+              "index": "a",
+              "text": "bought"
+            },
+            {
+              "index": "b",
+              "text": "caught"
+            },
+            {
+              "index": "c",
+              "text": "read"
+            },
+            {
+              "index": "d",
+              "text": "deteriorated"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "caught",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage explicitly notes: 'It is rightly said that values cannot be taught, they are caught.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "Formal education is squeezed between",
+          "options": [
+            {
+              "index": "a",
+              "text": "memory and mechanization"
+            },
+            {
+              "index": "b",
+              "text": "family and society"
+            },
+            {
+              "index": "c",
+              "text": "society and school"
+            },
+            {
+              "index": "d",
+              "text": "school and politics"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "memory and mechanization",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe text states: 'On the other hand, formal education is squeezed between memory and mechanization.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "vi",
+          "statement": "The word 'congenial' in the passage means",
+          "options": [
+            {
+              "index": "a",
+              "text": "favourable"
+            },
+            {
+              "index": "b",
+              "text": "unfavourable"
+            },
+            {
+              "index": "c",
+              "text": "peace"
+            },
+            {
+              "index": "d",
+              "text": "fight"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "favourable",
+          "explanation": "Correct Option: (a)\n\nExplanation:\n'Congenial' means pleasant, agreeable, suitable, or favourable.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "vii",
+          "statement": "The noun form of the word 'deteriorated' is",
+          "options": [
+            {
+              "index": "a",
+              "text": "deteriorate"
+            },
+            {
+              "index": "b",
+              "text": "deterioration"
+            },
+            {
+              "index": "c",
+              "text": "deteriorating"
+            },
+            {
+              "index": "d",
+              "text": "determination"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "deterioration",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe noun form of the verb 'deteriorate' is 'deterioration'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "viii",
+          "statement": "_____ has ceased to be an institution for providing cultural, aesthetic and moral education.",
+          "options": [
+            {
+              "index": "a",
+              "text": "The school"
+            },
+            {
+              "index": "b",
+              "text": "The society"
+            },
+            {
+              "index": "c",
+              "text": "The family"
+            },
+            {
+              "index": "d",
+              "text": "Nation"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "The family",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe passage explicitly states: 'In a nutshell, the family has ceased to be an institution for providing cultural, aesthetic and moral education.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ix",
+          "statement": "The whole system of education needs a complete",
+          "options": [
+            {
+              "index": "a",
+              "text": "change"
+            },
+            {
+              "index": "b",
+              "text": "privatization"
+            },
+            {
+              "index": "c",
+              "text": "nationalization"
+            },
+            {
+              "index": "d",
+              "text": "over-hauling"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "over-hauling",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nThe passage asserts: 'The whole system of education needs a complete over-hauling.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "x",
+          "statement": "Intellect without wisdom can be",
+          "options": [
+            {
+              "index": "a",
+              "text": "meaningful"
+            },
+            {
+              "index": "b",
+              "text": "powerful"
+            },
+            {
+              "index": "c",
+              "text": "suicidal"
+            },
+            {
+              "index": "d",
+              "text": "pleasant"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "suicidal",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe concluding sentence mentions: 'Intellect without wisdom can be suicidal.'",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "3+1=4",
+      "word_limit": null,
+      "text": "Read the passage carefully and answer the questions given below it:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2025",
+      "passage": "The scriptures clearly define the three qualities - Tamas, Rajas and Sattva present in all of us. Tamas is inertia or resistance to transformation. Rajas is aggressiveness, restlessness or result-oriented action. Sattva is the characteristic of purity inside us.\nAs human beings, all of us have this quality of Sattva, which gives us patience, tolerance and establishes us in a state of utter tranquility. But our Sattvic nature has been pushed to the background. That is why we make no progress in spiritual practices like meditation. Total confusion, problems and worries are the fruits of Tamas. Lack of peace or a disturbed mind is the fruit of Rajas. Peace, happiness and contentment are the fruits of Sattva.\nOur Sattvic nature is given to us in the form of energy by God himself. It empowers us to cope with problems in a very systematic way without affecting our mental peace or depleting our human qualities. It turns us to divinity and activates our Soul. Just like we preserve our food using a preservative, we should preserve our minds using the energy called Sattva. If we want to have unflagging inspiration, zeal, zest and dynamism, we have to soak our minds in Sattva.",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "Make notes on the above passage.",
+          "answer": "TITLE: Three Qualities of Mind: Tamas, Rajas and Sattva\n\nNOTES:\n1. Three Qualities in Scriptures:\n   1.1 Tamas: Inertia or resistance to change; causes confusion & worries.\n   1.2 Rajas: Aggressiveness & restlessness; leads to lack of peace.\n   1.3 Sattva: Innate purity; brings patience, tolerance & tranquility.\n\n2. Importance of Sattva:\n   2.1 Divine energy gifted by God.\n   2.2 Empowers coping with problems systematically.\n   2.3 Preserves mental peace & activates the soul.\n\n3. Preserving the Mind with Sattva:\n   3.1 Mind needs Sattva just as food needs preservatives.\n   3.2 Essential for inspiration, zeal, zest & dynamism.\n\nKey to Abbreviations:\n- & : and\n- Qual. : qualities\n- Transf. : transformation"
+        },
+        {
+          "topic_id": "ii",
+          "name": "Give a suitable title to the passage.",
+          "answer": "The Power of Sattva / Three Qualities of Human Nature"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": null,
+      "text": "Notice / Advertisement Writing",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "You are Amit/Amita, the cultural secretary of your school. Draft a notice giving information about the selection of two participants from school to take part in the inter-school debate competition.",
+          "correct_answer": "",
+          "explanation": "GOVT. HIGHER SECONDARY SCHOOL, GWALIOR\n\nNOTICE\n\n15th July 2024\n\nSELECTION FOR INTER-SCHOOL DEBATE COMPETITION\n\nAll the students are hereby informed that an Inter-School Debate Competition is going to be organized by the District Youth Forum on 5th August 2024. Our school needs to select two meritorious participants to represent our institution.\n\nA preliminary selection round will be held on 25th July 2024 at 11:00 AM in the School Auditorium.\nTopic: \"Artificial Intelligence: Boon or Bane\"\n\nInterested students from Classes IX to XII may submit their names to the undersigned on or before 22nd July 2024.\n\nAmit / Amita\nCultural Secretary"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "You are Mridul/Mridula. You want to settle in another city. You want to sell certain household goods. Design a suitable advertisement to be published in a local newspaper.",
+            "correct_answer": "",
+            "explanation": "FOR SALE\n\nAvailable for immediate sale household items in excellent working condition as the owner is relocating to another city:\n1. Samsung Double-Door Refrigerator (260 L) - 2 years old\n2. LG Fully-Automatic Front-Load Washing Machine (7 kg) - 1.5 years old\n3. Teak-wood 6-seater Dining Table with glass top\n4. Sony Bravia 43-inch Smart LED TV\n\nAll items well-maintained and reasonably priced. Genuine buyers may contact Mridul / Mridula at 98XXXXXXXX or visit Flat No. 12, Ashoka Enclave, Bhopal."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": null,
+      "text": "Letter Writing",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write a formal invitation letter to the students of your school to attend the career counselling programme to be held in your school on IIT-JEE and NEET.",
+          "correct_answer": "",
+          "explanation": "THE PRINCIPAL & STAFF\nGovt. Model Higher Secondary School, Jabalpur\n\nCordially invite all the students of Classes XI and XII to attend a\n\nCAREER COUNSELLING PROGRAMME\non\n\"Cracking IIT-JEE & NEET: Strategies & Pathways\"\n\nDate: Saturday, 10th August 2024\nTime: 10:30 AM to 1:30 PM\nVenue: School Auditorium\n\nKeynote Speakers: Dr. S. K. Sharma (Renowned Career Counselor) and Er. Priya Verma (IIT Alumna)\n\nAll students are requested to be seated by 10:15 AM.\n\nR.S.V.P.\nSchool Organizing Committee\nPhone: 0761-XXXXXX"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write a letter to the editor of your local newspaper, expressing your concern over the increase in the rate of road accidents, rash driving and suggesting ways to control over the accidents. Give possible solutions.",
+            "correct_answer": "",
+            "explanation": "To,\nThe Editor,\nThe Daily News,\nBhopal (M.P.)\n\nSubject: Growing concern over rash driving and road accidents.\n\nSir,\n\nThrough the columns of your esteemed daily, I wish to draw the attention of the authorities and the general public towards the alarming increase in road accidents caused primarily by reckless and rash driving in our city.\n\nOver the past few months, city roads have become accident-prone zones. Drivers and motorcyclists frequently flout traffic signals, over-speed, and use mobile phones while driving. Minors riding two-wheelers without helmets have further worsened the situation, endangering the lives of innocent pedestrians and commuters.\n\nTo curb this menace, the following steps are urgently needed:\n1. Stringent enforcement of traffic regulations along with heavy spot fines.\n2. Installation of automated speed detection cameras at major intersections.\n3. Regular sobriety checks to deter drunk driving.\n4. Organizing road safety awareness campaigns in schools and colleges.\n\nI sincerely hope that the concerned authorities will look into the matter immediately and implement preventive measures to restore road discipline.\n\nYours faithfully,\nABC\nResident of MP Nagar, Bhopal"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "Write a paragraph in about 120 words on any one of the following topics:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Science and Technology",
+          "explanation": "SCIENCE AND TECHNOLOGY\n\nScience and technology are the fundamental driving forces of modern human civilization. From the invention of the wheel and electricity to modern space exploration and artificial intelligence, scientific advancements have revolutionized every walk of life. They have bridged geographical boundaries through high-speed telecommunications and modern transportation. In healthcare, cutting-edge medical technologies have eliminated deadly diseases and extended human lifespans. However, unbridled technological expansion also brings critical concerns like cybercrime, unemployment due to automation, and ecological degradation. To harness the genuine potential of science and technology, humanity must employ them ethically, ensuring that innovation always serves the collective welfare of society and nature."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The importance of English Language",
+          "explanation": "THE IMPORTANCE OF ENGLISH LANGUAGE\n\nEnglish has emerged as the principal global lingua franca, connecting people across varied cultures and continents. It is the dominant medium of instruction in higher education, scientific research, international trade, diplomacy, and aviation. In today's digital era, the majority of online resources, software applications, and academic journals are documented in English. Mastery of English opens lucrative professional avenues globally and enhances interpersonal confidence. While preserving mother tongues is vital for cultural heritage, acquiring proficiency in English equips individuals with a powerful tool to excel in competitive exams, multinational careers, and international forums."
+        },
+        {
+          "q_id": "iii",
+          "statement": "My Ideal Leader",
+          "explanation": "MY IDEAL LEADER\n\nMy ideal leader is Mahatma Gandhi, whose philosophy of non-violence (Ahimsa) and truth (Satya) steered India to freedom and inspired movements worldwide. A true leader does not rule by fear or authority, but guides by personal integrity, empathy, and unwavering commitment to public service. Gandhi's ascetic lifestyle and selfless dedication to uplifting the marginalized exemplify pure leadership. An ideal leader listens patiently to the voices of the citizens, remains calm in times of crisis, and prioritizes moral values over narrow self-interest. Gandhi's legacy proves that true strength lies in humility and moral conviction."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Online learning uses and abuses.",
+          "explanation": "ONLINE LEARNING: USES AND ABUSES\n\nOnline learning has transformed education by democratizing access to quality knowledge regardless of geographical limitations. Students can access video lectures, interactive quizzes, and specialized courses anytime from home at their own pace. It offers remarkable flexibility and cost savings. Nevertheless, excessive reliance on online education carries notable drawbacks. Prolonged screen time often triggers eye fatigue, physical lethargy, and mental stress. Furthermore, access to the internet during study hours frequently leads to distractions like social media and gaming. To reap maximum benefits, online learning must be balanced with offline peer interaction and strict self-discipline."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "v",
+            "statement": "Write a newspaper report in about 120 words to be published in a newspaper about the inauguration of Annual Function of your school. Use following inputs - Date, time and place, chief guest, chairman, warm welcome, events performed, prize distribution, speeches by guests, vote of thanks.",
+            "explanation": "GRAND INAUGURATION OF ANNUAL FUNCTION\n\nBy Staff Reporter\n\nIndore, December 22:\nThe Annual Function of Govt. Excellence Higher Secondary School was inaugurated with great fanfare yesterday at 5:00 PM in the school auditorium. The District Collector graced the occasion as the Chief Guest, accompanied by the School Principal who presided as the Chairman. The dignitaries were accorded a warm traditional welcome with bouquets and tilak.\n\nThe programme commenced with the lighting of the ceremonial lamp followed by Saraswati Vandana. Students presented a mesmerizing variety of cultural programmes including folk dances, patriotic choir songs, and a thought-provoking skit on environmental protection. Subsequently, the Chief Guest distributed prizes and certificates to students who excelled in academic and sports domains. In his address, the Chief Guest lauded the school's achievements and urged students to pursue their passions with perseverance. The event concluded with an inspiring speech by the Chairman and a formal vote of thanks delivered by the Vice-Principal, followed by the National Anthem."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks choosing the correct option: (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "This table is made {BLANK} wood.",
+          "options": [
+            {
+              "index": "a",
+              "text": "from"
+            },
+            {
+              "index": "b",
+              "text": "of"
+            },
+            {
+              "index": "c",
+              "text": "off"
+            },
+            {
+              "index": "d",
+              "text": "with"
+            }
+          ],
+          "correct_answer": "of",
+          "explanation": "Correct Answer: of\n\nExplanation:\nWhen the original material does not undergo a chemical change and remains identifiable, the preposition 'of' is used (e.g., 'made of wood')."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Would you like to have {BLANK} tea or coffee?",
+          "options": [
+            {
+              "index": "a",
+              "text": "some"
+            },
+            {
+              "index": "b",
+              "text": "any"
+            },
+            {
+              "index": "c",
+              "text": "many"
+            },
+            {
+              "index": "d",
+              "text": "few"
+            }
+          ],
+          "correct_answer": "some",
+          "explanation": "Correct Answer: some\n\nExplanation:\nIn polite offers and requests expecting an affirmative response, 'some' is used instead of 'any'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "I know {BLANK} boy who cheated you.",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "an"
+            },
+            {
+              "index": "c",
+              "text": "the"
+            },
+            {
+              "index": "d",
+              "text": "no article"
+            }
+          ],
+          "correct_answer": "the",
+          "explanation": "Correct Answer: the\n\nExplanation:\nThe definite article 'the' is used because the relative clause 'who cheated you' makes the noun 'boy' specific."
+        },
+        {
+          "q_id": "iv",
+          "statement": "It {BLANK} heavily since morning.",
+          "options": [
+            {
+              "index": "a",
+              "text": "is raining"
+            },
+            {
+              "index": "b",
+              "text": "was raining"
+            },
+            {
+              "index": "c",
+              "text": "has been raining"
+            },
+            {
+              "index": "d",
+              "text": "rains"
+            }
+          ],
+          "correct_answer": "has been raining",
+          "explanation": "Correct Answer: has been raining\n\nExplanation:\nThe time preposition phrase 'since morning' indicates an action that started in the past and is still continuing, requiring the present perfect continuous tense."
+        },
+        {
+          "q_id": "v",
+          "statement": "He {BLANK} speak English fluently.",
+          "options": [
+            {
+              "index": "a",
+              "text": "may"
+            },
+            {
+              "index": "b",
+              "text": "might"
+            },
+            {
+              "index": "c",
+              "text": "could"
+            },
+            {
+              "index": "d",
+              "text": "can"
+            }
+          ],
+          "correct_answer": "can",
+          "explanation": "Correct Answer: can\n\nExplanation:\nThe modal verb 'can' expresses present ability or capability."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Mohan is senior {BLANK} Rakesh.",
+          "options": [
+            {
+              "index": "a",
+              "text": "than"
+            },
+            {
+              "index": "b",
+              "text": "from"
+            },
+            {
+              "index": "c",
+              "text": "to"
+            },
+            {
+              "index": "d",
+              "text": "on"
+            }
+          ],
+          "correct_answer": "to",
+          "explanation": "Correct Answer: to\n\nExplanation:\nLatin comparative adjectives like senior, junior, superior, and inferior are followed by the preposition 'to', not 'than'."
+        },
+        {
+          "q_id": "vii",
+          "statement": "Sunil works hard {BLANK} he may get good marks.",
+          "options": [
+            {
+              "index": "a",
+              "text": "so"
+            },
+            {
+              "index": "b",
+              "text": "though"
+            },
+            {
+              "index": "c",
+              "text": "so that"
+            },
+            {
+              "index": "d",
+              "text": "and"
+            }
+          ],
+          "correct_answer": "so that",
+          "explanation": "Correct Answer: so that\n\nExplanation:\n'So that' is a conjunction of purpose used before a clause containing modal verbs like 'may' or 'can'."
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Do as directed: (any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Someone is calling my name. (change the voice)",
+          "explanation": "Passive Voice: My name is being called.\n\nExplanation:\nIn the present continuous tense, passive voice is formed with 'is/am/are + being + V3'. Indefinite pronouns like 'someone' are omitted in the passive agent."
+        },
+        {
+          "q_id": "ii",
+          "statement": "He is intelligent. He is hard working. (Combine the sentences using 'both.....and')",
+          "explanation": "Combined Sentence: He is both intelligent and hard working.\n\nExplanation:\nThe correlative conjunction 'both...and' joins the two coordinate adjectives describing the subject."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Physics is more difficult than any other subject. (Rewrite the sentence using the positive degree of the adjective used)",
+          "explanation": "Rewritten Sentence: No other subject is as difficult as Physics.\n\nExplanation:\nThe comparative degree 'more difficult than any other' is converted into the positive degree using 'No other...as difficult as'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "No sooner does a thief see a policeman than he runs away. (Rewrite the sentence using 'as soon as')",
+          "explanation": "Rewritten Sentence: As soon as a thief sees a policeman, he runs away.\n\nExplanation:\n'No sooner does...than' is replaced by 'As soon as', and the inverted present tense verb form 'does...see' converts to the standard indicative form 'sees'."
+        },
+        {
+          "q_id": "v",
+          "statement": "(a) The man is our new English teacher. (b) The man is wearing a white shirt. (Combine the above simple sentences to make a complex sentence)",
+          "explanation": "Combined Complex Sentence: The man who is wearing a white shirt is our new English teacher.\n\nExplanation:\nThe relative clause 'who is wearing a white shirt' is embedded to form a complex sentence."
+        },
+        {
+          "q_id": "vi",
+          "statement": "She shut the door. (Change into a negative sentence)",
+          "explanation": "Negative Sentence: She did not shut the door.\n\nExplanation:\n'Shut' here is in the simple past tense (third person singular without '-s'), so the negative form is 'did not + shut'."
+        },
+        {
+          "q_id": "vii",
+          "statement": "She is very weak. She cannot walk. (Combine the sentences using 'so......that')",
+          "explanation": "Combined Sentence: She is so weak that she cannot walk.\n\nExplanation:\n'Very' is replaced by 'so', and the second clause is joined with the subordinate conjunction 'that'."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the following extract carefully and answer the questions given below :",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2025",
+      "passage": "The make-up room had the look of a hair-cutting salon with lights at all angles around half a dozen large mirrors. They were all incandescent lights, so you can imagine the fiery misery of those who subjected to make-up. The make-up department was first headed by a Bengali who became too big for a studio and left. He was succeeded by a Maharashtrian who was assisted by a Dharwar Kannadiga, an Andhra, a Madras Indian Christian, an Anglo-Burmese and the usual local Tamils.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The make-up room looked like a",
+          "options": [
+            {
+              "index": "a",
+              "text": "light room"
+            },
+            {
+              "index": "b",
+              "text": "mirror room"
+            },
+            {
+              "index": "c",
+              "text": "hair-cutting salon"
+            },
+            {
+              "index": "d",
+              "text": "studio"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "hair-cutting salon",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe extract states: 'The make-up room had the look of a hair-cutting salon...'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Who became the head of the studio just after a Bengali?",
+          "options": [
+            {
+              "index": "a",
+              "text": "a Dharwar Kannadiga"
+            },
+            {
+              "index": "b",
+              "text": "a Christian"
+            },
+            {
+              "index": "c",
+              "text": "a Maharashtrian"
+            },
+            {
+              "index": "d",
+              "text": "a Tamil"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "a Maharashtrian",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nAccording to the text, the Bengali head 'was succeeded by a Maharashtrian'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "Alongwith the usual local Tamils, the Maharashtrian was assisted by",
+          "options": [
+            {
+              "index": "a",
+              "text": "two persons"
+            },
+            {
+              "index": "b",
+              "text": "three persons"
+            },
+            {
+              "index": "c",
+              "text": "four persons"
+            },
+            {
+              "index": "d",
+              "text": "five persons"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "four persons",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe Maharashtrian was assisted by: (1) a Dharwar Kannadiga, (2) an Andhra, (3) a Madras Indian Christian, and (4) an Anglo-Burmese, totaling four persons besides the local Tamils.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Find a word from the extract that means very shiny.",
+          "options": [
+            {
+              "index": "a",
+              "text": "mirror"
+            },
+            {
+              "index": "b",
+              "text": "incandescent"
+            },
+            {
+              "index": "c",
+              "text": "misery"
+            },
+            {
+              "index": "d",
+              "text": "succeed"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "incandescent",
+          "explanation": "Correct Option: (b)\n\nExplanation:\n'Incandescent' refers to emitting light as a result of being heated, meaning glowing or very bright/shiny.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "From which lesson this extract has been taken?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Poets and Pancakes"
+            },
+            {
+              "index": "b",
+              "text": "Indigo"
+            },
+            {
+              "index": "c",
+              "text": "Going Places"
+            },
+            {
+              "index": "d",
+              "text": "The Interview"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Poets and Pancakes",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThis extract is taken from Asokamitran's chapter 'Poets and Pancakes' describing the Gemini Studios.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "9(A)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the following extract carefully and answer the questions that follow it :",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2025",
+      "passage": "Aunt Jennifer's tigers prance across a screen,\nBright topaz denizens of a world of green.\nThey do not fear the men beneath the tree;\nThey pace in sleek chivalric certainty.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The word in the extract that means to jump is",
+          "options": [
+            {
+              "index": "a",
+              "text": "denizens"
+            },
+            {
+              "index": "b",
+              "text": "prance"
+            },
+            {
+              "index": "c",
+              "text": "beneath"
+            },
+            {
+              "index": "d",
+              "text": "chivalric"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "prance",
+          "explanation": "Correct Option: (b)\n\nExplanation:\n'Prance' means to move with high springy steps or jump enthusiastically.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "The poet who wrote these lines is",
+          "options": [
+            {
+              "index": "a",
+              "text": "Adrienne Rich"
+            },
+            {
+              "index": "b",
+              "text": "Kamala Das"
+            },
+            {
+              "index": "c",
+              "text": "Robert Frost"
+            },
+            {
+              "index": "d",
+              "text": "Pablo Neruda"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Adrienne Rich",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe poem 'Aunt Jennifer's Tigers' was composed by Adrienne Rich.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "The tigers run in the green fields",
+          "options": [
+            {
+              "index": "a",
+              "text": "cowardly"
+            },
+            {
+              "index": "b",
+              "text": "slowly"
+            },
+            {
+              "index": "c",
+              "text": "bravely"
+            },
+            {
+              "index": "d",
+              "text": "sadly"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "bravely",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe words 'do not fear' and 'chivalric certainty' illustrate that the tigers move boldly and bravely.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "9(B)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×4=4",
+      "word_limit": null,
+      "text": "Read the following extract carefully and answer the questions given below it:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board 2025",
+      "passage": "Dr. Sadao Hoki's house was built on a spot of the Japanese coast where as a little boy he had often played. The low, square stone house was set upon rocks well above a narrow beach that was outlined with bent pines. As a boy Sadao had climbed the pines, supporting himself on his barefeet, as he had seen men do in the South Seas when they climbed for coconuts.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Dr. Sadao Hoki's house was built",
+          "options": [
+            {
+              "index": "a",
+              "text": "in plains"
+            },
+            {
+              "index": "b",
+              "text": "near a coast"
+            },
+            {
+              "index": "c",
+              "text": "at the top of a hill"
+            },
+            {
+              "index": "d",
+              "text": "in the forest"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "near a coast",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe extract mentions that his house was built 'on a spot of the Japanese coast'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "_____ trees outlined Dr. Sadao Hoki's house.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Pine"
+            },
+            {
+              "index": "b",
+              "text": "Coconut"
+            },
+            {
+              "index": "c",
+              "text": "Apple"
+            },
+            {
+              "index": "d",
+              "text": "Guava"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Pine",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe passage states that the beach was 'outlined with bent pines'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "The antonym of the word narrow is",
+          "options": [
+            {
+              "index": "a",
+              "text": "tight"
+            },
+            {
+              "index": "b",
+              "text": "heavy"
+            },
+            {
+              "index": "c",
+              "text": "broad"
+            },
+            {
+              "index": "d",
+              "text": "sweet"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "broad",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe antonym of 'narrow' is 'broad' or 'wide'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "This extract has been taken from the lesson",
+          "options": [
+            {
+              "index": "a",
+              "text": "The Enemy"
+            },
+            {
+              "index": "b",
+              "text": "The Third Level"
+            },
+            {
+              "index": "c",
+              "text": "Memories of Childhood"
+            },
+            {
+              "index": "d",
+              "text": "The Tiger King"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "The Enemy",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThis excerpt introduces Dr. Sadao Hoki from Pearl S. Buck's story 'The Enemy'.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×5=10",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words : (attempt any five)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What did Franz notice that was unusual about the school that day?",
+          "explanation": "Franz noticed that the school was as quiet as a Sunday morning. There was no noise of opening and closing desks or lessons repeated in unison, and village elders were sitting quietly on the back benches."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Mention the hazards of working in the glass bangles industry?",
+          "explanation": "Workers in glass bangle industries work in dingy cells without adequate light and ventilation near high-temperature furnaces. The polishing glass dust frequently blinds them, and extreme heat severely damages their health."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why was the Crofter so talkative and friendly with the peddler?",
+          "explanation": "The crofter was an old man without a wife or child. Living in lonely isolation, he was happy and eager to have someone to converse with to overcome his loneliness."
+        },
+        {
+          "q_id": "iv",
+          "statement": "How did the instructor 'build a swimmer' out of Douglas?",
+          "explanation": "The instructor trained Douglas step-by-step: first teaching him to breathe underwater and kick his legs using a belt and rope pulley system, and then integrating each piece into a complete swimmer."
+        },
+        {
+          "q_id": "v",
+          "statement": "What does V. S. Naipaul say about an interview?",
+          "explanation": "V. S. Naipaul feels that an interview causes people wounds and makes them lose a part of themselves, viewing it as an unwarranted assault on one's private individuality."
+        },
+        {
+          "q_id": "vi",
+          "statement": "What were the options that Sophie was dreaming of?",
+          "explanation": "Sophie dreamed of opening the most boutique shop in town, becoming an actress, or taking up fashion designing, despite her family's meager financial reality."
+        },
+        {
+          "q_id": "vii",
+          "statement": "When did the ironmaster realize his mistake?",
+          "explanation": "The ironmaster realized his mistake the following morning in broad daylight when the peddler was washed, groomed, and dressed in clean clothes, revealing he was not his old regimental comrade."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×3=6",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words each: (attempt any three)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why are the young trees described as 'sprinting' in the poem 'My Mother at Sixty Six'?",
+          "explanation": "The young sprinted trees symbolize vibrant youth, rapid passage of time, and active life, which starkly contrast with the decaying, pale, and corpse-like appearance of the poet's aging mother."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What can the Earth teach us Answer in light of the poem 'Keeping Quiet'?",
+          "explanation": "The Earth teaches us that there is life under apparent stillness. In winter, everything appears dead, but later springs back to active life, demonstrating that quiet reflection fosters rebirth."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What makes human beings love life in spite of troubles and sufferings?",
+          "explanation": "According to John Keats in 'A Thing of Beauty', some shape of beauty moves away the pall of gloom from our dark spirits, binding human beings to the lovely Earth despite grief and sorrow."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What was the plea of the folk who had put up the roadside stand?",
+          "explanation": "The rural folk pleaded for city dwellers to halt their cars and buy farm produce, hoping to earn a little city money to improve their standard of living."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "word_limit": "30 words",
+      "text": "Answer any two of the following questions in about 30 words each:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Do you think that the third level was a medium of escape for Charley? Why?",
+          "explanation": "Yes, the third level was Charley's psychological escape from the stress, insecurity, fear, and modern-day anxieties of life into the peaceful, romantic world of Galesburg in 1894."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What did the Maharaja do to find the required number of tigers to kill?",
+          "explanation": "When tigers became extinct in his state, the Maharaja married a princess from a kingdom that possessed a large tiger population so that he could hunt the remaining tigers required to reach one hundred."
+        },
+        {
+          "q_id": "iii",
+          "statement": "How do geological phenomena help us to know about the history of humankind?",
+          "explanation": "Geological formations like Antarctica preserve half-million-year-old carbon records in ice cores, helping scientists understand how continents split, climate patterns shifted, and human evolution unfolded."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×2=6",
+      "word_limit": "75 words",
+      "text": "Answer any two of the following questions in about 75 words each:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did Franz's feelings about M. Hamel and school change?",
+          "explanation": "Franz had previously dreaded going to school, fearing M. Hamel's iron ruler and having to recite participles. However, upon learning that it was M. Hamel's last French lesson due to the Prussian order, Franz's attitude changed completely. His grammar books suddenly seemed like old friends he could not bear to give up. He developed profound sympathy and deep respect for M. Hamel, forgetting his cranky nature in admiration for his four decades of dedicated service."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What made the peddler think that he had indeed fallen into a rat-trap?",
+          "explanation": "After stealing the thirty kronor from the generous crofter, the peddler avoided the public highway and walked through the forest. As night fell, he realized he had been walking in circles within the same confusing labyrinth of trees, branches, and thickets. He recognized that the thirty kronor was the bait he had taken, and the dense forest had trapped him like an inescapable rat-trap from which he could never emerge."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why did Gandhiji agree to a settlement of 25 percent refund to the farmers?",
+          "explanation": "Gandhiji agreed to a 25 percent refund because the amount of money was less significant than the moral victory. By offering the refund, the British landlords were forced to surrender a part of their prestige along with the money. It shattered their myth of unquestioned authority, taught the Indian peasants that they had lawful rights, and infused them with the courage to resist colonial exploitation."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75 words",
+      "text": "Answer any one of the following questions in about 75 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is suggested by the image 'massive weight of Uncle's Wedding band'?",
+          "explanation": "The phrase 'massive weight of Uncle's Wedding band' symbolizes the oppressive and burdensome nature of Aunt Jennifer's troubled marriage. Although the wedding ring itself is physically light, the marital bond carries unbearable patriarchal domination, social constraints, and emotional trauma. It signifies that she has been subjugated by the responsibilities of domestic life, losing her individual freedom, artistic autonomy, and peace of mind under male dominance."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Write the central idea of the poem 'My Mother at Sixty Six'.",
+          "explanation": "The central idea of 'My Mother at Sixty Six' by Kamala Das revolves around the painful reality of aging, mortality, and the complex bond between an aging mother and her daughter. Observing her mother's pale, corpse-like face while travelling, the poet experiences an acute ache of impending loss and separation. The poem portrays how youth contrasts with old age and concludes with the universal emotional paradox of human attachment masked behind a reassuring smile."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75 words",
+      "text": "Answer any one of the following questions in about 75 words :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the character sketch of Mr. Lamb.",
+          "explanation": "Mr. Lamb is an elderly gentleman with a tin leg, who lives in a large house with an open garden. Despite his physical handicap and children teasing him as 'Lamey-Lamb', he possesses an optimistic and warm personality. He never shuts his gates and welcomes everyone. Mr. Lamb believes in accepting life with all its imperfections, finding beauty in weeds, and enjoying the humming sound of bees. His patient and non-judgmental guidance helps Derry shed his bitter isolation and rediscover confidence in humanity."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Write the character sketch of Derry.",
+          "explanation": "Derry is a fourteen-year-old boy suffering from severe introversion and an inferiority complex caused by one side of his face being burnt by acid. Pained by the insensitive stares and pitying comments of strangers, he isolates himself and develops an abrasive and bitter attitude towards people. However, deep down, Derry craves authentic affection and companionship. His encounter with the cheerful and philosophical Mr. Lamb serves as a turning point, guiding him to overcome self-pity and look at the world with renewed hope."
+        }
+      ]
+    }
+  ]
+}
