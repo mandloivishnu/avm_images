@@ -793,7 +793,7 @@
           "statement": "वर्ण विक्षेपण किसे कहते हैं? चित्र द्वारा समझाइए।",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/varn_vipekchan_19a.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/varn_vipekchan_19a.png",
           "explanation": "उत्तर:\n(1) परिभाषा: जब सूर्य का श्वेत प्रकाश काँच के प्रिज्म से होकर गुजरता है, तो वह अपवर्तन के पश्चात अपने सात विभिन्न अवयवी रंगों (बैंगनी, जामुनी, नीला, हरा, पीला, नारंगी, लाल - VIBGYOR) की पट्टी में विभाजित हो जाता है। इस परिघटना को 'वर्ण विक्षेपण' कहते हैं।\n\n(2) कारण: काँच के माध्यम में विभिन्न रंगों के प्रकाश की चाल व तरंगदैर्ध्य भिन्न होती है, जिससे उनका झुकाव (विचलन कोण) अलग-अलग होता है।\n\n[चित्र: दी गई imgUrl के अनुसार श्वेत प्रकाश, प्रिज्म तथा सात रंगों की पट्टी स्पेक्ट्रम का नामांकित रेखाचित्र बनाएँ।]"
         }
       ],
@@ -805,7 +805,7 @@
             "statement": "स्वच्छ आकाश का रंग नीला क्यों दिखाई देता है?",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/swacha_akash_ka_rang_nila.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/swacha_akash_ka_rang_nila.png",
             "explanation": "उत्तर:\nकारण:\nसूर्य का प्रकाश जब पृथ्वी के वायुमंडल से होकर गुजरता है, तो वायुमंडल में उपस्थित सूक्ष्म कण (गैस के अणु व धूल कण) दृश्य प्रकाश के तरंगदैर्ध्य की तुलना में छोटे होते हैं।\n\nरैले के नियमानुसार, कम तरंगदैर्ध्य वाले नीले व जामुनी प्रकाश का प्रकीर्णन (फैलना) लंबे तरंगदैर्ध्य वाले लाल प्रकाश की तुलना में अत्यधिक (लगभग 16 गुना) प्रबलता से होता है। यह प्रकीर्णित नीला प्रकाश चारों ओर बिखर जाता है और हमारी आँखों तक पहुँचता है, जिससे आकाश नीला दिखाई देता है।\n\n[चित्र: उत्तर पुस्तिका में छवि के अनुसार प्रकीर्णन दर्शाने वाला आरेख बनाएँ।]"
           }
         ]
@@ -893,7 +893,7 @@
           "statement": "मानव पाचन तंत्र का स्वच्छ एवं नामांकित चित्र बनाइए।",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_pachan_tantra.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/manav_pachan_tantra.png",
           "explanation": "उत्तर:\nमानव पाचन तंत्र के प्रमुख नामांकित भाग:\n1. मुख व ग्रसिका (Oesophagus)\n2. आमाशय (Stomach)\n3. यकृत (Liver) व पित्ताशय\n4. अग्न्याशय (Pancreas)\n5. क्षुद्रांत्र (छोटी आँत) व बृहदांत्र (बड़ी आँत)\n\n[चित्र: दी गई छवि (imgUrl) के अनुसार मानव पाचन तंत्र का स्वच्छ व नामांकित चित्र बनाएँ।]"
         }
       ],
@@ -905,7 +905,7 @@
             "statement": "मानव हृदय का स्वच्छ एवं नामांकित चित्र बनाइए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/hraday.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/hraday.png",
             "explanation": "उत्तर:\nमानव हृदय की संरचना के प्रमुख नामांकित भाग:\n1. दायाँ आलिंद व दायाँ निलय\n2. बायाँ आलिंद व बायाँ निलय\n3. महाधमनी (Aorta) व महाशिरा (Vena Cava)\n4. विभाजन पट (Septum)\n\n[चित्र: दी गई छवि (imgUrl) के अनुसार मानव हृदय की काट का स्वच्छ व नामांकित चित्र बनाएँ।]"
           }
         ]

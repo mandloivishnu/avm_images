@@ -582,7 +582,7 @@
           {
             "q_id": "",
             "statement": "In the figure, if OA / OB = OC / OD, show that ∠A = ∠C and ∠B = ∠D.",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_math_12_01.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2025_math_12_01.PNG",
             "correct_answer": "",
             "explanation": "Proof:\nGiven: OA / OB = OC / OD\nRearranging terms: OA / OC = OB / OD  ----(1)\n\nFrom the figure, vertically opposite angles formed by intersecting lines are equal:\n∠AOD = ∠COB  ----(2)\n\nFrom equations (1) and (2), by SAS similarity criterion:\n△AOD ∼ △COB\n\nSince corresponding angles of similar triangles are equal:\nTherefore, ∠A = ∠C and ∠D = ∠B (or ∠B = ∠D).\n\nHence proved."
           }
@@ -776,7 +776,7 @@
           {
             "q_id": "",
             "statement": "A juice seller was serving his customers using glasses. The inner diameter of the cylindrical glass was 5 cm, but the bottom of the glass had a hemispherical raised portion which reduced the capacity of the glass. If the height of a glass was 10 cm, find the apparent and actual capacity of the glass. (Use π = 3.14)",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_math_20.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2025_math_20.PNG",
             "correct_answer": "",
             "explanation": "Solution:\nDiameter of glass = 5 cm ⇒ radius (r) = 2.5 cm\nHeight of cylindrical glass (h) = 10 cm\n\n1. Apparent capacity of glass = Volume of cylinder\n= πr²h\n= 3.14 × (2.5)² × 10\n= 3.14 × 6.25 × 10\n= 196.25 cm³\n\n2. Volume of hemispherical raised portion at the bottom = (2/3)πr³\n= (2/3) × 3.14 × (2.5)³\n= (2/3) × 3.14 × 15.625\n= 32.71 cm³\n\n3. Actual capacity of glass = Volume of cylinder − Volume of hemisphere\n= 196.25 − 32.71\n= 163.54 cm³\n\nAnswer: The apparent capacity of the glass is 196.25 cm³ and the actual capacity is 163.54 cm³."
           }

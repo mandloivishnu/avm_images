@@ -747,7 +747,7 @@
           {
             "q_id": "",
             "statement": "Write the names of the following compounds:",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_science_18.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2025_science_18.png",
             "correct_answer": "",
             "explanation": "Answer:\nIUPAC (and common) names of the given structural formulas:\n\n(i) H–C(=O)–H:\n   - Functional group: Aldehyde (–CHO)\n   - IUPAC name: Methanal\n   - (Common name: Formaldehyde)\n\n(ii) CH₃–CH₂–OH (H₃C–CH₂–OH):\n   - Functional group: Alcohol (–OH)\n   - IUPAC name: Ethanol\n   - (Common name: Ethyl alcohol)\n\n(iii) H–C≡C–H:\n   - Functional group: Alkyne (Triple bond ≡)\n   - IUPAC name: Ethyne\n   - (Common name: Acetylene)"
           }
@@ -850,7 +850,7 @@
           "statement": "Describe the structure and function of a nephron. (With diagram)",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/nefran.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/nefran.png",
           "explanation": "Answer:\n(1) Introduction to Nephron:\nNephron is the basic structural and functional excretory unit of the kidney. Each human kidney contains about 1-1.2 million nephrons.\n\n(2) Structure of Nephron:\n- Bowman's Capsule and Glomerulus: A cup-shaped upper end enclosing a cluster of capillaries (glomerulus) that filters blood.\n- Renal Tubule: A long coiled tube attached to the Bowman's capsule (consisting of proximal convoluted tubule, Loop of Henle, and distal convoluted tubule).\n- Collecting Duct: Where the filtered urine is collected and passed on to the ureter.\n\n(3) Major Functions of Nephron:\n1. Filtration: Blood is filtered under high pressure in the glomerulus, allowing water, glucose, salts, and urea to enter the Bowman's capsule.\n2. Selective Reabsorption: As the filtrate flows along the tubule, useful substances like glucose, amino acids, and required water are reabsorbed back into the blood capillaries.\n3. Secretion / Excretion: Waste products like excess water, urea, and salts are left behind to form urine, which is excreted.\n\n[Diagram: Draw a neat and labeled diagram of a nephron according to the given imgUrl.]"
         }
       ],
@@ -878,7 +878,7 @@
           "statement": "Draw ray diagrams for the image formation by a concave mirror when the object is placed at :\n(i) Focus (F)\n(ii) Centre of curvature (C)",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/avtal_darpan.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/avtal_darpan.png",
           "explanation": "Answer:\nDescription and ray diagrams for image formation by a concave mirror:\n\n(i) When the object is placed at the principal focus (F):\n- Position of image: At infinity.\n- Size of image: Highly enlarged (infinitely large).\n- Nature of image: Real and inverted.\n- Ray diagram details: Rays originating from the object parallel to the principal axis and through the center of curvature reflect and become parallel, meeting at infinity.\n\n(ii) When the object is placed at the centre of curvature (C):\n- Position of image: At the centre of curvature (C).\n- Size of image: Same size as the object.\n- Nature of image: Real and inverted.\n- Ray diagram details: A ray parallel to the principal axis passes through focus after reflection, and a ray passing through focus goes parallel, forming an inverted image of the same size right below C.\n\n[Diagram: Draw clear ray diagrams for both positions in the answer sheet according to the image (imgUrl).]"
         }
       ],
@@ -890,7 +890,7 @@
             "statement": "Define refraction along with its two laws. Write one use of a concave mirror.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/apavartan_kiran.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/apavartan_kiran.png",
             "explanation": "Answer:\n(1) Refraction of Light:\nWhen a ray of light travels obliquely from one transparent medium to another transparent medium, its direction of propagation changes at the boundary separating the two media. This phenomenon is called refraction of light.\n\n(2) Two Laws of Refraction:\n1. First Law: The incident ray, the refracted ray, and the normal to the interface of two transparent media at the point of incidence, all lie in the same plane.\n2. Second Law (Snell's Law): The ratio of the sine of the angle of incidence (sin i) to the sine of the angle of refraction (sin r) is a constant for the light of a given color and for the given pair of media.\n   (sin i / sin r = constant / μ)\n\n(3) Use of a Concave Mirror:\nConcave mirrors are commonly used in torches, searchlights, and vehicle headlights to get powerful parallel beams of light (or as shaving mirrors / by dentists to see large images of teeth).\n\n[Diagram: Draw a ray diagram showing refraction of light in the answer."
           }
         ]

@@ -533,7 +533,7 @@
         {
           "q_id": "",
           "statement": "दिए गए ग्राफ के आधार पर शून्यों की संख्या ज्ञात कीजिए।",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_math_10_hi.PNG",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2023_math_10_hi.PNG",
           "correct_answer": "",
           "explanation": "हल:\nकिसी बहुपद y = P(x) के ग्राफ में शून्यों की संख्या वह बिंदु होती है जहाँ वक्र x-अक्ष को प्रतिच्छेद करता है।\nदिए गए ग्राफ में वक्र x-अक्ष को कुल 3 बिंदुओं पर काटता है।\n\nउत्तर: शून्यों की संख्या 3 है।"
         }
@@ -872,7 +872,7 @@
         {
           "q_id": "",
           "statement": "निम्नलिखित सारणी 35 नगरों की साक्षरता दर (प्रतिशत में) दर्शाती है। माध्य साक्षरता दर ज्ञात कीजिए।",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_mpbse_10_math_23.PNG",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2023_mpbse_10_math_23.PNG",
           "correct_answer": "",
           "explanation": "हल:\nप्रत्यक्ष विधि से माध्य की सारणी:\n\nवर्ग अंतराल | बारंबारता (fᵢ) | वर्ग चिह्न (xᵢ) | fᵢxᵢ\n45 - 55      | 3             | 50             | 150\n55 - 65      | 10            | 60             | 600\n65 - 75      | 11            | 70             | 770\n75 - 85      | 8             | 80             | 640\n85 - 95      | 3             | 90             | 270\n\nयोग: Σfᵢ = 35, Σfᵢxᵢ = 2430\n\nमाध्य (x̄) = Σfᵢxᵢ / Σfᵢ = 2430 / 35 = 69.428... ≈ 69.43 %\n\nउत्तर: माध्य साक्षरता दर 69.43% है।"
         }
@@ -883,7 +883,7 @@
           {
             "q_id": "",
             "statement": "निम्नलिखित सारणी 225 विद्युत उपकरणों के प्रेक्षित जीवन काल (घंटों में) की सूचना देती है। उपकरणों का बहुलक जीवन काल ज्ञात कीजिए।",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_mpbse_10_math_23_01.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2023_mpbse_10_math_23_01.PNG",
             "correct_answer": "",
             "explanation": "हल:\nअधिकतम बारंबारता 61 है, अतः बहुलक वर्ग = 60 – 80\n\nयहाँ:\nl = 60, h = 20, f₁ = 61, f₀ = 52, f₂ = 38\n\nबहुलक का सूत्र:\nबहुलक = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n= 60 + [ (61 − 52) / (2(61) − 52 − 38) ] × 20\n= 60 + [ 9 / (122 − 90) ] × 20\n= 60 + (9 / 32) × 20\n= 60 + (45 / 8)\n= 60 + 5.625 = 65.625 घंटे\n\nउत्तर: उपकरणों का बहुलक जीवन काल 65.63 घंटे है।"
           }

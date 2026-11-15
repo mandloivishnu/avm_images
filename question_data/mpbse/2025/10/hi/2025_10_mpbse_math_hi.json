@@ -494,7 +494,7 @@
           "q_id": "",
           "statement": "किसी बहुपद P(x) के लिए y = P(x) का ग्राफ नीचे दिया है। इस स्थिति में P(x) के शून्यों की संख्या ज्ञात कीजिए।",
           "correct_answer": "",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_math_08.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2025_math_08.png",
           "explanation": "हल:\nकिसी बहुपद y = P(x) के शून्यों की संख्या x-अक्ष पर आलेख (ग्राफ) के प्रतिच्छेदन या स्पर्श बिंदुओं की संख्या के बराबर होती है।\n\nदिए गए आरेख में वक्र (ग्राफ) x-अक्ष को कुल **3 बिंदुओं** पर प्रतिच्छेद करता है।\n\nउत्तर: P(x) के शून्यों की संख्या = 3"
         }
       ],
@@ -608,7 +608,7 @@
           {
             "q_id": "",
             "statement": "आकृति में यदि OA : OB = OC : OD हो, तो सिद्ध कीजिए कि ∠A = ∠C तथा ∠B = ∠D।",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_math_12_01.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2025_math_12_01.PNG",
             "correct_answer": "",
             "explanation": "उपपत्ति:\nदिया है: OA / OB = OC / OD\nइसे इस प्रकार लिख सकते हैं: OA / OC = OB / OD  ----(1)\n\nचित्रानुसार, प्रतिच्छेदी रेखाओं से निर्मित शीर्षाभिमुख कोण बराबर होते हैं:\n∠AOD = ∠COB  ----(2)\n\nसमीकरण (1) और (2) से, भु-को-भु (SAS) समरूपता कसौटी द्वारा:\n△AOD ∼ △COB\n\nचूँकि समरूप त्रिभुजों के संगत कोण समान होते हैं:\nअतः ∠A = ∠C तथा ∠D = ∠B (या ∠B = ∠D)।\n\nइति सिद्धम्।"
           }
@@ -817,7 +817,7 @@
           {
             "q_id": "",
             "statement": "एक जूस विक्रेता के गिलास का आंतरिक व्यास 5 सेमी है तथा तल पर अर्धगोलीय उभार (अवकाश) है। गिलास की ऊँचाई 10 सेमी है। गिलास की आभासी (प्रत्यक्ष) तथा वास्तविक धारिता ज्ञात कीजिए। (π = 3.14)",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2025_math_20.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2025_math_20.PNG",
             "correct_answer": "",
             "explanation": "हल:\nगिलास का व्यास = 5 cm ⇒ त्रिज्या (r) = 2.5 cm\nगिलास की बेलनाकार ऊँचाई (h) = 10 cm\n\n1. गिलास की आभासी (प्रत्यक्ष) धारिता = बेलन का आयतन\n= πr²h\n= 3.14 × (2.5)² × 10\n= 3.14 × 6.25 × 10\n= 196.25 cm³\n\n2. तली के अर्धगोले का आयतन = (2/3)πr³\n= (2/3) × 3.14 × (2.5)³\n= (2/3) × 3.14 × 15.625\n= 32.71 cm³\n\n3. गिलास की वास्तविक धारिता = बेलन का आयतन − अर्धगोले का आयतन\n= 196.25 − 32.71\n= 163.54 cm³\n\nउत्तर: गिलास की आभासी धारिता 196.25 cm³ तथा वास्तविक धारिता 163.54 cm³ है।"
           }

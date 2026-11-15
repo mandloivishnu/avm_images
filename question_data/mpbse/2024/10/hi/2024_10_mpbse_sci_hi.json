@@ -615,7 +615,7 @@
             "statement": "आनुवंशिकता की प्रथम पीढ़ी (F₁) का रेखा चित्र बनाइए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/aanuvanshikta.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/aanuvanshikta.png",
             "explanation": "उत्तर:\nमेंडल का एकसंकर संकरण (F₁ पीढ़ी का आरेख):\n\nजनक पीढ़ी (P):        शुद्ध लंबा (TT)   ×   शुद्ध बौना (tt)\nयुग्मक:                    (T)                (t)\n                           └───────┬──────────┘\nF₁ पीढ़ी (संतति):                  Tt  (सभी संकर लंबे पौधे)\n\n[उत्तर पुस्तिका में दी गई imgUrl के अनुसार चित्र/आरेख बनाएँ।]"
           }
         ]
@@ -799,7 +799,7 @@
           "statement": "तंत्रिका कोशिका का चित्र बनाइए तथा किसी कोशिका के दो कोशिकांगों के नाम लिखिए।",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/tantrika_koshika.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/tantrika_koshika.png",
           "explanation": "उत्तर:\n(1) तंत्रिका कोशिका (न्यूरॉन) का चित्र:\n[दिए गए imgUrl के अनुसार कोशिकाकाय, द्रुमिका, केंद्रक, अक्षतंतु एवं तंत्रिका अंत दर्शाते हुए नामांकित चित्र बनाएँ।]\n\n(2) कोशिका के दो कोशिकांगों के नाम:\n1. माइटोकॉन्ड्रिया (Mitochondria) - कोशिका का पावरहाउस\n2. राइबोसोम (Ribosome) - प्रोटीन निर्माण का केंद्र"
         }
       ],
@@ -811,7 +811,7 @@
             "statement": "प्रतिवर्ती चाप का चित्र बनाइए तथा उसके दो भागों के नाम लिखिए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/prativarti_chap.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/prativarti_chap.png",
             "explanation": "उत्तर:\n(1) प्रतिवर्ती चाप का प्रवाह/चित्र:\nउद्दीपन ⟶ ग्राही (त्वचा) ⟶ संवेदी न्यूरॉन ⟶ मेरुरज्जु (Spinal Cord) ⟶ प्रेरक न्यूरॉन ⟶ कार्यसाधक पेशी ⟶ अनुक्रिया\n\n(2) प्रतिवर्ती चाप के दो प्रमुख भागों के नाम:\n1. संवेदी तंत्रिका कोशिका (Sensory Neuron)\n2. प्रेरक तंत्रिका कोशिका (Motor Neuron)"
           }
         ]
@@ -829,7 +829,7 @@
           "statement": "दक्षिण हस्त अंगूठा नियम (मैक्सवेल का कॉर्कस्क्रू नियम) रेखाचित्र सहित लिखिए।",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/right_hand_thumbrule.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/right_hand_thumbrule.png",
           "explanation": "उत्तर:\n(1) नियम कथन:\nअपने दाहिने हाथ में विद्युत धारावाही चालक को इस प्रकार पकड़ें कि अंगूठा धारा की दिशा में संकेत करता हो, तो चालक को लपेटने वाली उँगलियों की दिशा चुंबकीय क्षेत्र की बल रेखाओं की दिशा को दर्शाएगी।\n\n(2) रेखाचित्र:\n[उत्तर में चालक, धारा की दिशा I तथा मुड़ी हुई उँगलियों द्वारा चुंबकीय क्षेत्र B का रेखाचित्र बनाएँ।]"
         }
       ],
@@ -841,7 +841,7 @@
             "statement": "फ्लेमिंग का बायाँ हाथ नियम रेखाचित्र सहित लिखिए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/left_hand_thumbrule.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/left_hand_thumbrule.png",
             "explanation": "उत्तर:\n(1) नियम कथन:\nबाएँ हाथ की तर्जनी, मध्यमा तथा अंगूठे को इस प्रकार फैलाएँ कि तीनों परस्पर लंबवत हों। यदि तर्जनी चुंबकीय क्षेत्र की दिशा तथा मध्यमा विद्युत धारा की दिशा दर्शाती है, तो अंगूठा चालक पर लगने वाले यांत्रिक बल की दिशा दर्शाएगा।\n\n(2) रेखाचित्र:\n[उत्तर में तर्जनी (क्षेत्र), मध्यमा (धारा) तथा अंगूठा (बल) दर्शाने वाला चित्र बनाएँ।]"
           }
         ]
@@ -885,7 +885,7 @@
           "statement": "खुले एवं बंद रंध्र का नामांकित चित्र बनाइए।",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/khule_band_randhra.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/khule_band_randhra.png",
           "explanation": "उत्तर:\n(1) खुले रंध्र (Open Stoma) का चित्र व विवरण:\nजब रक्षक कोशिकाओं में जल भरता है, तो वे स्फीत (फूल) जाती हैं और रंध्र छिद्र खुल जाता है।\n\n(2) बंद रंध्र (Closed Stoma) का चित्र व विवरण:\nजब रक्षक कोशिकाओं से जल बाहर निकलता है, तो वे शिथिल होकर सिकुड़ जाती हैं और छिद्र बंद हो जाता है।\n\n[चित्र: उत्तर पुस्तिका में छवि के अनुसार रक्षक कोशिकाएं, हरित लवक तथा रंध्र छिद्र दर्शाते हुए चित्र बनाएँ।]"
         }
       ],
@@ -897,7 +897,7 @@
             "statement": "मानव में उत्सर्जन तंत्र का नामांकित चित्र बनाइए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_utsarjan_tantra.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/manav_utsarjan_tantra.png",
             "explanation": "उत्तर:\nमानव उत्सर्जन तंत्र के प्रमुख अंग:\n1. एक जोड़ा वृक्क (Kidneys)\n2. एक जोड़ा मूत्रवाहिनियाँ (Ureters)\n3. एक मूत्राशय (Urinary Bladder)\n4. एक मूत्रमार्ग (Urethra)\n\n[चित्र: दी गई छवि (imgUrl) के अनुसार वृक्क, महाशिरा, महाधमनी, मूत्रवाहिनी तथा मूत्राशय दर्शाते हुए नामांकित चित्र बनाएँ।]"
           }
         ]
@@ -915,7 +915,7 @@
           "statement": "उत्तल दर्पण से बनने वाले प्रतिबिंब का स्थान, प्रकृति एवं आकार ज्ञात कीजिए।",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/uttal_darpan.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/uttal_darpan.png",
           "explanation": "उत्तर:\nउत्तल दर्पण द्वारा प्रतिबिंब निर्माण का संपूर्ण विवरण:\n\n1. प्रतिबिंब की प्रकृति: सदैव आभासी एवं सीधा होता है।\n2. प्रतिबिंब का आकार: वस्तु के आकार से सदैव छोटा (या बिंदु आकार) होता है।\n3. प्रतिबिंब की स्थिति:\n   - जब वस्तु अनंत पर हो ⟶ प्रतिबिंब दर्पण के पीछे 'फोकस (F)' पर बनता है।\n   - जब वस्तु अनंत व ध्रुव के बीच हो ⟶ प्रतिबिंब दर्पण के पीछे 'ध्रुव (P) तथा फोकस (F)' के मध्य बनता है।\n\n[चित्र: दिए गए किरण आरेख के अनुसार चित्र बनाएँ।]"
         }
       ],
@@ -927,7 +927,7 @@
             "statement": "अवतल दर्पण के लिए प्रतिबिंब की प्रकृति एवं आकार ज्ञात कीजिए।",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/avtal_darpan.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/avtal_darpan.png",
             "explanation": "उत्तर:\nअवतल दर्पण में प्रतिबिंब की प्रकृति एवं आकार वस्तु की स्थिति पर निर्भर करते हैं:\n\n1. जब वस्तु फोकस (F) या उससे अधिक दूरी पर हो (C पर, C से परे, अनंत पर): - प्रकृति: वास्तविक एवं उल्टा।\n   - आकार: अत्यधिक छोटा (बिंदु रूप), छोटा, या बराबर (C पर)।\n\n2. जब वस्तु F और C के बीच हो: - प्रकृति: वास्तविक एवं उल्टा।\n   - आकार: वस्तु से बड़ा (आवर्धित)।\n\n3. जब वस्तु ध्रुव (P) तथा फोकस (F) के मध्य हो:\n   - प्रकृति: आभासी एवं सीधा।\n   - आकार: वस्तु से बहुत बड़ा (दर्पण के पीछे)।\n\n[चित्र: उत्तर पुस्तिका में किरण आरेख बनाएँ।]"
           }
         ]

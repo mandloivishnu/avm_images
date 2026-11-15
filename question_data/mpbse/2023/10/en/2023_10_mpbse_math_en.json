@@ -533,7 +533,7 @@
         {
           "q_id": "",
           "statement": "Find the number of zeroes based on the given graph.",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_math_10_hi.PNG",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2023_math_10_hi.PNG",
           "correct_answer": "",
           "explanation": "Solution:\nIn the graph of any polynomial y = P(x), the number of zeroes is the number of points where the curve intersects the x-axis.\nIn the given graph, the curve intersects the x-axis at a total of 3 points.\n\nAnswer: The number of zeroes is 3."
         }
@@ -872,7 +872,7 @@
         {
           "q_id": "",
           "statement": "The following table gives the literacy rate (in percentage) of 35 cities. Find the mean literacy rate.",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_mpbse_10_math_23.PNG",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2023_mpbse_10_math_23.PNG",
           "correct_answer": "",
           "explanation": "Solution:\nTable for mean by direct method:\n\nClass Interval | Frequency (fᵢ) | Class Mark (xᵢ) | fᵢxᵢ\n45 - 55        | 3              | 50              | 150\n55 - 65        | 10             | 60              | 600\n65 - 75        | 11             | 70              | 770\n75 - 85        | 8              | 80              | 640\n85 - 95        | 3              | 90              | 270\n\nSum: Σfᵢ = 35, Σfᵢxᵢ = 2430\n\nMean (x̄) = Σfᵢxᵢ / Σfᵢ = 2430 / 35 = 69.428... ≈ 69.43 %\n\nAnswer: The mean literacy rate is 69.43%."
         }
@@ -883,7 +883,7 @@
           {
             "q_id": "",
             "statement": "The following table gives the observed life times (in hours) of 225 electrical components. Determine the modal lifetimes of the components.",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_mpbse_10_math_23_01.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2023_mpbse_10_math_23_01.PNG",
             "correct_answer": "",
             "explanation": "Solution:\nMaximum frequency is 61, so modal class = 60 – 80\n\nHere:\nl = 60, h = 20, f₁ = 61, f₀ = 52, f₂ = 38\n\nFormula for mode:\nMode = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n= 60 + [ (61 − 52) / (2(61) − 52 − 38) ] × 20\n= 60 + [ 9 / (122 − 90) ] × 20\n= 60 + (9 / 32) × 20\n= 60 + (45 / 8)\n= 60 + 5.625 = 65.625 hours\n\nAnswer: The modal lifetime of the components is 65.63 hours."
           }

@@ -364,7 +364,7 @@
           "statement": "On the basis of the diagram given below, answer the following questions:\n(i) Which process is shown in the diagram?\n(ii) Which gamete transport is prevented by this process?",
           "correct_answer": "",
           "isAnswerImage": false,
-          "imgUrl": "",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C12_BIO_Q06_2026-27.png",
           "explanation": "\n(i) Process shown: Vasectomy (Male sterilization). It is a permanent surgical contraceptive method in males in which a small part of the vas deferens is removed or tied up through a small incision on the scrotum.\n\n(ii) Gamete transport prevented: This surgical procedure blocks the transport of male gametes, i.e., sperms, from the testes to the urethra, thereby preventing fertilization."
         }
       ],
@@ -471,7 +471,7 @@
           "statement": "Draw a well-labelled diagram of human sperm.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C12_BIO_Q13_2026-27.png",
           "explanation": "\n[Structure & Labelling Details of Human Sperm:]\nA microscopic human sperm is enveloped by a plasma membrane and consists of four distinct parts:\n1. Head: Contains an elongated haploid nucleus, and its anterior portion is covered by a cap-like structure called the acrosome, filled with enzymes that help in fertilization of the ovum.\n2. Neck: A short region connecting the head and middle piece.\n3. Middle piece: Possesses numerous mitochondria arranged spirally, which produce energy (ATP) for the movement of the tail.\n4. Tail: Facilitates sperm motility essential for fertilization."
         }
       ],
@@ -560,7 +560,7 @@
             "q_id": "",
             "statement": "Write three differences between a food chain and a food web.",
             "correct_answer": "",
-            "explanation": "\nThree main differences between a Food Chain and a Food Web are:\n\n| S.No. | Basis | Food Chain | Food Web |\n|---|---|---|---|\n| 1. | Structure | It is a simple, straight, single linear pathway of energy and nutrient transfer. | It is a complex network formed by the interconnection of multiple food chains. |\n| 2. | Feeding Options | Each organism occupies a fixed trophic level and depends on a single source of food. | Organisms have alternative food sources across different trophic levels. |\n| 3. | Ecosystem Stability | Removal of a single species disrupts the entire chain. | Increases the adaptability and overall stability of the ecosystem. |"
+            "explanation": "A Food Chain is a simple sequence of organisms through which food and energy pass from one organism to another. A Food Web is a network formed by the interconnection of several food chains.\n\nThe three main differences between a Food Chain and a Food Web are as follows:\n\n1. Structure:\nFood Chain: It is a simple, straight and linear sequence of organisms. Energy flows through a single pathway from one organism to another.\n\nFood Web: It is a complex network formed by the interconnection of many food chains. Energy flows through multiple pathways.\n\n2. Feeding Options:\nFood Chain: An organism generally depends on a specific food source for its energy.\n\nFood Web: An organism may have several alternative food sources and can depend on different organisms for food.\n\n3. Ecosystem Stability:\nFood Chain: If one organism disappears from the chain, it can disturb the feeding relationships of other organisms in the chain.\n\nFood Web: If one organism disappears, other available food sources may help organisms survive. Therefore, it provides greater stability to the ecosystem.\n\nConclusion:\nA Food Chain represents a single pathway of energy flow, whereas a Food Web represents multiple interconnected pathways. A food web generally makes an ecosystem more stable."
           }
         ]
       },
@@ -577,7 +577,7 @@
           "statement": "Draw a labelled diagram of a mature embryo sac of an angiosperm and write the role of synergids.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C12_BIO_Q17_2026-27.png",
           "explanation": "\n(1) Structure of Mature Embryo Sac (7-celled, 8-nucleate):\n• Chalazal end: Three antipodal cells.\n• Central region: A large central cell containing two polar nuclei.\n• Micropylar end: The egg apparatus consisting of one egg cell and two synergids with filiform apparatus.\n\n(2) Role of Synergids:\n1. Guidance of Pollen Tube: Synergids possess special cellular thickenings at the micropylar tip called the filiform apparatus, which secrete chemotropic substances to guide the entry of the pollen tube into the synergid.\n2. Absorption & Nutrition: They absorb nutrients from the surrounding nucellus and facilitate the release and movement of male gametes towards the egg cell and central cell for double fertilization."
         }
       ],

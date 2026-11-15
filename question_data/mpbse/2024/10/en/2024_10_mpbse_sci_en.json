@@ -507,7 +507,7 @@
             "statement": "Draw a line diagram of the first generation (F₁) of heredity.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/aanuvanshikta.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/aanuvanshikta.png",
             "explanation": "Answer:\nMendel's monohybrid cross (diagram of the F₁ generation):\n\nParent generation (P):        Pure tall (TT)   ×   Pure dwarf (tt)\nGametes:                    (T)                (t)\n                           └───────┬──────────┘\nF₁ generation (offspring):                  Tt  (all hybrid tall plants)\n\n[Draw the diagram according to the imgUrl given in the answer sheet.]"
           }
         ]
@@ -691,7 +691,7 @@
           "statement": "Draw a diagram of a nerve cell and write the names of two cell organelles.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/tantrika_koshika.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/tantrika_koshika.png",
           "explanation": "Answer:\n(1) Diagram of a nerve cell (neuron):\n[Draw a labeled diagram showing the cell body, dendrites, nucleus, axon, and nerve endings as per the given imgUrl.]\n\n(2) Names of two cell organelles:\n1. Mitochondria - the powerhouse of the cell\n2. Ribosome - the center of protein synthesis"
         }
       ],
@@ -703,7 +703,7 @@
             "statement": "Draw a diagram of a reflex arc and write the names of two of its parts.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/prativarti_chap.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/prativarti_chap.png",
             "explanation": "Answer:\n(1) Flow/diagram of a reflex arc:\nStimulus ⟶ Receptor (skin) ⟶ Sensory neuron ⟶ Spinal cord ⟶ Motor neuron ⟶ Effector muscle ⟶ Response\n\n(2) Names of two main parts of a reflex arc:\n1. Sensory neuron\n2. Motor neuron"
           }
         ]
@@ -721,7 +721,7 @@
           "statement": "Write the right-hand thumb rule (Maxwell's corkscrew rule) with a diagram.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/right_hand_thumbrule.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/right_hand_thumbrule.png",
           "explanation": "Answer:\n(1) Statement of the rule:\nHold the current-carrying conductor in your right hand such that the thumb points in the direction of the current; then the direction in which the fingers wrap around the conductor indicates the direction of the field lines of the magnetic field.\n\n(2) Diagram:\n[In the answer, draw a diagram showing the conductor, the direction of current I, and the magnetic field B indicated by the curled fingers.]"
         }
       ],
@@ -733,7 +733,7 @@
             "statement": "Write Fleming's left-hand rule with a diagram.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/left_hand_thumbrule.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/left_hand_thumbrule.png",
             "explanation": "Answer:\n(1) Statement of the rule:\nStretch out the forefinger, middle finger, and thumb of the left hand such that all three are mutually perpendicular. If the forefinger points in the direction of the magnetic field and the middle finger in the direction of the electric current, then the thumb points in the direction of the mechanical force acting on the conductor.\n\n(2) Diagram:\n[Draw a diagram in the answer showing the forefinger (field), middle finger (current), and thumb (force).]"
           }
         ]
@@ -777,7 +777,7 @@
           "statement": "Draw a labeled diagram of open and closed stomata.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/khule_band_randhra.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/khule_band_randhra.png",
           "explanation": "Answer:\n(1) Diagram and description of open stoma:\nWhen the guard cells fill with water, they become turgid (swell) and the stomatal pore opens.\n\n(2) Diagram and description of closed stoma:\nWhen water exits the guard cells, they become flaccid and shrink, and the pore closes.\n\n[Diagram: Draw a diagram showing the guard cells, chloroplasts, and stomatal pore as shown in the answer sheet image.]"
         }
       ],
@@ -789,7 +789,7 @@
             "statement": "Draw a labeled diagram of the human excretory system.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_utsarjan_tantra.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/manav_utsarjan_tantra.png",
             "explanation": "Answer:\nMain organs of the human excretory system:\n1. A pair of kidneys\n2. A pair of ureters\n3. A urinary bladder\n4. A urethra\n\n[Diagram: Draw a labeled diagram showing the kidneys, vena cava, aorta, ureter, and urinary bladder as per the given image (imgUrl).]"
           }
         ]
@@ -807,7 +807,7 @@
           "statement": "Find the position, nature, and size of the image formed by a convex mirror.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/uttal_darpan.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/uttal_darpan.png",
           "explanation": "Answer:\nComplete description of image formation by a convex mirror:\n\n1. Nature of image: Always virtual and erect.\n2. Size of image: Always smaller than the size of the object (or point-sized).\n3. Position of image:\n   - When the object is at infinity ⟶ the image forms at the 'focus (F)' behind the mirror.\n   - When the object is between infinity and the pole ⟶ the image forms between the 'pole (P) and focus (F)' behind the mirror.\n\n[Diagram: Draw as per the given ray diagram.]"
         }
       ],
@@ -819,7 +819,7 @@
             "statement": "Find the nature and size of the image for a concave mirror.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/avtal_darpan.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/avtal_darpan.png",
             "explanation": "Answer:\nIn a concave mirror, the nature and size of the image depend on the position of the object:\n\n1. When the object is at the focus (F) or farther (at C, beyond C, at infinity): - Nature: Real and inverted.\n   - Size: Highly diminished (point-sized), smaller, or equal (at C).\n\n2. When the object is between F and C: - Nature: Real and inverted.\n   - Size: Larger than the object (magnified).\n\n3. When the object is between the pole (P) and the focus (F):\n   - Nature: Virtual and erect.\n   - Size: Much larger than the object (behind the mirror).\n\n[Diagram: Draw the ray diagram in the answer sheet.]"
           }
         ]

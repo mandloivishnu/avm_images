@@ -625,6 +625,7 @@
           "q_id": "",
           "statement": "In the given figure, ABC and AMP are two right triangles, right angled at B and M respectively. Prove that ΔABC ~ ΔAMP.",
           "correct_answer": "",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C10_MATHS_Q17_2026-27.png",
           "explanation": "Solution:\nGiven:\nΔABC and ΔAMP are two right triangles such that ∠B = 90° and ∠M = 90°.\n\nTo Prove:\nΔABC ~ ΔAMP\n\nProof:\nIn ΔABC and ΔAMP:\n1. ∠ABC = ∠AMP = 90°   (Each is a right angle, given)\n2. ∠BAC = ∠MAP         (Common angle ∠A in both triangles)\n\nTherefore, by AA (Angle-Angle) similarity criterion:\nΔABC ~ ΔAMP\n\nHence Proved."
         }
       ]
@@ -770,6 +771,7 @@
           "q_id": "",
           "statement": "The following table gives the literacy rate (in percentage) of 30 cities. Find the mean literacy rate.\n\nLiteracy rate (in %) : 0-10 | 10-20 | 20-30 | 30-40 | 40-50\nNumber of cities     :   3  |   10  |   5   |   8   |   4",
           "correct_answer": "",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/C10_MATHS_Q22_2026-27_ENG.png",
           "explanation": "Solution:\nTable for calculating the mean by Direct Method:\n\nClass Interval (Literacy %) | Frequency (fᵢ) | Class Mark (xᵢ) | fᵢ × xᵢ\n------------------------------------------------------------------\n0 - 10                      |       3        |        5        | 15\n10 - 20                     |      10        |       15        | 150\n20 - 30                     |       5        |       25        | 125\n30 - 40                     |       8        |       35        | 280\n40 - 50                     |       4        |       45        | 180\n------------------------------------------------------------------\nTotal                       |   Σfᵢ = 30     |                 | Σfᵢxᵢ = 750\n\nFormula for Mean (x̄):\nx̄ = Σfᵢxᵢ / Σfᵢ\nx̄ = 750 / 30\nx̄ = 25 %\n\nAnswer: The mean literacy rate is 25%."
         }
       ],
@@ -780,6 +782,7 @@
             "q_id": "",
             "statement": "The distribution below gives the weights of 30 students of a class. Find the mode.\n\nWeight (in kg)     : 40-45 | 45-50 | 50-55 | 55-60 | 60-65 | 65-70 | 70-75\nNumber of students :   2   |   3   |   8   |   6   |   6   |   3   |   2",
             "correct_answer": "",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/C10_MATHS_Q22_OR_2026-27_ENG.png",
             "explanation": "Solution:\nIn the given distribution, the maximum frequency is 8, which lies in the class interval 50-55.\nTherefore, Modal Class = 50 - 55\n\nHere:\nLower limit of the modal class (l) = 50\nClass size (h) = 5\nFrequency of the modal class (f₁) = 8\nFrequency of the class preceding the modal class (f₀) = 3\nFrequency of the class succeeding the modal class (f₂) = 6\n\nFormula for Mode:\nMode = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n\nSubstituting the values:\nMode = 50 + [ (8 − 3) / (2(8) − 3 − 6) ] × 5\n= 50 + [ 5 / (16 − 9) ] × 5\n= 50 + [ 5 / 7 ] × 5\n= 50 + 25 / 7\n= 50 + 3.571...\n≈ 53.57 kg\n\nAnswer: The mode of the given data is 53.57 kg."
           }
         ]

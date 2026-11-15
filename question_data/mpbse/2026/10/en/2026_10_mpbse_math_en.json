@@ -626,7 +626,7 @@
             "q_id": "",
             "statement": "If tangents PA and PB from a point P to a circle with centre O are inclined to each other at an angle of 70°, then find ∠POQ.",
             "correct_answer": "",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_12_or.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/question_12_or.PNG",
             "explanation": "Solution:\nNote: Based on standard textbook nomenclature (NCERT Chapter 10 Ex 1.2 Q7), let tangents be PA and PB inclined at 70° (i.e., ∠APB = 70°). We need to find ∠AOB (or ∠POQ).\n\nIn quadrilateral PAOB:\nRadius is perpendicular to the tangent at the point of contact:\n∠OAP = 90°\n∠OBP = 90°\n\nSince the sum of all angles in a quadrilateral is 360°:\n∠AOB + ∠OAP + ∠APB + ∠OBP = 360°\n∠AOB + 90° + 70° + 90° = 360°\n∠AOB + 250° = 360°\n∠AOB = 360° − 250°\n∠AOB = 110°\n\nAnswer: ∠POQ (or ∠AOB) = 110°"
           }
         ]
@@ -702,7 +702,7 @@
           {
             "q_id": "",
             "statement": "In the figure, if DE ∥ BC, find EC. (AD = 1.5 cm, DB = 3 cm, AE = 1 cm)",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_15.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/question_15.png",
             "correct_answer": "",
             "explanation": "Solution:\nIn triangle ABC, it is given that DE ∥ BC.\nGiven measurements: AD = 1.5 cm, DB = 3 cm, AE = 1 cm\n\nBy Basic Proportionality Theorem (Thales' Theorem):\nAD / DB = AE / EC\n\nSubstituting values:\n1.5 / 3 = 1 / EC\n1/2 = 1 / EC\nEC = 2 cm\n\nAnswer: The length of EC is 2 cm."
           }
@@ -833,7 +833,7 @@
             "q_id": "",
             "statement": "A circus artist is climbing a 20 m long rope, which is tightly stretched and tied from the top of a vertical pole to the ground. Find the height of the pole, if the angle made by the rope with the ground level is 30°.",
             "correct_answer": "",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_20.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/question_20.png",
             "explanation": "Solution:\nLet the height of the pole AB = h meters\nLength of the stretched rope AC = 20 meters (Hypotenuse)\nAngle made by the rope with the ground ∠ACB = 30°\n\nIn right-angled triangle ABC:\nsin 30° = (Perpendicular AB) / (Hypotenuse AC)\nsin 30° = h / 20\n\nSubstituting sin 30° = 1/2:\n1/2 = h / 20\n2h = 20\nh = 20 / 2\nh = 10 meters\n\nAnswer: The height of the pole is 10 meters."
           }
         ]
@@ -900,7 +900,7 @@
           "q_id": "",
           "statement": "The following table gives the literacy rate (in percentage) of 35 cities. Find the mean literacy rate.\n\nLiteracy rate (%): 45-55 | 55-65 | 65-75 | 75-85 | 85-95\nNumber of cities:    3   |   10  |   11  |    8  |    3",
           "correct_answer": "",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_23.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/question_23.png",
           "explanation": "Solution:\nTable for mean using direct method:\n\nClass Interval (Literacy %) | Frequency (fᵢ) | Class Mark (xᵢ) | fᵢ × xᵢ\n---------------------------------------------------------------\n45 - 55                     |       3        |       50        |   150\n55 - 65                     |      10        |       60        |   600\n65 - 75                     |      11        |       70        |   770\n75 - 85                     |       8        |       80        |   640\n85 - 95                     |       3        |       90        |   270\n---------------------------------------------------------------\nSum                         |  Σfᵢ = 35      |                 | Σfᵢxᵢ = 2430\n\nFormula for Mean (x̄):\nx̄ = Σfᵢxᵢ / Σfᵢ\nx̄ = 2430 / 35\nx̄ = 69.428... ≈ 69.43 %\n\nAnswer: The mean literacy rate is 69.43%."
         }
       ],
@@ -911,7 +911,7 @@
             "q_id": "",
             "statement": "The following distribution shows the ages of patients admitted in a hospital during a year:\n\nAge (in years): 5-15 | 15-25 | 25-35 | 35-45 | 45-55 | 55-65\nNumber of patients: 6 | 11 | 21 | 23 | 14 | 3\n\nFind the mode of the above data.",
             "correct_answer": "",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/question_23_or_img.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/question_23_or_img.png",
             "explanation": "Solution:\nIn the given table, the maximum frequency is 23, which corresponds to the class interval 35 − 45.\nThus, Modal class = 35 − 45\n\nHere:\nLower limit of modal class (l) = 35\nSize of class interval (h) = 10\nFrequency of modal class (f₁) = 23\nFrequency of preceding class (f₀) = 21\nFrequency of succeeding class (f₂) = 14\n\nFormula for Mode:\nMode = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n\nSubstituting values:\nMode = 35 + [ (23 − 21) / (2(23) − 21 − 14) ] × 10\n= 35 + [ 2 / (46 − 35) ] × 10\n= 35 + [ 2 / 11 ] × 10\n= 35 + 20 / 11\n= 35 + 1.818...\n≈ 36.82 years\n\nAnswer: The mode of the data is 36.82 years."
           }
         ]

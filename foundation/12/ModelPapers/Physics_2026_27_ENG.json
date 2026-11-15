@@ -625,6 +625,7 @@
           "q_id": "",
           "statement": "Derive an expression for mutual inductance of two coaxial solenoids of same length wound over each other. Write the factors affecting mutual inductance.",
           "correct_answer": "M = (μ₀ N₁ N₂ A) / l",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C12_Q20_2026-27.png",
           "explanation": "(1) Derivation of Mutual Inductance:\nConsider two long coaxial solenoids S₁ and S₂ of the same length l and cross-sectional area A, wound closely over each other. Let N₁ and N₂ be the total number of turns in S₁ and S₂ respectively.\n\n1. When a current I₁ flows through the primary solenoid S₁, the magnetic field produced inside it is:\nB₁ = μ₀ n₁ I₁ = (μ₀ N₁ I₁) / l   (where turns per unit length n₁ = N₁ / l)\n\n2. Magnetic flux linked with each turn of the secondary solenoid S₂:\nΦ₂ = B₁ · A = (μ₀ N₁ I₁ A) / l\n\n3. Total flux linkage in the secondary solenoid (N₂Φ₂):\nN₂ Φ₂ = (μ₀ N₁ N₂ A I₁) / l\n\n4. By definition of mutual inductance (N₂Φ₂ = M I₁):\nM = (N₂ Φ₂) / I₁ = (μ₀ N₁ N₂ A) / l\n(If a core of relative permeability μᵣ is used, then M = μ₀ μᵣ N₁ N₂ A / l)\n\n(2) Factors affecting mutual inductance:\n1. Number of turns: Increasing the number of turns (N₁, N₂) increases M.\n2. Area of cross-section (A): Increasing the cross-sectional area increases M.\n3. Length of the solenoid (l): Increasing the length decreases M.\n4. Nature of core material: Placing a soft iron core inside increases mutual inductance by μᵣ times."
         }
       ],
@@ -661,6 +662,7 @@
             "q_id": "",
             "statement": "Write four differences between intrinsic semiconductor and extrinsic semiconductor.",
             "correct_answer": "",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C12_Q20_2026-27_ENG.png",
             "explanation": "Four main differences between intrinsic and extrinsic semiconductors are:\n\n| S.No. | Basis | Intrinsic Semiconductor | Extrinsic Semiconductor |\n|---|---|---|---|\n| 1. | Purity | It is a pure semiconductor free from any impurity (e.g., pure Si, Ge). | It is formed by adding a controlled amount of trivalent or pentavalent impurity (doping) to a pure semiconductor. |\n| 2. | Electrical Conductivity | Its electrical conductivity is very low at room temperature. | Its electrical conductivity is significantly high due to doping. |\n| 3. | Charge Carrier Concentration | The number of free electrons is always equal to the number of holes (nₑ = nₕ). | The number of electrons and holes are unequal (nₑ >> nₕ in n-type and nₕ >> nₑ in p-type). |\n| 4. | Dependence | Its conductivity depends only on the temperature of the material. | Its conductivity depends on both temperature and the amount of impurity added. |"
           }
         ]

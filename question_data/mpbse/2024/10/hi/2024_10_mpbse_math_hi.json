@@ -573,7 +573,7 @@
           {
             "q_id": "b",
             "statement": "आकृति में यदि PQ ∥ RS है, तो सिद्ध कीजिए कि:\nΔPOQ ~ ΔSOR",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_math_10.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2024_10_math_10.PNG",
             "correct_answer": "",
             "explanation": "हल:\nदिया है: PQ ∥ RS\n\nΔPOQ तथा ΔSOR में:\n1. ∠POQ = ∠SOR (शीर्षाभिमुख कोण)\n2. ∠OPQ = ∠OSR (एकांतर अंतः कोण, चूँकि PQ ∥ RS)\n3. ∠OQP = ∠ORS (एकांतर अंतः कोण)\n\nअतः कोण-कोण-कोण (AAA) समरूपता कसौटी से:\nΔPOQ ~ ΔSOR\nइति सिद्धम्।"
           }
@@ -891,7 +891,7 @@
         {
           "q_id": "a",
           "statement": "निम्नलिखित सारणी किसी मोहल्ले के 25 परिवारों के भोजन पर हुए दैनिक व्यय को दर्शाती है। उपयुक्त विधि द्वारा औसत व्यय ज्ञात कीजिए।",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_math_23.PNG",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2024_10_math_23.PNG",
           "correct_answer": "",
           "explanation": "हल:\nप्रत्यक्ष विधि द्वारा दैनिक भोजन व्यय का माध्य:\n\nवर्ग अंतराल (रु में) | परिवार (fᵢ) | वर्ग मध्य (xᵢ) | fᵢ × xᵢ\n100 - 150          | 4           | 125          | 500\n150 - 200          | 5           | 175          | 875\n200 - 250          | 12          | 225          | 2700\n250 - 300          | 2           | 275          | 550\n300 - 350          | 2           | 325          | 650\n\nकुल: Σfᵢ = 25, Σfᵢxᵢ = 5275\n\nमाध्य व्यय (x̄) = Σfᵢxᵢ / Σfᵢ = 5275 / 25 = ₹ 211\n\nअतः भोजन पर हुआ औसत दैनिक व्यय ₹ 211 है।"
         }
@@ -902,7 +902,7 @@
           {
             "q_id": "b",
             "statement": "निम्नलिखित आँकड़े 225 विद्युत उपकरणों के प्रेक्षित जीवनकाल (घंटों में) दर्शाते हैं। उपकरणों का बहुलक जीवनकाल ज्ञात कीजिए।",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_math_23_01.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2024_10_math_23_01.PNG",
             "correct_answer": "",
             "explanation": "हल:\nअधिकतम बारंबारता = 61, अतः बहुलक वर्ग = 60 – 80\n\nयहाँ:\nl = 60, h = 20, f₁ = 61, f₀ = 52, f₂ = 38\n\nबहुलक सूत्र = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n= 60 + [ (61 − 52) / (2(61) − 52 − 38) ] × 20\n= 60 + [ 9 / (122 − 90) ] × 20\n= 60 + (9 / 32) × 20\n= 60 + (45 / 8)\n= 60 + 5.625 = 65.625 घंटे\n\nअतः उपकरणों का बहुलक जीवनकाल 65.625 घंटे (लगभग 65.63 घंटे) है।"
           }

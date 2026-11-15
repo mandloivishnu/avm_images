@@ -432,7 +432,7 @@
           {
             "q_id": "b",
             "statement": "In the figure, if PQ ∥ RS, prove that:\nΔPOQ ~ ΔSOR",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_math_10.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2024_10_math_10.PNG",
             "correct_answer": "",
             "explanation": "Solution:\nGiven: PQ ∥ RS\n\nIn ΔPOQ and ΔSOR:\n1. ∠POQ = ∠SOR (vertically opposite angles)\n2. ∠OPQ = ∠OSR (alternate interior angles, since PQ ∥ RS)\n3. ∠OQP = ∠ORS (alternate interior angles)\n\nHence, by the Angle-Angle-Angle (AAA) similarity criterion:\nΔPOQ ~ ΔSOR\nHence proved."
           }
@@ -750,7 +750,7 @@
         {
           "q_id": "a",
           "statement": "The following table shows the daily expenditure on food of 25 households in a locality. Find the mean expenditure by an appropriate method.",
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_math_23.PNG",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2024_10_math_23.PNG",
           "correct_answer": "",
           "explanation": "Solution:\nMean of daily food expenditure by the direct method:\n\nClass interval (in Rs) | Households (fᵢ) | Class mark (xᵢ) | fᵢ × xᵢ\n100 - 150          | 4           | 125          | 500\n150 - 200          | 5           | 175          | 875\n200 - 250          | 12          | 225          | 2700\n250 - 300          | 2           | 275          | 550\n300 - 350          | 2           | 325          | 650\n\nTotal: Σfᵢ = 25, Σfᵢxᵢ = 5275\n\nMean expenditure (x̄) = Σfᵢxᵢ / Σfᵢ = 5275 / 25 = ₹ 211\n\nHence, the average daily expenditure on food is ₹ 211."
         }
@@ -761,7 +761,7 @@
           {
             "q_id": "b",
             "statement": "The following data shows the observed lifetimes (in hours) of 225 electrical components. Find the modal lifetime of the components.",
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2024_10_math_23_01.PNG",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2024_10_math_23_01.PNG",
             "correct_answer": "",
             "explanation": "Solution:\nMaximum frequency = 61, hence the modal class = 60 – 80\n\nHere:\nl = 60, h = 20, f₁ = 61, f₀ = 52, f₂ = 38\n\nMode formula = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n= 60 + [ (61 − 52) / (2(61) − 52 − 38) ] × 20\n= 60 + [ 9 / (122 − 90) ] × 20\n= 60 + (9 / 32) × 20\n= 60 + (45 / 8)\n= 60 + 5.625 = 65.625 hours\n\nHence, the modal lifetime of the components is 65.625 hours (approximately 65.63 hours)."
           }

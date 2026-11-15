@@ -794,7 +794,7 @@
           "statement": "What is dispersion of light? Explain with a diagram.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/varn_vipekchan_19a.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/varn_vipekchan_19a.png",
           "explanation": "Answer:\n(1) Definition: When white sunlight passes through a glass prism, it splits after refraction into a band of its seven component colors (Violet, Indigo, Blue, Green, Yellow, Orange, Red - VIBGYOR). This phenomenon is called 'dispersion of light'.\n\n(2) Cause: The speed and wavelength of different colors of light differ in a glass medium, causing their angle of deviation to vary.\n\n[Diagram: Draw a labeled diagram showing white light, prism, and the spectrum of seven color bands according to the given imgUrl.]"
         }
       ],
@@ -806,7 +806,7 @@
             "statement": "Why does the clear sky appear blue?",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/swacha_akash_ka_rang_nila.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/swacha_akash_ka_rang_nila.png",
             "explanation": "Answer:\nReason:\nWhen sunlight passes through Earth's atmosphere, the microscopic particles (gas molecules and dust particles) present in the atmosphere are smaller than the wavelength of visible light.\n\nAccording to Rayleigh's scattering law, blue and violet light with shorter wavelengths scatter much more strongly (about 16 times more) than red light with longer wavelengths. This scattered blue light spreads in all directions and reaches our eyes, making the sky appear blue.\n\n[Diagram: Draw a diagram showing scattering according to the image in the answer sheet.]"
           }
         ]
@@ -894,7 +894,7 @@
           "statement": "Draw a neat and labeled diagram of the human digestive system.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/manav_pachan_tantra.png",
+          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/manav_pachan_tantra.png",
           "explanation": "Answer:\nMain labeled parts of the human digestive system:\n1. Mouth and Oesophagus\n2. Stomach\n3. Liver and Gallbladder\n4. Pancreas\n5. Small intestine and Large intestine\n\n[Diagram: Draw a clean and labeled diagram of the human digestive system according to the given image (imgUrl).]"
         }
       ],
@@ -906,7 +906,7 @@
             "statement": "Draw a neat and labeled diagram of the human heart.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://raw.githubusercontent.com/mandloivishnu/avm_images/dev/question_data/mpbse/2026/10/img/hraday.png",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/question_data/mpbse/2026/10/img/hraday.png",
             "explanation": "Answer:\nMain labeled parts of the structure of the human heart:\n1. Right atrium and Right ventricle\n2. Left atrium and Left ventricle\n3. Aorta and Vena Cava\n4. Septum (Partition wall)\n\n[Diagram: Draw a clean and labeled diagram of a section of the human heart according to the given image (imgUrl).]"
           }
         ]

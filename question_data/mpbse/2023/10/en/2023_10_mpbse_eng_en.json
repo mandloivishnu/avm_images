@@ -379,7 +379,7 @@
       "word_limit": "75 words",
       "text": "Look at the visual input given below and write a small paragraph.",
       "image_data": {
-        "image_url": "https://raw.githubusercontent.com/mandloivishnu/avm_images/main/visual_question_images/2023_eng_visual.png",
+        "image_url": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/2023_eng_visual.png",
         "description": "The visual presents a peaceful natural landscape featuring a winding river flowing gracefully between majestic, green-covered hills. Lush trees line the riverbanks under a clear sky where birds are peacefully flying, evoking a sense of tranquility, scenic beauty, and the pristine charm of untouched nature."
       }
     },
