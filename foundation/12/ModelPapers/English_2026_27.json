@@ -1,0 +1,1062 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "ENGLISH",
+    "totalMarks": "80",
+    "board": "MP Board",
+    "setName": "Sample Paper",
+    "totalQuestions": "15",
+    "time": "3 Hours"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×10=10",
+      "word_limit": null,
+      "text": "Read the passage given below and answer the questions that follow.",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "Artificial Intelligence (AI) is the simulation of human intelligence in machines. It is the ability of a computer to think and learn like humans. In today's world, AI is everywhere. From voice assistants like Siri and Alexa to navigation apps like Google Maps, AI makes our life easier. In education, AI helps students with personalized learning. In healthcare, it helps doctors to detect diseases early. In agriculture, farmers use AI to predict weather and increase crop production. However, AI also has some challenges. Many people fear that AI will take away jobs because machines can do work faster than humans. There are also concerns about privacy, as AI systems collect a lot of personal data. Therefore, we should use AI wisely. AI should not replace humans but should support humans. If used in the right way, AI can solve big problems like climate change and poverty and make the world a better place.",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "What is Artificial Intelligence?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Human intelligence"
+            },
+            {
+              "index": "b",
+              "text": "Simulation of human intelligence in machines"
+            },
+            {
+              "index": "c",
+              "text": "A type of robot only"
+            },
+            {
+              "index": "d",
+              "text": "Internet connection"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Simulation of human intelligence in machines",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe opening line of the passage states: 'Artificial Intelligence (AI) is the simulation of human intelligence in machines.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "2",
+          "statement": "Which of the following is an example of AI in daily life?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Bicycle"
+            },
+            {
+              "index": "b",
+              "text": "Siri and Alexa"
+            },
+            {
+              "index": "c",
+              "text": "Newspaper"
+            },
+            {
+              "index": "d",
+              "text": "Pen"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Siri and Alexa",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage mentions 'voice assistants like Siri and Alexa' as everyday examples of AI.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "3",
+          "statement": "By which of the following methods does AI help the farmers ?",
+          "options": [
+            {
+              "index": "a",
+              "text": "by cooking food"
+            },
+            {
+              "index": "b",
+              "text": "by predicting weather and increasing crop production"
+            },
+            {
+              "index": "c",
+              "text": "by driving tractors only"
+            },
+            {
+              "index": "d",
+              "text": "by selling crop"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "by predicting weather and increasing crop production",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nAccording to the passage, 'In agriculture, farmers use AI to predict weather and increase crop production.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "4",
+          "statement": "In healthcare, AI helps doctors to.....",
+          "options": [
+            {
+              "index": "a",
+              "text": "build hospitals"
+            },
+            {
+              "index": "b",
+              "text": "detect diseases early"
+            },
+            {
+              "index": "c",
+              "text": "take fees"
+            },
+            {
+              "index": "d",
+              "text": "write book"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "detect diseases early",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage explicitly states: 'In healthcare, it helps doctors to detect diseases early.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "5",
+          "statement": "According to the passage, what is the right way to use AI?",
+          "options": [
+            {
+              "index": "a",
+              "text": "AI should replace all humans"
+            },
+            {
+              "index": "b",
+              "text": "AI should support humans, not replace them"
+            },
+            {
+              "index": "c",
+              "text": "AI should not be used at all"
+            },
+            {
+              "index": "d",
+              "text": "AI should be used only for games"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "AI should support humans, not replace them",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage emphasizes: 'AI should not replace humans but should support humans.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "6",
+          "statement": "The author says AI can make the world a better place because",
+          "options": [
+            {
+              "index": "a",
+              "text": "it is cheap"
+            },
+            {
+              "index": "b",
+              "text": "it can solve big problems like climate change and poverty"
+            },
+            {
+              "index": "c",
+              "text": "it is new"
+            },
+            {
+              "index": "d",
+              "text": "everyone likes it"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "it can solve big problems like climate change and poverty",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe concluding sentence mentions that if used rightly, 'AI can solve big problems like climate change and poverty and make the world a better place.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "7",
+          "statement": "What is the main idea of the passage?",
+          "options": [
+            {
+              "index": "a",
+              "text": "AI is dangerous and should be banned"
+            },
+            {
+              "index": "b",
+              "text": "AI has both benefits and challenges and should be used wisely"
+            },
+            {
+              "index": "c",
+              "text": "AI is only for scientists"
+            },
+            {
+              "index": "d",
+              "text": "AI is only about robots"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "AI has both benefits and challenges and should be used wisely",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage outlines AI's applications across sectors alongside concerns like job loss and privacy, concluding that it must be used wisely as a human support tool.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "8",
+          "statement": "Find a word from the passage which means 'to copy or imitate':",
+          "options": [
+            {
+              "index": "a",
+              "text": "detect"
+            },
+            {
+              "index": "b",
+              "text": "simulation"
+            },
+            {
+              "index": "c",
+              "text": "support"
+            },
+            {
+              "index": "d",
+              "text": "collect"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "simulation",
+          "explanation": "Correct Option: (b)\n\nExplanation:\n'Simulation' refers to the imitation or replication of a real-world process or behavior.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "9",
+          "statement": "The adjective of word 'privacy' is",
+          "options": [
+            {
+              "index": "a",
+              "text": "private"
+            },
+            {
+              "index": "b",
+              "text": "privately"
+            },
+            {
+              "index": "c",
+              "text": "piracy"
+            },
+            {
+              "index": "d",
+              "text": "privatisation"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "private",
+          "explanation": "Correct Option: (a)\n\nExplanation:\n'Private' is the adjective form of the noun 'privacy' ('privately' is an adverb and 'privatisation' is a noun).",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "10",
+          "statement": "If AI can do work faster than humans, what critical solution does the passage indirectly suggest for the problem of job loss?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Stop using AI completely"
+            },
+            {
+              "index": "b",
+              "text": "Humans should learn new skills and use AI as a support tool to create new types of jobs"
+            },
+            {
+              "index": "c",
+              "text": "Give all jobs to machines"
+            },
+            {
+              "index": "d",
+              "text": "Reduce the population"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Humans should learn new skills and use AI as a support tool to create new types of jobs",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nBy stating that AI should support humans rather than replace them, the passage implies humans should collaborate with AI to create new opportunities rather than abandoning technology.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "3+1=4",
+      "word_limit": null,
+      "text": "Read the following passage carefully and make notes on it. Give a suitable title also.",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "Modern education is completely different from traditional education. It is no longer limited to books, blackboards and classrooms. Today, technology has made education more interesting, accessible and student-centered. Smart classes, online learning, e-books and educational apps have replaced rote memorization. Students now learn through videos, presentations and interactive activities which develop their creativity and critical thinking. Modern education focuses not only on marks but also on skills like communication, problem-solving and teamwork. It encourages practical knowledge and real-life experience through projects and fieldwork. Teachers have become guides who help students to explore and learn by themselves. With the help of the internet, a student in a village can learn from teachers around the world. However, modern education also has challenges like excessive screen time and lack of personal contact. Therefore, a balance between traditional values and modern technology is necessary to make education truly meaningful.",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "Make notes on the above passage.",
+          "answer": "TITLE: Modern Education: Benefits and Challenges\n\nNOTES:\n1. Shift from Traditional to Modern Ed.:\n   1.1 Not limited to books, blackboards & classrooms.\n   1.2 Tech. makes learning interesting, accessible & student-centered.\n   1.3 Smart classes, e-books & apps replace rote memorization.\n\n2. Key Features & Focus:\n   2.1 Interactive tools (videos, presentations) build creativity & critical thinking.\n   2.2 Focuses on life skills: comm., problem-solving & teamwork.\n   2.3 Emphasizes practical exp. via projects & fieldwork.\n   2.4 Teachers act as guides; internet connects rural students globally.\n\n3. Challenges & Solution:\n   3.1 Drawbacks: Excessive screen time & lack of personal contact.\n   3.2 Need a balance between trad. values & modern tech.\n\nKey to Abbreviations:\n- Ed. : Education\n- Tech. : Technology\n- comm. : communication\n- exp. : experience\n- trad. : traditional"
+        },
+        {
+          "topic_id": "ii",
+          "name": "Give a suitable title also.",
+          "answer": "Modern Education: Balancing Technology and Tradition"
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": null,
+      "text": "Notice / Poster Writing",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draft a notice for house captains and vice captains to attend a meeting to prepare a plan for the annual function. You are Neha Jain, Cultural Secretary of G.H.S.S. Shahdol.",
+          "correct_answer": "",
+          "explanation": "GOVT. HIGHER SECONDARY SCHOOL, SHAHDOL\n\nNOTICE\n\n10th November 2026\n\nMEETING FOR ANNUAL FUNCTION PLANNING\n\nAll House Captains and Vice Captains are hereby informed that an important meeting will be held to prepare a detailed action plan for the upcoming Annual Function.\n\nDetails of the meeting are as follows:\n- Date: 14th November 2026\n- Time: 1:30 PM (during recess)\n- Venue: Cultural Activity Room\n\nMembers are requested to bring suggestions regarding cultural events, stage decoration, and volunteer duties. Attendance is compulsory.\n\nNeha Jain\nCultural Secretary"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Design a poster to convey the message 'Trees are our best friends'.",
+            "correct_answer": "",
+            "explanation": "==========================================\n       TREES ARE OUR BEST FRIENDS\n    Protect Nature, Preserve the Future!\n==========================================\n\n   WHAT TREES GIVE US FOR FREE:\n   * Pure Life-Giving Oxygen\n   * Fresh Fruits, Food & Medicines\n   * Cool Shade & Shelter for Birds\n   * Timely Rainfall & Fertile Soil\n   * Protection from Global Warming\n\n------------------------------------------\n   \"EACH ONE, PLANT ONE TODAY!\"\n   Say NO to Deforestation | Save Earth\n------------------------------------------\nIssued in Public Interest by Eco-Club, M.P."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": null,
+      "text": "Letter Writing",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write a letter to the Mayor requesting him to provide your colony with proper drinking water facility. You are Anant Singh residing at 25, Rajeev Colony, Dewas.",
+          "correct_answer": "",
+          "explanation": "25, Rajeev Colony,\nDewas (M.P.)\n\nDate: 15th November 2026\n\nTo,\nThe Mayor,\nMunicipal Corporation,\nDewas (M.P.)\n\nSubject: Request for proper drinking water facility in Rajeev Colony.\n\nRespected Sir/Madam,\n\nI wish to draw your kind attention to the acute shortage of clean drinking water faced by the residents of Rajeev Colony over the past two months.\n\nOur locality has no regular municipal pipeline supply, and the existing handpumps have either dried up or yield contaminated water. Residents, especially women and elderly citizens, are forced to walk long distances daily or purchase expensive water tankers to meet their basic household needs.\n\nOn behalf of all colony residents, I earnestly request you to sanction a regular municipal water pipeline connection and arrange temporary water tankers immediately until permanent work is completed.\n\nThanking you in anticipation.\n\nYours faithfully,\nAnant Singh"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "You are Nisha living at 169-J.L.N. Guna. Write a letter to your brother advising him to spend time with good friends and learn some skills of communication for the forth coming interview.",
+            "correct_answer": "",
+            "explanation": "169, J.L.N. Marg,\nGuna (M.P.)\n\nDate: 15th November 2026\n\nDear Aarav,\n\nI hope this letter finds you in good health and high spirits. I was glad to hear that you have cleared the written round and will soon appear for your final interview.\n\nAt this crucial juncture, I want to advise you to choose your company wisely. Spend time with positive, ambitious friends who motivate you and help you stay focused on your goals. Additionally, devote time daily to sharpening your communication skills. Practice speaking clearly, confidently, and politely in English, and participate in group discussions. Good body language and active listening leave a lasting impression on any interview panel.\n\nI have complete confidence in your abilities. Prepare well and give your best. Convey my regards to everyone.\n\nYours affectionately,\nNisha"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120-150 words",
+      "text": "Write an essay in 120-150 words on any one of the following :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Importance of English",
+          "explanation": "IMPORTANCE OF ENGLISH\n\nEnglish has become the global lingua franca, bridging communication gaps across countries, cultures, and professions. In an increasingly interconnected world, proficiency in English serves as a gateway to higher education, scientific research, and international career opportunities. Most textbooks, technical journals, and digital platforms operate primarily in English, making it indispensable for academic and professional advancement.\n\nIn India, a multilingual nation, English functions as a vital link language connecting people from diverse linguistic backgrounds. It enhances confidence during competitive examinations, corporate interviews, and global forums. While respecting and preserving our mother tongues is essential for cultural identity, mastering English empowers students with the linguistic competence needed to thrive in modern commerce, technology, and global diplomacy."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Importance of planting trees",
+          "explanation": "IMPORTANCE OF PLANTING TREES\n\nTrees are the lifeline of our planet and form the foundation of ecological balance. Through photosynthesis, they absorb harmful carbon dioxide and release life-sustaining oxygen, purifying the air we breathe. Trees also regulate the climate, bring timely rainfall, prevent soil erosion, and replenish groundwater levels. Furthermore, they provide food, timber, medicinal herbs, and natural habitats for countless species of wildlife.\n\nUnfortunately, rapid urbanization and unchecked deforestation have triggered severe environmental crises like global warming and air pollution. Planting trees—afforestation—is the simplest and most effective solution to combat climate change. Every citizen should take a pledge to plant and nurture saplings regularly so we can gift a clean, green, and healthy Earth to future generations."
+        },
+        {
+          "q_id": "iii",
+          "statement": "My Ideal Leader",
+          "explanation": "MY IDEAL LEADER\n\nA true leader inspires others not through power or authority, but through integrity, vision, and selfless service. My ideal leader is Dr. A.P.J. Abdul Kalam, the 'Missile Man of India' and former President. Born into a humble family, he rose through sheer hard work, discipline, and perseverance to lead India's space and defense programs.\n\nWhat makes Dr. Kalam extraordinary is his simplicity, humility, and deep affection for students. Even while holding the highest constitutional office, he remained accessible to common citizens and dedicated his life to igniting young minds with dreams of a developed India. His life teaches us that genuine leadership lies in empowering others, upholding moral values, and working tirelessly for national progress."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Unemployment",
+          "explanation": "UNEMPLOYMENT\n\nUnemployment is one of the most pressing socioeconomic challenges facing developing nations today. It refers to a situation where educated, skilled, and willing individuals fail to find gainful employment. Rapid population growth, over-dependence on traditional theoretical education, and lack of practical vocational skills are major causes behind rising joblessness.\n\nUnemployment wastes valuable human resources, breeds poverty, and leads to frustration and social unrest among the youth. To tackle this crisis, the education system must prioritize skill development, technical training, and entrepreneurship. Promoting small-scale industries, startups, and rural infrastructure can generate massive employment opportunities, transforming unemployed youth into self-reliant job creators."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "v",
+            "statement": "Your school had organized an Inter School Football Match last month. Write a report of this event for your school magazine giving details like date, venue, chief guest, winners etc.",
+            "explanation": "INTER-SCHOOL FOOTBALL TOURNAMENT FINALE\n\nBy Aarav Verma, Sports Secretary\n\nOur school successfully hosted a thrilling Inter-School Football Match on 18th October 2026 at the Main School Sports Ground. Eight prestigious schools from the district participated in the tournament, culminating in an exciting final clash between our home team and St. Xavier's High School.\n\nThe District Sports Officer graced the occasion as the Chief Guest. The match kicked off at 10:00 AM amidst loud cheers from enthusiastic spectators. Both teams displayed remarkable agility, teamwork, and sportsmanship. After a tightly contested first half, our school team scored two decisive goals in the second half to clinch the championship trophy with a 2-1 victory.\n\nThe Chief Guest distributed medals and trophies to the winners and runners-up, praising the discipline and athletic spirit of the players. The event concluded with a vote of thanks by our Principal."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks (any five):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "I met {BLANK} European yesterday.",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "an"
+            },
+            {
+              "index": "c",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Correct Answer: a\n\nExplanation:\nAlthough 'European' starts with the vowel 'E', it is pronounced with a consonant 'y' sound (/jʊərəˈpiːən/). Therefore, the indefinite article 'a' is used."
+        },
+        {
+          "q_id": "ii",
+          "statement": "He hasn't got {BLANK} money.",
+          "options": [
+            {
+              "index": "a",
+              "text": "much"
+            },
+            {
+              "index": "b",
+              "text": "few"
+            },
+            {
+              "index": "c",
+              "text": "many"
+            }
+          ],
+          "correct_answer": "much",
+          "explanation": "Correct Answer: much\n\nExplanation:\n'Money' is an uncountable noun, and in negative sentences, 'much' is used to express quantity ('few' and 'many' are used with countable plural nouns)."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Ram {BLANK} his work.",
+          "options": [
+            {
+              "index": "a",
+              "text": "doing"
+            },
+            {
+              "index": "b",
+              "text": "does"
+            },
+            {
+              "index": "c",
+              "text": "do"
+            }
+          ],
+          "correct_answer": "does",
+          "explanation": "Correct Answer: does\n\nExplanation:\nWith a third-person singular subject ('Ram') in the simple present tense, the verb takes '-es' ('does')."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Take out the lamp {BLANK} the cabinet.",
+          "options": [
+            {
+              "index": "a",
+              "text": "for"
+            },
+            {
+              "index": "b",
+              "text": "of"
+            },
+            {
+              "index": "c",
+              "text": "from"
+            }
+          ],
+          "correct_answer": "from",
+          "explanation": "Correct Answer: from\n\nExplanation:\nThe preposition 'from' indicates the source or point of origin when removing an object out of an enclosed space."
+        },
+        {
+          "q_id": "v",
+          "statement": "Ravi answered {BLANK} the fifteen questions correctly.",
+          "options": [
+            {
+              "index": "a",
+              "text": "all"
+            },
+            {
+              "index": "b",
+              "text": "whole"
+            },
+            {
+              "index": "c",
+              "text": "enough"
+            }
+          ],
+          "correct_answer": "all",
+          "explanation": "Correct Answer: all\n\nExplanation:\n'All' is placed before the definite article 'the' when referring to a plural countable noun phrase ('all the fifteen questions')."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Harshita has been making toys {BLANK} morning.",
+          "options": [
+            {
+              "index": "a",
+              "text": "since"
+            },
+            {
+              "index": "b",
+              "text": "for"
+            },
+            {
+              "index": "c",
+              "text": "from"
+            }
+          ],
+          "correct_answer": "since",
+          "explanation": "Correct Answer: since\n\nExplanation:\n'Since' is used with the present perfect continuous tense to denote a specific point of time when an action began ('since morning')."
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Do as directed (any five):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "He says to me, \"I am your friend\". (Change into indirect speech)",
+          "explanation": "Indirect Speech: He tells me that he is my friend.\n\nExplanation:\nWhen the reporting verb ('says') is in the present tense, the tense of the reported speech remains unchanged, while pronouns shift according to context ('I' -> 'he', 'your' -> 'my')."
+        },
+        {
+          "q_id": "ii",
+          "statement": "As soon as he closed his eyes the telephone rang. (Rewrite using 'No sooner........than' in place of 'As soon as')",
+          "explanation": "Rewritten Sentence: No sooner did he close his eyes than the telephone rang.\n\nExplanation:\n'As soon as' in simple past tense is replaced by 'No sooner did + subject + base verb...than'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Kabir is weak. He can walk a mile. (Combine the sentences with Although)",
+          "explanation": "Combined Sentence: Although Kabir is weak, he can walk a mile.\n\nExplanation:\nThe subordinating conjunction 'Although' introduces the concessive clause showing contrast between his weakness and his ability to walk."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Archana plays badminton everyday. (change into passive voice.)",
+          "explanation": "Passive Voice: Badminton is played by Archana everyday.\n\nExplanation:\nIn the simple present tense, passive voice follows the structure: Object + is/am/are + V3 ('played') + by + Subject."
+        },
+        {
+          "q_id": "v",
+          "statement": "Sanjay taught English. (Change into negative sentence)",
+          "explanation": "Negative Sentence: Sanjay did not teach English.\n\nExplanation:\nIn the simple past tense, negative sentences are formed by placing 'did not' before the base form of the main verb ('teach')."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The box is too heavy to lift. (Rewrite the sentence using so ..... that)",
+          "explanation": "Rewritten Sentence: The box is so heavy that it cannot be lifted. (or: The box is so heavy that one cannot lift it.)\n\nExplanation:\nThe 'too...to' construction is replaced by 'so + adjective + that + pronoun + cannot + verb'."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the following extract and answer the questions that follow.",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "\"Why not organise yourselves into a cooperative?\" I ask a group of young men who have fallen into the vicious circle of middlemen who trapped their fathers and forefathers. \"Even if we get organised, we are the ones who will be hauled up by the police, beaten and dragged to jail for doing something illegal,\" they say. There is no leader among them, no one who could help them see things differently.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What 'I' stand for in the passage?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Saheb"
+            },
+            {
+              "index": "b",
+              "text": "Mukesh"
+            },
+            {
+              "index": "c",
+              "text": "Anees Jung"
+            },
+            {
+              "index": "d",
+              "text": "Savita"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Anees Jung",
+          "explanation": "Correct Option: (c)\n\nExplanation:\n'I' refers to the narrator and author of the lesson 'Lost Spring', Anees Jung, who is speaking with the young bangle makers of Firozabad.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "What did the police do to the young men?",
+          "options": [
+            {
+              "index": "a",
+              "text": "drag them to jail"
+            },
+            {
+              "index": "b",
+              "text": "give them reward"
+            },
+            {
+              "index": "c",
+              "text": "help them"
+            },
+            {
+              "index": "d",
+              "text": "organize them"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "drag them to jail",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe young men say that if they organize, they will be 'hauled up by the police, beaten and dragged to jail'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "Meaning of the word vicious is...",
+          "options": [
+            {
+              "index": "a",
+              "text": "light"
+            },
+            {
+              "index": "b",
+              "text": "moderate"
+            },
+            {
+              "index": "c",
+              "text": "soft"
+            },
+            {
+              "index": "d",
+              "text": "dreadful"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "dreadful",
+          "explanation": "Correct Option: (d)\n\nExplanation:\n'Vicious' means cruel, violent, severe, or dreadful.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "From which lesson this extract has been taken?",
+          "options": [
+            {
+              "index": "a",
+              "text": "The Last Lesson"
+            },
+            {
+              "index": "b",
+              "text": "Lost spring."
+            },
+            {
+              "index": "c",
+              "text": "Deep water"
+            },
+            {
+              "index": "d",
+              "text": "Indigo"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Lost spring.",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThis excerpt is taken from the second part of Anees Jung's chapter 'Lost Spring', titled 'I Want to Drive a Car'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "The bangle makers in Firozabad DO NOT need a leader who could",
+          "options": [
+            {
+              "index": "a",
+              "text": "help them"
+            },
+            {
+              "index": "b",
+              "text": "see things differently"
+            },
+            {
+              "index": "c",
+              "text": "save them from middlemen"
+            },
+            {
+              "index": "d",
+              "text": "trap them"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "trap them",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nThe bangle makers are already trapped by middlemen; they need a leader who can help them see things differently and escape exploitation, not trap them.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "9(A)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the following extract and answer the questions that follow.",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "The little old house was out with a little new shed\nIn front at the edge of the road where the traffic speed,\nA roadside stand that too pathetically pled,\nIt would not be fair to say for a dole of bread,\nBut for some of the money, the cash, whose flow supports\nThe flower of cities from sinking and withering faint.",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "Who are referred to as \"the flower of cities\" :",
+          "options": [
+            {
+              "index": "a",
+              "text": "The poor people"
+            },
+            {
+              "index": "b",
+              "text": "The elite class"
+            },
+            {
+              "index": "c",
+              "text": "Village people"
+            },
+            {
+              "index": "d",
+              "text": "People living in cities."
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "The elite class",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nIn Robert Frost's 'A Roadside Stand', 'the flower of cities' refers to the wealthy, privileged elite class of urban society sustained by the steady flow of money.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "2",
+          "statement": "The word in the extract 'withering' means :",
+          "options": [
+            {
+              "index": "a",
+              "text": "decay"
+            },
+            {
+              "index": "b",
+              "text": "admire"
+            },
+            {
+              "index": "c",
+              "text": "encourage"
+            },
+            {
+              "index": "d",
+              "text": "intended."
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "decay",
+          "explanation": "Correct Option: (a)\n\nExplanation:\n'Withering' means shriveling, fading, or decaying.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "3",
+          "statement": "Identify the figure of speech used in these lines 'polished traffic' :",
+          "options": [
+            {
+              "index": "a",
+              "text": "Metaphor"
+            },
+            {
+              "index": "b",
+              "text": "Simile"
+            },
+            {
+              "index": "c",
+              "text": "Transferred epithet"
+            },
+            {
+              "index": "d",
+              "text": "Alliteration."
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Transferred epithet",
+          "explanation": "Correct Option: (c)\n\nExplanation:\n'Polished traffic' is a transferred epithet because the adjective 'polished' (refined/sophisticated) describes the wealthy city people traveling inside the cars, rather than the traffic itself.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "9(B)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×4=4",
+      "word_limit": null,
+      "text": "Read the following extract and answer the questions that follow.",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "Sadao knew that his education was his father's chief concern. For this reason he had been sent at twenty two to America to learn all that could be learnt of surgery and medicine. He had come back at thirty and before his father died he had seen Sadao become famous not only as a surgeon but as a scientist. Because he was perfecting a discovery which would render wounds entirely clean, he had not been sent abroad, with the troops. Also, he knew, there was some slight, danger that the old general might need an operation for a condition for which he was now being treated medically, and for this possibility Sadao was being kept in Japan.",
+      "parts": [
+        {
+          "q_id": "1",
+          "statement": "What was the chief concern of Dr. Sadao's father ?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Dr. Sadao's education"
+            },
+            {
+              "index": "b",
+              "text": "Dr. Sadao's treatment"
+            },
+            {
+              "index": "c",
+              "text": "Dr. Sadao's marriage"
+            },
+            {
+              "index": "d",
+              "text": "Dr. Sadao's children."
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Dr. Sadao's education",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe first line states: 'Sadao knew that his education was his father's chief concern.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "2",
+          "statement": "At what age did Dr. Sadao go to America ?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Thirty"
+            },
+            {
+              "index": "b",
+              "text": "Twenty two"
+            },
+            {
+              "index": "c",
+              "text": "Twenty"
+            },
+            {
+              "index": "d",
+              "text": "Thirty two."
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Twenty two",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nAccording to the passage, 'he had been sent at twenty two to America'.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "3",
+          "statement": "Why was Dr. Sadao sent to America?",
+          "options": [
+            {
+              "index": "a",
+              "text": "To learn surgery and medicine"
+            },
+            {
+              "index": "b",
+              "text": "To learn scientific activities"
+            },
+            {
+              "index": "c",
+              "text": "To learn about wounds."
+            },
+            {
+              "index": "d",
+              "text": "To learn about arms."
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "To learn surgery and medicine",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nThe extract mentions he was sent to America 'to learn all that could be learnt of surgery and medicine.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "4",
+          "statement": "Find the word from the extract which is opposite of \"fraction\" ?",
+          "options": [
+            {
+              "index": "a",
+              "text": "army"
+            },
+            {
+              "index": "b",
+              "text": "unit"
+            },
+            {
+              "index": "c",
+              "text": "troop"
+            },
+            {
+              "index": "d",
+              "text": "group"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "troop",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nAmong the choices present in the extract ('troops'), 'troop' represents a collective whole/body of soldiers as opposed to an isolated fraction.",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×5=10",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What was the order from Berlin and what was its effect on the people of Alsace?",
+          "explanation": "The order from Berlin decreed that only German would be taught in the schools of Alsace and Lorraine. It shocked the people, awakening deep regret for neglecting their mother tongue and immense love for French."
+        },
+        {
+          "q_id": "ii",
+          "statement": "How did the drowning incident in the Y.M.C.A. pool affect Douglas?",
+          "explanation": "The near-drowning experience left Douglas weak, trembling, and terrified of water for years. The haunting fear ruined his fishing trips and deprived him of boating, canoeing, and swimming."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why did the peddler consider the world as a rattrap?",
+          "explanation": "The peddler viewed the world as a giant rattrap because it offers riches, joys, food, and shelter merely as baits to tempt people; once touched, it snaps shut and traps them."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is the example of national integration in Gemini Studios described by Asokamitran?",
+          "explanation": "The make-up department at Gemini Studios exemplified national integration, as it was headed first by a Bengali and then a Maharashtrian, assisted by people from Karnataka, Andhra, Madras, Anglo-Burma, and local Tamils."
+        },
+        {
+          "q_id": "v",
+          "statement": "What was Sophie's dream about her future after school?",
+          "explanation": "Sophie dreamed of owning the most amazing boutique in the city, becoming a glamorous actress, or working as a sophisticated fashion designer, far removed from her working-class reality."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×3=6",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What did the poet notice about her mother during her drive to the airport?",
+          "explanation": "During the drive to Cochin airport, Kamala Das noticed her sixty-six-year-old mother dozing beside her with her mouth open, her pale, ashen face resembling that of a lifeless corpse."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What is a thing of beauty and what does it give us according to Keats?",
+          "explanation": "According to Keats, any object of nature or noble art is a thing of beauty. It is a joy forever that provides peace, sweet dreams, good health, and removes gloom from our spirits."
+        },
+        {
+          "q_id": "iii",
+          "statement": "What is the 'childish longing' that the poet refers to in the poem A Roadside Stand? Why is it vain ?",
+          "explanation": "The 'childish longing' is the rural stand owners' innocent, expectant waiting by the open window for city cars to stop. It is vain because speeding motorists rarely halt to buy anything."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "word_limit": "30 words",
+      "text": "Answer the following questions in about 30 words.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why did the Maharaja of Pratibandapuram decide to kill one hundred tigers?",
+          "explanation": "The royal astrologer prophesied that the Maharaja's death would come from a tiger, specifically warning him to beware of the hundredth tiger. To disprove fate and save his life, he vowed to kill hundred tigers."
+        },
+        {
+          "q_id": "ii",
+          "statement": "According to Tishani Doshi what is the significance of Antarctica in the history of the Earth?",
+          "explanation": "Antarctica holds half-million-year-old carbon records trapped in its ice layers, offering crucial insights into Earth's geological past (Gondwana), present climate change, and future environmental trajectory."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×2=6",
+      "word_limit": "75-100 words",
+      "text": "Answer the following questions in about 75-100 words. (Any Two)",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Lives of Saheb and Mukesh are not very different. Describe it.",
+          "explanation": "Both Saheb-e-Alam of Seemapuri and Mukesh of Firozabad are victims of grinding poverty, social exploitation, and lost childhoods. Saheb scrounges through garbage dumps for survival and later loses his carefree independence working at a tea stall for meager wages. Similarly, Mukesh belongs to a family of impoverished bangle makers trapped in dingy, hazardous furnaces by a nexus of middlemen, sahukars, and policemen. Neither boy enjoys schooling or basic comforts. However, while Saheb surrenders to his fate, Mukesh dares to dream of breaking free from generational bondage to become a motor mechanic."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Along with the case of the sharecroppers Gandhi helped the people of Champaran. How?",
+          "explanation": "Gandhiji recognized that political and economic victory alone was insufficient without addressing the cultural and social backwardness of Champaran's villages. He appealed for teachers, and volunteers including Mahadev Desai, Narhari Parikh, his wife Kasturbai, and youngest son Devadas arrived to open primary schools in six villages. Kasturbai taught personal cleanliness and community sanitation. To tackle miserable health conditions, Gandhiji arranged a doctor who volunteered for six months, providing basic medicines like castor oil, quinine, and sulphur ointment, thereby uplifting the villagers' overall quality of life."
+        },
+        {
+          "q_id": "iii",
+          "statement": "'I am a professor who writes novels on Sundays'. How? Explain with reference to Umberto Eco. (Interviews)",
+          "explanation": "Umberto Eco considered himself primarily a university professor and academic scholar who wrote scholarly works on semiotics during the week, turning to fiction only on Sundays. He explained that he achieved astonishing productivity by utilizing 'interstices'—the brief, empty spaces of time between daily tasks. Rather than wasting moments while waiting for someone's elevator to arrive, Eco utilized those gaps to write. Although his novel 'The Name of the Rose' brought him massive global fame, he maintained that he participated in academic conferences rather than Pen Clubs and writers' meetings."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75-100 words",
+      "text": "Answer the following question in about 75-100 words.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What does the poet want us to do by counting up to twelve and keeping still? What is the message of the poem?",
+          "explanation": "In 'Keeping Quiet', Pablo Neruda urges humanity to count up to twelve and remain completely silent and motionless for a brief moment. By suspending all physical movement, speech, and destructive activities—such as wars, environmental exploitation, and mechanical rushing—people can engage in peaceful introspection. The central message of the poem is that quiet self-reflection fosters mutual understanding, heals emotional alienation, promotes universal brotherhood, and saves humankind from self-destruction."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "How does the poet show that Aunt Jennifer is a victim of male domination? What is the contrast between her and her tigers?",
+            "explanation": "Adrienne Rich portrays Aunt Jennifer as deeply oppressed by patriarchal marriage, symbolized by the 'massive weight of Uncle's wedding band' that sits heavily on her trembling fingers. Even basic needlework becomes an exhausting struggle due to her lifelong emotional trauma and subjugation. In sharp contrast to her timid, fearful, and trapped existence, the tigers she embroiders are fearless, majestic, and confident denizens of the green forest who pace in 'sleek chivalric certainty' without fearing the men beneath the tree. While Aunt Jennifer remains enslaved even in death, her art achieves eternal freedom."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "word_limit": "75-100 words",
+      "text": "Answer the following question in about 75-100 words.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is the real deformity of Derry and what does he suffer from? How does Mr. Lamb help Derry to overcome from his suffering? (On the Face of it)",
+          "explanation": "Derry's physical deformity is one side of his face scarred by acid, but his real deformity is his bitter, pessimistic mindset and deep-seated inferiority complex. Obsessed with how people stare at or pity him, he withdraws into painful isolation and distrusts everyone. Mr. Lamb, who himself has a tin leg, helps Derry heal by treating him normally without shock or pity. Through warm conversation and nature's analogies—like weeds and flowers—Mr. Lamb teaches Derry to accept himself, ignore cruel remarks, and embrace life with courage and openness."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "ii",
+            "statement": "'The modern world is full of insecurity, fear, war, worry and stress.' What are the ways in which we attempt to overcome them? (The Third Level)",
+            "explanation": "In 'The Third Level', Jack Finney illustrates how modern individuals attempt to cope with pervasive anxiety, war, and insecurity through psychological escape and comforting pastimes. People engage in hobbies like stamp collecting (philately)—as both Charley and President Roosevelt did—which offers a temporary refuge from harsh realities. Others seek solace in nostalgia, daydreaming, or fantasy, longing for simpler, peaceful eras like Galesburg in 1894. Charley's discovery of the imaginary third level at Grand Central Station represents the universal human desire to escape modern pressures into a tranquil world."
+          }
+        ]
+      }
+    }
+  ]
+}

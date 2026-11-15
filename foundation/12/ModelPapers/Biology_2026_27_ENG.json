@@ -1,0 +1,678 @@
+{
+  "paper_details": {
+    "paperYear": "2026-2027",
+    "subjectName": "Biology",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "10",
+    "timeAllowed": "3 Hours",
+    "board": "MP Board",
+    "examType": "Sample Question Paper for Practice Only (Higher Secondary Examination)",
+    "set": "Sample Paper",
+    "paperCode": "",
+    "language": "English Medium",
+    "instructions": [
+      "All questions are compulsory.",
+      "Question No. 1 to 5 are objective type questions. Each question carries 1 mark. Total objective questions are 28.",
+      "Internal options are given from Question No. 13 to 20.",
+      "Question No. 6 to 12 are Very Short Answer type questions. Answer each question in about 30 words. Each question carries 2 marks.",
+      "Question No. 13 to 16 are Short Answer type questions. Answer each question in about 75 words. Each question carries 3 marks.",
+      "Question No. 17 to 20 are Long Answer type questions. Answer each question in about 120 words. Each question carries 4 marks.",
+      "Draw a neat and well-labelled diagram wherever necessary."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write it:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The medium of pollination in Vallisneria is -",
+          "options": [
+            {
+              "index": "a",
+              "text": "Air"
+            },
+            {
+              "index": "b",
+              "text": "Water"
+            },
+            {
+              "index": "c",
+              "text": "Insects"
+            },
+            {
+              "index": "d",
+              "text": "Birds"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Water",
+          "explanation": "Vallisneria is an aquatic plant in which the female flower reaches the surface of water by a long stalk and the male pollen grains are released onto the surface of water. They are carried passively by water currents to reach the stigma (Hydrophily)."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Scutellum is a part of -",
+          "options": [
+            {
+              "index": "a",
+              "text": "Monocotyledonous embryo"
+            },
+            {
+              "index": "b",
+              "text": "Dicotyledonous embryo"
+            },
+            {
+              "index": "c",
+              "text": "Gynoecium"
+            },
+            {
+              "index": "d",
+              "text": "Seed"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Monocotyledonous embryo",
+          "explanation": "Embryos of monocotyledons (such as grasses and maize) possess only one cotyledon. In the grass family, this single shield-shaped cotyledon situated towards one side of the embryonal axis is called the scutellum."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The plant selected by Mendel for the inheritance of genes was -",
+          "options": [
+            {
+              "index": "a",
+              "text": "Apple"
+            },
+            {
+              "index": "b",
+              "text": "Mango"
+            },
+            {
+              "index": "c",
+              "text": "Pea"
+            },
+            {
+              "index": "d",
+              "text": "Mirabilis jalapa"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Pea",
+          "explanation": "Gregor Johann Mendel conducted hybridization experiments on garden peas (Pisum sativum) for seven years (1856–1863) and proposed the laws of inheritance in living organisms."
+        },
+        {
+          "q_id": "iv",
+          "statement": "In humans, ringworm disease is caused by -",
+          "options": [
+            {
+              "index": "a",
+              "text": "Bacteria"
+            },
+            {
+              "index": "b",
+              "text": "Fungi"
+            },
+            {
+              "index": "c",
+              "text": "Viruses"
+            },
+            {
+              "index": "d",
+              "text": "Worms"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Fungi",
+          "explanation": "Many fungi belonging to the genera Microsporum, Trichophyton, and Epidermophyton are responsible for ringworm, which is one of the most common infectious diseases in humans."
+        },
+        {
+          "q_id": "v",
+          "statement": "The process by which Recombinant DNA is directly injected into the nucleus of an animal cell is -",
+          "options": [
+            {
+              "index": "a",
+              "text": "Biolistic method"
+            },
+            {
+              "index": "b",
+              "text": "Gene gun method"
+            },
+            {
+              "index": "c",
+              "text": "Micro-injection"
+            },
+            {
+              "index": "d",
+              "text": "Competent host"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Micro-injection",
+          "explanation": "In the micro-injection method, recombinant DNA is directly injected into the nucleus of an animal cell using a very fine glass micropipette."
+        },
+        {
+          "q_id": "vi",
+          "statement": "When one living organism benefits itself without harming the other organism, this type of interaction is -",
+          "options": [
+            {
+              "index": "a",
+              "text": "Commensalism"
+            },
+            {
+              "index": "b",
+              "text": "Symbiosis"
+            },
+            {
+              "index": "c",
+              "text": "Parasitism"
+            },
+            {
+              "index": "d",
+              "text": "Predation"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "Commensalism",
+          "explanation": "Commensalism is the interaction (+, 0) between two species in which one species benefits and the other is neither harmed nor benefited (e.g., an orchid growing as an epiphyte on a mango branch)."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks and write it:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The sixteen-cell stage of the embryo is called {BLANK}.",
+          "options": [],
+          "correct_answer": "Morula",
+          "explanation": " Morula\n\nReason: The solid ball-like embryo with 8 to 16 blastomeres formed as a result of cleavage divisions in the zygote is called a morula."
+        },
+        {
+          "q_id": "ii",
+          "statement": "A change in genetic material is called a {BLANK}.",
+          "options": [],
+          "correct_answer": "Mutation",
+          "explanation": " Mutation\n\nReason: Mutation is a sudden, heritable alteration in DNA sequences that results in changes in the genotype and phenotype of an organism."
+        },
+        {
+          "q_id": "iii",
+          "statement": "{BLANK} is used as an immunosuppressive agent in organ transplantation in patients.",
+          "options": [],
+          "correct_answer": "Cyclosporin-A",
+          "explanation": " Cyclosporin-A\n\nReason: Cyclosporin-A, produced by the fungus Trichoderma polysporum, is used as an immunosuppressive agent in organ-transplant patients to prevent graft rejection."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The method of producing thousands of plants through tissue culture is called {BLANK}.",
+          "options": [],
+          "correct_answer": "Micropropagation",
+          "explanation": " Micropropagation\n\nReason: The method of producing thousands of genetically identical plants (somaclones) in a short time and limited space through tissue culture is called micropropagation."
+        },
+        {
+          "q_id": "v",
+          "statement": "The nematode that infects the roots of tobacco plants is {BLANK}.",
+          "options": [],
+          "correct_answer": "Meloidegyne incognitia",
+          "explanation": " Meloidegyne incognitia\n\nReason: The nematode Meloidegyne incognitia infects the roots of tobacco plants and causes a great reduction in yield, which is prevented using RNA interference (RNAi)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Green plants in an ecosystem are called {BLANK}.",
+          "options": [],
+          "correct_answer": "Producers",
+          "explanation": " Producers\n\nReason: Green plants synthesize their own organic food from inorganic substances using solar energy via photosynthesis, hence they are called primary producers."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Choose True or False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Sperms are stored in the seminal vesicles.",
+          "correct_answer": "false",
+          "explanation": " False\n\nExplanation: Sperms are temporarily stored and matured in the epididymis, whereas seminal vesicles are male accessory glands that secrete seminal plasma rich in fructose."
+        },
+        {
+          "q_id": "ii",
+          "statement": "All types of sexually transmitted diseases are completely curable.",
+          "correct_answer": "false",
+          "explanation": " False\n\nExplanation: Except for Hepatitis-B, genital herpes, and HIV infections, other sexually transmitted infections (STIs) are completely curable if detected early and treated properly."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Australopithecus was known as the first human-like organism.",
+          "correct_answer": "false",
+          "explanation": " False\n\nExplanation: Homo habilis was the first human-like being (hominid) with a brain capacity between 650–800 cc, whereas Australopithecines probably lived in East African grasslands and hunted with stone weapons."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The deficiency of ADA is treated by bone marrow transplantation.",
+          "correct_answer": "true",
+          "explanation": " True\n\nExplanation: In some children, adenosine deaminase (ADA) deficiency can be cured by bone marrow transplantation or by enzyme replacement therapy."
+        },
+        {
+          "q_id": "v",
+          "statement": "In-situ conservation, plants and animals are placed away from their natural habitat.",
+          "correct_answer": "false",
+          "explanation": " False\n\nExplanation: In in-situ (on-site) conservation, organisms are protected within their natural habitat (e.g., National Parks, Biosphere Reserves); placing them away from their natural habitat is called ex-situ conservation."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Roquefort cheese is matured by the growth of a specific type of fungus.",
+          "correct_answer": "true",
+          "explanation": " True\n\nExplanation: Roquefort cheese is ripened by growing a specific fungus (Penicillium roqueforti) on it, which gives it a particular flavour."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×5=5",
+      "text": "Match the correct pair and write:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column A",
+        "column_B_title": "Column B",
+        "pairs": [
+          {
+            "a_item": "(i) Parturition",
+            "b_item": "(a) Predation",
+            "correct_match_index": "4"
+          },
+          {
+            "a_item": "(ii) Promoter",
+            "b_item": "(b) Common Cold",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(iii) Rhinovirus",
+            "b_item": "(c) Restriction endonuclease",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(iv) Molecular Scissors",
+            "b_item": "(d) Oxytocin",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(v) Camouflage",
+            "b_item": "(e) Transcription",
+            "correct_match_index": "1"
+          }
+        ]
+      },
+      "explanation": "Correct matches between Column A and Column B with reasons:\n\n(i) Parturition ⟶ (d) Oxytocin\nReason: Oxytocin released from the maternal pituitary acts on the uterine muscle and causes stronger uterine contractions leading to childbirth (parturition).\n\n(ii) Promoter ⟶ (e) Transcription\nReason: The promoter is a DNA sequence located towards the 5'-end of the structural gene that provides a binding site for RNA polymerase to initiate transcription.\n\n(iii) Rhinovirus ⟶ (b) Common Cold\nReason: Rhinoviruses represent one of the most infectious human ailments—the common cold.\n\n(iv) Molecular Scissors ⟶ (c) Restriction endonuclease\nReason: Restriction endonucleases cut DNA at specific recognition sequences, so they are called molecular scissors.\n\n(v) Camouflage ⟶ (a) Predation\nReason: Some prey species are cryptically coloured (camouflaged) to avoid being detected easily by the predator."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Write answer in one word / one sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write any one cause of population explosion.",
+          "correct_answer": "A rapid decline in death rate, maternal mortality rate (MMR), and infant mortality rate (IMR), along with an increase in the number of people of reproducible age.",
+          "explanation": " A rapid decline in death rate, maternal mortality rate (MMR), and infant mortality rate (IMR).\n\nReason: Improved medical facilities and better living conditions have drastically reduced mortality rates while birth rates remain high."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Write two examples of analogy in organisms.",
+          "correct_answer": "1. Wings of butterfly (insects) and of birds, 2. Eye of the octopus and of mammals (or flippers of penguins and dolphins).",
+          "explanation": " 1. Wings of butterfly and birds, 2. Eye of the octopus and mammals.\n\nReason: Analogous structures are anatomically different and have different origins, yet they perform similar functions due to convergent evolution."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Write the name of two diseases caused by bacteria.",
+          "correct_answer": "Typhoid and Pneumonia (or Cholera / Tuberculosis).",
+          "explanation": " Typhoid and Pneumonia.\n\nReason: Typhoid is caused by Salmonella typhi and Pneumonia is caused by Streptococcus pneumoniae."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is the term used for utilising bio-resources from the countries and people concerned without proper authorisation or compensatory payment?",
+          "correct_answer": "Biopiracy",
+          "explanation": " Biopiracy\n\nReason: Biopiracy refers to the use of bio-resources by multinational companies and other organisations without proper authorisation from the countries and people concerned without compensatory payment."
+        },
+        {
+          "q_id": "v",
+          "statement": "Write one major cause of the extinction of animals and plants.",
+          "correct_answer": "Habitat loss and fragmentation.",
+          "explanation": " Habitat loss and fragmentation.\n\nReason: Deforestation, urbanization, and destruction of natural habitats represent the most important cause driving animals and plants to extinction."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "On the basis of the diagram given below, answer the following questions:\n(i) Which process is shown in the diagram?\n(ii) Which gamete transport is prevented by this process?",
+          "correct_answer": "",
+          "isAnswerImage": false,
+          "imgUrl": "",
+          "explanation": "\n(i) Process shown: Vasectomy (Male sterilization). It is a permanent surgical contraceptive method in males in which a small part of the vas deferens is removed or tied up through a small incision on the scrotum.\n\n(ii) Gamete transport prevented: This surgical procedure blocks the transport of male gametes, i.e., sperms, from the testes to the urethra, thereby preventing fertilization."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why are sickle cell anemia and thalassemia called autosomal recessive disorders?",
+          "correct_answer": "",
+          "explanation": "\nBoth sickle cell anemia and thalassemia are caused by mutations in genes located on autosomes (non-sex chromosomes—chromosome 11 for sickle cell anemia and beta-thalassemia; chromosome 16 for alpha-thalassemia).\n\nThey are termed recessive because the disease phenotype is expressed in offspring only when both parents are carriers (heterozygous) and transmit the defective recessive allele to the child (homozygous recessive state)."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If there is a sudden change in the environment, how can natural selection affect the existence of a population?",
+          "correct_answer": "",
+          "explanation": "\nWhen a sudden environmental change occurs (such as the introduction of antibiotics or pesticides), only those individuals in a population that already possess pre-existing adaptive variations suited to the new condition are able to survive.\n\nNatural selection favours these better-adapted individuals, enabling them to reproduce more and pass on their advantageous traits, thereby ensuring the survival and evolution of the population while unadapted individuals perish."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "\"Microorganisms can be harmful as well as highly useful to humans.\" Write any two examples to justify this statement.",
+          "correct_answer": "",
+          "explanation": "\n1. Harmful Microorganisms (Pathogens): Many microbes cause serious diseases in humans, plants, and animals. For example, the bacterium Salmonella typhi causes typhoid, and the protozoan Plasmodium causes malaria.\n\n2. Useful Microorganisms: Many microbes are vital for human welfare. For example, Lactobacillus converts milk into nutritious curd, and the fungus Penicillium notatum produces the life-saving antibiotic penicillin."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is mutualism? Write with one example.",
+          "correct_answer": "",
+          "explanation": "\nMutualism: It is an interspecific ecological interaction that confers benefits on both interacting species (+, +), often involving close physical association and co-evolution.\n\nExample: Lichens — an intimate mutualistic relationship between a fungus and photosynthesizing algae or cyanobacteria. The algae prepare food via photosynthesis, while the fungus provides shelter and absorbs water and mineral nutrients."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the significance of E. coli in the production of human insulin?",
+          "correct_answer": "",
+          "explanation": "\nUsing recombinant DNA technology, the DNA sequences corresponding to chains A and B of human insulin are separately introduced into the plasmids of Escherichia coli (E. coli) bacteria.\n\nBecause E. coli multiplies rapidly, it produces large quantities of chains A and B separately, which are then extracted and combined by creating disulfide bonds to form safe, active human insulin (Humulin)."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If biodiversity in an area is rapidly declining, write two effective measures for its conservation.",
+          "correct_answer": "",
+          "explanation": "\n1. In-situ (On-site) Conservation: Protecting the entire ecosystem by declaring the area a National Park, Wildlife Sanctuary, Biosphere Reserve, or Sacred Grove so species thrive in their natural habitat.\n\n2. Ex-situ (Off-site) Conservation: Taking threatened animals and plants out from their natural habitat and placing them in special protective facilities like Zoological Parks, Botanical Gardens, and Seed/Gene Banks."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw a well-labelled diagram of human sperm.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "\n[Structure & Labelling Details of Human Sperm:]\nA microscopic human sperm is enveloped by a plasma membrane and consists of four distinct parts:\n1. Head: Contains an elongated haploid nucleus, and its anterior portion is covered by a cap-like structure called the acrosome, filled with enzymes that help in fertilization of the ovum.\n2. Neck: A short region connecting the head and middle piece.\n3. Middle piece: Possesses numerous mitochondria arranged spirally, which produce energy (ATP) for the movement of the tail.\n4. Tail: Facilitates sperm motility essential for fertilization."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "If fertilization does not occur in humans, write the changes that take place in the female reproductive system.",
+            "correct_answer": "",
+            "explanation": "\nIn the absence of fertilization after ovulation, the following changes occur in the human female reproductive system:\n\n1. Degeneration of Corpus Luteum: The corpus luteum is no longer maintained and degenerates into a whitish scar tissue called corpus albicans.\n2. Drop in Progesterone Level: Degeneration of the corpus luteum causes a sharp decline in the level of progesterone hormone.\n3. Menstruation: Due to the lack of progesterone, the thickened endometrial lining of the uterus disintegrates and sheds off along with blood vessels and the unfertilized ovum through the vagina as menstrual flow, marking the start of a new menstrual cycle."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write about co-dominance and incomplete dominance with one example of each.",
+          "correct_answer": "",
+          "explanation": "\n1. Co-dominance:\nWhen both alleles of a gene pair in a heterozygous organism are fully and independently expressed in the F₁ generation without blending or suppressing each other, the phenomenon is called co-dominance.\n• Example: AB blood group in humans (genotype IᴬIᴮ), where red blood cells express both A and B types of surface sugar polymers simultaneously.\n\n2. Incomplete Dominance:\nWhen neither of the two alleles of a gene is completely dominant over the other, resulting in an intermediate phenotype in the F₁ heterozygote that does not resemble either parent.\n• Example: Flower colour in Snapdragon (Antirrhinum sp.), where a cross between true-breeding red-flowered (RR) and white-flowered (rr) plants produces pink-flowered (Rr) F₁ progeny."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "How does sex determination in honeybees occur?",
+            "correct_answer": "",
+            "explanation": "\nSex determination in honeybees is based on the number of sets of chromosomes an individual receives (Haplodiploid sex-determination system):\n\n1. Females (Queen and Workers): Offspring formed from the union of a sperm and an egg develop as females and are diploid (2n = 32 chromosomes).\n2. Males (Drones): Unfertilized eggs develop by means of parthenogenesis into males (drones), which are haploid (n = 16 chromosomes).\n\nKey Feature: Males produce sperms by mitosis; they do not have fathers and thus cannot have sons, but have a grandfather and can have grandsons."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the role of Lactic Acid Bacteria in the formation of curd and write two health benefits of curd.",
+          "correct_answer": "",
+          "explanation": "\n1. Role of Lactic Acid Bacteria (LAB) in Curd Formation:\nMicroorganisms such as Lactobacillus grow in milk and produce lactic acid during growth. This acid coagulates and partially digests the milk proteins (casein), converting liquid milk into thick curd.\n\n2. Two Health Benefits of Curd:\n1. Enhanced Nutritional Quality: Curd improves the nutritional value of milk by significantly increasing Vitamin B₁₂ content.\n2. Protection Against Pathogens: In the human stomach, LAB play a very beneficial role in checking disease-causing microbes and maintaining healthy gut flora."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "How is biogas produced? Write the name of the microbe used in biogas production.",
+            "correct_answer": "",
+            "explanation": "\n1. Production of Biogas:\nBiogas is produced in a closed, oxygen-free (anaerobic) concrete digester tank fed with a slurry of cattle dung (gobar) and water. Certain anaerobic bacteria digest the cellulosic material present in the dung, generating a mixture of inflammable gases consisting primarily of methane (CH₄), along with carbon dioxide (CO₂) and hydrogen (H₂).\n\n2. Name of Microbe Used:\nMethanogens (methane-producing bacteria), commonly Methanobacterium."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are Gross Primary Productivity and Net Primary Productivity? Write the relationship between them.",
+          "correct_answer": "",
+          "explanation": "\n1. Gross Primary Productivity (GPP): It is the total rate of production of organic matter during photosynthesis by producers in an ecosystem.\n\n2. Net Primary Productivity (NPP): A considerable amount of GPP is utilized by plants in respiration (R). The remaining biomass or energy left after respiratory losses—which is available for consumption by heterotrophs (herbivores and decomposers)—is called Net Primary Productivity.\n\n3. Relationship Equation:\nNPP = GPP - R\n(where R = Respiration losses)"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write three differences between a food chain and a food web.",
+            "correct_answer": "",
+            "explanation": "\nThree main differences between a Food Chain and a Food Web are:\n\n| S.No. | Basis | Food Chain | Food Web |\n|---|---|---|---|\n| 1. | Structure | It is a simple, straight, single linear pathway of energy and nutrient transfer. | It is a complex network formed by the interconnection of multiple food chains. |\n| 2. | Feeding Options | Each organism occupies a fixed trophic level and depends on a single source of food. | Organisms have alternative food sources across different trophic levels. |\n| 3. | Ecosystem Stability | Removal of a single species disrupts the entire chain. | Increases the adaptability and overall stability of the ecosystem. |"
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw a labelled diagram of a mature embryo sac of an angiosperm and write the role of synergids.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "\n(1) Structure of Mature Embryo Sac (7-celled, 8-nucleate):\n• Chalazal end: Three antipodal cells.\n• Central region: A large central cell containing two polar nuclei.\n• Micropylar end: The egg apparatus consisting of one egg cell and two synergids with filiform apparatus.\n\n(2) Role of Synergids:\n1. Guidance of Pollen Tube: Synergids possess special cellular thickenings at the micropylar tip called the filiform apparatus, which secrete chemotropic substances to guide the entry of the pollen tube into the synergid.\n2. Absorption & Nutrition: They absorb nutrients from the surrounding nucellus and facilitate the release and movement of male gametes towards the egg cell and central cell for double fertilization."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Describe the following with an example:\n(i) Autogamy\n(ii) Polyembryony",
+            "correct_answer": "",
+            "explanation": "\n(i) Autogamy:\nIt is a type of self-pollination in which pollen grains are transferred from the anther to the stigma of the same flower. In normal chasmogamous flowers, complete autogamy is rare and requires synchrony in pollen release and stigma receptivity, along with close proximity of anthers and stigma.\n• Example: Pea, Viola (common pansy), Oxalis, and Commelina (cleistogamous flowers).\n\n(ii) Polyembryony:\nThe occurrence of more than one embryo in a single seed is referred to as polyembryony. In many varieties, some of the nucellar cells surrounding the embryo sac start dividing, protrude into the embryo sac, and develop into multiple embryos.\n• Example: Citrus fruits (orange, lemon) and Mango."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The length of DNA in a eukaryotic cell is large, yet it remains organized within the nucleus. Draw the structure of a nucleosome and also write how histone proteins help in DNA packaging.",
+          "correct_answer": "",
+          "isAnswerImage": true,
+          "imgUrl": "",
+          "explanation": "\n(1) Role of Histone Proteins in DNA Packaging:\nIn a typical mammalian cell, the length of the DNA double helix is approximately 2.2 metres, which is packaged inside a tiny nucleus (~10⁻⁶ m) with the help of positively charged basic proteins called histones.\n\n• Histone Octamer: Histones are rich in basic amino acid residues—lysines and arginines—which carry positive charges in their side chains. Eight histone molecules (two copies each of H2A, H2B, H3, and H4) organize to form a unit called a histone octamer.\n• Nucleosome Formation: The negatively charged DNA is wrapped around the positively charged histone octamer (1¾ turns) to form a structure called a nucleosome. A typical nucleosome contains 200 base pairs (bp) of DNA helix.\n• Chromatin Condensation: Repeating units of nucleosomes linked by H1 histone form chromatin fibres ('beads-on-string' structure), which further coil and condense at metaphase with the help of Non-Histone Chromosomal (NHC) proteins to form chromosomes.\n\n(2) Labelled Diagram:\n[Draw the structure of a nucleosome showing the core of histone molecules (octamer), DNA wrapped around it, and H1 histone.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write four salient features of the Human Genome Project.",
+            "correct_answer": "",
+            "explanation": "\nFour salient observations drawn from the Human Genome Project (HGP) are:\n\n1. Total Base Pairs: The human genome contains 3164.7 million nucleotide base pairs (bp).\n2. Total Number of Genes: The total number of genes is estimated at about 30,000—much lower than previous estimates (80,000 to 1,40,000). An average gene consists of 3,000 bases, while the largest known human gene is dystrophin at 2.4 million bases.\n3. Protein-Coding & Repeated Sequences: Less than 2 percent of the genome codes for proteins, and the functions of over 50 percent of discovered genes are still unknown. Repeated sequences make up a very large portion of the human genome.\n4. Chromosomal Gene Distribution & Similarity: Chromosome 1 has the most genes (2,968), and the Y chromosome has the fewest (231). Almost all (99.9 percent) nucleotide bases are exactly the same in all people."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Describe malaria under the following points:\n(i) Name of pathogen\n(ii) Name of vector\n(iii) Causes of disease\n(iv) Prevention of disease",
+          "correct_answer": "",
+          "explanation": "\n(i) Name of Pathogen:\nMalaria is caused by a tiny protozoan parasite named Plasmodium. Different species include P. vivax, P. malariae, and P. falciparum (which causes malignant malaria, the most serious and potentially fatal form).\n\n(ii) Name of Vector:\nThe disease is transmitted by the female Anopheles mosquito, which acts as both vector and host.\n\n(iii) Causes and Mechanism of Disease:\nPlasmodium enters the human body as sporozoites through the bite of an infected female Anopheles mosquito. The parasites initially multiply within liver cells and then attack red blood cells (RBCs), resulting in their rupture. The rupture of RBCs is associated with the release of a toxic substance called haemozoin, which causes chill and high fever recurring every three to four days.\n\n(iv) Prevention of Disease:\n1. Avoiding stagnation of water in and around residential areas and regular cleaning of domestic coolers.\n2. Using mosquito nets and mosquito repellents.\n3. Introducing larvivorous fishes like Gambusia in ponds that feed on mosquito larvae, and spraying insecticides in drainage areas."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Abuse of drugs and alcohol impacts the individual as well as their family and society. Write down two physical, psychological, social, and economical ill-effects.",
+            "correct_answer": "",
+            "explanation": "\nThe ill-effects of drug and alcohol abuse are categorized below:\n\n1. Two Physical Ill-Effects:\n• Damage to the nervous system and liver cirrhosis.\n• Respiratory failure, heart failure, or cerebral hemorrhage due to excessive dosage (overdose), leading to coma and death.\n\n2. Two Psychological Ill-Effects:\n• Severe depression, anxiety, irritability, and hallucinations.\n• Loss of memory, poor concentration, and impaired judgment.\n\n3. Two Social Ill-Effects:\n• Breakdown of relationships with family and friends, leading to social isolation.\n• Involvement in reckless, aggressive, violent behaviour, and anti-social crimes like stealing.\n\n4. Two Economic Ill-Effects:\n• Depletion of family savings and financial distress to fund the addiction.\n• Loss of productivity and unemployment, pushing the family into poverty."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Answer the following questions in the context of PCR:\n(i) Write the full form of PCR.\n(ii) Write the names of different stages of PCR.\n(iii) From which organism is Taq polymerase obtained?\n(iv) Why is Taq polymerase used?",
+          "correct_answer": "",
+          "explanation": "\n(i) Full Form of PCR:\nPolymerase Chain Reaction. Invented by Kary Mullis, this technique synthesizes multiple copies (billions) of a gene or DNA segment of interest in vitro using two sets of primers and DNA polymerase.\n\n(ii) Three Stages of a PCR Cycle:\n1. Denaturation — Heating double-stranded DNA to ~94°C to separate the two strands.\n2. Primer Annealing — Cooling to ~50–60°C so oligonucleotide primers hybridize to complementary sequences on single-stranded DNA.\n3. Extension of Primers — Synthesizing new complementary DNA strands at ~72°C using dNTPs and DNA polymerase.\n\n(iii) Source Organism of Taq Polymerase:\nIt is isolated from a thermophilic bacterium called Thermus aquaticus.\n\n(iv) Reason for Using Taq Polymerase:\nDuring the denaturation step of PCR, very high temperature (~94°C) is required to separate DNA strands, which denatures normal DNA polymerases. Taq polymerase is a thermostable enzyme that remains active during the high-temperature-induced denaturation of double-stranded DNA."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write the following in brief:\n(i) Bio-reactor\n(ii) Downstream processing",
+            "correct_answer": "",
+            "explanation": "\n(i) Bio-reactor:\nBioreactors are large vessels (100–1000 litres capacity) in which raw materials are biologically converted into specific products, individual enzymes, etc., using microbial, plant, animal, or human cells.\n• Working: A bioreactor provides optimal growth conditions (temperature, pH, substrate, salts, vitamins, oxygen) for achieving the desired product. Stirred-tank bioreactors are the most commonly used type, facilitating mixing and oxygen availability throughout the bioreactor.\n\n(ii) Downstream Processing:\nAfter completion of the biosynthetic stage in a bioreactor, the product has to be subjected through a series of processes before it is ready for marketing as a finished product. These processes are collectively called downstream processing.\n• Key Steps: It includes separation and purification of the product. The product is then formulated with suitable preservatives, and in the case of drugs, such formulations must undergo thorough clinical trials and strict quality control testing."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    }
+  ]
+}

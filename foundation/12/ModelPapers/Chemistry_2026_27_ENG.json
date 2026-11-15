@@ -1,0 +1,669 @@
+{
+  "paper_details": {
+    "paperYear": "2026-2027",
+    "subjectName": "Chemistry",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "07",
+    "timeAllowed": "3 Hrs.",
+    "board": "MP Board",
+    "examType": "Sample Question Paper for Practice only - Higher Secondary Examination",
+    "set": "",
+    "paperCode": "",
+    "language": "English Version",
+    "instructions": [
+      "All questions are compulsory.",
+      "There are 28 objective questions from question Nos. 1 to 5. Each question carries 1 mark.",
+      "Internal options are given from question Nos. 13 to 20.",
+      "Question Nos. 6 to 12 are Very Short Answer type questions. Answer each question in about 30 words. Each question carries 2 marks.",
+      "Question Nos. 13 to 16 are Short Answer type questions. Answer each question in about 75 words. Each question carries 3 marks.",
+      "Question Nos. 17 to 20 are Long Answer type questions. Answer each question in about 120 words. Each question carries 4 marks."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Unit of conductivity is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Ω⁻¹"
+            },
+            {
+              "index": "b",
+              "text": "Ω cm"
+            },
+            {
+              "index": "c",
+              "text": "Ω⁻¹ cm⁻¹"
+            },
+            {
+              "index": "d",
+              "text": "cm⁻¹"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Ω⁻¹ cm⁻¹",
+          "explanation": "Specific conductivity (κ) is the reciprocal of specific resistance (ρ) (κ = 1/ρ). Since the unit of ρ is Ω cm, the unit of conductivity is Ω⁻¹ cm⁻¹ (or S cm⁻¹)."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which of the following does not undergo hydrolysis easily?",
+          "options": [
+            {
+              "index": "a",
+              "text": "CH₃Cl"
+            },
+            {
+              "index": "b",
+              "text": "C₂H₅Cl"
+            },
+            {
+              "index": "c",
+              "text": "C₆H₅Cl"
+            },
+            {
+              "index": "d",
+              "text": "C₃H₇Cl"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "C₆H₅Cl",
+          "explanation": "In chlorobenzene (C₆H₅Cl), the C–Cl bond acquires partial double-bond character due to resonance, and the carbon atom is sp² hybridised. This makes the C–Cl bond much stronger and difficult to cleave during hydrolysis."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which of the following are not transition elements?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Cu, Ag, Au"
+            },
+            {
+              "index": "b",
+              "text": "Zn, Cd, Hg"
+            },
+            {
+              "index": "c",
+              "text": "Fe, Mn, Co"
+            },
+            {
+              "index": "d",
+              "text": "Cr, Mo, W"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Zn, Cd, Hg",
+          "explanation": "Zn, Cd, and Hg have completely filled d-orbitals (d¹⁰ configuration) in both their ground state and their common oxidation state (+2). Therefore, they are not regarded as transition elements."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Homoleptic complex is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "[Ni(NH₃)₂Cl₂]"
+            },
+            {
+              "index": "b",
+              "text": "[Co(NH₃)₅Cl]Cl₂"
+            },
+            {
+              "index": "c",
+              "text": "[Cr(NH₃)₃(H₂O)₃]Cl₃"
+            },
+            {
+              "index": "d",
+              "text": "[Ni(CO)₄]"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "[Ni(CO)₄]",
+          "explanation": "In [Ni(CO)₄], the central metal atom Ni is coordinated to only one type of donor ligand group (CO), making it a homoleptic complex."
+        },
+        {
+          "q_id": "v",
+          "statement": "Molal depression constant of water is –",
+          "options": [
+            {
+              "index": "a",
+              "text": "0.52"
+            },
+            {
+              "index": "b",
+              "text": "1.86"
+            },
+            {
+              "index": "c",
+              "text": "2.53"
+            },
+            {
+              "index": "d",
+              "text": "5.12 K kg mol⁻¹"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "1.86",
+          "explanation": "The molal freezing point depression constant (K_f) of water is 1.86 K kg mol⁻¹ (whereas 0.52 K kg mol⁻¹ is the molal boiling point elevation constant K_b of water)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Proteins are polymers of –",
+          "options": [
+            {
+              "index": "a",
+              "text": "Nucleic acid"
+            },
+            {
+              "index": "b",
+              "text": "Amino acids"
+            },
+            {
+              "index": "c",
+              "text": "Glucose"
+            },
+            {
+              "index": "d",
+              "text": "Amine"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Amino acids",
+          "explanation": "Proteins are high molecular mass natural condensation polymers of α-amino acids linked together by peptide bonds."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "2,4,6-trinitrophenol is called {BLANK}.",
+          "options": [],
+          "correct_answer": "Picric acid",
+          "explanation": " Picric acid\n\nReason: 2,4,6-trinitrophenol is a yellow crystalline solid with strong acidic properties, commonly known as picric acid."
+        },
+        {
+          "q_id": "ii",
+          "statement": "{BLANK} of electricity are needed to obtain 20 g Ca from CaCl₂.",
+          "options": [],
+          "correct_answer": "1 F (One Faraday)",
+          "explanation": " 1 F (One Faraday)\n\nReason: According to Ca²⁺ + 2e⁻ ⟶ Ca, 2F of charge is required to deposit 1 mole (40 g) of Ca. Therefore, 1 Faraday (1F) of electricity is needed to obtain 20 g of Ca."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Acidic hydrolysis of ethyl acetate is a {BLANK} reaction.",
+          "options": [],
+          "correct_answer": "Pseudo first order",
+          "explanation": " Pseudo first order\n\nReason: Since water is present in large excess, its concentration remains practically constant during the reaction, and the rate depends solely on the concentration of ethyl acetate."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The correct formula of chromyl chloride is {BLANK}.",
+          "options": [],
+          "correct_answer": "CrO₂Cl₂",
+          "explanation": " CrO₂Cl₂\n\nReason: The chemical formula of chromyl chloride is CrO₂Cl₂, which is used in the chromyl chloride test for chloride ions and in the Etard reaction."
+        },
+        {
+          "q_id": "v",
+          "statement": "{BLANK} depend only on the number of solute particles.",
+          "options": [],
+          "correct_answer": "Colligative properties",
+          "explanation": " Colligative properties\n\nReason: Properties of solutions that depend solely on the number of solute particles irrespective of their chemical nature are called colligative properties."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Aldehydes and ketones with {BLANK} undergo aldol condensation.",
+          "options": [],
+          "correct_answer": "α-hydrogen",
+          "explanation": " α-hydrogen\n\nReason: Aldehydes and ketones containing at least one α-hydrogen atom undergo aldol condensation in the presence of a dilute alkali."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Iodoform is used as an antiseptic.",
+          "correct_answer": "true",
+          "explanation": " True\n\nReason: When iodoform (CHI₃) comes in contact with the skin, it liberates free iodine, which gives it antiseptic properties."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The cell potential is the addition of the reduction potential of the cathode and anode.",
+          "correct_answer": "false",
+          "explanation": " False\n\nReason: Cell potential is the difference between the reduction potentials of the cathode and the anode (E_cell = E_cathode - E_anode), not their addition."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Ethyl alcohol is known as spirit of wine.",
+          "correct_answer": "true",
+          "explanation": " True\n\nReason: Ethyl alcohol (ethanol) is traditionally obtained by the distillation of fermented grains and fruits, hence it is known as 'spirit of wine'."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Vitamin B₁₂ is a coordination compound containing Co.",
+          "correct_answer": "true",
+          "explanation": " True\n\nReason: Vitamin B₁₂ (cyanocobalamin) is a naturally occurring coordination compound containing cobalt (Co) as the central metal atom."
+        },
+        {
+          "q_id": "v",
+          "statement": "d²sp³ hybridization is tetrahedral, while dsp² hybridization is square planar.",
+          "correct_answer": "false",
+          "explanation": " False\n\nReason: d²sp³ hybridisation gives an octahedral geometry, whereas dsp² hybridisation gives a square planar geometry."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Presence of 1 ppm lead ions in water makes it poisonous.",
+          "correct_answer": "true",
+          "explanation": " True\n\nReason: The prescribed upper limit of lead concentration in drinking water is about 50 ppb; a concentration of 1 ppm makes water toxic and damages the liver and kidneys."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×5=5",
+      "text": "Match the following:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column (A)",
+        "column_B_title": "Column (B)",
+        "pairs": [
+          {
+            "a_item": "1. Hinsberg reagent",
+            "b_item": "Glycogen",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "2. Arrhenius equation",
+            "b_item": "Benzene sulphonyl chloride",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "3. Polysaccharide",
+            "b_item": "Rate constant",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "4. cis-platin",
+            "b_item": "Primary amine",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "5. Isocyanide test",
+            "b_item": "Tumour",
+            "correct_match_index": "4"
+          }
+        ]
+      },
+      "explanation": "The correct matching of Column (A) with Column (B) and their reasons are as follows:\n\n1. Hinsberg reagent ⟶ Benzene sulphonyl chloride\nReason: Benzene sulphonyl chloride (C₆H₅SO₂Cl) is known as Hinsberg's reagent.\n\n2. Arrhenius equation ⟶ Rate constant\nReason: The Arrhenius equation (k = A e^(-Ea/RT)) shows the temperature dependence of the rate constant (k).\n\n3. Polysaccharide ⟶ Glycogen\nReason: Glycogen is a branched-chain polysaccharide composed of glucose units.\n\n4. cis-platin ⟶ Tumour\nReason: cis-platin ([Pt(NH₃)₂Cl₂]) is a coordination compound used in the treatment of cancer and tumours.\n\n5. Isocyanide test ⟶ Primary amine\nReason: The carbylamine (isocyanide) test is given exclusively by primary amines (1° amines)."
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Answer in one word or sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Draw the zwitter ion structure for sulphanilic acid.",
+          "correct_answer": "⁺H₃N–C₆H₄–SO₃⁻",
+          "explanation": " ⁺H₃N–C₆H₄–SO₃⁻ (Dipolar ion structure containing –NH₃⁺ and –SO₃⁻ groups at para positions on the benzene ring)."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What happens to the rate constant and activation energy E_a as the temperature of a chemical reaction increases?",
+          "correct_answer": "The rate constant (k) increases, while the activation energy (E_a) remains almost unchanged.",
+          "explanation": " With an increase in temperature, the rate constant (k) increases exponentially, whereas the activation energy (E_a) remains practically unchanged."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Name the reaction in which benzene diazonium chloride reacts with phenol to form a dye.",
+          "correct_answer": "Coupling reaction",
+          "explanation": " Coupling reaction, which produces an orange-coloured azo dye (p-hydroxyazobenzene)."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What type of isomerism is shown by [Co(NH₃)₅NO₂]Cl₂ and [Co(NH₃)₅ONO]Cl₂?",
+          "correct_answer": "Linkage isomerism",
+          "explanation": " Linkage isomerism, because the ambidentate ligand NO₂⁻ coordinates through the N atom in the first complex and through the O atom in the second."
+        },
+        {
+          "q_id": "v",
+          "statement": "Write the unit of rate constant for radioactive decay reactions.",
+          "correct_answer": "time⁻¹ (s⁻¹ or year⁻¹)",
+          "explanation": " time⁻¹ (s⁻¹, min⁻¹, or year⁻¹), because all radioactive decay processes follow first-order kinetics."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(a) How can the activating effect of –NH₂ group in aniline be controlled?\n(b) Convert bromoethane into propanamine.",
+          "correct_answer": "",
+          "explanation": "\n(a) The strong activating effect of the –NH₂ group in aniline can be controlled by acetylation with acetic anhydride [(CH₃CO)₂O] in the presence of pyridine to form acetanilide. The lone pair on nitrogen enters into resonance with the carbonyl oxygen, reducing its electron density donation into the benzene ring.\n\n(b) Conversion of bromoethane to propanamine:\nCH₃CH₂Br + KCN (alc.) ⟶ CH₃CH₂CN ⟶(4[H] / LiAlH₄ or Na/C₂H₅OH) CH₃CH₂CH₂NH₂ (Propan-1-amine)"
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(a) Write formula of the following complex: Tris(ethylenediamine)cobalt(III) chloride\n(b) Write IUPAC name of: K₃[Al(C₂O₄)₃]",
+          "correct_answer": "",
+          "explanation": "\n(a) Formula of Tris(ethylenediamine)cobalt(III) chloride: [Co(en)₃]Cl₃\n(b) IUPAC name of K₃[Al(C₂O₄)₃]: Potassium trioxalatoaluminate(III)"
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What are the differences between DNA and RNA?",
+          "correct_answer": "",
+          "explanation": "\nKey differences between DNA and RNA:\n1. Sugar moiety: DNA contains β-D-2-deoxyribose sugar, whereas RNA contains β-D-ribose sugar.\n2. Nitrogenous bases: DNA contains thymine (T), whereas RNA contains uracil (U) instead of thymine.\n3. Structure: DNA is double-stranded, while RNA is usually single-stranded."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What happens when (write only chemical equation):\n(a) Benzene is reacted with acetyl chloride in presence of anhydrous aluminium chloride.\n(b) Benzene is heated with CO and HCl in presence of anhydrous aluminium chloride.",
+          "correct_answer": "",
+          "explanation": "\n(a) Friedel-Crafts acylation reaction:\nC₆H₆ + CH₃COCl ⟶(Anhyd. AlCl₃) C₆H₅COCH₃ (Acetophenone) + HCl\n\n(b) Gattermann-Koch reaction:\nC₆H₆ + CO + HCl ⟶(Anhyd. AlCl₃ / CuCl) C₆H₅CHO (Benzaldehyde) + HCl"
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is Cr²⁺ a strong reducing agent while Mn³⁺ is an oxidising agent?",
+          "correct_answer": "",
+          "explanation": "\nCr²⁺ (d⁴) loses an electron to form Cr³⁺ (d³), which attains a half-filled and exceptionally stable t₂g³ configuration in aqueous medium; hence Cr²⁺ acts as a strong reducing agent.\nConversely, Mn³⁺ (d⁴) gains an electron to form Mn²⁺ (d⁵), which achieves an extra-stable half-filled (d⁵) electronic configuration; therefore Mn³⁺ acts as a strong oxidising agent."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Give reasons for the following:\n(a) The mercury cell provides constant potential during its life span.\n(b) In experimental determination of electrolytic conductivity, direct current (DC) is not used.",
+          "correct_answer": "",
+          "explanation": "\n(a) The overall cell reaction of a mercury cell [Zn(Hg) + HgO(s) ⟶ ZnO(s) + Hg(l)] does not involve any ion in solution whose concentration can change during its lifetime; hence, its cell potential remains constant at 1.35 V throughout its working life.\n\n(b) Passing direct current (DC) causes electrolysis of the solution, which changes the ionic concentration and leads to polarisation at the electrodes, giving inaccurate resistance measurements. Therefore, alternating current (AC) is used."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(a) Why does p-dichlorobenzene have a higher m.p. than its o- and m-isomers?\n(b) Why is (±)-Butan-2-ol optically inactive?",
+          "correct_answer": "",
+          "explanation": "\n(a) p-Dichlorobenzene has a symmetrical molecular structure, allowing its molecules to pack much more closely in the crystal lattice than its o- and m-isomers. Consequently, greater thermal energy is required to break the crystal lattice, resulting in a higher melting point.\n\n(b) (±)-Butan-2-ol is a racemic mixture containing equimolar (50:50) proportions of dextrorotatory (+) and laevorotatory (–) enantiomers. The optical rotation caused by one enantiomer is completely cancelled out by the equal and opposite rotation of the other (external compensation), making it optically inactive."
+        }
+      ],
+      "word_limit": "About 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Prove that the half-life period of zero order reaction is directly proportional to the initial concentration of the reactants.",
+          "correct_answer": "",
+          "explanation": "Solution:\nThe integrated rate equation for a zero-order reaction is:\nk = ([R]₀ - [R]) / t   ...(1)\n(where [R]₀ = initial concentration, [R] = concentration at time t, and k = rate constant)\n\nAt half-life period (t₁/₂), the concentration of the reactant is reduced to half of its initial value, i.e., t = t₁/₂ and [R] = [R]₀ / 2.\n\nSubstituting these values into equation (1):\nk = ([R]₀ - [R]₀ / 2) / t₁/₂\nk = [R]₀ / (2 t₁/₂)\nt₁/₂ = [R]₀ / (2k)\n\nSince k is a constant at a given temperature:\nt₁/₂ ∝ [R]₀\n\nHence, the half-life period of a zero-order reaction is directly proportional to the initial concentration of the reactants (Proved)."
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Prove that the half-life period for a first order reaction does not depend on the initial concentration of the reactants.",
+            "correct_answer": "",
+            "explanation": "Solution:\nThe integrated rate equation for a first-order reaction is:\nk = (2.303 / t) log ([R]₀ / [R])   ...(1)\n\nAt half-life period (t₁/₂), t = t₁/₂ and [R] = [R]₀ / 2.\n\nSubstituting these values into equation (1):\nk = (2.303 / t₁/₂) log ([R]₀ / ([R]₀ / 2))\nk = (2.303 / t₁/₂) log 2\n\nSince log 2 = 0.3010:\nt₁/₂ = (2.303 × 0.3010) / k\nt₁/₂ = 0.693 / k\n\nBecause the final expression does not contain any term for the initial concentration [R]₀, the half-life period of a first-order reaction is independent of the initial concentration of the reactants (Proved)."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(a) Why is the C–O bond length in phenol less than that in methanol?\n(b) Arrange the following in order of increasing boiling point:\nethoxyethane, butanal, butanol, n-butane.",
+          "correct_answer": "",
+          "explanation": "\n(a) The C–O bond length in phenol (136 pm) is shorter than in methanol (142 pm) due to:\n1. Resonance: The lone pair of electrons on the oxygen atom in phenol is delocalised into the benzene ring, imparting partial double-bond character to the C–O bond.\n2. Hybridisation: The carbon atom attached to the –OH group in phenol is sp² hybridised (higher s-character results in a shorter bond), whereas in methanol it is sp³ hybridised.\n\n(b) Increasing order of boiling points:\nn-butane < ethoxyethane < butanal < butanol\n(Reason: n-butane has weak van der Waals forces, ethoxyethane and butanal have dipole-dipole interactions, while butanol has strong intermolecular hydrogen bonding.)"
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "(a) How can phenol be prepared from anisole? Give chemical equation.\n(b) Explain the hydroboration-oxidation reaction with an example.",
+            "correct_answer": "",
+            "explanation": "\n(a) Preparation of phenol from anisole:\nWhen anisole (methoxybenzene) is heated with concentrated hydroiodic acid (HI) at 373 K, it cleaves to yield phenol and iodomethane.\nEquation: C₆H₅OCH₃ + HI ⟶(373 K) C₆H₅OH + CH₃I\n\n(b) Hydroboration-oxidation reaction:\nAlkenes react with diborane (B₂H₆) to form trialkyl boranes as an addition product, which upon oxidation with hydrogen peroxide (H₂O₂) in the presence of aqueous NaOH yields primary alcohols according to the anti-Markovnikov rule.\nExample (Propene to Propan-1-ol):\n3 CH₃–CH=CH₂ + (BH₃)₂ ⟶ (CH₃–CH₂–CH₂)₃B ⟶(3H₂O₂ / OH⁻) 3 CH₃–CH₂–CH₂–OH + B(OH)₃"
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain the formation of the following linkages:\n(a) Peptide linkage\n(b) Glycosidic linkage\n(c) Phosphodiester linkage",
+          "correct_answer": "",
+          "explanation": "\n(a) Peptide linkage: In proteins, two α-amino acid molecules combine through the carboxyl group (–COOH) of one and the amino group (–NH₂) of the other with the elimination of a water molecule to form an amide bond (–CO–NH–) known as a peptide linkage.\n\n(b) Glycosidic linkage: In disaccharides and polysaccharides, two monosaccharide units are joined together by an oxide linkage (–C–O–C–) formed by the loss of a water molecule between their hydroxyl groups. This bond is called a glycosidic linkage.\n\n(c) Phosphodiester linkage: In nucleic acids (DNA/RNA), two nucleotides are linked together between the 5'-carbon of the pentose sugar of one nucleotide and the 3'-carbon of the sugar of the next nucleotide via a phosphate group. This diester bridge is called a phosphodiester linkage."
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What happens when D-glucose is treated with the following reagents:\n(a) HI\n(b) Bromine water\n(c) HNO₃",
+            "correct_answer": "",
+            "explanation": "\n(a) On prolonged heating with HI: D-glucose undergoes complete reduction to form n-hexane, proving that all six carbon atoms are linked in a straight chain.\nHOCH₂–(CHOH)₄–CHO + HI ⟶(Δ) CH₃–(CH₂)₄–CH₃ (n-hexane)\n\n(b) With Bromine water: Being a mild oxidising agent, bromine water oxidises only the aldehyde group (–CHO) to a carboxylic group to form gluconic acid.\nHOCH₂–(CHOH)₄–CHO + [O] ⟶(Br₂ water) HOCH₂–(CHOH)₄–COOH (Gluconic acid)\n\n(c) With concentrated HNO₃: Being a strong oxidising agent, nitric acid oxidises both the aldehyde group and the primary alcoholic group to yield a dicarboxylic acid called saccharic acid (glucaric acid).\nHOCH₂–(CHOH)₄–CHO ⟶(HNO₃) HOOC–(CHOH)₄–COOH (Saccharic acid)"
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(a) Explain why aryl halides are less reactive towards nucleophilic substitution than alkyl halides.\n(b) Arrange each set of compounds in order of increasing boiling points:\nBromomethane, Bromoform, Chloromethane, Dibromomethane.",
+          "correct_answer": "",
+          "explanation": "\n(a) Aryl halides are much less reactive towards nucleophilic substitution reactions than alkyl halides due to the following reasons:\n1. Resonance effect: The lone pairs of electrons on the halogen atom delocalise into the benzene ring, giving the C–X bond a partial double-bond character, making it harder to cleave.\n2. Hybridisation of carbon: In aryl halides, the carbon attached to the halogen is sp² hybridised, which is more electronegative and holds the electron pair more tightly, resulting in a shorter and stronger C–X bond.\n3. Instability of phenyl cation: Self-ionisation produces an unstable phenyl cation that cannot be stabilised by resonance.\n\n(b) Increasing order of boiling points:\nChloromethane (CH₃Cl) < Bromomethane (CH₃Br) < Dibromomethane (CH₂Br₂) < Bromoform (CHBr₃)\n(Reason: Boiling point increases with an increase in molecular mass and the number of halogen atoms due to stronger van der Waals forces.)"
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "(a) Write the structure of the major organic product in each of the following reactions:\n(A) 4-Nitroethylbenzene + Br₂ ⟶(heat or UV light)\n(B) 1-Methylcyclohexene + HI ⟶\n(b) Grignard reagents should be prepared under anhydrous conditions. Give reason.",
+            "correct_answer": "",
+            "explanation": "\n(a) Structures of major organic products:\n(A) Free-radical substitution takes place at the benzylic carbon to yield:\n1-(1-Bromoethyl)-4-nitrobenzene [O₂N–C₆H₄–CH(Br)CH₃]\n\n(B) Addition follows Markovnikov's rule to yield:\n1-Iodo-1-methylcyclohexane [C₆H₁₀(I)(CH₃)]\n\n(b) Reason: Grignard reagents (R–Mg–X) are highly reactive organometallic compounds. Even in the presence of traces of moisture or water, they react violently to decompose into the corresponding alkanes (hydrocarbons):\nR–Mg–X + H₂O ⟶ R–H + Mg(OH)X\nHence, they must be prepared under strictly anhydrous conditions."
+          }
+        ]
+      },
+      "word_limit": "About 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Give reasons:\n(a) The boiling points of aldehydes and ketones are higher than hydrocarbons and ethers of comparable molecular masses.\n(b) Aldehydes are generally more reactive than ketones.",
+          "correct_answer": "",
+          "explanation": "\n(a) Aldehydes and ketones possess a polar carbonyl group (>C=O), resulting in strong dipole-dipole intermolecular interactions between their molecules. In contrast, hydrocarbons of comparable molecular masses are non-polar (held only by weak London dispersion forces) and ethers are only weakly polar. Because more thermal energy is required to overcome these stronger dipole-dipole attractions, aldehydes and ketones have higher boiling points.\n\n(b) Aldehydes are generally more reactive than ketones towards nucleophilic addition reactions due to two main factors:\n1. Electronic effect (+I effect): Ketones have two electron-donating alkyl groups attached to the carbonyl carbon, which reduce its electrophilicity (positive charge density) more than the single alkyl group present in aldehydes.\n2. Steric hindrance: The presence of two bulky alkyl groups in ketones hinders the approach of an incoming nucleophile towards the carbonyl carbon much more than in aldehydes."
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain the following reactions with their chemical equations:\n(a) Stephen reaction\n(b) Rosenmund reaction",
+            "correct_answer": "",
+            "explanation": "\n(a) Stephen reaction:\nWhen alkyl or aryl nitriles (cyanides) are reduced with stannous chloride (SnCl₂) and hydrochloric acid (HCl) in ethereal medium, they form an intermediate imine hydrochloride, which upon hydrolysis with boiling water yields the corresponding aldehyde.\nChemical equation:\nR–C≡N + SnCl₂ + 2HCl ⟶ R–CH=NH·HCl ⟶(H₃O⁺) R–CHO + NH₄Cl\nExample: CH₃C≡N + 2[H] + HCl ⟶(SnCl₂/HCl) CH₃CH=NH·HCl ⟶(H₃O⁺) CH₃CHO + NH₄Cl\n\n(b) Rosenmund reaction:\nWhen an acyl chloride (acid chloride) in boiling xylene is hydrogenated over a palladium catalyst supported on barium sulphate (Pd/BaSO₄), an aldehyde is obtained. BaSO₄ acts as a catalytic poison to prevent further reduction of the aldehyde into an alcohol.\nChemical equation:\nR–COCl + H₂ ⟶(Pd / BaSO₄) R–CHO + HCl\nExample: C₆H₅COCl + H₂ ⟶(Pd / BaSO₄) C₆H₅CHO (Benzaldehyde) + HCl"
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain why –\n(a) Most transition elements and their compounds are coloured.\n(b) Transition metals are good catalysts.",
+          "correct_answer": "",
+          "explanation": "\n(a) Colour of transition elements and their compounds:\nTransition metal ions contain partially filled (n–1)d orbitals with unpaired electrons. Under the influence of approaching ligands, the degenerate d-orbitals split into two sets of different energies (t₂g and e_g). When visible light falls on these compounds, unpaired electrons absorb energy from a specific wavelength and undergo excitation from a lower-energy d-orbital to a higher-energy d-orbital (d–d transition). The transmitted light exhibits the complementary colour of the absorbed light. (Ions with d⁰ or d¹⁰ configurations are colourless.)\n\n(b) Catalytic properties of transition metals:\n1. Variable oxidation states: They can exhibit multiple oxidation states, enabling them to form unstable intermediate complexes with reactants and provide an alternative reaction pathway with lower activation energy (E_a).\n2. Large surface area and free valencies: Their surfaces offer vacant d-orbitals where reactant molecules get adsorbed, increasing local reactant concentration and facilitating faster reaction."
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain why –\n(a) Transition elements form complex compounds.\n(b) Transition elements show variable oxidation states.",
+            "correct_answer": "",
+            "explanation": "\n(a) Formation of complex compounds:\nTransition metal ions readily form coordination complexes due to:\n1. Comparatively small size of the metal ions and high nuclear charge (high charge-to-radius ratio).\n2. Availability of vacant (n–1)d, ns, and np orbitals of appropriate energy to accept lone pairs of electrons donated by ligands.\n\n(b) Variable oxidation states:\nIn transition elements, the energy difference between the outermost ns orbitals and the penultimate (n–1)d orbitals is very small. Consequently, electrons from both ns and (n–1)d orbitals can participate in chemical bond formation, enabling these elements to exhibit a wide variety of oxidation states (ranging from +2 up to +7)."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "(a) State Kohlrausch's law and its one application.\n(b) The molar conductivity of 0.025 mol L⁻¹ methanoic acid is 46.1 S cm² mol⁻¹. Calculate its degree of dissociation and dissociation constant. Given Λ°_m(H⁺) = 349.6 S cm² mol⁻¹ and Λ°_m(HCOO⁻) = 54.6 S cm² mol⁻¹.",
+          "correct_answer": "",
+          "explanation": "\n(a) Kohlrausch's law of independent migration of ions:\nThe limiting molar conductivity (Λ°_m) of an electrolyte at infinite dilution is equal to the sum of the individual limiting molar conductivities of its cations and anions, each multiplied by the number of respective ions present in one formula unit of the electrolyte:\nΛ°_m = ν₊ λ°₊ + ν₋ λ°₋\nApplication: It is used to calculate the limiting molar conductivity (Λ°_m) and degree of dissociation (α) of weak electrolytes (such as acetic acid or methanoic acid).\n\n(b) Solution:\n1. Limiting molar conductivity of methanoic acid (HCOOH):\nΛ°_m(HCOOH) = λ°(H⁺) + λ°(HCOO⁻) = 349.6 + 54.6 = 404.2 S cm² mol⁻¹\n\n2. Degree of dissociation (α):\nα = Λ_m / Λ°_m = 46.1 / 404.2 ≈ 0.114 (or 11.4%)\n\n3. Dissociation constant (K_a):\nK_a = (c × α²) / (1 - α)\nK_a = [0.025 × (0.114)²] / (1 - 0.114)\nK_a = (0.025 × 0.012996) / 0.886 = 0.0003249 / 0.886 ≈ 3.67 × 10⁻⁴ mol L⁻¹"
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define conductivity. Why does the conductivity of a solution decrease with dilution?\nThe conductivity of 0.20 M solution of KCl at 298 K is 0.0248 S cm⁻¹. Calculate its molar conductivity.",
+            "correct_answer": "",
+            "explanation": "\n1. Conductivity (Specific conductance, κ):\nConductivity of an electrolytic solution is defined as the conductance of a unit volume (1 cm³) of the solution kept between two electrodes of unit cross-sectional area (1 cm²) separated by unit distance (1 cm). It is the reciprocal of resistivity (κ = 1/ρ).\n\n2. Reason for decrease in conductivity with dilution:\nConductivity depends on the number of current-carrying ions present per unit volume of the solution. Upon dilution, the total volume increases, so the number of ions per unit volume (1 cm³) decreases; hence, conductivity decreases.\n\n3. Calculation of molar conductivity:\nGiven: κ = 0.0248 S cm⁻¹, Molarity (M) = 0.20 mol L⁻¹\nFormula: Λ_m = (κ × 1000) / M\nΛ_m = (0.0248 × 1000) / 0.20 = 24.8 / 0.20 = 124 S cm² mol⁻¹"
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive relation between depression in freezing point and molality.\nA solution containing 1.8 g of glucose in 100 g water lowered freezing point by 0.1 K. Calculate K_f for water.",
+          "correct_answer": "",
+          "explanation": "\n1. Relation between depression in freezing point and molality:\nExperimentally, for dilute solutions, the depression in freezing point (ΔT_f) is directly proportional to the molality (m) of the solution:\nΔT_f ∝ m\nΔT_f = K_f × m   ...(Equation 1)\n(where K_f = molal freezing point depression constant or cryoscopic constant)\nIf w₂ grams of a non-volatile solute (molar mass M₂) is dissolved in w₁ grams of solvent, then:\nm = (w₂ × 1000) / (M₂ × w₁)\nTherefore, ΔT_f = (K_f × w₂ × 1000) / (M₂ × w₁)\n\n2. Numerical Calculation:\nGiven: Mass of solute (glucose, C₆H₁₂O₆), w₂ = 1.8 g\nMolar mass of glucose (M₂) = 180 g mol⁻¹\nMass of solvent (water), w₁ = 100 g\nDepression in freezing point (ΔT_f) = 0.1 K\n\nUsing formula: K_f = (ΔT_f × M₂ × w₁) / (w₂ × 1000)\nK_f = (0.1 × 180 × 100) / (1.8 × 1000) = 1800 / 1800 = 1 K kg mol⁻¹\n\nThe value of K_f for water is 1 K kg mol⁻¹."
+        }
+      ],
+      "or_option": {
+        "text": "Or",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Derive relation between relative lowering of vapour pressure and mole fraction of solute.\nThe vapour pressure of water at 293 K is 17.535 mm Hg. Calculate the vapour pressure of water at 293 K by dissolving 25 g of glucose in 450 g of water.",
+            "correct_answer": "",
+            "explanation": "\n1. Relation between relative lowering of vapour pressure and mole fraction of solute:\nAccording to Raoult's law, for a solution containing a non-volatile solute, the vapour pressure of the solvent (p₁) is equal to the product of the vapour pressure of the pure solvent (p₁°) and its mole fraction (x₁):\np₁ = p₁° × x₁\nLowering of vapour pressure: Δp₁ = p₁° - p₁ = p₁° - p₁° x₁ = p₁° (1 - x₁)\nFor a binary solution, x₁ + x₂ = 1 (so 1 - x₁ = x₂):\nΔp₁ = p₁° × x₂\n(p₁° - p₁) / p₁° = x₂\nThus, the relative lowering of vapour pressure is equal to the mole fraction of the solute (x₂).\n\n2. Numerical Calculation:\nGiven: Vapour pressure of pure water (p₁°) = 17.535 mm Hg\nMass of water (w₁) = 450 g, Molar mass (M₁) = 18 g mol⁻¹ ⟹ n₁ = 450 / 18 = 25 mol\nMass of glucose (w₂) = 25 g, Molar mass (M₂) = 180 g mol⁻¹ ⟹ n₂ = 25 / 180 = 0.139 mol\n\nFormula: (p₁° - p₁) / p₁° = n₂ / (n₁ + n₂)\n(17.535 - p₁) / 17.535 = 0.139 / (25 + 0.139) = 0.139 / 25.139 ≈ 0.00553\n17.535 - p₁ = 17.535 × 0.00553 ≈ 0.097 mm Hg\np₁ = 17.535 - 0.097 = 17.438 mm Hg\n\nThe vapour pressure of water in the solution at 293 K is 17.438 mm Hg."
+          }
+        ]
+      },
+      "word_limit": "About 120 words"
+    }
+  ]
+}

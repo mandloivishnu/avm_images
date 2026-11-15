@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam Partner - RTDB Ads & Cache Manager</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --subcard: #0f172a;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --primary: #3b82f6;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --purple: #8b5cf6;
+      --cyan: #06b6d4;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 16px;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+    }
+
+    .header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+
+    .header h1 {
+      margin: 0 0 6px;
+      font-size: 1.25rem;
+    }
+
+    .db-url {
+      font-size: 0.82rem;
+      color: var(--muted);
+      word-break: break-all;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    button, .file-label {
+      padding: 10px 14px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: opacity 0.2s;
+    }
+
+    button:hover, .file-label:hover {
+      opacity: 0.9;
+    }
+
+    .btn-fetch { background: var(--primary); color: #fff; }
+    .btn-backup { background: var(--success); color: #fff; }
+    .btn-restore { background: var(--warning); color: #0f172a; }
+    .btn-test-ids { background: #475569; color: #fff; }
+    .btn-save-ads { background: var(--purple); color: #fff; width: 100%; justify-content: center; font-size: 1rem; padding: 13px; margin-top: 16px; }
+    .btn-save-cache { background: var(--cyan); color: #0f172a; width: 100%; justify-content: center; font-size: 1rem; padding: 13px; margin-top: 14px; }
+    .btn-bump { background: #334155; color: #f8fafc; font-size: 0.78rem; padding: 6px 10px; border-radius: 6px; }
+
+    #restoreFile {
+      display: none;
+    }
+
+    .auth-box {
+      margin-top: 12px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .auth-box input {
+      flex: 1;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--subcard);
+      color: var(--text);
+      font-size: 0.85rem;
+    }
+
+    .status {
+      padding: 10px 14px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-size: 0.88rem;
+      display: none;
+    }
+
+    .status.info { display: block; background: rgba(59, 130, 246, 0.15); border: 1px solid var(--primary); color: #93c5fd; }
+    .status.success { display: block; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--success); color: #6ee7b7; }
+    .status.error { display: block; background: rgba(239, 68, 68, 0.15); border: 1px solid var(--danger); color: #fca5a5; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+
+    .card h2 {
+      margin: 0 0 14px;
+      font-size: 1rem;
+      color: #cbd5e1;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cache-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .cache-node {
+      background: var(--subcard);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .cache-node-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .cache-node-title {
+      font-family: monospace;
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+
+    .grid-toggles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+    }
+
+    .toggle-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--subcard);
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .toggle-item.compact {
+      background: var(--card);
+      margin-bottom: 10px;
+    }
+
+    .toggle-item label {
+      font-size: 0.88rem;
+      font-weight: 500;
+      font-family: monospace;
+    }
+
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--success);
+      cursor: pointer;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .field label {
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-family: monospace;
+    }
+
+    .field input {
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--subcard);
+      color: var(--text);
+      font-size: 0.9rem;
+      font-family: monospace;
+    }
+
+    .field input.in-subcard {
+      background: var(--card);
+    }
+
+    .field input:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .row-2, .cache-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Exam Partner — RTDB Ads & Cache Manager</h1>
+      <div class="db-url">Database: <code>https://avmoaching621999-default-rtdb.firebaseio.com</code></div>
+
+      <div class="auth-box">
+        <input type="password" id="dbSecret" placeholder="Optional: Database Secret / Auth Token (if rules require auth)" />
+      </div>
+
+      <div class="toolbar">
+        <button class="btn-fetch" onclick="fetchAllFromFirebase()">Fetch Live Data</button>
+        <button class="btn-backup" onclick="downloadFullBackup()">Download Full JSON Backup</button>
+        <label for="restoreFile" class="file-label btn-restore">Restore from JSON</label>
+        <input type="file" id="restoreFile" accept=".json" onchange="handleRestoreFile(event)" />
+        <button class="btn-test-ids" onclick="fillGoogleTestIds()">Load Google Test IDs</button>
+      </div>
+    </div>
+
+    <div id="statusBox" class="status"></div>
+
+    <!-- SECTION A: CACHE REFRESH (MANUAL ONLY) -->
+    <div class="card">
+      <h2>
+        <span>Manual Cache Refresh (<code>/cache_refresh</code>)</span>
+        <span style="font-size: 0.78rem; color: var(--muted); font-weight: 400;">Manual trigger only</span>
+      </h2>
+
+      <div class="cache-grid">
+        <!-- MPBSE -> 10 -->
+        <div class="cache-node">
+          <div class="cache-node-header">
+            <span class="cache-node-title">MPBSE / 10</span>
+            <button type="button" class="btn-bump" onclick="bumpCacheNode('mpbse10')">+1 & Set true</button>
+          </div>
+          <div class="toggle-item compact">
+            <label for="mpbse10_refresh">refresh</label>
+            <input type="checkbox" id="mpbse10_refresh" checked />
+          </div>
+          <div class="field">
+            <label for="mpbse10_refresh_count">refresh_count</label>
+            <input type="number" class="in-subcard" id="mpbse10_refresh_count" value="4" min="0" />
+          </div>
+        </div>
+
+        <!-- global -->
+        <div class="cache-node">
+          <div class="cache-node-header">
+            <span class="cache-node-title">global</span>
+            <button type="button" class="btn-bump" onclick="bumpCacheNode('global')">+1 & Set true</button>
+          </div>
+          <div class="toggle-item compact">
+            <label for="global_refresh">refresh</label>
+            <input type="checkbox" id="global_refresh" checked />
+          </div>
+          <div class="field">
+            <label for="global_refresh_count">refresh_count</label>
+            <input type="number" class="in-subcard" id="global_refresh_count" value="47" min="0" />
+          </div>
+        </div>
+      </div>
+
+      <button class="btn-save-cache" onclick="updateCacheRefresh()">Update Cache Refresh Only</button>
+    </div>
+
+    <!-- SECTION B: AD SWITCHES -->
+    <div class="card">
+      <h2>Ad Switches (<code>/ads</code> Booleans)</h2>
+      <div class="grid-toggles">
+        <div class="toggle-item">
+          <label for="ads_enabled">ads_enabled</label>
+          <input type="checkbox" id="ads_enabled" checked />
+        </div>
+        <div class="toggle-item">
+          <label for="enable_app_open">enable_app_open</label>
+          <input type="checkbox" id="enable_app_open" />
+        </div>
+        <div class="toggle-item">
+          <label for="enable_rewarded">enable_rewarded</label>
+          <input type="checkbox" id="enable_rewarded" checked />
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION C: FREQUENCY & INTERVALS -->
+    <div class="card">
+      <h2>Frequency & Intervals (<code>/ads</code> Numbers)</h2>
+      <div class="row-2">
+        <div class="field">
+          <label for="interstitial_frequency">interstitial_frequency</label>
+          <input type="number" id="interstitial_frequency" value="3" min="1" />
+        </div>
+        <div class="field">
+          <label for="native_ad_position_interval">native_ad_position_interval</label>
+          <input type="number" id="native_ad_position_interval" value="5" min="1" />
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION D: AD UNIT IDS -->
+    <div class="card">
+      <h2>AdMob Ad Unit IDs (<code>/ads</code> Strings)</h2>
+      <div class="form-grid">
+        <div class="field">
+          <label for="anchored_adaptive_banner_id">anchored_adaptive_banner_id</label>
+          <input type="text" id="anchored_adaptive_banner_id" value="ca-app-pub-3940256099942544/9214589741" />
+        </div>
+        <div class="field">
+          <label for="inline_adaptive_banner_id">inline_adaptive_banner_id</label>
+          <input type="text" id="inline_adaptive_banner_id" value="ca-app-pub-3940256099942544/9214589741" />
+        </div>
+        <div class="field">
+          <label for="fixed_banner_id">fixed_banner_id</label>
+          <input type="text" id="fixed_banner_id" value="ca-app-pub-3940256099942544/6300978111" />
+        </div>
+        <div class="field">
+          <label for="app_open_id">app_open_id</label>
+          <input type="text" id="app_open_id" value="ca-app-pub-3940256099942544/9257395921" />
+        </div>
+        <div class="field">
+          <label for="interstitial_id">interstitial_id</label>
+          <input type="text" id="interstitial_id" value="ca-app-pub-3940256099942544/10331737122" />
+        </div>
+        <div class="field">
+          <label for="native_id">native_id</label>
+          <input type="text" id="native_id" value="ca-app-pub-3940256099942544/2247696110" />
+        </div>
+        <div class="field">
+          <label for="native_video_id">native_video_id</label>
+          <input type="text" id="native_video_id" value="ca-app-pub-3940256099942544/1044960115" />
+        </div>
+        <div class="field">
+          <label for="rewarded_id">rewarded_id</label>
+          <input type="text" id="rewarded_id" value="ca-app-pub-3940256099942544/5224354917" />
+        </div>
+        <div class="field">
+          <label for="rewarded_interstitial_id">rewarded_interstitial_id</label>
+          <input type="text" id="rewarded_interstitial_id" value="ca-app-pub-3940256099942544/5354046379" />
+        </div>
+      </div>
+
+      <button class="btn-save-ads" onclick="updateAdsOnly()">Save & Update Ads Config Only</button>
+    </div>
+  </div>
+
+  <script>
+    const DB_ROOT = "https://avmoaching621999-default-rtdb.firebaseio.com";
+
+    const DEFAULT_ADS = {
+      ads_enabled: true,
+      anchored_adaptive_banner_id: "ca-app-pub-3940256099942544/9214589741",
+      app_open_id: "ca-app-pub-3940256099942544/9257395921",
+      enable_app_open: false,
+      enable_rewarded: true,
+      fixed_banner_id: "ca-app-pub-3940256099942544/6300978111",
+      inline_adaptive_banner_id: "ca-app-pub-3940256099942544/9214589741",
+      interstitial_frequency: 3,
+      interstitial_id: "ca-app-pub-3940256099942544/10331737122",
+      native_ad_position_interval: 5,
+      native_id: "ca-app-pub-3940256099942544/2247696110",
+      native_video_id: "ca-app-pub-3940256099942544/1044960115",
+      rewarded_id: "ca-app-pub-3940256099942544/5224354917",
+      rewarded_interstitial_id: "ca-app-pub-3940256099942544/5354046379"
+    };
+
+    const DEFAULT_CACHE = {
+      MPBSE: {
+        "10": {
+          refresh: true,
+          refresh_count: 4
+        }
+      },
+      global: {
+        refresh: true,
+        refresh_count: 47
+      }
+    };
+
+    function getUrl(path) {
+      const secret = document.getElementById("dbSecret").value.trim();
+      const base = `${DB_ROOT}/${path}.json`;
+      return secret ? `${base}?auth=${encodeURIComponent(secret)}` : base;
+    }
+
+    function showStatus(message, type = "info") {
+      const box = document.getElementById("statusBox");
+      box.textContent = message;
+      box.className = `status ${type}`;
+    }
+
+    function populateAdsForm(data) {
+      if (!data || typeof data !== "object") return;
+
+      document.getElementById("ads_enabled").checked = Boolean(data.ads_enabled);
+      document.getElementById("enable_app_open").checked = Boolean(data.enable_app_open);
+      document.getElementById("enable_rewarded").checked = Boolean(data.enable_rewarded);
+
+      document.getElementById("interstitial_frequency").value = Number(data.interstitial_frequency ?? 3);
+      document.getElementById("native_ad_position_interval").value = Number(data.native_ad_position_interval ?? 5);
+
+      const stringKeys = [
+        "anchored_adaptive_banner_id",
+        "inline_adaptive_banner_id",
+        "fixed_banner_id",
+        "app_open_id",
+        "interstitial_id",
+        "native_id",
+        "native_video_id",
+        "rewarded_id",
+        "rewarded_interstitial_id"
+      ];
+
+      stringKeys.forEach((key) => {
+        if (data[key] !== undefined) {
+          document.getElementById(key).value = data[key];
+        }
+      });
+    }
+
+    function populateCacheForm(cacheData) {
+      if (!cacheData || typeof cacheData !== "object") return;
+
+      const mpbse10 = cacheData?.MPBSE?.["10"];
+      if (mpbse10) {
+        document.getElementById("mpbse10_refresh").checked = Boolean(mpbse10.refresh);
+        document.getElementById("mpbse10_refresh_count").value = Number(mpbse10.refresh_count ?? 0);
+      }
+
+      const globalNode = cacheData?.global;
+      if (globalNode) {
+        document.getElementById("global_refresh").checked = Boolean(globalNode.refresh);
+        document.getElementById("global_refresh_count").value = Number(globalNode.refresh_count ?? 0);
+      }
+    }
+
+    function collectAdsData() {
+      return {
+        ads_enabled: document.getElementById("ads_enabled").checked,
+        anchored_adaptive_banner_id: document.getElementById("anchored_adaptive_banner_id").value.trim(),
+        app_open_id: document.getElementById("app_open_id").value.trim(),
+        enable_app_open: document.getElementById("enable_app_open").checked,
+        enable_rewarded: document.getElementById("enable_rewarded").checked,
+        fixed_banner_id: document.getElementById("fixed_banner_id").value.trim(),
+        inline_adaptive_banner_id: document.getElementById("inline_adaptive_banner_id").value.trim(),
+        interstitial_frequency: parseInt(document.getElementById("interstitial_frequency").value, 10) || 3,
+        interstitial_id: document.getElementById("interstitial_id").value.trim(),
+        native_ad_position_interval: parseInt(document.getElementById("native_ad_position_interval").value, 10) || 5,
+        native_id: document.getElementById("native_id").value.trim(),
+        native_video_id: document.getElementById("native_video_id").value.trim(),
+        rewarded_id: document.getElementById("rewarded_id").value.trim(),
+        rewarded_interstitial_id: document.getElementById("rewarded_interstitial_id").value.trim()
+      };
+    }
+
+    function collectCacheData() {
+      return {
+        MPBSE: {
+          "10": {
+            refresh: document.getElementById("mpbse10_refresh").checked,
+            refresh_count: parseInt(document.getElementById("mpbse10_refresh_count").value, 10) || 0
+          }
+        },
+        global: {
+          refresh: document.getElementById("global_refresh").checked,
+          refresh_count: parseInt(document.getElementById("global_refresh_count").value, 10) || 0
+        }
+      };
+    }
+
+    function bumpCacheNode(target) {
+      if (target === "mpbse10") {
+        document.getElementById("mpbse10_refresh").checked = true;
+        const countEl = document.getElementById("mpbse10_refresh_count");
+        countEl.value = (parseInt(countEl.value, 10) || 0) + 1;
+        showStatus("MPBSE/10 set to refresh=true and count incremented. Click 'Update Cache Refresh Only' to push.", "info");
+      } else if (target === "global") {
+        document.getElementById("global_refresh").checked = true;
+        const countEl = document.getElementById("global_refresh_count");
+        countEl.value = (parseInt(countEl.value, 10) || 0) + 1;
+        showStatus("global set to refresh=true and count incremented. Click 'Update Cache Refresh Only' to push.", "info");
+      }
+    }
+
+    async function fetchAllFromFirebase() {
+      showStatus("Fetching /ads and /cache_refresh from Firebase...", "info");
+      try {
+        const [adsRes, cacheRes] = await Promise.all([
+          fetch(getUrl("ads")),
+          fetch(getUrl("cache_refresh"))
+        ]);
+
+        if (!adsRes.ok || !cacheRes.ok) {
+          throw new Error(`HTTP ${adsRes.status}/${cacheRes.status} - Check RTDB rules or auth secret.`);
+        }
+
+        const [adsData, cacheData] = await Promise.all([adsRes.json(), cacheRes.json()]);
+
+        populateAdsForm(adsData || DEFAULT_ADS);
+        populateCacheForm(cacheData || DEFAULT_CACHE);
+        showStatus("Live Ads & Cache Refresh data loaded successfully.", "success");
+      } catch (err) {
+        showStatus(`Fetch failed: ${err.message}`, "error");
+      }
+    }
+
+    async function updateAdsOnly() {
+      const payload = collectAdsData();
+      showStatus("Updating /ads node in Firebase...", "info");
+      try {
+        const res = await fetch(getUrl("ads"), {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status} - Write denied.`);
+        showStatus("Ads configuration updated! (Cache refresh was NOT touched.)", "success");
+      } catch (err) {
+        showStatus(`Ads update failed: ${err.message}`, "error");
+      }
+    }
+
+    async function updateCacheRefresh() {
+      const payload = collectCacheData();
+      showStatus("Updating /cache_refresh node in Firebase...", "info");
+      try {
+        // Patch MPBSE/10 and global separately so other boards/classes under MPBSE aren't overwritten
+        const [mpbseRes, globalRes] = await Promise.all([
+          fetch(getUrl("cache_refresh/MPBSE/10"), {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload.MPBSE["10"])
+          }),
+          fetch(getUrl("cache_refresh/global"), {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload.global)
+          })
+        ]);
+
+        if (!mpbseRes.ok || !globalRes.ok) {
+          throw new Error(`HTTP ${mpbseRes.status}/${globalRes.status} - Write denied.`);
+        }
+
+        showStatus("Cache refresh updated successfully! (MPBSE/10 & global)", "success");
+      } catch (err) {
+        showStatus(`Cache refresh update failed: ${err.message}`, "error");
+      }
+    }
+
+    async function downloadFullBackup() {
+      let adsExport = collectAdsData();
+      let cacheExport = collectCacheData();
+      let sourceLabel = "form";
+
+      try {
+        const [adsRes, cacheRes] = await Promise.all([
+          fetch(getUrl("ads")),
+          fetch(getUrl("cache_refresh"))
+        ]);
+        if (adsRes.ok && cacheRes.ok) {
+          const [liveAds, liveCache] = await Promise.all([adsRes.json(), cacheRes.json()]);
+          if (liveAds) adsExport = liveAds;
+          if (liveCache) cacheExport = liveCache;
+          sourceLabel = "live_rtdb";
+        }
+      } catch (_) {
+        // Fallback to form values if offline
+      }
+
+      const backupWrapper = {
+        ads: adsExport,
+        cache_refresh: cacheExport
+      };
+
+      const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
+      const filename = `rtdb_full_backup_${sourceLabel}_${timestamp}.json`;
+      const blob = new Blob([JSON.stringify(backupWrapper, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      showStatus(`Backup downloaded: ${filename}`, "success");
+    }
+
+    function handleRestoreFile(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const parsed = JSON.parse(e.target.result);
+          if (parsed.ads) {
+            populateAdsForm(parsed.ads);
+          } else if (parsed.ads_enabled !== undefined) {
+            populateAdsForm(parsed);
+          }
+          if (parsed.cache_refresh) {
+            populateCacheForm(parsed.cache_refresh);
+          }
+          showStatus("Backup JSON loaded into form. Click the respective Update button to push changes.", "success");
+        } catch (err) {
+          showStatus("Invalid JSON backup file.", "error");
+        }
+      };
+      reader.readAsText(file);
+      event.target.value = "";
+    }
+
+    function fillGoogleTestIds() {
+      populateAdsForm(DEFAULT_ADS);
+      showStatus("Google AdMob sample test IDs populated into the Ads form.", "info");
+    }
+
+    window.addEventListener("DOMContentLoaded", fetchAllFromFirebase);
+  </script>
+</body>
+</html>

@@ -1,0 +1,970 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "ENGLISH",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "setName": "SAMPLE PAPER",
+    "totalQuestions": "16",
+    "time": "3 Hours"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the following passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "Trees are of paramount importance to our environment and the overall well-being of our planet. They provide oxygen, which is essential for all living beings on earth to survive. As they breathe in, they absorb harmful carbon dioxide from the atmosphere, thereby significantly reducing the global greenhouse effect and helping to regulate the Earth's climate. Furthermore, forests act as natural habitats and are home to numerous species of animals, birds, and insects, maintaining the delicate ecological balance. Without trees, the earth would rapidly become a barren desert, devoid of life and colour. Their extensive root systems prevent soil erosion and help maintain the water table by allowing rainwater to seep into the ground. Trees also provide us with valuable resources like timber, fruits, medicines, and shade during scorching summers. Unfortunately, rapid industrialization and urbanization have led to rampant deforestation, posing a severe threat to our ecosystem. Planting more trees and strictly preventing deforestation is the only viable way to save our planet from the looming dangers of global warming, climate change, and habitat destruction. It is our collective responsibility to protect these green guardians for the sake of future generations.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What do trees provide that is essential for living beings?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Carbon dioxide"
+            },
+            {
+              "index": "b",
+              "text": "Oxygen"
+            },
+            {
+              "index": "c",
+              "text": "Nitrogen"
+            },
+            {
+              "index": "d",
+              "text": "Hydrogen"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Oxygen",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage clearly says in the second line: 'They provide oxygen, which is essential for all living beings on earth to survive.' So, option (b) is correct.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "What do trees absorb to reduce the greenhouse effect?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Fresh water"
+            },
+            {
+              "index": "b",
+              "text": "Oxygen"
+            },
+            {
+              "index": "c",
+              "text": "Carbon dioxide"
+            },
+            {
+              "index": "d",
+              "text": "Sunlight"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Carbon dioxide",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nAccording to the passage, trees take in harmful carbon dioxide from the air, which reduces the global greenhouse effect. Thus, option (c) is correct.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "According to the passage, forests are home to:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Only birds"
+            },
+            {
+              "index": "b",
+              "text": "Only human beings"
+            },
+            {
+              "index": "c",
+              "text": "Numerous species of animals and birds"
+            },
+            {
+              "index": "d",
+              "text": "Only insects"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Numerous species of animals and birds",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe passage states that forests are natural homes for many kinds of animals, birds, and insects. Hence, option (c) is the right answer.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Without trees, the earth would become a ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "beautiful garden"
+            },
+            {
+              "index": "b",
+              "text": "barren desert"
+            },
+            {
+              "index": "c",
+              "text": "huge ocean"
+            },
+            {
+              "index": "d",
+              "text": "snow-covered land"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "barren desert",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage directly mentions: 'Without trees, the earth would rapidly become a barren desert, devoid of life and colour.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "What is the adjective form of the word 'importance'?",
+          "options": [
+            {
+              "index": "a",
+              "text": "import"
+            },
+            {
+              "index": "b",
+              "text": "important"
+            },
+            {
+              "index": "c",
+              "text": "importantly"
+            },
+            {
+              "index": "d",
+              "text": "importer"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "important",
+          "explanation": "Correct Option: (b)\n\nExplanation:\n'Importance' is a noun. Its adjective form (describing word) is 'important'. ('Import' is a verb/noun, and 'importantly' is an adverb).",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Read the following passage carefully and answer the questions given below:",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "Mangte Chungneijang Mary Kom, popularly known as Mary Kom, is one of India's greatest and most inspiring athletes. Born on March 1, 1983, in a poor farming family in Kangathei village, Manipur, her early life was filled with extreme hardships. She used to help her parents in the agricultural fields while balancing her schooling and athletics. Inspired by the tremendous success of Manipuri boxer Dingko Singh, Mary decided to pursue boxing against her father's wishes. Her father initially feared that the combat sport would ruin her face and negatively affect her marriage prospects.\n\nDespite the lack of proper training facilities and financial support, Mary's sheer determination and relentless hard work led her to historic victories. She holds the record of being the only female boxer to have won a medal in each one of the first seven World Championships. In 2012, she brought immense pride to the nation by winning a bronze medal at the London Olympics. Often referred to as \"Magnificent Mary,\" her extraordinary journey from a humble village girl to a global sporting icon proves that with courage, no hurdle is too big. The Government of India honoured her with the Padma Vibhushan in 2020.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Where was Mary Kom born?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Assam"
+            },
+            {
+              "index": "b",
+              "text": "Mizoram"
+            },
+            {
+              "index": "c",
+              "text": "Manipur"
+            },
+            {
+              "index": "d",
+              "text": "Nagaland"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Manipur",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe passage states that Mary Kom was born in Kangathei village, Manipur. Therefore, option (c) is correct.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "ii",
+          "statement": "Who inspired Mary Kom to pursue a career in boxing?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Her father"
+            },
+            {
+              "index": "b",
+              "text": "P.T. Usha"
+            },
+            {
+              "index": "c",
+              "text": "Dingko Singh"
+            },
+            {
+              "index": "d",
+              "text": "Vijender Singh"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Dingko Singh",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nAccording to the passage, Mary Kom was inspired by the big success of Manipuri boxer Dingko Singh.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why was her father initially against her pursuing boxing?",
+          "options": [
+            {
+              "index": "a",
+              "text": "He wanted her to become a teacher."
+            },
+            {
+              "index": "b",
+              "text": "He feared it would ruin her face and marriage prospects."
+            },
+            {
+              "index": "c",
+              "text": "He thought boxing was too expensive to afford."
+            },
+            {
+              "index": "d",
+              "text": "He wanted her to only work in the agricultural fields."
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "He feared it would ruin her face and marriage prospects.",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe passage clearly mentions that her father worried boxing would hurt her face and make it difficult for her to get married later.",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "iv",
+          "statement": "Which medal did Mary Kom win at the 2012 London Olympics?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Gold medal"
+            },
+            {
+              "index": "b",
+              "text": "Silver medal"
+            },
+            {
+              "index": "c",
+              "text": "Bronze medal"
+            },
+            {
+              "index": "d",
+              "text": "Platinum medal"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Bronze medal",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe passage states: 'In 2012, she brought immense pride to the nation by winning a bronze medal at the London Olympics.'",
+          "previousYearsDetails": null
+        },
+        {
+          "q_id": "v",
+          "statement": "What is the noun form of the word 'inspiring' as used in the passage?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Inspire"
+            },
+            {
+              "index": "b",
+              "text": "Inspiration"
+            },
+            {
+              "index": "c",
+              "text": "Inspired"
+            },
+            {
+              "index": "d",
+              "text": "Inspiringly"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Inspiration",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe noun form of 'inspiring' is 'inspiration'. ('Inspire' is a verb, 'inspired' is an adjective/verb, and 'inspiringly' is an adverb).",
+          "previousYearsDetails": null
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "4×1=4",
+      "word_limit": null,
+      "text": "Read the given passage carefully, prepare notes, and provide a suitable title.",
+      "youtube_url": null,
+      "previous_exam_reference": "MP Board Sample Paper 2027",
+      "passage": "Solar energy is undoubtedly the most abundant and easily accessible energy resource available on earth. It can be captured and utilized in several innovative ways, and as a primary renewable energy source, it forms an exceptionally important part of our clean energy future. Solar technologies are designed to convert abundant sunlight directly into electrical energy. This is achieved either through advanced photovoltaic (PV) panels, which are commonly seen on rooftops, or through large-scale mirrors that concentrate solar radiation in massive power plants. This harvested energy can be used immediately to generate electricity for homes, industries, and public infrastructure, or it can be efficiently stored in high capacity batteries for later use during the night or cloudy days. The most remarkable aspect of solar energy is that it is absolutely free, practically endless, and causes absolutely no harmful emissions or air pollution, making it highly beneficial for the fragile global environment. By transitioning away from fossil fuels and heavily adopting solar technology, countries can reduce their carbon footprint, combat climate change, and ensure sustainable development. Embracing solar power is a crucial step towards building a greener, cleaner, and more energy-independent world for everyone.",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "Provide a suitable title.",
+          "answer": "Solar Energy: The Clean Energy of the Future"
+        },
+        {
+          "topic_id": "ii",
+          "name": "Prepare notes of the given passage.",
+          "answer": "TITLE: Solar Energy: The Clean Energy of the Future\n\nNOTES:\n1. Introduction to Solar Energy:\n   1.1 Most abundant and easily available energy on earth.\n   1.2 Main renewable source for a clean future.\n\n2. Ways to Capture Solar Energy:\n   2.1 Rooftop photovoltaic (PV) panels convert sunlight into electricity.\n   2.2 Large mirrors focus sunlight in big power plants.\n\n3. Uses and Storage:\n   3.1 Used directly in homes, factories, and public places.\n   3.2 Stored in strong batteries for night or cloudy days.\n\n4. Benefits of Solar Energy:\n   4.1 Completely free, endless, and causes zero air pollution.\n   4.2 Reduces use of fossil fuels and fights climate change.\n   4.3 Helps build a green, clean, and energy-independent world."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "You are Arvind/Apoorva, studying at GOVT Sandipani HSS, Budni. Write an application to the Principal as your father has been shifting to some other city due to promotion. (Request a Transfer Certificate)",
+          "correct_answer": "",
+          "explanation": "To,\nThe Principal,\nGovt. Sandipani Higher Secondary School,\nBudni (M.P.)\n\nSubject: Application for issuing Transfer Certificate (T.C.).\n\nRespected Sir/Madam,\n\nMost humbly, I beg to state that I am a regular student of Class X in your school. My father works in a government department and has recently got a promotion. Due to this promotion, he has been transferred to Bhopal, and our entire family is shifting there next week.\n\nBecause of this sudden transfer, I will have to continue my further studies in Bhopal. Therefore, I kindly request you to issue my Transfer Certificate (T.C.) as early as possible so that I can take admission in a new school there.\n\nI have cleared all my school dues and returned all library books.\n\nThanking you.\n\nYours obediently,\nArvind / Apoorva\nClass: X\nDate: 15th November 2026"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "You are Sumitra/Sumit, residing at 27, Star Colony, Ujjain. Write a letter to your friend Deepa inviting her to spend the summer vacation with you.",
+            "correct_answer": "",
+            "explanation": "27, Star Colony,\nUjjain (M.P.)\n\nDate: 15th November 2026\n\nDear Deepa,\n\nI hope this letter finds you and your family in good health and happiness. Our annual exams are over, and the summer vacation has started.\n\nI am writing this letter to invite you to come to Ujjain and spend your summer holidays with me. It has been a long time since we met. We will have a lot of fun together. We can visit famous temples like Mahakaleshwar, go to the riverside in the evening, play indoor games, and watch our favourite movies.\n\nMy parents will also be very happy to see you. Please ask your parents for permission and let me know the date of your arrival so that I can come to the railway station to receive you.\n\nGive my warm regards to Uncle and Aunty.\n\nYour loving friend,\nSumitra / Sumit"
+          }
+        ]
+      },
+      "next_question": {
+        "question_number": "5",
+        "question_type": "DESCRIPTIVE",
+        "marks": "5",
+        "word_limit": "150-200 words",
+        "text": "Write an essay on any one of the following topics in about 150-200 words:",
+        "parts": [
+          {
+            "q_id": "1",
+            "statement": "Importance of Technology in Our Daily Life",
+            "explanation": "IMPORTANCE OF TECHNOLOGY IN OUR DAILY LIFE\n\nIntroduction:\nWe live in the modern age of science and technology. Today, technology has become an essential part of our daily routine. From the moment we wake up until we go to sleep, we depend on various machines and digital tools.\n\nRole in Communication and Education:\nSmartphones, computers, and the internet have made communication super fast and easy. We can talk to anyone across the world in seconds through video calls and messages. In the field of education, online classes, digital boards, and educational apps help students learn difficult topics easily from home.\n\nRole in Daily Comfort and Healthcare:\nAt home, appliances like washing machines, refrigerators, and microwaves save our time and energy. Modern transport like metro trains and airplanes has made travel quick and comfortable. In hospitals, advanced machines help doctors detect and cure serious diseases early, saving millions of lives.\n\nConclusion:\nTechnology has made human life easier, faster, and more connected. However, we should use it wisely and avoid spending too much time on screens. Used in the right way, technology is truly a great blessing for mankind."
+          },
+          {
+            "q_id": "2",
+            "statement": "Swachh Bharat Abhiyan",
+            "explanation": "SWACHH BHARAT ABHIYAN\n\nIntroduction:\nSwachh Bharat Abhiyan, also known as the Clean India Mission, is a nationwide cleanliness campaign launched by the Government of India on 2nd October 2014, on the birth anniversary of Mahatma Gandhi. Its main aim is to make India clean, green, and free from garbage.\n\nMain Objectives:\nMahatma Gandhi always believed that 'Cleanliness is next to Godliness.' Under this mission, millions of toilets have been built in villages and towns to stop open defecation. Dustbins have been placed in public areas, streets, railway stations, and schools to encourage proper waste disposal.\n\nImpact on Society:\nThis campaign has brought a big change in people's thinking. Today, citizens, school children, and youth actively take part in cleanliness drives. Cleaner surroundings have reduced dangerous diseases like dengue, malaria, and cholera, making our cities and villages healthier places to live.\n\nConclusion:\nKeeping our country clean is not just the duty of the government; it is the responsibility of every citizen. If we stop littering and keep our surroundings neat, we can easily fulfill the dream of a truly Swachh Bharat."
+          },
+          {
+            "q_id": "3",
+            "statement": "Importance of English",
+            "explanation": "IMPORTANCE OF ENGLISH\n\nIntroduction:\nEnglish is one of the most widely spoken languages in the world. It is often called a global language because people from different countries use it to communicate with one another.\n\nRole in Education and Career:\nIn today's competitive world, good knowledge of English opens doors to many opportunities. Most higher education books in science, medicine, engineering, and computers are written in English. Companies and multinational offices prefer candidates who can speak and write English clearly.\n\nWindow to the World:\nEnglish is the main language of the internet, international business, and global travel. If we know English, we can easily travel to any part of the world, read international newspapers, and understand global news and culture without any language barrier.\n\nConclusion:\nWhile we must always love and respect our mother tongue, learning English is very important for personal and professional growth. It boosts our confidence and connects us with the entire world."
+          },
+          {
+            "q_id": "4",
+            "statement": "A Memorable Journey by Train",
+            "explanation": "A MEMORABLE JOURNEY BY TRAIN\n\nIntroduction:\nTravelling gives us joy and new experiences. Last month, during my holidays, I went on a train journey from Bhopal to Mumbai with my family. It turned out to be the most memorable trip of my life.\n\nScenes at the Station and Inside the Train:\nWe reached the railway station half an hour early. The platform was full of busy passengers, porters carrying luggage, and vendors selling hot tea and snacks. Soon, our train arrived, and we found our reserved seats near the window. As the train started moving, a cool breeze blew across my face.\n\nBeauty Outside the Window:\nLooking outside the window was magical. We passed through lush green fields, small villages, rivers, and long dark tunnels. Crossing the high hills of the Western Ghats with waterfalls flowing down was a breathtaking sight. Inside the coach, we shared homemade food, played cards, and chatted happily with our co-passengers.\n\nConclusion:\nAfter a comfortable overnight journey, we reached Mumbai the next morning. The scenic beauty and happy moments spent with my family made this train journey unforgettable."
+          },
+          {
+            "q_id": "5",
+            "statement": "Importance of Games",
+            "explanation": "IMPORTANCE OF GAMES\n\nIntroduction:\nGames and sports are an essential part of a student's life. There is a famous saying, 'A healthy mind lives in a healthy body.' Studies give us knowledge, while games keep our body and mind strong and active.\n\nPhysical and Mental Benefits:\nPlaying outdoor games like cricket, football, hockey, and kabaddi gives our body good exercise. It improves blood circulation, strengthens our muscles, and protects us from illnesses. Games also refresh our mind after long hours of studying and remove stress and laziness.\n\nDeveloping Good Qualities:\nGames teach us many valuable life lessons that books cannot teach. When we play in a team, we learn discipline, teamwork, leadership, and cooperation. Sports also teach us sportsman spirit—how to accept both victory and defeat with a smile.\n\nConclusion:\nEducation is incomplete without physical activities. Every student should spend at least one hour daily playing games to stay fit, cheerful, and successful in life."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "6",
+      "question_type": "VISUAL_COMPOSITION",
+      "marks": 3,
+      "word_limit": "70 to 90 words",
+      "text": "Look at the picture carefully and write a paragraph about the picture in 70 to 90 words.",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "image_data": {
+        "image_url": "",
+        "description_suggest": "The picture shows a bright, sunny playground or park where four young children are playing happily. One boy is enjoying a swing, a girl is skipping a rope, and two boys are playing together in a sandbox with a shovel, ball, toy truck, and building blocks around them, with a slide and trees in the background.",
+        "description": "This picture shows a lively and cheerful scene of a children's park. Four kids are enjoying their playtime outdoors under a bright sky. On the left, a happy little girl is skipping a rope. In the center, a boy is swinging high on a swing with a big smile. On the right, two boys are playing together in a sandbox, building a sandcastle with a shovel. A slide, trees, a ball, blocks, and a toy truck are also seen around. Playing outdoors keeps children active, healthy, and joyful."
+      }
+    },
+    {
+      "question_number": "7",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×5=5",
+      "text": "Fill in the blanks by choosing the correct alternative given in the brackets (Attempt any five):",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Mr. Sharma is {BLANK} honest man.",
+          "options": [
+            {
+              "index": "a",
+              "text": "a"
+            },
+            {
+              "index": "b",
+              "text": "an"
+            },
+            {
+              "index": "c",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "an",
+          "explanation": "Correct Answer: an\n\nExplanation:\nIn the word 'honest', the letter 'h' is silent, so it starts with a vowel sound ('o' sound). Therefore, we use 'an' before it."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Sonu {BLANK} the cake yesterday.",
+          "options": [
+            {
+              "index": "a",
+              "text": "cut"
+            },
+            {
+              "index": "b",
+              "text": "cuts"
+            },
+            {
+              "index": "c",
+              "text": "cutting"
+            }
+          ],
+          "correct_answer": "cut",
+          "explanation": "Correct Answer: cut\n\nExplanation:\nThe word 'yesterday' shows that the action happened in the past. The past tense (second form) of 'cut' is also 'cut'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "{BLANK} you work hard, you will not pass the exam.",
+          "options": [
+            {
+              "index": "a",
+              "text": "If"
+            },
+            {
+              "index": "b",
+              "text": "Unless"
+            },
+            {
+              "index": "c",
+              "text": "Till"
+            }
+          ],
+          "correct_answer": "Unless",
+          "explanation": "Correct Answer: Unless\n\nExplanation:\n'Unless' means 'if not'. The sentence means: 'If you do not work hard, you will not pass the exam.'"
+        },
+        {
+          "q_id": "iv",
+          "statement": "How {BLANK} water is left in the jug?",
+          "options": [
+            {
+              "index": "a",
+              "text": "much"
+            },
+            {
+              "index": "b",
+              "text": "many"
+            },
+            {
+              "index": "c",
+              "text": "any"
+            }
+          ],
+          "correct_answer": "much",
+          "explanation": "Correct Answer: much\n\nExplanation:\n'Water' is an uncountable noun (we cannot count water in numbers). We always use 'much' with uncountable nouns and 'many' with countable nouns."
+        },
+        {
+          "q_id": "v",
+          "statement": "Mt. Everest is the {BLANK} peak in the world.",
+          "options": [
+            {
+              "index": "a",
+              "text": "high"
+            },
+            {
+              "index": "b",
+              "text": "higher"
+            },
+            {
+              "index": "c",
+              "text": "highest"
+            }
+          ],
+          "correct_answer": "highest",
+          "explanation": "Correct Answer: highest\n\nExplanation:\nThe article 'the' before the blank and the comparison across the whole world require the superlative degree 'highest'."
+        },
+        {
+          "q_id": "vi",
+          "statement": "He is afraid {BLANK} dogs.",
+          "options": [
+            {
+              "index": "a",
+              "text": "from"
+            },
+            {
+              "index": "b",
+              "text": "of"
+            },
+            {
+              "index": "c",
+              "text": "with"
+            }
+          ],
+          "correct_answer": "of",
+          "explanation": "Correct Answer: of\n\nExplanation:\nThe adjective 'afraid' is always followed by the fixed preposition 'of' (afraid of)."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "word_limit": null,
+      "text": "Do as directed (Attempt any five):",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "She sings beautiful songs. (Change into Passive Voice)",
+          "explanation": "Passive Voice: Beautiful songs are sung by her.\n\nExplanation:\nThe sentence is in Simple Present Tense. The plural object 'Beautiful songs' becomes the subject, followed by 'are + past participle (sung) + by + her'."
+        },
+        {
+          "q_id": "b",
+          "statement": "He did his homework yesterday. (Change into negative)",
+          "explanation": "Negative Sentence: He did not do his homework yesterday.\n\nExplanation:\nIn Simple Past Tense, to make a negative sentence, we add 'did not' and change the main verb 'did' back to its first form 'do'."
+        },
+        {
+          "q_id": "c",
+          "statement": "Ravi is too weak to walk fast. (Rewrite using 'so ........ that' in place of 'too to')",
+          "explanation": "Rewritten Sentence: Ravi is so weak that he cannot walk fast.\n\nExplanation:\nReplace 'too' with 'so', and replace 'to' with 'that + subject (he) + cannot'."
+        },
+        {
+          "q_id": "d",
+          "statement": "country/we /love /should /our. (Rearrange the jumbled words into a meaningful sentence)",
+          "explanation": "Meaningful Sentence: We should love our country.\n\nExplanation:\nFollow the standard sentence order: Subject (We) + Helping Verb (should) + Main Verb (love) + Object (our country)."
+        },
+        {
+          "q_id": "e",
+          "statement": "The birds are flying in the sky. (Change into Present Perfect Tense)",
+          "explanation": "Present Perfect Tense: The birds have flown in the sky.\n\nExplanation:\nPresent Perfect Tense uses 'have/has + third form of the verb'. For plural 'birds', we use 'have' and the third form of fly, which is 'flown'."
+        },
+        {
+          "q_id": "f",
+          "statement": "Virat Kohli hit a six on the last ball. (Change into interrogative)",
+          "explanation": "Interrogative Sentence: Did Virat Kohli hit a six on the last ball?\n\nExplanation:\nThe sentence is in Simple Past Tense (since 'hit' has no '-s', it is past form). To make a question, put 'Did' at the start and add a question mark at the end."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×4=4",
+      "text": "Answer the following questions:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What did Lencho hope for?",
+          "options": [
+            {
+              "index": "a",
+              "text": "A good shower of rain"
+            },
+            {
+              "index": "b",
+              "text": "A new tractor"
+            },
+            {
+              "index": "c",
+              "text": "A hundred pesos"
+            },
+            {
+              "index": "d",
+              "text": "Better seeds"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "A good shower of rain",
+          "explanation": "Correct Option: (a)\n\nExplanation:\nIn the story 'A Letter to God', Lencho was a farmer whose corn field needed water. So, he hoped for a downpour or at least a good shower of rain."
+        },
+        {
+          "q_id": "ii",
+          "statement": "According to Nelson Mandela, what is the greatest wealth of a nation?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Minerals"
+            },
+            {
+              "index": "b",
+              "text": "Gems"
+            },
+            {
+              "index": "c",
+              "text": "Its people"
+            },
+            {
+              "index": "d",
+              "text": "Diamonds"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Its people",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nNelson Mandela states that while his country is rich in minerals and gems, its greatest wealth is its people, who are finer and truer than the purest diamonds."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The young seagull was afraid to fly because ____.",
+          "options": [
+            {
+              "index": "a",
+              "text": "he was injured"
+            },
+            {
+              "index": "b",
+              "text": "he thought his wings would fail"
+            },
+            {
+              "index": "c",
+              "text": "he was exhausted"
+            },
+            {
+              "index": "d",
+              "text": "he was too small"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "he thought his wings would fail",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nLooking down at the vast sea far below, the young seagull felt certain that his small wings would never support him, so he was afraid to fly."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What name did Anne Frank give to her diary?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Bitty"
+            },
+            {
+              "index": "b",
+              "text": "Mitty"
+            },
+            {
+              "index": "c",
+              "text": "Kitten"
+            },
+            {
+              "index": "d",
+              "text": "Kitty"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Kitty",
+          "explanation": "Correct Option: (d)\n\nExplanation:\nAnne Frank had no close friend to share her feelings with, so she treated her diary as her best friend and named it 'Kitty'."
+        }
+      ]
+    },
+    {
+      "question_number": "10(A)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the following extract from the prose and answer the questions:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "The moon was coming up in the east, behind me, and stars were shining in the clear sky above me. There wasn't a cloud in the sky. I was happy to be alone high up above the sleeping countryside. I was flying my old Dakota aeroplane over France back to England. I was dreaming of my holiday and looking forward to being with my family.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Which aeroplane was the narrator flying?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Airbus"
+            },
+            {
+              "index": "b",
+              "text": "Dakota"
+            },
+            {
+              "index": "c",
+              "text": "Boeing"
+            },
+            {
+              "index": "d",
+              "text": "Fighter jet"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Dakota",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe extract clearly says: 'I was flying my old Dakota aeroplane over France back to England.'"
+        },
+        {
+          "q_id": "ii",
+          "statement": "Where was the narrator flying to?",
+          "options": [
+            {
+              "index": "a",
+              "text": "From England to France"
+            },
+            {
+              "index": "b",
+              "text": "From France to England"
+            },
+            {
+              "index": "c",
+              "text": "From Paris to India"
+            },
+            {
+              "index": "d",
+              "text": "From London to America"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "From France to England",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe narrator was flying his aeroplane over France on his way back home to England."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Name the lesson from which this extract has been taken.",
+          "options": [
+            {
+              "index": "a",
+              "text": "A Letter to God"
+            },
+            {
+              "index": "b",
+              "text": "A long Walk to Freedom"
+            },
+            {
+              "index": "c",
+              "text": "Two Stories of Flying"
+            },
+            {
+              "index": "d",
+              "text": "Madam Rides the Bus"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Two Stories of Flying",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThis extract is from Part II ('The Black Aeroplane') of the chapter 'Two Stories About Flying'."
+        }
+      ]
+    },
+    {
+      "question_number": "10(B)",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×3=3",
+      "word_limit": null,
+      "text": "Read the following extract from the poem and answer the questions:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "passage": "Don't bite your nails, Amanda!\nDon't hunch your shoulders, Amanda!\nStop that slouching and sit up straight,\nAmanda!",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is Amanda doing with her nails?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Cutting them"
+            },
+            {
+              "index": "b",
+              "text": "Painting them"
+            },
+            {
+              "index": "c",
+              "text": "Biting them"
+            },
+            {
+              "index": "d",
+              "text": "Cleaning them"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "Biting them",
+          "explanation": "Correct Option: (c)\n\nExplanation:\nThe first line says, 'Don't bite your nails, Amanda!', which shows she is biting her nails."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What is Amanda being instructed to do regarding her posture?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Stand up immediately"
+            },
+            {
+              "index": "b",
+              "text": "Sit up straight"
+            },
+            {
+              "index": "c",
+              "text": "Lie down"
+            },
+            {
+              "index": "d",
+              "text": "Walk properly"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Sit up straight",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nAmanda is told to stop bending her shoulders and 'sit up straight'."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Who is the poet of these lines?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Robert Frost"
+            },
+            {
+              "index": "b",
+              "text": "Robin Klein"
+            },
+            {
+              "index": "c",
+              "text": "John Berryman"
+            },
+            {
+              "index": "d",
+              "text": "Leslie Norris"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Robin Klein",
+          "explanation": "Correct Option: (b)\n\nExplanation:\nThe poem 'Amanda!' is written by Robin Klein."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×6=12",
+      "text": "Answer the following questions in about 30 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why did Lencho say the raindrops were like 'new coins'?",
+          "explanation": "Lencho's corn crop badly needed rain for a good harvest. He knew that good rain would bring him a rich harvest and earn him good money. Therefore, he compared the big drops to ten-cent pieces and the little ones to five-cent pieces."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What \"twin obligations\" does Nelson Mandela mention in his speech?",
+          "explanation": "Nelson Mandela mentions that every man has two main duties in life: the first obligation is towards his family—his parents, wife, and children; the second obligation is towards his people, his community, and his country."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Why was Rajvir excited to see the tea garden?",
+          "explanation": "Rajvir had lived in a city all his life and had never seen so much greenery before. Seeing miles of neatly pruned green tea bushes against the backdrop of wooded hills excited him greatly."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is the baker called in Goa? What did the bakers wear in the Portuguese days?",
+          "explanation": "In Goa, the traditional baker is known as a 'pader'. During the Portuguese days, the bakers wore a peculiar single-piece long frock reaching down to the knees, which was known as the 'kabai'."
+        },
+        {
+          "q_id": "v",
+          "statement": "What was Valli's favourite pastime?",
+          "explanation": "Valli's favourite pastime was standing in the front doorway of her house and watching what was happening in the street outside, especially watching the bus that travelled between her village and the nearest town."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Where did Gautama Buddha preach his first sermon?",
+          "explanation": "After attaining enlightenment under the Bodhi tree, Gautama Buddha preached his first sermon at the holy city of Benares (Varanasi), which is situated on the banks of the sacred River Ganges."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How does the mood of the poet change in the poem Dust of Snow?",
+          "explanation": "Initially, the poet was in a sad and gloomy mood, feeling that his day was wasted. When a crow shook fine particles of snow onto him from a hemlock tree, his mood suddenly lifted, saving the rest of his day."
+        },
+        {
+          "q_id": "ii",
+          "statement": "What do you mean by the phrase 'in the world of possessions' in the poem The Ball Poem?",
+          "explanation": "The phrase 'in the world of possessions' refers to our materialistic world where people are always busy buying, owning, and protecting things. It shows that losing things we love is a common part of life that everyone must learn to accept."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2×2=4",
+      "text": "Answer the following questions in about 30 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Why was Mrs. Pumphrey worried about Tricki?",
+          "explanation": "Mrs. Pumphrey was worried because her pet dog Tricki had become hugely fat, lazy, and listless. He had no energy, refused to eat even his favourite dishes, and suffered from bouts of vomiting."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Why was it difficult for Hari Singh to rob Anil?",
+          "explanation": "It was difficult for Hari Singh to rob Anil because Anil was the most trusting person he had ever met. Anil had given him a key to the door and trusted him completely, and robbing a careless, trusting man takes all the pleasure out of theft."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following question in about 75 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did Mandela's 'hunger for freedom' change his life?",
+          "explanation": "As a young man, Nelson Mandela realized that not only he, but all Black South Africans were not free. This discovery turned his desire for personal freedom into a deep hunger for the freedom of his entire people. This hunger transformed a frightened young man into a bold fighter, drove a law-abiding attorney to become a rebel, turned a family-loving husband into a man without a home, and forced a life-loving man to live like a monk."
+        },
+        {
+          "q_id": "ii",
+          "statement": "OR: How did Anne justify her being a chatterbox in her essay?",
+          "explanation": "When Mr. Keesing assigned Anne an essay on 'A Chatterbox' as punishment for talking in class, she cleverly justified her habit. She wrote that talking is a natural trait of a student and promised to try her best to keep it under control. However, she added that she could never completely cure herself of this habit because her mother talked just as much as she did, and nobody can do much about inherited traits."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following question in about 75 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Write the central idea of the poem 'The Trees'.",
+          "explanation": "The central idea of Adrienne Rich's poem 'The Trees' is the conflict between nature and human confinement. People keep decorative plants inside their houses, away from their natural home. The poet shows the trees struggling through the night to break free from the closed walls and glass roof to return to the empty forest. Through this, the poem gives a strong message that nature—and by extension, women—cannot be caged forever and must enjoy true freedom."
+        },
+        {
+          "q_id": "ii",
+          "statement": "OR: How does the poet contrast the Tiger in the cage with the Tiger in natural habitat in the poem 'A Tiger in the Zoo'?",
+          "explanation": "In the poem 'A Tiger in the Zoo', the poet highlights the difference between freedom and captivity. Inside the small concrete cage, the tiger is helpless, angry, and frustrated, pacing quietly within a few steps and ignoring visitors. In contrast, in his natural jungle habitat, the tiger is free, fearless, and majestic—lurking in tall grass near water holes to hunt plump deer and terrorizing villagers at the jungle's edge."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3×1=3",
+      "text": "Answer the following question in about 75 words:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "How did Ausable get rid of Max in the story 'The Midnight Visitor'?",
+          "explanation": "Ausable was a clever secret agent who used presence of mind instead of physical force to defeat Max. When Max pointed a pistol at him for a secret report, Ausable calmly cooked up a false story about a balcony outside his window, complaining that people often entered his room through it. Moments later, when a waiter knocked at the door, Ausable claimed it was the police. Panicked, Max jumped out of the window onto the imaginary balcony and fell to the ground."
+        },
+        {
+          "q_id": "ii",
+          "statement": "OR: How did Bholi refuse to marry Bishamber at the last moment?",
+          "explanation": "At the wedding ceremony, when Bishamber saw the pockmarks on Bholi's face, he greedily demanded five thousand rupees as dowry to marry her. Bholi's father placed his turban at Bishamber's feet and arranged the money with great difficulty. Seeing her father humiliated and realizing that Bishamber was a greedy, heartless coward, Bholi threw the wedding garland into the fire. She spoke clearly without stammering and boldly refused to marry him."
+        }
+      ]
+    }
+  ]
+}

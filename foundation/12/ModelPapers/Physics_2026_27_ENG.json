@@ -1,0 +1,599 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "Physics",
+    "totalMarks": "70",
+    "totalQuestions": "20",
+    "totalPages": "10",
+    "timeAllowed": "3 Hours",
+    "board": "MP Board",
+    "examType": "Higher Secondary Examination (Sample Question Paper for Practice Only)",
+    "set": "Practice Set",
+    "paperCode": "2027-PHY-SQP",
+    "language": "English Version",
+    "instructions": [
+      "All questions are compulsory. Internal options are given in each question from 13 to 20.",
+      "Question Nos. 1 to 3 each carries 6 marks and each sub-question carries 1 mark.",
+      "Question Nos. 4 to 5 each carries 5 marks and each sub-question carries 1 mark.",
+      "Each question from 6 to 12 carries 2 marks and word limit for each answer is approx. 30 words.",
+      "Each question from 13 to 16 carries 3 marks and word limit for each answer is approx. 75 words.",
+      "Each question from 17 to 20 carries 4 marks and word limit for each answer is approx. 120 words.",
+      "Draw neat and labelled diagram wherever necessary.",
+      "The general meanings of the symbols in the Question Paper are according to text book."
+    ]
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Select and write the correct option from the options given in each question:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The electric dipole moment per unit volume of a substance is called -",
+          "options": [
+            { "index": "i", "text": "Electric field" },
+            { "index": "ii", "text": "Potential" },
+            { "index": "iii", "text": "Polarisation" },
+            { "index": "iv", "text": "Electric Capacitance" }
+          ],
+          "correct_answer": "iii",
+          "correct_answer_text": "Polarisation",
+          "explanation": "The correct option is (iii).\n\nReason: The induced dipole moment per unit volume developed in a dielectric substance placed in an external electric field is called Polarisation (P)."
+        },
+        {
+          "q_id": "b",
+          "statement": "The magnitude of the drift velocity per unit electric field is called -",
+          "options": [
+            { "index": "i", "text": "Electric Current" },
+            { "index": "ii", "text": "Current density" },
+            { "index": "iii", "text": "Electric resistance" },
+            { "index": "iv", "text": "Mobility" }
+          ],
+          "correct_answer": "iv",
+          "correct_answer_text": "Mobility",
+          "explanation": "The correct option is (iv).\n\nReason: Mobility (μ) of a charge carrier is defined as the magnitude of drift velocity per unit electric field, i.e., μ = |v_d| / E."
+        },
+        {
+          "q_id": "c",
+          "statement": "The magnetic force acting on a charged particle moving parallel to a uniform magnetic field is -",
+          "options": [
+            { "index": "i", "text": "qvB" },
+            { "index": "ii", "text": "IlB" },
+            { "index": "iii", "text": "Zero" },
+            { "index": "iv", "text": "Infinite" }
+          ],
+          "correct_answer": "iii",
+          "correct_answer_text": "Zero",
+          "explanation": "The correct option is (iii).\n\nReason: Magnetic force is given by F = qvB sin θ. When the charged particle moves parallel to the magnetic field, θ = 0° (or 180°), and since sin 0° = 0, the magnetic force becomes zero."
+        },
+        {
+          "q_id": "d",
+          "statement": "The magnetic energy due to the current I flowing through the coil of inductance L will be -",
+          "options": [
+            { "index": "i", "text": "Zero" },
+            { "index": "ii", "text": "½ IL²" },
+            { "index": "iii", "text": "½ L²I²" },
+            { "index": "iv", "text": "½ LI²" }
+          ],
+          "correct_answer": "iv",
+          "correct_answer_text": "½ LI²",
+          "explanation": "The correct option is (iv).\n\nReason: The magnetic potential energy stored in an inductor coil of self-inductance L carrying current I is U = ½ LI²."
+        },
+        {
+          "q_id": "e",
+          "statement": "If in an electromagnetic wave the electric field is in x-direction and magnetic field is in y-direction then, the direction of propagation of wave will be -",
+          "options": [
+            { "index": "i", "text": "x-direction" },
+            { "index": "ii", "text": "y-direction" },
+            { "index": "iii", "text": "z-direction" },
+            { "index": "iv", "text": "Any direction" }
+          ],
+          "correct_answer": "iii",
+          "correct_answer_text": "z-direction",
+          "explanation": "The correct option is (iii).\n\nReason: The direction of propagation of an electromagnetic wave is along E⃗ × B⃗. Since î × ĵ = k̂, the wave propagates along the z-direction."
+        },
+        {
+          "q_id": "f",
+          "statement": "Which phenomenon does not reveal the wave nature of light?",
+          "options": [
+            { "index": "i", "text": "Photo electric effect" },
+            { "index": "ii", "text": "Interference" },
+            { "index": "iii", "text": "Diffraction" },
+            { "index": "iv", "text": "Polarisation" }
+          ],
+          "correct_answer": "i",
+          "correct_answer_text": "Photo electric effect",
+          "explanation": "The correct option is (i).\n\nReason: Interference, diffraction, and polarisation confirm the wave nature of light, whereas the photoelectric effect can only be explained by the particle (photon) nature of light."
+        }
+      ],
+      "explanation": "Answers based on fundamental concepts of Class 12 MP Board Physics syllabus."
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks with appropriate word and write:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The work done in moving a charge normal to the electric field is {BLANK}.",
+          "options": [],
+          "correct_answer": "Zero",
+          "explanation": "Zero\n\nReason: Work done W = F·d cos 90° = 0 (a plane normal to the electric field is an equipotential surface, so potential difference is zero and hence work done is zero)."
+        },
+        {
+          "q_id": "b",
+          "statement": "In open circuit of a cell, the maximum potential difference across its electrodes is called {BLANK}.",
+          "options": [],
+          "correct_answer": "Electromotive force (EMF)",
+          "explanation": "Electromotive force (EMF)\n\nReason: When no current is drawn from a cell (open circuit), the maximum potential difference between its two electrodes is called its electromotive force."
+        },
+        {
+          "q_id": "c",
+          "statement": "The net magnetic flux passing through any closed surface is always {BLANK}.",
+          "options": [],
+          "correct_answer": "Zero",
+          "explanation": "Zero\n\nReason: According to Gauss's law for magnetism, ∮ B⃗ · dA⃗ = 0 because isolated magnetic monopoles do not exist."
+        },
+        {
+          "q_id": "d",
+          "statement": "For a resonant circuit, the value of power factor is {BLANK}.",
+          "options": [],
+          "correct_answer": "1 (One)",
+          "explanation": "1 (One)\n\nReason: At resonance, X_L = X_C, so impedance Z = R. Therefore, power factor cos φ = R / Z = R / R = 1."
+        },
+        {
+          "q_id": "e",
+          "statement": "Variable electric field produces {BLANK} current.",
+          "options": [],
+          "correct_answer": "Displacement",
+          "explanation": "Displacement\n\nReason: According to Maxwell, a time-varying electric field (changing electric flux) gives rise to displacement current (I_d = ε₀ dΦ_E/dt)."
+        },
+        {
+          "q_id": "f",
+          "statement": "The focal length of convex lens (n = 1.5) when immersed in water (n = 4/3) becomes {BLANK} times.",
+          "options": [],
+          "correct_answer": "4",
+          "explanation": "4 (Four)\n\nReason: f_w / f_a = (n_g - 1) / (n_g/n_w - 1) = (1.5 - 1) / (1.5/(4/3) - 1) = 0.5 / (1.125 - 1) = 0.5 / 0.125 = 4 times."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the column 'A' with column 'B' and write the correct pair:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column 'A'",
+        "column_B_title": "Column 'B'",
+        "pairs": [
+          {
+            "a_item": "(a) Electrical conductivity",
+            "b_item": "Blv",
+            "correct_match_index": "4"
+          },
+          {
+            "a_item": "(b) Voltage Sensitivity of moving coil Galvanometer",
+            "b_item": "-v / u",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(c) Motional Electromotive force",
+            "b_item": "-e² / (8πε₀r)",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(d) Magnification formula for spherical mirror",
+            "b_item": "ne²τ / m",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(e) De Broglie wavelength",
+            "b_item": "(NAB / K) · (1 / R)",
+            "correct_match_index": "6"
+          },
+          {
+            "a_item": "(f) Total energy of the electron in hydrogen atom",
+            "b_item": "h / (mv)",
+            "correct_match_index": "3"
+          }
+        ]
+      },
+      "explanation": "The correct matching of Column 'A' with Column 'B' and their reasons are:\n\n(a) Electrical conductivity ⟶ ne²τ / m\nReason: Resistivity is ρ = m / (ne²τ), and electrical conductivity is the reciprocal of resistivity (σ = 1/ρ = ne²τ / m).\n\n(b) Voltage Sensitivity of moving coil Galvanometer ⟶ (NAB / K) · (1 / R)\nReason: Voltage sensitivity S_v = θ / V = (θ / I) · (1 / R) = (NAB / K) · (1 / R).\n\n(c) Motional Electromotive force ⟶ Blv\nReason: The induced emf across the ends of a conductor of length l moving with velocity v perpendicular to magnetic field B is e = Blv.\n\n(d) Magnification formula for spherical mirror ⟶ -v / u\nReason: For a spherical mirror, linear magnification m = h' / h = -v / u.\n\n(e) De Broglie wavelength ⟶ h / (mv)\nReason: According to de Broglie hypothesis, the wavelength associated with a moving particle is λ = h / p = h / (mv).\n\n(f) Total energy of the electron in hydrogen atom ⟶ -e² / (8πε₀r)\nReason: The total energy of an electron revolving in an orbit of radius r in a hydrogen atom is the sum of its kinetic and potential energies, i.e., E = -e² / (8πε₀r)."
+    },
+    {
+      "question_number": "4",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×5=5",
+      "text": "Write True or False:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "The refractive index of medium increases with increase in wavelength of light.",
+          "correct_answer": "false",
+          "explanation": "False\n\nReason: According to Cauchy's formula (μ = A + B/λ²), the refractive index of a medium decreases with an increase in wavelength of light (red light has the least refractive index)."
+        },
+        {
+          "q_id": "b",
+          "statement": "For stationary orbits the angular momentum of electron about the nucleus is an integer multiple of h/2π.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: According to Bohr's quantisation postulate, L = mvr = nh / 2π."
+        },
+        {
+          "q_id": "c",
+          "statement": "The binding energy per nucleon of a stable nucleus must be less than 8 MeV.",
+          "correct_answer": "false",
+          "explanation": "False\n\nReason: Most stable nuclei (having mass number between 30 and 170) have high binding energy per nucleon, approximately between 8 MeV and 8.8 MeV."
+        },
+        {
+          "q_id": "d",
+          "statement": "In an intrinsic semiconductor the number of free electrons is always greater than the number of holes.",
+          "correct_answer": "false",
+          "explanation": "False\n\nReason: In a pure (intrinsic) semiconductor, the number of free electrons is always equal to the number of holes (nₑ = nₕ)."
+        },
+        {
+          "q_id": "e",
+          "statement": "On increasing the temperature, the conductivity of intrinsic semiconductor increases.",
+          "correct_answer": "true",
+          "explanation": "True\n\nReason: As temperature increases, more covalent bonds break, generating a large number of free charge carriers (electrons and holes), which increases conductivity."
+        }
+      ]
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×5=5",
+      "text": "Write answer of each question in one word or one sentence:",
+      "parts": [
+        {
+          "q_id": "a",
+          "statement": "What kind of wavefront for a light source at infinity?",
+          "correct_answer": "Plane wavefront",
+          "explanation": "Plane wavefront."
+        },
+        {
+          "q_id": "b",
+          "statement": "What is the meaning of negative energy of an electron in the orbit?",
+          "correct_answer": "The electron is bound to the nucleus by electrostatic attraction (not free).",
+          "explanation": "It means that the electron is bound to the nucleus by attractive electrostatic force and external energy must be supplied to free it from the atom."
+        },
+        {
+          "q_id": "c",
+          "statement": "Define ionisation energy.",
+          "correct_answer": "The minimum energy required to completely remove an electron from the ground state of an atom to infinity is called ionisation energy.",
+          "explanation": "The minimum external energy required to knock out an electron completely from the ground state of an atom is called ionisation energy."
+        },
+        {
+          "q_id": "d",
+          "statement": "Which process is possible at ordinary temperature and pressure: nuclear fission or nuclear fusion?",
+          "correct_answer": "Nuclear fission",
+          "explanation": "Nuclear fission (because nuclear fusion requires extremely high temperature of the order of 10⁷ K and very high pressure)."
+        },
+        {
+          "q_id": "e",
+          "statement": "What is the effect of reverse bias on depletion layer?",
+          "correct_answer": "The width (thickness) of the depletion layer increases.",
+          "explanation": "Under reverse bias, the width of the depletion layer increases."
+        }
+      ],
+      "word_limit": ""
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Find the potential at a point at distance 5 metre from a charge 2.0 µC.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the potential at a point at distance 5 metre from a charge 2.0 µC.",
+          "correct_answer": "3.6 × 10³ V (or 3600 V)",
+          "explanation": "Given:\nCharge (q) = 2.0 µC = 2 × 10⁻⁶ C\nDistance (r) = 5 m\n\nFormula:\nV = (1 / 4πε₀) × (q / r)\n\nSubstituting values (since 1 / 4πε₀ = 9 × 10⁹ N·m²/C²):\nV = (9 × 10⁹ × 2 × 10⁻⁶) / 5\nV = (18 × 10³) / 5\nV = 3.6 × 10³ V (or 3600 V)\n\nTherefore, the electric potential at the given point is 3.6 × 10³ V."
+        }
+      ],
+      "word_limit": "Approx. 30 words"
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write Kirchhoff's Voltage law.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write Kirchhoff's Voltage law.",
+          "correct_answer": "",
+          "explanation": "Kirchhoff's Voltage Law (Second Law / Loop Rule):\n\"In any closed electrical loop, the algebraic sum of the products of currents and resistances in different parts of the loop is equal to the algebraic sum of the electromotive forces (EMFs) acting in that loop.\"\n\nMathematical form: ∑ IR = ∑ E\n(This law is based on the principle of conservation of energy)."
+        }
+      ],
+      "word_limit": "Approx. 30 words"
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write the statement and mathematical form of Ampere's Circuital law.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the statement and mathematical form of Ampere's Circuital law.",
+          "correct_answer": "",
+          "explanation": "Statement: \"The line integral of the magnetic field B⃗ around any closed path (loop) in vacuum or air is equal to μ₀ times the total current (I) enclosed by that closed path.\"\n\nMathematical Form:\n∮ B⃗ · dl⃗ = μ₀ I\n(where μ₀ is the permeability of free space)."
+        }
+      ],
+      "word_limit": "Approx. 30 words"
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "A pure inductor of inductance 25.0 mH is connected to a source of 220 V. Find the inductive reactance and rms current in the circuit if the frequency of the source is 50 Hz.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A pure inductor of inductance 25.0 mH is connected to a source of 220 V. Find the inductive reactance and rms current in the circuit if the frequency of the source is 50 Hz.",
+          "correct_answer": "X_L = 7.85 Ω, I_rms = 28.02 A",
+          "explanation": "Given:\nInductance (L) = 25.0 mH = 25 × 10⁻³ H\nVoltage (V_rms) = 220 V, Frequency (ν) = 50 Hz\n\n1. Inductive Reactance (X_L):\nX_L = 2πνL\nX_L = 2 × 3.14 × 50 × 25 × 10⁻³\nX_L = 314 × 25 × 10⁻³ = 7.85 Ω\n\n2. RMS Current in the circuit (I_rms):\nI_rms = V_rms / X_L\nI_rms = 220 / 7.85 ≈ 28.02 A\n\nHence, the inductive reactance is 7.85 Ω and the rms current is 28.02 A."
+        }
+      ],
+      "word_limit": "Approx. 30 words"
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Write the name of the electromagnetic waves corresponding to following wavelengths:\na. 10⁻¹² m < λ < 10⁻⁸ m\nb. 10⁻³ m < λ < 10⁻¹ m",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write the name of the electromagnetic waves corresponding to following wavelengths:\na. 10⁻¹² m < λ < 10⁻⁸ m\nb. 10⁻³ m < λ < 10⁻¹ m",
+          "correct_answer": "a. X-rays, b. Microwaves",
+          "explanation": "a. Wavelength range 10⁻¹² m to 10⁻⁸ m: X-rays\nb. Wavelength range 10⁻³ m to 10⁻¹ m (1 mm to 0.1 m): Microwaves"
+        }
+      ],
+      "word_limit": "Approx. 30 words"
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Is the speed of light in glass dependent on the colour of light? If yes, which of the two colours red and violet travels slower in a glass prism?",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Is the speed of light in glass dependent on the colour of light? If yes, which of the two colours red and violet travels slower in a glass prism?",
+          "correct_answer": "Yes; violet light travels slower.",
+          "explanation": "1. Yes, the speed of light in glass depends on the colour (wavelength) of light.\n2. According to the relation v = c / μ, the colour with a higher refractive index (μ) travels slower. Since the refractive index of glass is greater for violet light than for red light, violet light travels slower in a glass prism."
+        }
+      ],
+      "word_limit": "Approx. 30 words"
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "text": "Define mass defect and write its formula.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Define mass defect and write its formula.",
+          "correct_answer": "",
+          "explanation": "Definition: The difference between the total mass of all individual nucleons (protons and neutrons) constituting a nucleus and the actual rest mass of the nucleus is called mass defect (Δm).\n\nFormula:\nΔm = [ Z·m_p + (A - Z)·m_n ] - M\n(where Z = number of protons, A - Z = number of neutrons, m_p = mass of a proton, m_n = mass of a neutron, and M = actual mass of the nucleus)."
+        }
+      ],
+      "word_limit": "Approx. 30 words"
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Draw electrical circuit of Wheatstone bridge and write the necessary condition and derive the principle for balanced Wheatstone bridge.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Draw electrical circuit of Wheatstone bridge and write the necessary condition and derive the principle for balanced Wheatstone bridge.",
+          "correct_answer": "P / Q = R / S",
+          "explanation": "(1) Electrical Circuit:\n[Connect four resistances P, Q, R, and S along the four arms AB, BC, AD, and DC of a quadrilateral ABCD. Connect a galvanometer (G) with key K₂ across diagonal BD and a battery (E) with key K₁ across diagonal AC.]\n\n(2) Necessary Condition for Balance:\nWhen there is no deflection in the galvanometer (I_g = 0), then: P / Q = R / S\n\n(3) Derivation of Principle:\nIn the balanced condition, current through the galvanometer is zero (I_g = 0), meaning points B and D are at the same potential. Let current I₁ flow through arm AB and current I₂ flow through arm AD.\n• Applying Kirchhoff's second law to closed loop ABDA:\nI₁P + I_g·G - I₂R = 0\nSince I_g = 0:\nI₁P = I₂R   --- (Equation 1)\n\n• Applying Kirchhoff's second law to closed loop BCDB:\n(I₁ - I_g)Q - (I₂ + I_g)S - I_g·G = 0\nPutting I_g = 0:\nI₁Q = I₂S   --- (Equation 2)\n\nDividing Equation (1) by Equation (2):\n(I₁P) / (I₁Q) = (I₂R) / (I₂S)\nP / Q = R / S\nThis is the principle of a balanced Wheatstone bridge."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define electromotive force, terminal voltage and internal resistance of a cell and establish relation between them.",
+            "correct_answer": "r = R [(E / V) - 1]",
+            "explanation": "1. Electromotive Force (E): The maximum potential difference between the two electrodes of a cell when no current is drawn from it (open circuit) is called EMF.\n2. Terminal Voltage (V): The potential difference between the two electrodes of a cell when current is drawn from it (closed circuit) is called terminal voltage.\n3. Internal Resistance (r): The resistance offered by the electrolyte of a cell to the flow of current inside it is called internal resistance.\n\nDerivation of Relation:\nLet a cell of EMF E and internal resistance r be connected to an external resistance R.\nCurrent in the circuit: I = E / (R + r)\n⇒ E = IR + Ir\nSince terminal voltage V = IR:\nE = V + Ir  or  V = E - Ir\n\nFor internal resistance:\nIr = E - V ⇒ r = (E - V) / I\nSubstituting I = V / R:\nr = R [ (E / V) - 1 ]"
+          }
+        ]
+      },
+      "word_limit": "Approx. 75 words"
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Write Biot-Savart law and write its vector form.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write Biot-Savart law and write its vector form.",
+          "correct_answer": "",
+          "explanation": "Biot-Savart Law:\nThe magnitude of the magnetic field dB produced by a small current element dl of a current-carrying conductor at a point P at distance r is:\n1. Directly proportional to the current I flowing through the conductor (dB ∝ I)\n2. Directly proportional to the length of the element dl (dB ∝ dl)\n3. Directly proportional to the sine of the angle θ between the current element and the line joining it to point P (dB ∝ sin θ)\n4. Inversely proportional to the square of the distance r (dB ∝ 1/r²)\n\nCombining these:\ndB = (μ₀ / 4π) · [ (I dl sin θ) / r² ]\n\nVector Form:\ndB⃗ = (μ₀ / 4π) · [ I (dl⃗ × r⃗) / r³ ]   or   dB⃗ = (μ₀ / 4π) · [ I (dl⃗ × r̂) / r² ]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Define magnetizing field, intensity of magnetization and magnetic susceptibility and write relation between them.",
+            "correct_answer": "M = χ H",
+            "explanation": "1. Magnetizing Field (H): The strength of the external magnetic field used to magnetize a magnetic material is called magnetizing field (H = B₀ / μ₀).\n2. Intensity of Magnetization (M): The net magnetic dipole moment developed per unit volume of a magnetized material is called intensity of magnetization (M = m_net / V).\n3. Magnetic Susceptibility (χ): The ratio of intensity of magnetization (M) induced in a material to the magnetizing field intensity (H) is called magnetic susceptibility.\n\nRelation:\nχ = M / H  or  M = χ H\n(It is a dimensionless and unitless quantity)."
+          }
+        ]
+      },
+      "word_limit": "Approx. 75 words"
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Prove the laws of reflection on the basis of Huygen's wave theory.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Prove the laws of reflection on the basis of Huygen's wave theory.",
+          "correct_answer": "",
+          "explanation": "Let XY be a plane reflecting surface on which a plane wavefront AB is incident obliquely. Let v be the speed of light in the medium.\n\n1. Secondary wavelets start spreading out from end A, while end B takes time t to reach point C on the reflecting surface. Thus, BC = v·t.\n2. In the same time t, the secondary wavelets originating from A form a hemisphere of radius v·t. The tangent plane CD drawn from point C to this hemisphere represents the reflected wavefront. Therefore, AD = BC = v·t.\n3. In right-angled triangles ΔABC and ΔADC:\n• ∠ABC = ∠ADC = 90°\n• Side AC = AC (Common)\n• AD = BC (= v·t)\n\nBy RHS congruence criterion, ΔABC ≅ ΔADC\nHence, ∠BAC = ∠DCA\ni.e., Angle of incidence (i) = Angle of reflection (r)\n\n4. Since the incident wavefront, reflected wavefront, and the normal all lie in the same plane of paper, both laws of reflection are proved."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write Malus law and write the formula for intensity of the polarized light.",
+            "correct_answer": "I = I₀ cos²θ",
+            "explanation": "Malus's Law:\n\"When completely plane-polarised light is incident on an analyser, the intensity (I) of the light transmitted by the analyser is directly proportional to the square of the cosine of the angle (θ) between the transmission axes of the polariser and the analyser.\"\n\nFormula for intensity of polarised light:\nI = I₀ cos²θ\n\n(where I₀ = maximum intensity of plane-polarised light incident on the analyser, and θ = angle between the pass-axes of polariser and analyser)."
+          }
+        ]
+      },
+      "word_limit": "Approx. 75 words"
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "text": "Monochromatic light of frequency 6.0 × 10¹⁴ Hz is produced by a laser. The power emitted is 2.0 × 10⁻³ W. (a) What is the energy of a photon in the light beam? (b) How many photons per second on an average are emitted by the source? [h = 6.63 × 10⁻³⁴ Js]",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Monochromatic light of frequency 6.0 × 10¹⁴ Hz is produced by a laser. The power emitted is 2.0 × 10⁻³ W. (a) What is the energy of a photon in the light beam? (b) How many photons per second on an average are emitted by the source? [h = 6.63 × 10⁻³⁴ Js]",
+          "correct_answer": "(a) 3.98 × 10⁻¹⁹ J, (b) 5.03 × 10¹⁵ photons/s",
+          "explanation": "Given:\nFrequency (ν) = 6.0 × 10¹⁴ Hz\nPower (P) = 2.0 × 10⁻³ W\nPlanck's constant (h) = 6.63 × 10⁻³⁴ J·s\n\n(a) Energy of each photon (E):\nE = hν\nE = 6.63 × 10⁻³⁴ × 6.0 × 10¹⁴\nE = 39.78 × 10⁻²⁰ = 3.98 × 10⁻¹⁹ J\n\n(b) Number of photons emitted per second (N):\nN = Total Power (P) / Energy of one photon (E)\nN = (2.0 × 10⁻³) / (3.98 × 10⁻¹⁹)\nN ≈ 0.5025 × 10¹⁶ = 5.03 × 10¹⁵ photons/second\n\nHence, (a) 3.98 × 10⁻¹⁹ J and (b) 5.03 × 10¹⁵ photons/s."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "The work function for a certain metal is 4.2 eV. Will this metal give photoelectric emission for incident radiation of wavelength 330 nm? Explain mathematically.",
+            "correct_answer": "No (since incident photon energy is 3.76 eV < 4.2 eV)",
+            "explanation": "Given:\nWork function of metal (Φ₀) = 4.2 eV\nIncident wavelength (λ) = 330 nm = 330 × 10⁻⁹ m\n\nEnergy of incident photon (E):\nE = hc / λ\nE = (6.63 × 10⁻³⁴ × 3 × 10⁸) / (330 × 10⁻⁹)\nE = (19.89 × 10⁻²⁶) / (3.3 × 10⁻⁷) = 6.027 × 10⁻¹⁹ J\n\nConverting into electron-volts (eV):\nE = (6.027 × 10⁻¹⁹) / (1.6 × 10⁻¹⁹) ≈ 3.76 eV\n\nConclusion: Since the energy of the incident photon (3.76 eV) is less than the work function of the metal (4.2 eV), this metal will not show photoelectric emission."
+          }
+        ]
+      },
+      "word_limit": "Approx. 75 words"
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "By application of Gauss's law derive the expression for the electric field due to an infinitely long uniformly charged straight wire.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "By application of Gauss's law derive the expression for the electric field due to an infinitely long uniformly charged straight wire.",
+          "correct_answer": "E = λ / (2πε₀r)",
+          "explanation": "Consider an infinitely long uniformly charged straight wire having linear charge density λ. We want to find the electric field intensity at a point P at a perpendicular distance r from the wire.\n\n1. Gaussian Surface: Imagine a closed cylindrical Gaussian surface of radius r and length l coaxial with the wire.\n2. Total charge enclosed by the cylinder: q = λ l\n3. Total Electric Flux (Φ):\nThe cylinder consists of three parts—two flat circular ends (S₁, S₂) and one curved surface (S₃):\n• For both circular ends, the area vector dA⃗ is perpendicular to the electric field E⃗ (θ = 90°), so the flux through them is zero.\n• On the curved surface, E is constant in magnitude and parallel to the area vector (θ = 0°):\nΦ = ∮ E dA cos 0° = E (2πrl)\n\n4. Applying Gauss's Theorem (Φ = q / ε₀):\nE · (2πrl) = (λ l) / ε₀\nE = λ / (2πε₀r)\n\nThis is the required expression for the electric field due to an infinitely long straight charged wire."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Derive an expression for capacitance of a parallel plate capacitor, and write the factors affecting capacitance.",
+            "correct_answer": "C = Kε₀A / d",
+            "explanation": "(1) Derivation of Capacitance:\nConsider a parallel plate capacitor having two plane conducting plates each of area A separated by a distance d, carrying charges +Q and -Q respectively. A dielectric medium of dielectric constant K is filled between the plates.\nSurface charge density on the plates: σ = Q / A\nElectric field between the plates: E = σ / (Kε₀) = Q / (Kε₀A)\nPotential difference between the plates: V = E · d = (Qd) / (Kε₀A)\n\nBy definition of capacitance (C = Q / V):\nC = Q / [ (Qd) / (Kε₀A) ] = (Kε₀A) / d\n(For air or vacuum, K = 1, so C₀ = ε₀A / d)\n\n(2) Factors affecting capacitance:\n1. Area of the plates (A): Capacitance is directly proportional to the area of the plates (C ∝ A).\n2. Distance between the plates (d): Capacitance is inversely proportional to the distance between the plates (C ∝ 1/d).\n3. Dielectric constant of the medium (K): Introducing a dielectric medium increases the capacitance by K times (C ∝ K)."
+          }
+        ]
+      },
+      "word_limit": "Approx. 120 words"
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "Describe compound microscope on following heads:\n1. Draw ray diagram for formation of image.\n2. Derivation of formula for magnifying power when final image is formed at least distance of distinct vision.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Describe compound microscope on following heads:\n1. Draw ray diagram for formation of image.\n2. Derivation of formula for magnifying power when final image is formed at least distance of distinct vision.",
+          "correct_answer": "m = -(v₀ / u₀) [1 + (D / fₑ)]",
+          "explanation": "(1) Ray Diagram:\n[Draw a coaxial arrangement of an objective lens (O) of small focal length and an eyepiece (E) of larger focal length. The real, inverted image A'B' of object AB is formed within the focus of the eyepiece, and the final virtual, magnified image A''B'' is formed at the least distance of distinct vision D.]\n\n(2) Derivation of Magnifying Power:\nBy definition, magnifying power:\nm = Angle subtended by the final image at the eye (β) / Angle subtended by the object at the eye when placed at D (α)\nFor small angles: m = tan β / tan α\n\nFrom the ray diagram:\ntan β = A'B' / uₑ   and   tan α = AB / D\nTherefore:\nm = (A'B' / uₑ) / (AB / D) = (A'B' / AB) × (D / uₑ)\n\nSince the linear magnification of the objective lens is m₀ = A'B' / AB = - v₀ / u₀:\nm = - (v₀ / u₀) × (D / uₑ)   --- (Equation 1)\n\nWhen the final image is formed at the least distance of distinct vision D (vₑ = -D, u = -uₑ):\nApplying the lens formula (1/fₑ = 1/v - 1/u) for the eyepiece:\n1/fₑ = 1/(-D) - 1/(-uₑ) = -1/D + 1/uₑ\n⇒ 1/uₑ = 1/fₑ + 1/D\n\nMultiplying both sides by D:\nD / uₑ = 1 + (D / fₑ)\n\nSubstituting this into Equation (1):\nm = - (v₀ / u₀) [ 1 + (D / fₑ) ]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "For any prism prove that: n₂₁ = sin[(A + Dₘ)/2] / sin(A/2)",
+            "correct_answer": "n₂₁ = sin[(A + Dₘ)/2] / sin(A/2)",
+            "explanation": "Let ABC be the principal section of a prism with refracting angle A. A light ray incident on face AB at angle i₁ is refracted at angle r₁, falls on the second face AC at angle r₂, and emerges at angle i₂.\n\n1. Total angle of deviation (δ):\nδ = (i₁ - r₁) + (i₂ - r₂) = (i₁ + i₂) - (r₁ + r₂)   --- (1)\n\n2. From geometry of the quadrilateral and triangle inside the prism:\nr₁ + r₂ = A   --- (2)\n\nFrom equations (1) and (2):\nδ = i₁ + i₂ - A ⇒ A + δ = i₁ + i₂\n\n3. In the position of minimum deviation (δ = Dₘ):\ni₁ = i₂ = i   and   r₁ = r₂ = r\n\nFrom equation (2): 2r = A ⇒ r = A / 2\nFrom equation (3): A + Dₘ = 2i ⇒ i = (A + Dₘ) / 2\n\n4. By Snell's law, the refractive index of the prism material is:\nn₂₁ = sin i / sin r\n\nSubstituting the values of i and r:\nn₂₁ = sin[(A + Dₘ) / 2] / sin(A / 2)\nHence proved."
+          }
+        ]
+      },
+      "word_limit": "Approx. 120 words"
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "Derive an expression for mutual inductance of two coaxial solenoids of same length wound over each other. Write the factors affecting mutual inductance.",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Derive an expression for mutual inductance of two coaxial solenoids of same length wound over each other. Write the factors affecting mutual inductance.",
+          "correct_answer": "M = (μ₀ N₁ N₂ A) / l",
+          "explanation": "(1) Derivation of Mutual Inductance:\nConsider two long coaxial solenoids S₁ and S₂ of the same length l and cross-sectional area A, wound closely over each other. Let N₁ and N₂ be the total number of turns in S₁ and S₂ respectively.\n\n1. When a current I₁ flows through the primary solenoid S₁, the magnetic field produced inside it is:\nB₁ = μ₀ n₁ I₁ = (μ₀ N₁ I₁) / l   (where turns per unit length n₁ = N₁ / l)\n\n2. Magnetic flux linked with each turn of the secondary solenoid S₂:\nΦ₂ = B₁ · A = (μ₀ N₁ I₁ A) / l\n\n3. Total flux linkage in the secondary solenoid (N₂Φ₂):\nN₂ Φ₂ = (μ₀ N₁ N₂ A I₁) / l\n\n4. By definition of mutual inductance (N₂Φ₂ = M I₁):\nM = (N₂ Φ₂) / I₁ = (μ₀ N₁ N₂ A) / l\n(If a core of relative permeability μᵣ is used, then M = μ₀ μᵣ N₁ N₂ A / l)\n\n(2) Factors affecting mutual inductance:\n1. Number of turns: Increasing the number of turns (N₁, N₂) increases M.\n2. Area of cross-section (A): Increasing the cross-sectional area increases M.\n3. Length of the solenoid (l): Increasing the length decreases M.\n4. Nature of core material: Placing a soft iron core inside increases mutual inductance by μᵣ times."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain alternating current dynamo under the basis of following heads:\n1. Principle\n2. Labelled diagram\n3. Working",
+            "correct_answer": "",
+            "explanation": "1. Principle:\nAn alternating current (AC) dynamo works on the principle of electromagnetic induction. When a closed coil is rotated rapidly in a uniform magnetic field, the magnetic flux linked with the coil changes continuously, inducing an alternating electromotive force (EMF) in it.\n\n2. Labelled Diagram:\n[Draw a neat labelled diagram showing strong field magnets (N-S), rotating armature coil ABCD, two slip rings (S₁, S₂), two carbon brushes (B₁, B₂), and an external load circuit.]\n\n3. Working:\n• When the armature coil ABCD rotates clockwise in the magnetic field, during the first half-rotation arm AB moves upward and CD moves downward. By Fleming's right-hand rule, induced current flows along ABCD and goes to the external circuit from brush B₂ to B₁.\n• During the next half-rotation, arm CD moves upward and AB moves downward, reversing the direction of current along DCBA, so current in the external circuit flows from brush B₁ to B₂.\n• Thus, the direction of current reverses after every half-rotation, producing an alternating current (e = e₀ sin ωt)."
+          }
+        ]
+      },
+      "word_limit": "Approx. 120 words"
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "text": "Describe the use of a P-N junction diode as a full wave rectifier under the following heads:\n1. Labelled Circuit diagram.\n2. Working\n3. Graphs for time variation of input potential and output potential",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Describe the use of a P-N junction diode as a full wave rectifier under the following heads:\n1. Labelled Circuit diagram.\n2. Working\n3. Graphs for time variation of input potential and output potential",
+          "correct_answer": "",
+          "explanation": "1. Labelled Circuit Diagram:\n[Connect the p-sides of two diodes D₁ and D₂ to the two ends A and B of the secondary coil of a centre-tap step-down transformer. Join their n-sides together and connect a load resistor R_L between this common junction and the centre-tap T.]\n\n2. Working:\n• During the positive half-cycle of AC input: End A becomes positive and end B becomes negative with respect to centre-tap T. Diode D₁ is forward-biased and conducts current, while D₂ is reverse-biased and remains off. Current flows through the load resistor R_L.\n• During the negative half-cycle of AC input: End A becomes negative and end B becomes positive. Diode D₁ is reverse-biased and does not conduct, while D₂ is forward-biased and conducts current. Current flows through R_L in the same direction as before.\nThus, unidirectional (DC) output current is obtained across the load during both halves of the AC cycle.\n\n3. Input and Output Waveforms:\n[Draw graphs showing the alternating sine wave for input AC potential and continuous unidirectional half-sinusoidal pulses for output DC potential with respect to time.]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write four differences between intrinsic semiconductor and extrinsic semiconductor.",
+            "correct_answer": "",
+            "explanation": "Four main differences between intrinsic and extrinsic semiconductors are:\n\n| S.No. | Basis | Intrinsic Semiconductor | Extrinsic Semiconductor |\n|---|---|---|---|\n| 1. | Purity | It is a pure semiconductor free from any impurity (e.g., pure Si, Ge). | It is formed by adding a controlled amount of trivalent or pentavalent impurity (doping) to a pure semiconductor. |\n| 2. | Electrical Conductivity | Its electrical conductivity is very low at room temperature. | Its electrical conductivity is significantly high due to doping. |\n| 3. | Charge Carrier Concentration | The number of free electrons is always equal to the number of holes (nₑ = nₕ). | The number of electrons and holes are unequal (nₑ >> nₕ in n-type and nₕ >> nₑ in p-type). |\n| 4. | Dependence | Its conductivity depends only on the temperature of the material. | Its conductivity depends on both temperature and the amount of impurity added. |"
+          }
+        ]
+      },
+      "word_limit": "Approx. 120 words"
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "SOCIAL SCIENCE",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "setName": "SAMPLE PAPER",
+    "totalQuestions": "23",
+    "time": "3 Hours",
+    "language": "English Version",
+    "rollCode": ""
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose the correct option and write it:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Water resources are found in abundance in India:",
+          "options": [
+            {
+              "index": "a",
+              "text": "In Jharkhand"
+            },
+            {
+              "index": "b",
+              "text": "In Arunachal Pradesh"
+            },
+            {
+              "index": "c",
+              "text": "In Madhya Pradesh"
+            },
+            {
+              "index": "d",
+              "text": "In Chhattisgarh"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "In Arunachal Pradesh",
+          "explanation": "Arunachal Pradesh receives heavy rainfall and has many big rivers like the Brahmaputra, so water is available in plenty there. However, because it is a hilly state, water infrastructure is less developed."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The scale used for measuring cloth during Napoleon's time was:",
+          "options": [
+            {
+              "index": "a",
+              "text": "Meter"
+            },
+            {
+              "index": "b",
+              "text": "Centimeter"
+            },
+            {
+              "index": "c",
+              "text": "Mainz"
+            },
+            {
+              "index": "d",
+              "text": "Elle"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "Elle",
+          "explanation": "During Napoleon's time, a measuring unit called 'Elle' was used to measure cloth in different German states. Its length changed from one city to another, which created problems for traders."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The new system of slavery was abolished in:",
+          "options": [
+            {
+              "index": "a",
+              "text": "1920"
+            },
+            {
+              "index": "b",
+              "text": "1925"
+            },
+            {
+              "index": "c",
+              "text": "1921"
+            },
+            {
+              "index": "d",
+              "text": "1930"
+            }
+          ],
+          "correct_index": "c",
+          "correct_answer": "1921",
+          "explanation": "In the 19th century, lakhs of Indian workers were sent abroad on contracts (indentured labour) to work on plantations, which was known as the 'new system of slavery'. Due to strong protests by Indian leaders, this system was completely ended in 1921."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Out of the 193 countries in the world, a federal system of government exists in:",
+          "options": [
+            {
+              "index": "a",
+              "text": "25 countries"
+            },
+            {
+              "index": "b",
+              "text": "28 countries"
+            },
+            {
+              "index": "c",
+              "text": "40 countries"
+            },
+            {
+              "index": "d",
+              "text": "50 countries"
+            }
+          ],
+          "correct_index": "a",
+          "correct_answer": "25 countries",
+          "explanation": "Out of the 193 countries in the world, only about 25 countries follow a federal system (where power is shared between the central and state governments). However, these countries are home to nearly 40% of the world's population."
+        },
+        {
+          "q_id": "v",
+          "statement": "As of the year 2023, India's per capita income is:",
+          "options": [
+            {
+              "index": "a",
+              "text": "US$ 10,050"
+            },
+            {
+              "index": "b",
+              "text": "US$ 11,050"
+            },
+            {
+              "index": "c",
+              "text": "US$ 10,040"
+            },
+            {
+              "index": "d",
+              "text": "US$ 10,030"
+            }
+          ],
+          "correct_index": "d",
+          "correct_answer": "US$ 10,030",
+          "explanation": "According to the latest Class 10 NCERT Economics textbook data (for the year 2023), India's per capita annual income based on Purchasing Power Parity (PPP) is US$ 10,030."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Monitors the functioning of formal sources of loans in India:",
+          "options": [
+            {
+              "index": "a",
+              "text": "The public"
+            },
+            {
+              "index": "b",
+              "text": "Reserve Bank of India"
+            },
+            {
+              "index": "c",
+              "text": "The government"
+            },
+            {
+              "index": "d",
+              "text": "Commercial banks"
+            }
+          ],
+          "correct_index": "b",
+          "correct_answer": "Reserve Bank of India",
+          "explanation": "The Reserve Bank of India (RBI) supervises the working of all banks and cooperative societies. It ensures that banks give loans not just to rich businessmen, but also to small farmers and poor borrowers at fair interest rates."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The world's largest producer and consumer of pulses is {BLANK}.",
+          "correct_answer": "India",
+          "explanation": "India grows and consumes the highest amount of pulses in the world because pulses are the main source of protein in a vegetarian diet."
+        },
+        {
+          "q_id": "ii",
+          "statement": "More than 50% of India's iron ore is exported from the {BLANK} port.",
+          "correct_answer": "Marmagao",
+          "explanation": "Marmagao port in Goa is India's top iron ore exporting seaport, handling about half of the country's total iron ore exports."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The image of Bharat Mata was created for the first time by {BLANK}.",
+          "correct_answer": "Bankim Chandra Chattopadhyay",
+          "explanation": "In the 1870s, Bankim Chandra Chattopadhyay wrote 'Vande Mataram' as a hymn to the motherland and first created the image of Bharat Mata. Later, Abanindranath Tagore painted her famous portrait."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The machine known as the Spinning Jenny was invented by {BLANK}.",
+          "correct_answer": "James Hargreaves",
+          "explanation": "James Hargreaves invented the Spinning Jenny in 1764. By turning a single wheel, a worker could spin several threads at the same time, which made yarn production much faster."
+        },
+        {
+          "q_id": "v",
+          "statement": "The title of the autobiography of the Bengali writer Rassundari Devi is {BLANK}.",
+          "correct_answer": "Amar Jiban",
+          "explanation": "Rassundari Devi secretly learned to read and write in the kitchen of her home in Bengal and published her autobiography 'Amar Jiban' in 1876. It was the first full-length autobiography written in Bengali by an Indian woman."
+        },
+        {
+          "q_id": "vi",
+          "statement": "A person who does not discriminate between individuals on the basis of religious faith is called {BLANK}.",
+          "correct_answer": "Secular",
+          "explanation": "A person who respects all religions equally and does not treat anyone unfairly because of their religion is called 'secular'."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True / False:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Terrace farming is practiced in Uttarakhand.",
+          "correct_answer": "True",
+          "explanation": "This statement is true. Uttarakhand is a hilly state where steps are cut into mountain slopes to make flat fields. This stops rainwater from washing away the fertile soil."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The Atal Tunnel is the world's longest highway tunnel.",
+          "correct_answer": "True",
+          "explanation": "This statement is true. According to the Class 10 Geography textbook, the Atal Tunnel (9.02 km) in Himachal Pradesh is the world's longest highway tunnel located above an altitude of 10,000 feet."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The author of the book Gulamgiri is Jaydev.",
+          "correct_answer": "False",
+          "explanation": "This statement is false. The famous book 'Gulamgiri' (1871) was written by social reformer Jyotiba Phule, not Jaydev. In this book, he wrote against the injustices of the caste system."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The Nari Shakti Vandan Adhiniyam was enacted in the year 2023.",
+          "correct_answer": "True",
+          "explanation": "This statement is true. The Nari Shakti Vandan Adhiniyam (Women's Reservation Bill), which gives 33% seat reservation to women in the Lok Sabha and state assemblies, was passed by the Indian Parliament in September 2023."
+        },
+        {
+          "q_id": "v",
+          "statement": "Haryana is the poorest state in India.",
+          "correct_answer": "False",
+          "explanation": "This statement is false. Haryana is one of the richest states in India with a high per capita income, whereas states like Bihar and Jharkhand have higher poverty levels."
+        },
+        {
+          "q_id": "vi",
+          "statement": "In India, the task of measuring Gross Domestic Product is carried out by the state government.",
+          "correct_answer": "False",
+          "explanation": "This statement is false. Measuring India's Gross Domestic Product (GDP) is a huge task done by a central government ministry (Ministry of Statistics and Programme Implementation), not by state governments."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the correct pairs:",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "explanation": "The correct matching of Column A with Column B is given below:\n\n(i) Sardar Sarovar Dam ⟶ (d) Gujarat\nReason: Sardar Sarovar Dam is built on the Narmada River in Gujarat and is one of India's largest water resource projects.\n\n(ii) Bamboo drip irrigation system ⟶ (c) Meghalaya\nReason: In Meghalaya, farmers use a 200-year-old method of using bamboo pipes to carry stream and spring water to their crops.\n\n(iii) First textile mill in India ⟶ (a) 1854\nReason: India's first modern cotton textile mill was set up in Bombay (Mumbai) in the year 1854.\n\n(iv) First jute mill in India ⟶ (b) 1917\nReason: Seth Hukumchand established the first Indian jute mill in Calcutta (Kolkata) in 1917.\n\n(v) Marriage ⟶ (f) State List / Concurrent List\nReason: Based on the given options where all other pairs are fixed, 'Marriage' matches with option (f) (note: constitutionally, marriage falls under the Concurrent List).\n\n(vi) Defence ⟶ (e) Union List\nReason: Defence is a matter of national security, so only the Central Government has the power to make laws on it under the Union List.",
+      "columns": {
+        "column_A_title": "Column A",
+        "column_B_title": "Column B",
+        "pairs": [
+          {
+            "a_item": "(i) Sardar Sarovar Dam",
+            "b_item": "(a) 1854",
+            "correct_match_index": "4"
+          },
+          {
+            "a_item": "(ii) Bamboo drip irrigation system",
+            "b_item": "(b) 1917",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(iii) First textile mill in India",
+            "b_item": "(c) Meghalaya",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(iv) First jute mill in India",
+            "b_item": "(d) Gujarat",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(v) Marriage",
+            "b_item": "(e) Union List",
+            "correct_match_index": "6"
+          },
+          {
+            "a_item": "(vi) Defence",
+            "b_item": "(f) State List",
+            "correct_match_index": "5"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×6=6",
+      "word_limit": "One sentence",
+      "text": "Write the answer in one sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "What is the raw material for the aluminum smelting industry?",
+          "correct_answer": "Bauxite is the main raw material for the aluminum smelting industry.",
+          "explanation": "Bauxite, a dark reddish rock, is melted and processed in factories to produce aluminum."
+        },
+        {
+          "q_id": "ii",
+          "statement": "With which revolution did the first expression of nationalism take place?",
+          "correct_answer": "The first clear expression of nationalism took place with the French Revolution of 1789.",
+          "explanation": "In 1789, the people of France ended the rule of an absolute king and transferred power to the citizens, giving birth to modern nationalism."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Which industry was the largest industry at the end of the 18th century?",
+          "correct_answer": "The cotton textile industry was the largest industry at the end of the 18th century.",
+          "explanation": "During the early Industrial Revolution in Britain, cotton cloth production grew rapidly and became the leading industry."
+        },
+        {
+          "q_id": "iv",
+          "statement": "What is the main basis for the success of democracy?",
+          "correct_answer": "Alert, educated, and responsible citizens are the main basis for the success of democracy.",
+          "explanation": "Democracy works best when citizens are aware of their rights, vote wisely without greed or fear, and keep a watch on the government's work."
+        },
+        {
+          "q_id": "v",
+          "statement": "What is the name of India's central bank?",
+          "correct_answer": "The name of India's central bank is the Reserve Bank of India (RBI).",
+          "explanation": "The Reserve Bank of India prints currency notes, controls interest rates, and manages the entire banking system of the country."
+        },
+        {
+          "q_id": "vi",
+          "statement": "What is the process of removing trade barriers or restrictions by the government called?",
+          "correct_answer": "The process of removing trade barriers or restrictions by the government is called Liberalisation.",
+          "explanation": "When the government reduces taxes and strict rules on foreign trade and investment so businesses can trade freely, it is known as liberalisation."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What type of soil is found on the river deltas of the eastern coast? Write one characteristic of this type of soil.",
+          "correct_answer": "",
+          "explanation": "'Alluvial soil' is found on the river deltas of the eastern coast (such as the Mahanadi, Godavari, Krishna, and Kaveri deltas).\nCharacteristic: This soil is very fertile because it contains good amounts of potash, phosphoric acid, and lime, making it ideal for growing rice, wheat, and sugarcane."
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is the conservation of forests and wildlife necessary?",
+          "correct_answer": "",
+          "explanation": "Conservation of forests and wildlife is necessary because:\n1. It keeps our air, water, and soil clean and maintains ecological balance.\n2. Forests provide wood, medicines, and shelter for different animal and plant species to survive."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What types of forests are addressed under the Joint Forest Management Program, and how does it work?",
+          "correct_answer": "",
+          "explanation": "The Joint Forest Management (JFM) program works to protect and restore degraded (damaged) forests.\nHow it works: Local villagers form protection committees and work together with the Forest Department to guard the forests. In return, villagers get the right to use forest products like dry wood, fruits, and medicinal herbs."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How is primitive subsistence agriculture practiced?",
+          "correct_answer": "",
+          "explanation": "Primitive subsistence farming is practiced on small patches of land using simple old tools like wooden ploughs, hoes, and digging sticks with the help of family members. It depends completely on monsoon rain and natural soil fertility, and crops are grown only to feed the farmer's family."
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is thermal pollution?",
+          "correct_answer": "",
+          "explanation": "When hot water from factories and thermal power plants is drained directly into rivers and ponds without cooling it first, the water temperature rises suddenly. This is called 'thermal pollution', and it harms fish and aquatic plants."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two causes of the Great Economic Depression of 1929.",
+          "correct_answer": "",
+          "explanation": "Two main causes of the Great Economic Depression of 1929 were:\n1. Agricultural overproduction: Farmers grew too much grain, which caused crop prices to fall sharply and reduced farmers' income.\n2. Withdrawal of US loans: Seeing the crisis, the United States suddenly stopped giving loans to European countries, causing banks and businesses worldwide to fail."
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two features of the printing press invented by Gutenberg.",
+          "correct_answer": "",
+          "explanation": "Two features of Johann Gutenberg's printing press were:\n1. It used a long screw handle (inspired by an olive press) to press inked letters evenly onto paper.\n2. It used movable metal letters (types) that could be arranged quickly, allowing it to print about 250 sheets per hour."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Who was Raja Dahir Sen? Which port did he take under his control?",
+          "correct_answer": "",
+          "explanation": "Raja Dahir Sen was a brave Hindu ruler of the Sindh region (now in Pakistan) in ancient India. He took control of the important sea trading port of 'Debal'."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How are disputes resolved in a democracy?",
+          "correct_answer": "",
+          "explanation": "In a democracy, disputes between different groups or states are solved peacefully through dialogue, mutual negotiation, debates in Parliament, and fair decisions by independent courts, instead of using violence."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is money called a medium of exchange?",
+          "correct_answer": "",
+          "explanation": "Money acts as a middle link in buying and selling. Anyone can easily exchange money to buy the goods or services they need, and sell goods to get money in return. Therefore, money is called a 'medium of exchange'."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is globalization?",
+          "correct_answer": "",
+          "explanation": "Globalisation is the rapid process of connecting different countries of the world through the free flow of goods, services, money, technology, and people. It links the whole world into one big market."
+        }
+      ]
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "30 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write two forms of consumer exploitation.",
+          "correct_answer": "",
+          "explanation": "Two common forms of consumer exploitation are:\n1. Under-weighing: Shopkeepers giving less weight or quantity than what the customer paid for.\n2. Adulteration and overcharging: Mixing cheap or harmful items into food products, or charging more than the Maximum Retail Price (MRP)."
+        }
+      ]
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Why is Road transport important compared to Rail transport? Explain in three points.",
+          "correct_answer": "",
+          "explanation": "Road transport is more important than rail transport for three main reasons:\n1. Lower construction cost: Building and maintaining roads costs much less money than laying railway tracks.\n2. Easy access in hilly areas: Roads can be easily built on uneven land, steep slopes, and mountains where laying railway lines is very difficult.\n3. Door-to-door service: Road transport delivers goods directly to the doorstep of homes and shops, which saves both loading-unloading time and money."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Name any three seaports located on the western coast of India and write one feature of each.",
+            "correct_answer": "",
+            "explanation": "Three major seaports on the western coast of India and their features are:\n1. Kandla (Deendayal) Port (Gujarat): It was the first tidal port developed after independence to reduce trade pressure on Mumbai port.\n2. Mumbai Port (Maharashtra): It is the biggest natural and busiest seaport in India.\n3. Marmagao Port (Goa): It is India's top iron ore exporting port, handling about 50% of the country's iron ore exports."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Explain any three features of the federal system of government.",
+          "correct_answer": "",
+          "explanation": "Three main features of a federal system of government are:\n1. Two or more levels of government: There is one central government for the entire country and separate state governments for different states.\n2. Clear division of powers: The Constitution clearly mentions which subjects the central government can make laws on and which subjects belong to the state governments.\n3. Independent judiciary: If there is any dispute between the central and state governments over powers, the Supreme Court acts as an umpire and gives the final decision."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Into how many parts has the Constitution of India divided the legislative powers between the Central and State Governments? Explain.",
+            "correct_answer": "",
+            "explanation": "The Constitution of India has divided law-making powers between the Central and State Governments into three lists:\n1. Union List: Includes subjects of national importance like defence, foreign affairs, banking, and railways. Only the Central Government makes laws on these.\n2. State List: Includes local subjects like police, agriculture, irrigation, and trade. State Governments make laws on these.\n3. Concurrent List: Includes subjects of common interest like education, forests, and marriage. Both Central and State Governments can make laws here, but if their laws clash, the Central law applies."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "75 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write three differences between the primary sector and the tertiary sector of the economy.",
+          "correct_answer": "",
+          "explanation": "Three differences between the primary sector and the tertiary sector are:\n1. Nature of work: The primary sector produces goods by directly using natural resources, while the tertiary sector does not produce goods; it provides services.\n2. Other names: The primary sector is also called the 'Agriculture and related sector', while the tertiary sector is called the 'Service sector'.\n3. Examples: Farming, fishing, and mining are examples of the primary sector; banking, transport, doctors, teachers, and internet services are examples of the tertiary sector."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Write any three differences between the organized and unorganized sectors on the basis of employment conditions.",
+            "correct_answer": "",
+            "explanation": "Three differences between the organized and unorganized sectors based on job conditions are:\n1. Job security: Workers in the organized sector have permanent jobs and cannot be removed without a valid reason, whereas jobs in the unorganized sector are temporary and insecure.\n2. Salary and leaves: Organized sector workers get fixed salaries, paid holidays, and provident fund (PF), while unorganized sector workers lose pay if they take a leave and get no extra benefits.\n3. Government rules: The organized sector is registered with the government and follows labour laws, whereas the unorganized sector works outside government rules."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "How was the Civil Disobedience Movement launched by Mahatma Gandhi different from the Non-Cooperation Movement? Explain in four points.",
+          "correct_answer": "",
+          "explanation": "Four main differences between the Civil Disobedience Movement (1930) and the Non-Cooperation Movement (1920) are:\n1. Main goal: The Non-Cooperation Movement aimed for 'Swaraj' (self-rule), while the Civil Disobedience Movement demanded 'Purna Swaraj' (complete independence).\n2. Method of protest: During Non-Cooperation, people were asked only to refuse cooperation with the British (like leaving schools and jobs). During Civil Disobedience, people were asked to peacefully break British laws (like making salt and refusing to pay taxes).\n3. Role of women: Women participated in much larger numbers in the Civil Disobedience Movement, coming out of their homes to join marches and protests.\n4. Participation of social groups: Muslim participation was very high during the Non-Cooperation Movement, whereas many Muslim groups stayed away during the Civil Disobedience Movement."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Explain the meaning of Satyagraha and describe any three movements launched by Mahatma Gandhi between 1917 and 1918.",
+            "correct_answer": "",
+            "explanation": "Meaning of Satyagraha: Satyagraha means 'holding onto truth'. According to Mahatma Gandhi, if your cause is true and your fight is against injustice, you can win against an oppressor using truth and non-violence without any anger or physical force.\n\nThree Satyagraha movements launched by Gandhiji between 1917 and 1918:\n1. Champaran Satyagraha (1917): In Champaran (Bihar), Gandhiji united farmers against the oppressive indigo plantation system forced by British planters and won relief for them.\n2. Kheda Satyagraha (1917): In Kheda (Gujarat), farmers could not pay land tax due to crop failure and plague. Gandhiji led a Satyagraha, forcing the government to relax tax collection.\n3. Ahmedabad Mill Strike (1918): In Ahmedabad (Gujarat), Gandhiji led a hunger strike and Satyagraha for cotton mill workers demanding better wages and a plague bonus, resulting in a wage increase."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "120 words",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "What is the significance of the party system in a democracy? Explain its various types.",
+          "correct_answer": "",
+          "explanation": "Significance of the party system in a democracy:\nPolitical parties are essential for modern democracy. They contest elections, make policies for the country's development, bring public issues to the government, and form the government after winning elections. Without political parties, every candidate would be independent and no one could make big policy promises.\n\nThree types of party systems:\n1. One-party system: Only one political party is allowed to control and run the government (for example, the Communist Party in China). This is not considered a good democratic system.\n2. Two-party system: Power usually changes between two main parties (for example, in the USA and the UK).\n3. Multi-party system: Several political parties compete for power, and more than two parties have a reasonable chance of coming to power on their own or in an alliance (for example, in India)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "What is meant by a political party? Explain any three functions of political parties.",
+            "correct_answer": "",
+            "explanation": "Meaning of a political party: A political party is an organized group of people who come together to contest elections and hold power in the government. Members of a party agree on common policies and programs for the good of society.\n\nThree main functions of political parties:\n1. Contesting elections: Political parties select candidates from different areas to contest elections and ask citizens for votes.\n2. Making policies and programs: Parties put forward different policies and manifestos so voters can choose what kind of government they want.\n3. Forming and running the government: The party that wins a majority in elections forms the government, appoints ministers, and makes laws to run the country, while losing parties act as the opposition."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "On the given outline map of India, locate and label the following:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Kalpakkam Atomic Power Station",
+          "correct_answer": "",
+          "explanation": "Kalpakkam Atomic Power Station is located near Chennai on the eastern coast of Tamil Nadu."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Katni Lime Field",
+          "correct_answer": "",
+          "explanation": "Katni limestone field is located in the eastern-central part of Madhya Pradesh, north of Jabalpur, and is famous for the cement industry."
+        },
+        {
+          "q_id": "iii",
+          "statement": "Raniganj coal field",
+          "correct_answer": "",
+          "explanation": "Raniganj is India's oldest coalfield, located in the western part of West Bengal near the Jharkhand border."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Bewar mica field",
+          "correct_answer": "",
+          "explanation": "Bewar (Beawar) mica-producing region is located near Ajmer in central Rajasthan."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "Narora Atomic Power Station",
+            "correct_answer": "",
+            "explanation": "Narora Atomic Power Station is located on the banks of the Ganga River in Bulandshahr district of western Uttar Pradesh."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Bilaspur Bauxite",
+            "correct_answer": "",
+            "explanation": "Bilaspur bauxite-producing region is located in the northern-central part of Chhattisgarh."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Singrauli Coalfield",
+            "correct_answer": "",
+            "explanation": "Singrauli coalfield is located at the easternmost tip of Madhya Pradesh near the Uttar Pradesh border."
+          },
+          {
+            "q_id": "iv",
+            "statement": "Ajmer Mica Region",
+            "correct_answer": "",
+            "explanation": "Ajmer mica region is located right in the central part of Rajasthan."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23_visually_impaired_alternative",
+      "question_type": "DESCRIPTIVE",
+      "marks": "1×4=4",
+      "word_limit": "One word / One sentence",
+      "text": "Note: The following theoretical question is given only for visually impaired candidates in place of question No. 23. Write the answers to the following questions in one word or one sentence:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Which is a basic raw material for the cement industry?",
+          "correct_answer": "Limestone",
+          "explanation": "Limestone is the primary and most basic raw material used for making cement."
+        },
+        {
+          "q_id": "ii",
+          "statement": "Which is the largest bauxite-producing state in India?",
+          "correct_answer": "Odisha",
+          "explanation": "Odisha is the largest bauxite-producing state in India, with the Panchpatmali deposits in Koraput district being the most important."
+        },
+        {
+          "q_id": "iii",
+          "statement": "In which state of India are the largest iron ore mines located?",
+          "correct_answer": "Odisha",
+          "explanation": "Odisha has the largest reserves and major mines of high-grade iron ore in India, especially in Mayurbhanj and Kendujhar districts."
+        },
+        {
+          "q_id": "iv",
+          "statement": "Rawatbhata Atomic Power Station is located in which state of India?",
+          "correct_answer": "Rajasthan",
+          "explanation": "Rawatbhata Atomic Power Station is located near the Chambal River in Chittorgarh district of Rajasthan."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "i",
+            "statement": "In which state of India is the Kaiga Atomic Power Station located?",
+            "correct_answer": "Karnataka",
+            "explanation": "Kaiga Atomic Power Station is located near the Kali River in Uttara Kannada district of Karnataka."
+          },
+          {
+            "q_id": "ii",
+            "statement": "Name one conventional source of energy.",
+            "correct_answer": "Coal (or Petroleum / Natural Gas)",
+            "explanation": "Coal, petroleum, and natural gas are conventional sources of energy that have been in common use for a long time."
+          },
+          {
+            "q_id": "iii",
+            "statement": "Which is the finest variety of iron ore?",
+            "correct_answer": "Magnetite",
+            "explanation": "Magnetite is the finest quality of iron ore, containing up to 70% pure iron."
+          },
+          {
+            "q_id": "iv",
+            "statement": "What does the word 'Kudre' mean in the Kannada language?",
+            "correct_answer": "Horse",
+            "explanation": "In the local Kannada language of Karnataka, 'Kudre' means 'horse'. The highest peak in the Western Ghats is named Kudremukh because it looks like the face of a horse."
+          }
+        ]
+      }
+    }
+  ]
+}

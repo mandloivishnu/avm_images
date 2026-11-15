@@ -1,0 +1,789 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "MATHEMATICS (BASIC)",
+    "totalMarks": "75",
+    "board": "MP Board",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose and write the correct option :",
+      "explanation": "The correct option in each question is selected based on standard mathematical rules and formulas.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The ordinate of point (3, −5) is :",
+          "options": [
+            {
+              "index": "a",
+              "text": "3"
+            },
+            {
+              "index": "b",
+              "text": "−3"
+            },
+            {
+              "index": "c",
+              "text": "5"
+            },
+            {
+              "index": "d",
+              "text": "−5"
+            }
+          ],
+          "correct_answer": "−5",
+          "explanation": "Correct option is (d).\n\nReason:\nIn any point (x, y), the x-coordinate is called the abscissa and the y-coordinate is called the ordinate. For the point (3, −5), the y-coordinate is −5, so its ordinate is −5."
+        },
+        {
+          "q_id": "ii",
+          "statement": "tan² 45° =",
+          "options": [
+            {
+              "index": "a",
+              "text": "1"
+            },
+            {
+              "index": "b",
+              "text": "√3"
+            },
+            {
+              "index": "c",
+              "text": "2"
+            },
+            {
+              "index": "d",
+              "text": "3"
+            }
+          ],
+          "correct_answer": "1",
+          "explanation": "Correct option is (a).\n\nMathematical Solution:\nFrom the trigonometric table, tan 45° = 1.\nTherefore, tan² 45° = (1)² = 1."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The sum of the zeroes of the quadratic polynomial x² − 5x + 3 is :",
+          "options": [
+            {
+              "index": "a",
+              "text": "3"
+            },
+            {
+              "index": "b",
+              "text": "−3"
+            },
+            {
+              "index": "c",
+              "text": "5"
+            },
+            {
+              "index": "d",
+              "text": "−5"
+            }
+          ],
+          "correct_answer": "5",
+          "explanation": "Correct option is (c).\n\nMathematical Solution:\nComparing the given polynomial x² − 5x + 3 with the standard form ax² + bx + c:\na = 1, b = −5, c = 3\nSum of zeroes (α + β) = −b/a = −(−5)/1 = 5."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The discriminant of the quadratic equation x² − 2x − 1 = 0 is :",
+          "options": [
+            {
+              "index": "a",
+              "text": "0"
+            },
+            {
+              "index": "b",
+              "text": "4"
+            },
+            {
+              "index": "c",
+              "text": "8"
+            },
+            {
+              "index": "d",
+              "text": "−8"
+            }
+          ],
+          "correct_answer": "8",
+          "explanation": "Correct option is (c).\n\nMathematical Solution:\nIn the equation x² − 2x − 1 = 0, a = 1, b = −2, c = −1.\nDiscriminant (D) = b² − 4ac\nD = (−2)² − 4(1)(−1)\nD = 4 + 4 = 8."
+        },
+        {
+          "q_id": "v",
+          "statement": "If the length of one tangent from an external point to a circle is 5 cm, then the length of the other tangent will be :",
+          "options": [
+            {
+              "index": "a",
+              "text": "3 cm"
+            },
+            {
+              "index": "b",
+              "text": "4 cm"
+            },
+            {
+              "index": "c",
+              "text": "5 cm"
+            },
+            {
+              "index": "d",
+              "text": "2 cm"
+            }
+          ],
+          "correct_answer": "5 cm",
+          "explanation": "Correct option is (c).\n\nReason:\nAccording to the theorem, the lengths of tangents drawn from an external point to a circle are equal. Therefore, the length of the other tangent will also be 5 cm."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Which of the following geometric shapes are not always similar?",
+          "options": [
+            {
+              "index": "a",
+              "text": "Equilateral triangles"
+            },
+            {
+              "index": "b",
+              "text": "Circles"
+            },
+            {
+              "index": "c",
+              "text": "Rectangles"
+            },
+            {
+              "index": "d",
+              "text": "Squares"
+            }
+          ],
+          "correct_answer": "Rectangles",
+          "explanation": "Correct option is (c).\n\nReason:\nAll circles, all squares, and all equilateral triangles are always similar because their corresponding sides are always in the same proportion. However, the ratio of length to breadth of two rectangles can vary, so rectangles are not always similar."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "If the lines coincide, then there are {BLANK} solution(s).",
+          "options": [
+            {
+              "index": "a",
+              "text": "infinitely many"
+            },
+            {
+              "index": "b",
+              "text": "a unique"
+            },
+            {
+              "index": "c",
+              "text": "no"
+            },
+            {
+              "index": "d",
+              "text": "only two"
+            }
+          ],
+          "correct_answer": "infinitely many",
+          "explanation": "Answer: infinitely many\n\nReason: When the lines of two linear equations coincide (lie on top of each other), every point on the line is a common point, so they have infinitely many solutions."
+        },
+        {
+          "q_id": "ii",
+          "statement": "A polynomial of degree two is called a {BLANK} polynomial.",
+          "options": [
+            {
+              "index": "a",
+              "text": "linear"
+            },
+            {
+              "index": "b",
+              "text": "quadratic"
+            },
+            {
+              "index": "c",
+              "text": "cubic"
+            },
+            {
+              "index": "d",
+              "text": "zero"
+            }
+          ],
+          "correct_answer": "quadratic",
+          "explanation": "Answer: quadratic\n\nReason: A polynomial in which the highest power (degree) of the variable is 2 is called a quadratic polynomial."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The distance of the point (3, 4) from the origin is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "5 units"
+            },
+            {
+              "index": "b",
+              "text": "7 units"
+            },
+            {
+              "index": "c",
+              "text": "3 units"
+            },
+            {
+              "index": "d",
+              "text": "4 units"
+            }
+          ],
+          "correct_answer": "5 units",
+          "explanation": "Answer: 5 units\n\nMathematical Solution:\nDistance of point (x, y) from the origin (0, 0) = √(x² + y²)\nDistance = √(3² + 4²) = √(9 + 16) = √25 = 5 units."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The standard form of a quadratic equation is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "ax² + bx + c = 0 (a ≠ 0)"
+            },
+            {
+              "index": "b",
+              "text": "ax + b = 0"
+            },
+            {
+              "index": "c",
+              "text": "ax³ + bx² + cx + d = 0"
+            },
+            {
+              "index": "d",
+              "text": "ax² + bx = 0"
+            }
+          ],
+          "correct_answer": "ax² + bx + c = 0 (a ≠ 0)",
+          "explanation": "Answer: ax² + bx + c = 0 (a ≠ 0)\n\nReason: The standard form of a quadratic equation in variable x is ax² + bx + c = 0, where a, b, and c are real numbers and a ≠ 0."
+        },
+        {
+          "q_id": "v",
+          "statement": "The corresponding angles of similar triangles are {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "equal"
+            },
+            {
+              "index": "b",
+              "text": "proportional"
+            },
+            {
+              "index": "c",
+              "text": "unequal"
+            },
+            {
+              "index": "d",
+              "text": "complementary"
+            }
+          ],
+          "correct_answer": "equal",
+          "explanation": "Answer: equal\n\nReason: By the definition of similarity, two triangles are similar if their corresponding angles are equal and their corresponding sides are in the same ratio (proportional)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The line drawn from the eye of an observer to the point on the object viewed by the observer is called {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "line of sight"
+            },
+            {
+              "index": "b",
+              "text": "horizontal line"
+            },
+            {
+              "index": "c",
+              "text": "secant line"
+            },
+            {
+              "index": "d",
+              "text": "tangent line"
+            }
+          ],
+          "correct_answer": "line of sight",
+          "explanation": "Answer: line of sight\n\nReason: The straight line drawn from the eye of an observer to the point in the object viewed by the observer is defined as the line of sight."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True/False in the following:",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "The distance of point (5, 7) from the X-axis is 7 units.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: The perpendicular distance of a point (x, y) from the X-axis is equal to its y-coordinate (ordinate). In the point (5, 7), the y-coordinate is 7, so its distance from the X-axis is 7 units."
+        },
+        {
+          "q_id": "ii",
+          "statement": "The sum of two irrational numbers is always an irrational number.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: The sum of two irrational numbers can also be a rational number. For example, (2 + √3) and (2 − √3) are both irrational numbers, but their sum = (2 + √3) + (2 − √3) = 4, which is a rational number."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The corresponding sides of similar triangles are proportional.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: Two triangles are similar if their corresponding angles are equal and their corresponding sides are in the same ratio (proportional)."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The tangents drawn at the ends of a diameter of a circle are parallel.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: The radius is perpendicular (90°) to the tangent at the point of contact. Thus, the alternate interior angles formed at the two ends of the diameter are both 90° (equal), which proves that the two tangents are parallel."
+        },
+        {
+          "q_id": "v",
+          "statement": "The area of a sector of a circle with radius r and angle with degree measure θ is (θ/180) × πr².",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: The correct formula for the area of a sector of a circle with radius r and central angle θ is (θ/360) × πr², not (θ/180) × πr²."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The probability of an impossible event is 1.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: An event which is impossible to occur has 0 favourable outcomes. Therefore, the probability of an impossible event is always 0 (whereas the probability of a sure event is 1)."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×6=6",
+      "text": "Match the columns :",
+      "explanation": "The correct matching between Column \"A\" and Column \"B\" based on mathematical formulas and standard values is as follows:\n\n(i) tan 45° = ⟶ 1\nReason: From the standard trigonometric table, the value of tan 45° is 1.\n\n(ii) cosec 30° = ⟶ 2\nReason: cosec 30° = 1 / sin 30° = 1 / (1/2) = 2.\n\n(iii) The common difference of the AP: 5, 8, 11, ... ⟶ 3\nReason: Common difference (d) = second term − first term = 8 − 5 = 3.\n\n(iv) The area of a quadrant of a circle ⟶ (1/4)πr²\nReason: A quadrant is one-fourth of a circle, so its area = (1/4)πr².\n\n(v) The volume of a hemisphere ⟶ (2/3)πr³\nReason: The volume of a hemisphere of radius r is half the volume of a sphere (4/3 πr³), which is (2/3)πr³.\n\n(vi) The volume of a cone ⟶ (1/3)πr²h\nReason: The volume of a right circular cone of radius r and height h = (1/3)πr²h.",
+      "columns": {
+        "column_A_title": "Column \"A\"",
+        "column_B_title": "Column \"B\"",
+        "pairs": [
+          {
+            "a_item": "tan 45° =",
+            "b_item": "(1/3)πr²h",
+            "correct_match_index": 6,
+            "explanation": "Correct Match: (i) ⟶ 1\n\nReason: According to the trigonometric table, the value of tan 45° is 1."
+          },
+          {
+            "a_item": "cosec 30° =",
+            "b_item": "(2/3)πr³",
+            "correct_match_index": 4,
+            "explanation": "Correct Match: (ii) ⟶ 2\n\nReason: cosec 30° = 1 / sin 30° = 1 / (1/2) = 2."
+          },
+          {
+            "a_item": "The common difference of the AP: 5, 8, 11, ...",
+            "b_item": "(1/4)πr²",
+            "correct_match_index": 5,
+            "explanation": "Correct Match: (iii) ⟶ 3\n\nReason: Common difference d = a₂ − a₁ = 8 − 5 = 3."
+          },
+          {
+            "a_item": "The area of a quadrant of a circle",
+            "b_item": "2",
+            "correct_match_index": 3,
+            "explanation": "Correct Match: (iv) ⟶ (1/4)πr²\n\nReason: A quadrant is one-fourth of a circular region, so its area is (1/4)πr²."
+          },
+          {
+            "a_item": "The volume of a hemisphere",
+            "b_item": "3",
+            "correct_match_index": 2,
+            "explanation": "Correct Match: (v) ⟶ (2/3)πr³\n\nReason: The volume of a hemisphere of radius r is (2/3)πr³."
+          },
+          {
+            "a_item": "The volume of a cone",
+            "b_item": "1",
+            "correct_match_index": 1,
+            "explanation": "Correct Match: (vi) ⟶ (1/3)πr²h\n\nReason: The volume of a cone of radius r and height h is (1/3)πr²h."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "5",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×6=6",
+      "text": "Write the answers in one word/sentence:",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "If one of the roots of the quadratic polynomial x² + 2kx + 1 is 1, then write the value of k.",
+          "answer": "k = −1",
+          "explanation": "Answer: k = −1\n\nMathematical Solution: Since x = 1 is a zero (root) of the polynomial P(x) = x² + 2kx + 1, we have P(1) = 0.\n⇒ (1)² + 2k(1) + 1 = 0\n⇒ 1 + 2k + 1 = 0\n⇒ 2k + 2 = 0 ⇒ 2k = −2 ⇒ k = −1."
+        },
+        {
+          "topic_id": "ii",
+          "name": "Write the name of the line intersecting a circle at two points.",
+          "answer": "Secant",
+          "explanation": "Answer: Secant\n\nReason: A straight line that intersects a circle at two distinct points is called a secant of the circle."
+        },
+        {
+          "topic_id": "iii",
+          "name": "Write the name of the region of a circle bounded by two radii and the corresponding arc.",
+          "answer": "Sector",
+          "explanation": "Answer: Sector\n\nReason: The portion (or part) of the circular region enclosed by two radii and the corresponding arc is called a sector of the circle."
+        },
+        {
+          "topic_id": "iv",
+          "name": "Write the empirical relationship between the three measures of central tendency mean, median and mode.",
+          "answer": "Mode = 3 Median − 2 Mean (or 3 Median = Mode + 2 Mean)",
+          "explanation": "Answer: Mode = 3 Median − 2 Mean\n\nReason: The empirical formula connecting the three measures of central tendency is: 3 Median = Mode + 2 Mean."
+        },
+        {
+          "topic_id": "v",
+          "name": "Write the probability of a sure event.",
+          "answer": "1",
+          "explanation": "Answer: 1\n\nReason: The probability of an event that is certain (sure) to occur is always 1."
+        },
+        {
+          "topic_id": "vi",
+          "name": "Define the angle of elevation.",
+          "answer": "When an object is above the horizontal level, the angle formed by the line of sight with the horizontal is called the angle of elevation.",
+          "explanation": "Answer: The angle of elevation of the point viewed is the angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the HCF of 12 and 16 by the prime factorisation method.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven numbers: 12 and 16\n\nPrime factorisation of the numbers:\n12 = 2 × 2 × 3 = 2² × 3¹\n16 = 2 × 2 × 2 × 2 = 2⁴\n\nTo find HCF, we take the product of the smallest power of each common prime factor:\nHere, common prime factor = 2\nSmallest power = 2²\n\nTherefore, HCF (12, 16) = 2² = 2 × 2 = 4\n\nAnswer: The HCF of 12 and 16 is 4."
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find a quadratic polynomial, the sum and product of whose zeroes are −3 and 5 respectively.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the zeroes of the quadratic polynomial be α and β.\n\nGiven:\nSum of zeroes (α + β) = −3\nProduct of zeroes (αβ) = 5\n\nFormula to find a quadratic polynomial:\nP(x) = x² − (α + β)x + αβ\n\nSubstituting the given values:\nP(x) = x² − (−3)x + 5\nP(x) = x² + 3x + 5\n\nAnswer: The required quadratic polynomial is x² + 3x + 5."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the length of an arc of a circle with radius 6 cm which subtends an angle of 60° at the centre.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven:\nRadius of the circle (r) = 6 cm\nAngle subtended at the centre (θ) = 60°\n\nFormula for the length of an arc:\nLength of arc = (θ / 360°) × 2πr\n\nSubstituting the values (taking π = 22/7):\n= (60° / 360°) × 2 × (22/7) × 6\n= (1 / 6) × 2 × (22/7) × 6\n= 2 × (22/7)\n= 44 / 7 cm (or 6.28 cm)\n\nAnswer: The length of the arc is 44/7 cm."
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the sum of the first 10 terms of the AP : 2, 7, 12, ...",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven Arithmetic Progression (AP) : 2, 7, 12, ...\n\nHere,\nFirst term (a) = 2\nCommon difference (d) = 7 − 2 = 5\nNumber of terms (n) = 10\n\nFormula for the sum of first n terms of an AP:\nSₙ = (n/2) [2a + (n − 1)d]\n\nSubstituting the values:\nS₁₀ = (10/2) [2(2) + (10 − 1) × 5]\nS₁₀ = 5 [4 + 9 × 5]\nS₁₀ = 5 [4 + 45]\nS₁₀ = 5 × 49\nS₁₀ = 245\n\nAnswer: The sum of the first 10 terms of the given AP is 245."
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the coordinates of the point which divides the line segment joining the points (−1, 7) and (4, −3) in the ratio 2:3.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the required point be P(x, y).\nGiven points: A(x₁, y₁) = (−1, 7) and B(x₂, y₂) = (4, −3)\nRatio m₁ : m₂ = 2 : 3\n\nBy Section Formula:\nx = (m₁x₂ + m₂x₁) / (m₁ + m₂)\ny = (m₁y₂ + m₂y₁) / (m₁ + m₂)\n\nSubstituting the values:\nx = [2(4) + 3(−1)] / (2 + 3) = (8 − 3) / 5 = 5 / 5 = 1\ny = [2(−3) + 3(7)] / (2 + 3) = (−6 + 21) / 5 = 15 / 5 = 3\n\nAnswer: The coordinates of the required point are (1, 3)."
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If 5 sin θ = 3, then find the value of tan θ.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven: 5 sin θ = 3\n⇒ sin θ = 3/5 = (Perpendicular / Hypotenuse)\n\nLet ABC be a right-angled triangle with ∠B = 90° and ∠A = θ.\nPerpendicular (BC) = 3k\nHypotenuse (AC) = 5k (where k is a positive real number)\n\nBy Pythagoras Theorem (AC² = AB² + BC²):\n(5k)² = AB² + (3k)²\n25k² = AB² + 9k²\nAB² = 25k² − 9k² = 16k²\nBase (AB) = √(16k²) = 4k\n\nNow, tan θ = (Perpendicular / Base) = BC / AB\ntan θ = 3k / 4k = 3/4\n\nAnswer: tan θ = 3/4"
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The length of a tangent from an external point at distance 5 cm from the centre of the circle is 4 cm. Find the radius of the circle.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet O be the centre of the circle, P be the external point, and Q be the point of contact.\nGiven: OP = 5 cm and length of tangent PQ = 4 cm\nLet the radius of the circle OQ = r cm\n\nAccording to the theorem, the tangent at any point of a circle is perpendicular to the radius through the point of contact, so ∠OQP = 90°.\n\nIn right-angled triangle OQP, by Pythagoras Theorem:\nOP² = OQ² + PQ²\n5² = r² + 4²\n25 = r² + 16\nr² = 25 − 16 = 9\nr = √9 = 3 cm\n\nAnswer: The radius of the circle is 3 cm."
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Solve the pair of linear equations x + y = 5 and 2x − 3y = 4.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven equations:\nx + y = 5      ----(1)\n2x − 3y = 4    ----(2)\n\nBy Elimination Method:\nMultiplying equation (1) by 3:\n3x + 3y = 15   ----(3)\n\nAdding equation (2) and equation (3):\n(2x − 3y) + (3x + 3y) = 4 + 15\n5x = 19\nx = 19 / 5\n\nSubstituting x = 19/5 into equation (1):\n(19/5) + y = 5\ny = 5 − (19/5)\ny = (25 − 19) / 5\ny = 6 / 5\n\nAnswer: x = 19/5, y = 6/5"
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the 10th term of the AP : 3, 7, 11, 15, ...",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven Arithmetic Progression (AP) : 3, 7, 11, 15, ...\n\nHere,\nFirst term (a) = 3\nCommon difference (d) = 7 − 3 = 4\nTerm number (n) = 10\n\nFormula for the nth term of an AP:\naₙ = a + (n − 1)d\n\nSubstituting n = 10:\na₁₀ = 3 + (10 − 1) × 4\na₁₀ = 3 + 9 × 4\na₁₀ = 3 + 36\na₁₀ = 39\n\nAnswer: The 10th term of the given AP is 39."
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A box contains 90 discs numbered from 1 to 90. If one disc is drawn at random from the box, find the probability that the number on the disc is a two-digit number.",
+          "correct_answer": "",
+          "explanation": "Solution:\nTotal number of discs in the box n(S) = 90\n\nAmong numbers from 1 to 90, there are 9 one-digit numbers (from 1 to 9).\nTherefore, total two-digit numbers (from 10 to 90) = 90 − 9 = 81\n\nLet E be the event of getting a two-digit number:\nNumber of favourable outcomes n(E) = 81\n\nProbability P(E) = n(E) / n(S)\nP(E) = 81 / 90 = 9 / 10 (or 0.9)\n\nAnswer: The probability that the number on the disc is a two-digit number is 9/10."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A die is thrown once. Find the probability of getting an odd number.",
+          "correct_answer": "",
+          "explanation": "Solution:\nWhen a die is thrown once, all possible outcomes are S = {1, 2, 3, 4, 5, 6}\nTotal number of possible outcomes n(S) = 6\n\nOdd numbers on a die = {1, 3, 5}\nNumber of favourable outcomes n(E) = 3\n\nFormula for Probability: P(E) = n(E) / n(S)\nP(odd number) = 3 / 6 = 1 / 2\n\nAnswer: The probability of getting an odd number is 1/2."
+        }
+      ]
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "In the given figure, ABC and AMP are two right triangles, right angled at B and M respectively. Prove that ΔABC ~ ΔAMP.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven:\nΔABC and ΔAMP are two right triangles such that ∠B = 90° and ∠M = 90°.\n\nTo Prove:\nΔABC ~ ΔAMP\n\nProof:\nIn ΔABC and ΔAMP:\n1. ∠ABC = ∠AMP = 90°   (Each is a right angle, given)\n2. ∠BAC = ∠MAP         (Common angle ∠A in both triangles)\n\nTherefore, by AA (Angle-Angle) similarity criterion:\nΔABC ~ ΔAMP\n\nHence Proved."
+        }
+      ]
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find two numbers whose sum is 27 and product is 182.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the first number be x.\nThen the second number = 27 − x   (since the sum of the two numbers is 27)\n\nAccording to the question, the product of the two numbers is 182:\nx(27 − x) = 182\n27x − x² = 182\nx² − 27x + 182 = 0\n\nSolving by factorisation:\nx² − 13x − 14x + 182 = 0\nx(x − 13) − 14(x − 13) = 0\n(x − 13)(x − 14) = 0\n\nx − 13 = 0 ⇒ x = 13\nx − 14 = 0 ⇒ x = 14\n\nIf x = 13, the second number = 27 − 13 = 14.\nIf x = 14, the second number = 27 − 14 = 13.\n\nAnswer: The required two numbers are 13 and 14."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "If the quadratic equation 2x² + kx + 3 = 0 has two equal roots, then find the value of k.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven quadratic equation: 2x² + kx + 3 = 0\nComparing with the standard form ax² + bx + c = 0:\na = 2, b = k, c = 3\n\nSince the equation has two equal real roots, its discriminant D = 0:\nb² − 4ac = 0\n\nSubstituting the values:\nk² − 4(2)(3) = 0\nk² − 24 = 0\nk² = 24\nk = ±√24 = ±√(4 × 6)\nk = ±2√6\n\nAnswer: The value of k is ±2√6 (i.e., 2√6 or −2√6)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Prove that 7 + 5√3 is an irrational number.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet us assume, to the contrary, that 7 + 5√3 is a rational number.\nThen we can find two co-prime integers a and b (b ≠ 0) such that:\n7 + 5√3 = a / b\n\nRearranging the equation:\n5√3 = (a / b) − 7\n5√3 = (a − 7b) / b\n√3 = (a − 7b) / 5b\n\nSince a and b are integers, (a − 7b) / 5b is a rational number.\nThis implies that √3 is also a rational number.\nHowever, this contradicts the fact that √3 is an irrational number.\n\nThis contradiction has arisen because of our incorrect assumption that 7 + 5√3 is rational.\nTherefore, we conclude that 7 + 5√3 is an irrational number.\n\nHence Proved."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Check whether 4ⁿ can end with the digit 0 for any natural number n.",
+            "correct_answer": "",
+            "explanation": "Solution:\nIf the number 4ⁿ, for any natural number n, were to end with the digit 0, then it would be divisible by 5. That is, the prime factorisation of 4ⁿ would contain the prime 5.\n\nHowever, the prime factorisation of 4ⁿ is:\n4ⁿ = (2 × 2)ⁿ = 2²ⁿ\n\nThis shows that the only prime in the factorisation of 4ⁿ is 2. By the uniqueness of the Fundamental Theorem of Arithmetic, there are no other primes in the factorisation of 4ⁿ.\n\nSo, there is no natural number n for which 4ⁿ ends with the digit 0.\n\nAnswer: No, 4ⁿ cannot end with the digit 0 for any natural number n."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A kite is flying at a height of 60 m above the ground. The string attached to the kite is temporarily tied to a point on the ground. The inclination of the string with the ground is 60°. Find the length of the string, assuming that there is no slack in the string.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the height of the kite from the ground be AB = 60 m.\nLet the length of the taut string from point C on the ground to the kite A be AC = l m (hypotenuse).\nThe inclination of the string with the ground is ∠ACB = 60°.\n\nIn right-angled triangle ABC:\nsin 60° = (Perpendicular AB) / (Hypotenuse AC)\nsin 60° = 60 / l\n\nSubstituting sin 60° = √3/2:\n√3 / 2 = 60 / l\nl = (60 × 2) / √3 = 120 / √3\n\nRationalising the denominator:\nl = (120 × √3) / (√3 × √3)\nl = 120√3 / 3\nl = 40√3 m\n\nAnswer: The length of the string is 40√3 m (or approximately 69.28 m)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "The angle of elevation of the top of a tower from a point on the ground, which is 30 m away from the foot of the tower, is 30°. Find the height of the tower.",
+            "correct_answer": "",
+            "explanation": "Solution:\nLet the height of the tower be AB = h m.\nDistance of point C on the ground from the foot B of the tower is BC = 30 m.\nAngle of elevation ∠ACB = 30°.\n\nIn right-angled triangle ABC:\ntan 30° = (Perpendicular AB) / (Base BC)\ntan 30° = h / 30\n\nSubstituting tan 30° = 1/√3:\n1 / √3 = h / 30\nh = 30 / √3\n\nRationalising the denominator:\nh = (30 × √3) / (√3 × √3)\nh = 30√3 / 3\nh = 10√3 m\n\nAnswer: The height of the tower is 10√3 m (or approximately 17.32 m)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A vessel is in the form of a hollow hemisphere surmounted by a hollow cylinder. The diameter of the hemisphere is 14 cm and the total height of the vessel is 13 cm. Find the inner surface area of the vessel.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven:\nDiameter of the hemisphere and cylinder (d) = 14 cm\nRadius (r) = 14 / 2 = 7 cm\nTotal height of the vessel = 13 cm\n\nTherefore, height of the cylindrical part (h) = Total height − Radius of hemisphere\nh = 13 − 7 = 6 cm\n\nInner surface area of the vessel = Curved surface area of cylinder + Curved surface area of hemisphere\n= 2πrh + 2πr²\n= 2πr (h + r)\n\nSubstituting the values (taking π = 22/7):\n= 2 × (22/7) × 7 × (6 + 7)\n= 2 × 22 × 13\n= 44 × 13\n= 572 cm²\n\nAnswer: The inner surface area of the vessel is 572 cm²."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone is equal to its radius. Find the volume of the solid in terms of π.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven:\nRadius of the hemisphere (r) = 1 cm\nRadius of the base of the cone (r) = 1 cm\nHeight of the cone (h) = radius = 1 cm\n\nVolume of the solid = Volume of cone + Volume of hemisphere\n= (1/3)πr²h + (2/3)πr³\n\nSubstituting r = 1 cm and h = 1 cm:\n= (1/3)π(1)²(1) + (2/3)π(1)³\n= (1/3)π + (2/3)π\n= (1 + 2)/3 π\n= (3/3)π\n= π cm³\n\nAnswer: The volume of the solid is π cm³."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Five years hence, the age of Jacob will be three times that of his son. Five years ago, Jacob's age was seven times that of his son. Find their present ages.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the present age of Jacob = x years\nAnd the present age of his son = y years\n\nAccording to the first condition (5 years hence):\n(x + 5) = 3(y + 5)\nx + 5 = 3y + 15\nx − 3y = 10    ----(1)\n\nAccording to the second condition (5 years ago):\n(x − 5) = 7(y − 5)\nx − 5 = 7y − 35\nx − 7y = −30   ----(2)\n\nSubtracting equation (2) from equation (1):\n(x − 3y) − (x − 7y) = 10 − (−30)\n−3y + 7y = 40\n4y = 40\ny = 40 / 4 = 10\n\nSubstituting y = 10 into equation (1):\nx − 3(10) = 10\nx − 30 = 10\nx = 10 + 30 = 40\n\nAnswer: The present age of Jacob is 40 years and the present age of his son is 10 years."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "The sum of the digits of a two-digit number is 9. Also, nine times this number is twice the number obtained by reversing the order of the digits. Find the number.",
+            "correct_answer": "",
+            "explanation": "Solution:\nLet the unit's digit of the two-digit number = x\nAnd the ten's digit = y\nTherefore, original number = 10y + x\nNumber obtained by reversing the digits = 10x + y\n\nAccording to the first condition:\nx + y = 9    ----(1)\n\nAccording to the second condition:\n9(10y + x) = 2(10x + y)\n90y + 9x = 20x + 2y\n20x − 9x + 2y − 90y = 0\n11x − 88y = 0\nDividing throughout by 11:\nx − 8y = 0 ⇒ x = 8y    ----(2)\n\nSubstituting x = 8y into equation (1):\n8y + y = 9\n9y = 9 ⇒ y = 1\n\nSubstituting y = 1 into equation (2):\nx = 8(1) = 8\n\nTherefore, required number = 10y + x = 10(1) + 8 = 18\n\nAnswer: The required number is 18."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "The following table gives the literacy rate (in percentage) of 30 cities. Find the mean literacy rate.\n\nLiteracy rate (in %) : 0-10 | 10-20 | 20-30 | 30-40 | 40-50\nNumber of cities     :   3  |   10  |   5   |   8   |   4",
+          "correct_answer": "",
+          "explanation": "Solution:\nTable for calculating the mean by Direct Method:\n\nClass Interval (Literacy %) | Frequency (fᵢ) | Class Mark (xᵢ) | fᵢ × xᵢ\n------------------------------------------------------------------\n0 - 10                      |       3        |        5        | 15\n10 - 20                     |      10        |       15        | 150\n20 - 30                     |       5        |       25        | 125\n30 - 40                     |       8        |       35        | 280\n40 - 50                     |       4        |       45        | 180\n------------------------------------------------------------------\nTotal                       |   Σfᵢ = 30     |                 | Σfᵢxᵢ = 750\n\nFormula for Mean (x̄):\nx̄ = Σfᵢxᵢ / Σfᵢ\nx̄ = 750 / 30\nx̄ = 25 %\n\nAnswer: The mean literacy rate is 25%."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "The distribution below gives the weights of 30 students of a class. Find the mode.\n\nWeight (in kg)     : 40-45 | 45-50 | 50-55 | 55-60 | 60-65 | 65-70 | 70-75\nNumber of students :   2   |   3   |   8   |   6   |   6   |   3   |   2",
+            "correct_answer": "",
+            "explanation": "Solution:\nIn the given distribution, the maximum frequency is 8, which lies in the class interval 50-55.\nTherefore, Modal Class = 50 - 55\n\nHere:\nLower limit of the modal class (l) = 50\nClass size (h) = 5\nFrequency of the modal class (f₁) = 8\nFrequency of the class preceding the modal class (f₀) = 3\nFrequency of the class succeeding the modal class (f₂) = 6\n\nFormula for Mode:\nMode = l + [ (f₁ − f₀) / (2f₁ − f₀ − f₂) ] × h\n\nSubstituting the values:\nMode = 50 + [ (8 − 3) / (2(8) − 3 − 6) ] × 5\n= 50 + [ 5 / (16 − 9) ] × 5\n= 50 + [ 5 / 7 ] × 5\n= 50 + 25 / 7\n= 50 + 3.571...\n≈ 53.57 kg\n\nAnswer: The mode of the given data is 53.57 kg."
+          }
+        ]
+      }
+    }
+  ]
+}

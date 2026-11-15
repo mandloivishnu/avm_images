@@ -1,0 +1,818 @@
+{
+  "paper_details": {
+    "paperYear": "2027",
+    "subjectName": "HIGHER MATHEMATICS",
+    "totalMarks": "80",
+    "board": "MP Board",
+    "language": "en"
+  },
+  "questions": [
+    {
+      "question_number": "1",
+      "question_type": "MULTIPLE_CHOICE",
+      "marks": "1×6=6",
+      "text": "Choose and write the correct option :",
+      "explanation": "The correct answer is selected from the given options based on standard mathematical rules and formulas.",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "Let R be the relation in the set N given by R = {(a, b) : a = b − 2, b > 6}, then :",
+          "options": [
+            {
+              "index": "a",
+              "text": "(2, 4) ∈ R"
+            },
+            {
+              "index": "b",
+              "text": "(3, 8) ∈ R"
+            },
+            {
+              "index": "c",
+              "text": "(6, 8) ∈ R"
+            },
+            {
+              "index": "d",
+              "text": "(8, 7) ∈ R"
+            }
+          ],
+          "correct_answer": "(6, 8) ∈ R",
+          "explanation": "The correct option is (c).\n\nReason: According to the condition b > 6, the value of b must be greater than 6. In option (c), b = 8, which gives a = b − 2 = 8 − 2 = 6. Therefore, (6, 8) ∈ R is correct."
+        },
+        {
+          "q_id": "ii",
+          "statement": "If sin⁻¹x = y, then :",
+          "options": [
+            {
+              "index": "a",
+              "text": "0 ≤ y ≤ π"
+            },
+            {
+              "index": "b",
+              "text": "−π/2 ≤ y ≤ π/2"
+            },
+            {
+              "index": "c",
+              "text": "0 < y < π"
+            },
+            {
+              "index": "d",
+              "text": "−π/2 < y < π/2"
+            }
+          ],
+          "correct_answer": "−π/2 ≤ y ≤ π/2",
+          "explanation": "The correct option is (b).\n\nReason: The range of the principal value branch of the inverse sine function sin⁻¹x is the closed interval [−π/2, π/2], which means −π/2 ≤ y ≤ π/2."
+        },
+        {
+          "q_id": "iii",
+          "statement": "The degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0 is :",
+          "options": [
+            {
+              "index": "a",
+              "text": "3"
+            },
+            {
+              "index": "b",
+              "text": "2"
+            },
+            {
+              "index": "c",
+              "text": "1"
+            },
+            {
+              "index": "d",
+              "text": "not defined"
+            }
+          ],
+          "correct_answer": "not defined",
+          "explanation": "The correct option is (d).\n\nReason: The given differential equation is not a polynomial equation in its derivatives because it contains the term sin(dy/dx). Hence, its degree is not defined."
+        },
+        {
+          "q_id": "iv",
+          "statement": "If P(A) = 1/2, P(B) = 0, then P(A/B) is :",
+          "options": [
+            {
+              "index": "a",
+              "text": "0"
+            },
+            {
+              "index": "b",
+              "text": "1/2"
+            },
+            {
+              "index": "c",
+              "text": "not defined"
+            },
+            {
+              "index": "d",
+              "text": "1"
+            }
+          ],
+          "correct_answer": "not defined",
+          "explanation": "The correct option is (c).\n\nReason: By the conditional probability formula, P(A/B) = P(A ∩ B) / P(B). Since P(B) = 0 in the denominator and division by zero is undefined, P(A/B) is not defined."
+        },
+        {
+          "q_id": "v",
+          "statement": "If |[x, 2], [18, x]| = |[6, 2], [18, 6]|, then the value of x is :",
+          "options": [
+            {
+              "index": "a",
+              "text": "6"
+            },
+            {
+              "index": "b",
+              "text": "±6"
+            },
+            {
+              "index": "c",
+              "text": "−6"
+            },
+            {
+              "index": "d",
+              "text": "0"
+            }
+          ],
+          "correct_answer": "±6",
+          "explanation": "The correct option is (b).\n\nMathematical Solution:\nx² − 36 = 36 − 36\nx² − 36 = 0 ⇒ x² = 36 ⇒ x = ±6."
+        },
+        {
+          "q_id": "vi",
+          "statement": "The rate of change of the area of a circle with respect to its radius r at r = 6 cm is :",
+          "options": [
+            {
+              "index": "a",
+              "text": "10π"
+            },
+            {
+              "index": "b",
+              "text": "12π"
+            },
+            {
+              "index": "c",
+              "text": "8π"
+            },
+            {
+              "index": "d",
+              "text": "11π"
+            }
+          ],
+          "correct_answer": "12π",
+          "explanation": "The correct option is (b).\n\nMathematical Solution:\nArea of a circle, A = πr².\nDifferentiating with respect to radius r: dA/dr = 2πr.\nSubstituting r = 6 cm: dA/dr = 2π(6) = 12π."
+        }
+      ]
+    },
+    {
+      "question_number": "2",
+      "question_type": "FILL_IN_THE_BLANK",
+      "marks": "1×6=6",
+      "text": "Fill in the blanks :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "If A = {1, 2, 3}, then the number of equivalence relations containing (1, 2) is/are {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "2"
+            },
+            {
+              "index": "b",
+              "text": "1"
+            },
+            {
+              "index": "c",
+              "text": "3"
+            },
+            {
+              "index": "d",
+              "text": "4"
+            }
+          ],
+          "correct_answer": "2",
+          "explanation": "Answer: 2\n\nReason: On set A = {1, 2, 3}, there are only 2 possible equivalence relations containing (1, 2): the smallest relation R₁ = {(1,1), (2,2), (3,3), (1,2), (2,1)} and the universal relation R₂ = A × A."
+        },
+        {
+          "q_id": "ii",
+          "statement": "A differential equation of the form dy/dx + Py = Q, where P and Q are constants or functions of x only, is called a {BLANK} differential equation.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Linear"
+            },
+            {
+              "index": "b",
+              "text": "Homogeneous"
+            },
+            {
+              "index": "c",
+              "text": "Quadratic"
+            },
+            {
+              "index": "d",
+              "text": "Constant"
+            }
+          ],
+          "correct_answer": "Linear",
+          "explanation": "Answer: Linear\n\nReason: An equation of the form dy/dx + Py = Q is the standard form of a first-order linear differential equation."
+        },
+        {
+          "q_id": "iii",
+          "statement": "A matrix is said to be a {BLANK} matrix if it has only one column.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Column"
+            },
+            {
+              "index": "b",
+              "text": "Row"
+            },
+            {
+              "index": "c",
+              "text": "Square"
+            },
+            {
+              "index": "d",
+              "text": "Diagonal"
+            }
+          ],
+          "correct_answer": "Column",
+          "explanation": "Answer: Column\n\nReason: By definition, a matrix having only a single column (order m × 1) is called a column matrix."
+        },
+        {
+          "q_id": "iv",
+          "statement": "(a⃗ − b⃗) × (a⃗ + b⃗) = {BLANK}",
+          "options": [
+            {
+              "index": "a",
+              "text": "2(a⃗ × b⃗)"
+            },
+            {
+              "index": "b",
+              "text": "0⃗"
+            },
+            {
+              "index": "c",
+              "text": "a⃗ × b⃗"
+            },
+            {
+              "index": "d",
+              "text": "2(b⃗ × a⃗)"
+            }
+          ],
+          "correct_answer": "2(a⃗ × b⃗)",
+          "explanation": "Answer: 2(a⃗ × b⃗)\n\nMathematical Solution:\n(a⃗ − b⃗) × (a⃗ + b⃗) = a⃗ × a⃗ + a⃗ × b⃗ − b⃗ × a⃗ − b⃗ × b⃗ = 0⃗ + a⃗ × b⃗ + a⃗ × b⃗ − 0⃗ = 2(a⃗ × b⃗)."
+        },
+        {
+          "q_id": "v",
+          "statement": "The vector form of the equation of the line (x − 1)/2 = (y + 2)/3 = (z − 3)/(−4) is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "r⃗ = (î − 2ĵ + 3k̂) + λ(2î + 3ĵ − 4k̂)"
+            },
+            {
+              "index": "b",
+              "text": "r⃗ = (î + 2ĵ + 3k̂) + λ(2î + 3ĵ − 4k̂)"
+            },
+            {
+              "index": "c",
+              "text": "r⃗ = (2î + 3ĵ − 4k̂) + λ(î − 2ĵ + 3k̂)"
+            },
+            {
+              "index": "d",
+              "text": "r⃗ = (î − 2ĵ − 3k̂) + λ(2î + 3ĵ + 4k̂)"
+            }
+          ],
+          "correct_answer": "r⃗ = (î − 2ĵ + 3k̂) + λ(2î + 3ĵ − 4k̂)",
+          "explanation": "Answer: r⃗ = (î − 2ĵ + 3k̂) + λ(2î + 3ĵ − 4k̂)\n\nReason: The line passes through the point (1, −2, 3) and has direction ratios (2, 3, −4). Therefore, its vector equation r⃗ = a⃗ + λb⃗ is r⃗ = (î − 2ĵ + 3k̂) + λ(2î + 3ĵ − 4k̂)."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Every differentiable function is {BLANK}.",
+          "options": [
+            {
+              "index": "a",
+              "text": "Continuous"
+            },
+            {
+              "index": "b",
+              "text": "Discontinuous"
+            },
+            {
+              "index": "c",
+              "text": "Constant"
+            },
+            {
+              "index": "d",
+              "text": "Increasing"
+            }
+          ],
+          "correct_answer": "Continuous",
+          "explanation": "Answer: Continuous\n\nReason: According to calculus theorems, if a function is differentiable at a point, it is necessarily continuous at that point."
+        }
+      ]
+    },
+    {
+      "question_number": "3",
+      "question_type": "TRUE_FALSE",
+      "marks": "1×6=6",
+      "text": "Write True/False in the following :",
+      "parts": [
+        {
+          "q_id": "i",
+          "statement": "f : X → Y is onto, if and only if Range of f = Y.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: By definition, a function f : X → Y is onto (surjective) if and only if its range is equal to its codomain Y."
+        },
+        {
+          "q_id": "ii",
+          "statement": "tan⁻¹(tan(3π/5)) = 3π/5",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: The principal value branch of tan⁻¹x is (−π/2, π/2), and 3π/5 ∉ (−π/2, π/2). The correct value is tan⁻¹(tan(π − 2π/5)) = tan⁻¹(−tan(2π/5)) = −2π/5."
+        },
+        {
+          "q_id": "iii",
+          "statement": "For two square matrices A and B, (AB)' = B'A'.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: According to the reversal law of transpose of matrices, (AB)' = B'A' always holds."
+        },
+        {
+          "q_id": "iv",
+          "statement": "The sine function is discontinuous.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: The sine function f(x) = sin x is continuous everywhere across its entire domain R."
+        },
+        {
+          "q_id": "v",
+          "statement": "The differential equation √(x² + xy) (dy/dx) = x − 3y is homogeneous.",
+          "correct_answer": "true",
+          "explanation": "Answer: True\n\nReason: Rewriting as dy/dx = (x − 3y) / √(x² + xy), both the numerator and denominator are homogeneous functions of degree 1. Hence, it is a homogeneous differential equation."
+        },
+        {
+          "q_id": "vi",
+          "statement": "Distance is a vector quantity.",
+          "correct_answer": "false",
+          "explanation": "Answer: False\n\nReason: Distance has only magnitude and no specific direction; therefore, it is a scalar quantity."
+        }
+      ]
+    },
+    {
+      "question_number": "4",
+      "question_type": "MATCH_COLUMN",
+      "marks": "1×7=7",
+      "text": "Match the columns :",
+      "youtube_url": null,
+      "previous_exam_reference": null,
+      "columns": {
+        "column_A_title": "Column \"A\"",
+        "column_B_title": "Column \"B\"",
+        "pairs": [
+          {
+            "a_item": "(i) ∫ tan x dx",
+            "b_item": "log|sec x + tan x| + c",
+            "correct_match_index": "6"
+          },
+          {
+            "a_item": "(ii) ∫ cot x dx",
+            "b_item": "log|cosec x − cot x| + c",
+            "correct_match_index": "7"
+          },
+          {
+            "a_item": "(iii) ∫ sec x dx",
+            "b_item": "2",
+            "correct_match_index": "1"
+          },
+          {
+            "a_item": "(iv) ∫ cosec x dx",
+            "b_item": "1",
+            "correct_match_index": "2"
+          },
+          {
+            "a_item": "(v) ∫₋₁¹ (x + 1) dx",
+            "b_item": "0",
+            "correct_match_index": "3"
+          },
+          {
+            "a_item": "(vi) ∫_(−π/2)^(π/2) sin⁷x dx",
+            "b_item": "log|sec x| + c",
+            "correct_match_index": "5"
+          },
+          {
+            "a_item": "(vii) (4/π) ∫₀¹ [dx / (1 + x²)]",
+            "b_item": "log|sin x| + c",
+            "correct_match_index": "4"
+          }
+        ]
+      },
+      "explanation": "The correct matching between Column \"A\" and Column \"B\" with reasons is as follows:\n\n(i) ∫ tan x dx ⟶ log|sec x| + c\nReason: By the standard trigonometric integration formula, ∫ tan x dx = log|sec x| + c.\n\n(ii) ∫ cot x dx ⟶ log|sin x| + c\nReason: By the standard trigonometric integration formula, ∫ cot x dx = log|sin x| + c.\n\n(iii) ∫ sec x dx ⟶ log|sec x + tan x| + c\nReason: By the standard trigonometric integration formula, ∫ sec x dx = log|sec x + tan x| + c.\n\n(iv) ∫ cosec x dx ⟶ log|cosec x − cot x| + c\nReason: By the standard trigonometric integration formula, ∫ cosec x dx = log|cosec x − cot x| + c.\n\n(v) ∫₋₁¹ (x + 1) dx ⟶ 2\nReason: [x²/2 + x]₋₁¹ = (1/2 + 1) − (1/2 − 1) = 3/2 − (−1/2) = 2.\n\n(vi) ∫_(−π/2)^(π/2) sin⁷x dx ⟶ 0\nReason: Since f(x) = sin⁷x is an odd function [f(−x) = −f(x)], by the property of definite integrals, ∫₋ₐᵃ f(x) dx = 0.\n\n(vii) (4/π) ∫₀¹ [dx / (1 + x²)] ⟶ 1\nReason: (4/π) [tan⁻¹x]₀¹ = (4/π) [tan⁻¹(1) − tan⁻¹(0)] = (4/π) × (π/4) = 1."
+    },
+    {
+      "question_number": "5",
+      "question_type": "UNSEEN_PASSAGE_PROSE",
+      "marks": "1×7=7",
+      "text": "Write the answers in one word/sentence :",
+      "essay_topics": [
+        {
+          "topic_id": "i",
+          "name": "Anti-derivative of aˣ",
+          "answer": "aˣ / log a + c",
+          "explanation": "Answer: aˣ / log a + c\n\nReason: By standard integration rules, ∫ aˣ dx = aˣ / logₑ a + c."
+        },
+        {
+          "topic_id": "ii",
+          "name": "Integrating Factor of the differential equation dy/dx − 3y = 2x",
+          "answer": "e⁻³ˣ",
+          "explanation": "Answer: e⁻³ˣ\n\nReason: Comparing with the linear differential equation dy/dx + Py = Q, we get P = −3. Thus, Integrating Factor (I.F.) = e^(∫ P dx) = e^(∫ −3 dx) = e⁻³ˣ."
+        },
+        {
+          "topic_id": "iii",
+          "name": "Value of k for a square matrix A of order 3, if |kA| = 27|A|",
+          "answer": "3",
+          "explanation": "Answer: 3\n\nReason: For a square matrix A of order n = 3, |kA| = kⁿ|A| = k³|A|. Given k³|A| = 27|A| ⇒ k³ = 27 ⇒ k = 3."
+        },
+        {
+          "topic_id": "iv",
+          "name": "Number of all possible matrices of order 2 × 2 with each entry 0 or 1",
+          "answer": "16",
+          "explanation": "Answer: 16\n\nReason: A 2 × 2 matrix has 4 entries, and each entry can be filled in 2 ways (0 or 1). Therefore, total possible matrices = 2⁴ = 16."
+        },
+        {
+          "topic_id": "v",
+          "name": "Definition of Co-initial Vectors",
+          "answer": "Two or more vectors having the same initial point are called co-initial vectors.",
+          "explanation": "Answer: Two or more vectors that originate from the exact same initial point are known as co-initial vectors."
+        },
+        {
+          "topic_id": "vi",
+          "name": "Value of P(A/B), if P(B) = 0.5 and P(A ∩ B) = 0.32",
+          "answer": "0.64",
+          "explanation": "Answer: 0.64\n\nReason: P(A/B) = P(A ∩ B) / P(B) = 0.32 / 0.5 = 0.64."
+        },
+        {
+          "topic_id": "vii",
+          "name": "Rate of change of the circumference of a circle whose radius is increasing at the rate of 0.7 cm/s",
+          "answer": "4.4 cm/s (or 1.4π cm/s)",
+          "explanation": "Answer: 4.4 cm/s (or 1.4π cm/s)\n\nReason: Circumference C = 2πr ⇒ dC/dt = 2π(dr/dt) = 2 × (22/7) × 0.7 = 4.4 cm/s."
+        }
+      ]
+    },
+    {
+      "question_number": "6",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Prove that the function f : R → R, given by f(x) = 2x, is bijective.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven function f : R → R, f(x) = 2x\n\n1. One-One (Injective):\nLet x₁, x₂ ∈ R such that:\nf(x₁) = f(x₂)\n⇒ 2x₁ = 2x₂\n⇒ x₁ = x₂\nHence, f is one-one.\n\n2. Onto (Surjective):\nLet y ∈ R (codomain) be any arbitrary element.\nf(x) = y ⇒ 2x = y ⇒ x = y/2 ∈ R (domain).\nFor every y ∈ R, there exists x = y/2 in the domain R such that f(y/2) = 2(y/2) = y.\nHence, f is onto.\n\nSince f is both one-one and onto, it is a bijective function. (Hence Proved)"
+        }
+      ]
+    },
+    {
+      "question_number": "7",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Write tan⁻¹(√[(1 − cos x)/(1 + cos x)]), 0 < x < π in the simplest form.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven expression: tan⁻¹(√[(1 − cos x)/(1 + cos x)])\n\nUsing trigonometric identities 1 − cos x = 2 sin²(x/2) and 1 + cos x = 2 cos²(x/2):\n= tan⁻¹(√[ (2 sin²(x/2)) / (2 cos²(x/2)) ])\n= tan⁻¹(√[ tan²(x/2) ])\n\nSince 0 < x < π ⇒ 0 < x/2 < π/2, so tan(x/2) > 0:\n= tan⁻¹(tan(x/2))\n= x/2\n\nAnswer: The simplest form is x/2."
+        }
+      ]
+    },
+    {
+      "question_number": "8",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the value of tan⁻¹[2 cos(2 sin⁻¹(1/2))].",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven expression: tan⁻¹[2 cos(2 sin⁻¹(1/2))]\n\nWe know that sin⁻¹(1/2) = π/6:\n= tan⁻¹[2 cos(2 × π/6)]\n= tan⁻¹[2 cos(π/3)]\n\nSince cos(π/3) = 1/2:\n= tan⁻¹[2 × (1/2)]\n= tan⁻¹(1)\n= π/4\n\nAnswer: π/4"
+        }
+      ]
+    },
+    {
+      "question_number": "9",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the interval in which the function f given by f(x) = 2x² − 3x is increasing.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven function: f(x) = 2x² − 3x\n\nDifferentiating with respect to x:\nf'(x) = 4x − 3\n\nTo find the critical point, put f'(x) = 0:\n4x − 3 = 0 ⇒ x = 3/4\n\nThis point divides the real line into two intervals: (−∞, 3/4) and (3/4, ∞).\nIn the interval (3/4, ∞), x > 3/4 ⇒ 4x − 3 > 0 ⇒ f'(x) > 0.\n\nAnswer: The function is increasing in the interval (3/4, ∞) (or [3/4, ∞))."
+        }
+      ]
+    },
+    {
+      "question_number": "10",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the general solution of the differential equation dy/dx = (1 + y²)/(1 + x²).",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven differential equation: dy/dx = (1 + y²)/(1 + x²)\n\nSeparating the variables:\n[1 / (1 + y²)] dy = [1 / (1 + x²)] dx\n\nIntegrating both sides:\n∫ [1 / (1 + y²)] dy = ∫ [1 / (1 + x²)] dx\ntan⁻¹y = tan⁻¹x + c\n\nAnswer: tan⁻¹y = tan⁻¹x + c"
+        }
+      ]
+    },
+    {
+      "question_number": "11",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the unit vector in the direction of the vector î + 2ĵ + 3k̂.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the given vector be a⃗ = î + 2ĵ + 3k̂\n\nMagnitude of a⃗:\n|a⃗| = √(1² + 2² + 3²) = √(1 + 4 + 9) = √14\n\nUnit vector â in the direction of a⃗:\nâ = a⃗ / |a⃗| = (î + 2ĵ + 3k̂) / √14\nâ = (1/√14)î + (2/√14)ĵ + (3/√14)k̂\n\nAnswer: (1/√14)î + (2/√14)ĵ + (3/√14)k̂"
+        }
+      ]
+    },
+    {
+      "question_number": "12",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find |a⃗ × b⃗| if a⃗ = î − 7ĵ + 7k̂ and b⃗ = 3î − 2ĵ + 2k̂.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven vectors: a⃗ = î − 7ĵ + 7k̂ and b⃗ = 3î − 2ĵ + 2k̂\n\nFinding a⃗ × b⃗:\na⃗ × b⃗ = |[î, ĵ, k̂], [1, −7, 7], [3, −2, 2]|\n= î(−14 − (−14)) − ĵ(2 − 21) + k̂(−2 − (−21))\n= 0î − ĵ(−19) + k̂(19)\n= 19ĵ + 19k̂\n\nMagnitude |a⃗ × b⃗|:\n|a⃗ × b⃗| = √(0² + 19² + 19²) = √(2 × 19²) = 19√2\n\nAnswer: |a⃗ × b⃗| = 19√2"
+        }
+      ]
+    },
+    {
+      "question_number": "13",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the direction cosines of a line which makes equal angles with the coordinate axes.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the line make an equal angle α with the x, y, and z axes.\nThen its direction cosines are: l = cos α, m = cos α, n = cos α\n\nWe know that l² + m² + n² = 1:\ncos²α + cos²α + cos²α = 1\n3 cos²α = 1\ncos²α = 1/3\ncos α = ±1/√3\n\nTherefore, l = ±1/√3, m = ±1/√3, n = ±1/√3\n\nAnswer: The direction cosines of the line are ±1/√3, ±1/√3, ±1/√3."
+        }
+      ]
+    },
+    {
+      "question_number": "14",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find dy/dx, if x = at², y = 2at.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven parametric equations:\nx = at², y = 2at\n\nDifferentiating with respect to parameter t:\ndx/dt = d/dt (at²) = 2at\ndy/dt = d/dt (2at) = 2a\n\nNow,\ndy/dx = (dy/dt) / (dx/dt) = (2a) / (2at) = 1/t\n\nAnswer: dy/dx = 1/t"
+        }
+      ]
+    },
+    {
+      "question_number": "15",
+      "question_type": "DESCRIPTIVE",
+      "marks": "2",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "An edge of a variable cube is increasing at the rate of 3 cm/s. How fast is the volume of the cube increasing when the edge is 10 cm long?",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet the edge of the cube be x cm and its volume be V cm³.\nGiven: dx/dt = 3 cm/s and x = 10 cm\n\nVolume of a cube, V = x³\n\nDifferentiating with respect to t:\ndV/dt = 3x² (dx/dt)\n\nSubstituting x = 10 and dx/dt = 3:\ndV/dt = 3(10)² × 3 = 3 × 100 × 3 = 900 cm³/s\n\nAnswer: The volume of the cube is increasing at the rate of 900 cm³/s."
+        }
+      ]
+    },
+    {
+      "question_number": "16",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "By using integration, find the area of the region bounded by the ellipse x²/16 + y²/9 = 1.",
+          "correct_answer": "",
+          "explanation": "Solution:\nEquation of the ellipse: x²/4² + y²/3² = 1\nHere, a = 4 and b = 3.\n\nIn the first quadrant, y = (3/4)√(16 − x²), where x varies from 0 to 4.\n\nTotal area of the ellipse = 4 × (Area in the first quadrant)\n= 4 ∫₀⁴ (3/4) √(4² − x²) dx\n= 3 ∫₀⁴ √(4² − x²) dx\n\nUsing the formula ∫ √(a² − x²) dx = (x/2)√(a² − x²) + (a²/2) sin⁻¹(x/a):\n= 3 [ (x/2)√(16 − x²) + (16/2) sin⁻¹(x/4) ]₀⁴\n= 3 [ { 0 + 8 sin⁻¹(1) } − { 0 } ]\n= 3 [ 8 × (π/2) ]\n= 3 × 4π = 12π sq. units\n\nAnswer: The area of the region bounded by the ellipse is 12π sq. units."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "By using integration, find the area of the region bounded by the circle x² + y² = 4.",
+            "correct_answer": "",
+            "explanation": "Solution:\nEquation of the circle: x² + y² = 2² (radius a = 2)\n\nIn the first quadrant, y = √(4 − x²), where x varies from 0 to 2.\n\nTotal area of the circle = 4 × (Area in the first quadrant)\n= 4 ∫₀² √(2² − x²) dx\n\nUsing the standard formula:\n= 4 [ (x/2)√(4 − x²) + (4/2) sin⁻¹(x/2) ]₀²\n= 4 [ { 0 + 2 sin⁻¹(1) } − 0 ]\n= 4 [ 2 × (π/2) ]\n= 4π sq. units\n\nAnswer: The area of the region bounded by the circle is 4π sq. units."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "17",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Solve the following linear programming problem graphically :\nSubject to the constraints :\nx + y ≤ 50\n3x + y ≤ 90\nx ≥ 0, y ≥ 0\nFind the maximum value of Z = 4x + y.",
+          "correct_answer": "",
+          "explanation": "Solution:\nCorresponding boundary lines:\n1. x + y = 50: Passes through points (50, 0) and (0, 50).\n2. 3x + y = 90: Passes through points (30, 0) and (0, 90).\n\nPoint of intersection of both lines:\n(3x + y) − (x + y) = 90 − 50 ⇒ 2x = 40 ⇒ x = 20\nSubstituting x = 20: 20 + y = 50 ⇒ y = 30\nIntersection point B = (20, 30)\n\nThe corner points of the bounded feasible region are O(0, 0), A(30, 0), B(20, 30), and C(0, 50):\n\nCorner Point | Value of Z = 4x + y\n----------------------------------\nO(0, 0)      | Z = 4(0) + 0 = 0\nA(30, 0)     | Z = 4(30) + 0 = 120 (Maximum)\nB(20, 30)    | Z = 4(20) + 30 = 110\nC(0, 50)     | Z = 4(0) + 50 = 50\n\nAnswer: The maximum value of Z is 120 at the point (30, 0)."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Solve the following linear programming problem graphically :\nSubject to the constraints :\nx + 3y ≥ 3\nx + y ≥ 2\nx ≥ 0, y ≥ 0\nFind the minimum value of Z = 3x + 5y.",
+            "correct_answer": "",
+            "explanation": "Solution:\nCorresponding boundary lines:\n1. x + 3y = 3: Passes through points (3, 0) and (0, 1).\n2. x + y = 2: Passes through points (2, 0) and (0, 2).\n\nPoint of intersection of both lines:\n(x + 3y) − (x + y) = 3 − 2 ⇒ 2y = 1 ⇒ y = 1/2\nSubstituting y = 1/2: x + 1/2 = 2 ⇒ x = 3/2\nIntersection point B = (3/2, 1/2)\n\nThe corner points of the unbounded feasible region are A(3, 0), B(3/2, 1/2), and C(0, 2):\n\nCorner Point  | Value of Z = 3x + 5y\n------------------------------------\nA(3, 0)       | Z = 3(3) + 5(0) = 9\nB(3/2, 1/2)   | Z = 3(3/2) + 5(1/2) = 14/2 = 7 (Minimum)\nC(0, 2)       | Z = 3(0) + 5(2) = 10\n\nSince the open half-plane 3x + 5y < 7 has no common points with the feasible region,\nthe minimum value of Z is 7 at the point (3/2, 1/2)."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "18",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "A bag contains 3 red and 4 black balls while another bag contains 5 red and 6 black balls. One ball is drawn at random from one of the bags and it is found to be red. Find the probability that it was drawn from the second bag.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet:\nE₁ = Event of selecting the first bag\nE₂ = Event of selecting the second bag\nA = Event that the drawn ball is red\n\nProbability of choosing each bag: P(E₁) = 1/2, P(E₂) = 1/2\n\nIn the first bag: 3 red, 4 black (Total = 7 balls) ⇒ P(A/E₁) = 3/7\nIn the second bag: 5 red, 6 black (Total = 11 balls) ⇒ P(A/E₂) = 5/11\n\nBy Bayes' Theorem, the probability that the red ball was drawn from the second bag P(E₂/A):\nP(E₂/A) = [P(E₂) · P(A/E₂)] / [P(E₁) · P(A/E₁) + P(E₂) · P(A/E₂)]\n= [(1/2) × (5/11)] / [(1/2) × (3/7) + (1/2) × (5/11)]\n= (5/11) / [3/7 + 5/11]\n= (5/11) / [(33 + 35) / 77]\n= (5/11) × (77/68)\n= 35/68\n\nAnswer: The required probability is 35/68."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Given that the two numbers appearing on throwing two dice are different. Find the probability of the event 'the sum of the numbers on the dice is 4'.",
+            "correct_answer": "",
+            "explanation": "Solution:\nTotal outcomes on throwing two dice = 36\n\nLet:\nF = Event that the two numbers appearing on the dice are different.\nOutcomes with same numbers = {(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)} = 6\nThus, n(F) = 36 − 6 = 30 ⇒ P(F) = 30/36\n\nE = Event that the sum of numbers is 4 = {(1, 3), (2, 2), (3, 1)}\nE ∩ F = Numbers are different and sum is 4 = {(1, 3), (3, 1)}\nn(E ∩ F) = 2 ⇒ P(E ∩ F) = 2/36\n\nConditional probability P(E/F):\nP(E/F) = P(E ∩ F) / P(F) = (2/36) / (30/36) = 2/30 = 1/15\n\nAnswer: The required probability is 1/15."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "19",
+      "question_type": "DESCRIPTIVE",
+      "marks": "3",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Express the matrix A = [[3, 3, −1], [−2, −2, 1], [−4, −5, 2]] as the sum of a symmetric and skew-symmetric matrix.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven: A = [[3, 3, −1], [−2, −2, 1], [−4, −5, 2]]\nTranspose of A, A' = [[3, −2, −4], [3, −2, −5], [−1, 1, 2]]\n\n1. Symmetric matrix P = (1/2)(A + A'):\nA + A' = [[6, 1, −5], [1, −4, −4], [−5, −4, 4]]\nP = (1/2) [[6, 1, −5], [1, −4, −4], [−5, −4, 4]] = [[3, 1/2, −5/2], [1/2, −2, −2], [−5/2, −2, 2]]\n(Clearly P' = P, so P is symmetric)\n\n2. Skew-symmetric matrix Q = (1/2)(A − A'):\nA − A' = [[0, 5, 3], [−5, 0, 6], [−3, −6, 0]]\nQ = (1/2) [[0, 5, 3], [−5, 0, 6], [−3, −6, 0]] = [[0, 5/2, 3/2], [−5/2, 0, 3], [−3/2, −3, 0]]\n(Clearly Q' = −Q, so Q is skew-symmetric)\n\nExpressed as sum: A = P + Q\nA = [[3, 1/2, −5/2], [1/2, −2, −2], [−5/2, −2, 2]] + [[0, 5/2, 3/2], [−5/2, 0, 3], [−3/2, −3, 0]]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find X and Y, if X + Y = [[5, 2], [0, 9]] and X − Y = [[3, 6], [0, −1]].",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven:\nX + Y = [[5, 2], [0, 9]]   ----(1)\nX − Y = [[3, 6], [0, −1]]  ----(2)\n\nAdding equations (1) and (2):\n2X = [[5 + 3, 2 + 6], [0 + 0, 9 + (−1)]] = [[8, 8], [0, 8]]\nX = (1/2) [[8, 8], [0, 8]] = [[4, 4], [0, 4]]\n\nSubtracting equation (2) from (1):\n2Y = [[5 − 3, 2 − 6], [0 − 0, 9 − (−1)]] = [[2, −4], [0, 10]]\nY = (1/2) [[2, −4], [0, 10]] = [[1, −2], [0, 5]]\n\nAnswer: X = [[4, 4], [0, 4]], Y = [[1, −2], [0, 5]]"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "20",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Differentiate the function x^(sin x) + (sin x)^(cos x) with respect to x.",
+          "correct_answer": "",
+          "explanation": "Solution:\nLet y = u + v, where u = x^(sin x) and v = (sin x)^(cos x)\nThen dy/dx = du/dx + dv/dx\n\n1. For u = x^(sin x), taking logarithm on both sides:\nlog u = sin x · log x\nDifferentiating with respect to x:\n(1/u) (du/dx) = sin x · (1/x) + log x · cos x\ndu/dx = x^(sin x) [ (sin x)/x + cos x · log x ]\n\n2. For v = (sin x)^(cos x), taking logarithm on both sides:\nlog v = cos x · log(sin x)\nDifferentiating with respect to x:\n(1/v) (dv/dx) = cos x · (cos x / sin x) + log(sin x) · (−sin x)\ndv/dx = (sin x)^(cos x) [ cos x · cot x − sin x · log(sin x) ]\n\nTherefore,\ndy/dx = x^(sin x) [ (sin x)/x + cos x · log x ] + (sin x)^(cos x) [ cos x · cot x − sin x · log(sin x) ]\n\nAnswer: x^(sin x) [ (sin x)/x + cos x · log x ] + (sin x)^(cos x) [ cos x · cot x − sin x · log(sin x) ]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "If y = A e^(mx) + B e^(nx), show that d²y/dx² − (m + n)(dy/dx) + mny = 0.",
+            "correct_answer": "",
+            "explanation": "Solution:\nGiven: y = A e^(mx) + B e^(nx)\n\nFirst derivative with respect to x:\ndy/dx = A m e^(mx) + B n e^(nx)\n\nSecond derivative with respect to x:\nd²y/dx² = A m² e^(mx) + B n² e^(nx)\n\nTaking Left Hand Side (L.H.S.):\nL.H.S. = d²y/dx² − (m + n)(dy/dx) + mny\n= (A m² e^(mx) + B n² e^(nx)) − (m + n)(A m e^(mx) + B n e^(nx)) + mn(A e^(mx) + B e^(nx))\n= A m² e^(mx) + B n² e^(nx) − A m² e^(mx) − A mn e^(mx) − B mn e^(nx) − B n² e^(nx) + A mn e^(mx) + B mn e^(nx)\n= 0 = R.H.S.\n\n(Hence Proved)"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "21",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Evaluate ∫ [x / ((x + 1)(x + 2))] dx.",
+          "correct_answer": "",
+          "explanation": "Solution:\nUsing partial fractions:\nx / [(x + 1)(x + 2)] = A / (x + 1) + B / (x + 2)\nx = A(x + 2) + B(x + 1)\n\nPutting x = −1: −1 = A(−1 + 2) ⇒ A = −1\nPutting x = −2: −2 = B(−2 + 1) ⇒ −2 = −B ⇒ B = 2\n\nNow integrating:\nI = ∫ [ −1/(x + 1) + 2/(x + 2) ] dx\n= −log|x + 1| + 2 log|x + 2| + c\n= log| (x + 2)² / (x + 1) | + c\n\nAnswer: log| (x + 2)² / (x + 1) | + c"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Evaluate ∫₀^(π/4) log(1 + tan x) dx.",
+            "correct_answer": "",
+            "explanation": "Solution:\nLet I = ∫₀^(π/4) log(1 + tan x) dx  ----(1)\n\nBy the property of definite integrals ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a − x) dx:\nI = ∫₀^(π/4) log[1 + tan(π/4 − x)] dx\nI = ∫₀^(π/4) log[ 1 + (1 − tan x)/(1 + tan x) ] dx\nI = ∫₀^(π/4) log[ (1 + tan x + 1 − tan x) / (1 + tan x) ] dx\nI = ∫₀^(π/4) log[ 2 / (1 + tan x) ] dx\nI = ∫₀^(π/4) [log 2 − log(1 + tan x)] dx\nI = ∫₀^(π/4) log 2 dx − I\n\n2I = log 2 [x]₀^(π/4)\n2I = (π/4) log 2\nI = (π/8) log 2\n\nAnswer: (π/8) log 2"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "22",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "If A = [[3, 1], [−1, 2]], show that A² − 5A + 7I = O. Hence, find A⁻¹.",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven: A = [[3, 1], [−1, 2]]\n\n1. Finding A²:\nA² = A · A = [[3, 1], [−1, 2]] [[3, 1], [−1, 2]]\n= [[9 − 1, 3 + 2], [−3 − 2, −1 + 4]]\n= [[8, 5], [−5, 3]]\n\nL.H.S. = A² − 5A + 7I\n= [[8, 5], [−5, 3]] − 5[[3, 1], [−1, 2]] + 7[[1, 0], [0, 1]]\n= [[8, 5], [−5, 3]] − [[15, 5], [−5, 10]] + [[7, 0], [0, 7]]\n= [[8 − 15 + 7, 5 − 5 + 0], [−5 + 5 + 0, 3 − 10 + 7]]\n= [[0, 0], [0, 0]] = O (Hence Proved)\n\n2. Finding A⁻¹:\nA² − 5A + 7I = O\n7I = 5A − A²\nMultiplying both sides by A⁻¹:\n7 A⁻¹ = 5I − A\n7 A⁻¹ = 5[[1, 0], [0, 1]] − [[3, 1], [−1, 2]]\n7 A⁻¹ = [[5 − 3, 0 − 1], [0 − (−1), 5 − 2]] = [[2, −1], [1, 3]]\nA⁻¹ = (1/7) [[2, −1], [1, 3]]\n\nAnswer: A⁻¹ = (1/7) [[2, −1], [1, 3]]"
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Solve the following system of equations by the matrix method :\n3x − 2y + 3z = 8\n2x + y − z = 1\n4x − 3y + 2z = 4",
+            "correct_answer": "",
+            "explanation": "Solution:\nWriting the system of equations in the matrix form AX = B:\n[[3, −2, 3], [2, 1, −1], [4, −3, 2]] [[x], [y], [z]] = [[8], [1], [4]]\n\nDeterminant |A|:\n|A| = 3(2 − 3) − (−2)(4 + 4) + 3(−6 − 4)\n= 3(−1) + 2(8) + 3(−10)\n= −3 + 16 − 30 = −17 ≠ 0\n\nCofactors of elements of A:\nA₁₁ = −1, A₁₂ = −8, A₁₃ = −10\nA₂₁ = −5, A₂₂ = −6, A₂₃ = 1\nA₃₁ = −1, A₃₂ = 9, A₃₃ = 7\n\nadj(A) = [[−1, −5, −1], [−8, −6, 9], [−10, 1, 7]]\n\nNow X = A⁻¹B = (1 / |A|) adj(A) B:\n[[x], [y], [z]] = −(1/17) [[−1, −5, −1], [−8, −6, 9], [−10, 1, 7]] [[8], [1], [4]]\n= −(1/17) [[−8 − 5 − 4], [−64 − 6 + 36], [−80 + 1 + 28]]\n= −(1/17) [[−17], [−34], [−51]]\n= [[1], [2], [3]]\n\nTherefore, x = 1, y = 2, z = 3\n\nAnswer: x = 1, y = 2, z = 3"
+          }
+        ]
+      }
+    },
+    {
+      "question_number": "23",
+      "question_type": "DESCRIPTIVE",
+      "marks": "4",
+      "word_limit": "",
+      "text": "",
+      "parts": [
+        {
+          "q_id": "",
+          "statement": "Find the shortest distance between the lines r⃗ = î + 2ĵ + k̂ + λ(î − ĵ + k̂) and r⃗ = 2î − ĵ − k̂ + μ(2î + ĵ + 2k̂).",
+          "correct_answer": "",
+          "explanation": "Solution:\nGiven lines:\nr⃗ = a₁⃗ + λb₁⃗ ⇒ a₁⃗ = î + 2ĵ + k̂, b₁⃗ = î − ĵ + k̂\nr⃗ = a₂⃗ + μb₂⃗ ⇒ a₂⃗ = 2î − ĵ − k̂, b₂⃗ = 2î + ĵ + 2k̂\n\n1. a₂⃗ − a₁⃗ = (2 − 1)î + (−1 − 2)ĵ + (−1 − 1)k̂ = î − 3ĵ − 2k̂\n\n2. Computing b₁⃗ × b₂⃗:\n|[î, ĵ, k̂], [1, −1, 1], [2, 1, 2]|\n= î(−2 − 1) − ĵ(2 − 2) + k̂(1 − (−2))\n= −3î + 0ĵ + 3k̂\n\n3. |b₁⃗ × b₂⃗| = √[(−3)² + 0² + 3²] = √18 = 3√2\n\n4. (b₁⃗ × b₂⃗) · (a₂⃗ − a₁⃗) = (−3)(1) + 0(−3) + 3(−2) = −3 − 6 = −9\n\nShortest distance d = | [(b₁⃗ × b₂⃗) · (a₂⃗ − a₁⃗)] / |b₁⃗ × b₂⃗| |\nd = | −9 / (3√2) | = 3 / √2 = (3√2) / 2 units\n\nAnswer: The shortest distance is 3/√2 (or 3√2/2) units."
+        }
+      ],
+      "or_option": {
+        "text": "OR",
+        "parts": [
+          {
+            "q_id": "",
+            "statement": "Find the vector equation of the line passing through the point (1, 2, −4) and perpendicular to the two lines: (x − 8)/3 = (y + 19)/(−16) = (z − 10)/7 and (x − 15)/3 = (y − 29)/8 = (z − 5)/(−5).",
+            "correct_answer": "",
+            "explanation": "Solution:\nPosition vector of the given point, a⃗ = î + 2ĵ − 4k̂\nParallel vectors to the two given lines:\nb₁⃗ = 3î − 16ĵ + 7k̂\nb₂⃗ = 3î + 8ĵ − 5k̂\n\nVector perpendicular to both lines, b⃗ = b₁⃗ × b₂⃗:\nb⃗ = |[î, ĵ, k̂], [3, −16, 7], [3, 8, −5]|\n= î(80 − 56) − ĵ(−15 − 21) + k̂(24 − (−48))\n= 24î + 36ĵ + 72k̂\n= 12(2î + 3ĵ + 6k̂)\n\nThus, the direction vector of the required line can be taken as 2î + 3ĵ + 6k̂.\n\nVector equation of the line r⃗ = a⃗ + λb⃗:\nr⃗ = (î + 2ĵ − 4k̂) + λ(2î + 3ĵ + 6k̂)\n\nAnswer: r⃗ = (î + 2ĵ − 4k̂) + λ(2î + 3ĵ + 6k̂)"
+          }
+        ]
+      }
+    }
+  ]
+}
