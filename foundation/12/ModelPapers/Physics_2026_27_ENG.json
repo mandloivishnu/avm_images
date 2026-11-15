@@ -33,10 +33,22 @@
           "q_id": "a",
           "statement": "The electric dipole moment per unit volume of a substance is called -",
           "options": [
-            { "index": "i", "text": "Electric field" },
-            { "index": "ii", "text": "Potential" },
-            { "index": "iii", "text": "Polarisation" },
-            { "index": "iv", "text": "Electric Capacitance" }
+            {
+              "index": "i",
+              "text": "Electric field"
+            },
+            {
+              "index": "ii",
+              "text": "Potential"
+            },
+            {
+              "index": "iii",
+              "text": "Polarisation"
+            },
+            {
+              "index": "iv",
+              "text": "Electric Capacitance"
+            }
           ],
           "correct_answer": "iii",
           "correct_answer_text": "Polarisation",
@@ -46,10 +58,22 @@
           "q_id": "b",
           "statement": "The magnitude of the drift velocity per unit electric field is called -",
           "options": [
-            { "index": "i", "text": "Electric Current" },
-            { "index": "ii", "text": "Current density" },
-            { "index": "iii", "text": "Electric resistance" },
-            { "index": "iv", "text": "Mobility" }
+            {
+              "index": "i",
+              "text": "Electric Current"
+            },
+            {
+              "index": "ii",
+              "text": "Current density"
+            },
+            {
+              "index": "iii",
+              "text": "Electric resistance"
+            },
+            {
+              "index": "iv",
+              "text": "Mobility"
+            }
           ],
           "correct_answer": "iv",
           "correct_answer_text": "Mobility",
@@ -59,10 +83,22 @@
           "q_id": "c",
           "statement": "The magnetic force acting on a charged particle moving parallel to a uniform magnetic field is -",
           "options": [
-            { "index": "i", "text": "qvB" },
-            { "index": "ii", "text": "IlB" },
-            { "index": "iii", "text": "Zero" },
-            { "index": "iv", "text": "Infinite" }
+            {
+              "index": "i",
+              "text": "qvB"
+            },
+            {
+              "index": "ii",
+              "text": "IlB"
+            },
+            {
+              "index": "iii",
+              "text": "Zero"
+            },
+            {
+              "index": "iv",
+              "text": "Infinite"
+            }
           ],
           "correct_answer": "iii",
           "correct_answer_text": "Zero",
@@ -72,10 +108,22 @@
           "q_id": "d",
           "statement": "The magnetic energy due to the current I flowing through the coil of inductance L will be -",
           "options": [
-            { "index": "i", "text": "Zero" },
-            { "index": "ii", "text": "½ IL²" },
-            { "index": "iii", "text": "½ L²I²" },
-            { "index": "iv", "text": "½ LI²" }
+            {
+              "index": "i",
+              "text": "Zero"
+            },
+            {
+              "index": "ii",
+              "text": "½ IL²"
+            },
+            {
+              "index": "iii",
+              "text": "½ L²I²"
+            },
+            {
+              "index": "iv",
+              "text": "½ LI²"
+            }
           ],
           "correct_answer": "iv",
           "correct_answer_text": "½ LI²",
@@ -85,10 +133,22 @@
           "q_id": "e",
           "statement": "If in an electromagnetic wave the electric field is in x-direction and magnetic field is in y-direction then, the direction of propagation of wave will be -",
           "options": [
-            { "index": "i", "text": "x-direction" },
-            { "index": "ii", "text": "y-direction" },
-            { "index": "iii", "text": "z-direction" },
-            { "index": "iv", "text": "Any direction" }
+            {
+              "index": "i",
+              "text": "x-direction"
+            },
+            {
+              "index": "ii",
+              "text": "y-direction"
+            },
+            {
+              "index": "iii",
+              "text": "z-direction"
+            },
+            {
+              "index": "iv",
+              "text": "Any direction"
+            }
           ],
           "correct_answer": "iii",
           "correct_answer_text": "z-direction",
@@ -98,10 +158,22 @@
           "q_id": "f",
           "statement": "Which phenomenon does not reveal the wave nature of light?",
           "options": [
-            { "index": "i", "text": "Photo electric effect" },
-            { "index": "ii", "text": "Interference" },
-            { "index": "iii", "text": "Diffraction" },
-            { "index": "iv", "text": "Polarisation" }
+            {
+              "index": "i",
+              "text": "Photo electric effect"
+            },
+            {
+              "index": "ii",
+              "text": "Interference"
+            },
+            {
+              "index": "iii",
+              "text": "Diffraction"
+            },
+            {
+              "index": "iv",
+              "text": "Polarisation"
+            }
           ],
           "correct_answer": "i",
           "correct_answer_text": "Photo electric effect",
@@ -286,7 +358,7 @@
       "question_number": "6",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "Find the potential at a point at distance 5 metre from a charge 2.0 µC.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -301,7 +373,7 @@
       "question_number": "7",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "Write Kirchhoff's Voltage law.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -316,7 +388,7 @@
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "Write the statement and mathematical form of Ampere's Circuital law.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -331,7 +403,7 @@
       "question_number": "9",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "A pure inductor of inductance 25.0 mH is connected to a source of 220 V. Find the inductive reactance and rms current in the circuit if the frequency of the source is 50 Hz.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -346,7 +418,7 @@
       "question_number": "10",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "Write the name of the electromagnetic waves corresponding to following wavelengths:\na. 10⁻¹² m < λ < 10⁻⁸ m\nb. 10⁻³ m < λ < 10⁻¹ m",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -361,7 +433,7 @@
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "Is the speed of light in glass dependent on the colour of light? If yes, which of the two colours red and violet travels slower in a glass prism?",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -376,7 +448,7 @@
       "question_number": "12",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "Define mass defect and write its formula.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -391,7 +463,7 @@
       "question_number": "13",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "Draw electrical circuit of Wheatstone bridge and write the necessary condition and derive the principle for balanced Wheatstone bridge.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -417,7 +489,7 @@
       "question_number": "14",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "Write Biot-Savart law and write its vector form.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -443,7 +515,7 @@
       "question_number": "15",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "Prove the laws of reflection on the basis of Huygen's wave theory.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -469,7 +541,7 @@
       "question_number": "16",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "Monochromatic light of frequency 6.0 × 10¹⁴ Hz is produced by a laser. The power emitted is 2.0 × 10⁻³ W. (a) What is the energy of a photon in the light beam? (b) How many photons per second on an average are emitted by the source? [h = 6.63 × 10⁻³⁴ Js]",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -495,7 +567,7 @@
       "question_number": "17",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "By application of Gauss's law derive the expression for the electric field due to an infinitely long uniformly charged straight wire.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -521,7 +593,7 @@
       "question_number": "18",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "Describe compound microscope on following heads:\n1. Draw ray diagram for formation of image.\n2. Derivation of formula for magnifying power when final image is formed at least distance of distinct vision.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -547,7 +619,7 @@
       "question_number": "19",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "Derive an expression for mutual inductance of two coaxial solenoids of same length wound over each other. Write the factors affecting mutual inductance.",
+      "text": "",
       "parts": [
         {
           "q_id": "",
@@ -573,7 +645,7 @@
       "question_number": "20",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "Describe the use of a P-N junction diode as a full wave rectifier under the following heads:\n1. Labelled Circuit diagram.\n2. Working\n3. Graphs for time variation of input potential and output potential",
+      "text": "",
       "parts": [
         {
           "q_id": "",
