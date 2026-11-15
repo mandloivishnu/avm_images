@@ -636,6 +636,7 @@
             "q_id": "",
             "statement": "Explain alternating current dynamo under the basis of following heads:\n1. Principle\n2. Labelled diagram\n3. Working",
             "correct_answer": "",
+            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/C12_Q19_2026-27.png",
             "explanation": "1. Principle:\nAn alternating current (AC) dynamo works on the principle of electromagnetic induction. When a closed coil is rotated rapidly in a uniform magnetic field, the magnetic flux linked with the coil changes continuously, inducing an alternating electromotive force (EMF) in it.\n\n2. Labelled Diagram:\n[Draw a neat labelled diagram showing strong field magnets (N-S), rotating armature coil ABCD, two slip rings (S₁, S₂), two carbon brushes (B₁, B₂), and an external load circuit.]\n\n3. Working:\n• When the armature coil ABCD rotates clockwise in the magnetic field, during the first half-rotation arm AB moves upward and CD moves downward. By Fleming's right-hand rule, induced current flows along ABCD and goes to the external circuit from brush B₂ to B₁.\n• During the next half-rotation, arm CD moves upward and AB moves downward, reversing the direction of current along DCBA, so current in the external circuit flows from brush B₁ to B₂.\n• Thus, the direction of current reverses after every half-rotation, producing an alternating current (e = e₀ sin ωt)."
           }
         ]
