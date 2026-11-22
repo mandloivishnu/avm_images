@@ -51,7 +51,7 @@
             }
           ],
           "correct_index": "a",
-          "correct_answer_text": "Exothermic reaction",
+          "correct_answer": "Exothermic reaction",
           "explanation": "Correct option is (a).\n\nSimple Reason:\nWhen water is added to quicklime (calcium oxide), the container becomes very hot because a large amount of heat is released. Any reaction that releases heat is called an 'Exothermic reaction'."
         },
         {
@@ -76,7 +76,7 @@
             }
           ],
           "correct_index": "c",
-          "correct_answer_text": "Vanilla Essence",
+          "correct_answer": "Vanilla Essence",
           "explanation": "Correct option is (c).\n\nSimple Reason:\nVisually impaired students cannot see colour changes, so they identify acids and bases by smell. Vanilla essence is an 'olfactory indicator'—its sweet smell disappears when mixed with a base, while the smell remains in an acid."
         },
         {
@@ -101,7 +101,7 @@
             }
           ],
           "correct_index": "b",
-          "correct_answer_text": "Bromine",
+          "correct_answer": "Bromine",
           "explanation": "Correct option is (b).\n\nSimple Reason:\nMost non-metals are solids or gases, but 'Bromine' is the only non-metal that exists in a liquid state at room temperature. (Tip: Liquid metal is 'Mercury', and liquid non-metal is 'Bromine')."
         },
         {
@@ -126,7 +126,7 @@
             }
           ],
           "correct_index": "c",
-          "correct_answer_text": "1:1",
+          "correct_answer": "1:1",
           "explanation": "Correct option is (c).\n\nSimple Reason:\nIn the F₂ generation, 4 plants are produced: 1 pure tall (TT), 2 hybrid tall (Tt), and 1 pure dwarf (tt). The question asks specifically for the ratio of 'pure tall (TT)' to 'dwarf (tt)', which is 1 : 1. (If it asked for all tall vs. dwarf plants, the ratio would be 3:1)."
         },
         {
@@ -151,7 +151,7 @@
             }
           ],
           "correct_index": "b",
-          "correct_answer_text": "In parallel",
+          "correct_answer": "In parallel",
           "explanation": "Correct option is (b).\n\nSimple Reason:\nHousehold appliances like fans, TVs, and bulbs are connected in 'parallel' so that every appliance gets the full 220V voltage and turning off or damaging one appliance does not stop the others from working."
         },
         {
@@ -176,7 +176,7 @@
             }
           ],
           "correct_index": "a",
-          "correct_answer_text": "CFC",
+          "correct_answer": "CFC",
           "explanation": "Correct option is (a).\n\nSimple Reason:\nCFC (Chlorofluorocarbon) gas released from refrigerators and air conditioners rises to the upper atmosphere and breaks down the ozone layer, causing ozone depletion."
         }
       ],
