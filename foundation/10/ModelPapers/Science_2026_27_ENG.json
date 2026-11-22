@@ -50,7 +50,7 @@
               "text": "Redox reaction"
             }
           ],
-          "correct_answer": "a",
+          "correct_index": "a",
           "correct_answer_text": "Exothermic reaction",
           "explanation": "Correct option is (a).\n\nSimple Reason:\nWhen water is added to quicklime (calcium oxide), the container becomes very hot because a large amount of heat is released. Any reaction that releases heat is called an 'Exothermic reaction'."
         },
@@ -75,7 +75,7 @@
               "text": "Petunia leaves"
             }
           ],
-          "correct_answer": "c",
+          "correct_index": "c",
           "correct_answer_text": "Vanilla Essence",
           "explanation": "Correct option is (c).\n\nSimple Reason:\nVisually impaired students cannot see colour changes, so they identify acids and bases by smell. Vanilla essence is an 'olfactory indicator'—its sweet smell disappears when mixed with a base, while the smell remains in an acid."
         },
@@ -100,7 +100,7 @@
               "text": "Sulphur"
             }
           ],
-          "correct_answer": "b",
+          "correct_index": "b",
           "correct_answer_text": "Bromine",
           "explanation": "Correct option is (b).\n\nSimple Reason:\nMost non-metals are solids or gases, but 'Bromine' is the only non-metal that exists in a liquid state at room temperature. (Tip: Liquid metal is 'Mercury', and liquid non-metal is 'Bromine')."
         },
@@ -125,7 +125,7 @@
               "text": "2:1"
             }
           ],
-          "correct_answer": "c",
+          "correct_index": "c",
           "correct_answer_text": "1:1",
           "explanation": "Correct option is (c).\n\nSimple Reason:\nIn the F₂ generation, 4 plants are produced: 1 pure tall (TT), 2 hybrid tall (Tt), and 1 pure dwarf (tt). The question asks specifically for the ratio of 'pure tall (TT)' to 'dwarf (tt)', which is 1 : 1. (If it asked for all tall vs. dwarf plants, the ratio would be 3:1)."
         },
@@ -150,7 +150,7 @@
               "text": "Without any circuit"
             }
           ],
-          "correct_answer": "b",
+          "correct_index": "b",
           "correct_answer_text": "In parallel",
           "explanation": "Correct option is (b).\n\nSimple Reason:\nHousehold appliances like fans, TVs, and bulbs are connected in 'parallel' so that every appliance gets the full 220V voltage and turning off or damaging one appliance does not stop the others from working."
         },
@@ -175,7 +175,7 @@
               "text": "Pesticide"
             }
           ],
-          "correct_answer": "a",
+          "correct_index": "a",
           "correct_answer_text": "CFC",
           "explanation": "Correct option is (a).\n\nSimple Reason:\nCFC (Chlorofluorocarbon) gas released from refrigerators and air conditioners rises to the upper atmosphere and breaks down the ozone layer, causing ozone depletion."
         }
@@ -387,50 +387,44 @@
           {
             "a_item": "(i) Inability to see nearby objects",
             "b_item": "(i) Watt",
-            "correct_match_index": "2",
-            "explanation": "Correct Match: (i) Inability to see nearby objects ⟶ (ii) Decrease in the power of the eye lens\n\nReason: This is hypermetropia (farsightedness), where the converging power of the eye lens decreases, making nearby objects look blurry."
+            "correct_match_index": "2"
           },
           {
             "a_item": "(ii) Blue colour of the sky",
             "b_item": "(ii) Decrease in the power of the eye lens",
-            "correct_match_index": "4",
-            "explanation": "Correct Match: (ii) Blue colour of the sky ⟶ (iv) Scattering of light\n\nReason: Fine particles in the atmosphere scatter blue light from the sun the most, making the sky appear blue."
+            "correct_match_index": "4"
           },
           {
             "a_item": "(iii) Real and inverted image",
             "b_item": "(iii) Unit of electric current",
-            "correct_match_index": "5",
-            "explanation": "Correct Match: (iii) Real and inverted image ⟶ (v) Concave mirror\n\nReason: A concave mirror generally forms real and inverted images (except when the object is placed between the pole and focus)."
+            "correct_match_index": "5"
           },
           {
             "a_item": "(iv) Scattering of light (as printed in paper)",
             "b_item": "(iv) Unit of electric power",
-            "correct_match_index": "1",
-            "explanation": "Note: There is a printing error at item (iv) in Column A of the original paper; matching the remaining items gives Unit of electric power ⟶ (i) Watt."
+            "correct_match_index": "1"
           },
           {
             "a_item": "(v) Converging lens",
             "b_item": "(v) Concave mirror",
-            "correct_match_index": "6",
-            "explanation": "Correct Match: (v) Converging lens ⟶ (vi) Convex lens\n\nReason: A convex lens bends parallel rays of light inward to meet at a single focal point, so it is called a converging lens."
+            "correct_match_index": "6"
           },
           {
             "a_item": "(vi) Ampere",
             "b_item": "(vi) Convex lens",
-            "correct_match_index": "3",
-            "explanation": "Correct Match: (vi) Ampere ⟶ (iii) Unit of electric current\n\nReason: Electric current is measured in Amperes (A)."
+            "correct_match_index": "3"
           }
         ]
       },
       "youtube_url": null,
       "previous_exam_reference": null,
-      "explanation": "Column (A) has been accurately matched with Column (B)."
+      "explanation": "Correct Matching & Simple Reasons:\n\n1. (i) Inability to see nearby objects ⟶ (ii) Decrease in the power of the eye lens: This is hypermetropia (farsightedness), where the converging power of the eye lens decreases, making nearby objects look blurry.\n2. (ii) Blue colour of the sky ⟶ (iv) Scattering of light: Fine particles in the atmosphere scatter blue light from the sun the most, making the sky appear blue.\n3. (iii) Real and inverted image ⟶ (v) Concave mirror: A concave mirror generally forms real and inverted images (except when the object is placed between the pole and focus).\n4. (iv) Unit of electric power ⟶ (i) Watt: Note that there is a printing error at item (iv) in Column A of the original paper; matching the remaining items gives Unit of electric power ⟶ Watt.\n5. (v) Converging lens ⟶ (vi) Convex lens: A convex lens bends parallel rays of light inward to meet at a single focal point, so it is called a converging lens.\n6. (vi) Ampere ⟶ (iii) Unit of electric current: Electric current is measured in Amperes (A)."
     },
     {
       "question_number": "6",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "What happens when water is added to calcium oxide? Write the chemical equation.",
       "parts": [
         {
           "q_id": "",
@@ -445,7 +439,7 @@
       "question_number": "7",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "Write the names of two natural indicators and two synthetic indicators used to identify acids and bases.",
       "parts": [
         {
           "q_id": "",
@@ -460,7 +454,7 @@
       "question_number": "8",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "A student dips blue litmus paper into lemon juice. What colour change will occur and why? Give the reason.",
       "parts": [
         {
           "q_id": "",
@@ -475,7 +469,7 @@
       "question_number": "9",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "Write the reason why metals like gold and silver are used to make jewellery, whereas copper and iron are not. Give the reason.",
       "parts": [
         {
           "q_id": "",
@@ -490,7 +484,7 @@
       "question_number": "10",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "Write the functions of xylem and phloem tissue (one for each).",
       "parts": [
         {
           "q_id": "",
@@ -505,7 +499,7 @@
       "question_number": "11",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "Define reflex action. Write two examples of reflex actions.",
       "parts": [
         {
           "q_id": "",
@@ -520,7 +514,7 @@
       "question_number": "12",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "What is the effect of iodine deficiency on the function of the thyroid gland? Write the name of the disease caused by it.",
       "parts": [
         {
           "q_id": "",
@@ -535,7 +529,7 @@
       "question_number": "13",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "Define pollination. How many types of pollination are there?",
       "parts": [
         {
           "q_id": "",
@@ -550,7 +544,7 @@
       "question_number": "14",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "Define dominant traits and recessive traits.",
       "parts": [
         {
           "q_id": "",
@@ -565,7 +559,7 @@
       "question_number": "15",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "An electric heater of resistance 8 Ω draws a current of 15 Amp from the mains for 2 hours. Calculate the rate at which heat is produced in the heater.",
       "parts": [
         {
           "q_id": "",
@@ -580,7 +574,7 @@
       "question_number": "16",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "Why is a fuse used in an electric circuit? Explain.",
       "parts": [
         {
           "q_id": "",
@@ -595,7 +589,7 @@
       "question_number": "17",
       "question_type": "DESCRIPTIVE",
       "marks": "2",
-      "text": "",
+      "text": "What is an ecosystem? Write the names of its two major components.",
       "parts": [
         {
           "q_id": "",
@@ -610,7 +604,7 @@
       "question_number": "18",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "",
+      "text": "Draw the electron-dot structure of the following:\n(i) H₂   (ii) O₂   (iii) N₂",
       "parts": [
         {
           "q_id": "",
@@ -636,14 +630,14 @@
       "question_number": "19",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "",
+      "text": "Draw a labelled diagram of the female reproductive system.",
       "parts": [
         {
           "q_id": "",
           "statement": "Draw a labelled diagram of the female reproductive system.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@master/visual_question_images/C10_SCI_Q19_2026-27.png",
+          "imgUrl": "",
           "explanation": "Answer:\nDraw a neat pencil diagram of the human female reproductive system in your answer sheet and clearly label these main parts:\n\n1. Ovary: A pair of ovaries that produce eggs (ova) and female hormones.\n2. Oviduct (Fallopian tube): The tube where fertilization of the egg by sperm takes place.\n3. Uterus (Womb): The elastic bag-like structure where the embryo grows and develops.\n4. Cervix: The lower narrow neck of the uterus.\n5. Vagina: The muscular passage opening outside from the cervix."
         }
       ],
@@ -664,7 +658,7 @@
       "question_number": "20",
       "question_type": "DESCRIPTIVE",
       "marks": "3",
-      "text": "",
+      "text": "What is myopia (nearsightedness)? Write its cause and ways to correct it.",
       "parts": [
         {
           "q_id": "",
@@ -690,7 +684,7 @@
       "question_number": "21",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "",
+      "text": "Write balanced chemical equations for the following chemical reactions:\n(i) Hydrogen + Chlorine ⟶ Hydrogen Chloride\n(ii) Barium Chloride + Aluminium Sulphate ⟶ Barium Sulphate + Aluminium Chloride\n(iii) Sodium + Water ⟶ Sodium Hydroxide + Hydrogen\n(iv) Zinc Carbonate ⟶ Zinc Oxide + Carbon Dioxide",
       "parts": [
         {
           "q_id": "",
@@ -716,13 +710,13 @@
       "question_number": "22",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "",
+      "text": "Write any four differences between Aerobic and Anaerobic respiration.",
       "parts": [
         {
           "q_id": "",
           "statement": "Write any four differences between Aerobic and Anaerobic respiration.",
           "correct_answer": "",
-          "explanation": "Answer:\nAerobic and Anaerobic respiration are two processes by which cells break down glucose to release energy. The four major differences between them are as follows:\n\n1. Requirement of Oxygen:\nAerobic Respiration: It takes place in the presence of oxygen (O₂).\n\nAnaerobic Respiration: It takes place in the absence of oxygen (O₂).\n\n2. Breakdown of Glucose:\nAerobic Respiration: Glucose undergoes complete breakdown (oxidation).\n\nAnaerobic Respiration: Glucose undergoes incomplete breakdown.\n\n3. End Products:\nAerobic Respiration: Carbon dioxide (CO₂) and water (H₂O) are formed.\n\nAnaerobic Respiration: Ethanol and carbon dioxide are formed in yeast, while lactic acid is formed in muscle cells.\n\n4. Amount of Energy Released:\nAerobic Respiration: A large amount of energy is released due to the complete breakdown of glucose.\n\nAnaerobic Respiration: A small amount of energy is released due to the incomplete breakdown of glucose.\n\n5. Site of Reaction:\nAerobic Respiration: Glycolysis takes place in the cytoplasm, while the subsequent stages mainly occur in the mitochondria.\n\nAnaerobic Respiration: It takes place in the cytoplasm.\n\nConclusion: Aerobic respiration requires oxygen and releases more energy, whereas anaerobic respiration occurs without oxygen and releases less energy."
+          "explanation": "Answer:\nFour major differences between Aerobic and Anaerobic respiration are given below:\n\n| S.No. | Basis | Aerobic Respiration | Anaerobic Respiration |\n|---|---|---|---|\n| 1. | Presence of Oxygen | It takes place in the presence of oxygen (O₂). | It takes place in the absence of oxygen (O₂). |\n| 2. | Breakdown of Glucose | Complete breakdown (oxidation) of glucose occurs. | Incomplete breakdown of glucose occurs. |\n| 3. | End Products | Carbon dioxide (CO₂) and water (H₂O) are formed. | Ethanol (in yeast) or lactic acid (in muscles) is formed. |\n| 4. | Amount of Energy | A large amount of energy (38 ATP) is released. | Very little energy (only 2 ATP) is released. |\n| 5. | Site of Reaction | It occurs in both cytoplasm and mitochondria. | It occurs only in the cytoplasm. |"
         }
       ],
       "or_option": {
@@ -732,7 +726,7 @@
             "q_id": "",
             "statement": "Write any four differences between arteries and veins.",
             "correct_answer": "",
-            "explanation": "Answer:\nArteries and veins are the two main types of blood vessels in the human circulatory system. The four major differences between them are as follows:\n\n1. Direction of Blood Flow:\nArteries: They carry blood away from the heart to different parts of the body.\n\nVeins: They carry blood from different parts of the body back to the heart.\n\n2. Oxygen Content of Blood:\nArteries: They generally carry oxygen-rich blood. Exception: The pulmonary artery carries oxygen-poor blood to the lungs.\n\nVeins: They generally carry oxygen-poor blood. Exception: The pulmonary vein carries oxygen-rich blood from the lungs to the heart.\n\n3. Structure of Walls:\nArteries: They have thick, strong and elastic walls because blood flows through them under high pressure.\n\nVeins: They have thin and less elastic walls because blood flows through them under low pressure.\n\n4. Presence of Valves:\nArteries: Valves are generally absent along their length.\n\nVeins: Valves are present in many veins to prevent the backward flow of blood.\n\nConclusion: Arteries carry blood away from the heart, whereas veins bring blood back to the heart."
+            "explanation": "Answer:\nFour major differences between arteries and veins are given below:\n\n| S.No. | Basis | Artery | Vein |\n|---|---|---|---|\n| 1. | Direction of Blood Flow | Carries blood away from the heart to various body organs. | Brings blood back from body organs to the heart. |\n| 2. | Type of Blood | Carries oxygenated (pure) blood. (Exception: Pulmonary artery) | Carries deoxygenated (impure) blood. (Exception: Pulmonary vein) |\n| 3. | Wall Structure | Walls are thick, elastic, and muscular because blood flows under high pressure. | Walls are thin and less elastic because blood flows under low pressure. |\n| 4. | Valves | Valves are absent. | Valves are present to prevent the backward flow of blood. |"
           }
         ]
       },
@@ -742,14 +736,14 @@
       "question_number": "23",
       "question_type": "DESCRIPTIVE",
       "marks": "4",
-      "text": "",
+      "text": "Draw ray diagrams to show image formation by a concave mirror and write about the position and nature of the image in each of the following cases:\n(i) When the object is placed between C and F\n(ii) When the object is placed at F.",
       "parts": [
         {
           "q_id": "",
           "statement": "Draw ray diagrams to show image formation by a concave mirror and write about the position and nature of the image in each of the following cases:\n(i) When the object is placed between C and F\n(ii) When the object is placed at F.",
           "correct_answer": "",
           "isAnswerImage": true,
-          "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C10_SCI_Q23_CONCAVE_2026-27.png",
+          "imgUrl": "",
           "explanation": "Answer:\n\n(i) When the object is placed between Centre of Curvature (C) and Principal Focus (F):\n• Ray Diagram: A ray parallel to the principal axis passes through the focus (F) after reflection, and a ray passing through C reflects back along the same path. Both rays meet beyond C.\n• Position of Image: Beyond the centre of curvature (C).\n• Nature and Size: Real, inverted, and enlarged (magnified).\n\n(ii) When the object is placed at the Principal Focus (F):\n• Ray Diagram: Reflected rays from an object placed at F travel parallel to each other and meet at infinity.\n• Position of Image: At infinity.\n• Nature and Size: Real, inverted, and highly enlarged."
         }
       ],
@@ -761,7 +755,7 @@
             "statement": "Draw ray diagrams to show image formation by a convex lens and describe the position and nature of the image in each of the following cases:\n(i) When the object is placed between F₁ and 2F₁\n(ii) When the object is placed at 2F₁.",
             "correct_answer": "",
             "isAnswerImage": true,
-            "imgUrl": "https://cdn.jsdelivr.net/gh/mandloivishnu/avm_images@main/visual_question_images/C10_SCI_Q23_CONVEX_2026-27.png",
+            "imgUrl": "",
             "explanation": "Answer:\n\n(i) When the object is placed between F₁ and 2F₁:\n• Ray Diagram: A ray parallel to the principal axis passes through focus (F₂) on the other side after refraction, and a ray passing through the optical centre (O) goes straight without deviation. Both rays intersect beyond 2F₂.\n• Position of Image: Beyond 2F₂ on the other side of the lens.\n• Nature and Size: Real, inverted, and enlarged (magnified).\n\n(ii) When the object is placed at 2F₁:\n• Ray Diagram: Both refracted rays from an object placed at 2F₁ intersect right at 2F₂ on the opposite side of the lens.\n• Position of Image: At 2F₂ on the other side of the lens.\n• Nature and Size: Real, inverted, and of the exact same size as the object."
           }
         ]
