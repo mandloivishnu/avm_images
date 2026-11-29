@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>AVM Coaching - User Profile Backup</title>
+  <title>AVM Coaching - Multi-Collection Backup</title>
 
   <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
@@ -24,7 +24,7 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
     body { background: var(--bg); color: var(--text-main); padding: 10px; line-height: 1.4; }
-    .wrapper { max-width: 1200px; margin: 0 auto; }
+    .wrapper { max-width: 1280px; margin: 0 auto; }
 
     header { background: var(--surface); padding: 14px 18px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 12px; display: flex; flex-direction: column; gap: 10px; }
     @media (min-width: 768px) { header { flex-direction: row; justify-content: space-between; align-items: center; } }
@@ -42,14 +42,16 @@
     .btn-sm { padding: 4px 8px; font-size: 0.72rem; border-radius: 6px; }
 
     .kpi-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 12px; }
-    @media (min-width: 800px) { .kpi-row { grid-template-columns: repeat(4, 1fr); } }
+    @media (min-width: 640px) { .kpi-row { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 1024px) { .kpi-row { grid-template-columns: repeat(6, 1fr); } }
     .kpi-card { background: var(--surface); padding: 10px 12px; border-radius: 10px; border: 1px solid var(--border); }
-    .kpi-card span { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; }
+    .kpi-card span { font-size: 0.65rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700; display: block; }
     .kpi-card h3 { font-size: 1.05rem; font-weight: 800; margin-top: 2px; word-break: break-word; }
 
     .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; }
     .panel h4 { font-size: 0.85rem; margin-bottom: 8px; }
     .opts { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; font-size: 0.8rem; }
+    .opts + .opts { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); }
     .opts label { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
     .opts select, .opts input[type=text] { padding: 5px 8px; border: 1px solid var(--border-dark); border-radius: 6px; font-size: 0.8rem; }
     .hint { font-size: 0.72rem; color: var(--text-muted); margin-top: 8px; }
@@ -68,6 +70,7 @@
     .badge { display: inline-block; padding: 2px 6px; border-radius: 5px; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; }
     .b-manual { background: #e0e7ff; color: #3730a3; }
     .b-auto { background: var(--success-bg); color: var(--success-text); }
+    .counts-cell { font-size: 0.74rem; line-height: 1.35; }
     .empty { text-align: center; padding: 22px; color: var(--text-muted); font-size: 0.85rem; }
     .log { font-size: 0.72rem; color: var(--text-muted); max-height: 110px; overflow-y: auto; margin-top: 8px; font-family: monospace; white-space: pre-wrap; }
   </style>
@@ -77,8 +80,8 @@
 
   <header>
     <div>
-      <h1>AVM Coaching - user_profile_master Backup</h1>
-      <small>Date-wise backups saved inside Firestore (IST) &bull; One click or automatic</small>
+      <h1>AVM Coaching - Firestore Multi-Collection Backup</h1>
+      <small>Backs up <code>user_profile_master</code>, <code>user_content_master</code> &amp; <code>payment_requests</code> in IST</small>
     </div>
     <div class="header-actions">
       <button class="btn btn-green" id="btnBackup" onclick="runBackup('MANUAL')">💾 Backup Now</button>
@@ -87,7 +90,9 @@
   </header>
 
   <div class="kpi-row">
-    <div class="kpi-card"><span>Live Users (user_profile_master)</span><h3 id="kLive">–</h3></div>
+    <div class="kpi-card"><span>Live Users (user_profile_master)</span><h3 id="kLiveUsers">–</h3></div>
+    <div class="kpi-card"><span>Live Content (user_content_master)</span><h3 id="kLiveContent">–</h3></div>
+    <div class="kpi-card"><span>Live Payments (payment_requests)</span><h3 id="kLivePayments">–</h3></div>
     <div class="kpi-card"><span>Saved Backups</span><h3 id="kBackups">0</h3></div>
     <div class="kpi-card"><span>Last Backup (IST)</span><h3 id="kLast" style="font-size:0.85rem;">–</h3></div>
     <div class="kpi-card"><span>Auto Backup</span><h3 id="kAuto">–</h3></div>
@@ -95,6 +100,12 @@
 
   <div class="panel">
     <h4>⚙️ Settings</h4>
+    <div class="opts">
+      <strong>Collections:</strong>
+      <label><input type="checkbox" id="colUsers" onchange="saveSettings()"> <code>user_profile_master</code></label>
+      <label><input type="checkbox" id="colContent" onchange="saveSettings()"> <code>user_content_master</code></label>
+      <label><input type="checkbox" id="colPayments" onchange="saveSettings()"> <code>payment_requests</code></label>
+    </div>
     <div class="opts">
       <label><input type="checkbox" id="optAuto" onchange="saveSettings()"> Auto backup once per day (when this page is open)</label>
       <label>Keep last
@@ -107,7 +118,7 @@
           <option value="90">90</option>
         </select> backups
       </label>
-      <label><input type="checkbox" id="optNoPass" onchange="saveSettings()"> Exclude <code>password</code> field from backup</label>
+      <label><input type="checkbox" id="optNoPass" onchange="saveSettings()"> Exclude <code>password</code> field from <code>user_profile_master</code></label>
     </div>
     <div class="hint">
       Settings are remembered in this browser. Tip: keep this page open in a pinned tab - it checks every 30 minutes and creates today's backup if it is missing.
@@ -125,7 +136,14 @@
       <table>
         <thead>
           <tr>
-            <th>#</th><th>Backup ID</th><th>Date (IST)</th><th>Created (IST)</th><th>Type</th><th>Users</th><th>Password</th><th style="text-align:center;">Actions</th>
+            <th>#</th>
+            <th>Backup ID</th>
+            <th>Date (IST)</th>
+            <th>Created (IST)</th>
+            <th>Type</th>
+            <th>Records by Collection</th>
+            <th>Password</th>
+            <th style="text-align:center;">Actions</th>
           </tr>
         </thead>
         <tbody id="backupBody"><tr><td colspan="8" class="empty">Loading...</td></tr></tbody>
@@ -140,10 +158,36 @@
   if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
   const db = firebase.firestore();
 
-  const SRC = "user_profile_master";
-  const BK = "user_profile_master_backups";   // metadata docs; users stored in subcollection "users"
+  const COLLECTIONS = [
+    {
+      key: "users",
+      source: "user_profile_master",
+      subcol: "users",
+      label: "Users",
+      optId: "colUsers",
+      countField: "totalUsers"
+    },
+    {
+      key: "content",
+      source: "user_content_master",
+      subcol: "content",
+      label: "Content",
+      optId: "colContent",
+      countField: "totalContent"
+    },
+    {
+      key: "payments",
+      source: "payment_requests",
+      subcol: "payment_requests",
+      label: "Payments",
+      optId: "colPayments",
+      countField: "totalPayments"
+    }
+  ];
+
+  const BK = "avm_full_backups"; // metadata docs; subcollections hold each collection's docs
   const BATCH = 400;
-  const SETTINGS_KEY = "avm_backup_settings_v1";
+  const SETTINGS_KEY = "avm_multi_backup_settings_v1";
 
   let running = false;
   let backupList = [];
@@ -179,7 +223,7 @@
   }
   function setProgress(pct, text) {
     document.getElementById("progressWrap").classList.add("active");
-    document.getElementById("progressBar").style.width = pct + "%";
+    document.getElementById("progressBar").style.width = Math.max(0, Math.min(100, pct)) + "%";
     document.getElementById("progressText").textContent = text;
   }
   function hideProgress() {
@@ -188,8 +232,19 @@
 
   /* ---------- settings ---------- */
   function loadSettings() {
-    let s = { auto: true, keep: "30", noPass: false };
-    try { s = Object.assign(s, JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}")); } catch (e) {}
+    let s = {
+      auto: true,
+      keep: "30",
+      noPass: false,
+      cols: { users: true, content: true, payments: true }
+    };
+    try {
+      const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY) || "{}");
+      s = Object.assign(s, saved, { cols: Object.assign(s.cols, saved.cols || {}) });
+    } catch (e) {}
+    document.getElementById("colUsers").checked = !!s.cols.users;
+    document.getElementById("colContent").checked = !!s.cols.content;
+    document.getElementById("colPayments").checked = !!s.cols.payments;
     document.getElementById("optAuto").checked = !!s.auto;
     document.getElementById("optKeep").value = String(s.keep);
     document.getElementById("optNoPass").checked = !!s.noPass;
@@ -199,8 +254,16 @@
     return {
       auto: document.getElementById("optAuto").checked,
       keep: parseInt(document.getElementById("optKeep").value, 10) || 0,
-      noPass: document.getElementById("optNoPass").checked
+      noPass: document.getElementById("optNoPass").checked,
+      cols: {
+        users: document.getElementById("colUsers").checked,
+        content: document.getElementById("colContent").checked,
+        payments: document.getElementById("colPayments").checked
+      }
     };
+  }
+  function getSelectedCollections(settings = getSettings()) {
+    return COLLECTIONS.filter(c => settings.cols[c.key]);
   }
   function saveSettings() {
     const s = getSettings();
@@ -216,43 +279,69 @@
   /* ---------- backup ---------- */
   async function runBackup(type) {
     if (running) return;
+    const settings = getSettings();
+    const selectedCols = getSelectedCollections(settings);
+    if (selectedCols.length === 0) {
+      alert("Please select at least one collection to back up.");
+      return;
+    }
+
     running = true;
     const btn = document.getElementById("btnBackup");
     btn.disabled = true;
 
-    const settings = getSettings();
     const now = new Date();
     const dateKey = todayKey(now);
     const backupId = `${dateKey}_${type}_${stampKey(now)}`;
 
     try {
-      setProgress(5, "Reading user_profile_master...");
-      const snap = await db.collection(SRC).get();
-      const total = snap.size;
-      if (total === 0) throw new Error("Source collection is empty - nothing to back up.");
+      setProgress(5, "Reading selected collections...");
+      const fetched = [];
+      let grandTotal = 0;
+
+      for (const col of selectedCols) {
+        const snap = await db.collection(col.source).get();
+        fetched.push({ col, docs: snap.docs });
+        grandTotal += snap.size;
+      }
+
+      if (grandTotal === 0) {
+        throw new Error("Selected collections are empty - nothing to back up.");
+      }
+
+      const counts = { totalUsers: 0, totalContent: 0, totalPayments: 0, grandTotal };
+      fetched.forEach(({ col, docs }) => {
+        counts[col.countField] = docs.length;
+      });
 
       const metaRef = db.collection(BK).doc(backupId);
-      // metadata first with status IN_PROGRESS, so incomplete backups are visible
       await metaRef.set({
-        backupId, dateKey, type,
+        backupId,
+        dateKey,
+        type,
         status: "IN_PROGRESS",
-        totalUsers: total,
+        collections: selectedCols.map(c => c.source),
+        ...counts,
         passwordExcluded: settings.noPass,
         createdAt: firebase.firestore.FieldValue.serverTimestamp()
       });
 
-      const docs = snap.docs;
       let written = 0;
-      for (let i = 0; i < docs.length; i += BATCH) {
-        const batch = db.batch();
-        docs.slice(i, i + BATCH).forEach(d => {
-          const data = Object.assign({}, d.data());
-          if (settings.noPass) delete data.password;
-          batch.set(metaRef.collection("users").doc(d.id), data);   // Timestamps/arrays preserved natively
-        });
-        await batch.commit();
-        written += Math.min(BATCH, docs.length - i);
-        setProgress(5 + Math.round((written / total) * 90), `Backed up ${written} / ${total} users...`);
+      for (const { col, docs } of fetched) {
+        for (let i = 0; i < docs.length; i += BATCH) {
+          const batch = db.batch();
+          docs.slice(i, i + BATCH).forEach(d => {
+            const data = Object.assign({}, d.data());
+            if (col.key === "users" && settings.noPass) delete data.password;
+            batch.set(metaRef.collection(col.subcol).doc(d.id), data);
+          });
+          await batch.commit();
+          written += Math.min(BATCH, docs.length - i);
+          setProgress(
+            5 + Math.round((written / grandTotal) * 90),
+            `Backing up ${col.source} (${written} / ${grandTotal} total docs)...`
+          );
+        }
       }
 
       await metaRef.update({
@@ -260,8 +349,9 @@
         completedAt: firebase.firestore.FieldValue.serverTimestamp()
       });
 
-      setProgress(100, `✅ Backup complete: ${total} users saved as "${backupId}"`);
-      log(`Backup ${backupId} complete (${total} users).`);
+      const summary = fetched.map(({ col, docs }) => `${col.label}: ${docs.length}`).join(", ");
+      setProgress(100, `✅ Backup complete (${summary}) saved as "${backupId}"`);
+      log(`Backup ${backupId} complete [${summary}].`);
 
       await applyRetention(settings.keep);
       await loadBackups();
@@ -277,8 +367,8 @@
     }
   }
 
-  async function deleteSubcollection(backupId) {
-    const colRef = db.collection(BK).doc(backupId).collection("users");
+  async function deleteSubcollection(backupId, subcolName) {
+    const colRef = db.collection(BK).doc(backupId).collection(subcolName);
     while (true) {
       const snap = await colRef.limit(BATCH).get();
       if (snap.empty) break;
@@ -289,7 +379,9 @@
   }
 
   async function deleteBackupFully(backupId) {
-    await deleteSubcollection(backupId);
+    for (const col of COLLECTIONS) {
+      await deleteSubcollection(backupId, col.subcol);
+    }
     await db.collection(BK).doc(backupId).delete();
   }
 
@@ -320,14 +412,31 @@
   }
 
   /* ---------- list ---------- */
+  function formatCounts(b) {
+    const u = b.totalUsers ?? 0;
+    const c = b.totalContent ?? 0;
+    const p = b.totalPayments ?? 0;
+    return `
+      <div class="counts-cell">
+        <div>Users: <strong>${u}</strong></div>
+        <div>Content: <strong>${c}</strong></div>
+        <div>Payments: <strong>${p}</strong></div>
+      </div>`;
+  }
+
   async function loadBackups() {
     const body = document.getElementById("backupBody");
     try {
-      const [liveCount, snap] = await Promise.all([
-        db.collection(SRC).get().then(s => s.size),
+      const [liveUsers, liveContent, livePayments, snap] = await Promise.all([
+        db.collection("user_profile_master").get().then(s => s.size),
+        db.collection("user_content_master").get().then(s => s.size),
+        db.collection("payment_requests").get().then(s => s.size),
         db.collection(BK).orderBy("createdAt", "desc").limit(60).get()
       ]);
-      document.getElementById("kLive").textContent = liveCount;
+
+      document.getElementById("kLiveUsers").textContent = liveUsers;
+      document.getElementById("kLiveContent").textContent = liveContent;
+      document.getElementById("kLivePayments").textContent = livePayments;
       document.getElementById("kBackups").textContent = snap.size;
 
       backupList = snap.docs.map(d => ({ id: d.id, ...d.data() }));
@@ -347,9 +456,11 @@
             <td><code style="font-size:0.74rem;">${esc(b.id)}</code></td>
             <td><strong>${esc(b.dateKey || "")}</strong></td>
             <td>${formatIST(b.createdAt)}</td>
-            <td><span class="badge ${b.type === 'AUTO' ? 'b-auto' : 'b-manual'}">${esc(b.type)}</span>
-                ${ok ? "" : `<span class="badge" style="background:var(--warning-bg);color:var(--warning-text);">${esc(b.status || 'INCOMPLETE')}</span>`}</td>
-            <td><strong>${b.totalUsers ?? 0}</strong></td>
+            <td>
+              <span class="badge ${b.type === 'AUTO' ? 'b-auto' : 'b-manual'}">${esc(b.type)}</span>
+              ${ok ? "" : `<span class="badge" style="background:var(--warning-bg);color:var(--warning-text);">${esc(b.status || 'INCOMPLETE')}</span>`}
+            </td>
+            <td>${formatCounts(b)}</td>
             <td>${b.passwordExcluded ? "Excluded" : "Included"}</td>
             <td style="text-align:center;">
               <button class="btn btn-sm btn-dark" onclick="downloadBackup('${esc(b.id)}')">⬇ JSON</button>
@@ -376,23 +487,40 @@
 
   async function downloadBackup(backupId) {
     try {
-      setProgress(30, "Preparing download...");
-      const snap = await db.collection(BK).doc(backupId).collection("users").get();
-      const out = {};
-      snap.forEach(d => out[d.id] = jsonSafe(d.data()));
-      const blob = new Blob([JSON.stringify({ backupId, totalUsers: snap.size, users: out }, null, 2)], { type: "application/json" });
+      setProgress(15, "Preparing JSON export across collections...");
+      const payload = {
+        backupId,
+        exportedAt: new Date().toISOString(),
+        collections: {}
+      };
+      let totalDocs = 0;
+
+      for (const col of COLLECTIONS) {
+        const snap = await db.collection(BK).doc(backupId).collection(col.subcol).get();
+        const items = {};
+        snap.forEach(d => { items[d.id] = jsonSafe(d.data()); });
+        payload.collections[col.source] = {
+          count: snap.size,
+          docs: items
+        };
+        totalDocs += snap.size;
+      }
+
+      payload.totalDocuments = totalDocs;
+
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
-      a.download = `user_profile_master_${backupId}.json`;
+      a.download = `avm_backup_${backupId}.json`;
       document.body.appendChild(a); a.click(); a.remove();
-      setProgress(100, `Downloaded ${snap.size} users.`);
+      setProgress(100, `Downloaded ${totalDocs} documents across 3 collections.`);
     } catch (e) {
       alert("Download failed: " + e.message);
     } finally { hideProgress(); }
   }
 
   async function removeBackup(backupId) {
-    if (!confirm(`Permanently delete backup ${backupId}?`)) return;
+    if (!confirm(`Permanently delete backup ${backupId} and all its backed-up collections?`)) return;
     try {
       setProgress(30, "Deleting backup...");
       await deleteBackupFully(backupId);
@@ -404,40 +532,100 @@
   }
 
   async function restoreBackup(backupId) {
-    const target = prompt(
-      `RESTORE from ${backupId}\n\nType a User ID to restore only that user,\nor type ALL to restore every user in this backup.\n\n(Existing fields are overwritten with backup values; fields added after the backup are kept.)`
+    const scopeInput = prompt(
+      `RESTORE from ${backupId}\n\nWhich collection(s) do you want to restore?\n` +
+      `Type:\n` +
+      `• ALL        -> user_profile_master, user_content_master & payment_requests\n` +
+      `• users      -> only user_profile_master\n` +
+      `• content    -> only user_content_master\n` +
+      `• payments   -> only payment_requests`
     );
-    if (!target) return;
-    const t = target.trim();
+    if (!scopeInput) return;
+    const scope = scopeInput.trim().toLowerCase();
+
+    let targetCols = [];
+    if (scope === "all") {
+      targetCols = COLLECTIONS;
+    } else if (scope === "users" || scope === "user_profile_master") {
+      targetCols = [COLLECTIONS[0]];
+    } else if (scope === "content" || scope === "user_content_master") {
+      targetCols = [COLLECTIONS[1]];
+    } else if (scope === "payments" || scope === "payment_requests") {
+      targetCols = [COLLECTIONS[2]];
+    } else {
+      alert("Invalid collection choice. Use ALL, users, content, or payments.");
+      return;
+    }
+
+    const docTarget = prompt(
+      `Target documents in [${targetCols.map(c => c.source).join(", ")}]:\n\n` +
+      `Type a specific Document ID to restore only that ID,\n` +
+      `or type ALL to restore every document in the selected collection(s).\n\n` +
+      `(Existing fields are overwritten with backup values; newer fields are kept.)`
+    );
+    if (!docTarget) return;
+    const t = docTarget.trim();
+
     if (t === "ALL") {
-      const word = prompt("This will overwrite live data in user_profile_master.\nType RESTORE to confirm:");
+      const word = prompt(
+        `This will overwrite live data in:\n${targetCols.map(c => "• " + c.source).join("\n")}\n\nType RESTORE to confirm:`
+      );
       if (word !== "RESTORE") return;
     }
+
     try {
-      const col = db.collection(BK).doc(backupId).collection("users");
+      let grandRestored = 0;
+
       if (t !== "ALL") {
-        const d = await col.doc(t).get();
-        if (!d.exists) { alert("User ID not found in this backup."); return; }
-        await db.collection(SRC).doc(t).set(d.data(), { merge: true });
-        log(`Restored user ${t} from ${backupId}`);
-        alert("User restored.");
+        for (const col of targetCols) {
+          const snapDoc = await db.collection(BK).doc(backupId).collection(col.subcol).doc(t).get();
+          if (snapDoc.exists) {
+            await db.collection(col.source).doc(t).set(snapDoc.data(), { merge: true });
+            grandRestored++;
+          }
+        }
+        if (grandRestored === 0) {
+          alert(`Document ID "${t}" was not found in the selected backup collection(s).`);
+          return;
+        }
+        log(`Restored doc "${t}" across ${grandRestored} collection(s) from ${backupId}`);
+        alert(`Restored document "${t}" in ${grandRestored} collection(s).`);
         return;
       }
-      const snap = await col.get();
-      const docs = snap.docs;
-      let done = 0;
-      for (let i = 0; i < docs.length; i += BATCH) {
-        const batch = db.batch();
-        docs.slice(i, i + BATCH).forEach(d => batch.set(db.collection(SRC).doc(d.id), d.data(), { merge: true }));
-        await batch.commit();
-        done += Math.min(BATCH, docs.length - i);
-        setProgress(Math.round((done / docs.length) * 100), `Restored ${done} / ${docs.length}`);
+
+      const allDocs = [];
+      for (const col of targetCols) {
+        const snap = await db.collection(BK).doc(backupId).collection(col.subcol).get();
+        snap.docs.forEach(d => allDocs.push({ col, id: d.id, data: d.data() }));
       }
-      log(`Restored ALL (${docs.length}) users from ${backupId}`);
-      alert(`Restore complete: ${docs.length} users.`);
+
+      if (allDocs.length === 0) {
+        alert("No backed-up documents found in the selected collection(s).");
+        return;
+      }
+
+      let done = 0;
+      for (let i = 0; i < allDocs.length; i += BATCH) {
+        const batch = db.batch();
+        allDocs.slice(i, i + BATCH).forEach(item => {
+          batch.set(db.collection(item.col.source).doc(item.id), item.data, { merge: true });
+        });
+        await batch.commit();
+        done += Math.min(BATCH, allDocs.length - i);
+        setProgress(
+          Math.round((done / allDocs.length) * 100),
+          `Restored ${done} / ${allDocs.length} documents...`
+        );
+      }
+
+      log(`Restored ALL (${allDocs.length} docs across ${targetCols.map(c => c.source).join(", ")}) from ${backupId}`);
+      alert(`Restore complete: ${allDocs.length} documents restored.`);
     } catch (e) {
       alert("Restore failed: " + e.message);
-    } finally { hideProgress(); loadBackups(); }
+    } finally {
+      hideProgress();
+      loadBackups();
+    }
   }
 
   /* ---------- init ---------- */
